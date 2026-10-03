@@ -6,25 +6,13 @@ aliases:
 type: Place
 category: places/hotels
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
+status: retired
+replaced_by: LISE
 ---
-# Lise Howard
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-02-04
+%% GLO_LISE_HOWARD.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#LISE](../../people/mentioned/LISE.md) (`people/mentioned/LISE.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Identity
-Younger sister in the Howard family, likely Elisabeth.
-
-## Diary References
-
-### 1874
-- **January 16**: Kisses Marie "mille fois" (a thousand times) during the visit to see Hélène before her first ball. Marie describes her as having "bon cœur" and "âme ouverte et pure" (good heart and open, pure soul).
-- **February 4**: "Lise, cette nature ouverte, franche, aimante m'a sauté au cou" - greets Marie warmly with embrace when she visits.
-
-## Character
-- Affectionate and demonstrative
-- Marie genuinely fond of her
-- Represents innocent childhood while Hélène enters society
-- Part of the close Howard-Bashkirtseff friendship despite social differences
+%% GLO_LISE_HOWARD.0002 %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/LISE.md. %%

@@ -6,21 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
+status: retired
+replaced_by: ALBERT_GAUTIER
 ---
-# Gautier
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_GAUTIER.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#ALBERT_GAUTIER](ALBERT_GAUTIER.md) (`people/mentioned/ALBERT_GAUTIER.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_GAUTIER.0002 %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/ALBERT_GAUTIER.md. %%

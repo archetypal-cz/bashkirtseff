@@ -2,20 +2,20 @@
 id: MA_TANTE
 name: Nadine Romanoff (Ma tante)
 aliases:
-  - Ma tante
   - Ma Tante
-  - ma tante
-  - la tante
-  - Mme Romanoff
+  - Ma tante
   - Madame Romanoff
+  - Mme Romanoff
+  - Nadejda
+  - Nadia
   - Nadine Romanoff
   - Nadinka
-  - Nadia
-  - Nadejda
+  - la tante
+  - ma tante
 type: Person
 category: people/family
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-03
 ---
 
 %% GLO_MA_TANTE.0001 %%

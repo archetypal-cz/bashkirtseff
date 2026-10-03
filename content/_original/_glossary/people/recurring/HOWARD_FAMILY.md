@@ -2,11 +2,12 @@
 id: HOWARD_FAMILY
 name: Howard Family
 aliases:
+  - Howard
   - Howard Family
 type: Person
 category: people/recurring
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
 ---
 # Howard Family
 

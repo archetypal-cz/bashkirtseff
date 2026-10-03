@@ -2,14 +2,18 @@
 id: MARGHERITA_DI_SAVOIA
 name: Margherita di Savoia
 aliases:
-  - Margherita di Savoia
-  - Margherita Di Savoia
   - Margherita
+  - Margherita Di Savoia
+  - Margherita di Savoia
+  - Marguerite
+  - Princess Marguerite
+  - Princesse Marguerite
   - Savoia
+  - princesse Marguerite
 type: Person
 category: people/aristocracy
 research_status: Moderate
-last_updated: 2026-02-10
+last_updated: 2026-10-03
 ---
 
 %% GLO_MARGHERITA_DI_SAVOIA.0001 %%

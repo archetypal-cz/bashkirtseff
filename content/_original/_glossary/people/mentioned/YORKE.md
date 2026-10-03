@@ -2,32 +2,51 @@
 id: YORKE
 name: Yorke
 aliases:
+  - Madame Yorke
+  - Mme Yorke
   - Yorke
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
 ---
-# Yorke
+# Madame Yorke
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
+## Basic Information
+- Type: people - aristocracy
+- Status: Stub entry (automatically generated)
 
-## Overview
+## Description
+[No description available - stub entry created from diary references]
 
-[Research needed]
+## References in Diary
+[Multiple references found - needs research]
 
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
+## Research Notes
+- Created: 2026-01-06
+- Auto-generated stub from broken link detection
+- Needs proper research and content
 
-## Research Needed
+---
 
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
+%% 2026-02-04T06:46:51.431Z RSR: Merged content from MADAME_YORK %%
 
-## Related Entries
+# Madame York
 
-[To be determined based on research]
+## Basic Information
+- Type: people - aristocracy
+- Status: Stub entry (automatically generated)
+
+## Description
+[No description available - stub entry created from diary references]
+
+## References in Diary
+[Multiple references found - needs research]
+
+## Research Notes
+- Created: 2026-01-06
+- Auto-generated stub from broken link detection
+- Needs proper research and content
+
+%% GLO_YORKE.9100 %%
+%% 2026-10-03T10:00:00 RSR: Body merged from MADAME_YORKE (richer duplicate). %%

@@ -7,23 +7,13 @@ aliases:
 type: Place
 category: places/theaters
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
+status: retired
+replaced_by: VICOMTESSE_VIGIER
 ---
-# La Vigier
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-02-04
+%% GLO_VIGIER.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#VICOMTESSE_VIGIER](../../people/aristocracy/VICOMTESSE_VIGIER.md) (`people/aristocracy/VICOMTESSE_VIGIER.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Identity
-Actress performing in Nice, likely at the French Theater.
-
-## Diary References
-
-### 1874
-- **February 4**: Scheduled to perform in "Hernani" on Saturday.
-
-## Context
-- Professional actress in Nice theater scene
-- Takes on major roles like Doña Sol in Hernani
-- Part of the cultural entertainment for Nice society
+%% GLO_VIGIER.0002 %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/aristocracy/VICOMTESSE_VIGIER.md. %%

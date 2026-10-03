@@ -7,91 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
+status: retired
+replaced_by: NADINE
 ---
-# Nadine Martinoff
 
-**Research Status**: Moderate
-**Last Updated**: 2025-12-07
-**Diary Coverage**: Book 00 (1884 preface)
+%% GLO_NADINE_MARTINOFF.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#NADINE](NADINE.md) (`people/mentioned/NADINE.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Identity
-
-Nadine Martinoff was a young orphan adopted by [#Vassilissa_Babanine](../family/VASSILISSA_BABANINE.md), Marie's great-aunt. She became the central figure in a calculated fortune-hunting scheme, marrying Marie's uncle [#Alexandre](../core/ALEXANDRE.md) at age 15 1/2.
-
-## Life Story
-
-### The Adoption
-
-Vassilissa Babanine, having become "maniaque et un peu ridicule" (obsessive and a bit ridiculous) in her later years, adopted the orphan girl Nadine Martinoff. The adoption appears to have been Vassilissa's attempt to create family and ensure care in her old age.
-
-### The Abandonment
-
-At age 14, Nadine:
-- "S'est empressee de lacher sa protectrice" (hastened to abandon her protector)
-- Left Vassilissa to live at Grand-papa's estate at [#Tcherniakovka](../../places/residences/TCHERNIAKOVKA.md)
-- Was attracted by "plus de distractions" (more entertainments/distractions)
-- Brought with her a fortune of about 20,000 rubles
-
-### The Marriage Scheme
-
-Once at Tcherniakovka:
-- Uncle Alexandre, described as "tres pratique" (very practical), "endoctrinated" her
-- Marie notes parenthetically "(elle aussi)" - she too was practical
-- They married as soon as she reached 15 1/2 years old
-- Formed "un couple excessivement rapace, cupide et heureux" (an excessively rapacious, greedy and happy couple)
-
-## Family Reaction
-
-Grand-papa was furious about the marriage, though Marie observes that "presque tous ses fils se sont maries sans le lui dire" (almost all his sons married without telling him) - suggesting this was part of a pattern of sons defying parental authority.
-
-## Marie's Characterization
-
-Marie's description is devastatingly cynical:
-- The parenthetical "(elle aussi)" suggesting Nadine was as calculating as Alexandre
-- "Rapace" and "cupide" (rapacious and greedy) - ruthlessly money-focused
-- "Heureux" (happy) - they were content in their mercenary partnership
-- The phrase "s'est empressee" (hastened) suggesting eagerness to abandon her benefactor
-
-## Historical and Social Context
-
-Nadine's story reflects several aspects of 19th century Russian society:
-
-**Orphan Vulnerability**: Orphans without family protection were entirely dependent on benefactors. Nadine's fortune of 20,000 rubles made her valuable.
-
-**Early Marriage**: Marriage at 15 1/2 was legal and not uncommon in 19th century Russia, especially for girls with dowries.
-
-**Fortune Hunting**: The marriage between Nadine and Alexandre was transparently mercenary - he wanted her money, she wanted security and status.
-
-**Generational Conflict**: Sons marrying without paternal permission was a recurring issue in aristocratic families, especially when money was involved.
-
-## The Cruelty of Abandonment
-
-Marie's narrative emphasizes the moral failing in Nadine's abandonment of Vassilissa:
-- Vassilissa had given her a home and fortune
-- Nadine repaid this by leaving her for "more distractions"
-- After Grand-papa left, Nadine and Alexandre relegated Vassilissa to a miserable room where she died abandoned
-
-The story illustrates how gratitude and loyalty could be displaced by self-interest and greed.
-
-## Age at Key Events
-
-- 14 years old: Abandoned Vassilissa, moved to Tcherniakovka
-- 15 1/2 years old: Married Alexandre
-- Later years: Participated in relegating Vassilissa to poverty
-
-## Related People
-
-- [#Vassilissa_Babanine](../family/VASSILISSA_BABANINE.md) - Her adoptive mother whom she abandoned
-- [#Alexandre](../core/ALEXANDRE.md) - Uncle who married her for her fortune
-- [#Grand_papa](../family/GRAND_PAPA.md) - Who was furious about the marriage
-
-## Related Location
-
-- [#Tcherniakovka](../../places/residences/TCHERNIAKOVKA.md) - Estate where the marriage scheme unfolded
-
-## Marie's Moral Commentary
-
-By including this story in her retrospective preface, Marie demonstrates her sharp eye for family hypocrisy and mercenary relationships. The tale of Nadine Martinoff serves as an example of how self-interest and greed operated within aristocratic families, with the young and vulnerable sometimes being as calculating as their predators.
-
-%% 2025-12-07T18:50:00 RSR: Created based on Book 00 retrospective preface. Nadine's story exemplifies youth, opportunism, and the complex morality of survival in aristocratic society %%
+%% GLO_NADINE_MARTINOFF.0002 %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/NADINE.md. %%

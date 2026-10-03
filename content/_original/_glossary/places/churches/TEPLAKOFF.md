@@ -7,27 +7,13 @@ aliases:
 type: Place
 category: places/churches
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
+status: retired
+replaced_by: TEPLAKOFF
 ---
-# Mme Teplakoff
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-01-25
+%% GLO_TEPLAKOFF.0001 %%
+**Retired.** A person misfiled under places/churches. Use [#TEPLAKOFF](../../people/mentioned/TEPLAKOFF.md) (`people/mentioned/TEPLAKOFF.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Identity
-Russian lady in Nice society, frequently ill.
-
-## Diary References
-
-### 1874
-- **January 25**: Still sick, visited by Bashkirtseffs after church.
-
-### 1873
-- Multiple references to illness and visits
-
-## Context
-- Russian surname (Теплаков)
-- Part of expatriate community
-- Chronic health issues
-- Receives regular sick visits from society
+%% GLO_TEPLAKOFF.0002 %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/TEPLAKOFF.md. %%

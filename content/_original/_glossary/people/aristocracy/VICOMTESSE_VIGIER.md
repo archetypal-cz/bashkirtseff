@@ -2,12 +2,13 @@
 id: VICOMTESSE_VIGIER
 name: Vicomtesse Vigier
 aliases:
+  - La Vigier
   - Vicomtesse Vigier
   - Vigier
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
 ---
 # Vicomtesse Vigier
 

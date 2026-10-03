@@ -16,7 +16,7 @@ replaced_by: HEALTH
 ## Thematic Tag: Diseases & Diagnoses
 
 %% GLO_DISEASES.0002 %%
-**Retired.** This tag is retired in favour of [Health & Illness](HEALTH.md), which now covers named diseases and diagnoses. The 2026 tag audit no longer assigns it; existing tags are removed carnet by carnet, and this file will be deleted at the end of the audit.
+**Retired.** This tag is retired in favour of [Health & Illness](HEALTH.md), which now covers named diseases and diagnoses. The 2026 tag audit no longer assigns it; existing tags are removed carnet by carnet, and the file is kept as a retired redirect so old links keep working (no tag points here as of 2026-10-03).
 
 This thematic tag collects diary paragraphs mentioning specific named diseases and medical diagnoses. Complements the broader Health theme by focusing on identified illnesses rather than general symptoms, doctors, or treatment.
 

@@ -2,11 +2,13 @@
 id: WITTGENSTEIN
 name: Wittgenstein
 aliases:
+  - Blackprince
+  - Prince Wittgenstein
   - Wittgenstein
 type: Culture
 category: culture/music
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
 ---
 # Wittgenstein
 

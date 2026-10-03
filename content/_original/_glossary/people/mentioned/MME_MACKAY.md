@@ -2,12 +2,12 @@
 id: MME_MACKAY
 name: Mme Mackay
 aliases:
-  - Mme Mackay
   - Mackay
+  - Mme Mackay
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-02
+last_updated: 2026-10-03
 ---
 # Mme Mackay
 

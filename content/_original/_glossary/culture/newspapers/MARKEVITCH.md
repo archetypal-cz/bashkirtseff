@@ -6,24 +6,13 @@ aliases:
 type: Culture
 category: culture/newspapers
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
+status: retired
+replaced_by: SOLOMINKA
 ---
-# Markevitch
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-01
-**Diary Coverage**: Up to 1873-05-03
+%% GLO_MARKEVITCH.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#SOLOMINKA](../../people/mentioned/SOLOMINKA.md) (`people/mentioned/SOLOMINKA.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-A woman in Marie's social circle in Nice. She appears to be intelligent and observant, engaging in meaningful conversations with Marie about life, society, and personal matters.
-
-## Key appearances:
-- **May 1, 1873**: Talks about Gritsia Miloradovitch, suggesting she's trying to make him fall in love with Marie "at a distance"
-- **May 2, 1873**: Discusses the Lyon Exhibition and luxury items
-- **May 3, 1873**: Has an intimate conversation with Marie about diary writing, lying on Dina's bed. She encourages Marie to keep writing her journal, saying it's valuable to read years later to see how one's opinions and feelings change
-
-## Character traits:
-- Described by Marie as "assez gentille, intelligente" (quite nice, intelligent)
-- Engages in thoughtful analysis of social situations
-- Appreciates the value of personal documentation and reflection
-
-%% 2025-07-01T00:00:00 RSR: Name suggests Russian or Polish origin. Need to research full name and family connections %%
+%% GLO_MARKEVITCH.0002 %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/SOLOMINKA.md. %%

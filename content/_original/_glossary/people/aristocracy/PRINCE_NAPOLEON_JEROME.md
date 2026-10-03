@@ -7,28 +7,13 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
+status: retired
+replaced_by: PLON_PLON
 ---
-# Prince Napoleon Jerome
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 9 mentions
-**Type**: Person
+%% GLO_PRINCE_NAPOLEON_JEROME.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#PLON_PLON](../recurring/PLON_PLON.md) (`people/recurring/PLON_PLON.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 9 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_PRINCE_NAPOLEON_JEROME.0002 %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/recurring/PLON_PLON.md. %%

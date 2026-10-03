@@ -2,12 +2,15 @@
 id: MME_DE_FAYET
 name: Mme de Fayet
 aliases:
-  - Mme de Fayet
+  - Comtesse de Fayet
   - Fayet
+  - Madame de Fayet
+  - Mme de Fayet
+  - comtesse de Fayet
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
 ---
 # Mme de Fayet
 

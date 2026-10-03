@@ -12,7 +12,7 @@ replaced_by: WOMEN
 ---
 # Feminism
 
-**Retired.** This misfiled concept stub is retired in favour of the theme [Women's Condition](../../culture/themes/WOMEN.md). The 2026 tag audit no longer assigns it; existing tags are removed carnet by carnet, and this file will be deleted at the end of the audit.
+**Retired.** This misfiled concept stub is retired in favour of the theme [Women's Condition](../../culture/themes/WOMEN.md). The 2026 tag audit no longer assigns it; existing tags are removed carnet by carnet, and the file is kept as a retired redirect so old links keep working (no tag points here as of 2026-10-03).
 
 ## Basic Information
 - Type: people - mentioned

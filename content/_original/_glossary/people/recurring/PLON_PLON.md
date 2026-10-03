@@ -2,15 +2,17 @@
 id: PLON_PLON
 name: Prince Napoleon (Plon-Plon)
 aliases:
-  - Prince Napoleon (Plon-Plon)
-  - Prince Napoleon
+  - Jerome
+  - Napoleon
   - Plon Plon
   - Plon-Plon
-  - Napoleon
+  - Prince Napoleon
+  - Prince Napoleon (Plon-Plon)
+  - Prince Napoleon Jerome
 type: Person
 category: people/recurring
 research_status: Basic
-last_updated: 2026-02-11
+last_updated: 2026-10-03
 ---
 
 # Plon-Plon (Prince Napoleon)

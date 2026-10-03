@@ -9,25 +9,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
+status: retired
+replaced_by: TANTE_ETIENNE
 ---
-# Oncle Etienne (Uncle Etienne)
 
-**Research Status**: Basic
-**Last Updated**: 2025-01-24
-**Diary Coverage**: Up to July 1881
+%% GLO_ONCLE_ETIENNE.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#TANTE_ETIENNE](../family/TANTE_ETIENNE.md) (`people/family/TANTE_ETIENNE.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-Uncle Etienne is one of Marie's uncles who visits Gavronzi during summer 1881. He is likely a brother of Marie's father (Pavel Bashkirtseff) or possibly her mother's brother.
-
-**Key Diary References**:
-- July 2, 1881: "Mes deux oncles Etienne et Wladimir sont ici" - Both uncles visiting at Gavronzi
-
-**Context**:
-- Visits Gavronzi during the Russian summer
-- Part of the extended Bashkirtseff family circle
-- Mentioned alongside Uncle Wladimir
-
-**Research Notes**:
-- Full name and exact family relationship need confirmation
-- Possibly Pavel Bashkirtseff's brother
-- Further research needed into the Bashkirtseff family tree
+%% GLO_ONCLE_ETIENNE.0002 %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/family/TANTE_ETIENNE.md. %%

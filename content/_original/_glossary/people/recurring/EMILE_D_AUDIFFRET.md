@@ -2,34 +2,36 @@
 id: EMILE_D_AUDIFFRET
 name: Emile d'Audiffret
 aliases:
-  - Emile d'Audiffret
-  - d'Audiffret
-  - Audiffret
-  - Emile dAudiffret
-  - Girofla
-  - le Niçois
-  - Feu
-  - le trésor
-  - le Surprenant
-  - Soroka
-  - Terffidua
-  - Hector
-  - Audiffer
-  - Bibi-Girofla
-  - Bibi
-  - Bébé
   - Antiochus
+  - Audiffer
+  - Audiffret
+  - Bibi
+  - Bibi-Girofla
+  - Bébé
+  - Emile d'Audiffret
+  - Emile dAudiffret
   - Epiphane
+  - Feu
+  - Girofla
+  - Hector
   - Héliogabale
   - Mardochée
-  - Sardanaple
-  - Pie rasée
   - Mistigri
+  - Pie rasée
+  - Sardanaple
+  - Soroka
+  - Terffidua
+  - britaya soroka
+  - d'Audiffret
+  - fr
   - frère Emile
+  - le Niçois
+  - le Surprenant
+  - le trésor
 type: Person
 category: people/recurring
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-03
 languages:
   - fr
 ---

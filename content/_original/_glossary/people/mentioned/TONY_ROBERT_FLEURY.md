@@ -8,14 +8,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Redirect
-last_updated: 2026-02-10
+last_updated: 2026-10-03
+status: retired
+replaced_by: ROBERT_FLEURY
 ---
 
 %% GLO_TONY_ROBERT_FLEURY.0001 %%
-## Redirect
+**Retired.** Duplicate entry for the same referent. Use [#ROBERT_FLEURY](../artists/ROBERT_FLEURY.md) (`people/artists/ROBERT_FLEURY.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
 %% GLO_TONY_ROBERT_FLEURY.0002 %%
-This entry is a duplicate. The comprehensive entry for Tony Robert-Fleury (1837-1911) is at [#Robert_Fleury](../artists/ROBERT_FLEURY.md), which contains his full biography, teaching career, physical description from Marie's diary, and significance in her artistic development.
-
-%% GLO_TONY_ROBERT_FLEURY.0003 %%
-%% 2026-02-10T11:00:00 RSR: Marked as redirect to ROBERT_FLEURY.md in artists/. %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/artists/ROBERT_FLEURY.md. %%

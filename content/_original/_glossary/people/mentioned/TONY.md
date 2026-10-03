@@ -8,17 +8,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Redirect
-last_updated: 2026-02-10
+last_updated: 2026-10-03
+status: retired
+replaced_by: ROBERT_FLEURY
 ---
 
 %% GLO_TONY.0001 %%
-## Redirect
+**Retired.** Duplicate entry for the same referent. Use [#ROBERT_FLEURY](../artists/ROBERT_FLEURY.md) (`people/artists/ROBERT_FLEURY.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
 %% GLO_TONY.0002 %%
-"Tony" in Marie's diary refers to Tony Robert-Fleury (1837-1911), the academic painter and principal instructor at the Academie Julian's women's atelier. The comprehensive entry is at [#Robert_Fleury](../artists/ROBERT_FLEURY.md).
-
-%% GLO_TONY.0003 %%
-Marie often refers to him simply as "Tony" in her diary, reflecting the informal way students referred to their instructors among themselves.
-
-%% GLO_TONY.0004 %%
-%% 2026-02-10T11:00:00 RSR: Marked as redirect to ROBERT_FLEURY.md in artists/. "Tony" is Marie's informal name for Tony Robert-Fleury, her principal painting instructor. %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/artists/ROBERT_FLEURY.md. %%

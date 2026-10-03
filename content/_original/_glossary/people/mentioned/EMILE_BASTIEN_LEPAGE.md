@@ -2,13 +2,13 @@
 id: EMILE_BASTIEN_LEPAGE
 name: Emile Bastien-Lepage
 aliases:
-  - Emile Bastien-Lepage
-  - Emile Bastien Lepage
   - Bastien-Lepage
+  - Emile Bastien Lepage
+  - Emile Bastien-Lepage
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-02-10
+last_updated: 2026-10-03
 ---
 
 %% GLO_EMILE_BASTIEN_LEPAGE.0001 %%

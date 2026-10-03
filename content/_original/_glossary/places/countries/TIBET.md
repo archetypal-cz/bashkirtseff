@@ -6,34 +6,13 @@ aliases:
 type: Place
 category: places/countries
 research_status: Basic
-last_updated: 2026-10-02
+last_updated: 2026-10-03
+status: retired
+replaced_by: TIBET
 ---
-# Tibet
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-01-09
+%% GLO_TIBET.0001 %%
+**Retired.** 'Tibet' in carnet 013 is an English boy courting Lise at the Howards' (a person); the place reading was wrong. Use [#TIBET](../../people/mentioned/TIBET.md) (`people/mentioned/TIBET.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Overview
-
-Young man at the Howards' children's matinee who shows attention to Marie.
-
-## Social Activities
-
-- Attends the Howards' children's ball
-- Fans Marie during the cotillion
-- Part of the boys who stay late after the younger children leave
-
-## Name
-
-Unusual name - possibly a nickname or surname.
-
-## Research Needed
-
-- Full name
-- Nationality
-- Age
-- Family background
-
-%% GLO_TIBET.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/TIBET.md (a place filed under people). Body copied unchanged. %%
+%% GLO_TIBET.0002 %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/TIBET.md. %%

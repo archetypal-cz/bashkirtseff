@@ -6,28 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
+status: retired
+replaced_by: JOHNSTONE
 ---
-# Lancaster
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 2 mentions
-**Type**: Person/Place
+%% GLO_LANCASTER.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#JOHNSTONE](JOHNSTONE.md) (`people/mentioned/JOHNSTONE.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 2 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_LANCASTER.0002 %%
+%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/JOHNSTONE.md. %%

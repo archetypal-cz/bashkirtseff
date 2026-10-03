@@ -10,7 +10,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-09-27
+last_updated: 2026-10-03
 ---
 # Albert Gautier («Pepino»)
 
