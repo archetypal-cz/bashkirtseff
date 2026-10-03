@@ -198,3 +198,7 @@ Language-specific review checklists for the two review passes (naturalness-only,
 
 - `/content/_original/CLAUDE.md` - French source materials
 - `/docs/INFRASTRUCTURE.md` - Progress tracking system
+
+## Іншомовні пасажі (рішення KRR 2026-10-03)
+
+Усе, що Марі написала англійською, італійською, латиною, російською тощо, у тексті **перекладаємо українською**, позначаємо `==…==`, а її оригінальне формулювання подаємо у примітці: `[^…]: В оригіналі англійською: «bribed».` Цілі англомовні абзаци/записи — як досі (примітка про мову, оригінал доступний через перемикач). Винятки: усталені запозичення, власні назви, назви творів, гра слів. Спільне правило: `content/CLAUDE.md` → "Foreign-language passages". Оформлення діалогів в uk не змінюється.

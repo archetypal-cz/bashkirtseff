@@ -22,16 +22,20 @@ When translating, refer to this document for established translations of recurri
 - Notes: [any additional information about translation choices]
 ```
 
+## NOTE 2026-10-03 (KRR): foreign-language passages are translated, original → footnote
+
+Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passages: everything translated"; `content/cz/CLAUDE.md` „Cizojazyčné pasáže“). Every passage Marie wrote in another language (English, Italian, Latin, Russian, German) and French tics left in French (*Bigre*, *Pardi*, *comme il faut*, *Ventre Saint-Gris*, *Mort de ma vie*) is **translated into Czech in the running text**, marked `==…==`; her original wording goes into the „Pozn. překl.“ footnote (marker right after the closing `==`). A repeated tic: footnote its first occurrence per entry only. Exceptions: metalinguistic runs, titles of works, proper names, naturalised words (*flirt*, *toaleta*, *nec plus ultra*). **All older rows and rulings in this file saying "keep foreign phrase in ==highlight==", "kept Italian/Latin/French", "stays in English" or "Bigre stays French" are superseded**; where a row below still shows the foreign form as the translation, use the Czech rendering given or coin one consistent with the row. Defaults: *Deo juvante* → ==s Boží pomocí==, *Libera nos a…* → ==Od advokátů vysvoboď nás, Pane!== (owner-approved pilot wording), *Pardi!* → ==No ovšem!==, *Mort de ma vie* → ==K čertu!== (UNSURE), *Ventre Saint-Gris* → ==U všech svatých!== (row 032), Hamlet → ==To je, oč tu běží== (Saudek).
+
 ## Rulings 2026-09-30 (post-rebuild wave; owner KRR rulings + lead delegation to wave-cz)
 
 These override older per-carnet entries below where they conflict.
 
-- **Marie's English words** (Ruling 2026-09-29, KRR): stay in English in the text as `==word==`; a „Pozn. překl.“ footnote with the Czech meaning only where a Czech reader would not understand the word. (Replaces the earlier rule "Czech in the text, English in the footnote".)
-- **«Bigre !» / «Bigre de bigre !»** (Ruling 2026-09-29, KRR, all languages): stays French, in italics: *Bigre!* / *Bigre de bigre!*. The older „U sta hromů“ entries for Bigre are superseded; *Parbleu* keeps „U sta hromů“, *Sapristi* keeps „U všech rohatých“.
+- **Marie's English words** (Ruling 2026-09-29, KRR; **superseded 2026-10-03**, see the note at the top): English words and phrases are now translated into Czech in the running text (`==…==`), the English original goes into the „Pozn. překl.“ footnote.
+- **«Bigre !» / «Bigre de bigre !»** (Ruling 2026-09-29, KRR, all languages; **reversed 2026-10-03**): no longer kept French. Czech rendering „U sta hromů!“ / „U sta hromů hromských!“ (as in the carnet 053/055/059/064 rows below, which are valid again), `==…==`, original *Bigre!* in the footnote (first occurrence per entry only). *Parbleu* keeps „U sta hromů“, *Sapristi* keeps „U všech rohatých“.
 - **Names follow Marie's French spelling per occurrence** (Ruling 2026-09-29, KRR, all languages): where she writes «Audiffer», the Czech keeps Audiffer (declined: Audiffera…); never normalise to Audiffret. Labanoff's daughter's nickname stays „Le Bec“.
 - **Larderel** (Ruling 2026-10-01, owner via lead): the count is „Larderel“ (printed edition; «Larderei» is an OCR l→i misread), declined Larderela, Larderelovi, s Larderelem. Glossary link paths `…/LARDEREI.md` stay until the glossary rename.
-- **Entries Marie wrote entirely in English** (Ruling 2026-10-01, KRR via lead): stay in CZECH translation; every paragraph carries the language note footnote `Pozn. překl.: V originále anglicky.` (the frontend's language-note marker; the reader can flip to the original). Single English words inside French text stay ==English==.
-- **Marie's English, whole tree** (Ruling 2026-09-30, KRR): all former „Pozn. překl.: V originále anglicky“ cases convert to ==English== in the text; keep a short gloss note only where unclear.
+- **Entries Marie wrote entirely in English** (Ruling 2026-10-01, KRR via lead; amended 2026-10-03): stay in CZECH translation; every paragraph carries the language note footnote `Pozn. překl.: V originále anglicky.` (the frontend's language-note marker; the reader can flip to the original). Single English words and short phrases inside French text are now translated too (`==…==` + original in footnote), see the top note.
+- **Marie's English, whole tree** (Ruling 2026-09-30, KRR; **superseded 2026-10-03**): the `==English==`-in-text conversion is reversed; Czech in the text (`==…==`), English original in the footnote.
 - **Berthe / Bertha** (Ruling 2026-09-30, lead→wave-cz; amended 2026-10-01: names follow Marie's spelling per occurrence, so „Bertha“ where she writes «Bertha»): „Berthe“, undeclined (majority 344 vs 7 declined forms). Boyd: „Berthe Boydová“.
 - **Sapogenikoff** (Ruling 2026-09-30): stem „Sapogenikoff-“ with Czech endings: paní Sapogenikoffová, Sapogenikoffovi, u Sapogenikoffových, se Sapogenikoffovými (majority 156 vs Sapogenikov- 72, Sapožen- 19).
 - **Niçois (inhabitants of Nice)** (Ruling 2026-09-30): „Nicejec / Nicejci / Nicejka / Nicejky“, adj. „nicejský“ (majority Nicej[ec] 45 vs Niçan 37, Nicejan 16, Nicejčan 14, Niçois 13).
@@ -136,7 +140,7 @@ These override older per-carnet entries below where they conflict.
 - First appearance: 006 (1873-07-08)
 
 ### canaille
-- Translation (Czech): lůza / canaille (kept in French when Marie uses it as social marker)
+- Translation (Czech): lůza (2026-10-03: no longer kept in French; where Marie uses *canaille* as a social marker, Czech in `==…==` and French in the footnote)
 - Context: Pejorative for lower classes; Marie uses it frequently
 - First appearance: 006 (1873-07-07)
 
@@ -533,6 +537,7 @@ These override older per-carnet entries below where they conflict.
 - Translation (Czech): U všech svatých!
 - Context: Archaic oath attributed to Henri IV; Marie uses it for emphasis
 - First appearance: 032 (1875-05-13)
+- Notes: 2026-10-03 (KRR): translated in text (`==…==`), original *Ventre Saint-Gris* → footnote (first occurrence per entry); keep ONE rendering per tree — this row is the default.
 
 ## Carnet 033 Terms
 
@@ -586,7 +591,7 @@ These override older per-carnet entries below where they conflict.
 - Translation (Czech): U břicha Svatého Šedáka
 - Context: Famous oath of Henri IV; Marie reads Marguerite de Valois and adopts period language
 - First appearance: 033 (1875-05-26)
-- Notes: Translated with footnote explaining literary context; differs from carnet 032's "U všech svatých" — in 033, context warrants more literal/humorous rendering since Marie explicitly reads Henri IV's era
+- Notes: Translated with footnote explaining literary context; differs from carnet 032's "U všech svatých" — in 033, context warrants more literal/humorous rendering since Marie explicitly reads Henri IV's era 2026-10-03: original → footnote (KRR); unify with the 032 row unless the Henri IV context is explicit.
 
 ### mardi gras turc
 - Translation (Czech): turecký masopust
@@ -629,10 +634,10 @@ These override older per-carnet entries below where they conflict.
 - Notes: Keep literal "plivat na" — Marie emphasizes its crudeness as Audiffret's own favorite expression
 
 ### Italian/Latin code-switching (carnet 051)
-- Convention: Keep foreign phrase in ==highlight==, add Pozn. překl. footnote with Czech translation
-- Examples: "Misera me", "Dio lo sa", "Orsù", "la vecchia canzone", "In nomine Patris...", "Tu quoque?"
+- Convention (KRR 2026-10-03): translate into Czech in `==…==`; the foreign original goes into the Pozn. překl. footnote. Old rule "keep foreign phrase in ==highlight==" is superseded.
+- Examples → Czech: "Misera me" → ==Já ubohá==, "Dio lo sa" → ==Bůh ví==, "Orsù" → ==Nuže==, "la vecchia canzone" → ==ta stará píseň==, "In nomine Patris..." → ==Ve jménu Otce…==, "Tu quoque?" → ==I ty?==
 - First appearance: 051 (throughout)
-- Notes: Operatic/liturgical code-switching for dramatic effect; preserve original, translate in footnote per content/cz/CLAUDE.md foreign-passage rule
+- Notes: Operatic/liturgical code-switching for dramatic effect; the register is carried by the Czech wording, the original by the footnote (content/cz/CLAUDE.md foreign-passage rule)
 
 ## Carnet 052 Terms
 
@@ -703,7 +708,7 @@ These override older per-carnet entries below where they conflict.
 - Translation (Czech): U sta hromů
 - Context: Marie's recurring mild oath (euphemism for "bougre"); rendered consistently
 - First appearance: 053 (1876-01-24), recurs throughout
-- Notes: Used for both "Bigre" and "Ibigre" exclamations.
+- Notes: Used for both "Bigre" and "Ibigre" exclamations. Valid again 2026-10-03 (KRR): `==U sta hromů==`, *Bigre* → footnote.
 
 ### Sapristi
 - Translation (Czech): U všech rohatých
@@ -787,16 +792,16 @@ These override older per-carnet entries below where they conflict.
 - First appearance: 055 (1876-03-16)
 
 ### Italian/Latin/English code-switching (carnet 055)
-- Convention: Keep foreign phrase in ==highlight== + "Pozn. překl." footnote
-- Examples: "O Gioia!", "Ohimè!", "via!", "Campidoglio", "Petruccio", "Giacometto", "palazzo", "barcaccia", "veglione", "Basta!", "Zuccone", "contessina", "trattoria", "pazzerello", "Dormi pure" (Italian); "requiem si non eterno", "Faustulus et Acca Laurentia", "Pax vobis", "Gloriae Cupiditas", "miserere" (Latin); "associations", "keepsake", "can't help it", "Dear, dear!", "His Grace the Duke of Hamilton", "White Rose" (English)
+- Convention (KRR 2026-10-03): translate into Czech in `==…==`, original in the footnote. Old rule "keep foreign phrase in ==highlight== + Pozn. překl. footnote" is superseded.
+- Examples (context decides; indicative renderings): "O Gioia!" → ==Ó radosti!==, "Ohimè!" → ==Běda!==, "Basta!" → ==Dost!==, "via!" → ==pryč!==, "veglione" → ==maškarní ples==, "palazzo" → ==palác==, "contessina" → ==hraběnka==, "Dormi pure" → ==spi jen==, "Pax vobis" → ==Pokoj vám==, "miserere" → ==smiluj se==, "Gloriae Cupiditas" → ==Touha po slávě==, "can't help it" → ==nemohu si pomoci==, "Dear, dear!" → ==Ach jemine!==, "His Grace the Duke of Hamilton" → ==Jeho Milost vévoda z Hamiltonu==. Proper names (Campidoglio, Petruccio, Giacometto, Faustulus et Acca Laurentia, "White Rose" as a name) stay; "Zuccone", "barcaccia", "pazzerello", "trattoria", "requiem si non eterno", "associations", "keepsake" get a Czech rendering chosen in context (UNSURE, owner may veto).
 - First appearance: 055 (throughout)
-- Notes: Marie's Ariosto quotation kept with her own spelling errors ("vagine"/"paghi" for "vaghe"), footnoted.
+- Notes: Marie's Ariosto quotation: Czech verse in the text, her own spelling errors ("vagine"/"paghi" for "vaghe") quoted exactly in the footnote.
 
 ### Bigre / Bigre de bigre — carnet 055
 - Translation (Czech): U sta hromů / U sta hromů hromských
 - Context: Continues 053; Marie's recurring mild oath
 - First appearance: 055 (recurring)
-- Notes: "Parbleu" also → "U sta hromů" (same register).
+- Notes: "Parbleu" also → "U sta hromů" (same register). Valid again 2026-10-03 (KRR): `==…==` in text, French → footnote, first occurrence per entry.
 
 ## Carnet 057 Terms
 
@@ -817,18 +822,18 @@ These override older per-carnet entries below where they conflict.
 - Notes: Footnote added explaining the proverb for Czech readers
 
 ### culpa mea (liturgical)
-- Translation (Czech): culpa mea (kept Latin)
-- Context: From the Confiteor prayer; Marie uses it in penitential self-examination; marked ==highlight== with footnote
+- Translation (Czech): ==má vina== (original → footnote (KRR 2026-10-03); was: culpa mea kept Latin)
+- Context: From the Confiteor prayer; Marie uses it in penitential self-examination; Czech ==má vina== / ==mou vinou== by context, Latin in the footnote
 - First appearance: 057 (1876-04-13)
 
 ### "That is the question" (Shakespeare code-switch)
-- Translation (Czech): ==To je ta otázka== (highlighted, footnoted)
-- Context: Marie code-switches to English citing Hamlet; per convention: Czech translation in text, English original in Pozn. překl. footnote
+- Translation (Czech): ==To je, oč tu běží== (Saudek; owner ruling KRR 2026-10-03; was „To je ta otázka“); original → footnote (KRR 2026-10-03)
+- Context: Marie code-switches to English citing Hamlet; Czech in text, English original in the Pozn. překl. footnote
 - First appearance: 057 (1876-04-13)
 
 ### poussé au non plus / nec plus ultra
 - Translation (Czech): dotažená až k nec plus ultra
-- Context: Marie's playful/erroneous version of "nec plus ultra" (the ultimate degree); kept in Latin as cited phrase
+- Context: Marie's playful/erroneous version of "nec plus ultra" (the ultimate degree). UNSURE (2026-10-03): *nec plus ultra* is a naturalised Czech phrase, so kept as is; if Marie's erroneous form is the joke, footnote it (metalinguistic exception).
 - First appearance: 057 (1876-04-11)
 
 ### résignation allemande
@@ -957,10 +962,10 @@ These override older per-carnet entries below where they conflict.
 - Notes: Czech idiom "svléknout starou kůži" works naturally; preserve the reptile-renewal image
 
 ### Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate (carnet 070)
-- Translation (Czech): ==Dubium, illusio, deceptio, oppressio== / ==Gloriae Cupiditate== (highlighted, footnoted)
+- Translation (Czech): ==Pochybnost, iluze, klam, útisk== / ==Z touhy po slávě== (original → footnote (KRR 2026-10-03))
 - Context: Marie's Latin motto closing carnet 070; "Doubt, illusion, deception, oppression / Through desire for glory"; bitter self-assessment of the Larderei affair
 - First appearance: 070 (1877-04-25); also appeared in 069 (1877-04-02) in same formula
-- Notes: Per foreign-passage convention: ==highlight== + Pozn. překl. footnote; same treatment as the two-part foreign-passage motto in carnet 069 (paragraphs since dropped in the rebuild). Two-part motto split across two paragraphs as in original.
+- Notes: Czech in the text, Latin motto in the footnote (2026-10-03; old rule "==highlight== + footnote" superseded). Two-part motto split across two paragraphs as in original.
 
 ### bonne aventure (omen-reading habit)
 - Translation (Czech): věštění
@@ -974,7 +979,7 @@ These override older per-carnet entries below where they conflict.
 - Notes: Czech form "Cherubín"; footnote on first use
 
 ### nebbioso (Italian insert)
-- Translation (Czech): ==nebbioso== (highlighted, footnoted "mlhavý")
+- Translation (Czech): ==mlhavý== (agree in gender with the noun; original → footnote (KRR 2026-10-03))
 - Context: Italian adjective for "misty/hazy" inserted into Marie's French text describing Naples hills
 - First appearance: 070 (1877-04-23)
 
@@ -1031,22 +1036,22 @@ These override older per-carnet entries below where they conflict.
 - Notes: "vydržovaná žena" is the period-appropriate Czech equivalent; do not use "milenka" alone (too neutral) or "kurva" (too crude for this context)
 
 ### carricollo (Neapolitan cart)
-- Translation (Czech): carricollo (kept Italian, footnoted)
+- Translation (Czech): ==dvoukolák== / ==neapolský dvoukolý povoz== (original → footnote (KRR 2026-10-03); was: carricollo kept Italian). UNSURE: realia word, choose by context
 - Context: Neapolitan two-wheeled cart famously overloaded with passengers; Marie uses it as a simile for their overcrowded carriage
 - First appearance: 070 (1877-04-07)
-- Notes: Keep in ==highlight==; footnote: "Italsky: carricollo — neapolský dvoukolový vůz, proslulý tím, že se na něj nakupí nepřiměřené množství cestujících."
+- Notes: Italian *carricollo* in the footnote with the explanation: „neapolský dvoukolý vůz, proslulý tím, že se na něj nakupí nepřiměřené množství cestujících.“
 
 ### mon empereur (Larderei's exclamation)
-- Translation (Czech): můj císaři (kept French in highlight, footnoted)
+- Translation (Czech): ==můj císaři== (original → footnote (KRR 2026-10-03); French in the footnote)
 - Context: Larderei's drunken/affectionate exclamation, used twice (paras 070.0295, 070.0297); mocking or ironically tender
 - First appearance: 070 (1877-04-08)
-- Notes: Keep "mon empereur" in ==highlight== with footnote "Francouzsky: Můj císaři! — Lardereiovo podnapilé zvolání, jehož tón kolísá mezi výsměchem a náklonností."
+- Notes: Footnote: „V originále francouzsky: „mon empereur“ — Lardereiovo podnapilé zvolání, jehož tón kolísá mezi výsměchem a náklonností.“ Second occurrence in the same entry: no footnote.
 
 ### "elle est excessivement jolie" (King's compliment)
-- Translation (Czech): footnoted; French phrase kept in ==highlight==
+- Translation (Czech): ==je nesmírně hezká== (original → footnote (KRR 2026-10-03); French in the footnote)
 - Context: King Vittorio Emanuele II's repeated compliment about Marie at the state dinner of 130 covers
 - First appearance: 070 (1877-04-08)
-- Notes: Keep in ==highlight== per foreign-passage convention; footnote with Czech translation
+- Notes: Czech in the text, French original in the footnote; repeated compliment: footnote the first occurrence per entry only.
 
 ## Carnet 074 Terms
 
@@ -1117,10 +1122,10 @@ These override older per-carnet entries below where they conflict.
 - Notes: "svobodná vůle" is the standard Czech philosophical term; do not use "svobodné rozhodnutí" (too specific)
 
 ### Nunquam anathemathis vinculis exuenda (Latin formula)
-- Translation (Czech): ==Nunquam anathemathis vinculis exuenda!== (highlighted, footnoted)
+- Translation (Czech): ==Nikdy nezprostit se pout klatby!== (original → footnote (KRR 2026-10-03))
 - Context: Ecclesiastical curse formula: "Never to be freed from the chains of anathema"; Marie applies it to her own accursed fate in a moment of despair
 - First appearance: 074 (1877-09-09, para 074.0259)
-- Notes: Per foreign-passage convention: ==highlight== + footnote "Pozn. překl.: Latinsky: Nikdy nezprostit se pout klatby! — Formule církevního prokletí; Marie ji aplikuje na svůj vlastní osud."
+- Notes: Czech in the text; footnote „Pozn. překl.: Latinsky: *Nunquam anathemathis vinculis exuenda!* (tak v textu). — Formule církevního prokletí; Marie ji aplikuje na svůj vlastní osud.“
 
 ### ballottée (tossed about)
 - Translation (Czech): zaklátila (mě)
@@ -1147,10 +1152,10 @@ These override older per-carnet entries below where they conflict.
 - Notes: Keep as "varenyky" (not "pierogi" or "knedlíčky"); footnote: "Varenyky — plněné ukrajisnké knedlíčky."
 
 ### Colonia Agrippina (Latin, for Cologne)
-- Translation (Czech): ==Colonia Agrippina== (highlighted, footnoted)
+- Translation (Czech): Colonia Agrippina (proper name — exception to the translate-everything rule; UNSURE, alt. ==Kolín nad Rýnem== + Latin in footnote)
 - Context: The original Roman name for Cologne (Köln); Marie uses the Latin name when passing through on the way to Paris
 - First appearance: 074 (1877-09-17, para 074.0373)
-- Notes: ==highlight== + footnote: "Pozn. překl.: Latinsky: Colonia Agrippina — původní římský název města Kolín nad Rýnem."
+- Notes: Footnote: „Pozn. překl.: Latinsky: Colonia Agrippina — původní římský název města Kolín nad Rýnem.“
 
 ### "Odoacer" (literary/historical reference)
 - Translation (Czech): Odoacer (Odovakar)
@@ -1197,10 +1202,10 @@ These override older per-carnet entries below where they conflict.
 - Notes: Consistent with established TM; "Bigre, bigre, bigre!" → "U sta hromů, u sta hromů, u sta hromů!"
 
 ### chtchenok / ščenok (Russian pejorative)
-- Translation (Czech): ščenok (kept Russian, footnoted)
+- Translation (Czech): ==štěně== / ==nezralý mladík== (original → footnote, KRR 2026-10-03; was: ščenok kept Russian)
 - Context: Russian щенок (puppy/pup); Marie uses it for Pietro Antonelli as immature young dog; paired with French "jeune chien"
 - First appearance: 059 (1876-05-08)
-- Notes: Keep Russian word as-is with footnote: "Pozn. překl.: V originále rusky: щенок (ščenok) — štěně, přeneseně: nezralý, drzý mladík." Also appears as "jeune chien" → "mladý pes" in same sentence.
+- Notes: Czech in the text; footnote: "Pozn. překl.: V originále rusky: щенок (ščenok)." Also appears as "jeune chien" → "mladý pes" in same sentence.
 
 ### palpitations cardiologiques (Marie's neologism)
 - Translation (Czech): kardialgické palpitace
@@ -1277,7 +1282,7 @@ These override older per-carnet entries below where they conflict.
 - Translation (Czech): jak náleží
 - Context: Proper, well-bred, as it should be; used for the cavalry guardsman in 064 (1876-08-10)
 - First appearance: Various; established TM term
-- Notes: "garde à cheval si comme il faut" → "jezdec tak jak náleží"
+- Notes: "garde à cheval si comme il faut" → "jezdec tak jak náleží". 2026-10-03 (KRR): `==jak náleží==` in the text, *comme il faut* → footnote (first occurrence per entry); alternatives by context „vybraný“, „ze slušné společnosti“.
 
 ### droschki / drožky (carnet 064)
 - Translation (Czech): drožky
@@ -1292,16 +1297,16 @@ These override older per-carnet entries below where they conflict.
 - Notes: "le fidèle Chocolat sur le siège" → "věrný Čokolád na kozlíku"
 
 ### turbamento (Italian code-switch)
-- Translation (Czech): ==turbamento== (highlighted, footnoted)
+- Translation (Czech): ==rozrušení== (original → footnote (KRR 2026-10-03))
 - Context: Italian: disturbance, agitation; Marie switches to Italian when describing an emotional reaction to the blonde officer passing in Peterhof; marks romantic perturbation
 - First appearance: 064 (1876-08-08-09)
-- Notes: Per foreign-passage convention: keep Italian in ==highlight==, add footnote "Pozn. překl.: Italsky: turbamento — rozrušení, neklid."
+- Notes: Czech in the text, footnote „Pozn. překl.: Italsky: turbamento.“
 
 ### Partant pour la Syrie (French song)
-- Translation (Czech): ==Partant pour la Syrie== (highlighted, footnoted)
+- Translation (Czech): *Partant pour la Syrie* (title of a work — exception; kept French, italic, footnoted)
 - Context: Famous French song (1807) attributed to Queen Hortense Beauharnais; Marie uses it as parody vehicle for her Serbian-volunteer verse improvisation about Girofla
 - First appearance: 064 (1876-08-08-09)
-- Notes: Keep in French; footnote explaining it was quasi-official song of the Second Empire
+- Notes: Title of a song, kept; footnote explaining it was quasi-official song of the Second Empire. Marie's improvised verse on its tune is Czech in the text.
 
 ### Matamore / Matamor
 - Translation (Czech): Matamor (footnoted)
@@ -1310,10 +1315,10 @@ These override older per-carnet entries below where they conflict.
 - Notes: Czech "Matamor" without final -e; footnote on first use; from Spanish "mata-moros" (Moor-killer)
 
 ### assai (Italian code-switch)
-- Translation (Czech): ==assai== (highlighted, footnoted)
+- Translation (Czech): ==dost== / ==docela== by context (original → footnote (KRR 2026-10-03))
 - Context: Italian: enough, quite; Marie's intimate Italian code-switch in Cassagnac scenes; marks moments of emotional satiation
 - First appearance: 064 (1876-07-24)
-- Notes: Per foreign-passage convention; footnote "Pozn. překl.: Italsky: assai — dost, zcela."
+- Notes: Czech in the text, footnote „Pozn. překl.: Italsky: assai.“
 
 ### embonpoint (period fashion term)
 - Translation (Czech): embonpoint (kept French, footnoted)
@@ -1340,10 +1345,10 @@ These override older per-carnet entries below where they conflict.
 - Notes: Footnote explaining shape and Moscow fame; do not use Czech transliteration "kalaч" vs. "kalač" — keep the Cyrillic-hybrid form
 
 ### Turpis, execrabilis! (Latin self-condemnation)
-- Translation (Czech): ==Turpis, execrabilis!== (highlighted, footnoted)
+- Translation (Czech): ==Hanebná, prokletá!== (original → footnote (KRR 2026-10-03))
 - Context: Latin: shameful, detestable! Marie's outburst of self-condemnation over the Antonelli kiss episode
 - First appearance: 064 (1876-08-11-12)
-- Notes: Per foreign-passage convention; footnote "Pozn. překl.: Latinsky: Turpis, execrabilis! — Hanebná, prokletá!"
+- Notes: Czech in the text, footnote „Pozn. překl.: Latinsky: Turpis, execrabilis!“
 
 ### figure créole / kreolská tvář
 - Translation (Czech): kreolská tvář (footnoted)
@@ -1785,6 +1790,6 @@ These override older per-carnet entries below where they conflict.
 
 ### English passages: Czech in the text, English in the footnote
 - Ruling (2026-09-07, CON): confirms the rule in `content/cz/CLAUDE.md`. Three blocks in cz/018 (018.0308, 018.0309, 018.0320) had it inverted — English in the running text, Czech in the footnote — while three neighbouring blocks in the same entry followed the rule. Converted.
-- The opposite convention (foreign phrase kept in `==highlight==` + Czech in the footnote) stays reserved for short Italian and Latin code-switches, as established for carnets 051/055.
+- ~~The opposite convention (foreign phrase kept in `==highlight==` + Czech in the footnote) for short Italian and Latin code-switches~~ — superseded 2026-10-03 (KRR): ALL foreign runs are Czech in the text, original in the footnote.
 
 %% 2026-09-07T20:45:00 CON: Added carnet 018 rulings after the full conductor pass (Mačenka, Nejencov, Huba, plaščanice, tag parity, English-passage direction, and the open question of Czech-ised vs. French-kept Russian surnames). %%

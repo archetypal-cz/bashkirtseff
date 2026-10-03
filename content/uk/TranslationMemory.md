@@ -2,6 +2,10 @@
 
 Established terminology for consistent translation across carnets.
 
+## NOTE 2026-10-03 (KRR): foreign-language passages are translated, original → footnote
+
+Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passages: everything translated"; `content/uk/CLAUDE.md`, last section). Every passage Marie wrote in another language (English, Italian, Latin, Spanish, German, Russian) and every French tic/phrase left in French (*Bigre*, *Pardi*, *comme il faut*, *Ventre Saint-Gris*, *Mort de ma vie*, *je ne sais quoi*, *coup de foudre*) is **translated into Ukrainian in the running text**, marked `==…==`; her original wording goes into the footnote (marker right after the closing `==`; «В оригіналі англійською/латиною/італійською/французькою: «…».»). A repeated tic: footnote its first occurrence per entry only. Whole foreign paragraphs: Ukrainian + run note, no copy. Exceptions: metalinguistic runs (puns, her own mistakes), titles of works, proper names and name-like code names (Блекпринс, Муся, Обезіана), ciphers/abbreviations (H.G.t.D.o.H., Notlimah), naturalised words (курзал, флірт, конфетті, лаццароні). **Every older row or bullet below saying "keep in English/Latin/Italian/French", "==highlight== + footnote", "kept French" or "*Bigre!* kept in French" is superseded by this rule**; the rows that were rewritten on 2026-10-03 carry the Ukrainian rendering and the mark "KRR 2026-10-03" — renderings marked UNSURE are proposals awaiting the owner. Default renderings for the recurring French tics (coined 2026-10-03, one per tree — owner may veto): *Bigre!* → «Ну й ну!» / «Ого!», *Pardi!* → «Ну звісно!», *Mort de ma vie!* → «Хай мене грім поб'є!», *Ventre Saint-Gris!* → «Хай йому грець!», *comme il faut* → «пристойний», *Deo juvante* → «з Божою поміччю», *Libera nos a Collignon* style Latin prayers → Ukrainian liturgical phrase («Від адвокатів визволи нас, Господи!»). Pilot (034) choices: That is the question → «Ось у чім питання», Much ado about nothing → «Багато галасу даремно».
+
 ## Titles & Forms of Address
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
@@ -227,8 +231,8 @@ Established terminology for consistent translation across carnets.
 | Lord Mandeville | лорд Мандевіль | Hamilton's brother-in-law, son of Duke of Manchester |
 
 ### Multilingual Conventions (Carnet 018)
-- English passages: keep in English with Ukrainian translation in brackets on first full paragraph
-- Italian passages with errors: keep original Italian (with Marie's errors intact) and add TR note with Ukrainian paraphrase
+- English passages (revised 2026-10-03, KRR): Ukrainian in the running text (==…==), Marie's English quoted exactly in the footnote; whole English paragraphs/entries: Ukrainian + run note «Англійською в оригіналі.» (no copy of the English into the footnote). Replaces "keep in English with translation in brackets".
+- Italian passages with errors: Ukrainian in the text (==…==); Marie's Italian with her errors intact goes into the footnote (KRR 2026-10-03; replaces "keep original Italian + TR note").
 - "28" / "/7" — Marie's code numbers for anonymous admirers: keep as-is (no translation)
 - "Fedus" = Marie's nickname for Lambertye: Федюс
 - Wittgenstein's nickname "bourru ours russe" = буркотливий російський ведмідь
@@ -273,7 +277,7 @@ Established terminology for consistent translation across carnets.
 ### Code Names & Private Language (Carnet 022)
 | French/English | Ukrainian | Notes |
 |----------------|-----------|-------|
-| Blackprince | Blackprince | Marie's English code for Prince Wittgenstein — kept in English with ==highlight== |
+| Blackprince | Блекпринс | Marie's English code name for Prince Wittgenstein — treated as a NAME (exception): transliterated «Блекпринс» as in the 023 row; English *Black Prince* in a footnote on first use per entry |
 | Notlimah | Notlimah | Hamilton spelled backwards — cipher preserved as-is, no translation |
 | Plobster | Плобстер | Marie's nickname for Prince Doria (Pamphili) — sounds like "lobster" |
 | face de pendu | обличчя шибеника | Hanged man's face — expression of misery |
@@ -315,12 +319,12 @@ Established terminology for consistent translation across carnets.
 | avoir beau faire | хоч би що робила | No matter how much one does (idiom)  |
 | nigaud | нетяма | Simpleton, fool (affectionate contempt) |
 | se composer un conte | складати собі казку | Make up a romantic daydream |
-| fast (English, period) | ==fast== + footnote | Victorian English: "loose, improper" (for women) — keep in English |
+| fast (English, period) | ==вільних звичаїв== (of a woman; context: ==легковажна==) | Victorian English "loose, improper"; original → footnote (KRR 2026-10-03). Rendering coined 2026-10-03 |
 
 ### Multilingual Conventions (Carnet 022)
-- English code-switches (fast, foggy, gentlemen riders, London House, make haste, How do you do?, Blackprince): keep in English with ==highlight== and footnote on first meaningful use; routine ones can go without footnote if meaning is clear
-- Gericke's farewell verse (acrostic Requiem eterno...): keep French/Latin original with ==highlight== marks, explain acrostic in footnote
-- Italian mock-titles (illustrissima marchesa duchessa di Matera, cuisinière-a): keep Italian with ==highlight== and footnote
+- English code-switches (fast, foggy, gentlemen riders, London House, make haste, How do you do?, Blackprince): translate into Ukrainian in `==…==`, English → footnote (KRR 2026-10-03). Indicative: foggy → ==туманний==, make haste → ==поспішай==, How do you do? → ==Як ся маєте?==, London House → name of an establishment (name of an establishment: kept as a name, UNSURE), gentlemen riders → ==джентльмени-наїзники== (UNSURE; was kept English as a term)
+- Gericke's farewell verse (acrostic Requiem eterno...): Ukrainian rendering in the text, Latin/French original + explanation of the acrostic in the footnote (original → footnote (KRR 2026-10-03)); the acrostic itself cannot be reproduced
+- Italian mock-titles (illustrissima marchesa duchessa di Matera, cuisinière-a): ==наймилостивіша маркіза-герцогиня ді Матера==, ==кухарка-а== (UNSURE) — Ukrainian in the text, Italian → footnote
 - "Notlimah" (Hamilton reversed): preserve exactly as cipher, no translation
 - Private countdown codes (Wittgenstein 11 10 98765432 1): keep as-is in brackets, RSR explains
 
@@ -344,34 +348,34 @@ Established terminology for consistent translation across carnets.
 |--------|-----------|-------|
 | Bébé (nickname for Gericke) | Бебе | Diminutive nickname; keep as Бебе |
 | bataclan | балаган / компот | Marie's contemptuous collective (also from 022) |
-| Blackprince | Blackprince | Cipher name for Hamilton; keep in English |
+| Blackprince | Блекпринс | Cipher name for Hamilton; NAME exception — transliterated «Блекпринс» (cf. 635 row); English *Black Prince* in the footnote on first use |
 | Notlimah | Нотлімах | Hamilton reversed; cipher — transliterate to Ukrainian letters for clarity |
 | mangeuse de cœurs | пожирачка сердець | "Heart-eater"; Marie's epithet for Basilévitch |
 | la belle barbue | красива бородата | "Beautiful bearded one" — cruel ironic nickname for Basilévitch |
 | femme du monde | світська жінка | Society woman |
 | femme du demi-monde | жінка напівсвіту | Courtesan/kept woman |
 | toqué | навіжений | Touched/crazy (colloquial) |
-| Douchenka / Душенька | Душенька | Russian endearment — keep as Russian original in italics |
+| Douchenka / Душенька | Душенька | Russian endearment: Ukrainian «Душенько» in the text; Russian original → footnote (KRR 2026-10-03; was: keep Russian in italics) |
 | la cascade de Caux | каскад де Ко | Waterfall near Spa |
 | grotte de Romanchy | грот Романші | Cave complex near Spa |
-| H.G.t.D.o.H. | H.G.t.D.o.H. | Marie's code: "His Grace the Duke of Hamilton" — keep English abbreviations |
-| la Dame blanche | «Біла дама» | Boieldieu's opera (1825); translate title, keep French in italic on first use |
+| H.G.t.D.o.H. | H.G.t.D.o.H. | Marie's code: "His Grace the Duke of Hamilton" — abbreviation/cipher kept as a code (exception, UNSURE); when spelled out: ==Його Світлість герцог Гамільтон== with the English → footnote (KRR 2026-10-03) |
+| la Dame blanche | «Біла дама» | Boieldieu's opera (1825); title of a work: Ukrainian title in the text, French title in the footnote on first use |
 | Paul et Virginie | «Поль і Вірджинія» | Saint-Pierre's novel (1788); use standard Ukrainian translation of title |
 | Norma (La Norma) | «Норма» | Bellini's opera (1831); use Italian opera name |
 | Adelina Patti | Аделіна Патті | Famous soprano (1843-1919); reference for vocal excellence |
-| brûlation [sic] | brûlation [sic] | Marie's neologism for "brûlement/cremation"; keep French with [sic] + footnote |
-| comme il faut | comme il faut | Social propriety marker — keep French as in 022 |
+| brûlation [sic] | ==спалення== [sic] | Marie's neologism for "brûlement/cremation"; Ukrainian coinage in the text (rendering coined 2026-10-03), French *brûlation* [sic] → footnote |
+| comme il faut | ==пристойний== / ==як слід== | Social propriety marker — Ukrainian in `==…==`, *comme il faut* → footnote (first occurrence per entry); KRR 2026-10-03, replaces "keep French as in 022" |
 | les carabiniers | карабінери | Offenbach operetta allusion — always arrive too late |
 | en-tout-cas | парасолька-на-всякий-випадок | Small parasol/umbrella for any weather |
 | dames poussière | жінки-пилюка | Marie's coinage: non-entity women, nobodies |
 | M.B. en ne m'oubliez pas | М.Б. незабудками | Forget-me-nots on Gericke's fan gift |
 
 ### Multilingual Conventions (Carnet 021)
-- Russian words (Douchenka, moujik): keep in Russian (Cyrillic) with italics, no translation — they appear as Russian in the original
-- English code-switches (However, H.G.t.D.o.H.): keep in English with ==highlight==
+- Russian words (Douchenka, moujik): Ukrainian in the text (==душенько==, ==мужик==), Russian original → footnote on first use (KRR 2026-10-03; replaces "keep in Russian with italics"). Marie's Russian endearments that are names/nicknames (Моussia/Муся) stay as names.
+- English code-switches (However → ==проте==; H.G.t.D.o.H. → see the cipher row): Ukrainian in `==…==`, English → footnote
 - Gericke's fan inscription "M.B. en ne m'oubliez pas" = initials in forget-me-nots: translate naturally as "М.Б. намальовані незабудками"
 - "Notlimah" cipher: transliterate as Нотлімах in Ukrainian text (readable as cypher)
-- Acrostic CHARLES poem: keep French with Ukrainian note explaining acrostic spelling
+- Acrostic CHARLES poem: Ukrainian rendering in the text, French acrostic + Ukrainian note on the acrostic spelling in the footnote (original → footnote (KRR 2026-10-03); metalinguistic part stays explained)
 
 ## Carnet 019 Additions
 
@@ -386,7 +390,7 @@ Established terminology for consistent translation across carnets.
 | chevaliers du Pince-Nez | лицарі Пенсне | Marie's ironic term for dandies who ogle through lorgnette/pince-nez |
 | calèche à huit ressorts | восьмипружинна коляска | Luxury open carriage, status symbol |
 | voiture à postillons | екіпаж із форейтором | Carriage with postilion rider (très prestigious) |
-| comme il faut | пристойний / пристойна публіка | Socially proper; keep phrase or translate as needed |
+| comme il faut | пристойний / пристойна публіка | Socially proper; ==…== in the text, French → footnote (KRR 2026-10-03) |
 | gens bien | пристойні люди / гідні люди | People of good standing |
 | décès de Baden-Baden | кончина Баден-Бадена | Casino closure 1872; resort lost fashion |
 
@@ -468,23 +472,23 @@ Established terminology for consistent translation across carnets.
 | martyrisation | мучительство | Marie's rare/coined word for systematic torment |
 | faire du grand jeu | пускати пилюку в очі | To put on airs, make a grand display |
 | rôder par les boulevards | блукати бульварами | Wander the boulevards aimlessly |
-| coup de foudre | coup de foudre | Love at first sight; keep French phrase |
-| alla crescendo | alla crescendo | Keep Italian (musical term); Marie uses it naturally |
-| Miserere | Miserere | Latin psalm exclamation; keep in Latin (Psalm 51) |
+| coup de foudre | ==кохання з першого погляду== | Love at first sight; Ukrainian in `==…==`, French → footnote (KRR 2026-10-03; rendering coined) |
+| alla crescendo | alla crescendo | Musical term, internationally naturalised — exception, kept (Marie uses it naturally); UNSURE whether the owner wants ==дедалі гучніше== |
+| Miserere | ==Змилуйся!== / ==Помилуй!== | Latin psalm exclamation (Psalm 51); Ukrainian in `==…==`, Latin → footnote (KRR 2026-10-03; rendering coined) |
 | découcher | ночувати деінде | Stay out all night/sleep away from home |
 | je porte la queue basse | іду з опущеним хвостом | Tail between legs; humiliated, dejected |
 | comme le lait dans lequel est tombée une goutte d'encre | як молоко з краплею чорнил | Marie's recurring self-image for feeling tainted/ruined |
 
 ### Multilingual Conventions (Carnet 019)
-- English code-switches ("accordingly," "bridegroom," "Swiss Times," "ramblings," "driving," "home," "called," "is engaged," "I wonder," "improve," "I did not mean wrong," "The [objet]"): mark with ==highlight== and footnote on first occurrence; routine entries without footnote if meaning is clear
-- Italian passages (Dante quote "Ora incomincian le dolenti note…", "alla crescendo"): mark with ==highlight==, add footnote with attribution
-- Russian exclamations ("Ché malheur"): mark with ==highlight==, explain phonetic Russian code-switching in footnote
+- English code-switches ("accordingly," "bridegroom," "Swiss Times," "ramblings," "driving," "home," "called," "is engaged," "I wonder," "improve," "I did not mean wrong," "The [objet]"): all translated into Ukrainian in `==…==` (accordingly → ==відповідно==, bridegroom → ==наречений==, home → ==дім==, I wonder → ==цікаво==, improve → ==поліпшити==, I did not mean wrong → ==я не мала на думці нічого поганого==; "Swiss Times" is a newspaper title → kept); English → footnote on first occurrence per entry (KRR 2026-10-03)
+- Italian passages (Dante quote "Ora incomincian le dolenti note…" → ==Ось починаються болісні ноти…==; "alla crescendo" see row): Ukrainian in `==…==`, Italian original + attribution in the footnote
+- Russian exclamations ("Ché malheur"): Ukrainian in `==…==` (==Яке нещастя!==), original → footnote; the footnote explains the phonetic Russian code-switch
 - "★text★" = manuscript uncertain reading: preserve as-is with ★ markers
 - "[Rayé:]" = crossed-out text: render as [Викреслено:] in Ukrainian
 - "[Dans la marge:]" / "[En travers:]" = marginal note: render as [На полях:] or [Навскоси:]
 - Manuscript editorial note "[Annotation: 1880...]": render as [Примітка 1880 р.:]
 - "page 172" etc. — Marie's own cross-references: keep as "(сторінка 172)"
-- Hamilton's horses named: "Sir John," "Fantôme," "Mobile II" — keep French/English originals as proper names
+- Hamilton's horses named: "Sir John," "Fantôme," "Mobile II" — proper names, kept (exception)
 
 ### Updated
 - 2026-05-24: Added carnet 019 terms (Paris social world, couture, code names, theater, idioms, multilingual conventions)
@@ -537,9 +541,9 @@ Established terminology for consistent translation across carnets.
 |----------------|-----------|-------|
 | jouk [bourdon] | жук [джміль] | Russian word "жук" (beetle) + French "bourdon" (bumblebee) — family joke for eligible men at Spa |
 | poussière | порох | Marie's term for insignificant people/nobodies |
-| H.G.t.D.o.H. | H.G.t.D.o.H. | Cipher: "His Grace the Duke of Hamilton" — keep English abbreviations (established 021) |
+| H.G.t.D.o.H. | H.G.t.D.o.H. | Cipher: "His Grace the Duke of Hamilton" — abbreviation kept as a code (exception, UNSURE); spelled out → translated (see 357 row) |
 | Notlimah | Нотлімах | Hamilton reversed — cipher transliterated (established 022) |
-| puppy / puppies | цуценя / цуценята | English loanword; Marie's dismissive term for young suitors; keep ==highlight== |
+| puppy / puppies | ==цуценя== / ==цуценята== | Marie's dismissive term for young suitors; Ukrainian in `==…==`, *puppy* → footnote (first occurrence per entry) — KRR 2026-10-03 |
 
 ### Idioms & Expressions (Carnet 020)
 | French | Ukrainian | Notes |
@@ -551,10 +555,10 @@ Established terminology for consistent translation across carnets.
 | invocation | вигук | Marie's self-aware term for her Hamilton outbursts |
 
 ### Multilingual Conventions (Carnet 020)
-- English code-switches ("waterproof," "New Scotland," "I fall in love with my hair," "puppies," "puppy," "flirt"): mark with ==highlight== + footnote on first use; subsequent occurrences without footnote if meaning is clear
+- English code-switches ("waterproof," "New Scotland," "I fall in love with my hair," "puppies," "puppy," "flirt"): Ukrainian in `==…==` (waterproof → ==дощовик==, New Scotland → ==Нова Шотландія==, I fall in love with my hair → ==я закохуюся у власне волосся==, puppy → ==цуценя==); "flirt" is naturalised → ==флірт== without markup; English → footnote on first use per entry (KRR 2026-10-03)
 - Russian words used by family ("jouk," "bourdon" mixing): explain in footnote on first use
-- Miserere (Latin): keep in Latin as Marie wrote it — standard exclamation in her register
-- Latin motto "mulier habuit" etc.: keep Latin with footnote
+- Miserere (Latin): ==Змилуйся!== in the text, Latin → footnote (KRR 2026-10-03; replaces "keep in Latin as Marie wrote it")
+- Latin motto "mulier habuit" etc.: Ukrainian in the text, Latin → footnote (KRR 2026-10-03)
 - Fashion parentheticals "(robe brune Worth, chapeau noir, bien)": keep in parentheses, translate naturally
 - "[Rayé:]" = crossed-out text: render as [Закреслено:] — confirmed convention from 019
 - "[Dans la marge:]" = marginal note: render as [На полях:] — confirmed
@@ -595,15 +599,15 @@ Established terminology for consistent translation across carnets.
 |--------|-----------|-------|
 | charogne | падло | Extremely vulgar: carrion/carcass as insult — equivalent register |
 | salaud | свиня | Bastard/swine — strong insult; "свиня" is closest natural equivalent |
-| mferdje | mferdje | Russian vulgar term, phonetically transcribed; keep with footnote |
+| mferdje | ==мфердже== | Russian vulgar term, phonetically transcribed (UNSURE: Ukrainian in the text is a transliteration); Russian → footnote (KRR 2026-10-03) |
 
 ### Multilingual Conventions (Carnet 025)
-- "Ventre-Saint-Gris!" — Henri IV's oath; keep in French with footnote
-- "Audifferus" — mock-Latin form of Audiffret; keep Latin with footnote
-- "vertueux youth" — mock-English; keep in English with ==highlight== and footnote
-- "nonsenses" — English word in original; keep with ==highlight==
-- "plobsters" — Marie's code word for admirers; keep as ==plobsters== with footnote on first use per carnet
-- "H.G.t.D.o.H." — Hamilton cipher; keep in English per TM convention
+- "Ventre-Saint-Gris!" — Henri IV's oath → ==Хай йому грець!== (coined 2026-10-03; one rendering per tree), French → footnote (first occurrence per entry)
+- "Audifferus" — mock-Latin form of Audiffret → ==Одіффер-ус== / ==Одіффрус== (mock-Latin ending kept; Marie's joke on the name — name-play, treat as metalinguistic: keep the form + footnote explaining the Latin ending; UNSURE)
+- "vertueux youth" — mock-English → ==чеснотлива юність== (UNSURE, joke is the French/English hybrid), English → footnote
+- "nonsenses" — English word in original → ==дурниці== / ==нісенітниці==, English → footnote
+- "plobsters" — Marie's garbled English code word for admirers (lobsters): metalinguistic/coinage — Ukrainian coinage ==плобстери== in the text (transliterated, keeps the garbling), English *plobsters* → footnote on first use per carnet (KRR 2026-10-03; was kept as ==plobsters==)
+- "H.G.t.D.o.H." — Hamilton cipher; kept as code abbreviation (exception, UNSURE); spelled out → translated
 - Crossed-out text: [Викреслено:] — confirmed convention
 - Marginal notes "[Dans la marge:]" → [На полях:]
 - Diagonal inscription "[En travers:]" → [Навскоси:]
@@ -644,14 +648,14 @@ Established terminology for consistent translation across carnets.
 #### London Fashion & Shopping (Carnet 023)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| waterproof | ==waterproof== | English raincoat; keep in English with ==highlight== and footnote |
+| waterproof | ==дощовик== | English raincoat; Ukrainian in `==…==`, English *waterproof* → footnote (KRR 2026-10-03) |
 | amazone | амазонка | Women's riding habit for side-saddle (established earlier) |
 | ombrelle | парасолька | Parasol/sunshade |
 | cravache | хлист | Riding crop/whip |
 | tournures | турнюри | 1870s bustles; fashionable silhouette detail |
 | chignons | шиньйони | Hair buns; exaggerated in 1870s fashion |
 | jupons ouatés | ватяні спідниці | Padded/quilted petticoats; unfashionable provincial style |
-| the City | ==the City== | London's financial district; keep in English with footnote |
+| the City | ==Сіті== | London's financial district — Ukrainian «Сіті» in `==…==`; English *the City* → footnote (name-like; KRR 2026-10-03) |
 
 #### Historical / Cultural (Carnet 023)
 | French | Ukrainian | Notes |
@@ -671,20 +675,20 @@ Established terminology for consistent translation across carnets.
 | Tir / au Tir | тир | Shooting gallery (where Hamilton once stood behind Marie) |
 
 #### Carnet 023 Multilingual Conventions
-- "==waterproof==" — English word in French text; keep in English with ==highlight== + footnote explaining it's a raincoat
-- "==the City==" — London financial district name; keep in English with ==highlight== + footnote
-- "==it is all right!==", "==it is all right==" — Marie's emphatic English code-switch; keep in English with ==highlight== + footnote
-- "==he is of no consequence==" — keep in English with footnote
-- "==she is very wild==" — English comment kept with footnote (wild = unruly, not violent)
-- "==I enjoy my bath==" — English code-switch preserved
-- "==started==" — English word used in French sentence; keep with ==highlight==
-- "==His Grace the Duke of Hamilton==" and "==His Grace etc.==" — keep in English per TM convention (H.G.t.D.o.H. abbreviation)
-- "==tenerissimi==" — Italian farewell; keep Italian with footnote
-- "==Povera bestia!==", "==Brutto==" — Italian code-switch; keep Italian with footnote
-- "==of course==" — English inserted in French; keep with ==highlight== and footnote
-- German verse (Walitsky's): preserve in German with ==highlight== + footnote translating content
-- English verse (Walitsky's deliberately bad English): preserve in English with ==highlight== + footnote explaining it's intentionally bad
-- Russian satirical poem (Walitsky's): preserve in Russian (Cyrillic) with ==highlight==; illegible lines marked "[Решта поезії в дванадцяти рядках по-російськи майже нерозбірлива.]"
+- "==дощовик==" (waterproof) — English word in French text; Ukrainian in the text, English → footnote (it is a raincoat)
+- "==Сіті==" — London financial district; English → footnote
+- "==усе гаразд!==" / "==усе гаразд==" (it is all right) — Marie's emphatic English code-switch; Ukrainian in the text, English → footnote
+- "==він нічого не значить==" (he is of no consequence) — English → footnote
+- "==вона дуже норовлива==" (she is very wild; wild = unruly, not violent) — English → footnote
+- "==я насолоджуюся ванною==" (I enjoy my bath) — English → footnote
+- "==вирушила==" (started) — English word used in French sentence; Ukrainian in the text, English → footnote
+- "==Його Світлість герцог Гамільтон==" ("His Grace the Duke of Hamilton" and "His Grace etc.") — translated, English → footnote; the abbreviation H.G.t.D.o.H. is kept as a code (see row)
+- "==ніжнішого==" / ==найніжніші== (tenerissimi) — Italian farewell; Ukrainian in the text, Italian → footnote (UNSURE: pick by grammatical context)
+- "==Бідолашна тварина!==" (Povera bestia!), "==Бридке створіння==" (Brutto; UNSURE) — Italian → footnote
+- "==звісно==" (of course) — English inserted in French; Ukrainian in the text, English → footnote
+- German verse (Walitsky's): Ukrainian rendering in the text (==…==), German original in the footnote (KRR 2026-10-03; replaces "preserve in German")
+- English verse (Walitsky's deliberately bad English): Ukrainian rendering that keeps the deliberate awkwardness (==…==), English original + note that it is intentionally bad → footnote
+- Russian satirical poem (Walitsky's): Ukrainian rendering in the text (==…==), Russian original in the footnote (KRR 2026-10-03; replaces "preserve in Russian"); illegible lines marked "[Решта поезії в дванадцяти рядках по-російськи майже нерозбірлива.]"
 - "[Шість написаних сторінок вирвано]" — six torn pages; preserve exactly
 - "Airod" / "Airam" — reversal code names (Doria / Marie); keep as-is, explain in context
 - "monstre juif" — preserved verbatim per principle; TR comment notes period antisemitic language
@@ -717,20 +721,20 @@ Established terminology for consistent translation across carnets.
 | traine | шлейф | Dress train; marker of adult status |
 | "La Juive" | «Жидівка» | Halévy opera (1835); preserve period title |
 | époque hamiltonienne | гамільтонівська епоха | Marie's coined term for her Hamilton obsession period |
-| coup de foudre | coup de foudre | Love at first sight; keep French (established TM) |
+| coup de foudre | ==кохання з першого погляду== | Love at first sight; Ukrainian in the text, French → footnote (KRR 2026-10-03; was: keep French) |
 
 ### Social Terms (Carnet 029)
 
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | plaine de Marathon | Марафонська рівнина | Marie's ironic classical comparison for the racecourse |
-| plobster | ==plobster== | Marie's garbled English slang for a gentleman; keep in English with ==highlight== |
+| plobster | ==плобстер== | Marie's garbled English slang for a gentleman (coinage: transliterated, keeps the garbling); English *plobster* → footnote on first use (KRR 2026-10-03) |
 | Détroit des Mouches | Протока мух | Narrow crowded section of the Promenade des Anglais |
 | fétard | фетар | Party-goer/reveler; Marie's nickname in French |
 | dominos | доміно | Hooded cloaks for masquerade balls |
 | poule (races) | поул | Sweepstake pool prize |
-| auto-da-fé | ауто-да-фе | Burning (here: Carnival effigy); keep term with footnote |
-| le macoletti | il macoletti | Italian Carnival candles (*moccoletti*); keep Italian form |
+| auto-da-fé | ауто-да-фе | Burning (here: Carnival effigy); naturalised term in Ukrainian — kept, with footnote |
+| le macoletti | ==мокколетті== | Italian Carnival candles (*moccoletti*); Ukrainian transliteration in the text, Marie's Italian form *le macoletti* → footnote (KRR 2026-10-03; rendering coined) |
 
 ### People (Carnet 029)
 
@@ -746,14 +750,14 @@ Established terminology for consistent translation across carnets.
 
 ### Multilingual Conventions (Carnet 029)
 
-- English extended passage (Jan 27): preserve in English verbatim with ==highlight==; footnote with Ukrainian paraphrase
-- Italian-only entries (Feb 13): preserve in Italian with ==highlight== for each paragraph; full footnote translation
+- English extended passage (Jan 27): Ukrainian translation in the text (run note «Англійською в оригіналі» for whole paragraphs); English original available via the toggle, not copied into the footnote (KRR 2026-10-03; replaces "preserve verbatim")
+- Italian-only entries (Feb 13): Ukrainian translation in the text + run note «Італійською в оригіналі» (KRR 2026-10-03; replaces "preserve in Italian with ==highlight== + full footnote translation")
 - Phonetic Spanish accent (de Gonzales, Feb 14): reproduce phonetically as in original, footnote explains
-- "Il facchino italiano": keep Italian throughout with *italics*, no translation
+- "Il facchino italiano": ==італійський носій== (KRR 2026-10-03; replaces "keep Italian throughout with italics, no translation"), Italian → footnote on first use
 - "[Mots noircis:]" → [Слова зачорнені:] — new: blacked-out words
 - "[Le bas de la page est déchirée...]" → [Нижня частина сторінки відірвана й видалена.] — new
-- Deo juvante (Latin): keep Latin with footnote
-- Miserere! (Latin): keep Latin per TM
+- Deo juvante (Latin): ==з Божою поміччю== (pilot 034 uk footnote form: «В оригіналі латиною: «Deo juvante».»; KRR 2026-10-03)
+- Miserere! (Latin): ==Змилуйся!== , Latin → footnote
 
 ### Idioms (Carnet 029)
 
@@ -824,21 +828,21 @@ Established terminology for consistent translation across carnets.
 | Apollo Belvedere | Аполлон Бельведерський | Classical ideal of male beauty (Vatican sculpture) |
 
 #### Multilingual Conventions (Carnet 028)
-- "H[is] G[race] t[he] D[uke] o[f] H[amilton]" — Hamilton cipher signature: keep in English with ==highlight== + footnote
-- "Juventus Nicæa!" — Latin exclamation; keep with ==highlight== + footnote
-- "finita la commedia" — Italian; keep with ==highlight== + footnote
-- "a giorno" — Italian; keep with ==highlight== + footnote
-- "Quid est?" — Latin; keep with ==highlight== + footnote
-- "O Italia paese barbaro…" — Italian tirade; keep full Italian with ==highlight== + footnote
-- "Go on ou Good bye" — English audience shouts; keep in English
-- "attractive" — English word in French text; keep with ==highlight==
-- "Blackprince" — cipher name; keep in English with ==highlight== + footnote
-- "Hong for [sic]" — Marie's garbled "longing for"; keep with [sic] + footnote
-- "Bouver et foumer" — deliberate mispronunciation joke; keep in French with ==highlight== + footnote
-- "Beati, chi amano il tè!" — mock-Italian beatitude; keep Italian with footnote
+- "H[is] G[race] t[he] D[uke] o[f] H[amilton]" — Hamilton cipher signature: kept as a code (exception, UNSURE); decoded form ==Його Світлість герцог Гамільтон== if spelled out
+- "Juventus Nicæa!" — Latin exclamation → ==Юнь Ніцци!== (UNSURE; coined), Latin → footnote
+- "finita la commedia" → ==комедія скінчена==, Italian → footnote
+- "a giorno" → ==як удень== (lit. lit up like day), Italian → footnote
+- "Quid est?" → ==Що це?==, Latin → footnote
+- "O Italia paese barbaro…" — Italian tirade → Ukrainian tirade in the text (==О Італіє, варварський краю…==, coined), Italian → footnote
+- "Go on ou Good bye" — English audience shouts → ==Продовжуйте або прощавайте==, English → footnote
+- "attractive" — English word in French text → ==привабливий==, English → footnote
+- "Blackprince" — cipher name; name exception: «Блекпринс» (cf. the 022/023 rows)
+- "Hong for [sic]" — Marie's garbled "longing for" → ==туга за== (the garbling and [sic] go into the footnote with the original *Hong for*)
+- "Bouver et foumer" — deliberate mispronunciation joke (metalinguistic exception): keep the joke form in italics + footnote, or a Ukrainian equivalent mispronunciation if one works (UNSURE)
+- "Beati, chi amano il tè!" — mock-Italian beatitude → ==Блаженні, хто любить чай!==, Italian → footnote
 - "[Rayé:]" → [Викреслено:]
 - "[Annotation: 1880.]" → [Примітка 1880 р.:]
-- "skunks" — English fur trim; keep in English with ==highlight== + footnote
+- "skunks" — English fur trim → ==скунси== / ==скунсове хутро==, English → footnote
 
 ## Carnet 026–027 Additions
 
@@ -887,68 +891,68 @@ Established terminology for consistent translation across carnets.
 #### Latin Passages (Carnets 026–027)
 | Latin | Convention | Notes |
 |-------|-----------|-------|
-| Miser puer! | ==Miser puer!== + footnote | "Poor boy!" — Marie's Latin comment on Paul |
-| odiat hunc puerum | ==odiat hunc puerum== + footnote | "May he hate this boy" — Marie's garbled Latin; preserve errors |
-| res rara! | ==res rara!== + footnote | "A rare thing!" — exclamation |
-| Somnia absurda! | ==Somnia absurda!== + footnote | "Absurd dreams!" — Marie's dream commentary |
-| Vana somnia frequentes aut semper fallaces | ==Vana somnia...== + footnote | "Vain dreams, frequent or always deceptive" — maxim |
-| somnia semper fallaces | ==somnia semper fallaces== + footnote | Shorter form; Marie's grammatical errors preserved |
-| Fortuna! | ==Fortuna!== + footnote | Latin exclamation of fate/luck |
-| mater dolorosa | ==mater dolorosa== + footnote | "Sorrowful mother" — applied ironically to Marie's disgust dream |
-| con amore | ==con amore== + footnote | "With love" — applied to Latin study; Italian/Latin overlap |
-| pulchritudo homni potens est | ==pulchritudo homni potens est== + footnote | Mangled Latin: "beauty is powerful over all"; footnote notes "homni" error for "omni" |
-| Duk superbus | ==Duk superbus== + footnote | Garbled Latin: "proud Duke"; annotation between manuscript lines |
+| Miser puer! | ==Бідний хлопчик!== (original → footnote (KRR 2026-10-03)) | Marie's Latin comment on Paul |
+| odiat hunc puerum | ==хай ненавидить цього хлопця== (original → footnote (KRR 2026-10-03)) | Marie's garbled Latin; her errors go into the footnote |
+| res rara! | ==рідкісна річ!== (original → footnote (KRR 2026-10-03)) | exclamation |
+| Somnia absurda! | ==Безглузді сни!== (original → footnote (KRR 2026-10-03)) | Marie's dream commentary |
+| Vana somnia frequentes aut semper fallaces | ==Марні сни, часті чи завжди оманливі== (original → footnote (KRR 2026-10-03)) | maxim |
+| somnia semper fallaces | ==сни завжди оманливі== (original → footnote (KRR 2026-10-03)) | shorter form; Marie's grammatical errors → footnote |
+| Fortuna! | ==Фортуна!== (original → footnote (KRR 2026-10-03)) | exclamation of fate/luck (goddess name: kept as Фортуна) |
+| mater dolorosa | ==скорботна мати== (original → footnote (KRR 2026-10-03)) | applied ironically to Marie's disgust dream |
+| con amore | ==з любов'ю== (original → footnote (KRR 2026-10-03)) | applied to Latin study |
+| pulchritudo homni potens est | ==краса всесильна над усіма== (original → footnote (KRR 2026-10-03)) | mangled Latin; footnote notes "homni" error for "omni" |
+| Duk superbus | ==гордий герцог== (original → footnote (KRR 2026-10-03)) | garbled Latin ("Duk"); annotation between manuscript lines |
 
 #### Italian Passages (Carnets 026–027)
 | Italian | Convention | Notes |
 |---------|-----------|-------|
-| fuggi, fuggi sei perduto | ==fuggi, fuggi sei perduto== + footnote | "Flee, flee, you are lost" — Il Trovatore (Verdi) |
-| ed io osava quest' angelo maledir | ==ed io osava quest' angelo maledir== + footnote | "And I dared to curse this angel" — Il Trovatore |
-| Eccola / Oh che bella angiolina! | ==Eccola== / ==Oh che bella angiolina!== + footnote | Street compliment; footnote notes Italian street custom |
-| mi [corrono?] per la mente | ==mi [corrono?] per la mente== + footnote | "Rush through my mind" — uncertain reading; preserve [?] |
-| basta! | ==basta!== | "Enough!" — common; footnote only on first use per entry |
-| mio eterno d'ailleurs | ==mio eterno d'ailleurs== + footnote | Mixed Italian-French meta-commentary; preserve mixed language |
+| fuggi, fuggi sei perduto | ==тікай, тікай, ти загинув== (original → footnote (KRR 2026-10-03)) | Il Trovatore (Verdi) |
+| ed io osava quest' angelo maledir | ==а я наважувався проклинати цього ангела== (original → footnote (KRR 2026-10-03)) | Il Trovatore |
+| Eccola / Oh che bella angiolina! | ==Ось вона== / ==О, яка гарна янголятка!== (original → footnote (KRR 2026-10-03)) | street compliment; footnote notes Italian street custom |
+| mi [corrono?] per la mente | ==[пробігають?] мені в думці== (original → footnote (KRR 2026-10-03)) | uncertain reading; preserve [?] |
+| basta! | ==доволі!== / ==годі!== (original → footnote (KRR 2026-10-03)) | "Enough!" — footnote only on first use per entry |
+| mio eterno d'ailleurs | ==мій вічний, до речі== (original → footnote (KRR 2026-10-03)) | mixed Italian-French meta-commentary; mixture explained in the footnote (UNSURE) |
 
 #### English Passages (Carnets 026–027)
 | English | Convention | Notes |
 |---------|-----------|-------|
-| I long | ==I long== + footnote | Marie's English code-switch for emotional longing |
-| That is the question | ==That is the question== + footnote | Hamlet reference |
-| Alack! | ==*Alack!*== + footnote | Shakespearean exclamation; rare archaic English form |
-| of no consequence | ==of no consequence== + footnote | English dismissal |
-| puppy | ==puppy== + footnote | English for young dog (also Marie's admirer-term per 020 TM) |
-| policeman | ==policeman== + footnote | English word in French context |
-| molto graziosa, sehr schön, how pretty, très joli | ==molto graziosa, sehr schön, how pretty, très joli== + footnote | Four-language Promenade compliment; footnote on multilingual Nice |
+| I long | ==я тужу== (original → footnote (KRR 2026-10-03)) | Marie's English code-switch for emotional longing |
+| That is the question | ==Ось у чім питання== (original → footnote (KRR 2026-10-03)) | Hamlet reference (pilot 034 uk choice) |
+| Alack! | ==Ох, леле!== (original → footnote (KRR 2026-10-03)) | Shakespearean exclamation; archaic English form |
+| of no consequence | ==нікчемна справа== / ==не має значення== (original → footnote (KRR 2026-10-03)) | English dismissal |
+| puppy | ==цуценя== (original → footnote (KRR 2026-10-03)) | English for young dog (also Marie's admirer-term per 020 TM) |
+| policeman | ==поліцейський== (original → footnote (KRR 2026-10-03)) | English word in French context |
+| molto graziosa, sehr schön, how pretty, très joli | ==дуже гарненька, дуже гарна, як гарно, дуже мила== (original → footnote (KRR 2026-10-03)) | Four-language Promenade compliment; footnote notes the languages (Italian/German/English/French) and multilingual Nice |
 
 #### Spanish Passages (Carnets 026–027)
 | Spanish | Convention | Notes |
 |---------|-----------|-------|
-| Gracias a Dios | ==Gracias a Dios== + footnote | "Thank God" in Spanish |
-| Qué malheur | ==Qué malheur== + footnote | Hybrid Spanish "Qué" + French "malheur"; footnote notes spelling influence |
+| Gracias a Dios | ==Слава Богу== (original → footnote (KRR 2026-10-03)) | "Thank God" in Spanish |
+| Qué malheur | ==Яке нещастя== (original → footnote (KRR 2026-10-03)) | Hybrid Spanish "Qué" + French "malheur"; footnote notes spelling influence |
 
 #### Idioms & Expressions (Carnets 026–027)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | charmant modèle de sobriété | чарівний взірець тверезості | Sarcastic: "charming model of sobriety" — Marie about drunk Georges |
-| Ventre-Saint-Gris! | ==Ventre-Saint-Gris!== + footnote | Henri IV's oath; keep French with footnote (established 025; reconfirmed 027) |
+| Ventre-Saint-Gris! | ==Хай йому грець!== | Henri IV's oath; Ukrainian in the text, French → footnote (KRR 2026-10-03; was: keep French) |
 | foi de Marie! | —клянусь честю Марі!— | Marie's personal oath; translate spirit |
 | Je ne vis pas quand je ne suis pas habillée | Я не живу, коли не вдягнена | Marie's aphorism (Dec 23, 1874); foundational self-portrait line |
 
 #### Literary & Cultural References (Carnets 026–027)
 | Reference | Notes |
 |-----------|-------|
-| "Saprelotte je grelotte" | Rhyming phrase from Malézieux song; keep French with footnote on rhyme |
-| Gulliver's Travels "flapper" | English word; keep ==flapper== with footnote explaining Swift's Laputa servants |
-| Dante, Inferno III "Quivi sospire lamenti…" | Keep Italian with full attribution footnote (Inf. III) |
+| "Saprelotte je grelotte" | Rhyming phrase from Malézieux song; Ukrainian rendering that keeps the rhyme (rendering to be coined in the wave; UNSURE), French → footnote on the rhyme |
+| Gulliver's Travels "flapper" | English word; ==служник-ляпальник== (UNSURE, coined); Ukrainian in the text, English *flapper* → footnote explaining Swift's Laputa servants |
+| Dante, Inferno III "Quivi sospire lamenti…" | Ukrainian rendering in the text (==Там зітхання, плач і голосіння…==), Italian original + attribution (Inf. III) in the footnote (KRR 2026-10-03) |
 | EMILE acrostic | Dina's acrostic poem about Émile d'Audiffret; explain acrostic in footnote |
 | Henri IV humiliation parallel | Marie identifies with Henri IV before Navarre; footnote on historical event |
 | "Attendons...Dieu est grand!" | Marie's resigned piety phrase; translate naturally |
 
 #### Multilingual Conventions (Carnets 026–027)
-- Latin passages: always ==highlight== + footnote with translation and any grammatical error notes
-- Italian opera quotes: always ==highlight== + footnote with opera title and composer
-- English code-switches: ==highlight== + footnote on first use per entry
-- Spanish: ==highlight== + footnote
+- Latin passages: Ukrainian in the text (==…==); Latin original, with Marie's grammatical errors, in the footnote (KRR 2026-10-03; replaces "always ==highlight== + footnote with translation")
+- Italian opera quotes: Ukrainian in the text (==…==); Italian original + opera title and composer in the footnote
+- English code-switches: Ukrainian in the text (==…==); English → footnote on first use per entry
+- Spanish: Ukrainian in the text (==…==); Spanish → footnote
 - Reversed cipher names (Терффідуа, Енотеас, Саетоне): transliterate; explain reversal in footnote on first encounter per entry
 - Marginal notes [На полях:] with reversed names: keep reversal, explain in footnote
 - Julian vs. Gregorian calendar: footnote when Marie notes date discrepancy (12-day difference in 1874)
@@ -1012,36 +1016,36 @@ Established terminology for consistent translation across carnets.
 | déferrée (comme une jument) | підкований кінь | "Thrown shoe" = defeated/deflated; Ukrainian rendering inverted for sense |
 | Flûte ! | Дудки! | Disappointment (reconfirmed from 029) |
 | Chiens de chiens ! / Psi z psami | Пси з псами! | Marie's oath (reconfirmed from 029) |
-| Que c'est que la vie ! | Що таке life! | "Ce que c'est que la vie!" — Marie code-switches English "life"; footnote + ==highlight== not used; exclamation retained in spirit |
+| Que c'est que la vie ! | Що таке життя! | "Ce que c'est que la vie!" — Marie code-switches to English "life"; ==життя== in the text, English *life* → footnote (KRR 2026-10-03) |
 | comme Epicure | як Епікур | Later annotation (Aug 1875) on communal living dream |
 
 #### Latin Passages (Carnet 030)
 | Latin | Convention | Notes |
 |-------|-----------|-------|
-| amo hunc puerum | ==amo hunc puerum== + footnote | "I love this boy" — Marie's Latin for her feeling about Audiffret |
-| Deo juvante | ==Deo juvante== + footnote | "God willing" (reconfirmed from 029) |
+| amo hunc puerum | ==люблю цього хлопця== (original → footnote) | "I love this boy" — Marie's Latin for her feeling about Audiffret |
+| Deo juvante | ==з Божою поміччю== (original → footnote) | "God willing/with God's help" (reconfirmed from 029) |
 
 #### Italian Passages (Carnet 030)
 | Italian | Convention | Notes |
 |---------|-----------|-------|
-| fra quattro mura | ==fra quattro mura== + footnote | "Within four walls" — Rossini aria from Il Barbiere |
-| buia compagnia | ==buia compagnia== + footnote | "Gloomy company" — Marie's ironic Italian for group of young men (Mar 28) |
-| italiano | *italiano* in italics | Nationaity word kept in Italian when used as noun |
+| fra quattro mura | ==між чотирьох стін== (original → footnote) | Rossini aria from Il Barbiere |
+| buia compagnia | ==похмура компанія== (original → footnote) | Marie's ironic Italian for group of young men (Mar 28) |
+| italiano | ==італієць== (original → footnote on first use) | Nationality word, was kept in Italian |
 
 #### English Passages (Carnet 030)
 | English | Convention | Notes |
 |---------|-----------|-------|
-| keen eyes | ==keen eyes== + footnote | Sharp/penetrating eyes; Marie describes Prince of Wales (Mar 31) |
-| in every divorce court | ==in every divorce court== + footnote | Quote from Rickard about Prince Tchelesky (Apr 1) |
-| The duke of Hamilton is going to marry the daughter of the Duke of Manchester. | ==full sentence== + footnote | Elder's news of Hamilton's engagement; landmark moment; full English preserved |
-| Ce que c'est que la vie! / life | life preserved in Ukrainian text | Marie code-switches to English for "life"; keep English word, footnote |
-| plobster | ==plobster== + footnote | Marie's unidentified word (Mar 30); may be garbled "proletarian"; preserve original spelling |
-| is very wild | ==is very wild== + footnote | English gossip about Hamilton "not getting on with wife" (Mar 21) |
+| keen eyes | ==пронизливі очі== (original → footnote) | Sharp/penetrating eyes; Marie describes Prince of Wales (Mar 31) |
+| in every divorce court | ==у кожному суді у справах про розлучення== (original → footnote) | Quote from Rickard about Prince Tchelesky (Apr 1) |
+| The duke of Hamilton is going to marry the daughter of the Duke of Manchester. | ==Герцог Гамільтон збирається одружитися з дочкою герцога Манчестера.== (original → footnote) | Elder's news of Hamilton's engagement; landmark moment |
+| Ce que c'est que la vie! / life | ==життя== in the Ukrainian text | Marie code-switches to English for "life"; English *life* → footnote (KRR 2026-10-03; was: keep English word) |
+| plobster | ==плобстер== (original → footnote) | Marie's unidentified word (Mar 30); may be garbled "proletarian"; garbling reproduced by transliteration, original spelling in the footnote |
+| is very wild | ==вона дуже норовлива== (original → footnote) | English gossip about Hamilton "not getting on with wife" (Mar 21) |
 
 #### Multilingual Conventions (Carnet 030)
 - "le diable" = Hamilton cipher: translate as "диявол" but TR-note in first entry explaining code; do NOT add footnote in text (readers of carnet know)
-- Italian nationalities/words (italiano, buia compagnia): ==highlight== + footnote on first use
-- English gossip quotes: ==highlight== + footnote with Ukrainian paraphrase
+- Italian nationalities/words (italiano, buia compagnia): Ukrainian in the text (==…==), Italian → footnote on first use
+- English gossip quotes: Ukrainian in the text (==…==); English original in the footnote
 - "[Cinq lignes cancellées:]" → [П'ять закреслених рядків:] — cancelled lines notation
 - "[Annotation; Août 1875.]" → [Приписка; Серпень 1875.] — marginal annotations
 - "[Navskosi:]" → [Навскоси:] — diagonal/marginal note in Ukrainian files (already in TM but reconfirmed 030)
@@ -1090,20 +1094,20 @@ Established terminology for consistent translation across carnets.
 | faire tourner les tables | крутити столи | Table-turning séance (spiritualist parlor game) |
 | faire passer le fluide | передати флюїд | Transmit spiritualist "fluid" energy by touch |
 | bouts-rimés | буріме | Parlor rhyming game on pre-set rhyme words |
-| jettatore (Italian) | ==jettatore== + footnote | Evil-eye caster; keep Italian with highlight |
+| jettatore (Italian) | ==той, хто наврочує== / ==наврочувач== | Evil-eye caster; Ukrainian in the text, Italian *jettatore* → footnote (KRR 2026-10-03; coined) |
 | mauvais œil / mauvaise langue | лихе око / лихий язик | Evil eye / spiteful tongue |
 | se fâcher pâle | розлютитися до блідоти | Go pale with rage (vs. red with rage) |
-| Ventre Saint-Gris! | ==Ventre Saint-Gris!== + footnote | Henri IV's oath; keep French (established 025/027) |
+| Ventre Saint-Gris! | ==Хай йому грець!== | Henri IV's oath; French → footnote (KRR 2026-10-03) |
 | homme de bien | порядний чоловік | Man of good standing/moral quality |
 | la canaille | чернь | Rabble, riffraff (Marie's class-contempt term) |
 | bétonner (colloquial) | відмолотити / відлупцювати | To thrash/beat (Marie's rough colloquialism) |
 
 #### Multilingual Conventions (Carnet 035)
-- ==frightful spirits== (English) — Marie's English for a terrible mood; keep in English with ==highlight== + footnote
-- ==London House== (English) — fashionable Nice restaurant-hotel; keep in English with ==highlight== + footnote on first use
-- ==Ventre Saint-Gris!== (French oath) — keep French with footnote
-- ==H[is] G[race] t[he] D[uke] o[f] Hamilton== — Marie's obsessive English cipher; keep English with ==highlight== + footnote (per TM Hamilton-cipher convention)
-- *douraque* (Russian "дурак") — keep within the comic verse rhyme; footnote notes code-switching
+- ==жахливий настрій== (frightful spirits) — Marie's English for a terrible mood; Ukrainian in the text, English → footnote
+- London House — fashionable Nice restaurant-hotel: name of an establishment (name exception, kept «London House»), footnote on first use (UNSURE)
+- ==Хай йому грець!== (Ventre Saint-Gris!, French oath) — French → footnote
+- ==Його Світлість герцог Гамільтон== (H[is] G[race] t[he] D[uke] o[f] Hamilton) — Marie's obsessive English cipher; translated, English → footnote (KRR 2026-10-03; abbreviated forms: see the cipher row)
+- *douraque* (Russian "дурак") — inside the comic verse rhyme: Ukrainian in the verse (==дурень==, rhyme permitting); Marie's *douraque* + the note on code-switching → footnote
 - *senti-mentalisme* — Marie's hyphenation preserved as "сентимент-алізм"
 - Bouts-rimés verses: recreate as rhyming Ukrainian doggerel preserving comic spirit (not literal); footnote the French rhyme words and any puns (tour/four = вежа/пежа; -asse cascade → -ація cascade)
 
@@ -1167,7 +1171,7 @@ Established terminology for consistent translation across carnets.
 | qui vivra verra | поживемо — побачимо | Proverb: time will tell |
 | sens dessus dessous | догори дриґом | Topsy-turvy |
 | il y a de quoi mourir | хоч помирай | It's enough to die (of boredom) |
-| comme il faut | comme il faut | Socially proper — keep French (established TM) |
+| comme il faut | ==пристойний== | Socially proper — Ukrainian in the text, French → footnote (KRR 2026-10-03; was: keep French) |
 | ne pas se gêner | не церемонитися | Not to hold back |
 | brosser (qqn) | відшмагати | To thrash (pun on brosse = brush/beating) |
 | me tenir en émoi | тримати в зворушенні | Keep me emotionally stirred |
@@ -1178,15 +1182,15 @@ Established terminology for consistent translation across carnets.
 #### Multilingual Conventions (Carnet 032)
 - Russian *plachtchanitsa* (плащаниця, Holy Friday shroud): translate as плащаниця + footnote noting Russian original
 - Russian *botvinia* (ботвиня, cold kvass soup): translate + footnote
-- Russian Easter hymn "Ta résurrection Seigneur": ==Воскресіння Твоє== + footnote (Orthodox "Voskreseniye Tvoye")
+- Russian Easter hymn "Ta résurrection Seigneur": ==Воскресіння Твоє, Господи== + footnote (Orthodox "Voskreseniye Tvoye"; French/Russian original quoted there)
 - Russian "Moussia, Gritsia se marie": keep meaning in Ukrainian text, footnote notes Russian original + diminutives
-- Latin "In nomine Patris...": ==highlight== + footnote (liturgical formula used humorously)
-- Italian *Cena* (Last Supper): ==highlight== + footnote (Marie uses Italian, doesn't know French *la Cène*)
-- English code-switches (==fast==, ==he stared at me==, ==love/like==, ==Blackprince==, ==Take your fat carcase out of the way==, ==the fat carcase==): keep English with ==highlight== + footnote; "fast" per established 022 TM convention
-- English ==London House== (Nice restaurant-hotel): keep English + footnote (established 035)
-- Spanish *novio* (suitor): keep + footnote
-- French oath ==Ventre-Saint-Gris!== (Henri IV): keep French + footnote (established 025/027/035)
-- French ==Coquine de Biou==, ==Pardi!== (Niçois dialect): keep French + footnote
+- Latin "In nomine Patris...": ==В ім'я Отця…== in the text, Latin → footnote (liturgical formula used humorously)
+- Italian *Cena* (Last Supper): ==Таємна вечеря== in the text, Marie's Italian *Cena* → footnote (she uses Italian, doesn't know French *la Cène*)
+- English code-switches (fast → ==вільних звичаїв==, he stared at me → ==він витріщався на мене==, love/like → ==кохаю/люблю==, Blackprince → «Блекпринс» (name), Take your fat carcase out of the way → ==Забери з дороги свою товсту тушу==, the fat carcase → ==товста туша==): Ukrainian in the text, English → footnote (KRR 2026-10-03; renderings coined)
+- London House (Nice restaurant-hotel): name of an establishment, kept (established 035; UNSURE)
+- Spanish *novio* (suitor): ==наречений== / ==залицяльник== by context, Spanish → footnote
+- French oath Ventre-Saint-Gris! (Henri IV): ==Хай йому грець!==, French → footnote (first occurrence per entry)
+- French ==Coquine de Biou== (Niçois dialect → ==Ах ти ж бестіє!==, UNSURE, coined), ==Pardi!== → ==Ну звісно!==; French/Niçois → footnote (first occurrence per entry)
 - Niçois/Provençal coachman dialect (ben autré chosé, voui, queu moi, méreu): render in standard Ukrainian, footnote notes the accent and gives the French dialect text
 - "saligottes [sic]" (Marie's coarse coinage): translate as нечупари + footnote (the [sic] attaches to the French)
 - Manuscript notations: [Rayé:] → [Викреслено:]; [Lignes cancellées:] → [Закреслені рядки:] / [...закреслено]; [Dans la marge:] → [На полях:]; [En travers:] → [Навскоси:]; [Bas de page supprimé] → [Низ сторінки видалено]; [Entrée vide ou perdue] → [Запис порожній або втрачений]
@@ -1243,16 +1247,16 @@ Established terminology for consistent translation across carnets.
 | essuyer le nez à qqn | утерти носа комусь | Put someone in their place |
 | je ne touche pas la terre de joie | я не торкаюся землі з радості | Walking on air with joy |
 | moutons de Panurge | Панургові вівці | Following blindly one after another (Rabelais) |
-| Ventre Saint-Gris! | ==Ventre Saint-Gris!== + footnote | Henri IV's oath; keep French (established 025/027/035) |
-| Miserere! | ==Miserere== + footnote | Latin psalm exclamation (established TM) |
-| je ne sais quoi | ==je ne sais quoi== + footnote | Keep French; "сама не знаю що" in footnote |
+| Ventre Saint-Gris! | ==Хай йому грець!== | Henri IV's oath; French → footnote (KRR 2026-10-03) |
+| Miserere! | ==Змилуйся!== | Latin psalm exclamation; Latin → footnote (KRR 2026-10-03) |
+| je ne sais quoi | ==сама не знаю що== | Ukrainian in the text; French → footnote (KRR 2026-10-03; was: keep French, gloss in footnote) |
 
 #### Multilingual Conventions (Carnet 033)
-- Dante quotes (Inferno II "O muse o alto ingegno…", "Qui si passa la tua nobilita"): keep Italian with ==highlight== + footnote, note Marie's quoting errors
-- Italian inserts (*inammorati*, *a più non posso*, *femmina celeberrima*, Montecchi/Capuleti): keep Italian with ==highlight==/italics + footnote
-- Sallust Latin (Bellum Catilinae opening, "secôra [sic]"): keep Latin with ==highlight== + footnote with translation and error note (secôra→pecora)
-- English code-switches ("shall perform our pilgrimage", "That is the question", "H[is] G[race]…"): keep English with ==highlight== + footnote
-- "mio bella petchouna" (Italian + Russian *печенька*): keep mixed original with ==highlight==, footnote explains the Italian/Russian blend
+- Dante quotes (Inferno II "O muse o alto ingegno…", "Qui si passa la tua nobilita"): Ukrainian rendering in the text (==…==), Italian original with Marie's quoting errors in the footnote (KRR 2026-10-03)
+- Italian inserts (*inammorati* → ==закохані==, *a più non posso* → ==щосили==, *femmina celeberrima* → ==знаменита жінка==, Montecchi/Capuleti → names, kept as «Монтеккі/Капулетті»): Ukrainian in the text, Italian → footnote
+- Sallust Latin (Bellum Catilinae opening, "secôra [sic]"): Ukrainian in the text; Latin + Marie's error (secôra→pecora) in the footnote
+- English code-switches ("shall perform our pilgrimage" → ==здійснимо наше паломництво==, "That is the question" → ==Ось у чім питання==, "H[is] G[race]…" → see cipher row): Ukrainian in the text, English → footnote
+- "mio bella petchouna" (Italian + Russian *печенька*): Ukrainian endearment in the text (==моя гарна печенько==, UNSURE), footnote explains the Italian/Russian blend (metalinguistic)
 - Russian proverb "cochon tu n'es pas un cheval" (Papa): translate literally "свиня, ти ж не кінь" + footnote noting it's a Russian proverb
 - Russian code-switch in public ("Baissez votre ombrelle"): render naturally in Ukrainian; original was Russian per LAN
 - "Cap de Biou!" (Nice dialect exclamation): transliterate "Кап-де-Б'ю!"
@@ -1340,16 +1344,16 @@ Established terminology for consistent translation across carnets.
 #### Latin & Multilingual Conventions (Carnet 037)
 | Passage | Convention | Notes |
 |---------|-----------|-------|
-| Quem spes delusit, huic querela convenit (Phaedrus) | ==highlight== + footnote | Marie garbles ("Qucm...dclusit") quoting from memory — preserve garbling, footnote correct form |
-| querela mihi convenit | ==highlight== + footnote | Marie adapts Phaedrus to first person |
-| Veni, vidi, vici | ==highlight== + footnote | Caesar; ironic for romantic conquest |
-| dubiae nobilitatis | ==highlight== + footnote | "of doubtful nobility" |
-| Quem spem delusit... (later, correct form) | ==highlight== + footnote | Same maxim, less garbled in 037.0143 |
-| Quid evenit? / Amor et spes... / Dies Irae (lacrimosa dies illa...) | ==highlight== + footnote | Final all-Latin entry (July 31); Marie's own sentences + requiem hymn; preserve error "mie" for "pie" |
-| Anima, coraggio! / tanto ero in fretta... (Italian) | ==highlight== + footnote | Self-exhortation; Italian inserts |
-| partenza del facchino di Nizza (Italian) | ==highlight== + footnote | Contemptuous "departure of the porter of Nice" for Audiffret |
-| Cap de Biou! (Niçois/Provençal) | ==highlight== + footnote | Minced oath, lit. "head of an ox" (biòu = ox), softening "Cap de Diou"; NOT Gascon "Head of God" (RSR correction 2026-10-01); (cf. "Кап-де-Б'ю!" in 033, here original spelling kept) |
-| unlucky (English) | ==unlucky== + footnote | Marie's habitual English emotional insertion |
+| Quem spes delusit, huic querela convenit (Phaedrus) | ==Кого надія зрадила, тому належить скарга== (original → footnote (KRR 2026-10-03)) | Marie garbles ("Qucm...dclusit") quoting from memory — preserve garbling, footnote correct form |
+| querela mihi convenit | ==мені належить скарга== (original → footnote (KRR 2026-10-03)) | Marie adapts Phaedrus to first person |
+| Veni, vidi, vici | ==Прийшов, побачив, переміг== (original → footnote (KRR 2026-10-03)) | Caesar; ironic for romantic conquest |
+| dubiae nobilitatis | ==сумнівного шляхетства== (original → footnote (KRR 2026-10-03)) | "of doubtful nobility" |
+| Quem spem delusit... (later, correct form) | ==Кого надія зрадила…== (original → footnote (KRR 2026-10-03)) | Same maxim, less garbled in 037.0143 |
+| Quid evenit? / Amor et spes... / Dies Irae (lacrimosa dies illa...) | ==Що сталося? / Любов і надія… / День гніву (день сліз той…)== (Marie's own sentences + requiem hymn) (original → footnote (KRR 2026-10-03)) | Final all-Latin entry (July 31); Marie's own sentences + requiem hymn; preserve error "mie" for "pie" |
+| Anima, coraggio! / tanto ero in fretta... (Italian) | ==Душе, відвага! / я так поспішав…== (original → footnote (KRR 2026-10-03)) | Self-exhortation; Italian inserts |
+| partenza del facchino di Nizza (Italian) | ==від'їзд носія з Ніцци== (original → footnote (KRR 2026-10-03)) | Contemptuous "departure of the porter of Nice" for Audiffret |
+| Cap de Biou! (Niçois/Provençal) | ==Кап-де-Біу!== (original → footnote (KRR 2026-10-03)) | Minced oath, lit. "head of an ox" (biòu = ox), softening "Cap de Diou"; NOT Gascon "Head of God" (RSR correction 2026-10-01); (cf. "Кап-де-Б'ю!" in 033; the Niçois original spelling now goes in the footnote) |
+| unlucky (English) | ==нещасливий== (original → footnote) | Marie's habitual English emotional insertion |
 | J. V. A. = Je Vous Aime | Я. В. К. + footnote | Audiffret's coded biscuit-letters; render as Ukrainian initials (Я Вас Кохаю), footnote the cipher |
 | "Lui"/"Il" capitalized for Hamilton | «Він»/«Нього» (capitalized) | Quasi-divine reverence; keep capitalized |
 
@@ -1381,8 +1385,8 @@ Established terminology for consistent translation across carnets.
 | Schlangenbad | Шланґенбад | Sleepy thermal spa where the family stays ("m'assoupit") |
 | Schwalbach | Швальбах | Livelier neighbouring spa Marie prefers ("paradis") |
 | Rauenthal | Рауенталь | Heights above the Rhine |
-| Kursaal | ==Kursaal== / курзал | German spa assembly hall; keep German with footnote |
-| Kurhaus | ==Kurhaus== / курзал | German spa house; keep German with footnote |
+| Kursaal | курзал | German spa assembly hall; Ukrainian «курзал» (naturalised) in the text, German *Kursaal* → footnote on first use |
+| Kurhaus | курзал / курортний будинок | German spa house; Ukrainian in the text, German → footnote on first use |
 | Nassauer Hof | Nassauer Hof | Fashionable Wiesbaden hotel; keep German name |
 | Newsky (Nevsky) | Невський (проспект) | Main avenue of St. Petersburg |
 
@@ -1393,7 +1397,7 @@ Established terminology for consistent translation across carnets.
 | Mme Paskevitch | пані Паскевич | Carlo's bride-to-be after her divorce |
 | Batourine | Батурін | Mother's suitor since age 12; emotional Wiesbaden reunion |
 | Mme Batourine | пані Батуріна | His older wife; "du meilleur monde"; grande parleuse |
-| Diadia (Georges) | Дядя | Russian "uncle" (fam.); = Georges; keep with footnote first use |
+| Diadia (Georges) | дядя Жорж → Дядя | Russian "uncle" (fam.) = Georges; Ukrainian ==дядя== in the text, Russian original → footnote on first use |
 | M. de Toulouse | пан де Тулуз | Companion of Diadia |
 | Stiopa / Machenka | Стьопа / Маченька | Uncle Stiopa & wife Maria (established 018/025) |
 | princesse Souvoroff | княгиня Суворова | (established 019) |
@@ -1411,9 +1415,9 @@ Established terminology for consistent translation across carnets.
 | comtesse Rudiger | графиня Рюдіґер | "vieille célébrité" |
 | comtesse Benvenuti | графиня Бенвенуті | Amiable but "presque toujours grise" |
 | Plevasko | Плеваско | Lawyer awaiting Stiopa in Paris |
-| Obeziana (la demoiselle) | ==Обезіана== / Обезіана | Marie's mock nickname (Russ. "monkey"); ==highlight==+footnote first use, italic thereafter |
+| Obeziana (la demoiselle) | Обезіана | Marie's mock nickname (Russ. "monkey"); a nickname = name: «Обезіана» (italic after first use), footnote with the Russian *обезьяна* on first use |
 | Calderon | Кальдерон | "le petit Espagnol noir" |
-| Blackprince | ==Blackprince== | English cipher for prince Wittgenstein (established 022); keep English + footnote |
+| Blackprince | Блекпринс | Cipher name for prince Wittgenstein (established 022); NAME exception: transliterated, English → footnote on first use |
 | (prince Pierre) Wittgenstein | (князь П'єр) Вітґенштайн | "Pierre" of Nice; Emile Sayn-Wittgenstein on a visiting card |
 
 #### Period Vocabulary & Idioms (Carnet 039)
@@ -1443,13 +1447,13 @@ Established terminology for consistent translation across carnets.
 | faire son entrée dans le monde | вийти у світ | Society debut |
 
 #### Multilingual & Manuscript Conventions (Carnet 039)
-- Latin "vox faucibus exit" (Virgil), Italian "Il fiato mi manca!": keep original with ==highlight== + footnote
-- English code-switches (==pleasantly enough==, ==deliciously==, ==Blackprince==): keep English with ==highlight== + footnote
-- French exclamation in a dream (==Vive la Reine==): keep French with ==highlight== + footnote
-- German terms (==Kursaal==, ==Kurhaus==): keep German with ==highlight== + footnote
+- Latin "vox faucibus exit" (Virgil) → ==голос застряє в горлі==; Italian "Il fiato mi manca!" → ==Мені забракло подиху!==; originals → footnote
+- English code-switches (pleasantly enough → ==досить приємно==, deliciously → ==чудово==, Blackprince → «Блекпринс» (name)): Ukrainian in the text, English → footnote
+- French exclamation in a dream (Vive la Reine): ==Хай живе королева!==, French → footnote
+- German terms (Kursaal, Kurhaus): see the rows — «курзал» in the text, German → footnote
 - Russian patronymic address (Maria Stepanovna, Nadejda Stepanovna): render as Маріє/Надіє Степанівно
-- "Diadia" (Russ. uncle): ==Дядя== + footnote on first use
-- "Obeziana": ==highlight==+footnote on first use, italic *Обезіана* thereafter
+- "Diadia" (Russ. uncle): ==Дядя== + footnote on first use (Russian original)
+- "Obeziana": «Обезіана» (a nickname — name), footnote on first use, italic thereafter
 - [Une ligne cancellée] → [Один рядок закреслено]; [Quatre lignes cancellées] → [Чотири рядки закреслено]
 - [deux lignes illisibles] → [два рядки нерозбірливі]; [une ligne illisible] → [один рядок нерозбірливий]
 - [Rayé: ...] → [Викреслено: ...]
@@ -1519,7 +1523,7 @@ Established terminology for consistent translation across carnets.
 | binocle | бінокль | Opera glasses (established 029) |
 | femme de soleil | жінка сонця | Marie's self-description (weather-dependent moods) |
 | je vois tout en gris | бачу все в сірому | Depressed outlook |
-| bustle (English) | ==bustle== + footnote | Urban commotion; kept English |
+| bustle (English) | ==метушня== | Urban commotion; Ukrainian in the text, English *bustle* → footnote (KRR 2026-10-03) |
 | combinaisons | розрахунки / плани | Schemes/strategies (false-friend trap: NOT undergarment) |
 | figure | обличчя | 1870s: face, NOT body shape |
 | pourvoir au superflu | забезпечувати надмірне | Provide for luxuries not necessities |
@@ -1534,17 +1538,17 @@ Established terminology for consistent translation across carnets.
 | cocottes | кокотки | Kept women (established 018) |
 | diseuse de bonne aventure | ворожка | Fortune-teller |
 | l'Eternel (for Hamilton) | Вічний | Marie's reverent epithet for the Duke |
-| Bigre! | *Bigre!* (kept in French, italics; owner ruling 2026-09-29) | Mild expletive |
+| Bigre! | ==Ну й ну!== / ==Ого!== (coined 2026-10-03; one rendering per tree) | Mild expletive; REVERSED 2026-10-03 (was: *Bigre!* kept in French, italics; owner ruling 2026-09-29): Ukrainian in the text, *Bigre!* → footnote (first occurrence per entry) |
 | Il ne manquait plus que cela! | Тільки цього ще бракувало! | "That was the last thing I needed!" |
 | accaparer | прибрати до рук | Monopolize (stronger than modern) |
 | sale monde | простолюд | Low-class people (pejorative) |
 
 #### Multilingual & Cultural Conventions (Carnet 038)
-- English code-switches (==money, money, money==, ==These are the questions==, ==awfully expressive==, ==gentleman==, ==bustle==, ==God save the Queen==): keep English with ==highlight== + footnote
-- Russian (Marie's diminutive "Moussia"/"Muся"): keep Russian with ==highlight== + footnote (cf. Муся, 023)
-- Latin (==Miserere==, ==Nec plus==, ==Requiem delectabile [sic]==): keep Latin with ==highlight== + footnote; preserve [sic] on the garbled mock-Latin
-- Italian Dante-style (==A moi veniva la creatura bella. Di bianco vestita==): keep Italian with ==highlight== + footnote; later in-text echo "di bianco vestita" left unmarked
-- French song/opera titles kept: "Ma belle Girofla" (Lecocq operetta), «Річард Левине Серце» (Grétry, *Richard Cœur de Lion*) — footnote
+- English code-switches (money, money, money → ==гроші, гроші, гроші==, These are the questions → ==Ось які питання==, awfully expressive → ==страшенно виразно==, gentleman → ==джентльмен==, bustle → ==метушня==, God save the Queen → ==Боже, бережи королеву==): Ukrainian in the text, English → footnote (KRR 2026-10-03)
+- Russian (Marie's diminutive "Moussia"/"Muся"): a nickname = name, kept «Муся» (cf. Муся, 023); Russian original → footnote on first use
+- Latin (Miserere → ==Змилуйся==, Nec plus → ==Ні кроку далі== (UNSURE: *nec plus ultra* is also naturalised), Requiem delectabile [sic] → ==Приємний спочинок== [sic] → footnote with the mock-Latin original): Ukrainian in the text, Latin → footnote
+- Italian Dante-style (A moi veniva la creatura bella. Di bianco vestita): Ukrainian rendering in the text (==…==), Italian → footnote; later in-text echo "di bianco vestita" → Ukrainian, unmarked
+- French song/opera titles: titles of works — Ukrainian title in the text with French title in the footnote: "Ma belle Girofla" (Lecocq operetta), «Річард Левине Серце» (Grétry, *Richard Cœur de Lion*)
 - Marot-style begging verse & Richard-Cœur-de-Lion parody verse: rendered as free verse keeping cadence/tone; rhyme not fully reproduced
 - Allusions footnoted: Buckingham/Anne d'Autriche (Dumas), Fouquet/Vaux-le-Vicomte, Clément Marot
 - SPELLING/wordplay "je ne m'en fiche pas mai" [for "mal"]: rendered as wordplay "начхати — і не мало"
@@ -1605,7 +1609,7 @@ Established terminology for consistent translation across carnets.
 | en toilette | вбрана | Dressed up (established 032) |
 | amour-propre | самолюбство | Self-regard (not mere vanity) |
 | la séparation (de corps) | розлучення | Legal separation (divorce illegal in France until 1884) |
-| comme il faut | ==comme il faut== + footnote | Keep French (established 021/032); used with irony for the father |
+| comme il faut | ==пристойний== | Used with irony for the father; Ukrainian in the text, French → footnote (KRR 2026-10-03; was: keep French) |
 
 #### Idioms & Expressions (Carnet 036)
 | French | Ukrainian | Notes |
@@ -1629,10 +1633,10 @@ Established terminology for consistent translation across carnets.
 | s'apprivoiser | ручніти | To warm up socially (lit. "tame oneself") |
 
 #### Multilingual Conventions (Carnet 036)
-- English code-switches (==Audiffret cares for me only as much as I care for him==, ==what is the matter?==): keep English with ==highlight== + footnote; manuscript "1 care" restored to "I care"
-- Latin tags (==sed fides deficit==, ==Quid melior?==, ==Audacter et amanter==): keep Latin with ==highlight== + footnote; corrupt "scd fidcs deficit" restored to "sed fides deficit" per LAN
-- ==London House== (Nice restaurant-hotel): keep English + footnote (established 035)
-- ==comme il faut==: keep French + footnote (established 021/032)
+- English code-switches (Audiffret cares for me only as much as I care for him → ==Одіффре піклується про мене лише настільки, наскільки я про нього==; what is the matter? → ==що сталося?==): Ukrainian in the text, English → footnote; manuscript "1 care" restored to "I care"
+- Latin tags (sed fides deficit → ==та вірності бракує==; Quid melior? → ==Що ліпше?==; Audacter et amanter → ==Сміливо й закохано==): Ukrainian in the text, Latin → footnote; corrupt "scd fidcs deficit" restored to "sed fides deficit" per LAN (UNSURE on Quid melior?/Audacter et amanter renderings)
+- London House (Nice restaurant-hotel): establishment name, kept (established 035; UNSURE)
+- comme il faut → ==пристойний==, French → footnote (KRR 2026-10-03)
 - "déclar... [sic]": Audiffret's cut-off "déclaration" → "деклар… [sic]"; the [sic] attaches to the French slip
 - Manuscript footnote marker "^1^" (content unknown): preserve as superscript ¹ in the Ukrainian text
 - Manuscript notations: [En travers:] → [Навскоси:]; [Rayé:] → [Викреслено:]; [Une ligne cancellée:] → [Один рядок закреслено:]; [Six lignes cancellées] → [Шість рядків закреслено]
@@ -1648,7 +1652,7 @@ Established terminology for consistent translation across carnets.
 |--------|-----------|-------|
 | Kechko | Кечко | |
 | Plevasko / Mme Plevasko | Плеваско / пані Плеваско | |
-| de Gonzales | де Ґонсалес | His accented "Maria" kept in Latin script ==highlight==+footnote (preserves the code-switch) |
+| de Gonzales | де Ґонсалес | His accented "Maria" (Spanish accent): reproduced phonetically in Cyrillic per the original, the footnote explains (metalinguistic exception) |
 | Remy | Ремі | Marie's mock-engagement |
 | Moreno | Морено | |
 | vicomte Vigier | віконт Віж'є | |
@@ -1668,8 +1672,8 @@ Established terminology for consistent translation across carnets.
 
 #### Multilingual & Naming Conventions (Carnet 040)
 - "Le Sport"→«Ле Спор»; "La Chatte blanche"→«Біла кішка»; "Procès Veauradieux"→«Процес Ворадьє»
-- Latin "Sola sum", "homo celeber": keep Latin with ==highlight== + footnote
-- Italian "mi vendicar", "questa cara Gioia di Schlangenbad": keep Italian ==highlight== + footnote
+- Latin "Sola sum" → ==Я сама==, "homo celeber" → ==славна людина==: Ukrainian in the text, Latin → footnote
+- Italian "mi vendicar" → ==помститися==, "questa cara Gioia di Schlangenbad" → ==ця люба Джоя із Шлангенбада== (Gioia: name/nickname): Ukrainian in the text, Italian → footnote
 - Marie's misspelled signature "Bashkirseff" → "Башкирцева" (no [sic]; the dropped Latin letter carries no meaning in Cyrillic transliteration — consistent with the 041 precedent)
 
 ### Updated
@@ -1705,13 +1709,13 @@ Established terminology for consistent translation across carnets.
 | arrondir les angles | згладжувати гострі кути | To smooth over awkward facts |
 | poitrinaire | чахоточний | Tuberculosis (period term; reconfirmed from TM phtisie/сухоти) |
 | fiacre | фіакр | Hired carriage/cab |
-| Gloriae cupiditate | ==Gloriae cupiditate== + footnote | Latin motto "by desire for glory"; recurs as Marie's personal device; keep Latin with ==highlight== |
+| Gloriae cupiditate | ==З жадоби слави== | Latin motto "by desire for glory"; recurs as Marie's personal device; Ukrainian in the text, Latin → footnote (original → footnote (KRR 2026-10-03)) |
 
 #### Multilingual Conventions (Carnet 061)
 - "hamiltonnement" → "гамільтоново" (coined adverb; do NOT translate literally as "по-гамільтонськи" which is clumsier)
-- Latin epigraph (Publius Syrus): keep Latin ==highlight== + footnote with translation + attribution
-- Marie's English cipher at carnet close: ==H[is] G[race] t[he] D[uke] of[f] H[amilton]== — keep English + footnote (per TM Hamilton-cipher convention)
-- Word-list "Mari, femme, duc, amour, Gioia *" — preserve as French/Italian without translation (cryptic mnemonic); italicize "Gioia" as Italian; add footnote explaining "Gioia" = радість (іт.)
+- Latin epigraph (Publius Syrus): Ukrainian in the text; Latin + attribution in the footnote (KRR 2026-10-03)
+- Marie's English cipher at carnet close: H[is] G[race] t[he] D[uke] of[f] H[amilton] — code abbreviation kept (see cipher row; UNSURE); if spelled out: ==Його Світлість герцог Гамільтон==
+- Word-list "Mari, femme, duc, amour, Gioia *" — Ukrainian in the text (==Марі, дружина, герцог, любов, Радість *==), footnote explains "Gioia" = радість (іт.) and the cryptic mnemonic; was: "preserve as French/Italian without translation" (UNSURE: the word-list is cryptic, owner may want Gioia kept as the name)
 - Cagliostro reference: keep name + footnote on first occurrence per carnet
 - "le Surprenant*" asterisk: always include the asterisk (it's Marie's own code-name marker)
 - "les prêtres" (referring to Antonelli clerical family): translate as «священики»/«ці священики» — NOT as «єзуїти»
@@ -1750,8 +1754,8 @@ Established terminology for consistent translation across carnets.
 
 ### Carnet 063 Multilingual Conventions
 - "Caccia-Club" — Italian club name; keep as-is (no translation)
-- "Gloriae cupiditate" (para 063.DROPPED-0500) — Latin "desire for glory"; keep in Latin with ==highlight== + footnote
-- "[His] Grace [the] D[uke] of H[amilton]" (para 063.DROPPED-0500) — abbreviated English; keep abbreviation with ==highlight== and footnote explaining full form
+- "Gloriae cupiditate" (para 063.DROPPED-0500) — ==З жадоби слави==, Latin → footnote
+- "[His] Grace [the] D[uke] of H[amilton]" (para 063.DROPPED-0500) — abbreviated English cipher; code abbreviation kept (UNSURE), full form explained in the footnote
 - "[mots rayés]" / "[deux mots rayés]" — manuscript crossed-out words: render as "[слова закреслено]" / "[два слова закреслено]"
 - Manuscript "Pietro*" asterisk — Marie's own code-marker; always preserve
 - "Santa Fé" — Marie's pseudonym for herself in Pietro correspondence; keep in Spanish (established carnet 062)
@@ -1762,7 +1766,7 @@ Established terminology for consistent translation across carnets.
 ## Wave 062–064 Standards & Names (2026-06-06)
 
 ### UK Code-Switch Standard (project-wide, established this wave)
-- **Foreign-language code-switches** (Latin, Italian, German, English in foreign script) → `==highlight==` + footnote. Every `==span==` needs a matching footnote; add footnotes even for bare foreign quotes.
+- **Foreign-language code-switches** (Latin, Italian, German, English, Spanish, Russian, French tics) → **REVISED 2026-10-03 (KRR): translated into Ukrainian in `==…==`, original → footnote** (marker right after the closing `==`). Every `==span==` still needs its matching footnote.
 - **Marie's own emphasis** on French/Ukrainian words → keep `*italic*` (do NOT convert to ==).
 - **Transliterated/translated work-titles** (e.g. «Дон Паскуале», «Руї Блас») → `*italic*`, NOT == (not foreign-script code-switches).
 - Never let `==` leak into `%% … %%` source/comment blocks — those keep the original *italics* for source fidelity.
@@ -1807,11 +1811,11 @@ Marie travels from the Tarnovsky estate to her father's estate at Gavronci and t
 ### Key Terms & Idioms (Carnet 065)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| gommeux / la gomme | ==gommeux== / ==gomme== | 1870s slang fop/dandy. KEPT IN FRENCH with ==highlight== + footnote on first use (065.0062), because a running pun (gommeux←gomme=gum→"transparent"→"a quality prized in painting", entry 08-23) hinges on the French word. NOT translated to «фертик» here for that reason |
+| gommeux / la gomme | (no rendering fixed yet) | 1870s slang fop/dandy. 2026-10-03 (KRR): translate — no French kept in the text. The pun (gommeux←gomme=gum→"transparent"→"a quality prized in painting", entry 08-23) is metalinguistic: render the word in the text with a Ukrainian rendering that carries the pun if one exists, else explain the pun in the footnote with the French. UNSURE (owner/TM ruling needed); until then the 065 pilot form stands |
 | Petite-Russie / petit-russien | Малоросія / малоросійською | Period imperial term for Ukraine; footnote on first use |
 | hetman / sceptre du hetman | гетьман / гетьманська булава | Cossack ruler; "sceptre"→«булава» |
 | Troisième Section | Третій відділ | Tsarist secret police; footnote |
-| genitor (Latin) | ==genitor== | Marie's ironic Latin for her father; ==highlight== + footnote |
+| genitor (Latin) | ==родитель== | Marie's ironic Latin for her father; Ukrainian in the text, Latin *genitor* → footnote (KRR 2026-10-03) |
 | drochki-de course | бігові дрожки | Racing droshky; footnote |
 | chevaux isabelle | коні масті ізабела | Pale-cream horse colour; footnote |
 | maréchal de noblesse | ватажок дворянства | (per TM 023) |
@@ -1820,7 +1824,7 @@ Marie travels from the Tarnovsky estate to her father's estate at Gavronci and t
 | se tenait à quatre | зі шкури пнувся, аби | Idiom: restrained himself with effort |
 | jeter des pierres dans le jardin de qqn | пускати шпильки на чиюсь адресу | Idiom: make veiled jabs — NOT literal "stones in garden" |
 | comme des nègres (period idiom) | мов невільники | Period racially-charged idiom for tireless service; rendered «мов невільники» to keep sense without modern slur; TR note flags period register |
-| Bigre ! | *Bigre!* (kept in French, italics; owner ruling 2026-09-29) | Mild period expletive |
+| Bigre ! | ==Ну й ну!== / ==Ого!== | Mild period expletive; REVERSED 2026-10-03 (was *Bigre!* kept in French; owner ruling 2026-09-29); *Bigre!* → footnote first occurrence per entry |
 | fichu-père / fichu-lecteurs (Marie's quirk) | клятий-батько / кляті-читачі | Playful "fichu-" prefix kept as «клятий-» |
 | petit crevé | фітюлька-чепурун | 1870s slang for affected dandy |
 | sellette (jeu) | гарячий стілець | Parlor-game "hot seat" |
@@ -1867,10 +1871,10 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 | habits pontificaux | папське вбрання | Formal dress for papal Rome |
 | singe encagé | мавпа в клітці | Marie's self-image of social exhibition |
 | costume de moine / capuchon de moine | чернечий костюм / каптур | Her defensive "monk" carnival armour |
-| veglione | ==veglione== | Grand masked ball; ==highlight==+footnote (іт.) |
-| coriandoli | ==coriandoli== | Carnival confetti; ==highlight==+footnote (іт.) |
-| barcaccia | ==barcaccia== | Boat-shaped front theatre box; ==highlight==+footnote (іт.) |
-| lazzaroni | ==lazzaroni== | Naples street-poor; ==highlight==+footnote |
+| veglione | ==маскарад== / ==бал-маскарад== | Grand masked ball; Ukrainian in the text, Italian → footnote (KRR 2026-10-03) |
+| coriandoli | ==конфетті== | Carnival confetti; Ukrainian in the text («конфетті» is the standard word), Italian → footnote |
+| barcaccia | ==ложа-«човен»== | Boat-shaped front theatre box; Ukrainian in the text (coined: UNSURE), Italian → footnote |
+| lazzaroni | ==лаццароні== (naturalised historical term) | Naples street-poor; «лаццароні» is a standard Ukrainian historical word — kept as a naturalised term, with footnote |
 | domino | доміно | Hooded masquerade cloak |
 | grisette | ґризетка | Working-girl of loose morals; footnote |
 | interdit (legally) | під опікою | Judicially deprived of managing own affairs; footnote |
@@ -1881,13 +1885,13 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 | comme le naufragé s'accroche à un brin de paille | як потопельник хапається за соломинку | Idiom of desperate attachment |
 | faire de trou dans l'eau | бити повітря | Idiom: to strive in vain |
 | vieux style | старого стилю | Julian calendar; footnote |
-| Skating / Skating-rink / rink (English) | ==Skating== / ==rink== | English code-switch throughout; ==highlight==+footnote per file |
+| Skating / Skating-rink / rink (English) | ==ковзанка== / ==роликова ковзанка== | English code-switch throughout; Ukrainian in the text, English → footnote on first use per file (KRR 2026-10-03) |
 
 ### Conventions (Carnet 068)
 - "II" / "I!" — Marie's double-bar emphasis punctuation: preserved as-is.
 - "fichu-" prefix («fichu-père», «fichu-coquin») → «осоружний-/клятий-» (per TM 065 «клятий-»).
-- French acrostic on "ÉMILE" (068.0396-0157) + Girofla Serbia song (068.0403-0163): acrostic kept in French ==highlight==+footnote with Ukrainian gloss (first-letters untranslatable); the comic song rendered as Ukrainian verse (it is Marie's own French joke, not a code-switch).
-- Italian code-switches (Pietro reproaches, train-station, fake telegram) and Latin («Culpa mea», «Dubium…») → ==highlight==+footnote.
+- French acrostic on "ÉMILE" (068.0396-0157) + Girofla Serbia song (068.0403-0163): the acrostic is metalinguistic — Ukrainian gloss in the text, French acrostic kept in the footnote (first-letters untranslatable); the comic song rendered as Ukrainian verse (Marie's own French joke, not a code-switch).
+- Italian code-switches (Pietro reproaches, train-station, fake telegram) and Latin («Culpa mea» → ==Моя вина==, «Dubium…» → ==Сумнів, ілюзія, обман, утиск==) → Ukrainian in `==…==`, original → footnote (KRR 2026-10-03).
 - Altamura's mangled French (eou/«еу», «Poua vous serouiar») → phonetic Ukrainian preserving the buffoonery.
 - "dialogue petit-russien" → «малоросійський діалог» (Marie marks family switching to Ukrainian).
 
@@ -1923,11 +1927,11 @@ Continuation of the father-reunion stay at Gavronci, Poltava social rounds, the 
 | fichu-père / fichus-lecteurs | клятий батько / кляті читачі | Marie's playful "fichu-" prefix (per 065 TM) |
 | gommeux (non-pun contexts) | фертик | rendered «фертик» here (gandin→фертик precedent); NO gum/transparency pun in 066, so the 065 keep-in-French rationale does not apply |
 | petit-russien (language) | малоросійська | period term for Ukrainian; footnote |
-| comme il faut | comme il faut | kept French; ==highlight==+footnote on first use (09-08), bare French in later recurrences |
+| comme il faut | ==пристойний== | Ukrainian in the text; French → footnote on first use per entry (KRR 2026-10-03; was: bare French) |
 | Gritz/Grof homophone ruse | Гриць / Ґроф | «Ґроф» = рос. граф; footnote explains the homophonic deception (09-16) |
 
 ### Multilingual / Manuscript (Carnet 066)
-- Latin tags (Lacrymosa, O rus, Audaces fortuna juvat, Et lacryma et riou [corrupted], al paterno tetto [Italian], expectation [English]) → ==highlight==+footnote.
+- Latin tags (Lacrymosa → ==День сліз==, O rus → ==О село==, Audaces fortuna juvat → ==Сміливцям доля помагає==, Et lacryma et riou [corrupted], al paterno tetto [Italian] → ==до батьківської домівки==, expectation [English] → ==очікування==): Ukrainian in `==…==`, original → footnote (UNSURE on the corrupted tag).
 - Manuscript `<u>…</u>` HTML underline straddling a word boundary (source `<u>Vierge porte ma</u>lheur`) → preserved verbatim as `<u>Богородиця приносить не</u>щастя` (09-27). Triggers a benign latin-in-cyr WARN; source-faithful, leave it.
 - Markers [замазано:]/[Викреслено:]/[На полях:]/[Навскоси:]/[Угорі сторінки:]/[sic] all preserved.
 - Empty/heading-only entries (09-14 placeholder, 10-07/10-08 heading-only, 10-09-11/10-12-13 frontmatter-only) match source emptiness.
@@ -1961,7 +1965,7 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 ### Period Vocabulary & Idioms (Carnet 067)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Skating-rink / Skating (Cercle de la Méditerranée) | ковзанка / ролердром | English code-switch; ==highlight==+footnote on first use (067.1490); roller-skating 1870s craze. «Середземноморський клуб» for the Cercle |
+| Skating-rink / Skating (Cercle de la Méditerranée) | ковзанка / ролердром | English code-switch → Ukrainian in the text, English → footnote on first use (067.1490); roller-skating 1870s craze. «Середземноморський клуб» for the Cercle |
 | fichus-ignorants (Marie's coinage) | кляті-невігласи | per «fichu-»→«клятий-» convention (065/066) |
 | le Goloss (Russian newspaper) | «Голос» | St. Petersburg liberal paper; Russ. голос = voice |
 | Golova / Douma (Russian) | голова / дума | mayor / city-hall; Marie's linguistic aside, gloss kept |
@@ -1982,7 +1986,7 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 | Tite-Live | Тіт Лівій | Livy; Marie compares him to «Александр Дюма» (the NOVELIST — Russified-form Dumas is CORRECT here, NOT the uncle «Олександр») |
 
 ### Code-Switches / Manuscript (Carnet 067)
-- Latin/Italian tags (Via e al diavolo, Chi lo sa?, Est socia mortis homini vita ingloria, Tu quoque?, Agnus Dei) → ==highlight==+footnote (per wave standard).
+- Latin/Italian tags (Via e al diavolo → ==Геть, до біса!==, Chi lo sa? → ==Хто зна?==, Est socia mortis homini vita ingloria → ==Життя без слави — супутниця смерті для людини== (UNSURE), Tu quoque? → ==І ти?==, Agnus Dei → ==Агнче Божий==) → Ukrainian in `==…==`, original → footnote (KRR 2026-10-03).
 - Marie's own FRENCH verses (the "veux savoir l'amour" quatrain 067.1106, the "Partant pour la Serbie" parody 067.1213, the Offenbach Belle-Hélène refrain) → rendered as Ukrainian VERSE (her own jokes, not foreign code-switches).
 - Markers [зачорнені слова:] (Mots noircis), [викреслено:]/[Викреслені слова], [На полях:], [Навскоси:] all preserved.
 - Marie's own misdated double headings on merged entries (e.g. 067.1229 «# Неділя»/«## Субота», 067.1267 «# Понеділок»/«## Неділя») — source-faithful, preserve both.
@@ -2027,7 +2031,7 @@ Continuation of Book 10 from carnet 068: Marie, ~18, stranded in Naples in Lent,
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | cocotte | кокотка | (per 018) kept woman/courtesan; central social-terror motif this carnet |
-| Skating / Veglione | ==Skating== / ==Veglione== | English/Italian code-switches → ==highlight==+footnote per file (per 068) |
+| Skating / Veglione | ==ковзанка== / ==бал-маскарад== | English/Italian code-switches → Ukrainian in the text, original → footnote (per 068, KRR 2026-10-03) |
 | charcutiers (Germans) | ковбасники | Marie's pejorative for Germans/Prussians (Doenhoff's party) |
 | table d'hôte | за загальним столом | (per 022/068) |
 | s'encanaille | братається з наволоччю | debases himself with low company |
@@ -2036,12 +2040,12 @@ Continuation of Book 10 from carnet 068: Marie, ~18, stranded in Naples in Lent,
 | ni viande, ni poisson | ні риба ні м'ясо | Russian proverb → Ukrainian equivalent idiom |
 | brûler ses vaisseaux | спалити свої кораблі | idiom: commit irrevocably |
 | la Fatalité / fataliste | Фатум / фаталістка | Romantic "Fate" capitalized |
-| gettatura | ==gettatura== | Neapolitan evil-eye; ==highlight==+footnote (іт.) |
-| rara avis | ==rara avis== | Latin "rare bird" (Juvenal); ==highlight==+footnote |
+| gettatura | ==наврочення== | Neapolitan evil-eye; Ukrainian in the text, Italian → footnote |
+| rara avis | ==рідкісний птах== | Latin "rare bird" (Juvenal) — Ukrainian in the text, Latin → footnote (UNSURE: *rara avis* is also naturalised) |
 | fichu docteur | клятий доктор | per «fichu-»→«клятий-» convention (065/066) |
 | trente-six (mots/morceaux) | безліч / сила | idiom "thirty-six" = "very many" (per 067), NOT literal |
 | par excellence | понад усе | (per 023) |
-| comme il faut | comme il faut | kept French (established TM) |
+| comme il faut | ==пристойний== | Ukrainian in the text, French → footnote (KRR 2026-10-03; was: kept French) |
 | interdit (legally) | під опікою | (per 068) judicially deprived of managing affairs |
 | roi de cœur/carreau/trèfle/pique; dame de carreau/trèfle | чирвовий/бубновий/трефовий/піковий король; бубнова/трефова дама | cartomancy suit-cards in the fortune-telling entries (03-03/04) |
 | écarté | екарте | two-player card game; footnote |
@@ -2057,9 +2061,9 @@ Continuation of Book 10 from carnet 068: Marie, ~18, stranded in Naples in Lent,
 | roi de Thulé (Gounod, Faust) | король Туле | aria; footnote |
 
 ### Conventions (Carnet 069)
-- Italian dialogue/quotes (the mandoline-teacher exchange 0315–0323, the invented poster 0170, Melissano's "Per grazia…" 0480, the invitation 0283-0284, name-cards 0466) → ==highlight==+footnote each.
-- Latin tags (rara avis, Dubium…Oppresio, Gloriae Cupiditate) → ==highlight==+footnote (Gloriae Cupiditate per 063).
-- English code-switches (Skating, comfortable, riding-hot, skatinant[sic]) → ==highlight==+footnote; "riding-hot"/"skatinant" are Marie's/Dina's anglicism coinages, preserved + glossed.
+- Italian dialogue/quotes (the mandoline-teacher exchange 0315–0323, the invented poster 0170, Melissano's "Per grazia…" 0480, the invitation 0283-0284, name-cards 0466) → Ukrainian in `==…==`, Italian → footnote each (KRR 2026-10-03; whole paragraphs: run note «Італійською в оригіналі»).
+- Latin tags (rara avis → ==рідкісний птах==, Dubium…Oppresio → ==Сумнів, ілюзія, обман, утиск==, Gloriae Cupiditate → ==З жадоби слави==) → Ukrainian in `==…==`, Latin → footnote.
+- English code-switches (Skating → ==ковзанка==, comfortable → ==зручно==, riding-hot, skatinant [sic]) → Ukrainian in `==…==`, English → footnote; "riding-hot"/"skatinant" are Marie's/Dina's anglicism coinages — reproduced as Ukrainian coinages (==райдинг-гарячий==, ==скейтуючи== [sic], UNSURE), original coinage + gloss in the footnote.
 - Markers [Викреслено:]/[Закреслено:]/[Слова зачорнено:]/[На полях:]/[Навскоси:]/[sic] all preserved per established conventions.
 - HTML `<u>…</u>` underline straddling a word boundary (0513 source `<u>et retombée dix</u>`) preserved verbatim as `<u>й знову падала десять</u>` (per 066 precedent).
 - Marie's «II»/«I!» double-bar emphasis punctuation and «!!»/«!!!»/«?!!!» runs preserved as-is.
@@ -2104,7 +2108,7 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 | Carricolo | каррікколо | overloaded Neapolitan cart; footnote |
 | gris (drunk) | напідпитку | per TM 018; "ivre mort"→«п'яний як чіп» |
 | poisson d'avril | перше квітня | April-fool joke (footnote) |
-| Skating / Skating-rink | ==Skating== + footnote (uk wave 2026-10-01; was ==Скейтинг==) | English code-switch (per 067/068); ==highlight== |
+| Skating / Skating-rink | ==ковзанка== (2026-10-03, KRR; was ==Skating== + footnote since uk wave 2026-10-01, ==Скейтинг== before) | English code-switch (per 067/068) → Ukrainian in the text, English → footnote |
 | pesage | вагова | weighing enclosure (per 022) |
 | casaque Louis XV | казакин у стилі Людовіка XV | per TM «casaque»→«жакет»; sicilienne→сицилієн (footnote) |
 | froc blanc à capuchon | білий халат із каптуром | informal morning robe (cf. 068 «каптур») |
@@ -2118,10 +2122,10 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 | faire peau neuve | скинути стару шкіру | snake-molt image preserved |
 
 ### Multilingual / Manuscript (Carnet 070)
-- Dante quotations kept in ORIGINAL ITALIAN (with Marie's transcription errors intact), ==highlight==+footnote with UK gloss: Inferno I:37-40 (070.0085), Vita Nuova XXVI "Tanto gentile" (070.0809), Inferno I:16-18 split across 070.0845-0111 (one continuous quote — footnote on closing para), Inferno I:41 (070.0858).
-- Princess Gerace's Italian panic cry (070.0220) → kept Italian ==highlight==+footnote.
-- Italian "nebbioso" (070.0861) → kept ==highlight==+footnote.
-- Latin motto "Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate" (070.DROPPED-0198-0199, Marie's own) → kept Latin ==highlight==, footnote on closing line.
+- Dante quotations (Marie's transcription errors intact in the FOOTNOTE; Ukrainian rendering in the text, KRR 2026-10-03; was: kept in Italian): Inferno I:37-40 (070.0085), Vita Nuova XXVI "Tanto gentile" (070.0809), Inferno I:16-18 split across 070.0845-0111 (one continuous quote — footnote on closing para), Inferno I:41 (070.0858).
+- Princess Gerace's Italian panic cry (070.0220) → Ukrainian in `==…==`, Italian → footnote.
+- Italian "nebbioso" (070.0861) → ==туманний==, Italian → footnote.
+- Latin motto "Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate" (070.DROPPED-0198-0199, Marie's own) → ==Сумнів, ілюзія, обман, утиск== / ==З жадоби слави==, Latin → footnote on closing line.
 - Russian code-switch "dis-je en russe" (070.0218, Marie to Maman in public) → rendered in UK narration; TR note flags the spoken line was Russian.
 - Gounod's Faust "roi de Thulé" ballad (070.0001) → rendered as UK verse (Marie sings it); Sirène/Silène pun + Lustucru + "vieux Suisse des treize cantons" footnoted.
 - La Fontaine fable allusion "Le Renard et les Raisins" (070.0889) → footnote.
@@ -2188,24 +2192,24 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | toqué / s'est rangé | навіжений / остепенився | per TM 021; Audiffret-Larderei dialogue (071.0349-0127) |
 | dégommée | скиснути | colloquial "deflated/crushed" (071.0162) |
 | à l'Espagnole | по-іспанському | window-courtship without introduction; footnote |
-| palazzo / camera obscura | *palazzo* / *camera obscura* | Italian/Latin kept italic + footnote |
-| Veglione | ==veglione== | carnival masked ball (per 068); ==highlight==+footnote |
-| Skating / Skating-rink | ==Skating== | English code-switch (per 067/068/070); ==highlight==; footnote on 1st use (071.0017) |
+| palazzo / camera obscura | ==палаццо== / ==камера-обскура== | Italian/Latin: «палаццо» and «камера-обскура» are naturalised — kept without markup (exception); footnote if Marie's wording needs it |
+| Veglione | ==бал-маскарад== | carnival masked ball (per 068); Ukrainian in the text, Italian → footnote |
+| Skating / Skating-rink | ==ковзанка== | English code-switch (per 067/068/070) → Ukrainian in the text; footnote on 1st use (071.0017) |
 | comprenette | кебета | slang for wits/intelligence |
 | sérail / ennuque | сераль / євнух | harem joke (071.0541) |
 | la queue basse | з опущеним хвостом | per TM 019 |
 | poteau d'infamie | ганебний стовп | idiom of humiliation |
-| Buon Diou dé Diou | ==Buon Diou dé Diou== | Niçois dialect oath (071.0581); ==highlight==+footnote |
-| Rossignol (Nice festival) | ==Rossignol== | Nice lantern street-festival; ==highlight==+footnote |
+| Buon Diou dé Diou | ==Добрий Боже, Боже!== (UNSURE; coined) | Niçois dialect oath (071.0581); Ukrainian in the text, Niçois → footnote |
+| Rossignol (Nice festival) | ==Соловей== / «Росіньйоль» | Nice lantern street-festival — a festival NAME; UNSURE whether to translate (==Соловей==) or keep as a name; footnote either way |
 | Directoire (style) | у стилі Директорії | 1795–99 neoclassical fashion; footnote |
 | en bédouin | у бедуїнці | hooded informal robe; footnote |
-| water-closet (pun) | ==water-closet== | English; the Closet/Chaussade name-pun; ==highlight==+footnote |
+| water-closet (pun) | ==вбиральня== | English; the Closet/Chaussade name-pun is metalinguistic — keep the pun explained in the footnote with the English *water-closet* |
 | l'hymen | подружній вінець | poetic "marriage" (071.0566) |
 | sciences naturelles... en pratique | природничі науки... на практиці | ironic sexual euphemism |
 | pendant (portrait) | парний портрет | companion-piece portrait (071.0427/0270) |
 
 ### Code-Switches / Verse / Manuscript (Carnet 071)
-- Dante Inferno V quotation (071.0615) → kept ITALIAN ==highlight==+footnote with UK gloss («Учителю, хто ті...»).
+- Dante Inferno V quotation (071.0615) → Ukrainian rendering in the text (==«Учителю, хто ті...»==), Italian → footnote.
 - Marie's OWN French verses (the Marcuard rhymed note 071.0492-0213; the "Malborough" song line 071.0535) → rendered as UK VERSE with rhyme (her own jokes, not foreign code-switches), per 067/068 convention.
 - Marie's signature "Marie Bachkirseff" (071.0494, her own missing-t French slip for Bachkirtseff) → surname LOCKED to «Башкирцева» (з ц і и, NOT «Башкирсева» — the slip is invisible in Cyrillic; surname-lock wins per CON, same lock that drifted in 068), her French error documented in a TR note.
 - "Belle-de-jour" (071.0472) = a Nice "inspecteur des chiens", a DIFFERENT person — NOT the Audiffret nickname «Красень-Денний» (TM line 74). Rendered as the ironic moniker «Бель-де-Жур» + footnote, kept distinct from Audiffret (per CON).
@@ -2365,7 +2369,7 @@ Read with the cross-carnet resolutions at the end of this block.
 | multedophile (coinage) | мультедофіл | neologism |
 | citoyen Joseph / Putiphar / Petit Phare (Arnaud codes) | громадянин Жозеф / Потіфар / Малий Маяк | |
 | planter là | кинути напризволяще | |
-| patito (Italian) | ==patito== | "lovesick swain"; keep Italian + footnote |
+| patito (Italian) | ==закоханий нещасливець== | "lovesick swain"; Ukrainian in the text, Italian *patito* → footnote |
 
 ## Carnet 086 Additions (Paris, Aug–Dec 1879 — Salon prep, Gambetta circle, artists' dinners)
 ### People & Nicknames (Carnet 086)
@@ -2384,7 +2388,7 @@ Read with the cross-carnet resolutions at the end of this block.
 | le grand chasseur devant le Seigneur | великий ловець перед Господом | Nimrod (Gen 10:9), Gambetta hunting pun |
 | le père X (older man) / le vieux X | старий X | affectionate, NOT literal "father" |
 | ce juif / le juif (neutral) vs Sale Juif (slur) | цей єврей (нейтрально) vs Брудний жид (лайка) | register split — faithful, uncensored |
-| Manet Thécel Phares | (kept + footnote) | painter Manet + "Mene Tekel Peres" (Dan. 5) |
+| Manet Thécel Phares | (Manet Thécel Phares — metalinguistic wordplay on Mene Tekel Peres, kept + footnote) | painter Manet + "Mene Tekel Peres" (Dan. 5) |
 
 ## Carnet 087 Additions (Paris, Dec 1879–Apr 1880 — Soutzo courtship surge, biblical-allegory motif)
 ### People & Nicknames (Carnet 087)
@@ -2416,7 +2420,7 @@ Read with the cross-carnet resolutions at the end of this block.
 |--------|-----------|-------|
 | en-cas (coinage: "spare fiancé") | запасний варіант | footnote |
 | article 7 / dispersion des Jésuites | сьома стаття / розгін єзуїтів | Ferry laws 1880 |
-| waterproof / stick / high life / "That is the question" | ==waterproof== / ==stick== / ==high life== / ==…== | English code-switch + footnote |
+| waterproof / stick / high life / "That is the question" | ==дощовик== / ==ціпок== / ==вишуканий світ== / ==Ось у чім питання== | English code-switch → Ukrainian in the text, English → footnote (KRR 2026-10-03) |
 | OCR two-column damage (bare \| , broken breaks) | preserve as-is | TRAP — do NOT smooth |
 
 ## Carnet 090 Additions (Paris, Oct–Dec 1880 + Apr 1882 coda — feminist-press episode)
@@ -2471,7 +2475,7 @@ Read with the cross-carnet resolutions at the end of this block.
 | la Cruche cassée (Greuze) / Le drapeau (Bertrand) | Розбитий глек / Прапор | paintings |
 | je vois rouge | мені темніє в очах | idiom, NOT calque |
 | il n'y a pas de fumée sans feu | нема диму без вогню | proverb |
-| name-pun games (Bojidar-naca, Dina-mythe, Bashkirseff-ichez…) | kept FRENCH + footnote | untranslatable, loss documented |
+| name-pun games (Bojidar-naca, Dina-mythe, Bashkirseff-ichez…) | kept FRENCH + footnote | untranslatable, loss documented (metalinguistic exception, stays) |
 
 ## Carnet 095 Additions (Apr–Jul 1882 — Académie Julian, Salon)
 ### Idioms & Expressions (Carnet 095)
@@ -2542,7 +2546,7 @@ rastaquouère→«вискочень»; faire une fin→«влаштувати �
 | ça crève les yeux / un coup de massue | це впадає в очі / удар довбнею | |
 | à la bonne heure | оце інша річ! | NOT time-related (TM-confirmed) |
 | le pope / Noël pour les Russes / starovoï | піп / православне Різдво / старовой(староста) | Julian-calendar Orthodox terms |
-| la gentry parisienne (English) | ==gentry== + footnote | |
+| la gentry parisienne (English) | ==парижська гентрі== / ==парижське шляхетство== | Ukrainian in the text, English *gentry* → footnote (KRR 2026-10-03) |
 | ce gros Juif (of Julian) | цей гладкий єврей | period antisemitic epithet on a named person — kept literal, faithful (see resolutions) |
 | NAMING TRAP | "Paul"=Cassagnac (le Lui des femmes) vs "Paul"=brother (telegram) | two Pauls by context |
 

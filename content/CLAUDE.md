@@ -92,6 +92,30 @@ Kinds: `clipping`, `letter` (both quoted with `> `), `rayé`, `margin`, `cover` 
 
 Passages Marie wrote in Russian (the printed edition gives the editor's French translation between ★ and *) are marked `==passage==[^CCC.NNNN.rK]` with the footnote «Written in Russian in the manuscript; French translation by the editor.», localized in each tree (cz `Pozn. překl.: V originále rusky; do francouzštiny přeložil vydavatel.`, uk `В оригіналі російською; французький переклад видавця.`, fr `En russe dans le manuscrit ; traduction française de l'éditeur.`). Extent comes from the tome docx (★ opens, * closes). Never keep ★ in text (owner ruling 2026-09-29).
 
+### Foreign-language passages: everything translated (owner ruling 2026-10-03)
+
+**Applies to cz, uk, en** (supersedes the cz ruling of 2026-09-29 and the en rule "keep English as-is"). "When reading Czech, we're simply reading Czech": every passage Marie wrote in a language other than the reading language — English, Italian, Latin, Russian, German, and in en also French phrases — is **translated in the running text**; her original wording goes into a footnote. Mark the translated run with `==…==` (as for Russian above), so the reader still sees where she switched languages:
+
+```markdown
+cz:  …byl ==podplacen==[^09.05.1] a celá věc…
+     [^09.05.1]: Pozn. překl.: V originále anglicky: „bribed“.
+uk:  …був ==підкуплений==[^09.05.1]…
+     [^09.05.1]: В оригіналі англійською: «bribed».
+en:  …it was ==the height of fashion==[^12]…
+     [^12]: In French in the original: *le dernier cri*.
+```
+
+- The footnote quotes Marie's original exactly (her spelling and mistakes included; not corrected — `_original` is the reference).
+- Whole paragraphs/entries in a foreign language keep the existing run note (`Pozn. překl.: V originále anglicky (tento a N následujících odstavců).` / `In English in the original.`); for those the original is available via the original-text toggle, no need to copy it into the footnote.
+- Marie's English stays English in **en** (it is already the reading language) — keep the `==…==` + "In English in the original" note there.
+- **French left untranslated in a translation** (owner ruling 2026-10-03, reverses en *Bigre!* 2026-09-30): Marie's French tics and phrases kept in French (*Bigre!*, *Pardi!*, *comme il faut*, *Ventre Saint-Gris*, *Mort de ma vie*) are translated too, marked `==…==`, French in the footnote (`Pozn. překl.: V originále francouzsky: „Bigre!“` / `В оригіналі французькою: «…».` / `In French in the original: *Bigre!*`). A tic repeated within one entry: footnote only its first occurrence in that entry; keep one consistent rendering per tree (record it in the TM).
+- Editorial marks attached to a foreign run (`[sic]`, `(sic)`) move into the footnote with the original. Transcription slips in `_original` (*Dco juvante*): quote as in `_original` and add the intended form (`tak v textu; zřejmě Deo`).
+- Metalinguistic runs (Marie discusses the foreign word itself — grammar, her own mistake, a pun) stay foreign, in italics, with an explanatory footnote.
+- Footnote marker sits right after the closing `==`, before punctuation: `==…==[^n],`. Footnote definitions follow the file's existing placement (after the paragraph's last comment line, or at the end of the file) — never inside a `%%` comment or between a text line and its trailing comments.
+- Exceptions: words fully naturalised in the reading language (cz *flirt*, *toaleta*; en *chic*, *ennui*), proper names, titles of works, and quotations whose point is the foreign wording (e.g. a pun) — keep and explain in the footnote if needed.
+- An existing footnote that already holds the translation becomes the footnote holding the original; never leave both a foreign run in text and a translation footnote.
+
+
 ## Carnet rebuild / renumbering
 
 IDs are stable: every tree, reader reports, footnote labels, glossary citations and URLs point at them. **No agent renumbers IDs by hand**, and a structural fix that seems to need a shifted ID is reported to the lead.

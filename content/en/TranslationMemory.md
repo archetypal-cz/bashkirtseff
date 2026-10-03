@@ -2,6 +2,8 @@
 
 Established translations for consistency across the English edition.
 
+> **NOTE 2026-10-03 (KRR):** foreign-language passages and untranslated French tics (*Bigre*, *Pardi*, *comme il faut*, *Ventre-Saint-Gris*, *secousse*, Latin/Italian/German/Russian) are now **translated into English in the text (`==…==`), the original goes into the footnote**; Marie's English stays English. All older rows saying "keep French/Latin/Italian… italicised" or "untranslated" are superseded — see "Foreign Language Handling" below for the rule, exceptions and default renderings.
+
 ## People
 
 ### Maman
@@ -82,15 +84,19 @@ Established translations for consistency across the English edition.
 
 ## Foreign Language Handling
 
+**Owner ruling 2026-10-03 (KRR): everything that is not English is translated; the original goes into the footnote.** Applies to Italian, Latin, German, Russian, Spanish, Niçois AND French phrases/tics left untranslated (*Bigre*, *Pardi*, *comme il faut*, *Ventre-Saint-Gris*, *Mort de ma vie*, *secousse*, *Deo juvante*…). Full text: `content/CLAUDE.md` "Foreign-language passages: everything translated" and `content/en/CLAUDE.md` (code-switch section).
+
 When Marie writes in English in the French original:
 - Keep the English AS-IS (it's already in the target language)
 - Mark with ==highlight== if the surrounding text is translated
 - Add footnote: "*In English in the original*"
 
-When Marie writes in Italian/Russian:
-- Translate to English
-- Mark with ==highlight==
-- Add footnote with original language text
+When Marie writes in Italian/Latin/German/Russian/Spanish, or leaves a French phrase untranslated:
+- Translate to English in the text, marked ==…== (marker right after the closing ==, before punctuation)
+- Footnote with her exact original: "*In Italian in the original: …*" / "*In French in the original: *Bigre!**"; a tic repeated within one entry is footnoted at its first occurrence only; one rendering per tree (recorded in this file)
+- Exceptions: metalinguistic runs (she discusses the foreign word, a pun, her own mistake — foreign in italics + explanatory footnote), titles of works, proper names and name-like codenames (Moussia, Bijou, Belle-de-jour, Désiré), naturalised words (*chic*, *ennui*, *soirée*, *atelier*, *cocottes*, *demi-monde*…)
+- Default renderings: *Bigre!* ==By Jove!== · *Bigre de bigre!* ==By Jove, by Jove!== · *Pardi!* ==Why, of course!== · *comme il faut* ==proper== / ==well-bred== · *Ventre-Saint-Gris!* ==Devil take it!== · *Mort de ma vie!* ==Confound it!== · *Deo juvante* ==with God's help== · *secousse* ==the jolt==
+- **Superseded:** every older row below that says "keep French/Latin/Italian/German/Russian (italicized)", "==highlight== + footnote" for non-English, "kept in French" or "untranslated" (the *Bigre* and *secousse* rulings of 2026-09-29/2026-10-01 included). Rows rewritten on 2026-10-03 carry "(original → footnote, KRR 2026-10-03)"; renderings marked UNSURE are proposals awaiting the owner. French single-word realia still shown as *italic* French in rows below (e.g. *déclassée*, *amourette*, *grisette*, *marivaudage*, *table d'hôte*, *barège*, *particule*, *rapins*, *mastroquet*, *baignoire*, *panier*, *calèche*) were NOT touched — they count as naturalised/realia terms unless the owner rules otherwise.
 
 ## Family & Household Terms (from Carnet 000)
 
@@ -173,9 +179,9 @@ When Marie writes in Italian/Russian:
 - Notes: Casual, keep as single word when possible
 
 ### veglione
-- Translation: *veglione* (keep Italian, no italics correction needed)
+- Translation: ==masked ball== (original → footnote, KRR 2026-10-03)
 - Context: Grand masked ball of the Italian Carnival season; all-night affair
-- Notes: Footnote on first use in each entry
+- Notes: Grand all-night masked ball of Carnival season; Italian *veglione* in the footnote on first use in each entry
 
 ### domino
 - Translation: domino
@@ -193,9 +199,9 @@ When Marie writes in Italian/Russian:
 - Notes: Keep French, add brief footnote
 
 ### lazzaroni
-- Translation: *lazzaroni* (keep Italian)
+- Translation: ==the street idlers of Naples== (UNSURE: *lazzaroni* is in English dictionaries; owner may prefer to keep it as a naturalised word) (original → footnote, KRR 2026-10-03)
 - Context: Neapolitan street poor; by 1870s = cheerfully feckless Neapolitans
-- Notes: Italicize, footnote on first use
+- Notes: Neapolitan street poor; Italian *lazzaroni* in the footnote on first use
 
 ### interdit (legal)
 - Translation: under guardianship / legally interdicted
@@ -262,9 +268,9 @@ When Marie writes in Italian/Russian:
 - Notes: Already established; do not translate to "studio" as it loses the institutional sense
 
 ### Gloriae Cupiditas
-- Translation: ==Gloriae Cupiditas== [footnote: Latin: *Desire for Glory*]
+- Translation: ==Desire for Glory== (original → footnote, KRR 2026-10-03)
 - Context: Marie's personal motto, inscribed at the close of each carnet
-- Notes: Mark as Latin with ==highlight==, add footnote explaining meaning
+- Notes: Marie's personal motto closing each carnet; Latin *Gloriae Cupiditas* in the footnote (once per entry)
 
 ### lâcheté (self-sabotage)
 - Translation: act of cowardice / cowardice
@@ -338,9 +344,9 @@ When Marie writes in Italian/Russian:
 ## Carnet 074 Additions (Aug–Sep 1877)
 
 ### varéniki / Varéniki
-- Translation: *varéniki* (keep Ukrainian/Russian, italicized)
+- Translation: ==Ukrainian dumplings== (original → footnote, KRR 2026-10-03)
 - Context: Ukrainian dumplings made of flour, water and fresh cheese; Marie makes them at Schlangenbad
-- Notes: Footnote defining them on first use; Marie's connection to Ukrainian domestic culture
+- Notes: Dumplings of flour, water and fresh cheese, which Marie makes at Schlangenbad; Russian/Ukrainian *varéniki* in the footnote on first use
 
 ### atelier Julian / atelier de Julian
 - Translation: the atelier Julian (NOT "Académie Julian" unless that name appears)
@@ -353,16 +359,16 @@ When Marie writes in Italian/Russian:
 - Notes: NOT "at the waters" if awkward — use "at the spas"
 
 ### Bademeisterin
-- Translation: *Bademeisterin* (keep German, italicized)
+- Translation: ==bath attendant== (original → footnote, KRR 2026-10-03)
 - Context: Female bath attendant at a German spa
-- Notes: Footnote not needed if context is clear
+- Notes: Female bath attendant at a German spa; German in the footnote on first use
 
 ### Lese-cabinet
-- Translation: *Lese-cabinet* (keep German, italicized)
+- Translation: ==reading room== (original → footnote, KRR 2026-10-03) — Reading room/newspaper salon at a German spa or hotel; German in the footnote
 - Context: Reading room/newspaper salon at a German spa or hotel
 
 ### Kurhaus
-- Translation: *Kurhaus* (keep German, italicized)
+- Translation: ==the spa house== (original → footnote, KRR 2026-10-03) — Central social building of a German spa town; German *Kurhaus* in the footnote on first use
 - Context: Central social building of a German spa town
 
 ### bel et bien
@@ -371,14 +377,14 @@ When Marie writes in Italian/Russian:
 - Notes: NOT "quite well" or "fair and square"
 
 ### sospesi (Dante)
-- Translation: *sospesi* (keep Italian, italicized)
+- Translation: ==the suspended ones== (original → footnote, KRR 2026-10-03)
 - Context: Dante's Limbo (Inferno, Canto IV): the suspended ones; virtuous pagans who cannot reach paradise
-- Notes: Always add footnote with Latin/Italian original and brief gloss
+- Notes: Dante, Inferno IV (Limbo); Italian *sospesi* in the footnote with the attribution
 
 ### sed inutilis (Latin)
-- Translation: *sed inutilis* (keep Latin, italicized)
+- Translation: ==but useless== (original → footnote, KRR 2026-10-03)
 - Context: "But useless" — Marie's blunt dismissal of socially pleasant but practically useless contacts
-- Notes: Keep in Latin as Marie wrote; no translation needed in main text
+- Notes: Marie's blunt dismissal; Latin in the footnote (reverses "no translation needed in main text")
 
 ### palmipède
 - Translation: webfoot
@@ -408,9 +414,9 @@ When Marie writes in Italian/Russian:
 - Notes: Distinguish from simple "être connu de" (known to someone)
 
 ### trasteverine / trasteverina
-- Translation: *trasteverina* (keep Italian, italicized)
+- Translation: ==a woman of Trastevere== (original → footnote, KRR 2026-10-03)
 - Context: Woman from Trastevere, Rome's oldest quarter; in 1870s art = idealized Roman peasant beauty/type
-- Notes: Add footnote on first use per entry: "a woman from Trastevere, the ancient Roman quarter across the Tiber; in 19th century art, trasteverine women were considered the exemplary Roman type"
+- Notes: Footnote on first use per entry: Italian *trasteverina*, the ancient Roman quarter across the Tiber, the exemplary Roman type in 19th-century art
 
 ### mots noircis
 - Translation: [words blacked out: …] (singular: [word blacked out: …])
@@ -461,9 +467,9 @@ When Marie writes in Italian/Russian:
 ## Carnet 076 Additions (Nov–Dec 1877)
 
 ### de chic
-- Translation: *de chic* (keep French, italicized)
+- Translation: ==from imagination== / ==off the cuff== (original → footnote, KRR 2026-10-03)
 - Context: Studio slang at atelier Julian: working from imagination/memory without model
-- Notes: Footnote on first use; "work *de chic*" or "done *de chic*"
+- Notes: Studio slang at atelier Julian (working without a model); French *de chic* in the footnote on first use (UNSURE: coined)
 
 ### Folies-Julian
 - Translation: the Folies-Julian
@@ -481,14 +487,14 @@ When Marie writes in Italian/Russian:
 - Notes: Keep French in italics when Marie uses it as a term of art; translate when clearly adjectival
 
 ### la belle cose (Italian)
-- Translation: *la belle cose* (keep Italian, italicized)
+- Translation: ==the beautiful things== (original → footnote, KRR 2026-10-03)
 - Context: Italian: "the beautiful things"; Salvini's troupe at the Louvre
-- Notes: Add footnote: "Italian: 'the beautiful things.'"
+- Notes: Salvini's troupe at the Louvre; Italian in the footnote
 
 ### nulla dies sine linea (Latin)
-- Translation: *Nulla dies sine linea* (keep Latin, italicized)
+- Translation: ==Not a day without a line== (original → footnote, KRR 2026-10-03)
 - Context: "No day without a line" — attributed to Apelles via Pliny; artist's daily-work maxim
-- Notes: Add footnote on first use
+- Notes: Attributed to Apelles via Pliny; Latin in the footnote on first use
 
 ### aux calendes grecques
 - Translation: to the Greek Calends
@@ -622,9 +628,9 @@ When Marie writes in Italian/Russian:
 - Notes: Well-known in English, keep French form
 
 ### comme il faut
-- Translation: *comme il faut* (keep French, italicized)
+- Translation: ==proper== / ==well-bred== (by context; ==quite the thing== if ironic) (original → footnote, KRR 2026-10-03)
 - Context: Proper, correct, befitting one's station
-- Notes: Established English borrowing — no translation needed
+- Notes: *comme il faut* goes in the footnote (first occurrence per entry); reverses the earlier "established English borrowing" ruling
 
 ### bataclan
 - Translation: entourage / crowd
@@ -858,9 +864,9 @@ When Marie writes in Italian/Russian:
 - Notes: Consistent with "Semaine Sainte" → "Holy Week" already in TM
 
 ### culpa mea
-- Translation: ==*culpa mea*== (keep Latin, highlight)
+- Translation: ==my fault== (original → footnote, KRR 2026-10-03)
 - Context: From the Confiteor prayer (*mea culpa, mea culpa, mea maxima culpa*)
-- Notes: Marie reverses word order; add footnote on prayer source
+- Notes: From the Confiteor (*mea culpa, mea culpa, mea maxima culpa*); Marie reverses the word order; Latin in the footnote with the prayer source
 
 ### badauds
 - Translation: gawkers
@@ -920,9 +926,9 @@ When Marie writes in Italian/Russian:
 - Notes: Translate as "pays compliments," NOT "sings sweet things"
 
 ### dubiae nobilitatis
-- Translation: *dubiae nobilitatis* (keep Latin, italicised)
+- Translation: ==of doubtful nobility== (original → footnote, KRR 2026-10-03)
 - Context: "Of doubtful nobility" — uncertainty about aristocratic lineage
-- Notes: Footnote with translation on first use
+- Notes: Latin in the footnote
 
 ### Lui (capitalised — Hamilton reference)
 - Translation: *Him* / *He* (capitalised)
@@ -997,7 +1003,7 @@ When Marie writes in Italian/Russian:
 - Notes: Standard English term for this Russian institution
 
 ### ispravnik
-- Translation: *ispravnik* (keep Russian, italicized)
+- Translation: ==district police chief== (original *ispravnik* → footnote, KRR 2026-10-03; UNSURE: coined)
 - Context: Russian district police chief — Marie glosses it herself as "chef de la police du district"
 - Notes: Keep Russian term in italics with Marie's own gloss in brackets
 
@@ -1066,9 +1072,9 @@ When Marie writes in Italian/Russian:
 ## Social & Cultural Terms (from Carnet 039)
 
 ### Kursaal
-- Translation: Kursaal (keep German, footnote on first use)
+- Translation: Kursaal (naturalised in English — kept; UNSURE: alt. ==the spa assembly rooms==)
 - Context: Cure hall / main assembly building at German spas
-- Notes: Proper name; well-known in period English texts; footnote explains on first use per entry
+- Notes: Proper name of the building; footnote explains on first use per entry
 
 ### ville d'eaux
 - Translation: spa town
@@ -1106,14 +1112,14 @@ When Marie writes in Italian/Russian:
 - Notes: "Little Russian" was the period English term for Ukrainian; footnote explaining this distinction is required
 
 ### vox faucibus exit / haesit
-- Translation: *vox faucibus exit* (keep Latin, footnote)
+- Translation: ==the voice comes out of the throat== (original → footnote, KRR 2026-10-03)
 - Context: Misquotation of Virgil Aeneid II.774: "vox faucibus haesit" — the voice stuck in the throat
-- Notes: Marie writes *exit* for *haesit*; keep her version, note the misquotation in footnote
+- Notes: Marie misquotes Virgil, Aeneid II.774 (*vox faucibus haesit*, the voice stuck in the throat): translate her version; Latin as written + the intended *haesit* in the footnote
 
 ### Il fiato mi manca
-- Translation: ==Il fiato mi manca!== (keep Italian, ==highlight==, footnote)
+- Translation: ==My breath fails me!== (original → footnote, KRR 2026-10-03)
 - Context: "My breath fails me!" — Italian operatic expression
-- Notes: Mark with ==highlight==, footnote "*In Italian in the original*. 'My breath fails me!'"
+- Notes: Italian operatic expression; footnote "In Italian in the original: *Il fiato mi manca!*"
 
 ### comme Agar dans le désert
 - Translation: like Hagar in the wilderness
@@ -1188,9 +1194,9 @@ When Marie writes in Italian/Russian:
 - Notes: NOT "prince's coronet" — keep "prince's crown"
 
 ### Deo juvante
-- Translation: *Deo juvante* (keep Latin, italicized)
+- Translation: ==with God's help== (original → footnote, KRR 2026-10-03)
 - Context: Marie's closing phrase "with God's help"
-- Notes: Keep Latin with footnote "Latin: 'With God's help.'"
+- Notes: Latin *Deo juvante* in the footnote (pilot 034: «Latin: “Deo juvante”»). Transcription slips in `_original` (*Dco juvante*): quote as written, add intended form.
 
 ### foi de Marie
 - Translation: on my word as Marie
@@ -1269,9 +1275,9 @@ When Marie writes in Italian/Russian:
 - Notes: "Badge" in club context; "recognition sign" in other contexts
 
 ### buia compagnia
-- Translation: ==buia compagnia== [keep Italian]
+- Translation: ==dark company== (original → footnote, KRR 2026-10-03)
 - Context: Marie's ironic Italian nickname for the group of young men at the café
-- Notes: Keep Italian, add footnote: "dark company"
+- Notes: Marie's ironic Italian nickname for the group of young men at the café; Italian in the footnote
 
 ### où il n'y a pas de poissons, une écrevisse passe pour un poisson
 - Translation: "where there are no fish, a crayfish passes for a fish"
@@ -1363,9 +1369,9 @@ When Marie writes in Italian/Russian:
 - Notes: Keep French in italics; add footnote when used ironically
 
 ### pardi
-- Translation: *Pardi!* (keep French, italicized)
+- Translation: ==Why, of course!== / ==Of course!== (original → footnote, KRR 2026-10-03)
 - Context: Mild popular oath ("By God! / Indeed!") — markers of working-class/Niçois speech
-- Notes: Do not translate — it's already half the point that the coachman says it
+- Notes: Mild popular oath; the coachman says it — the register is carried by the colloquial English; *Pardi!* in the footnote (first occurrence per entry). Reverses "Do not translate".
 
 ### L'eau de cœur tendre
 - Translation: "Tender-heart's water" [keep in quotes, add footnote]
@@ -1445,19 +1451,19 @@ When Marie writes in Italian/Russian:
 - Notes: Always "the jolt" when used as this running motif; NOT "the shock"
 
 ### sed fides deficit (Latin)
-- Translation: *sed fides deficit* (keep Latin)
+- Translation: ==but trust is lacking== (original → footnote, KRR 2026-10-03)
 - Context: "But faith/trust is lacking" — Marie would be moved by Audiffret's words but cannot trust his sincerity
-- Notes: Keep Latin in italics; the abbreviated form "scd fidcs deficit" in manuscript corrected to full form
+- Notes: Latin *sed fides deficit* in the footnote; the manuscript's abbreviated "scd fidcs deficit" is corrected to the full form
 
 ### Quid melior? (Latin)
-- Translation: *Quid melior?* (keep Latin)
+- Translation: ==What could be better?== (original → footnote, KRR 2026-10-03)
 - Context: "What could be better?" — Marie's rhetorical question about the romantic situation
-- Notes: Keep Latin in italics
+- Notes: Latin in the footnote
 
 ### Audacter et amanter (Latin)
-- Translation: *Audacter et amanter* (keep Latin)
+- Translation: ==Boldly and lovingly== (original → footnote, KRR 2026-10-03)
 - Context: Marie's jubilant motto: "Boldly and lovingly"
-- Notes: Keep Latin in italics; Marie's triumphant end-of-evening flourish
+- Notes: Marie's triumphant end-of-evening flourish; Latin in the footnote
 
 ### Désiré (nickname)
 - Translation: *Désiré* (keep French, italicized)
@@ -1519,29 +1525,29 @@ When Marie writes in Italian/Russian:
 - Notes: "Thrown off" or "put out" in English; preserve the abrupt quality
 
 ### Corpo di Dio (Italian exclamation)
-- Translation: ==Corpo di Dio== [mark with highlight, footnote]
+- Translation: ==By God's body!== (original → footnote, KRR 2026-10-03)
 - Context: Italian oath: "Body of God" — mild period blasphemy
-- Notes: Keep in Italian with ==highlight==; footnote explaining it as a Roman oath
+- Notes: Italian oath, a Roman period blasphemy; Italian in the footnote
 
 ### San Diou de Diou! (Nissart/Niçois dialect)
-- Translation: ==San Diou de Diou!== [mark with highlight, footnote]
+- Translation: ==Holy God of God!== (original → footnote, KRR 2026-10-03)
 - Context: Nissart (Niçois Occitan) oath — "Holy God of God!" — used to confirm Niçois identity
-- Notes: Mark with ==highlight==; footnote "*In Nissart (Niçois dialect)*. 'Holy God of God!' — the characteristic oath of the region"
+- Notes: Nissart (Niçois Occitan) oath, the region's characteristic exclamation; footnote "In Nissart (Niçois dialect) in the original: *San Diou de Diou!*"
 
 ### occhi neri (Italian address)
-- Translation: ==occhi neri== [keep Italian, highlight]
+- Translation: ==Black eyes!== (original → footnote, KRR 2026-10-03)
 - Context: "Black eyes" — affectionate address in Italian; Pietro's eyes
-- Notes: Mark with ==highlight==; footnote "*In Italian in the original*. 'Black eyes.'"
+- Notes: Affectionate address to Pietro; Italian in the footnote
 
 ### scripta manent (Latin)
-- Translation: ==scripta manent== [keep Latin, highlight]
+- Translation: ==what is written remains== (original → footnote, KRR 2026-10-03)
 - Context: "The written word remains" — from proverb *verba volant, scripta manent*
-- Notes: Mark with ==highlight==; footnote: "Latin: 'the written word remains.' From the proverb *verba volant, scripta manent*: 'spoken words fly away, written words remain.'"
+- Notes: From the proverb *verba volant, scripta manent*; Latin in the footnote with the full proverb
 
 ### Gloriae cupiditate (Latin)
-- Translation: ==Gloriae cupiditate== [keep Latin, highlight]
+- Translation: ==Through desire for glory== (original → footnote, KRR 2026-10-03)
 - Context: "By desire for glory" — Marie's closing motto for the carnet
-- Notes: Mark with ==highlight==; footnote explaining classical provenance (Cicero/Sallust)
+- Notes: Closing motto of the carnet; Latin in the footnote with the classical provenance (Cicero/Sallust)
 
 ### tutoiement
 - Translation: the use of *tu* / the familiar form
@@ -2006,9 +2012,9 @@ When Marie writes in Italian/Russian:
 ## Carnet 013 Terms
 
 ### diadia
-- Translation: *diadia* (keep Russian, italicized)
+- Translation: ==Uncle== (original → footnote, KRR 2026-10-03)
 - Context: Russian: uncle. Marie's uncle who visits and entertains the family
-- Notes: Familiar term; do NOT translate to "uncle" -- preserve Russian family vocabulary
+- Notes: Marie's uncle who visits and entertains the family (UNSURE: a family appellation like Maman; if the owner treats it as a name it stays *Diadia*); Russian *diadia* in the footnote on first use
 
 ### Alcibiades / Lais
 - Translation: Alcibiades / *Lais*
@@ -2066,9 +2072,9 @@ When Marie writes in Italian/Russian:
 - Notes: Keep in italics. Sequence: "In eight days" (Dec 2) down to "Tomorrow!" (Dec 9). Marie explains she writes the countdown the evening before.
 
 ### bestemmia
-- Translation: curse / blasphemy (Italian)
+- Translation: ==curse== / ==blasphemy== (original → footnote, KRR 2026-10-03)
 - Context: Italian code-switch; Marie uses Italian for emotional outbursts
-- Notes: Highlight with == and footnote with Italian original
+- Notes: Marie uses Italian for emotional outbursts; Italian *bestemmia* in the footnote (reverses "Highlight with == and footnote with Italian original" only in that the English is now in the text)
 
 ### pantalonne(s)
 - Translation: trousered sort
@@ -2089,9 +2095,9 @@ When Marie writes in Italian/Russian:
 - Notes: Keep Marie's coinage; translate literally. In Jan 21 entry, Marie translates it herself in English: "the Straits of the Flies"
 
 ### paskha
-- Translation: *paskha* (keep Russian, italicized, with footnote)
+- Translation: ==Easter cheesecake== (original → footnote, KRR 2026-10-03)
 - Context: Traditional Russian Easter dessert (pyramid-shaped cheese cake)
-- Notes: Given as housewarming gift in carnet 015
+- Notes: Traditional Russian Easter dessert (pyramid-shaped), a housewarming gift in carnet 015; Russian *paskha* in the footnote
 
 ### singe / serpent (Lambertye)
 - Translation: monkey / serpent
@@ -2129,7 +2135,7 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 016-017; "dominos roses" = pink dominos. Becomes familiar quickly; italicize on first use, then plain text.
 
 ### veglione
-- Translation: *veglione* (keep Italian, italicized, with footnote)
+- Translation: ==masked ball== (original → footnote, KRR 2026-10-03)
 - Context: Italian: grand masked ball, typically held on Mardi Gras night
 - Notes: Carnet 016 Feb 17; footnote on first use with definition
 
@@ -2164,9 +2170,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 016 Feb 21; "la tombola" = the raffle
 
 ### moujik
-- Translation: *moujik* (keep Russian, italicized)
+- Translation: ==peasant== (original → footnote, KRR 2026-10-03)
 - Context: Russian peasant; Marie uses it as insult for a crude hairdresser
-- Notes: Carnet 016 Feb 11; "coiffee par un moujik" = done up by a peasant
+- Notes: Marie's insult for a crude hairdresser: "done up by a peasant"; Russian *moujik* in the footnote on first use
 
 ### adoucir / adoucissez-vous
 - Translation: sweeten / sweeten yourself
@@ -2179,14 +2185,14 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 016 Feb 19; footnote: "Kvass: a traditional Russian fermented drink made from rye bread"
 
 ### pulchra
-- Translation: *pulchra* (keep Latin, italicized)
+- Translation: ==a beauty== (original → footnote, KRR 2026-10-03)
 - Context: Latin: beautiful woman; Marie applies it to Princess Souvoroff
-- Notes: Carnet 016 Feb 21; part of Marie's code-switching to classical languages for emphasis
+- Notes: Marie applies it to Princess Souvoroff; Latin in the footnote
 
 ### plashchanitsa
-- Translation: *plashchanitsa* (keep Russian, italicized, with footnote)
+- Translation: ==the shroud== (Holy Friday veneration of the burial shroud) (original → footnote, KRR 2026-10-03)
 - Context: Russian Orthodox Holy Friday service venerating the burial shroud (epitaphios)
-- Notes: Carnet 018 Apr 10; footnote explaining the service on first use
+- Notes: Russian Orthodox service; Russian *plashchanitsa* (epitaphios) in the footnote explaining the service
 
 ### comprenette
 - Translation: wits
@@ -2283,9 +2289,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 017 Mar 23; "les pantalons de cuir Lambertye"
 
 ### kulebyakas / koulibiaks
-- Translation: *kulebyakas* (keep Russian, italicized, with footnote)
+- Translation: ==meat pie== / ==filled pastry== (UNSURE) (original → footnote, KRR 2026-10-03)
 - Context: Traditional Russian filled pastry
-- Notes: Carnet 017 Mar 5; footnote: "Kulebyaka: a traditional Russian filled pastry"
+- Notes: Traditional Russian filled pastry; Russian *kulebyaka* in the footnote
 
 ### Immensus
 - Translation: *Immensus* (keep Latin, italicized)
@@ -2420,9 +2426,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 021 Jul 17; implies loose morals without full prostitution
 
 ### femme du monde / femme du demi-monde
-- Translation: *femme du monde* / *femme du demi-monde* (keep French)
+- Translation: ==woman of society== / ==woman of the demi-monde== (original → footnote, KRR 2026-10-03)
 - Context: Society woman vs. woman of the half-world (courtesan class). Marie's devastating summary of Basilevitch.
-- Notes: Carnet 021 Jul 16; "her greatest charm is that she is a femme du monde who conducts herself like a femme du demi-monde"
+- Notes: "her greatest charm is that she is a woman of society who conducts herself like a woman of the demi-monde"; French in the footnote
 
 ### Mme Toutafait / Mme Tout-a-fait
 - Translation: Mme Tout-a-fait
@@ -2521,9 +2527,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 020 Jul 2; applied to Neufarge: "une espece de chevalier d'industrie"
 
 ### zhuk (jouk)
-- Translation: ==*zhuk*== (keep Russian, transliterated, with footnote)
+- Translation: ==beetle== (original → footnote, KRR 2026-10-03)
 - Context: Russian: beetle/bug. Family code for eligible men at Spa; Maman's invention parallel to Marie's "poussiere" (dust)
-- Notes: Carnet 020 Jun 28; transliterate as "zhuk" not "jouk." Walitsky's comic use: buzzing then ending with "zhuk!" Footnote: "Russian, *zhuk*: beetle or bug -- family code for eligible men."
+- Notes: Family code for eligible men at Spa; Russian *zhuk* (transliterated, not "jouk") in the footnote; Walitsky's comic buzzing ends "zhuk!"
 
 ### Notlimah
 - Translation: *Notlimah* (keep as-is, italicized)
@@ -2829,9 +2835,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 024 Oct 25; double-entendre scene about Renard the dog vs. Papa
 
 ### per un bel pezzo
-- Translation: ==*per un bel pezzo*== (highlight + footnote "Italian: 'for quite a while'")
+- Translation: ==for quite a while== (original → footnote, KRR 2026-10-03)
 - Context: Italian code-switch; Marie predicting prolonged family conflict
-- Notes: Carnet 024 Oct 25
+- Notes: Carnet 024 Oct 25; Italian in the footnote
 
 ### muzhik / moujik
 - Translation: *muzhik* (italicized)
@@ -2943,9 +2949,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 026 Nov 22; "vaporeuse comme un nuage" = ethereal as a cloud; NOT "vaporous" (too scientific)
 
 ### Honni soit qui mal y pense
-- Translation: *Honni soit qui mal y pense* (keep French, italicized)
+- Translation: *Honni soit qui mal y pense* (UNSURE: kept — motto of the Garter, a quotation whose point is the French wording; footnote "Shame on him who thinks evil of it.")
 - Context: Motto of the Order of the Garter; Marie cites it audaciously when defending beauty being seen
-- Notes: Carnet 026 Nov 22; well-known in English; "Shame on him who thinks evil of it." Keep French.
+- Notes: Exception candidate (quotation whose point is the foreign wording). If the owner prefers translating: ==Shame on him who thinks evil of it==, French in the footnote.
 
 ### Pâris (person)
 - Translation: Pâris
@@ -3029,9 +3035,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 025 Oct 28; footnote: "Face enameling was a 19th-century cosmetic treatment used to cover smallpox scars"
 
 ### Ventre-Saint-Gris
-- Translation: *Ventre-Saint-Gris!* (keep French, with footnote on first use)
+- Translation: ==Devil take it!== (original → footnote, KRR 2026-10-03)
 - Context: Henri IV's famous archaic oath; euphemism for "God's belly"
-- Notes: Carnet 025 Nov 8; footnote: "*Ventre-Saint-Gris!* — Henri IV's famous oath, a mild exclamation meaning roughly 'By God's belly.'"
+- Notes: Henri IV's archaic oath; footnote: "In French in the original: *Ventre-Saint-Gris!* — Henri IV's famous oath, a mild exclamation meaning roughly 'By God's belly.'"
 
 ### Porthos (dog name)
 - Translation: Porthos
@@ -3100,14 +3106,14 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 027 Dec 18; "un froid de loups" = bitterly cold. Add brief gloss in parenthetical or footnote.
 
 ### foi de Marie!
-- Translation: *Foi de Marie!* (keep French, italicized)
+- Translation: ==On Marie's word!== (original → footnote, KRR 2026-10-03)
 - Context: Marie's personal oath modeled on *foi de gentilhomme* (a gentleman's word); applied to herself
-- Notes: Carnet 027 Dec 17; footnote: "*Foi de Marie!* — 'On Marie's word!' An oath modeled on the formula *foi de gentilhomme*."
+- Notes: Marie's personal oath modelled on *foi de gentilhomme*; footnote: "In French in the original: *Foi de Marie!* — modelled on *foi de gentilhomme*."
 
 ### mater dolorosa (ironic use)
-- Translation: *mater dolorosa* (keep Latin, italicized)
+- Translation: ==Our Lady of Sorrows== (ironic) (original → footnote, KRR 2026-10-03)
 - Context: Catholic title of the Virgin Mary ("sorrowful mother"); used ironically by Merjeewsky for Thérèse's mournful expression
-- Notes: Carnet 027 Dec 11; footnote explaining the ironic repurposing
+- Notes: Used ironically by Merjeewsky for Thérèse's mournful expression; Latin in the footnote explaining the ironic repurposing
 
 ### La vraie clef des songes
 - Translation: *La vraie clef des songes* (keep French title, italicized)
@@ -3120,9 +3126,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 027 Dec 10, Dec 12, Dec 13; use italic *questionnaire* on first use per entry; thereafter plain
 
 ### Deo juvante
-- Translation: *Deo juvante* (keep Latin, italicized)
+- Translation: ==with God's help== (original → footnote, KRR 2026-10-03)
 - Context: "With God's help"; standard Latin expression; Marie uses it for undertakings she hopes to accomplish
-- Notes: Carnet 029 Feb 15; footnote: "*Deo juvante* (Latin): 'with God's help.'"
+- Notes: Carnet 029 Feb 15; Latin original in the footnote: "*Deo juvante* (Latin): 'with God's help.'"
 
 ### époque hamiltonienne / Hamiltonian era
 - Translation: the Hamiltonian era
@@ -3150,9 +3156,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 027 Dec 17; preserve the contemptuous register — NOT "papermakers"
 
 ### basta! (Italian, emphatic)
-- Translation: ==basta!== (highlight + footnote "Italian: 'Enough!'")
+- Translation: ==Enough!== (original → footnote, KRR 2026-10-03)
 - Context: Italian emphatic code-switch, used for finality; Marie drops into Italian for strong dismissals
-- Notes: Carnet 027 Dec 24 (and earlier entries); keep Italian, highlight, footnote
+- Notes: Italian emphatic code-switch used for finality; Italian *basta!* in the footnote (first occurrence per entry)
 
 ### Connais-tu le pays (aria)
 - Translation: *Connais-tu le pays...* (keep French title, italicized)
@@ -3165,9 +3171,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 027 Dec 24; applied to Pastalis who "was genuinely" doing her grimaces
 
 ### d'ailleurs (mio eterno)
-- Translation: ==*mio eterno d'ailleurs*== (highlight + footnote)
+- Translation: ==my eternal “besides”== (UNSURE: metalinguistic — Marie annotates her own tic *d'ailleurs*; owner may prefer Italian/French kept + footnote) (original → footnote, KRR 2026-10-03)
 - Context: Marie's self-mocking Italian meta-comment: "my eternal 'besides.'" Acknowledges her verbal tic.
-- Notes: Carnet 027 Dec 24; footnote: "*mio eterno d'ailleurs* (Italian): 'my eternal "besides"' — Marie's ironic self-annotation on her habitual use of *d'ailleurs* (besides/moreover)."
+- Notes: Marie's self-mocking meta-comment on her habitual *d'ailleurs*; Italian + French in the footnote with the explanation
 
 ### pur dog (English)
 - Translation: ==pur dog== (highlight + footnote "In English in the original — a purebred dog")
@@ -3175,9 +3181,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 027 Dec 16; "mon chien nouveau est un pur dog" — keep English term, highlight
 
 ### grandeur d'âme
-- Translation: *grandeur d'âme* (keep French, italicized)
+- Translation: ==greatness of soul== (original → footnote, KRR 2026-10-03)
 - Context: Greatness of soul; nobility of spirit; required even for murder, Marie argues
-- Notes: Carnet 027 Dec 18; "pour tuer il faut encore une certaine grandeur d'âme" = to kill one still needs a certain grandeur of soul
+- Notes: "to kill one still needs a certain greatness of soul"; French in the footnote
 
 ## People (from Carnet 027)
 
@@ -3206,9 +3212,9 @@ When Marie writes in Italian/Russian:
 ## Social & Cultural Terms (from Carnet 048)
 
 ### un sucre
-- Translation: *un sucre* (keep French, italicized, with footnote on first use per entry)
+- Translation: ==a treat== (UNSURE: coined 2026-10-03) (original → footnote, KRR 2026-10-03)
 - Context: Bibi/Audiffret's expression for something perfect or exquisite; "a sugar / a lump of sugar"
-- Notes: Carnet 048 passim; Marie adopts the expression and uses it ironically throughout; footnote on first use per entry: "Bibi's expression for something perfect, exquisite."
+- Notes: Bibi/Audiffret's expression for something perfect, exquisite; French *un sucre* in the footnote (first occurrence per entry)
 
 ### l'aréopage (family tribunal)
 - Translation: the Areopagus
@@ -3241,10 +3247,10 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 048 Nov 5; keep the coinage; "tormentable" works in English
 
 ### la secousse (carnet 048 usage)
-- Translation: *la secousse* (keep French, italicized)
+- Translation: ==the jolt== (original → footnote, KRR 2026-10-03)
 - Context: Physical electric thrill felt when Audiffret touches Marie; introduced carnet 048 Oct 29
-- Notes: Previously documented as "the jolt" but carnet 048 translator kept French throughout; *la secousse* in French italics with footnote on first use per entry is preferred; subsequent uses may use *la secousse* without re-footnoting
-- Ruling (2026-10-01, ED): the motif is *secousse* in italics everywhere (footnote [^secousse] on first use per carnet); the last "the jolt" renderings (036, 049) converted. Ordinary carriage jolts («cahots») stay English.
+- Notes: The electric thrill Audiffret's touch gives Marie; French *la secousse* in the footnote (first occurrence per entry). REVERSES the 2026-10-01 ruling (*secousse* in italics everywhere): the motif is now rendered ==the jolt== consistently (earlier TM form); ordinary carriage jolts («cahots») also "jolts".
+- Ruling (2026-10-01, ED) SUPERSEDED 2026-10-03 (KRR): the motif was *secousse* in italics everywhere; now ==the jolt== in the text with *secousse* in the footnote (first occurrence per entry). Wave workers: revert *secousse* italics in the text where the new wave touches them.
 
 ### châtelain fougueux
 - Translation: impetuous lord of the castle
@@ -3266,14 +3272,14 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 049 Nov 8; keep as "the Surprising One" — the irony is intended
 
 ### Rosière (mock ceremony)
-- Translation: *Rosière* (keep French, italicized, with footnote on first use per entry)
+- Translation: ==the Rose Queen== (UNSURE: realia, coined) (original → footnote, KRR 2026-10-03)
 - Context: A village girl crowned for exemplary virtue in an annual ceremony (*fête de la Rosière*); Marie satirically casts herself in this role in a mock-letter
-- Notes: Carnet 049 Nov 9; footnote: "The *Rosière* was a young village girl crowned with roses for her virtue in an annual ceremony — Marie applies the title with savage irony."
+- Notes: *fête de la Rosière*: village girl crowned for virtue; French *Rosière* in the footnote with the explanation
 
 ### Père fortuné
-- Translation: *Père fortuné* (keep French, italicized)
+- Translation: ==Fortunate Father== (original → footnote, KRR 2026-10-03)
 - Context: Marie's satirical address — "Lucky Father" — in her mock-ceremony letter; ironic honorific
-- Notes: Carnet 049 Nov 9; part of elaborate mock-correspondence satirizing the Rosière convention
+- Notes: ironic honorific in the mock-correspondence; French in the footnote
 
 ### tout abattu
 - Translation: cast down / utterly dejected
@@ -3336,9 +3342,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 049 Nov 15; preserve the formal metaphor — "stepped down" (not "climbed out" or "come off"); it is an aristocratic image
 
 ### Nescio (Latin)
-- Translation: ==*Nescio*== (highlight + footnote "Latin: 'I do not know.'")
+- Translation: ==I do not know== (original → footnote, KRR 2026-10-03)
 - Context: Latin "I do not know"; Marie inserts it when she cannot explain her feelings; appears mid-passage as a lone Latin admission
-- Notes: Carnet 049 Nov 15; highlight with ==, footnote the Latin; do NOT translate in text
+- Notes: Latin in the footnote (reverses "do NOT translate in text")
 
 ### rayé / [Rayé:] (manuscript)
 - Translation: [Crossed out:]
@@ -3346,10 +3352,10 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 049 Nov 15; "[Rayé:]" → "[Crossed out:]"; keep in square brackets
 
 ### Bigre de bigre! (exclamation)
-- Translation: *Bigre de bigre!* (keep French, italicized)
+- Translation: ==By Jove, by Jove!== (original → footnote, KRR 2026-10-03)
 - Context: Mild French exclamation of surprise; Marie uses it when Audiffret appears unexpectedly at the Italian theater
-- Notes: Carnet 049 Nov 12; no English equivalent conveys the period register; keep French with footnote if needed
-- Ruling (2026-09-29, owner): *Bigre!* / *Bigre de bigre!* / *bigre* always kept in French, italic, untranslated (Girofla's catchword) — see the «Bigre» entry below
+- Notes: Carnet 049 Nov 12; *Bigre de bigre!* in the footnote. Ruling 2026-09-29 (always kept in French) REVERSED 2026-10-03 (KRR) — see the «Bigre» entry.
+- Ruling (2026-09-29, owner) REVERSED 2026-10-03 (KRR): *Bigre!* was always kept in French; now translated (==By Jove!==), French in the footnote — see the «Bigre» entry below
 
 ### piarle (transcription error)
 - Translation: [I speak] (correct silently in translation)
@@ -3543,19 +3549,19 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 053 Feb 7; keep the French "*petit*" in italics to signal it is a qualifier, not a different name
 
 ### terza sera / prima sera
-- Translation: *terza sera* / *prima sera* (keep Italian, italicized)
+- Translation: ==the third night== / ==the first night== (original → footnote, KRR 2026-10-03)
 - Context: Roman opera subscription nights; the first and third evenings were aristocratic, the second and fourth for the general public
-- Notes: Carnet 053 Feb 8; footnote on first occurrence per entry
+- Notes: Roman opera subscription nights (first and third evenings aristocratic); Italian *terza sera / prima sera* in the footnote on first occurrence per entry
 
 ### salons blancs / salons noirs
-- Translation: the *salons blancs* / the *salons noirs* (keep French, italicized)
+- Translation: the ==white salons== / the ==black salons== (original → footnote, KRR 2026-10-03)
 - Context: Political division in post-unification Rome: "white" salons loyal to the Italian monarchy, "black" salons loyal to the Pope (who refused to recognise the Italian state)
-- Notes: Carnet 053 Feb 9; footnote on first occurrence; Marie chooses the Court (*salons blancs*)
+- Notes: Political division in post-unification Rome; French in the footnote on first occurrence
 
 ### omnisapiente
-- Translation: *omnisapiente* (keep Marie's mock-Latin coinage, italicized)
+- Translation: ==omniscient== (original → footnote, KRR 2026-10-03)
 - Context: Marie's satirical mock-Latin for "all-knowing" — applied to Mme Soukowkine's insufferable pretension to universal knowledge
-- Notes: Carnet 053 Feb 11; keep as Marie's coinage; add brief footnote on first occurrence per entry
+- Notes: Marie's mock-Latin coinage for Mme Soukowkine; the coinage *omnisapiente* in the footnote (UNSURE: the mock-Latin flavour is lost)
 
 ### par terre
 - Translation: *par terre* (keep French, italicized)
@@ -3568,9 +3574,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 053 Jan 31; footnote on first occurrence per entry: "*Baignoire*: a ground-floor theatre box"
 
 ### de la graisse (Russian idiom)
-- Translation: *de la graisse* (keep French gloss of Russian phrase, italicized)
+- Translation: ==from overfeeding== (original → footnote, KRR 2026-10-03)
 - Context: From Russian *ot zhiru* — "from the fat/excess"; meaning problems that come from having too much, not real hardship; "a dog goes mad from being too well fed"
-- Notes: Carnet 053 Feb 2; Marie explains the idiom herself; keep French gloss and explain in footnote
+- Notes: Marie explains the idiom herself; Russian *ot zhiru* and the French gloss *de la graisse* go in the footnote
 
 ### solliciteuse
 - Translation: *solliciteuse* (keep French, italicized, with contextual gloss)
@@ -3671,39 +3677,39 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 055 Mar 27; translate directly as "lucky charm" — the mockery is clear from context
 
 ### trattoria
-- Translation: *trattoria* (keep Italian, with footnote)
+- Translation: *trattoria* (naturalised in English — exception; UNSURE: if the owner wants it translated, ==eating-house==)
 - Context: Italian: a modest eating-house or restaurant; used here for the Russian artists' informal dining spot
-- Notes: Carnet 055 Mar 27; mark with ==highlight==, footnote "Italian: a modest eating-house"
+- Notes: Carnet 055 Mar 27; footnote "Italian: a modest eating-house" on first use
 
 ### Basta!
-- Translation: ==Basta!== (keep Italian, with footnote)
+- Translation: ==Enough!== (original → footnote, KRR 2026-10-03)
 - Context: Italian: "Enough!" — exclamation of finality; Marie uses it as a code-switch for comic emphasis
-- Notes: Carnet 055 Mar 26; mark with ==highlight==, footnote "*Basta!* — Italian: 'Enough!'"
+- Notes: Carnet 055 Mar 26; Italian in the footnote
 
 ### contessina
-- Translation: ==*contessina*== (keep Italian, with footnote)
+- Translation: ==little countess== (original → footnote, KRR 2026-10-03)
 - Context: Italian teasing diminutive of "contessa"; Torlonia mockingly addresses Marie as the future Countess Bruschetti
-- Notes: Carnet 055 Mar 27; mark with ==highlight==, footnote "*contessina* — Italian: 'little countess'"
+- Notes: Torlonia mockingly addresses Marie as the future Countess Bruschetti; Italian in the footnote
 
 ### Gloriae Cupiditas
-- Translation: ==Gloriae Cupiditas== (keep Latin, with footnote)
+- Translation: ==Desire for Glory== (original → footnote, KRR 2026-10-03)
 - Context: Latin: "Desire for Glory" / "Lust for Glory"; Marie's personal motto, used as the colophon of carnet 055
-- Notes: Carnet 055 Mar 27; mark with ==highlight==, footnote "Latin: 'Desire for Glory' — Marie's personal motto"
+- Notes: Carnet 055 Mar 27; Latin original in the footnote: "In Latin in the original: *Gloriae Cupiditas* — Marie's personal motto"
 
 ### veglione
-- Translation: *veglione* (keep Italian, with footnote)
+- Translation: ==masked ball== (original → footnote, KRR 2026-10-03)
 - Context: Italian: masked ball held on festive nights (mi-carême, Carnival); elaborate midnight masquerade
-- Notes: Carnet 055 Mar 22; mark with footnote on first use per carnet
+- Notes: Masked ball held on festive nights (mi-carême, Carnival); Italian in the footnote on first use per carnet
 
 ### mi-carême
-- Translation: *mi-carême* (keep French, with footnote)
+- Translation: ==mid-Lent== (original → footnote, KRR 2026-10-03)
 - Context: Mid-Lent Thursday — a traditional festive break in Lent marked by masked balls and public celebrations
-- Notes: Carnet 055 Mar 22; keep in French; footnote on first use per carnet
+- Notes: French *mi-carême* in the footnote on first use per carnet
 
 ### barcaccia
-- Translation: *barcaccia* (keep Italian, with footnote)
+- Translation: the Barcaccia (proper name of the fountain at the foot of the Spanish Steps; no italics; UNSURE — if Marie means the seating area, ==the terrace by the fountain==)
 - Context: The boat-shaped fountain at the foot of the Spanish Steps (Piazza di Spagna), Rome; by the 1870s also used as an informal name for the terraced seating area nearby where fashionable people gathered
-- Notes: Carnet 055 Mar 22; footnote on first use per carnet: "the boat-shaped fountain at the foot of the Spanish Steps"
+- Notes: Footnote on first use per carnet: the boat-shaped fountain at the foot of the Spanish Steps
 
 ### panier (carriage)
 - Translation: *panier* (keep French, with footnote)
@@ -3738,9 +3744,9 @@ When Marie writes in Italian/Russian:
 - Notes: Keep French with italics; the pun on *le monde* (society) + *bas* (low/base) is essential
 
 ### signor cardinalino
-- Translation: ==*signor cardinalino*== (keep Italian, highlight)
+- Translation: ==little Signor Cardinal== (original → footnote, KRR 2026-10-03)
 - Context: Marie's mocking nickname for Pietro Antonelli's Vatican connection; diminutive of *cardinale*: "little cardinal gentleman"
-- Notes: Mark with ==highlight==, footnote: "*Signor cardinalino* — Italian: 'little cardinal gentleman'; mocking reference to Pietro's family connection to Cardinal Antonelli"
+- Notes: Marie's mocking nickname for Pietro Antonelli (diminutive of *cardinale*); Italian in the footnote with the Cardinal Antonelli connection
 
 ### faire d'histoire (Russian idiom in French)
 - Translation: to make a fuss / make a scene
@@ -3814,34 +3820,34 @@ When Marie writes in Italian/Russian:
 - Notes: Translate literally; the phrase carries great weight and any paraphrase diminishes it
 
 ### Amor decrescit ubique crescere non possit
-- Translation: ==Amor decrescit ubique crescere non possit== [keep Latin, highlight]
+- Translation: ==Love diminishes wherever it cannot grow== (original → footnote, KRR 2026-10-03)
 - Context: Opening motto of 3 July 1876 entry: "Love diminishes wherever it cannot grow"
-- Notes: Footnote: "Latin: 'Love diminishes wherever it cannot grow.' A classical maxim."
+- Notes: Latin in the footnote: a classical maxim
 
 ### Domine, salvum fac futurum Pium X
-- Translation: ==Domine, salvum fac futurum Pium X== [keep Latin, highlight]
+- Translation: ==Lord, preserve the future Pius X== (original → footnote, KRR 2026-10-03)
 - Context: Marie's sardonic prayer (28 June 1876) for Cardinal Antonelli to become Pope Pius X
-- Notes: Footnote: "Latin: 'Lord, preserve the future Pius X.' Marie prays for Cardinal Antonelli to become pope, which would make Pietro his nephew."
+- Notes: Latin in the footnote; Marie prays for Cardinal Antonelli to become pope, which would make Pietro his nephew
 
 ### Chi lo sa? Dio / Chi lo sa? Deo juvante
-- Translation: ==Chi lo sa? Dio== / ==Chi lo sa? Deo juvante==
+- Translation: ==Who knows? God.== / ==Who knows? With God's help.== (original → footnote, KRR 2026-10-03)
 - Context: Italian/Latin code-switching expressing uncertainty with pious acceptance
-- Notes: "Who knows? God." / "Who knows? With God's help." Keep in original languages with ==highlight==
+- Notes: Italian/Latin in the footnote
 
 ### ignota avis
-- Translation: ==ignota avis== [keep Latin, highlight]
+- Translation: ==an unknown bird== (original → footnote, KRR 2026-10-03)
 - Context: Marie uses to mean: true love is something she has never encountered
-- Notes: Footnote: "Latin: 'an unknown bird' — something rare and unseen."
+- Notes: Latin in the footnote: something rare and unseen
 
 ### vivere-gaudere
-- Translation: ==vivere-gaudere== [keep Latin, highlight]
+- Translation: ==to live is to rejoice== (original → footnote, KRR 2026-10-03)
 - Context: Marie's Epicurean tag: to live is to rejoice
-- Notes: Footnote: "Latin: *vivere-gaudere* — 'to live is to rejoice.' An Epicurean motto."
+- Notes: An Epicurean motto; Latin in the footnote
 
 ### Nihil (as a reply)
-- Translation: *Nihil* (keep Latin, italicised)
+- Translation: ==Nothing== (original → footnote, KRR 2026-10-03)
 - Context: Marie's decision not to reply to Pietro's love letter (27 June 1876): "Nothing at all"
-- Notes: Keep Latin; Marie's pointed use of the classical word for nothingness is deliberate
+- Notes: Marie's decision not to reply to Pietro's love letter (27 June 1876); Latin *Nihil* in the footnote
 
 ## Social & Cultural Terms (from Carnet 062)
 
@@ -3871,24 +3877,24 @@ When Marie writes in Italian/Russian:
 - Notes: "The Pope's niece" on casual use; "niece of His Holiness" in elevated passages
 
 ### signor-zio
-- Translation: ==signor-zio== [keep Italian, highlight]
+- Translation: ==Signor Uncle== (original → footnote, KRR 2026-10-03)
 - Context: Italian: "uncle" — Marie's way of referring to Cardinal Antonelli; Pietro's uncle
-- Notes: Footnote: "Italian: *signor-zio* — 'uncle,' referring to Cardinal Antonelli."
+- Notes: Marie's way of referring to Cardinal Antonelli; Italian in the footnote
 
 ### Schreck (German)
-- Translation: ==Schreck== [keep German, highlight]
+- Translation: ==fright== (original → footnote, KRR 2026-10-03)
 - Context: German: a shock/fright; Bihovetz uses it when describing his prediction
-- Notes: Footnote: "German: *Schreck* — a shock, a fright."
+- Notes: Bihovetz uses it when describing his prediction; German in the footnote
 
 ### O canaglia! (Italian)
-- Translation: ==O canaglia!== [keep Italian, highlight]
+- Translation: ==Oh, scoundrel!== (original → footnote, KRR 2026-10-03)
 - Context: Italian: "Oh, scoundrel!" Marie's delighted exclamation on receiving Pietro's love letter
-- Notes: Footnote: "Italian: *O canaglia!* — 'Oh scoundrel!' Marie's delight breaks through her anger."
+- Notes: Marie's delight breaks through her anger on receiving Pietro's love letter; Italian in the footnote
 
 ### E altro! (Italian)
-- Translation: ==E altro!== [keep Italian, highlight]
+- Translation: ==And what else!== (original → footnote, KRR 2026-10-03)
 - Context: Italian: "And what else!" / "Indeed so!" — an expressive interjection
-- Notes: Footnote: "Italian: *E altro!* — 'And what more can one say?'"
+- Notes: Expressive interjection ("Indeed so!"); Italian in the footnote
 
 ### portrait-cabinet
 - Translation: cabinet card
@@ -3896,9 +3902,9 @@ When Marie writes in Italian/Russian:
 - Notes: "Cabinet card" is the standard English term; footnote if needed
 
 ### shchenok (Russian)
-- Translation: ==shchenok== [keep Russian, highlight]
+- Translation: ==pup== (original → footnote, KRR 2026-10-03)
 - Context: Russian: a puppy; affectionate/dismissive nickname for Pietro
-- Notes: Footnote: "Russian: *shchenok* — a puppy; used here as a dismissive diminutive nickname for Pietro."
+- Notes: Dismissive diminutive nickname for Pietro; Russian *shchenok* in the footnote
 
 ## People (from Carnet 062)
 
@@ -3960,9 +3966,9 @@ When Marie writes in Italian/Russian:
 - Notes: "Third Section" with footnote on first use per carnet; predecessor to the Okhrana
 
 ### genitor
-- Translation: *genitor* (keep Latin, italicized)
+- Translation: ==the begetter== (original → footnote, KRR 2026-10-03)
 - Context: Marie's ironic Latin term for her father — *genitor* = "begetter," deliberately cold and distancing
-- Notes: Preserve the Latinate irony; footnote unnecessary (meaning clear in context)
+- Notes: Marie's ironic Latin for her father, deliberately cold; Latin *genitor* in the footnote on first use
 
 ### gommeux / la gomme
 - Translation: dandy / the dandies
@@ -3970,10 +3976,10 @@ When Marie writes in Italian/Russian:
 - Notes: "dandy" in most contexts; "the fashionable set" for *la gomme* collectively; Marie explains etymology (transparency) in the 23 August entry
 
 ### Bigre
-- Translation: *Bigre!* (keep French, italic, untranslated; same shape as the French: *Bigre!*, *Bigre de bigre!*, *bigre*)
-- Ruling (2026-09-29, owner): «Bigre!» is Girofla's catchword and stays *Bigre!* — never "Confound it", "Dash it", "Good heavens", "Gad", etc.
+- Translation: ==By Jove!== (original → footnote, KRR 2026-10-03)
+- Ruling (2026-09-29, owner) REVERSED 2026-10-03 (KRR): «Bigre!» (Girofla's catchword) is now rendered ==By Jove!== consistently (one rendering per tree; not "Dash it", "Good heavens", "Gad"); *Bigre!* → footnote, first occurrence per entry.
 - Context: Mild expletive, euphemism for *bon Dieu*; Marie uses it in frustration
-- Notes: The adverb «bigrement» is not covered by this ruling and may be translated ("confoundedly", "terribly")
+- Notes: Girofla's catchword: ONE rendering per tree, ==By Jove!== (pilot 034 en); REVERSES the 2026-09-29 ruling ("never Confound it, Dash it… ") — French *Bigre!* → footnote, first occurrence per entry. The adverb «bigrement» may be translated ("confoundedly", "terribly").
 
 ### Le Bec
 - Translation: Le Bec (French, as a proper name; possessive "Le Bec's") — never "the Beak" / "the Bec"
@@ -4159,18 +4165,18 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 067 Nov 28; render as "plump seminarian" — the face of a cloistered student implying lack of worldliness
 
 ### Agnus Dei (Marie's ironic usage)
-- Translation: ==*Agnus Dei*== (highlight, footnote)
+- Translation: ==Lamb of God== (original → footnote, KRR 2026-10-03)
 - Context: Liturgical Latin "Lamb of God"; Marie uses it sarcastically for her father's wheedling, grovelling humility at Monaco
-- Notes: Carnet 067 Dec 10; mark with ==highlight==; footnote: "Latin: 'Lamb of God' — the liturgical formula used here sarcastically."
+- Notes: Liturgical Latin used sarcastically; Latin in the footnote
 
 %% 2026-03-06T14:00:00 TR: Added terms from carnet 070 — Naples/Sorrento period, Larderei affair, Italian/Dante passages, social strategy vocabulary %%
 
 ## Social & Cultural Terms (from Carnet 070)
 
 ### lazzarone / lazzaroni
-- Translation: *lazzarone* (keep Italian, footnote on first use per entry)
+- Translation: ==street idler== / ==rascal== (UNSURE as above) (original → footnote, KRR 2026-10-03)
 - Context: Neapolitan term for a street idler, rascal, or odd-job man; often hired to carry luggage
-- Notes: Keep in Italian italics; footnote: "Lazzarone (pl. lazzaroni): Neapolitan for a street idler or rascal, often hired for odd jobs."
+- Notes: Often hired to carry luggage; Italian footnote: "Lazzarone (pl. lazzaroni): Neapolitan for a street idler or rascal, often hired for odd jobs."
 
 ### Bijou (Larderel codename)
 - Translation: *Bijou* (keep French, footnote on first occurrence per entry)
@@ -4218,9 +4224,9 @@ When Marie writes in Italian/Russian:
 - Notes: Carnet 070 April 24; footnote: "Psyche coiffure: a classical revival hairstyle with hair gathered up, inspired by ancient Greek sculpture."
 
 ### bonne aventure (private divination ritual)
-- Translation: *bonne aventure* (keep French, footnote)
+- Translation: ==fortune-telling== (original → footnote, KRR 2026-10-03)
 - Context: Fortune-telling; but Marie uses it as her private term for making conditional bargains with fate at every step
-- Notes: Keep in French italics; footnote: "Bonne aventure: fortune-telling. Marie applies the term to her own superstitious habit of making conditional bargains with chance."
+- Notes: Marie's private term for her habit of making conditional bargains with fate; French *bonne aventure* in the footnote with the explanation
 
 ### on (epistolary impersonal)
 - Translation: one (formal impersonal)
@@ -4243,19 +4249,19 @@ When Marie writes in Italian/Russian:
 - Notes: "April Fool" or "April Fool's prank" depending on context
 
 ### carricolo
-- Translation: *carricolo* (keep Italian, footnote)
+- Translation: ==a Neapolitan two-wheeler== (UNSURE: coined) (original → footnote, KRR 2026-10-03)
 - Context: A Neapolitan two-wheeled cart, famously overloaded with passengers
-- Notes: Carnet 070 April 7; footnote: "Carricolo: a Neapolitan two-wheeled cart, notoriously overloaded."
+- Notes: A two-wheeled cart, famously overloaded with passengers; Italian *carricolo* in the footnote with the explanation
 
 ### nebbioso (Italian insert)
-- Translation: *nebbioso* (keep Italian, footnote)
+- Translation: ==misty== (original → footnote, KRR 2026-10-03)
 - Context: Italian adjective meaning misty, hazy; Marie inserts it into French text to describe the Naples hills
-- Notes: Mark with ==highlight==; footnote "*In Italian in the original*. 'Misty, hazy.'"
+- Notes: Footnote "In Italian in the original: *nebbioso* — misty, hazy."
 
 ### Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate
-- Translation: ==*Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate*== (keep Latin, highlight, footnote)
+- Translation: ==Doubt, illusion, deception, oppression / through desire for glory== (original → footnote, KRR 2026-10-03)
 - Context: Latin motto closing carnet 070: "Doubt, illusion, deception, oppression / Through desire for glory." Possibly Marie's own composition.
-- Notes: Mark with ==highlight==; footnote: "Latin: 'Doubt, illusion, deception, oppression / through desire for glory.' Possibly Marie's own composition — a bitter self-assessment of the Larderel affair." Note: *Gloriae cupiditate* also appears in carnet 060 TM entry — the full two-line version is first complete in carnet 070.
+- Notes: Latin motto closing carnet 070, possibly Marie's own composition; Latin original in the footnote ("a bitter self-assessment of the Larderel affair")
 
 ## People (from Carnet 070)
 
@@ -4389,9 +4395,9 @@ When Marie writes in Italian/Russian:
 - Notes: Keep French; it is an established art-historical term
 
 ### starovoï
-- Translation: *starovoï* (keep Russian transliteration, italicized)
+- Translation: ==rural official== (original → footnote, KRR 2026-10-03)
 - Context: Russian: lower-level rural administrative or police official; carries connotations of provincial vulgarity
-- Notes: Footnote on use: "Russian (*старовой*), a rural administrative or police functionary."
+- Notes: Lower-level rural administrative/police functionary; Russian (*старовой*) in the footnote
 
 ### cristallisation (Stendhal)
 - Translation: crystallisation
@@ -4399,9 +4405,9 @@ When Marie writes in Italian/Russian:
 - Notes: Keep "crystallisation" (or "crystallization") throughout; footnote on first use per carnet
 
 ### aurea mediocritas
-- Translation: *aurea mediocritas* (keep Latin, italicized)
+- Translation: ==the golden mean== (original → footnote, KRR 2026-10-03)
 - Context: Horace's phrase (*Odes* II.10): "golden mean / blessed mediocrity" — Marie uses it ironically, wondering if it applies to Gabriel Géry
-- Notes: Footnote on first use: "Horace, *Odes* II.10: the 'golden mean' — a modest, undisturbed life, neither high nor low."
+- Notes: Horace, *Odes* II.10; Latin in the footnote with the attribution
 
 ### astèque (slang)
 - Translation: Aztec (slang)
@@ -4458,9 +4464,9 @@ When Marie writes in Italian/Russian:
 - Notes: Keep "bromide" — it is the exact period medical term; footnote on first use: "Bromide (potassium bromide), a common 19th-century sedative for nervous disorders."
 
 ### Gloria Cupiditas
-- Translation: *Gloria Cupiditas* (keep Latin, italicized)
+- Translation: ==Hunger for Glory== (original → footnote, KRR 2026-10-03)
 - Context: Marie's title for carnet 103: "Hunger for Glory"; apparent manuscript typo in source ("Gloria Cupditas") corrected silently to *Gloria Cupiditas*
-- Notes: No English translation needed; the Latin is immediately comprehensible in context; footnote not required
+- Notes: Marie's title for carnet 103; Latin *Gloria Cupiditas* (source typo "Cupditas" corrected silently) in the footnote
 
 ### rapins
 - Translation: *rapins* (keep French, italicized) / art students
@@ -4488,9 +4494,9 @@ When Marie writes in Italian/Russian:
 - Notes: Always hyphenate and italicise as adjective: "a *plein-air* painter"; as noun: "working *en plein air*"
 
 ### comme il faut (social register)
-- Translation: *comme il faut* (keep French, italicized)
+- Translation: ==proper== / ==well-bred== (original → footnote, KRR 2026-10-03)
 - Context: Socially correct, well-bred, properly conducted; Marie uses this throughout as a shorthand for social acceptability
-- Notes: Already in TranslationMemory from earlier carnets; confirmed as consistent usage in carnet 103 — always keep French in italics
+- Notes: Socially correct, well-bred; carnet 103 and earlier — one rendering per tree; French in the footnote on first occurrence per entry (reverses "always keep French in italics")
 
 ### mastroquet / l'mastroquet
 - Translation: *mastroquet* (keep French, italicized) / the barkeep

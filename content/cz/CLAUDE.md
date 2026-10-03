@@ -268,26 +268,42 @@ Toto je text s poznámkou pod čarou[^01.01.1].
 [^01.01.1]: Toto je obsah poznámky, kde 01.01.1 představuje kniha.odstavec.číslo_poznámky.
 ```
 
-### Anglické pasáže v originále
+### Cizojazyčné pasáže v originále
 
-**Rozhodnutí KRR 2026-09-29:** Mariina anglická slova a pasáže zůstávají v textu anglicky, označené `==…==`. Poznámku překladatele s českým významem přidáváme jen tam, kde by českému čtenáři slovo nebylo srozumitelné:
+**Rozhodnutí KRR 2026-10-03** (nahrazuje rozhodnutí z 2026-09-29): v češtině čteme jen česky. Vše, co Marie napsala anglicky, italsky, latinsky, rusky…, je v textu **přeloženo do češtiny**, označeno `==…==`, a její originální znění je v poznámce:
 
 ```markdown
-...byl ==bribed==[^09.05.1] a celá věc...
+...byl ==podplacen==[^09.05.1] a celá věc...
 
-[^09.05.1]: Pozn. překl.: Angl. „podplacený“.
+[^09.05.1]: Pozn. překl.: V originále anglicky: „bribed“.
 ```
 
-Důležité zásady:
-- V textu zůstává anglický originál v `==…==` (nahrazuje dřívější pravidlo „v textu vždy český překlad“).
-- Poznámka jen tam, kde je potřeba: `Pozn. překl.: Angl. „…“`.
-- **Celé záznamy nebo odstavce, které Marie napsala anglicky** (rozhodnutí KRR 2026-10-01): překládáme do češtiny; první odstavec každého běhu nese poznámku `Pozn. překl.: V originále anglicky.` nebo `Pozn. překl.: V originále anglicky (tento a N následujících odstavců).` (začátek „V originále anglicky“ rozpoznává frontend; rozhodnutí vedoucího 2026-10-01); čtenář si může přepnout originál. Jednotlivá anglická slova uvnitř francouzského textu zůstávají `==…==`.
-- Pasáže, které Marie psala rusky, mají vlastní konvenci (`content/CLAUDE.md`).
+- Originál v poznámce doslovně (včetně Mariiných chyb).
+- **Celé záznamy nebo odstavce, které Marie napsala anglicky** (rozhodnutí KRR 2026-10-01): překládáme do češtiny; první odstavec každého běhu nese poznámku `Pozn. překl.: V originále anglicky.` nebo `Pozn. překl.: V originále anglicky (tento a N následujících odstavců).` (začátek „V originále anglicky“ rozpoznává frontend); originál si čtenář přepne.
+- Francouzská slovíčka ponechaná v češtině (*Bigre!*, *Pardi!*, *comme il faut*) také překládáme, `==…==` + `Pozn. překl.: V originále francouzsky: „…“` (opakované citoslovce: poznámka jen u prvního výskytu v záznamu).
+- Hamlet: „That is the question“ → „To je, oč tu běží“ (Saudek; rozhodnutí KRR 2026-10-03).
+- Výjimky: zdomácnělá slova, vlastní jména, názvy děl, slovní hříčky závislé na cizím znění (pak vysvětlit v poznámce).
+- Pasáže psané rusky: `content/CLAUDE.md`. Společné pravidlo: `content/CLAUDE.md` → „Foreign-language passages“.
+
+### Přímá řeč
+
+**Rozhodnutí KRR 2026-10-03:** přímou řeč (rozhovory) píšeme v českých uvozovkách „…“, **ne** pomlčkami podle francouzské typografie:
+
+```markdown
+— Dejte ho mně, řekne náhle Audiffer.      →  „Dejte ho mně,“ řekne náhle Audiffer.
+— Pán je v posteli.                         →  „Pán je v posteli.“
+— Jak to? říkám. A co s tím budete dělat?   →  „Jak to?“ říkám. „A co s tím budete dělat?“
+```
+
+**Do uvozovek patří veškerá přímá řeč s uvozovací větou**, i když ve francouzštině nezačíná pomlčkou (rozhodnutí KRR 2026-10-03). Bez uvozovek zůstává nepřímá a polopřímá řeč a Mariino oslovování sebe či čtenáře.
+
+Uvozovky uzavírají jen vlastní promluvu; uvozovací věta stojí mimo ně, čárka/otazník/vykřičník promluvy patří dovnitř uvozovek. Střídání mluvčích na samostatných řádcích zůstává. Citát uvnitř přímé řeči: ‚…‘.
 
 ### Interpunkce
 
-- Používáme české uvozovky: „text”
-- Pro citaci v citaci používáme: „text ‚vnitřní citace’ text”
+- Používáme české uvozovky: „text“ (zavírací je “ U+201C, ne ”)
+- Pro citaci v citaci používáme: „text ‚vnitřní citace‘ text“
+- Přímá řeč: v uvozovkách, ne pomlčkami (viz „Přímá řeč“)
 - Pomlčky používáme s mezerami: text – text
 - Data formátujeme podle českého úzu: 11. ledna 1873
 - Používáme českou desetinnou čárku (ne tečku): 3,14
