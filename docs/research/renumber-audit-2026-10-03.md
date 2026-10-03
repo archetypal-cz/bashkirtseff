@@ -67,3 +67,5 @@ arise. All 12 NOT_APPLIED fix-ups were confirmed correct. 15 of the 16 AMBIGUOUS
 and added to `src/auth/migrations/0002-legacy-report-fixups.sql` (marked `-- adjudicated:`), giving 27 fix-ups in total.
 Left for the owner: 5abb6cfa-5ebf-4fe5-a394-3b3013077b91 (014.0036, open): the anchor follows to 014.0034, but the
 reader's comment fits old 014.0017 (HEAD 014.0016) better.
+
+**Owner decision 2026-10-03:** 5abb6cfa-5ebf-4fe5-a394-3b3013077b91 → 014.0016 (added to 0002-legacy-report-fixups.sql; 28 fix-ups in total).

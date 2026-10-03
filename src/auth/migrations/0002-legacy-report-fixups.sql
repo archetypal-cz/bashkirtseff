@@ -53,5 +53,5 @@ UPDATE public.paragraph_reports SET paragraph_id = '068.0004' WHERE id = '1ad4fd
 UPDATE public.paragraph_reports SET paragraph_id = '001.0115' WHERE id = '4ea4e9e6-63a4-4766-a1c3-474b49d8e5bf' AND paragraph_id = '001.0127';
 -- adjudicated: French identical at HEAD 014.0053; highlighted word present
 UPDATE public.paragraph_reports SET paragraph_id = '014.0053' WHERE id = 'fefaf3ae-92c1-4be7-ac0b-fe173df8472a' AND paragraph_id = '014.0056';
--- NOT included (owner to triage): 5abb6cfa-5ebf-4fe5-a394-3b3013077b91 (014.0036, open; anchor follows to 014.0034 but the
--- reader's comment matches no version of that paragraph; it is closest to old 014.0017 = HEAD 014.0016).
+-- owner (KRR) 2026-10-03: reader quoted the opening of old 014.0017 (= HEAD 014.0016), menu opened on the wrong paragraph
+UPDATE public.paragraph_reports SET paragraph_id = '014.0016' WHERE id = '5abb6cfa-5ebf-4fe5-a394-3b3013077b91' AND paragraph_id = '014.0036';
