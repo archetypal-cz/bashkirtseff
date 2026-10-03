@@ -760,7 +760,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 
 - English extended passage (Jan 27): Ukrainian translation in the text (run note «Англійською в оригіналі» for whole paragraphs); English original available via the toggle, not copied into the footnote (KRR 2026-10-03; replaces "preserve verbatim")
 - Italian-only entries (Feb 13): Ukrainian translation in the text + run note «Італійською в оригіналі» (KRR 2026-10-03; replaces "preserve in Italian with ==highlight== + full footnote translation")
-- Phonetic Spanish accent (de Gonzales, Feb 14): reproduce phonetically as in original, footnote explains
+- Phonetic Spanish accent (de Gonzales, Feb 14): Ruling (2026-10-03, CON, per lead): accented French is rendered as equally broken Ukrainian (ш/ж/щ → с/з, и → і: «Карайте мене, я зе готовій, я зе знаю, со я вінуватій»), no highlight marker, his French + standard form in the footnote (029.0304, 029.0306; «дезонував» 029.0315 already so)
 - "Il facchino italiano": ==італійський носій== (KRR 2026-10-03; replaces "keep Italian throughout with italics, no translation"), Italian → footnote on first use
 - "[Mots noircis:]" → [Слова зачорнені:] — new: blacked-out words
 - "[Le bas de la page est déchirée...]" → [Нижня частина сторінки відірвана й видалена.] — new
@@ -846,7 +846,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 - "attractive" — English word in French text → ==привабливий==, English → footnote
 - "Blackprince" — cipher name; name exception: «Блекпринс» (cf. the 022/023 rows)
 - "Hong for [sic]" — Marie's garbled "longing for" → ==туга за== (the garbling and [sic] go into the footnote with the original *Hong for*)
-- "Bouver et foumer" — deliberate mispronunciation joke (metalinguistic exception): keep the joke form in italics + footnote, or a Ukrainian equivalent mispronunciation if one works (UNSURE)
+- "Bouver et foumer" — deliberate mispronunciation joke: Ruling (2026-10-03, CON): Ukrainian equivalent mispronunciation in Marie's italics, «*Піть і куріть*» (and «перестану *куріть*, але *піть* — ніколи»), French in the footnote (028.0261–0262); same approach as Gonzales
 - "Beati, chi amano il tè!" — mock-Italian beatitude → ==Блаженні, хто любить чай!==, Italian → footnote
 - "[Rayé:]" → [Викреслено:]
 - "[Annotation: 1880.]" → [Примітка 1880 р.:]
@@ -950,7 +950,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Reference | Notes |
 |-----------|-------|
 | "Saprelotte je grelotte" | Rhyming phrase from Malézieux song; Ukrainian rendering that keeps the rhyme (rendering to be coined in the wave; UNSURE), French → footnote on the rhyme |
-| Gulliver's Travels "flapper" | English word; ==служник-ляпальник== (UNSURE, coined); Ukrainian in the text, English *flapper* → footnote explaining Swift's Laputa servants |
+| Gulliver's Travels "flapper" | ==хлопавка== (CON 2026-10-03, 027.0157: Marie uses *un flapper* for the instrument — «за допомогою хлопавки» — so the device noun, not the servant; replaces the coined UNSURE «служник-ляпальник»; no established Ukrainian Swift form verified); English *flapper* → footnote explaining Swift's Laputa servants |
 | Dante, Inferno III "Quivi sospire lamenti…" | Ukrainian rendering in the text (==Там зітхання, плач і голосіння…==), Italian original + attribution (Inf. III) in the footnote (KRR 2026-10-03) |
 | EMILE acrostic | Dina's acrostic poem about Émile d'Audiffret; explain acrostic in footnote |
 | Henri IV humiliation parallel | Marie identifies with Henri IV before Navarre; footnote on historical event |
