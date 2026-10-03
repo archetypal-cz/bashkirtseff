@@ -43,10 +43,11 @@ These override older per-carnet entries below where they conflict.
 - **Struck text label** (Ruling 2026-09-30): „[Škrtnuto: …]“ with a capital Š (774 vs 27 lowercase).
 - **God's pronouns**: Ty, Tě, Ti, Tobě, Tvůj — capitalised (cz/CLAUDE.md), including carnets 001–015.
 - **Editorial labels** (2026-10-01): „[Začerněné slovo: …]“ / „[Začerněná slova: …]“ (number follows «Mot/Mots noircis»), „[Napříč stránkou: …]“, „[Škrtnuto: …]“; the variants Zamazan-, Slovo začerněno, Přeškrtnuto, Napříč: were swept.
-- **Russian/foreign names — option B** (owner ruling KRR 2026-10-02, supersedes the 2026-10-01 locks Karagjorgjevič / Čumakov / Musja): private persons keep Marie's French spelling, declined the Czech way (Tchoumakoff → Tchoumakoffa, Tchoumakoffovi, paní Tchoumakoffová; likewise Moussia, Karageorgevitch, with Czech case endings); famous public figures take the standard Czech form (Turgeněv, Tolstoj, Puškin). The tree-wide sweep to this rule WAITS for the owner's go — do not normalise existing text yet; follow option B in new text.
-- ~~Karagjorgjevič~~ / ~~Čumakov~~ / ~~Musja~~ (2026-10-01 locks): SUPERSEDED by option B above (2026-10-02).
-- **«son bras» (Berthe's beau, 077–078)** (2026-10-02, lead/CON): „kavalír“; «son bras anglais» = „anglický kavalír“. Not a limb.
-- **de Daillens** (LOCK 2026-10-02, lead; tree majority 99 vs 53): one woman, Mme Marie de Daillens (née de Mouzay; printed indexes t.8/13/14) — always indeclinable „de Daillens" / „paní de Daillens" with feminine agreement (byla, která); never „de Daillensová/-ovou" nor masculine „de Daillensem/-ovi".
+- **Russian/foreign names — option B** (owner ruling KRR 2026-10-02, sweep GO 2026-10-03; supersedes the 2026-10-01 locks Karagjorgjevič / Čumakov / Musja, the old rows Gricja / Miloradovič and the "UNRESOLVED" note on Russian surnames). Three tiers:
+  1. **Marie Bashkirtseff** — locked as is („Bashkirtseffová" where Czech needs the feminine; never Baškircev-).
+  2. **Private persons** (family, friends, Nice/Paris/Rome acquaintances, the Karageorgevitch princes of her circle) keep **Marie's French spelling of the stem, declined the Czech way**: Tchoumakoff → Tchoumakoffa, s Tchoumakoffem, paní Tchoumakoffová; Miloradovitch → Miloradovitche, paní Miloradovitchová; Karageorgevitch → Karageorgevitche, princ Karageorgevitch; Markevitch, Paskevitch, Basilevitch, Anitchkoff, Souvoroff, Yourkoff, Daniloff, Babanine (Babaninovi, Babaninová), Galitzine, Potechine; nicknames Moussia (Moussio, Moussii), Gritsia, Stiopa; **Pacha** the person (Pavel; declined Pachy, Pachovi) — but «pacha» the Turkish title is translated („paša", e.g. Midhat paša). Already-locked hybrids stay: Walitský, Sapogenikoff-, Romanoff. Follow her spelling **per occurrence** (if she writes two forms, keep both).
+  3. **Famous public figures** known to the Czech reader take the **standard Czech form**: Turgeněv, Tolstoj (the writer), Puškin, Lermontov, Gogol, Gorčakov, Skobelev, Alexandr II, the Romanov dynasty as such, saints and monarchs. Test: an encyclopedia entry AND Marie refers to them as that public figure. Doubtful cases (e.g. Ogareff, Potemkine) → list for the owner, don't guess.
+- ~~Karagjorgjevič~~ / ~~Čumakov~~ / ~~Musja~~ (2026-10-01 locks): SUPERSEDED by option B above.
 - **la maréchale** (owner ruling KRR 2026-10-01): „maršálová" (not maršálka/maréchála); le maréchal = maršál.
 - **English-run note** (lead 2026-10-01, option a): first paragraph of a run carries „Pozn. překl.: V originále anglicky (tento a N následujících odstavců)."; single paragraph „Pozn. překl.: V originále anglicky."
 - **Gavini** (2026-10-01, majority form; owner may overrule): Gavini, paní Gaviniová, Gaviniovi, s Gaviniovými (not Gavinov-).
@@ -169,7 +170,7 @@ These override older per-carnet entries below where they conflict.
 ## People (Additional)
 
 ### Gritsia / Miloradovitch
-- Translation (Czech): Gricja / Miloradovič
+- Translation (Czech): SUPERSEDED 2026-10-03 (option B) → Gritsia / Miloradovitch, declined (Miloradovitche, paní Miloradovitchová). Was: Gricja / Miloradovič
 - Context: Russian diminutive Гриця → Czech phonetic "Gricja". Maman's proposed suitor.
 - First appearance: 006 (1873-07-11)
 
@@ -1396,7 +1397,7 @@ These override older per-carnet entries below where they conflict.
 - Translation (Czech): see Rulings block, option B (owner 2026-10-02: Marie's spelling «Moussia», declined; sweep pending owner go). Was: Mussia (as used by uncle Alexandre)
 - Context: Russian family diminutive for Maria/Marie; used by uncle Alexandre addressing Marie fondly
 - First appearance: 065 (1876-09-01)
-- Notes: Keep "Mussia" as phonetic Czech rendering of the Russian diminutive
+- Notes: SUPERSEDED 2026-10-03: „Moussia" as Marie writes it (Moussio, Moussii); not Mussia/Musja.
 
 ## Carnet 077–079 Terms (Académie Julian / Cassagnac arc, 1877–78)
 
@@ -1493,10 +1494,10 @@ These override older per-carnet entries below where they conflict.
 ## Carnet 090–091 Terms (Paris disillusionment & Salon arc, 1880–1881)
 
 ### Karageorgevitch / Karageorgević
-- Translation (Czech): Karagjorgjevič
+- Translation (Czech): SUPERSEDED 2026-10-03 (option B) → Karageorgevitch as Marie writes it, declined (Karageorgevitche, Karageorgevitchovi; fem. Karageorgevitchová). Was: Karagjorgjevič
 - Context: Serbian princely figure in Marie's Paris circle (reconciliation dialogue, 090 12-13).
 - First appearance: 090 (1880-12-13)
-- Notes: Czech transcription of the Serbian dynasty name; decline normally.
+- Notes: private acquaintances of Marie (tier 2); the later King Peter I appears only as her acquaintance — keep her form.
 
 ### le Surprenant Emile
 - Translation (Czech): Záhadný Emil
@@ -1753,7 +1754,7 @@ These override older per-carnet entries below where they conflict.
 - Context: Russian man attached to Paul; 018.0224 is his only appearance in the entire diary.
 - Ruling (2026-09-07, CON): Russian ц renders as Czech c, so Nejencov. No corpus precedent existed either way; nothing else to align.
 
-### Russian surnames: Czech-ised vs. French spelling — UNRESOLVED, maintainer call
+### Russian surnames: Czech-ised vs. French spelling — RESOLVED 2026-10-02/03 by option B (see Rulings block); the notes below are history
 - Carnet 018 (and the corpus at large) mixes two treatments and neither is dominant: Czech-ised (Mačenka, Walitský, Azarevič, Zajčenko, Černjakovka) and French-kept (Anitchkoff/Anitchkoffová, Tutcheff, Apletcheieff, Kolokolzoff, Tchernichoff).
 - Within 018, CON aligned individual names to whichever form the rest of the corpus already used: Tutčev → Tutcheff, Aplečejev → Apletcheieff, Walitsky → Walitský, and the hybrid Zaïtčenko (French diaeresis + Czech háček) → Zajčenko.
 - A corpus-wide rule needs a maintainer decision; do not normalise one way on a single carnet's authority.
