@@ -144,10 +144,10 @@ When Marie writes in Italian/Russian:
 - Context: Naturalist literary term (Goncourt/Zola)
 - Notes: Established literary term, keep in French
 
-### lignes/passages cancellées
-- Translation: [X lines cancelled]
-- Context: Editorial notes about manuscript deletions
-- Notes: "Cinq lignes cancellées" → "[Five lines cancelled]"
+### lignes/passages cancellées, mots rayés/cancellés (struck text)
+- Translation: words given → [Crossed out: …]; whole lines, no words → [N line(s) crossed out] (e.g. "Cinq lignes cancellées" → "[Five lines crossed out]"); struck word(s) with no words given → [word crossed out] / [words crossed out]
+- Context: Marie's own crossings-out (French «Rayé», «Mots rayés», «Mots cancellés», «lignes cancellées»). Distinct from blacked-out («noirci») → [word(s) blacked out: …], which stays as it is.
+- Notes: Owner ruling 2026-10-03 unified all struck-text labels; "cancelled" labels retired.
 
 ## Russian Terms (from Carnet 000)
 
