@@ -1459,7 +1459,7 @@ They need AI translation into French.
 - **093/1881-09-18.md** para 093.DROPPED-0067 [ENGLISH]: %% 2026-02-02T09:01:13 LAN: "ulster" - ENGLISH: heavy overcoat (Ulster coat), fashionable 1870s-80s %%
 - **093/1881-10-04.md** para 093.0175 [LATIN]: %% 2026-02-02T09:10:06 LAN: "idem" - LATIN: the same, likewise (to be painted nude) %%
 - **093/1881-10-10.md** para 093.0201 [LATIN]: %% 2026-02-02T09:03:09 LAN: LATIN: "verticem mundi" - summit/pinnacle of the world; Marie's classical education %%
-- **093/1881-10-30.md** para 093.0315 [RUSSIAN]: %% 2026-02-02T09:06:05 LAN: RUSSIAN: "les yeux s'enfuient dans toutes les directions comme on dit en russe" - Russian idiom Marie translates %%
+- **093/1881-10-30.md** para 093.0316 [RUSSIAN]: %% 2026-02-02T09:06:05 LAN: RUSSIAN: "les yeux s'enfuient dans toutes les directions comme on dit en russe" - Russian idiom Marie translates %%
 - **093/1881-11-22.md** para withdrawn in the 2026-09 rebuild (old carnet 093 ¶0141; see content/_renumber/093-2026-09-28.json) [LATIN]: %% 2026-02-02T09:06:26 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory: Marie's motto, book title %%
 - **094/1882-01-23.md** para 094.0202 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "heals all wounds but those of the heart" - Gabriel's English inscription on glycerin bottle, romantic cliche %%
 - **095/1882-07-31.md** para 095.0384 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "Il corpo e piu che il vestimento" - The body is more than clothing; biblical reference Luke 12:23 %%
