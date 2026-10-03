@@ -30,7 +30,7 @@ He published four volumes of *Diplomatic Reminiscences* (1892-1894), covering hi
 
 ## References in Diary
 
-- First mentioned: 1875-10-12 (046.0354)
+- First mentioned: 1875-10-12 (046.0352)
 - Marie observes him and his family at no. 55, near her residence
 
 %% 2026-02-09T21:00:00 RSR: Created entry. Loftus was actually serving as Ambassador to Russia at this time (1871-1879), so his stay in Nice was likely a vacation. The LAN annotation incorrectly calls him "ex-ambassadeur à Berlin" — Marie herself says this in the text, which is partially correct: he was formerly ambassador to Berlin (1865-68) but was currently ambassador to St. Petersburg. %%

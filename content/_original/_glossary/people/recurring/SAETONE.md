@@ -19,10 +19,10 @@ Andriot Saetone is a Niçois man who acts as intermediary and go-between in Mari
 
 ## Identity
 
-- First name: Andriot (revealed in 046.0360: "Andriot Saëtone")
+- First name: Andriot (revealed in 046.0358: "Andriot Saëtone")
 - Niçois social figure
 - Older than Marie's circle; she ironically calls him "mon oncle"
-- Described as handsome: "le bel Andriot" (046.0381)
+- Described as handsome: "le bel Andriot" (046.0379)
 - Associated with de Cessole in Audiffret's social group
 
 ## Role in Marie's Circle (1875)

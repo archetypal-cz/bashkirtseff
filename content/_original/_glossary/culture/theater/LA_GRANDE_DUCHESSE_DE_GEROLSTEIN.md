@@ -28,10 +28,10 @@ The premiere was attended by European royalty including Napoleon III, the future
 
 ## Relevance to Marie
 
-Marie attends a performance at the Nice theater on October 7, 1875 (046.0213). She notes it has been "bien longtemps" since she last saw it, but leaves after the second act, escorted by Bihovetz and Barnola. The operetta's theme of a powerful woman obsessed with an unworthy man may have resonated with her own situation vis-a-vis Audiffret.
+Marie attends a performance at the Nice theater on October 7, 1875 (046.0211). She notes it has been "bien longtemps" since she last saw it, but leaves after the second act, escorted by Bihovetz and Barnola. The operetta's theme of a powerful woman obsessed with an unworthy man may have resonated with her own situation vis-a-vis Audiffret.
 
 ## References in Diary
 
-- 1875-10-07 (046.0213): Attends performance in Nice, leaves after Act II
+- 1875-10-07 (046.0211): Attends performance in Nice, leaves after Act II
 
 %% 2026-02-09T21:00:00 RSR: Created entry. Note the parallel between the Grand Duchess's futile infatuation with Fritz and Marie's situation with Audiffret — both women of (self-perceived) superior station pursuing an unworthy man. %%

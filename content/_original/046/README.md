@@ -9,7 +9,7 @@ Carnet 046 of Marie Bashkirtseff's diary. A ten-day period dominated by the afte
 **Date range**: 1875-10-03 to 1875-10-12
 **Entry count**: 10
 **Location(s)**: Nice
-**Paragraph range**: 046.0001 - 046.0394
+**Paragraph range**: 046.0001 - 046.0392
 
 ## Status
 

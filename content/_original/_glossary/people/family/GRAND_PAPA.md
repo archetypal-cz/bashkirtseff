@@ -170,8 +170,8 @@ The whole household, his daughter (Marie's mother) included, called him Papa, an
 From 1875 Marie mostly names him "grand-papa" / "mon grand-père", and bare "papa" becomes rarer (031.0080–0139, 033.0056–0170, 045.0384–0284, 062.0057–0622, 072.0006, 072.0057, 074.0371).
 
 - **Blindness and fall**: "pauvre aveugle qu'il est" (032.0215, May 1875), after a false alarm of apoplexy.
-- **Collignon**: Marie blames the governess's departure on him (032.0181); he is "jaloux" of Collignon and Barnola (046.0302, 059.0571, 062.0098).
-- **The pavilion at Nice**: he lives in the garden pavilion of the family villa (037.0258, 046.0355, 062.0840).
+- **Collignon**: Marie blames the governess's departure on him (032.0181); he is "jaloux" of Collignon and Barnola (046.0300, 059.0571, 062.0098).
+- **The pavilion at Nice**: he lives in the garden pavilion of the family villa (037.0258, 046.0353, 062.0840).
 - **Advice on Antonelli** (June 1876): "Grand-papa, vous parlez comme un ange" (062.0737–0622); he opposes the match (062.0777–0648).
 - **Eye operation** (May 1877): "grand-papa s'est fait opérer l'œil et l'opération a réussi" (071.0308). After it "Monsieur mon grand-père, depuis qu'il voie, est intraitable" (074.0042).
 - **Germany, summer 1877**: with the family at Schlangenbad and Wiesbaden (073.0301–074.0425); meets his old friend Prince Repnine, "ancien ami de grand-papa il y a quarante ans" (074.0080, 074.0387, 074.0417).
