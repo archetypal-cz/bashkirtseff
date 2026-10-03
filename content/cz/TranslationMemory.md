@@ -593,6 +593,17 @@ These override older per-carnet entries below where they conflict.
 - First appearance: 033 (1875-05-26)
 - Notes: Translated with footnote explaining literary context; differs from carnet 032's "U všech svatých" — in 033, context warrants more literal/humorous rendering since Marie explicitly reads Henri IV's era 2026-10-03: original → footnote (KRR); unify with the 032 row unless the Henri IV context is explicit.
 
+### Cap de Biou ! / Cap de Diou ! (Niçois/Occitan oath)
+- Translation (Czech): ==Propánakrále!== (`==…==` + footnote „V originále nicejsky: „Cap de Biou !“ – …“)
+- Context: Southern oath, probably a variant of Occitan *cap de Diou* („hlava Boží“; RSR 037.0255); *biou* = Provençal „ox“, so possibly a minced form — hence a Czech minced oath, not a literal „Býčí hlava“.
+- First appearance: 033 (1875-06-01)
+- Ruling (2026-10-03, CON, reading-conventions wave 033–036): where Marie does NOT flag the oath as Niçois in the passage (ED default 3b2), render ==Propánakrále!==. Corpus before ruling (visible text): 033/06-01 ×1 (worker draft „Býčí hlava!“, replaced), 037/07-18 + 07-24 ×2 (uncommitted worker draft ==Proboha==, to be aligned by the 037 reviewer), 054/02-19 ==Cap de Biou!== ×1 and 063/07-15 *Cap de Diou!* ×1 (old convention, convert when those carnets are waved). Flagged-as-Niçois variants (San Biou de Biou, Coquine de Biou „jak říkají Nicejci“) stay Niçois italic + footnote. Owner may veto (open owner item: one Niçois-oath rule).
+
+### jettatore (Italian/Neapolitan)
+- Translation (Czech): ==nosí smůlu== (verbal: „že ==nosí smůlu==“; „nosič smůly“ rejected as unidiomatic)
+- First appearance: 035 (1875-07-01); also 070/1877-04-19 (still Italian, convert in wave)
+- Ruling (2026-10-03, CON, wave 033–036): no prior cz rendering (corpus: 035 ×1, 070 ×1 Italian with gloss footnote).
+
 ### mardi gras turc
 - Translation (Czech): turecký masopust
 - Context: Marie's invented term for a chaotically fun carnival-like day
