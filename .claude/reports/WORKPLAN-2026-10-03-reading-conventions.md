@@ -158,3 +158,13 @@ Brief: .claude/reports/wave-2026-10-03-worker-brief.md. Batches of 3 carnets per
 - OWNER: Johanka vs Jana z Arku; Seno vs Senoseč (tree split ~half/half, 099–105) — pick + sweep.
 - RSR: _original 099/1883-04-18 false "In English" footnote on 099.0156.
 - Leftover dash lines in cz (~109) audited 2026-10-03: lists, self-catechism (044), Marie's exclamations (018), prayer lists (011) — intentional.
+
+## OWNER rulings 2026-10-03 (evening) — applied
+- DONE starovoï → police official (9cfc8d0fe6): cz „policejní komisař“/„komisař“, en district constable, uk становий; _original footnotes + RUSSIAN glossary fixed. Leftover: fr tree (096/102 LAN copies, _non_french_passages.md), en TM inline 094–096 paragraph.
+- Madame/milostpaní direct address → „madam“; chic → no „šik“ (sweep in flight, brief sweep-2026-10-03-madam-chic-brief.md, 3 Sonnet workers 000–035/036–075/076–106 → Opus review).
+- DONE: cocotte → „koketa“ (2846fb125c); *Schůzka* / Johanka z Arku / *Senoseč* (2b3ea1346c).
+- DONE Italian pasted documents footnoted (9cfc8d0fe6): 069/03-25, 070/04-05, 04-15, 04-24, 071/05-10.
+- Established-title verification: later research pass (owner).
+- OPEN: Madame + surname in narration („Madame Gaviniová“ vs „paní Gaviniová“) — not covered by the „madam“ ruling; ask.
+- DONE madam/šik sweep (fec44a5dfc, Opus CON 0.93): ~155 vocatives → „madam“, ~70 „šik“ gone; *chic* kept italic + footnote where Marie comments on the word (038.0252, 103.0003).
+- OWNER (from sweep): „Drahá paní“ (chère madame) in speech 085/05-23, 091/05-10, 098.0314 → „drahá madam“?; letter salutations; third-person Madame/milostpaní; quoted slang „as Rosalie would say“ (071.0456, 073.0068, 069.0079) keep *chic*?; Madame + surname.
