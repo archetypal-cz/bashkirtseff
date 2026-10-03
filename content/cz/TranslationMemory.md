@@ -1296,6 +1296,7 @@ These override older per-carnet entries below where they conflict.
 - Context: Proper, well-bred, as it should be; used for the cavalry guardsman in 064 (1876-08-10)
 - First appearance: Various; established TM term
 - Notes: "garde à cheval si comme il faut" → "jezdec tak jak náleží". 2026-10-03 (KRR): `==jak náleží==` in the text, *comme il faut* → footnote (first occurrence per entry); alternatives by context „vybraný“, „ze slušné společnosti“.
+- Ruling (2026-10-03, CON, reading-conventions wave 021–023): one default per use. Said of a person or of conversation/manners (predicative, „il est comme il faut“) → `==slušný/slušná==`; „le comme il faut en personne“ → `==slušnost sama==`; adverbial/manner („faire comme il faut“) → `==jak se sluší (a patří)==`; „jak náleží“ stays for the 064 adverbial use. Corpus count of highlighted renderings after the 021 alignment: slušný/slušná/slušného 9 (7 footnoted + 2 repeats in 021/07-11), slušnost sama 1, jak se sluší (a patří) 4, dobře vychovaný 1 (002, context-justified). „vybraný“ / „ze slušné společnosti“ no longer used for the person sense (021 aligned from vybraný ×2, ze slušné společnosti ×3, vybranost sama ×1).
 
 ### droschki / drožky (carnet 064)
 - Translation (Czech): drožky
