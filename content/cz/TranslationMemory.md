@@ -833,6 +833,18 @@ These override older per-carnet entries below where they conflict.
 - «gentleman» (naturalised) stays plain „gentleman/gentlemana“ (visible-corpus majority 16 vs „džentlmen-“ 8 at 2026-10-03; the workplan's „džentlmen“ sweep is still an open item, not applied here).
 - Marie's French verse (038.0122 epistle to the aunt; 039.0025, 0027; «Revue de Nice» 039.0166–0184): rhymed Czech doggerel, one verse line per source line, no wrapper; stanzas without a natural rhyme may stay near-literal.
 
+### Reading-conventions renderings, carnets 058–060 (CON 2026-10-03)
+- *barcaccia* (the theatre club box and its set) → ==klubová lóže== (==klubové lóži==, z ==klubové lóže==), footnote „V originále italsky: „barcaccia“ – klubová lóže: …“ at the first occurrence per entry; aligned with the 055–057 wave (055/03-22, 057/04-10, 04-12). The worker's „lóže u jeviště“ (058–059 ×8) replaced. Supersedes the 057 row „společnost od Barcaccie“.
+- *San Diou de Diou !* (060.0013, letter to Nice, not flagged as Niçois in the passage) → ==Propánakrále!== per the Cap de Biou ruling above (footnote „V originále nicejsky: …“).
+- *Corpo di Dio* (060.0024) → ==Při těle Božím!==; *Carpo di Bacco* (059.0891) → ==do toho Bakcha!== (row 059 below; note cz/052 in flight has ==Při Bakchovi!== for *Corpo di Bacco*).
+- *via !* (058.0251, 059.0652) → ==nechme toho!== (dismissive „enough of that“; the 055 example „pryč!“ fits only a literal „away!“).
+- *gentlemen riders* (059.0035) → ==amatérských jezdců== (as committed 018/1874-04-23; 022 has ==jezdci-džentlmeni==); the naturalised single word *gentleman/gentlemen* stays plain „gentleman/gentlemanů“ per the 037–039 row (the „džentlmen“ sweep is still open).
+- *Mercurio* (060.0639, „faire le Mercurio“) → „dělat Merkura“ (mythological name used as a role, plain, Italian in the footnote; as en "play Mercury", uk «роль Меркурія»).
+- *traviata* as period slang for a kept woman (060.0278, 0466) stays, italic *traviata* + footnote (echo of Verdi's opera, which Marie is singing in the same days); not ==…==.
+- *plobster* (Marie's coinage) stays plain, never ==…== (059 ×3 unmarked; cz/053/1876-01-27 still has ==plobsters==, align when that carnet is reviewed).
+- Latin: *culpa mea ×3* → ==má vina, má vina, má vina==; *PAX TIBI* → ==POKOJ TOBĚ==; *Nescio* → ==Nevím==; *scripta manent* → ==písmo zůstává==. Italian: *Forse* → ==Snad.==; *Ohimè !* → ==Běda mi!==; *poco m'importe* → ==málo mi na tom záleží==; *veglione* → ==velký maškarní ples==; *casa paterna* → ==otcovský dům==; *com'è carina !* → ==jak je rozkošná!==; *Buena sera … stia bene* → ==Dobrou noc== … ==mějte se hezky==; *Occhi neri* → ==Černé oči==; telegram 058.0130 translated whole inside the quotes. English: *flirtation* → ==flirtování==; *policemen* → ==strážníci==; *we are off* → ==vyrážíme==. French: *comme il faut* (superlative) → ==nejslušnější==.
+- Kept as names/nicknames (italic + gloss, never ==…==): *signor cardinalino* / *cardinalino*, *Signor zio*, *Rossignou che vola* (song), San Zucchini; *ščenok* (059.0922) stays italic because Marie glosses the word herself; the motto *honni soit qui mal y pense* stays French (motto rule above).
+
 ### Bigre / Bigre de bigre — carnet 055
 - Translation (Czech): U sta hromů / U sta hromů hromských
 - Context: Continues 053; Marie's recurring mild oath
@@ -842,7 +854,7 @@ These override older per-carnet entries below where they conflict.
 ## Carnet 057 Terms
 
 ### barcaccia (gens de la barcaccia)
-- Translation (Czech): společnost od Barcaccie
+- Translation (Czech): společnost od Barcaccie — SUPERSEDED (CON 2026-10-03): the theatre box is ==klubová lóže== (see "Reading-conventions renderings, carnets 058–060")
 - Context: Regular social set gathered at the Barcaccia fountain in Piazza di Spagna, Rome; Marie's habitual meeting-place crowd
 - First appearance: 057 (1876-04-12)
 
@@ -1229,7 +1241,7 @@ These override older per-carnet entries below where they conflict.
 - Translation (Czech): niçoiská zvěř
 - Context: Marie's contemptuous collective noun for the dull permanent residents of Nice
 - First appearance: 059 (1876-05-05)
-- Notes: "zvěř" (animals/fauna) for contemptuous effect; adjective "niçoiská" kept foreign to underscore Marie's outsider disdain
+- Notes: "zvěř" (animals/fauna) for contemptuous effect; adjective "niçoiská" kept foreign to underscore Marie's outsider disdain. SUPERSEDED (CON 2026-10-03): „nicejská zvěř“ per the Ruling 2026-09-30 (adj. „nicejský“); 059/1876-05-05 and the „nicejská píseň“ in 05-06 aligned.
 
 ### Bigre / U sta hromů — carnet 059
 - Translation (Czech): U sta hromů
