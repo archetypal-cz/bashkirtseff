@@ -803,6 +803,13 @@ These override older per-carnet entries below where they conflict.
 - First appearance: 002 (1884 margin note); dense in 014–019.
 - Other recurring English renderings fixed in 015–017 (indicative): "foggy" → ==mlhavo==, "waterproof" → ==nepromokavý plášť==, "canter" → ==krátkým cvalem==, "nonsenses" → ==nesmysly==, "walk" / "for a walk" → ==na procházku==, "drive(s)" → ==jet / projíždět se==. Marie's own place-coinage "outside" (017) and the pun "bino-eie" (015) stay in italics with a note. Titles without an established Czech form stay French in italics + gloss (*Les décavés*, *La jolie parfumeuse*, *Les courtisanes du monde*, *Louis XIV et son siècle*); established ones go Czech with the original in the footnote („Favoritka“, „Iliada“, „Gulliverovy cesty“).
 
+### Reading-conventions renderings, carnets 024–026 (CON 2026-10-03)
+- Titles with an established Czech stage title (text Czech, Marie's title in the footnote): «Le pardon de Ploërmel» → „Dinorah“ (Meyerbeer; the opera's stage title in Czech); «i Lombardi» → „Lombarďané“ (Verdi, *I Lombardi alla prima crociata* = „Lombarďané na první křížové výpravě“); «Orphée (aux enfers)» → „Orfeus (v podsvětí)“; «L'Italiana in Algeria» → „Italka v Alžíru“; «Les brigands» → „Lupiči“; «Barbe Bleue» → „Modrovous“; «Don Quichotte» → „Don Quijote“. Kept French in italics + gloss: *Gentil Bernard ou l'art d'aimer*.
+- Mottoes (ED default 2026-10-03, owner may veto): *ich dien*, *Honni soit qui mal y pense* stay in the original, italics, translation in the footnote (not `==…==`).
+- Italian: «untranquillo / untranquilla» (Walitsky's telegram 024.0010 and Marie's echo 024.0103) → ==neklidný== / ==neklidná==; «stizzata» → ==popuzená==; «per un bel pezzo» → ==ještě pěkně dlouho==; «Buon giorno, come state?» → ==Dobrý den, jak se máte?==; whole Italian paragraph 026.0012 («O misera me…») → Czech text with the run note „V originále italsky.“, no wrapper.
+- French kept by earlier passes, now Czech: «œil-de-bœuf» (neckline) → ==volské oko== + footnote; «chapeau Mademoiselle» → „klobouk Mademoiselle“ (fashion name, footnote). English game name *Aunt Sally* stays (name, footnote).
+- Marie's French doggerel on Audiffret (024.0319–0334): rhymed Czech doggerel in the text, one verse line per source line; no wrapper (French is the source language).
+
 ### Bigre / Bigre de bigre — carnet 055
 - Translation (Czech): U sta hromů / U sta hromů hromských
 - Context: Continues 053; Marie's recurring mild oath
