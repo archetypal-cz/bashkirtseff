@@ -9,7 +9,7 @@
 //   const res = await starParagraph('008.0145', 'cz');
 //   if (res.outcome === 'transient') queue = enqueue(queue, {...});
 
-import { decodeJwt, getStoredToken, refresh, type RefreshResult } from './auth';
+import { decodeJwt, getStoredToken, refresh, timeoutSignal, type RefreshResult } from './auth';
 
 // The plan lists decodeJwt among the stars helpers; it lives in auth.ts (single copy).
 export { decodeJwt };
@@ -163,10 +163,14 @@ export async function classifyResponse(res: Response | null): Promise<StarOutcom
 
 // ─── API client ──────────────────────────────────────────────────────
 
+/** Per-request timeout: a hung connection must not wedge the serial chain or the drain. */
+const REQUEST_TIMEOUT_MS = 15000;
+
 async function send(path: string, init: RequestInit, token: string): Promise<Response | null> {
   try {
     return await fetch(`${API_URL}${path}`, {
       ...init,
+      signal: timeoutSignal(REQUEST_TIMEOUT_MS), // abort -> null -> transient
       headers: { ...(init.headers as Record<string, string>), Authorization: `Bearer ${token}` },
     });
   } catch {

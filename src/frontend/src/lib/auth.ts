@@ -24,7 +24,7 @@ const USER_KEY = 'auth-user';
 const VERIFIER_KEY = 'auth-pkce-verifier';
 
 /** AbortSignal that fires after `ms`. AbortSignal.timeout is missing on Safari < 16. */
-function timeoutSignal(ms: number): AbortSignal {
+export function timeoutSignal(ms: number): AbortSignal {
   if (typeof AbortSignal !== 'undefined' && typeof AbortSignal.timeout === 'function') {
     return AbortSignal.timeout(ms);
   }
@@ -388,6 +388,7 @@ export async function refreshUnlocked(): Promise<RefreshResult> {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ refresh_token: refreshToken }),
+      signal: timeoutSignal(15000), // abort -> network (a lock holder must never hang)
     });
   } catch {
     return { status: 'network', session: getOfflineSession() };

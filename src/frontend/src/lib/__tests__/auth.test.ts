@@ -307,6 +307,27 @@ describe('Web Lock coordination', () => {
     expect(locks!.requested).toEqual([]);
   });
 
+  it('refreshUnlocked() aborts a hanging /token after 15 s -> network, tokens kept', async () => {
+    seed();
+    fetchMock.mockImplementation(
+      (_u: string, init: any) =>
+        new Promise((_res, rej) => init.signal.addEventListener('abort', () => rej(new Error('aborted')))),
+    );
+    const orig = (AbortSignal as any).timeout;
+    (AbortSignal as any).timeout = undefined; // fallback path uses setTimeout, which fake timers drive
+    vi.useFakeTimers();
+    try {
+      const { refreshUnlocked } = await load();
+      const p = refreshUnlocked();
+      await vi.advanceTimersByTimeAsync(15100);
+      expect((await p).status).toBe('network');
+    } finally {
+      vi.useRealTimers();
+      (AbortSignal as any).timeout = orig;
+    }
+    expect(store.has('auth-token') && store.has('auth-refresh')).toBe(true);
+  });
+
   it('refreshUnlocked() rejected clears tokens; 5xx keeps them', async () => {
     seed();
     fetchMock.mockReturnValueOnce(json(502));

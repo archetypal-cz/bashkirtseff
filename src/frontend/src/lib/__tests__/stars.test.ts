@@ -7,6 +7,11 @@ vi.mock('../auth', () => ({
   getStoredToken: () => storedToken,
   decodeJwt: (t: string | null) => (t === 'jwt' ? { sub: 's1', exp: 42 } : null),
   refresh: (...a: unknown[]) => refreshMock('locked', ...a),
+  timeoutSignal: (ms: number) => {
+    const c = new AbortController();
+    setTimeout(() => c.abort(), ms);
+    return c.signal;
+  },
 }));
 
 import {
@@ -222,5 +227,27 @@ describe('API client', () => {
     fetchMock.mockClear();
     expect((await starParagraph('008.0145', 'cz')).outcome).toBe('auth');
     expect(fetchMock).not.toHaveBeenCalled();
+  });
+
+  it('a request that never answers is aborted after 15 s and is transient', async () => {
+    vi.useFakeTimers();
+    try {
+      fetchMock.mockImplementation(
+        (_u: string, init: RequestInit) =>
+          new Promise((_r, reject) => {
+            init.signal?.addEventListener('abort', () => reject(new DOMException('aborted', 'AbortError')));
+          }),
+      );
+      const p = starParagraph('008.0145', 'cz');
+      await vi.advanceTimersByTimeAsync(14000);
+      let settled = false;
+      p.then(() => (settled = true));
+      await vi.advanceTimersByTimeAsync(0);
+      expect(settled).toBe(false);
+      await vi.advanceTimersByTimeAsync(1500);
+      expect((await p).outcome).toBe('transient');
+    } finally {
+      vi.useRealTimers();
+    }
   });
 });
