@@ -49,7 +49,8 @@
     "glossary": "Glosář",
     "marie": "Marie",
     "about": "O projektu",
-    "openInGithub": "Otevřít na GitHubu"
+    "openInGithub": "Otevřít na GitHubu",
+    "myStars": "Moje hvězdičky"
   },
   "translation": {
     "heading": "Překlady deníku",
@@ -483,15 +484,17 @@
   "privacy": {
     "pageTitle": "Ochrana soukromí — Deník Marie Bashkirtseff",
     "title": "Ochrana soukromí",
-    "lastUpdated": "Poslední aktualizace: březen 2026",
+    "lastUpdated": "Poslední aktualizace: říjen 2026",
     "intro": "Toto je neziskový vědecký projekt, jehož cílem je zpřístupnit deník Marie Bashkirtseff celému světu. Sbíráme co nejméně osobních údajů a nikdy je nepoužíváme ke komerčním účelům.",
     "dataCollectedTitle": "Jaká data sbíráme",
     "dataCollectedIntro": "Osobní údaje sbíráme jen tehdy, když se sami rozhodnete s webem interagovat:",
     "dataGoogle": "<strong>Profil Google</strong> (jméno, e-mail, avatar) — pouze pokud se dobrovolně přihlásíte přes Google OAuth",
     "dataReports": "Hlášení k odstavcům — upozornění na chyby v překladu, která odešlete jako přihlášený uživatel",
+    "dataStars": "Odstavce s hvězdičkou — odstavce, které si jako přihlášený uživatel označíte; jsou soukromé a vidíte je jen vy",
     "dataAnalytics": "<strong>Žádné sledovací cookies</strong> — používáme Umami analytiku, která nepoužívá cookies a neshromažďuje žádné osobní údaje",
     "whyTitle": "Proč data sbíráme",
     "whyReports": "Aby čtenáři mohli hlásit chyby v překladu a sledovat svá hlášení",
+    "whyStars": "Aby si čtenáři mohli vést soukromý seznam oblíbených odstavců, který lze kdykoli exportovat nebo smazat",
     "whyQuality": "Abychom mohli zlepšovat kvalitu překladů na základě zpětné vazby čtenářů",
     "storageTitle": "Kde jsou data uložena",
     "storageSupabase": "Data jsou uložena v databázi <strong>PostgreSQL</strong> na vlastním serveru",
@@ -632,5 +635,38 @@
     "PROPERTY": "Majetek a investice",
     "PROPERTY_FAMILY": "Majetek — rodina",
     "PROPERTY_OTHERS": "Majetek — jiní"
+  },
+  "stars": {
+    "star": "Označit hvězdičkou",
+    "starred": "S hvězdičkou",
+    "starredSuffix": ", s hvězdičkou",
+    "unstar": "Odebrat hvězdičku",
+    "signInToStar": "Přihlaste se a označte si odstavec",
+    "pageTitle": "Moje hvězdičky — Deník Marie Bashkirtseff",
+    "title": "Moje hvězdičky",
+    "empty": "Zatím nemáte žádné odstavce s hvězdičkou. Otevřete nabídku u libovolného odstavce a označte si ho.",
+    "signedOutIntro": "Přihlaste se a označujte si odstavce hvězdičkou, abyste je měli pohromadě. Vaše hvězdičky jsou soukromé a vidíte je jen vy.",
+    "export": "Exportovat (JSON)",
+    "removeAll": "Odebrat všechny",
+    "removeAllConfirm": "Odebrat všechny vaše hvězdičky? Tuto akci nelze vrátit zpět.",
+    "removed": "Hvězdička odebrána",
+    "missingPassage": "Už není v edici",
+    "preLoginInfo": "Přihlaste se přes Google a ukládejte si soukromé hvězdičky. Ukládáme pouze vaše jméno a e-mail.",
+    "unavailableOffline": "Teď není k dispozici – načte se, až stránku otevřete online",
+    "originalBadge": "Originál (francouzsky)",
+    "queuedOffline": {
+      "one": "{count} změna čeká na synchronizaci",
+      "few": "{count} změny čekají na synchronizaci",
+      "other": "{count} změn čeká na synchronizaci"
+    },
+    "synced": "Všechny změny jsou synchronizovány",
+    "capReached": "Dosáhli jste limitu 1 000 hvězdiček. Některé odeberte, abyste mohli přidat další.",
+    "error": "Hvězdičky se nepodařilo aktualizovat. Zkuste to prosím znovu.",
+    "offlineList": "Jste offline — zobrazují se vaše uložené hvězdičky.",
+    "unsyncedSignOutWarning": {
+      "one": "{count} změna ještě není synchronizována — přesto se odhlásit?",
+      "few": "{count} změny ještě nejsou synchronizovány — přesto se odhlásit?",
+      "other": "{count} změn ještě není synchronizováno — přesto se odhlásit?"
+    }
   }
 }

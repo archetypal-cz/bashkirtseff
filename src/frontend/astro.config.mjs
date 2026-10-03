@@ -156,6 +156,8 @@ export default defineConfig({
         // `page` is the absolute URL string, e.g. https://bashkirtseff.org/about/
         const path = new URL(page).pathname.replace(/\/$/, '');
         const excluded = ['', '/about', '/marie', '/privacy', '/offline', '/404', '/admin'];
+        // private "My stars" page (noindex): /{cs|en|fr|uk|es}/stars
+        if (/^\/(cs|en|fr|uk|es)\/stars$/.test(path)) return false;
         return !excluded.includes(path);
       },
     }),
@@ -272,6 +274,40 @@ export default defineConfig({
               expiration: {
                 maxEntries: 5000,
                 maxAgeSeconds: 60 * 60 * 24 * 90 // 90 days
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
+            }
+          },
+          {
+            // The "My stars" page itself (/{cs|en|fr|uk|es}/stars/), so a visited page
+            // opens offline and renders from the stars cache + the cached index files.
+            urlPattern: /\/(cs|en|fr|uk|es)\/stars\/?$/,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'stars-page-cache',
+              expiration: {
+                maxEntries: 5,
+                maxAgeSeconds: 60 * 60 * 24 * 90
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
+            }
+          },
+          {
+            // Paragraph index for "My stars" (/data/paragraphs/{lang}/{carnet}.json).
+            // Own cache: ~500 small files, which would evict the few generic data
+            // files (maxEntries 20). MUST stay before the generic /data/ route
+            // below: Workbox uses the first route that matches.
+            urlPattern: /\/data\/paragraphs\//,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'diary-paragraph-index-cache',
+              expiration: {
+                maxEntries: 600,
+                maxAgeSeconds: 60 * 60 * 24 * 30
               },
               cacheableResponse: {
                 statuses: [0, 200]

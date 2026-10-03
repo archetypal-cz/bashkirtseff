@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue';
 import { useFilterStore } from '../stores/filter';
+import { useHydrated } from '../composables/useHydrated';
 import { useI18n, type SupportedLocale } from '../i18n';
 import { monthName as localMonthName, weekdayLabels } from '../lib/calendar-labels';
 
@@ -18,6 +19,9 @@ interface Props {
 const props = defineProps<Props>();
 const { locale } = useI18n(props.pageLocale);
 const filterStore = useFilterStore();
+// Shared Pinia: ignore a filter restored by another island until mounted, so the
+// first client render matches the server HTML.
+const hydrated = useHydrated();
 
 // Initialize filter store (reads persisted tags from localStorage).
 // H3: only fetch the 833 KB filter index when a filter is actually active
@@ -47,9 +51,9 @@ const monthName = computed(() => localMonthName(props.month, locale.value));
 const entryDateSet = computed(() => new Set(props.entryDates));
 
 // Filter-aware: dates that match the active filter
-const isFilterActive = computed(() => filterStore.isActive);
+const isFilterActive = computed(() => hydrated.value && filterStore.isActive);
 const filteredDateSet = computed(() => {
-  if (!filterStore.isActive) return new Set<string>();
+  if (!isFilterActive.value) return new Set<string>();
   // matchingEntryIds contains date strings like '1873-01-11'
   const matching = filterStore.matchingEntryIds;
   return new Set(props.entryDates.filter(d => matching.has(d)));

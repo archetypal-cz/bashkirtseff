@@ -94,18 +94,28 @@ export const useFilterStore = defineStore('filter', () => {
 
   // --- Actions ---
 
-  async function loadIndex() {
-    if (index.value || loading.value) return;
-    loading.value = true;
-    try {
-      const res = await fetch('/data/filter-index.json');
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      index.value = await res.json();
-    } catch (e) {
-      console.error('[FilterStore] Failed to load index:', (e as Error).message);
-    } finally {
-      loading.value = false;
+  // One fetch shared by every caller: islands call loadIndex() concurrently, and
+  // each must be able to await the result (not return early while another's in flight).
+  let loadPromise: Promise<void> | null = null;
+
+  function loadIndex(): Promise<void> {
+    if (index.value) return Promise.resolve();
+    if (!loadPromise) {
+      loading.value = true;
+      loadPromise = (async () => {
+        try {
+          const res = await fetch('/data/filter-index.json');
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          index.value = await res.json();
+        } catch (e) {
+          console.error('[FilterStore] Failed to load index:', (e as Error).message);
+        } finally {
+          loading.value = false;
+          loadPromise = null; // a failed load can be retried
+        }
+      })();
     }
+    return loadPromise;
   }
 
   /** Replace theme tag names with the locale's themes.<ID> labels (idempotent; re-run on locale change) */
@@ -153,8 +163,12 @@ export const useFilterStore = defineStore('filter', () => {
 
   let _syncing = false;
 
+  let initialized = false;
+
   function init() {
     if (typeof window === 'undefined') return;
+    if (initialized) return;
+    initialized = true;
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
       try {

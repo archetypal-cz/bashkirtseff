@@ -26,16 +26,18 @@ interface Props {
   };
   /** Repo-relative path to this page's markdown source (file or directory), e.g. "content/cz/105/1884-07-02.md". Enables the "Open in GitHub" menu item. */
   sourcePath?: string;
+  /** Adds `<meta name="robots" content="noindex, nofollow">` (private pages such as My stars). */
+  noindex?: boolean;
 }
 
-const { title, description, lang, image, type, canonicalUrl, alternates, article, sourcePath } = Astro.props;
+const { title, description, lang, image, type, canonicalUrl, alternates, article, sourcePath, noindex } = Astro.props;
 const locale = lang ? contentPathToLocale(lang) : undefined;
 const diaryLang = lang ? findDiaryLang(lang) : undefined;
 const htmlLang = diaryLang?.contentLangAttr ?? lang;
 const githubSource = sourcePath ? githubSourceUrl(sourcePath) : undefined;
 ---
 
-<BaseLayout title={title} description={description} lang={htmlLang} uiLocale={locale} lockLang={!!htmlLang} image={image} type={type} canonicalUrl={canonicalUrl} alternates={alternates} article={article}>
+<BaseLayout title={title} description={description} lang={htmlLang} uiLocale={locale} lockLang={!!htmlLang} image={image} type={type} canonicalUrl={canonicalUrl} alternates={alternates} article={article} noindex={noindex}>
   <Header locale={locale} />
 
   <main id="main" class="flex-grow" data-github-source={githubSource}>

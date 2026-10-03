@@ -75,6 +75,67 @@ because it shares the auth Postgres and `JWT_SECRET`.
 5. Set `PUBLIC_ADMIN_API_URL=https://admin.bashkirtseff.org` in `../frontend/.env`
    and rebuild the frontend.
 
+## Deleting a user account (privacy / erasure requests)
+
+Run on aretea, from the repo checkout: `cd <repo>/src/admin-api` (all paths
+below are relative to it). Deletion goes through the GoTrue admin API, never by
+deleting from `auth.users` by hand. Nothing below puts a secret in the repo: the
+JWT secret stays in `../auth/.env`.
+
+1. Find the user id (SQL against the auth DB, superuser as in Setup):
+   ```bash
+   docker compose -f ../auth/docker-compose.yml exec -T auth-db \
+     psql -U postgres -d gotrue -c "SELECT id, email FROM auth.users WHERE email = 'reader@example.com'"
+   ```
+2. Mint a short-lived admin JWT, signed HS256 with `JWT_SECRET` from
+   `../auth/.env` (the same secret GoTrue and PostgREST use), claims
+   `{"role":"service_role","aud":"authenticated","exp":<now+300>}`. Read only
+   `JWT_SECRET` (not the whole env file), inside a subshell:
+   ```bash
+   TOKEN="$(JWT_SECRET="$(grep '^JWT_SECRET=' ../auth/.env | cut -d= -f2-)" node -e '
+     const c=require("crypto"),b=o=>Buffer.from(JSON.stringify(o)).toString("base64url");
+     const h=b({alg:"HS256",typ:"JWT"})+"."+b({role:"service_role",aud:"authenticated",exp:Math.floor(Date.now()/1000)+300});
+     console.log(h+"."+c.createHmac("sha256",process.env.JWT_SECRET).update(h).digest("base64url"))')"
+   ```
+   GoTrue (v2.158.1) accepts a token with role `service_role` (or
+   `supabase_admin`) on the admin endpoints with no extra configuration; a token
+   with role `authenticated` gets 403 `not_admin`.
+3. Delete. GoTrue listens on 9999 inside the compose network and the port is not
+   published, so call it from that network. The gotrue image has only BusyBox
+   `wget` (no `--method=DELETE`) and no `curl`, so use a throwaway curl
+   container; the header goes in on stdin so the token is not in process args:
+   ```bash
+   docker run --rm -i --network nginx_npm_network curlimages/curl \
+     -sS -X DELETE -H @- http://gotrue:9999/admin/users/<USER_ID> \
+     <<<"Authorization: Bearer $TOKEN"
+   ```
+   Alternative: host `curl` against the public proxy, same `-H @-` trick:
+   `curl -sS -X DELETE -H @- https://auth.bashkirtseff.org/admin/users/<USER_ID> <<<"Authorization: Bearer $TOKEN"`.
+   Unset `TOKEN` afterwards.
+
+**What it removes.** `public.paragraph_stars.user_id` has an FK to `auth.users`
+with `ON DELETE CASCADE`, so the user's stars disappear with the account.
+**`public.paragraph_reports.user_id` has no FK**, so the user's reports are NOT
+removed (known gap, out of scope here). If a reader asks for them to go, run
+one of these by hand:
+
+```sql
+-- anonymise (keeps the report text for the translation fixes)
+UPDATE public.paragraph_reports SET user_id = '00000000-0000-0000-0000-000000000000' WHERE user_id = '<USER_ID>';
+-- or delete outright
+DELETE FROM public.paragraph_reports WHERE user_id = '<USER_ID>';
+```
+
+Note `custom_reason` and `highlighted_text` are free text and may themselves
+identify the reader; review them before choosing to keep a report.
+
+**Verify** (all three must return 0 rows / 0):
+```sql
+SELECT count(*) FROM auth.users WHERE id = '<USER_ID>';
+SELECT count(*) FROM public.paragraph_stars WHERE user_id = '<USER_ID>';
+SELECT count(*) FROM public.paragraph_reports WHERE user_id = '<USER_ID>';  -- 0 only after the manual step above
+```
+
 ## Local dev
 
 ```bash

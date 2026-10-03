@@ -3,11 +3,13 @@ import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue';
 import { useI18n, getTranslationHref, getOriginalHref, glossaryHref, pageHref, type SupportedLocale } from '../../i18n';
 import { useFilterStore } from '../../stores/filter';
 import { useDialog } from '../../composables/useDialog';
+import { useHydrated } from '../../composables/useHydrated';
 import { useHistoryStore } from '../../stores/history';
 import { trackEvent } from '../../lib/analytics';
 import { calendarDefaultOpen } from '../../lib/calendar-default';
 import CalendarWidget from '../CalendarWidget.vue';
 import UserMenu from '../auth/UserMenu.vue';
+import StarNotice from '../stars/StarNotice.vue';
 import type { FilterCategory, FilterTag } from '../../types/filter-index';
 
 // UI locale the server rendered this island in (Header.astro passes the page's).
@@ -25,6 +27,10 @@ const glossaryLink = computed(() => glossaryHref(currentPath.value || undefined)
 const marieHref = computed(() => pageHref('marie', locale.value));
 const aboutHref = computed(() => pageHref('about', locale.value));
 const filterStore = useFilterStore();
+// Shared Pinia: the filter may already be restored by another island; the toggle
+// button must render like the server HTML on first client render.
+const hydrated = useHydrated();
+const toggleFilterActive = computed(() => hydrated.value && filterStore.isActive);
 const historyStore = useHistoryStore();
 
 // --- Panel state ---
@@ -399,13 +405,16 @@ onUnmounted(() => {
 
 <template>
   <div class="unified-menu-wrapper">
+    <!-- Stars: offline-pending / cap / error notice (once per page) -->
+    <StarNotice :pageLocale="pageLocale" />
+
     <!-- Toggle button: pill with hamburger + filter icon -->
     <button
       class="unified-menu-toggle"
-      :class="{ 'is-open': isOpen, 'has-filter': filterStore.isActive }"
+      :class="{ 'is-open': isOpen, 'has-filter': toggleFilterActive }"
       @click="togglePanel"
       :aria-expanded="isOpen"
-      :aria-label="filterStore.isActive
+      :aria-label="toggleFilterActive
         ? `${t('common.menu')} (${filterStore.activeTagCount} ${t('filter.entries')})`
         : t('common.menu')"
     >
@@ -415,7 +424,7 @@ onUnmounted(() => {
         <path d="M4 6h16M4 12h16M4 18h16" />
       </svg>
       <!-- Divider + filter funnel (only when filter active) -->
-      <template v-if="filterStore.isActive">
+      <template v-if="toggleFilterActive">
         <span class="toggle-divider" />
         <span class="toggle-filter active">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none"

@@ -49,7 +49,8 @@
     "glossary": "Glossaire",
     "marie": "Marie",
     "about": "À propos",
-    "openInGithub": "Ouvrir sur GitHub"
+    "openInGithub": "Ouvrir sur GitHub",
+    "myStars": "Mes étoiles"
   },
   "translation": {
     "heading": "Traductions du journal",
@@ -473,15 +474,17 @@
   "privacy": {
     "pageTitle": "Politique de confidentialité — Journal de Marie Bashkirtseff",
     "title": "Politique de confidentialité",
-    "lastUpdated": "Dernière mise à jour : mars 2026",
+    "lastUpdated": "Dernière mise à jour : octobre 2026",
     "intro": "Ceci est un projet scientifique à but non lucratif dédié à rendre le journal de Marie Bashkirtseff accessible dans le monde entier. Nous collectons le moins de données personnelles possible et ne les utilisons jamais à des fins commerciales.",
     "dataCollectedTitle": "Quelles données nous collectons",
     "dataCollectedIntro": "Nous ne collectons des données personnelles que lorsque vous interagissez volontairement avec le site :",
     "dataGoogle": "<strong>Profil Google</strong> (nom, e-mail, avatar) — uniquement lorsque vous vous connectez volontairement via Google OAuth",
     "dataReports": "Signalements de paragraphes — rapports de problèmes de traduction soumis en tant qu'utilisateur connecté",
+    "dataStars": "Paragraphes marqués d'une étoile — les paragraphes que vous marquez en tant qu'utilisateur connecté ; ils sont privés et visibles uniquement par vous",
     "dataAnalytics": "<strong>Aucun cookie de suivi</strong> — nous utilisons Umami, une solution d'analyse sans cookies qui ne collecte aucune donnée personnelle",
     "whyTitle": "Pourquoi nous collectons des données",
     "whyReports": "Pour permettre aux lecteurs de signaler des problèmes de traduction et de suivre leurs signalements",
+    "whyStars": "Pour permettre aux lecteurs de garder une liste privée de paragraphes favoris, qu’ils peuvent exporter ou supprimer à tout moment",
     "whyQuality": "Pour améliorer la qualité des traductions grâce aux retours des lecteurs",
     "storageTitle": "Où sont stockées les données",
     "storageSupabase": "Les données sont stockées dans une base de données <strong>PostgreSQL</strong> auto-hébergée sur notre propre serveur",
@@ -622,5 +625,36 @@
     "PROPERTY": "Biens et placements",
     "PROPERTY_FAMILY": "Biens — famille",
     "PROPERTY_OTHERS": "Biens — autrui"
+  },
+  "stars": {
+    "star": "Ajouter une étoile",
+    "starred": "Étoilé",
+    "starredSuffix": ", étoilé",
+    "unstar": "Retirer l’étoile",
+    "signInToStar": "Connectez-vous pour ajouter une étoile",
+    "pageTitle": "Mes étoiles — Journal de Marie Bashkirtseff",
+    "title": "Mes étoiles",
+    "empty": "Vous n’avez encore marqué aucun paragraphe d’une étoile. Ouvrez le menu d’un paragraphe pour l’ajouter.",
+    "signedOutIntro": "Connectez-vous pour marquer des paragraphes d’une étoile et les retrouver au même endroit. Vos étoiles sont privées : personne d’autre ne les voit.",
+    "export": "Exporter (JSON)",
+    "removeAll": "Tout retirer",
+    "removeAllConfirm": "Retirer toutes vos étoiles ? Cette action est irréversible.",
+    "removed": "Étoile retirée",
+    "missingPassage": "Ne figure plus dans l’édition",
+    "preLoginInfo": "Connectez-vous avec Google pour conserver vos étoiles privées. Nous ne stockons que votre nom et e-mail.",
+    "unavailableOffline": "Indisponible pour le moment : rouvrez cette page en ligne pour la charger",
+    "originalBadge": "Original (français)",
+    "queuedOffline": {
+      "one": "{count} modification en attente de synchronisation",
+      "other": "{count} modifications en attente de synchronisation"
+    },
+    "synced": "Toutes les modifications sont synchronisées",
+    "capReached": "Vous avez atteint la limite de 1 000 étoiles. Retirez-en pour en ajouter d’autres.",
+    "error": "Impossible de mettre à jour vos étoiles. Veuillez réessayer.",
+    "offlineList": "Vous êtes hors ligne — vos étoiles enregistrées sont affichées.",
+    "unsyncedSignOutWarning": {
+      "one": "{count} modification n’est pas encore synchronisée — se déconnecter quand même ?",
+      "other": "{count} modifications ne sont pas encore synchronisées — se déconnecter quand même ?"
+    }
   }
 }

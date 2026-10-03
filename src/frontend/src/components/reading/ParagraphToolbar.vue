@@ -5,6 +5,7 @@ import { trackEvent } from '../../lib/analytics';
 import { useAuthStore } from '../../stores/auth';
 import ReportDialog from './ReportDialog.vue';
 import { languageTitle } from '../../lib/language-labels';
+import { useStarItem } from '../../composables/useStarItem';
 
 const auth = useAuthStore();
 
@@ -168,7 +169,35 @@ async function shareLink() {
 onMounted(() => {
   mounted.value = true;
   canShare.value = !!navigator.share;
-  auth.init();
+  auth.init().catch(() => {});
+});
+
+// ─── Star ────────────────────────────────────────────────────────────
+// Language stored with the star is the ROUTE language (props.language = url
+// path), not the source language in `languages` ('fr' would mean the modern edition).
+const { canStar, showSignIn, starred, toggleStar } = useStarItem(
+  () => props.paragraphId,
+  () => props.language,
+  'paragraph_toolbar',
+);
+
+function handleStar() {
+  closeMenu();
+  toggleStar();
+}
+
+function handleSignInToStar() {
+  closeMenu();
+  trackEvent('auth_sign_in_click', { source: 'paragraph_toolbar_star' });
+  if (!localStorage.getItem('auth-consent')) localStorage.setItem('auth-consent', '1');
+  auth.signIn();
+}
+
+const menuButtonLabel = computed(() => {
+  const base = hasGlossaryTags.value
+    ? t('paragraph.relatedItems', { count: props.glossaryTags!.length })
+    : t('paragraph.options');
+  return starred.value ? base + t('stars.starredSuffix') : base;
 });
 
 // ─── Report dialog ───────────────────────────────────────────────────
@@ -210,7 +239,8 @@ const hasOriginal = computed(() => !!props.originalHtml);
         class="toolbar__btn toolbar__btn--dots"
         :class="{ 'toolbar__btn--has-tags': hasGlossaryTags }"
         :aria-expanded="isMenuOpen"
-        :title="hasGlossaryTags ? t('paragraph.relatedItems', { count: glossaryTags!.length }) : t('paragraph.options')"
+        :aria-label="menuButtonLabel"
+        :title="menuButtonLabel"
       >
         <svg class="toolbar__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
@@ -299,8 +329,24 @@ const hasOriginal = computed(() => !!props.originalHtml);
                 <span aria-live="polite">{{ copied ? t('paragraph.copied') : t('paragraph.copyLink') }}</span>
               </button>
 
+              <!-- Star (signed in, incl. offline session) -->
+              <button v-if="canStar" @click="handleStar" class="menu-item" :aria-pressed="starred">
+                <svg class="menu-item__icon" :fill="starred ? 'currentColor' : 'none'" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.48 3.5a.56.56 0 011.04 0l2.13 5.11a.56.56 0 00.47.35l5.52.44c.5.04.7.66.32.99l-4.2 3.6a.56.56 0 00-.18.56l1.28 5.39a.56.56 0 01-.84.61l-4.73-2.89a.56.56 0 00-.59 0l-4.73 2.89a.56.56 0 01-.84-.61l1.28-5.39a.56.56 0 00-.18-.56l-4.2-3.6a.56.56 0 01.32-.99l5.52-.44a.56.56 0 00.47-.35L11.48 3.5z" />
+                </svg>
+                <span>{{ starred ? t('stars.starred') : t('stars.star') }}</span>
+              </button>
+
+              <!-- Sign in to star (signed out) -->
+              <button v-else-if="showSignIn" @click="handleSignInToStar" class="menu-item menu-item--muted">
+                <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.48 3.5a.56.56 0 011.04 0l2.13 5.11a.56.56 0 00.47.35l5.52.44c.5.04.7.66.32.99l-4.2 3.6a.56.56 0 00-.18.56l1.28 5.39a.56.56 0 01-.84.61l-4.73-2.89a.56.56 0 00-.59 0l-4.73 2.89a.56.56 0 01-.84-.61l1.28-5.39a.56.56 0 00-.18-.56l-4.2-3.6a.56.56 0 01.32-.99l5.52-.44a.56.56 0 00.47-.35L11.48 3.5z" />
+                </svg>
+                <span>{{ t('stars.signInToStar') }}</span>
+              </button>
+
               <!-- Report issue (authenticated) -->
-              <button v-if="auth.isAuthenticated" @click="openReport" class="menu-item">
+              <button v-if="auth.isAuthenticated && !auth.offline" @click="openReport" class="menu-item">
                 <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                 </svg>
@@ -308,7 +354,7 @@ const hasOriginal = computed(() => !!props.originalHtml);
               </button>
 
               <!-- Sign in to report (not authenticated) -->
-              <button v-else-if="!auth.loading" @click="handleSignInToReport" class="menu-item menu-item--muted">
+              <button v-else-if="!auth.loading && !auth.offline" @click="handleSignInToReport" class="menu-item menu-item--muted">
                 <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                 </svg>

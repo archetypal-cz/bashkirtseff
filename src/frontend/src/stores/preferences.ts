@@ -13,8 +13,12 @@ export const usePreferencesStore = defineStore('preferences', () => {
   const fontSize = ref(18);
 
   // Initialize from localStorage
+  let initialized = false;
+
   function init() {
     if (typeof window === 'undefined') return;
+    if (initialized) return;
+    initialized = true;
 
     // Load saved preferences
     const savedTheme = localStorage.getItem('reading-theme') as Theme;

@@ -1,17 +1,22 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
-import { useI18n } from '../../i18n';
+import { ref, onMounted, computed } from 'vue';
+import { useI18n, pageHref } from '../../i18n';
 import { useAuthStore } from '../../stores/auth';
 import { trackEvent } from '../../lib/analytics';
+import { useHydrated } from '../../composables/useHydrated';
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
+const starsHref = computed(() => pageHref('stars', locale.value));
 const auth = useAuthStore();
+// Shared store: another island may already have finished auth.init(); the first
+// client render must show the server's loading state.
+const hydrated = useHydrated();
 
 // Inline consent step — shown before first sign-in
 const showConsent = ref(false);
 
 onMounted(() => {
-  auth.init();
+  auth.init().catch(() => {});
 });
 
 function handleSignIn() {
@@ -44,7 +49,7 @@ async function handleSignOut() {
 <template>
   <div class="user-menu">
     <!-- Loading state -->
-    <template v-if="auth.loading">
+    <template v-if="!hydrated || auth.loading">
       <span class="user-menu__loading">...</span>
     </template>
 
@@ -59,6 +64,7 @@ async function handleSignOut() {
           referrerpolicy="no-referrer"
         />
         <span class="user-menu__name">{{ auth.displayName }}</span>
+        <a :href="starsHref" class="user-menu__link">{{ t('nav.myStars') }}</a>
         <button @click="handleSignOut" class="user-menu__btn user-menu__btn--signout">
           {{ t('auth.signOut') }}
         </button>
@@ -114,8 +120,9 @@ async function handleSignOut() {
 
 .user-menu__profile {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.25rem 0.5rem;
 }
 
 .user-menu__avatar {
@@ -162,6 +169,18 @@ async function handleSignOut() {
 
 [data-theme="dark"] .user-menu__btn:hover {
   background: var(--bg-secondary);
+}
+
+.user-menu__link {
+  font-size: 0.75rem;
+  color: var(--text-primary, #2C1810);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  border-radius: 0.25rem;
+}
+
+.user-menu__link:hover {
+  color: var(--color-accent, #9A4707);
 }
 
 .user-menu__btn--signout {

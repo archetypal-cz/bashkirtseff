@@ -213,7 +213,7 @@ export function glossaryHref(currentPath?: string): string {
  * These pages live at `/{uiLocale}/{page}` (e.g. `/cs/about`, `/en/marie`) — the
  * segment is the ISO UI locale, not the diary content path. Built for cs/en/fr/uk/es.
  */
-export function pageHref(page: 'about' | 'marie' | 'privacy', locale: SupportedLocale): string {
+export function pageHref(page: 'about' | 'marie' | 'privacy' | 'stars', locale: SupportedLocale): string {
   const loc = SUPPORTED_LOCALES.includes(locale) ? locale : 'cs';
   return `/${loc}/${page}/`;
 }
