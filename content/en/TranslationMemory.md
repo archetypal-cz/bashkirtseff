@@ -906,6 +906,8 @@ When Marie writes in Italian/Latin/German/Russian/Spanish, or leaves a French ph
 - Translation: loose jacket / dressing jacket
 - Context: A loose-fitting woman's garment; period fashion term
 - Notes: NOT "cassock" (clerical)
+- Ruling (2026-10-03, CON, en 035): where an earlier pass left *casaque* in French italics (6 visible hits, all in 035: 06-30 ×3, 07-01 ×2, 07-06 ×1), it becomes ==jacket== with `In French in the original: *casaque*` at the first occurrence per entry (original → footnote, KRR 2026-10-03). Carnets that already render it as plain "jacket" (001–010, 070, 095) are unaffected. After the sweep: 0 visible italic *casaque* left in the tree outside footnotes.
+- Also in en 033–036 (CON 2026-10-03): *beau ténébreux* → ==the dark, brooding hero== · *jettatore* → ==a bringer of ill luck== · *fluide* (table-turning) → ==fluid== · *Misera!* → ==Poor wretch!== · *Ecco!* → ==There you are!== · *Quid melior?* → ==What could be better?==
 
 ### mes Grâces
 - Translation: my Graces
