@@ -24,7 +24,7 @@
   - 694 paragraphs restored from the edition state of 2026-02-14 (905831d96^), matched by text.
   - 114 paragraphs translated fresh where the old edition never did it.
   - Commits run one per carnet, from `fix(fr): restore lost FRE translations in …` to `fix(fr): translate remaining foreign passages in …`.
-- **Still open (owner/editor decision):** 9 doubtful foreign passages left untranslated: 018.0304, 018.0306, 018.0364, 029.0285, 029.0286, 039.0023, 052.0207, 054.0481, 066.0427. These are garbled Italian or Latin and an unclear English idiom. Details are in `~/rebuild-state/fr-scan-2026-10-03.md` and the session report.
+- **Still open (owner/editor decision):** 9 doubtful foreign passages left untranslated: 018.0304, 018.0306, 018.0364, 029.0286, 029.0287, 039.0023, 052.0207, 054.0481, 066.0427. These are garbled Italian or Latin and an unclear English idiom. Details are in `~/rebuild-state/fr-scan-2026-10-03.md` and the session report.
 - **Visible-text repairs:**
   - 290 paragraphs fixed: partial text, date heading only, English placeholder, or stale OCR.
   - 22 split heads in 068, 093 and 094 fixed.

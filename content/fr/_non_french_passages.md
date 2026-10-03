@@ -759,50 +759,50 @@ They need AI translation into French.
 - **029/1875-01-27.md** para 029.0055 [ENGLISH]: %% 2026-01-30T15:10:00 LAN: ENGLISH: "gentleman" - gentleman; kept in English for class distinction %%
 - **029/1875-01-27.md** para 029.0055 [RUSSIAN]: %% 2026-01-30T15:10:00 LAN: RUSSIAN: "barine" - lord/master; Russian term for gentleman/nobleman %%
 - **029/1875-01-27.md** para 029.0055 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "Il Barbiere di Seviglia" - The Barber of Seville (Rossini opera) %%
-- **029/1875-01-28.md** para 029.0085 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "untranquilla" - restless/uneasy; Marie's italianized state %%
-- **029/1875-01-28.md** para 029.0085 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "il facchino italiano" - the Italian porter/fellow %%
-- **029/1875-01-28.md** para 029.0085 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "Venite qua" - Come here (formal/plural) %%
-- **029/1875-01-28.md** para 029.0085 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN QUIRK: "je inpettano" - likely garbled "vi aspettano" (they're waiting for you); Marie's imperfect Italian %%
-- **029/1875-01-28.md** para 029.0085 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "aspetta, aspetta" - wait, wait %%
-- **029/1875-01-28.md** para 029.0085 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "muso" - snout/muzzle; slang for face/person (from opera) %%
-- **029/1875-01-28.md** para 029.0085 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "L'Italiano in Algeri" - Rossini opera "The Italian in Algiers" %%
-- **029/1875-01-28.md** para 029.0085 [RUSSIAN]: %% 2026-01-30T15:10:00 LAN: RUSSIAN follows - Marie switches to Russian for privacy %%
-- **029/1875-01-29.md** para 029.0116 [ENGLISH]: %% 2026-01-30T15:10:00 LAN: ENGLISH: "London House" - English hotel/establishment name %%
-- **029/1875-01-30.md** para 029.0126 [ENGLISH]: %% 2026-01-30T15:20:00 LAN: "sir Frederic Johnstone" - ENGLISH: English baronet, title preserved %%
-- **029/1875-02-01.md** para 029.0149 [ENGLISH]: %% 2026-01-30T15:20:00 LAN: ENGLISH: "oh I look at the heels of these boots I -" - English code-switch, critical comment about English women's footwear %%
-- **029/1875-02-01.md** para 029.0158 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: "Trifon" - RUSSIAN: servant name (Trifon/Трифон) %%
-- **029/1875-02-05.md** para 029.0192 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: "Botkine" - RUSSIAN: Russian visitor, likely doctor/intellectual %%
-- **029/1875-02-06.md** para 029.0203 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "il facchino" - the porter (Marie's derogatory nickname for someone, likely Italian suitor) %%
-- **029/1875-02-06.md** para 029.0216 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "facchino" - porter (derogatory nickname) %%
-- **029/1875-02-07.md** para 029.0223 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "facchino" - porter (derogatory nickname for Italian suitor) %%
-- **029/1875-02-07.md** para 029.0233 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: "Alexandre" - RUSSIAN: uncle's name %%
-- **029/1875-02-07.md** para 029.0238 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Stiopa" - diminutive of Stepan (nephew) %%
-- **029/1875-02-07.md** para 029.0238 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Nadinka" - diminutive, likely uncle's wife %%
-- **029/1875-02-07.md** para 029.0239 [ENGLISH]: %% 2026-01-30T15:20:00 LAN: ENGLISH: "That is the question" - Shakespeare quotation, Hamlet %%
-- **029/1875-02-08.md** para 029.0244 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Stiopa" - diminutive of Stepan %%
-- **029/1875-02-08.md** para 029.0245 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Nadinka" - diminutive, uncle's wife %%
-- **029/1875-02-09.md** para 029.0260 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: "le macoletti" - ITALIAN: small candles (moccoletti), carnival tradition %%
-- **029/1875-02-11.md** para 029.0269 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Nadinka" - diminutive, uncle's wife %%
-- **029/1875-02-13.md** para 029.0284 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "C'est avec une joie sans pareille che mi rimetto a lavorare" - code-switch to Italian: "with unparalleled joy that I return to work" %%
-- **029/1875-02-13.md** para 029.0285 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: Extended passage - Marie practices Italian. Contains spelling/grammar errors typical of learner %%
-- **029/1875-02-13.md** para 029.0285 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "l'ardore dello studio" - the ardor of study %%
-- **029/1875-02-13.md** para 029.0285 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "che veramente non va a Roma" - who truly doesn't go to Rome %%
-- **029/1875-02-13.md** para 029.0285 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "contenta o anvezza" - possibly "contenta o avvezza" (content or accustomed) %%
-- **029/1875-02-13.md** para 029.0286 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: Continues planning future - studies vs. society %%
-- **029/1875-02-13.md** para 029.0286 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "gente che mi piace" - people I like %%
-- **029/1875-02-13.md** para 029.0286 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "l'inverno 1876-77" - winter 1876-77 %%
-- **029/1875-02-13.md** para 029.0286 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "il 25 Gennajio" - January 25th (her birthday) %%
-- **029/1875-02-13.md** para 029.0286 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "non sarò uno vecchia" - I won't be an old woman (grammar error: should be "una vecchia") %%
-- **029/1875-02-13.md** para 029.0286 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "sarà quel che sarà" - what will be will be %%
-- **029/1875-02-13.md** para 029.0287 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "Siamo andate a veder" - We went to see %%
-- **029/1875-02-13.md** para 029.0287 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "siamo andate dappertutto" - we went everywhere %%
-- **029/1875-02-13.md** para 029.0288 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "La sera passo a giocare" - In the evening I spend time playing %%
-- **029/1875-02-13.md** para 029.0288 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Stiopa" - diminutive of Stepan (nephew) %%
-- **029/1875-02-13.md** para 029.0288 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "un ragazzo intelligente e divertente" - an intelligent and amusing boy %%
-- **029/1875-02-13.md** para 029.0289 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "Poi scrivo, poi leggero' e dormitf" - Then I write, then I'll read and sleep (typo "dormitf" for "dormirò") %%
-- **029/1875-02-14.md** para 029.0290 [RUSSIAN]: %% 2026-01-30T15:30:00 LAN: RUSSIAN: "Vassilissa Egorovna" - Russian name with patronymic %%
-- **029/1875-02-15.md** para 029.0328 [LATIN]: %% 2026-01-30T15:30:00 LAN: LATIN: "Deo juvante" - "with God's help"; common Latin expression showing Marie's classical education %%
-- **029/1875-02-15.md** para 029.0328 [LATIN]: %% 2026-01-30T15:30:00 LAN: LATIN: "Miserere!" - "Have mercy!" from Psalm 51; exclamation of distress %%
+- **029/1875-01-28.md** para 029.0086 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "untranquilla" - restless/uneasy; Marie's italianized state %%
+- **029/1875-01-28.md** para 029.0086 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "il facchino italiano" - the Italian porter/fellow %%
+- **029/1875-01-28.md** para 029.0086 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "Venite qua" - Come here (formal/plural) %%
+- **029/1875-01-28.md** para 029.0086 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN QUIRK: "je inpettano" - likely garbled "vi aspettano" (they're waiting for you); Marie's imperfect Italian %%
+- **029/1875-01-28.md** para 029.0086 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "aspetta, aspetta" - wait, wait %%
+- **029/1875-01-28.md** para 029.0086 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "muso" - snout/muzzle; slang for face/person (from opera) %%
+- **029/1875-01-28.md** para 029.0086 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "L'Italiano in Algeri" - Rossini opera "The Italian in Algiers" %%
+- **029/1875-01-28.md** para 029.0086 [RUSSIAN]: %% 2026-01-30T15:10:00 LAN: RUSSIAN follows - Marie switches to Russian for privacy %%
+- **029/1875-01-29.md** para 029.0117 [ENGLISH]: %% 2026-01-30T15:10:00 LAN: ENGLISH: "London House" - English hotel/establishment name %%
+- **029/1875-01-30.md** para 029.0127 [ENGLISH]: %% 2026-01-30T15:20:00 LAN: "sir Frederic Johnstone" - ENGLISH: English baronet, title preserved %%
+- **029/1875-02-01.md** para 029.0150 [ENGLISH]: %% 2026-01-30T15:20:00 LAN: ENGLISH: "oh I look at the heels of these boots I -" - English code-switch, critical comment about English women's footwear %%
+- **029/1875-02-01.md** para 029.0159 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: "Trifon" - RUSSIAN: servant name (Trifon/Трифон) %%
+- **029/1875-02-05.md** para 029.0193 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: "Botkine" - RUSSIAN: Russian visitor, likely doctor/intellectual %%
+- **029/1875-02-06.md** para 029.0204 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "il facchino" - the porter (Marie's derogatory nickname for someone, likely Italian suitor) %%
+- **029/1875-02-06.md** para 029.0217 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "facchino" - porter (derogatory nickname) %%
+- **029/1875-02-07.md** para 029.0224 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "facchino" - porter (derogatory nickname for Italian suitor) %%
+- **029/1875-02-07.md** para 029.0234 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: "Alexandre" - RUSSIAN: uncle's name %%
+- **029/1875-02-07.md** para 029.0239 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Stiopa" - diminutive of Stepan (nephew) %%
+- **029/1875-02-07.md** para 029.0239 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Nadinka" - diminutive, likely uncle's wife %%
+- **029/1875-02-07.md** para 029.0240 [ENGLISH]: %% 2026-01-30T15:20:00 LAN: ENGLISH: "That is the question" - Shakespeare quotation, Hamlet %%
+- **029/1875-02-08.md** para 029.0245 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Stiopa" - diminutive of Stepan %%
+- **029/1875-02-08.md** para 029.0246 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Nadinka" - diminutive, uncle's wife %%
+- **029/1875-02-09.md** para 029.0261 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: "le macoletti" - ITALIAN: small candles (moccoletti), carnival tradition %%
+- **029/1875-02-11.md** para 029.0270 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Nadinka" - diminutive, uncle's wife %%
+- **029/1875-02-13.md** para 029.0285 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "C'est avec une joie sans pareille che mi rimetto a lavorare" - code-switch to Italian: "with unparalleled joy that I return to work" %%
+- **029/1875-02-13.md** para 029.0286 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: Extended passage - Marie practices Italian. Contains spelling/grammar errors typical of learner %%
+- **029/1875-02-13.md** para 029.0286 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "l'ardore dello studio" - the ardor of study %%
+- **029/1875-02-13.md** para 029.0286 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "che veramente non va a Roma" - who truly doesn't go to Rome %%
+- **029/1875-02-13.md** para 029.0286 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "contenta o anvezza" - possibly "contenta o avvezza" (content or accustomed) %%
+- **029/1875-02-13.md** para 029.0287 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: Continues planning future - studies vs. society %%
+- **029/1875-02-13.md** para 029.0287 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "gente che mi piace" - people I like %%
+- **029/1875-02-13.md** para 029.0287 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "l'inverno 1876-77" - winter 1876-77 %%
+- **029/1875-02-13.md** para 029.0287 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "il 25 Gennajio" - January 25th (her birthday) %%
+- **029/1875-02-13.md** para 029.0287 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "non sarò uno vecchia" - I won't be an old woman (grammar error: should be "una vecchia") %%
+- **029/1875-02-13.md** para 029.0287 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "sarà quel che sarà" - what will be will be %%
+- **029/1875-02-13.md** para 029.0288 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "Siamo andate a veder" - We went to see %%
+- **029/1875-02-13.md** para 029.0288 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "siamo andate dappertutto" - we went everywhere %%
+- **029/1875-02-13.md** para 029.0289 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "La sera passo a giocare" - In the evening I spend time playing %%
+- **029/1875-02-13.md** para 029.0289 [RUSSIAN]: %% 2026-01-30T15:20:00 LAN: RUSSIAN: "Stiopa" - diminutive of Stepan (nephew) %%
+- **029/1875-02-13.md** para 029.0289 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "un ragazzo intelligente e divertente" - an intelligent and amusing boy %%
+- **029/1875-02-13.md** para 029.0290 [ITALIAN]: %% 2026-01-30T15:20:00 LAN: ITALIAN: "Poi scrivo, poi leggero' e dormitf" - Then I write, then I'll read and sleep (typo "dormitf" for "dormirò") %%
+- **029/1875-02-14.md** para 029.0291 [RUSSIAN]: %% 2026-01-30T15:30:00 LAN: RUSSIAN: "Vassilissa Egorovna" - Russian name with patronymic %%
+- **029/1875-02-15.md** para 029.0329 [LATIN]: %% 2026-01-30T15:30:00 LAN: LATIN: "Deo juvante" - "with God's help"; common Latin expression showing Marie's classical education %%
+- **029/1875-02-15.md** para 029.0329 [LATIN]: %% 2026-01-30T15:30:00 LAN: LATIN: "Miserere!" - "Have mercy!" from Psalm 51; exclamation of distress %%
 - **030/1875-02-19.md** para 030.0001 [RUSSIAN]: %% 2026-01-30T15:30:00 LAN: RUSSIAN: "Moussia" - Marie's Russian diminutive nickname %%
 - **030/1875-02-22.md** para 030.0003 [ITALIAN]: %% 2026-01-30T15:30:00 LAN: ITALIAN: "Il barbiere" - "Il barbiere di Siviglia" (The Barber of Seville), Rossini opera %%
 - **030/1875-02-22.md** para 030.0003 [ITALIAN]: %% 2026-01-30T15:30:00 LAN: ITALIAN: "La Rosina" - the role of Rosina in the opera %%
@@ -932,13 +932,13 @@ They need AI translation into French.
 - **039/1875-08-15.md** para 039.0064 [RUSSIAN]: %% 2026-01-30T17:20:00 LAN: RUSSIAN: "Maria Stepanovna" - formal address using name + patronymic (daughter of Stepan) %%
 - **039/1875-08-15.md** para 039.0068 [RUSSIAN]: %% 2026-01-30T17:20:00 LAN: RUSSIAN: "Diadia" - uncle (familiar form), used for Georges (mother's brother) %%
 - **039/1875-08-19.md** para 039.0139 [RUSSIAN]: %% 2026-01-30T17:20:00 LAN: RUSSIAN/QUIRK: "Obeziana" - from Russian "obezyana" (monkey/ape); Marie's mocking nickname %%
-- **039/1875-08-22.md** para 039.0210 [RUSSIAN]: %% 2026-01-30T17:20:00 LAN: RUSSIAN: "Nadejda Stepanovna" - aunt's name with patronymic (formal Russian address) %%
-- **039/1875-08-22.md** para 039.0217 [RUSSIAN]: %% 2026-01-30T17:20:00 LAN: RUSSIAN/POLITICAL: "nihiliste" - nihilist; radical Russian intellectual movement rejecting traditional values; often women who traveled alone %%
-- **039/1875-08-24.md** para 039.0237 [LATIN]: %% 2026-01-30T17:20:00 LAN: LATIN: "vox faucibus exit" - the voice leaves the throat (Virgil's Aeneid); she is breathless with emotion %%
-- **039/1875-08-24.md** para 039.0237 [ITALIAN]: %% 2026-01-30T17:20:00 LAN: ITALIAN: "Il fiato mi manca!" - I am breathless!/I lose my breath! (operatic expression) %%
-- **039/1875-08-25.md** para 039.0245 [ENGLISH]: %% 2026-01-30T17:20:00 LAN: ENGLISH: "pleasantly enough" - code-switch to English for social evaluation %%
-- **039/1875-08-25.md** para 039.0245 [ENGLISH]: %% 2026-01-30T17:20:00 LAN: ENGLISH: "deliciously" - English for emphatic pleasure %%
-- **039/1875-08-26.md** para 039.0263 [RUSSIAN]: %% 2026-01-30T17:30:00 LAN: RUSSIAN: "Obeziana" - from Russian обезьяна (monkey), Marie's derogatory nickname for someone %%
+- **039/1875-08-22.md** para 039.0209 [RUSSIAN]: %% 2026-01-30T17:20:00 LAN: RUSSIAN: "Nadejda Stepanovna" - aunt's name with patronymic (formal Russian address) %%
+- **039/1875-08-22.md** para 039.0216 [RUSSIAN]: %% 2026-01-30T17:20:00 LAN: RUSSIAN/POLITICAL: "nihiliste" - nihilist; radical Russian intellectual movement rejecting traditional values; often women who traveled alone %%
+- **039/1875-08-24.md** para 039.0236 [LATIN]: %% 2026-01-30T17:20:00 LAN: LATIN: "vox faucibus exit" - the voice leaves the throat (Virgil's Aeneid); she is breathless with emotion %%
+- **039/1875-08-24.md** para 039.0236 [ITALIAN]: %% 2026-01-30T17:20:00 LAN: ITALIAN: "Il fiato mi manca!" - I am breathless!/I lose my breath! (operatic expression) %%
+- **039/1875-08-25.md** para 039.0244 [ENGLISH]: %% 2026-01-30T17:20:00 LAN: ENGLISH: "pleasantly enough" - code-switch to English for social evaluation %%
+- **039/1875-08-25.md** para 039.0244 [ENGLISH]: %% 2026-01-30T17:20:00 LAN: ENGLISH: "deliciously" - English for emphatic pleasure %%
+- **039/1875-08-26.md** para 039.0262 [RUSSIAN]: %% 2026-01-30T17:30:00 LAN: RUSSIAN: "Obeziana" - from Russian обезьяна (monkey), Marie's derogatory nickname for someone %%
 - **040/1875-08-27-28.md** para withdrawn in the 2026-09 rebuild (old carnet 040 ¶0002; see content/_renumber/040-2026-09-29.json) [ENGLISH]: %% 2026-01-30T17:30:00 LAN: ENGLISH: "H[is] G[race] t[he] D[uke] o[f] Hamilton" - coded abbreviation using English aristocratic title %%
 - **040/1875-08-27-28.md** para 040.0022 [RUSSIAN]: %% 2026-01-30T17:30:00 LAN: RUSSIAN: "Diadia" - дядя (uncle), Russian term of address for family %%
 - **040/1875-08-27-28.md** para 040.0038 [RUSSIAN]: %% 2026-01-30T17:30:00 LAN: RUSSIAN PROVERB: "Ni spirituel, ni riche, ni beau" - Marie translates/explains Russian saying about fortune over qualities %%
