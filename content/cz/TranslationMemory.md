@@ -2075,3 +2075,15 @@ These override older per-carnet entries below where they conflict.
 - «Mais ai !...» (099.0218, *aïe*) → „Ale ouvej!…“; «Ah ! par exemple !» → „No tohle!“.
 - «I!» / «II!!» OCR slips (098/01-15 «avouez-le !!», 099/04-27 «(!!!!)») rendered as exclamation marks (082–084 row). The footnote „in English in the original“ on 099.0156 («Ils vivent enfin.») was removed: the French shows no English (same wrong note in _original; RSR item, as en/uk).
 - Quoting: Marie restating a verdict in her own first person (097.0079 *Nikdy se neuzdravím.*) is not the speaker's direct speech: italics, no quotes.
+
+## OWNER rulings 2026-10-03 (after the reading-conventions wave) — LOCKED
+
+- **cocotte → „koketa“** (all forms; replaces „kokota“). Swept 2026-10-03.
+- **Marie's *Un Meeting* → *Schůzka*** (italic, declined: *Schůzku*, *Schůzky*; French title in the first footnote). Replaces *Schůze* (row above).
+- **Bastien-Lepage *Jeanne d'Arc* and the saint → „Johanka z Arku“** (Johanky, Johance, Johanku, Johankou). Replaces „Jana z Arku“.
+- **Bastien-Lepage *Les Foins* → *Senoseč*** (replaces *Seno*).
+- **starovoï = становой, a police official** (Marie's own gloss in 102.0637: «fonctionnaire de la police»). Not „starosta“. Rendering: see 092/096/102 sweep.
+- **Madame / milostpaní in direct address → „madam“.**
+- **chic → no „šik“** (too colloquial for Marie): translate by context („elegantní“, „elegance“, „vkus“, „noblesní“, „půvab“…), plain, no ==.
+- **Pasted Italian documents** (race cards, notices) fully translated get a footnote „V originále italsky.“
+- Established Czech titles of works: to be verified by a later research pass (owner, 2026-10-03); keep current forms until then.
