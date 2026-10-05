@@ -76,3 +76,8 @@ Same pattern for status updates if `just report-status` reports "No report found
 ## Reporting back
 
 End with a table: report → verdict (fixed / dismissed / deferred) → what changed → status set in DB. Note any pattern worth a WATCHLIST entry (e.g. several reports against text a specific pipeline pass produced).
+
+
+## Open items
+
+Reports that need an owner ruling or a later sweep get a line in `.claude/reports/OPEN-ITEMS.md` (section A or D) before the report is closed as deferred.

@@ -57,3 +57,8 @@ When you fix an error that belongs to a family (a mistranslation, a TM-term devi
 ## 7. Paragraph IDs are never renumbered by hand
 
 Every tree, reader reports, footnote labels, glossary citations and URLs point at `%% CCC.NNNN %%`. Never change, shift or re-sequence an ID, and never give a new paragraph an ID of your own. If a fix seems to need one (a missing paragraph, a paragraph in the wrong day's file, a split), stop and report it to the lead. The only renumbering is a planned carnet rebuild with `just rebuild-carnet` (owner decision 2026-09-27; `docs/REBUILD_CARNET.md`), which rewrites every tree and reference at once and commits its map under `content/_renumber/`.
+
+
+## 8. Open items go to the ledger
+
+Anything you leave unresolved — a question only the owner can answer, research to do, a fix needed in `_original`, a sweep for later, a known defect you didn't fix — goes into `.claude/reports/OPEN-ITEMS.md` as one `- [ ]` line in the right section (A owner decision / B research / C source fix / D sweep / E parked), format `- [ ] [area][S/M/L] **title** — question/task — default now (A only) — where — src`. Check first that it isn't already there. Mention it in your final report. Never leave open items only in a workplan, README or report. When you finish a ledger item, tick it `- [x]` with date and commit.

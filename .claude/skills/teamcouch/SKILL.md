@@ -156,3 +156,8 @@ Change the report's `status` from `final` to `reviewed`.
 - **Don't add rules for one-off issues** — that's what WATCHLIST is for
 - **Don't remove working patterns** — if something is in the skill because it solved a real problem, don't remove it unless the underlying issue is gone
 - **Don't blame agents** — agents execute skills. If the output is bad, the skill needs improvement, not the agent.
+
+
+## Open items
+
+Unresolved items a run leaves behind (owner questions, source fixes, sweeps) go into `.claude/reports/OPEN-ITEMS.md`, not into the run report alone. Agent-behaviour patterns still go into WATCHLIST.md.

@@ -200,3 +200,8 @@ Recent Activity:
 - `/docs/INFRASTRUCTURE.md` - Full infrastructure documentation
 - `/docs/templates/` - README templates
 - `/CLAUDE.md` - Project guidance
+
+
+## Open items
+
+For "what's open / what needs the owner" read `.claude/reports/OPEN-ITEMS.md` (sections A–E; `- [ ]` open, `- [x]` done). Report counts per section and the top A items; don't rebuild the list from workplans.

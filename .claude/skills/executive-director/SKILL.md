@@ -392,8 +392,8 @@ Early-wave carnets were CON-approved before editor tracking existed: find them w
 ### Owner decisions and TM rulings
 
 - Rulings are recorded in `content/{lang}/TranslationMemory.md` as `Ruling (YYYY-MM-DD, WHO)` with the variant counts, and conventions in `content/{lang}/CLAUDE.md`. Protocol: `_shared/editing_rules.md` §5.
-- Anything that reverses a lock or changes a corpus-wide convention is the owner's (KRR's) call: add it to "Owner decisions" in the newest `.claude/reports/WORKPLAN-*.md` and tell agents to leave those items as found. Provisional per-carnet normalisations made while a ruling is pending are listed there too, so a later ruling can sweep them.
-- After the owner rules, record the ruling in the TM, sweep the tree (grep old forms gone, reverse-grep new form present) and remove the item from the WORKPLAN list.
+- Anything that reverses a lock or changes a corpus-wide convention is the owner's (KRR's) call: add it to section A of `.claude/reports/OPEN-ITEMS.md` (the standing ledger — one `- [ ]` line with tags, default-now, where, src) and tell agents to leave those items as found. Provisional per-carnet normalisations made while a ruling is pending are noted on that line too, so a later ruling can sweep them.
+- After the owner rules, record the ruling in the TM, sweep the tree (grep old forms gone, reverse-grep new form present) and tick the item `- [x]` in OPEN-ITEMS.md with the date and commit (add a D sweep line first if the tree still needs changing). Workplans track a wave's progress; they never hold open questions.
 
 ### New or pilot language
 
