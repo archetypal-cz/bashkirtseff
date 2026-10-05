@@ -2091,3 +2091,21 @@ These override older per-carnet entries below where they conflict.
 - Established Czech titles of works: to be verified by a later research pass (owner, 2026-10-03); keep current forms until then.
 - (owner, 2026-10-03, follow-up) *chère madame* in speech stays „drahá paní“; letter salutations („Drahá paní,“, „Milostivá paní matko,“) stay. Madame + surname and third-person Madame/milostpaní: mixed forms are acceptable — no sweep.
 - (owner, 2026-10-03) *chic* is KEPT in French italics + footnote where it is quoted as someone else's slang („jak by řekla Rosalie“: 069.0079, 071.0456, 073.0068) or where Marie comments on the word (038.0252, 103.0003). Elsewhere plain Czech (no „šik“).
+
+## OWNER rulings 2026-10-05 (OPEN-ITEMS A-01…A-16, phone view) — LOCKED
+
+- **Mottoes** (A-01): Garter-type mottoes (*Honni soit qui mal y pense*, *ich dien*) stay in the original, italic, + footnote with the translation. Latin proverbs/maxims (*Audaces fortuna juvat*, *Volo omnia*…) keep the current per-tree treatment.
+- **le Skating** (A-02): a venue name in every tree — cz „Skating“ (capitalised, declined) + footnote, as now.
+- **Niçois oaths** (A-03): translate (==Propánakrále!== etc.) AND mark them as Niçois — footnote „V originále nicejsky: *Sacrediou*.“ on every occurrence that is translated.
+- **„Original French title“ footnotes** (A-04): dropped — also for Italian/English originals. When a work has a well-known title in Czech, use it, no footnote about the French title. Footnotes that explain something else stay.
+- **cz/uk loan-word divergences** (A-05): accepted per language (*enfant terrible*, *on the wrong*). No alignment.
+- **Ambiguous French** (A-06: 103.0572, 000.0006, 099.0377): _original decides one reading, or footnotes the ambiguity identically for all trees. Pending source-side decision (see OPEN-ITEMS C).
+- **Struck text the sentence depends on** (A-07): faithful — no editorial bridge.
+- **Empty-day stubs** (A-08): one form — „[Záznam pro toto datum chybí]“.
+- **Names** (A-10): „Tchernitská/Tchernitsky“; „Saint-Amand“ (hyphen); „Yourkoff“ (not Jurkov/Jourkoff); Cassagnac and Gioia DECLINED in Czech (Cassagnaca, Cassagnacovi; Gioie, Gioii, Gioiu, Gioiou); Marie's «Machenka» → **„Mášenka“** (Mášenky, Mášence, Mášenku, Mášenkou — supersedes the Mačenka lock in the 018 block); the village stays **„Gavronzi“** (Marie's spelling; owner 2026-10-05); the dog **„Frederik“** (Frederika, Frederikovi, Frederikem).
+- ***en face*** (A-11): keep *en face* (the trade term, passed on to the reader); no ==zepředu==.
+- **Hôtel Drouot** (A-12): „hotel Drouot“, lower-case Czech „hotel“, declined (v hotelu Drouot).
+- **rendez-vous** (A-13): alternate — *rendez-vous* and „schůzka“ both allowed, chosen by context. No sweep.
+- **Straight quotes** (A-14): fix in the files AND keep the render-time fix.
+- **Old WP09 list** (A-15): undecided — research first (OPEN-ITEMS B).
+- **Small blessings** (A-16): 000.0049 „niterným přesvědčením“; 018 „podlá lůza“ ×3 → CON's varied version; Gavini dative „Gaviniovi“ (not Gavinimu).
