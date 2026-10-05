@@ -81,6 +81,7 @@ The single list of everything still open in the project: owner questions, resear
 - [ ] A-49 [frontend][S] **Newsletter signup on site** (footer form/link to listmonk)? and **report dialog**: interstitial explaining Google sign-in / email alternative? — default: none / straight redirect — src: web-audit-ux L9, M5
 - [ ] A-50 [frontend][S] **About pages** — marie.astro "105 notebooks" (physical) vs 107 carnets; vision/AI-method sections read mid-build — rewrite? — src: 2026-07-03-frontend-a11y
 - [ ] A-51 [frontend][S] **Museum image-permission requests** (11 museums: Nice Chéret, Orsay/RMN, Russian Museum…) — owner outreach; 1885 plates stand in meanwhile — src: ~/rebuild-state/works-catalogue.md
+- [ ] A-52 [cz][S] **050.1310 *coquine de Biou*** — Audiffret nickname (cz „ty darebnice Biou!", per LAN) or the Niçois oath as in 032.0394 (kept original, Marie flags it)? — default now: nickname reading — src: D-25 worker 2026-10-05
 
 ## B. Research
 
@@ -118,7 +119,7 @@ The single list of everything still open in the project: owner questions, resear
 - [ ] D-03 [cz][M] **Outfit notes „dobře" → „sluší"** — extend the 015 owner fix (cc41ed48d0) to ~84 cz files — src: WP10 "C (cz only) — outfit notes"
 - [ ] D-04 [cz][S] **God = „ty" residue** — 549f4672d was partial; re-grep prayers for vykání (Bůh/Pane/Ježíši/Panno) — src: WP09
 - [ ] D-05 [cz][S] **cz text fixes found by uk/CON agents** — cz/084/1879-03-14 reversed «čestné slovo, že ne»; 105 *faire poser* («Nechal mě pózovat»); 020/06-07 Moreno accent joke flattened; 089/1880-07-01 [^rpjulian] missing; cz+fr 084.0054 stale `> ` — src: UKF "Open (for other trees)"; WP10
-- [ ] D-25 [cz][M] **cz sweep of the 2026-10-05 rulings** — Saint-Amand, Yourkoff, Mášenka, Frederik, Cassagnac/Gioia declension, *en face*, „hotel Drouot", Gaviniovi, 000.0049 niterným, 018 lůza; Niçois footnotes; drop French-title footnotes; Garter mottoes; one empty-day stub form; straight quotes — rules in cz TM "OWNER rulings 2026-10-05"
+- [x] D-25 [cz][M] **cz sweep of the 2026-10-05 rulings** — Saint-Amand, Yourkoff, Mášenka, Frederik, Cassagnac/Gioia declension, *en face*, „hotel Drouot", Gaviniovi, 000.0049 niterným, 018 lůza; Niçois footnotes; drop French-title footnotes; Garter mottoes; one empty-day stub form; straight quotes — rules in cz TM "OWNER rulings 2026-10-05" — DONE 2026-10-05 (83 carnets; see commit "cz: owner rulings 2026-10-05")
 
 ### uk
 - [ ] D-06 [uk][S] **uk sweeps with TM rules** — «одного прекрасного ранку» (000-05, 000-07, 026/11-23, 088/06-18, 103/04-13; reconcile TM row `un beau matin`); Черняківка → Чернякивка (2 files, TM lock); San Giovanni in Laterano / via di Roma / via di Ripetta in Latin script (060/05-13); Ange vs Анж (025); «ніццець» → «ніццянець» (028/01-02, 035/07-01); Сапожеников- strays (031, 043, 047–049, 064, 085, 102, 103); «розбещена» → «розпещена» (009/064/091); 075/1877-10-29 [^8] still «Скейтинг» — verify each vs 30f0c7700b first — src: WP10 uk lines; UKF; uk TM:152
@@ -132,6 +133,7 @@ The single list of everything still open in the project: owner questions, resear
 - [ ] D-11 [fr][M] **fr mechanical leftovers** — starovoï in fr LAN copies (096/102) and `_non_french_passages.md` (+ en TM inline 094–096 paragraph); fr multi-line `%%` blocks (038.0131, 039/1875-08-21) block set_french; fr/100/1883-07-13 shows 100.0310 twice; ~1,700 bare-French lines with only a trailing `%%` → normalise, then enable `just check-comments` for fr — src: cz TM starovoï "Leftover"; fr-scan-2026-10-03; 2026-08-13-report-triage-099
 - [ ] D-27 [en][fr][M] **en/fr sweep of the 2026-10-05 rulings** — en: Niçois oaths + Niçois footnote; drop "original French title" footnotes; Garter mottoes original + footnote; one stub form "[No entry for this date]"; straight quotes in files; fr: check A-01/A-03/A-04 apply to the edition's notes — src: A-01..A-08, A-14
 - [ ] D-28 [en][S] **en marginal-note labels unified (A-09)** — "Written across the page" 312 / "Written across:" 31 / crosswise 34 / sideways 23 → one form (majority) — src: A-09
+- [ ] D-29 [cz][S] **A-04 doubtful title footnotes** — footnotes kept because the cz title is not established / footnote is the only identifier: 001/1873-01-12 [^01.10.1], 020/1874-05-31 [^020.0016.f1], 064/1876-07-31 [^64.327.1], 087/1880-01-09 [^87.0158.1], 091/1881-05-12 [^91.616.2], 081/1878-07-20 [^081.0501.1], 105/1884-07-05 [^105.0034.1], 103/1884-03-11 [^103.25a.4] (*Un Meeting*), 099/1883-05-03 [^099.0335.2]; Marie's title slips 083 [^83.576.1], 006 [^006.0244.1] stay; 024/1874-09-17 „Dinorah" lost Marie's *Le pardon de Ploërmel* (restore as a note?); Vestálka 055 vs 058 spelling — src: D-25 worker 2026-10-05
 
 ### all trees / glossary
 - [ ] D-12 [all][S] **Splice class scan** — tree-wide scan (all langs) for a text line starting with "," after a RED comment (found cz 094/01-11, 096.0092; en 003.0284 fixed d0d7b643d5) — src: WP10 "Splice defect class"
