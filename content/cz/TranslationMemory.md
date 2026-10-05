@@ -2109,3 +2109,4 @@ These override older per-carnet entries below where they conflict.
 - **Straight quotes** (A-14): fix in the files AND keep the render-time fix.
 - **Old WP09 list** (A-15): undecided — research first (OPEN-ITEMS B).
 - **Small blessings** (A-16): 000.0049 „niterným přesvědčením“; 018 „podlá lůza“ ×3 → CON's varied version; Gavini dative „Gaviniovi“ (not Gavinimu).
+- **050.1310 *coquine de Biou*** (A-52, owner 2026-10-05): both readings stand — the Audiffret nickname and the Niçois oath. Text keeps „ty darebnice Biou!“, footnote explains the pun.

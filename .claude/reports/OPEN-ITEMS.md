@@ -81,7 +81,7 @@ The single list of everything still open in the project: owner questions, resear
 - [ ] A-49 [frontend][S] **Newsletter signup on site** (footer form/link to listmonk)? and **report dialog**: interstitial explaining Google sign-in / email alternative? — default: none / straight redirect — src: web-audit-ux L9, M5
 - [ ] A-50 [frontend][S] **About pages** — marie.astro "105 notebooks" (physical) vs 107 carnets; vision/AI-method sections read mid-build — rewrite? — src: 2026-07-03-frontend-a11y
 - [ ] A-51 [frontend][S] **Museum image-permission requests** (11 museums: Nice Chéret, Orsay/RMN, Russian Museum…) — owner outreach; 1885 plates stand in meanwhile — src: ~/rebuild-state/works-catalogue.md
-- [ ] A-52 [cz][S] **050.1310 *coquine de Biou*** — Audiffret nickname (cz „ty darebnice Biou!", per LAN) or the Niçois oath as in 032.0394 (kept original, Marie flags it)? — default now: nickname reading — src: D-25 worker 2026-10-05
+- [x] A-52 [cz][S] **050.1310 *coquine de Biou*** — Audiffret nickname (cz „ty darebnice Biou!", per LAN) or the Niçois oath as in 032.0394 (kept original, Marie flags it)? — default now: nickname reading — src: D-25 worker 2026-10-05 — **RULED 2026-10-05:** both readings stand — cz footnote added at 050.1310 (pun: Niçois oath + Audiffret nickname)
 
 ## B. Research
 
