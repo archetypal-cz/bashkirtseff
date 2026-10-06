@@ -710,7 +710,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | pittoresque | мальовнича | Picturesque; self-description after blushing |
 | heureuse nature | щаслива вдача | Happy/fortunate disposition; ironic (forgets bad news easily) |
 | je règne (London variant) | я паную | "I reign" — London version of Marie's dominance claim |
-| Hitchcock | «Хічкок» | Marie's type-name for unfashionable provincial women; keep with quotes |
+| Hitchcock | «Гічкок» (owner 2026-10-05, A-17) | Marie's type-name for unfashionable provincial women; keep with quotes |
 | Musy / Муся | Муся | Marie's nickname for herself; keep as-is |
 
 ### Updated
