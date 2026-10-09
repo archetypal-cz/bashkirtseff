@@ -1211,7 +1211,7 @@ def report(A: Audit, secs: float) -> str:
          f'`just rebuild-audit {" ".join(A.args)}`'.replace('  ', ' ') + f' — {len(A.carnets)} carnets '
          f'({A.carnets[0]}–{A.carnets[-1]}), **{len(F)} findings** (+ {len(COS)} cosmetic), {len(ACC)} accepted, {len(INFO)} informational, {secs:.0f} s. '
          'Script: `src/scripts/rebuild_audit.py` (categories in its docstring); accepted items: `src/scripts/rebuild_audit_exceptions.yaml`.', '',
-         'Evidence: `tomeNN ¶i` = docx paragraph index of content/_raw/tomeNN.docx; `p.X` = printed page of «Mon Journal» (scans, tomes 6–16).', '']
+         'Evidence: `tomeNN ¶i` = docx paragraph index of content/_raw/tomeNN.docx; `p.X` = printed page of «Mon Journal» (scans, content/_raw/scans/TomeN.pdf).', '']
     if not F:
         L += ['No findings.', '']
     else:

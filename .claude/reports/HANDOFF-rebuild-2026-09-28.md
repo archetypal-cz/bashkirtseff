@@ -8,7 +8,7 @@ This file is the resume point for the new lead session. Read it together with th
 - **Rebuild planning state** (plans, REVIEW, STATUS, FINISH, scripts, drawings) was copied from uvm's scratchpad to **`~/rebuild-state/`** in the workspace.
   - Every STATUS/FINISH file and every script in there refers to the old path `/tmp/claude-1000/-home-krr-bashkirtseff/467edde8-50c6-480d-80c0-3a213d11ff10/scratchpad/…`. Read that prefix as `~/rebuild-state/`.
   - Worktrees were NOT copied. Recreate them fresh at HEAD.
-- **Scans** (gitignored): `content/_raw/scans/Tome6..16.pdf` are extracted into the repo checkout.
+- **Scans**: `content/_raw/scans/Tome6..16.pdf` are gitignored and extracted into the repo checkout; `Tome1..5.pdf` are committed (added 2026-10-09).
 - **Memory**: `~/.claude/projects/-home-coder-bashkirtseff/memory/`, copied from uvm.
 - **Workspace git**: the old local main from April is kept as branch `backup/workspace-main-2026-04`. Its commits already exist on origin under rewritten hashes, and main now tracks origin/main.
 

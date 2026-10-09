@@ -59,8 +59,11 @@ raw_books_work/
 # Experiment results (large, generated)
 src/scripts/experiments/results/
 
-# Manuscript tome scans (ABBYY PDFs, ~16-25 MB each; source: arrdata backups/OneDrive/bashkirtseff)
-content/_raw/scans/
+# Printed-edition tome scans ("Mon Journal – texte intégral"; searchable PDFs)
+# Tome6-16: ABBYY PDFs, ~16-25 MB each, not in git (source: arrdata backups/OneDrive/bashkirtseff)
+# Tome1-5: committed (~8-11 MB each, text layer with [Rayé: …] markup)
+content/_raw/scans/*
+!content/_raw/scans/Tome[1-5].pdf
 
 # Tool caches and drafts (rebuild-plan docx dumps, scan maps, draft plans, source-completeness work files)
 /.cache/
