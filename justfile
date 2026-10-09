@@ -381,6 +381,9 @@ scan-figure-keywords:
     uv run --quiet --with pymupdf python src/scripts/scans/figure_keywords.py
 scan-survey:
     uv run --quiet --with pymupdf python src/scripts/scans/survey.py
+# Scan text layer vs content/_original for tomes (word-stream alignment): scan-only / original-only text, accents, «!» OCR, word diffs → .cache/scan-compare/tomeN.json
+scan-compare +ARGS:
+    uv run --quiet --with python-docx --with pymupdf python src/scripts/scans/scan_vs_original.py {{ARGS}}
 
 # Print the carnet's current layout as a rebuild plan (the template to edit): just rebuild-carnet-plan 068 > plan.json
 rebuild-carnet-plan carnet:
