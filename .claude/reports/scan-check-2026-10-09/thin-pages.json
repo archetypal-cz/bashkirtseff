@@ -1,0 +1,353 @@
+[
+ {
+  "tome": 1,
+  "page": 33,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet (image = text layer)"
+ },
+ {
+  "tome": 1,
+  "page": 66,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of Livre 2 with signature/annotation"
+ },
+ {
+  "tome": 1,
+  "page": 102,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet + marginal note"
+ },
+ {
+  "tome": 1,
+  "page": 144,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet + last-page note"
+ },
+ {
+  "tome": 1,
+  "page": 170,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "full page; 'Page intercalée' coin table — image = text layer"
+ },
+ {
+  "tome": 2,
+  "page": 40,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "accounts list/annotation; image = text layer"
+ },
+ {
+  "tome": 2,
+  "page": 41,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet (toilette list)"
+ },
+ {
+  "tome": 2,
+  "page": 42,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "carnet 9 title page + full text; image = text layer"
+ },
+ {
+  "tome": 2,
+  "page": 153,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "prayer list; image = text layer"
+ },
+ {
+  "tome": 3,
+  "page": 43,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "Livre 16 title + full page; image = text layer"
+ },
+ {
+  "tome": 3,
+  "page": 82,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet"
+ },
+ {
+  "tome": 3,
+  "page": 134,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet"
+ },
+ {
+  "tome": 3,
+  "page": 171,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "carnet 19 title + full page; image = text layer"
+ },
+ {
+  "tome": 3,
+  "page": 208,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet"
+ },
+ {
+  "tome": 4,
+  "page": 34,
+  "status": "missing-text",
+  "missing_text": "[BEST-EFFORT READING: the bottom ~22 lines of the page image are badly blurred in the scan (native image only 412x603 px); words marked [?] are uncertain, wording must be re-checked against the printed book]\n[Il ne cherche] pas à faire croire qu'il le fait autrement que comme je dis. Cela console et désarme. [?]\nTout de même je suis furieuse que cette femelle attire les hommes vers elle.\nJ'ai oublié de dire que j'ai chanté dans le boudoir de la marquise au premier, que [Rayé: Tanlay] le Grec m'accompagnait, qu'il était émerveillé de ma voix, comme tous les autres. On m'a suppliée de chanter, de Tanlay me prit les mains et me supplia: \"Mlle Douchenka\". J'ai chanté, de Tanlay priait si bien. Il me plaît cet homme. Quel dommage qu'il soit pris. Il est si comme il faut, cette fois je ne me trompe pas.\nGericke est un fou.\nTanlay est poétique sans être ridicule ni trop sensible. Tanlay me plaît.\nIl a dit qu'il est prêt à rester des heures en m'écoutant. Tout le monde qui entendit me complimenta énormément. Pauvre Tanlay \"périssait\" sur sa chaise en regardant Basilévitch, je vins exprès lui parler, il ne sourcilla pas, il n'entendait rien. C'est incroyable.\nJ'oubliai de dire aussi que avant-hier soir, au Casino, j'ai tout à fait malgré moi, fait des yeux au beau jeune homme, qui est un duc espagnol, della Rocca [?], ou de Larmine [?], je ne sais. Et que hier je suis sortie pour lui, je l'ai vu, peu regardé, il m'a regardée. On le dit amoureux d'une des demoiselles Haussman[n] [?]  → continues p.35: «ou Oshnar. Tout le monde est pris. Il a été présenté hier à Basilévitch»",
+  "after_pid": "021.0366 (content/_original/021/1874-07-17.md) — gap sits INSIDE ¶0366 between «…la mienne. Il ne cherche» and «ou Oshnar. Tout le monde est pris…»; next ¶ 021.0367 «Il fait presque jour.»",
+  "original_has": "nothing — ¶0366 splices «Il ne cherche ou Oshnar.» (nonsense join); RSR note of 2026-10-01 already flags the docx page-break loss",
+  "evidence": "text layer stops at «Il ne cherche» (line 18 of page); image shows ~22 more printed lines, blurred but structurally readable; tome04.docx ¶491 ends «Il ne cherche», ¶492 empty, ¶493 «ou Oshnar…»; phrases (cette femelle attire, Tanlay est poétique, duc espagnol… Casino) absent from _original, _archive/raw_carnets/04, tome04.docx, Kernberger EPUB"
+ },
+ {
+  "tome": 4,
+  "page": 36,
+  "status": "missing-text",
+  "missing_text": "Il ne me plaît pas, c'est-à-dire qu'il est mieux [que les] autres, que je suis furieuse lorsque je le vois [près de] Basilévitch ou de Row, bien qu'il ne soit près de Row que pour Basilévitch, c'est alors qu'il semble me plaire; mais pour dire qu'il me plaît au point de lui, non.\nJe suis allée ce soir jusqu'à plaider sa cause devant tous à la maison, je disais qu'il fait tout de la manière la plus simple au monde, sans aucune intention, bref, comme dit Basilévitch, c'est un enfant de la nature. Malgré cela on trouve et je trouve qu'il le faut arrêter, et maman m'a rappelé une phrase de lui, à propos de la tournure de Basilévitch, qu'il faut faire les choses avec discernement, ceci me convainc et je suis résolue de lui dire ce que je sais. Maman est très bien mise, très élégante, jupe bleu rayée et vêtement crêpe de Chine bleu, valenciennes, diamants, perles, je suis en ma robe blanche et argent, ma coiffure, figure vilaine, (je suis *malade*).\nCes messieurs nous voient partir et suivent la voiture jusqu'au Casino, là je mets les chevaux au trot.\nC'était plus animé que de coutume chez Gambart, Angèle, Godefroy et Bouhy ont chanté. Malezieux a dit des chansonnettes d'une manière très amusante.\n[Dans la marge: J'observais les physionomies, [Rayé: la Danoise avec une fig.] et l'effet que produisait le chant. La Polonaise avait une figure !!!!]\nJ'ai parlé italien avec un comte vénitien, qui avait l'air d'un cordonnier ainsi que sa comtesse.\nPendant que les dames étaient à table les messieurs se tenaient debout, je les ai regardés et Gambart était le plus  → continues p.37: «beau. On nous a présenté un comte de Jahal…»\n[NOTE: «que les» and «près de» are printed faintly (light patch on the image) but legible; rest is sharp]",
+  "after_pid": "021.0382 (content/_original/021/1874-07-18.md) — replace the body of ¶0382 up to «beau.»; ¶0381 «Maman dit avec raison…» precedes",
+  "original_has": "an invented bridge: ¶0382 = «Il ne me plaît pas, c'est-à-dire qu'il est mieux que les autres, que je suis furieuse lorsque je le vois avec cette femme et que je me tremble pour moi lorsque je vois qu'il est beau. On nous a présenté un comte de Jahal…» — «avec cette femme et que je me tremble pour moi lorsque je vois qu'il» is not in the print",
+  "evidence": "text layer and tome04.docx ¶512 stop at «…lorsque je le vois» (docx ¶513 '36', ¶515 «beau. On nous a présenté…»); image p.36 shows 20 more printed lines (plus 2 margin-note lines), all sharp; phrases (plaider sa cause, comte vénitien, Basilévitch ou de Row) absent from _original, _archive/raw_carnets/04_carnet_raw.md (l.955 same truncation) and docx"
+ },
+ {
+  "tome": 4,
+  "page": 53,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "Livre 22 title + full page; image = text layer"
+ },
+ {
+  "tome": 4,
+  "page": 60,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "poem + full page; image = text layer"
+ },
+ {
+  "tome": 4,
+  "page": 87,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet"
+ },
+ {
+  "tome": 4,
+  "page": 106,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "verse + full page; image = text layer"
+ },
+ {
+  "tome": 4,
+  "page": 145,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet"
+ },
+ {
+  "tome": 4,
+  "page": 186,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet (Hamilton dates list + NdR footnote)"
+ },
+ {
+  "tome": 4,
+  "page": 211,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet"
+ },
+ {
+  "tome": 4,
+  "page": 217,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet"
+ },
+ {
+  "tome": 4,
+  "page": 283,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: entry after two torn-out leaves, poem only"
+ },
+ {
+  "tome": 5,
+  "page": 32,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "Livre 32 title + full page; image = text layer"
+ },
+ {
+  "tome": 5,
+  "page": 45,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "drawing (coat of arms) occupies the page; text = text layer"
+ },
+ {
+  "tome": 5,
+  "page": 47,
+  "status": "missing-text",
+  "missing_text": "[BEST-EFFORT READING: the bottom ~23 lines of the page image are badly blurred in the scan; words marked [?] are uncertain, wording must be re-checked against the printed book]\n- Mais comment ? [?]\n- Rien de plus facile, nous escaladerons son mur.\n- Quelle bêtise, Marie, s'écrie la prudente Dina, il y a un jardinier, des chiens, un bulldog terrible qui enlève les mollets.\n- Ne l'écoutez pas, je vous en prie, elle commence ses frayeurs et [?] allons.\nEt, sans plus attendre, je franchis la balustrade de la terrasse, me mets, avec ma robe d'ange, à cheval sur le mur, allonge la jambe, et me trouve sur la balustrade de Krohn, de laquelle je saute sur la terrasse.\n- Allons donc dis-je en étouffant ma voix et en voulant en même temps la rendre énergique, allons, j'y suis, venez donc !\nEn un moment Marie et Olga, exécutant la même manœuvre, se trouvent près de moi et comme des voleurs, [?] dans l'obscurité car il n'y a ni lune ni étoiles, deux ou trois au plus [?] nous parcourons la terrasse. J'avoue que je craignais un peu le chien terrible car je ne voudrais pour cent mille francs avoir les mollets abîmés.\nMais combien nous frappions [?] ! Cinq minutes plus tard et comme nous étions avec Collignon à la Promenade, [?] nous vîmes cinq ou six personnes entrer chez Krohn.\nCinq minutes de plus et nous étions honteusement prises.\nOn s'ennuyait tant que Marie voyant un homme assis sur  → continues p.48: «un banc, commença à me dire tout bas…»",
+  "after_pid": "032.0224 «— Allons chez Krohn !» (content/_original/032/1875-05-02.md); ¶032.0225 begins mid-sentence «un banc, commença…»",
+  "original_has": "nothing — ¶0225 starts mid-sentence «un banc, …» with an RSR note (2026-09-29) flagging the docx page-break loss; no invented bridge",
+  "evidence": "text layer stops at «- Allons chez Krohn !» (line 18); image shows ~23 more lines, blurred; tome05.docx ¶730 «Allons chez Krohn !», ¶731 empty, then «un banc…»; phrases (bulldog, escaladerons, balustrade de Krohn, honteusement prises) absent from _original, raw_carnets and docx"
+ },
+ {
+  "tome": 5,
+  "page": 107,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet"
+ },
+ {
+  "tome": 5,
+  "page": 149,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet + toilette note"
+ },
+ {
+  "tome": 5,
+  "page": 150,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "Livre 35 title + sketch plan of Gioia house; text = text layer"
+ },
+ {
+  "tome": 5,
+  "page": 171,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "drawing fills lower half; text = text layer"
+ },
+ {
+  "tome": 5,
+  "page": 183,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet ([Six lignes cancellées])"
+ },
+ {
+  "tome": 5,
+  "page": 257,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "verse page; image = text layer"
+ },
+ {
+  "tome": 5,
+  "page": 263,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet"
+ },
+ {
+  "tome": 5,
+  "page": 302,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet"
+ },
+ {
+  "tome": 5,
+  "page": 309,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet"
+ },
+ {
+  "tome": 5,
+  "page": 338,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "short: end of carnet; poem breaks off «Comme d'un bon et gros» as printed (continues in Livre 44)"
+ },
+ {
+  "tome": 5,
+  "page": 340,
+  "status": "ok",
+  "missing_text": "",
+  "after_pid": null,
+  "original_has": null,
+  "evidence": "Livre 44 title + poem; image = text layer"
+ }
+]

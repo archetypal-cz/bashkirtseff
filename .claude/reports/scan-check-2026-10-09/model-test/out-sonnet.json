@@ -1,0 +1,578 @@
+[
+ {
+  "item": 1,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 209."
+ },
+ {
+  "item": 2,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'corne' is OCR for 'comme' (also 'rrTémeut' for 'm'émeut'); _original reads correctly."
+ },
+ {
+  "item": 3,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan text is OCR garbage on an English newspaper clipping; _original has coherent English."
+ },
+ {
+  "item": 4,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'I' for '!' (known OCR slip); _original '!' is right."
+ },
+ {
+  "item": 5,
+  "verdict": "FIX_ORIGINAL",
+  "confidence": "high",
+  "fix": "la même chose !",
+  "where": "009.0238 / content/_original/009/1873-09-18.md",
+  "reason": "Scan p67 has '!' after 'la même chose'; _original has OCR slip 'I' (file 009/1873-09-18.md, italic sentence in the dialogue paragraph near 009.0238)."
+ },
+ {
+  "item": 6,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 147."
+ },
+ {
+  "item": 7,
+  "verdict": "EQUIVALENT",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'il l'J a chassée' = OCR of \"il l'a chassée\"; _original has \"il [l']a chassée\" (editorial bracket), same reading."
+ },
+ {
+  "item": 8,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 219."
+ },
+ {
+  "item": 9,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan pp216-217 repeat the same lines at the page break ('mais ça ne peut jamais être. Nous, elle et moi ... il est vrai que si j'étais la'); text layer duplicated, _original has the passage once."
+ },
+ {
+  "item": 10,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'Russie H!' is OCR for 'Russie !' (p20); _original correct."
+ },
+ {
+  "item": 11,
+  "verdict": "RESTORE",
+  "confidence": "high",
+  "fix": "[Rayé: tombe dedans la tête] ",
+  "where": "insert before 'tombât' in 015.0240 / 015/1874-01-18.md",
+  "reason": "Scan p31: 'pour qu'il [Rayé: tombe dedans la tête] tombât face dans la boue'; _original line 90 has no [Rayé: ...] there (no other Rayé in this paragraph). Policy 4: keep struck-out words."
+ },
+ {
+  "item": 12,
+  "verdict": "FIX_ORIGINAL",
+  "confidence": "high",
+  "fix": "Après force tribulations ma tante a pris une loge au Nouvel Opéra, nº 16 au deuxième. Ma coiffure et la nouvelle robe blanche, longue, en taffetas blanc uni, le corsage collant et long, de côté une aumônière en broderies blanches, longs gants blancs, pas de bijoux, ma coiffure très bien, mais face, pas mal.",
+  "where": "029.0002 / 029/1875-01-20.md",
+  "reason": "_original paragraph (line 37) has all accents stripped ('Apres', 'Opera', 'deuxieme', 'cote', 'aumoniere', 'tres'); scan p285 has proper accents."
+ },
+ {
+  "item": 13,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 285."
+ },
+ {
+  "item": 14,
+  "verdict": "FIX_ORIGINAL",
+  "confidence": "medium",
+  "fix": "comtesse Merjeewski",
+  "where": "027.0104 / 027/1874-12-01.md",
+  "reason": "Scan p228 prints 'Merjeewski'; _original 'Merjeewsky'. Print varies (Merjeewsky x90, Merjeewski x5 in tomes 3-5) and _original already keeps the Merjeewski variant elsewhere (023/1874-08-17, 030/1875-02-19), so print spelling should be followed here. Heading 'Mardi 1 décembre' vs '1er' is cosmetic."
+ },
+ {
+  "item": 15,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan OCR garbage on an English clipping ('hallj n' / 'tâko'); _original 'ball an' coherent."
+ },
+ {
+  "item": 16,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'cornprendre' is OCR for 'comprendre'; capitalisation 'Elle' trivial."
+ },
+ {
+  "item": 17,
+  "verdict": "APPARATUS",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan '1' after 'patouchi' is a printed footnote marker; _original keeps *patouchi* italic. Footnote text stays out."
+ },
+ {
+  "item": 18,
+  "verdict": "FIX_ORIGINAL",
+  "confidence": "medium",
+  "fix": "vous ne comprenez que longtemps après",
+  "where": "022.0222 / 022/1874-07-30.md",
+  "reason": "Scan p69 clearly reads 'et vous ne comprenez que longtemps après'; _original has 'ne comprend' with no RSR comment documenting a correction. Print is the authority."
+ },
+ {
+  "item": 19,
+  "verdict": "EQUIVALENT",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan p221 has the printed footnote '1 J'emploie ce mot pour la première fois'; _original already carries it as Marie's own footnote '¹ J'emploie ...' (line 101) in the same entry."
+ },
+ {
+  "item": 20,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 34."
+ },
+ {
+  "item": 21,
+  "verdict": "FIX_ORIGINAL",
+  "confidence": "medium",
+  "fix": "je n'ai rien que des déceptions, des mortifications",
+  "where": "038.0093 / 038/1875-08-03.md",
+  "reason": "Scan p225: 'Pourquoi moi, seule, misérable je n'ai rien que des déceptions'; _original line 334 lacks 'rien'. No RSR note. Marie's slip, print is authority."
+ },
+ {
+  "item": 22,
+  "verdict": "MOVED",
+  "confidence": "high",
+  "fix": null,
+  "where": "002.0003 / 002/1873-02-02.md",
+  "reason": "Text of 2 Feb 1873 ('écrit en fin de carnet ... Demain je vais à cheval ...') is found in the scan at pp63-64 (end of carnet); _original places it as its own entry 002/1873-02-02.md with heading note [écrit en fin de carnet, antérieurement à ce qui précède]; deliberate."
+ },
+ {
+  "item": 23,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan OCR garbage on English clipping; _original coherent."
+ },
+ {
+  "item": 24,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'ûma' is OCR for 'Dina' (p40: 'moi et Dina'); _original correct."
+ },
+ {
+  "item": 25,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 285."
+ },
+ {
+  "item": 26,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 217."
+ },
+ {
+  "item": 27,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan '0' for 'O' (apostrophe 'O palmiers'); _original right."
+ },
+ {
+  "item": 28,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 53."
+ },
+ {
+  "item": 29,
+  "verdict": "MOVED",
+  "confidence": "high",
+  "fix": null,
+  "where": "002.0001 / 002/1873-02-02.md",
+  "reason": "Same 2 Feb 1873 end-of-carnet text present in scan pp63-64; placed deliberately as entry 002/1873-02-02.md."
+ },
+ {
+  "item": 30,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'I' for '!'."
+ },
+ {
+  "item": 31,
+  "verdict": "SCAN_ERROR",
+  "confidence": "medium",
+  "fix": null,
+  "where": null,
+  "reason": "Scan p192 reads 'd'étre bétonnée ... m'étre' (é for ê/â OCR pattern); _original 'être bâtonnée' is the sensible reading (and 'présageait' split by hyphen). Not a documented print spelling."
+ },
+ {
+  "item": 32,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan '! 877' is OCR of '1877' (p198 '[Annotation:! 877. Si fait ...]'); _original correct."
+ },
+ {
+  "item": 33,
+  "verdict": "EQUIVALENT",
+  "confidence": "medium",
+  "fix": null,
+  "where": "020.0173-0174",
+  "reason": "The words 'c'est stupide, bête et humiliant de le vouloir faire croire' are in _original (line 202 of 020/1874-06-07.md); the scan only interleaves them after the printed footnote '² Comme le reste ...' on p223/224, which _original keeps as 020.0173."
+ },
+ {
+  "item": 34,
+  "verdict": "FIX_ORIGINAL",
+  "confidence": "medium",
+  "fix": "Palajka a même remarqué très justement que :",
+  "where": "006.0228 / 006/1873-07-11.md",
+  "reason": "Print typo 'justemement' correctly normalised to 'justement', but the _original paragraph (line 77) is accent-stripped ('meme remarque tres justement'); restore accents."
+ },
+ {
+  "item": 35,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan \"qu'/7\" is OCR for \"qu'il\"; _original 'il' right."
+ },
+ {
+  "item": 36,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan '1' for '!'."
+ },
+ {
+  "item": 37,
+  "verdict": "EQUIVALENT",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'humilation' is a typesetting slip; _original 'humiliation' is the obvious correction."
+ },
+ {
+  "item": 38,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan pp212-213 repeat 'toujours faire quelque chose. Chez moi, liberté et' at the page break (text-layer duplication); _original has it once."
+ },
+ {
+  "item": 39,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 72."
+ },
+ {
+  "item": 40,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'I' for '!'."
+ },
+ {
+  "item": 41,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 279."
+ },
+ {
+  "item": 42,
+  "verdict": "FIX_ORIGINAL",
+  "confidence": "high",
+  "fix": "nous sommes à Oos et que la robe",
+  "where": "008.0043 / 008/1873-08-17.md",
+  "reason": "Scan p11 'à Oos' (station near Baden-Baden); _original line 44 has 'Dos' while line 76 has 'Oos'; LAN comment (line 41) itself says it should be Oos."
+ },
+ {
+  "item": 43,
+  "verdict": "FIX_ORIGINAL",
+  "confidence": "medium",
+  "fix": "re-accent paragraph",
+  "where": "006.0224 / 006/1873-07-11.md",
+  "reason": "Print 'gentillles' is an OCR/typo of 'gentilles' (fine in _original), but that _original paragraph is accent-stripped ('C'etait', 'etions', 'a'); restore accents ('C'était dit au pluriel ... nous étions enfants')."
+ },
+ {
+  "item": 44,
+  "verdict": "MOVED",
+  "confidence": "low",
+  "fix": null,
+  "where": "030.0238 / 030/1875-03-18.md",
+  "reason": "Scan has 'Mercredi 19 mars 1875 Biasini ...' on p342 and the 'Jeudi 18 mars 1875 Je me promène avec Nadinka ...' text on p343 (after the 19th entry), whereas _original orders 18 (030.0238) before 19 (headed 'Vendredi'). Order/weekday differ from print; no RSR note about it. Needs manuscript check."
+ },
+ {
+  "item": 45,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan OCR garbage on English clipping; _original coherent."
+ },
+ {
+  "item": 46,
+  "verdict": "EQUIVALENT",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan p136 has the footnote '1 voir dans les trois livres précédents.' at page bottom; _original carries it as '¹ voir ...' after the paragraph."
+ },
+ {
+  "item": 47,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan '1' for 'I' in English text ('asked if I really write')."
+ },
+ {
+  "item": 48,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 32."
+ },
+ {
+  "item": 49,
+  "verdict": "SCAN_ERROR",
+  "confidence": "medium",
+  "fix": null,
+  "where": null,
+  "reason": "Scan is OCR garbage on the English clipping; _original gives coherent text; cannot verify word-for-word from scan, but no evidence against it."
+ },
+ {
+  "item": 50,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'thisUformal' OCR for 'this formal'; _original right."
+ },
+ {
+  "item": 51,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan p116 prints \"fini, fini, fini ’ Il fallait\" - the '!' is OCR-damaged to a quote mark; _original '!' right."
+ },
+ {
+  "item": 52,
+  "verdict": "ORIGINAL_EXTRA",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "'Note de l'éd. ici un dessin de Marie dans le journal' editorial placeholder (kind: editorial); legitimate."
+ },
+ {
+  "item": 53,
+  "verdict": "FIX_ORIGINAL",
+  "confidence": "low",
+  "fix": "tout essouflée",
+  "where": "021.0083 / 021/1874-07-09.md",
+  "reason": "Scan p11 'tout essouflée'; _original 'essoufflée'. Likely Marie's/printer's misspelling (print also keeps 'réjoussais'); no RSR note documents a correction. Low confidence: could be a print typo."
+ },
+ {
+  "item": 54,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Fragment 'folie s'est prè- les yeux fermés, gauche le prince' is a right-hand text block on p145 belonging to the paragraph 'De mon sein droit sort le duc de Hamilton...' (reading-order error); _original has the balançoire sentence correct."
+ },
+ {
+  "item": 55,
+  "verdict": "ORIGINAL_EXTRA",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "'Note de l'éd. ici un croquis du terrain dessiné par Marie dans le journal' editorial placeholder; legitimate."
+ },
+ {
+  "item": 56,
+  "verdict": "EQUIVALENT",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'égaglement' is a typesetting slip; _original 'également' is the obvious correction."
+ },
+ {
+  "item": 57,
+  "verdict": "ORIGINAL_EXTRA",
+  "confidence": "low",
+  "fix": null,
+  "where": "021.0382",
+  "reason": "Scan p36-37 reads 'il est mieux [que les] autres, que je suis furieuse lorsque je le vois / beau.'; _original adds 'avec cette femme et que je me tremble pour moi lorsque je vois qu'il est' (line 99). Not in print, not in tome04.docx, no RSR note; text dates from the original transcription (may be a print omission). Keep pending manuscript check."
+ },
+ {
+  "item": 58,
+  "verdict": "EQUIVALENT",
+  "confidence": "medium",
+  "fix": null,
+  "where": null,
+  "reason": "Print puts the date line after the 'Annotation 1880' paragraph; _original has the date as heading before it (structure of entry). Same words."
+ },
+ {
+  "item": 59,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan pp193-194 repeat 'mais maman raconte comme il faut. Dina' at the page break; _original has it once."
+ },
+ {
+  "item": 60,
+  "verdict": "FIX_ORIGINAL",
+  "confidence": "high",
+  "fix": "re-accent paragraph: Nous allâmes dans la salle à manger à onze heures, depuis le dîner on [n']a fait qu'écrire. Maman m'a donné cinq cents francs à Nice encore ...",
+  "where": "007.0276 / 007/1873-07-29.md",
+  "reason": "Scan p238 'allâmes ... dîner'; _original paragraph (line 117) is accent-stripped ('allames', 'diner', 'a manger', 'ecrire', 'donne')."
+ },
+ {
+  "item": 61,
+  "verdict": "EQUIVALENT",
+  "confidence": "medium",
+  "fix": null,
+  "where": null,
+  "reason": "Scan prints year in heading '29 avril 187 5'; _original heading '# Jeudi, 29 avril' has date in frontmatter; cosmetic."
+ },
+ {
+  "item": 62,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 264."
+ },
+ {
+  "item": 63,
+  "verdict": "EQUIVALENT",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'HH!' is OCR for '!!'; _original '!!!!' matches the print's four marks."
+ },
+ {
+  "item": 64,
+  "verdict": "ORIGINAL_EXTRA",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "'Aucun texte, date seule mentionnée' is an editorial note (kind: editorial) for the date-only 2 June 1874; legitimate."
+ },
+ {
+  "item": 65,
+  "verdict": "COVER_PAGE",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Carnet title/cover block (commencé/terminé/appartenant à, 'His Grace the Duke of Hamilton' header); withdrawn by policy. Scan page 183."
+ },
+ {
+  "item": 66,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan OCR garbage on English clipping; _original coherent."
+ },
+ {
+  "item": 67,
+  "verdict": "ORIGINAL_EXTRA",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "'Note de l'éd. ici un dessin de Marie dans le journal' is an editorial placeholder mirroring the printed editor's note; legitimate."
+ },
+ {
+  "item": 68,
+  "verdict": "SCAN_ERROR",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan 'I' for '!'."
+ },
+ {
+  "item": 69,
+  "verdict": "FIX_ORIGINAL",
+  "confidence": "high",
+  "fix": "re-accent paragraph: Nous allâmes donc à l'Exposition. ... à Vienne",
+  "where": "007.0351 / 007/1873-08-06.md",
+  "reason": "Scan p246 'Nous allâmes donc à l'Exposition'; _original paragraph (line 42) is accent-stripped ('allames', 'a l'Exposition', 'a Vienne')."
+ },
+ {
+  "item": 70,
+  "verdict": "ORIGINAL_EXTRA",
+  "confidence": "low",
+  "fix": null,
+  "where": "013.0239",
+  "reason": "Scan p217-218 has 'Et en / Festititz, la dame qui rit' with no 'voiture nous voyons le prince et la princesse'; _original adds those words (line 46 vicinity), not in tome02.docx, no RSR note. Probably from the earlier transcription; keep pending manuscript check."
+ },
+ {
+  "item": 71,
+  "verdict": "MOVED",
+  "confidence": "high",
+  "fix": null,
+  "where": "002.0001",
+  "reason": "Same end-of-carnet 2 Feb 1873 text (scan pp63-64); entry deliberately placed in 002/1873-02-02.md."
+ },
+ {
+  "item": 72,
+  "verdict": "APPARATUS",
+  "confidence": "high",
+  "fix": null,
+  "where": null,
+  "reason": "Scan footnote '1 Voile représentant le linceul du Christ...' is printed editor's footnote; _original already carries it as footnote [^01.840.1], harmless, no change."
+ }
+]

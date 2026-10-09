@@ -1,0 +1,2168 @@
+[
+ {
+  "item": 121,
+  "tome": 2,
+  "scan_page": 97,
+  "pid": "010.0212",
+  "original_file": "content/_original/010/1873-10-04.md",
+  "scan_text": "laisser",
+  "original_text": "laissé",
+  "sonnet": {
+   "item": 121,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print p97 reads 'on a laisser entrer la Gioia' (infinitive for participle, Marie's slip or print typo); _original silently has 'laissé'. No RSR note."
+  }
+ },
+ {
+  "item": 194,
+  "tome": 2,
+  "scan_page": 199,
+  "pid": "013.0076",
+  "original_file": "content/_original/013/1873-11-25.md",
+  "scan_text": "distanta",
+  "original_text": "distante",
+  "sonnet": {
+   "item": 194,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Page image p199: print 'che era poco distanta'; _original 'distante' (LAN comment says 'distante'). Marie's Italian slip or print typo."
+  }
+ },
+ {
+  "item": 196,
+  "tome": 2,
+  "scan_page": 202,
+  "pid": "013.0103",
+  "original_file": "content/_original/013/1873-11-26.md",
+  "scan_text": "criquet",
+  "original_text": "cricket",
+  "sonnet": {
+   "item": 196,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Page image p202: print 'croquet-criquet' (docx also 'criquet'); _original 'croquet-cricket'. No RSR note."
+  }
+ },
+ {
+  "item": 198,
+  "tome": 2,
+  "scan_page": 204,
+  "pid": "013.0125",
+  "original_file": "content/_original/013/1873-11-28.md",
+  "scan_text": "rappella",
+  "original_text": "rappela",
+  "sonnet": {
+   "item": 198,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Page image p204: print 'on la rappella cent fois'; _original 'rappela'. Period spelling, no RSR note."
+  }
+ },
+ {
+  "item": 200,
+  "tome": 2,
+  "scan_page": 210,
+  "pid": "013.0175",
+  "original_file": "content/_original/013/1873-12-03.md",
+  "scan_text": "pêchés",
+  "original_text": "péchés",
+  "sonnet": {
+   "item": 200,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Page image p210: print 'mes pêchés' (period spelling); _original 'péchés'. No RSR note."
+  }
+ },
+ {
+  "item": 271,
+  "tome": 2,
+  "scan_page": 220,
+  "pid": "013.0267",
+  "original_file": "content/_original/013/1873-12-08.md",
+  "scan_text": "essouflée",
+  "original_text": "essoufflée",
+  "sonnet": {
+   "item": 271,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print p.220 (clean typeset image) reads \"essouflée\"; _original has \"essoufflée\" (013.0267), no RSR note on the change (LAN comment itself uses \"essoufflée\"). Both forms: print \"essouflée\" / _original \"essoufflée\"."
+  }
+ },
+ {
+  "item": 274,
+  "tome": 2,
+  "scan_page": 223,
+  "pid": "013.0298",
+  "original_file": "content/_original/013/1873-12-09.md",
+  "scan_text": "tranportée",
+  "original_text": "transportée",
+  "sonnet": {
+   "item": 274,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print p.223 image reads \"tranportée\"; _original has \"transportée\" (013.0298), no RSR note. Both forms: print \"tranportée\" / _original \"transportée\". Likely a print typo or Marie's slip."
+  }
+ },
+ {
+  "item": 275,
+  "tome": 2,
+  "scan_page": 224,
+  "pid": "013.0304",
+  "original_file": "content/_original/013/1873-12-09.md",
+  "scan_text": "aristrocratie",
+  "original_text": "aristocratie",
+  "sonnet": {
+   "item": 275,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print p.224 image reads \"aristrocratie\"; _original has \"aristocratie\" (013.0304), no RSR note. Both forms: print \"aristrocratie\" / _original \"aristocratie\". Could be Marie's metathesis or a typesetting slip."
+  }
+ },
+ {
+  "item": 409,
+  "tome": 2,
+  "scan_page": 238,
+  "pid": "014.0096",
+  "original_file": "content/_original/014/1873-12-14.md",
+  "scan_text": "viandre",
+  "original_text": "viande",
+  "sonnet": {
+   "item": 409,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) has \"viandre\"; original silently normalised to \"viande\" with no RSR note. Print typo or Marie slip."
+  }
+ },
+ {
+  "item": 417,
+  "tome": 2,
+  "scan_page": 240,
+  "pid": "014.0106",
+  "original_file": "content/_original/014/1873-12-15.md",
+  "scan_text": "essouflée",
+  "original_text": "essoufflée",
+  "sonnet": {
+   "item": 417,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) has \"essouflée\"; original has \"essoufflée\", no RSR note."
+  }
+ },
+ {
+  "item": 422,
+  "tome": 2,
+  "scan_page": 248,
+  "pid": "014.0144",
+  "original_file": "content/_original/014/1873-12-20.md",
+  "scan_text": "rappeller",
+  "original_text": "rappeler",
+  "sonnet": {
+   "item": 422,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print has \"rappeller\" (docx too); original \"rappeler\"."
+  }
+ },
+ {
+  "item": 423,
+  "tome": 2,
+  "scan_page": 248,
+  "pid": "014.0147",
+  "original_file": "content/_original/014/1873-12-20.md",
+  "scan_text": "attrappé",
+  "original_text": "attrapé",
+  "sonnet": {
+   "item": 423,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print has \"attrappé\" (docx too); original \"attrapé\"."
+  }
+ },
+ {
+  "item": 424,
+  "tome": 2,
+  "scan_page": 250,
+  "pid": "014.0165",
+  "original_file": "content/_original/014/1873-12-22.md",
+  "scan_text": "extravangances",
+  "original_text": "extravagances",
+  "sonnet": {
+   "item": 424,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "low",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print has \"extravangances\"; original \"extravagances\". Likely print typo, undocumented."
+  }
+ },
+ {
+  "item": 432,
+  "tome": 2,
+  "scan_page": 261,
+  "pid": "014.0263",
+  "original_file": "content/_original/014/1873-12-28.md",
+  "scan_text": "Avidgor",
+  "original_text": "Avigdor",
+  "sonnet": {
+   "item": 432,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print \"Avidgor\" (docx too) vs \"Avigdor\" elsewhere and in original; no RSR note."
+  }
+ },
+ {
+  "item": 433,
+  "tome": 2,
+  "scan_page": 261,
+  "pid": "014.0263",
+  "original_file": "content/_original/014/1873-12-28.md",
+  "scan_text": "ou",
+  "original_text": "au",
+  "sonnet": {
+   "item": 433,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print and docx read \"vulgaire, ou genre fille\"; original has \"au genre\". Marie slip or normalisation; owner to decide."
+  }
+ },
+ {
+  "item": 443,
+  "tome": 3,
+  "scan_page": 5,
+  "pid": "015.0009",
+  "original_file": "content/_original/015/1874-01-02.md",
+  "scan_text": "Progders",
+  "original_text": "Prodgers",
+  "sonnet": {
+   "item": 443,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print and docx \"Progders\" here; original (and elsewhere in print) \"Prodgers\"."
+  }
+ },
+ {
+  "item": 448,
+  "tome": 3,
+  "scan_page": 8,
+  "pid": "015.0027",
+  "original_file": "content/_original/015/1874-01-04.md",
+  "scan_text": "Ravel",
+  "original_text": "réveil",
+  "sonnet": {
+   "item": 448,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) has \"Ravel\" where original has \"réveil\" (three times in 015). Probably transcriber misreading, but undocumented silent normalisation."
+  }
+ },
+ {
+  "item": 461,
+  "tome": 3,
+  "scan_page": 23,
+  "pid": "015.0169",
+  "original_file": "content/_original/015/1874-01-14.md",
+  "scan_text": "cloud",
+  "original_text": "clou",
+  "sonnet": {
+   "item": 461,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "low",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) has \"cloud\"; original and its LAN comment have \"clou\". Could be Marie's English \"cloud\" or mistranscription."
+  }
+ },
+ {
+  "item": 466,
+  "tome": 3,
+  "scan_page": 26,
+  "pid": "015.0198",
+  "original_file": "content/_original/015/1874-01-15.md",
+  "scan_text": "chargé",
+  "original_text": "chargée",
+  "sonnet": {
+   "item": 466,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print and docx \"partie chargé de dames\"; original \"chargée\"."
+  }
+ },
+ {
+  "item": 472,
+  "tome": 3,
+  "scan_page": 33,
+  "pid": "015.0256",
+  "original_file": "content/_original/015/1874-01-19.md",
+  "scan_text": "alla",
+  "original_text": "alta",
+  "sonnet": {
+   "item": 472,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print and docx \"ad alla voce\"; original has correct Italian \"ad alta voce\"."
+  }
+ },
+ {
+  "item": 473,
+  "tome": 3,
+  "scan_page": 34,
+  "pid": "015.0262",
+  "original_file": "content/_original/015/1874-01-20.md",
+  "scan_text": "21",
+  "original_text": "20",
+  "sonnet": {
+   "item": 473,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print heading \"Mardi 21 janvier\" (docx too) followed by \"Mercredi 21 janvier\"; original dated 20 (Tuesday). Print date slip silently corrected."
+  }
+ },
+ {
+  "item": 474,
+  "tome": 3,
+  "scan_page": 34,
+  "pid": "015.0263",
+  "original_file": "content/_original/015/1874-01-20.md",
+  "scan_text": "Ravel",
+  "original_text": "réveil",
+  "sonnet": {
+   "item": 474,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) has \"Ravel\" where original has \"réveil\" (three times in 015). Probably transcriber misreading, but undocumented silent normalisation."
+  }
+ },
+ {
+  "item": 477,
+  "tome": 3,
+  "scan_page": 35,
+  "pid": "015.0275",
+  "original_file": "content/_original/015/1874-01-21.md",
+  "scan_text": "Ravel",
+  "original_text": "réveil",
+  "sonnet": {
+   "item": 477,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) has \"Ravel\" where original has \"réveil\" (three times in 015). Probably transcriber misreading, but undocumented silent normalisation."
+  }
+ },
+ {
+  "item": 480,
+  "tome": 3,
+  "scan_page": 37,
+  "pid": "015.0288",
+  "original_file": "content/_original/015/1874-01-22.md",
+  "scan_text": "connaisances",
+  "original_text": "connaissances",
+  "sonnet": {
+   "item": 480,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print and docx \"connaisances\"; original \"connaissances\"."
+  }
+ },
+ {
+  "item": 505,
+  "tome": 3,
+  "scan_page": 62,
+  "pid": "016.0193",
+  "original_file": "content/_original/016/1874-02-08.md",
+  "scan_text": "défugurant",
+  "original_text": "défigurant",
+  "sonnet": {
+   "item": 505,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print \"défugurant [sic]\": editor marks it as Marie's slip; _original has normalised \"défigurant [sic]\". Print form defugurant vs original défigurant."
+  }
+ },
+ {
+  "item": 506,
+  "tome": 3,
+  "scan_page": 63,
+  "pid": "016.0197",
+  "original_file": "content/_original/016/1874-02-09.md",
+  "scan_text": "essouflée",
+  "original_text": "essoufflée",
+  "sonnet": {
+   "item": 506,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print has \"humilation(s)/humilée\" (514,528,545: _original \"humiliation(s)/humiliée\") or \"essouflée\" (506,510: _original \"essoufflée\"); normalised silently, no RSR note. Could be Marie spelling or print typo; owner decides."
+  }
+ },
+ {
+  "item": 510,
+  "tome": 3,
+  "scan_page": 67,
+  "pid": "016.0247",
+  "original_file": "content/_original/016/1874-02-12.md",
+  "scan_text": "essouflée",
+  "original_text": "essoufflée",
+  "sonnet": {
+   "item": 510,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print has \"humilation(s)/humilée\" (514,528,545: _original \"humiliation(s)/humiliée\") or \"essouflée\" (506,510: _original \"essoufflée\"); normalised silently, no RSR note. Could be Marie spelling or print typo; owner decides."
+  }
+ },
+ {
+  "item": 514,
+  "tome": 3,
+  "scan_page": 72,
+  "pid": "016.0297",
+  "original_file": "content/_original/016/1874-02-15.md",
+  "scan_text": "humilation",
+  "original_text": "humiliation",
+  "sonnet": {
+   "item": 514,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print has \"humilation(s)/humilée\" (514,528,545: _original \"humiliation(s)/humiliée\") or \"essouflée\" (506,510: _original \"essoufflée\"); normalised silently, no RSR note. Could be Marie spelling or print typo; owner decides."
+  }
+ },
+ {
+  "item": 519,
+  "tome": 3,
+  "scan_page": 81,
+  "pid": "016.0360",
+  "original_file": "content/_original/016/1874-02-21.md",
+  "scan_text": "faire",
+  "original_text": "fait",
+  "sonnet": {
+   "item": 519,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print p.81 \"qui m'ont faire rire\" (likely Marie's slip); _original 016/1874-02-21 has \"m'ont fait rire\", no RSR note."
+  }
+ },
+ {
+  "item": 528,
+  "tome": 3,
+  "scan_page": 110,
+  "pid": "017.0263",
+  "original_file": "content/_original/017/1874-03-11.md",
+  "scan_text": "humilations",
+  "original_text": "humiliations",
+  "sonnet": {
+   "item": 528,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print has \"humilation(s)/humilée\" (514,528,545: _original \"humiliation(s)/humiliée\") or \"essouflée\" (506,510: _original \"essoufflée\"); normalised silently, no RSR note. Could be Marie spelling or print typo; owner decides."
+  }
+ },
+ {
+  "item": 545,
+  "tome": 3,
+  "scan_page": 138,
+  "pid": "018.0037",
+  "original_file": "content/_original/018/1874-03-28.md",
+  "scan_text": "humilée",
+  "original_text": "humiliée",
+  "sonnet": {
+   "item": 545,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print has \"humilation(s)/humilée\" (514,528,545: _original \"humiliation(s)/humiliée\") or \"essouflée\" (506,510: _original \"essoufflée\"); normalised silently, no RSR note. Could be Marie spelling or print typo; owner decides."
+  }
+ },
+ {
+  "item": 557,
+  "tome": 3,
+  "scan_page": 169,
+  "pid": "018.0358",
+  "original_file": "content/_original/018/1874-04-23.md",
+  "scan_text": "Lundi",
+  "original_text": "Jeudi",
+  "sonnet": {
+   "item": 557,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print p.169 heading \"Lundi 23 avril 1874\"; _original heading \"Jeudi, 23 avril 1874\" (23 April 1874 was a Thursday; carnet 018 cover also says jeudi 23 avril). Print has Marie's or editor's weekday slip, silently normalised."
+  }
+ },
+ {
+  "item": 571,
+  "tome": 3,
+  "scan_page": 196,
+  "pid": "019.0279",
+  "original_file": "content/_original/019/1874-05-18.md",
+  "scan_text": "inéréalisible",
+  "original_text": "irréalisible",
+  "sonnet": {
+   "item": 571,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print \"inéréalisible [sic]\" is flagged by editor as Marie's slip; _original normalised to \"irréalisible [sic]\"."
+  }
+ },
+ {
+  "item": 583,
+  "tome": 3,
+  "scan_page": 212,
+  "pid": "020.0048",
+  "original_file": "content/_original/020/1874-06-01.md",
+  "scan_text": "une",
+  "original_text": "",
+  "sonnet": {
+   "item": 583,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print p.212 \"elle a une une jolie taille\" (doubled word); _original has single \"une\". Marie slip or typesetting; owner decides."
+  }
+ },
+ {
+  "item": 610,
+  "tome": 3,
+  "scan_page": 248,
+  "pid": "020.0409",
+  "original_file": "content/_original/020/1874-06-27.md",
+  "scan_text": "comédiene",
+  "original_text": "comédienne",
+  "sonnet": {
+   "item": 610,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'comédiene'; _original 'comédienne'. Both forms given."
+  }
+ },
+ {
+  "item": 621,
+  "tome": 4,
+  "scan_page": 11,
+  "pid": "021.0083",
+  "original_file": "content/_original/021/1874-07-09.md",
+  "scan_text": "essouflée",
+  "original_text": "essoufflée",
+  "sonnet": {
+   "item": 621,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'tout essouflée'; _original silently normalised to 'essoufflée'. Both forms: essouflée / essoufflée."
+  }
+ },
+ {
+  "item": 630,
+  "tome": 4,
+  "scan_page": 14,
+  "pid": "021.0137",
+  "original_file": "content/_original/021/1874-07-11.md",
+  "scan_text": "vendra",
+  "original_text": "viendra",
+  "sonnet": {
+   "item": 630,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'qu’elle vendra' for 'viendra'; _original normalised."
+  }
+ },
+ {
+  "item": 631,
+  "tome": 4,
+  "scan_page": 16,
+  "pid": "021.0144",
+  "original_file": "content/_original/021/1874-07-11.md",
+  "scan_text": "expecté",
+  "original_text": "excepté",
+  "sonnet": {
+   "item": 631,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'expecté'; _original 'excepté'."
+  }
+ },
+ {
+  "item": 666,
+  "tome": 4,
+  "scan_page": 45,
+  "pid": "021.0487",
+  "original_file": "content/_original/021/1874-07-22.md",
+  "scan_text": "Witoslksowska",
+  "original_text": "Witoslowska",
+  "sonnet": {
+   "item": 666,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) has 'Witoslksowska / Witoslkowsky' and 'Folligno'; _original normalises to Witoslowska / Witoslowsky / Foligno (print also has 'Foligno' once, so inconsistent). Both forms given."
+  }
+ },
+ {
+  "item": 667,
+  "tome": 4,
+  "scan_page": 45,
+  "pid": "021.0487",
+  "original_file": "content/_original/021/1874-07-22.md",
+  "scan_text": "Folligno",
+  "original_text": "Foligno",
+  "sonnet": {
+   "item": 667,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) has 'Witoslksowska / Witoslkowsky' and 'Folligno'; _original normalises to Witoslowska / Witoslowsky / Foligno (print also has 'Foligno' once, so inconsistent). Both forms given."
+  }
+ },
+ {
+  "item": 668,
+  "tome": 4,
+  "scan_page": 45,
+  "pid": "021.0487",
+  "original_file": "content/_original/021/1874-07-22.md",
+  "scan_text": "Witoslkowsky",
+  "original_text": "Witoslowsky",
+  "sonnet": {
+   "item": 668,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) has 'Witoslksowska / Witoslkowsky' and 'Folligno'; _original normalises to Witoslowska / Witoslowsky / Foligno (print also has 'Foligno' once, so inconsistent). Both forms given."
+  }
+ },
+ {
+  "item": 669,
+  "tome": 4,
+  "scan_page": 45,
+  "pid": "021.0490",
+  "original_file": "content/_original/021/1874-07-22.md",
+  "scan_text": "elles",
+  "original_text": "elle",
+  "sonnet": {
+   "item": 669,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print 'quand elles les connaissait' (docx too); _original 'elle'. Marie slip or print typo."
+  }
+ },
+ {
+  "item": 673,
+  "tome": 4,
+  "scan_page": 51,
+  "pid": "021.0546",
+  "original_file": "content/_original/021/1874-07-23.md",
+  "scan_text": "montée",
+  "original_text": "monté",
+  "sonnet": {
+   "item": 673,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'Après avoir montée et descendue une montagne'; _original 'monté et descendu'. Both forms given."
+  }
+ },
+ {
+  "item": 674,
+  "tome": 4,
+  "scan_page": 51,
+  "pid": "021.0546",
+  "original_file": "content/_original/021/1874-07-23.md",
+  "scan_text": "descendue",
+  "original_text": "descendu",
+  "sonnet": {
+   "item": 674,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'Après avoir montée et descendue une montagne'; _original 'monté et descendu'. Both forms given."
+  }
+ },
+ {
+  "item": 680,
+  "tome": 4,
+  "scan_page": 55,
+  "pid": "022.0022",
+  "original_file": "content/_original/022/1874-07-25.md",
+  "scan_text": "fleurtais",
+  "original_text": "flirtais",
+  "sonnet": {
+   "item": 680,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'fleurtais'; _original 'flirtais'."
+  }
+ },
+ {
+  "item": 681,
+  "tome": 4,
+  "scan_page": 56,
+  "pid": "022.0030",
+  "original_file": "content/_original/022/1874-07-25.md",
+  "scan_text": "toute",
+  "original_text": "toutes",
+  "sonnet": {
+   "item": 681,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'toute les demoiselles'; _original 'toutes'."
+  }
+ },
+ {
+  "item": 682,
+  "tome": 4,
+  "scan_page": 56,
+  "pid": "022.0031",
+  "original_file": "content/_original/022/1874-07-25.md",
+  "scan_text": "Winslov",
+  "original_text": "Winslow",
+  "sonnet": {
+   "item": 682,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'Winslov' here (elsewhere 'Winslow'); _original 'Winslow'."
+  }
+ },
+ {
+  "item": 683,
+  "tome": 4,
+  "scan_page": 58,
+  "pid": "022.0069",
+  "original_file": "content/_original/022/1874-07-25.md",
+  "scan_text": "fiché",
+  "original_text": "fichu",
+  "sonnet": {
+   "item": 683,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'le bal est fiché'; _original 'fichu'."
+  }
+ },
+ {
+  "item": 687,
+  "tome": 4,
+  "scan_page": 60,
+  "pid": "022.0087",
+  "original_file": "content/_original/022/1874-07-25.md",
+  "scan_text": "poulous",
+  "original_text": "poulos",
+  "sonnet": {
+   "item": 687,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print verse line 'Papari poulous grec' (scan p60); _original 'poulos'."
+  }
+ },
+ {
+  "item": 688,
+  "tome": 4,
+  "scan_page": 60,
+  "pid": "022.0104",
+  "original_file": "content/_original/022/1874-07-25.md",
+  "scan_text": "Pougan",
+  "original_text": "Pouhon",
+  "sonnet": {
+   "item": 688,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'chez Pougan'; _original 'Pouhon' (the Spa spring). Print variant or OCR of h."
+  }
+ },
+ {
+  "item": 689,
+  "tome": 4,
+  "scan_page": 60,
+  "pid": "022.0110",
+  "original_file": "content/_original/022/1874-07-26.md",
+  "scan_text": "recontré",
+  "original_text": "rencontré",
+  "sonnet": {
+   "item": 689,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'recontré'; _original 'rencontré'."
+  }
+ },
+ {
+  "item": 690,
+  "tome": 4,
+  "scan_page": 60,
+  "pid": "022.0110",
+  "original_file": "content/_original/022/1874-07-26.md",
+  "scan_text": "saluée",
+  "original_text": "salué",
+  "sonnet": {
+   "item": 690,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'm’a saluée'; _original 'salué'. Both forms given."
+  }
+ },
+ {
+  "item": 691,
+  "tome": 4,
+  "scan_page": 60,
+  "pid": "022.0110",
+  "original_file": "content/_original/022/1874-07-26.md",
+  "scan_text": "saluée",
+  "original_text": "salué",
+  "sonnet": {
+   "item": 691,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'm’a saluée'; _original 'salué'. Both forms given."
+  }
+ },
+ {
+  "item": 693,
+  "tome": 4,
+  "scan_page": 62,
+  "pid": "022.0129",
+  "original_file": "content/_original/022/1874-07-27.md",
+  "scan_text": "Papar",
+  "original_text": "Papari",
+  "sonnet": {
+   "item": 693,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) abbreviates 'Papar etc.'; _original expands to 'Papari etc.'."
+  }
+ },
+ {
+  "item": 694,
+  "tome": 4,
+  "scan_page": 64,
+  "pid": "022.0154",
+  "original_file": "content/_original/022/1874-07-27.md",
+  "scan_text": "Gercike",
+  "original_text": "Gericke",
+  "sonnet": {
+   "item": 694,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'Gercike' for Gericke; probably Marie's slip or print typo."
+  }
+ },
+ {
+  "item": 695,
+  "tome": 4,
+  "scan_page": 65,
+  "pid": "022.0175",
+  "original_file": "content/_original/022/1874-07-28.md",
+  "scan_text": "",
+  "original_text": "ne",
+  "sonnet": {
+   "item": 695,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'mais je chanterai pas' (no 'ne'); _original adds 'ne'."
+  }
+ },
+ {
+  "item": 696,
+  "tome": 4,
+  "scan_page": 65,
+  "pid": "022.0177",
+  "original_file": "content/_original/022/1874-07-28.md",
+  "scan_text": "quelques",
+  "original_text": "quelque",
+  "sonnet": {
+   "item": 696,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'quelques temps'; _original 'quelque'."
+  }
+ },
+ {
+  "item": 697,
+  "tome": 4,
+  "scan_page": 66,
+  "pid": "022.0190",
+  "original_file": "content/_original/022/1874-07-29.md",
+  "scan_text": "djin sic",
+  "original_text": "gin",
+  "sonnet": {
+   "item": 697,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'djin [sic]' (editor's sic flags Marie's spelling); _original silently 'gin'."
+  }
+ },
+ {
+  "item": 699,
+  "tome": 4,
+  "scan_page": 68,
+  "pid": "022.0201",
+  "original_file": "content/_original/022/1874-07-29.md",
+  "scan_text": "Blondoff",
+  "original_text": "Bloudoff",
+  "sonnet": {
+   "item": 699,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and docx) 'Blondoff'; _original uses 'Bloudoff' (4 occurrences in 020-023)."
+  }
+ },
+ {
+  "item": 704,
+  "tome": 4,
+  "scan_page": 69,
+  "pid": "022.0226",
+  "original_file": "content/_original/022/1874-07-30.md",
+  "scan_text": "Merjeesky",
+  "original_text": "Merjeewsky",
+  "sonnet": {
+   "item": 704,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print p69 (and docx) spell «Merjeesky»; original «Merjeewsky» is the glossary form used elsewhere; silent normalisation"
+  }
+ },
+ {
+  "item": 712,
+  "tome": 4,
+  "scan_page": 79,
+  "pid": "022.0352",
+  "original_file": "content/_original/022/1874-08-02.md",
+  "scan_text": "Merjewsky",
+  "original_text": "Merjeewsky",
+  "sonnet": {
+   "item": 712,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print/docx «Merjewsky»; original «Merjeewsky», silently normalised"
+  }
+ },
+ {
+  "item": 714,
+  "tome": 4,
+  "scan_page": 79,
+  "pid": "022.0353",
+  "original_file": "content/_original/022/1874-08-02.md",
+  "scan_text": "Wheelwrigth",
+  "original_text": "Wheelwright",
+  "sonnet": {
+   "item": 714,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print/docx «Wheelwrigth»; original «Wheelwright» (glossary form, also in print elsewhere in the volume)"
+  }
+ },
+ {
+  "item": 715,
+  "tome": 4,
+  "scan_page": 80,
+  "pid": "022.0363",
+  "original_file": "content/_original/022/1874-08-03.md",
+  "scan_text": "Rousselière",
+  "original_text": "Roussellière",
+  "sonnet": {
+   "item": 715,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print p67/p80 «Rousselière» but p70 «Roussellière»; print is inconsistent, original uniformly «Roussellière»"
+  }
+ },
+ {
+  "item": 721,
+  "tome": 4,
+  "scan_page": 83,
+  "pid": "022.0404",
+  "original_file": "content/_original/022/1874-08-05.md",
+  "scan_text": "bianche",
+  "original_text": "blanche",
+  "sonnet": {
+   "item": 721,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx «Robe bianche Worth»; original «blanche» silently normalised (Marie slipping into Italian, or typo)"
+  }
+ },
+ {
+  "item": 727,
+  "tome": 4,
+  "scan_page": 91,
+  "pid": "023.0021",
+  "original_file": "content/_original/023/1874-08-08.md",
+  "scan_text": "ne",
+  "original_text": "",
+  "sonnet": {
+   "item": 727,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx «ce ne nom ne la quitte»; original silently dropped the stray «ne» (Marie's slip or print typo)"
+  }
+ },
+ {
+  "item": 770,
+  "tome": 4,
+  "scan_page": 195,
+  "pid": "025.0094",
+  "original_file": "content/_original/025/1874-11-03.md",
+  "scan_text": "devenira",
+  "original_text": "devinera",
+  "sonnet": {
+   "item": 770,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx «on ne devenira pas»; original «devinera» silently corrected (typo or Marie's slip)"
+  }
+ },
+ {
+  "item": 776,
+  "tome": 4,
+  "scan_page": 200,
+  "pid": "025.0150",
+  "original_file": "content/_original/025/1874-11-06.md",
+  "scan_text": "Walistky",
+  "original_text": "Walitsky",
+  "sonnet": {
+   "item": 776,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print/docx «Walistky»; original «Walitsky» (glossary form); print variant"
+  }
+ },
+ {
+  "item": 778,
+  "tome": 4,
+  "scan_page": 202,
+  "pid": "025.0173",
+  "original_file": "content/_original/025/1874-11-08.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 778,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx consistently spell «Audiffer» in this volume (also «Audiffret» elsewhere); original has «Audiffret» everywhere with no RSR note; policy 5 says names as Marie wrote them are kept"
+  }
+ },
+ {
+  "item": 779,
+  "tome": 4,
+  "scan_page": 203,
+  "pid": "025.0176",
+  "original_file": "content/_original/025/1874-11-08.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 779,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx consistently spell «Audiffer» in this volume (also «Audiffret» elsewhere); original has «Audiffret» everywhere with no RSR note; policy 5 says names as Marie wrote them are kept"
+  }
+ },
+ {
+  "item": 780,
+  "tome": 4,
+  "scan_page": 205,
+  "pid": "025.0208",
+  "original_file": "content/_original/025/1874-11-12.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 780,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx consistently spell «Audiffer» in this volume (also «Audiffret» elsewhere); original has «Audiffret» everywhere with no RSR note; policy 5 says names as Marie wrote them are kept"
+  }
+ },
+ {
+  "item": 781,
+  "tome": 4,
+  "scan_page": 207,
+  "pid": "025.0226",
+  "original_file": "content/_original/025/1874-11-14.md",
+  "scan_text": "parais sent Audiffer",
+  "original_text": "paraissent Audiffret",
+  "sonnet": {
+   "item": 781,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx consistently spell «Audiffer» in this volume (also «Audiffret» elsewhere); original has «Audiffret» everywhere with no RSR note; policy 5 says names as Marie wrote them are kept"
+  }
+ },
+ {
+  "item": 782,
+  "tome": 4,
+  "scan_page": 208,
+  "pid": "025.0229",
+  "original_file": "content/_original/025/1874-11-14.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 782,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx consistently spell «Audiffer» in this volume (also «Audiffret» elsewhere); original has «Audiffret» everywhere with no RSR note; policy 5 says names as Marie wrote them are kept"
+  }
+ },
+ {
+  "item": 783,
+  "tome": 4,
+  "scan_page": 208,
+  "pid": "025.0231",
+  "original_file": "content/_original/025/1874-11-14.md",
+  "scan_text": "Merjeewski",
+  "original_text": "Merjeewsky",
+  "sonnet": {
+   "item": 783,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print «Merjeewski»; original «Merjeewsky»"
+  }
+ },
+ {
+  "item": 784,
+  "tome": 4,
+  "scan_page": 209,
+  "pid": "025.0244",
+  "original_file": "content/_original/025/1874-11-14.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 784,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx consistently spell «Audiffer» in this volume (also «Audiffret» elsewhere); original has «Audiffret» everywhere with no RSR note; policy 5 says names as Marie wrote them are kept"
+  }
+ },
+ {
+  "item": 794,
+  "tome": 4,
+  "scan_page": 223,
+  "pid": "027.0042",
+  "original_file": "content/_original/027/1874-11-26.md",
+  "scan_text": "unseless",
+  "original_text": "useless",
+  "sonnet": {
+   "item": 794,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx «unseless»; original «useless» silently corrected (Marie's English slip or typo)"
+  }
+ },
+ {
+  "item": 795,
+  "tome": 4,
+  "scan_page": 223,
+  "pid": "027.0046",
+  "original_file": "content/_original/027/1874-11-27.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 795,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx consistently spell «Audiffer» in this volume (also «Audiffret» elsewhere); original has «Audiffret» everywhere with no RSR note; policy 5 says names as Marie wrote them are kept"
+  }
+ },
+ {
+  "item": 796,
+  "tome": 4,
+  "scan_page": 225,
+  "pid": "027.0064",
+  "original_file": "content/_original/027/1874-11-28.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 796,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx consistently spell «Audiffer» in this volume (also «Audiffret» elsewhere); original has «Audiffret» everywhere with no RSR note; policy 5 says names as Marie wrote them are kept"
+  }
+ },
+ {
+  "item": 797,
+  "tome": 4,
+  "scan_page": 225,
+  "pid": "027.0064",
+  "original_file": "content/_original/027/1874-11-28.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 797,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "print and docx consistently spell «Audiffer» in this volume (also «Audiffret» elsewhere); original has «Audiffret» everywhere with no RSR note; policy 5 says names as Marie wrote them are kept"
+  }
+ },
+ {
+  "item": 801,
+  "tome": 4,
+  "scan_page": 228,
+  "pid": "027.0104",
+  "original_file": "content/_original/027/1874-12-01.md",
+  "scan_text": "Merjeewski",
+  "original_text": "Merjeewsky",
+  "sonnet": {
+   "item": 801,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan+docx) has «Merjeewski» here; _original normalised to glossary form «Merjeewsky» (030.0051 print also has «Merjeewsky»; 030-02-19 _original keeps «Merjeewski»). Both forms: Merjeewski / Merjeewsky."
+  }
+ },
+ {
+  "item": 802,
+  "tome": 4,
+  "scan_page": 229,
+  "pid": "027.0108",
+  "original_file": "content/_original/027/1874-12-01.md",
+  "scan_text": "Wittengstein",
+  "original_text": "Wittgenstein",
+  "sonnet": {
+   "item": 802,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan and tome04.docx) reads «prince Wittengstein» two words after «Wittgenstein»; _original normalised. Could be Marie's slip or print typo. Both: Wittengstein / Wittgenstein."
+  }
+ },
+ {
+  "item": 804,
+  "tome": 4,
+  "scan_page": 229,
+  "pid": "027.0117",
+  "original_file": "content/_original/027/1874-12-01.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 804,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print has «Audiffer» (Marie's usual spelling, kept elsewhere in 029-032 with LAN/RSR notes); 027 _original normalised to «Audiffret» with no note. Both: Audiffer / Audiffret."
+  }
+ },
+ {
+  "item": 805,
+  "tome": 4,
+  "scan_page": 231,
+  "pid": "027.0125",
+  "original_file": "content/_original/027/1874-12-02.md",
+  "scan_text": "Bashkirseff",
+  "original_text": "Bashkirtseff",
+  "sonnet": {
+   "item": 805,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print and docx have «Bashkirseff»; _original «Bashkirtseff» (normalised, no RSR note). Could be Marie's slip or print typo."
+  }
+ },
+ {
+  "item": 806,
+  "tome": 4,
+  "scan_page": 234,
+  "pid": "027.0150",
+  "original_file": "content/_original/027/1874-12-04.md",
+  "scan_text": "hune",
+  "original_text": "hunc",
+  "sonnet": {
+   "item": 806,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print and tome04.docx both have «odiat hune puerum»; _original «hunc» (correct Latin; LAN in 030-03-19 flags the same 'hune' as likely hunc). Marie's slip or print typo; both: hune / hunc."
+  }
+ },
+ {
+  "item": 811,
+  "tome": 4,
+  "scan_page": 239,
+  "pid": "027.0206",
+  "original_file": "content/_original/027/1874-12-08.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 811,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "high",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print has «Audiffer» (Marie's usual spelling, kept elsewhere in 029-032 with LAN/RSR notes); 027 _original normalised to «Audiffret» with no note. Both: Audiffer / Audiffret."
+  }
+ },
+ {
+  "item": 816,
+  "tome": 4,
+  "scan_page": 243,
+  "pid": "027.0252",
+  "original_file": "content/_original/027/1874-12-14.md",
+  "scan_text": "cariins",
+  "original_text": "cairins",
+  "sonnet": {
+   "item": 816,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "low",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print and docx have «cariins»; _original «cairins» (LAN reads it as cairn terrier). Could be Marie's spelling or OCR/typo; both: cariins / cairins."
+  }
+ },
+ {
+  "item": 820,
+  "tome": 4,
+  "scan_page": 249,
+  "pid": "027.0306",
+  "original_file": "content/_original/027/1874-12-19.md",
+  "scan_text": "Risonovan",
+  "original_text": "Risonavan",
+  "sonnet": {
+   "item": 820,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print and docx have «Risonovan»; _original «Risonavan» (Dante's form). Marie's slip or print typo; both: Risonovan / Risonavan."
+  }
+ },
+ {
+  "item": 825,
+  "tome": 4,
+  "scan_page": 250,
+  "pid": "027.0326",
+  "original_file": "content/_original/027/1874-12-19.md",
+  "scan_text": "attrappé",
+  "original_text": "attrapé",
+  "sonnet": {
+   "item": 825,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan+docx) «attrappé»; _original «attrapé». Period spelling or Marie's; both forms."
+  }
+ },
+ {
+  "item": 895,
+  "tome": 5,
+  "scan_page": 40,
+  "pid": "032.0146",
+  "original_file": "content/_original/032/1875-04-26.md",
+  "scan_text": "appuye",
+  "original_text": "appuie",
+  "sonnet": {
+   "item": 895,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print (scan+docx) «appuye»; _original «appuie». Marie's spelling or print typo; both forms."
+  }
+ },
+ {
+  "item": 911,
+  "tome": 5,
+  "scan_page": 88,
+  "pid": "033.0229",
+  "original_file": "content/_original/033/1875-05-25.md",
+  "scan_text": "reconnaisant",
+  "original_text": "reconnaissant",
+  "sonnet": {
+   "item": 911,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «reconnaisant» vs _original «reconnaissant»; no RSR note."
+  }
+ },
+ {
+  "item": 928,
+  "tome": 5,
+  "scan_page": 162,
+  "pid": "035.0192",
+  "original_file": "content/_original/035/1875-07-04.md",
+  "scan_text": "renconte",
+  "original_text": "rencontre",
+  "sonnet": {
+   "item": 928,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «renconte» vs _original «rencontre»; no RSR note."
+  }
+ },
+ {
+  "item": 943,
+  "tome": 5,
+  "scan_page": 194,
+  "pid": "037.0177",
+  "original_file": "content/_original/037/1875-07-16.md",
+  "scan_text": "pouquoi",
+  "original_text": "pourquoi",
+  "sonnet": {
+   "item": 943,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «pouquoi» vs _original «pourquoi»; no RSR note."
+  }
+ },
+ {
+  "item": 944,
+  "tome": 5,
+  "scan_page": 194,
+  "pid": "037.0183",
+  "original_file": "content/_original/037/1875-07-16.md",
+  "scan_text": "regette",
+  "original_text": "regrette",
+  "sonnet": {
+   "item": 944,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «regette» (6x in the docx) vs _original «regrette»; no RSR note. Marie's spelling or print typo."
+  }
+ },
+ {
+  "item": 946,
+  "tome": 5,
+  "scan_page": 198,
+  "pid": "037.0240",
+  "original_file": "content/_original/037/1875-07-17.md",
+  "scan_text": "avoit",
+  "original_text": "avoir",
+  "sonnet": {
+   "item": 946,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «Après avoit éteint» vs _original «avoir»; no RSR note."
+  }
+ },
+ {
+  "item": 948,
+  "tome": 5,
+  "scan_page": 201,
+  "pid": "037.0284",
+  "original_file": "content/_original/037/1875-07-18.md",
+  "scan_text": "exibe",
+  "original_text": "exhibe",
+  "sonnet": {
+   "item": 948,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «exibe» vs _original «exhibe»."
+  }
+ },
+ {
+  "item": 951,
+  "tome": 5,
+  "scan_page": 202,
+  "pid": "037.0303",
+  "original_file": "content/_original/037/1875-07-18.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 951,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «Audiffer» (97x in docx; Marie's nickname form, recorded in the glossary as «Audiffer») vs _original «Audiffret» in this place; no RSR note here."
+  }
+ },
+ {
+  "item": 959,
+  "tome": 5,
+  "scan_page": 217,
+  "pid": "037.0507",
+  "original_file": "content/_original/037/1875-07-30.md",
+  "scan_text": "appuye",
+  "original_text": "appuie",
+  "sonnet": {
+   "item": 959,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «m'appuye» vs _original «m'appuie»."
+  }
+ },
+ {
+  "item": 965,
+  "tome": 5,
+  "scan_page": 221,
+  "pid": "038.0023",
+  "original_file": "content/_original/038/1875-08-02.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 965,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «Audiffer» (97x in docx; Marie's nickname form, recorded in the glossary as «Audiffer») vs _original «Audiffret» in this place; no RSR note here."
+  }
+ },
+ {
+  "item": 966,
+  "tome": 5,
+  "scan_page": 222,
+  "pid": "038.0028",
+  "original_file": "content/_original/038/1875-08-02.md",
+  "scan_text": "magasiniers",
+  "original_text": "magasins",
+  "sonnet": {
+   "item": 966,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «une journée de magasiniers» (docx identical) vs _original «magasins»; nonsensical but printed; owner to decide."
+  }
+ },
+ {
+  "item": 967,
+  "tome": 5,
+  "scan_page": 222,
+  "pid": "038.0029",
+  "original_file": "content/_original/038/1875-08-02.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 967,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «Audiffer» vs _original «Audiffret». NB the same line in _original is accent-stripped («semble etre tout») and should be «être», worth a separate fix."
+  }
+ },
+ {
+  "item": 971,
+  "tome": 5,
+  "scan_page": 226,
+  "pid": "038.0101",
+  "original_file": "content/_original/038/1875-08-03.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 971,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «Audiffer» (97x in docx; Marie's nickname form, recorded in the glossary as «Audiffer») vs _original «Audiffret» in this place; no RSR note here."
+  }
+ },
+ {
+  "item": 972,
+  "tome": 5,
+  "scan_page": 229,
+  "pid": "038.0137",
+  "original_file": "content/_original/038/1875-08-05.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 972,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «Audiffer» (97x in docx; Marie's nickname form, recorded in the glossary as «Audiffer») vs _original «Audiffret» in this place; no RSR note here."
+  }
+ },
+ {
+  "item": 974,
+  "tome": 5,
+  "scan_page": 233,
+  "pid": "038.0187",
+  "original_file": "content/_original/038/1875-08-07.md",
+  "scan_text": "adrese",
+  "original_text": "adresse",
+  "sonnet": {
+   "item": 974,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «adrese» vs _original «adresse»."
+  }
+ },
+ {
+  "item": 975,
+  "tome": 5,
+  "scan_page": 235,
+  "pid": "038.0213",
+  "original_file": "content/_original/038/1875-08-08.md",
+  "scan_text": "regette",
+  "original_text": "regrette",
+  "sonnet": {
+   "item": 975,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «regette» (6x in the docx) vs _original «regrette»; no RSR note. Marie's spelling or print typo."
+  }
+ },
+ {
+  "item": 979,
+  "tome": 5,
+  "scan_page": 238,
+  "pid": "038.0252",
+  "original_file": "content/_original/038/1875-08-10.md",
+  "scan_text": "motié",
+  "original_text": "moitie",
+  "sonnet": {
+   "item": 979,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «la motié d'elle» vs _original «la moitie» (also accent-stripped); at minimum «moitié», owner decides between motié/moitié."
+  }
+ },
+ {
+  "item": 980,
+  "tome": 5,
+  "scan_page": 238,
+  "pid": "038.0258",
+  "original_file": "content/_original/038/1875-08-10.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 980,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «Audiffer» (97x in docx; Marie's nickname form, recorded in the glossary as «Audiffer») vs _original «Audiffret» in this place; no RSR note here."
+  }
+ },
+ {
+  "item": 984,
+  "tome": 5,
+  "scan_page": 248,
+  "pid": "039.0058",
+  "original_file": "content/_original/039/1875-08-15.md",
+  "scan_text": "rapelle",
+  "original_text": "rappelle",
+  "sonnet": {
+   "item": 984,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «rapelle» vs _original «rappelle»."
+  }
+ },
+ {
+  "item": 985,
+  "tome": 5,
+  "scan_page": 248,
+  "pid": "039.0062",
+  "original_file": "content/_original/039/1875-08-15.md",
+  "scan_text": "recheche",
+  "original_text": "recherche",
+  "sonnet": {
+   "item": 985,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «recheche» vs _original «recherche»."
+  }
+ },
+ {
+  "item": 988,
+  "tome": 5,
+  "scan_page": 253,
+  "pid": "039.0132",
+  "original_file": "content/_original/039/1875-08-19.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 988,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «Audiffer» (97x in docx; Marie's nickname form, recorded in the glossary as «Audiffer») vs _original «Audiffret» in this place; no RSR note here."
+  }
+ },
+ {
+  "item": 989,
+  "tome": 5,
+  "scan_page": 254,
+  "pid": "039.0133",
+  "original_file": "content/_original/039/1875-08-19.md",
+  "scan_text": "Audiffer",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 989,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «Audiffer» (97x in docx; Marie's nickname form, recorded in the glossary as «Audiffer») vs _original «Audiffret» in this place; no RSR note here."
+  }
+ },
+ {
+  "item": 990,
+  "tome": 5,
+  "scan_page": 254,
+  "pid": "039.0133",
+  "original_file": "content/_original/039/1875-08-19.md",
+  "scan_text": "mit",
+  "original_text": "mis",
+  "sonnet": {
+   "item": 990,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «a mit le comble» vs _original «a mis»."
+  }
+ },
+ {
+  "item": 994,
+  "tome": 5,
+  "scan_page": 262,
+  "pid": "039.0248",
+  "original_file": "content/_original/039/1875-08-25.md",
+  "scan_text": "obsurci",
+  "original_text": "obscurci",
+  "sonnet": {
+   "item": 994,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «obsurci» vs _original «obscurci»."
+  }
+ },
+ {
+  "item": 995,
+  "tome": 5,
+  "scan_page": 263,
+  "pid": "039.0258",
+  "original_file": "content/_original/039/1875-08-26.md",
+  "scan_text": "apellent",
+  "original_text": "appellent",
+  "sonnet": {
+   "item": 995,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «apellent» vs _original «appellent»."
+  }
+ },
+ {
+  "item": 998,
+  "tome": 5,
+  "scan_page": 265,
+  "pid": "040.0030",
+  "original_file": "content/_original/040/1875-08-27-28.md",
+  "scan_text": "tut",
+  "original_text": "tu",
+  "sonnet": {
+   "item": 998,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Print «s'est tut !» vs _original «s'est tu !»."
+  }
+ },
+ {
+  "item": 1011,
+  "tome": 5,
+  "scan_page": 278,
+  "pid": "040.0199",
+  "original_file": "content/_original/040/1875-08-31.md",
+  "scan_text": "Audifret",
+  "original_text": "Audiffret",
+  "sonnet": {
+   "item": 1011,
+   "verdict": "OWNER_SPELLING",
+   "confidence": "medium",
+   "file": null,
+   "old": null,
+   "new": null,
+   "after_pid": null,
+   "reason": "Scan prints 'M. d'Audifret' (one f) then 'Emile d'Audiffret' in the same sentence; _original has 'Audiffret' in both. Could be Marie's slip or print typo; no RSR note. Forms: Audifret / Audiffret."
+  }
+ }
+]

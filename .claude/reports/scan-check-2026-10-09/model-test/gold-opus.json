@@ -1,0 +1,298 @@
+{
+ "gold": {
+  "1": [
+   "COVER_PAGE"
+  ],
+  "2": [
+   "SCAN_ERROR"
+  ],
+  "3": [
+   "SCAN_ERROR"
+  ],
+  "4": [
+   "SCAN_ERROR"
+  ],
+  "5": [
+   "FIX_ORIGINAL"
+  ],
+  "6": [
+   "COVER_PAGE"
+  ],
+  "7": [
+   "SCAN_ERROR",
+   "EQUIVALENT",
+   "APPARATUS"
+  ],
+  "8": [
+   "COVER_PAGE"
+  ],
+  "9": [
+   "SCAN_ERROR",
+   "EQUIVALENT"
+  ],
+  "10": [
+   "SCAN_ERROR"
+  ],
+  "11": [
+   "RESTORE"
+  ],
+  "12": [
+   "FIX_ORIGINAL"
+  ],
+  "13": [
+   "COVER_PAGE"
+  ],
+  "14": [
+   "FIX_ORIGINAL"
+  ],
+  "15": [
+   "FIX_ORIGINAL"
+  ],
+  "16": [
+   "SCAN_ERROR"
+  ],
+  "17": [
+   "APPARATUS",
+   "EQUIVALENT"
+  ],
+  "18": [
+   "FIX_ORIGINAL"
+  ],
+  "19": [
+   "MOVED",
+   "EQUIVALENT"
+  ],
+  "20": [
+   "COVER_PAGE"
+  ],
+  "21": [
+   "FIX_ORIGINAL",
+   "RESTORE"
+  ],
+  "22": [
+   "MOVED"
+  ],
+  "23": [
+   "SCAN_ERROR"
+  ],
+  "24": [
+   "SCAN_ERROR"
+  ],
+  "25": [
+   "COVER_PAGE"
+  ],
+  "26": [
+   "COVER_PAGE"
+  ],
+  "27": [
+   "SCAN_ERROR"
+  ],
+  "28": [
+   "COVER_PAGE"
+  ],
+  "29": [
+   "MOVED"
+  ],
+  "30": [
+   "SCAN_ERROR"
+  ],
+  "31": [
+   "SCAN_ERROR"
+  ],
+  "32": [
+   "SCAN_ERROR"
+  ],
+  "33": [
+   "MOVED",
+   "EQUIVALENT"
+  ],
+  "34": [
+   "SCAN_ERROR",
+   "EQUIVALENT",
+   "FIX_ORIGINAL"
+  ],
+  "35": [
+   "SCAN_ERROR"
+  ],
+  "36": [
+   "SCAN_ERROR"
+  ],
+  "37": [
+   "SCAN_ERROR",
+   "EQUIVALENT",
+   "UNSURE"
+  ],
+  "38": [
+   "SCAN_ERROR",
+   "EQUIVALENT"
+  ],
+  "39": [
+   "COVER_PAGE"
+  ],
+  "40": [
+   "SCAN_ERROR"
+  ],
+  "41": [
+   "COVER_PAGE"
+  ],
+  "42": [
+   "FIX_ORIGINAL"
+  ],
+  "43": [
+   "SCAN_ERROR",
+   "EQUIVALENT",
+   "FIX_ORIGINAL"
+  ],
+  "44": [
+   "MOVED"
+  ],
+  "45": [
+   "SCAN_ERROR"
+  ],
+  "46": [
+   "MOVED",
+   "EQUIVALENT",
+   "ORIGINAL_EXTRA"
+  ],
+  "47": [
+   "SCAN_ERROR"
+  ],
+  "48": [
+   "COVER_PAGE"
+  ],
+  "49": [
+   "SCAN_ERROR",
+   "EQUIVALENT"
+  ],
+  "50": [
+   "SCAN_ERROR"
+  ],
+  "51": [
+   "SCAN_ERROR",
+   "EQUIVALENT"
+  ],
+  "52": [
+   "ORIGINAL_EXTRA",
+   "EQUIVALENT"
+  ],
+  "53": [
+   "FIX_ORIGINAL",
+   "EQUIVALENT",
+   "SCAN_ERROR",
+   "UNSURE"
+  ],
+  "54": [
+   "UNSURE",
+   "APPARATUS",
+   "SCAN_ERROR"
+  ],
+  "55": [
+   "ORIGINAL_EXTRA",
+   "EQUIVALENT"
+  ],
+  "56": [
+   "SCAN_ERROR",
+   "EQUIVALENT"
+  ],
+  "57": [
+   "ORIGINAL_EXTRA",
+   "UNSURE"
+  ],
+  "58": [
+   "MOVED",
+   "EQUIVALENT"
+  ],
+  "59": [
+   "SCAN_ERROR",
+   "EQUIVALENT"
+  ],
+  "60": [
+   "FIX_ORIGINAL"
+  ],
+  "61": [
+   "FIX_ORIGINAL",
+   "EQUIVALENT",
+   "UNSURE"
+  ],
+  "62": [
+   "COVER_PAGE"
+  ],
+  "63": [
+   "SCAN_ERROR",
+   "EQUIVALENT"
+  ],
+  "64": [
+   "ORIGINAL_EXTRA",
+   "EQUIVALENT"
+  ],
+  "65": [
+   "COVER_PAGE"
+  ],
+  "66": [
+   "SCAN_ERROR"
+  ],
+  "67": [
+   "ORIGINAL_EXTRA",
+   "EQUIVALENT"
+  ],
+  "68": [
+   "SCAN_ERROR"
+  ],
+  "69": [
+   "FIX_ORIGINAL"
+  ],
+  "70": [
+   "SCAN_ERROR",
+   "ORIGINAL_EXTRA"
+  ],
+  "71": [
+   "MOVED"
+  ],
+  "72": [
+   "APPARATUS"
+  ]
+ },
+ "key": [
+  5,
+  11,
+  12,
+  14,
+  15,
+  18,
+  21,
+  42,
+  44,
+  60,
+  69
+ ],
+ "ambiguous": [
+  34,
+  37,
+  53,
+  61
+ ],
+ "notes": {
+  "9": "scan PDF repeats last line(s) of previous page at page top",
+  "38": "same page-top repeat",
+  "59": "same page-top repeat",
+  "57": "print AND docx lack «avec cette femme… qu il est» and «que les»; _original has them since before 2026-02 (unknown earlier source); print sentence is garbled → print likely dropped a line; owner call",
+  "70": "scan lost a line at the page break",
+  "12": "_original line has stripped accents (Apres, Opera, deuxieme)",
+  "60": "_original line accent-stripped",
+  "69": "_original line accent-stripped",
+  "34": "justemement: print typo or Marie slip — owner call",
+  "43": "FIX_ORIGINAL ok only as accent restoration (line accent-stripped); not for gentillles",
+  "44": "print+docx order: Mercredi 19 mars then Jeudi 18 mars; _original reordered by calendar and relabelled Vendredi 19 — undocumented",
+  "42": "Oos = Baden-Baden station; _original «Dos» is an OCR slip",
+  "14": "print Merjeewski; owner rule: names as Marie spells them at each occurrence",
+  "21": "_original dropped «rien»",
+  "18": "_original «comprend» for «comprenez»",
+  "11": "[Rayé: tombe dedans la tête] missing",
+  "53": "docx+print essouflée, _original essoufflée — silent normalisation; owner call",
+  "61": "print+docx heading has the year 1875, _original heading lacks it; owner call",
+  "33": "present at 020.0172 (Marie footnote 020.0173 sits between)",
+  "54": "page-bottom fragment, probably drawing labels; not restorable as is",
+  "15": "print reads «Town-hall,» (scan OCR hallj n); docx and _original «Town-ball» = OCR slip. Reference corrected after Haiku caught it",
+  "37": "humilation: print has several variants (Haiku: p110, p198) — likely Marie's; owner call"
+ }
+}

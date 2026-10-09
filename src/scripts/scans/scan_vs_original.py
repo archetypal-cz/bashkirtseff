@@ -13,7 +13,7 @@ from both sides, and whether the tome docx has the scan text too.
 Kinds:
   scan-only        words the scan has and _original lacks (≥ 4 words: candidate missing text)
   original-only    words _original has and the scan lacks (≥ 4 words)
-  accent           same words modulo diacritics
+  accent           same words modulo diacritics (accent_lost: the scan has more marks than _original)
   bang-ocr         «I»/«II»/«l» on one side where the other has «!»
   word             any other short substitution / insertion / deletion
   front-back-matter  scan-only text before the first / after the last anchor (preface, index…)
@@ -238,6 +238,17 @@ def compare(tome: int):
             elif kind == 'scan-only' and re.search(r'INDEX\s+ALPHA', ' '.join(st[x0:x1])):
                 kind = 'front-back-matter'  # the index, glued to the tome's last diary words
             findings.append(mk(tome, kind, x0, x1, y0, y1, st, sp, ot, op, dx))
+    # accents inside the anchored 6-word runs (the gap diff above never sees them)
+    seen = {f['x0'] for f in findings if f['kind'] == 'accent'}
+    for i, j in chain:
+        for k in range(SHINGLE):
+            if i + k not in seen and sn[i + k] != on[j + k]:
+                seen.add(i + k)
+                findings.append(mk(tome, 'accent', i + k, i + k + 1, j + k, j + k + 1, st, sp, ot, op, dx))
+    for f in findings:
+        if f['kind'] == 'accent':
+            marks = lambda w: len(unicodedata.normalize('NFD', w)) - len(fold(w))
+            f['accent_lost'] = marks(f['scan_text']) > marks(f['original_text'])
     stats = {'tome': tome, 'carnets': f'{c0:03d}-{c1:03d}', 'scan_words': len(st), 'original_words': len(ot),
              'anchors': len(chain), 'page_top_repeats_dropped': scan_tokens.repeats, 'anchored_scan_words': len(chain) * SHINGLE,
              'kinds': dict(collections.Counter(f['kind'] for f in findings)), 'split_only_dropped': split_only}
@@ -252,7 +263,7 @@ def mk(tome, kind, x0, x1, y0, y1, st, sp, ot, op, dx):
     if len(sx) >= 3:
         in_docx = ' '.join(norm(fold(t)) for t in sx) in dx
     pid_at = op[min(y0, len(op) - 1)] if op else None
-    return {'id': f't{tome}-{x0}', 'tome': tome, 'kind': kind,
+    return {'id': f't{tome}-{x0}', 'x0': x0, 'tome': tome, 'kind': kind,
             'scan_page': sp[min(x0, len(sp) - 1)], 'pid': pid_at,
             'scan_words': len(sx), 'original_words': y1 - y0,
             'scan_text': ' '.join(sx)[:1500], 'original_text': ' '.join(ot[y0:y1])[:1500],
