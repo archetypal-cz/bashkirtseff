@@ -13,11 +13,13 @@ Carnet 045 of Marie Bashkirtseff's diary. A dramatic week dominated by Marie's r
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 7 | 7 | -- |
-| Research    | 7 | 7 | rsr-p2 |
-| Annotation  | 7 | 7 | LAN (pre-existing) |
+| Research | 7 | 7 | rsr-p2 |
+| Annotation | 0 | 7 | — |
 
 ## Key Themes
 
@@ -48,6 +50,9 @@ Carnet 045 of Marie Bashkirtseff's diary. A dramatic week dominated by Marie's r
 - Key cultural references verified via web research
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 7/7, annotation 0/7).
 
 ### 2026-02-04T10:50:23 @kerray
 Initialized carnet README for progress tracking.

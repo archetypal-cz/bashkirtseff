@@ -15,11 +15,12 @@ Carnet 003 of Marie Bashkirtseff's diary.
 
 ## Status
 
+State as of 2026-10-10, counted from `edition_complete` in entry frontmatter.
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 33 | 33 | — |
-| Research    | 0 | 33 | — |
-| Annotation  | 0 | 33 | — |
+| Edition complete | 0 | 33 | — |
 
 ## TODOs
 
@@ -48,6 +49,9 @@ Carnet 003 of Marie Bashkirtseff's diary.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (edition_complete 0/33).
 
 ### 2026-02-04T10:50:20 @kerray
 Initialized carnet README for progress tracking.

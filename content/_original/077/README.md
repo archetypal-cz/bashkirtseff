@@ -12,11 +12,13 @@ Carnet 077 of Marie Bashkirtseff's diary.
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 43 | 43 | — |
-| Research    | 43 | 43 | RSR |
-| Annotation  | 43 | 43 | LAN |
+| Research | 43 | 43 | RSR |
+| Annotation | 21 | 43 | LAN |
 
 ## TODOs
 
@@ -52,6 +54,9 @@ _Progress tracking initialized._
 - Key themes: Marie at Académie Julian age 19, Paul de Cassagnac flirtation, anonymous letter intrigue, masked visits, Walitsky's death (Jan 12), Victor Emmanuel II's death (Jan 9), concours at atelier
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 43/43, annotation 21/43).
 
 ### 2026-02-04T10:50:25 @kerray
 Initialized carnet README for progress tracking.

@@ -12,14 +12,18 @@ Ukrainian translation of carnet 025 of Marie Bashkirtseff's diary.
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase       | Done | Total | Worker  |
 |-------------|------|-------|---------|
-| Translation | 23   | 23    | tr-025  |
-| Gemini      | 0    | 23    | —       |
-| Editor      | 0    | 23    | —       |
-| Conductor   | 0    | 23    | —       |
+| Translation | 23 | 23 | tr-025 |
+| Editor | 23 | 23 | — |
+| Conductor | 23 | 23 | — |
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (23/23 translated, 23/23 editor-approved, 23/23 conductor-approved); retired Gemini row removed.
 
 ### 2026-05-24 tr-025
 Translated all 23 entries from French original. Key decisions:

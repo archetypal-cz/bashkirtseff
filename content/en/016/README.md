@@ -3,16 +3,18 @@
 **Carnet**: 016
 **Dates**: 26 January -- 21 February 1874
 **Location**: Nice
-**Entries**: 26
+**Entries**: 27
 **Paragraphs**: 016.0001 -- 016.0388
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase | Count | Total | Status |
 |-------|-------|-------|--------|
-| Translated (TR) | 26 | 26 | COMPLETE |
-| Editor review (RED) | 0 | 26 | pending |
-| Conductor (CON) | 0 | 26 | pending |
+| Translated (TR) | 27 | 27 | Complete |
+| Editor review (RED) | 5 | 27 | Partial |
+| Conductor (CON) | 27 | 27 | Complete |
 
 ## Key Themes
 
@@ -49,3 +51,4 @@ Extensive multilingual code-switching throughout:
 ## Changelog
 
 - 2026-02-27: All 26 entries translated (TR)
+- 2026-10-10: D-15: status table refreshed from entry frontmatter (27/27 translated, 5/27 editor-approved, 27/27 conductor-approved); retired Gemini row removed.

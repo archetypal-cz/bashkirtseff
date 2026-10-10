@@ -2,7 +2,7 @@
 
 **Period**: July 1875
 **Location**: Nice
-**Entries**: 7
+**Entries**: 17
 
 ## Status
 

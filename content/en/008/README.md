@@ -5,18 +5,19 @@
 Carnet 008 of Marie Bashkirtseff's diary, English translation.
 
 **Date range**: 1873-08-11 to 1873-09-01
-**Entry count**: 22
+**Entry count**: 21
 **Location(s)**: Vienna, Train, Paris, Nice
 **Marie's age**: 14
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase        | Done | Total | Worker          |
 |--------------|------|-------|-----------------|
-| Translation  | 22   | 22    | translator-008  |
-| Gemini Review| 0    | 22    | --              |
-| Editor Review| 0    | 22    | --              |
-| Conductor    | 0    | 22    | --              |
+| Translation | 21 | 21 | translator-008 |
+| Editor Review | 21 | 21 | -- |
+| Conductor | 21 | 21 | -- |
 
 ## Key Themes
 
@@ -38,6 +39,9 @@ Carnet 008 of Marie Bashkirtseff's diary, English translation.
 - "tete de negre" (period colour term) translated as "dark brown" with TR note
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (21/21 translated, 21/21 editor-approved, 21/21 conductor-approved); retired Gemini row removed.
 
 ### 2026-02-16 translator-008
 Translated all 22 entries from French to English. Added TR comments for non-obvious translation choices. All entries marked translation_complete: true.

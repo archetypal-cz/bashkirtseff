@@ -7,11 +7,13 @@ Carnet 088 of Marie Bashkirtseff's diary.
 **Location(s)**: Paris
 
 ## Status
+
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 57 | 57 | -- |
-| Research    | 57 | 57 | RSR |
-| Annotation  | 57 | 57 | LAN |
+| Research | 57 | 57 | RSR |
+| Annotation | 54 | 57 | LAN |
 
 ## Changelog
 ### 2026-02-09T18:00:00
@@ -22,3 +24,4 @@ LAN: Linguistic annotation complete for all 57 entries.
 
 ### 2026-02-09T12:00:00
 Created from tome13.docx raw extraction.
+- 2026-10-10: D-15: status table refreshed from entry frontmatter (research 57/57, annotation 54/57).

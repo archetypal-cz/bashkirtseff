@@ -12,11 +12,13 @@ Carnet 006 of Marie Bashkirtseff's diary.
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 27 | 27 | — |
-| Research    | 0 | 27 | — |
-| Annotation  | 0 | 27 | — |
+| Research | 27 | 27 | — |
+| Annotation | 27 | 27 | — |
 
 ## TODOs
 
@@ -45,6 +47,9 @@ Carnet 006 of Marie Bashkirtseff's diary.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 27/27, annotation 27/27).
 
 ### 2026-02-04T10:50:20 @kerray
 Initialized carnet README for progress tracking.

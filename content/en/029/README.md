@@ -6,12 +6,13 @@
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase | Count | Status |
 |-------|-------|--------|
-| Translation (TR) | 29/29 | Complete |
-| Gemini Review (GEM) | 0/29 | Pending |
-| Editor Review (RED) | 0/29 | Pending |
-| Conductor Approval (CON) | 0/29 | Pending |
+| Translation (TR) | 30/30 | Complete |
+| Editor Review (RED) | 30/30 | Complete |
+| Conductor Approval (CON) | 30/30 | Complete |
 
 ## Entries
 
@@ -74,3 +75,4 @@
 
 ## Changelog
 - 2026-03-01: Initial translation complete (tr-029), all 29 entries
+- 2026-10-10: D-15: status table refreshed from entry frontmatter (30/30 translated, 30/30 editor-approved, 30/30 conductor-approved); retired Gemini row removed.

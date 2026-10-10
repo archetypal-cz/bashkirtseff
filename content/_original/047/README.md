@@ -13,11 +13,13 @@ Carnet 047 of Marie Bashkirtseff's diary. An eleven-day period dominated by the 
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 11 | 11 | -- |
-| Research    | 11 | 11 | rsr-p2 |
-| Annotation  | 11 | 11 | LAN (pre-existing) |
+| Research | 11 | 11 | rsr-p2 |
+| Annotation | 10 | 11 | LAN (pre-existing) |
 
 ## Key Themes
 
@@ -52,6 +54,9 @@ Carnet 047 of Marie Bashkirtseff's diary. An eleven-day period dominated by the 
 - Key cultural references verified via web research (Alice de Nevers, Charlotte de Montmorency, Frou-Frou, La Juive, Vatican obelisk)
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 11/11, annotation 10/11).
 
 ### 2026-02-04T10:50:23 @kerray
 Initialized carnet README for progress tracking.

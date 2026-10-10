@@ -10,13 +10,14 @@
 
 ## Translation Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase | Status | Count | Notes |
 |-------|--------|-------|-------|
 | Translation (TR) | Complete | 34/34 | All entries translated |
 | Self-review | Complete | 34/34 | Grammar/naturalness pass |
-| Gemini Review (GEM) | Pending | 0/34 | |
-| Editor Review (RED) | Pending | 0/34 | |
-| Conductor (CON) | Pending | 0/34 | |
+| Editor Review (RED) | Partial | 6/34 |  |
+| Conductor (CON) | Complete | 34/34 |  |
 
 ## Key Translation Decisions
 
@@ -81,3 +82,4 @@ Carnet 017 covers Marie's life in Nice during the tail end of the social season 
 - 2026-02-27: All 34 entries translated (TR)
 - 2026-02-27: Self-review complete
 - 2026-02-27: TranslationMemory updated with ~15 new terms
+- 2026-10-10: D-15: status table refreshed from entry frontmatter (34/34 translated, 6/34 editor-approved, 34/34 conductor-approved); retired Gemini row removed.

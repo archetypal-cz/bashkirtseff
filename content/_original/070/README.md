@@ -7,16 +7,18 @@
 Carnet 070 of Marie Bashkirtseff's diary.
 
 **Date range**: 1877-04-03 to 1877-04-25
-**Entry count**: 8
+**Entry count**: 23
 **Location(s)**: Sorrento, Naples
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 8 | 8 | — |
-| Research    | 8 | 8 | RSR |
-| Annotation  | 8 | 8 | LAN |
+| Restructured | 23 | 23 | — |
+| Research | 23 | 23 | RSR |
+| Annotation | 0 | 23 | LAN |
 
 ## TODOs
 
@@ -49,6 +51,9 @@ Carnet 070 of Marie Bashkirtseff's diary.
 - Note: Several glossary entries are miscategorized (places under `people/mentioned/` instead of `places/`): SORRENTO, VILLA_REALE, AQUARIUM, CHIAJA, CASTELLAMARE, TOLEDO, CHAMP_DE_MARS, PAUSILIPPE, SKATING, COURSES, CERCLE, SOCIETA_FILARMONICA, CONSULAT. Also FAUST should be under `culture/`.
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 23/23, annotation 0/23).
 
 ### 2026-02-09T18:35:00 RSR
 Research complete for all 8 entries. Updated frontmatter (carnet as quoted string, entry_id, para_end, location, locations, dates, entities, workflow). Added RSR comments for historical context (Larderel family/Tuscany boric acid, King Vittorio Emanuele II, Dante quotations, Naples society, horse racing, Gounod's Faust). Added language tags for Italian (Dante quotations), Russian (code-switching), Latin (closing motto). Removed duplicate old-format paragraph blocks from 5 entries.

@@ -7,16 +7,18 @@
 Carnet 024 of Marie Bashkirtseff's diary.
 
 **Date range**: 1874-09-16 to 1874-10-26
-**Entry count**: 41
+**Entry count**: 40
 **Location(s)**: Paris
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 41 | 41 | — |
-| Research    | 0 | 41 | — |
-| Annotation  | 0 | 41 | — |
+| Restructured | 40 | 40 | — |
+| Research | 40 | 40 | — |
+| Annotation | 38 | 40 | — |
 
 ## TODOs
 
@@ -45,6 +47,9 @@ Carnet 024 of Marie Bashkirtseff's diary.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 40/40, annotation 38/40).
 
 ### 2026-02-04T10:50:22 @kerray
 Initialized carnet README for progress tracking.

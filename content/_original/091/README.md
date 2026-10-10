@@ -7,16 +7,18 @@
 Carnet 091 of Marie Bashkirtseff's diary.
 
 **Date range**: 1881-02-02 to 1881-05-14
-**Entry count**: 71
+**Entry count**: 112
 **Location(s)**: Paris
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 71 | 71 | — |
-| Research    | 0 | 71 | — |
-| Annotation  | 0 | 71 | — |
+| Restructured | 112 | 112 | — |
+| Research | 112 | 112 | — |
+| Annotation | 97 | 112 | — |
 
 ## TODOs
 
@@ -45,6 +47,9 @@ Carnet 091 of Marie Bashkirtseff's diary.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 112/112, annotation 97/112).
 
 ### 2026-02-04T10:50:26 @kerray
 Initialized carnet README for progress tracking.

@@ -7,16 +7,18 @@
 Carnet 056 of Marie Bashkirtseff's diary. Marie is in Rome throughout, at the Hôtel de la Ville on Via del Babuino. The carnet charts the Antonelli crisis: Pietro's convent retreat at San Giovanni e Paolo (8 days, Mar 31–Apr 8), the family's opposition to any marriage, and Marie's agonized wait. Parallel threads: Torlonia obsession intensifies (Villa Torlonia visit, bibliomancy discovery of his fortune), Plowden declares love, Fanny Lear expelled from Italy, father's letter exchange, and Marie's painting progress with Katorbinsky. Closes with the desperate Palm Sunday when Pietro fails to appear after his retreat.
 
 **Date range**: 1876-03-28 to 1876-04-09
-**Entry count**: 13
+**Entry count**: 14
 **Location(s)**: Rome
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 13 | 13 | — |
-| Research    | 13 | 13 | RSR |
-| Annotation  | 13 | 13 | LAN |
+| Restructured | 14 | 14 | — |
+| Research | 14 | 14 | RSR |
+| Annotation | 12 | 14 | LAN |
 
 ## TODOs
 
@@ -48,6 +50,9 @@ None — all 13 entries pre-annotated with LAN comments.
 - Key narrative arc: Antonelli convent retreat → family opposition → Marie's desperate wait
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 14/14, annotation 12/14).
 
 ### 2026-02-04T10:50:23 @kerray
 Initialized carnet README for progress tracking.

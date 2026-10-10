@@ -2,7 +2,7 @@
 
 **Period**: 7 June – 25 June 1875
 **Location**: Nice
-**Entries**: 11
+**Entries**: 19
 
 ## Status
 

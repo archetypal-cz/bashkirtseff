@@ -7,17 +7,19 @@
 Carnet 071 of Marie Bashkirtseff's diary. Marie leaves Naples, spends 10 days in Florence stalking Alexandre de Larderel's family (meeting his mother, seeing baby Alexandrine, discovering Gordigiani the painter), then settles in Nice for 4 weeks of social comedy, painting, and preparation for Paris. Key themes: Marcuard's coded marriage proposal, Marie's blood-coughing (early TB symptom), the Gulliver passage on writing consciousness, household farce with Triphon.
 
 **Date range**: 1877-04-27 to 1877-06-10
-**Entry count**: 25
+**Entry count**: 46
 **Location(s)**: Naples, Florence, Nice
 **Paragraph range**: 071.0001-071.0621 (renumbered by the 2026-09-27 tome-10 rebuild)
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 25 | 25 | — |
-| Research    | 25 | 25 | RSR |
-| Annotation  | 25 | 25 | LAN |
+| Restructured | 46 | 46 | — |
+| Research | 46 | 46 | RSR |
+| Annotation | 13 | 46 | LAN |
 
 ## TODOs
 
@@ -54,6 +56,9 @@ All 25 entries have complete RSR research comments and updated frontmatter. Key 
 - Blood-coughing episode (1877-05-18) flagged as early tuberculosis symptom
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 46/46, annotation 13/46).
 
 ### 2026-02-04T10:50:24 @kerray
 Initialized carnet README for progress tracking.

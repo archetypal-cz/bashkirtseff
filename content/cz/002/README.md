@@ -8,19 +8,20 @@
 Czech translation of carnet 002.
 
 **Date range**: 1873-02-16 to 1873-03-12
-**Entry count**: 25
+**Entry count**: 26
 **Location(s)**: TBD
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Research    | 0 | 25 | — |
-| Annotation  | 0 | 25 | — |
-| Translation | 0 | 25 | — |
-| Gemini      | 0 | 25 | — |
-| Edited      | 0 | 25 | — |
-| Approved    | 0 | 25 | — |
+| Research | 26 | 26 | — |
+| Annotation | 3 | 26 | — |
+| Translation | 26 | 26 | — |
+| Edited | 26 | 26 | — |
+| Approved | 26 | 26 | — |
 
 ## TODOs
 
@@ -42,6 +43,9 @@ Czech translation of carnet 002.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (26/26 translated, 26/26 editor-approved, 26/26 conductor-approved); retired Gemini row removed.
 
 ### 2026-02-04T10:50:28 @kerray
 Initialized carnet README for progress tracking.

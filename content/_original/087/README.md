@@ -14,11 +14,13 @@ Carnet 087 of Marie Bashkirtseff's diary.
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 124 | 124 | -- |
-| Research    | 124 | 124 | @claude |
-| Annotation  | 124 | 124 | @claude |
+| Research | 124 | 124 | @claude |
+| Annotation | 122 | 124 | @claude |
 
 ## TODOs
 
@@ -47,6 +49,9 @@ Carnet 087 of Marie Bashkirtseff's diary.
 Full extraction of all 124 entries from raw OCR text (livre87_raw.txt).
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 124/124, annotation 122/124).
 
 ### 2026-02-04T10:50:26 @kerray
 Initialized carnet README for progress tracking.

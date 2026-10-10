@@ -1,6 +1,6 @@
 # Spanish Translation Progress
 
-<!-- Last updated: 2026-09-07 -->
+<!-- Last updated: 2026-10-10 (D-15: totals only) -->
 <!-- Updated by: ED (pilot policy decisions) -->
 
 ## Overview
@@ -8,9 +8,9 @@
 | Metric | Value |
 |--------|-------|
 | **Total carnets** | 107 |
-| **Total entries** | ~3,733 |
+| **Total entries** | 4,275 |
 | **Carnets translated** | 0 (001 in progress: 5/22 entries) |
-| **Entries translated** | 5 / 3,733 |
+| **Entries translated** | 5 / 4,275 (frontmatter flags 4; 1873-01-11 lost its flags after the 2026-09-28 source rebuild and needs a re-pass) |
 | **Entries opus-reviewed** | 5 |
 | **Entries editor-approved** | 5 |
 | **Entries conductor-approved** | 5 |
@@ -89,6 +89,7 @@ No complete Spanish translation of the diary exists; circulating Spanish selecti
 
 ## Recent Activity
 
+- **2026-10-10**: D-15: total-entries figure corrected to 4,275 (all files in the other trees); pilot counts re-verified from frontmatter (carnet 001: 4/22 files carry translation/editor/conductor flags)
 - **2026-09-05**: Language tree bootstrapped (CLAUDE.md, PROGRESS.md, TranslationMemory.md); pilot plan drafted; no entries translated
 - **2026-09-05**: Pilot slice 1 (001: 1873-01-11 .. 1873-01-15, 5 entries, 17 paragraphs) through TR → OPS → RED → CON, all 5 conductor-approved, CON 0.94; all gates green on the slice; run report `.claude/reports/2026-09-05-es-001.md`; CLAUDE.md style guide revised from the findings
 - **2026-09-07**: Four pilot policies settled by the maintainer (ustedes plural, three-tier name rule, footnote labels confirmed, exonym rule + table); written into CLAUDE.md and TranslationMemory.md; no entry text changed (slice 1 already conforms)

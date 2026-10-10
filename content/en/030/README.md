@@ -5,17 +5,18 @@
 Carnet 030 of Marie Bashkirtseff's diary, English translation.
 
 **Date range**: 1875-02-19 to 1875-04-02
-**Entry count**: 33
+**Entry count**: 43
 **Location(s)**: Nice (with San Remo trip 1875-03-01 to 1875-03-04)
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase            | Done | Total | Worker |
 |------------------|------|-------|--------|
-| Translation (TR) | 33   | 33    | tr-030 |
-| Gemini Review    | 0    | 33    | —      |
-| Editor Review    | 0    | 33    | —      |
-| Conductor Approval | 0  | 33    | —      |
+| Translation (TR) | 43 | 43 | tr-030 |
+| Editor Review | 43 | 43 | — |
+| Conductor Approval | 43 | 43 | — |
 
 ## Highlights
 
@@ -44,6 +45,9 @@ Key entries of literary and biographical significance:
 - Foreign language note: "comme un roi" → "like a king" — gender incongruity preserved deliberately
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (43/43 translated, 43/43 editor-approved, 43/43 conductor-approved); retired Gemini row removed.
 
 ### 2026-03-01 tr-030
 Translated all 33 entries (030.0001–030.0035). Updated TranslationMemory with ~25 new terms. Self-review completed.

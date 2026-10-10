@@ -7,16 +7,18 @@
 Carnet 063 of Marie Bashkirtseff's diary.
 
 **Date range**: 1876-07-06 to 1876-07-19
-**Entry count**: 12
+**Entry count**: 15
 **Location(s)**: TBD
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 12 | 12 | — |
-| Research    | 0 | 12 | — |
-| Annotation  | 0 | 12 | — |
+| Restructured | 15 | 15 | — |
+| Research | 15 | 15 | — |
+| Annotation | 4 | 15 | — |
 
 ## TODOs
 
@@ -45,6 +47,9 @@ Carnet 063 of Marie Bashkirtseff's diary.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 15/15, annotation 4/15).
 
 ### 2026-02-04T10:50:24 @kerray
 Initialized carnet README for progress tracking.

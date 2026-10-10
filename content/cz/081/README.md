@@ -10,14 +10,15 @@ Czech translation of carnet 081.
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Research    | 47 | 47 | RSR |
-| Annotation  | 47 | 47 | LAN |
+| Research | 47 | 47 | RSR |
+| Annotation | 10 | 47 | LAN |
 | Translation | 47 | 47 | TR (tr-081) |
-| Gemini      | 0 | 47 | — |
-| Edited      | 0 | 47 | — |
-| Approved    | 0 | 47 | — |
+| Edited | 47 | 47 | — |
+| Approved | 47 | 47 | — |
 
 ## TODOs
 
@@ -43,6 +44,9 @@ Translation complete (tr-081, 2026-06-11). All 47 entries translated covering:
 - Key recurring themes: Nebožtík/Cassagnac mourning, Multedo correspondence, Gans brothers obsession, Prince Auguste's illness, Livy reading, Directoire hat, Rome longing, Gloriae Cupiditas end-marker
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (47/47 translated, 47/47 editor-approved, 47/47 conductor-approved); retired Gemini row removed.
 
 ### 2026-06-11 tr-081
 Translation of all 47 entries completed by tr-081 as part of team cz-080-082 sprint.

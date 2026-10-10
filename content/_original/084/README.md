@@ -7,16 +7,18 @@
 Carnet 084 of Marie Bashkirtseff's diary.
 
 **Date range**: 1879-01-11 to 1879-04-25
-**Entry count**: 101
+**Entry count**: 105
 **Location(s)**: Paris
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 101 | 101 | — |
-| Research    | 101 | 101 | rsr-p1, rsr-p2 |
-| Annotation  | 101 | 101 | lan, ED |
+| Restructured | 105 | 105 | — |
+| Research | 105 | 105 | rsr-p1, rsr-p2 |
+| Annotation | 45 | 105 | lan, ED |
 
 ## What's Done
 
@@ -25,6 +27,9 @@ Carnet 084 of Marie Bashkirtseff's diary.
 - Source preparation complete for this carnet
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 105/105, annotation 45/105).
 
 ### 2026-02-04T10:50:25 @kerray
 Initialized carnet README for progress tracking.

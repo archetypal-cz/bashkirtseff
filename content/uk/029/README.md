@@ -5,17 +5,18 @@
 Ukrainian translation of Marie Bashkirtseff's diary, carnet 029.
 
 **Date range**: 1875-01-21 to 1875-02-18
-**Entry count**: 29
+**Entry count**: 30
 **Location(s)**: Paris (1875-01-21 to 1875-01-22), Nice (1875-01-23 onwards)
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase        | Done | Total | Worker  |
 |--------------|------|-------|---------|
-| Translation  | 29   | 29    | tr-029  |
-| Gemini Review| 0    | 29    | —       |
-| Editor Review| 0    | 29    | —       |
-| Conductor    | 0    | 29    | —       |
+| Translation | 30 | 30 | tr-029 |
+| Editor Review | 30 | 30 | — |
+| Conductor | 30 | 30 | — |
 
 ## Key Content
 
@@ -43,6 +44,9 @@ Ukrainian translation of Marie Bashkirtseff's diary, carnet 029.
 - Multiple footnotes added for cultural references (Cagliastro, Semolina, Home/Hume)
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (30/30 translated, 30/30 editor-approved, 30/30 conductor-approved); retired Gemini row removed.
 
 ### 2026-05-24 tr-029
 Translation of all 29 entries completed.

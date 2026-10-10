@@ -3,7 +3,7 @@
 **Carnet**: 070
 **Period**: April 1877
 **Location**: Sorrento, then Naples
-**Entries**: 8
+**Entries**: 23
 **Paragraphs**: 070.0001 – 070.0934
 
 ## Summary

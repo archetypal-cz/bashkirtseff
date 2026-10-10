@@ -16,13 +16,18 @@ Carnet 074 of Marie Bashkirtseff's diary.
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 37 | 37 | — |
-| Research    | 37 | 37 | RSR |
-| Annotation  | 37 | 37 | LAN |
+| Research | 37 | 37 | RSR |
+| Annotation | 27 | 37 | LAN |
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 37/37, annotation 27/37).
 
 ### 2026-02-09T16:00:00
 Research phase complete (RSR). All 37 entries processed:

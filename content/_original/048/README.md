@@ -12,11 +12,13 @@ Carnet 048 of Marie Bashkirtseff's diary.
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 14 | 14 | — |
-| Research    | 14 | 14 | rsr-p2, rsr-p3 |
-| Annotation  | 14 | 14 | lan |
+| Research | 14 | 14 | rsr-p2, rsr-p3 |
+| Annotation | 11 | 14 | lan |
 
 ## What's Done
 
@@ -25,6 +27,9 @@ Carnet 048 of Marie Bashkirtseff's diary.
 - Source preparation complete for this carnet
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 14/14, annotation 11/14).
 
 ### 2026-02-04T10:50:23 @kerray
 Initialized carnet README for progress tracking.

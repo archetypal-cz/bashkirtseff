@@ -7,16 +7,18 @@
 Carnet 019 of Marie Bashkirtseff's diary.
 
 **Date range**: 1874-04-24 to 1874-05-29
-**Entry count**: 36
+**Entry count**: 35
 **Location(s)**: Nice
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 36 | 36 | — |
-| Research    | 0 | 36 | — |
-| Annotation  | 0 | 36 | — |
+| Restructured | 35 | 35 | — |
+| Research | 35 | 35 | — |
+| Annotation | 31 | 35 | — |
 
 ## TODOs
 
@@ -45,6 +47,9 @@ Carnet 019 of Marie Bashkirtseff's diary.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 35/35, annotation 31/35).
 
 ### 2026-02-04T10:50:21 @kerray
 Initialized carnet README for progress tracking.

@@ -8,11 +8,13 @@
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase | Count | Total | Status |
 |-------|-------|-------|--------|
-| Translated (TR) | 24 | 24 | COMPLETE |
-| Editor review (RED) | 0 | 24 | pending |
-| Conductor (CON) | 0 | 24 | pending |
+| Translated (TR) | 24 | 24 | Complete |
+| Editor review (RED) | 14 | 24 | Partial |
+| Conductor (CON) | 24 | 24 | Complete |
 
 ## Key Themes
 
@@ -39,3 +41,4 @@ Extensive multilingual code-switching throughout:
 ## Changelog
 
 - 2026-02-27: All 24 entries translated (TR)
+- 2026-10-10: D-15: status table refreshed from entry frontmatter (24/24 translated, 14/24 editor-approved, 24/24 conductor-approved); retired Gemini row removed.

@@ -7,16 +7,18 @@
 Carnet 049 of Marie Bashkirtseff's diary.
 
 **Date range**: 1875-11-08 to 1875-11-17
-**Entry count**: 10
+**Entry count**: 12
 **Location(s)**: Nice
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 10 | 10 | — |
-| Research    | 10 | 10 | RSR (source-prep-p2) |
-| Annotation  | 10 | 10 | LAN (prior session) |
+| Restructured | 12 | 12 | — |
+| Research | 12 | 12 | RSR (source-prep-p2) |
+| Annotation | 10 | 12 | LAN (prior session) |
 
 ## TODOs
 
@@ -50,6 +52,9 @@ Carnet 049 of Marie Bashkirtseff's diary.
 - Key themes: Audiffret aftermath, Mignon opera night, departure for Paris
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 12/12, annotation 10/12).
 
 ### 2026-02-04T10:50:23 @kerray
 Initialized carnet README for progress tracking.

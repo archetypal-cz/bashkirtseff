@@ -12,11 +12,13 @@ Carnet 054 of Marie Bashkirtseff's diary.
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 18 | 18 | — |
-| Research    | 18 | 18 | RSR |
-| Annotation  | 18 | 18 | LAN (pre-existing) |
+| Research | 18 | 18 | RSR |
+| Annotation | 6 | 18 | LAN (pre-existing) |
 
 ## TODOs
 
@@ -58,6 +60,9 @@ Carnet 054 of Marie Bashkirtseff's diary.
 - Created ROME glossary entry
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 18/18, annotation 6/18).
 
 ### 2026-02-04T10:50:23 @kerray
 Initialized carnet README for progress tracking.

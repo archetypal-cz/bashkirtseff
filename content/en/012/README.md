@@ -3,7 +3,7 @@
 ## Overview
 - **Carnet**: 012
 - **Date range**: 1873-11-02 to 1873-11-20
-- **Entries**: 19
+- **Entries**: 20
 - **Location**: Nice
 - **Paragraphs**: 012.0024 -- 012.0311
 - **Marie's age**: 14

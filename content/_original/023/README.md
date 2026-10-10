@@ -7,16 +7,18 @@
 Carnet 023 of Marie Bashkirtseff's diary.
 
 **Date range**: 1874-08-09 to 1874-09-12
-**Entry count**: 35
+**Entry count**: 37
 **Location(s)**: Spa, Brussels, Ostende
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 35 | 35 | — |
-| Research    | 0 | 35 | — |
-| Annotation  | 0 | 35 | — |
+| Restructured | 37 | 37 | — |
+| Research | 37 | 37 | — |
+| Annotation | 10 | 37 | — |
 
 ## TODOs
 
@@ -45,6 +47,9 @@ Carnet 023 of Marie Bashkirtseff's diary.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 37/37, annotation 10/37).
 
 ### 2026-02-04T10:50:22 @kerray
 Initialized carnet README for progress tracking.

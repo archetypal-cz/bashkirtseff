@@ -5,18 +5,23 @@
 English translation of Carnet 063 of Marie Bashkirtseff's diary.
 
 **Date range**: 1876-07-04 to 1876-07-19
-**Entry count**: 13
+**Entry count**: 15
 **Location(s)**: Paris (train journey from Nice; arrival 4 July)
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Translation | 13 | 13 | tr-001 |
-| Editor review | 0 | 13 | — |
-| Conductor approval | 0 | 13 | — |
+| Translation | 15 | 15 | tr-001 |
+| Editor review | 15 | 15 | — |
+| Conductor approval | 15 | 15 | — |
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (15/15 translated, 15/15 editor-approved, 15/15 conductor-approved); retired Gemini row removed.
 
 ### 2026-03-05T14:00:00 tr-001
 Translated all 13 entries (1876-07-04-05 through 1876-07-19). Entries 1876-07-13 through 1876-07-17 are empty in source (heading only). Major entries include the great departure from Nice, extended Paris impressions, the Pietro Antonelli telegram episode (July 12), the remarkable Alexis clairvoyant consultation (July 18), and the final Pietro rejection with the coded first mention of the Duke of Hamilton (July 19).

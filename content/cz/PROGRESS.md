@@ -1,6 +1,6 @@
 # Czech Translation Progress
 
-<!-- Last updated: 2026-06-07 -->
+<!-- Last updated: 2026-10-10 -->
 <!-- Updated by: @kerray -->
 
 ## Overview
@@ -8,24 +8,18 @@
 | Metric | Value |
 |--------|-------|
 | **Total carnets** | 107 (000–106) |
-| **Carnets complete (TR→RED→CON)** | 70 (000–069) |
-| **Carnets in progress** | 1 (095, partial) |
-| **Carnets not started** | 36 (070–094, 096–106) |
-| **Overall progress** | ~65% of carnets |
+| **Total entries** | 4,275 |
+| **Entries translated / editor-approved / conductor-approved** | 4,275 / 4,275 / 4,275 |
+| **Carnets complete (TR→RED→CON)** | 107 (000–106) |
+| **Overall progress** | 100% (counted from entry frontmatter, 2026-10-10) |
 
-Carnets **000–069** are fully translated, editor-reviewed, and conductor-approved.
-Carnet **095** has ~61 legacy sample/in-progress entries (not flagged complete) plus
-32 untranslated — a separate cleanup task.
+All carnets are translated, editor-reviewed and conductor-approved. Post-CON polish (FAB calque-hunt, fluidity passes) continues; see the tracker in `.claude/reports/`. The wave tables below are historical.
 
 ## Carnet Status (summary)
 
 | Range | TR | RED | CON | Notes |
 |-------|-----|-----|-----|-------|
-| 000–055 (+021) | ✅ | ✅ | ✅ | Earlier waves; mostly editor+conductor approved |
-| 056–064 | ✅ | ✅ | ✅ | Wave 2026-06-07 — Rome/Naples→Russia arc, 1876, 130 entries, avg CON ~0.92 |
-| 065–069 | ✅ | ✅ | ✅ | **This wave (2026-06-07)** — Poltava/country-life → Rome/Naples, 1876–77, 145 entries, avg CON ~0.92 |
-| 095 | ~partial | — | — | Legacy samples + 32 untranslated; needs finishing |
-| 070–094, 096–106 | — | — | — | Not started |
+| 000–106 | ✅ | ✅ | ✅ | 4,275 / 4,275 entries flagged on all three (2026-10-10); carnet 018 re-translated from the manuscript 2026-09; 095 and 093–106 completed in later waves |
 
 ## This Wave — 056–064 (2026-06-07)
 
@@ -63,9 +57,8 @@ verify-carnet PASS on all 5; `just check-links-repo` 0 broken. Run report:
 
 ## Next Up
 
-- Carnets **070–074** (natural continuation; UK is ahead through 064 for source-prep reference)
-- Finish carnet **095** (32 untranslated entries + finalize legacy samples)
-- Small cleanup: unify ~21 accented "Lardérei-" forms in carnet 068 to the unaccented glossary canon
+- Continue the post-CON fablelous calque-hunt (resume point in the tracker `WORKPLAN-2026-09-25.md`)
+- Owner rulings still open on name spellings are listed in the carnet READMEs and `content/cz/TranslationMemory.md`
 
 ## How to Contribute
 
@@ -76,6 +69,7 @@ verify-carnet PASS on all 5; `just check-links-repo` 0 broken. Run report:
 
 ## Recent Activity
 
+- 2026-10-10: D-15 refresh: overview and summary recomputed from frontmatter flags (all 107 carnets, 4,275 entries, 100% conductor-approved)
 - 2026-06-07: Translated carnets 065–069 (145 entries, avg CON ~0.92), scaled-team run
 - 2026-06-07: Translated carnets 056–064 (130 entries, avg CON ~0.92), larger-team run
 - 2026-05-31: cz-050-055 wave + glossary link-health repairs

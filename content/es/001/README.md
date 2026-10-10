@@ -13,14 +13,15 @@ Spanish translation of carnet 001.
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Research    | 0 | 22 | — |
-| Annotation  | 0 | 22 | — |
-| Translation | 0 | 22 | — |
-| Gemini      | 0 | 22 | — |
-| Edited      | 0 | 22 | — |
-| Approved    | 0 | 22 | — |
+| Research | 22 | 22 | — |
+| Annotation | 21 | 22 | — |
+| Translation | 4 | 22 | — |
+| Edited | 4 | 22 | — |
+| Approved | 4 | 22 | — |
 
 ## TODOs
 
@@ -42,6 +43,9 @@ Spanish translation of carnet 001.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (4/22 translated, 4/22 editor-approved, 4/22 conductor-approved); retired Gemini row removed.
 
 ### 2026-09-05T11:06:06 @kerray
 Initialized carnet README for progress tracking.

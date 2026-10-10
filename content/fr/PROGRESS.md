@@ -1,6 +1,6 @@
 # French Modern Edition Progress
 
-<!-- Last updated: 2026-10-03 -->
+<!-- Last updated: 2026-10-10 (D-15: counts) -->
 <!-- Updated by: fr-edition agent (FRE+REV), session 2026-10-03 -->
 
 ## Overview
@@ -8,8 +8,8 @@
 | Metric | Value |
 |--------|-------|
 | **Total carnets** | 107 (000–106), all present in `content/fr/` |
-| **Entry files** | 4,274 |
-| **`edition_complete: true`** | 80 entries (003, 085, 087–091, 093, 097, 102); all others `false` |
+| **Entry files** | 4,275 |
+| **`edition_complete: true`** | 79 entry files (085, 087–091, 093, 097, 102); all others `false`. Carnet 003's README frontmatter also says `edition_complete: true` while its 33 entries are `false` (stale carnet-level flag) |
 | **`review_complete: true`** | 0 |
 | **Paragraphs rendering identically to `_original`** | ~54,500 of ~54,600, the rest differing only by translated foreign passages (site-loader check, 2026-10-03) |
 

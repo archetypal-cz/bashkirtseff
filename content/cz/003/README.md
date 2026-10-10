@@ -13,14 +13,15 @@ Czech translation of carnet 003.
 
 ## Status
 
+State as of 2026-10-10, counted from entry frontmatter flags.
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Research    | 0 | 33 | — |
-| Annotation  | 0 | 33 | — |
-| Translation | 0 | 33 | — |
-| Gemini      | 0 | 33 | — |
-| Edited      | 0 | 33 | — |
-| Approved    | 0 | 33 | — |
+| Research | 33 | 33 | — |
+| Annotation | 26 | 33 | — |
+| Translation | 33 | 33 | — |
+| Edited | 33 | 33 | — |
+| Approved | 33 | 33 | — |
 
 ## TODOs
 
@@ -42,6 +43,9 @@ Czech translation of carnet 003.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (33/33 translated, 33/33 editor-approved, 33/33 conductor-approved); retired Gemini row removed.
 
 ### 2026-02-04T10:50:28 @kerray
 Initialized carnet README for progress tracking.

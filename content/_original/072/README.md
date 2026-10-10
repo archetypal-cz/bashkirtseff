@@ -24,11 +24,13 @@ Carnet 072 of Marie Bashkirtseff's diary. A pivotal carnet spanning Nice and Par
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 34 | 34 | -- |
-| Research    | 34 | 34 | RSR |
-| Annotation  | 34 | 34 | LAN |
+| Research | 34 | 34 | RSR |
+| Annotation | 20 | 34 | LAN |
 
 **Note**: Entries 07-08 through 07-14 use OLD paragraph format `[//]: # (10.XXXX)` with `# Date` headers. These need restructuring to standard `%% 072.XXXX %%` format in a separate pass.
 
@@ -64,6 +66,9 @@ None -- all 34 entries have LAN annotations.
 - Entry 06-20 flagged as empty_in_source
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 34/34, annotation 20/34).
 
 ### 2026-02-04T10:50:24 @kerray
 Initialized carnet README for progress tracking.

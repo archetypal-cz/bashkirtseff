@@ -7,16 +7,18 @@
 Carnet 066 of Marie Bashkirtseff's diary.
 
 **Date range**: 1876-09-03 to 1876-10-08
-**Entry count**: 35
+**Entry count**: 39
 **Location(s)**: Gavronzi
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 35 | 35 | — |
-| Research    | 0 | 35 | — |
-| Annotation  | 0 | 35 | — |
+| Restructured | 39 | 39 | — |
+| Research | 39 | 39 | — |
+| Annotation | 14 | 39 | — |
 
 ## TODOs
 
@@ -45,6 +47,9 @@ Carnet 066 of Marie Bashkirtseff's diary.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 39/39, annotation 14/39).
 
 ### 2026-02-04T10:50:24 @kerray
 Initialized carnet README for progress tracking.

@@ -7,16 +7,18 @@
 Carnet 095 of Marie Bashkirtseff's diary.
 
 **Date range**: 1882-04-30 to 1882-07-31
-**Entry count**: 93
+**Entry count**: 92
 **Location(s)**: Paris
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 93 | 93 | — |
-| Research    | 0 | 93 | — |
-| Annotation  | 0 | 93 | — |
+| Restructured | 92 | 92 | — |
+| Research | 92 | 92 | — |
+| Annotation | 59 | 92 | — |
 
 ## TODOs
 
@@ -45,6 +47,9 @@ Carnet 095 of Marie Bashkirtseff's diary.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 92/92, annotation 59/92).
 
 ### 2026-02-10T12:00:00 @claude
 Removed entries 1882-04-27 and 1882-04-29 (moved to carnet 094). These entries belong to Tome 14, not Tome 15. Carnet now starts at 1882-04-30. Note: paragraph IDs 095.0001-095.0013 are now unused; remaining entries start at 095.0001.

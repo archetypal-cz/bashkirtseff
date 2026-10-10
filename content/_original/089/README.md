@@ -3,16 +3,18 @@
 ## Summary
 Carnet 089 of Marie Bashkirtseff's diary.
 **Date range**: 1880-06-20 to 1880-10-02
-**Entry count**: 101
+**Entry count**: 102
 **Paragraph count**: 687
 **Location(s)**: Paris, Mont-Dore
 
 ## Status
+
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
 | Phase        | Done | Total | Worker |
 |--------------|------|-------|--------|
-| Restructured | 101  | 101   | --     |
-| Research     | 101  | 101   | RSR    |
-| Annotation   | 101  | 101   | LAN    |
+| Restructured | 102 | 102 | -- |
+| Research | 102 | 102 | RSR |
+| Annotation | 99 | 102 | LAN |
 
 ## Notes
 Original notebook held at Bibliotheque de Cessole, Nice (not BnF).
@@ -34,3 +36,4 @@ Linguistic annotation phase complete (LAN). All substantive entries annotated.
 
 ### 2026-02-09T12:00:00
 Created from tome13.docx raw extraction. 101 entries, 687 paragraphs. OCR cleanup performed: page numbers removed, broken words joined across page boundaries, spacing artifacts in dates/numbers fixed.
+- 2026-10-10: D-15: status table refreshed from entry frontmatter (research 102/102, annotation 99/102).

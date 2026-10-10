@@ -25,11 +25,13 @@ Carnet 073 of Marie Bashkirtseff's diary. A Paris carnet dominated by Italy obse
 
 ## Status
 
+State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter (Annotation counts entries with `linguistic_annotation_complete: true`; entries needing no LAN notes may carry no flag).
+
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 36 | 36 | -- |
-| Research    | 36 | 36 | RSR |
-| Annotation  | 36 | 36 | LAN |
+| Research | 36 | 36 | RSR |
+| Annotation | 19 | 36 | LAN |
 
 **Note**: All 36 entries use the standard `%% 073.XXXX %%` paragraph format. (A stale note here previously claimed they still used the old `[//]: # (10.XXXX)` format and needed restructuring — corrected 2026-06-10; the restructuring pass had already been completed.)
 
@@ -62,6 +64,9 @@ None -- all 36 entries have LAN annotations.
 - Entries 07-19 and 08-05 flagged as empty_in_source
 
 ## Changelog
+
+### 2026-10-10T12:00:00 ED
+D-15: status table refreshed from entry frontmatter (research 36/36, annotation 19/36).
 
 ### 2026-02-04T10:50:24 @kerray
 Initialized carnet README for progress tracking.

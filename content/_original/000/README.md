@@ -5,17 +5,17 @@
 This "book" is Marie Bashkirtseff's **retrospective preface** written in **May 1884**, approximately five months before her death. It is **one continuous text**, not daily diary entries.
 
 The files are **arbitrarily split into segments** for workflow convenience:
-- `1884-05-01.md` / `1884-05-01-01.md` → Part 1 (paras 00.01-00.05)
-- `1884-05-02.md` / `1884-05-01-02.md` → Part 2 (paras 00.06-00.10)
-- etc.
+- `000-01.md` → Part 1
+- `000-02.md` → Part 2
+- etc. (ten parts, `000-01.md` to `000-10.md`)
 
-The duplicate naming (`1884-05-0X.md` vs `1884-05-01-0X.md`) exists for historical reasons. Both contain identical content.
+_Updated 2026-10-10 (D-15): the earlier dated names (`1884-05-0X.md`) and their duplicates no longer exist in the tree._
 
 ## Translation Output
 
 Czech translations use numbered parts (not fake dates):
-- `cz/00/00-01.md` → Part 1
-- `cz/00/00-02.md` → Part 2
+- `cz/000/000-01.md` → Part 1
+- `cz/000/000-02.md` → Part 2
 - etc.
 
 ## Rendering
