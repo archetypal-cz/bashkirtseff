@@ -589,9 +589,9 @@ They need AI translation into French.
 - **021/1874-07-16.md** para 021.0318 [RUSSIAN]: %% 2026-01-30T13:10:15 LAN: RUSSIAN: "*si bon*" - Marie notes Russian expresses this better; code-switch marker %%
 - **021/1874-07-17.md** para 021.0363 [ENGLISH]: %% 2026-01-30T13:10:38 LAN: ENGLISH "roast-beef" - English term kept in French, fashionable anglicism %%
 - **021/1874-07-17.md** para 021.0369 [RUSSIAN]: %% 2026-01-30T13:10:47 LAN: RUSSIAN "Douchenka" - diminutive of "dusha" (soul), term of endearment meaning "little soul/darling" %%
-- **021/1874-07-22.md** para 021.0475 [RUSSIAN]: %% 2026-01-30T13:11:38 LAN: RUSSIAN "Douchenka" - little soul/darling; Gericke uses Marie's Russian nickname %%
-- **021/1874-07-22.md** para 021.0492 [RUSSIAN]: %% 2026-01-30T13:11:44 LAN: RUSSIAN "moujik" - peasant; mother's contemptuous comparison %%
-- **021/1874-07-23.md** para 021.0558 [ENGLISH]: %% 2026-01-30T13:12:10 LAN: ENGLISH "However" - code-switch to English for transition/emphasis %%
+- **021/1874-07-22.md** para 021.0481 [RUSSIAN]: %% 2026-01-30T13:11:38 LAN: RUSSIAN "Douchenka" - little soul/darling; Gericke uses Marie's Russian nickname %%
+- **021/1874-07-22.md** para 021.0498 [RUSSIAN]: %% 2026-01-30T13:11:44 LAN: RUSSIAN "moujik" - peasant; mother's contemptuous comparison %%
+- **021/1874-07-23.md** para 021.0564 [ENGLISH]: %% 2026-01-30T13:12:10 LAN: ENGLISH "However" - code-switch to English for transition/emphasis %%
 - **021/1874-07-23.md** para withdrawn in the 2026-09 rebuild (old carnet 021 ¶0517; see content/_renumber/021-2026-09-28.json) [ENGLISH]: %% 2026-01-30T13:12:13 LAN: ENGLISH "H.G.t.D.o.H." - His Grace the Duke of Hamilton; Marie's secret code %%
 - **022/1874-07-26.md** para 022.0111 [ENGLISH]: %% 2026-01-30T13:12:41 LAN: ENGLISH "That is the question" - Shakespeare's Hamlet; literary code-switch %%
 - **022/1874-07-26.md** para 022.0111 [ITALIAN]: %% 2026-01-30T13:12:42 LAN: ITALIAN "crescendo" - musical term; growing, increasing intensity %%
@@ -915,10 +915,10 @@ They need AI translation into French.
 - **037/1875-07-17.md** para 037.0206 [RUSSIAN]: %% 2026-01-30T17:00:00 LAN: RUSSIAN proverb "La faux rencontre la pierre" - the scythe meets the stone; when equals clash %%
 - **037/1875-07-18.md** para 037.0253 [RUSSIAN]: %% 2026-01-30T17:00:00 LAN: RUSSIAN - Marie notes she speaks Russian with family; "rosse" = to thrash/beat %%
 - **037/1875-07-18.md** para 037.0255 [ITALIAN]: %% 2026-01-30T17:00:00 LAN: ITALIAN "partenza del facchino di Nizza" - departure of the porter of Nice; contemptuous reference to Audiffret %%
-- **037/1875-07-31.md** para 037.0529 [LATIN]: %% 2026-01-30T17:10:00 LAN: LATIN: "Quid evenit?" = What happened? / What has come to pass? %%
-- **037/1875-07-31.md** para 037.0530 [LATIN]: %% 2026-01-30T17:10:00 LAN: LATIN: "Amor et spes qui sunt contraria semper nos agitant. Sumus juvenes et audaces." = Love and hope, which are opposites, always agitate us. We are young and bold. %%
-- **037/1875-07-31.md** para 037.0531 [LATIN]: %% 2026-01-30T17:10:00 LAN: LATIN: Dies Irae quotation - "lacrimosa dies illa. Qua resurget ex favilla" = Tearful that day, when from the ashes rises... (Catholic requiem hymn) %%
-- **037/1875-07-31.md** para 037.0532 [LATIN]: %% 2026-01-30T17:10:00 LAN: LATIN: Dies Irae continued - "Judicandus homo reus... pie ergo parce, Deus" = guilty man to be judged... spare me therefore, merciful God %%
+- **037/1875-07-31.md** para 037.0530 [LATIN]: %% 2026-01-30T17:10:00 LAN: LATIN: "Quid evenit?" = What happened? / What has come to pass? %%
+- **037/1875-07-31.md** para 037.0531 [LATIN]: %% 2026-01-30T17:10:00 LAN: LATIN: "Amor et spes qui sunt contraria semper nos agitant. Sumus juvenes et audaces." = Love and hope, which are opposites, always agitate us. We are young and bold. %%
+- **037/1875-07-31.md** para 037.0532 [LATIN]: %% 2026-01-30T17:10:00 LAN: LATIN: Dies Irae quotation - "lacrimosa dies illa. Qua resurget ex favilla" = Tearful that day, when from the ashes rises... (Catholic requiem hymn) %%
+- **037/1875-07-31.md** para 037.0533 [LATIN]: %% 2026-01-30T17:10:00 LAN: LATIN: Dies Irae continued - "Judicandus homo reus... pie ergo parce, Deus" = guilty man to be judged... spare me therefore, merciful God %%
 - **038/1875-08-03.md** para 038.0051 [RUSSIAN]: %% 2026-01-30T17:10:00 LAN: RUSSIAN: "Moussia" - Russian diminutive of Marie, family nickname %%
 - **038/1875-08-03.md** para 038.0066 [ENGLISH]: %% 2026-01-30T17:10:00 LAN: ENGLISH: "These are the questions" - code-switching for dramatic effect %%
 - **038/1875-08-03.md** para 038.0095 [LATIN]: %% 2026-01-30T17:10:00 LAN: LATIN: "Miserere" - Have mercy! (from Psalm 51, liturgical) %%
