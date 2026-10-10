@@ -15,8 +15,8 @@ work:
   year: "1876"
   status: public
   location: "Musée des Beaux-Arts Jules Chéret, Nice"
-research_status: Basic
-last_updated: 2026-08-13
+research_status: Moderate
+last_updated: 2026-10-10
 images:
   - src: /images/marie/works/portrait-paul.jpg
     caption: Portrait de son frère Paul (1876), oil, Musée des Beaux-Arts Jules Chéret, Nice
@@ -45,19 +45,22 @@ Oil; dimensions not published by the museum. The best available reproduction is 
 ## Making of the Work
 
 %% GLO_PORTRAIT_PAUL.0007 %%
-**The diary does not corroborate the 1876 date, and this should be said plainly.** A full sweep of carnets 060–075 — which covers May 1876 to 31 October 1877, exactly the period in question — found **no mention anywhere of Marie painting or drawing her brother**. Paul appears constantly in carnet 066 (Poltava, September 1876), but the material there concerns a quarrel over a photograph album (¶¶ 065.0376–065.0385), not painting.
+**The diary does corroborate the 1876 date.** An earlier sweep of carnets 060–075 reported no mention of Marie painting her brother; that was wrong. In the Poltava countryside in the late summer of 1876 (the family's estate at Gavronzi, near Poltava) she writes on **26 August 1876** that she has quickly sketched two portraits, "mon père et Paul. Cela a duré trente-cinq minutes" (¶ 065.0503), and on **8 September 1876** (¶ 066.0097): "Si je réussis le portrait de Paul ce sera miracle car il ne pose pas et aujourd'hui j'ai travaillé pendant quinze minutes seule, seule pas tout à fait car j'avais en face de moi Michel qui ose être amoureux de moi." A sitter who will not pose, fifteen minutes of work, a doubtful result: this is the portrait of the brother, in the right year and the right place. The diary does not say that it was finished, and the later paragraphs of carnet 066 do not mention it again.
 
 %% GLO_PORTRAIT_PAUL.0008 %%
-That silence is worth weighing. In these years Marie records her drawing and painting in obsessive detail — the Collignon portrait, the caricatures of Melissano, the portrait of her grandmother, the card players, the *Mirage* cartoon — so a finished oil portrait of her own brother going unmentioned is unexpected. Either the museum's date is wrong, or the picture belongs to a stretch of days the diary passes over, or it was made somewhere the diary does not follow her.
+That makes the museum's date plausible, though the match between the diary's attempt and the Nice picture is an inference: Marie only says she is trying, and the Nice file is attributed to 1876 on the Commons description alone. The works that sit around it are the [Collignon portrait](./PORTRAIT_COLLIGNON.md) of June 1876 and the portrait of her grandmother of June 1877 ([Portrait de grand-maman](./PORTRAIT_GRAND_MAMAN.md)).
 
 %% GLO_PORTRAIT_PAUL.0009 %%
-The one direct diary reference to a portrait of a Paul comes three years later: **17 February 1879**, "L'après-midi je fais le portrait de Paul" (¶ 084.0240) — a bald single line with no follow-up anywhere in carnet 084. **This is not certainly the same sitter**: the paragraph is tagged in the source to `PAUL_FRERE`, and the researcher's own note on it hedges between the brother and a cousin, Paul Babanine. It documents a second, 1879 sitting, not the 1876 canvas.
+A second reference comes three years later: **17 February 1879**, "L'après-midi je fais le portrait de Paul" (¶ 084.0240) — a bald single line with no follow-up anywhere in carnet 084. **This is not certainly the same sitter**: the paragraph is tagged in the source to `PAUL_FRERE`, and the researcher's own note on it hedges between the brother and a cousin, Paul Babanine. It documents a second, 1879 sitting, not the 1876 canvas. (The footnote at 084.0240 says it is "the only occasion on which the diary records Marie painting a Paul"; with ¶¶ 065.0503 and 066.0097 that statement is no longer correct and needs fixing in every tree.)
+
+Not this work: ¶ 079.0510 (22 April 1878), "faire le portrait de Paul de Cassagnac", concerns the journalist and politician Paul de Cassagnac, not her brother.
 
 %% GLO_PORTRAIT_PAUL.0010 %%
 ## References in Diary
 
 %% GLO_PORTRAIT_PAUL.0011 %%
-- **No mention of this painting has been found.** Carnets 060–075 (May 1876 – October 1877), the range in which an 1876 portrait would fall, contain nothing about painting Paul.
+- **1876-08-26, ¶ 065.0503** — two quick sketches, her father and Paul, in thirty-five minutes (Gavronzi).
+- **1876-09-08, ¶ 066.0097** — "Si je réussis le portrait de Paul ce sera miracle car il ne pose pas".
 - **1879-02-17, ¶ 084.0240** — "L'après-midi je fais le portrait de Paul." A separate, later sitting; the sitter's identity is not fully secure.
 
 %% GLO_PORTRAIT_PAUL.0012 %%
@@ -80,3 +83,4 @@ The one direct diary reference to a portrait of a Paul comes three years later: 
 
 %% GLO_PORTRAIT_PAUL.0016 %%
 %% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.13) and the carnets 060–075 and 076–086 mention maps. Research status Basic: the museum publishes no dimensions and no object record for this painting, so the 1876 date rests on the Commons file's own attribution. The negative finding is stated on purpose — the 060–075 sweep explicitly flagged "Portrait de Paul (frère, 1876) — NOT FOUND" and recommended it be raised with the catalogue team; suppressing that would have made the entry look better sourced than it is. 084.0240 is verified against content/_original/084/1879-02-17.md, including the PAUL_FRERE tag and the hedged RSR note that leaves the sitter between the brother and a cousin. Image: Commons file at 821x1000 px, published at native size (below this project's preferred resolution but above the 800 px floor). %%
+%% 2026-10-10T21:00:00 RSR: Corrected in the works-glossary wave (batch 10). The earlier negative finding ('no mention in carnets 060-075') is wrong: 065.0503 (1876-08-26, sketches of father and Paul) and 066.0097 (1876-09-08, portrait of Paul, he will not pose) are in the range. Both verified against content/_original/065/1876-08-26.md and 066/1876-09-08.md. 079.0510 is Paul de Cassagnac. The footnote at 084.0240 (and its translations) still says this is the only recorded occasion and must be corrected by the lead in every tree. %%

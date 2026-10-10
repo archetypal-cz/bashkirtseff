@@ -1,0 +1,182 @@
+[
+ {
+  "wid": "W028",
+  "title": "Hernani",
+  "entry": "content/_original/_glossary/culture/theater/HERNANI.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Performer in 1874 is Vicomtesse Vigier, venue inferred (Cercle de la Méditerranée). 093.0080 is Biarritz 1881 (inventory said Bordeaux)."
+ },
+ {
+  "wid": "W032",
+  "title": "Hérodiade",
+  "entry": "content/_original/_glossary/culture/theater/HERODIADE_MASSENET.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Venue Salle Ventadour not cited, omitted."
+ },
+ {
+  "wid": "W043",
+  "title": "La Favorite",
+  "entry": "content/_original/_glossary/culture/theater/LA_FAVORITE_DONIZETTI.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LA_FAVORITE.md",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "085.0087 'comme dans la Favorite' allusion unidentified; Pasqua identification inferred."
+ },
+ {
+  "wid": "W050",
+  "title": "La Tour de Nesle",
+  "entry": "content/_original/_glossary/culture/theater/LA_TOUR_DE_NESLE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/TOUR_DE_NESLE.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "076.0056 'capitaine Tour de Nesle' is not the play. 1832 first edition not online; 1838 edition linked."
+ },
+ {
+  "wid": "W055",
+  "title": "Faust (Goethe)",
+  "entry": "content/_original/_glossary/culture/theater/FAUST_GOETHE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 4,
+  "doubts": "064.0003 is Gounod's opera; existing theater/FAUST.md is the opera tag and needs its own FAUST_GOUNOD entry. Gretchen (074.0370, 074.0379, 075.0305) is Gabriel von Max's painting, needs an art entry; GRETCHEN stub in people/mentioned."
+ },
+ {
+  "wid": "W060",
+  "title": "Un ballo in maschera",
+  "entry": "content/_original/_glossary/culture/music/BALLO_IN_MASCHERA.md",
+  "action": "enriched",
+  "supersedes": "content/_original/_glossary/places/theaters/UN_BALLO_IN_MASCHERA.md (duplicate to merge)",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "067.1403 does not mention the opera (false hit)."
+ },
+ {
+  "wid": "W061",
+  "title": "La Périchole",
+  "entry": "content/_original/_glossary/culture/theater/LA_PERICHOLE_OFFENBACH.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LA_PERICHOLE.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "1874 Variétés viewing matches 25 Apr 1874 revival."
+ },
+ {
+  "wid": "W062",
+  "title": "Le Sphinx",
+  "entry": "content/_original/_glossary/culture/theater/LE_SPHINX.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Premiere day unverified (March 1874); French text link is an 1898 printing; Marie's 'six years ago' unmatched."
+ },
+ {
+  "wid": "W065",
+  "title": "Alice de Nevers",
+  "entry": "content/_original/_glossary/culture/theater/ALICE_DE_NEVERS.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Attribution conflict resolved: Hervé wrote words and music; RSR note at 048.0059 (Boulard) is wrong and should be fixed in the diary file."
+ },
+ {
+  "wid": "W066",
+  "title": "Rigoletto",
+  "entry": "content/_original/_glossary/culture/music/RIGOLETTO.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "070.0610 is a racehorse, correctly excluded."
+ },
+ {
+  "wid": "W076",
+  "title": "Le Barbier de Séville (Rossini)",
+  "entry": "content/_original/_glossary/culture/music/BARBIER_DE_SEVILLE.md",
+  "action": "enriched",
+  "supersedes": "content/_original/_glossary/culture/theater/BARBER_OF_SEVILLE.md (duplicate to merge)",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "054.0082 (Rosine) refers to Beaumarchais's comedy, not the opera; a Beaumarchais play entry may be needed. 'théâtre Frondo' (Naples) probably Teatro del Fondo."
+ },
+ {
+  "wid": "W078",
+  "title": "La Sonnambula",
+  "entry": "content/_original/_glossary/culture/theater/LA_SONNAMBULA.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "001.0096: unclear whether Vigier sings; no separate Dormi pure entry made."
+ },
+ {
+  "wid": "W100",
+  "title": "Les Huguenots",
+  "entry": "content/_original/_glossary/culture/theater/LES_HUGUENOTS_MEYERBEER.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LES_HUGUENOTS.md",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Bare alias 'Huguenots' not claimed (religious group HUGUENOTS exists)."
+ },
+ {
+  "wid": "W102",
+  "title": "Mignon",
+  "entry": "content/_original/_glossary/culture/theater/MIGNON.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Stub confirmed as the opera; tag also covers Mignon-as-role/costume/song (24 files)."
+ },
+ {
+  "wid": "W103",
+  "title": "La Jolie Parfumeuse",
+  "entry": "content/_original/_glossary/culture/theater/LA_JOLIE_PARFUMEUSE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Judic (023.0086) identification inferred."
+ },
+ {
+  "wid": "W104",
+  "title": "Cendrillon",
+  "entry": "content/_original/_glossary/culture/theater/CENDRILLON.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Two different productions merged by inventory: Nice 1873-03-28 (unidentified) and Renz circus pantomime Vienna 1873-08-14; lead may split."
+ },
+ {
+  "wid": "W105",
+  "title": "Le Changement de mains",
+  "entry": "content/_original/_glossary/culture/theater/LE_CHANGEMENT_DE_MAINS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Play unidentified (author, date, text)."
+ },
+ {
+  "wid": "W107",
+  "title": "La Juive",
+  "entry": "content/_original/_glossary/culture/theater/LA_JUIVE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "'la Strauss' probably Gabrielle Krauss (not Adelina Strauss as in RSR note); alias limited to full title because of 'robe juive'."
+ }
+]

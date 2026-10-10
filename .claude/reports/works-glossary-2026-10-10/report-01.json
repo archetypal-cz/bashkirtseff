@@ -1,0 +1,182 @@
+[
+ {
+  "wid": "W001",
+  "title": "Mignon",
+  "entry": "content/_original/_glossary/culture/theater/MIGNON.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "doubts": "Entry was already enriched by batch 02; this batch added a Nice 1874-77 section and the libretto link. Duplicate stub people/mentioned/MIGNON.md remains. Goethe's poem and Marie's parody are separate (batches 02/09/10)."
+ },
+ {
+  "wid": "W002",
+  "title": "Giroflé-Girofla",
+  "entry": "content/_original/_glossary/culture/theater/GIROFLE_GIROFLA.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "084.0270 ('la tour de ce pauvre Girofla qui est en Chine') and 088.0153 ('à Giroflé-Girofla') unresolved; most 'Girofla' hits are the Audiffret nickname, not the operetta."
+ },
+ {
+  "wid": "W003",
+  "title": "Faust (opéra)",
+  "entry": "content/_original/_glossary/culture/theater/FAUST.md",
+  "action": "enriched",
+  "supersedes": "content/_original/_glossary/people/mentioned/FAUST.md",
+  "images": 0,
+  "full_text": 3,
+  "doubts": "053.0423 says Vigier sings 'le rôle de Marguerite' (slip); the format of the Cercle performance (staged or concert) is unknown; 068.0701 and 074.0186 are non-opera uses."
+ },
+ {
+  "wid": "W004",
+  "title": "Le Procès Veauradieux",
+  "entry": "content/_original/_glossary/culture/theater/LE_PROCES_VEAURADIEUX.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "No free full text found (Gallica, IA, Wikisource). Chronology conflict: 040.0150 (29 Aug 1875, Vaudeville) vs 041.0135 (4 Sep, asks if she may see it) vs 048.0086 (26 Oct, says it was forbidden). Earlier entry said first seen in Nice in autumn: corrected."
+ },
+ {
+  "wid": "W005",
+  "title": "Paul et Virginie (opéra-comique)",
+  "entry": "content/_original/_glossary/culture/theater/PAUL_ET_VIRGINIE_MASSE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Novel mentions split out (stay in literature/PAUL_ET_VIRGINIE.md, which also holds a short Massé section to trim). Footnote 091.0142 says the premiere was at the Opéra-Comique; IMSLP and BnF say Théâtre Lyrique/Gaîté (needs correction in all trees). 075.0361 city unknown."
+ },
+ {
+  "wid": "W007",
+  "title": "Aïda",
+  "entry": "content/_original/_glossary/culture/theater/AIDA_VERDI.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/AIDA.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "069.0224 'première représentation' at Naples is Marie's wording for a season first night; 068.0408 frontmatter location Nice vs Rome-made shoes. 070.0122 is a racehorse (excluded)."
+ },
+ {
+  "wid": "W008",
+  "title": "Ruy Blas (opera)",
+  "entry": "content/_original/_glossary/culture/theater/RUY_BLAS_MARCHETTI.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/RUY_BLAS.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Hugo's play passages (087.0893, 095.0318, 103.0416; 096.0257 is a bookshelf list) belong to the Hugo entry. 084.0650: mother cites the opera. 'Nelly' in 002.0135 unidentified. Existing tag [#Ruy_Blas] in 084.0650 points to the stub."
+ },
+ {
+  "wid": "W010",
+  "title": "La Belle Hélène",
+  "entry": "content/_original/_glossary/culture/theater/BELLE_HELENE.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "067.1040 and 067.1112 are context only."
+ },
+ {
+  "wid": "W012",
+  "title": "La Fille de Madame Angot",
+  "entry": "content/_original/_glossary/culture/theater/LA_FILLE_DE_MADAME_ANGOT.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/ANGOT.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Verified ANGOT.md is this operetta. 029.0113 venue not stated; 014.0173 is a hat style; 070.0121 racehorse excluded."
+ },
+ {
+  "wid": "W013",
+  "title": "Madame l'Archiduc",
+  "entry": "content/_original/_glossary/culture/theater/MADAME_LARCHIDUC.md",
+  "action": "enriched",
+  "supersedes": "content/_original/_glossary/people/aristocracy/MADAME_LARCHIDUC.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "LAN note on 031.0018 wrongly names La Grande-Duchesse de Gérolstein (letter is to the Prince of Wales, Archduke Ernest is this operetta). 080.0427-0428 are real archdukes (excluded)."
+ },
+ {
+  "wid": "W014",
+  "title": "La Traviata",
+  "entry": "content/_original/_glossary/culture/theater/LA_TRAVIATA_VERDI.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LA_TRAVIATA.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "First hearing is Naples 20 Apr 1876 (not Rome as inventory said). Nickname 'la Traviata' for La Righi (059.0192, 059.0445, 068.1505) is not the opera."
+ },
+ {
+  "wid": "W015",
+  "title": "Il Barbiere di Siviglia",
+  "entry": "content/_original/_glossary/culture/music/BARBIER_DE_SEVILLE.md",
+  "action": "enriched",
+  "supersedes": "content/_original/_glossary/culture/theater/BARBER_OF_SEVILLE.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Entry created by batch 02; this batch added the Nice 1874-75 section. Duplicate theater/BARBER_OF_SEVILLE.md remains. 027.0073 and 050.0681 are the surname Barbier. 050.0756 'Il segreto' not verified."
+ },
+ {
+  "wid": "W018",
+  "title": "Il Trovatore",
+  "entry": "content/_original/_glossary/culture/theater/IL_TROVATORE_VERDI.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/IL_TROVATORE.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "028.0090 'O rabbia, O vendetta' not assignable."
+ },
+ {
+  "wid": "W020",
+  "title": "Orphée aux enfers",
+  "entry": "content/_original/_glossary/culture/theater/ORPHEE_AUX_ENFERS.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "021.0278 is Dina's 'chapeau Orphée' (not the operetta)."
+ },
+ {
+  "wid": "W022",
+  "title": "Lucia di Lammermoor",
+  "entry": "content/_original/_glossary/culture/theater/LUCIA_DI_LAMMERMOOR.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LUCIE_DE_LAMMERMOOR.md",
+  "images": 0,
+  "full_text": 3,
+  "doubts": "Check people/mentioned/LUCIE.md too (not examined). Premiere year/venue from general knowledge."
+ },
+ {
+  "wid": "W025",
+  "title": "Sapho",
+  "entry": "content/_original/_glossary/culture/theater/SAPHO_OPERA.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/SAPHO.md",
+  "images": 0,
+  "full_text": 4,
+  "doubts": "UNRESOLVED: Gounod's Sapho (1851) or Pacini's Saffo (1840). Both libretti/scores linked. 104.0626 and 104.0736 are Daudet's novel (excluded)."
+ },
+ {
+  "wid": "W026",
+  "title": "Hamlet",
+  "entry": "content/_original/_glossary/culture/theater/HAMLET_THOMAS.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Entry from batch 03; this batch added 007.0391 (Vienna, 10 Aug 1873). 054.0298, 055.0685, 057.0212, 063.0327, 066.0731, 073.0010 are the Shakespeare character/quote, not the opera."
+ },
+ {
+  "wid": "W027",
+  "title": "Bagatelle",
+  "entry": "content/_original/_glossary/culture/theater/BAGATELLE_OFFENBACH.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "places/parks/BAGATELLE.md is the Parc de Bagatelle; the dog mentions (027.0251, 042.0057, 043.0248, 068.0712) are Marie's dog (people/mentioned/BAGATELLE_DOG.md)."
+ }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "wid": "W006",
+  "title": "La Divine Comédie",
+  "entry": "content/_original/_glossary/culture/literature/LA_DIVINE_COMEDIE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/DANTE.md (author stub; keep as person)",
+  "images": 0,
+  "full_text": 3,
+  "doubts": "Duplicate DIVINA_COMMEDIA.md (written by batch 06) is absorbed in content; lead to merge/delete it. Footnote 071.0615 (fn 36) cites Inf. V ll. 35-36, should be 50-51. Alias 'Dante' also matches the author stub."
+ },
+ {
+  "wid": "W017",
+  "title": "Ab Urbe condita (Tite-Live)",
+  "entry": "content/_original/_glossary/culture/literature/AB_URBE_CONDITA.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/TITE_LIVE.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Language of Marie's copy unknown (LAN note 081.0395 'reads in Latin' is an assumption)."
+ },
+ {
+  "wid": "W019",
+  "title": "Parallel Lives (Plutarch)",
+  "entry": "content/_original/_glossary/culture/literature/PARALLEL_LIVES.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/PLUTARQUE.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Split: 055.0060-0072/0099/0884-0885 are the Moralia (De sera numinis vindicta; Table-Talk) -> PLUTARCH_MORALIA. Duplicate VIES_PARALLELES.md (batch 05) to merge into the pair."
+ },
+ {
+  "wid": "W019b",
+  "title": "Plutarch, Moralia (split from W019)",
+  "entry": "content/_original/_glossary/culture/literature/PLUTARCH_MORALIA.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Identification of 055.0060-0072 as De sera numinis vindicta checked against Goodwin's English (Gutenberg 79588); no French text online on Wikisource."
+ },
+ {
+  "wid": "W023",
+  "title": "Vingt ans après",
+  "entry": "content/_original/_glossary/culture/literature/VINGT_ANS_APRES_DUMAS.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/VINGT_ANS_APRES.md",
+  "images": 0,
+  "full_text": 1,
+  "doubts": ""
+ },
+ {
+  "wid": "W024",
+  "title": "Corinne ou l'Italie",
+  "entry": "content/_original/_glossary/culture/literature/CORINNE_OU_L_ITALIE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Batch 05 overwrote my first version with a shorter one (074.0332 mention); I merged both. Footnote at 063.0006/067.0155 sentence 'pont Saint-Ange' not found verbatim in Wikisource text. 073.0015 and 074.0246 are De l'Allemagne, not Corinne."
+ },
+ {
+  "wid": "W029",
+  "title": "Le Vicomte de Bragelonne",
+  "entry": "content/_original/_glossary/culture/literature/BRAGELONNE.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": ""
+ },
+ {
+  "wid": "W034",
+  "title": "Joseph Balsamo",
+  "entry": "content/_original/_glossary/culture/literature/JOSEPH_BALSAMO_DUMAS.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/JOSEPH_BALSAMO.md and people/mentioned/BALSAMO.md",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Play created at the Odéon 18 Mar 1878 (Dumas pere and fils; fr.wikipedia); cast/run not verified. Figurative Balsamo (Cassagnac) paragraphs 077.0353/0357/0388, 080.0252 are a type, not the work. 080.0252 'la Marie de Cassagnac' not identified."
+ },
+ {
+  "wid": "W035",
+  "title": "Les Trois Mousquetaires",
+  "entry": "content/_original/_glossary/culture/literature/LES_TROIS_MOUSQUETAIRES_DUMAS.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LES_TROIS_MOUSQUETAIRES.md, LES_MOUSQUETAIRES.md (and LES_MOUSQUETAIRES_DE_LA_REINE.md per batch 06)",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Same ID was written by batch 06 at 20:55 (Buckingham mentions 033.0042, 038.0152); I merged their content into mine."
+ },
+ {
+  "wid": "W036",
+  "title": "Orlando furioso",
+  "entry": "content/_original/_glossary/culture/literature/ORLANDO_FURIOSO.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "doubts": "Existing footnote 055.0256 says Canto I stanza 43; the rose couplet is stanza 42 (it.wikisource). 055.0555 in the inventory is not an Ariosto mention."
+ },
+ {
+  "wid": "W037",
+  "title": "La vraie clef des songes",
+  "entry": "content/_original/_glossary/culture/literature/CLEF_DES_SONGES.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LA_VRAIE_CLEF_DES_SONGES.md",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Edition/author not identifiable; the full_text link is an 1867 dream book of the same genre, labelled as such."
+ },
+ {
+  "wid": "W040",
+  "title": "Le Nabab",
+  "entry": "content/_original/_glossary/culture/literature/LE_NABAB_DAUDET.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LE_NABAB.md",
+  "images": 0,
+  "full_text": 3,
+  "doubts": "Covers novel (1877) and the Vaudeville play (30 Jan 1880), 087.0411-0412 is the play."
+ },
+ {
+  "wid": "W041+W045",
+  "title": "Iliad (two inventory rows)",
+  "entry": "content/_original/_glossary/culture/literature/ILIAD.md",
+  "action": "enriched",
+  "supersedes": "content/_original/_glossary/culture/literature/HOMER_ILIAD.md (duplicate, to merge)",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Footnote 073.0487 says Hecuba watches Troy burn in the Iliad: wrong (sack of Troy is Aeneid II / Euripides; Marie's own text unchanged). 073.0498 'Gioia' not identified (not linked). Batch 05 W098 also lists the Iliad/Odyssey; check for overlap."
+ },
+ {
+  "wid": "W046",
+  "title": "Les Courtisanes du monde",
+  "entry": "content/_original/_glossary/culture/literature/COURTISANES_DU_MONDE.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 4,
+  "doubts": "Verified in Gallica scan of t.2 that the Parisis/Hamilton sentence exists. 008.0116 is generic 'courtisanes'."
+ },
+ {
+  "wid": "W047",
+  "title": "Les Femmes célèbres",
+  "entry": "content/_original/_glossary/culture/literature/GALERIE_DE_FEMMES_CELEBRES.md",
+  "action": "new",
+  "supersedes": "none (inventory pointed at LARCHER.md, which is the companion book 'La femme')",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Identification probable (~0.7): Sainte-Beuve, Galerie de femmes célèbres (Garnier), which contains the Récamier essay. 030.0368 and 039.0115 are not the book."
+ },
+ {
+  "wid": "W052",
+  "title": "La Dame aux camélias",
+  "entry": "content/_original/_glossary/culture/literature/LA_DAME_AUX_CAMELIAS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "084.0116: which preface of Dumas fils unclear."
+ },
+ {
+  "wid": "W053",
+  "title": "Mademoiselle Mori",
+  "entry": "content/_original/_glossary/culture/literature/MADEMOISELLE_MORI.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Identified with high confidence as Margaret Roberts, Mademoiselle Mori: a tale of modern Rome (1860); checked against the text on archive.org (Irene, Leone, Mrs Dalzell, Count/Monsignore Clementi, 'Pietrucchio'). Footnote 062.0546 can be updated."
+ },
+ {
+  "wid": "W054",
+  "title": "Gogol on Rome",
+  "entry": "content/_original/_glossary/culture/literature/ROME_GOGOL.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "066.0577 (Dikanka) is not about Rome. No French translation by Marie survives in the diary."
+ }
+]

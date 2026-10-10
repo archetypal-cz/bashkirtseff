@@ -1,0 +1,142 @@
+[
+ {
+  "wid": "W031",
+  "title": "Messa da Requiem (Verdi)",
+  "entry": "content/_original/_glossary/culture/music/MESSA_DA_REQUIEM_VERDI.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LA_MESSE_DE_VERDI.md",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "W031 and W044 are the same work; merged in one entry. 065.0317 Lacrymosa could be Mozart (LAN hedges); 'comme à Rome' suggests Verdi. Mozart Lacrimosa on Naples programme excluded."
+ },
+ {
+  "wid": "W044",
+  "title": "Messa da Requiem",
+  "entry": "content/_original/_glossary/culture/music/MESSA_DA_REQUIEM_VERDI.md",
+  "action": "new (same entry as W031)",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Duplicate of W031; Paris June 1874, 7 Opera-Comique performances per Wikipedia."
+ },
+ {
+  "wid": "W039",
+  "title": "Connais-tu le pays (Mignon)",
+  "entry": "content/_original/_glossary/culture/music/CONNAIS_TU_LE_PAYS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Prayer of the Madonna (056.0471) is another number of Mignon; not separately identified. Italian words in 062.0547 'likely Italian version' per footnote, unverified."
+ },
+ {
+  "wid": "W051",
+  "title": "Stabat Mater (Pergolesi)",
+  "entry": "content/_original/_glossary/culture/music/STABAT_MATER_PERGOLESI.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/PERGOLESE.md (stub filed as person; composer has no separate entry)",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Sections sung not stated."
+ },
+ {
+  "wid": "W057",
+  "title": "On dit que l'on te marie",
+  "entry": "content/_original/_glossary/culture/music/ON_DIT_QUE_L_ON_TE_MARIE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Identified as French version (P. Bernard) of Iradier's Ay Chiquita via a single Nabokov Society list post quoting the lyrics; imprint/translator unconfirmed. No PD full-text link verified."
+ },
+ {
+  "wid": "W067",
+  "title": "Malbrough s'en va-t-en guerre",
+  "entry": "content/_original/_glossary/culture/music/MALBROUGH_S_EN_VA_T_EN_GUERRE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": null
+ },
+ {
+  "wid": "W079",
+  "title": "Piano Concerto No. 1 in G minor",
+  "entry": "content/_original/_glossary/culture/music/MENDELSSOHN_CONCERTO.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "'concerto en la mineur' read as slip (Mendelssohn wrote no A-minor piano concerto); old text dated 005.0213 to 8 June but file is 1873-06-07 (left old line, new section uses 7 Jun)."
+ },
+ {
+  "wid": "W085",
+  "title": "Dormi pure (romance)",
+  "entry": "content/_original/_glossary/culture/music/DORMI_PURE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "La Sonnambula attribution (LAN/RSR 048.0383) not supported; candidate is S. Scuderi's serenata 'Dormi pure' (BNN Naples catalogue; Ricordi 1872 per search summary) - unconfirmed."
+ },
+ {
+  "wid": "W088",
+  "title": "Marseillaise",
+  "entry": "content/_original/_glossary/culture/music/LA_MARSEILLAISE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/MARSEILLAISE.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": null
+ },
+ {
+  "wid": "W093",
+  "title": "Funeral March (Chopin Op. 35)",
+  "entry": "content/_original/_glossary/culture/music/MARCHE_FUNEBRE_CHOPIN.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": null
+ },
+ {
+  "wid": "W113",
+  "title": "On revient toujours à ses premières amours",
+  "entry": "content/_original/_glossary/culture/music/ON_REVIENT_TOUJOURS_A_SES_PREMIERES_AMOURS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Composer unidentified; 051.0216 may be the proverb, not the song."
+ },
+ {
+  "wid": "W117",
+  "title": "Il était un roi de Thulé (Faust)",
+  "entry": "content/_original/_glossary/culture/music/IL_ETAIT_UN_ROI_DE_THULE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": null
+ },
+ {
+  "wid": "W118",
+  "title": "Songs Without Words",
+  "entry": "content/_original/_glossary/culture/music/SONGS_WITHOUT_WORDS_MENDELSSOHN.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "No particular number named by Marie. MENDELSSOHN.md (author entry) left untouched."
+ },
+ {
+  "wid": "W130",
+  "title": "Beethoven, Marche funèbre",
+  "entry": "content/_original/_glossary/culture/music/MARCHE_FUNEBRE_BEETHOVEN.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Op. 26 sonata vs Eroica funeral march unspecified; sonata inferred. Mendelssohn march in 081.0510 unidentified."
+ }
+]

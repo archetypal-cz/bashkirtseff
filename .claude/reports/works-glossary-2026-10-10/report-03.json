@@ -1,0 +1,62 @@
+[
+ {
+  "wid": "W108",
+  "title": "Barbe-bleue",
+  "entry": "content/_original/_glossary/culture/theater/BARBE_BLEUE_OFFENBACH.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/BARBE_BLEUE.md",
+  "images": 0,
+  "full_text": 3,
+  "doubts": "048.0592 identification as Offenbach is probable, not stated by Marie"
+ },
+ {
+  "wid": "W109",
+  "title": "La Boule",
+  "entry": "content/_original/_glossary/culture/theater/LA_BOULE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Premiere was 24 Nov 1874 (Palais-Royal), not 1871 as in the inventory; character 'Tiste' not in printed cast; stub RAVEL (carriage) is unrelated to actor Ravel in 032.0457"
+ },
+ {
+  "wid": "W110",
+  "title": "Frou-Frou",
+  "entry": "content/_original/_glossary/culture/theater/FROU_FROU.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "removed unsourced 'written exclusively for Desclee'"
+ },
+ {
+  "wid": "W125",
+  "title": "Le Marquis de Villemer",
+  "entry": "content/_original/_glossary/culture/theater/LE_MARQUIS_DE_VILLEMER.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/MARQUIS_DE_VILLEMER.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "CF revival date not established; Odeon 29 Feb 1864 premiere per BnF/BL records via search; Dumas fils help unverified"
+ },
+ {
+  "wid": "W128",
+  "title": "Hamlet (Thomas)",
+  "entry": "content/_original/_glossary/culture/theater/HAMLET_THOMAS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "doubts": "098.0386 refers to Shakespeare's play (read in English) - needs a separate Shakespeare Hamlet work entry; 103.0249 ambiguous opera/play"
+ },
+ {
+  "wid": "W129",
+  "title": "Les Amants de Verone",
+  "entry": "content/_original/_glossary/culture/theater/LES_AMANTS_DE_VERONE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "composer is Paul de Richard d'Ivry; RSR in 083.0089 says 'Richard de la Haye' (wrong per Wikipedia fr); MARQUIS_D_IVRY stub untouched; Heilbronn = Marie Heilbron; no IMSLP page found"
+ }
+]

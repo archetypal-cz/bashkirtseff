@@ -1,0 +1,202 @@
+[
+ {
+  "wid": "W009",
+  "title": "L'Arlequin",
+  "entry": "culture/art/L_ARLEQUIN_SAINT_MARCEAUX.md",
+  "action": "new",
+  "supersedes": "people/religious/SAINT_MARCEAUX.md (sculptor, misfiled person stub; not superseded as a person, should be moved to people/artists)",
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Dated 1879 in inventory but shown Salon 1880 (plaster dated 1879, Reims). Busts (Renan, Bastien, Hecht), the 'Danse' statue and rue de Sèze busts have no separate entries."
+ },
+ {
+  "wid": "W009b",
+  "title": "Le Génie gardant le secret de la tombe",
+  "entry": "culture/art/LE_GENIE_GARDANT_LE_SECRET_DE_LA_TOMBE.md",
+  "action": "new (split from W009)",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Salon 1879 medal status unresolved (first-class vs honour)."
+ },
+ {
+  "wid": "W011",
+  "title": "Jeanne d'Arc",
+  "entry": "culture/art/JEANNE_D_ARC_BASTIEN_LEPAGE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Bare alias \"Jeanne d'Arc\" ambiguous with the saint (096.0152, 096.0173)."
+ },
+ {
+  "wid": "W016",
+  "title": "L'Amour au village",
+  "entry": "culture/art/L_AMOUR_AU_VILLAGE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Date 1882 vs 1883 in sources. Pushkin Museum."
+ },
+ {
+  "wid": "W021",
+  "title": "Les Bergers à Bethléem",
+  "entry": "culture/art/LES_BERGERS_A_BETHLEEM.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Unrealised project; no image. Link to the 1875 Annonciation aux bergers not established."
+ },
+ {
+  "wid": "W030",
+  "title": "Statues by d'Epinay",
+  "entry": null,
+  "action": "no entry",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Not a work: Marie visits Prosper d'Epinay's studio in Rome (Jan-Feb 1876) and asks him to make her statue (20,000 fr), never executed as far as the diary shows. 053.0173 trompe-l'oeil nude is Besnard-Galula's, not d'Epinay's. No glossary person entry for d'Epinay exists; recommend a person entry (people/artists)."
+ },
+ {
+  "wid": "W033",
+  "title": "Les Foins",
+  "entry": "culture/art/LES_FOINS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "RF 2748 from Commons metadata, not verified on Orsay page (Orsay notice 9174). Venue 'au Salon' on 15 Sep 1883 unclear."
+ },
+ {
+  "wid": "W042",
+  "title": "Portrait du sculpteur Martínez Montañés",
+  "entry": "culture/art/MARTINEZ_MONTANES_VELAZQUEZ.md",
+  "action": "new",
+  "supersedes": "people/mentioned/VELASQUEZ.md is the painter (kept)",
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Identification inferred (Marie says 'sculpteur inconnu'). 078.0126 infanta is not this work."
+ },
+ {
+  "wid": "W042b",
+  "title": "La Forge de Vulcain (Velázquez)",
+  "entry": "culture/art/LA_FORGE_DE_VULCAIN_VELAZQUEZ.md",
+  "action": "new (split from W042)",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Las Hilanderas and Cristo crucificado (103.0176) have no own entries."
+ },
+ {
+  "wid": "W048",
+  "title": "Apollo Belvedere",
+  "entry": "culture/art/APOLLO_BELVEDERE.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": ""
+ },
+ {
+  "wid": "W049",
+  "title": "Venus de Milo",
+  "entry": "culture/art/VENUS_DE_MILO.md",
+  "action": "new",
+  "supersedes": "people/mentioned/VENUS.md (goddess stub, not superseded)",
+  "images": 1,
+  "full_text": 0,
+  "doubts": "043.0191 is the Venus de' Medici (Uffizi), a different work, no entry."
+ },
+ {
+  "wid": "W058",
+  "title": "Le Soir au village",
+  "entry": "culture/art/LE_SOIR_AU_VILLAGE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Museum identification unconfirmed (candidate: Evening at Damvillers, Philadelphia); no image."
+ },
+ {
+  "wid": "W059",
+  "title": "Le Bon Samaritain",
+  "entry": "culture/art/LE_BON_SAMARITAIN_MOROT.md",
+  "action": "new",
+  "supersedes": "people/artists/MOROT.md (painter, kept)",
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Carnet 088 frontmatter tag Le_Bon_Samaritain needs re-linking."
+ },
+ {
+  "wid": "W071",
+  "title": "Saison d'octobre",
+  "entry": "culture/art/SAISON_D_OCTOBRE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Salon 1879 date from existing footnote, not re-verified."
+ },
+ {
+  "wid": "W072",
+  "title": "Pas mèche",
+  "entry": "culture/art/PAS_MECHE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "NGS says barge boy, 'nothing doing', made for Tooth; existing footnotes 097.0241/098.0420 ('London street boy', 'Pas de chance') probably wrong."
+ },
+ {
+  "wid": "W073",
+  "title": "Le Père Jacques",
+  "entry": "culture/art/LE_PERE_JACQUES.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": ""
+ },
+ {
+  "wid": "W074",
+  "title": "Portrait de Madame Récamier",
+  "entry": "culture/art/PORTRAIT_MADAME_RECAMIER_DAVID.md",
+  "action": "new",
+  "supersedes": "people/mentioned/RECAMIER.md (person stub, kept)",
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Alias 'en Récamier' covers the costume, not only the portrait."
+ },
+ {
+  "wid": "W081",
+  "title": "Bust of Nero",
+  "entry": null,
+  "action": "no entry",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Not identifiable: 009.0221/0227 'j'ai apporté Néron et Apollon' (a cast/print at home?); 012.0039, 016.0087 are the emperor as a type (NERO.md). Entry would mis-tag."
+ },
+ {
+  "wid": "W091",
+  "title": "Statue of Agrippina",
+  "entry": "culture/art/AGRIPPINE_DU_CAPITOLE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Sitter identification uncertain (Agrippina vs Helena)."
+ },
+ {
+  "wid": "W099",
+  "title": "Les Désolés",
+  "entry": "culture/art/LES_DESOLES_CARRIES.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Likely Carriès' 'Déshérités' series (inferred); image illustrative only; no Carriès person entry."
+ }
+]

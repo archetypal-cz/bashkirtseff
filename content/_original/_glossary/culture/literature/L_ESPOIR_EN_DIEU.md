@@ -5,10 +5,17 @@ aliases:
   - L'espoir en Dieu
   - Naděje v Boha
   - Hope in God
+  - L'Espoir en Dieu
+  - Espoir en Dieu
 type: Culture
 category: culture/literature
 research_status: Moderate
-last_updated: 2026-07-06
+last_updated: 2026-10-10
+full_text:
+- url: https://fr.wikisource.org/wiki/L%E2%80%99Espoir_en_Dieu
+  label: L'Espoir en Dieu (1838), texte de la Revue des Deux Mondes
+  source: Wikisource
+  language: fr
 ---
 
 %% GLO_L_ESPOIR_EN_DIEU.0001 %%
@@ -26,9 +33,10 @@ The poem stages an unresolved argument between reason and faith. Musset weighs t
 
 %% GLO_L_ESPOIR_EN_DIEU.0005 %%
 %% [#Health](../themes/HEALTH.md) [#Religion](../themes/RELIGION.md) %%
-Marie refers to the poem in her entry of November 16, 1882 (paragraph 097.0087), immediately after a hospital surgeon confirms that her progressive deafness is incurable. Grappling with "Pourquoi Dieu fait-il souffrir ?" ("Why does God make us suffer?"), she tells her reader to consult Musset's poem rather than have her restate its argument, and asks her editor to insert it "tout au long" (in full) at this point in the text — a request Marie's actual editors never honored, in either the censored 1887 edition or, as far as this project's sources show, any later one. The invocation is both a literary shorthand (Musset's poem was widely known to educated 19th-century readers as *the* text on this exact question) and a deeply personal one: Marie is 22, going deaf, and quarreling with the God she was raised to believe in.
+Marie first refers to the poem in her entry of November 16, 1882 (paragraph 097.0087), immediately after a hospital surgeon confirms that her progressive deafness is incurable. Grappling with "Pourquoi Dieu fait-il souffrir ?" ("Why does God make us suffer?"), she tells her reader to consult Musset's poem rather than have her restate its argument, and asks her editor to insert it "tout au long" (in full) at this point in the text — a request Marie's actual editors never honored, in either the censored 1887 edition or, as far as this project's sources show, any later one. The invocation is both a literary shorthand (Musset's poem was widely known to educated 19th-century readers as *the* text on this exact question) and a deeply personal one: Marie is 22, going deaf, and quarreling with the God she was raised to believe in.
 
 %% GLO_L_ESPOIR_EN_DIEU.0006 %%
+%% 2026-10-10T12:00:00 RSR: Added later mentions 097.0313 and 098.0228 (the earlier text said 'first and only mentioned'); added full_text frontmatter. Poem dated 1838 per the existing entry and diary footnote; not re-verified here. %%
 ## Reading the Full Text
 
 %% GLO_L_ESPOIR_EN_DIEU.0007 %%
@@ -47,7 +55,9 @@ The poem is long (several hundred lines in multiple movements) and is in the pub
 ## References in Diary
 
 %% GLO_L_ESPOIR_EN_DIEU.0012 %%
-- First and only mentioned: 1882-11-16 (paragraph 097.0087), directly after Marie's diagnosis of incurable deafness
+- First mentioned: 1882-11-16 (097.0087), directly after Marie's diagnosis of incurable deafness
+- 1882-12-28 (097.0313): "Je lui lis 'L'espoir en Dieu' de Musset" - Marie reads the poem aloud to Julian, who answers with Frank's "je veux vivre !" from Musset's *La Coupe et les Lèvres* (see diary footnote); Marie: "Moi aussi."
+- 1883-01-30 (098.0228): she quotes two lines from the poem in the diary: "Si le ciel est désert nous n'offensons personne, / Si quelqu'un nous écoute, qu'il nous prenne en pitié."
 
 %% GLO_L_ESPOIR_EN_DIEU.0013 %%
 ## Sources

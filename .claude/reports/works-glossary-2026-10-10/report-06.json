@@ -1,0 +1,162 @@
+[
+ {
+  "wid": "W101",
+  "title": "Histoire de France (Michelet)",
+  "entry": "content/_original/_glossary/culture/literature/HISTOIRE_DE_FRANCE_MICHELET.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Inventory merged two Michelet works; split. MICHELET.md stays as the author stub (people/mentioned, not rewritten). Volume dates 1833-1867 taken from inventory, not re-verified."
+ },
+ {
+  "wid": "W101",
+  "title": "Histoire de la Révolution française (Michelet)",
+  "entry": "content/_original/_glossary/culture/literature/HISTOIRE_DE_LA_REVOLUTION_MICHELET.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Split from W101; 098.0144 and 104.0116. Years 1847-1853 given as standard bibliographic dates, not re-verified."
+ },
+ {
+  "wid": "W106",
+  "title": "La Divine Comédie (Dante)",
+  "entry": "content/_original/_glossary/culture/literature/DIVINA_COMMEDIA.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/DANTE.md (author stub; keep as author)",
+  "images": 0,
+  "full_text": 4,
+  "doubts": "All three allusions are to the Inferno: 006.0027 is Inf. II.52 (LAN note says Inf. IV; corrected in entry), 019.0146 is Inf. V.25-26; 005.0143 canto unspecified."
+ },
+ {
+  "wid": "W111",
+  "title": "Les Trois Mousquetaires (Dumas)",
+  "entry": "content/_original/_glossary/culture/literature/LES_TROIS_MOUSQUETAIRES_DUMAS.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LES_TROIS_MOUSQUETAIRES.md (also LES_MOUSQUETAIRES.md, LES_MOUSQUETAIRES_DE_LA_REINE.md - lead to check)",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Title never named by Marie; identification via Buckingham/Anne d'Autriche probable not certain (Vingt ans après also possible). culture/history/BUCKINGHAM.md is the historical duke, left as is."
+ },
+ {
+  "wid": "W112",
+  "title": "L'Odyssée",
+  "entry": "content/_original/_glossary/culture/literature/HOMER_ODYSSEY.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/ODYSSEY.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Split from Batrachomyomachia. Translation Marie read unknown."
+ },
+ {
+  "wid": "W112",
+  "title": "La Batrachomyomachie",
+  "entry": "content/_original/_glossary/culture/literature/BATRACHOMYOMACHIA.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/BATRACHOMYOMACHIE.md",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Split from W112."
+ },
+ {
+  "wid": "W119",
+  "title": "The White Rose",
+  "entry": "content/_original/_glossary/culture/literature/THE_WHITE_ROSE_WHYTE_MELVILLE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "doubts": "Plot not summarised (not read); Marie unsure of author; footnote's 'fox-hunting novel' not repeated as unverified."
+ },
+ {
+  "wid": "W120",
+  "title": "Mademoiselle de Maupin",
+  "entry": "content/_original/_glossary/culture/literature/MADEMOISELLE_DE_MAUPIN_GAUTIER.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/MADEMOISELLE_DE_MAUPIN.md (already a full plot summary: merge)",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Inventory's '067.0074' is a typo for 067.0297. Distinct ID to avoid a duplicate id with the old stub."
+ },
+ {
+  "wid": "W121",
+  "title": "Jocelyn",
+  "entry": "content/_original/_glossary/culture/literature/JOCELYN_LAMARTINE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/JOCELYN.md",
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Plot taken from project LAN/RSR notes, not independently sourced."
+ },
+ {
+  "wid": "W122",
+  "title": "Journal d'un diplomate en Italie",
+  "entry": "content/_original/_glossary/culture/literature/JOURNAL_D_UN_DIPLOMATE_EN_ITALIE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/IDEVILLE.md (author stub; keep as author)",
+  "images": 0,
+  "full_text": 3,
+  "doubts": "Which volume (Turin/Rome) Marie read is unknown; diary footnotes disagree 1872 vs 1874. Bibliographic details from Spectator review 1872 + IA records; BnF record not opened."
+ },
+ {
+  "wid": "W123",
+  "title": "Les Deux Pigeons (La Fontaine)",
+  "entry": "content/_original/_glossary/culture/literature/LES_DEUX_PIGEONS_LA_FONTAINE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Split from W123; Fables IX,2 verified on Wikisource."
+ },
+ {
+  "wid": "W123",
+  "title": "Le Renard et les Raisins (La Fontaine)",
+  "entry": "content/_original/_glossary/culture/literature/LE_RENARD_ET_LES_RAISINS_LA_FONTAINE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Split from W123; Fables III,11 (1668) verified on Wikisource."
+ },
+ {
+  "wid": "W124",
+  "title": "L'Histoire du petit Gambetta (Millaud)",
+  "entry": "content/_original/_glossary/culture/literature/HISTOIRE_DU_PETIT_GAMBETTA.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "No full text found (Gallica blocked automated access); Gérolstein/Offenbach link is an inference. 'L'amant d'Amanda' song unidentified. Entry also covers Marie's two parody letters (066.0761, 066.0763)."
+ },
+ {
+  "wid": "W131",
+  "title": "Le Roman d'une femme",
+  "entry": "content/_original/_glossary/culture/literature/LE_ROMAN_D_UNE_FEMME_DUMAS_FILS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Publication year 1848 (Britannica 1911, diary footnote) vs 1849 (Wikipedia, via search only); plot not summarised."
+ },
+ {
+  "wid": "W132",
+  "title": "L'Espoir en Dieu",
+  "entry": "content/_original/_glossary/culture/literature/L_ESPOIR_EN_DIEU.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "doubts": "Existing entry said 'first and only mentioned'; corrected with 097.0313 and 098.0228; full_text added. Nothing else changed; Czech-translation section kept."
+ },
+ {
+  "wid": "W133",
+  "title": "Poésies (Sully Prudhomme)",
+  "entry": "content/_original/_glossary/culture/literature/POESIES_SULLY_PRUDHOMME.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 5,
+  "doubts": "Which two volumes Marie owned is unknown; all collections to 1884 linked."
+ }
+]

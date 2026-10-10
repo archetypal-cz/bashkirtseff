@@ -3,50 +3,41 @@ id: RIGOLETTO
 name: Rigoletto
 aliases:
   - Rigoletto
+  - "Rigoletto"
 type: Culture
 category: culture/music
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Moderate
+last_updated: 2026-10-10
+languages:
+  - it
+full_text:
+  - url: https://imslp.org/wiki/Rigoletto_(Verdi,_Giuseppe)
+    label: "Rigoletto (1851), Verdi: vocal scores, full score and libretto"
+    source: IMSLP
+    language: it
+  - url: https://fr.wikisource.org/wiki/Le_Roi_s’amuse
+    label: "Le Roi s'amuse (1832), Victor Hugo (the play on which the libretto is based)"
+    source: Wikisource
+    language: fr
 ---
 # Rigoletto
 
-**Research Status**: Comprehensive
-**Last Updated**: 2025-11-23
-**Diary Coverage**: Book 14 (1880)
-**Type**: Cultural Reference - Opera
-
 ## Overview
 
-*Rigoletto* is an opera in three acts by Giuseppe Verdi, first performed in 1851. The opera, with a libretto by Francesco Maria Piave based on Victor Hugo's play *Le roi s'amuse*, is one of Verdi's most celebrated works.
+*Rigoletto* is an opera in three acts by Giuseppe Verdi to a libretto by Francesco Maria Piave, after Victor Hugo's play *Le Roi s'amuse* (1832). It was first performed at La Fenice, Venice, on 11 March 1851 (Wikipedia, "Rigoletto"). The hunchbacked court jester Rigoletto serves a libertine duke, whose seduction of Rigoletto's daughter Gilda, and the curse of the wronged Count Monterone, bring about the tragedy. Famous numbers: "La donna è mobile", "Caro nome", "Bella figlia dell'amore", "Cortigiani, vil razza dannata".
 
-## Plot Summary
+## Marie and this work
 
-Set in 16th century Mantua, the opera tells the tragic story of Rigoletto, a hunchbacked court jester to the Duke of Mantua. The Duke is a notorious womanizer who, with Rigoletto's help, seduces the wives and daughters of courtiers. When Rigoletto mocks Count Monterone, whose daughter the Duke has dishonored, Monterone places a curse on both the Duke and Rigoletto.
+- **23 December 1876, San Remo.** The San Remo opera opens: she and her aunt go to the prince's box. "On donnait le Rigoletto, tout le monde en Italie sait chanter, par conséquent ce n'a pas été trop mal" (068.0285).
+- **6 April 1880, Paris.** At the Italiens: "La Patti est adorable... Dans Rigoletto elle est encore mieux que dans Lucie" (087.0795). Adelina Patti sang Gilda.
+- **20 April 1880.** Again at the Italiens with Mme Gavini, Dina, Saint-Amand and Soutzo; Saint-Amand is "fou au retour" and recites verses (087.0879).
+- **3 October 1880, Paris.** Saint-Amand arrives and "me chante tout Rigoletto avec accompagnement" (090.0003): a whole opera sung from memory at the piano.
+- **25 May 1882.** In her portrait of Carolus-Duran she imagines him posing "dans Don Juan ou Rigoletto" (095.0098).
+- A source footnote at 097.0128 links Hugo's *Le Roi s'amuse* to this libretto.
 
-Rigoletto has secretly kept his own daughter Gilda hidden from the court, but the Duke discovers and seduces her. When Rigoletto hires an assassin to kill the Duke, Gilda sacrifices herself to save her seducer, dying in her father's arms as the curse is fulfilled.
+## Sources
 
-## Famous Arias
+- Wikipedia, ["Rigoletto"](https://en.wikipedia.org/wiki/Rigoletto).
+- IMSLP, [Rigoletto (Verdi, Giuseppe)](https://imslp.org/wiki/Rigoletto_(Verdi,_Giuseppe)).
 
-- "La donna è mobile" (The Duke) - one of the most famous tenor arias in all opera
-- "Caro nome" (Gilda) - coloratura soprano showcase
-- "Cortigiani, vil razza dannata" (Rigoletto) - powerful baritone aria
-- "Bella figlia dell'amore" (Quartet) - famous ensemble piece
-
-## References in Marie's Diary
-
-October 3, 1880: Saint-Amand arrives and sings "all of Rigoletto with accompaniment." Marie notes that "when he begins, the entire opera passes," suggesting a complete performance lasting several hours.
-
-This indicates Marie's circle included serious opera enthusiasts capable of performing entire works from memory with piano accompaniment - a common form of home entertainment among the cultured classes in 19th century Paris.
-
-## Cultural Context
-
-*Rigoletto* was considered somewhat scandalous when first performed due to its portrayal of aristocratic corruption and libertinism. The opera's combination of tragedy, dark humor, and beautiful melodies made it immensely popular throughout the 19th century.
-
-For Marie's generation in the 1880s, Verdi's operas represented the height of Italian operatic achievement, and knowledge of complete works was a mark of cultural sophistication.
-
-## Related Entries
-
-- [#Saint_Amand](../../people/religious/SAINT_AMAND.md) - Performed the entire opera
-- [#Opera](../../places/theaters/OPERA.md) - General opera culture
-- [#Giuseppe_Verdi](../../people/mentioned/VERDI.md)
-- [#Victor_Hugo](../../people/mentioned/VICTOR_HUGO.md) - Original play author
+%% 2026-10-10T12:00:00 RSR: Enriched in place (works batch 02). 070.0610 "Rigoletto" is a racehorse in a newspaper clipping and is not the opera (correctly excluded). %%

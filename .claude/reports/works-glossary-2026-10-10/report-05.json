@@ -1,0 +1,182 @@
+[
+ {
+  "wid": "W063",
+  "title": "La Vallière (Houssaye)",
+  "entry": "content/_original/_glossary/culture/literature/MADEMOISELLE_DE_LA_VALLIERE_HOUSSAYE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LA_VALLIERE.md and content/_original/_glossary/people/aristocracy/MLLE_DE_LA_VALLIERE.md (both book stubs); culture/literature/HOUSSAYE.md and ARSENE_HOUSSAYE.md are duplicate author entries",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Identified: Houssaye, Mademoiselle de La Vallière et Madame de Montespan (Plon 1860); Marie's 'air d'un roi' is a paraphrase of the preface (verified in the IA scan). Edition she held unknown."
+ },
+ {
+  "wid": "W064",
+  "title": "Le Précipice / Le Ravin (Goncharov)",
+  "entry": "content/_original/_glossary/culture/literature/LE_PRECIPICE_GONCHAROV.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "doubts": "Identified by characters; Russian-language reading assumed; no French translation of 1873 found. English links are 1916 Knopf/Gutenberg."
+ },
+ {
+  "wid": "W068",
+  "title": "La Jeunesse du roi Henri",
+  "entry": "content/_original/_glossary/culture/literature/LA_JEUNESSE_DU_ROI_HENRI.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 4,
+  "doubts": "Year in inventory (1854) is wrong: Wikisource author page says 1864, IA volumes 1865-68. 'le Moine' at 067.1432 not identified."
+ },
+ {
+  "wid": "W069",
+  "title": "Histoire romaine (Duruy)",
+  "entry": "content/_original/_glossary/culture/literature/HISTOIRE_DES_ROMAINS_DURUY.md",
+  "action": "new",
+  "supersedes": "people/mentioned/DURUY.md stays as author stub (also tagged for the Minister, 083.0463)",
+  "images": 0,
+  "full_text": 3,
+  "doubts": "Identified as Hachette's illustrated Histoire des Romains (1879-85, issued in livraisons) by inference; volume details from dealer/library listings, not checked in hand."
+ },
+ {
+  "wid": "W070",
+  "title": "Le Nouveau Testament (Evangile)",
+  "entry": "content/_original/_glossary/culture/literature/NOUVEAU_TESTAMENT.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/BIBLE.md (for the NT paragraphs; BIBLE stays as general stub; TESTAMENT is already a retired redirect to BIBLE)",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Edition/language of her copy only known for Jan 1879 (Italian). Segond 1910 and Synodal links are conveniences."
+ },
+ {
+  "wid": "W077",
+  "title": "Manuel d'Epictete",
+  "entry": "content/_original/_glossary/culture/literature/MANUEL_D_EPICTETE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/EPICTETE.md (author stub); culture/history/EPICTETUS.md stays the author entry",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Enchiridion sections 9 and 18 identified by content; translation she used unknown."
+ },
+ {
+  "wid": "W080",
+  "title": "Galignani's Messenger article on Hamilton's marriage",
+  "entry": "content/_original/_glossary/culture/newspapers/GALIGNANI_HAMILTON_MARRIAGE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "A run of notices, not one article; wedding 10 Dec 1873 (Kimbolton). Issue dates not identified; no free copy of the Galignani issues found (Gallica holds the title per ISSN register, issue URLs not located). Existing GALIGNANI.md is the newspaper."
+ },
+ {
+  "wid": "W082",
+  "title": "La Dame de Monsoreau",
+  "entry": "content/_original/_glossary/culture/literature/DAME_DE_MONSOREAU.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "doubts": "1879 Porte-Saint-Martin performances unconfirmed outside the diary (BnF shows 1860 Ambigu, 1868 Porte-Saint-Martin, 1911). 031.0253 and 060.0429 are the novel."
+ },
+ {
+  "wid": "W083",
+  "title": "Histoires (Herodote)",
+  "entry": "content/_original/_glossary/culture/literature/HISTOIRES_HERODOTE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Translation unknown; Larcher (title 'Histoire d'Herodote') likely."
+ },
+ {
+  "wid": "W084",
+  "title": "Vies paralleles (Plutarque)",
+  "entry": "content/_original/_glossary/culture/literature/VIES_PARALLELES.md",
+  "action": "new (retired as duplicate)",
+  "supersedes": "content/_original/_glossary/people/mentioned/PLUTARQUE.md (author stub)",
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Batch 04 wrote PARALLEL_LIVES.md and PLUTARCH_MORALIA.md for the same paragraphs; my VIES_PARALLELES.md is turned into a retired redirect (status: retired, replaced_by: PARALLEL_LIVES) and can be deleted. March 1876 paragraphs (055.*) are the Moralia, not the Lives."
+ },
+ {
+  "wid": "W087",
+  "title": "Concert programme, Societa Filarmonica, Naples (25 March 1877)",
+  "entry": "content/_original/_glossary/culture/music/CONCERT_FILARMONICA_NAPLES_1877.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 5,
+  "doubts": "Haydn/Mozart/Pergolesi/Gounod/Rossini identified; Miceli, Moreaux 'Rimember!', Burelle and the Mozart Agnus Dei solo unidentified; the Societa itself not traced. 25 March 1877 = Palm Sunday."
+ },
+ {
+  "wid": "W089",
+  "title": "Maximes (La Rochefoucauld)",
+  "entry": "content/_original/_glossary/culture/literature/MAXIMES_LA_ROCHEFOUCAULD.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LA_ROCHEFOUCAULD.md (author stub; the princely-family mentions 073.0342/0347 must not be tagged to the Maximes)",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Maxim 276 verified in Gutenberg 14913."
+ },
+ {
+  "wid": "W090",
+  "title": "Madame de Stael on imitation of French esprit",
+  "entry": "content/_original/_glossary/culture/literature/DE_L_ALLEMAGNE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Inventory item merged two works: 073.0015 and 074.0246 = De l'Allemagne I ch. IX (verified in Gutenberg 66924); 067.0928 and 074.0332 = Corinne (074.0332 = Corinne I.II, verified in Gutenberg 60810). No Stael author entry exists; 'Mme de Staël' alias sits on DE_L_ALLEMAGNE. CORINNE_OU_L_ITALIE.md was first written by me by accident over batch 04's file and has since been re-merged by batch 04."
+ },
+ {
+  "wid": "W094",
+  "title": "Beatrix",
+  "entry": "content/_original/_glossary/culture/literature/BEATRIX_BALZAC.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Wording of Vignon's speech not collated."
+ },
+ {
+  "wid": "W095",
+  "title": "Nana",
+  "entry": "content/_original/_glossary/culture/literature/NANA_ZOLA.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "doubts": "087.0303 'une [composition] sur Nana' not understood (picture or text)."
+ },
+ {
+  "wid": "W096",
+  "title": "Les Origines de la France contemporaine",
+  "entry": "content/_original/_glossary/culture/literature/LES_ORIGINES_DE_LA_FRANCE_CONTEMPORAINE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LES_ORIGINES_DE_LA_FRANCE.md",
+  "images": 0,
+  "full_text": 2,
+  "doubts": "Date of La Revolution vol. III varies by source (1883-1885)."
+ },
+ {
+  "wid": "W097",
+  "title": "Ariadne (Ouida)",
+  "entry": "content/_original/_glossary/culture/literature/ARIADNE_OUIDA.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/ARIADNE.md (stub for the name; also covers Marie's own Ariane statue)",
+  "images": 0,
+  "full_text": 3,
+  "doubts": "KEY FINDING: 098.0555 'strangle Penelope... marry Ulysses to the Phaeacian maid' is Ariadne vol. 1 ch. X p. 265, next to Maryx's marble Nausicaa; update DOULEUR_DE_NAUSICAA.md (it says only 'after Ouida'). Marie's 'Marix' = Maryx. 096.0257 has no explicit reference to the novel."
+ },
+ {
+  "wid": "W098",
+  "title": "L'Iliade / L'Odyssee",
+  "entry": "content/_original/_glossary/culture/literature/HOMER_ODYSSEY.md",
+  "action": "enriched (Odyssey); Iliad left to batch 04 (ILIAD.md already enriched with full_text)",
+  "supersedes": "content/_original/_glossary/people/mentioned/ODYSSEY.md (already superseded by batch 06's HOMER_ODYSSEY)",
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Appended 087.0471 and 098.0554/0555/0594/0609 to batch 06's HOMER_ODYSSEY.md. HOMER_ILIAD.md remains a duplicate of ILIAD.md."
+ }
+]

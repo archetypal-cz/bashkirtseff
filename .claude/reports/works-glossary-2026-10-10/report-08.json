@@ -1,0 +1,92 @@
+[
+ {
+  "wid": "W114",
+  "title": "Apotheosis of Venice (ceiling, Palazzo Ducale)",
+  "entry": "content/_original/_glossary/culture/art/APOTHEOSIS_OF_VENICE.md",
+  "action": "new",
+  "supersedes": "people/mentioned/PAUL_VERONESE.md is the author stub (keep)",
+  "images": 1,
+  "full_text": 0,
+  "doubts": "043.0167 (wife of Veronese, Florence) is a different, unidentified portrait; split off. Aliases omit bare 'Paul Véronèse'."
+ },
+ {
+  "wid": "W126",
+  "title": "Capitoline Venus",
+  "entry": "content/_original/_glossary/culture/art/CAPITOLINE_VENUS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Mentions are about her hairstyle only."
+ },
+ {
+  "wid": "W134",
+  "title": "Portrait de Mme Drouet",
+  "entry": "content/_original/_glossary/culture/art/PORTRAIT_DE_MME_DROUET.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Confirmed: Bastien-Lepage 1883, Maison de Victor Hugo inv. 266, CC0 photo."
+ },
+ {
+  "wid": "W135",
+  "title": "Golgotha (Le Christ en croix), Munkácsy",
+  "entry": "content/_original/_glossary/culture/art/GOLGOTHA_MUNKACSY.md",
+  "action": "new",
+  "supersedes": "people/mentioned/MUNKACSY.md is the painter (keep)",
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Dates of the showing at Munkácsy's house not verified."
+ },
+ {
+  "wid": "W136",
+  "title": "La Joconde (Mona Lisa)",
+  "entry": "content/_original/_glossary/culture/art/LA_JOCONDE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "099.0191 is a metaphor about a woman, not the painting; tagger alias will still hit it."
+ },
+ {
+  "wid": "W137",
+  "title": "Portrait de Maria (Breslau)",
+  "entry": "content/_original/_glossary/culture/art/TOUT_PASSE_BRESLAU.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Real title Tout passé (Salon 1879 no. 408), sitter Maria Feller. No PD image found. 101.0219 is not the painting. Footnotes at 097.0132 and 093 (1881-10-25, 1881-11-22) are wrong (see entry)."
+ },
+ {
+  "wid": "W138",
+  "title": "La Pêcheuse (Breslau)",
+  "entry": "content/_original/_glossary/culture/art/LA_PECHEUSE_BRESLAU.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "doubts": "Salon 1882 'Pêcheuse guettant la marée; baie du Mont-Saint-Michel'; catalogue no. inferred 378-379 (OCR garbled). No image found."
+ },
+ {
+  "wid": "W143",
+  "title": "Vierge à la chaise",
+  "entry": "content/_original/_glossary/culture/art/LA_VIERGE_A_LA_CHAISE.md",
+  "action": "new",
+  "supersedes": "people/artists/RAPHAEL.md is the author stub (keep)",
+  "images": 1,
+  "full_text": 0,
+  "doubts": "100.0548 object of 'Ce n'est pas divin cela' unclear."
+ },
+ {
+  "wid": "W143b",
+  "title": "L'École d'Athènes (split from W143)",
+  "entry": "content/_original/_glossary/culture/art/SCHOOL_OF_ATHENS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "doubts": "Split from W143; one mention (093.0205)."
+ }
+]
