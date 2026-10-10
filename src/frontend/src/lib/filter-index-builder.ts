@@ -17,7 +17,7 @@
  * wrapper around this module.
  */
 
-import { RETIRED_THEMES } from './theme-names';
+import { RETIRED_THEMES } from './theme-names.ts';
 import fs from 'node:fs';
 import path from 'node:path';
 import { parseFrontmatter } from '@bashkirtseff/shared';
