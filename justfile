@@ -381,6 +381,21 @@ scan-figure-keywords:
     uv run --quiet --with pymupdf python src/scripts/scans/figure_keywords.py
 scan-survey:
     uv run --quiet --with pymupdf python src/scripts/scans/survey.py
+# Google Search Console (domain property sc-domain:bashkirtseff.org, verified by DNS TXT in Azure zone prodinfrastructure/bashkirtseff.org; owner kerray.cz@gmail.com). Uses gcloud impersonating the keyless service account gsc-bashkirtseff@kerraycz (your gcloud login needs roles/iam.serviceAccountTokenCreator on it).
+gsc_sa := "gsc-bashkirtseff@kerraycz.iam.gserviceaccount.com"
+# Resubmit the sitemap index to Google Search Console
+gsc-sitemap:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    T=$(gcloud auth print-access-token --impersonate-service-account={{gsc_sa}} --scopes=https://www.googleapis.com/auth/webmasters 2>/dev/null)
+    curl -sf -X PUT -H "Authorization: Bearer $T" "https://www.googleapis.com/webmasters/v3/sites/sc-domain%3Abashkirtseff.org/sitemaps/https%3A%2F%2Fbashkirtseff.org%2Fsitemap-index.xml" && echo "sitemap-index.xml submitted"
+# Search Console sitemap status (submitted, pending, errors, URL counts)
+gsc-status:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    T=$(gcloud auth print-access-token --impersonate-service-account={{gsc_sa}} --scopes=https://www.googleapis.com/auth/webmasters 2>/dev/null)
+    curl -sf -H "Authorization: Bearer $T" "https://www.googleapis.com/webmasters/v3/sites/sc-domain%3Abashkirtseff.org/sitemaps" | python3 -m json.tool
+
 # Tell IndexNow search engines (Bing, Seznam, Yandex) about pages: --changed BEFORE AFTER | --sitemap [--dry-run] (deploy.yml runs --changed after each deploy)
 indexnow +ARGS:
     python3 src/scripts/indexnow.py {{ARGS}}
