@@ -824,7 +824,7 @@ These override older per-carnet entries below where they conflict.
 ### Reading-conventions renderings, carnets 037–039 (CON 2026-10-03)
 - Phaedrus «Quem spes delusit, huic querela convenit» (037.0005, 0143) → ==Koho naděje zklamala, tomu přísluší nářek==; her first-person echo «querela mihi convenit» (037.0006) → ==mi nářek přísluší==. Footnote quotes the edition's slips as written („Qucm spes dclusit“ / „Quem spem delusit“, tak v textu).
 - «Veni, vidi, vici» → ==Přišel jsem, viděl jsem, zvítězil jsem==; «dubiae nobilitatis» → ==pochybného šlechtictví==; «delectabile tempus» → ==rozkošný čas==; «Requiem delectabile [sic]» → ==Rozkošné requiem== ([sic] in the footnote); «vox faucibus exit» → ==hlas opouští hrdlo== (footnote notes Virgil's *haesit*).
-- *Dies irae* lines (037.0531–0532): ==Slzavý onen den. Kdy z popela povstane.== / ==Člověk vinný bude souzen… Smiluj se tedy, Bože.== (Marie's fragmentary punctuation kept; «mie» quoted as written).
+- *Dies irae* lines (037.0532–0532): ==Slzavý onen den. Kdy z popela povstane.== / ==Člověk vinný bude souzen… Smiluj se tedy, Bože.== (Marie's fragmentary punctuation kept; «mie» quoted as written).
 - «Nec plus» (038.0251, Marie's clipped *nec plus ultra*) → ==nic nad to== (cf. en "nothing beyond", uk «понад це — нічого»).
 - «These are the questions» (038.0066, Hamlet echo) → ==Toť otázky==; the singular Hamlet line stays ==To je, oč tu běží== (Saudek).
 - English: «unlucky» (la plus unlucky des femmes) → ==nejsmolnější==; «bustle» → ==ruch==; «awfully expressive» → ==strašně výstižné==; «pleasantly enough» → ==celkem příjemně==; «deliciously» → ==rozkošně==; «money, money, money» → ==peníze, peníze, peníze==.
