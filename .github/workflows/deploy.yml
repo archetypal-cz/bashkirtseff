@@ -149,3 +149,15 @@ jobs:
           done
           echo "::error::Container bashkirtseff-app did not come up within 150s"
           exit 1
+
+      - name: Notify search engines (IndexNow)
+        # Bing, Seznam, Yandex… learn about changed diary/glossary pages right away.
+        # The key file is src/frontend/public/<key>.txt. Never fails the deploy.
+        if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
+        continue-on-error: true
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          git fetch --no-tags --depth=1 origin "$BEFORE"
+          python3 src/scripts/indexnow.py --changed "$BEFORE" "$AFTER"

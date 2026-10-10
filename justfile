@@ -381,6 +381,10 @@ scan-figure-keywords:
     uv run --quiet --with pymupdf python src/scripts/scans/figure_keywords.py
 scan-survey:
     uv run --quiet --with pymupdf python src/scripts/scans/survey.py
+# Tell IndexNow search engines (Bing, Seznam, Yandex) about pages: --changed BEFORE AFTER | --sitemap [--dry-run] (deploy.yml runs --changed after each deploy)
+indexnow +ARGS:
+    python3 src/scripts/indexnow.py {{ARGS}}
+
 # Scan text layer vs content/_original for tomes (word-stream alignment): scan-only / original-only text, accents, «!» OCR, word diffs → .cache/scan-compare/tomeN.json
 scan-compare +ARGS:
     uv run --quiet --with python-docx --with pymupdf python src/scripts/scans/scan_vs_original.py {{ARGS}}
