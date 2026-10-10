@@ -128,9 +128,24 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 const images = entry.images ?? [];
 const [leadImage, ...moreImages] = images;
 const displayName = category.startsWith('culture/themes') ? themeName(t, entry.id, entry.name) : entry.name;
+
+// Meta description: the entry's own first sentence(s) as plain text, so each glossary page
+// (the pages crawlers fetch most) gets its own search snippet instead of the site default.
+const plainText = (s: string) => s
+  .replace(/%%[\s\S]*?%%/g, ' ')
+  .replace(/<[^>]+>/g, ' ')
+  .replace(/!?\[([^\]]*)\]\([^)]*\)/g, '$1')
+  .replace(/\[\^[^\]]+\]/g, '')
+  .replace(/[*_`#>]+/g, '')
+  .replace(/\s+/g, ' ')
+  .trim();
+const descSource = plainText(entry.summary ?? '') || plainText(processedParagraphs[0]?.html ?? '');
+const description = descSource.length > 160
+  ? descSource.slice(0, 157).replace(/\s+\S*$/, '') + '…'
+  : descSource || undefined;
 ---
 
-<ReadingLayout title={`${displayName} — ${t('glossary.title')}`} lang={lang.urlPath} sourcePath={entry.category ? `content/_original/_glossary/${entry.category}/${entry.id}.md` : undefined}>
+<ReadingLayout title={`${displayName} — ${t('glossary.title')}`} description={description} lang={lang.urlPath} sourcePath={entry.category ? `content/_original/_glossary/${entry.category}/${entry.id}.md` : undefined}>
   <article class="max-w-3xl mx-auto">
     <nav class="mb-6 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
       <a href={withTrailingSlash(`/${lang.urlPath}`)} class="hover:text-accent">{diaryLabel}</a>

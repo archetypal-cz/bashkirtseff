@@ -152,6 +152,9 @@ export default defineConfig({
     // dashboard). Exclude them explicitly so the sitemap only advertises real,
     // indexable content.
     sitemap({
+      // Google caps a sitemap file at 50,000 URLs; one file held ~39k and the
+      // Spanish diary would cross it. 10k per file keeps every shard well under.
+      entryLimit: 10000,
       filter: (page) => {
         // `page` is the absolute URL string, e.g. https://bashkirtseff.org/about/
         const path = new URL(page).pathname.replace(/\/$/, '');
