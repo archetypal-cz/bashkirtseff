@@ -2115,3 +2115,10 @@ These override older per-carnet entries below where they conflict.
 - **crêpe de Chine**: „krepdešín“ (corpus 15× vs „čínský krep“ 6×; 008.0309, 021.0383).
 - **Marie's abbreviations, esp. inside struck text** (*fig.* = figure): keep them abbreviated, as a Czech abbreviation of the Czech word („tv.“ for tvář, 021.0386); don't expand.
 - **fiché / fichée** (Marie's word, someone or something written off, dropped): „vyřízený“, „odepsaný“, „skončená záležitost“ (002), „odkopnout“ (014.0263), „sešlo z toho“ (022.0069); NOT „rozzlobený“ (*fâché*). The pun *fiché / chéfi* (013.0253) → „pasé / *sépa*“ with footnote.
+
+## RED 2026-10-10 (FAB calque-pass review, 098–102) — recorded, not locks
+
+- **«les gamins»** (Marie's working name for the six-boys canvas, later *Un Meeting* → *Schůzka*): „kluci“ (kluků, klucích…). Visible cz before alignment: 099 „gamini“ ×10, 100–101 „kluci“ ×10, 102 „uličníci“ ×4; aligned 099 and 102 to „kluci“. The generic „gamin(e)“ in other senses is translated by context (uličník, kluk, holčička).
+- **Saint-Marceaux's *Arlequin*** (statue): „Harlekýn“ (Harlekýna, Harlekýnovi). 099 had „Arlekýn“ (non-standard; SSČ/IJP list only „harlekýn“), aligned. cz/088 still has one „Arlekýn“ (not reviewed).
+- **«coup de massue»**: „rána palicí“ (101.0139, echoed in 102.0152); not „rána kyjem“.
+- Open: the Czech declension of *Saint-Marceaux* is split in 090–106 (Saint-Marceaua 14, Saint-Marceauxe 10, Saint-Marceauovi 3 vs Saint-Marceauxovi 5, Saint-Marceauxem 3, Saint-Marceauxa 1); not aligned here.
