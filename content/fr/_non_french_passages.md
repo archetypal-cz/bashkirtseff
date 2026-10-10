@@ -1491,7 +1491,7 @@ They need AI translation into French.
 - **102/1883-11-13.md** para 102.0234 [LATIN]: %% 2026-02-03T09:06:25 LAN: "sine qua non" - LATIN: essential condition, without which not %%
 - **102/1883-11-20.md** para 102.0276 [LATIN]: %% 2026-02-03T09:07:42 LAN: "aurea mediocritas" - LATIN: golden mean (Horace), here: mediocrity %%
 - **102/1883-12-24.md** para 102.0546 [ENGLISH]: %% 2026-02-03T09:12:42 LAN: "la gentry parisienne" - ENGLISH: the Parisian gentry %%
-- **102/1884-01-02.md** para 102.0633 [RUSSIAN]: %% 2026-02-03T09:14:06 LAN: "starovoï" - RUSSIAN: starosta, village official/police functionary %%
+- **102/1884-01-02.md** para 102.0633 [RUSSIAN]: %% 2026-02-03T09:14:06 LAN: "starovoï" - RUSSIAN: starosta, village official/police functionary %% — superseded by the owner ruling of 2026-10-03: *starovoï* = становой (stanovoi pristav), rural police official, not starosta (cf. 092.0282 «commissaire rural»)
 - **103/1884-02-08.md** para 103.0306 [LATIN]: %% 2026-02-02T14:00:00 LAN: "Idem" - LATIN: same as before, Marie's shorthand for routine days %%
 - **103/1884-03-26.md** para 103.0592 [LATIN]: %% 2026-02-02T14:00:00 LAN: "i.e." - LATIN: id est, that is %%
 - **103/1884-03-29.md** para 103.0606 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "si ingrata, t'amo, t'amo ancora" - ITALIAN: "ungrateful one, I love you, I still love you" - from Lucia sextet %%
