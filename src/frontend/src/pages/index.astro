@@ -1,14 +1,38 @@
 ---
 // Redirect page - detects browser language and redirects to appropriate homepage
-// Uses navigator.languages (ordered by user preference) for better detection
+// Uses navigator.languages (ordered by user preference) for better detection.
+// Link previewers (Reddit, Facebook, chat apps) do not run the redirect script, so the
+// root URL carries its own description / Open Graph tags and the language alternates.
+const umamiUrl = import.meta.env.PUBLIC_UMAMI_URL;
+const umamiWebsiteId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID;
+const title = 'Marie Bashkirtseff — Complete Unabridged Diary';
+const description = 'Read the complete, unabridged diary of Marie Bashkirtseff (1858-1884). A remarkable document of 19th century life, art, and female ambition. Free and accessible in multiple languages.';
+const image = 'https://bashkirtseff.org/images/og/og-image-composite.jpg';
+const homes = [['en', 'en'], ['fr', 'fr'], ['cs', 'cs'], ['uk', 'uk'], ['es', 'es']];
 ---
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex">
-  <title>Marie Bashkirtseff</title>
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bashkirtseff.org/">
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:image" content={image}>
+  <meta property="og:site_name" content="Diary of Marie Bashkirtseff">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content={title}>
+  <meta name="twitter:description" content={description}>
+  <meta name="twitter:image" content={image}>
+  {homes.map(([hreflang, path]) => <link rel="alternate" hreflang={hreflang} href={`https://bashkirtseff.org/home/${path}/`} />)}
+  <link rel="alternate" hreflang="x-default" href="https://bashkirtseff.org/" />
+  {umamiWebsiteId && umamiUrl && (
+    <script is:inline defer src={`${umamiUrl}/script.js`} data-website-id={umamiWebsiteId}></script>
+  )}
   <script>
     (function() {
       var saved;

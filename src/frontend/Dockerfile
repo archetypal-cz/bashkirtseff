@@ -70,6 +70,7 @@ COPY src/frontend/nginx-security-headers.conf /etc/nginx/security-headers.conf
 # Expose port
 EXPOSE 80
 
-# Health check
+# Health check (127.0.0.1, not localhost: busybox wget resolves localhost to ::1,
+# and nginx listens on IPv4 only, so the check failed on every run)
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD wget --quiet --tries=1 --spider http://localhost/ || exit 1
+  CMD wget --quiet --tries=1 --spider http://127.0.0.1/ || exit 1
