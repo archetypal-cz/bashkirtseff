@@ -60,7 +60,7 @@ The mythological title came afterwards. The figure was first conceived as one of
 The statue is begun on **27 February 1883**, the same week she finishes *[Jean et Jacques](./JEAN_ET_JACQUES.md)*, and in the same breath as one of her most quoted lines: «j'ai fait l'esquisse de *ma statue*… Je suis née sculpteur, j'aime la forme à l'adoration» (098.0422). Within a month two *praticiens* have built the full-scale armature (098.0551); by 28 March she is pleased with the movement — «désolé» — and that same night the whole thing falls down and has to be rebuilt (098.0610).
 
 %% GLO_DOULEUR_DE_NAUSICAA.0011 %%
-%% [#Saint_Marceaux](../../people/religious/SAINT_MARCEAUX.md) %%
+%% [#Saint_Marceaux](../../people/artists/SAINT_MARCEAUX.md) %%
 Through the summer of 1883 she works *en ronde-bosse* on the advice of the sculptor **Saint-Marceaux** (100.0069), who functions here as her model of ambition much as Bastien-Lepage does in painting. By 30 August she rates the sculpture at least as highly as her painting: «ma sculpture actuelle vaut ma peinture si elle ne lui est pas supérieure» (101.0294). Then in December the confidence collapses — «ma Nausicaa ne signifie rien, on ne comprend pas qu'elle pleure» (102.0488) — and is restored six days later when Julian is summoned and raves: «exquis, charmant, très bien, empoignant… Admirablement bien construit» (102.0521). Tony Robert-Fleury, two days after that, is cooler but satisfied (102.0546).
 
 %% GLO_DOULEUR_DE_NAUSICAA.0012 %%
@@ -99,7 +99,7 @@ The work itself:
 - [#Les_Saintes_Femmes](./LES_SAINTES_FEMMES.md) — the painting the figure was detached from
 - [#Salon](./SALON.md) — the exhibition she raced for and missed
 - [#Art_Practice](../themes/ART_PRACTICE.md) — her working life as a whole
-- [#Saint_Marceaux](../../people/religious/SAINT_MARCEAUX.md) — the sculptor whose advice shaped it
+- [#Saint_Marceaux](../../people/artists/SAINT_MARCEAUX.md) — the sculptor whose advice shaped it
 - [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) and [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) — her two judges
 
 %% GLO_DOULEUR_DE_NAUSICAA.0018 %%

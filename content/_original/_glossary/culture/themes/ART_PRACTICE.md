@@ -145,7 +145,7 @@ Marie's most ambitious unrealised project -- a life-size history painting of the
 %% GLO_ART_PRACTICE.0034 %%
 ### *Le Printemps* (Spring, c. 1884) and *Douleur de Nausicaa* (1884, bronze sculpture)
 
-Marie's work extended beyond painting into sculpture. Carriès, a sculptor who visited her studio, exclaimed: "You were born to make sculpture!" Her clay sketches (*esquisses en terre*) impressed professional sculptors, and both Robert-Fleury and [Saint-Marceaux](../../people/religious/SAINT_MARCEAUX.md) judged her sculpture promising enough for Salon recognition.
+Marie's work extended beyond painting into sculpture. Carriès, a sculptor who visited her studio, exclaimed: "You were born to make sculpture!" Her clay sketches (*esquisses en terre*) impressed professional sculptors, and both Robert-Fleury and [Saint-Marceaux](../../people/artists/SAINT_MARCEAUX.md) judged her sculpture promising enough for Salon recognition.
 
 %% GLO_ART_PRACTICE.0035 %%
 ### Other Works

@@ -28,7 +28,7 @@ full_text:
 
 %% GLO_HOMER_ODYSSEY.0002 %%
 %% [#Homere](../../people/mentioned/HOMERE.md) %%
-The *Odyssey* is one of the two Greek epics attributed to Homer (usually dated to the 8th century BC), telling Odysseus's ten-year return from Troy. Together with the *Iliad* it was the centre of the classical reading Marie pursued (see [Homer's Iliad](HOMER_ILIAD.md)).
+The *Odyssey* is one of the two Greek epics attributed to Homer (usually dated to the 8th century BC), telling Odysseus's ten-year return from Troy. Together with the *Iliad* it was the centre of the classical reading Marie pursued (see [Homer's Iliad](ILIAD.md)).
 
 %% GLO_HOMER_ODYSSEY.0003 %%
 ## Marie and this work

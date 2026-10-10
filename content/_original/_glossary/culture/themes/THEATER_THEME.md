@@ -256,7 +256,7 @@ The contrast between the Nice and Paris theater scenes shaped Marie's cultural d
 - [#La_Grande_Duchesse_de_Gerolstein](../theater/LA_GRANDE_DUCHESSE_DE_GEROLSTEIN.md) -- Offenbach operetta
 - [#Hernani](../theater/HERNANI.md) -- Hugo's romantic drama
 - [#Le_Proces_Veauradieux](../theater/LE_PROCES_VEAURADIEUX.md) -- Farce referenced in Nice
-- [#Barber_of_Seville](../theater/BARBER_OF_SEVILLE.md) -- Beaumarchais/Rossini
+- [#Barber_of_Seville](../music/BARBIER_DE_SEVILLE.md) -- Beaumarchais/Rossini
 - [#Charlotte_Corday](../theater/CHARLOTTE_CORDAY.md) -- Revolutionary drama
 - [#Belle_Helene](../theater/BELLE_HELENE.md) -- Offenbach operetta
 - [#Moliere](../theater/MOLIERE.md) -- The classical dramatist, frequently performed

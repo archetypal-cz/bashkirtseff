@@ -24,7 +24,7 @@ images:
 ## Overview
 
 %% GLO_LE_GENIE_GARDANT_LE_SECRET_DE_LA_TOMBE.0002 %%
-*Le Génie gardant le secret de la tombe* (1879) is the marble that made [René de Saint-Marceaux](../../people/religious/SAINT_MARCEAUX.md) famous: a youthful, wingless genius crouching over a tomb with a finger to his lips. It was shown at the Salon of 1879, and, according to one source consulted, won him a first-class medal. The marble is now in the **Musée d'Orsay** (RF 300; the old Luxembourg number LUX 93 shows it was in the Musée du Luxembourg); it measures 168 × 95 × 119 cm. English Wikipedia notes the strong influence of Michelangelo; it was exhibited in Vienna in 1882. Small reductions and studies exist (e.g. a bronze in Reims, an « étude » mask in terracotta). (Sources: Musée d'Orsay record via web search; Wikipedia, « René de Saint-Marceaux »; French Wikipedia, same article.)
+*Le Génie gardant le secret de la tombe* (1879) is the marble that made [René de Saint-Marceaux](../../people/artists/SAINT_MARCEAUX.md) famous: a youthful, wingless genius crouching over a tomb with a finger to his lips. It was shown at the Salon of 1879, and, according to one source consulted, won him a first-class medal. The marble is now in the **Musée d'Orsay** (RF 300; the old Luxembourg number LUX 93 shows it was in the Musée du Luxembourg); it measures 168 × 95 × 119 cm. English Wikipedia notes the strong influence of Michelangelo; it was exhibited in Vienna in 1882. Small reductions and studies exist (e.g. a bronze in Reims, an « étude » mask in terracotta). (Sources: Musée d'Orsay record via web search; Wikipedia, « René de Saint-Marceaux »; French Wikipedia, same article.)
 
 %% GLO_LE_GENIE_GARDANT_LE_SECRET_DE_LA_TOMBE.0003 %%
 ## Marie and the Génie

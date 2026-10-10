@@ -1,26 +1,26 @@
 ---
-id: LES_ORIGINES_DE_LA_FRANCE
-name: Les Origines de la France
+id: SAINT_MARCEAUX
+name: Saint Marceaux
 aliases:
-  - Les Origines de la France
-  - France
+  - Saint Marceaux
+  - Marceaux
 type: Person
-category: people/mentioned
+category: people/artists
 research_status: Basic
 last_updated: 2026-03-06
 ---
-# Les Origines de la France
+# Saint Marceaux
 
 **Research Status**: Stub
 **Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
+**Diary Coverage**: Book 13 (1879) - 4 mentions
 **Type**: Person/Place
 
 ## Overview
 
 [Research needed]
 
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
+This entry was mentioned 4 times in Book 13 of Marie's diary (1879).
 
 ## Research Needed
 

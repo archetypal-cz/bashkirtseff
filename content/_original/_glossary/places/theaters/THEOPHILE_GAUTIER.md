@@ -64,7 +64,7 @@ By 1880, eight years after his death, Gautier was a canonical figure in French l
 
 ## Related Entries
 
-- [#Mademoiselle_de_Maupin](../../people/mentioned/MADEMOISELLE_DE_MAUPIN.md) - His famous novel
+- [#Mademoiselle_de_Maupin](../../culture/literature/MADEMOISELLE_DE_MAUPIN_GAUTIER.md) - His famous novel
 - Art for art's sake - His aesthetic doctrine (no glossary entry)
 - [#Georges_Sand](../cities/GEORGES_SAND.md) - Compared unfavorably to Gautier
 - Romanticism (no glossary entry)
