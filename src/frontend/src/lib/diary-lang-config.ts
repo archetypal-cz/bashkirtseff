@@ -102,10 +102,12 @@ export const DIARY_LANGUAGES: DiaryLanguageConfig[] = [
  *   uk       -> 'uk'
  *   original -> 'fr'     (the French source text; the canonical French)
  *   es       -> 'es'
- *   fr       -> 'fr-FR'  (the modern French *edition*; both /original/ and /fr/
- *                         are French, so the edition gets a region-qualified
- *                         tag to disambiguate it from the original. Search
- *                         engines treat 'fr' and 'fr-FR' as distinct alternates.)
+ *   fr       -> not an hreflang alternate (owner 2026-10-10). The modern French
+ *               *edition* is a second French version of the same text, not
+ *               another language: the old 'fr-FR' tag only split French readers
+ *               by country. /original/ is THE French alternate; /fr/ pages carry
+ *               no hreflang and point their canonical at /original/ until the
+ *               entry's edition text is finished (see diarySeoLinks).
  */
 const HREFLANG_BY_URLPATH: Record<string, string> = {
   cz: 'cs',
@@ -145,6 +147,7 @@ export function buildHreflangAlternates(
   const out: { hreflang: string; href: string }[] = [];
   for (const cfg of DIARY_LANGUAGES) {
     if (!available.includes(cfg.urlPath)) continue;
+    if (cfg.urlPath === 'fr') continue; // the modern edition is not a language alternate
     out.push({
       hreflang: hreflangFor(cfg.urlPath),
       href: withTrailingSlash(`/${cfg.urlPath}${suffix}`),
@@ -158,6 +161,30 @@ export function buildHreflangAlternates(
   }
 
   return out;
+}
+
+/**
+ * SEO links for a diary page: hreflang alternates and the canonical URL.
+ *
+ * Every language except the modern French edition gets the hreflang set and a
+ * self canonical (canonicalUrl undefined = the layout's default). The edition
+ * (/fr/) is near-identical to /original/ until an entry's edition text is
+ * finished, so its pages carry no hreflang (hreflang must be reciprocal and is
+ * ignored on non-canonical pages) and canonicalise to the /original/ page —
+ * except finished entries (`editionComplete`), which stand on their own.
+ */
+export function diarySeoLinks(
+  urlPath: string,
+  pathSuffix: string,
+  availableUrlPaths?: string[],
+  editionComplete = false,
+): { alternates: { hreflang: string; href: string }[]; canonicalUrl?: string } {
+  if (urlPath !== 'fr') return { alternates: buildHreflangAlternates(pathSuffix, availableUrlPaths) };
+  const suffix = pathSuffix ? `/${pathSuffix.replace(/^\/+/, '')}` : '';
+  return {
+    alternates: [],
+    canonicalUrl: editionComplete ? undefined : `https://bashkirtseff.org${withTrailingSlash(`/original${suffix}`)}`,
+  };
 }
 
 /** Get config by URL path segment. Throws if not found. */

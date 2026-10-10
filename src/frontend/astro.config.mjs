@@ -1,3 +1,5 @@
+import path from 'node:path';
+import fs from 'node:fs';
 // @ts-check
 import { defineConfig } from 'astro/config';
 
@@ -7,6 +9,25 @@ import sitemap from '@astrojs/sitemap';
 import { execSync } from 'child_process';
 import { readFileSync } from 'fs';
 import AstroPWA from '@vite-pwa/astro';
+
+// `${carnet}/${entry}` of the modern French edition's finished entries
+// (frontmatter `edition_complete: true`), for the sitemap filter below.
+const FR_EDITION_COMPLETE = (() => {
+  const set = new Set();
+  const root = fileURLToPath(new URL('../../content/fr/', import.meta.url));
+  if (!fs.existsSync(root)) return set;
+  for (const carnet of fs.readdirSync(root)) {
+    if (!/^\d{3}$/.test(carnet)) continue;
+    for (const file of fs.readdirSync(path.join(root, carnet))) {
+      if (!file.endsWith('.md') || file === 'README.md') continue;
+      const head = fs.readFileSync(path.join(root, carnet, file), 'utf8').slice(0, 3000);
+      const fm = head.startsWith('---') ? head.split('\n---')[0] : '';
+      if (/^\s*edition_complete:\s*true\s*$/m.test(fm)) set.add(`${carnet}/${file.slice(0, -3)}`);
+    }
+  }
+  return set;
+})();
+
 
 // https://astro.build/config
 // Get git commit hash for version display
@@ -158,6 +179,10 @@ export default defineConfig({
       filter: (page) => {
         // `page` is the absolute URL string, e.g. https://bashkirtseff.org/about/
         const path = new URL(page).pathname.replace(/\/$/, '');
+        // The modern French edition (/fr/) canonicalises to /original/ until an
+        // entry's edition text is finished (diarySeoLinks), so only its finished
+        // entries are sitemap URLs.
+        if (path === '/fr' || path.startsWith('/fr/')) return FR_EDITION_COMPLETE.has(path.slice(4));
         const excluded = ['', '/about', '/marie', '/privacy', '/offline', '/404', '/admin'];
         // private "My stars" page (noindex): /{cs|en|fr|uk|es}/stars
         if (/^\/(cs|en|fr|uk|es)\/stars$/.test(path)) return false;

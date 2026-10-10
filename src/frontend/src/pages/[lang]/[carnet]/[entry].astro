@@ -2,8 +2,8 @@
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import EntryContent from '../../../components/reading/EntryContent.vue';
 import LanguageSwitcher from '../../../components/reading/LanguageSwitcher.vue';
-import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailableLanguages, isCoverEntryId } from '../../../lib/content';
-import { DIARY_LANGUAGES, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailableLanguages, isCoverEntryId, getApprovedEntries } from '../../../lib/content';
+import { DIARY_LANGUAGES, diarySeoLinks, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 import { withTrailingSlash } from '../../../lib/url';
 import { placeDrawings } from '../../../lib/drawings';
@@ -145,7 +145,12 @@ const pageDescription = `${entryDescPrefix} ${firstParagraphText}`.trim();
 
 // hreflang alternates: reuse the availability the entry already computed for the
 // LanguageSwitcher (getAvailableLanguages returns content-path codes incl. '_original').
-const entryAlternates = buildHreflangAlternates(`${carnet}/${entryDate}`, availableLanguages);
+const { alternates: entryAlternates, canonicalUrl: entryCanonical } = diarySeoLinks(
+  lang.urlPath,
+  `${carnet}/${entryDate}`,
+  availableLanguages,
+  lang.urlPath === 'fr' && getApprovedEntries('fr').has(`${carnet}/${entryDate}`),
+);
 
 // Format date for article metadata
 const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefined;
@@ -162,6 +167,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
   lang={lang.urlPath}
   type="article"
   alternates={entryAlternates}
+  canonicalUrl={entryCanonical}
   article={{
     publishedTime: articleDate,
     author: 'Marie Bashkirtseff',

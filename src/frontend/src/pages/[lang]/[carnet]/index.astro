@@ -6,7 +6,7 @@ import ContinueReading from '../../../components/reading/ContinueReading.vue';
 import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import { getCarnets, getCarnetEntries, getEntry, hasTranslation, isCarnetCrossYear, getCarnetSummary, getEntryPreview } from '../../../lib/content';
-import { DIARY_LANGUAGES, glossaryUrl, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { DIARY_LANGUAGES, glossaryUrl, diarySeoLinks, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 import { withTrailingSlash } from '../../../lib/url';
 import FullnessIcon from '../../../components/diary/FullnessIcon.astro';
@@ -181,11 +181,11 @@ function entryHref(entry: typeof allEntries[0]): string {
 
 // Carnet index is generated for all five variants (translation pages show
 // untranslated entries too) -> emit alternates for all.
-const carnetAlternates = buildHreflangAlternates(`${carnet}`);
+const { alternates: carnetAlternates, canonicalUrl } = diarySeoLinks(lang.urlPath, `${carnet}`);
 const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageTitle')}. Marie Bashkirtseff.`;
 ---
 
-<ReadingLayout title={`${t('diary.notebook')} ${carnet} — ${t('diary.pageTitle')}`} description={carnetDescription} lang={lang.urlPath} alternates={carnetAlternates} sourcePath={`content/${lang.contentPath}/${carnet}`}>
+<ReadingLayout title={`${t('diary.notebook')} ${carnet} — ${t('diary.pageTitle')}`} description={carnetDescription} lang={lang.urlPath} alternates={carnetAlternates} canonicalUrl={canonicalUrl} sourcePath={`content/${lang.contentPath}/${carnet}`}>
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>

@@ -5,7 +5,7 @@ import ContinueReading from '../../../components/reading/ContinueReading.vue';
 import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import { getYears, getCarnetsByYear, getYearInfo, getYearSummary, isCarnetCrossYear } from '../../../lib/content';
-import { DIARY_LANGUAGES, glossaryUrl, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { DIARY_LANGUAGES, glossaryUrl, diarySeoLinks, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 import { carnetRangeMessage } from '../../../lib/carnet-range';
 import { withTrailingSlash } from '../../../lib/url';
@@ -115,11 +115,11 @@ function formatDisplayName(id: string): string {
 }
 
 // Year index is generated for all five variants -> emit alternates for all.
-const yearAlternates = buildHreflangAlternates(`${year}`);
+const { alternates: yearAlternates, canonicalUrl } = diarySeoLinks(lang.urlPath, `${year}`);
 const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')}. Marie Bashkirtseff.`;
 ---
 
-<ReadingLayout title={`${t('diary.year', { year })} — ${t('diary.pageTitle')}`} description={yearDescription} lang={lang.urlPath} alternates={yearAlternates}>
+<ReadingLayout title={`${t('diary.year', { year })} — ${t('diary.pageTitle')}`} description={yearDescription} lang={lang.urlPath} alternates={yearAlternates} canonicalUrl={canonicalUrl}>
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>

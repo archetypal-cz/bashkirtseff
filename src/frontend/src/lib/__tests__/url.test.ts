@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { withTrailingSlash } from '../url';
-import { buildHreflangAlternates, diaryUrl, glossaryUrl, getDiaryLang } from '../diary-lang-config';
+import { buildHreflangAlternates, diarySeoLinks, diaryUrl, glossaryUrl, getDiaryLang } from '../diary-lang-config';
 
 describe('withTrailingSlash', () => {
   it('appends a slash to page paths', () => {
@@ -40,5 +40,22 @@ describe('diary link builders emit slash-terminated URLs', () => {
     for (const a of buildHreflangAlternates('')) {
       expect(a.href.endsWith('/')).toBe(true);
     }
+  });
+
+  it('the modern French edition is not an hreflang alternate and canonicalises to the original', () => {
+    const alt = buildHreflangAlternates('001/1873-01-11');
+    expect(alt.some(a => a.href.startsWith('/fr/'))).toBe(false);
+    expect(alt.find(a => a.hreflang === 'fr')?.href).toBe('/original/001/1873-01-11/');
+    expect(alt.some(a => a.hreflang === 'fr-FR')).toBe(false);
+
+    const fr = diarySeoLinks('fr', '001/1873-01-11');
+    expect(fr.alternates).toEqual([]);
+    expect(fr.canonicalUrl).toBe('https://bashkirtseff.org/original/001/1873-01-11/');
+    expect(diarySeoLinks('fr', '001/1873-01-11', undefined, true).canonicalUrl).toBeUndefined();
+    expect(diarySeoLinks('fr', '').canonicalUrl).toBe('https://bashkirtseff.org/original/');
+
+    const en = diarySeoLinks('en', '001/1873-01-11');
+    expect(en.canonicalUrl).toBeUndefined();
+    expect(en.alternates.length).toBeGreaterThan(0);
   });
 });
