@@ -784,6 +784,15 @@ footer.site-footer {
     font-size: 0.85em;
     padding: 4px 2px;
     cursor: pointer;
+    position: relative;
+  }
+
+  /* A one-digit note number is ~7 px wide: an invisible pad makes the target
+     at least 24×24 px (WCAG 2.5.8) without moving the text around it. */
+  .footnote-ref::after {
+    content: '';
+    position: absolute;
+    inset: -6px -9px;
   }
 
   /* Footnotes section — set like a book's notes: the text face at note size

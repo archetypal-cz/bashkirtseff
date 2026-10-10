@@ -417,7 +417,7 @@ const hasOriginal = computed(() => !!props.originalHtml);
 }
 
 .paragraph-toolbar-container:hover .toolbar {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 /* Keyboard users: reveal the (otherwise near-invisible) toolbar when any of
@@ -427,10 +427,16 @@ const hasOriginal = computed(() => !!props.originalHtml);
   opacity: 1;
 }
 
-/* On touch devices, slightly more visible */
+/* Touch devices have no hover to reveal the controls: keep them visible and
+   give them finger-sized (32 px) targets. */
 @media (hover: none) {
   .toolbar {
-    opacity: 0.35;
+    opacity: 0.6;
+  }
+  /* .toolbar prefix: outranks the base .toolbar__btn rule further down */
+  .toolbar .toolbar__btn {
+    min-width: 32px;
+    min-height: 32px;
   }
 }
 

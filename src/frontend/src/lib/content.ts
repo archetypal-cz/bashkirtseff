@@ -35,8 +35,8 @@ import {
 import { THEME_SUBCATEGORIES } from './glossary-categories';
 import { escapeHtml, renderOriginalHtml } from './original-html';
 import {
-  findKind, inlineNoteLanguages, isQuotedKind, kindBodyHtml, kindKey, kindLabelInnerHtml, kindLabelText, kindRuns,
-  languageNoteRest, noteLanguage, parseKindLine, stripLanguageNotes, stripQuoteMarkers, wrapKindHtml, wrapMarkBlock, type ParagraphKind,
+  findKind, inlineNoteLanguages, inlineNotes, isQuotedKind, kindBodyHtml, kindKey, kindLabelInnerHtml, kindLabelText, kindRuns,
+  languageNoteRest, noteLanguage, noteRunLength, parseKindLine, stripLanguageNotes, stripQuoteMarkers, wrapKindHtml, wrapMarkBlock, type ParagraphKind,
 } from './paragraph-kind';
 import { numberFootnotes } from './footnote-numbers';
 import { marksToPlainText, renderMarks } from './text-markers';
@@ -506,8 +506,12 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
   if (!isOriginalLanguage(language)) {
     resolveUntranslated(paragraphs, carnetId, entryId, language);
   }
-  applyKinds(paragraphs, footnotes, language,
+  const noted = applyNotedLanguages(paragraphs, footnotes);
+  applyKinds(paragraphs, footnotes, language, noted,
     isOriginalLanguage(language) ? undefined : () => getEntry(carnetId, entryId, 'original')?.paragraphs ?? []);
+  for (const p of paragraphs) {
+    if (p.glossaryTags) p.glossaryTags = p.glossaryTags.map(tag => ({ ...tag, name: glossaryDisplayName(tag.id) ?? tag.name }));
+  }
   // Footnotes of the French source are editorial English, so only
   // translations (whose notes are in the translation language) get the
   // language's typography.
@@ -677,13 +681,45 @@ function finishParagraphs(paragraphs: Paragraph[], language: string): void {
 }
 
 /**
+ * The language the notes say each paragraph is in, added to its `languages`
+ * (the original-language marker of the paragraph toolbar and flip panel).
+ * A run note („Pozn. překl.: V originále anglicky (tento a dva následující
+ * odstavce).") sits on the first paragraph of a run Marie wrote in another
+ * language and covers the N paragraphs after it, which carry no note of their
+ * own (cz/CLAUDE.md, KRR 2026-10-01): those paragraphs are wholly in that
+ * language. A note on one paragraph may be about a passage inside French text,
+ * so it adds the language next to French.
+ */
+function applyNotedLanguages(paragraphs: Paragraph[], footnotes: Footnote[]): Map<Paragraph, string> {
+  const noteText = new Map(footnotes.map(fn => [fn.id, fn.text]));
+  const noted = new Map<Paragraph, { lang: string; whole: boolean }>();
+  paragraphs.forEach((p, i) => {
+    const notes = [...inlineNotes(p.html), ...(p.footnoteRefs ?? []).map(id => noteText.get(id) ?? '')];
+    for (const note of notes) {
+      const lang = noteLanguage(note);
+      if (!lang) continue;
+      const covers = noteRunLength(note);
+      for (const q of paragraphs.slice(i, i + covers + 1)) {
+        if (covers > 0 || !noted.get(q)?.whole) noted.set(q, { lang, whole: covers > 0 });
+      }
+    }
+  });
+  for (const [p, { lang, whole }] of noted) {
+    const own = (p.languages ?? []).filter(l => l !== 'fr' && l !== lang);
+    p.languages = whole ? [lang, ...own] : ['fr', ...own, lang];
+  }
+  return new Map([...noted].map(([p, { lang }]) => [p, lang]));
+}
+
+/**
  * Put kind paragraphs (clipping, letter, …) in their labelled block. A run of
  * consecutive same-kind, same-source paragraphs is one block in the reading
  * view, labelled once: its paragraphs also get `kindBodyHtml`, and the first
  * one `kindRun`. Runs last so the untranslated fallback sits inside the block.
  */
 function applyKinds(
-  paragraphs: Paragraph[], footnotes: Footnote[], language: string, sourceParagraphs?: () => Paragraph[],
+  paragraphs: Paragraph[], footnotes: Footnote[], language: string, noted: Map<Paragraph, string>,
+  sourceParagraphs?: () => Paragraph[],
 ): void {
   const typoLocale = typographyLocaleFor(language);
   let sourceTags: Map<string, string[]> | undefined;
@@ -703,7 +739,7 @@ function applyKinds(
     }
     if (!kind) continue;
     const { lang, fromNotes, noteIds, trimmedNotes } = run.length > 1
-      ? runLanguage(run, footnotes, tagsOf)
+      ? runLanguage(run, footnotes, noted, tagsOf)
       : { noteIds: new Set<string>(), trimmedNotes: new Map<string, string>() };
     // The body already has its typography (finishParagraphs); the label gets it here.
     const labelHtml = applyTypography(kindLabelInnerHtml(kind, kindSource, language, lang), typoLocale);
@@ -739,30 +775,35 @@ function applyKinds(
  * The one foreign language a run is written in, shown once in its label.
  * When the translation marks each paragraph with a language note (en
  * `^[In English in the original.]`, a cz/uk "V originále anglicky" footnote),
- * every paragraph must carry a note for the same language; the notes then lose
- * their language phrase, and those that said nothing else go (`noteIds` =
- * footnotes to drop, `trimmedNotes` = what the others still say). Otherwise
+ * or one run note covers several (`noted`, see applyNotedLanguages), every
+ * paragraph must be noted with the same language; the notes then lose their
+ * language phrase, and those that said nothing else go (`noteIds` = footnotes
+ * to drop, `trimmedNotes` = what the others still say). A run note that also
+ * covers paragraphs after the block stays whole: it still speaks for them. Otherwise
  * the notes stay and the language tags of the source paragraphs decide
  * (`tagsOf`; translations do not always copy them): exactly one language
  * besides French.
  */
 function runLanguage(
-  run: Paragraph[], footnotes: Footnote[], tagsOf: (p: Paragraph) => string[],
+  run: Paragraph[], footnotes: Footnote[], noted: Map<Paragraph, string>, tagsOf: (p: Paragraph) => string[],
 ): { lang?: string; fromNotes?: boolean; noteIds: Set<string>; trimmedNotes: Map<string, string> } {
   const noteText = new Map(footnotes.map(fn => [fn.id, fn.text]));
   const noteIds = new Set<string>();
   const trimmedNotes = new Map<string, string>();
-  const perParagraph = run.map(p => {
+  const perParagraph = run.map((p, i) => {
     const langs = inlineNoteLanguages(p.html);
     for (const id of p.footnoteRefs ?? []) {
       const text = noteText.get(id) ?? '';
       const lang = noteLanguage(text);
       if (!lang) continue;
       langs.push(lang);
+      if (i + noteRunLength(text) >= run.length) continue;
       const rest = languageNoteRest(text);
       if (rest) trimmedNotes.set(id, rest);
       else noteIds.add(id);
     }
+    const covered = noted.get(p);
+    if (langs.length === 0 && covered) langs.push(covered);
     return new Set(langs);
   });
   const [first] = perParagraph[0];
@@ -2189,6 +2230,29 @@ function getGlossaryPath(language: string = 'original'): string {
 const _glossaryFilesCache = new Map<string, { id: string; path: string; category: string }[]>();
 const _glossaryEntryByPathCache = new Map<string, GlossaryEntry | null>();
 const _glossaryEntriesCache = new Map<string, GlossaryEntry[]>();
+
+let _glossaryNames: Map<string, string> | undefined;
+
+/**
+ * A glossary entry's display name by file id ("Duke of Hamilton" for
+ * DUKE_OF_HAMILTON), from its frontmatter `name:` or first heading; undefined
+ * when there is no such file. Tags carry the name written in the tag link
+ * (`[#Duke_of_Hamilton]`), which is often the id. Names only, so cached for the
+ * whole process (dev included): a renamed entry shows after a restart.
+ */
+export function glossaryDisplayName(id: string): string | undefined {
+  if (!_glossaryNames) {
+    _glossaryNames = new Map();
+    for (const file of findGlossaryFiles(getGlossaryPath('original'))) {
+      try {
+        const text = fs.readFileSync(file.path, 'utf-8');
+        const m = text.match(/^---\n[\s\S]*?^name:\s*(.+?)\s*$/m) ?? text.match(/^#\s+(.+?)\s*$/m);
+        if (m) _glossaryNames.set(file.id, m[1].replace(/^["']|["']$/g, ''));
+      } catch { /* unreadable file: no name */ }
+    }
+  }
+  return _glossaryNames.get(id);
+}
 
 /**
  * Recursively find all glossary entry files (cached per glossary root).

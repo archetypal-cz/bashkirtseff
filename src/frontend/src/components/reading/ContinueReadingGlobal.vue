@@ -3,6 +3,7 @@ import { onMounted, computed } from 'vue';
 import { useHistoryStore, type HistoryItem } from '../../stores/history';
 import { useI18n } from '../../i18n';
 import { useHydrated } from '../../composables/useHydrated';
+import { readingPositionLabel } from '../../lib/reading-position';
 
 /**
  * ContinueReadingGlobal — shows a "Continue reading" button on home/landing
@@ -12,7 +13,7 @@ import { useHydrated } from '../../composables/useHydrated';
  * Renders nothing if no matching item exists.
  */
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
 const historyStore = useHistoryStore();
 const ready = useHydrated();
 onMounted(() => {
@@ -36,7 +37,7 @@ const latestParagraph = computed((): HistoryItem | null => {
     </svg>
     <span class="continue-text">
       {{ t('diary.continueReading') }}
-      <span class="continue-position">{{ latestParagraph.paragraphId }}</span>
+      <span class="continue-position">{{ readingPositionLabel(latestParagraph, locale, t('diary.notebook')) }}</span>
     </span>
     <svg class="continue-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />

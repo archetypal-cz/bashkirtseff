@@ -184,8 +184,10 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
       (function() {
         var t = localStorage.getItem('reading-theme');
         if (t) document.documentElement.setAttribute('data-theme', t);
-        var s = localStorage.getItem('reading-font-scale');
-        if (s) document.documentElement.style.setProperty('--reading-font-scale', (parseInt(s,10)/100).toString());
+        // Percent, 80–130 as the menu sets it; a stray value ("1", "abc") would
+        // shrink the text to nothing, so anything outside 50–300 reads as 100.
+        var s = parseInt(localStorage.getItem('reading-font-scale'), 10);
+        if (s >= 50 && s <= 300) document.documentElement.style.setProperty('--reading-font-scale', (Math.min(130, Math.max(80, s)) / 100).toString());
         // Brand variant: ?brand=<name> persists to 'reading-brand' and sets
         // data-brand. Empty / 'default' / unknown values clear the override so
         // the site returns to the default identity. Whitelisted to stay safe.

@@ -237,6 +237,10 @@ function toggleSubcategory(key: string) {
 }
 
 function formatSubcategoryName(name: string): string {
+  // Glossary subfolder name ("mentioned") → its label in the UI language
+  const key = `glossary.subcategories.${name}`;
+  const label = t(key);
+  if (label !== key) return label;
   return name.charAt(0).toUpperCase() + name.slice(1).replace(/_/g, ' ');
 }
 
@@ -367,7 +371,9 @@ onMounted(() => {
   // Load settings
   const savedFontScale = localStorage.getItem('reading-font-scale');
   const savedTheme = localStorage.getItem('reading-theme');
-  if (savedFontScale) fontScale.value = parseInt(savedFontScale, 10);
+  // Same bounds as the pre-paint script in BaseLayout: a stray value reads as 100
+  const savedScale = parseInt(savedFontScale ?? '', 10);
+  if (savedScale >= 50 && savedScale <= 300) fontScale.value = Math.min(130, Math.max(80, Math.round(savedScale / 5) * 5));
   if (savedTheme) theme.value = savedTheme as 'light' | 'sepia' | 'dark';
   applySettings();
 
@@ -775,7 +781,7 @@ onUnmounted(() => {
                   <!-- Active summary -->
                   <div v-if="filterStore.isActive" class="filter-active-summary">
                     <span class="filter-active-text">
-                      {{ matchingCount.toLocaleString() }} {{ t('filter.of') }} {{ filterStore.index?.totalEntries.toLocaleString() }} {{ t('filter.entries') }}
+                      {{ matchingCount.toLocaleString(locale) }} {{ t('filter.of') }} {{ filterStore.index?.totalEntries.toLocaleString(locale) }} {{ t('filter.entries') }}
                       <span v-if="multiCategoryActive" class="filter-mode-indicator">
                         ({{ filterStore.filterMode === 'and' ? t('filter.modeAnd') : t('filter.modeOr') }})
                       </span>
@@ -837,7 +843,7 @@ onUnmounted(() => {
                             class="tag-checkbox"
                           />
                           <span class="tag-name">{{ tag.name }}</span>
-                          <span class="tag-count">{{ tag.count.toLocaleString('cs-CZ') }}</span>
+                          <span class="tag-count">{{ tag.count.toLocaleString(locale) }}</span>
                         </label>
                       </div>
 
@@ -856,7 +862,7 @@ onUnmounted(() => {
                               class="tag-checkbox"
                             />
                             <span class="tag-name">{{ tag.name }}</span>
-                            <span class="tag-count">{{ tag.count.toLocaleString('cs-CZ') }}</span>
+                            <span class="tag-count">{{ tag.count.toLocaleString(locale) }}</span>
                           </label>
                           <button
                             v-if="category.tags.length > MAX_VISIBLE_TAGS && !filterSearch"
@@ -904,7 +910,7 @@ onUnmounted(() => {
                                   class="tag-checkbox"
                                 />
                                 <span class="tag-name">{{ tag.name }}</span>
-                                <span class="tag-count">{{ tag.count.toLocaleString('cs-CZ') }}</span>
+                                <span class="tag-count">{{ tag.count.toLocaleString(locale) }}</span>
                               </label>
                               <button
                                 v-if="sub.tags.length > MAX_VISIBLE_TAGS && !filterSearch"

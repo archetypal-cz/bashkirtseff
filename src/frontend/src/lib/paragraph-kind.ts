@@ -113,8 +113,11 @@ const NOTE_LANGUAGE_STEMS: Array<[RegExp, string]> = [
 //   en `^[In English in the original.]`, `^[Newspaper clipping in English in the original.]`
 //   cz `Pozn. překl.: V originále anglicky: popis …`
 //   uk `В оригіналі англійською.`, `Англійською в оригіналі.`, `По-латині в оригіналі.`
+//   a run note covers the paragraphs after its own (cz/CLAUDE.md, KRR 2026-10-01):
+//   cz `Pozn. překl.: V originále anglicky (tento a dva následující odstavce).`
+//   en `In Italian in the original (the printed concert programme, this and the next two paragraphs).`
 const LANGUAGE_NOTE_PATTERNS: RegExp[] = [
-  /^(?:newspaper clipping |letter )?in (\p{L}+) in the original\.?$/iu,
+  /^(?:newspaper clipping |letter )?in (\p{L}+) in the original(?=\s*[.:;(]|\s*$)/iu,
   /^Pozn\. překl\.: V originále (\p{L}+)(?=[\s:.,]|$)/u,
   /^В оригіналі (\p{L}+)/u,
   /^(?:По-)?(\p{L}+) в оригіналі/u,
@@ -129,6 +132,48 @@ function matchLanguageNote(note: string): { phrase: string; lang: string } | nul
     for (const [stem, code] of NOTE_LANGUAGE_STEMS) if (stem.test(m[1])) return { phrase: m[0], lang: code };
   }
   return null;
+}
+
+// Number words of run notes, by value
+const RUN_COUNT_WORDS: Record<string, number> = Object.fromEntries([
+  ['jeden', 'dva', 'tři', 'čtyři', 'pět', 'šest', 'sedm', 'osm', 'devět', 'deset', 'jedenáct', 'dvanáct',
+    'třináct', 'čtrnáct', 'patnáct', 'šestnáct', 'sedmnáct', 'osmnáct', 'devatenáct', 'dvacet'],
+  ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve',
+    'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'],
+].flatMap(words => words.map((w, i) => [w, i + 1])));
+
+// The run phrase of a note: „tento a (N) následující(ch) odstav…", "this and the next (N) paragraph(s)"
+const RUN_PHRASE_PATTERNS: RegExp[] = [
+  /tento a (?:(\d+|\p{L}+) )?následující(?:ch)? odstav\p{L}*/u,
+  /this and the (?:next|following) (?:(\d+|\p{L}+) )?paragraphs?/iu,
+];
+
+/**
+ * How many paragraphs after its own a language note covers: 2 for „(tento a dva
+ * následující odstavce)", 1 for „(tento a následující odstavec)", 0 for a note
+ * on one paragraph (or a count it cannot read). `note` is plain text or HTML.
+ */
+export function noteRunLength(note: string): number {
+  const text = note.replace(/<[^>]*>/g, '');
+  for (const pattern of RUN_PHRASE_PATTERNS) {
+    const m = text.match(pattern);
+    if (!m) continue;
+    if (!m[1]) return 1;
+    return /^\d+$/.test(m[1]) ? Number(m[1]) : RUN_COUNT_WORDS[m[1].toLowerCase()] ?? 0;
+  }
+  return 0;
+}
+
+/** A note without its run phrase: „…: program (tento a 4 následující odstavce)." → „…: program." */
+function dropRunPhrase(note: string): string {
+  let out = note;
+  // the phrase alone in brackets, or the last item in them ("(the programme, this and the next two paragraphs)")
+  for (const { source, flags } of RUN_PHRASE_PATTERNS) {
+    out = out
+      .replace(new RegExp(`\\s*\\(\\s*${source}\\s*\\)`, flags), '')
+      .replace(new RegExp(`\\s*[,;]\\s*${source}(?=\\s*\\))`, flags), '');
+  }
+  return out;
 }
 
 /**
@@ -151,7 +196,7 @@ export function languageNoteRest(note: string): string | null {
   if (!match) return null;
   const at = note.indexOf(match.phrase);
   if (at < 0) return note;
-  const rest = note.slice(at + match.phrase.length).replace(/^[\s:.,;–—-]+/, '');
+  const rest = dropRunPhrase(note.slice(at + match.phrase.length)).replace(/^[\s:.,;–—-]+/, '');
   const restText = rest.replace(/<[^>]*>/g, '').replace(/[\s*_.,;:–—-]+/g, '');
   if (!restText) return '';
   const prefix = /^Pozn\. překl\.:/.test(match.phrase) ? 'Pozn. překl.: ' : '';
@@ -161,14 +206,14 @@ export function languageNoteRest(note: string): string | null {
 /** Rendered inline notes (`^[…]`, left as literal text by the renderer), with any breaks before them */
 const INLINE_NOTE_HTML = /(?:\s*<br>)*\s*\^\[((?:(?!\]).)*)\]/gs;
 
+/** The texts of a paragraph's rendered inline notes */
+export function inlineNotes(html: string): string[] {
+  return [...html.matchAll(INLINE_NOTE_HTML)].map(m => m[1]);
+}
+
 /** Languages named by a paragraph's inline language notes */
 export function inlineNoteLanguages(html: string): string[] {
-  const langs: string[] = [];
-  for (const m of html.matchAll(INLINE_NOTE_HTML)) {
-    const lang = noteLanguage(m[1]);
-    if (lang) langs.push(lang);
-  }
-  return langs;
+  return inlineNotes(html).map(noteLanguage).filter((lang): lang is string => lang !== null);
 }
 
 /**

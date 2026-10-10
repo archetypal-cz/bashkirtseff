@@ -61,8 +61,8 @@ const bannerCountText = computed(() => {
   const total = filterStore.index?.totalEntries || 0;
   const matching = filterStore.matchingEntries.length;
   return t('filter.bannerCount')
-    .replace('{matching}', matching.toLocaleString())
-    .replace('{total}', total.toLocaleString());
+    .replace('{matching}', matching.toLocaleString(locale.value))
+    .replace('{total}', total.toLocaleString(locale.value));
 });
 
 // The filter store is now shared by all islands, so another island may have

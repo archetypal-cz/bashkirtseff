@@ -10,6 +10,10 @@ import { execSync } from 'child_process';
 import { readFileSync } from 'fs';
 import AstroPWA from '@vite-pwa/astro';
 
+// Workbox PrecacheFallbackPlugin: a page that is neither online nor cached
+// opens the precached offline page instead of the browser's blank error.
+const OFFLINE_FALLBACK = { fallbackURL: '/offline/index.html' };
+
 // `${carnet}/${entry}` of the modern French edition's finished entries
 // (frontmatter `edition_complete: true`), for the sitemap filter below.
 const FR_EDITION_COMPLETE = (() => {
@@ -204,7 +208,11 @@ export default defineConfig({
         theme_color: '#9A4707',  // brand accent (A11y WS-A darkened value)
         background_color: '#FFF8F0',
         display: 'standalone',
-        orientation: 'portrait-primary',
+        // No `orientation`: a portrait lock kept tablets and landscape readers
+        // from turning the installed app.
+        // `id` pins the app's identity, so a later start_url change does not
+        // make browsers treat it as a different app.
+        id: '/',
         start_url: '/?source=pwa',
         // Lets navigator.getInstalledRelatedApps() (Chromium) see that this
         // web app is already installed, so InstallPrompt.vue stays hidden.
@@ -224,10 +232,12 @@ export default defineConfig({
         // NavigationRoute BEFORE the runtimeCaching routes, which serves the
         // fallback for EVERY navigation (even online) on a multi-page site.
         // This took down the whole site once the SW got registered.
-        // Offline fallback for uncached pages needs injectManifest +
-        // setCatchHandler if we want it back.
+        // The offline page comes from `precacheFallback` on the page routes
+        // below instead: Workbox serves it only when the network fails AND the
+        // page is not cached (OFFLINE_FALLBACK).
         navigateFallback: null,
-        globPatterns: ['**/*.{css,js,svg,png,ico,txt,woff,woff2}'],
+        // offline/index.html: the page OFFLINE_FALLBACK serves, so it must be precached
+        globPatterns: ['**/*.{css,js,svg,png,ico,txt,woff,woff2}', 'offline/index.html'],
         // Keep the 512px PWA icons out of the precache (~280 KB that every
         // installing visitor would download); the browser fetches manifest
         // icons itself when it needs them. includeManifestIcons: false below
@@ -268,6 +278,7 @@ export default defineConfig({
             handler: 'NetworkFirst',
             options: {
               cacheName: 'diary-entries-cache',
+              precacheFallback: OFFLINE_FALLBACK,
               expiration: {
                 maxEntries: 500,
                 maxAgeSeconds: 60 * 60 * 24 * 90
@@ -283,6 +294,7 @@ export default defineConfig({
             handler: 'NetworkFirst',
             options: {
               cacheName: 'diary-entries-cache',
+              precacheFallback: OFFLINE_FALLBACK,
               expiration: {
                 maxEntries: 200,
                 maxAgeSeconds: 60 * 60 * 24 * 90
@@ -299,6 +311,7 @@ export default defineConfig({
             handler: 'NetworkFirst',
             options: {
               cacheName: 'diary-entries-cache',
+              precacheFallback: OFFLINE_FALLBACK,
               expiration: {
                 maxEntries: 5000,
                 maxAgeSeconds: 60 * 60 * 24 * 90 // 90 days
@@ -315,6 +328,7 @@ export default defineConfig({
             handler: 'NetworkFirst',
             options: {
               cacheName: 'stars-page-cache',
+              precacheFallback: OFFLINE_FALLBACK,
               expiration: {
                 maxEntries: 5,
                 maxAgeSeconds: 60 * 60 * 24 * 90
@@ -357,6 +371,16 @@ export default defineConfig({
               cacheableResponse: {
                 statuses: [0, 200]
               }
+            }
+          },
+          {
+            // Every other page (glossary, home, about…): straight to the
+            // network, and the offline page when that fails. Last, so the
+            // cached diary routes above match their pages first.
+            urlPattern: ({ request }) => request.mode === 'navigate',
+            handler: 'NetworkOnly',
+            options: {
+              precacheFallback: OFFLINE_FALLBACK,
             }
           }
         ]

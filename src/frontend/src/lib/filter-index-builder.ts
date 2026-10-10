@@ -42,8 +42,22 @@ export function defaultOutputPath(): string {
   return path.resolve(process.cwd(), 'public/data/filter-index.json');
 }
 
-/** Build a map of glossary ID → subcategory by scanning _glossary directory structure */
-function buildSubcategoryMap(glossaryBase: string, categoryDir: string): Map<string, string> {
+/** Display name of a glossary file: frontmatter `name:`, else its first `# ` heading */
+function readGlossaryName(filePath: string): string | undefined {
+  try {
+    const text = fs.readFileSync(filePath, 'utf-8');
+    const m = text.match(/^---\n[\s\S]*?^name:\s*(.+?)\s*$/m) ?? text.match(/^#\s+(.+?)\s*$/m);
+    return m ? m[1].replace(/^["']|["']$/g, '') : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+/**
+ * Build a map of glossary ID → subcategory by scanning _glossary directory
+ * structure; `names` collects each file's display name on the way.
+ */
+function buildSubcategoryMap(glossaryBase: string, categoryDir: string, names?: Map<string, string>): Map<string, string> {
   const map = new Map<string, string>();
   const categoryPath = path.join(glossaryBase, categoryDir);
 
@@ -57,11 +71,27 @@ function buildSubcategoryMap(glossaryBase: string, categoryDir: string): Map<str
     const files = fs.readdirSync(subPath).filter(f => f.endsWith('.md'));
 
     for (const file of files) {
-      map.set(file.replace('.md', ''), subdir.name);
+      const id = file.replace('.md', '');
+      map.set(id, subdir.name);
+      const name = names && readGlossaryName(path.join(subPath, file));
+      if (name) names.set(id, name);
     }
   }
 
   return map;
+}
+
+/** Ids mapped to their glossary file id when there is one, deduped case-insensitively */
+function canonicalIds(raw: string[] | undefined, fileIds: Map<string, string>): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const rawId of raw?.filter(Boolean) ?? []) {
+    const id = fileIds.get(rawId.toLowerCase()) ?? rawId;
+    if (seen.has(id.toLowerCase())) continue;
+    seen.add(id.toLowerCase());
+    out.push(id);
+  }
+  return out;
 }
 
 /** Convert CAPITAL_ASCII ID to display name */
@@ -89,11 +119,12 @@ function buildTagList(
   counts: Map<string, number>,
   subcats: Map<string, string>,
   minCount = 1,
+  names?: Map<string, string>,
 ): FilterTag[] {
   return Array.from(counts.entries())
     .filter(([, count]) => count >= minCount)
     .map(([id, count]) => {
-      const tag: FilterTag = { id, name: formatDisplayName(id), count };
+      const tag: FilterTag = { id, name: names?.get(id) ?? formatDisplayName(id), count };
       const sub = subcats.get(id);
       if (sub) tag.sub = sub;
       return tag;
@@ -106,9 +137,11 @@ export function buildFilterIndex(contentRoot: string = defaultContentRoot()): Fi
   const glossaryBase = path.join(contentBase, '_glossary');
 
   // Subcategory maps
-  const peopleSubcats = buildSubcategoryMap(glossaryBase, 'people');
-  const placesSubcats = buildSubcategoryMap(glossaryBase, 'places');
-  const cultureSubcats = buildSubcategoryMap(glossaryBase, 'culture');
+  // Glossary display names ("Émile d'Audiffret", not "Emile D Audiffret")
+  const names = new Map<string, string>();
+  const peopleSubcats = buildSubcategoryMap(glossaryBase, 'people', names);
+  const placesSubcats = buildSubcategoryMap(glossaryBase, 'places', names);
+  const cultureSubcats = buildSubcategoryMap(glossaryBase, 'culture', names);
 
   // Theme IDs (entries in culture/themes/), lowercased for case-insensitive matching
   const themeIdsLower = new Set<string>();
@@ -128,6 +161,10 @@ export function buildFilterIndex(contentRoot: string = defaultContentRoot()): Fi
   for (const id of cultureSubcats.keys()) {
     canonicalCultureIds.set(id.toLowerCase(), id);
   }
+
+  // lowercased id → glossary file id, for canonicalIds
+  const peopleIds = new Map([...peopleSubcats.keys()].map(id => [id.toLowerCase(), id]));
+  const placesIds = new Map([...placesSubcats.keys()].map(id => [id.toLowerCase(), id]));
 
   // Aggregate counters
   const peopleCounts = new Map<string, number>();
@@ -178,8 +215,11 @@ export function buildFilterIndex(contentRoot: string = defaultContentRoot()): Fi
       totalParagraphs += paraCount;
 
       const location = (metadata.location as string) || undefined;
-      const people = entities.people?.filter(Boolean) || [];
-      const places = entities.places?.filter(Boolean) || [];
+      // Frontmatter ids arrive in mixed case ("Paris", "Emile_d_Audiffret") next
+      // to file ids (PARIS): canonicalize to the file id like the cultural ids
+      // below, so one place is one tag with one count, a name and a subcategory.
+      const people = canonicalIds(entities.people, peopleIds);
+      const places = canonicalIds(entities.places, placesIds);
 
       // Cultural refs (from frontmatter entities + inline tags)
       const allCultural = entities.cultural?.filter(Boolean) || [];
@@ -261,14 +301,14 @@ export function buildFilterIndex(contentRoot: string = defaultContentRoot()): Fi
   categories.push({
     key: 'people',
     label: 'filter.people',
-    tags: buildTagList(peopleCounts, peopleSubcats, MIN_TAG_COUNT),
+    tags: buildTagList(peopleCounts, peopleSubcats, MIN_TAG_COUNT, names),
   });
 
   // Places (priority 2)
   categories.push({
     key: 'places',
     label: 'filter.places',
-    tags: buildTagList(placesCounts, placesSubcats, MIN_TAG_COUNT),
+    tags: buildTagList(placesCounts, placesSubcats, MIN_TAG_COUNT, names),
   });
 
   // Location (priority 3)
@@ -300,7 +340,7 @@ export function buildFilterIndex(contentRoot: string = defaultContentRoot()): Fi
   categories.push({
     key: 'culture',
     label: 'filter.culture',
-    tags: buildTagList(cultureCounts, cultureSubcatsFiltered, MIN_TAG_COUNT),
+    tags: buildTagList(cultureCounts, cultureSubcatsFiltered, MIN_TAG_COUNT, names),
   });
 
   return {

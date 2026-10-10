@@ -29,7 +29,13 @@ if (!entry) {
   return Astro.redirect(basePath);
 }
 
-const processedParagraphs = entry.paragraphs.map(p => ({
+// The first section opens with the preface's own heading ("# PŘEDMLUVA"),
+// which is already the page H1: leave it out of the body.
+const plainHeading = (html: string) => html.replace(/<[^>]*>/g, '').replace(/^#+\s*/, '').trim().toLocaleLowerCase();
+const bodyParagraphs = entry.paragraphs[0] && plainHeading(entry.paragraphs[0].html) === plainHeading(entry.title)
+  ? entry.paragraphs.slice(1)
+  : entry.paragraphs;
+const processedParagraphs = bodyParagraphs.map(p => ({
   ...p,
   htmlId: `p-${p.id.replace('.', '-')}`,
 }));
@@ -137,7 +143,7 @@ const prefaceDate = prefaceMonth.charAt(0).toLocaleUpperCase(lang.dateLocale) + 
       <div class="flex items-center gap-4 text-sm text-muted flex-wrap">
         <span>{prefaceDate}</span>
         <span class="text-ink/30">|</span>
-        <span data-t="diary.sectionCount" data-t-params={JSON.stringify({ count: entry.paragraphs.length })}>{t('diary.sectionCount', { count: entry.paragraphs.length })}</span>
+        <span data-t="diary.sectionCount" data-t-params={JSON.stringify({ count: carnetEntries.length })}>{t('diary.sectionCount', { count: carnetEntries.length })}</span>
       </div>
     </div>
 

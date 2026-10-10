@@ -9,6 +9,11 @@ import { watch, nextTick, type Ref } from 'vue';
  * `aria-modal="true"`, a translated `aria-label` and `tabindex="-1"`, bind
  * `@keydown="onDialogKeydown"` on it, and call this composable with the open
  * state and the element ref.
+ *
+ * While open, the rest of the page (every other child of <body>) is `inert`,
+ * so assistive tech and Tab cannot reach the content behind the dialog
+ * (`aria-modal` alone is not honoured everywhere). Teleport the dialog to
+ * <body> for this to leave it reachable.
  */
 export function useDialog(
   isOpen: Ref<boolean>,
@@ -16,6 +21,22 @@ export function useDialog(
   opts?: { close?: () => void },
 ) {
   let lastFocused: HTMLElement | null = null;
+  let inerted: HTMLElement[] = [];
+
+  function setBackgroundInert(on: boolean) {
+    if (!on) {
+      for (const el of inerted) el.inert = false;
+      inerted = [];
+      return;
+    }
+    const dialog = dialogEl.value;
+    if (!dialog) return;
+    for (const el of Array.from(document.body.children) as HTMLElement[]) {
+      if (el.contains(dialog) || el.inert || el.tagName === 'SCRIPT') continue;
+      el.inert = true;
+      inerted.push(el);
+    }
+  }
 
   function getFocusable(): HTMLElement[] {
     if (!dialogEl.value) return [];
@@ -62,9 +83,11 @@ export function useDialog(
     if (open) {
       lastFocused = document.activeElement as HTMLElement | null;
       await nextTick();
+      setBackgroundInert(true);
       // Focus the dialog itself (tabindex="-1"); Tab then enters its controls.
       dialogEl.value?.focus();
     } else {
+      setBackgroundInert(false);
       if (lastFocused?.isConnected) lastFocused.focus();
       lastFocused = null;
     }

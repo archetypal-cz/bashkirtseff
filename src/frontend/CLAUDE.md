@@ -225,8 +225,11 @@ the exact mistake that produced the dead-PWA bug — don't.
 > With Workbox `generateSW`, a `navigateFallback` registers a NavigationRoute
 > *before* the runtime caching routes and serves the fallback for **every**
 > navigation — even online — on this multi-page site. That took the whole site
-> down once. A real offline fallback would need `injectManifest` +
-> `setCatchHandler`.
+> down once. The offline page comes from `precacheFallback: OFFLINE_FALLBACK`
+> on the page routes instead (Workbox's PrecacheFallbackPlugin: used only when
+> the network fails *and* the page is not cached), plus a last catch-all
+> `request.mode === 'navigate'` NetworkOnly route for every other page.
+> `offline/index.html` is in `globPatterns` so the fallback is precached.
 
 Runtime caching routes (diary index/entry/section pages, `/data/*.json`, fonts)
 are in `astro.config.mjs` `workbox.runtimeCaching`. The offline-download feature

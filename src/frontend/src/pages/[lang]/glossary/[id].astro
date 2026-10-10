@@ -4,9 +4,9 @@ import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
 import GlossaryFigure from '../../../components/glossary/GlossaryFigure.astro';
 import MarieWorksGallery from '../../../components/glossary/MarieWorksGallery.astro';
-import { getMergedGlossaryEntries, getGlossaryEntryWithFallback, buildGlossaryUsageCounts, stripGlossaryComments, renderGlossaryBlocks } from '../../../lib/content';
+import { getMergedGlossaryEntries, getGlossaryEntry, getGlossaryEntryWithFallback, buildGlossaryUsageCounts, stripGlossaryComments, renderGlossaryBlocks } from '../../../lib/content';
 import { linkifyParagraphRefs } from '../../../lib/paragraph-refs';
-import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { DIARY_LANGUAGES, diarySeoLinks, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 import { withTrailingSlash } from '../../../lib/url';
 
@@ -41,6 +41,12 @@ const entry = getGlossaryEntryWithFallback(entryId, lang.contentPath);
 if (!entry) {
   return Astro.redirect(basePath);
 }
+
+// Glossary entries are written in English; a page in another UI language that
+// shows the untranslated entry marks its text as English for screen readers.
+const bodyLang = lang.uiLocale !== 'en' && (!lang.isTranslation || !getGlossaryEntry(entryId, lang.contentPath))
+  ? 'en'
+  : undefined;
 
 // Usage count and filter category for "Show in diary" button
 const usageCounts = buildGlossaryUsageCounts();
@@ -129,6 +135,15 @@ const images = entry.images ?? [];
 const [leadImage, ...moreImages] = images;
 const displayName = category.startsWith('culture/themes') ? themeName(t, entry.id, entry.name) : entry.name;
 
+// "Osoby · Zmíněné": the entry's folder in the reader's language (raw folder
+// names and the research workflow fields stay out of the page)
+const [topFolder, subFolder] = category.split('/');
+const translated = (key: string) => { const label = t(key); return label === key ? undefined : label; };
+const categoryLabel = [
+  topFolder && translated(`glossary.categories.${topFolder}`),
+  subFolder && subFolder !== 'themes' && translated(`glossary.subcategories.${subFolder}`),
+].filter(Boolean).join(' · ');
+
 // Meta description: the entry's own first sentence(s) as plain text, so each glossary page
 // (the pages crawlers fetch most) gets its own search snippet instead of the site default.
 const plainText = (s: string) => s
@@ -140,12 +155,16 @@ const plainText = (s: string) => s
   .replace(/\s+/g, ' ')
   .trim();
 const descSource = plainText(entry.summary ?? '') || plainText(processedParagraphs[0]?.html ?? '');
+// Every language has every glossary page (untranslated ones fall back to the
+// original), so all of them are alternates; /fr/ canonicalises to /original/.
+const { alternates: glossaryAlternates, canonicalUrl } = diarySeoLinks(lang.urlPath, `glossary/${entry.id}`);
+
 const description = descSource.length > 160
   ? descSource.slice(0, 157).replace(/\s+\S*$/, '') + '…'
   : descSource || undefined;
 ---
 
-<ReadingLayout title={`${displayName} — ${t('glossary.title')}`} description={description} lang={lang.urlPath} sourcePath={entry.category ? `content/_original/_glossary/${entry.category}/${entry.id}.md` : undefined}>
+<ReadingLayout title={`${displayName} — ${t('glossary.title')}`} description={description} lang={lang.urlPath} alternates={glossaryAlternates} canonicalUrl={canonicalUrl} sourcePath={entry.category ? `content/_original/_glossary/${entry.category}/${entry.id}.md` : undefined}>
   <article class="max-w-3xl mx-auto">
     <nav class="mb-6 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
       <a href={withTrailingSlash(`/${lang.urlPath}`)} class="hover:text-accent">{diaryLabel}</a>
@@ -178,24 +197,14 @@ const description = descSource.length > 160
       )}
 
       <div class="flex flex-wrap items-center gap-3 text-sm">
-        {entry.type && (
-          <span class="px-3 py-1 bg-accent text-white rounded">
-            {entry.type}
-          </span>
-        )}
-        {entry.category && (
+        {categoryLabel && (
           <span class="px-3 py-1 bg-sepia text-ink-light rounded">
-            {entry.category}
+            {categoryLabel}
           </span>
         )}
         {entry.languages && entry.languages.length > 0 && (
           <span class="px-3 py-1 bg-sepia text-ink-light rounded">
             {entry.languages.map(l => l.toUpperCase()).join(' / ')}
-          </span>
-        )}
-        {entry.researchStatus && (
-          <span class="px-3 py-1 bg-sepia text-ink-light rounded">
-            {entry.researchStatus}
           </span>
         )}
         {entry.pronunciation && (
@@ -208,11 +217,6 @@ const description = descSource.length > 160
           >
             {t('glossary.pronunciation')}
           </a>
-        )}
-        {entry.lastUpdated && (
-          <span class="text-muted">
-            {t('glossary.updated')}: {entry.lastUpdated}
-          </span>
         )}
       </div>
 
@@ -257,16 +261,16 @@ const description = descSource.length > 160
           >
             {paragraph.isHeader ? (
               paragraph.headerLevel === 1 ? (
-                <h1 class="text-2xl font-normal text-ink mb-4" set:html={paragraph.html} />
+                <h1 class="text-2xl font-normal text-ink mb-4" lang={bodyLang} set:html={paragraph.html} />
               ) : paragraph.headerLevel === 2 ? (
-                <h2 class="text-xl font-semibold text-ink mt-8 mb-4" set:html={paragraph.html} />
+                <h2 class="text-xl font-semibold text-ink mt-8 mb-4" lang={bodyLang} set:html={paragraph.html} />
               ) : (
-                <h3 class="text-lg font-semibold text-ink mt-6 mb-3" set:html={paragraph.html} />
+                <h3 class="text-lg font-semibold text-ink mt-6 mb-3" lang={bodyLang} set:html={paragraph.html} />
               )
             ) : paragraph.isBlock ? (
-              <div class="glossary-block text-lg leading-relaxed text-ink" set:html={paragraph.html} />
+              <div class="glossary-block text-lg leading-relaxed text-ink" lang={bodyLang} set:html={paragraph.html} />
             ) : (
-              <p class="text-lg leading-relaxed text-ink" set:html={paragraph.html} />
+              <p class="text-lg leading-relaxed text-ink" lang={bodyLang} set:html={paragraph.html} />
             )}
 
             {/* Paragraph menu */}
@@ -285,7 +289,7 @@ const description = descSource.length > 160
       </div>
     ) : (
       /* Fall back to simple HTML rendering for old format */
-      <div class="prose-diary" set:html={htmlContent} />
+      <div class="prose-diary" lang={bodyLang} set:html={htmlContent} />
     )}
 
     {galleryAtEnd && <MarieWorksGallery lang={lang} />}

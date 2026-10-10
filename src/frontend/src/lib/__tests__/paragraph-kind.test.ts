@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 
-import { kindRuns, languageNoteRest, noteLanguage, parseKindLine, stripQuoteMarkers, wrapKindHtml } from '../paragraph-kind';
+import { kindRuns, languageNoteRest, noteLanguage, noteRunLength, parseKindLine, stripQuoteMarkers, wrapKindHtml } from '../paragraph-kind';
 import { normalizeDrawings, placeDrawings } from '../drawings';
 
 const tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'bk-kind-'));
@@ -365,6 +365,68 @@ describe("a run's language in its label", () => {
     expect(entry.paragraphs[0].kindRun!.labelText).toBe('Газетна вирізка · Galignani · англійською');
     expect(entry.paragraphs[1].kindBodyHtml).toContain('href="#fn-1"');
     expect(entry.footnotes.map(f => f.id)).toEqual(['1']);
+  });
+});
+
+describe('run notes: one note for a paragraph and the N after it', () => {
+  it('reads the count of a run note, and drops the run phrase from what the note says', () => {
+    expect(noteRunLength('Pozn. překl.: V originále anglicky (tento a dva následující odstavce).')).toBe(2);
+    expect(noteRunLength('Pozn. překl.: V originále anglicky (tento a následující odstavec).')).toBe(1);
+    expect(noteRunLength('Pozn. překl.: V originále anglicky (tento a devatenáct následujících odstavců).')).toBe(19);
+    expect(noteRunLength('Pozn. překl.: V originále italsky: program (tento a 4 následující odstavce).')).toBe(4);
+    expect(noteRunLength('In Italian in the original (the printed concert programme, this and the next two paragraphs).')).toBe(2);
+    expect(noteRunLength('Pozn. překl.: V originále anglicky.')).toBe(0);
+    expect(languageNoteRest('Pozn. překl.: V originále anglicky (tento a pět následujících odstavců).')).toBe('');
+    expect(languageNoteRest('Pozn. překl.: V originále italsky: tištěný program dostihů (tento a 4 následující odstavce).'))
+      .toBe('Pozn. překl.: tištěný program dostihů.');
+    expect(languageNoteRest('Pozn. překl.: V originále anglicky (tento a následující odstavec). „Mr Soucap“ je žert.'))
+      .toBe('Pozn. překl.: „Mr Soucap“ je žert.');
+    expect(noteLanguage('In Italian in the original (the printed concert programme, this and the next two paragraphs). Titles as printed.')).toBe('it');
+    expect(languageNoteRest('In Italian in the original (the printed concert programme, this and the next two paragraphs). Titles as printed.'))
+      .toBe('(the printed concert programme). Titles as printed.');
+    expect(noteLanguage('In English in the original text, Marie writes')).toBeNull();
+  });
+
+  beforeAll(() => {
+    // plain diary paragraphs: 21 opens a run of three, 24 is French again
+    write('cz', '903', '1873-05-06', '', [
+      '%% 903.0020 %%', 'Francouzsky.', '',
+      '%% 903.0021 %%', 'Anglicky jedna.[^1]', '',
+      '%% 903.0022 %%', 'Anglicky dvě.', '',
+      '%% 903.0023 %%', 'Anglicky tři.', '',
+      '%% 903.0024 %%', 'Zase francouzsky.', '',
+      '%% 903.0025 %%', 'Věta a ==anglická pasáž==.[^2]', '',
+      '[^1]: Pozn. překl.: V originále anglicky (tento a dva následující odstavce).',
+      '[^2]: Pozn. překl.: V originále anglicky.',
+    ].join('\n'));
+    // a pasted programme: the run note on its first paragraph covers the whole block
+    write('cz', '903', '1877-04-05', '', [31, 32, 33].map(i => [
+      `%% 903.00${i} %%`, '%% kind: clipping source="programme" %%',
+      `> Řádek ${i}.${i === 31 ? '[^1]' : ''}`,
+    ].join('\n')).join('\n\n') + '\n\n[^1]: Pozn. překl.: V originále italsky: tištěný program (tento a 2 následující odstavce).');
+    // the note covers more than the block: it stays
+    write('cz', '903', '1877-04-06', '', [
+      ...[41, 42].map(i => [`%% 903.00${i} %%`, '%% kind: letter %%', `> Dopis ${i}.${i === 41 ? '[^1]' : ''}`].join('\n')),
+      '%% 903.0043 %%\nDál anglicky.',
+    ].join('\n\n') + '\n\n[^1]: Pozn. překl.: V originále anglicky (tento a dva následující odstavce).');
+  });
+
+  it('marks the noted paragraph and the N after it as written in that language', () => {
+    const ps = getEntry('903', '1873-05-06', 'cz')!.paragraphs;
+    expect(ps.map(p => p.languages)).toEqual([['fr'], ['en'], ['en'], ['en'], ['fr'], ['fr', 'en']]);
+  });
+
+  it('names the language once in a block labelled from a run note, and drops the note', () => {
+    const entry = getEntry('903', '1877-04-05', 'cz')!;
+    expect(entry.paragraphs[0].kindRun!.labelText).toBe('Novinový výstřižek · programme · italsky');
+    expect(entry.footnotes.map(f => f.text)).toEqual(['Pozn. překl.: tištěný program.']);
+  });
+
+  it('keeps a run note that also covers paragraphs after the block', () => {
+    const entry = getEntry('903', '1877-04-06', 'cz')!;
+    expect(entry.paragraphs[0].kindRun!.labelText).toContain('anglicky');
+    expect(entry.footnotes.map(f => f.text)).toEqual(['Pozn. překl.: V originále anglicky (tento a dva následující odstavce).']);
+    expect(entry.paragraphs[2].languages).toEqual(['en']);
   });
 });
 
