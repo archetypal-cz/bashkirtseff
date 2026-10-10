@@ -391,7 +391,8 @@
         "unknown": "Whereabouts unknown"
       },
       "cardDesc": "Her paintings, pastels and sculpture — what survives, where it is, and what was lost."
-    }
+    },
+    "fullText": "Full text"
   },
   "diary": {
     "subtitle": "Work-in-progress AI-assisted, human-refined translation of the complete diary",

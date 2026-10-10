@@ -392,7 +392,8 @@
         "unknown": "Localisation inconnue"
       },
       "cardDesc": "Ses tableaux, pastels et sa sculpture : ce qui subsiste, où, et ce qui a été perdu."
-    }
+    },
+    "fullText": "Texte intégral"
   },
   "diary": {
     "subtitle": "Traduction en cours, assistée par IA et affinée par des humains, du journal complet",

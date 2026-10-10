@@ -478,6 +478,33 @@ Images live in the original entry file; translated glossary entries inherit them
 automatically, so only duplicate the block in a translation when the captions
 need translating.
 
+### Full texts (`full_text:`)
+
+Entries for works (books, plays, libretti, poems, songs) can link the full text.
+The links render under the entry header as «Full text: …» in the reader's UI
+language, and translated entries inherit them like images:
+
+```yaml
+full_text:
+  - url: https://fr.wikisource.org/wiki/La_Dame_aux_cam%C3%A9lias_(roman)
+    label: "La Dame aux camélias (1848), roman"
+    source: Wikisource
+    language: fr
+  - url: https://gallica.bnf.fr/ark:/12148/bpt6k…
+    label: "Edition Michel Lévy, 1852"
+    source: Gallica (BnF)
+    language: fr
+```
+
+Only `url` (http/https) is required. Link only public-domain or freely licensed
+copies (Wikisource, Gallica, Project Gutenberg, Internet Archive, HathiTrust full
+view, IMSLP for scores), prefer the original language and an edition Marie could
+have read, and check the link resolves. For paintings and sculptures use
+`images:` with a public-domain image (Wikimedia Commons or the museum's own
+open-access file) stored under `src/frontend/public/images/works/` (kebab-case,
+≤1600 px, JPEG q82, under ~500 KB), `credit` naming the holder and licence, and
+`link` to the museum or Commons page.
+
 ## Quality Standards
 
 - Every entry MUST have complete frontmatter

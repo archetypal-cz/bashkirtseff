@@ -397,7 +397,8 @@
         "unknown": "Nezvěstné"
       },
       "cardDesc": "Její obrazy, pastely a socha — co se dochovalo, kde to je a co se ztratilo."
-    }
+    },
+    "fullText": "Plný text"
   },
   "diary": {
     "subtitle": "Rozpracovaný AI-asistovaný, lidmi dolaďovaný překlad kompletního deníku",

@@ -247,6 +247,21 @@ const description = descSource.length > 160
           )}
         </div>
       )}
+
+      {entry.fullText && entry.fullText.length > 0 && (
+        <nav class="glossary-fulltext" aria-label={t('glossary.fullText')}>
+          <span class="glossary-fulltext-label">{t('glossary.fullText')}:</span>
+          <ul>
+            {entry.fullText.map(ft => (
+              <li>
+                <a href={ft.url} target="_blank" rel="noopener" hreflang={ft.language}>{ft.label ?? ft.source ?? ft.url}</a>
+                {ft.label && ft.source && <span class="glossary-fulltext-source"> — {ft.source}</span>}
+                {ft.language && <span class="glossary-fulltext-source"> ({ft.language})</span>}
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
     </header>
 
     {/* Render with paragraph clusters if available */}
@@ -388,6 +403,17 @@ const description = descSource.length > 160
     background: var(--color-accent-light, #92400E);
     color: var(--bg-primary);
   }
+
+  .glossary-fulltext {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--text-secondary, inherit);
+  }
+  .glossary-fulltext ul { display: inline; padding: 0; margin: 0; list-style: none; }
+  .glossary-fulltext li { display: inline; }
+  .glossary-fulltext li + li::before { content: ' · '; }
+  .glossary-fulltext a { color: var(--color-accent); text-decoration: underline; }
+  .glossary-fulltext-source { opacity: 0.75; }
 
   .glossary-images {
     margin-top: 1.75rem;

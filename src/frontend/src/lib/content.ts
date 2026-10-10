@@ -143,6 +143,7 @@ export interface GlossaryEntry {
   pronunciation?: string;      // URL to pronunciation (e.g., Google Translate)
   aliases?: string[];          // Alternative names/spellings
   images?: GlossaryImage[];    // Illustrations (frontmatter `images:`)
+  fullText?: GlossaryFullText[]; // Links to the work's full text (frontmatter `full_text:`)
   work?: MarieWork;            // Set only on Marie's own works (`marie_work: true`)
   worksGallery?: boolean;      // Hub entry: render the gallery of Marie's works
   worksGalleryAfter?: string;  // Paragraph ID the gallery follows (default: end)
@@ -190,6 +191,24 @@ export interface GlossaryImage {
   credit?: string;    // Source / rights line under the caption
   alt?: string;       // Alt text override (defaults to the caption)
   link?: string;      // Optional URL the image links to (museum page, source scan)
+}
+
+/**
+ * A link to the full text of a work (book, play, libretto, poem), from frontmatter:
+ *
+ *   full_text:
+ *     - url: https://fr.wikisource.org/wiki/La_Dame_aux_cam%C3%A9lias
+ *       label: "La Dame aux camélias (1848)"
+ *       source: "Wikisource"
+ *       language: fr
+ *
+ * Only `url` is required. Public-domain or freely licensed copies only.
+ */
+export interface GlossaryFullText {
+  url: string;
+  label?: string;
+  source?: string;    // Wikisource, Gallica, Project Gutenberg, Internet Archive…
+  language?: string;  // ISO 639-1 of the text behind the link
 }
 
 export interface GlossaryParagraph {
@@ -2375,11 +2394,15 @@ export function getGlossaryEntryWithFallback(id: string, language: string): Glos
       // declared only in the original would disappear on translated pages.
       // Inherit them (captions stay in the source language until the
       // translation declares its own `images:` block, which wins).
-      if (!translated.images) {
+      if (!translated.images || !translated.fullText) {
         const original = getGlossaryEntry(id, 'original', language);
-        if (original?.images) {
-          // Copy — parsed entries are cached and must not be mutated.
-          return { ...translated, images: original.images };
+        // Copy — parsed entries are cached and must not be mutated.
+        if (original?.images || original?.fullText) {
+          return {
+            ...translated,
+            images: translated.images ?? original.images,
+            fullText: translated.fullText ?? original.fullText,
+          };
         }
       }
       return translated;
@@ -2507,6 +2530,7 @@ function parseGlossaryEntryFromPath(filePath: string, category: string, language
     pronunciation: metadata.pronunciation as string | undefined,
     aliases: metadata.aliases as string[] | undefined,
     images: normalizeGlossaryImages(metadata.images),
+    fullText: normalizeGlossaryFullText(metadata.full_text),
     work: metadata.marie_work === true ? normalizeMarieWork(metadata.work) : undefined,
     worksGallery: metadata.works_gallery === true || undefined,
     worksGalleryAfter: typeof metadata.works_gallery_after === 'string' ? metadata.works_gallery_after : undefined,
@@ -2557,6 +2581,22 @@ function normalizeGlossaryImages(value: unknown): GlossaryImage[] | undefined {
   }
 
   return images.length > 0 ? images : undefined;
+}
+
+/** Normalize the frontmatter `full_text:` list; items without an http(s) `url` are dropped. */
+function normalizeGlossaryFullText(value: unknown): GlossaryFullText[] | undefined {
+  if (!Array.isArray(value)) return undefined;
+  const str = (v: unknown): string | undefined =>
+    typeof v === 'string' && v.trim() !== '' ? v.trim() : undefined;
+  const out: GlossaryFullText[] = [];
+  for (const raw of value) {
+    const item = (typeof raw === 'string' ? { url: raw } : raw) as Record<string, unknown> | null;
+    if (!item || typeof item !== 'object') continue;
+    const url = str(item.url);
+    if (!url || !/^https?:\/\//.test(url)) continue;
+    out.push({ url, label: str(item.label), source: str(item.source), language: str(item.language) });
+  }
+  return out.length > 0 ? out : undefined;
 }
 
 const LIST_ITEM = /^\s*(?:[-*+]|\d+[.)])\s+/;

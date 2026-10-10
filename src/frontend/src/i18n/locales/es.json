@@ -392,7 +392,8 @@
         "unknown": "Paradero desconocido"
       },
       "cardDesc": "Sus cuadros, pasteles y su escultura: lo que se conserva, dónde, y lo que se perdió."
-    }
+    },
+    "fullText": "Texto completo"
   },
   "diary": {
     "subtitle": "Traducción en curso del diario completo, asistida por IA y refinada por personas",
