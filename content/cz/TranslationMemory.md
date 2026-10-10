@@ -488,9 +488,9 @@ These override older per-carnet entries below where they conflict.
 - First appearance: 032 (1875-05-05)
 
 ### robe Archiduc
-- Translation (Czech): šaty Arcivévoda
-- Context: 1870s fashion style named after Archduke, Marie's favorite outfit this period
-- First appearance: 032 (1875-04-25)
+- Translation (Czech): šaty Arcivévoda (031 ×2, 032 ×4, 033 ×2, 039 — sole form since 2026-10-10)
+- Context: Marie's own name for her straw-coloured dress, after Offenbach's *Madame l'Archiduc* (031/1875-04-14: she renames the „robe prince de Galles“), her favourite outfit this period
+- First appearance: 031 (1875-04-14)
 
 ### chapeau Watteau
 - Translation (Czech): klobouk Watteau
@@ -576,11 +576,8 @@ These override older per-carnet entries below where they conflict.
 - Context: Saturnalia; wild revelry, reference to Roman festival of misrule
 - First appearance: 033 (1875-05-22)
 
-### robe Archiduc (033)
-- Translation (Czech): šaty Archiduc
-- Context: Marie's favorite white dress this period, continues from carnet 032
-- First appearance: 033 (1875-05-28)
-- Notes: Used without "Arcivévoda" translation per established usage; kept as fashion name
+### robe Archiduc (033) — RETIRED 2026-10-10 (RED, D-02)
+- Use the 032 row above: „šaty Arcivévoda“ (Marie names the dress herself in 031/1875-04-14, „Nazvu je Arcivévoda“). 033 ×2 and 039 aligned from „šaty Archiduc“ 2026-10-10.
 
 ### festin du Var
 - Translation (Czech): slavnost Var
@@ -815,7 +812,7 @@ These override older per-carnet entries below where they conflict.
 - Other recurring English renderings fixed in 015–017 (indicative): "foggy" → ==mlhavo==, "waterproof" → ==nepromokavý plášť==, "canter" → ==krátkým cvalem==, "nonsenses" → ==nesmysly==, "walk" / "for a walk" → ==na procházku==, "drive(s)" → ==jet / projíždět se==. Marie's own place-coinage "outside" (017) and the pun "bino-eie" (015) stay in italics with a note. Titles without an established Czech form stay French in italics + gloss (*Les décavés*, *La jolie parfumeuse*, *Les courtisanes du monde*, *Louis XIV et son siècle*); established ones go Czech with the original in the footnote („Favoritka“, „Iliada“, „Gulliverovy cesty“).
 
 ### Reading-conventions renderings, carnets 024–026 (CON 2026-10-03)
-- Titles with an established Czech stage title (text Czech, Marie's title in the footnote): «Le pardon de Ploërmel» → „Dinorah“ (Meyerbeer; the opera's stage title in Czech); «i Lombardi» → „Lombarďané“ (Verdi, *I Lombardi alla prima crociata* = „Lombarďané na první křížové výpravě“); «Orphée (aux enfers)» → „Orfeus (v podsvětí)“; «L'Italiana in Algeria» → „Italka v Alžíru“; «Les brigands» → „Lupiči“; «Barbe Bleue» → „Modrovous“; «Don Quichotte» → „Don Quijote“. Kept French in italics + gloss: *Gentil Bernard ou l'art d'aimer*.
+- Titles with an established Czech stage title (text Czech; Marie's title in the footnote — dropped since owner A-04 2026-10-05, footnotes keep only other information): «Le pardon de Ploërmel» → „Dinorah“ (Meyerbeer; the opera's stage title in Czech); «i Lombardi» → „Lombarďané“ (Verdi, *I Lombardi alla prima crociata* = „Lombarďané na první křížové výpravě“); «Orphée (aux enfers)» → „Orfeus (v podsvětí)“; «L'Italiana in Algeria» → „Italka v Alžíru“; «Les brigands» → „Lupiči“; «Barbe Bleue» → „Modrovous“; «Don Quichotte» → „Don Quijote“. Kept French in italics + gloss: *Gentil Bernard ou l'art d'aimer*.
 - Mottoes (ED default 2026-10-03, owner may veto): *ich dien*, *Honni soit qui mal y pense* stay in the original, italics, translation in the footnote (not `==…==`).
 - Italian: «untranquillo / untranquilla» (Walitsky's telegram 024.0010 and Marie's echo 024.0103) → ==neklidný== / ==neklidná==; «stizzata» → ==popuzená==; «per un bel pezzo» → ==ještě pěkně dlouho==; «Buon giorno, come state?» → ==Dobrý den, jak se máte?==; whole Italian paragraph 026.0012 («O misera me…») → Czech text with the run note „V originále italsky.“, no wrapper.
 - French kept by earlier passes, now Czech: «œil-de-bœuf» (neckline) → ==volské oko== + footnote; «chapeau Mademoiselle» → „klobouk Mademoiselle“ (fashion name, footnote). English game name *Aunt Sally* stays (name, footnote).
@@ -830,7 +827,7 @@ These override older per-carnet entries below where they conflict.
 - English: «unlucky» (la plus unlucky des femmes) → ==nejsmolnější==; «bustle» → ==ruch==; «awfully expressive» → ==strašně výstižné==; «pleasantly enough» → ==celkem příjemně==; «deliciously» → ==rozkošně==; «money, money, money» → ==peníze, peníze, peníze==.
 - Italian: «Anima, coraggio !» → ==Odvahu, duše!==; «Il fiato mi manca !» → ==Nemám dech!==; «Quanto al matrimonio» → ==Pokud jde o svatbu==; «al castello dell'illustrissimo signore» → ==na zámku nejurozenějšího pána==; «Di bianco vestita» → ==v bílém oděná==.
 - Song title «God save the Queen» → „Bože, chraň královnu“ (title, no wrapper; English in the footnote).
-- «gentleman» (naturalised) stays plain „gentleman/gentlemana“ (visible-corpus majority 16 vs „džentlmen-“ 8 at 2026-10-03; the workplan's „džentlmen“ sweep is still an open item, not applied here).
+- «gentleman» (naturalised) → plain „džentlmen/džentlmena“ — SUPERSEDED by the ED ruling 2026-10-04 (row in the 052–054 section); was „gentleman/gentlemana“. Sweep done 2026-10-10 (RED, D-02): no „gentleman-“ left in visible cz text outside quoted English originals in footnotes.
 - Marie's French verse (038.0122 epistle to the aunt; 039.0025, 0027; «Revue de Nice» 039.0166–0184): rhymed Czech doggerel, one verse line per source line, no wrapper; stanzas without a natural rhyme may stay near-literal.
 
 ### Reading-conventions renderings, carnets 058–060 (CON 2026-10-03)
@@ -838,7 +835,7 @@ These override older per-carnet entries below where they conflict.
 - *San Diou de Diou !* (060.0013, letter to Nice, not flagged as Niçois in the passage) → ==Propánakrále!== per the Cap de Biou ruling above (footnote „V originále nicejsky: …“).
 - *Corpo di Dio* (060.0024) → ==Při těle Božím!==; *Carpo di Bacco* (059.0891) → ==do toho Bakcha!== (row 059 below; note cz/052 in flight has ==Při Bakchovi!== for *Corpo di Bacco*).
 - *via !* (058.0251, 059.0652) → ==nechme toho!== (dismissive „enough of that“; the 055 example „pryč!“ fits only a literal „away!“).
-- *gentlemen riders* (059.0035) → ==amatérských jezdců== (as committed 018/1874-04-23; 022 has ==jezdci-džentlmeni==); the naturalised single word *gentleman/gentlemen* stays plain „gentleman/gentlemanů“ per the 037–039 row (the „džentlmen“ sweep is still open).
+- *gentlemen riders* (059.0035) → ==amatérských jezdců== (as committed 018/1874-04-23, 070, 079); where the phrase is run into Czech as a naturalised compound it is plain „džentlmeni-jezdci“ (084/1879-02-23; 022/1874-08-03 aligned 2026-10-10, D-02). The single word *gentleman/gentlemen* → plain „džentlmen/džentlmenů“ (ED ruling 2026-10-04; swept 2026-10-10).
 - *Mercurio* (060.0639, „faire le Mercurio“) → „dělat Merkura“ (mythological name used as a role, plain, Italian in the footnote; as en "play Mercury", uk «роль Меркурія»).
 - *traviata* as period slang for a kept woman (060.0278, 0466) stays, italic *traviata* + footnote (echo of Verdi's opera, which Marie is singing in the same days); not ==…==.
 - *plobster* (Marie's coinage) stays plain, never ==…== (059 ×3 unmarked; cz/053/1876-01-27 still has ==plobsters==, align when that carnet is reviewed).
@@ -1472,7 +1469,7 @@ These override older per-carnet entries below where they conflict.
 - Translation (Czech): poplést / zaujmout / zmást — NIKDY „intrikovat"
 - Context: French "intriguer qqn" here = to intrigue/mystify/pique someone's curiosity (esp. mystifying someone behind a mask at a ball), NOT to scheme. Czech neologism "intrikovat" carries the OPPOSITE sense (kout pikle) and is a genuine semantic error (false friend).
 - First appearance: recurs across 074–079 (e.g. 077/1878-01-27, 078.0339/0341/0469, 079/1878-03-24)
-- Notes: Locked by CON during the 077–079 wave. Keep the genuine scheme-sense words distinct: "pletichy" / "intriky" for actual schemes (the wordplay contrast in 079/1878-03-24 is intentional). STILL UNFIXED in committed 075/1877-10-20 — pending a 074–077 propagation pass.
+- Notes: Locked by CON during the 077–079 wave. Keep the genuine scheme-sense words distinct: "pletichy" / "intriky" for actual schemes (the wordplay contrast in 079/1878-03-24 is intentional). 075/1877-10-20 (075.0364 «ils étaient intrigués») was already fixed by RED 2026-06-10 („zaujalo je to“); checked 2026-10-10 (D-02): no mystify-sense „intrikovat“ left in 074–077.
 
 ### Breslau (Louise-Catherine Breslau)
 - Translation (Czech): Breslau — uninflected (NOT „Breslauová")
@@ -1516,7 +1513,7 @@ These override older per-carnet entries below where they conflict.
 - Translation (Czech): SUPERSEDED 2026-10-03 (option B, lead/CON) → Troubetzkoy / kněžna Troubetzkoyová (pl. Troubetzkoyovi, fem. pl. Troubetzkoyovy), declined; Marie's variant spellings follow the French per occurrence (Troubetskoy, Troubestkoy, Troubeskoy). Was: Trubecká (paní Trubecká)
 - Context: Russian princely name; recurring society figure (Lise Troubetzkoy's salon; society acquaintances → tier 2, not a public figure).
 - First appearance: 021/067/071/079; reaffirmed 080
-- Notes: Never the Czech-ised „Trubecká/Trubeckoj" any more, and never malformed transliterations like „Troubetzkojaová". Swept 2026-10-03 in 083, 094, 095, 096; carnets 067 (and the other re-split carnets) still carry „Trubecká" pending their re-split.
+- Notes: Never the Czech-ised „Trubecká/Trubeckoj" any more, and never malformed transliterations like „Troubetzkojaová". Swept 2026-10-03 in 083, 094, 095, 096; the last „Trubecká“ (067/1876-11-28) aligned 2026-10-10 (RED, D-02) — none left in the tree.
 
 ### "intriguer" — BOTH senses live in this arc (split per occurrence)
 - Translation (Czech): mystify → poplést/zaujmout/zmást; scheme → pletichy/intriky
@@ -1873,7 +1870,7 @@ These override older per-carnet entries below where they conflict.
 - 050.0479 *gioriae cupiditate*: the old footnote's attribution „z Tacita o císaři Septimiu Severovi“ is unsupported and was removed; do not reintroduce it (the same claim still sits in the _original LAN note and footnote [^2], reported to the lead).
 
 ### Reading-conventions wave 052–054 (CON 2026-10-03)
-- ED rulings for cz (2026-10-04, applied here): *gentleman* → plain „džentlmen“ (no `==…==`; supersedes the 037–039 / 058–060 notes keeping „gentleman“, sweep pending); *Corpo di Bacco* → `==do toho Bakcha!==` (row 1282; 052/01-13 aligned from „Při Bakchovi!“); *plobster* plain Czech-declined, never `==…==` (053/01-27 „plobsteři“).
+- ED rulings for cz (2026-10-04, applied here): *gentleman* → plain „džentlmen“ (no `==…==`; supersedes the 037–039 / 058–060 notes keeping „gentleman“; sweep done 2026-10-10, D-02); *Corpo di Bacco* → `==do toho Bakcha!==` (row 1282; 052/01-13 aligned from „Při Bakchovi!“); *plobster* plain Czech-declined, never `==…==` (053/01-27 „plobsteři“).
 - *le Surprenant* / Latin *Surpem* (052.0085, Marie's latinised nickname inside her mock-Latin insult) → „Záhadný“ (Záhadným) inside the translated run, per the lock.
 - *Gloriae cupiditate*: where Marie names it as her motto («Ma devise … Gloriae cupiditate», 053/01-25, with *Audacer et amanter*) → original in italics + gloss footnote (motto default); where she uses it as a noun phrase («j'étouffe de Gloriae Cupididate», «c'est le Gloriae Cupiditate») → `==touhou po slávě==` / `==touha po slávě==` + Latin footnote (row 070; cz 050 „touhu po slávě“).
 - *canaille* said of a person → `==lump==` (vocative „lumpe“), `==darebák==` (021) or `==ničema==` (065) by context; „lůza“ stays for the collective sense (row 006). Not a lock.
@@ -1890,7 +1887,7 @@ These override older per-carnet entries below where they conflict.
 - Torlonia's catchphrase *Non, écoutez* (056, also echoed by Marie) → `==Ne, poslouchejte==`, footnote at first occurrence per entry; the metalinguistic *non écoutez* (056.0407) stays French.
 - *O Gioia !* (055/03-02, 03-05) is the exclamation (LAN: "Oh joy!"), not Hamilton's Gioia → `==Ó radosti!==`.
 - *à la pompéienne* (Pietro's phrase, 057/04-13) → `==po pompejánsku==`; *poussé au non plus* (057.0167) → „až k nec plus ultra“ (naturalised, per the 057 row), her form in the footnote.
-- Titles: *Le Panache* (Gondinet), *Madame l'Archiduc* (Offenbach), *La Jolie Parfumeuse* stay French in italics + „doslova …“ gloss; established Czech „Pařížský život“, „Vestálka“ get the original title in a footnote.
+- Titles: *Le Panache* (Gondinet), *Madame l'Archiduc* (Offenbach), *La Jolie Parfumeuse* stay French in italics + „doslova …“ gloss; established Czech „Pařížský život“, „Vestálka“ (not „Vestalinka“; 058 aligned 2026-10-10) — original-title footnote dropped per owner A-04 (2026-10-05).
 - *pazzerello* as the nickname (055/03-11) aligned to the 054 row: „Blázínek“, no wrapper.
 
 ### Reading-conventions renderings, carnets 064–066 (CON 2026-10-03)
@@ -1991,7 +1988,7 @@ These override older per-carnet entries below where they conflict.
 
 ### Reading-conventions renderings, carnets 091–093 (CON 2026-10-03)
 - *chic* (093/10-06 ×2, 10-16 «le comble du chic», 10-22, 10-25) → plain naturalised „šik“ (declined „se šikem“, „vrchol šiku“), no wrapper, no footnote, per the 079–081 and 085–087 rows (worker's ==šik== + footnotes removed).
-- *starovoï* / *stariovoi* (092.0282, Marie's spelling there «stariovoi») → `==starosta==` (declined ==starostu==), aligned with cz 096 (ED instruction 2026-10-03); footnote quotes her spelling and keeps the *становой* (stanovoj pristav, police officer) reading. **Owner question pending** (староста vs становой): en/uk 092 and the context (assists a house search, gets his „představený“ drunk) favour становой; cz 102.0637 has Marie's own police gloss. Sweep 092/096/102 together once the owner rules.
+- *starovoï* / *stariovoi* (092.0282, Marie's spelling there «stariovoi») — SUPERSEDED: the ==starosta== rendering and its owner question were closed by the 2026-10-03 CON sweep (row „starovoï = становой“ below: ==policejního komisaře== / ==komisař==). Stale „owner question pending“ wording dropped 2026-10-10 (RED, D-02).
 - *ispravnik* (091.0479) → `==okresní policejní náčelník==` (declined), as cz 040; the article stays outside the wrapper („jednomu ==okresnímu policejnímu náčelníkovi==“).
 - Spanish: *Coro* (cathedral choir, 093/10-14, 10-15, 10-20) → `==chór==` (masc.: „ten chór“); *salada* (compliment to a woman, 093/10-25) → `==pikantní==`; *al senior Don Lorenzo* (her spelling) → „s ==panem== donem Lorenzem“ (only *señor* translated; *don* + name plain, name rule), footnote „tak v textu; zřejmě *señor*“. Newspaper *la Espora* (her rendering of *La Época*) stays italic as a title + footnote.
 - Latin/Italian: *Ave !* (mock salute, 092.0285) → `==Zdráv buď!==`; *sine qua non* → `==nezbytná podmínka==` (as committed 101/102); *in petto* (Italian) → `==v duchu==`; *id est* → `==to jest==`; *idem* (093.0175, „me faire faire idem“) → `==stejně==`; *verticem mundi* → `==vrchol světa==`.
@@ -2038,7 +2035,7 @@ These override older per-carnet entries below where they conflict.
 - Speech extent: Marie's dialogue with her two selves (*moi-acteur* / *moi-spectateur*, 104.0712–0713) and her blurred indirect-to-direct speech to Claire (103.0731 «je dis que après bien des: …») stay unquoted (self-talk / indirect, 076–078 row). Remarks of others she imagines or hears (105/07-12 the Canroberts, 105/08-02 the maréchale, «entendre dire: …») go in „…“. A telegram left unclosed in the French (104.0378–0380) is quoted paragraph by paragraph and closed on its last line (088–090 letter row). The dash-led numbered list (103/02-02) and torn-page fragments (103/02-03, 02-16) keep their dashes (not speech).
 
 ### Reading-conventions renderings, carnets 100–102 (CON 2026-10-03)
-- *starovoï* (102.0637) → `==starostou==` per the 091–093 row (owner question pending, sweep 092/096/102 together); the printed gloss «(fonctionnaire de la police)», dropped by an earlier pass, restored as „(policejním úředníkem)“; footnote keeps the *становой* reading.
+- *starovoï* (102.0637) — SUPERSEDED by the 2026-10-03 CON sweep (row „starovoï = становой“ below): „s jakýmsi ==komisařem== (policejním úředníkem)“; the printed gloss «(fonctionnaire de la police)» stays restored. Stale „owner question pending“ wording dropped 2026-10-10 (RED, D-02).
 - *sine qua non* → `==nezbytná podmínka==` (101.0411 „jako ==nezbytnou podmínku==“, 102.0239), footnote just „V originále latinsky: „sine qua non“.“ as 092.0108.
 - *aurea mediocritas* said of a man (102.0279, «Il m'ennuie cet aurea mediocritas») → `==zlatá průměrnost==`; Horace's „zlatá střední cesta“ in the footnote. Use „zlatá střední cesta“ only where Marie means the maxim itself.
 - *Vanitas vanitatum et omnia vanitas* (101.0296) → `==Marnost nad marnost, všechno je marnost==` (proverbial form; tree „Marnost nad marnost“ in 035/053/054), footnote Kazatel 1,2.
@@ -2051,7 +2048,7 @@ These override older per-carnet entries below where they conflict.
 
 ### Reading-conventions renderings, carnets 094–096 (CON 2026-10-03)
 - *Vulgo* is rendered by context (recorded, not a lock): before first names (085.0583) `==Po domácku==`; after pompous press epithets, giving the plain name (095.0027 «Aurore incomparable… etc. etc. ! Vulgo Mlle Troubetskoy») `==Lidově řečeno==` (the worker's ==Obecně zvaná== replaced). uk uses one form in both places; cz may differ.
-- *starovoï* (096.0438 ×2 incl. *sous-starovoï*, 096.0441 «les starovoï» plural) → `==starosta==` / `==podstarosta==` / plural `==starosty==`, footnote with the Russian and the cautious *становой* reading (cf. her own gloss in 102.0637), per the 091–093 and 100–102 rows; owner question pending.
+- *starovoï* (096.0438 ×2 incl. *sous-starovoï*, 096.0441 plural) — SUPERSEDED by the 2026-10-03 CON sweep (row „starovoï = становой“ below): ==policejního komisaře== / ==komisař== / ==podkomisař== / plural ==policejní komisaře==. Stale „owner question pending“ wording dropped 2026-10-10 (RED, D-02).
 - *police-men* [sic] (096.0438) → `==policisté==` (tree majority for *policemen*: ==policisté== ×6, ==policista/-ů/-y== ×3, against ==strážník== forms for the singular *policeman* in 079); the worker's „strážci pořádku“ replaced. [sic] stays in the footnote.
 - *homely* (096.0433) → `==domácky útulné==`; *chocking* (sic, 096.0469) → „všichni říkají, že je to ==pohoršující==“, footnote keeps her spelling.
 - French left in the Czech by earlier passes: *à la Bastien* (095.0084) → `==bastienovského ražení==`; *à la Psyché* (coiffure, 095.0137) → `==po způsobu Psyché==` (cf. 091–093 *à la Vierge* ==po madonsku==, *à la Bonnat* ==po Bonnatově způsobu==: by context); «le château du Surprenant» (094.0219, nickname left in French) → „zámek Záhadného“ per the lock.
