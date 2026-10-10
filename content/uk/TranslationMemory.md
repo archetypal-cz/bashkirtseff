@@ -289,7 +289,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Gericke | Жерікке | Young man Marie disdains at Spa (locked 2026-09-29 wave-uk; NOT Жерике) |
 | Walitsky (also Walitzky) | Валіцький | Family doctor/friend (established from earlier) |
 | Paparigopoulos (le Grec) | Папаріґопулос (Грек) | Greek acquaintance at Spa |
-| comte de Tanlay | граф де Танле | Polish count in love with Marie |
+| comte de Tanlay | граф де Тансле | Same man as the de Tanlay row below (one glossary entry, people/mentioned/TANLAY.md); unified on «Тансле» 2026-10-10 (RED, D-33) |
 | Wheelwright | Вілрайт | American at Spa, wins horse race |
 | prince Doria | принц Дорія | Admired from afar at Spa |
 | vicomte de Biesme | віконт де Б'єм | Admired stranger at Spa |
@@ -1280,7 +1280,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 - "mio bella petchouna" (Italian + Russian *печенька*): Ukrainian endearment in the text (==моя гарна печенька== as used in 033), footnote explains the Italian/Russian blend (metalinguistic)
 - Russian proverb "cochon tu n'es pas un cheval" (Papa): translate literally "свиня, ти ж не кінь" + footnote noting it's a Russian proverb
 - Russian code-switch in public ("Baissez votre ombrelle"): render naturally in Ukrainian; original was Russian per LAN
-- "Cap de Biou!" (Nice dialect exclamation): transliterate "Кап-де-Б'ю!"
+- "Cap de Biou!" (Nice dialect exclamation): ==Хай йому грець!== + Niçois footnote — SUPERSEDED the transliteration "Кап-де-Б'ю!" (owner A-03, 2026-10-05; see the 2026-10-05 block at the end)
 - Reversed-cipher names (Alulag = Galula, Terffidua/Enoteas): transliterate the reversal (Алулаг, Терффідуа, Енотеас)
 - Marginal/crossed-out notations: [Навскоси:], [Викреслено:], [Примітка ...:], [Дописано між рядками:], [Один рядок закреслено], [Два рядки закреслено]
 - Multi-year annotations (1877/1880/1881): render each year-tag inside [Примітка: ...]
@@ -1373,7 +1373,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Quid evenit? / Amor et spes... / Dies Irae (lacrimosa dies illa...) | ==Що сталося? / Любов і надія, вічні суперниці, раз у раз нас бентежать. Ми молоді й відважні. / Сповнений сліз той день, коли з попелу воскресне… грішна людина, щоб стати на суд. Тож пощади, Боже.== (original → footnote (KRR 2026-10-03); CON 2026-10-03) | Final all-Latin entry (July 31); her "mie" (pie? mihi?) quoted verbatim in the footnote, not rendered in the text |
 | Anima, coraggio! / tanto ero in fretta... (Italian) | ==Мужайся, душе! / так я поспішала писати, нарікати== (original → footnote (KRR 2026-10-03); CON 2026-10-03: replaces «Душе, відвага!» and the masculine «поспішав») | Self-exhortation; Italian inserts |
 | partenza del facchino di Nizza (Italian) | ==від'їзд ніццького носія== (original → footnote (KRR 2026-10-03); CON 2026-10-03) | Contemptuous "departure of the porter of Nice" for Audiffret |
-| Cap de Biou! (Niçois/Provençal) | ==Кап-де-Біу!== (original → footnote (KRR 2026-10-03)) | Minced oath, lit. "head of an ox" (biòu = ox), softening "Cap de Diou"; NOT Gascon "Head of God" (RSR correction 2026-10-01); (cf. "Кап-де-Б'ю!" in 033; the Niçois original spelling now goes in the footnote) |
+| Cap de Biou! (Niçois/Provençal) | ==Хай йому грець!== (owner A-03 2026-10-05: translated + footnote «В оригіналі ніццькою говіркою: «Cap de Biou !» …»; was ==Кап-де-Біу!==) | Minced oath, lit. "head of an ox" (biòu = ox), softening "Cap de Diou"; NOT Gascon "Head of God" (RSR correction 2026-10-01); (cf. "Кап-де-Б'ю!" in 033; the Niçois original spelling now goes in the footnote) |
 | Cap de Diou! (Niçois/Occitan, unsoftened, NOT flagged by Marie as Nice speech) | ==Боже праведний!== (Occitan → footnote: «В оригіналі окситанською (ніццький діалект): «Cap de Diou !» — божіння, дослівно «Голова Божа!».») | **Ruling (2026-10-03, CON uk 061–063).** Grep before ruling: _original *Cap de Diou* ×1 (063/1876-07-15, 063.0333; the 037 hit is an RSR note); uk ×1, worker rendered ==Кап-де-Діу!== (transliteration, not a translation) → replaced. Unflagged Diou oaths are translated, like uk 060 *San Diou de Diou* → ==Святий Боже, Боже!== and 071 *Buon Diou dé Diou* → ==Добрий Боже, Боже!==; en «Heavens above!». Oaths Marie flags as Nice speech keep their Niçois form (row of CON uk 030–032). The locked *Cap de Biou* → ==Кап-де-Біу!== row above is untouched; the owner may want one treatment for all Niçois oaths (already an owner item). |
 | unlucky (English) | ==нещасливий== (original → footnote) | Marie's habitual English emotional insertion |
 | J. V. A. = Je Vous Aime | Я. В. К. + footnote | Audiffret's coded biscuit-letters; render as Ukrainian initials (Я Вас Кохаю), footnote the cipher |
@@ -2152,7 +2152,7 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 | Carricolo | каррікколо | overloaded Neapolitan cart; footnote |
 | gris (drunk) | напідпитку | per TM 018; "ivre mort"→«п'яний як чіп» |
 | poisson d'avril | перше квітня | April-fool joke (footnote) |
-| Skating / Skating-rink | ==ковзанка== (2026-10-03, KRR; was ==Skating== + footnote since uk wave 2026-10-01, ==Скейтинг== before) | English code-switch (per 067/068) → Ukrainian in the text, English → footnote |
+| Skating / Skating-rink | «Skating» / «Skating-rink» — venue name (owner A-02, 2026-10-05; supersedes ==ковзанка== of 2026-10-03) | English code-switch (per 067/068) → Ukrainian in the text, English → footnote |
 | pesage | вагова | weighing enclosure (per 022) |
 | casaque Louis XV | казакин у стилі Людовіка XV | per TM «casaque»→«жакет»; sicilienne→сицилієн (footnote) |
 | froc blanc à capuchon | білий халат із каптуром | informal morning robe (cf. 068 «каптур») |
@@ -2238,7 +2238,7 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | à l'Espagnole | по-іспанському | window-courtship without introduction; footnote |
 | palazzo / camera obscura | палаццо / камера-обскура (no markup) | Italian/Latin: «палаццо» and «камера-обскура» are naturalised — kept without markup (exception); footnote if Marie's wording needs it (071/1877-05-23 «в камері-обскурі», CON 2026-10-03) |
 | Veglione | ==бал-маскарад== | carnival masked ball (per 068); Ukrainian in the text, Italian → footnote |
-| Skating / Skating-rink | ==ковзанка== | English code-switch (per 067/068/070) → Ukrainian in the text; footnote on 1st use per file (071.0017). **Ruling (2026-10-03, CON uk 070–072)**: *le Skating* is a common noun (the local roller rink — Marie uses it for the rinks of Naples, Florence, Nice and Paris: «le Skating florentin»), not a venue name, so the names rule does not apply: ==ковзанка== + «В оригіналі англійською: «Skating».» on first use per file, also inside her letters. Grep at ruling (uk visible text): 070–072 all ==ковзанка== (≈40 incl. 3 runs missed in letters); ==Skating== still visible in 069 (8, other reviewer's batch), 075/1877-10-29 «Скейтинг», 087/1879-12-23 ==skating== — convert in their waves. (087/1879-12-23 done ==ковзанка==, CON uk 085–087.) NB the «KRR 2026-10-03» tag on the other Skating rows comes from the generic TM-supersede pass (921d470d4f), not a specific owner ruling — owner may still prefer the name treatment. |
+| Skating / Skating-rink | «Skating» (SUPERSEDED 2026-10-05 by owner A-02 — venue name; the ==ковзанка== ruling below is historical) | English code-switch (per 067/068/070) → Ukrainian in the text; footnote on 1st use per file (071.0017). **Ruling (2026-10-03, CON uk 070–072)**: *le Skating* is a common noun (the local roller rink — Marie uses it for the rinks of Naples, Florence, Nice and Paris: «le Skating florentin»), not a venue name, so the names rule does not apply: ==ковзанка== + «В оригіналі англійською: «Skating».» on first use per file, also inside her letters. Grep at ruling (uk visible text): 070–072 all ==ковзанка== (≈40 incl. 3 runs missed in letters); ==Skating== still visible in 069 (8, other reviewer's batch), 075/1877-10-29 «Скейтинг», 087/1879-12-23 ==skating== — convert in their waves. (087/1879-12-23 done ==ковзанка==, CON uk 085–087.) NB the «KRR 2026-10-03» tag on the other Skating rows comes from the generic TM-supersede pass (921d470d4f), not a specific owner ruling — owner may still prefer the name treatment. |
 | comprenette | кебета | slang for wits/intelligence |
 | sérail / ennuque | сераль / євнух | harem joke (071.0541) |
 | la queue basse | з опущеним хвостом | per TM 019 |
@@ -2686,4 +2686,15 @@ The owner ruled that one-off printed variants are typesetting slips (A-56): the 
 | Pougan (022.0104, rhymes with Chakmagan) | **у Пуґана** | kept for the rhyme in the verses |
 | Papari poulous grec (022.0087, a pun) | **Папарі Пулус, грек** | kept for the pun; Paparigopoulos elsewhere stays **Папаріґопулос** |
 
-Tree drift left for a sweep: «Одіфре» (54 hits in 16 carnets) against the TM form «Одіффре» (1,246 hits).
+Tree drift «Одіфре» swept to «Одіффре» 2026-10-10 (RED, D-33: 32 visible hits in 23 files; old form survives only inside older comments).
+
+## OWNER rulings 2026-10-05 (OPEN-ITEMS A-01…A-14) — applied in the uk sweep D-26 (RED 2026-10-10) — LOCKED
+
+- **le Skating** (A-02): a venue name. Text «Skating» / «Skating-rink» (Marie's form per occurrence; her «Skating-ring» slip → «Skating-rink», the slip in the footnote), Latin script in guillemets, indeclinable, masculine agreement (неаполітанський «Skating», «Skating» майже порожній), like «London House». Footnote on the first use per file: «Skating» (англ.) — роликова ковзанка, модний світський заклад 1870-х років. Not a venue (stays ==ковзанка== + «В оригіналі англійською» footnote): *un beau skating à Wiesbaden* (074.0145), the frozen-Seine *skating* at the Vert-Galant (087.0010), and Marie's bare *rink* (068.0332, 0345, 0348, 0449, 0972). Applied 067–079: 91 occurrences, 64 footnotes rewritten, 1 added (078.0384).
+- **Marginal labels** (A-09): *[En travers:]* → **[Навскоси:]** only (*de la page* → [Навскоси сторінки:]); Поперек / Упоперек / Впоперек retired (51 replaced). *[Dans la marge:]* → [На полях:].
+- **Niçois oaths** (A-03): translated in ==…== + footnote «В оригіналі ніццькою говіркою: …». *Cap de Biou* → **==Хай йому грець!==** everywhere (033.0400, 037.0255, 037.0390, 054.0308); *Cap de Diou* ==Боже праведний!==, *San Diou de Diou* ==Святий Боже, Боже!==, *Buon Diou dé Diou* ==Добрий Боже, Боже!== unchanged. The oaths Marie herself flags as Nice speech («comme disent les Niçois»: 010.0122, 032.0050, 032.0394) and the *coquine de Biou* pun (050.1310) keep the Niçois form in italics with the explanatory footnote, as in cz.
+- **"Original title" footnotes** (A-04): a footnote that only gives the original title of a work with an established Ukrainian title is dropped (30 dropped, 019–090). Kept: footnotes that also say something else (author, genre, Marie's slip); doubtful titles with no established Ukrainian form (020.0016.t1 «Юність Людовіка XIV», 090.0153.1, 090.0306.1 «Жан Бодрі»); prayers/hymns covered by the foreign-passage rule (009.0291 Pater noster, 060.0185 Te Deum).
+- **Garter-type mottoes** (A-01): original, italic, translation in the footnote — *Honni soit qui mal y pense* (026.0034, 059.0080, 077.0296, 079.0037), *ich dieu* [sic for *ich dien*] (024.0065). Latin maxims keep their current treatment.
+- **Empty-day stub** (A-08): one form **[Запису за цю дату немає]** (36 variants unified in 086, 091–093).
+- **Straight quotes** (A-14): fixed in the files — «…», nested „…“.
+
