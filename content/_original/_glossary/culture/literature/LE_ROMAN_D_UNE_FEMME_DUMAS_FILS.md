@@ -38,7 +38,7 @@ full_text:
 ## Identification note
 
 %% GLO_LE_ROMAN_D_UNE_FEMME_DUMAS_FILS.0007 %%
-Not to be confused with other books of the same title. The diary footnote at 083.0569 gives 1848 and Dumas fils as author, matching the title. Supersedes nothing (no stub existed under this title); the author stubs DUMAS_FILS and ALEXANDRE_DUMAS_FILS remain people entries.
+Not to be confused with other books of the same title. The diary footnote at 083.0569 gives 1848 and Dumas fils as author, matching the title. The author entries DUMAS_FILS and ALEXANDRE_DUMAS_FILS are people entries.
 
 %% GLO_LE_ROMAN_D_UNE_FEMME_DUMAS_FILS.0008 %%
 ## References in Diary

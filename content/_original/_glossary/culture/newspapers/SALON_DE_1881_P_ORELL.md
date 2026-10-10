@@ -39,7 +39,7 @@ For the Salon she visits on 1 May with the studio (091.0547): "Je [ne] vous dis 
 ## What survives
 
 %% GLO_SALON_DE_1881_P_ORELL.0007 %%
-This entry's text is built entirely on the diary and general sources on the paper: La Citoyenne was founded by Hubertine Auclert on 13 February 1881 (Wikipedia, "Hubertine Auclert") and, according to the Alexander Street catalogue, ran until 1891; Wikipedia calls it monthly, but the issue dates in that catalogue look more frequent. The issue numbers and exact titles of Marie's contributions have not been verified. The Alexander Street catalogue of the paper lists issues of 1881 (e.g. no. 13, 8 May 1881), but the archive is subscription-only and was not opened; a search for the pages on Gallica did not find a stable ark for the title. The frontend's "full text" slot is therefore left empty until the issues are found.
+This entry's text is built entirely on the diary and general sources on the paper: La Citoyenne was founded by Hubertine Auclert on 13 February 1881 (Wikipedia, "Hubertine Auclert") and, according to the Alexander Street catalogue, ran until 1891; Wikipedia calls it monthly, but the issue dates in that catalogue look more frequent. The issue numbers and exact titles of Marie's contributions have not been verified. The Alexander Street catalogue of the paper lists issues of 1881 (e.g. no. 13, 8 May 1881), but the archive is subscription-only and was not opened; a search for the pages on Gallica did not find a stable ark for the title.
 
 %% GLO_SALON_DE_1881_P_ORELL.0008 %%
 ## References in Diary
@@ -57,7 +57,7 @@ This entry's text is built entirely on the diary and general sources on the pape
 
 %% GLO_SALON_DE_1881_P_ORELL.0011 %%
 - [#La_Citoyenne](./LA_CITOYENNE.md) -- the newspaper
-- [#P_Orell](../../people/mentioned/P_ORELL.md) and [#Pauline_Orell](../../people/mentioned/PAULINE_ORELL.md) -- the persona (stubs)
+- [#P_Orell](../../people/mentioned/P_ORELL.md) and [#Pauline_Orell](../../people/mentioned/PAULINE_ORELL.md) -- the persona
 - [#Hubertine_Auclert](../../people/mentioned/HUBERTINE_AUCLERT.md)
 - [#Salon](../art/SALON.md) -- the 1881 Salon
 - [#Emile_Bastien_Lepage](../../people/mentioned/EMILE_BASTIEN_LEPAGE.md)

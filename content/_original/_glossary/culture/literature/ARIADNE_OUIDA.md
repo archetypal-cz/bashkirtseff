@@ -45,7 +45,7 @@ Marie first read it in English a few years before 1882 and it affected her deepl
 
 - The identification of 098.0555 with *Ariadnê* is new: the text was found by reading the Internet Archive scan (vol. 1, chapter X). The existing Nausicaa entry says only "after Ouida".
 - Marie's own statue project *Ariane/Ariadne* (098.0551: "en sculpture ma grande préoccupation c'est Ariadne") is a separate work (see [Ariane, statue](../art/ARIANE_STATUE.md)); whether the title of Ouida's novel played a part in it is not recorded.
-- 096.0257 (18 September 1882), a description of her studio, was listed in the inventory but contains no explicit reference to the novel.
+- 096.0257 (18 September 1882), a description of her studio, contains no explicit reference to the novel.
 
 ## Sources
 

@@ -31,7 +31,7 @@ last_updated: 2026-10-10
 ## Marie and this work
 
 %% GLO_REVUE_DE_NICE.0004 %%
-The verses are the only place in the diary where Marie writes down a whole satire of her Nice acquaintances, and they belong with the caricature drawings and paintings she made of the same circle that autumn (see [#Grande_caricature_1875](../art/GRANDE_CARICATURE_1875.md)). On **21 September 1875** (043.0366) she copies out new couplets about a ladies' man and notes: "Ceci est destiné à remplacer ce qu'il y a dans la revue de Nice, fait à Schlangenbad": the new lines were meant to replace part of the existing text, so the *Revue* was a piece she kept revising. A *Complainte* about a lost château follows at once (043.0368; see [#Complainte_de_Girofla](./COMPLAINTE_DE_GIROFLA.md)). The inventory note "re-made 043.0366" refers to this replacement.
+The verses are the only place in the diary where Marie writes down a whole satire of her Nice acquaintances, and they belong with the caricature drawings and paintings she made of the same circle that autumn (see [#Grande_caricature_1875](../art/GRANDE_CARICATURE_1875.md)). On **21 September 1875** (043.0366) she copies out new couplets about a ladies' man and notes: "Ceci est destiné à remplacer ce qu'il y a dans la revue de Nice, fait à Schlangenbad": the new lines were meant to replace part of the existing text, so the *Revue* was a piece she kept revising. A *Complainte* about a lost château follows at once (043.0368; see [#Complainte_de_Girofla](./COMPLAINTE_DE_GIROFLA.md)).
 
 %% GLO_REVUE_DE_NICE.0005 %%
 Whether the *Revue* was ever circulated, sung or read aloud in Nice is not stated in these paragraphs. It has not been published separately; the only text is in the diary.

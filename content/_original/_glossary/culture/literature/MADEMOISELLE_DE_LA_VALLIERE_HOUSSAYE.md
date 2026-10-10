@@ -39,7 +39,7 @@ full_text:
 ## Notes and doubts
 
 - Marie only writes "La Vallière" or "Mlle de La Vallière". The identification with Houssaye's 1860 volume rests on her own attribution ("J'adore Houssaye", 015.0260; 016.0071) and on the exact echo of the "air d'un roi" sentence in that volume. Which printing she held cannot be determined.
-- The older stubs `people/mentioned/LA_VALLIERE.md` and `people/aristocracy/MLLE_DE_LA_VALLIERE.md` both describe this book (not the historical woman) and are superseded by this entry. The stub `ARSENE_HOUSSAYE.md` mentions a title "Louis XIV et ses femmes", which the project has not been able to tie to Marie's text.
+- This entry concerns the book, not the historical woman. The author entry `ARSENE_HOUSSAYE.md` mentions a title "Louis XIV et ses femmes", which the project has not been able to tie to Marie's text.
 - For her reading habits in these months see [Reading](../themes/READING.md).
 
 ## Sources

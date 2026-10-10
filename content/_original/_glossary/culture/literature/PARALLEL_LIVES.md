@@ -58,7 +58,7 @@ Plutarch is also the author of the *Moralia*, an essay collection; Marie's long 
 
 %% GLO_PARALLEL_LIVES.0007 %%
 - Marie never says which French translation she read. Amyot is the most likely, but this is a guess.
-- The inventory listed the March 1876 paragraphs (055.0060-0072, 055.0099, 055.0884) under *Parallel Lives*; they belong to the *Moralia* (see the linked entry) and are split off here.
+- The March 1876 paragraphs (055.0060-0072, 055.0099, 055.0884) belong to the *Moralia*, not the *Lives* (see the linked entry).
 
 %% GLO_PARALLEL_LIVES.0008 %%
 ## Sources
@@ -67,9 +67,6 @@ Plutarch is also the author of the *Moralia*, an essay collection; Marie's long 
 - Wikipedia, "Parallel Lives".
 - fr.wikisource, *Les Vies des hommes illustres* (trad. Ricard) and *Vies parallèles* (list of translations).
 - Diary paragraphs as cited above.
-
-%% GLO_PARALLEL_LIVES.0010 %%
-Supersedes (author-type stub): `people/mentioned/PLUTARQUE.md`. Duplicate to merge: `culture/literature/VIES_PARALLELES.md` (written in parallel by another batch, covering Lives and Moralia together; its extra mentions are folded in here and in [Plutarch, Moralia](./PLUTARCH_MORALIA.md)).
 
 %% GLO_PARALLEL_LIVES.0011 %%
 %% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

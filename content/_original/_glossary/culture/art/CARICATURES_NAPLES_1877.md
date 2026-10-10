@@ -29,7 +29,7 @@ On **23 April 1877**, at Naples, with her mother ill and the doctor and Doenhoff
 ## Marie and this work
 
 %% GLO_CARICATURES_NAPLES_1877.0004 %%
-Marie's note shows how she worked at Naples: whenever she could not go out, she painted the visitors. The same week she also drew Melissano life-size in two minutes ([#Portraits_Melissano](./PORTRAITS_MELISSANO.md)). The picture is mentioned once; the inventory titles it with the first name "Zunica" only because of Marie's phrase.
+Marie's note shows how she worked at Naples: whenever she could not go out, she painted the visitors. The same week she also drew Melissano life-size in two minutes ([#Portraits_Melissano](./PORTRAITS_MELISSANO.md)). The picture is mentioned once; the title with the first name "Zunica" comes only from Marie's phrase.
 
 %% GLO_CARICATURES_NAPLES_1877.0005 %%
 ## References in Diary

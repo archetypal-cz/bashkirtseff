@@ -57,7 +57,7 @@ In the first week of March 1876, in Rome, kept out of society, she explains, by 
 - Diary paragraphs as cited above.
 
 %% GLO_PLUTARCH_MORALIA.0009 %%
-Note: the stub `people/mentioned/PLUTARQUE.md` and the *Parallel Lives* entry cover Plutarch as a person and as the author of the *Lives*. The parallel entry `VIES_PARALLELES.md` (another batch) covers both works and should be merged into this pair.
+Note: the *Parallel Lives* entry covers Plutarch as the author of the *Lives*; this entry covers the *Moralia*.
 
 %% GLO_PLUTARCH_MORALIA.0010 %%
 %% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

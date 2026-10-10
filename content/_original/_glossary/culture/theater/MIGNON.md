@@ -40,7 +40,7 @@ Mignon is Marie's favourite opera in 1876 and a personal emblem throughout the d
 - **24 February 1879, Nice.** She would like to hear a singer in "Faust", "Aida" or "Mignon" (084.0296).
 - **2 February 1884, Paris.** Looking back at her first love for Audiffret: "Musique: Mignon" (103.0244; footnote identifies the opera).
 
-### Nice and elsewhere, 1874-1877 (added by works batch 01)
+### Nice and elsewhere, 1874-1877
 
 - **11 December 1874, Nice.** Florence Foster sings "Connais-tu le pays" after lunch (027.0227). On **25 December** Marie, after Florence has sung it again, produces her own parody of the romance, "Connais-tu le pays trop froid pour l'oranger... C'est là que je voudrais vivre" (028.0020-0026), about England and the palace of the man she loves (a text of her own; see also the glossary entry for her Mignon parody).
 - **19 June and 17 July 1875.** She sings "Mignon" when Barnola comes in (034.0423) and takes the score to Saëtone singing "Demain, dis-tu" (037.0229).

@@ -41,7 +41,7 @@ The diary's title does not exist as such in Sainte-Beuve's bibliography (RSR not
 - **6 and 12 March 1875 (030.0140, 030.0182).** She spends an evening reading it, "puis à relire mon ancien journal", and in an agitated moment on the 12th reads "un passage des femmes célèbres" between looking in the mirror and smoking.
 
 %% GLO_GALERIE_DE_FEMMES_CELEBRES.0007 %%
-The remaining entries that the inventory lists (030.0368 and 039.0115) are not about the book: they use "femmes célèbres" in its ordinary sense (a friend's plan to become famous women through eccentric dress; Marie's wish to leave portraits and descriptions to posterity).
+Paragraphs 030.0368 and 039.0115 are not about the book: they use "femmes célèbres" in its ordinary sense (a friend's plan to become famous women through eccentric dress; Marie's wish to leave portraits and descriptions to posterity).
 
 %% GLO_GALERIE_DE_FEMMES_CELEBRES.0008 %%
 ## Sources
@@ -52,7 +52,7 @@ The remaining entries that the inventory lists (030.0368 and 039.0115) are not a
 - Diary paragraphs as cited above.
 
 %% GLO_GALERIE_DE_FEMMES_CELEBRES.0010 %%
-The glossary has no entry for this work; `LARCHER.md` (the companion book) is a separate stub, and [Sainte-Beuve](../../people/writers/SAINTE_BEUVE.md) is the author entry. The inventory pointed at LARCHER by mistake.
+The companion book ordered with it, Larcher's *La Femme* (016.0338), is a separate work; [Sainte-Beuve](../../people/writers/SAINTE_BEUVE.md) is the author entry.
 
 %% GLO_GALERIE_DE_FEMMES_CELEBRES.0011 %%
 %% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

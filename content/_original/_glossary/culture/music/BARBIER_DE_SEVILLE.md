@@ -37,7 +37,7 @@ full_text:
 - **15 June 1877, Nice.** Telling an anecdote, she compares her entrance to the scene "si vous avez vu Le Barbier de Séville" in which Bartolo is petrified at the sight of Count Almaviva (072.0059), disguised.
 - **16 March 1880, Paris.** Writing of Patti, whom she has seen in Traviata, Faust, "le Barbier", Trovatore and Lucia: "On assure que le Barbier est son triomphe mais comme elle l'a chantée avec un méchant ténor cela a gâté la chose" (087.0623, 087.0624).
 
-### Nice, 1874-1875 (added by works batch 01)
+### Nice, 1874-1875
 
 Marie's first Nice opera season is full of the Barber; the diary names it "Le Barbier" or "Il Barbiere" and records Rosina's arias, which she sings herself.
 
@@ -52,7 +52,7 @@ Not the opera: 027.0073 and 050.0681 (M. Barbier, vice-president of the Cercle M
 
 ## Not this work
 
-*"Un vrai roman de Rosine"* (054.0082, Rome, 14 February 1876, with a source footnote) refers to the heroine of Beaumarchais's comedy, not the opera. 054.0082 was in the inventory but belongs to the play (or at most to the shared story), and the footnote cites Beaumarchais 1775.
+*"Un vrai roman de Rosine"* (054.0082, Rome, 14 February 1876, with a source footnote) refers to the heroine of Beaumarchais's comedy, not the opera. 054.0082 belongs to the play (or at most to the shared story), and the footnote cites Beaumarchais 1775.
 
 ## Sources
 

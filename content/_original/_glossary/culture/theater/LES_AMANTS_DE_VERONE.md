@@ -34,7 +34,7 @@ Marie goes to the first run in Paris in November 1878 and records two evenings.
 
 ## Notes
 
-- The earlier RSR comment in 083.0089 gives d'Ivry's name as "Richard de la Haye"; Wikipédia fr gives Paul de Richard d'Ivry. This entry follows Wikipédia; the diary tag MARQUIS_D_IVRY is the composer's person stub (not touched here).
+- The earlier RSR comment in 083.0089 gives d'Ivry's name as "Richard de la Haye"; Wikipédia fr gives Paul de Richard d'Ivry. This entry follows Wikipédia.
 - An IMSLP score page was not found; the libretto at Internet Archive is linked instead.
 
 ## Sources

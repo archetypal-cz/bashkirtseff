@@ -42,7 +42,7 @@ So the canvas is largely Marie's work, passed off as Claire's, and Marie feels i
 ## Related Entries
 
 %% GLO_TABLEAU_DE_CLAIRE_FLEURS.0008 %%
-- [#Claire](../../people/mentioned/CLAIRE.md) -- the nominal painter (stub entry)
+- [#Claire](../../people/mentioned/CLAIRE.md) -- the nominal painter
 - [#Un_meeting](./UN_MEETING.md) -- Marie's real picture of those months
 
 %% GLO_TABLEAU_DE_CLAIRE_FLEURS.0009 %%

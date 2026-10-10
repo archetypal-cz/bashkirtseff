@@ -43,7 +43,7 @@ Marie reads it in August 1877, in Rome-obsessed mood, and detests it. 7 August 1
 ## Identification note
 
 %% GLO_JOURNAL_D_UN_DIPLOMATE_EN_ITALIE.0006 %%
-Supersedes the stub `people/mentioned/IDEVILLE.md` (the author). Marie does not say which volume she read, but since her anger is on behalf of Rome, the Rome volume is likely; this is an inference. The diary footnotes give 1872 (073.0318) and 1874 (073.0492) as the date; the 1872 date matches the first edition of the Turin volume.
+Marie does not say which volume she read, but since her anger is on behalf of Rome, the Rome volume is likely; this is an inference. The diary footnotes give 1872 (073.0318) and 1874 (073.0492) as the date; the 1872 date matches the first edition of the Turin volume.
 
 %% GLO_JOURNAL_D_UN_DIPLOMATE_EN_ITALIE.0007 %%
 ## References in Diary

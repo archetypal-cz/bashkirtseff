@@ -35,7 +35,7 @@ full_text:
 
 The *Enchiridion* ("handbook", in French the *Manuel*) is a short compendium of Stoic ethical advice compiled by Arrian, a disciple of the Greek Stoic [Epictetus](../history/EPICTETUS.md) (c. 50 - c. 135 AD) in the second century. Most of its content derives from Epictetus's *Discourses*, but it is a selection of practical precepts rather than a summary; it avoids metaphysics and teaches how to reach mental freedom by distinguishing what is "up to us" (judgements, desires, will) from what is not (body, property, reputation, others) (Wikipedia, "Enchiridion of Epictetus"). In nineteenth-century France it circulated in several translations; French Wikisource offers the translations of Jean-Marie Guyau (1875), Jean-François Thurot (1889) and Henri Joly (1915).
 
-The author entry is [Epictetus](../history/EPICTETUS.md); the older stub `people/mentioned/EPICTETE.md` also stands for him. This entry is the book that Marie holds in her hands.
+The author entry is [Epictetus](../history/EPICTETUS.md). This entry is the book that Marie holds in her hands.
 
 ## Marie and the Manuel
 

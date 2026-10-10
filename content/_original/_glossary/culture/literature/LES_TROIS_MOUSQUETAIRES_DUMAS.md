@@ -57,7 +57,6 @@ The book is part of the Dumas cycle that she reads and rereads through her teens
 ## Notes
 
 %% GLO_LES_TROIS_MOUSQUETAIRES_DUMAS.0010 %%
-- The stubs `LES_MOUSQUETAIRES` and `LES_TROIS_MOUSQUETAIRES` in people/mentioned are duplicates of each other and both refer to this book.
 - Marie never says which edition she read; Wikisource carries the 1849 Dufour et Mulat edition.
 
 %% GLO_LES_TROIS_MOUSQUETAIRES_DUMAS.0011 %%
@@ -69,10 +68,8 @@ The book is part of the Dumas cycle that she reads and rereads through her teens
 - Diary paragraphs as cited above.
 
 %% GLO_LES_TROIS_MOUSQUETAIRES_DUMAS.0013 %%
-Supersedes: `people/mentioned/LES_TROIS_MOUSQUETAIRES.md`, `people/mentioned/LES_MOUSQUETAIRES.md` and `people/mentioned/LES_MOUSQUETAIRES_DE_LA_REINE.md` (duplicate stubs; the last one to be checked). The existing `culture/history/BUCKINGHAM.md` is the historical duke, not the novel.
+The `culture/history/BUCKINGHAM.md` is the historical duke, not the novel.
 
-%% GLO_LES_TROIS_MOUSQUETAIRES_DUMAS.0014 %%
-(Merged with the shorter entry written by another batch under this ID, which held the 033.0042 and 038.0152 mentions.)
 
 %% GLO_LES_TROIS_MOUSQUETAIRES_DUMAS.0015 %%
 %% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

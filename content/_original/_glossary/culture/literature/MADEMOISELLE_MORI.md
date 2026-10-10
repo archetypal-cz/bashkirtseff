@@ -54,7 +54,7 @@ The "hero", she says, is "une canaille papiste" (062.0560): the book teaches her
 - Diary paragraphs as cited above.
 
 %% GLO_MADEMOISELLE_MORI.0010 %%
-The glossary has no earlier entry for this novel; the footnote at 062.0546 can now name it.
+%% 2026-10-10T23:00:00 RSR: The diary footnote at 062.0546 calls the novel unidentified; it can now name it (Mademoiselle Mori). %%
 
 %% GLO_MADEMOISELLE_MORI.0011 %%
 %% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

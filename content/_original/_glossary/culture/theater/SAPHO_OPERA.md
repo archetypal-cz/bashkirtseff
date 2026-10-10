@@ -52,7 +52,7 @@ The programme of the Nice theatre in December 1875, in a local newspaper such as
 
 ## Not this work
 
-104.0626 and 104.0736 (22 and 29 June 1884) refer to Alphonse Daudet's novel *Sapho* (1884), "l'histoire d'un collage". The poet Sappho herself is a different entity (the stub people/mentioned/SAPHO.md does not describe her either).
+104.0626 and 104.0736 (22 and 29 June 1884) refer to Alphonse Daudet's novel *Sapho* (1884), "l'histoire d'un collage". The poet Sappho herself is a different entity.
 
 ## Sources
 

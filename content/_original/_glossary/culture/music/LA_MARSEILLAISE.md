@@ -42,5 +42,3 @@ In 1877, the year of the crisis of the 16 May, republican and monarchist France 
 ## Sources
 
 - Wikipedia, "La Marseillaise" (above); Wikisource; IMSLP.
-
-Supersedes the stub `people/mentioned/MARSEILLAISE.md` (filed under people).

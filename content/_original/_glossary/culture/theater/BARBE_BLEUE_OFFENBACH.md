@@ -51,6 +51,3 @@ Entries 048 and 091 do not name the composer. Given the titles listed alongside 
 - Wikipédia fr, "Barbe-Bleue (opéra bouffe)" (premiere date, authors, plot).
 - Wikisource fr, "Barbe-Bleue" (libretto text, from *Théâtre de Meilhac et Halévy*, vol. III).
 
-## Supersedes
-
-Old auto-stub `people/mentioned/BARBE_BLEUE.md` (a person-type stub for the same references).

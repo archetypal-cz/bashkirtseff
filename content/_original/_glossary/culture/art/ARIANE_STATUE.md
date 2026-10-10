@@ -25,7 +25,7 @@ last_updated: 2026-10-10
 ## Overview
 
 %% GLO_ARIANE_STATUE.0002 %%
-*Ariane* (Ariadne) is a statue that Marie planned in 1883 and never made. The diary names it in five paragraphs between March and December 1883, always as one of several projects waiting their turn, and each time next to the statue she *did* make, [La Douleur de Nausicaa](./DOULEUR_DE_NAUSICAA.md). It supersedes the old auto-generated stub `people/mentioned/ARIANE_SCULPTURE`, which was filed under people by mistake.
+*Ariane* (Ariadne) is a statue that Marie planned in 1883 and never made. The diary names it in five paragraphs between March and December 1883, always as one of several projects waiting their turn, and each time next to the statue she *did* make, [La Douleur de Nausicaa](./DOULEUR_DE_NAUSICAA.md).
 
 %% GLO_ARIANE_STATUE.0003 %%
 ## Marie and this work
@@ -58,7 +58,7 @@ Ouida's novel *Ariadne* (1877), which Marie rereads in English on 28 August 1882
 %% GLO_ARIANE_STATUE.0011 %%
 - [#Douleur_de_Nausicaa](./DOULEUR_DE_NAUSICAA.md) -- the statue actually made
 - [#Les_Saintes_Femmes](./LES_SAINTES_FEMMES.md), [#Le_Printemps](./LE_PRINTEMPS.md), [#Meurtre_de_Cesar](./MEURTRE_DE_CESAR.md) -- the other projects of the winter of 1883
-- [#Ariadne](../../people/mentioned/ARIADNE.md) -- the mythical figure (stub)
+- [#Ariadne](../../people/mentioned/ARIADNE.md) -- the mythical figure
 - [#Sculpture](./SCULPTURE.md)
 
 %% GLO_ARIANE_STATUE.0012 %%

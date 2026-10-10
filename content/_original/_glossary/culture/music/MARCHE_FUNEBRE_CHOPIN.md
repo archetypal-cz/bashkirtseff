@@ -24,7 +24,7 @@ full_text:
 
 ## Overview
 
-The third movement ("Marche funèbre") of Frédéric Chopin's Piano Sonata No. 2 in B-flat minor, Op. 35, composed 1837-1839 and published in 1840; the march itself is dated to 1837 by many scholars. The sonata was completed at George Sand's house in Nohant. (Source: Wikipedia, "Piano Sonata No. 2 (Chopin)", https://en.wikipedia.org/wiki/Piano_Sonata_No._2_(Chopin).) Public domain. See also the composer's stub [CHOPIN](../../people/mentioned/CHOPIN.md).
+The third movement ("Marche funèbre") of Frédéric Chopin's Piano Sonata No. 2 in B-flat minor, Op. 35, composed 1837-1839 and published in 1840; the march itself is dated to 1837 by many scholars. The sonata was completed at George Sand's house in Nohant. (Source: Wikipedia, "Piano Sonata No. 2 (Chopin)", https://en.wikipedia.org/wiki/Piano_Sonata_No._2_(Chopin).) Public domain. See also the composer's entry [CHOPIN](../../people/mentioned/CHOPIN.md).
 
 ## Marie and this work
 

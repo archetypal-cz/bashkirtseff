@@ -19,8 +19,8 @@ pronunciation: "https://translate.google.com/?sl=it&tl=en&text=Dormi%20pure"
 
 An Italian romance ("Sleep on, then") that Marie calls "ma romance, celle que j'ai chantée à Saint-Jean et chez nous et partout" (050.0756). The composer is **not established**.
 
-- The earlier LAN/RSR comments (048.0383) say it is from Bellini's *La sonnambula*. I could not find an aria "Dormi pure" in that opera, so that attribution is doubtful and should not be repeated as fact.
-- A song with the title exists: a serenata "Dormi pure" by S. Scuderi (Salvatore Scuderi), recorded in the Biblioteca Nazionale di Napoli catalogue (https://dl.bnnonline.it/handle/20.500.12113/1740) and later recorded by Emilio de Gogorza (UCSB Discography of American Historical Recordings, matrix Victor C-3494). The search summary I relied on dates the Ricordi edition to 1872; I have not seen the score or confirmed that this is the song Marie sings. It is a candidate only.
+- The earlier LAN/RSR comments (048.0383) say it is from Bellini's *La sonnambula*. No aria "Dormi pure" has been found in that opera, so that attribution is doubtful and should not be repeated as fact.
+- A song with the title exists: a serenata "Dormi pure" by S. Scuderi (Salvatore Scuderi), recorded in the Biblioteca Nazionale di Napoli catalogue (https://dl.bnnonline.it/handle/20.500.12113/1740) and later recorded by Emilio de Gogorza (UCSB Discography of American Historical Recordings, matrix Victor C-3494). The Ricordi edition is dated to 1872 in a search summary; the score has not been seen and it is not confirmed that this is the song Marie sings. It is a candidate only.
 
 Not linked as a full text for the same reason.
 

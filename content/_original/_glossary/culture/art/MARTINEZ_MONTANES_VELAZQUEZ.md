@@ -39,7 +39,7 @@ On **18 September 1882** she describes the stairway and anteroom of the studio o
 ## Related
 
 %% GLO_MARTINEZ_MONTANES_VELAZQUEZ.0007 %%
-[La Forge de Vulcain (Velázquez)](./LA_FORGE_DE_VULCAIN_VELAZQUEZ.md) (the other Prado picture she copied), the person entry [Velasquez](../../people/mentioned/VELASQUEZ.md) (a stub filed under people/mentioned; this work entry supersedes none of it, but both should be cross-linked), [Carolus-Duran](../../people/artists/CAROLUS_DURAN.md), [Madrid](../../places/cities/MADRID.md).
+[La Forge de Vulcain (Velázquez)](./LA_FORGE_DE_VULCAIN_VELAZQUEZ.md) (the other Prado picture she copied), the person entry [Velasquez](../../people/mentioned/VELASQUEZ.md) (the painter), [Carolus-Duran](../../people/artists/CAROLUS_DURAN.md), [Madrid](../../places/cities/MADRID.md).
 
 %% GLO_MARTINEZ_MONTANES_VELAZQUEZ.9000 %%
 %% 2026-10-10T20:00:00 RSR: Created batch 07. Identification (Montanes) INFERRED, not stated by Marie; Prado catalogue number not checked. The Madrid trip is Oct 1881. Mentions of Velazquez 'infante' (078.0126) are NOT this work: see LA_FORGE_DE_VULCAIN_VELAZQUEZ for the other Velazquez references. Supersedes: none (VELASQUEZ.md is the painter). %%

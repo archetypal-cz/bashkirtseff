@@ -33,7 +33,7 @@ full_text:
 
 ## Overview
 
-*La Jeunesse du roi Henri* is a multi-volume historical adventure romance by Pierre Alexis, vicomte Ponson du Terrail (1829-1871), the creator of Rocambole. It belongs to his cycle of cloak-and-dagger novels about the Wars of Religion, following the young Henri de Navarre (the future Henri IV) through the St Bartholomew's Day period. French Wikisource's author page dates it to **1864**; the Internet Archive holds the Charlieu et Huillery volumes of 1865-1868, each with its own sub-title (vol. 1 *La Belle Argentière*, vol. 2 *Le Serment des quatre valets*, vol. 3 *La Saint-Barthélemy*, vol. 5 *Le Beau Galaor*). The date 1854 in the project's inventory is a slip: Ponson du Terrail was 25 in 1854 and the cycle is of the 1860s.
+*La Jeunesse du roi Henri* is a multi-volume historical adventure romance by Pierre Alexis, vicomte Ponson du Terrail (1829-1871), the creator of Rocambole. It belongs to his cycle of cloak-and-dagger novels about the Wars of Religion, following the young Henri de Navarre (the future Henri IV) through the St Bartholomew's Day period. French Wikisource's author page dates it to **1864**; the Internet Archive holds the Charlieu et Huillery volumes of 1865-1868, each with its own sub-title (vol. 1 *La Belle Argentière*, vol. 2 *Le Serment des quatre valets*, vol. 3 *La Saint-Barthélemy*, vol. 5 *Le Beau Galaor*).
 
 ## Marie and this novel
 

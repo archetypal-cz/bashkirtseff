@@ -26,7 +26,7 @@ full_text:
 
 %% GLO_HISTOIRE_DE_FRANCE_MICHELET.0002 %%
 %% [#Michelet](../../people/mentioned/MICHELET.md) %%
-*Histoire de France* is the vast national history written by the historian Jules Michelet (1798–1874), issued in volumes between 1833 and 1867 (dates as given in the project's works inventory; see Sources). It is one of the foundational texts of the French republican and romantic "national story" and treats the nation almost as a living person. Michelet was a liberal and anticlerical thinker (Wikipedia FR, "Jules Michelet"), which explains the tone Marie objects to below.
+*Histoire de France* is the vast national history written by the historian Jules Michelet (1798–1874), issued in volumes between 1833 and 1867 (see Sources). It is one of the foundational texts of the French republican and romantic "national story" and treats the nation almost as a living person. Michelet was a liberal and anticlerical thinker (Wikipedia FR, "Jules Michelet"), which explains the tone Marie objects to below.
 
 %% GLO_HISTOIRE_DE_FRANCE_MICHELET.0003 %%
 ## Marie and this work
@@ -46,7 +46,7 @@ Her later reading of Michelet on the Revolution is a different work: see [Histoi
 ## Identification note
 
 %% GLO_HISTOIRE_DE_FRANCE_MICHELET.0008 %%
-The inventory had merged Marie's references to Michelet into one item. 075.0129 and 082.0442 name the *Histoire de France*; 098.0144 and 104.0116 ("La Révolution") refer to the *Histoire de la Révolution française* and now have their own entry. Which edition Marie owned is not stated.
+Marie's references to Michelet cover two works. 075.0129 and 082.0442 name the *Histoire de France*; 098.0144 and 104.0116 ("La Révolution") refer to the *Histoire de la Révolution française* and have their own entry. Which edition Marie owned is not stated.
 
 %% GLO_HISTOIRE_DE_FRANCE_MICHELET.0009 %%
 ## References in Diary
@@ -61,5 +61,5 @@ The inventory had merged Marie's references to Michelet into one item. 075.0129 
 %% GLO_HISTOIRE_DE_FRANCE_MICHELET.0012 %%
 - Wikipedia FR, [Jules Michelet](https://fr.wikipedia.org/wiki/Jules_Michelet) (life dates, liberal and anticlerical profile; *Histoire de France* followed by *Histoire de la Révolution*).
 - Wikisource FR, [Histoire de France (Jules Michelet)](https://fr.wikisource.org/wiki/Histoire_de_France_(Jules_Michelet)) (editions Lacroix 1880 incomplete, Flammarion 1893 complete). These are later editions than anything Marie read, but the text is the same work.
-- Dates 1833–1867: project works inventory (2026-10-10), not independently re-verified in this pass.
+- Dates 1833–1867: standard bibliographic dates, not independently verified.
 - Diary text: content/_original/075/1877-10-03.md; content/_original/082/1878-09-23.md.

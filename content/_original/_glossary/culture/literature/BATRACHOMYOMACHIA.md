@@ -37,7 +37,7 @@ The *Batrachomyomachia* ("Battle of the Frogs and Mice") is a short comic epic i
 ## Identification note
 
 %% GLO_BATRACHOMYOMACHIA.0006 %%
-The inventory title joined this poem to the *Odyssey*; they are separate works, and Marie names both. The traditional attribution to Homer is what makes her argument work. Supersedes the stub `people/mentioned/BATRACHOMYOMACHIE.md`.
+This poem and the *Odyssey* are separate works, and Marie names both. The traditional attribution to Homer is what makes her argument work.
 
 %% GLO_BATRACHOMYOMACHIA.0007 %%
 ## References in Diary

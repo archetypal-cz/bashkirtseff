@@ -27,7 +27,7 @@ images:
 *Pas mèche* (« Nothing Doing ») is a full-length figure of a ragged boy by [Jules Bastien-Lepage](../../people/recurring/BASTIEN_LEPAGE.md), dated 1881-82, oil on canvas, 133.4 × 89.6 cm, in the **National Galleries of Scotland**, Edinburgh (NG 1133; purchased 1913). The title shortens the slang phrase *il n'y a pas mèche* -- « nothing doing », « no way ». The Scottish gallery reads the whip and horn as the equipment of a barge boy who led the towing horses and signalled the barge's arrival to the lock-keeper; it records that the picture was painted for the London dealers Arthur Tooth & Sons and was included in the artist's memorial exhibition in Paris in 1885. (Source: National Galleries of Scotland, catalogue entry for NG 1133 -- via web search summary.)
 
 %% GLO_PAS_MECHE.0003 %%
-The project's reader footnotes at 097.0241 and 098.0420 call the boy a London street boy and gloss the title « Pas de chance »; the gallery's own account (barge boy; « nothing doing ») should be preferred, and those footnotes may deserve correction. Neither a Salon showing nor a Paris showing in 1882 is documented in the sources consulted.
+The gallery's own account (a barge boy; « nothing doing ») differs from the older description of the boy as a London street boy glossed « Pas de chance ». Neither a Salon showing nor a Paris showing in 1882 is documented in the sources consulted.
 
 %% GLO_PAS_MECHE.0004 %%
 ## Marie and this painting
@@ -36,6 +36,8 @@ The project's reader footnotes at 097.0241 and 098.0420 call the boy a London st
 On **14 December 1882**, after seeing the new canvases Bastien-Lepage has just brought back from the country, Marie writes that his boy of last year, « Pas-mèche », is « tout simplement un chef d'œuvre » (097.0241). On 31 December 1882 (the day of the rue de Sèze exhibition) she resolves that she must have a picture by Bastien-Lepage and a statue by Saint-Marceaux: « Le gamin de l'année dernière, intitulé *Pas mèche* » (097.0325). On 27 February 1883 she calls it « ce qu'on peut voir de plus beau » (098.0420), and on 16 June 1883 it heads her list of the five canvases that make Bastien-Lepage the equal of Millet: « Pas mèche 1. Jeanne d'Arc 2. Le portrait du frère 3. Le soir au village 4. Les foins 5. » (100.0167). On **15 July 1884** she says of it: « Le Pas-mèche de Bastien vous regarde et vous écoute mais il va parler car il est vivant » (105.0200).
 
 %% GLO_PAS_MECHE.0006 %%
+%% 2026-10-10T23:00:00 RSR: Reader footnotes at 097.0241 and 098.0420 call the boy a London street boy and gloss the title « Pas de chance »; the National Galleries of Scotland account (barge boy; « nothing doing ») should be preferred, so those footnotes may deserve correction in every tree. %%
+
 ## Related
 
 %% GLO_PAS_MECHE.0007 %%

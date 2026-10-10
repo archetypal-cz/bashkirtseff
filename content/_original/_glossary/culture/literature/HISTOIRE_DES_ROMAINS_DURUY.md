@@ -46,8 +46,8 @@ Marie subscribed to the instalments. "La grande histoire de Duruy qui paraît pa
 
 ## Notes and doubts
 
-- The project's inventory gave the dates 1843-1876 for the work as a whole (Duruy's earlier *Histoire romaine*, then the octavo *Histoire des Romains* of the 1870s). The subscription Marie describes in 1878-79 matches the **illustrated Hachette edition**, whose first volume is dated 1879 (the project has not found another Duruy work issued in instalments in those years). The volume-by-volume details above come from library and dealer records and have not been checked against a physical set.
-- The existing glossary stub `people/mentioned/DURUY.md` is the author (it also carries the tags for the Minister of Public Instruction at 083.0463); this entry is the work.
+- The work as a whole is dated 1843-1876 (Duruy's earlier *Histoire romaine*, then the octavo *Histoire des Romains* of the 1870s). The subscription Marie describes in 1878-79 matches the **illustrated Hachette edition**, whose first volume is dated 1879 (the project has not found another Duruy work issued in instalments in those years). The volume-by-volume details above come from library and dealer records and have not been checked against a physical set.
+- The glossary entry `people/mentioned/DURUY.md` covers the author (it also carries the tags for the Minister of Public Instruction at 083.0463); this entry is the work.
 
 ## Sources
 

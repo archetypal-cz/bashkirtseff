@@ -56,7 +56,7 @@ On Christmas Day 1877 (077.0022): "Julian est monté et nous avons arrêté les 
 %% GLO_SCULPTURE_EXPOSITION_NICE_1878.0011 %%
 - [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) -- the confidant
 - [#Aspremont](../../people/mentioned/ASPREMONT.md) -- president of the exhibition
-- [#Exposition_de_Nice](../../people/mentioned/EXPOSITION_DE_NICE.md) -- (stub)
+- [#Exposition_de_Nice](../../people/mentioned/EXPOSITION_DE_NICE.md) -- the exhibition
 - [#Sculpture](./SCULPTURE.md) and [#Douleur_de_Nausicaa](./DOULEUR_DE_NAUSICAA.md) -- her later, real sculpture
 - [#Art_practice](../themes/ART_PRACTICE.md)
 

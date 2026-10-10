@@ -57,4 +57,3 @@ The Naples programme of 25 March 1877 (069.0519) lists a Mozart *Lacrimosa* from
 - IMSLP, "Requiem (Verdi, Giuseppe)".
 - Diary paragraphs as cited above.
 
-Supersedes the stub `people/mentioned/LA_MESSE_DE_VERDI.md`.

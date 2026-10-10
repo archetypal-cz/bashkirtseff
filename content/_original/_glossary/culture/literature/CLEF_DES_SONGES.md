@@ -49,8 +49,6 @@ She uses it from late 1874 to mid-1875 as a half-serious oracle, and each time i
 - Internet Archive record for the 1867 *La clef des songes* (example of the genre).
 - Diary paragraphs as cited above.
 
-%% GLO_CLEF_DES_SONGES.0008 %%
-Supersedes: `people/mentioned/LA_VRAIE_CLEF_DES_SONGES.md` (stub filed under people/).
 
 %% GLO_CLEF_DES_SONGES.0009 %%
 %% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

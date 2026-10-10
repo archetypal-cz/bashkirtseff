@@ -55,7 +55,7 @@ Marie reads it in the original Italian, in 1876, in the months between Nice and 
 
 %% GLO_ORLANDO_FURIOSO.0007 %%
 - The note to 062.0129 gives the date of the poem as 1532, the footnote to 051.0341 as 1516: both are right for different editions (first and definitive).
-- The inventory also lists 055.0555 as a mention; the paragraph holds no Ariosto reference.
+- 055.0555 is sometimes counted as a mention; the paragraph holds no Ariosto reference.
 
 %% GLO_ORLANDO_FURIOSO.0008 %%
 ## Sources

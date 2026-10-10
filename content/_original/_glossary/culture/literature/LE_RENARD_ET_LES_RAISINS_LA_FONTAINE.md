@@ -37,7 +37,7 @@ full_text:
 ## Identification note
 
 %% GLO_LE_RENARD_ET_LES_RAISINS_LA_FONTAINE.0006 %%
-Marie does not name La Fontaine or the fable; the diary footnote (070.0889) and LAN notes identify it. The inventory item combined this with "Les Deux Pigeons"; they are separate fables and have separate entries.
+Marie does not name La Fontaine or the fable; the diary footnote (070.0889) and LAN notes identify it. It is a different fable from "Les Deux Pigeons", which has its own entry.
 
 %% GLO_LE_RENARD_ET_LES_RAISINS_LA_FONTAINE.0007 %%
 ## References in Diary

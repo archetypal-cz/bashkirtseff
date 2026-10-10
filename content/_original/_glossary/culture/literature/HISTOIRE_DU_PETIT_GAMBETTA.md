@@ -30,7 +30,7 @@ A satirical serial about the republican leader Léon Gambetta, published in *Le 
 ## Identification note
 
 %% GLO_HISTOIRE_DU_PETIT_GAMBETTA.0006 %%
-No digitised copy of the serial has been verified: the *Figaro* is presumably digitised on Gallica (BnF), but the issue could not be located in this pass (the Gallica server refused automated requests). The serial is by Albert Millaud, who died in 1892, so it is presumably in the public domain; a link can be added once the issue is found. The inventory did not mention that the "Amanda" letters are Marie's own parody, not Millaud's text.
+No digitised copy of the serial has been verified: the *Figaro* is presumably digitised on Gallica (BnF), but the issue has not been located. The serial is by Albert Millaud, who died in 1892, so it is presumably in the public domain; a link can be added once the issue is found. The "Amanda" letters are Marie's own parody, not Millaud's text.
 
 %% GLO_HISTOIRE_DU_PETIT_GAMBETTA.0007 %%
 ## References in Diary

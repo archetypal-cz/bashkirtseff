@@ -30,7 +30,6 @@ full_text:
 
 *Les Origines de la France contemporaine* is the unfinished historical masterwork of the critic and philosopher [Hippolyte Taine](../../people/writers/TAINE.md) (1828-1893), published by Hachette between 1875 and 1893 in three parts: **L'Ancien Régime** (1875), **La Révolution** (vol. I *L'Anarchie*, 1878; vol. II *La Conquête jacobine*, 1881; vol. III *Le Gouvernement révolutionnaire*, 1883-1885, dated variously) and **Le Régime moderne** (1890-1893, left incomplete at his death) (French Wikisource listing; Online Library of Liberty, Taine, *The Origins of Contemporary France*). Marie sets his account of the Revolution against that of [Michelet](./HISTOIRE_DE_LA_REVOLUTION_MICHELET.md) (104.0116).
 
-The older stub `people/mentioned/LES_ORIGINES_DE_LA_FRANCE.md` is a mis-filed auto-stub for this book and is superseded.
 
 ## Marie and Taine
 

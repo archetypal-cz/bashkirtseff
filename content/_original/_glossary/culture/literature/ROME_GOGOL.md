@@ -44,7 +44,7 @@ Marie reads Gogol's Rome in Russian during her stay at Gavrontsi in the autumn o
 ## Notes
 
 %% GLO_ROME_GOGOL.0007 %%
-- The inventory also lists 066.0577 (1 October 1876); that paragraph speaks of Dikanka, the estate near Gavrontsi that Pushkin's *Poltava* made famous and that is the setting of Gogol's earlier *Evenings on a Farm near Dikanka*. It concerns a different work and is not a mention of *Rome*.
+- 066.0577 (1 October 1876) is sometimes read as a mention of Gogol; that paragraph speaks of Dikanka, the estate near Gavrontsi that Pushkin's *Poltava* made famous and that is the setting of Gogol's earlier *Evenings on a Farm near Dikanka*. It concerns a different work and is not a mention of *Rome*.
 - Marie's French translation of the fragment, if it was ever made, is unknown; no published French version of the text was found in a quick search (the search turned up Spanish and Italian editions).
 
 %% GLO_ROME_GOGOL.0008 %%

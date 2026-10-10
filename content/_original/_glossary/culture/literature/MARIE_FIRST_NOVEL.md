@@ -41,7 +41,7 @@ On 11 February 1876 (053.0518) she tells the diary that the novel, "abandonné a
 ## Open questions
 
 %% GLO_MARIE_FIRST_NOVEL.0008 %%
-- **"Roman cérébral" (046.0266, 8 October 1875).** Five weeks before she says she has *begun* a novel, Marie writes that she will read a little and "puis irai continuer mon roman cérébral". This may be a figure for her mental romance with Audiffret, or an earlier attempt; it is **not** treated as this novel here, and the inventory's link to it should be reviewed.
+- **"Roman cérébral" (046.0266, 8 October 1875).** Five weeks before she says she has *begun* a novel, Marie writes that she will read a little and "puis irai continuer mon roman cérébral". This may be a figure for her mental romance with Audiffret, or an earlier attempt; it is **not** treated as this novel here.
 
 %% GLO_MARIE_FIRST_NOVEL.0009 %%
 - The 12 November joint project with Olga (049.0359) may be where the idea came from, but Marie does not say that the later novel is the same plot.

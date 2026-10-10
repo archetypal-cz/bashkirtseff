@@ -38,10 +38,10 @@ Both passages were already glossed by the researcher in 028 as the *Apotheosis o
 
 ### Related mentions of Veronese (not this painting)
 
-- **1875-09-14 (043.0167, Florence)**: "J'aime beaucoup la grasse et fraîche figure de la femme de Paolo Véronèse, peinte par lui." A painted portrait labelled as Veronese's wife in a Florentine gallery is probably meant; the inventory could not identify it, and it is not the Apotheosis. Left unidentified (RSR 2026-10-10).
+- **1875-09-14 (043.0167, Florence)**: "J'aime beaucoup la grasse et fraîche figure de la femme de Paolo Véronèse, peinte par lui." A painted portrait labelled as Veronese's wife in a Florentine gallery is probably meant; it has not been identified, and it is not the Apotheosis. Left unidentified (RSR 2026-10-10).
 - **1882-04-22 (094.0428, Paris)**: at the Louvre, Veronese "m'a apparu dans toute sa splendeur"; no work named.
 
-The author entry is [Paul Veronese](../../people/mentioned/PAUL_VERONESE.md) (a stub).
+The author entry is [Paul Veronese](../../people/mentioned/PAUL_VERONESE.md).
 
 ## Sources
 

@@ -44,7 +44,7 @@ full_text:
 ## Identification note
 
 %% GLO_MADEMOISELLE_DE_MAUPIN_GAUTIER.0008 %%
-Supersedes the stub-category entry `people/mentioned/MADEMOISELLE_DE_MAUPIN.md`, which already contains a fuller plot summary and should be merged with this one. The 1880 rereading is the one the inventory placed in 090/091. The Russian reading is the one of 1876 (067.0297); the inventory's note "067.0074" is a mistyped ID.
+The Russian reading is the one of 1876 (067.0297); paragraph 067.0074 does not mention the book.
 
 %% GLO_MADEMOISELLE_DE_MAUPIN_GAUTIER.0009 %%
 ## References in Diary

@@ -30,7 +30,7 @@ full_text:
 
 The *Maximes* (full title *Réflexions ou sentences et maximes morales*) of François, duc de La Rochefoucauld (1613-1680) are the most famous collection of French moralist aphorisms: short, hard-edged sentences that trace human conduct back to self-love (*amour-propre*). A first, unauthorised version appeared at The Hague in 1664; the author's own first edition followed in Paris in 1665 (French Wikisource gives both dates) and the book grew through five editions in his lifetime, the last in 1678 (the numbering used in the diary footnote, no. 276, is that of the 1678 text as given on Project Gutenberg). La Rochefoucauld the writer is not to be confused with the princely family of the same name that Marie meets in society (073.0342, 073.0347).
 
-The older stub `people/mentioned/LA_ROCHEFOUCAULD.md` was auto-generated from the diary's tags and is the author as a name; this entry is his book.
+This entry is his book, not the author as a name.
 
 ## Marie and the Maximes
 

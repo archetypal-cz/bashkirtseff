@@ -27,12 +27,10 @@ last_updated: 2026-10-10
 
 **1882-11-23 (097.0132)**: Marie, stung by criticism of her own slow progress, asks whether her pastel or *Irma qui rit* is so inferior to "Breslau en 1879": "Breslau au bout de trois ans de peinture expose son amie Maria, moi au bout de trois ans j'ai peint Irma".
 
-**1883-08-20 (101.0219)**: "lorsque j'ai vu Breslau avec son amie Maria..." is about the two women's relationship, not the picture; do not tag.
+**1883-08-20 (101.0219)**: "lorsque j'ai vu Breslau avec son amie Maria..." concerns the two women's relationship, not the picture.
 
-### Errors in existing footnotes (for the lead)
-
-- The footnote at 097.0132 (`[^2]`, "Breslau's *Maria*... her friend Maria Bashkirtseff -- no relation... Salon of 1880") is wrong on all counts: the sitter is Maria Feller, the painting is *Tout passé*, and the Salon was **1879** (livret no. 408).
-- The footnotes at 093/1881-10-25 and 1881-11-22 date the honorable mention to the Salon of 1879 and describe "a young woman reading"; the honorable mention was for the 1881 Salon (French Wikipedia; Ministry of Culture), consistent with Marie writing about "la mention de Breslau" in October 1881. The 093/1881-11-22 footnote about "her peasant woman" has no confirmed referent.
+%% 2026-10-10T23:00:00 RSR: Footnote error: The footnote at 097.0132 (`[^2]`, "Breslau's *Maria*... her friend Maria Bashkirtseff -- no relation... Salon of 1880") is wrong on all counts: the sitter is Maria Feller, the painting is *Tout passé*, and the Salon was **1879** (livret no. 408). %%
+%% 2026-10-10T23:00:00 RSR: Footnote error: The footnotes at 093/1881-10-25 and 1881-11-22 date the honorable mention to the Salon of 1879 and describe "a young woman reading"; the honorable mention was for the 1881 Salon (French Wikipedia; Ministry of Culture), consistent with Marie writing about "la mention de Breslau" in October 1881. The 093/1881-11-22 footnote about "her peasant woman" has no confirmed referent. %%
 
 ## Sources
 

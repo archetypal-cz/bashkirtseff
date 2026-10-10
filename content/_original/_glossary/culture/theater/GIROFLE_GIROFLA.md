@@ -32,7 +32,7 @@ full_text:
 
 *Giroflé-Girofla* is an opéra bouffe in three acts with music by Charles Lecocq and a libretto by Albert Vanloo and Eugène Leterrier. It was first given at the Théâtre des Fantaisies-Parisiennes, Brussels, on 21 March 1874, and in Paris at the Théâtre de la Renaissance on 11 November 1874 (Wikipedia, "Giroflé-Girofla"; IMSLP). Set in 13th-century Spain, it tells of twin brides, one of whom is abducted by pirates; the other twin must pose as both until the first is rescued. Lecocq wrote it as a deliberately far-fetched follow-up to *La Fille de Madame Angot* (Wikipedia).
 
-The Paris production at the Renaissance ran for some 220 performances and was one of the most profitable musical productions of the 1870s; it was played across Europe, the Americas and Australia (earlier glossary note, unsourced).
+The Paris production at the Renaissance ran for some 220 performances and was one of the most profitable musical productions of the 1870s; it was played across Europe, the Americas and Australia (figure unsourced).
 
 ## Marie and this work
 

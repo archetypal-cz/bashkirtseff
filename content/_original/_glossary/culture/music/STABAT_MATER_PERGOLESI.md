@@ -43,4 +43,3 @@ Marie hears it in Naples in March-April 1877, in the city of its composer.
 - Wikipedia, "Stabat Mater (Pergolesi)" (above); IMSLP.
 - Diary paragraphs as cited. Which sections were sung on 27 March and 9 April is not stated by Marie.
 
-Supersedes the stub `people/mentioned/PERGOLESE.md` (filed as a person; the composer himself has no separate entry yet).

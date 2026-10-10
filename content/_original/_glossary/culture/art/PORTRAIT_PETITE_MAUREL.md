@@ -30,7 +30,7 @@ On **19 May 1881**, in Paris, Marie writes: "Depuis mardi [17 May] je fais le po
 ## Marie and this work
 
 %% GLO_PORTRAIT_PETITE_MAUREL.0004 %%
-It is a portrait made in the atelier in spring 1881; the sitter was brought by [#Villevieille](../../people/mentioned/VILLEVIEILLE.md). Victor Maurel (1848-1923), as the project's footnote on 092.0024 describes him, was one of the leading baritones of the day and later created Verdi's Iago and Falstaff. The inventory placed the portrait in "Jul 1881"; the diary dates it **17 to 21 May 1881**. The 1885 memorial catalogue was not checked for a matching item by this entry.
+It is a portrait made in the atelier in spring 1881; the sitter was brought by [#Villevieille](../../people/mentioned/VILLEVIEILLE.md). Victor Maurel (1848-1923), as the footnote on 092.0024 describes him, was one of the leading baritones of the day and later created Verdi's Iago and Falstaff. The diary dates it **17 to 21 May 1881**. The 1885 memorial catalogue has not been checked for a matching item.
 
 %% GLO_PORTRAIT_PETITE_MAUREL.0005 %%
 ## References in Diary
@@ -43,14 +43,14 @@ It is a portrait made in the atelier in spring 1881; the sitter was brought by [
 ## Related Entries
 
 %% GLO_PORTRAIT_PETITE_MAUREL.0008 %%
-- [#Maurel](../../people/mentioned/MAUREL.md) -- the father (stub entry, to be expanded)
+- [#Maurel](../../people/mentioned/MAUREL.md) -- the father
 - [#Villevieille](../../people/mentioned/VILLEVIEILLE.md) -- who brought the girl
 
 %% GLO_PORTRAIT_PETITE_MAUREL.0009 %%
 ## Sources
 
 %% GLO_PORTRAIT_PETITE_MAUREL.0010 %%
-- Diary paragraphs 092.0024-0025 and 092.0034 in `content/_original/`, with their existing footnotes (footnote 092.0024.1 on Maurel is the project's own earlier note, without a cited source; Maurel's dates and roles should be re-checked against a standard reference before this entry is upgraded).
+- Diary paragraphs 092.0024-0025 and 092.0034 in `content/_original/`, with their footnotes (the note on Maurel at 092.0024 cites no source; his dates and roles should be re-checked against a standard reference).
 
 %% GLO_PORTRAIT_PETITE_MAUREL.0011 %%
 %% 2026-10-10T21:25:00 RSR: Created in the works glossary wave (W257). Correction to the inventory: date is May, not July, 1881. %%

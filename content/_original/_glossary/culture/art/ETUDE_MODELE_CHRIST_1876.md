@@ -37,7 +37,7 @@ Marie's later summary of her training (19 December 1877, 076.0447) counts this t
 ## Open question
 
 %% GLO_ETUDE_MODELE_CHRIST_1876.0007 %%
-The inventory describes this entry as the "first life painting". That is Marie's own contrast in 052.0150 (copying from canvas with Bensa versus painting from nature), not a statement that it is the first of anything she ever painted from life; no further paragraph describes the finished head, and nothing links it to the 1885 catalogue (its heads and studies include several untitled "Tête (Étude)" entries).
+The study is sometimes called her "first life painting". That is Marie's own contrast in 052.0150 (copying from canvas with Bensa versus painting from nature), not a statement that it is the first of anything she ever painted from life; no further paragraph describes the finished head, and nothing links it to the 1885 catalogue (its heads and studies include several untitled "Tête (Étude)" entries).
 
 %% GLO_ETUDE_MODELE_CHRIST_1876.0008 %%
 ## References in Diary
@@ -51,7 +51,7 @@ The inventory describes this entry as the "first life painting". That is Marie's
 ## Related Entries
 
 %% GLO_ETUDE_MODELE_CHRIST_1876.0011 %%
-- [#Katorbinsky](../../people/mentioned/KATORBINSKY.md) -- the teacher (stub)
+- [#Katorbinsky](../../people/mentioned/KATORBINSKY.md) -- the teacher
 - [#Portrait_Collignon](./PORTRAIT_COLLIGNON.md) -- the next painting
 - [#Rome](../../places/cities/ROME.md)
 - [#Art_practice](../themes/ART_PRACTICE.md)

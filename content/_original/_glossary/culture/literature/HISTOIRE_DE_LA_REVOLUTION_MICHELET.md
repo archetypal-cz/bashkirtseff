@@ -22,7 +22,7 @@ full_text:
 
 %% GLO_HISTOIRE_DE_LA_REVOLUTION_MICHELET.0002 %%
 %% [#Michelet](../../people/mentioned/MICHELET.md) %%
-Jules Michelet's *Histoire de la Révolution française* is a seven-volume history of 1789–1794 (the seven volumes are those transcribed on Wikisource), written after his *Histoire de France* had reached the end of the Middle Ages and published from 1847. Michelet casts the Revolution as the people's own work and writes it with passionate rhetoric, the quality Marie finds "nuageux et cotonneux". (Publication years 1847–1853 are the standard bibliographic dates and were not re-verified in this pass.)
+Jules Michelet's *Histoire de la Révolution française* is a seven-volume history of 1789–1794 (the seven volumes are those transcribed on Wikisource), written after his *Histoire de France* had reached the end of the Middle Ages and published from 1847. Michelet casts the Revolution as the people's own work and writes it with passionate rhetoric, the quality Marie finds "nuageux et cotonneux". (Publication years 1847–1853 are the standard bibliographic dates and were not independently verified.)
 
 %% GLO_HISTOIRE_DE_LA_REVOLUTION_MICHELET.0003 %%
 ## Marie and this work

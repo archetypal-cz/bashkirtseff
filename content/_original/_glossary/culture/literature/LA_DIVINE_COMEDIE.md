@@ -52,13 +52,13 @@ full_text:
 *La Commedia*, called *Divina* from the sixteenth century, is the long poem in which Dante Alighieri (1265-1321) describes a journey through Hell (*Inferno*), Purgatory (*Purgatorio*) and Heaven (*Paradiso*), guided first by Virgil and then by Beatrice. It is written in Italian, in 100 cantos of *terza rima*, and is dated to roughly 1308-1320. It was the founding text of literary Italian, and in Marie's century it was the book that every educated visitor to Italy was expected to have read. (Wikipedia, "Divine Comedy".)
 
 %% GLO_LA_DIVINE_COMEDIE.0003 %%
-Marie owned it in more than one form: a "tout petit Dante" travelled with her in 1877 (074.0053), and she says she "learned Italian in Dante" (096.0326, 1882). She quotes it in the original, and misquotes it from memory. The stub `people/mentioned/DANTE.md` is the *author* entry; this page is the work.
+Marie owned it in more than one form: a "tout petit Dante" travelled with her in 1877 (074.0053), and she says she "learned Italian in Dante" (096.0326, 1882). She quotes it in the original, and misquotes it from memory. The author has a separate entry (`people/mentioned/DANTE.md`); this page is the work.
 
 %% GLO_LA_DIVINE_COMEDIE.0004 %%
 ## Marie and this work
 
 %% GLO_LA_DIVINE_COMEDIE.0005 %%
-**1873-1874: first allusions.** On 2 June 1873, a free evening at the salon piano, "J'ai récité un chant de Dante" for the family (005.0143; the canto is not named). On 19 June 1873, waiting for the carriage that is to fetch her paintings, she has been "comme les sospesi de Dante" for a week (006.0027): the souls of Limbo, *Inferno* II.52, "Io era tra color che son sospesi". On 8 May 1874, weeping and grumbling over the family's travel preparations, she writes "Ora incomincian le dolenti note a tarmisi sentire" (019.0146), *Inferno* V.25-26 ("Or incomincian le dolenti note / a farmisi sentire"), in a corrupted form. (These three were identified by another batch of this project, entry `DIVINA_COMMEDIA`, which this entry absorbs.)
+**1873-1874: first allusions.** On 2 June 1873, a free evening at the salon piano, "J'ai récité un chant de Dante" for the family (005.0143; the canto is not named). On 19 June 1873, waiting for the carriage that is to fetch her paintings, she has been "comme les sospesi de Dante" for a week (006.0027): the souls of Limbo, *Inferno* II.52, "Io era tra color che son sospesi". On 8 May 1874, weeping and grumbling over the family's travel preparations, she writes "Ora incomincian le dolenti note a tarmisi sentire" (019.0146), *Inferno* V.25-26 ("Or incomincian le dolenti note / a farmisi sentire"), in a corrupted form.
 
 %% GLO_LA_DIVINE_COMEDIE.0006 %%
 **1876: Dante as a companion.** She packs "Dante, Ariosto, Shakespeare" for the journey to Russia (062.0852, 3 July 1876), and a first allusion is the "robe de Béatrice" with a bare neck she praises on 26 June 1876 (062.0714). On 17 October 1876 (067.0134) a cousin's "ideally vast thoughts" are such that "Dante could have borrowed from him his divine love for Beatrice", and on 25 October (067.0314) she writes: "J'adore ma mère et la Divine comédie de Dante." In Poltava station she scolds her maid in "la langue de Dante" for the crowd's amusement (067.0986, 15 November 1876).
@@ -79,7 +79,6 @@ Marie owned it in more than one form: a "tout petit Dante" travelled with her in
 ## Notes
 
 %% GLO_LA_DIVINE_COMEDIE.0012 %%
-- The existing footnote at 071.0615 (fn 36) cites *Inferno* V "ll. 35-36"; the lines are 50-51 (checked against it.wikisource, *Divina Commedia/Inferno/Canto V*). The footnote at 073.0155 correctly gives II.52.
 - Marie's Italian is often corrupted in the print (e.g. "Si ch'abene sperar mera cagione"); these are her own transcription slips and should be left as they are.
 - Dante's *Vita nuova* (c. 1294) is a separate work; it is dealt with here only for the Santasiglia sonnet.
 
@@ -91,8 +90,8 @@ Marie owned it in more than one form: a "tout petit Dante" travelled with her in
 - it.wikisource, *Divina Commedia/Inferno/Canto V* (verification of lines 25-26 and 50-51) and *Canto II* (line 52).
 - Diary paragraphs as cited above.
 
-%% GLO_LA_DIVINE_COMEDIE.0015 %%
-Supersedes (author-type stub, not to be deleted): `people/mentioned/DANTE.md`. Duplicate to merge: `culture/literature/DIVINA_COMMEDIA.md` (written in parallel by another batch; its three mentions are folded in above).
 
 %% GLO_LA_DIVINE_COMEDIE.0016 %%
+%% 2026-10-10T23:00:00 RSR: The diary footnote at 071.0615 (fn 36) cites Inferno V 'll. 35-36'; the lines are 50-51 (checked against it.wikisource, Divina Commedia/Inferno/Canto V). The footnote at 073.0155 correctly gives II.52. %%
+
 %% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

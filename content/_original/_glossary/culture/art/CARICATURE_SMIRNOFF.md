@@ -27,7 +27,7 @@ On **30 July 1875** Marie made a caricature of [Smirnoff](../../people/mentioned
 ## Marie and this work
 
 %% GLO_CARICATURE_SMIRNOFF.0004 %%
-30 July 1875 (037.0497): "J'ai fait la caricature de Smirnoff, de cette bonne créature, naïve et assez bête." On 22 September (044.0056), in conversation with two callers: "On a parlé de Smirnoff et de sa caricature et, comme ils voulurent absolument la voir, au lieu de faire descendre la toile je les fais monter dans mon cabinet d'étude." So it was painted on canvas, and was kept in her study upstairs (the visitors climb a dusty staircase with candles, 044.0057-0058). The visitors' reaction is not recorded in the passage the inventory cites.
+30 July 1875 (037.0497): "J'ai fait la caricature de Smirnoff, de cette bonne créature, naïve et assez bête." On 22 September (044.0056), in conversation with two callers: "On a parlé de Smirnoff et de sa caricature et, comme ils voulurent absolument la voir, au lieu de faire descendre la toile je les fais monter dans mon cabinet d'étude." So it was painted on canvas, and was kept in her study upstairs (the visitors climb a dusty staircase with candles, 044.0057-0058). The visitors' reaction is not recorded in the passage.
 
 %% GLO_CARICATURE_SMIRNOFF.0005 %%
 The smaller Smirnoff entry in the glossary records only that he was a Russian in the Sapogenikoff circle at Nice, once brought from Monte Carlo without a hat (June 1875). Whether the caricature was made from life or from memory, and whether it was included in the 'caricatures à l'huile' that Marie brought down on 10 September (043.0021), is not stated.

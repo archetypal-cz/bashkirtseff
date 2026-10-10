@@ -34,7 +34,7 @@ full_text:
 
 The New Testament, the second part of the Christian Bible, is the collection of the four Gospels, the Acts, the Epistles and the Apocalypse, written in Greek in the first and early second centuries. Marie, a Russian Orthodox by birth, treats it in the diary as a book of counsel and an oracle rather than of doctrine.
 
-The older glossary stub for the Bible is `people/mentioned/BIBLE.md` (the retired stub `TESTAMENT` was already redirected to it). This entry covers the book Marie actually opens and quotes: the New Testament and the Gospels.
+This entry covers the book Marie actually opens and quotes: the New Testament and the Gospels.
 
 ## Marie and the Gospel
 
@@ -48,6 +48,6 @@ Four recurring uses:
 
 - The language of the copy she used is only known for January 1879, when the quotation is Italian. No French translation is named, so the Segond link above is a convenience (a Protestant French Bible of the period; the 1910 revision is later than Marie's time). The Russian Synodal Bible is the standard Russian translation of her time.
 - Opening the Gospel at random on Christmas Eve is described in the footnote to 083.0556 as an old Russian Christmas Eve tradition.
-- Other occurrences of the Bible or of individual Gospels in the diary are covered by `BIBLE` and are not part of this batch.
+- Other occurrences of the Bible or of individual Gospels in the diary are covered by the general Bible entry and not listed here.
 
 %% 2026-10-10T21:10:00 RSR: Works-glossary batch 05 (W070). No secondary source needed beyond the diary paragraphs; the 1910 Segond and Synodal links verified to resolve. Supersedes people/mentioned/BIBLE.md for the NT paragraphs (BIBLE remains the general Bible stub). %%

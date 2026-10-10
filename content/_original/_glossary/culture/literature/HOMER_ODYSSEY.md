@@ -53,7 +53,7 @@ In 082.0442 (1878-09-23) she lists Homer among the Greeks: "Homère, je le conna
 ## Identification note
 
 %% GLO_HOMER_ODYSSEY.0007 %%
-Supersedes the author-named stub `people/mentioned/ODYSSEY.md` (and the related author stubs HOMER/HOMERE, which are people entries and remain). Which translation Marie read is not recorded. The Wikisource page for the French text lists Eugène Bareste (1842), Leconte de Lisle (1893) and others; only Bareste's predates her reading.
+Which translation Marie read is not recorded. The Wikisource page for the French text lists Eugène Bareste (1842), Leconte de Lisle (1893) and others; only Bareste's predates her reading.
 
 %% GLO_HOMER_ODYSSEY.0008 %%
 ## References in Diary

@@ -41,6 +41,3 @@ Marie knows the work only from the stage.
 - Wikisource fr, "Le Marquis de Villemer" (novel, 1860; play pages).
 - BnF data record (via web search): comedy in four acts, Odéon, 29 February 1864; British Library manuscript record, same date.
 
-## Supersedes
-
-Old auto-stub `people/mentioned/MARQUIS_DE_VILLEMER.md` (person-type stub; the title character is fictional).

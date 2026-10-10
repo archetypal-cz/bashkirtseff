@@ -42,7 +42,7 @@ full_text:
 - **10 November 1876.** Translating Gogol's description of Rome she finds "Le Rome de Mme de Staël" "affectée et presque faible" beside it (067.0928), see [Gogol, "Rome"](./ROME_GOGOL.md).
 
 %% GLO_CORINNE_OU_L_ITALIE.0006 %%
-- **13 September 1877, Soden (074.0332).** Talking with "ces demoiselles" about travel, she says that it is "un plaisir assez triste dès que la curiosité est satisfaite" and cites "le vrai et charmant passage de Mme de Staël où elle parle de voyages": the same first-book passage that she quoted in 1876 (this identification was made by another batch of this project).
+- **13 September 1877, Soden (074.0332).** Talking with "ces demoiselles" about travel, she says that it is "un plaisir assez triste dès que la curiosité est satisfaite" and cites "le vrai et charmant passage de Mme de Staël où elle parle de voyages": the same first-book passage that she quoted in 1876.
 
 %% GLO_CORINNE_OU_L_ITALIE.0007 %%
 ## Notes

@@ -37,7 +37,7 @@ The costume is that of the famous portrait of Juliette Récamier by Jacques-Loui
 ## A caution
 
 %% GLO_PORTRAIT_BRISBANE_RECAMIER.0007 %%
-The inventory also lists 091.0130 (14 February 1881): "La tête de Brisbane (Alice) est peinte en deux heures de temps, et Julian me dit de la laisser ... Une partie du tablier et le corsage sont aussi peints." An apron does not fit the Récamier costume of 088.0028, and the entry on [L'Atelier Julian](./L_ATELIER_JULIAN.md) treats Alice as one of the models for that large picture. This paragraph is therefore **not** counted as part of the Récamier portrait here. Likewise the male "Brisbane" at 091.0088 (a model and companion, 7 February 1881) is a different person from Alice; the glossary keeps two entries.
+A neighbouring paragraph, 091.0130, (14 February 1881): "La tête de Brisbane (Alice) est peinte en deux heures de temps, et Julian me dit de la laisser ... Une partie du tablier et le corsage sont aussi peints." An apron does not fit the Récamier costume of 088.0028, and the entry on [L'Atelier Julian](./L_ATELIER_JULIAN.md) treats Alice as one of the models for that large picture. This paragraph is therefore **not** counted as part of the Récamier portrait here. Likewise the male "Brisbane" at 091.0088 (a model and companion, 7 February 1881) is a different person from Alice; the glossary keeps two entries.
 
 %% GLO_PORTRAIT_BRISBANE_RECAMIER.0008 %%
 ## References in Diary

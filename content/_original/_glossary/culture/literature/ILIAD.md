@@ -49,8 +49,7 @@ Homer's *Iliad* is the Greek epic of the anger of Achilles in the tenth year of 
 ## Notes
 
 %% GLO_ILIAD.0008 %%
-- **Hecuba and the sack of Troy.** The existing footnote to 073.0487 says that in the *Iliad* Hecuba watches from the walls as her city burns. The *Iliad* ends before Troy falls: Hecuba watches Hector's death from the walls (book XXII) and mourns him (book XXIV). The burning of Troy, the killing of Priam at the altar and the huddled family are told in *Aeneid* II (Virgil) and in Euripides's *Hecuba* and *Trojan Women*. Marie, who in the next paragraph pairs "Homère et Virgile", probably has the sack of Troy from Virgil or from a school anthology. The footnote should be corrected; Marie's own statement stays as written.
-- Two earlier entries covered only parts of this material: this entry and `HOMER_ILIAD.md` duplicated each other; `HOMER_ILIAD` can be merged here.
+- **Hecuba and the sack of Troy.** In the *Iliad*, which ends before Troy falls, Hecuba watches Hector's death from the walls (book XXII) and mourns him (book XXIV). The burning of Troy, the killing of Priam at the altar and the huddled family are told in *Aeneid* II (Virgil) and in Euripides's *Hecuba* and *Trojan Women*. Marie, who in the next paragraph pairs "Homère et Virgile", probably has the sack of Troy from Virgil or from a school anthology.
 - The French translation Marie used is not named. Her quotation in 014.0229 ("saisi d'horreur, demeure muet; ses yeux se remplissent de larmes, sa voix sonore est étouffée") is not the wording of Leconte de Lisle and probably comes from an earlier version.
 
 %% GLO_ILIAD.0009 %%
@@ -69,8 +68,8 @@ Homer's *Iliad* is the Greek epic of the anger of Achilles in the tenth year of 
 - Homer, *Iliad* XVII.694-696, XXII, XXIV; Virgil, *Aeneid* II (standard text, not re-quoted here).
 - Diary paragraphs as cited above.
 
-%% GLO_ILIAD.0013 %%
-Enriched in place (supersedes the duplicate `HOMER_ILIAD.md`).
 
 %% GLO_ILIAD.0014 %%
+%% 2026-10-10T23:00:00 RSR: The diary footnote to 073.0487 says that in the Iliad Hecuba watches from the walls as her city burns; this is wrong (the Iliad ends before Troy falls; the sack is in Aeneid II). Footnote should be corrected; Marie's own statement stays as written. %%
+
 %% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); enriched. %%

@@ -54,7 +54,7 @@ It is the forbidden book of her fourteenth year and one of her first acts of rea
 - **1 February 1874 (016.0072).** She plans to read it after *Nickleby* so that Houssaye should not bore her after a book on La Vallière.
 
 %% GLO_COURTISANES_DU_MONDE.0006 %%
-The inventory also lists 008.0116 ("le reste des *courtisanes*"): this uses the ordinary word for courtesans, not the book.
+Paragraph 008.0116 ("le reste des *courtisanes*"): this uses the ordinary word for courtesans, not the book.
 
 %% GLO_COURTISANES_DU_MONDE.0007 %%
 ## Sources

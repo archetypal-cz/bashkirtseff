@@ -34,8 +34,8 @@ Marie, in love from afar with [the Duke of Hamilton](../../people/core/DUKE_OF_H
 
 ## Notes and doubts
 
-- Marie speaks of "l'article" and "le Galignani" in the singular; the paragraph markers in the edition label the clippings "Galignani's Messenger (d'après le Glasgow Herald)", "Galignani's Messenger" or "journal anglais (probablement Galignani's Messenger)". The exact issue dates of Galignani's Messenger have not been identified, so no link to an original page is given: the project has not located the December 1873 issues. Gallica (BnF) holds a digital reproduction of the Messenger according to the ISSN register; the individual 1873 issue pages were not found in this pass.
-- The text of the clippings is already in the diary, with Marie's transcription (013.0263-0266, 014.0047-0052, 014.0058-0068, 014.0104-0109). This entry is the work-level record and should not be tagged on the ordinary mentions of "Galignani" the newspaper.
+- Marie speaks of "l'article" and "le Galignani" in the singular; the paragraph markers in the edition label the clippings "Galignani's Messenger (d'après le Glasgow Herald)", "Galignani's Messenger" or "journal anglais (probablement Galignani's Messenger)". The exact issue dates of Galignani's Messenger have not been identified, so no link to an original page is given: the December 1873 issues have not been located. Gallica (BnF) holds a digital reproduction of the Messenger according to the ISSN register; the individual 1873 issue pages have not been found.
+- The text of the clippings is already in the diary, with Marie's transcription (013.0263-0266, 014.0047-0052, 014.0058-0068, 014.0104-0109).
 - The bride's name and the date of the marriage come from the clipping texts in the notebook, not from an outside source.
 
 %% 2026-10-10T21:30:00 RSR: Works-glossary batch 05 (W080). Clipping sources taken from the paragraph markers (kind: clipping source=...) in 013 and 014; wedding date 10 Dec 1873 from Marie's 013.0122 quotation and the clipping "on Wednesday next". No free-to-read copy of the Galignani issue located. %%
