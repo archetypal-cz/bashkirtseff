@@ -175,7 +175,11 @@ cd src/frontend && npm run build
 
 ## Phase 4: Verification
 
-- [ ] Full build completes (~35,700 pages)
+> 2026-10-10: the build, Docker image and nginx items are ticked because the site has been built and
+> deployed on Astro 7 by CI (`deploy.yml`) on every push since June 2026. The remaining items were
+> never recorded as checked one by one; they are exercised by the live site but not re-verified here.
+
+- [x] Full build completes (~35,700 pages)
 - [ ] Build time is not significantly worse (baseline: ~2-3 min)
 - [ ] Spot-check pages: entry, carnet, year, glossary, home
 - [ ] Vue hydration works: EntryContent, LanguageSwitcher, filters, GlossarySearch
@@ -183,8 +187,8 @@ cd src/frontend && npm run build
 - [ ] PWA: service worker registers, offline page works, install prompt appears
 - [ ] Filter overlay loads and applies filters
 - [ ] Reading history tracking works (IntersectionObserver -> localStorage)
-- [ ] Docker build succeeds end-to-end
-- [ ] Nginx serves correctly (gzip, caching headers, fallback routing)
+- [x] Docker build succeeds end-to-end
+- [x] Nginx serves correctly (gzip, caching headers, fallback routing)
 
 ---
 

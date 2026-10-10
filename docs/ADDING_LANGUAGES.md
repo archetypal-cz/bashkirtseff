@@ -233,12 +233,11 @@ just check-links es 001             # relative .md links resolve
 
 `scaffold` accepts any language code; nothing validates it against a registry. `sync`, `verify-carnet`, `check-links` refuse a missing tree with a clear message.
 
-**Known scaffold/verify mismatches (found in the es pilot, 2026-09-05)** — expect these on a fresh scaffold until fixed:
+**Known scaffold/verify mismatches (found in the es pilot, 2026-09-05)** — expect items 1-3 on a fresh scaffold until fixed (item 1 is fixed: `scaffold` now writes `translation_complete: false` and the other flags, `src/shared/src/utils/scaffold.ts`):
 
-1. **Frontmatter**: `scaffold` writes `status: translation_pending`, but `verify-carnet` requires the `translation_complete` key, so every freshly scaffolded file fails the frontmatter check until TR edits it. Fix one side: have the scaffold write `translation_complete / opus_reviewed / editor_approved / conductor_approved: false` (also closes the WATCHLIST "missing `conductor_approved`" gap), or have `verify-carnet` accept `status` on placeholder files (`src/shared/src/utils/scaffold.ts`, `src/scripts/verify-carnet.ts`).
-2. **Multi-line `%%` block**: a multi-line source paragraph (e.g. 001.0001, a markdown heading plus "Carnet N° 1") is copied as a two-line French block, which `check-comments` flags as "multi-line %% block (interior leaks as visible text)". en/cz/uk drop the date-heading line and keep a single line. The scaffold should join the lines with a space or drop leading heading lines; until then, fix by hand in the first entry.
-3. **`just check-comments` takes tree names** (`es`, `cz en`), not paths. `content/es` is silently wrong.
-4. **Footnote definitions without references**: the scaffold copies `[^…]:` definitions but the placeholder body has no in-text calls, so `verify-carnet` reports a footnote failure per placeholder file until TR wires them (44 failures across 17 untranslated files in the es pilot). Expected and noisy; read the verify output per file, or filter to the entries you have translated.
+1. **Multi-line `%%` block**: a multi-line source paragraph (e.g. 001.0001, a markdown heading plus "Carnet N° 1") is copied as a two-line French block, which `check-comments` flags as "multi-line %% block (interior leaks as visible text)". en/cz/uk drop the date-heading line and keep a single line. The scaffold should join the lines with a space or drop leading heading lines; until then, fix by hand in the first entry.
+2. **`just check-comments` takes tree names** (`es`, `cz en`), not paths. `content/es` is silently wrong.
+3. **Footnote definitions without references**: the scaffold copies `[^…]:` definitions but the placeholder body has no in-text calls, so `verify-carnet` reports a footnote failure per placeholder file until TR wires them (44 failures across 17 untranslated files in the es pilot). Expected and noisy; read the verify output per file, or filter to the entries you have translated.
 
 `check-comments` also cannot run from the translator/editor/conductor agent types (no Bash); the lead runs the gates between stages.
 

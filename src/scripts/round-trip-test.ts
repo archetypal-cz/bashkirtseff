@@ -201,3 +201,10 @@ if (allIssueTypes.size > 0) {
     console.log(`  ${type}: ${count}`);
   }
 }
+
+// Exit code: parse/render errors always fail; DIFF files only with --strict
+// (the parser is not lossless for the modern %% format, so DIFF is a known baseline).
+const strict = process.argv.includes('--strict');
+if (errorFiles > 0 || (strict && diffFiles > 0)) {
+  process.exit(1);
+}

@@ -33,6 +33,7 @@ interface CliOptions {
   verbose: boolean;
   deleteSource: boolean;
   simple: boolean;
+  clean: boolean;
 }
 
 interface DuplicateCandidate {
@@ -50,6 +51,7 @@ function parseArgs(): CliOptions {
     verbose: false,
     deleteSource: true,
     simple: false,
+    clean: false,
   };
 
   let i = 0;
@@ -64,6 +66,8 @@ function parseArgs(): CliOptions {
       options.deleteSource = false;
     } else if (arg === '--simple') {
       options.simple = true;
+    } else if (arg === '--clean') {
+      options.clean = true;
     } else if (arg === '--help' || arg === '-h') {
       showHelp();
       process.exit(0);
@@ -109,6 +113,8 @@ Options:
   --verbose, -v            Show detailed output
   --no-delete              Don't delete source glossary file after merge
   --simple                 Use mechanical append instead of AI-powered merge
+  --clean                  With --simple: drop the source's H1 title, re-id its GLO_ markers
+                           into the target's sequence, no '---' rule / ms-Z timestamp
   --help, -h               Show this help message
 
 Examples:
@@ -200,6 +206,7 @@ function runMerge(source: string, target: string, options: CliOptions): Promise<
     dryRun: options.dryRun,
     verbose: options.verbose,
     deleteSource: options.deleteSource,
+    clean: options.clean,
     smartMerge: options.simple
       ? undefined
       : (sourceId, sourceContent, targetId, targetContent) => {

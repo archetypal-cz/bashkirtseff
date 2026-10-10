@@ -122,6 +122,7 @@ function stripBenignSpans(s: string): string {
     .replace(/==[^=]+==/g, ' ') // deliberate ==code-switch== highlights
     .replace(/\]\([^)]*\)/g, ' ') // markdown link targets
     .replace(/\[\^[^\]]+\]/g, ' ') // footnote refs/defs labels
+    .replace(/<u>[^<]*<\/u>/g, ' ') // deliberate <u>…</u> Latin spans in Cyrillic text
     .replace(/`[^`]*`/g, ' '); // inline code
 }
 
@@ -245,6 +246,59 @@ for (const fname of entryFiles) {
     }
   }
 
+
+  // 7b. Encoding / leakage lints (WARN) — every line of the file, frontmatter included.
+  // Mojibake: UTF-8 read as Latin-1 and re-encoded (Ã© for é, â€™ for ’, Ð¿ for п).
+  const MOJIBAKE = /Ã[\u0080-\u00BF]|Â[\u00A0-\u00BF]|â€[\u0080-\u00BF™œ“”¦]|[ÐÑ][\u0080-\u00BF]/;
+  // Tool/LLM markup that leaked into content.
+  const LEAKAGE = /<\/?(antml|function_calls|invoke|parameter|thinking|tool_use|result)\b|\[(tool_use|tool_result)\b/;
+  // Czech/Polish diacritics have no business in a French source copy.
+  const NON_FRENCH = /[ěščřžůťďňľĺŕąęłśźżćńőű]/i;
+  // A %% line that holds the embedded French copy (not an ID, link, role comment or kind marker).
+  const isFrenchCopy = (l: string) =>
+    /^%% /.test(l) &&
+    !/^%% (\d{3}|GLO_[A-Z0-9_]+)\.\d{4} %%\s*$/.test(l) &&
+    !/^%% \[#/.test(l) &&
+    !/^%% \d{4}-\d\d-\d\dT[\d:.Z]+ [A-Z]+:/.test(l) &&
+    !/^%% (kind|image|src):/i.test(l);
+  for (let i = 0; i < lines.length; i++) {
+    const raw = lines[i];
+    if (MOJIBAKE.test(raw)) {
+      add({ check: 'mojibake', severity: 'WARN', file: fname, line: i + 1, message: `double-encoded UTF-8 sequence: "${raw.match(MOJIBAKE)![0]}"` });
+    }
+    if (LEAKAGE.test(raw)) {
+      add({ check: 'tool-leakage', severity: 'WARN', file: fname, line: i + 1, message: `tool/LLM markup in content: ${raw.match(LEAKAGE)![0]}` });
+    }
+    if (isTranslation && i >= bodyStartLine && isFrenchCopy(raw) && NON_FRENCH.test(raw)) {
+      add({ check: 'french-contamination', severity: 'WARN', file: fname, line: i + 1, message: `non-French letter "${raw.match(NON_FRENCH)![0]}" in the embedded French line` });
+    }
+    // Straight double quotes in the visible text of cz/uk/es (typographic pairs). en is skipped: it has no quote convention and 5954 lines use straight quotes.
+    if (['cz', 'uk', 'es'].includes(lang) && i >= bodyStartLine && !raw.trim().startsWith('%%') && !/^\[\^[^\]]+\]:/.test(raw)) {
+      if (/"/.test(stripBenignSpans(raw))) {
+        add({ check: 'straight-quote', severity: 'WARN', file: fname, line: i + 1, message: 'straight " in the visible text (use the language\'s typographic quotes)' });
+      }
+    }
+  }
+
+
+  // 7c. CON after the last ED approval-flag reset (WARN): a file whose flags say conductor_approved
+  // but whose newest ED "approval flags reset" note is later than every CON comment was edited
+  // (rebuild / source change) after its last conductor pass.
+  if (isTranslation && lang !== 'fr' && fm && /^conductor_approved:\s*true\b/m.test(fm)) {
+    const stampRe = /^%% (\d{4}-\d\d-\d\dT[\d:]+)(?:\.\d+Z?)? (ED|CON):/;
+    let lastReset = '';
+    let lastCon = '';
+    for (const l of lines) {
+      const m = l.match(stampRe);
+      if (!m) continue;
+      if (m[2] === 'CON' && m[1] > lastCon) lastCon = m[1];
+      if (m[2] === 'ED' && /approval flags reset/.test(l) && m[1] > lastReset) lastReset = m[1];
+    }
+    if (lastReset && lastReset > lastCon) {
+      add({ check: 'con-after-reset', severity: 'WARN', file: fname, message: `conductor_approved: true but the last ED flag reset (${lastReset}) is newer than the last CON comment (${lastCon || 'none'})` });
+    }
+  }
+
   // 8. Paragraph-ID alignment with the source entry (translations only).
   // WARN, not FAIL: two benign conventions diverge legitimately across the corpus —
   // a translation may omit a notes-only source paragraph, and it may number a header
@@ -287,7 +341,7 @@ if (isTranslation && fs.existsSync(sourceDir)) {
 
 // --- report --------------------------------------------------------------
 
-const CHECK_ORDER = ['frontmatter', 'links', 'glossary-depth', 'footnotes', '%%-balance', 'id-alignment', 'latin-in-cyr', 'foreign-script'];
+const CHECK_ORDER = ['frontmatter', 'links', 'glossary-depth', 'footnotes', '%%-balance', 'id-alignment', 'latin-in-cyr', 'foreign-script', 'mojibake', 'tool-leakage', 'french-contamination', 'straight-quote', 'con-after-reset'];
 const effSeverity = (f: Finding): 'FAIL' | 'WARN' => (STRICT && f.severity === 'WARN' ? 'FAIL' : f.severity);
 const fails = findings.filter((f) => effSeverity(f) === 'FAIL');
 const warns = findings.filter((f) => effSeverity(f) === 'WARN');

@@ -79,6 +79,26 @@ function findGlossaryFile(id: string): string | null {
   return walkDir(GLOSSARY_BASE);
 }
 
+const TYPE_BY_TOP_LEVEL: Record<string, string> = { people: 'Person', places: 'Place', culture: 'Culture' };
+
+/**
+ * Keep the entry's own frontmatter in step with its new location: `category:` is the
+ * directory path under _glossary/; `type:` follows the top-level folder and is only
+ * touched when the move crosses top-level folders (a hand-set type like Family stays).
+ */
+function updateMovedFrontmatter(content: string, oldCategory: string, newCategory: string): string {
+  const m = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (!m) return content;
+  let fm = m[1];
+  fm = fm.replace(/^category:[ \t]*.*$/m, `category: ${newCategory}`);
+  const oldTop = oldCategory.split('/')[0];
+  const newTop = newCategory.split('/')[0];
+  if (oldTop !== newTop && TYPE_BY_TOP_LEVEL[newTop]) {
+    fm = fm.replace(/^type:[ \t]*.*$/m, `type: ${TYPE_BY_TOP_LEVEL[newTop]}`);
+  }
+  return content.replace(m[1], () => fm);
+}
+
 /**
  * Move a glossary entry and update all references
  */
@@ -146,12 +166,17 @@ function moveGlossaryEntry(id: string, newCategory: string, dryRun: boolean): Mo
       isEntry ? newDir : undefined
     );
 
-    if (rewritten.count > 0) {
+    let outContent = rewritten.content;
+    if (isEntry) {
+      outContent = updateMovedFrontmatter(outContent, path.dirname(oldRelative), newCategory);
+    }
+
+    if (rewritten.count > 0 || outContent !== content) {
       // The entry itself is written at its destination: by then it has moved.
       pending.push({
         file,
         writeTo: isEntry ? newFullPath : file,
-        content: rewritten.content,
+        content: outContent,
         count: rewritten.count,
       });
     }

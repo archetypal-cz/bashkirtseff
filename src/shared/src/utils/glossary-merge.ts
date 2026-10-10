@@ -31,6 +31,12 @@ export interface MergeOptions {
   deleteSource?: boolean;
   translationDirs?: string[];
   /**
+   * Plain-append only: drop the source's H1 title and re-id its `GLO_SOURCE.NNNN`
+   * paragraph markers to continue the target's `GLO_TARGET` sequence, and write the
+   * merge note as a project-format timestamp without the `---` rule.
+   */
+  clean?: boolean;
+  /**
    * Optional AI-assisted merge of the two entries. Returns the full merged file
    * content for the target, or null to fall back to a plain append.
    */
@@ -225,6 +231,26 @@ export function extractBodyContent(content: string): string {
 }
 
 /**
+ * Body of a merged-away glossary entry made safe to append under the target:
+ * the leading `# Title` goes, and `%% GLO_SOURCE.NNNN %%` markers continue the
+ * target's own `GLO_TARGET.NNNN` numbering (so IDs stay unique).
+ */
+export function cleanAppendedBody(
+  sourceBody: string,
+  sourceId: string,
+  targetId: string,
+  targetContent: string
+): string {
+  let max = 0;
+  for (const m of targetContent.matchAll(new RegExp(`^%% GLO_${targetId}\\.(\\d+) %%\\s*$`, 'gm'))) {
+    max = Math.max(max, parseInt(m[1], 10));
+  }
+  const body = sourceBody.replace(/^\s*#[ \t]+[^\n]*\n/, '');
+  const idPattern = new RegExp(`^%% GLO_${sourceId}\\.\\d+ %%\\s*$`, 'gm');
+  return body.replace(idPattern, () => `%% GLO_${targetId}.${String(++max).padStart(4, '0')} %%`);
+}
+
+/**
  * Calculate Levenshtein distance between two strings
  */
 export function levenshteinDistance(a: string, b: string): number {
@@ -332,6 +358,7 @@ export async function mergeGlossaryEntries(
     deleteSource = true,
     translationDirs = TRANSLATION_DIRS,
     smartMerge,
+    clean = false,
   } = options;
 
   const glossaryBase = path.join(basePath, 'content/_original/_glossary');
@@ -422,7 +449,13 @@ export async function mergeGlossaryEntries(
           (target) => ({ path: target }),
           path.dirname(targetPath)
         ).content;
-        if (sourceBody.trim()) {
+        if (sourceBody.trim() && clean) {
+          const body = cleanAppendedBody(sourceBody, upperSource, upperTarget, targetContent);
+          const stamp = new Date().toISOString().replace(/\.\d+Z$/, '');
+          const note = `\n\n%% ${stamp} RSR: Merged content from ${upperSource} %%\n\n`;
+          writeFileAtomic(targetPath, targetContent.trimEnd() + note + body.trim() + '\n');
+          result.glossaryMerged = true;
+        } else if (sourceBody.trim()) {
           const mergeNote = `\n\n---\n\n%% ${new Date().toISOString()} RSR: Merged content from ${upperSource} %%\n\n`;
           writeFileAtomic(targetPath, targetContent.trimEnd() + mergeNote + sourceBody);
           result.glossaryMerged = true;

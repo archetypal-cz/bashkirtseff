@@ -240,6 +240,7 @@ export class ParagraphParser {
     // Collect content that appears BEFORE the paragraph ID
     const preIdContent: {
       frenchText?: string;
+      frenchEndLine?: number;
       glossaryLinks: GlossaryLink[];
       notes: Note[];
     } = { glossaryLinks: [], notes: [] };
@@ -269,6 +270,16 @@ export class ParagraphParser {
             // Plain text in comment = French original for translation files
             if (isTranslation && !preIdContent.frenchText) {
               preIdContent.frenchText = extracted.text;
+              preIdContent.frenchEndLine = item.endLine;
+            } else if (
+              isTranslation &&
+              item.line === item.endLine &&
+              preIdContent.frenchEndLine !== undefined &&
+              item.line === preIdContent.frenchEndLine + 1
+            ) {
+              // Following consecutive line of a multi-line French block
+              preIdContent.frenchText += '\n' + extracted.text;
+              preIdContent.frenchEndLine = item.endLine;
             }
           }
         }

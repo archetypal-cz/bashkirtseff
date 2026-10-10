@@ -28,7 +28,9 @@ interface EntryStatus {
   rsr: boolean;
   lan: boolean;
   tr: boolean;
-  gem: boolean;
+  ops: boolean;
+  fab: boolean;
+  vox: boolean;
   ed: boolean;
   con: boolean;
 }
@@ -41,7 +43,9 @@ interface CarnetStatus {
   rsr: number;
   lan: number;
   tr: number;
-  gem: number;
+  ops: number;
+  fab: number;
+  vox: number;
   ed: number;
   con: number;
 }
@@ -49,7 +53,7 @@ interface CarnetStatus {
 function scanCarnet(lang: string, carnet: string): CarnetStatus {
   const dir = path.join(CONTENT_BASE, lang, carnet);
   if (!fs.existsSync(dir)) {
-    return { carnet, entries: [], total: 0, empty: 0, rsr: 0, lan: 0, tr: 0, gem: 0, ed: 0, con: 0 };
+    return { carnet, entries: [], total: 0, empty: 0, rsr: 0, lan: 0, tr: 0, ops: 0, fab: 0, vox: 0, ed: 0, con: 0 };
   }
 
   const files = fs.readdirSync(dir)
@@ -57,6 +61,16 @@ function scanCarnet(lang: string, carnet: string): CarnetStatus {
     .sort();
 
   const entries: EntryStatus[] = [];
+
+  // fr (modern edition) carries `edition_complete` in the carnet README, not per entry
+  let frEditionComplete = false;
+  if (lang === 'fr') {
+    const readme = path.join(dir, 'README.md');
+    if (fs.existsSync(readme)) {
+      const m = parseFrontmatter(fs.readFileSync(readme, 'utf-8')).metadata;
+      frEditionComplete = m.edition_complete === true;
+    }
+  }
 
   for (const file of files) {
     const content = fs.readFileSync(path.join(dir, file), 'utf-8');
@@ -68,14 +82,24 @@ function scanCarnet(lang: string, carnet: string): CarnetStatus {
     const get = (key: string) =>
       !!(metadata[key] || wf[key]);
 
+    // OPS / FAB / VOX leave no boolean flag; they are recorded in redaction_passes
+    // ("fablelous 2026-09-25", "fablelous-opus …", "vox …", "ops …"/"opus-editor …").
+    const passes = Array.isArray(metadata.redaction_passes)
+      ? (metadata.redaction_passes as unknown[]).map(p => String(p).toLowerCase())
+      : [];
+    const hasPass = (re: RegExp) => passes.some(p => re.test(p));
+
     entries.push({
       file,
       date: (metadata.date as string) || file.replace('.md', ''),
       empty: get('empty_in_source'),
       rsr: get('research_complete'),
       lan: get('linguistic_annotation_complete'),
-      tr: get('translation_complete'),
-      gem: get('gemini_reviewed'),
+      // fr edition: the flag is `edition_complete` (README-level for finished carnets, see below)
+      tr: get('translation_complete') || get('edition_complete') || frEditionComplete,
+      ops: hasPass(/^(ops|opus-editor)\b/),
+      fab: hasPass(/^fablelous/),
+      vox: hasPass(/^vox\b/),
       ed: get('editor_approved'),
       con: get('conductor_approved'),
     });
@@ -89,7 +113,9 @@ function scanCarnet(lang: string, carnet: string): CarnetStatus {
     rsr: entries.filter(e => e.rsr).length,
     lan: entries.filter(e => e.lan).length,
     tr: entries.filter(e => e.tr).length,
-    gem: entries.filter(e => e.gem).length,
+    ops: entries.filter(e => e.ops).length,
+    fab: entries.filter(e => e.fab).length,
+    vox: entries.filter(e => e.vox).length,
     ed: entries.filter(e => e.ed).length,
     con: entries.filter(e => e.con).length,
   };
@@ -167,29 +193,31 @@ function printTranslationStatus(lang: string, carnetFilter?: string): void {
   }
 
   const totals = {
-    entries: 0, tr: 0, gem: 0, ed: 0, con: 0,
+    entries: 0, tr: 0, ops: 0, ed: 0, con: 0, fab: 0, vox: 0,
   };
 
   console.log(`=== ${lang.toUpperCase()} Translation Status ===\n`);
-  console.log(`${'Crnt'.padStart(4)} ${'Tot'.padStart(4)} ${'TR'.padStart(4)} ${'GEM'.padStart(4)} ${'ED'.padStart(4)} ${'CON'.padStart(4)}`);
-  console.log('─'.repeat(28));
+  console.log(`${'Crnt'.padStart(4)} ${'Tot'.padStart(4)} ${'TR'.padStart(4)} ${'OPS'.padStart(4)} ${'ED'.padStart(4)} ${'CON'.padStart(4)} ${'FAB'.padStart(4)} ${'VOX'.padStart(4)}`);
+  console.log('─'.repeat(38));
 
   for (const c of carnets) {
     if (c.total === 0) continue;
     totals.entries += c.total;
     totals.tr += c.tr;
-    totals.gem += c.gem;
+    totals.ops += c.ops;
     totals.ed += c.ed;
     totals.con += c.con;
+    totals.fab += c.fab;
+    totals.vox += c.vox;
 
     console.log(
-      `${c.carnet.padStart(4)} ${String(c.total).padStart(4)} ${pct(c.tr, c.total)} ${pct(c.gem, c.total)} ${pct(c.ed, c.total)} ${pct(c.con, c.total)}`
+      `${c.carnet.padStart(4)} ${String(c.total).padStart(4)} ${pct(c.tr, c.total)} ${pct(c.ops, c.total)} ${pct(c.ed, c.total)} ${pct(c.con, c.total)} ${pct(c.fab, c.total)} ${pct(c.vox, c.total)}`
     );
   }
 
-  console.log('─'.repeat(28));
+  console.log('─'.repeat(38));
   console.log(
-    `${'All'.padStart(4)} ${String(totals.entries).padStart(4)} ${pct(totals.tr, totals.entries)} ${pct(totals.gem, totals.entries)} ${pct(totals.ed, totals.entries)} ${pct(totals.con, totals.entries)}`
+    `${'All'.padStart(4)} ${String(totals.entries).padStart(4)} ${pct(totals.tr, totals.entries)} ${pct(totals.ops, totals.entries)} ${pct(totals.ed, totals.entries)} ${pct(totals.con, totals.entries)} ${pct(totals.fab, totals.entries)} ${pct(totals.vox, totals.entries)}`
   );
 }
 

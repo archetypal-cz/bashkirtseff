@@ -132,14 +132,7 @@ def check_lines(lines, tree):
             violations.append((i, 'glossary-tag line without %% markers (renders as prose)', s))
             continue
         if not s.startswith('%%') and s.endswith('%%') and s not in ('', '%%'):
-            # fr carries ~1,600 legacy lines of this shape (bare French with a
-            # trailing marker); the glyph is stripped at render time and the
-            # text is French-in-French-context, so it is noise there — but in
-            # every other tree it leaks source French or marks a reverse
-            # splice. _original has had 0 such lines since 2026-09-07, so it
-            # is gated like the translations (S5 in docs/COMMENT_MARKER_RULES.md).
-            if tree == 'fr':
-                continue
+            # S5 in docs/COMMENT_MARKER_RULES.md: gated in every tree, fr included.
             if not s.startswith('[^') and not s.startswith('[//]:'):
                 violations.append((i, 'closer without opener', s))
     if in_block:
@@ -250,7 +243,7 @@ def main():
             continue  # default tree not created yet (e.g. a language in preparation)
         for p in sorted(base.rglob('*.md')):
             sp = str(p)
-            if '_glossary' in sp or '_archive' in sp or p.name in ('TranslationMemory.md', 'CLAUDE.md', 'PROGRESS.md', 'README.md'):
+            if '_glossary' in sp or '_archive' in sp or p.name in ('TranslationMemory.md', 'CLAUDE.md', 'PROGRESS.md', 'README.md') or p.name.startswith('_'):
                 continue
             for lineno, kind, text in check_file(p, tree):
                 print(f'{p.relative_to(root.parent)}:{lineno}: {kind}: {text[:90]}')

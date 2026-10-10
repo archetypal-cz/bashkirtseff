@@ -149,3 +149,30 @@ test('one unreadable file aborts the whole batch before anything is written', as
     fs.rmSync(base, { recursive: true, force: true });
   }
 });
+
+test('clean append drops the source title and continues the target GLO_ numbering', async () => {
+  const base = fs.mkdtempSync(path.join(os.tmpdir(), 'glossary-merge-'));
+  try {
+    const glossary = path.join(base, 'content/_original/_glossary');
+    fs.mkdirSync(path.join(glossary, 'people/core'), { recursive: true });
+    fs.writeFileSync(
+      path.join(glossary, 'people/core/SOURCE.md'),
+      '---\nid: SOURCE\n---\n# Source\n\n%% GLO_SOURCE.0001 %%\nSource body.\n\n%% GLO_SOURCE.0002 %%\nMore.\n'
+    );
+    fs.writeFileSync(
+      path.join(glossary, 'people/core/TARGET.md'),
+      '---\nid: TARGET\n---\n# Target\n\n%% GLO_TARGET.0001 %%\nT1.\n\n%% GLO_TARGET.0002 %%\nT2.\n'
+    );
+    const result = await mergeGlossaryEntries(base, 'SOURCE', 'TARGET', { clean: true });
+    assert.deepEqual(result.errors, []);
+    const target = fs.readFileSync(path.join(glossary, 'people/core/TARGET.md'), 'utf-8');
+    assert.ok(!target.includes('GLO_SOURCE'), target);
+    assert.ok(!/^# Source$/m.test(target), target);
+    assert.ok(!/^---$/m.test(target.split('\n').slice(4).join('\n')), target);
+    assert.match(target, /%% GLO_TARGET\.0003 %%\nSource body\./);
+    assert.match(target, /%% GLO_TARGET\.0004 %%\nMore\./);
+    assert.match(target, /%% \d{4}-\d\d-\d\dT\d\d:\d\d:\d\d RSR: Merged content from SOURCE %%/);
+  } finally {
+    fs.rmSync(base, { recursive: true, force: true });
+  }
+});

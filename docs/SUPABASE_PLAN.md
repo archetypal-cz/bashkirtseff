@@ -1,7 +1,7 @@
 # Auth & Reporting Plan
 
 **Created**: 2026-03-11
-**Status**: Planning
+**Status**: Implemented and live (auth DB + paragraph reports run on aretea; deployment in `docs/DB_DEPLOY.md`). This file is the original plan and may differ in detail from what shipped.
 **Goal**: Add Google login + paragraph reporting to bashkirtseff.org
 
 ---
