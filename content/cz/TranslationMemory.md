@@ -2110,3 +2110,11 @@ These override older per-carnet entries below where they conflict.
 - **Old WP09 list** (A-15): undecided — research first (OPEN-ITEMS B).
 - **Small blessings** (A-16): 000.0049 „niterným přesvědčením“; 018 „podlá lůza“ ×3 → CON's varied version; Gavini dative „Gaviniovi“ (not Gavinimu).
 - **050.1310 *coquine de Biou*** (A-52, owner 2026-10-05): both readings stand — the Audiffret nickname and the Niçois oath. Text keeps „ty darebnice Biou!“, footnote explains the pun.
+
+## RED 2026-10-10 (D-30 source-correction review)
+
+- **tournure** (dress): „turnýra“ — the 1870s bustle, not „postava“. Corpus form (021.0137 „drátěná turnýra“, 021.0383, 023, 029, 032, 065 with gloss). Where *tournure* means someone's figure or a turn of phrase, translate by sense.
+- **chansonnette**: „šansoneta“ (light comic song; 021.0385, 066, 090). 022/1874-08-01 has „popěvek“; no sweep.
+- **crêpe de Chine**: „krepdešín“ (corpus 15× vs „čínský krep“ 6×; 008.0309, 021.0383).
+- **Marie's abbreviations, esp. inside struck text** (*fig.* = figure): keep them abbreviated, as a Czech abbreviation of the Czech word („tv.“ for tvář, 021.0386); don't expand.
+- **fiché / fichée** (Marie's word, someone or something written off, dropped): „vyřízený“, „odepsaný“, „skončená záležitost“ (002), „odkopnout“ (014.0263), „sešlo z toho“ (022.0069); NOT „rozzlobený“ (*fâché*). The pun *fiché / chéfi* (013.0253) → „pasé / *sépa*“ with footnote.
