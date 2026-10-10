@@ -2674,3 +2674,16 @@ French census (`content/_original`, visible lines): «[Rayé: …]» ×817 domin
 | Rayé et cancellé, noirci, «Замазано», «затерті» | unchanged | separate categories, out of scope |
 
 Applied 2026-10-03 (CON sweep, Python on visible lines; 605 labels in 403 files, 79 carnets; file list in ~/rebuild-state/wave/struck-label-files.txt). **Not yet applied** to uk 045, 046, 051 and 103, which another agent was editing at the time. Also left as is: compound labels such as 016/1874-02-02 «[Слова закреслені. Закреслено: …]» and 090/1880-10-03 «[Два рядки викреслено й один замазано: …]».
+
+## Printed name variants after A-53/A-56 (owner 2026-10-10, RED 2026-10-10)
+
+The owner ruled that one-off printed variants are typesetting slips (A-56): the source now uses the standard form, and the text follows it (Walistky, Gercike, Wittengstein, Avidgor, Progders, Winslov, Papar, Merjeesky/Merjewsky/Merjeewski, Folligno, Witoslk-, Rousselière, Audifret and Wheelwrigth were all reverted). Do not add per-occurrence rows for these. Only the variants that Marie uses consistently, or that carry a joke, stay in the text:
+
+| Source | Ukrainian | Rule |
+|---|---|---|
+| Audiffer (113× in the source, Marie's own shorthand, systematic) | **Одіффер** (decl. Одіффера, Одіфферові, Одіффером) | kept wherever the source has it; Audiffret stays **Одіффре** (see the Girofla/Audiffer row above) |
+| Blondoff (6×, recurring) | **Блондов** (decl. Блондова) | kept |
+| Pougan (022.0104, rhymes with Chakmagan) | **у Пуґана** | kept for the rhyme in the verses |
+| Papari poulous grec (022.0087, a pun) | **Папарі Пулус, грек** | kept for the pun; Paparigopoulos elsewhere stays **Папаріґопулос** |
+
+Tree drift left for a sweep: «Одіфре» (54 hits in 16 carnets) against the TM form «Одіффре» (1,246 hits).
