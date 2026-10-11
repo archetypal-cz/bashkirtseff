@@ -5,166 +5,123 @@ aliases:
   - Dina Babanina
   - Babanina
   - Babanine
+  - Mlle Babanine
   - Dina
   - Comtesse Dina de Toulouse-Lautrec
   - Countess Dina de Toulouse-Lautrec
 type: Person
 category: people/core
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-11
+images:
+  - src: /images/marie/works/portrait-dina-pastel.jpg
+    caption: "Marie Bashkirtseff, Portrait de la comtesse Dina de Toulouse-Lautrec (shown at the Salon of 1883 as Portrait de Mlle de B.), pastel, 61 × 50 cm, Musée d'Orsay, Paris (RF 39091). Low-resolution copy"
+    credit: "Musée d'Orsay, Paris — public domain (PD-Art), via Wikimedia Commons"
+    link: https://www.musee-orsay.fr/en/artworks/portrait-de-la-comtesse-dina-de-toulouse-lautrec-18238
+    alt: "Pastel portrait of a fair-haired young woman, frontal, in a low-cut white ruffled bodice"
+  - src: /images/marie/works/die-lesende.jpg
+    caption: "Marie Bashkirtseff, Die Lesende (The Reader), c. 1880, oil on canvas laid on board, 64 × 53 cm, private collection (sold at the Dorotheum, Vienna, 7 June 2021, as a portrait of Dina Babanina)"
+    credit: "Dorotheum photograph via Wikimedia Commons — public domain (PD-Art, artist died 1884)"
+    link: https://commons.wikimedia.org/wiki/File:Marie_Bashkirtseff_Die_Lesende.jpg
+    alt: "A fair-haired young woman in black reads at a table, her right hand pressed to her forehead and her eyes lowered to an open book, a glass of water beside her"
 ---
 
 %% GLO_DINA.0001 %%
-## Basic Information
+# Dina Babanina
 
 %% GLO_DINA.0002 %%
-**Full name**: Dina Babanina (also spelled Babanine); after marriage: Comtesse Dina de Toulouse-Lautrec
-**Born**: c. 1853--1855, Poltava region, Ukraine (Russian Empire). Marie's 1884 preface states Dina was born "quatre ou cinq ans avant ma naissance" (four or five years before my birth), i.e. c. 1853--1854. Geneanet genealogical records give 11 May 1855, Poltava (per Alain Garric, Geneanet).
-**Died**: 26 July 1914, Nice, France (aged approximately 59--61). Per Geneanet.
-**Nationality**: Russian (Ukrainian-born), later French by marriage.
-**Marriage**: Married Comte Alexandrine de Toulouse-Lautrec (1836--1894) in 1886, two years after Marie's death.
+## Who she was
 
-Dina was Marie Bashkirtseff's first cousin and one of the most constant presences in the diary across all twelve years (1873--1884). She appears in approximately 1,043 entries -- by far the most frequently referenced non-family-member after Marie's mother ("Maman"). She is depicted in several of Marie's most important artworks and was at Marie's side during her final days.
+**Dina Babanina** (Dina Babanine, 1855--1914), later Comtesse de Toulouse-Lautrec, was Marie's first cousin, raised in Marie's household, and the person most often named in the diary after Maman: the entry is tagged in more than a thousand daily entries between 1873 and 1884. Kernberger (2013, Appendix I, Glossary) gives "Babanine, Dina: Marie's cousin (1855-1914), daughter of George and Domenica". An earlier note on this page cites Geneanet (tree of Alain Garric) for a birth on 11 May 1855 at Poltava and a death on 26 July 1914 at Nice; the Geneanet page itself was not re-checked. Marie's own preface (written 1884) says Dina was born "quatre ou cinq ans avant ma naissance" (000.0035), i.e. about 1853--54, so 1855 is probably correct to within a year.
 
 %% GLO_DINA.0003 %%
-## Family Background
+## Family
 
 %% GLO_DINA.0004 %%
-Dina was the daughter of Georges Babanine, Marie's maternal uncle, making her Marie's first cousin. According to Marie's 1884 preface (carnet 000-02), Georges married at age 20 "une belle veuve de trente-six ans, mere de plusieurs enfants" (a beautiful widow of 36, mother of several children). The mother's name was Domenica (called "Mme Georges" by the family). Dina was born from this marriage: "Dina est sa fille" (Dina is his daughter). The marriage ended in separation.
-
-### Seized by the Matriarch
-
-In the preface (carnet 000-08), Marie recounts a pivotal episode: "Lorsque Dina vint au monde, grand-maman alla la prendre sans ceremonie a sa mere et la garda toujours" (When Dina was born, grandmother went and took her unceremoniously from her mother and kept her always). Marie's grandmother (Julie Cornelius Babanina) simply seized the newborn from Domenica and raised her within the Babanine household. Domenica, described as "une femme pratique, tres gaie" (a practical, very cheerful woman) who took "distractions" while Georges abandoned her, apparently did not resist strongly: "sa vraie mere n'y tenait pas trop" (her real mother didn't hold on too much). Dina's mother had two more children by Georges: a daughter Lola (who married) and a son Etienne (who died at sixteen under tragic circumstances).
-
-### Raised as Marie's Sister
-
-Marie's mother adopted the role of surrogate mother: "Maman adora Dina" (Mama adored Dina). Dina grew up in the Babanine household as effectively a sister to Marie and Paul, though her father Georges was the family scoundrel -- an alcoholic genius who alternated between charm and violence. This quasi-sibling relationship explains why Marie refers to Dina simply by first name throughout the diary, with no further identification needed.
-
-When the family left Russia in May 1870, Dina was part of the traveling party: "Grand-papa, maman, M. et Mme Romanoff, Dina, Paul et moi" (Grandfather, mama, Mr. and Mrs. Romanoff, Dina, Paul and me), as recorded in carnet 000-05.
+Dina was the daughter of Marie's maternal uncle **Georges Babanine** ([#Georges](../family/GEORGES.md)) and his wife **Domenica Pavlovna Issaïevitch** (Kernberger, Glossary). According to Marie's preface, Georges married at twenty "une belle veuve de trente-six ans, mère de plusieurs enfants" (000.0008); one of the widow's daughters, Marie née Kandiba ("Mashenka"), became the wife of Uncle Stepa Babanine. Dina's full siblings were Lola ("La fille est mariée", 000.0035; she married Alexander Nemerovsky per Kernberger, and Marie notes the wedding on 13 September 1882, 096.0237) and a brother, Stepan ("Etienne"), "mort à seize ans" (000.0035). On 25 January 1874 Marie reads in a Russian newspaper that Stepan, fifteen and a student at the military academy, had stabbed himself three times with a dagger at his mother's house (1874-01-25, in Kernberger's translation); Dina was not told. By February 1876 he is spoken of as dead (053, 1876-02-01). Kernberger's notes connect the suicide with Georges having his marriage to Domenica annulled, which left the children illegitimate (Kernberger 2013, notes).
 
 %% GLO_DINA.0005 %%
-## Relationship with Marie
+At her birth Grand-maman "alla la prendre sans cérémonie à sa mère et la garda toujours", and Maman "adora Dina" (000.0035): Domenica "n'y tenait pas trop". Dina grew up in the Babanine household as a sister to Marie and Paul. She travelled with the family when they left Russia in June 1870 (000.0023).
 
 %% GLO_DINA.0006 %%
-### Early Diary (1873--1874): Childhood Hierarchy
+## Marie and Dina, 1873--1881
 
-From the very first entries, Dina is part of the fabric of Marie's daily life. In the 1884 preface recalling her childhood at age five, Marie situates herself in the family hierarchy: "Paul n'etait presque rien et Dina ne me portait pas ombrage bien que fille du bien-aime Georges" (Paul was almost nobody and Dina didn't put me in the shade despite being the daughter of the beloved Georges). Marie is the star; Dina, though daughter of the family favorite, is no rival.
-
-In the earliest diary entries (January 1873), Dina accompanies Marie's mother to social events: "Maman et Dina sont a une matinee musicale a l'hotel Chauvain" (1873-01-30). Marie also evaluates potential suitors for Dina -- Baron Bach (Russian) is judged "assez bon pour Dina" (good enough for Dina) on February 9, 1873, revealing the marriage-market mentality of their milieu.
-
-By September 1873, a scene at the theater captures their dynamic perfectly: when Marie's father declares "si l'on me demandait, je choisirais Dina" (if I were asked, I would choose Dina), Marie is stung. Yet it is Dina who provides the most perceptive observation about the Duke of Hamilton, Marie's infatuation: he is "beau pour ceux qui l'aiment" (handsome for those who love him).
-
-### Nice Years (1874--1877): Confidante and Co-Conspirator
-
-Throughout Marie's adolescence in Nice, Dina serves as her constant companion, confidante, and occasional accomplice. They attend church together, take walks on the Promenade, and share clothes -- Marie borrows Dina's black velvet hat (1875-02-24) and her cape. Dina is present at family gatherings, attends the opera, and accompanies Marie to social events.
-
-Their relationship had a mischievous side. In October 1875, when the Sapogenikoff sisters arrive "deguisees en hommes" (disguised as men), Marie and Dina follow suit: "Aussitot moi et Dina en faisons autant, et nous sortons apres avoir fume, jure, dit des horreurs" (Immediately Dina and I do the same, and we go out after having smoked, sworn, said horrible things) -- four young women of the Russian aristocracy parading as "little Nicois men" through the streets (1875-10-30).
-
-Dina also served as Marie's operative in her schemes. When Marie conducted her anonymous letter campaign against the Audiffret family in late 1875, she sent the letters "a Nice a Dina" to be posted from there to disguise their Parisian origin (1875-11-18, 1875-11-19). Dina acted as an eyewitness reporter, providing detailed accounts of the Audiffret family's public humiliation at the opera (1875-11-28).
-
-Yet Marie could be cruel in her assessments. In a moment of existential despair she writes: "Pourquoi ne suis-je pas un morceau de viande comme Dina?" (Why am I not a lump of meat like Dina?) (1875-03-22). And she rages at her family: "Vous pensez tous qu'on peut me conserver comme Dina jusqu'a vingt ans" (You all think you can keep me like Dina until twenty) (1875-03-31) -- Dina represents the conventional path Marie refuses.
-
-### Rome and Italy (1876): Social Companion
-
-During the family's sojourn in Rome (carnet 055, March 1876), Dina is Marie's companion on excursions, at receptions, and in their complex social maneuvering around Italian aristocrats. "Je suis seule avec Dina et il fait froid de sorte que je garde ma fourrure" (I am alone with Dina and it is cold so I keep my furs) -- at the Pincio and Corso promenades (1876-03-11). Dina observes, comments, and sometimes reveals Marie's secrets to visitors, prompting Marie's exasperation.
-
-Dina occasionally plays confidante to Marie's romantic interests: she tells Bruschetti "elle est amoureuse d'Antonelli et ensuite elle est amoureuse de Doria" (she is in love with Antonelli and then she is in love with Doria) (1876-03-03), while Marie overhears and agonizes. In another instance, Dina copies a letter Marie writes to Larderei, to disguise the handwriting (1877-04-22).
-
-### Paris Years (1877--1883): Art World Companion
-
-After the move to Paris in 1877, Dina remains part of the household at 34 Avenue Montaigne. She participates in the artistic and social world around Marie and the Academie Julian circle. At an impromptu costume party in April 1883, Dina dresses "en petite russienne" (as a little Russian girl) while Marie poses as Madame Recamier after the famous David portrait (1883-04-21).
-
-Marie briefly considered Dina as a potential wife for Tony Robert-Fleury, her painting instructor: "je regrette Dina n'a pas 300,000 francs de dot" (I regret Dina doesn't have a 300,000-franc dowry) -- describing Tony as "bon, honnete, bien eleve, aimable, grand artiste" (good, honest, well-bred, kind, great artist) but noting he wants to marry for money (1883-05-21).
-
-When Marie received her mention honorable at the Salon of 1883, Dina and Marie's aunt "ont tout dit" (told everything) to the press about Marie's youth and abilities (1883-06-17). Dina and her aunt sat behind Marie at the awards ceremony (1883-06-22).
-
-In July 1883, Marie began a portrait of Dina: "pour ne pas perdre de temps je commence un portrait de Dina" (to not lose time I begin a portrait of Dina) (1883-07-22). By late July, the portrait elicited praise from visitors, though Marie was frustrated by faint praise for her other work: "sauf pour cet eternel portrait de Dina que l'on trouve si bien" (except for that eternal portrait of Dina which everyone finds so good) (1883-07-26).
-
-**Note on disambiguation**: In some 1883 entries (e.g. 1883-05-23, 1883-05-29), "Dina" appearing alongside Prince Bojidar Karageorgevitch may be ambiguous. A previous LAN annotation incorrectly identified this Dina as "Dina Karageorgevitch, Bojidar's sister." This is an error: Bojidar had only one sister, who died in infancy unnamed. The "Dina" who arrives with Bojidar in these entries is Dina Babanina, Marie's cousin, who was part of the same social circle.
+In the preface Marie remembers that at five, dancing as Petipa, she was the star: "Paul n'était presque rien et Dina ne me portait pas ombrage bien que fille du bien-aimé Georges" (000.0034).
 
 %% GLO_DINA.0007 %%
-## Role in Marie's Final Days
+In the first entries Dina goes out with Maman: "Maman et Dina sont à une matinée musicale à l'hôtel Chauvain" (30 January 1873, 001.0056). Marie weighs suitors for her: on 9 February 1873 Baron Bach is "assez bon pour Dina" (001.0121). On 23 September 1873 Grand-papa -- "papa" in that entry, not Constantin -- says "si l'on me demandait, je choisirais Dina", which Marie finds so mad that she decides he is old and blind (010.0008); Dina is the one who notes that the Duke of Hamilton is handsome "pour ceux qui l'aiment" (010.0031).
 
 %% GLO_DINA.0008 %%
-In the final months of Marie's life (autumn 1884, carnet 106), Dina's role shifts from companion to devoted caretaker. The parallel structure of Marie's final diary entries is striking: as Jules Bastien-Lepage's brother Emile carries the dying painter on his shoulders up three flights of stairs, Marie writes: "Dina est egalement devouee a moi" (Dina is equally devoted to me) (1884-10-20, Marie's final diary entry).
-
-Specific moments from the final entries reveal Dina's constant presence:
-
-- **September 14, 1884**: Marie is so weak she cannot climb stairs: "il me porte jusqu'en haut suivi de Dina" (he carries me upstairs followed by Dina).
-- **September 23, 1884**: Dina tends to the dying Bastien-Lepage, stroking his head to help him sleep -- "c'est Dina qui lui a tripote la tete pour l'endormir. Elle est si bien portante, si grasse, si forte" (it is Dina who stroked his head to put him to sleep. She is so healthy, so plump, so strong). The contrast with Marie's emaciated state is implicit.
-- **October 1, 1884**: "Dina continue a l'endormir" (Dina continues to put him to sleep), referring to Bastien-Lepage.
-- **October 7, 1884**: Marie's jealousy flares even in dying: she complains of being "l'egale de Dina ou de ma tante" (the equal of Dina or my aunt) in Bastien-Lepage's eyes. Later: "il m'aime mieux que maman, ma tante ou Dina... Et encore ce n'est pas sur" (he loves me better than mama, my aunt or Dina... And even that isn't certain). Dina plays "les ingenues" (the innocent) by asking the architect about a mysterious woman who visited Jules.
-- **October 11, 1884**: "Dina se precipite" (Dina rushes in) -- Dina is the first to react when something happens.
-- **October 16, 1884**: "Dina me lit des romans" (Dina reads novels to me). Marie can no longer leave the house; Dina reads to her as she lies between armchair and sofa.
-- **October 20, 1884** (final entry): "Mais j'ai dans Dina un devouement pareil" (But I have in Dina a devotion equal [to Emile's for Jules]). This is one of the last sentences Marie ever wrote, comparing Dina's devotion to the brotherly love that carried a dying painter up three flights of stairs.
-
-Marie Bashkirtseff died eleven days later, on October 31, 1884.
+Through the Nice years she is Marie's walking companion, confidante and accomplice. They share clothes and ride to church. Marie says in despair, on 22 March 1875, "Pourquoi ne suis-je pas un morceau de viande comme Dina ?" (030.0302) and on 31 March that the family thinks it can keep her "comme Dina jusqu'à vingt ans" (030.0420): Dina stands for the conventional path she refuses. On 30 October 1875 the Sapogenikoff sisters arrive "déguisées en hommes" and Marie and Dina do the same -- "nous sortons après avoir fumé, juré, dit des horreurs" (048.0252). In November 1875 Marie has her anonymous letters against the Audiffret family posted from Nice by Dina (1875-11-18 and 11-19, 050.0032), and Dina reports on the Audiffrets' humiliation at the opera on 28 November (050.0248).
 
 %% GLO_DINA.0009 %%
-## Appearances in Marie's Art
+In Rome in spring 1876 Dina is her companion at the Pincio and the Corso (055.0525, 11 March) and a source of indiscretion: she tells Bruschetti that Marie "est amoureuse d'Antonelli et ensuite amoureuse de Doria" (055.0088). On 10 June 1876 it is Dina's idea to order a mock mourning card, "Mlle Dina Babanine ... est décédée dans sa dix-huitième année", for Antonelli at a Roman printer's; Marie decides on reflection not to send it (062.0311). On 22 April 1877 Dina copies out a letter Marie sends to Larderel (070.0819).
 
 %% GLO_DINA.0010 %%
-Marie depicted Dina in at least two major artworks, both of which have complex histories:
-
-### 1. *Jeune femme lisant la Question du Divorce d'Alexandre Dumas* (1880)
-
-Also known as *The Reader* (*Die Lesende* / *La Liseuse*).
-- **Medium**: Oil on canvas laid on board
-- **Dimensions**: 64 x 53 cm (first version) / 130 x 98 cm (second version, per Facebook/Female Artists in History catalogue note)
-- **Subject**: The sitter is identified as Dina, depicted reading Alexandre Dumas fils's controversial 1880 book *La Question du Divorce* (The Divorce Question). The painting carries a feminist message: beautiful women possess intelligence, and the serious subject matter challenges the assumption that women only read "frothy romantic novels" (per mydailyartdisplay.uk).
-- **Exhibited**: Paris Salon 1880. Marie signed it "Russ" (for Russian) so judges would not know she was a woman.
-- **First version**: Marie judged that the portrait "did not resemble its subject sufficiently" and destroyed it with a knife. Her mother secretly retrieved the slashed pieces and glued the canvas back together. After Marie's death, the mother loaned this reconstructed work to the Vienna Secession for the 1910 exhibition "The Art of the Woman" (*Die Kunst der Frau*). It was then given to Margarethe Stonborough-Wittgenstein (sister of philosopher Ludwig Wittgenstein), a major sponsor of the exhibition.
-- **Auction**: The slashed-and-restored first version sold at Dorotheum, Vienna, on June 7, 2021, for EUR 149,700 -- a world record price for a work by Marie Bashkirtseff (per Dorotheum and Antiques Trade Gazette).
-- **Second version**: A second version (1880) is in the collection of the Kharkiv Art Museum, Kharkiv, Ukraine.
-
-### 2. *Portrait de la comtesse Dina de Toulouse-Lautrec* (1883)
-
-Also known as *Portrait de Dina Babanine* or *Portrait de Mlle de B.*
-- **Medium**: Pastel and charcoal on beige paper mounted on canvas stretcher
-- **Dimensions**: H. 61.0 x L. 50.0 cm
-- **Accession number**: RF 39091
-- **Inscription** (verso, pen and brown ink): "Portrait de la Comtesse Dina de Toulouse-Lautrec fait par Marie Bashkirtseff sa cousine en 1883 / Paris 34 avenue Montaigne"
-- **Description**: Dina wears a pale blue decollete peignoir with a wide delicate white collar. Her face, neck and chest are rendered in delicately blended light tones. Her dark blue eyes do not quite focus on the viewer -- a slightly abstracted gaze that enhances the intimacy of the portrait.
-- **Exhibition history**:
-  - Salon de la Societe des artistes francais, Paris, 1883, no. 2517
-  - Salon de la Societe des artistes francais (Salon 103), Paris, 1885, no. 106
-  - "Quelques oeuvres choisies du XIXe et XXe siecles," Galerie Raphael Gerard, Paris, 1939
-- **Award**: Received an honourable mention at the Salon of 1883 (or 1884, per different sources -- Wikipedia states 1884).
-- **Provenance**: Collection of Marie Bashkirtseff-Babanine (the artist's mother) until 1892; donated to the French state 1892; attributed to Musee du Louvre; transferred to Musee du Luxembourg/Jeu de Paume 1930; returned to Louvre 1977; at Musee d'Orsay since 1986. Currently viewable by appointment in the reference room for prints and drawings.
-- **Bibliography**: Benedite, Leonce, *L'Artiste* (1894); Monnier, Genevieve, *Pastels du XIXe siecle* (1985), no. 305.
-- **Sources**: Musee d'Orsay (musee-orsay.fr), Louvre Collections (collections.louvre.fr), RMN-GP Images d'Art (art.rmngp.fr), Joconde database (pop.culture.gouv.fr), Wikidata Q23009083.
+After the move to Paris in 1877 Dina is part of the household at 34 avenue Montaigne, and sits for Marie from 1879 on (see below). When Marie imagines marriages for the people around her she turns to Dina: on 21 May 1883 she regrets that Dina "n'ait pas trois cent mille francs de dot", which would suit Tony Robert-Fleury, "bon, honnête, bien élevé" (099.0513).
 
 %% GLO_DINA.0011 %%
-## Later Life (after Marie's Death)
+## 1882--1884
 
 %% GLO_DINA.0012 %%
-Two years after Marie's death, in 1886, Dina married Comte Alexandrine de Toulouse-Lautrec (1836--1894), becoming the Comtesse Dina de Toulouse-Lautrec. Her husband was approximately 31 years her senior (born 1836, died 1894). The Toulouse-Lautrec family were an ancient French noble house from the Languedoc region (not to be confused with the famous painter Henri de Toulouse-Lautrec, 1864--1901, who belonged to a different branch of this vast aristocratic family; no direct connection between Dina's husband and Henri has been established in available sources).
-
-The inscription on the verso of Marie's 1883 pastel portrait identifies Dina by her married name, indicating that it was labeled retrospectively after 1886. Marie's mother donated the portrait to the French state in 1892, eight years after Marie's death.
-
-Dina died on July 26, 1914, in Nice -- the city where she had spent much of her youth with Marie and the Babanine family. She was approximately 59--61 years old.
-
-The British Library holds archival materials related to Dina, including a pencil drawing endorsed "Dina" (Dina Babanine, Marie Bashkirtseff's cousin), undated, and other sketches from 1882--1895 (SNAC Cooperative, ark:/99166/w6zx1qnd; British Library Archives and Manuscripts Catalogue).
+**1882.** On 3 May Marie jokes that she would marry Julian to Dina (095.0017); on 18 July, as Dina fills Julian's glass at dinner until he is drunk, Marie writes: "cette fille-là est d'une couleur ravissante, elle a des cheveux merveilleux, un type intéressant, elle est bonne... Mais quand elle veut être gracieuse elle a quelque chose de lascif qui m'horripile et puis ce manque de mesure en tout !" (095.0300--0302). In August she thinks of marrying Dina to Tony instead (096.0054) and plans a portrait of her, "avec une pointe de mystère ... dans ses yeux de chat" (096.0107). Dina goes to Russia with Maman on 6 August (096.0019) and meets Marie at Poltava station in October (096.0389); at Gavronzi Marie is irritated by her flirting with Michka Eristoff, whom she "a battu pour de vrai" (097.0011).
 
 %% GLO_DINA.0013 %%
-## Historical Context
+**Winter 1882--83.** "A Nice entre Dina, Bojidar, Nini, avec ces êtres jeunes j'étais tout autre", Marie writes on 5 December 1882, regretting how different she was before Paris (097.0193). On 27 January 1883 Dina is one of the three women who pray for her night and morning (098.0178). On 2 February Dina, thinner, is "magnifique" and "des artistes raffolent de ses yeux chinois, de ses lèvres épaisses"; Marie wants to paint "cette Vénus de Milo, de Rubens ou plutôt de Rembrandt" for the Salon (098.0269). The study of 27 January, which Dina poses for with "nonchalance", is judged "au dessous de ce que je puis faire" (098.0166).
 
 %% GLO_DINA.0014 %%
-Dina's life trajectory -- from a child seized from her mother by a domineering grandmother, raised as a quasi-adopted daughter in a peripatetic Russian aristocratic household, to Comtesse de Toulouse-Lautrec in the French nobility -- illuminates the social mobility and transnational lives of the Russian petite noblesse in the late nineteenth century.
-
-Her relationship with Marie offers insight into several key themes:
-
-1. **Matriarchal power**: Grand-maman's "sans ceremonie" seizure of baby Dina from Domenica reveals the absolute authority of the Babanine matriarch over family arrangements, overriding even a mother's claim to her child.
-2. **Illegitimacy and family solidarity**: Dina's father had his marriage annulled, rendering his children technically illegitimate. Yet the Babanine women -- Marie's grandmother, mother, and aunt -- embraced Dina completely, raising her as one of their own.
-3. **Female companionship**: Dina's presence throughout the diary demonstrates how extended-family female bonds provided emotional support, practical assistance, and social cover for young women navigating a restrictive world.
-4. **The marriage market**: From Baron Bach in 1873 through Tony Robert-Fleury in 1883, Marie repeatedly evaluated potential husbands for Dina -- revealing how marriage calculations permeated every social encounter for women of their class.
-5. **Art and intimacy**: Marie's portraits of Dina -- particularly the feminist *Reader* and the intimate 1883 pastel -- represent some of her most personal artistic work, bridging the private world of family and the public arena of the Salon.
+**Salon 1883.** On 30 March 1883 a member of the jury writes that "la tête au pastel, le portrait de votre cousine" has had a real success (098.0634). The pastel won Marie's *mention honorable*: on 24 May she goes to look for the placard "mention honorable", expecting it on her *Irma*, and finds it on "l'odieux pastel" (099.0565); Bojidar and Dina then go to complain at the Salon office, in vain, and Bojidar takes the placard away for her, "ce morceau de carton avec les mots: mention honorable" (099.0594). After the awards Dina and Ma tante told a journalist of the great paper about Marie's youth (100.0182) and sat behind her at the ceremony on 22 June (100.0191). On 19 July Dina, Bojidar and Ma tante understand only that "elle *prêche l'égalité* avec les domestiques et les paysans" (100.0385).
 
 %% GLO_DINA.0015 %%
-## Research Notes
+**The portrait that failed, 1883--84.** On 24 July 1883, rain keeping her indoors, Marie begins a new portrait of Dina (100.0425); in September she works on it in a "disposition d'esprit si tragique" (101.0343), and on 9 October plans to show it with her portrait of Bojidar at an exhibition (101.0558). On 28 November it is "une harmonie blanche ... superbe" (102.0342); on 7 December Dina's migraines stop the sittings (102.0443). On 14 January 1884 Marie slashes the canvas ("j'ai crevé le portrait de Dina", 103.0037), begins again on 28 January (103.0156), reaches "la pose rêvée" on 19 February (103.0348), and on 24 February erases the head after visitors' remarks (103.0396). By 6 March, "son tableau me coûte le portrait de Dina": the Meeting had taken all the time (103.0454). The portrait is not recorded as finished. The pastel, by contrast, was lent to Mme Bertaux's association of women painters and sculptors in March 1884 (103.0437) and the dealer Hayem wanted to buy it in May 1884 (104.0175).
 
 %% GLO_DINA.0016 %%
+**Marriage plans.** On 20 October 1883 "il est très question d'un mariage entre Dina et" a man, apparently the young Marinovitch named in the previous paragraph, thirty-three and a secretary at an embassy, who "la trouve charmante" -- "seulement ces gens s'imaginent que Dina est très riche" (102.0037--0038; see [#Marinovitch](../mentioned/MARINOVITCH.md)). Nothing came of it in the diary.
+
+%% GLO_DINA.0017 %%
+**Spring--summer 1884.** Dina is Marie's go-between and, increasingly, her foil. On 2 May Marie is irritated when Dina cheats at a measuring of their heights ("elle fait semblant" to take off her slippers); yet "elle est très bonne et soigne les malades de la maison" and "fait maigre et va à l'église et croit aux images miraculeuses. Moi ces natures me dégoûtent" (104.0085--0087). On 18 May Dina keeps Emile Bastien-Lepage and Bagnitsky late so that it is "trop tard pour des explications en famille" (104.0237). On 23 May Tony Robert-Fleury takes Dina aside and tells her he can say neither yes nor no, "que j'ai des chances mais on ne sait jamais" (104.0306); on 28 May Julian writes to Dina that he is ashamed for Marie and asks her not to think him capable of "vilenies" (104.0416). On 16 May, listing those for whom she would sacrifice her dog Coco -- Bastien-Lepage first -- Marie adds "Et pour Dina et pour ma tante et pour maman et pour Paul", but not Engelhardt or Missak (104.0199).
+
+%% GLO_DINA.0018 %%
+**Bastien-Lepage's illness and Marie's last weeks.** On 1 July 1884 Dina will not go with her to see Jules, "elle affecte de croire que je fais trop d'honneur à ce malade", and says that Mme Mackay is there (104.0756); on 17 July Marie explains to her that Bastien-Lepage "n'est pas gentil" (105.0231). On 20 August Dina finds her lying at home: "Tu ne vas donc pas voir Jules ?" (105.0609--0610). On 24 August Dina, "qui joue les ingénues, toujours", asks the architect whether the woman who visited his brother was Mme Mackay (105.0664); on 26 August Marie, jealous, writes "l'égale de Dina ou de ma tante" and on the 27th that Jules "m'aime mieux que maman, ma tante ou Dina... Et encore ce n'est pas sûr" (105.0682, 105.0694).
+
+%% GLO_DINA.0019 %%
+From September Dina is the strongest of the household. On 14 September, too weak to climb the stairs, Marie is carried up "suivi de Dina" (106.0049). On 23 September Dina calms the dying painter by stroking his head -- "Elle est si bien portante, si grasse, si forte que c'est à elle qu'il l'a demandé" (106.0114) -- and on 1 October she does it again (106.0136). On 11 October "Dina se précipite" as Marie shivers by the fireplace (106.0167). On 16 October "Dina me lit des romans" (106.0179). In the last entry of the diary, 20 October 1884, Marie describes how Emile Bastien-Lepage carries his brother up and down three flights of stairs on his shoulders: "Emile est un frère admirable ... Mais j'ai dans Dina un dévouement pareil" (106.0193). Marie died on 31 October.
+
+%% GLO_DINA.0020 %%
+## In Marie's art
+
+%% GLO_DINA.0021 %%
+Marie painted Dina repeatedly. The pictures established so far:
+
+- *[Jeune femme lisant « La Question du divorce »](../../culture/art/QUESTION_DU_DIVORCE.md)* (1880, 130 × 98 cm, private collection): Marie's Salon debut under the name "Marie Constantin Russ"; sitter Dina.
+- *[Die Lesende](../../culture/art/DIE_LESENDE.md)* (c. 1880, 64 × 53 cm): sold at the Dorotheum, Vienna, on 7 June 2021 for EUR 149,700 (including premium), a record for the artist, with Dina named as sitter. The catalogue calls it the first variant of the composition of which the second is at Kharkiv (Dorotheum lot 7201837). It says that Marie cut up a version she thought unsuccessful, that her mother kept and pasted the canvas back together, and that in 1910 Maria Bashkirtseff lent it to the Vienna Secession exhibition *Die Kunst der Frau* and left it in Vienna as a gift to Margarethe Stonborough-Wittgenstein (1882--1958) (Dorotheum; *Antiques Trade Gazette*, 25 August 2021). Whether the diary mentions this canvas is not established.
+- *[Portrait de la comtesse Dina de Toulouse-Lautrec](../../culture/art/PORTRAIT_DINA_PASTEL.md)*: pastel on paper, 61 × 50 cm, exhibited at the Salon of 1883 as *Portrait de Mlle de B.* and honoured with the *mention honorable*; given to the French state by Marie's mother in 1892 (Musée d'Orsay, RF 39091; the verso inscription calls her "Comtesse Dina de Toulouse-Lautrec", so it was written after her marriage). The art entry argues that the pastel was made in spring 1882, not 1883.
+- A pencil drawing endorsed "Dina" and other sketches of 1882--95 are in the British Library (SNAC ark:/99166/w6zx1qnd).
+- The oil portrait of 1883--84 described above was not finished (or does not survive).
+
+%% GLO_DINA.0022 %%
+## After 1884
+
+%% GLO_DINA.0023 %%
+The Orsay inscription and the Dorotheum notes agree that Dina married a Comte de Toulouse-Lautrec; one popular article puts the marriage two years after Marie's death, in 1886 (mydailyartdisplay.uk, 14 February 2015). The husband's identity is not established. An earlier version of this page gave "Comte Alexandrine de Toulouse-Lautrec (1836--1894), about thirty-one years her senior"; "Alexandrine" is a woman's name and 1836 to 1855 is nineteen years, so that sentence was unreliable. Kernberger's glossary lists a "Cousin Alexander (1836-1893), son of Uncle Toulouse-Lautrec" -- the son of the elderly Count Alexander Toulouse-Lautrec ("Uncle Sacha", 1807--1885), whom Kernberger calls Marie's great-uncle -- which may be the husband but is not confirmed by any source seen. Dina died, according to Kernberger and Geneanet, in 1914, in Nice.
+
+%% GLO_DINA.0024 %%
+## Related entries
+
+- [#Maman](../family/MAMAN.md), [#Ma_tante](../family/MA_TANTE.md), [#Paul](../mentioned/PAUL.md), [#Georges](../family/GEORGES.md)
+- [#Bojidar](../recurring/BOJIDAR.md): in 1883--84 the "Dina" named beside Bojidar is Dina Babanina, not any sister of his (earlier LAN notes in carnets 099--100 that read "Dina Karageorgevitch, Bojidar's sister" are wrong)
+- [#Question_du_divorce](../../culture/art/QUESTION_DU_DIVORCE.md), [#Die_Lesende](../../culture/art/DIE_LESENDE.md), [#Portrait_de_Dina](../../culture/art/PORTRAIT_DINA_PASTEL.md)
+
+%% GLO_DINA.0025 %%
+## Sources
+
+- Marie Bashkirtseff, *Journal* (paragraph references as cited), esp. preface 000.0008--0035.
+- Katherine Kernberger, *I Am the Most Interesting Book of All* / *Lust for Glory* (Fonthill Press, 2013): Appendix I Glossary; notes.
+- Musée d'Orsay, notice of RF 39091; Dorotheum, lot 7201837 (7 June 2021) and press release "Sensational prices for Markus Pernhart and Marie Bashkirtseff"; *Antiques Trade Gazette*, 25 August 2021, "Slashed and rejected canvas now worth 120,000"; SNAC, ark:/99166/w6zx1qnd (British Library holdings).
+- mydailyartdisplay.uk, "Marie Bashkirtseff. Part 1 The portraitist and feminist", 14 February 2015.
+
 %% 2025-04-05T18:43:28 RSR: Created glossary entry for Dina Babanina based on historical research %%
 %% 2025-12-07T14:47:00 RSR: Updated family background based on 1884-05-02 preface revealing Dina's parentage - daughter of Georges Babanine and his 36-year-old widow wife, making her Marie's first cousin %%
 %% 2025-12-07T17:10:00 RSR: February 9, 1873 - Marie mentions Baron Bach (Russian) as "assez bon pour Dina," indicating Dina was being evaluated for potential marriage matches. %%
 %% 2026-05-24T12:00:00 RSR: Comprehensive expansion of glossary entry. Added birth/death dates (c.1853-55 to 1914), marriage to Comte Alexandrine de Toulouse-Lautrec (1886), detailed relationship arc across the full diary (1873-1884), expanded art section with Musee d'Orsay provenance and Dorotheum auction data, documented role in Marie's final days from carnet 106, added later life section and British Library archival reference. Corrected erroneous LAN annotations in carnets 099-100 that identified "Dina" as "Dina Karageorgevitch, Bojidar's sister" -- Bojidar had no surviving sister named Dina; all "Dina" references are to Dina Babanina. Birth date discrepancy noted: Marie's preface implies c.1853-54 while Geneanet gives 1855. Sources: Musee d'Orsay (musee-orsay.fr/en/artworks/18238), Louvre Collections (collections.louvre.fr/ark:/53355/cl020228856), RMN-GP Images d'Art (art.rmngp.fr), SNAC Cooperative (snaccooperative.org/ark:/99166/w6zx1qnd), Geneanet genealogy (gw.geneanet.org/garric), Dorotheum Vienna auction June 2021, Antiques Trade Gazette August 2021, mydailyartdisplay.uk (Jonathan blog), Wikidata Q23009083, Wikipedia (Marie Bashkirtseff), Art History Project (arthistoryproject.com). Diary citations from carnets 000, 001, 002, 010, 030, 048, 050, 055, 070, 099, 100, 105, 106. Per Kernberger (2013), Dina appears throughout the Bashkirtseff diary as "my first cousin" in the traveling party from 1870 onward. %%
+%% 2026-10-11T12:00:00 RSR: Rewritten in the people research wave; earlier comments kept above. CORRECTIONS to the 2026-05 text: (1) "Sept 1873 ... when Marie's father declares 'si l'on me demandait, je choisirais Dina'" -- the speaker is Grand-papa (bare "papa" in 1873; he is "un vieillard aveugle", 010.0008), not Constantin who only visited in Nov 1873. (2) "1884-10-07: 'Dina est également dévouée à moi'" and the other October 1884 quotes -- misdated and misquoted: the "l'égale de Dina ou de ma tante" and "il m'aime mieux que maman, ma tante ou Dina" lines are 26-27 August 1884 (105.0682, 105.0694); "Dina joue les ingénues" is 24 August (105.0664); the last entry (20 Oct) actually reads "Mais j'ai dans Dina un dévouement pareil" (106.0193). (3) "1883-07-22 begins portrait of Dina" -> 24 July (100.0425); "(1883-06-17) Dina and aunt told the press" -> 18 June (100.0182). (4) Husband "Comte Alexandrine de Toulouse-Lautrec (1836-1894), ~31 years her senior" -- 'Alexandrine' is feminine and 1836 vs 1855 = 19 years; no source seen names the husband; Kernberger glossary has "Lautrec, Cousin Alexander (1836-1893), son of Uncle Toulouse-Lautrec (1807-1885)" -- unconfirmed candidate. Marriage "1886": mydailyartdisplay.uk only ('two years after Marie's death'). (5) The pastel: the old text dated it 1883 and said honourable mention "1883 (or 1884 per Wikipedia)"; the art entry PORTRAIT_DINA_PASTEL argues it was made in spring 1882 and shown at the 1883 Salon; the mention honorable 1883 is attached to this pastel in the diary (099.0565) -- so 1884 is wrong. (6) "Jeune femme lisant La Question du divorce (64 x 53 or 130 x 98) ... first version slashed ... second version Kharkiv" -- conflated three pictures: Salon 1880 painting (130 x 98, Sotheby's 2012), Die Lesende (64 x 53, Dorotheum 2021, 'first variant'), and At a Book (Kharkiv). Facts about the slashing and the 1910 Vienna loan come from the Dorotheum lot text as reported by Antiques Trade Gazette (25 Aug 2021) and the Dorotheum press release (EUR 149,700 on 7 June 2021, estimate 25-35,000); the lot page itself returned 403 to the fetcher. "Signed Russ so judges would not know she was a woman" -- the pseudonym is on the Salon canvas (see QUESTION_DU_DIVORCE), not on Die Lesende; motive is the art entry's, left there. "mydailyartdisplay.uk" claim of a feminist message not repeated. (7) "approximately 1,043 entries" -> tag count now 1,058 daily entries. (8) Dina's brother: Stepan, 15, stabbed himself 25 Jan 1874 (Kernberger translation) and is later "mort" (053, 1876-02-01); old page said "died at sixteen under tragic circumstances" (000.0035 says "mort à seize ans"). (9) Preface: the Ukrainian Wikipedia says Dina is the daughter of Nadia (Marie's aunt Romanoff); contradicted by 000.0008/0035 and Kernberger -- not used. Open: the LAN comment 'Dina Karageorgevitch, Bojidar's sister' is still present at 099/1883-05-24 (line ~50) and should be removed by whoever owns diary files. Images: pastel and Die Lesende reused from /images/marie/works/ (already in the art entries). No photograph of Dina found on Commons. %%
