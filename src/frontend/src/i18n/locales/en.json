@@ -394,7 +394,11 @@
       "cardDesc": "Her paintings, pastels and sculpture — what survives, where it is, and what was lost."
     },
     "fullText": "Full text",
-    "llmNote": "Most of this glossary was researched with the help of AI language models and checked against the sources cited; mistakes are possible. If you spot one, please report it with the button at the top of the page."
+    "llmNote": "Most of this glossary was researched with the help of AI language models and checked against the sources cited; mistakes are possible. If you spot one, please report it with the button at the top of the page.",
+    "introLabel": "About this page",
+    "introDiaryLink": "Marie Bashkirtseff's complete diary",
+    "introGithubLink": "edit this entry on GitHub",
+    "intro": "This entry is part of the glossary of {diary} (1873–1884), a free, uncensored online edition in several languages. Spotted a mistake? Report it with the button below, or {github} — pull requests are welcome."
   },
   "diary": {
     "subtitle": "Work-in-progress AI-assisted, human-refined translation of the complete diary",

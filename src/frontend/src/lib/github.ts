@@ -18,3 +18,8 @@ export function githubSourceUrl(repoPath: string): string {
 export function githubHistoryUrl(repoPath: string): string {
   return `${GITHUB_REPO_URL}/commits/${GITHUB_BRANCH}/${repoPath}`;
 }
+
+/** GitHub editor for a repo-relative file (forks + opens a pull request for non-members). */
+export function githubEditUrl(repoPath: string): string {
+  return `${GITHUB_REPO_URL}/edit/${GITHUB_BRANCH}/${repoPath}`;
+}

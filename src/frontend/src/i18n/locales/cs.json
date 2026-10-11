@@ -400,7 +400,11 @@
       "cardDesc": "Její obrazy, pastely a socha — co se dochovalo, kde to je a co se ztratilo."
     },
     "fullText": "Plný text",
-    "llmNote": "Většina tohoto glosáře vznikla s pomocí jazykových modelů umělé inteligence a byla ověřena podle uvedených zdrojů; chyby jsou možné. Pokud nějakou najdete, nahlaste ji prosím tlačítkem v horní části stránky."
+    "llmNote": "Většina tohoto glosáře vznikla s pomocí jazykových modelů umělé inteligence a byla ověřena podle uvedených zdrojů; chyby jsou možné. Pokud nějakou najdete, nahlaste ji prosím tlačítkem v horní části stránky.",
+    "introLabel": "O této stránce",
+    "introDiaryLink": "kompletního deníku Marie Baškircevové",
+    "introGithubLink": "upravte heslo na GitHubu",
+    "intro": "Toto heslo patří ke glosáři {diary} (1873–1884), volně dostupného necenzurovaného vydání v několika jazycích. Našli jste chybu? Nahlaste ji tlačítkem níže, nebo {github} — pull requesty vítáme."
   },
   "diary": {
     "subtitle": "Rozpracovaný AI-asistovaný, lidmi dolaďovaný překlad kompletního deníku",

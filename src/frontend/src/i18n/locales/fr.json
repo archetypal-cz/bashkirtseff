@@ -395,7 +395,11 @@
       "cardDesc": "Ses tableaux, pastels et sa sculpture : ce qui subsiste, où, et ce qui a été perdu."
     },
     "fullText": "Texte intégral",
-    "llmNote": "La plus grande partie de ce glossaire a été établie avec l'aide de modèles de langage (IA) et vérifiée d'après les sources citées ; des erreurs restent possibles. Si vous en repérez une, signalez-la avec le bouton en haut de la page."
+    "llmNote": "La plus grande partie de ce glossaire a été établie avec l'aide de modèles de langage (IA) et vérifiée d'après les sources citées ; des erreurs restent possibles. Si vous en repérez une, signalez-la avec le bouton en haut de la page.",
+    "introLabel": "À propos de cette page",
+    "introDiaryLink": "du Journal intégral de Marie Bashkirtseff",
+    "introGithubLink": "modifiez cette entrée sur GitHub",
+    "intro": "Cette entrée fait partie du glossaire {diary} (1873–1884), édition en ligne libre et non censurée, en plusieurs langues. Vous avez repéré une erreur ? Signalez-la avec le bouton ci-dessous, ou {github} — les pull requests sont les bienvenues."
   },
   "diary": {
     "subtitle": "Traduction en cours, assistée par IA et affinée par des humains, du journal complet",
