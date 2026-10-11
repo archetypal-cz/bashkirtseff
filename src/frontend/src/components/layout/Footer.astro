@@ -2,12 +2,16 @@
 // Footer component with i18n and version display
 import { t as defaultT, createT, type SupportedLocale } from '../../i18n/astro';
 import { quoteMarks } from '../../lib/typography';
+import { githubHistoryUrl } from '../../lib/github';
 
 interface Props {
   locale?: SupportedLocale;
+  /** Repo-relative source of the page shown; adds a link to its history on GitHub */
+  sourcePath?: string;
 }
 
-const { locale } = Astro.props;
+const { locale, sourcePath } = Astro.props;
+const historyUrl = sourcePath ? githubHistoryUrl(sourcePath) : undefined;
 const t = locale ? createT(locale) : defaultT;
 
 // Localized chrome-page links (M3). about/marie/privacy live at /{uiLocale}/{page}
@@ -116,6 +120,12 @@ const commitUrl = gitCommitFull && gitCommitFull !== 'dev'
                 <span class="mx-1">|</span>
                 <span data-t="footer.deployed">{t('footer.deployed')}</span>
                 <time datetime={buildDate?.toISOString()}>{buildDateLabel}</time>
+              </>
+            )}
+            {historyUrl && (
+              <>
+                <span class="mx-1">|</span>
+                <a href={historyUrl} class="hover:text-accent transition-colors" target="_blank" rel="noopener" data-t="footer.pageHistory">{t('footer.pageHistory')}</a>
               </>
             )}
             <span class="mx-1">|</span>

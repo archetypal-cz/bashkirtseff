@@ -46,7 +46,7 @@ const githubSource = sourcePath ? githubSourceUrl(sourcePath) : undefined;
     </div>
   </main>
 
-  <Footer locale={locale} />
+  <Footer locale={locale} sourcePath={sourcePath} />
 
   <!-- Back to top button (Vue island) -->
   <BackToTop client:visible />

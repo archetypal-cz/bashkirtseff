@@ -13,3 +13,8 @@ export function githubSourceUrl(repoPath: string): string {
   const kind = repoPath.endsWith('.md') ? 'blob' : 'tree';
   return `${GITHUB_REPO_URL}/${kind}/${GITHUB_BRANCH}/${repoPath}`;
 }
+
+/** GitHub commit history of a repo-relative path (file or directory). */
+export function githubHistoryUrl(repoPath: string): string {
+  return `${GITHUB_REPO_URL}/commits/${GITHUB_BRANCH}/${repoPath}`;
+}

@@ -154,7 +154,8 @@
     "copyright": "© {year} Bashkirtseff Project. Content is freely available.",
     "projectOf": "A project of",
     "version": "Version",
-    "deployed": "Deployed"
+    "deployed": "Deployed",
+    "pageHistory": "History of this page"
   },
   "marie": {
     "pageTitle": "Marie Bashkirtseff — Life and Work",
@@ -392,7 +393,8 @@
       },
       "cardDesc": "Her paintings, pastels and sculpture — what survives, where it is, and what was lost."
     },
-    "fullText": "Full text"
+    "fullText": "Full text",
+    "llmNote": "Most of this glossary was researched with the help of AI language models and checked against the sources cited; mistakes are possible. If you spot one, please report it with the button at the top of the page."
   },
   "diary": {
     "subtitle": "Work-in-progress AI-assisted, human-refined translation of the complete diary",

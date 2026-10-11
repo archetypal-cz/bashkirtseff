@@ -154,7 +154,8 @@
     "copyright": "© {year} Projet Bashkirtseff. Contenu en libre accès.",
     "projectOf": "Un projet de",
     "version": "Version",
-    "deployed": "Mis en ligne le"
+    "deployed": "Mis en ligne le",
+    "pageHistory": "Historique de cette page"
   },
   "marie": {
     "pageTitle": "Marie Bashkirtseff — Vie et œuvre",
@@ -393,7 +394,8 @@
       },
       "cardDesc": "Ses tableaux, pastels et sa sculpture : ce qui subsiste, où, et ce qui a été perdu."
     },
-    "fullText": "Texte intégral"
+    "fullText": "Texte intégral",
+    "llmNote": "La plus grande partie de ce glossaire a été établie avec l'aide de modèles de langage (IA) et vérifiée d'après les sources citées ; des erreurs restent possibles. Si vous en repérez une, signalez-la avec le bouton en haut de la page."
   },
   "diary": {
     "subtitle": "Traduction en cours, assistée par IA et affinée par des humains, du journal complet",
