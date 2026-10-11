@@ -108,7 +108,7 @@ The Gavinis anchored a tight-knit Corsican social network in Paris that included
 ### Social Guidance and Matchmaking
 
 %% GLO_GAVINI.0020 %%
-Denis gave Marie frank social intelligence. After she had been seen with Blanc, he explained that Blanc "n'est pas un homme du monde ... une espèce de Cassagnac mais inférieur et que dans la société il est de troisième catégorie" (085.0018, 1879-04-26). When Marie's name appeared in the newspapers (through Saint-Amand's indiscretion), "les Gavini très en colère sont venus hier me reprocher cette extravagance" (094.0465, 1882-04-29), protecting her reputation; see [#Saint_Amand](../religious/SAINT_AMAND.md).
+Denis gave Marie frank social intelligence. After she had been seen with Blanc, he explained that Blanc "n'est pas un homme du monde ... une espèce de Cassagnac mais inférieur et que dans la société il est de troisième catégorie" (085.0018, 1879-04-26). When Marie's name appeared in the newspapers (through Saint-Amand's indiscretion), "les Gavini très en colère sont venus hier me reprocher cette extravagance" (094.0465, 1882-04-29), protecting her reputation; see [#Saint_Amand](../writers/SAINT_AMAND.md).
 
 %% GLO_GAVINI.0021 %%
 Adeline was an indefatigable matchmaker. She weighed Marie's suitors with businesslike precision -- of one marquis she says he has "20.000 francs de rente et en aura 80.000 mais ses parents sont jeunes" (084.0618, 1879-04-07). She destined Multedo for Marie ("que je refuse immédiatement et à l'unanimité de tous mes sentiments," 080.0695, 1878-06-20). When Marie despaired over Cassagnac's marriage, "les Gavini disent que Cassagnac ne mérite qu'Acard et que je suis bien trop jolie, trop riche, trop bien pour lui" (080.0704, same day). On 5 June 1880, walking with Marie on his arm, Denis said of Casimir, "dans votre situation ... je vous conseille de l'épouser, vraiment" -- "un mot cruel," Marie writes (088.0659).
@@ -183,11 +183,11 @@ Marie used a rich variety of appellations reflecting the evolving intimacy:
 
 %% GLO_GAVINI.0033 %%
 **NOTE**: The following stub entries should be considered subordinate to this comprehensive family entry and cross-referenced here rather than maintained as independent entries:
-- [MME_GAVINI](./MME_GAVINI.md) -- Adeline Gavini (92 refs; duplicates this entry)
-- [M_GAVINI](./M_GAVINI.md) -- Denis Gavini (stub)
-- [ANTOINE_GAVINI](./ANTOINE_GAVINI.md) -- Antoine Gavini (stub)
-- [DENIS_GAVINI](./DENIS_GAVINI.md) -- Denis Gavini (stub)
-- [MADAME_GAVINI](../aristocracy/MADAME_GAVINI.md) -- Adeline Gavini (stub in aristocracy folder)
+- [MME_GAVINI](GAVINI.md) -- Adeline Gavini (92 refs; duplicates this entry)
+- [M_GAVINI](GAVINI.md) -- Denis Gavini (stub)
+- [ANTOINE_GAVINI](GAVINI.md) -- Antoine Gavini (stub)
+- [DENIS_GAVINI](GAVINI.md) -- Denis Gavini (stub)
+- [MADAME_GAVINI](GAVINI.md) -- Adeline Gavini (stub in aristocracy folder)
 
 All five stubs should redirect to this entry. When tagging diary entries, use `[#Gavini](GAVINI.md)` for the family collectively, and the individual stubs only when a specific individual needs disambiguation.
 

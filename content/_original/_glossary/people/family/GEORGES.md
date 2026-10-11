@@ -325,7 +325,7 @@ After 1882, references largely cease as the family successfully distanced itself
 - [#Anna](../mentioned/ANNA.md) -- His long-term mistress
 - [#Drillat](../mentioned/DRILLAT.md) -- His disreputable companion, professional gambler
 - [#Alexandre](../core/ALEXANDRE.md) -- His brother, who benefited from his disgrace
-- [#Paul](../mentioned/PAUL.md) -- Marie's brother, whom Georges corrupted
+- [#Paul](PAUL.md) -- Marie's brother, whom Georges corrupted
 - [#Villa_Baquis](../../places/cities/VILLA_BAQUIS.md) -- Nice residence they both despised
 - [#Viatka](../../places/cities/VIATKA.md) -- Place of his 1865 exile
 - [#Poltava](../../places/cities/POLTAVA.md) -- Where he committed his scandals

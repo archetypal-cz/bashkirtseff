@@ -75,7 +75,7 @@ For the first years of the diary Ma tante is the constant companion, chaperone a
 - [#Georges](./GEORGES.md), [#Alexandre](../core/ALEXANDRE.md): her brothers
 - [#Grand_papa](./GRAND_PAPA.md), [#Grand_maman](./GRAND_MAMAN.md): her parents
 - [#Walitsky](../recurring/WALITSKY.md): the family doctor, who left her 3,000 roubles in her 1873 will
-- [#Paul](../mentioned/PAUL.md): her nephew
+- [#Paul](PAUL.md): her nephew
 
 %% GLO_MA_TANTE.0016 %%
 ## Sources

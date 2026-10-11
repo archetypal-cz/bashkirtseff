@@ -5,7 +5,7 @@ aliases:
   - Gervex
   - Henri Gervex
 type: Person
-category: people/mentioned
+category: people/artists
 research_status: Comprehensive
 last_updated: 2026-10-11
 images:
@@ -29,7 +29,7 @@ Henri Gervex (born in Montmartre, Paris, 10 September 1852; died in Paris, 7 Jun
 Marie never paints Gervex, and he never becomes a close friend; he belongs to the circle of fashionable Parisian painters whose names she collects and fears. He is a Salon juror whose goodwill matters, and a man whose manner she does not quite trust.
 
 %% GLO_GERVEX.0005 %%
-- **24 January 1882** (094.0205). First appearance: an evening at Mme Cartwright's, where she finds only "Bastien, son frère, Gervex et Mencker, quatre célébrités" and sits shyly drawing sketches with them in the hostess's album ([Mme Cartwright](./MME_CARTWRIGHT.md)).
+- **24 January 1882** (094.0205). First appearance: an evening at Mme Cartwright's, where she finds only "Bastien, son frère, Gervex et Mencker, quatre célébrités" and sits shyly drawing sketches with them in the hostess's album ([Mme Cartwright](../mentioned/MME_CARTWRIGHT.md)).
 - **1 July 1882** (095.0236). Boasting to herself of her new acquaintances, she lists the small dinner "Bastien, Gervex, Carolus" among the things she can now say aloud. A footnote of the English tree already identifies him as Henri Gervex (1852-1929).
 - **3 August 1882** (096.0007). Planning a dining club of five men and five women, she names the men: "Tony, Saint Marceaux, Bastien, Gervex, Julian".
 - **1 May 1883** (099.0293-0308). Day of the Salon jury's work. She counts on friends among the jurors: "Bastien est tout puissant, Carolus, Gervex, Carrier-Belleuse". Gervex and Carrier-Belleuse offer to have her picture hung lower, which she finds "bien agréable" ("Gervex est très gentil"); at the milliner's afterwards she is "en verve d'éloquence" before him, Julian and Carrier-Belleuse. In her review of the Salon she dismisses his entry in two words: "Gervex ordinaire".
@@ -46,7 +46,7 @@ Marie never paints Gervex, and he never becomes a close friend; he belongs to th
 ## Related entries
 
 %% GLO_GERVEX.0007 %%
-[Jules Bastien-Lepage](../recurring/BASTIEN_LEPAGE.md); [Émile Bastien-Lepage](./EMILE_BASTIEN_LEPAGE.md); [Carolus-Duran](../artists/CAROLUS_DURAN.md); [Carrier-Belleuse](./CARRIER_BELLEUSE.md); [Mme Cartwright](./MME_CARTWRIGHT.md); [Cabanel](./CABANEL.md); [the Salon](../../culture/art/SALON.md).
+[Jules Bastien-Lepage](../recurring/BASTIEN_LEPAGE.md); [Émile Bastien-Lepage](../recurring/EMILE_BASTIEN_LEPAGE.md); [Carolus-Duran](CAROLUS_DURAN.md); [Carrier-Belleuse](../mentioned/CARRIER_BELLEUSE.md); [Mme Cartwright](../mentioned/MME_CARTWRIGHT.md); [Cabanel](CABANEL.md); [the Salon](../../culture/art/SALON.md).
 
 %% GLO_GERVEX.0008 %%
 ## Sources

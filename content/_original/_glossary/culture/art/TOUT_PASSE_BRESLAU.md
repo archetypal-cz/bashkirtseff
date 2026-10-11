@@ -37,7 +37,7 @@ last_updated: 2026-10-10
 - *Explication des ouvrages de peinture... Salon de 1879*, no. 408: https://archive.org/details/explicationdesou1879soci
 - French Wikipedia, "Louise Breslau"; English Wikipedia, "Louise Catherine Breslau".
 - French Ministry of Culture, "Louise Breslau (Munich, 1856 - Paris, 1927)".
-- See also the [Breslau](../../people/mentioned/LOUISE_BRESLAU.md) entry.
+- See also the [Breslau](../../people/artists/LOUISE_BRESLAU.md) entry.
 - Diary: 085.0069, 097.0132.
 
 %% 2026-10-10T20:00:00 RSR: New work entry (batch 08). Inventory title "Portrait de Maria (Breslau), 1879" corrected to the Salon title Tout passé (livret no. 408). Sitter Maria Feller per fr.wikipedia; en.wikipedia disagrees (self-portrait with friends), Marie's description supports a single sitter. No image found. %%

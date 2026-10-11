@@ -55,7 +55,7 @@ The signature is in Latin characters, with the inscription "RUSS" and the date 1
 ## Making of the Work
 
 %% GLO_QUESTION_DU_DIVORCE.0011 %%
-%% [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) %%
+%% [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) %%
 The picture was conceived on **10 February 1880** (¶ 087.0445) as one of *two* subjects Marie pitched to Rodolphe Julian — she calls herself "la trouveuse", the one who finds ideas. The rejected alternative was Dina in a white crêpe-de-Chine chemise in an old armchair, "un petit air Récamier". Julian approved both and told her: "Je veux que d'un coup vous sortiez des rangs !"
 
 %% GLO_QUESTION_DU_DIVORCE.0012 %%
@@ -92,7 +92,7 @@ It was accepted on **7 April 1880** (¶ 087.0802), and the acceptance gave her n
 
 %% GLO_QUESTION_DU_DIVORCE.0019 %%
 - [#Dina](../../people/core/DINA.md) — the sitter, Marie's cousin Dina Babanina
-- [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) — who commissioned the idea out of her
+- [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) — who commissioned the idea out of her
 - [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) — who intervened on the canvas itself
 - [#Salon](./SALON.md) · [#Art_practice](../themes/ART_PRACTICE.md) · [#Julian](../../places/schools/JULIAN.md)
 - [#Portrait_Dina_pastel](./PORTRAIT_DINA_PASTEL.md) — the other, later portrait of Dina, which did win her a prize

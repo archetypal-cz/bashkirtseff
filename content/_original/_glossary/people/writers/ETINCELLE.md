@@ -10,7 +10,7 @@ aliases:
   - baronne Double
   - Mme de Peyronny
 type: Person
-category: people/mentioned
+category: people/writers
 research_status: Moderate
 last_updated: 2026-10-11
 ---
@@ -34,13 +34,13 @@ Later she became the **baronne Double**: the diary's "baron Dauble" or "Double" 
 Étincelle matters to Marie as a publicist: a few lines in her column were, in the Paris of 1882-84, a way for a young foreign painter to be noticed in society.
 
 %% GLO_ETINCELLE.0007 %%
-**Winter 1881-82.** On 2 April 1881 [Saint-Amand](../religious/SAINT_AMAND.md), the family's friend with newspaper contacts, tells Marie that Mme de Peyronney will visit and that they will "make a *Carnet d'un mondain*" of her: "I want you to be the most fashionable young lady in Paris by spring" (091.0409). When the Bashkirtseffs give a big evening on 12 January 1882, Étincelle announces it in her *Figaro* notebook with a eulogy of "Mlle Marie, pretty painter" (094.0150); Marie's father is delighted at appearing before "all of Europe and Poltava" (094.0151). On 15 January Marie visits her; the long article on the evening compares Marie to Greuze's *Cruche cassée*, which the family fears will sound like an insult in Poltava (094.0177). On 21 January Étincelle sends them a box at the Opéra-Comique (094.0196). Maman sends flowers to thank her for the article, which Marie, then and later, finds mortifying: "a little word in your next article, dear Madame!" (098.0314).
+**Winter 1881-82.** On 2 April 1881 [Saint-Amand](SAINT_AMAND.md), the family's friend with newspaper contacts, tells Marie that Mme de Peyronney will visit and that they will "make a *Carnet d'un mondain*" of her: "I want you to be the most fashionable young lady in Paris by spring" (091.0409). When the Bashkirtseffs give a big evening on 12 January 1882, Étincelle announces it in her *Figaro* notebook with a eulogy of "Mlle Marie, pretty painter" (094.0150); Marie's father is delighted at appearing before "all of Europe and Poltava" (094.0151). On 15 January Marie visits her; the long article on the evening compares Marie to Greuze's *Cruche cassée*, which the family fears will sound like an insult in Poltava (094.0177). On 21 January Étincelle sends them a box at the Opéra-Comique (094.0196). Maman sends flowers to thank her for the article, which Marie, then and later, finds mortifying: "a little word in your next article, dear Madame!" (098.0314).
 
 %% GLO_ETINCELLE.0008 %%
-**Spring 1882.** On 13 February Baroness von [Linsingen](./LINSINGEN.md) asks Marie to get Étincelle to mention her son's costume; Marie composes the telegram to Saint-Amand and offers it with her "minister's style" (094.0252). On 26 March Étincelle quotes a letter of Marie's in the paper but gives her big tirade to the young Princess Troubetzkoy, whose marriage to Pomar has failed (094.0350; 095.0027). Marie calls on Étincelle on 24 May and meets the princess (095.0088).
+**Spring 1882.** On 13 February Baroness von [Linsingen](../mentioned/LINSINGEN.md) asks Marie to get Étincelle to mention her son's costume; Marie composes the telegram to Saint-Amand and offers it with her "minister's style" (094.0252). On 26 March Étincelle quotes a letter of Marie's in the paper but gives her big tirade to the young Princess Troubetzkoy, whose marriage to Pomar has failed (094.0350; 095.0027). Marie calls on Étincelle on 24 May and meets the princess (095.0088).
 
 %% GLO_ETINCELLE.0009 %%
-**Winter 1883.** On 1 January 1883 Marie writes offering to paint Étincelle's daughter, hoping for society publicity and, through the *Figaro*, an introduction to [Wolff](./WOLFF.md); Étincelle answers that she will send "Mimie" on 3 January (097.0339). Marie also sends her notes for an article and regrets it (098.0041, 14 January). On 24 January 1883 she calls on Étincelle's: a pure Louis XVI salon, Étincelle enthroned in royal-blue velvet, and a conversation in which Marie, a republican by conviction, offers "a modest apology of the Revolution"; Baron Double is there, "the quasi-husband" -- they had tried to divorce to marry, but Peyronny refused (098.0142-0149). Marie thinks of Balzac's d'Arthez and the Princesse de Cadignan.
+**Winter 1883.** On 1 January 1883 Marie writes offering to paint Étincelle's daughter, hoping for society publicity and, through the *Figaro*, an introduction to [Wolff](WOLFF.md); Étincelle answers that she will send "Mimie" on 3 January (097.0339). Marie also sends her notes for an article and regrets it (098.0041, 14 January). On 24 January 1883 she calls on Étincelle's: a pure Louis XVI salon, Étincelle enthroned in royal-blue velvet, and a conversation in which Marie, a republican by conviction, offers "a modest apology of the Revolution"; Baron Double is there, "the quasi-husband" -- they had tried to divorce to marry, but Peyronny refused (098.0142-0149). Marie thinks of Balzac's d'Arthez and the Princesse de Cadignan.
 
 %% GLO_ETINCELLE.0010 %%
 **Summer 1883 and the Salon of 1884.** On 6 June 1883 Marie says her family must understand that neither Étincelle, nor *Le Sport*, nor Saint-Amand can keep singing her praises (100.0074). Ten days later Étincelle prints "ten very gracious lines": a remarkable painter, a beautiful girl, a pupil of Bastien-Lepage (100.0169); Marie writes to Tony Robert-Fleury so that he will not think she asked for it (100.0174). On 7 May 1884, the week of the Salon, Étincelle's front-page "premier Paris" is on "the society women painters": Marie comes immediately after Claire and gets as many lines, a Greuze with a "willful forehead", and a good realist in the manner of Bastien-Lepage (104.0131); Marie had supplied most of the information (104.0132). On 10 May she is stared at at the Théâtre-Italien "after Étincelle's panegyric" (104.0156). On 17 May Étincelle visits the studio and confides her marriage to Double (104.0209-0210); on 3 June Marie paints a flower panel for her (104.0503).
@@ -50,8 +50,8 @@ Later she became the **baronne Double**: the diary's "baron Dauble" or "Double" 
 
 %% GLO_ETINCELLE.0012 %%
 - [Le Figaro](../../culture/newspapers/LE_FIGARO.md)
-- [Albert Wolff](./WOLFF.md)
-- [Saint-Amand](../religious/SAINT_AMAND.md)
+- [Albert Wolff](WOLFF.md)
+- [Saint-Amand](SAINT_AMAND.md)
 - [Le Sport](../../culture/newspapers/LE_SPORT.md)
 - [Un meeting](../../culture/art/UN_MEETING.md)
 

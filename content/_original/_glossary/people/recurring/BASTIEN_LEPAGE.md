@@ -27,7 +27,7 @@ images:
 ## Who he was
 
 %% GLO_BASTIEN_LEPAGE.0002 %%
-Jules Bastien-Lepage (born 1 November 1848 at Damvillers, Meuse; died 10 December 1884 in Paris) was a French painter and engraver, the leading figure of the naturalist school of the early 1880s. He was the son of Claude Bastien and Adèle Lepage, a modest family of landowners and peasants; his younger brother was [#Emile_Bastien_Lepage](../mentioned/EMILE_BASTIEN_LEPAGE.md), later an architect and landscape painter. He came to Paris in 1867, worked for a time in the post office, entered the École des Beaux-Arts in 1868 and studied under Alexandre Cabanel (fr.wikipedia.org, "Jules Bastien-Lepage"). Marie notes that he was already a painter in 1870 and "made the campaign" of that war (103.0191).
+Jules Bastien-Lepage (born 1 November 1848 at Damvillers, Meuse; died 10 December 1884 in Paris) was a French painter and engraver, the leading figure of the naturalist school of the early 1880s. He was the son of Claude Bastien and Adèle Lepage, a modest family of landowners and peasants; his younger brother was [#Emile_Bastien_Lepage](EMILE_BASTIEN_LEPAGE.md), later an architect and landscape painter. He came to Paris in 1867, worked for a time in the post office, entered the École des Beaux-Arts in 1868 and studied under Alexandre Cabanel (fr.wikipedia.org, "Jules Bastien-Lepage"). Marie notes that he was already a painter in 1870 and "made the campaign" of that war (103.0191).
 
 %% GLO_BASTIEN_LEPAGE.0003 %%
 His early recognition came with *Au printemps* (1873) and the *Portrait du grand-père de l'artiste* (1874), which won a third-class medal at the Salon of 1874. In 1875 his *Annonciation aux bergers* placed him second for the Prix de Rome; Marie later notes that Commère won it "against Bastien" (100.0047). The pictures that made his name are the peasant subjects painted in the open air at Damvillers: [#Les_Foins](../../culture/art/LES_FOINS.md) (1877), [#Saison_d_octobre](../../culture/art/SAISON_D_OCTOBRE.md) (1878), [#Jeanne_d_Arc](../../culture/art/JEANNE_D_ARC_BASTIEN_LEPAGE.md) (1879, now in the Metropolitan Museum of Art, New York), [#Le_Pere_Jacques](../../culture/art/LE_PERE_JACQUES.md) (1881) and [#L_Amour_au_village](../../culture/art/L_AMOUR_AU_VILLAGE.md) (1882). He was also a sought-after portraitist: [#Sarah_Bernhardt](../artists/SARAH_BERNHARDT.md), the Prince of Wales, Albert Wolff, and Juliette Drouet ([#Portrait_de_Mme_Drouet](../../culture/art/PORTRAIT_DE_MME_DROUET.md), 1883) were among his sitters. Émile Zola praised his talent while distrusting his popular success (fr.wikipedia.org).
@@ -96,10 +96,10 @@ Per Kernberger (2013), Marie's funeral on 6 November 1884 at the Russian church 
 ## Related entries
 
 %% GLO_BASTIEN_LEPAGE.0025 %%
-- [#Emile_Bastien_Lepage](../mentioned/EMILE_BASTIEN_LEPAGE.md): his brother, "the architect"
+- [#Emile_Bastien_Lepage](EMILE_BASTIEN_LEPAGE.md): his brother, "the architect"
 - [#Mme_Mackay](../mentioned/MME_MACKAY.md): the lady in his circle
 - [#Saint_Marceaux](../artists/SAINT_MARCEAUX.md): the sculptor Marie sets beside him
-- [#Robert_Fleury](../artists/ROBERT_FLEURY.md) and [#Rodolphe_Julian](../mentioned/RODOLPHE_JULIAN.md): her teachers, who admired and discussed him
+- [#Robert_Fleury](../artists/ROBERT_FLEURY.md) and [#Rodolphe_Julian](RODOLPHE_JULIAN.md): her teachers, who admired and discussed him
 - [#Carolus_Duran](../artists/CAROLUS_DURAN.md), [#Sarah_Bernhardt](../artists/SARAH_BERNHARDT.md), [#Salon](../../culture/art/SALON.md), [#Julian](../../places/schools/JULIAN.md)
 - Works: [#Les_Foins](../../culture/art/LES_FOINS.md), [#Saison_d_octobre](../../culture/art/SAISON_D_OCTOBRE.md), [#Jeanne_d_Arc](../../culture/art/JEANNE_D_ARC_BASTIEN_LEPAGE.md), [#Le_Pere_Jacques](../../culture/art/LE_PERE_JACQUES.md), [#Pas_meche](../../culture/art/PAS_MECHE.md), [#L_Amour_au_village](../../culture/art/L_AMOUR_AU_VILLAGE.md), [#Le_Soir_au_village](../../culture/art/LE_SOIR_AU_VILLAGE.md), [#Les_Bergers_a_Bethleem](../../culture/art/LES_BERGERS_A_BETHLEEM.md)
 

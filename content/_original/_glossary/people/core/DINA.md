@@ -108,7 +108,7 @@ The Orsay inscription and the Dorotheum notes agree that Dina married a Comte de
 %% GLO_DINA.0024 %%
 ## Related entries
 
-- [#Maman](../family/MAMAN.md), [#Ma_tante](../family/MA_TANTE.md), [#Paul](../mentioned/PAUL.md), [#Georges](../family/GEORGES.md)
+- [#Maman](../family/MAMAN.md), [#Ma_tante](../family/MA_TANTE.md), [#Paul](../family/PAUL.md), [#Georges](../family/GEORGES.md)
 - [#Bojidar](../recurring/BOJIDAR.md): in 1883--84 the "Dina" named beside Bojidar is Dina Babanina, not any sister of his (earlier LAN notes in carnets 099--100 that read "Dina Karageorgevitch, Bojidar's sister" are wrong)
 - [#Question_du_divorce](../../culture/art/QUESTION_DU_DIVORCE.md), [#Die_Lesende](../../culture/art/DIE_LESENDE.md), [#Portrait_de_Dina](../../culture/art/PORTRAIT_DINA_PASTEL.md)
 

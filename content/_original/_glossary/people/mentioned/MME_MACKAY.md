@@ -57,9 +57,9 @@ Marie also writes "Mme Mackay (la richissime)" for a different woman (103.0357, 
 
 %% GLO_MME_MACKAY.0012 %%
 - [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) -- Jules Bastien-Lepage (1848-1884)
-- [#Emile_Bastien_Lepage](./EMILE_BASTIEN_LEPAGE.md) -- his brother, the architect, who escorted her
+- [#Emile_Bastien_Lepage](../recurring/EMILE_BASTIEN_LEPAGE.md) -- his brother, the architect, who escorted her
 - [#Cartwright](./CARTWRIGHT.md) -- Mme Cartwright, source of most of the gossip about her
-- [#Meissonier](./MEISSONNIER.md) -- painter of the "richissime" Mackay's portrait
+- [#Meissonier](../artists/MEISSONNIER.md) -- painter of the "richissime" Mackay's portrait
 
 %% GLO_MME_MACKAY.0013 %%
 ## Sources

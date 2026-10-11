@@ -27,7 +27,7 @@ last_updated: 2026-10-02
 ## Early Life
 
 %% GLO_MARIE_BASHKIRTSEFF.0004 %%
-%% [#Papa](./PAPA.md) [#Maman](./MAMAN.md) [#Paul](../mentioned/PAUL.md) [#Dina](../core/DINA.md) %%
+%% [#Papa](./PAPA.md) [#Maman](./MAMAN.md) [#Paul](PAUL.md) [#Dina](../core/DINA.md) %%
 She was the daughter of Konstantin Pavlovich Bashkirtsev and Maria Stepanovna, née Babanina. Her parents lived apart, and in her preface she tells how her father and grandfather tried again and again to win her mother back (000.0013). With her mother, her maternal grandfather, her brother Paul, her cousin Dina and other relatives she travelled west by way of Vienna (000.0022) to Baden-Baden in June 1870 (000.0023), fled to Geneva when the Franco-Prussian War broke out (000.0039), and then settled in Nice, where the surviving diary opens in January 1873.
 
 %% GLO_MARIE_BASHKIRTSEFF.0005 %%
@@ -137,7 +137,7 @@ The 1887 *Journal* made her famous across Europe and America as a writer. Kather
 ## Related Entries
 
 %% GLO_MARIE_BASHKIRTSEFF.0031 %%
-- Family: [#Maman](./MAMAN.md), [#Papa](./PAPA.md), [#Paul](../mentioned/PAUL.md), [#Dina](../core/DINA.md)
+- Family: [#Maman](./MAMAN.md), [#Papa](./PAPA.md), [#Paul](PAUL.md), [#Dina](../core/DINA.md)
 - Art: [Marie Bashkirtseff's works](../../culture/art/MARIE_BASHKIRTSEFF_WORKS.md), [#Art_Practice](../../culture/themes/ART_PRACTICE.md), [#Academie_Julian](../../places/schools/JULIAN.md), [#Tony_Robert_Fleury](../artists/ROBERT_FLEURY.md), [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md), [#Salon](../../culture/art/SALON.md), [#Kharkiv_Lost_Works](../../culture/art/KHARKIV_LOST_WORKS.md)
 - Editions: [#Censored_1887](../../culture/literature/CENSORED_1887.md), [#Andre_Theuriet](../writers/ANDRE_THEURIET.md), [#Mathilde_Blind](../writers/MATHILDE_BLIND.md), [#Katherine_Kernberger](../../culture/literature/KATHERINE_KERNBERGER.md)
 - Writing: [#Guy_de_Maupassant](../../culture/literature/GUY_DE_MAUPASSANT.md), [#Hubertine_Auclert](../mentioned/HUBERTINE_AUCLERT.md), [#La_Citoyenne](../../culture/newspapers/LA_CITOYENNE.md)

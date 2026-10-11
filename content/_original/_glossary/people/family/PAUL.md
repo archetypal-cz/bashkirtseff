@@ -9,7 +9,7 @@ aliases:
   - mon frère Paul
   - mon frère
 type: Person
-category: people/mentioned
+category: people/family
 research_status: Comprehensive
 last_updated: 2026-10-11
 images:
@@ -26,7 +26,7 @@ images:
 %% GLO_PAUL.0002 %%
 ## Who he was
 
-Paul (Pavel Konstantinovich) Bashkirtsev, in French usage Paul Bashkirtseff (1859--1899), was Marie's younger brother. Both dates come from Kernberger (2013, Appendix I, Glossary: "Bashkirtseff, Paul: Marie's brother (1859-1899)"); no second source for either was found. Marie's own remark that he was "usé autant qu'on peut l'être à quatorze ans" in March 1874 (017.0466) fits a birth in 1859 or early 1860. He was born at Gavronzi near Poltava, the son of [#Papa](../family/PAPA.md) (Constantin Bashkirtseff, 1833--1883) and [#Maman](../family/MAMAN.md) (Maria Stepanovna Babanina, 1833--1920), and the grandson of General Paul Grigorievitch Bashkirtseff ([#Paul_Grigorievitch_Bashkirtseff](../family/PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md)). In 1880 he married Alexandrine Patchenko ("Nini", [#Nini](NINI.md)); they had at least two children (below).
+Paul (Pavel Konstantinovich) Bashkirtsev, in French usage Paul Bashkirtseff (1859--1899), was Marie's younger brother. Both dates come from Kernberger (2013, Appendix I, Glossary: "Bashkirtseff, Paul: Marie's brother (1859-1899)"); no second source for either was found. Marie's own remark that he was "usé autant qu'on peut l'être à quatorze ans" in March 1874 (017.0466) fits a birth in 1859 or early 1860. He was born at Gavronzi near Poltava, the son of [#Papa](PAPA.md) (Constantin Bashkirtseff, 1833--1883) and [#Maman](MAMAN.md) (Maria Stepanovna Babanina, 1833--1920), and the grandson of General Paul Grigorievitch Bashkirtseff ([#Paul_Grigorievitch_Bashkirtseff](PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md)). In 1880 he married Alexandrine Patchenko ("Nini", [#Nini](../mentioned/NINI.md)); they had at least two children (below).
 
 %% GLO_PAUL.0003 %%
 ## Childhood and Nice
@@ -45,7 +45,7 @@ On 28 December 1879 Paul, then in Paris, announces that he will marry "Nini": "P
 In March 1880 the wedding was disrupted: as Paul and his fiancée "entraient à l'église pour être mariés", their father arrived with a letter from the archbishop and "tout a été détraqué" (087.0590, 10 March). Maman feared Paul had tried to kill himself (087.0595); Marie, worried above all that her mother and Dina would be called away from the Salon picture she was finishing, writes on 12 March: "Jugez-moi comme vous voudrez, les drames de Paul m'ont laissée calme et ceci me désespère et m'exaspère" and that "Paul a vingt ans et qui peut répondre de lui dans cinq ans ?" (087.0601, 087.0605). On the 15th the father proposes that Paul go and ask for the girl's hand officially "pour effacer le scandale" (087.0611). By 30 November 1880 "Paul est marié. Et il l'a fait si crânement que je leur ferai un cadeau commémoratif" (090.0283).
 
 %% GLO_PAUL.0007 %%
-In February 1881 Maman and Dina came back to Paris and reported: the wedding was "chez Michel" and "le lendemain Paul a amené sa femme à Gavronzi"; "M. Bashkirtseff très ému est sorti les recevoir sur le perron", the bride threw herself at Maman's feet, and Paul "pâle et tremblant se tenait appuyé au mur" (091.0191). The couple were given a separate pavilion at Gavronzi, but the father-in-law, M. Patchenko ([#M_Patchenko](M_PATCHENKO.md)), "n'a rien donné à la femme" (091.0191). Visiting in July 1881, Marie finds the marriage joyless: Paul "presque toujours maussade, madame est indifférente dans sa satisfaction d'avoir atteint son but" (092.0250, 13 July). On Paul's name day, 11 July, military musicians play during dinner and Marie gives him fifty roubles for the quadrille (092.0242, 092.0245). Maman is "très montée contre Paul, elle est même en quelque sorte haineuse pour lui", which Marie blames on Uncle Alexandre, who was buying out the inheritance shares and was "brouillé avec Paul" (092.0223, 092.0228). In 1881 Marie also painted his wife (see [#Portrait_belle_soeur](../../culture/art/PORTRAIT_BELLE_SOEUR.md): *Portrait de sa belle-sœur*, 1881, Rijksmuseum, Amsterdam).
+In February 1881 Maman and Dina came back to Paris and reported: the wedding was "chez Michel" and "le lendemain Paul a amené sa femme à Gavronzi"; "M. Bashkirtseff très ému est sorti les recevoir sur le perron", the bride threw herself at Maman's feet, and Paul "pâle et tremblant se tenait appuyé au mur" (091.0191). The couple were given a separate pavilion at Gavronzi, but the father-in-law, M. Patchenko ([#M_Patchenko](../mentioned/M_PATCHENKO.md)), "n'a rien donné à la femme" (091.0191). Visiting in July 1881, Marie finds the marriage joyless: Paul "presque toujours maussade, madame est indifférente dans sa satisfaction d'avoir atteint son but" (092.0250, 13 July). On Paul's name day, 11 July, military musicians play during dinner and Marie gives him fifty roubles for the quadrille (092.0242, 092.0245). Maman is "très montée contre Paul, elle est même en quelque sorte haineuse pour lui", which Marie blames on Uncle Alexandre, who was buying out the inheritance shares and was "brouillé avec Paul" (092.0223, 092.0228). In 1881 Marie also painted his wife (see [#Portrait_belle_soeur](../../culture/art/PORTRAIT_BELLE_SOEUR.md): *Portrait de sa belle-sœur*, 1881, Rijksmuseum, Amsterdam).
 
 %% GLO_PAUL.0008 %%
 ## 1882--1884
@@ -67,15 +67,15 @@ Paul survived his sister by fifteen years (d. 1899, per Kernberger). No source s
 %% GLO_PAUL.0013 %%
 ## Related entries
 
-- [#Maman](../family/MAMAN.md): their mother
-- [#Papa](../family/PAPA.md): their father (1833--1883)
-- [#Paul_Grigorievitch_Bashkirtseff](../family/PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md): their grandfather, the general
-- [#Nini](NINI.md): Alexandrine Patchenko, Paul's wife
-- [#M_Patchenko](M_PATCHENKO.md): Nini's father
-- [#Catherine_Eristoff](CATHERINE_ERISTOFF.md): Nini's sister
+- [#Maman](MAMAN.md): their mother
+- [#Papa](PAPA.md): their father (1833--1883)
+- [#Paul_Grigorievitch_Bashkirtseff](PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md): their grandfather, the general
+- [#Nini](../mentioned/NINI.md): Alexandrine Patchenko, Paul's wife
+- [#M_Patchenko](../mentioned/M_PATCHENKO.md): Nini's father
+- [#Catherine_Eristoff](../mentioned/CATHERINE_ERISTOFF.md): Nini's sister
 - [#Gavronzi](../../places/residences/GAVRONZI.md): the family estate
-- [#Dina](../core/DINA.md), [#Georges](../family/GEORGES.md), [#Alexandre](../core/ALEXANDRE.md): cousin and uncles
-- [#Adam](ADAM.md): the cook who "corrupted" him as a boy
+- [#Dina](../core/DINA.md), [#Georges](GEORGES.md), [#Alexandre](../core/ALEXANDRE.md): cousin and uncles
+- [#Adam](../mentioned/ADAM.md): the cook who "corrupted" him as a boy
 - [#Walitsky](../recurring/WALITSKY.md): family friend whom Paul loved
 - [#Portrait_Paul](../../culture/art/PORTRAIT_PAUL.md), [#Portrait_belle_soeur](../../culture/art/PORTRAIT_BELLE_SOEUR.md)
 

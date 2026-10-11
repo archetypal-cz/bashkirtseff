@@ -52,7 +52,7 @@ In the letter of Jeanne Suermondt, written at Halfweg near Haarlem on 14 May 187
 ## Related entries
 
 %% GLO_LOUIS.0012 %%
-[Maréchal Canrobert](./MARECHAL_CANROBERT.md); [Maréchale Canrobert](./MARECHALE_CANROBERT.md); [Claire](./CLAIRE.md); [Marcel](./MARCEL.md); [Jeanne Suermondt](./JEANNE_SUERMONDT.md); [Halfweg](../../places/cities/HALFWEG.md).
+[Maréchal Canrobert](./MARECHAL_CANROBERT.md); [Maréchale Canrobert](./MARECHALE_CANROBERT.md); [Claire](../recurring/CLAIRE_CANROBERT.md); [Marcel](./MARCEL.md); [Jeanne Suermondt](./JEANNE_SUERMONDT.md); [Halfweg](../../places/cities/HALFWEG.md).
 
 %% GLO_LOUIS.0013 %%
 ## Sources

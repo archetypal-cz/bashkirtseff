@@ -28,7 +28,7 @@ images:
 ## Overview
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0002 %%
-%% [#Art_practice](../themes/ART_PRACTICE.md) [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) [#Julian](../../places/schools/JULIAN.md) %%
+%% [#Art_practice](../themes/ART_PRACTICE.md) [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) [#Julian](../../places/schools/JULIAN.md) %%
 *Caricature de Rodolphe Julian* (oil on panel, 85,5 × 38 cm, c. 1878) is Marie's caricature of **her own teacher** — the founder of the Académie Julian, the man who ran the studio where she trained, commissioned pictures from her, bullied and flattered her, and let her down badly over the Cercle exhibition of 1883.
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0003 %%
@@ -70,7 +70,7 @@ No entry describes the finished panel. The documented antecedents are:
 ## Related Entries
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0015 %%
-- [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) — the sitter
+- [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) — the sitter
 - [#Julian](../../places/schools/JULIAN.md) — the Académie Julian
 - [#Tete_jeune_femme_plume_bleue](./TETE_JEUNE_FEMME_PLUME_BLEUE.md) — the other surviving work of c. 1878
 - [#Art_practice](../themes/ART_PRACTICE.md) · [#Portrait](./PORTRAIT.md)

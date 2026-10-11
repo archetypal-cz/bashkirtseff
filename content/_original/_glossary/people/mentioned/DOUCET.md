@@ -73,7 +73,7 @@ Henri-Lucien Doucet was born in Paris on 23 August 1856 and died at Saint-Leu-d'
 ## Related entries
 
 %% GLO_DOUCET.0012 %%
-[Worth](./WORTH.md); [Laferrière](../../culture/fashion/LAFERRIERE.md); [Rodolphe Julian](./RODOLPHE_JULIAN.md); [Gervex](./GERVEX.md); [Carrier-Belleuse](./CARRIER_BELLEUSE.md); [Fashion](../../culture/themes/FASHION.md).
+[Worth](./WORTH.md); [Laferrière](../../culture/fashion/LAFERRIERE.md); [Rodolphe Julian](../recurring/RODOLPHE_JULIAN.md); [Gervex](../artists/GERVEX.md); [Carrier-Belleuse](./CARRIER_BELLEUSE.md); [Fashion](../../culture/themes/FASHION.md).
 
 %% GLO_DOUCET.0013 %%
 ## Sources

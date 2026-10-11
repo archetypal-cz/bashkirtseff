@@ -48,7 +48,7 @@ The picture illustrates the ethos Marie had set down in her own words as a begin
 
 %% GLO_L_ATELIER_JULIAN.0008 %%
 %% [#Academie_Julian](../../places/schools/JULIAN.md) %%
-The picture was a commission, and the commission was a bargain: on **24 December 1880** [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) offered her a subject that would make her name two days after the Salon opened, on condition that the canvas be his at whatever stage of finish -- an engagement she and [Amélie](../../people/mentioned/AMELIE.md) signed in writing, with Magnan and Magdeleine as witnesses (090.0447). Marie got "un coin de notre atelier avec trois personnes sur le premier plan grandeur nature"; Amélie got the whole rue Vivienne studio in small. "Jamais un atelier de femmes n'a été fait," Marie wrote (090.0448) -- and she noted Julian's three motives without illusion: he had no time to paint it himself, he wanted to please her, and he wanted to enrage [Breslau](../../people/mentioned/LOUISE_BRESLAU.md) (090.0451). She also suspected he wanted her bogged down in a picture too big for the time available.
+The picture was a commission, and the commission was a bargain: on **24 December 1880** [Rodolphe Julian](../../people/recurring/RODOLPHE_JULIAN.md) offered her a subject that would make her name two days after the Salon opened, on condition that the canvas be his at whatever stage of finish -- an engagement she and [Amélie](../../people/mentioned/AMELIE.md) signed in writing, with Magnan and Magdeleine as witnesses (090.0447). Marie got "un coin de notre atelier avec trois personnes sur le premier plan grandeur nature"; Amélie got the whole rue Vivienne studio in small. "Jamais un atelier de femmes n'a été fait," Marie wrote (090.0448) -- and she noted Julian's three motives without illusion: he had no time to paint it himself, he wanted to please her, and he wanted to enrage [Breslau](../../people/artists/LOUISE_BRESLAU.md) (090.0451). She also suspected he wanted her bogged down in a picture too big for the time available.
 
 %% GLO_L_ATELIER_JULIAN.0009 %%
 The making of it was a three-month war with the room itself. She could not compose the *esquisse* without knowing where she would be allowed to stand and how much space she would be given; Julian jeered at her through the acoustic tube; her letter to him survives in full in the diary -- "Je n'ai jamais demandé qu'on démolisse la maison mais il faudrait m'accorder un certain espace" (090.0473). The *perspecteur*'s ruling upended the whole design -- she had to imagine herself six metres further back than the wall allowed -- costing four or five days and a 25-minute lecture on his infallible rules (091.0112, 091.0131). [Alice Brisbane](../../people/mentioned/ALICE_BRISBANE.md) and Villevieille were her principal models (091.0088); Brisbane's head was painted in two hours and Julian told her to leave it alone (091.0130).
@@ -96,11 +96,11 @@ The canvas travelled with the bulk of her work: from her mother to the Museum of
 
 %% GLO_L_ATELIER_JULIAN.0017 %%
 - [#Academie_Julian](../../places/schools/JULIAN.md) -- the school, the room, and the routine the picture records
-- [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) -- who commissioned it, owned it, and regretted it
+- [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) -- who commissioned it, owned it, and regretted it
 - [#Art_practice](../themes/ART_PRACTICE.md) -- Marie's work as an artist
 - [#Salon](./SALON.md) -- the annual Paris exhibition
 - [#Tony_Robert_Fleury](../../people/artists/ROBERT_FLEURY.md) -- her teacher
-- [#Louise_Breslau](../../people/mentioned/LOUISE_BRESLAU.md) -- her rival, who took the 1881 award
+- [#Louise_Breslau](../../people/artists/LOUISE_BRESLAU.md) -- her rival, who took the 1881 award
 - [#Amelie](../../people/mentioned/AMELIE.md) -- who had the rival commission and painted one head of this canvas
 - [#Alice_Brisbane](../../people/mentioned/ALICE_BRISBANE.md) -- one of the models
 - [#Jules_Lefebvre](./JULES_LEFEBVRE.md) -- the visiting professor who praised it

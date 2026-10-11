@@ -34,7 +34,7 @@ A Saint-Cyr man (entered 1826), he made his career in Algeria, where he led the 
 Under the Third Republic he stayed faithful to the Empire and became one of the figures of the Bonapartist party. He sat in the Senate for the Lot from 1876 and for the Charente from 1879 until 1894, with the *Appel au peuple* group, and generally voted with the conservatives (French Wikipedia, "François Certain de Canrobert"). By the 1880s he was the old soldier of the Second Empire whom the Republic still honoured at state occasions: in 1878 he represented the French government at the funeral of King Victor-Emmanuel II, and his last official appearance was at Mac-Mahon's funeral in 1893 (same source). When he died he was the only surviving marshal of the Second Empire. His funeral was held on 3 February 1895 at Saint-Louis-des-Invalides and he was buried in the crypt of the governors there (Wikipedia; napoleon.org).
 
 %% GLO_MARECHAL_CANROBERT.0005 %%
-On 19 January 1863, in Paris (8th arrondissement), he married Leïla Flora Macdonald, born in India ([#Maréchale Canrobert](MARECHALE_CANROBERT.md)). Of their children Marie knew the daughter [#Claire](CLAIRE_CANROBERT.md) and two sons, Marcel and Louis; see [#the Canrobert family](CANROBERT.md). In 1882 he bought the house called L'Églantine at Jouy-en-Josas, near Versailles, where Marie stayed in 1883 and 1884 (Jouy-en-Josas local-history site, "François de Canrobert : un maréchal d'Empire à l'Églantine").
+On 19 January 1863, in Paris (8th arrondissement), he married Leïla Flora Macdonald, born in India ([#Maréchale Canrobert](MARECHALE_CANROBERT.md)). Of their children Marie knew the daughter [#Claire](../recurring/CLAIRE_CANROBERT.md) and two sons, Marcel and Louis; see [#the Canrobert family](CANROBERT.md). In 1882 he bought the house called L'Églantine at Jouy-en-Josas, near Versailles, where Marie stayed in 1883 and 1884 (Jouy-en-Josas local-history site, "François de Canrobert : un maréchal d'Empire à l'Églantine").
 
 %% GLO_MARECHAL_CANROBERT.0006 %%
 ## Marie and the Marshal
@@ -59,7 +59,7 @@ On 4 August 1884, at Versailles, Marie takes a seat beside the Maréchale and Cl
 
 %% GLO_MARECHAL_CANROBERT.0013 %%
 - [Maréchale Canrobert](MARECHALE_CANROBERT.md): his wife.
-- [Claire Canrobert](CLAIRE_CANROBERT.md): his daughter, Marie's friend of 1883–1884.
+- [Claire Canrobert](../recurring/CLAIRE_CANROBERT.md): his daughter, Marie's friend of 1883–1884.
 - [The Canrobert family](CANROBERT.md): the household as a whole.
 - [Gavini](GAVINI.md): the family through whom Marie first met the Marshal in 1878.
 

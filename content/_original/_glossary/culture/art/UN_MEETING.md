@@ -50,7 +50,7 @@ Marie's own first description of the composition, written more than a year befor
 
 %% GLO_UN_MEETING.0008 %%
 %% [#Art_practice](../themes/ART_PRACTICE.md) %%
-The idea arrived whole on **4 April 1883** (099.0033–0035) and the picture took fourteen months. Marie first planned the boys half-length, then in late April scaled the whole thing up to life-size figures at a street corner beside a lamp-post (099.0246), and on 7 May restarted the canvas entirely: "Je recommence entièrement les gamins, je les fais en pied, en toile plus grande, c'est bien plus amusant" (099.0377). [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) had "craintes sérieuses" about the ambition of it (099.0210–0212), and she brought in [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) not for advice but as a specimen of "la majorité bien-pensante" -- a test of how the ordinary Salon-goer would react (099.0423–0364).
+The idea arrived whole on **4 April 1883** (099.0033–0035) and the picture took fourteen months. Marie first planned the boys half-length, then in late April scaled the whole thing up to life-size figures at a street corner beside a lamp-post (099.0246), and on 7 May restarted the canvas entirely: "Je recommence entièrement les gamins, je les fais en pied, en toile plus grande, c'est bien plus amusant" (099.0377). [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) had "craintes sérieuses" about the ambition of it (099.0210–0212), and she brought in [Rodolphe Julian](../../people/recurring/RODOLPHE_JULIAN.md) not for advice but as a specimen of "la majorité bien-pensante" -- a test of how the ordinary Salon-goer would react (099.0423–0364).
 
 %% GLO_UN_MEETING.0009 %%
 It was painted out of doors, and the weather fought it: a storm knocked the canvas over and holed it in July 1883 (100.0389), and again in September, though "pas dans les figures" (101.0434). By August she was writing "Les gamins ne sont pas finis !!!" (100.0528). In October, Bastien-Lepage gave her the counsel she followed -- let it rest over the winter and finish selected passages in the spring, with "Bastien et la nature" as the two standards of comparison (101.0542). Through the autumn she stalled: "je suis restée trop longtemps devant les gamins pour y retravailler à présent, j'ai voulu, je ne peux pas" (102.0025). In November 1883 a photograph her mother had carried to St Petersburg was reproduced on the front page of *L'Illustration universelle* (102.0297) -- the picture was famous in Russia before it was finished in France.
@@ -94,9 +94,9 @@ The Salon of 1884 gave her everything except the medal. Charles Baude photograph
 - [#Salon](./SALON.md) -- the annual Paris exhibition
 - [#Medaille](./MEDAILLE.md) -- the award she did not receive
 - [#Jules_Bastien_Lepage](../../people/recurring/BASTIEN_LEPAGE.md) -- the model and the measure; the comparison that both made and shadowed this picture
-- [#Emile_Bastien_Lepage](../../people/mentioned/EMILE_BASTIEN_LEPAGE.md) -- his brother, her constant practical helper
+- [#Emile_Bastien_Lepage](../../people/recurring/EMILE_BASTIEN_LEPAGE.md) -- his brother, her constant practical helper
 - [#Tony_Robert_Fleury](../../people/artists/ROBERT_FLEURY.md) -- her teacher, and the first judge of the canvas
-- [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) -- brought in as the voice of conventional opinion
+- [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) -- brought in as the voice of conventional opinion
 - [#Le_Printemps](./LE_PRINTEMPS.md) -- the Sèvres canvas of the same year
 - [#La_Rue](./LA_RUE.md) -- the picture she began after this one, and never finished
 

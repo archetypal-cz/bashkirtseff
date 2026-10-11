@@ -10,7 +10,7 @@ aliases:
   - père Rodolphe
   - Pierre Louis Rodolphe Julian
 type: Person
-category: people/mentioned
+category: people/recurring
 research_status: Comprehensive
 last_updated: 2026-10-11
 images:
@@ -33,7 +33,7 @@ images:
 Pierre Louis Rodolphe Julian (born 13 June 1839 at Lapalud, Vaucluse; died in Paris in February 1907) was a French painter, etcher and art teacher, founder and director of the Académie Julian. He was the son of Pierre Louis Julian and Sophie Favier, who married in 1847 and so legitimated Rodolphe and his elder sister. His father sent him as a clerk to a bookshop in Marseille; he drew well, went to Paris, studied under Léon Cogniet and Alexandre Cabanel without entering the École des Beaux-Arts, and exhibited at the Salons from 1863 (fr.wikipedia.org, "Rodolphe Julian"). On the day he is decorated, Julian tells the atelier: "a poor little peasant who left his village with nothing... Chevalier of the Légion d'honneur!" (091.0122). The two best-known sources disagree on the day of his death: 2 February 1907 (en.wikipedia.org) or 11 February 1907, at his home in the rue d'Amboise (fr.wikipedia.org). He is buried at Lapalud.
 
 %% GLO_RODOLPHE_JULIAN.0003 %%
-Julian's career as a painter was moderate. From 1866 he lived and worked at 36 rue Vivienne, and in 1868, needing money, he opened an academy which admitted women and engaged well-known Salon painters as teachers. After about 1880 its success let him give up painting. He was named chevalier of the Légion d'honneur in 1881 (a fact Marie records on the day, 12 February 1881: 091.0117-0125). In 1895 he married the painter Amélie Beaury-Saurel ([#Amelie_Beaury_Saurel](AMELIE_BEAURY_SAUREL.md)), who ran the academy after his death in 1907 (en.wikipedia.org; marriage date 9 January 1895 according to a second source). The academy lasted until 1968.
+Julian's career as a painter was moderate. From 1866 he lived and worked at 36 rue Vivienne, and in 1868, needing money, he opened an academy which admitted women and engaged well-known Salon painters as teachers. After about 1880 its success let him give up painting. He was named chevalier of the Légion d'honneur in 1881 (a fact Marie records on the day, 12 February 1881: 091.0117-0125). In 1895 he married the painter Amélie Beaury-Saurel ([#Amelie_Beaury_Saurel](../mentioned/AMELIE_BEAURY_SAUREL.md)), who ran the academy after his death in 1907 (en.wikipedia.org; marriage date 9 January 1895 according to a second source). The academy lasted until 1968.
 
 %% GLO_RODOLPHE_JULIAN.0004 %%
 ## The Académie Julian
@@ -85,8 +85,8 @@ In moments of anger Marie calls Julian "ce Juif" and "un sale Juif" (090.0528; 0
 
 %% GLO_RODOLPHE_JULIAN.0020 %%
 Among the students who appear in Marie's diary:
-- [#Breslau](LOUISE_BRESLAU.md) (Louise Breslau) -- Marie's chief rival at the studio
-- [#Amelie_Beaury_Saurel](AMELIE_BEAURY_SAUREL.md) -- who later married Julian himself (1895)
+- [#Breslau](../artists/LOUISE_BRESLAU.md) (Louise Breslau) -- Marie's chief rival at the studio
+- [#Amelie_Beaury_Saurel](../mentioned/AMELIE_BEAURY_SAUREL.md) -- who later married Julian himself (1895)
 - Many other women who went on to professional artistic careers
 
 %% GLO_RODOLPHE_JULIAN.0021 %%
@@ -98,9 +98,9 @@ The Académie Julian played a crucial role in the history of women's art educati
 %% GLO_RODOLPHE_JULIAN.0023 %%
 ## Related entries
 - [#Julian](../../places/schools/JULIAN.md) -- the Académie Julian itself
-- [#Breslau](LOUISE_BRESLAU.md) -- Louise Breslau, rival student
+- [#Breslau](../artists/LOUISE_BRESLAU.md) -- Louise Breslau, rival student
 - [#Robert_Fleury](../artists/ROBERT_FLEURY.md) -- Tony Robert-Fleury, instructor at the Académie
-- [#Amelie_Beaury_Saurel](AMELIE_BEAURY_SAUREL.md) -- fellow student, later Mme Julian
+- [#Amelie_Beaury_Saurel](../mentioned/AMELIE_BEAURY_SAUREL.md) -- fellow student, later Mme Julian
 - [#L_Atelier_Julian](../../culture/art/L_ATELIER_JULIAN.md), [#Caricature_Rodolphe_Julian](../../culture/art/CARICATURE_RODOLPHE_JULIAN.md)
 
 %% GLO_RODOLPHE_JULIAN.0024 %%

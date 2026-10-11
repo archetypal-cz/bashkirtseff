@@ -59,7 +59,7 @@ As an artist she appears indirectly: in June 1883 Marie lists "Sarah" among the 
 - [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) -- painted her portrait (1879)
 - [#Bojidar](../recurring/BOJIDAR.md) -- Prince Bojidar Karageorgevitch, her devoted companion in 1881--1882
 - [#Abbema](../mentioned/ABBEMA.md) -- Louise Abbéma, painter and friend of Bernhardt
-- [#Julian](../mentioned/RODOLPHE_JULIAN.md) -- Part of the Paris art world Bernhardt inhabited
+- [#Julian](../recurring/RODOLPHE_JULIAN.md) -- Part of the Paris art world Bernhardt inhabited
 
 %% GLO_SARAH_BERNHARDT.0014 %%
 ## Sources

@@ -55,7 +55,7 @@ A neighbouring paragraph, 091.0130, (14 February 1881): "La tête de Brisbane (A
 %% GLO_PORTRAIT_BRISBANE_RECAMIER.0011 %%
 - [#Alice_Brisbane](../../people/mentioned/ALICE_BRISBANE.md) -- the sitter
 - [#L_Atelier_Julian](./L_ATELIER_JULIAN.md) -- the large 1881 picture in which she also posed
-- [#Brisbane](../../people/mentioned/BRISBANE.md) -- the other Brisbane (a male model)
+- [#Brisbane](../../people/mentioned/ALICE_BRISBANE.md) -- the other Brisbane (a male model)
 - [#Art_practice](../themes/ART_PRACTICE.md)
 
 %% GLO_PORTRAIT_BRISBANE_RECAMIER.0012 %%

@@ -8,7 +8,7 @@ aliases:
   - M. Gaillard
   - les Gaillard
 type: Person
-category: people/mentioned
+category: people/politicians
 research_status: Moderate
 last_updated: 2026-10-11
 ---
@@ -45,7 +45,7 @@ The identification rests on the diary alone and fits it closely: Marie calls him
 ## Related entries
 
 %% GLO_GAILLARD.0007 %%
-[Madame de Mouzay](./MOUZAY.md); [Rodolphe Julian](./RODOLPHE_JULIAN.md); [Gavini](./GAVINI.md); [Mme Adam](./MME_ADAM.md); [Gambetta](../politicians/GAMBETTA.md); [Joseph Arnaud](./JOSEPH_ARNAUD.md); [Soutzo](./SOUTZO.md).
+[Madame de Mouzay](../mentioned/MOUZAY.md); [Rodolphe Julian](../recurring/RODOLPHE_JULIAN.md); [Gavini](../mentioned/GAVINI.md); [Mme Adam](../mentioned/MME_ADAM.md); [Gambetta](GAMBETTA.md); [Joseph Arnaud](../mentioned/JOSEPH_ARNAUD.md); [Soutzo](../mentioned/SOUTZO.md).
 
 %% GLO_GAILLARD.0008 %%
 ## Sources

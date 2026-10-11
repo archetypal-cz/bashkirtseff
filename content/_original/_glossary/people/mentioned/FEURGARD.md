@@ -14,9 +14,9 @@ last_updated: 2026-09-07
 ## Basic Information
 
 %% GLO_FEURGARD.0002 %%
-%% [#Louise_Breslau](./LOUISE_BRESLAU.md) [#Julian](../../places/schools/JULIAN.md) %%
+%% [#Louise_Breslau](../artists/LOUISE_BRESLAU.md) [#Julian](../../places/schools/JULIAN.md) %%
 %% 2026-09-07T12:00:00 RSR: Everything here is from the diary itself (097.0245, 097.0251, 103.0445). No outside identification attempted; first name unknown. %%
-Mlle Feurgard was a young painter who joined the women's atelier at [Julian](../../places/schools/JULIAN.md) in December 1882. Marie introduces her as the intimate friend of [Louise Breslau](./LOUISE_BRESLAU.md), and it is through her that the Breslau quarrel takes a new turn.
+Mlle Feurgard was a young painter who joined the women's atelier at [Julian](../../places/schools/JULIAN.md) in December 1882. Marie introduces her as the intimate friend of [Louise Breslau](../artists/LOUISE_BRESLAU.md), and it is through her that the Breslau quarrel takes a new turn.
 
 %% GLO_FEURGARD.0003 %%
 ## In Marie's Diary
@@ -34,5 +34,5 @@ Mlle Feurgard was a young painter who joined the women's atelier at [Julian](../
 ## Related Entries
 
 %% GLO_FEURGARD.0008 %%
-- [#Louise_Breslau](./LOUISE_BRESLAU.md) — her intimate friend, Marie's rival
+- [#Louise_Breslau](../artists/LOUISE_BRESLAU.md) — her intimate friend, Marie's rival
 - [#Julian](../../places/schools/JULIAN.md) — the atelier

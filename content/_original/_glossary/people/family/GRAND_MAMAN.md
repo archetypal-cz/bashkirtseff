@@ -128,7 +128,7 @@ The grandmother played a protective role in the family. When Marie's father kidn
 
 - [#Maman](MAMAN.md) - Marie's mother, grand-maman's daughter
 - [#Ma_tante](MA_TANTE.md) - Marie's aunt who helped raise her
-- [#Paul](../mentioned/PAUL.md) - Marie's brother, also raised by grand-maman
+- [#Paul](PAUL.md) - Marie's brother, also raised by grand-maman
 - [#Papa](PAPA.md) - Constantin Bashkirtseff, confronted at Gavronzi
 - [#Paul_Grigorievitch_Bashkirtseff](PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md) - The General, Marie's paternal grandfather
 - [#Gavronzi](../../places/residences/GAVRONZI.md) - Estate where the custody battle occurred

@@ -82,8 +82,8 @@ Tony is Marie's longest-serving and most patient teacher: she writes that he "ha
 %% GLO_ROBERT_FLEURY.0019 %%
 ## Related entries
 - [#Julian](../../places/schools/JULIAN.md) -- the academy where he taught
-- [#Rodolphe_Julian](../mentioned/RODOLPHE_JULIAN.md) -- its director
-- [#Breslau](../mentioned/LOUISE_BRESLAU.md) -- fellow student who "adores him in secret" (083.0046)
+- [#Rodolphe_Julian](../recurring/RODOLPHE_JULIAN.md) -- its director
+- [#Breslau](LOUISE_BRESLAU.md) -- fellow student who "adores him in secret" (083.0046)
 - [#L_Atelier_Julian](../../culture/art/L_ATELIER_JULIAN.md), [#Un_meeting](../../culture/art/UN_MEETING.md), [#Salon](../../culture/art/SALON.md)
 
 %% GLO_ROBERT_FLEURY.0020 %%

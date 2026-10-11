@@ -36,7 +36,7 @@ The book was the scandal of her first winter in the Paris art world, and she rea
 
 - **23 January 1880** (087.0303): among "trente-six mille choses à la fois" she lists "une [composition] sur Nana", next to Taine's *Ancien Régime* and the *Nouvelle Revue*; what that composition is (a picture or a written piece) is not stated.
 - **25 February 1880** (087.0535): chasing a model, Léonie, and meeting her family, she calls it "du Zola pur, du Zola de Nana, du reste c'est ce nom-là que je donne à Léonie".
-- **10 March 1880** (087.0585): at the studio, [Julian](../../people/mentioned/RODOLPHE_JULIAN.md) "me compare à l'héroïne 'de certains romans que nous avons lu, quand elle paraît au second acte de la Blonde Vénus'" (Marie adds, for readers who have not read "l'infecte Nana"): "entre nous... vous comprenez jusqu'où va la comparaison, du reste entre artistes, ne vous récriez pas, vous êtes flattée". The comparison is to Nana's entrance as Venus.
+- **10 March 1880** (087.0585): at the studio, [Julian](../../people/recurring/RODOLPHE_JULIAN.md) "me compare à l'héroïne 'de certains romans que nous avons lu, quand elle paraît au second acte de la Blonde Vénus'" (Marie adds, for readers who have not read "l'infecte Nana"): "entre nous... vous comprenez jusqu'où va la comparaison, du reste entre artistes, ne vous récriez pas, vous êtes flattée". The comparison is to Nana's entrance as Venus.
 - **31 July 1880** (089.0260): she says she has read "un mauvais livre", Belot's *Mademoiselle Giraud, ma femme*, "pour m'étourdir, m'oublier sans fatigue"; "Vous savez bien j'ai lu 'Nana', du reste il n'y a pas de mauvais livres; pourtant il paraît qu'il y a des intelligences qui s'en ressentent."
 
 ## Notes and doubts

@@ -54,7 +54,7 @@ Marie never gives a first name. What she says is all that is known: an American 
 ## Related entries
 
 %% GLO_MME_CARTWRIGHT.0014 %%
-- [Louise Breslau](LOUISE_BRESLAU.md): her protégée.
+- [Louise Breslau](../artists/LOUISE_BRESLAU.md): her protégée.
 - Jules Bastien-Lepage and his brother Émile, through whom Marie approached or avoided her.
 - [Feurgard](FEURGARD.md): bearer of the Soutzo story.
 

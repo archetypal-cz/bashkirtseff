@@ -10,7 +10,7 @@ aliases:
   - sous-Potain
   - Potain II
 type: Person
-category: people/mentioned
+category: people/doctors
 research_status: Comprehensive
 last_updated: 2026-10-11
 images:
@@ -50,7 +50,7 @@ Potain is Marie's physician from the autumn of 1880 until her last weeks. Chrono
 ## Related entries
 
 %% GLO_POTAIN.0007 %%
-[Charcot](./CHARCOT.md); [Dr Fauvel](./FAUVEL.md); [Grancher](./GRANCHER.md); [Miranda](./MIRANDA.md); [Eaux-Bonnes](../../places/cities/EAUX_BONNES.md); [Health](../../culture/themes/HEALTH.md).
+[Charcot](../mentioned/CHARCOT.md); [Dr Fauvel](../mentioned/FAUVEL.md); [Grancher](../mentioned/GRANCHER.md); [Miranda](../mentioned/MIRANDA.md); [Eaux-Bonnes](../../places/cities/EAUX_BONNES.md); [Health](../../culture/themes/HEALTH.md).
 
 %% GLO_POTAIN.0008 %%
 ## Sources

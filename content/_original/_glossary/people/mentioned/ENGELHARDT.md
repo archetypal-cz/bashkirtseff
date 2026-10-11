@@ -31,7 +31,7 @@ last_updated: 2026-10-11
 "Les Engelhardt" are a Russian mother and son living in Paris, near the Parc Monceau quarter (102.0548). Marie calls the mother "Mme la Générale Engelhardt, une notabilité de la colonie russe" (088.0068): her husband was presumably a Russian general, but his name is never given. The son is about thirty in 1883 ("un petit aztèque, de trente ans", 102.0094; "Aztèque" is Marie's contemptuous word for ugly or primitive-looking, and she repeats it in 1884: 105.0058). First names, dates and the family's origin are not in the diary and could not be found in a published source; the surname is a common Baltic-German noble name in the Russian Empire, but nothing in the text allows Marie's acquaintances to be linked to any particular Engelhardt family. In 1882 she shortens the name to "Engel" (095.0253). The printed edition has the typographical variants "Englehardt", "Engelhadt" and "Engdelhardt", corrected in the source (103.0227, 104.0672).
 
 %% GLO_ENGELHARDT.0004 %%
-Another entry, [Mme Engelhardt](./MME_ENGELHARDT.md), describes the same lady from the single party of 21 November 1880; it is a duplicate of this one.
+Another entry, [Mme Engelhardt](ENGELHARDT.md), describes the same lady from the single party of 21 November 1880; it is a duplicate of this one.
 
 %% GLO_ENGELHARDT.0005 %%
 ## Marie and the Engelhardts
@@ -55,7 +55,7 @@ Another entry, [Mme Engelhardt](./MME_ENGELHARDT.md), describes the same lady fr
 ## Related entries
 
 %% GLO_ENGELHARDT.0012 %%
-- [Mme Engelhardt](./MME_ENGELHARDT.md) -- duplicate entry for the mother
+- [Mme Engelhardt](ENGELHARDT.md) -- duplicate entry for the mother
 - [Tchernitsky](./TCHERNITSKY.md) -- the singer ("Cerny") who goes everywhere with them
 - [Pope](./POPE.md) -- the Orthodox priest, the other fixture of the 1883 table
 - [Gil Blas](./GIL_BLAS.md) -- the newspaper of the December 1883 item

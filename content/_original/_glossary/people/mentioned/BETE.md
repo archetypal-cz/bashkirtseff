@@ -140,7 +140,7 @@ Several LAN annotations incorrectly identify "Bête" as "Princess Hitchcock" or 
 - [#Ma_tante](../family/MA_TANTE.md) -- Shares name day; both part of the core household
 - [#Dina](../core/DINA.md) -- The other regular companion in the Hamilton discussions
 - [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) -- Central topic of conversation between Marie and Bête
-- [#Paul](PAUL.md) -- Marie's brother, present in many scenes with Bête
+- [#Paul](../family/PAUL.md) -- Marie's brother, present in many scenes with Bête
 - [#Walitsky](../recurring/WALITSKY.md) -- Family steward, also part of the social circle
 - [#Gioia](../../people/recurring/GIOIA.md) -- The Duke's mistress, constantly discussed with Bête
 %% GLO_BETE.0025 %%

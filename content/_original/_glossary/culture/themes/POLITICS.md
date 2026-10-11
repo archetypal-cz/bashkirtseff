@@ -112,7 +112,7 @@ Marie was characteristically self-aware about the role of personality in her pol
 Marie's relationship with Cassagnac was the most sustained political-romantic entanglement of her youth. She first met him socially in Nice in 1876, visited his apartment in Paris in the famous "five women" episode (January 1878), and followed his career obsessively through *Le Pays*. The visit to his apartment -- where she jumped on his bed, washed her face in his basin, and knocked over his silver -- is one of the most vivid episodes in the diary. She described his home as *"l'intérieur d'un Joseph Balsamo quelconque, d'un homme à bonnes fortunes, panaché de politique, de dévouements, de toutes sortes de choses merveilleuses"* (23 January 1878). By 1880, attending the Chamber of Deputies, she noted his physical decline: *"Cassagnac a pris la parole Dieu sait pourquoi. Il a pris du ventre et se fane décidément"* (28 May 1880). By 1883, her disillusionment was complete: *"Ce Cassagnac est vraiment une nature basse"* (5 August 1883).
 
 %% GLO_POLITICS.0034 %%
-See also: [#Cassagnac](../../people/recurring/CASSAGNAC.md), [#Paul_de_Cassagnac](../../people/mentioned/PAUL_DE_CASSAGNAC.md)
+See also: [#Cassagnac](../../people/recurring/CASSAGNAC.md), [#Paul_de_Cassagnac](../../people/recurring/CASSAGNAC.md)
 
 %% GLO_POLITICS.0035 %%
 ### Leon Gambetta (1838-1882)

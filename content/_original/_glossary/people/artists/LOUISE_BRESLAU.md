@@ -13,7 +13,7 @@ aliases:
   - cette canaille de Breslau
   - la Suisse
 type: Person
-category: people/mentioned
+category: people/artists
 research_status: Comprehensive
 last_updated: 2026-10-11
 images:
@@ -101,7 +101,7 @@ Breslau counted Degas, Rodin, Bourdelle, Fantin-Latour, Bastien-Lepage, Breton, 
 ## Personal life
 
 %% GLO_LOUISE_BRESLAU.0022 %%
-At Julian's Breslau formed lasting friendships with [Sarah Purser](./SARAH_PURSER.md), Sophie Schaeppi and Maria Feller; in 1885 she met Madeleine Zillhardt (the sister of Jenny Zillhardt, another student), who became her model, companion and heir and lived with her from 1886 for over forty years. Breslau never married. Zillhardt gave sixty of her pastels and drawings to the Dijon museum and published *Louise Catherine Breslau et ses amis* in 1932. Breslau died in 1927 and is buried next to her mother at Baden, canton Aargau (English Wikipedia).
+At Julian's Breslau formed lasting friendships with [Sarah Purser](../mentioned/SARAH_PURSER.md), Sophie Schaeppi and Maria Feller; in 1885 she met Madeleine Zillhardt (the sister of Jenny Zillhardt, another student), who became her model, companion and heir and lived with her from 1886 for over forty years. Breslau never married. Zillhardt gave sixty of her pastels and drawings to the Dijon museum and published *Louise Catherine Breslau et ses amis* in 1932. Breslau died in 1927 and is buried next to her mother at Baden, canton Aargau (English Wikipedia).
 
 %% GLO_LOUISE_BRESLAU.0023 %%
 Marie notes with some envy Breslau's modest quarters at the Ternes, shared with Maria, Schaeppi and Sarah Purser, "une sphère éminemment artistique" in contrast with her own family circle (094.0090, 097.0155). When someone asked, "Mais Breslau vit donc seule...", Marie understood what independence meant (092.0214).
@@ -118,15 +118,15 @@ Breslau's career shows what women artists could reach in the 1880s through the A
 %% GLO_LOUISE_BRESLAU.0027 %%
 - [#Academie_Julian](../../places/schools/JULIAN.md) - the school where they competed
 - [#Art_Practice](../../culture/themes/ART_PRACTICE.md) - Marie's artistic development, Breslau's role in it
-- [#Rodolphe_Julian](./RODOLPHE_JULIAN.md) - school director who managed the rivalry
-- [#Tony](./TONY.md) - Tony Robert-Fleury, teacher of both
-- [#Amelie](./AMELIE.md) - Amélie Beaury-Saurel, fellow student ("d'Artagnan")
-- [#Schaeppi](./SCHAEPPI.md) - Sophie Schaeppi, Swiss friend ("Porthos")
-- [#Sarah_Purser](./SARAH_PURSER.md) - Irish student who reconciled them in 1879
+- [#Rodolphe_Julian](../recurring/RODOLPHE_JULIAN.md) - school director who managed the rivalry
+- [#Tony](../mentioned/TONY.md) - Tony Robert-Fleury, teacher of both
+- [#Amelie](../mentioned/AMELIE.md) - Amélie Beaury-Saurel, fellow student ("d'Artagnan")
+- [#Schaeppi](../mentioned/SCHAEPPI.md) - Sophie Schaeppi, Swiss friend ("Porthos")
+- [#Sarah_Purser](../mentioned/SARAH_PURSER.md) - Irish student who reconciled them in 1879
 - [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) - painter both women admired
-- [#Cartwright](./CARTWRIGHT.md) - patron who played them against each other
-- [#Feurgard](./FEURGARD.md) - mutual friend and go-between
-- [#Wolff](./WOLFF.md) - the critic whose praise of Breslau stung Marie
+- [#Cartwright](../mentioned/CARTWRIGHT.md) - patron who played them against each other
+- [#Feurgard](../mentioned/FEURGARD.md) - mutual friend and go-between
+- [#Wolff](../writers/WOLFF.md) - the critic whose praise of Breslau stung Marie
 - [#Salon](../../culture/art/SALON.md)
 
 %% GLO_LOUISE_BRESLAU.0028 %%

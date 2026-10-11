@@ -21,7 +21,7 @@ last_updated: 2026-10-10
 ## Marie and this painting
 
 %% GLO_LE_SOIR_AU_VILLAGE.0004 %%
-**14 December 1882**: Marie and her family visit the studio where the « vrai Bastien » is arranging the frames of the canvases just back from the country; she praises the rendering of twilight, the calm settling on everything, « seulement on entend aboyer quelque chien. C'est d'une couleur, d'une poésie, d'un charme ! » (097.0238). On 31 December 1882, at the rue de Sèze exhibition, she decides that the picture is not inferior to the poetry of Cazin (097.0322, with a reader footnote on [Cazin](../../people/mentioned/CAZIN.md)).
+**14 December 1882**: Marie and her family visit the studio where the « vrai Bastien » is arranging the frames of the canvases just back from the country; she praises the rendering of twilight, the calm settling on everything, « seulement on entend aboyer quelque chien. C'est d'une couleur, d'une poésie, d'un charme ! » (097.0238). On 31 December 1882, at the rue de Sèze exhibition, she decides that the picture is not inferior to the poetry of Cazin (097.0322, with a reader footnote on [Cazin](../../people/artists/CAZIN.md)).
 
 %% GLO_LE_SOIR_AU_VILLAGE.0005 %%
 On **15 June 1883** she judges it, though « une impression de petite dimension », the equal of Millet: « il n'y a là que deux petites figures perdues dans le crépuscule » (100.0165); it appears in her list of the five (100.0167). On **16 January 1884** she traces a « filiation » between *Jeanne d'Arc*, *Le Soir au village* and the planned *Bergers à Bethléem* (103.0041, 103.0042). On 4 April 1884 she calls it « un chef d'œuvre pur » and « d'un effet magique », a poetic note in the manner of Millet that he himself surpassed (103.0705).

@@ -51,7 +51,7 @@ One figure did survive the wreck, in another medium. The weeping woman of *[La D
 ## Making of the Work
 
 %% GLO_LES_SAINTES_FEMMES.0010 %%
-%% [#Julian](../../people/mentioned/RODOLPHE_JULIAN.md) [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) %%
+%% [#Julian](../../people/recurring/RODOLPHE_JULIAN.md) [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) %%
 The ambition predates the subject. In October 1877, in her first weeks at the Académie Julian, she writes: «J'aurais fait des tableaux d'histoire si j'avais commencé il y a cinq ans» (075.0138). The subject itself arrives at dawn on **27 May 1880**, after a night at the harp: «mes deux femmes devant le sépulcre. J'ai envie d'aller à Jérusalem et d'y faire ce tableau avec des têtes de là-bas en plein air» (088.0397). That is two and a half years earlier than the usual account allows.
 
 %% GLO_LES_SAINTES_FEMMES.0011 %%
@@ -119,7 +119,7 @@ The last eighteen months:
 - [#La_Douleur_de_Nausicaa](./DOULEUR_DE_NAUSICAA.md) — the figure that detached itself from this composition and survived
 - [#La_Rue](./LA_RUE.md) — the picture this one is routinely confused with
 - [#Bastien-Lepage](../../people/recurring/BASTIEN_LEPAGE.md) — the rival whose *Bergers de Bethléem* haunted the last year
-- [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md), [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) — who between them stopped it
+- [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md), [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) — who between them stopped it
 - [#Salon](./SALON.md), [#Art_Practice](../themes/ART_PRACTICE.md), [#Religion](../themes/RELIGION.md)
 - [#Kharkiv_Lost_Works](./KHARKIV_LOST_WORKS.md) — the fate of the œuvre the sketches belonged to
 

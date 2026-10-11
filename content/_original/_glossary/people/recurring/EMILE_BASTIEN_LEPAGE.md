@@ -12,7 +12,7 @@ aliases:
   - Bastien-frère
   - le faux Bastien
 type: Person
-category: people/mentioned
+category: people/recurring
 research_status: Comprehensive
 last_updated: 2026-10-11
 images:
@@ -27,7 +27,7 @@ images:
 ## Who he was
 
 %% GLO_EMILE_BASTIEN_LEPAGE.0002 %%
-Émile Bastien-Lepage (born 20 January 1854 at Damvillers, Meuse; died 19 January 1938 at Neuilly-sur-Seine) was a French architect and later landscape painter, the younger brother of [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) (Jules, 1848-1884). He was the son of Claude Bastien and Adèle Lepage. He trained as an architect, was a pupil of his brother in painting, exhibited at the Salon des artistes français in 1884 and 1889, was a member of the Société nationale des beaux-arts, and was made a chevalier of the Légion d'honneur in 1934 (en.wikipedia.org and fr.wikipedia.org, "Émile Bastien-Lepage"). Jules painted his portrait in 1879 (Musée d'Orsay). In 1889 Émile designed the plinth of Rodin's monument to Jules at Damvillers; after Jules's death he gave the Rainettes garden at Damvillers its park-like form (fr.wikipedia.org, "Jules Bastien-Lepage").
+Émile Bastien-Lepage (born 20 January 1854 at Damvillers, Meuse; died 19 January 1938 at Neuilly-sur-Seine) was a French architect and later landscape painter, the younger brother of [#Bastien_Lepage](BASTIEN_LEPAGE.md) (Jules, 1848-1884). He was the son of Claude Bastien and Adèle Lepage. He trained as an architect, was a pupil of his brother in painting, exhibited at the Salon des artistes français in 1884 and 1889, was a member of the Société nationale des beaux-arts, and was made a chevalier of the Légion d'honneur in 1934 (en.wikipedia.org and fr.wikipedia.org, "Émile Bastien-Lepage"). Jules painted his portrait in 1879 (Musée d'Orsay). In 1889 Émile designed the plinth of Rodin's monument to Jules at Damvillers; after Jules's death he gave the Rainettes garden at Damvillers its park-like form (fr.wikipedia.org, "Jules Bastien-Lepage").
 
 %% GLO_EMILE_BASTIEN_LEPAGE.0003 %%
 Marie calls him "l'architecte", "le frère", "le faux Bastien" (as against "le vrai") and, teasingly, "le vil architecte", "ce subalterne" or "cette cuisinière d'architecte". He is not to be confused with his brother, who also appears under "Bastien" and "Bastien-Lepage" in the diary.
@@ -42,7 +42,7 @@ Marie calls him "l'architecte", "le frère", "le faux Bastien" (as against "le v
 Marie hears of "the brother" before she meets him (094.0164; 094.0205). She first records meeting him at the Salon on 19 May 1882 (095.0076); on 20 June she meets only him there (095.0196). On 22 June 1882 he receives Marie and two friends in his absent brother's studio and shows his watercolours; she finds him an architect who "does not look like one", plainer and older-looking than Jules, and gifted (095.0204). The next day he poses for her small panel portrait: "I paint on Bastien's own palette, with his colours, his brush, his studio and his brother for a model" (095.0205-0206); on 30 June she dresses him in Jules's coat and hat (095.0236). Portrait and sitter are not otherwise recorded, and the picture has not been located.
 
 %% GLO_EMILE_BASTIEN_LEPAGE.0007 %%
-On 1 July she calls him "a good fellow, not given to compliments, intelligent", in whom "one seems to hear the advice of the other" (095.0232); he dines with the family (095.0245). On 19 July he arrives to "withdraw a word" he had said the day before; Marie teases him that he has invented a pretext to see the beautiful Irma, her model, again, and records the gossip that he is in love with her herself: "Is it not silly that this boy has such good taste?" (095.0308-0316). In August he warns her, as Jules's emissary, not to go to Mme Cartwright's soirées, since she might be taken for one of the women there (096.0102; see [#Mme_Cartwright](MME_CARTWRIGHT.md)).
+On 1 July she calls him "a good fellow, not given to compliments, intelligent", in whom "one seems to hear the advice of the other" (095.0232); he dines with the family (095.0245). On 19 July he arrives to "withdraw a word" he had said the day before; Marie teases him that he has invented a pretext to see the beautiful Irma, her model, again, and records the gossip that he is in love with her herself: "Is it not silly that this boy has such good taste?" (095.0308-0316). In August he warns her, as Jules's emissary, not to go to Mme Cartwright's soirées, since she might be taken for one of the women there (096.0102; see [#Mme_Cartwright](../mentioned/MME_CARTWRIGHT.md)).
 
 %% GLO_EMILE_BASTIEN_LEPAGE.0008 %%
 ### The perspective lessons and the Gambetta funeral (December 1882 - April 1883)
@@ -84,8 +84,8 @@ Per Kernberger (2013, Chronology), the funeral of Marie on 6 November 1884 at th
 ## Related entries
 
 %% GLO_EMILE_BASTIEN_LEPAGE.0021 %%
-- [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) -- his brother Jules, Marie's fellow artist and friend
-- [#Mme_Mackay](MME_MACKAY.md), [#Alice_Brisbane](ALICE_BRISBANE.md), [#Dusautoy](DUSAUTOY.md), [#Bojidar](../recurring/BOJIDAR.md)
+- [#Bastien_Lepage](BASTIEN_LEPAGE.md) -- his brother Jules, Marie's fellow artist and friend
+- [#Mme_Mackay](../mentioned/MME_MACKAY.md), [#Alice_Brisbane](../mentioned/ALICE_BRISBANE.md), [#Dusautoy](../mentioned/DUSAUTOY.md), [#Bojidar](BOJIDAR.md)
 - [#Un_meeting](../../culture/art/UN_MEETING.md), [#Les_Saintes_Femmes](../../culture/art/LES_SAINTES_FEMMES.md)
 
 %% GLO_EMILE_BASTIEN_LEPAGE.0022 %%

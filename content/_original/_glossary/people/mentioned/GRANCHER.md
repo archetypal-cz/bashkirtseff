@@ -18,7 +18,7 @@ Jacques-Joseph Grancher (1843-1907) was a prominent French physician, later reno
 
 ## Relevance to Marie
 
-Marie's regular physician, [Potain](POTAIN.md), examines her on 3 July 1884 (105.0016-0020) and finds a cavity ("excavation") at the top of her right lung. That same day, a young doctor on the rue de l'Échiquier — likely [Béclère](BECLERE.md) — is alarmed enough by her condition to press her to consult "un prince de la science, Bouchard ou Grancher" (105.0018). Marie initially refuses, but Béclère "veut absolument me mener chez ce Grancher" (105.0020). She does go: on 7 July 1884 (105.0093), "Monsieur Grancher me promet de me guérir en deux années de traitement vigoureux et rigoureux" ("Monsieur Grancher promises to cure me with two years of vigorous, rigorous treatment") — a promise that, given Marie's death from tuberculosis three months later, reads with heavy irony in retrospect.
+Marie's regular physician, [Potain](../doctors/POTAIN.md), examines her on 3 July 1884 (105.0016-0020) and finds a cavity ("excavation") at the top of her right lung. That same day, a young doctor on the rue de l'Échiquier — likely [Béclère](BECLERE.md) — is alarmed enough by her condition to press her to consult "un prince de la science, Bouchard ou Grancher" (105.0018). Marie initially refuses, but Béclère "veut absolument me mener chez ce Grancher" (105.0020). She does go: on 7 July 1884 (105.0093), "Monsieur Grancher me promet de me guérir en deux années de traitement vigoureux et rigoureux" ("Monsieur Grancher promises to cure me with two years of vigorous, rigorous treatment") — a promise that, given Marie's death from tuberculosis three months later, reads with heavy irony in retrospect.
 
 ## Historical Context
 

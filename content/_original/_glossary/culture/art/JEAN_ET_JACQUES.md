@@ -57,7 +57,7 @@ Her own verdict at the Salon was harsh: «le tableau m'a paru sombre et quoique 
 ## Making of the Work
 
 %% GLO_JEAN_ET_JACQUES.0009 %%
-%% [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) [#Julian](../../people/mentioned/RODOLPHE_JULIAN.md) %%
+%% [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) [#Julian](../../people/recurring/RODOLPHE_JULIAN.md) %%
 The conception comes on **30 January 1883**, out of a bad night: «Je ne sais quel coup de vent passe… Je renais, j'ai trouvé un tableau» (098.0218), written immediately after a bout of despair over the Bastien-Lepage gossip. She begins on 7 February (098.0302), scraps the first canvas and restarts on the 11th (098.0318). With thirty days to the Salon deadline, Tony Robert-Fleury's first look is «très très bien» (098.0324, 098.0326). On 28 February the Canroberts come to see it and she counts the cost: nineteen days, where fifteen would have done if she had not had to repaint one of the boys, who «paraissait trop âgé» (098.0435). Then the verdicts: Tony again (098.0444), Émile Bastien-Lepage — «il sera bien vu au Salon», and she is ashamed to be showing him something so close to his brother's manner (098.0467) — and Julian (098.0491). On 27 March, after a day of confusion over the admission lists: «Je suis archi-reçue» (098.0605).
 
 %% GLO_JEAN_ET_JACQUES.0010 %%
@@ -97,8 +97,8 @@ The picture went on working for her afterwards. In November 1883 the St Petersbu
 - [#Un_meeting](./UN_MEETING.md) — the picture it led to, conceived weeks after this one was hung
 - [#La_Parisienne](./LA_PARISIENNE.md) — shown with it at the Salon of 1883
 - [#Salon](./SALON.md) and [#Art_Practice](../themes/ART_PRACTICE.md)
-- [#Bastien-Lepage](../../people/recurring/BASTIEN_LEPAGE.md) — the model she feared resembling; [#Émile_Bastien-Lepage](../../people/mentioned/EMILE_BASTIEN_LEPAGE.md), who took the critics to it
-- [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md), [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md)
+- [#Bastien-Lepage](../../people/recurring/BASTIEN_LEPAGE.md) — the model she feared resembling; [#Émile_Bastien-Lepage](../../people/recurring/EMILE_BASTIEN_LEPAGE.md), who took the critics to it
+- [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md), [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md)
 - [#Kharkiv_Lost_Works](./KHARKIV_LOST_WORKS.md) — what happened to the bulk of her œuvre, and why so few canvases can be located
 
 %% GLO_JEAN_ET_JACQUES.0017 %%

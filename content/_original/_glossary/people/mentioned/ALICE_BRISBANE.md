@@ -57,8 +57,8 @@ Marie painted her as Madame Récamier, begun 27 April 1880, finished 22 April 18
 - [Alice Brisbane en Récamier](../../culture/art/PORTRAIT_BRISBANE_RECAMIER.md)
 - [L'Atelier Julian](../../culture/art/L_ATELIER_JULIAN.md)
 - [Villevieille](./VILLEVIEILLE.md) -- the other principal model
-- [Brisbane](./BRISBANE.md) -- a surname-only stub, almost certainly the same Alice (see the RSR note)
-- [Emile Bastien-Lepage](./EMILE_BASTIEN_LEPAGE.md); [Canrobert](./CANROBERT.md) -- the perspective lessons of 1883
+- [Brisbane](ALICE_BRISBANE.md) -- a surname-only stub, almost certainly the same Alice (see the RSR note)
+- [Emile Bastien-Lepage](../recurring/EMILE_BASTIEN_LEPAGE.md); [Canrobert](./CANROBERT.md) -- the perspective lessons of 1883
 - [Julian](../../places/schools/JULIAN.md)
 
 %% GLO_ALICE_BRISBANE.0014 %%

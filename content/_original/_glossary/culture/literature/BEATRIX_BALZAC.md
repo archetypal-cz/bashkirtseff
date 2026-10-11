@@ -34,7 +34,7 @@ full_text:
 The novel enters the diary twice as a gift and twice as a mirror.
 
 - **8 and 10 June 1880** (088.0673, 088.0698): she makes [Soutzo](../../people/mentioned/SOUTZO.md) read Balzac's *Béatrix* ("ma tante et moi assises et lui à nos pieds"), but "il ne peut pas lire cela sérieusement. Il ne comprend pas Balzac... ce n'est pas encore son âme qui sera ma sœur de la mienne"; later: "ça ne l'amuse pas".
-- **4 January 1883** (097.0351): [Julian](../../people/mentioned/RODOLPHE_JULIAN.md), speaking of Gambetta and the woman in his life, tells her she will never feel a true passion, that she is not woman enough: "presque la tirade de Claude Vignon à Camille Maupin (voir Béatrix de Balzac)". Marie reports him adding that she will always have a court of admirers: "on m'adorera sans m'aimer".
+- **4 January 1883** (097.0351): [Julian](../../people/recurring/RODOLPHE_JULIAN.md), speaking of Gambetta and the woman in his life, tells her she will never feel a true passion, that she is not woman enough: "presque la tirade de Claude Vignon à Camille Maupin (voir Béatrix de Balzac)". Marie reports him adding that she will always have a court of admirers: "on m'adorera sans m'aimer".
 - **6 April 1884** (103.0746): "Merci, mais ce discours a déjà été tenu par Claude Vignon à Mlle des Touches et il n'y a là rien qui m'humilie." The footnote in the diary glosses the allusion: Vignon analyses the writer Camille Maupin as brilliant, formidable, but lacking the tender feminine qualities that inspire great love.
 
 ## Notes and doubts

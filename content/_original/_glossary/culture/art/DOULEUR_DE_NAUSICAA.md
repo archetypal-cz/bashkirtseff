@@ -56,7 +56,7 @@ The mythological title came afterwards. The figure was first conceived as one of
 ## Making of the Work
 
 %% GLO_DOULEUR_DE_NAUSICAA.0010 %%
-%% [#Julian](../../people/mentioned/RODOLPHE_JULIAN.md) [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) %%
+%% [#Julian](../../people/recurring/RODOLPHE_JULIAN.md) [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) %%
 The statue is begun on **27 February 1883**, the same week she finishes *[Jean et Jacques](./JEAN_ET_JACQUES.md)*, and in the same breath as one of her most quoted lines: «j'ai fait l'esquisse de *ma statue*… Je suis née sculpteur, j'aime la forme à l'adoration» (098.0422). Within a month two *praticiens* have built the full-scale armature (098.0551); by 28 March she is pleased with the movement — «désolé» — and that same night the whole thing falls down and has to be rebuilt (098.0610).
 
 %% GLO_DOULEUR_DE_NAUSICAA.0011 %%
@@ -100,7 +100,7 @@ The work itself:
 - [#Salon](./SALON.md) — the exhibition she raced for and missed
 - [#Art_Practice](../themes/ART_PRACTICE.md) — her working life as a whole
 - [#Saint_Marceaux](../../people/artists/SAINT_MARCEAUX.md) — the sculptor whose advice shaped it
-- [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) and [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) — her two judges
+- [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) and [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) — her two judges
 
 %% GLO_DOULEUR_DE_NAUSICAA.0018 %%
 ## Sources

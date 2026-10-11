@@ -29,7 +29,7 @@ images:
 ## Overview
 
 %% GLO_PORTRAIT_PAUL.0002 %%
-%% [#Art_practice](../themes/ART_PRACTICE.md) [#Paul](../../people/mentioned/PAUL.md) %%
+%% [#Art_practice](../themes/ART_PRACTICE.md) [#Paul](../../people/family/PAUL.md) %%
 *Portrait de son frère Paul* is Marie's portrait of her brother **Paul Bashkirtseff**, dated **1876** and held by the **Musée des Beaux-Arts Jules Chéret in Nice**. If the 1876 date is right, it is one of the earliest surviving works by her hand — painted when she was seventeen or eighteen, more than a year before she entered the Académie Julian in October 1877.
 
 %% GLO_PORTRAIT_PAUL.0003 %%
@@ -69,7 +69,7 @@ Not this work: ¶ 079.0510 (22 April 1878), "faire le portrait de Paul de Cassag
 ## Related Entries
 
 %% GLO_PORTRAIT_PAUL.0013 %%
-- [#Paul](../../people/mentioned/PAUL.md) — her brother Paul Bashkirtseff
+- [#Paul](../../people/family/PAUL.md) — her brother Paul Bashkirtseff
 - [#Portrait_belle_soeur](./PORTRAIT_BELLE_SOEUR.md) — her portrait of Paul's wife, five years later
 - [#Autoportrait_a_la_palette](./AUTOPORTRAIT_A_LA_PALETTE.md) · [#Femme_orientale](./FEMME_ORIENTALE.md) — the other Bashkirtseff paintings at Nice
 - [#Portrait](./PORTRAIT.md) · [#Art_practice](../themes/ART_PRACTICE.md)

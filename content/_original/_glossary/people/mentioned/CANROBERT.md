@@ -24,7 +24,7 @@ last_updated: 2026-10-11
 %% GLO_CANROBERT.0003 %%
 - [Marshal Canrobert](MARECHAL_CANROBERT.md) (1809–1895), Marshal of France, senator.
 - [Maréchale Canrobert](MARECHALE_CANROBERT.md) (Leïla Flora Macdonald, 1838–1889).
-- [Claire Canrobert](CLAIRE_CANROBERT.md) (born 1865), the daughter and Marie's friend.
+- [Claire Canrobert](../recurring/CLAIRE_CANROBERT.md) (born 1865), the daughter and Marie's friend.
 - **Marcel**: the elder son. Marie calls him "le frère de dix-sept ans qui est en vacances" in August 1883 (101.0240) and, in 1884, speaks of "l'air abruti de Marcel" (105.0435). He is probably Napoléon Eugène Marcelin Alfred Certain de Canrobert (1867–1921), a cavalry officer, who never married and with whom the male line of the name ended (napoleon.org, biography of Canrobert).
 - **Louis**: the younger son, "le petit Louis Canrobert qui a dix ans" in May 1883 (099.0467), eleven in August (101.0240). He comes to Marie's on his free Thursdays (102.0200, taken to the Grévin museum), receives from her an old Caucasian dagger that her mother had brought back (102.0632), makes his first communion in May 1884 (104.0179) and is "le plus gentil gamin de douze ans" in August 1884 (105.0455). Marie made a pastel portrait of him in September 1883 (101.0305, 101.0320, retouched 101.0604); it figures as "Louis de Canrobert" in the 1885 posthumous catalogue. French Wikipedia says the marshal had three children, but none of the sources found names Louis.
 
@@ -41,7 +41,7 @@ The relationship sours after the Salon of 1884 (see [#Maréchale Canrobert](MARE
 ## Note for readers of the tags
 
 %% GLO_CANROBERT.0008 %%
-This page is the collective one: use it where Marie writes "les Canrobert" and where no single member can be meant. Where she says "la petite Canrobert" or "Mlle Canrobert" she means [Claire](CLAIRE_CANROBERT.md); "le petit Canrobert" is Louis; "la maréchale" is Mme Canrobert; "le maréchal" is the Marshal.
+This page is the collective one: use it where Marie writes "les Canrobert" and where no single member can be meant. Where she says "la petite Canrobert" or "Mlle Canrobert" she means [Claire](../recurring/CLAIRE_CANROBERT.md); "le petit Canrobert" is Louis; "la maréchale" is Mme Canrobert; "le maréchal" is the Marshal.
 
 %% GLO_CANROBERT.0009 %%
 ## Sources

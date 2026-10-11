@@ -23,8 +23,8 @@ last_updated: 2026-10-10
 ## Overview
 
 %% GLO_TABLEAU_DE_CLAIRE_FLEURS.0002 %%
-%% [#Claire](../../people/mentioned/CLAIRE.md) [#Art_practice](../themes/ART_PRACTICE.md) %%
-The "marchande de fleurs à la brouette" is **not Marie's own project but a picture she painted for her friend [#Claire](../../people/mentioned/CLAIRE.md)**, who came almost daily to paint in Marie's studio in winter 1883-84 and whose family circle was that of the maréchale Canrobert (102.0618). On **17 December 1883** Marie notes that Claire "va faire un tableau, des fleurs avec une vieille marchande. Ce sera encore moi" (102.0501); on the 19th "J'ébauche le tableau de Claire, une voiture de marchande de fleurs et la marchande avec" (102.0509). On **20 January 1884**: "Je travaille au tableau de Claire et j'espère le finir en deux ou trois jours." and "La petite a peint quelques paquets de fleurs mais j'en rajouterai et repeindrai de sorte que... Le tableau représente une marchande avec sa brouette pleine de fleurs, grandeur nature S.V.P. C'est du faux naturalisme, mais qu'importe." (103.0080-0082). Claire finds it "presque fini, grand étonnement" two days later (103.0099), fiddles with the flowers on the 26th (103.0143), and on **14 February** Marie writes: "Je pleure en peignant ces odieuses fleurs. Ô lâcheté ! Ce n'est pas par amitié que je commets ce faux." (103.0333), worried by the talk of people lobbying for Salon medals. On **19 February** the picture is framed; the painter Popelin approves, "sauf la touffe de marguerites ... La seule chose que la petite a fait elle-même" (103.0347).
+%% [#Claire](../../people/recurring/CLAIRE_CANROBERT.md) [#Art_practice](../themes/ART_PRACTICE.md) %%
+The "marchande de fleurs à la brouette" is **not Marie's own project but a picture she painted for her friend [#Claire](../../people/recurring/CLAIRE_CANROBERT.md)**, who came almost daily to paint in Marie's studio in winter 1883-84 and whose family circle was that of the maréchale Canrobert (102.0618). On **17 December 1883** Marie notes that Claire "va faire un tableau, des fleurs avec une vieille marchande. Ce sera encore moi" (102.0501); on the 19th "J'ébauche le tableau de Claire, une voiture de marchande de fleurs et la marchande avec" (102.0509). On **20 January 1884**: "Je travaille au tableau de Claire et j'espère le finir en deux ou trois jours." and "La petite a peint quelques paquets de fleurs mais j'en rajouterai et repeindrai de sorte que... Le tableau représente une marchande avec sa brouette pleine de fleurs, grandeur nature S.V.P. C'est du faux naturalisme, mais qu'importe." (103.0080-0082). Claire finds it "presque fini, grand étonnement" two days later (103.0099), fiddles with the flowers on the 26th (103.0143), and on **14 February** Marie writes: "Je pleure en peignant ces odieuses fleurs. Ô lâcheté ! Ce n'est pas par amitié que je commets ce faux." (103.0333), worried by the talk of people lobbying for Salon medals. On **19 February** the picture is framed; the painter Popelin approves, "sauf la touffe de marguerites ... La seule chose que la petite a fait elle-même" (103.0347).
 
 %% GLO_TABLEAU_DE_CLAIRE_FLEURS.0003 %%
 ## Marie and this work
@@ -42,7 +42,7 @@ So the canvas is largely Marie's work, passed off as Claire's, and Marie feels i
 ## Related Entries
 
 %% GLO_TABLEAU_DE_CLAIRE_FLEURS.0008 %%
-- [#Claire](../../people/mentioned/CLAIRE.md) -- the nominal painter
+- [#Claire](../../people/recurring/CLAIRE_CANROBERT.md) -- the nominal painter
 - [#Un_meeting](./UN_MEETING.md) -- Marie's real picture of those months
 
 %% GLO_TABLEAU_DE_CLAIRE_FLEURS.0009 %%

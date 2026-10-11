@@ -57,7 +57,7 @@ She is older than the other students. Marie calls her "très mûre" in 1881 (091
 - [Salon](../../culture/art/SALON.md) -- attended together (1880, 1882)
 - [L'Atelier Julian](../../culture/art/L_ATELIER_JULIAN.md) -- the 1881 picture for which she posed
 - [Portrait of the little Maurel](../../culture/art/PORTRAIT_PETITE_MAUREL.md)
-- [Alice Brisbane](./ALICE_BRISBANE.md); [Claire](./CLAIRE.md); [Canrobert](./CANROBERT.md)
+- [Alice Brisbane](./ALICE_BRISBANE.md); [Claire](../recurring/CLAIRE_CANROBERT.md); [Canrobert](./CANROBERT.md)
 
 %% GLO_VILLEVIEILLE.0014 %%
 ## Sources

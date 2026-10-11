@@ -223,8 +223,8 @@ Paul de Cassagnac continued his political and journalistic career through the 18
 ## Related Entries
 
 %% GLO_CASSAGNAC.0057 %%
-- [#Paul_de_Cassagnac](../mentioned/PAUL_DE_CASSAGNAC.md) -- Redirect entry (full name variant)
-- [#Popaul](../mentioned/POPAUL.md) -- Redirect entry (Marie's nickname)
+- [#Paul_de_Cassagnac](CASSAGNAC.md) -- Redirect entry (full name variant)
+- [#Popaul](CASSAGNAC.md) -- Redirect entry (Marie's nickname)
 - [#Blanc](../mentioned/BLANC.md) -- Captain Blanc, Cassagnac's companion and Marie's informant
 - [#Mlle_Acard](../mentioned/MLLE_ACARD.md) -- Alexandrine Julie Acard, Cassagnac's wife
 - [#Le_Pays](../mentioned/LE_PAYS.md) -- Bonapartist newspaper Cassagnac edited

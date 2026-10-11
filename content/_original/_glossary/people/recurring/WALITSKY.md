@@ -335,7 +335,7 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 - [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) -- Social connection in Nice 1873
 - [#Grand_maman](../family/GRAND_MAMAN.md) -- Her death preceded European journey
 - [#Dina](../core/DINA.md) -- Companion; present at his death
-- [#Paul](../mentioned/PAUL.md) -- Marie's brother; Walitsky defended him physically
+- [#Paul](../family/PAUL.md) -- Marie's brother; Walitsky defended him physically
 - [#Cassagnac](./CASSAGNAC.md) -- Marie compares losses: Walitsky's death, Cassagnac's marriage
 - [#Collignon](../mentioned/COLLIGNON.md) -- His patient whose tuberculosis he correctly diagnosed
 

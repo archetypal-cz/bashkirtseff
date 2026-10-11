@@ -12,7 +12,7 @@ aliases:
   - Imbert de Saint-Amand
   - Arthur de Saint-Amand
 type: Person
-category: people/religious
+category: people/writers
 research_status: Comprehensive
 last_updated: 2026-10-11
 images:

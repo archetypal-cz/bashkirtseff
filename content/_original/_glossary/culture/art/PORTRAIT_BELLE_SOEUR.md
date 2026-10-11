@@ -32,7 +32,7 @@ images:
 ## Overview
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0002 %%
-%% [#Art_practice](../themes/ART_PRACTICE.md) [#Nini](../../people/mentioned/NINI.md) [#Paul](../../people/mentioned/PAUL.md) %%
+%% [#Art_practice](../themes/ART_PRACTICE.md) [#Nini](../../people/mentioned/NINI.md) [#Paul](../../people/family/PAUL.md) %%
 *Portrait de sa belle-sœur* (oil on canvas, 92,5 × 73 cm, 1881) is Marie's portrait of **Alexandrine Patchenko**, the wife of her brother Paul. It is in the **Rijksmuseum, Amsterdam**, inv. **SK-A-1988**, given to the museum by the artist's mother, Maria Stepanovna Bashkirtseva née Babanina, in **June 1902**. It is monogrammed "MB / 1881" at lower right and was painted in Paris.
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0003 %%
@@ -74,7 +74,7 @@ The painting is not mentioned again after January 1882; it does not reappear in 
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0014 %%
 - [#Nini](../../people/mentioned/NINI.md) — the sitter, Alexandrine Patchenko
-- [#Paul](../../people/mentioned/PAUL.md) — her husband, Marie's brother
+- [#Paul](../../people/family/PAUL.md) — her husband, Marie's brother
 - [#Portrait_Paul](./PORTRAIT_PAUL.md) — Marie's portrait of the brother, at Nice
 - [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) · [#Art_practice](../themes/ART_PRACTICE.md) · [#Portrait](./PORTRAIT.md)
 

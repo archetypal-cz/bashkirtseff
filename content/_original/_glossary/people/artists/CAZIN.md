@@ -7,7 +7,7 @@ aliases:
   - Jean Charles Cazin
   - M. Cazin
 type: Person
-category: people/mentioned
+category: people/artists
 research_status: Comprehensive
 last_updated: 2026-10-11
 images:
@@ -39,9 +39,9 @@ In August 1883 he becomes the model of what she wants to paint: "quelque chose q
 %% GLO_CAZIN.0007 %%
 ## Related entries
 - [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md)
-- [#Saint_Marceaux](../artists/SAINT_MARCEAUX.md) -- sculptor, exhibited with Bastien-Lepage and Cazin in December 1882
-- [#Millet](MILLET.md)
-- [#Petit](PETIT.md) -- the gallery of Georges Petit, rue de Sèze
+- [#Saint_Marceaux](SAINT_MARCEAUX.md) -- sculptor, exhibited with Bastien-Lepage and Cazin in December 1882
+- [#Millet](../mentioned/MILLET.md)
+- [#Petit](../mentioned/PETIT.md) -- the gallery of Georges Petit, rue de Sèze
 
 %% GLO_CAZIN.0008 %%
 ## Sources

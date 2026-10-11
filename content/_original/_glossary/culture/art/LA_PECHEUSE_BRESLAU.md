@@ -16,7 +16,7 @@ last_updated: 2026-10-10
 
 ## Overview
 
-At the Salon of 1882 [Louise Breslau](../../people/mentioned/LOUISE_BRESLAU.md) showed two paintings (livret nos. 378-379 by the sequence; the OCR of the digitised catalogue is imperfect): "*Pêcheuse guettant la marée; baie du Mont-Saint-Michel*" and a *Portrait de jeune homme*. The catalogue entry reads "BRESLAU (Mlle Louise), née à Zurich (Suisse), élève de M. Tony Robert-Fleury. Avenue des Ternes, 40". The fisherwoman is thus the picture Marie calls "une pêcheuse au bord de la mer", which she says (December 1881) Breslau painted "cet été", i.e. the summer of 1881. The catalogue places the subject in the bay of Mont-Saint-Michel, on the Normandy-Brittany border (so "painted in Brittany" is only loosely right).
+At the Salon of 1882 [Louise Breslau](../../people/artists/LOUISE_BRESLAU.md) showed two paintings (livret nos. 378-379 by the sequence; the OCR of the digitised catalogue is imperfect): "*Pêcheuse guettant la marée; baie du Mont-Saint-Michel*" and a *Portrait de jeune homme*. The catalogue entry reads "BRESLAU (Mlle Louise), née à Zurich (Suisse), élève de M. Tony Robert-Fleury. Avenue des Ternes, 40". The fisherwoman is thus the picture Marie calls "une pêcheuse au bord de la mer", which she says (December 1881) Breslau painted "cet été", i.e. the summer of 1881. The catalogue places the subject in the bay of Mont-Saint-Michel, on the Normandy-Brittany border (so "painted in Brittany" is only loosely right).
 
 **No image or current location was found**; the work does not appear in Wikimedia Commons' Breslau categories.
 

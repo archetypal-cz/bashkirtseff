@@ -54,7 +54,7 @@ Pastel on paper, 61 × 50 cm. Marie leaves no set-piece description of it in the
 ## Making of the Work
 
 %% GLO_PORTRAIT_DINA_PASTEL.0009 %%
-%% [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) %%
+%% [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) %%
 Marie had been painting Dina since 1879 — a profile in oil begun that July, shown to Julian and to Tony Robert-Fleury, and retouched over four weeks (¶¶ 085.0488, 085.0507, 085.0532, 085.0587). The great pastel belongs to the Nice and Paris campaign of spring 1882. When Julian reviewed the Nice output on 25 April 1882, his verdict on it was unqualified — "Le pastel de Dina très, très bien" (¶ 094.0442) — even as he demolished the rest of that week's painting (¶ 094.0456). Tony agreed (¶ 095.0145), Julian repeated himself on 29 May (¶ 095.0115), and on 10 June Mmes de Lambertye and Gautreau and the painter Louise Abbéma came to see it (¶ 095.0160).
 
 %% GLO_PORTRAIT_DINA_PASTEL.0010 %%
@@ -89,7 +89,7 @@ At the Salon it did better than anything else she sent. Only two pastels were re
 %% GLO_PORTRAIT_DINA_PASTEL.0016 %%
 - [#Dina](../../people/core/DINA.md) — the sitter
 - [#Question_du_divorce](./QUESTION_DU_DIVORCE.md) — the 1880 Salon debut, also with Dina as model
-- [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) · [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md)
+- [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) · [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md)
 - [#La_Parisienne](./LA_PARISIENNE.md) · [#Jean_et_Jacques](./JEAN_ET_JACQUES.md) — the two paintings she sent to the same Salon of 1883, and which did *not* take the prize
 - [#Salon](./SALON.md) · [#Medaille](./MEDAILLE.md) · [#Art_practice](../themes/ART_PRACTICE.md)
 

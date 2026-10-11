@@ -50,7 +50,7 @@ Marie had described Irma in December 1881 as the vanished "type de la grisette",
 ## Making of the Work
 
 %% GLO_LA_PARISIENNE.0008 %%
-Irma was sitting for her from **December 1881**, and the head was finished on **18 July 1882**: "Fin de la tête d'Irma" (095.0298). [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) and [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) arrived at seven that evening with great compliments -- "c'est gras, c'est souple, c'est d'un ton fin... Enfin vous êtes sortie des sécheresses. C'est reposé" (095.0299). The praise mattered: dryness was the standing charge against her painting, and this small head was the first work that answered it. She dated her subsequent decline from it: "depuis Irma j'ai pataugé dans la pluie avec le père Charles" (097.0213).
+Irma was sitting for her from **December 1881**, and the head was finished on **18 July 1882**: "Fin de la tête d'Irma" (095.0298). [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) and [Rodolphe Julian](../../people/recurring/RODOLPHE_JULIAN.md) arrived at seven that evening with great compliments -- "c'est gras, c'est souple, c'est d'un ton fin... Enfin vous êtes sortie des sécheresses. C'est reposé" (095.0299). The praise mattered: dryness was the standing charge against her painting, and this small head was the first work that answered it. She dated her subsequent decline from it: "depuis Irma j'ai pataugé dans la pluie avec le père Charles" (097.0213).
 
 %% GLO_LA_PARISIENNE.0009 %%
 %% [#Salon](./SALON.md) %%
@@ -88,7 +88,7 @@ Irma also recurs throughout the diary as a person and a working model, notably a
 - [#Art_practice](../themes/ART_PRACTICE.md) -- Marie's work as an artist
 - [#Salon](./SALON.md) -- the Salon of 1883, and the *mention honorable*
 - [#Tony_Robert_Fleury](../../people/artists/ROBERT_FLEURY.md) -- her teacher
-- [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md)
+- [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md)
 - [#Un_meeting](./UN_MEETING.md) -- the picture she later measured against it
 
 %% GLO_LA_PARISIENNE.0016 %%

@@ -24,7 +24,7 @@ last_updated: 2026-10-11
 Maria Stepanovna Babanina (1833--1920) was Marie Bashkirtseff's mother. Both dates come from encyclopaedic biographies of her daughter: English Wikipedia ("Marie Bashkirtseff") gives "Maria Stepanovna Babanina (1833--1920)", and the Russian encyclopaedia *Znanie* repeats them (article "Башкирцева, Мария Константиновна"). Kernberger (2013, Introduction) confirms 1920 as the year of her death. No source seen gives her birthplace or the exact day of her birth or death.
 
 %% GLO_MAMAN.0003 %%
-She was the elder sister of [#Ma_tante](./MA_TANTE.md) (Marie says so in 000.0011) and a daughter of the landowner Stepan Babanine ([#Grand_papa](./GRAND_PAPA.md), 1807--1878 per Kernberger, Appendix I) and Julie Cornelius ([#Grand_maman](./GRAND_MAMAN.md), who died in 1867 per Kernberger). Marie's 1884 preface presents the Babanines as "vieille noblesse de province"; the Tatar origin ("Baba-Nina sont des mots tartares") is Grand-papa's boast, not Maman's, and Marie herself shrugs at it (000.0007). The same paragraph says Maman "s'est mariée à vingt-deux ans après avoir dédaigné de très beaux partis". Her husband was [#Papa](./PAPA.md) (Constantin Bashkirtseff, 1833--1883). Their children were Marie (born 12 [24] November 1858 at Gavronzi, per English Wikipedia and *Znanie*) and [#Paul](../mentioned/PAUL.md) (b. 1859, per Kernberger).
+She was the elder sister of [#Ma_tante](./MA_TANTE.md) (Marie says so in 000.0011) and a daughter of the landowner Stepan Babanine ([#Grand_papa](./GRAND_PAPA.md), 1807--1878 per Kernberger, Appendix I) and Julie Cornelius ([#Grand_maman](./GRAND_MAMAN.md), who died in 1867 per Kernberger). Marie's 1884 preface presents the Babanines as "vieille noblesse de province"; the Tatar origin ("Baba-Nina sont des mots tartares") is Grand-papa's boast, not Maman's, and Marie herself shrugs at it (000.0007). The same paragraph says Maman "s'est mariée à vingt-deux ans après avoir dédaigné de très beaux partis". Her husband was [#Papa](./PAPA.md) (Constantin Bashkirtseff, 1833--1883). Their children were Marie (born 12 [24] November 1858 at Gavronzi, per English Wikipedia and *Znanie*) and [#Paul](PAUL.md) (b. 1859, per Kernberger).
 
 %% GLO_MAMAN.0004 %%
 The marriage broke down early. The diary never dates the separation, and the biographies disagree: English Wikipedia says Marie was twelve, which cannot be right given Marie's own memory of the custody fight when she and Paul were small children (000.0013); other accounts put the break at about 1859, two years after the wedding. Marie herself speaks of "vingt ans" of separation in 1883 and 1884 (099.0110, 106.0057), which points to about 1863. Maman went back to her parents' estate with the children, and her husband and his father, General Paul Bashkirtseff, made "cent tentatives pour ravoir maman", at one point abducting the children and hiding them at Gavronzi until Maman and her brothers took them back by force (000.0013).
@@ -70,7 +70,7 @@ Maria Bashkirtseff lived thirty-six years more. According to Kernberger (2013, I
 ## Related entries
 
 - [#Papa](./PAPA.md) -- Constantin Bashkirtseff, her husband
-- [#Paul](../mentioned/PAUL.md) -- her son
+- [#Paul](PAUL.md) -- her son
 - [#Ma_tante](./MA_TANTE.md) -- her sister Nadine Romanoff
 - [#Dina](../core/DINA.md) -- her niece, raised in her household
 - [#Grand_papa](./GRAND_PAPA.md), [#Grand_maman](./GRAND_MAMAN.md) -- her parents

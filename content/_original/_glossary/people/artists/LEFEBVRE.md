@@ -9,7 +9,7 @@ aliases:
   - Lefèbvre
   - M. Lefebvre
 type: Person
-category: people/mentioned
+category: people/artists
 research_status: Comprehensive
 last_updated: 2026-10-11
 images:
@@ -54,13 +54,13 @@ On 12 January 1884 she goes with Claire and the maréchale to the studios of Lef
 ## The Nice "Lefevre" (1873) and other homonyms
 
 %% GLO_LEFEBVRE.0012 %%
-The paragraph 004.0276 (3 May 1873: a dinner with the Anitchkoffs, "Lefevre" and Patton) is tagged to this entry but concerns an unrelated Nice acquaintance, the "vieux Lefevre" of Mme de Mouzay's circle, who has his own entry ([#Lefevre](LEFEVRE.md)). The telegrams of "Lefèbvre" after a false report of a young man's death in January 1878 (077.0181) cannot be Jules Lefebvre with certainty and may belong to the same Nice Lefevre.
+The paragraph 004.0276 (3 May 1873: a dinner with the Anitchkoffs, "Lefevre" and Patton) is tagged to this entry but concerns an unrelated Nice acquaintance, the "vieux Lefevre" of Mme de Mouzay's circle, who has his own entry ([#Lefevre](../mentioned/LEFEVRE.md)). The telegrams of "Lefèbvre" after a false report of a young man's death in January 1878 (077.0181) cannot be Jules Lefebvre with certainty and may belong to the same Nice Lefevre.
 
 %% GLO_LEFEBVRE.0013 %%
 ## Related entries
-- [#Robert_Fleury](../artists/ROBERT_FLEURY.md) -- fellow master at Julian's and the Salon jury
-- [#Tony_Robert_Fleury](TONY_ROBERT_FLEURY.md)
-- [#Julian](RODOLPHE_JULIAN.md) -- director of the school where Lefebvre taught
+- [#Robert_Fleury](ROBERT_FLEURY.md) -- fellow master at Julian's and the Salon jury
+- [#Tony_Robert_Fleury](../mentioned/TONY_ROBERT_FLEURY.md)
+- [#Julian](../recurring/RODOLPHE_JULIAN.md) -- director of the school where Lefebvre taught
 - [#Cabanel](CABANEL.md), [#Bouguereau](../../culture/history/BOUGUEREAU.md)
 - [#Salon](../../culture/art/SALON.md)
 

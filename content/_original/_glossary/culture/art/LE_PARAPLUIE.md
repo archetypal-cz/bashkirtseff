@@ -43,7 +43,7 @@ A ragged girl stands in the rain under an open umbrella, an old black skirt pull
 ## Making of the Work
 
 %% GLO_LE_PARAPLUIE.0007 %%
-It was painted outdoors in bad weather, with a child model who would not hold still. The diary of 30 August 1882 records the interruptions in sequence -- the upholsterer, a downpour, "c'est la petite qui ne pose pas du tout", a visit from Félix -- and her own summary of the working method it forced on her: "Je commence, je lâche, je recommence" (096.0164, 096.0167). Painting in the rain was not an affectation: Marie had by then committed herself to plein-air naturalism, and she was already ill. On 14 September [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) went through the canvases she brought back to Paris and was pleased with them -- "Et puis la petite avec le parapluie" (096.0239).
+It was painted outdoors in bad weather, with a child model who would not hold still. The diary of 30 August 1882 records the interruptions in sequence -- the upholsterer, a downpour, "c'est la petite qui ne pose pas du tout", a visit from Félix -- and her own summary of the working method it forced on her: "Je commence, je lâche, je recommence" (096.0164, 096.0167). Painting in the rain was not an affectation: Marie had by then committed herself to plein-air naturalism, and she was already ill. On 14 September [Rodolphe Julian](../../people/recurring/RODOLPHE_JULIAN.md) went through the canvases she brought back to Paris and was pleased with them -- "Et puis la petite avec le parapluie" (096.0239).
 
 %% GLO_LE_PARAPLUIE.0008 %%
 ## References in Diary
@@ -61,7 +61,7 @@ The diary trail is short: unlike *[Un meeting](./UN_MEETING.md)* or *[La Rue](./
 
 %% GLO_LE_PARAPLUIE.0012 %%
 - [#Art_practice](../themes/ART_PRACTICE.md) -- Marie's work as an artist, and what became of it
-- [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) -- who judged the summer's work
+- [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) -- who judged the summer's work
 - [#Un_meeting](./UN_MEETING.md) -- the street children of two years later
 - [#La_Parisienne](./LA_PARISIENNE.md) -- the head painted the month before
 

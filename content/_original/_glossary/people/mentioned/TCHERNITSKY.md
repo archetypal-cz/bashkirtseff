@@ -43,7 +43,7 @@ Marie never warms to her. Her verdicts run from "bête" ("stupid", 089.0365, Aug
 **As model.** In August 1881 Marie tries to use her as a model; "she wants it with all her heart, to have a painting to hang at home, but poses badly" (092.0415-0418, 15-16 August), and on 23 August "la Cerny poses, and so badly! She is not as stupid as one thinks but... something is missing in her brain" (093.0014). On 28 August 1882 she sketches her while she reads in a corner (096.0139).
 
 %% GLO_TCHERNITSKY.0008 %%
-**In the circle.** She dines often: with [Saint-Amand](../religious/SAINT_AMAND.md) in October-November 1880 (090.0167, 090.0198), with the Engelhardts, the pope, Bojidar and [Tchoumakoff](../doctors/TCHOUMAKOFF.md) in 1882-84. On 6 January 1881 Marie takes her to the board meeting of the future newspaper *La Citoyenne* (090.0544). On 24 April 1881 she is at the house with the princess Karageorgevitch and Engelhardt (091.0522). A soirée on 25 May 1880 is summed up by Marie as "the Russian colony: the Engelhardt son and la Cernitsky" (quoted in [Paris](../../places/cities/PARIS.md)). In April 1882 Marie learns from her and her dressmaker a story that Marie was "abducted" in Nice (094.0465). In 1883 she is one of the few at the church service after the death of Marie's father (100.0141, 13 June); on 15 August she tells Marie that she met Bastien-Lepage that morning (101.0125); and on 18 August Marie praises Cazin to tease her (101.0171). On 28 February 1884 her presence is the only thing that keeps Marie from "saying Jules all the time" (103.0422).
+**In the circle.** She dines often: with [Saint-Amand](../writers/SAINT_AMAND.md) in October-November 1880 (090.0167, 090.0198), with the Engelhardts, the pope, Bojidar and [Tchoumakoff](../artists/TCHOUMAKOFF.md) in 1882-84. On 6 January 1881 Marie takes her to the board meeting of the future newspaper *La Citoyenne* (090.0544). On 24 April 1881 she is at the house with the princess Karageorgevitch and Engelhardt (091.0522). A soirée on 25 May 1880 is summed up by Marie as "the Russian colony: the Engelhardt son and la Cernitsky" (quoted in [Paris](../../places/cities/PARIS.md)). In April 1882 Marie learns from her and her dressmaker a story that Marie was "abducted" in Nice (094.0465). In 1883 she is one of the few at the church service after the death of Marie's father (100.0141, 13 June); on 15 August she tells Marie that she met Bastien-Lepage that morning (101.0125); and on 18 August Marie praises Cazin to tease her (101.0171). On 28 February 1884 her presence is the only thing that keeps Marie from "saying Jules all the time" (103.0422).
 
 %% GLO_TCHERNITSKY.0009 %%
 ## Related entries
@@ -52,7 +52,7 @@ Marie never warms to her. Her verdicts run from "bête" ("stupid", 089.0365, Aug
 - [Basilewsky](./BASILEWSKY.md)
 - [Engelhardt](./ENGELHARDT.md)
 - [Le pope](./POPE.md)
-- [Saint-Amand](../religious/SAINT_AMAND.md)
+- [Saint-Amand](../writers/SAINT_AMAND.md)
 - [Bagnitsky](./BAGNITSKY.md)
 
 %% GLO_TCHERNITSKY.0011 %%

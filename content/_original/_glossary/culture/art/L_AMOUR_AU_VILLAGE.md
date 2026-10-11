@@ -38,7 +38,7 @@ Her doubts grew sharper in the following weeks: the Bois is « si vert que c'est
 ## Related
 
 %% GLO_L_AMOUR_AU_VILLAGE.0007 %%
-See [Jeanne d'Arc (Bastien-Lepage)](./JEANNE_D_ARC_BASTIEN_LEPAGE.md), [Le Soir au village](./LE_SOIR_AU_VILLAGE.md); the brother is [Émile Bastien-Lepage](../../people/mentioned/EMILE_BASTIEN_LEPAGE.md); the embroiderer is [Dina](../../people/core/DINA.md).
+See [Jeanne d'Arc (Bastien-Lepage)](./JEANNE_D_ARC_BASTIEN_LEPAGE.md), [Le Soir au village](./LE_SOIR_AU_VILLAGE.md); the brother is [Émile Bastien-Lepage](../../people/recurring/EMILE_BASTIEN_LEPAGE.md); the embroiderer is [Dina](../../people/core/DINA.md).
 
 %% GLO_L_AMOUR_AU_VILLAGE.9000 %%
 %% 2026-10-10T20:00:00 RSR: Created batch 07. Per English Wikipedia 'Village Love' (Pushkin Museum, 194 x 180 cm; Tretyakov 1885). Date 1882 vs 1883 disputed in sources. Image: Commons scan from Art Renewal Center, PD-old (public domain). The 'Wolff/Cazin' comparisons not needed here. %%

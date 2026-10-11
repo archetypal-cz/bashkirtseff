@@ -26,7 +26,7 @@ last_updated: 2026-05-24
 ## Overview
 
 %% GLO_JULIAN.0004 %%
-The Académie Julian was a private art school in Paris, founded in 1868 by [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) (1839-1907). It was the single most important institution in Marie Bashkirtseff's life after 1877 -- her workplace, her community, her proving ground, and by her own account her refuge: "Heureusement il y a l'atelier. Avec l'atelier je n'ai peur de rien" -- "Fortunately there is the atelier. With the atelier I fear nothing" (January 23, 1878).
+The Académie Julian was a private art school in Paris, founded in 1868 by [Rodolphe Julian](../../people/recurring/RODOLPHE_JULIAN.md) (1839-1907). It was the single most important institution in Marie Bashkirtseff's life after 1877 -- her workplace, her community, her proving ground, and by her own account her refuge: "Heureusement il y a l'atelier. Avec l'atelier je n'ai peur de rien" -- "Fortunately there is the atelier. With the atelier I fear nothing" (January 23, 1878).
 
 %% GLO_JULIAN.0005 %%
 Unlike the state-run [École des Beaux-Arts](https://en.wikipedia.org/wiki/%C3%89cole_des_Beaux-Arts), which excluded women entirely until 1897 and required a French-language entrance examination that deterred many foreigners, the Académie Julian admitted anyone who could pay the fees. This made it the most important venue for serious art training for two groups: women and foreign students. By 1885 the women's section alone had 400 students; by 1889, 600, drawn from over 50 nationalities.
@@ -210,7 +210,7 @@ Even as tuberculosis advanced, art remained her anchor. She continued attending 
 ### Marie's Fellow Students
 
 %% GLO_JULIAN.0058 %%
-- **[Louise Catherine Breslau](https://en.wikipedia.org/wiki/Louise_Catherine_Breslau)** (1856-1927): Marie's chief rival. German-born, Swiss-raised, four years older. Consistently placed first where Marie placed second. Marie acknowledged her talent with grudging admiration -- "her work has nothing feminine, banal, or misshapen" (November 22, 1878) -- while resenting her success. Breslau went on to become the first foreign woman artist to receive the Légion d'honneur. See [#Louise_Breslau](../../people/mentioned/LOUISE_BRESLAU.md).
+- **[Louise Catherine Breslau](https://en.wikipedia.org/wiki/Louise_Catherine_Breslau)** (1856-1927): Marie's chief rival. German-born, Swiss-raised, four years older. Consistently placed first where Marie placed second. Marie acknowledged her talent with grudging admiration -- "her work has nothing feminine, banal, or misshapen" (November 22, 1878) -- while resenting her success. Breslau went on to become the first foreign woman artist to receive the Légion d'honneur. See [#Louise_Breslau](../../people/artists/LOUISE_BRESLAU.md).
 - **[Amélie Beaury-Saurel](https://en.wikipedia.org/wiki/Am%C3%A9lie_Beaury-Saurel)** (1848-1924): Fellow student who became *massière*, then instructor, then Julian's wife (1895). Won the first prize in an inter-atelier concours in 1883 (beating Marie). Marie noted her jealousy: "Amélie me mangerait" -- "Amélie would eat me alive" (January 2, 1878).
 - **[Anna Bilińska-Bohdanowicz](https://en.wikipedia.org/wiki/Anna_Bili%C5%84ska-Bohdanowicz)** (1857-1893): Polish painter, another notable student from the same period.
 - **"Les Suissesses"**: Marie's name for the Swiss students who formed her closest circle: Breslau, [Sophie Schaeppi](https://en.wikipedia.org/wiki/Sophie_Schaeppi), Zeller, and Forchhammer (nicknamed "l'agneau" -- "the lamb" -- for her meekness).
@@ -256,9 +256,9 @@ The Académie Julian operated continuously from 1868 until 1968, when it was int
 ## Related Entries
 
 %% GLO_JULIAN.0067 %%
-- [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) -- The founder
+- [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) -- The founder
 - [#Robert_Fleury](../../people/artists/ROBERT_FLEURY.md) -- Principal visiting professor
-- [#Louise_Breslau](../../people/mentioned/LOUISE_BRESLAU.md) -- Marie's chief rival
+- [#Louise_Breslau](../../people/artists/LOUISE_BRESLAU.md) -- Marie's chief rival
 - [#Amelie](../../people/mentioned/AMELIE.md) -- Fellow student, later Mme Julian
 - [#Art_practice](../../culture/themes/ART_PRACTICE.md) -- Thematic entry on Marie's artistic development
 - [#Salon](../../culture/art/SALON.md) -- The annual Paris exhibition

@@ -28,7 +28,7 @@ Bagnitsky was a Russian journalist in Paris in 1883-84, a correspondent of the S
 **The article.** The piece appeared in early July: on 3 July Marie finds it very good but embarrassing, since it gives her age as nineteen (she was twenty-four), while expecting "very great" effect in Russia (100.0278). On 10 July it has been reprinted in a Russian paper called *Le Sud* (100.0300), and on 13 July "in all the Russian papers" (100.0328). Months later Bagnitsky also writes about the studio of [Julian](../../places/schools/JULIAN.md) in the same paper; Marie invites Julian to dine with him on 2 October (101.0485), and on 3 October they take Bagnitsky to the Salon and to Julian's studio, but he "will not let himself be enrolled among Bastien's worshippers" (101.0492).
 
 %% GLO_BAGNITSKY.0006 %%
-**A regular guest.** From July 1883 to September 1884 he is one of the Russian circle that comes to dine with the Bashkirtseffs, with the priest ([le pope](./POPE.md)), Dr [Tchoumakoff](../doctors/TCHOUMAKOFF.md), the Engelhardts and [Tchernitsky](./TCHERNITSKY.md): 15 July 1883 (100.0357), 12 September, when Marie finds the Russians' talk all gossip and rents and servants (101.0331), 18 and 29 October (102.0026, 102.0082), 18 November, when she wants to convert him to the cult of Bastien-Lepage (102.0264), 24 December (102.0570), 10 January 1884, the day she finishes the head of the little Randouin (102.0668), 1 March (103.0448), 19 March (103.0554), 20 April (104.0022), 18 June (104.0601) and, last, 5 September 1884 (105.0750).
+**A regular guest.** From July 1883 to September 1884 he is one of the Russian circle that comes to dine with the Bashkirtseffs, with the priest ([le pope](./POPE.md)), Dr [Tchoumakoff](../artists/TCHOUMAKOFF.md), the Engelhardts and [Tchernitsky](./TCHERNITSKY.md): 15 July 1883 (100.0357), 12 September, when Marie finds the Russians' talk all gossip and rents and servants (101.0331), 18 and 29 October (102.0026, 102.0082), 18 November, when she wants to convert him to the cult of Bastien-Lepage (102.0264), 24 December (102.0570), 10 January 1884, the day she finishes the head of the little Randouin (102.0668), 1 March (103.0448), 19 March (103.0554), 20 April (104.0022), 18 June (104.0601) and, last, 5 September 1884 (105.0750).
 
 %% GLO_BAGNITSKY.0007 %%
 **The spring of 1884.** On 19 March 1884 Marie reports, in the same line as a dinner with Bagnitsky, that she has been unanimously elected at the Cercle des artistes russes (103.0554). On 18 May, after the Salon has opened, Bagnitsky repeats what an unnamed artist said at the painter Bogoluboff's: "There is a very good Bastien-Lepage, signed Bashkirtseff" (104.0222). Marie fears it will compromise Jules Bastien-Lepage and seem imitation; Bagnitsky and Émile Bastien-Lepage comfort her "like a child" and end by kissing her hands (104.0227). That night, after Mme Gaillard's tactless talk of Jules's illness, Dina keeps Émile and Bagnitsky late, hoping it will be too late for "explanations in the family"; it is not, and Marie has her say to the household between two and three in the morning (104.0237).
@@ -39,9 +39,9 @@ Bagnitsky was a Russian journalist in Paris in 1883-84, a correspondent of the S
 %% GLO_BAGNITSKY.0009 %%
 - [Novoic Vremia](./NOVOIC_VREMIA.md)
 - [Julian](../../places/schools/JULIAN.md)
-- [Jules Bastien-Lepage](../recurring/BASTIEN_LEPAGE.md) and [Émile Bastien-Lepage](./EMILE_BASTIEN_LEPAGE.md)
+- [Jules Bastien-Lepage](../recurring/BASTIEN_LEPAGE.md) and [Émile Bastien-Lepage](../recurring/EMILE_BASTIEN_LEPAGE.md)
 - [Un meeting](../../culture/art/UN_MEETING.md)
-- [Engelhardt](./ENGELHARDT.md), [Tchoumakoff](../doctors/TCHOUMAKOFF.md), [le pope](./POPE.md)
+- [Engelhardt](./ENGELHARDT.md), [Tchoumakoff](../artists/TCHOUMAKOFF.md), [le pope](./POPE.md)
 
 %% GLO_BAGNITSKY.0010 %%
 ## Sources

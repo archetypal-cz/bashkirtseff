@@ -32,7 +32,7 @@ One of Paul's inappropriate adult companions who takes him to the casino.
 - One of the "hommes de trente ans" Paul associates with
 
 ## Related Entries
-- [#Paul](PAUL.md) - Marie's corrupted brother
+- [#Paul](../family/PAUL.md) - Marie's corrupted brother
 - [#Monte_Carlo](../../places/theaters/MONTE_CARLO.md) - Casino destination
 - [#Adam](ADAM.md) - Another corrupting influence
 

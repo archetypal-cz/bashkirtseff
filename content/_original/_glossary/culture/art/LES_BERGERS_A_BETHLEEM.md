@@ -19,7 +19,7 @@ last_updated: 2026-10-10
 ## Overview
 
 %% GLO_LES_BERGERS_A_BETHLEEM.0002 %%
-*Les Bergers à Bethléem* is a **project**, not a finished picture: a Nativity-night subject (the shepherds and the star) that [Jules Bastien-Lepage](../../people/recurring/BASTIEN_LEPAGE.md) was planning in the winter of 1883-84, and which Marie knew only through his brother [Émile Bastien-Lepage](../../people/mentioned/EMILE_BASTIEN_LEPAGE.md), the architect. Bastien-Lepage died on 10 December 1884 without painting it; there is no work to illustrate, so this entry carries no image.
+*Les Bergers à Bethléem* is a **project**, not a finished picture: a Nativity-night subject (the shepherds and the star) that [Jules Bastien-Lepage](../../people/recurring/BASTIEN_LEPAGE.md) was planning in the winter of 1883-84, and which Marie knew only through his brother [Émile Bastien-Lepage](../../people/recurring/EMILE_BASTIEN_LEPAGE.md), the architect. Bastien-Lepage died on 10 December 1884 without painting it; there is no work to illustrate, so this entry carries no image.
 
 %% GLO_LES_BERGERS_A_BETHLEEM.0003 %%
 The subject was not new to him: in 1875 his *Annonciation aux bergers* (« Angels appearing to the Shepherds ») won him second place in the Prix de Rome competition. (Source: English and French Wikipedia, « Jules Bastien-Lepage ».) Whether the project of 1884 reworked that earlier picture is not stated in the diary or in the sources consulted.

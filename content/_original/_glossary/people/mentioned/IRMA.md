@@ -56,7 +56,7 @@ Marie's portrait of her in December 1881 is the fullest description: "Irma n'est
 ## Related entries
 
 %% GLO_IRMA.0012 %%
-- [#Julian](./RODOLPHE_JULIAN.md) -- the Académie Julian, where she modelled
+- [#Julian](../recurring/RODOLPHE_JULIAN.md) -- the Académie Julian, where she modelled
 - [#Rosalie](./ROSALIE.md) -- Marie's maid, who fetched models
 
 %% GLO_IRMA.0013 %%

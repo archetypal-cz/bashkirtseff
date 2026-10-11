@@ -31,7 +31,7 @@ Russian man who appears to be inappropriately attached to Paul, Marie's 14-year-
 - Part of Paul's concerning social circle
 
 ## Related Entries
-- [#Paul](PAUL.md) - Marie's brother
+- [#Paul](../family/PAUL.md) - Marie's brother
 - [#Dina](../core/DINA.md) - Sister
 - [#Walitsky](../recurring/WALITSKY.md) - Family friend
 

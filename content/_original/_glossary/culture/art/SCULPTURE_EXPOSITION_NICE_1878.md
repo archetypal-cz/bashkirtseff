@@ -23,7 +23,7 @@ last_updated: 2026-10-10
 ## Overview
 
 %% GLO_SCULPTURE_EXPOSITION_NICE_1878.0002 %%
-In December 1877 and January 1878 Marie, then three months into her work at the Académie Julian, arranged with [Julian](../../people/mentioned/RODOLPHE_JULIAN.md) to have a piece of sculpture shown at the **art exhibition opening at Nice on 15 January 1878**. The diary calls it first "un groupe de sculpture" (076.0433) and later, when it arrives, "le buste que je dois exposer" (077.0202). Whether these are one object whose scale changed or two projects, whether she modelled it, and whether it was exhibited are all unanswered in the paragraphs the project has checked. Nothing survives or is reproduced.
+In December 1877 and January 1878 Marie, then three months into her work at the Académie Julian, arranged with [Julian](../../people/recurring/RODOLPHE_JULIAN.md) to have a piece of sculpture shown at the **art exhibition opening at Nice on 15 January 1878**. The diary calls it first "un groupe de sculpture" (076.0433) and later, when it arrives, "le buste que je dois exposer" (077.0202). Whether these are one object whose scale changed or two projects, whether she modelled it, and whether it was exhibited are all unanswered in the paragraphs the project has checked. Nothing survives or is reproduced.
 
 %% GLO_SCULPTURE_EXPOSITION_NICE_1878.0003 %%
 ## Marie and this work
@@ -54,7 +54,7 @@ On Christmas Day 1877 (077.0022): "Julian est monté et nous avons arrêté les 
 ## Related Entries
 
 %% GLO_SCULPTURE_EXPOSITION_NICE_1878.0011 %%
-- [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) -- the confidant
+- [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) -- the confidant
 - [#Aspremont](../../people/mentioned/ASPREMONT.md) -- president of the exhibition
 - [#Exposition_de_Nice](../../people/mentioned/EXPOSITION_DE_NICE.md) -- the exhibition
 - [#Sculpture](./SCULPTURE.md) and [#Douleur_de_Nausicaa](./DOULEUR_DE_NAUSICAA.md) -- her later, real sculpture

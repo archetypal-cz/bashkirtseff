@@ -10,7 +10,7 @@ aliases:
   - Théodore Tchoumakoff
   - Fedor Tchoumakoff
 type: Person
-category: people/doctors
+category: people/artists
 research_status: Moderate
 last_updated: 2026-10-11
 images:

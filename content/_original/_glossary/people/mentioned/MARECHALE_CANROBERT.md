@@ -21,7 +21,7 @@ last_updated: 2026-10-11
 ## Who she was
 
 %% GLO_MARECHALE_CANROBERT.0002 %%
-Leïla Flora Macdonald was born on 29 June 1838 at Sultanpore in British India, the daughter of Allen-Ronald Macdonald and Éliza-Anna Smith. On 19 January 1863, in Paris (8th arrondissement), she married [Marshal Canrobert](MARECHAL_CANROBERT.md), twenty-nine years her senior. She died at Jouy-en-Josas on 5 August 1889 (napoleon.org, biography of Canrobert). Her children were [Claire](CLAIRE_CANROBERT.md) (born 1865), Marcelin (1867–1921) and, from Marie's diary, a younger son Louis; see [the Canrobert family](CANROBERT.md).
+Leïla Flora Macdonald was born on 29 June 1838 at Sultanpore in British India, the daughter of Allen-Ronald Macdonald and Éliza-Anna Smith. On 19 January 1863, in Paris (8th arrondissement), she married [Marshal Canrobert](MARECHAL_CANROBERT.md), twenty-nine years her senior. She died at Jouy-en-Josas on 5 August 1889 (napoleon.org, biography of Canrobert). Her children were [Claire](../recurring/CLAIRE_CANROBERT.md) (born 1865), Marcelin (1867–1921) and, from Marie's diary, a younger son Louis; see [the Canrobert family](CANROBERT.md).
 
 %% GLO_MARECHALE_CANROBERT.0003 %%
 Marie calls her "la maréchale" or "Mme Canrobert". She sees her as English in everything but residence: of the house at Jouy she says it was fitted up "avec le génie anglais du confort" (100.0294), and in her last, irritated entry on the family she calls her "cette maréchale si anglaisement admirable" (105.0453). The Marshal's wife appears as a hostess with a country house and as the manager of her daughter's artistic education.
@@ -54,7 +54,7 @@ In the spring the Maréchale becomes Marie's sponsor in society. On the evening 
 
 %% GLO_MARECHALE_CANROBERT.0013 %%
 - [Marshal Canrobert](MARECHAL_CANROBERT.md): her husband.
-- [Claire Canrobert](CLAIRE_CANROBERT.md): her daughter.
+- [Claire Canrobert](../recurring/CLAIRE_CANROBERT.md): her daughter.
 - [The Canrobert family](CANROBERT.md).
 - [#Claire's flower-seller picture](../../culture/art/TABLEAU_DE_CLAIRE_FLEURS.md): the picture Marie painted for her daughter in winter 1883–84.
 

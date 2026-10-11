@@ -190,7 +190,7 @@ The *concours* (competitions) at the Academie Julian were the weekly measure of 
 Marie's chief rival at the Academie Julian and one of the few women she considered a genuine artistic equal. [Breslau](https://en.wikipedia.org/wiki/Louise_Catherine_Breslau) was German-born, Swiss-raised, and four years older than Marie. She consistently placed first in the concours where Marie placed second. The rivalry was intensely personal: Marie acknowledged Breslau's talent with grudging admiration -- "her work has nothing feminine, banal, or misshapen" (November 22, 1878) -- while resenting her success. Territorial disputes over seating in the atelier escalated to near-quarrels: "I nearly quarreled with Breslau who with very ugly indelicacy had taken my place on a wretched pretext" (January 8, 1878).
 
 %% GLO_ART_PRACTICE.0045 %%
-Yet the rivalry was also a bond. At New Year's Eve 1877, when the students told fortunes, the predictions revealed the atelier hierarchy clearly: "Breslau will have crowns, and I the Prix de Rome" -- only the two best students were predicted success. Breslau went on to become the first foreign woman artist to receive France's [Legion of Honor](https://en.wikipedia.org/wiki/Legion_of_Honour), and a lifelong artist of considerable reputation. Marie nicknamed the group of Swiss students at Julian's "les Suissesses" -- Breslau, Sophie Schaeppi, Zeller, and Forchhammer. See [#Louise_Breslau](../../people/mentioned/LOUISE_BRESLAU.md).
+Yet the rivalry was also a bond. At New Year's Eve 1877, when the students told fortunes, the predictions revealed the atelier hierarchy clearly: "Breslau will have crowns, and I the Prix de Rome" -- only the two best students were predicted success. Breslau went on to become the first foreign woman artist to receive France's [Legion of Honor](https://en.wikipedia.org/wiki/Legion_of_Honour), and a lifelong artist of considerable reputation. Marie nicknamed the group of Swiss students at Julian's "les Suissesses" -- Breslau, Sophie Schaeppi, Zeller, and Forchhammer. See [#Louise_Breslau](../../people/artists/LOUISE_BRESLAU.md).
 
 %% GLO_ART_PRACTICE.0046 %%
 ## Marie's Artistic Philosophy
@@ -331,7 +331,7 @@ Both Marie and her artistic idol Bastien-Lepage died in the same year, 1884 -- s
 - [#Marie_Bashkirtseff_Works](../art/MARIE_BASHKIRTSEFF_WORKS.md) -- gallery of her surviving and lost works
 - [#Academie_Julian](../../places/schools/JULIAN.md) -- the school
 - [#Robert_Fleury](../../people/artists/ROBERT_FLEURY.md) -- her principal teacher
-- [#Louise_Breslau](../../people/mentioned/LOUISE_BRESLAU.md) -- her chief rival
+- [#Louise_Breslau](../../people/artists/LOUISE_BRESLAU.md) -- her chief rival
 - [#Salon](../art/SALON.md) -- the annual exhibition
 - [#Women](WOMEN.md) -- Marie's feminist advocacy and the barriers facing women artists
 - [#Marie_Bashkirtseff](../../people/family/MARIE_BASHKIRTSEFF.md) -- the main biographical entry

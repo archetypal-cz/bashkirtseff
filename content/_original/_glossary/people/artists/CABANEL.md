@@ -6,7 +6,7 @@ aliases:
   - Alexandre Cabanel
   - M. Cabanel
 type: Person
-category: people/mentioned
+category: people/artists
 research_status: Comprehensive
 last_updated: 2026-10-11
 images:

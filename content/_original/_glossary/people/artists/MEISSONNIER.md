@@ -8,7 +8,7 @@ aliases:
   - Jean-Louis-Ernest Meissonier
   - M. Meissonnier
 type: Person
-category: people/mentioned
+category: people/artists
 research_status: Comprehensive
 last_updated: 2026-10-11
 images:
@@ -44,7 +44,7 @@ On 11 July 1884 she records that she attacked him in conversation and the other 
 ## Related entries
 - [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) -- Marie's standard against which she measures Meissonier
 - [#Cabanel](CABANEL.md) -- the other academic painter she pairs with him
-- [#Mme_Mackay](MME_MACKAY.md) -- the sitter of the portrait quarrel
+- [#Mme_Mackay](../mentioned/MME_MACKAY.md) -- the sitter of the portrait quarrel
 - [#Salon](../../culture/art/SALON.md)
 
 %% GLO_MEISSONNIER.0009 %%
