@@ -2122,3 +2122,8 @@ These override older per-carnet entries below where they conflict.
 - **Saint-Marceaux's *Arlequin*** (statue): „Harlekýn“ (Harlekýna, Harlekýnovi). 099 had „Arlekýn“ (non-standard; SSČ/IJP list only „harlekýn“), aligned. cz/088 still has one „Arlekýn“ (not reviewed).
 - **«coup de massue»**: „rána palicí“ (101.0139, echoed in 102.0152); not „rána kyjem“.
 - Open: the Czech declension of *Saint-Marceaux* is split in 090–106 (Saint-Marceaua 14, Saint-Marceauxe 10, Saint-Marceauovi 3 vs Saint-Marceauxovi 5, Saint-Marceauxem 3, Saint-Marceauxa 1); not aligned here.
+
+## OWNER rulings 2026-10-11 (OPEN-ITEMS A-59, items 1–2) — LOCKED
+
+- **«un âne bâté»** (088.0711 and elsewhere): „osel osedlaný“ stays — the lock holds against FAB's «korunovaný osel» proposal.
+- **«fille majeure»** (104.0620, 105.0372): „plnoletá dívka“ is fine — no change to „stará panna“.
