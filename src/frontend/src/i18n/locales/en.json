@@ -551,7 +551,10 @@
       "factual_error": "What is the correct information?",
       "typo": "Where is the typo?",
       "other": "Describe the issue..."
-    }
+    },
+    "reportPage": "Report an issue with this page",
+    "signInToReportPage": "Sign in to report an issue with this page",
+    "pageDescription": "Help improve this glossary page: report a factual error, a wrong identification, a typo or anything else that seems wrong."
   },
   "welcome": {
     "pageTitle": "Welcome — Diary of Marie Bashkirtseff",

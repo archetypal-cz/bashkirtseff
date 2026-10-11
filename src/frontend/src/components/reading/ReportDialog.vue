@@ -14,6 +14,12 @@ const auth = useAuthStore();
 const props = defineProps<{
   paragraphId: string;
   language: string;
+  /** Reasons offered; defaults to the diary-paragraph list */
+  reasons?: ReportReason[];
+  /** Header label; defaults to the paragraph ID */
+  label?: string;
+  /** Intro text; defaults to report.description (paragraph wording) */
+  description?: string;
 }>();
 
 const emit = defineEmits<{
@@ -32,7 +38,7 @@ const error = ref('');
 // Set on mount: navigator is client-only
 const apple = ref(false);
 
-const reasons: ReportReason[] = [
+const DEFAULT_REASONS: ReportReason[] = [
   'bad_translation',
   // Owner ruling 2026-10-03: a missing glossary tag is a common report, listed prominently
   'missing_tag',
@@ -43,6 +49,7 @@ const reasons: ReportReason[] = [
   'typo',
   'other',
 ];
+const reasons = computed(() => props.reasons ?? DEFAULT_REASONS);
 
 const canSubmit = computed(() => {
   if (!selectedReason.value) return false;
@@ -149,7 +156,7 @@ defineExpose({ open });
           <!-- Header -->
           <div class="sheet-header">
             <span class="sheet-header__title">{{ t('report.title') }}</span>
-            <span class="sheet-header__id">{{ paragraphId }}</span>
+            <span class="sheet-header__id">{{ label ?? paragraphId }}</span>
           </div>
 
           <!-- Success state -->
@@ -163,7 +170,7 @@ defineExpose({ open });
 
           <!-- Report form -->
           <div v-else class="report-form">
-            <p class="report-form__desc">{{ t('report.description') }}</p>
+            <p class="report-form__desc">{{ description ?? t('report.description') }}</p>
 
             <!-- Highlighted text from selection -->
             <div v-if="highlightedText" class="report-selection">

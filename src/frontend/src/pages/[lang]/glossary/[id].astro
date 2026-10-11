@@ -4,6 +4,7 @@ import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
 import GlossaryFigure from '../../../components/glossary/GlossaryFigure.astro';
 import MarieWorksGallery from '../../../components/glossary/MarieWorksGallery.astro';
+import GlossaryReportButton from '../../../components/glossary/GlossaryReportButton.vue';
 import { getMergedGlossaryEntries, getGlossaryEntry, getGlossaryEntryWithFallback, buildGlossaryUsageCounts, stripGlossaryComments, renderGlossaryBlocks } from '../../../lib/content';
 import { linkifyParagraphRefs } from '../../../lib/paragraph-refs';
 import { DIARY_LANGUAGES, diarySeoLinks, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
@@ -262,6 +263,15 @@ const description = descSource.length > 160
           </ul>
         </nav>
       )}
+
+      {/* One report per page (not per paragraph): reports keyed glossary:<ID> */}
+      <GlossaryReportButton
+        client:idle
+        entryId={entry.id}
+        entryName={displayName}
+        pageLocale={lang.uiLocale}
+        {...(lang.isTranslation ? { language: lang.urlPath } : {})}
+      />
     </header>
 
     {/* Render with paragraph clusters if available */}
@@ -294,6 +304,8 @@ const description = descSource.length > 160
                 client:visible
                 paragraphId={paragraph.id}
                 glossaryTags={paragraph.glossaryTags}
+                reportable={false}
+                pageLocale={lang.uiLocale}
                 {...(lang.isTranslation ? { language: lang.urlPath } : {})}
               />
             </div>

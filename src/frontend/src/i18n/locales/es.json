@@ -552,7 +552,10 @@
       "factual_error": "¿Cuál es la información correcta?",
       "typo": "¿Dónde está la errata?",
       "other": "Describe el problema..."
-    }
+    },
+    "reportPage": "Informar de un problema en esta página",
+    "signInToReportPage": "Inicia sesión para informar de un problema en esta página",
+    "pageDescription": "Ayúdanos a mejorar esta página del glosario: informa de un error factual, una identificación equivocada, una errata o cualquier otra cosa que no parezca correcta."
   },
   "welcome": {
     "pageTitle": "Bienvenida — Diario de Marie Bashkirtseff",

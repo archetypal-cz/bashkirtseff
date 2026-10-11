@@ -552,7 +552,10 @@
       "factual_error": "Quelle est l'information correcte ?",
       "typo": "Où est la faute de frappe ?",
       "other": "Décrivez le problème..."
-    }
+    },
+    "reportPage": "Signaler un problème sur cette page",
+    "signInToReportPage": "Connectez-vous pour signaler un problème sur cette page",
+    "pageDescription": "Aidez-nous à améliorer cette page du glossaire : signalez une erreur factuelle, une identification erronée, une coquille ou tout autre problème."
   },
   "welcome": {
     "pageTitle": "Bienvenue — Journal de Marie Bashkirtseff",

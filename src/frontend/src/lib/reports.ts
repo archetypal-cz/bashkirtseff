@@ -7,6 +7,7 @@
 // Usage:
 //   import { submitReport } from '../lib/reports';
 //   await submitReport({ paragraphId: '008.0145', language: 'cz', reason: 'typo' }, token);
+//   Glossary pages report per page: paragraphId `glossary:ARSON`.
 
 const API_URL = import.meta.env.PUBLIC_API_URL || 'https://api.bashkirtseff.org';
 
@@ -23,6 +24,9 @@ export type ReportReason =
   | 'factual_error'
   | 'typo'
   | 'other';
+
+/** Reasons offered on glossary pages (page-level reports, paragraphId `glossary:<ID>`) */
+export const GLOSSARY_REPORT_REASONS: ReportReason[] = ['factual_error', 'typo', 'bad_translation', 'other'];
 
 export interface ReportData {
   paragraphId: string;

@@ -17,12 +17,13 @@ interface GlossaryTag {
   category?: string;
 }
 
-const props = defineProps<{
+const props = withDefaults(defineProps<{
   paragraphId: string;
   glossaryTags?: GlossaryTag[];
   language?: string; // 'cz', 'en', etc. - omit for original/French
   pageLocale?: SupportedLocale; // UI locale the server rendered the page in
-}>();
+  reportable?: boolean; // false = no Report item (glossary pages report per page, not per paragraph)
+}>(), { reportable: true });
 
 const { t } = useI18n(props.pageLocale);
 
@@ -146,6 +147,7 @@ onMounted(() => {
   <div class="paragraph-menu">
     <!-- Report dialog (separate bottom sheet) -->
     <ReportDialog
+      v-if="reportable"
       ref="reportDialog"
       :paragraph-id="paragraphId"
       :language="language || 'original'"
@@ -219,7 +221,7 @@ onMounted(() => {
               </button>
 
               <!-- Report issue (authenticated) -->
-              <button v-if="auth.isAuthenticated && !auth.offline" @click="openReport" class="menu-item">
+              <button v-if="reportable && auth.isAuthenticated && !auth.offline" @click="openReport" class="menu-item">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                 </svg>
@@ -227,7 +229,7 @@ onMounted(() => {
               </button>
 
               <!-- Sign in to report (not authenticated) -->
-              <button v-else-if="!auth.loading && !auth.offline" @click="handleSignInToReport" class="menu-item menu-item--muted">
+              <button v-else-if="reportable && !auth.loading && !auth.offline" @click="handleSignInToReport" class="menu-item menu-item--muted">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                 </svg>

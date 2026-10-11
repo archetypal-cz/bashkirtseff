@@ -562,7 +562,10 @@
       "factual_error": "Jaká je správná informace?",
       "typo": "Kde je překlep?",
       "other": "Popište problém..."
-    }
+    },
+    "reportPage": "Nahlásit chybu na této stránce",
+    "signInToReportPage": "Přihlaste se a nahlaste chybu na této stránce",
+    "pageDescription": "Pomozte vylepšit tuto stránku glosáře: nahlaste věcnou chybu, chybnou identifikaci, překlep nebo cokoli jiného, co nesedí."
   },
   "welcome": {
     "pageTitle": "Vítejte — Deník Marie Bashkirtseff",
