@@ -141,6 +141,7 @@ The 1887 *Journal* made her famous across Europe and America as a writer. Kather
 - Art: [Marie Bashkirtseff's works](../../culture/art/MARIE_BASHKIRTSEFF_WORKS.md), [#Art_Practice](../../culture/themes/ART_PRACTICE.md), [#Academie_Julian](../../places/schools/JULIAN.md), [#Tony_Robert_Fleury](../artists/ROBERT_FLEURY.md), [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md), [#Salon](../../culture/art/SALON.md), [#Kharkiv_Lost_Works](../../culture/art/KHARKIV_LOST_WORKS.md)
 - Editions: [#Censored_1887](../../culture/literature/CENSORED_1887.md), [#Andre_Theuriet](../writers/ANDRE_THEURIET.md), [#Mathilde_Blind](../writers/MATHILDE_BLIND.md), [#Katherine_Kernberger](../../culture/literature/KATHERINE_KERNBERGER.md)
 - Writing: [#Guy_de_Maupassant](../../culture/literature/GUY_DE_MAUPASSANT.md), [#Hubertine_Auclert](../mentioned/HUBERTINE_AUCLERT.md), [#La_Citoyenne](../../culture/newspapers/LA_CITOYENNE.md)
+- Death and tomb: [Funeral of Marie Bashkirtseff](../../culture/history/FUNERAL_OF_MARIE_BASHKIRTSEFF.md), [Tomb at Passy](../../places/landmarks/TOMBE_MARIE_BASHKIRTSEFF.md)
 - Places: [#Gavronzi](../../places/residences/GAVRONZI.md), [#Poltava](../../places/cities/POLTAVA.md), [#Nice](../../places/cities/NICE.md), [#Paris](../../places/cities/PARIS.md)
 
 %% GLO_MARIE_BASHKIRTSEFF.0032 %%
