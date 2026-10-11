@@ -398,8 +398,8 @@
     "llmNote": "La mayor parte de este glosario se investigó con ayuda de modelos de lenguaje de inteligencia artificial y se contrastó con las fuentes citadas; puede haber errores. Si encuentras alguno, infórmanos con el botón de la parte superior de la página.",
     "introLabel": "Acerca de esta página",
     "introDiaryLink": "del diario completo de Marie Bashkirtseff",
-    "introGithubLink": "edita esta entrada en GitHub",
-    "intro": "Esta entrada forma parte del glosario {diary} (1873–1884), una edición en línea libre y sin censura en varios idiomas. ¿Has encontrado un error? Infórmanos con el botón de abajo o {github}: las pull requests son bienvenidas."
+    "introGithubLink": "el texto fuente de la entrada en GitHub",
+    "intro": "Esta entrada forma parte del glosario {diary} (1873–1884), una edición en línea libre y sin censura en varios idiomas. ¿Has encontrado un error? Infórmanos con el botón de abajo. También puedes consultar {github}: las pull requests son bienvenidas."
   },
   "diary": {
     "subtitle": "Traducción en curso del diario completo, asistida por IA y refinada por personas",
@@ -561,7 +561,8 @@
     },
     "reportPage": "Informar de un problema en esta página",
     "signInToReportPage": "Inicia sesión para informar de un problema en esta página",
-    "pageDescription": "Ayúdanos a mejorar esta página del glosario: informa de un error factual, una identificación equivocada, una errata o cualquier otra cosa que no parezca correcta."
+    "pageDescription": "Ayúdanos a mejorar esta página del glosario: informa de un error factual, una identificación equivocada, una errata o cualquier otra cosa que no parezca correcta.",
+    "reasonOptional": "Tipo de problema (opcional)"
   },
   "welcome": {
     "pageTitle": "Bienvenida — Diario de Marie Bashkirtseff",

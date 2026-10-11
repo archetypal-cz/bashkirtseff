@@ -19,7 +19,7 @@ export function githubHistoryUrl(repoPath: string): string {
   return `${GITHUB_REPO_URL}/commits/${GITHUB_BRANCH}/${repoPath}`;
 }
 
-/** GitHub editor for a repo-relative file (forks + opens a pull request for non-members). */
-export function githubEditUrl(repoPath: string): string {
-  return `${GITHUB_REPO_URL}/edit/${GITHUB_BRANCH}/${repoPath}`;
+/** Plain-text source view of a repo-relative file (frontmatter and %%-comments visible). */
+export function githubPlainUrl(repoPath: string): string {
+  return `${githubSourceUrl(repoPath)}?plain=1`;
 }

@@ -403,8 +403,8 @@
     "llmNote": "Většina tohoto glosáře vznikla s pomocí jazykových modelů umělé inteligence a byla ověřena podle uvedených zdrojů; chyby jsou možné. Pokud nějakou najdete, nahlaste ji prosím tlačítkem v horní části stránky.",
     "introLabel": "O této stránce",
     "introDiaryLink": "kompletního deníku Marie Baškircevové",
-    "introGithubLink": "upravte heslo na GitHubu",
-    "intro": "Toto heslo patří ke glosáři {diary} (1873–1884), volně dostupného necenzurovaného vydání v několika jazycích. Našli jste chybu? Nahlaste ji tlačítkem níže, nebo {github} — pull requesty vítáme."
+    "introGithubLink": "zdrojový text hesla na GitHubu",
+    "intro": "Toto heslo patří ke glosáři {diary} (1873–1884), volně dostupného necenzurovaného vydání v několika jazycích. Našli jste chybu? Nahlaste ji tlačítkem níže. Můžete si také prohlédnout {github} — pull requesty vítáme."
   },
   "diary": {
     "subtitle": "Rozpracovaný AI-asistovaný, lidmi dolaďovaný překlad kompletního deníku",
@@ -571,7 +571,8 @@
     },
     "reportPage": "Nahlásit chybu na této stránce",
     "signInToReportPage": "Přihlaste se a nahlaste chybu na této stránce",
-    "pageDescription": "Pomozte vylepšit tuto stránku glosáře: nahlaste věcnou chybu, chybnou identifikaci, překlep nebo cokoli jiného, co nesedí."
+    "pageDescription": "Pomozte vylepšit tuto stránku glosáře: nahlaste věcnou chybu, chybnou identifikaci, překlep nebo cokoli jiného, co nesedí.",
+    "reasonOptional": "Typ problému (nepovinné)"
   },
   "welcome": {
     "pageTitle": "Vítejte — Deník Marie Bashkirtseff",

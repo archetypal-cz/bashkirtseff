@@ -10,7 +10,7 @@ import { linkifyParagraphRefs } from '../../../lib/paragraph-refs';
 import { DIARY_LANGUAGES, diarySeoLinks, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 import { withTrailingSlash } from '../../../lib/url';
-import { githubEditUrl } from '../../../lib/github';
+import { githubPlainUrl } from '../../../lib/github';
 
 export function getStaticPaths() {
   const paths: { params: { lang: string; id: string }; props: { lang: DiaryLanguageConfig; entryId: string } }[] = [];
@@ -167,7 +167,7 @@ const glossarySourcePath = entry.category ? `content/_original/_glossary/${entry
 const introHtml = t('glossary.intro', {
   diary: `<a href="${withTrailingSlash(`/${lang.urlPath}`)}">${t('glossary.introDiaryLink')}</a>`,
   github: glossarySourcePath
-    ? `<a href="${githubEditUrl(glossarySourcePath)}" target="_blank" rel="noopener">${t('glossary.introGithubLink')}</a>`
+    ? `<a href="${githubPlainUrl(glossarySourcePath)}" target="_blank" rel="noopener">${t('glossary.introGithubLink')}</a>`
     : t('glossary.introGithubLink'),
 });
 

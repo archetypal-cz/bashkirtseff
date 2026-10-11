@@ -51,15 +51,16 @@ const DEFAULT_REASONS: ReportReason[] = [
 ];
 const reasons = computed(() => props.reasons ?? DEFAULT_REASONS);
 
+// The issue type is optional: a description alone is enough (sent as 'other').
 const canSubmit = computed(() => {
-  if (!selectedReason.value) return false;
-  if (selectedReason.value === 'other' && !customText.value.trim()) return false;
+  if (!selectedReason.value || selectedReason.value === 'other') return !!customText.value.trim();
   return true;
 });
+const effectiveReason = computed<ReportReason>(() => selectedReason.value ?? 'other');
 
 /** Placeholder text changes based on selected reason */
 const textPlaceholder = computed(() => {
-  if (!selectedReason.value) return '';
+  if (!selectedReason.value) return t('report.textPlaceholder');
   const key = `report.placeholders.${selectedReason.value}`;
   const val = t(key);
   // Fall back to generic if specific placeholder doesn't exist
@@ -68,7 +69,7 @@ const textPlaceholder = computed(() => {
 
 /** Label changes based on reason */
 const textLabel = computed(() => {
-  if (selectedReason.value === 'other') return t('report.describeIssue');
+  if (effectiveReason.value === 'other') return t('report.describeIssue');
   return t('report.optionalDetail');
 });
 
@@ -101,9 +102,9 @@ async function submit() {
       {
         paragraphId: props.paragraphId,
         language: props.language,
-        reason: selectedReason.value!,
-        customReason: selectedReason.value === 'other' ? customText.value.trim() : undefined,
-        highlightedText: highlightedText.value || (selectedReason.value !== 'other' && customText.value.trim()
+        reason: effectiveReason.value,
+        customReason: effectiveReason.value === 'other' ? customText.value.trim() : undefined,
+        highlightedText: highlightedText.value || (effectiveReason.value !== 'other' && customText.value.trim()
           ? customText.value.trim()
           : undefined) || undefined,
       },
@@ -112,7 +113,7 @@ async function submit() {
     submitted.value = true;
     trackEvent('report_submitted', {
       paragraphId: props.paragraphId,
-      reason: selectedReason.value!,
+      reason: effectiveReason.value,
     });
   } catch (e) {
     error.value = e instanceof Error ? e.message : 'Unknown error';
@@ -180,14 +181,14 @@ defineExpose({ open });
 
             <!-- Reason: native select (A11y WS-C/C5 — keyboard + SR accessible) -->
             <div class="reason-dropdown">
-              <label class="report-text__label" :for="`report-reason-${paragraphId}`">{{ t('report.chooseReason') }}</label>
+              <label class="report-text__label" :for="`report-reason-${paragraphId}`">{{ t('report.reasonOptional') }}</label>
               <select
                 :id="`report-reason-${paragraphId}`"
                 v-model="selectedReason"
                 class="reason-dropdown__select"
                 :class="{ 'reason-dropdown__trigger--selected': selectedReason }"
               >
-                <option :value="null" disabled>{{ t('report.chooseReason') }}</option>
+                <option :value="null">{{ t('report.reasonOptional') }}</option>
                 <option v-for="reason in reasons" :key="reason" :value="reason">
                   {{ t(`report.reasons.${reason}`) }}
                 </option>
@@ -195,7 +196,7 @@ defineExpose({ open });
             </div>
 
             <!-- Detail text (adapts to reason) -->
-            <div v-if="selectedReason" class="report-text">
+            <div class="report-text">
               <label class="report-text__label" :for="`report-text-${paragraphId}`">{{ textLabel }}</label>
               <textarea
                 :id="`report-text-${paragraphId}`"
@@ -220,7 +221,7 @@ defineExpose({ open });
             >
               {{ submitting ? t('common.loading') : t('report.submit') }}
             </button>
-            <p v-if="selectedReason" :id="`report-shortcut-${paragraphId}`" class="report-shortcut">
+            <p :id="`report-shortcut-${paragraphId}`" class="report-shortcut">
               {{ t('report.submitShortcut', { keys: submitShortcutLabel(apple) }) }}
             </p>
           </div>
