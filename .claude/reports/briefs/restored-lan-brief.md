@@ -28,6 +28,10 @@ LAN note on the same expression and stay consistent with it.
    short back-reference if needed.
 8. Historical claims about the period need RSR support or a hedge. If the RSR note explains a fact, write
    only the translation guidance.
+9. **A gloss already given in this carnet is not repeated** (*figure*, *glace*, *position*, *ennui*,
+   *pelisse*, *brave*, *baiser*, *parents*…): grep the carnet before writing. In 067 most of the excess
+   density (77 of 421 notes deleted in review) came from repeated glosses and repeated TRAPs.
+10. Target density: about 0.3–0.5 notes per listed restored paragraph. Well above that means filler.
 
 ## Format
 

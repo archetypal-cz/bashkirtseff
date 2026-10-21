@@ -43,10 +43,10 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 | 035 | 203 | done cc40ffe5d1 (RSR 52 notes; LAN 99) |
 | 041 | 163 | done d2ccea3c49 (RSR 31 notes; LAN 56, capped brief works) |
 | 050 | 215 | done (RSR 51 notes, 22 tags; LAN 76) |
-| 067 | 668 | split a/b/c (230/251/187, by file); 067a RSR done (101 notes, t.9 index) → LAN running; 067b RSR done (60 notes, 2 locations fixed) → LAN running; 067c RSR running. Commit 067 as one carnet when all three parts pass. Needs footnote at 067.0047 (Poltava date, Marie's «21 juin 1709» vs 27 June O.S.) |
+| 067 | 668 | done 7fbe0fb61d (3 parts; Opus spot review: LAN 421→344, 3 RSR fixes incl. one that named the 0423 insinuation) |
 | 063 | 201 | done 638820f748 (RSR 46 notes, 30 tags; LAN 81) |
 | 059 | 301 | done 50276d11c5 (RSR 56 notes, 35 tags; LAN 107; plobster fn fixed) |
-| 070 | 523 | split a/b (285/238); 070a + 070b RSR running |
+| 070 | 523 | split a/b (285/238); 070a RSR+LAN done; 070b RSR running |
 | next | | by size: 067 668, 070 523, 066 365, 059 301, 071 251, 050 215, 086 206, 063 201, 083 175, 065 150 … (5,724 total) |
 
 ## Second LAN gap (measured 2026-10-21 after reset)
