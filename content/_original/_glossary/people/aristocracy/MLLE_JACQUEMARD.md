@@ -1,27 +1,27 @@
 ---
 id: MLLE_JACQUEMARD
-name: Mlle Jacquemard
+name: Nélie Jacquemart
 aliases:
   - Mlle Jacquemard
   - Jacquemard
+  - Nélie Jacquemart
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
 ---
-# Mlle Jacquemard
+# Nélie Jacquemart
 
-## Basic Information
-- Type: people - aristocracy
-- Status: Stub entry (automatically generated)
+## Overview
 
-## Description
-[No description available - stub entry created from diary references]
+Nélie (Cornélie) Jacquemart (1841–1912), French portrait painter, much in demand for official portraits in the 1870s. In 1881 she married the banker and collector Édouard André; their house on the boulevard Haussmann became the Musée Jacquemart-André (Wikipedia, "Nélie Jacquemart"). The Mon Journal t.12 index has «Jacquemart (Nélie), peintre : 198». Marie spells the name «Jacquemard».
+
+## Relevance to Marie
+
+At the Opéra on 15 January 1879, the day after Marie's first medal at Julian's, «Mlle Jacquemard était avec la princesse Brâncoveanu et Mme Gavini qui la connaît m'a promis de me la faire connaître. Gavini est allé chez la princesse et a dit à Mlle Jacquemard que j'avais une médaille» (084.0029). An established woman painter is the acquaintance Marie wants at this point.
 
 ## References in Diary
-[Multiple references found - needs research]
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+- First mentioned: 1879-01-15 (084.0029)
+
+%% 2026-10-21T12:06:04 RSR: Rewritten from the auto-generated stub during RSR research of the restored paragraphs of carnet 084. The file sits in people/aristocracy; people/artists would fit better (logged in OPEN-ITEMS). %%

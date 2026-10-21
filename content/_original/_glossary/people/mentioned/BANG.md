@@ -1,26 +1,30 @@
 ---
 id: BANG
-name: Bang
+name: Wilhelmine Marie Bang
 aliases:
   - Bang
+  - Mlle Bang
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Stub
+last_updated: 2026-10-21
 ---
-# Bang
+# Wilhelmine Marie Bang
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+## Overview
 
-## Description
-[No description available - stub entry created from diary references]
+A fellow pupil of Marie's in the women's studio at the Académie Julian. The Mon Journal t.12 index has «Bang (Wilhelmine Marie), élève de l'atelier Julian : 197». Not further identified.
+
+## Relevance to Marie
+
+She appears only in the concours results:
+- 076.0251 (1877-11-27): «Mlle Bang», named when the concours heads are labelled for the judges (076.0248).
+- 079/1878-04-04: eighth in the list «… 7 Breslau, 8 Bang, 9 Amélie, 10 Kennedy».
+- 084.0020 (1879-01-14): first after the medal in the concours Marie wins; Marie rates her below Breslau: «Bang va piano e sano, son travail c'est de la bonne et honnête menuiserie mais elle est toujours bien placée».
 
 ## References in Diary
-[Multiple references found - needs research]
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+- First mentioned: 1877-11-27 (076.0251)
+- Key entries: 1878-04-04, 1879-01-14
+
+%% 2026-10-21T12:06:04 RSR: Rewritten from the auto-generated stub during RSR research of the restored paragraphs of carnet 084 (t.12 index; grep of «Bang»). %%
