@@ -22,6 +22,11 @@ The Bashkirtseff family's cook who has become Paul's corrupting companion and me
 ### 1874
 - **March 24**: Marie identifies him as Paul's bad influence: "Et son compagnon et mentor est notre cuisinier Adam" (And his companion and mentor is our cook Adam).
 
+### 1875
+- **August 4** (Paris): "Adam est en Russie et il va nous donner du fil à retordre !" (038.0104), beside Marie's fears about the family's lawsuit in Russia (038.0118). The Mon Journal t.5 index lists him as "Adam, domestique, 225, 233, 266".
+- **August 8**: in her card reading he is the king of spades "qui me devait faire du mal" (038.0204).
+- That the 1874 cook and the 1875 "domestique" are one man is probable (0.7), not proven.
+
 ## Context
 - Household cook/chef
 - Major negative influence on Paul

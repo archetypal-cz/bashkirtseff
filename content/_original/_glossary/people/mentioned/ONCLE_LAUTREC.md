@@ -4,6 +4,7 @@ name: Oncle Lautrec
 aliases:
   - Oncle Lautrec
   - Lautrec
+  - M. de Toulouse
 type: Person
 category: people/mentioned
 research_status: Basic
@@ -33,3 +34,11 @@ The Mon Journal t.13 index lists «Toulouse-Lautrec (Alexandre comte de) : 94, 1
 - 1879-09-10 (086.0249); 09-11 (086.0257, «L'oncle»); 09-26 (086.0317); 09-28 (086.0323); 10-23 (086.0420, «Lautrec et les princes»); 10-26 (086.0438); 12-11 (086.0654)
 
 %% 2026-10-21T11:03:22 RSR: Extended during RSR research of the restored 086 paragraphs (rsr-086). %%
+
+## 1875: "Diadia" at Wiesbaden (RSR, 2026-10-21)
+The Mon Journal t.5 index lists «Toulouse-Lautrec (comte de), [Diadia], 248, 257, 264» and «Diadia : Toulouse-Lautrec, (comte de)». In August 1875 Marie meets him at Wiesbaden: «Tout d'un coup, ô surprise ! Qui vois-je ! Diadia ! M. de Toulouse !» (039.0068, 15 August, p.248); on 20 August «Diadia arrive de Wiesbaden et cet homme spirituel et comme il faut nous fait passer plusieurs heures très agréablement» (039.0144, scan p.254 = printed p.253, a page the index omits); on 21 August she listens to the orchestra at Wiesbaden «avec Diadia et Batourine» (039.0188, p.257). «Diadia» is Russian for «uncle», which fits the «oncle Lautrec» of 1879; that the 1875 comte and the 1879 Alexandre comte de Toulouse-Lautrec are one man is probable (0.8): same title and name, same avuncular address, but the t.5 index gives no forename.
+
+%% 2026-10-21T13:01:43 RSR: 1875 section added during RSR research of the restored 039 paragraphs (rsr-1875c). %%
+
+## 1874: "Diadia" in Nice (RSR, 2026-10-21)
+The Mon Journal t.3 index lists «Toulouse-Lautrec (Sacha de) [Diadia], 6, 17, 57, 87, 154, 165», «Toulouse-Lautrec (Emile de), 166» and «Diadia : Toulouse-Lautrec, (comte de)». On 9 April 1874 (t.3 p.154) «Diadia» passes on the gossip that Prince Wittgenstein has married Rosalie Léon (018.0210, retagged here from DIADIA). The other DIADIA tags of 1873–74 (16 files) have not been audited against the index pages (see ledger B-55).
