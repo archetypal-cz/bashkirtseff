@@ -63,6 +63,13 @@ Nice in the 1870s was a favorite wintering spot for European aristocracy. Famili
 
 This could be a member of the prominent Wittgenstein family that later produced the philosopher Ludwig Wittgenstein (born 1889). The family was already established in high society by the 1870s through their industrial wealth and cultural connections.
 
+## Identification from the source (2026-10-21, RSR)
+
+- The Tome 3 name index of *Mon Journal* lists him as «Wittgenstein (Pierre, prince de), [Blackprince], [Bute]», and his companion as «Léon (Mme Rosalie) [Zigouzin] [La Wittgenstein] demi-mondaine» (see ROSALIE_LEON).
+- Marie's text calls him «le prince de Wittgenstein» (018.0120) and «russe» (018.0209 «on voit bien qu'il est russe et ours»). In April 1874 he walks the Promenade with two large dogs and a little bitch, Bijou (018.0127, 018.0129).
+- This contradicts «Possible Identity» above: the family of the philosopher Ludwig Wittgenstein were untitled Austrian industrialists, not princes. A Russian prince Pierre (Pyotr) Wittgenstein points instead to the Sayn-Wittgenstein line in Russian service; possibly Prince Pyotr Lvovich Wittgenstein, a Russian general, son of Ludwig zu Sayn-Wittgenstein-Berleburg (O. Popko, *Vestsi NAN Belarusi*, 2021; Wikipedia «Ludwig zu Sayn-Wittgenstein-Berleburg»), unconfirmed (0.5); in support, Marie reads in the Figaro (November 1874) that he dined at the Élysée with the Tsarevich and Grand Duke Alexis «en tenue de général» (027.0099). Ledger B, 2026-10-21.
+- The entry's folder (culture/music) does not fit a person; not moved (report only).
+
 ## Questions for Further Research
 
 - Which specific Wittgenstein family member was in Nice in 1873?

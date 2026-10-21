@@ -18,6 +18,8 @@ last_updated: 2026-10-03
 ## Identity
 Woman discussed in context of social reception standards, alongside Lewin and Prodgers.
 
+**Identification** (2026-10-21, RSR): the Tome 3 name index of *Mon Journal* lists «Durand (Mlle Clémentine), Espagnole» and «Durand (Mlle Lucie), Espagnole». On 3 May 1874 Marie notes «Melle Durand épouse de Lewin, c'est sûr» (019.0104), i.e. Clémentine's engagement to John Lewin (index «Lewin (John)»; glossary LEWIN).
+
 ## Diary References
 
 ### 1874

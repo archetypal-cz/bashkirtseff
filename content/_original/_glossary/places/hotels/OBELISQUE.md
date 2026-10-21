@@ -40,6 +40,9 @@ A remarkably tall and beautiful woman who attends the concert with the Duchess d
 
 ## Research Notes
 - Real identity unknown
+- (2026-10-21, RSR) The Tome 3 name index of *Mon Journal* identifies her: «Mouchy (Mlle de), leur fille : [Obélisque]» and «Obélisque (l'), surnom de Mlle de Mouchy» («leur» = the duc and duchesse de Mouchy). Doubt: the duc de Mouchy married Anna Murat only on 18 December 1865 (Wikipedia, «Antonin-Just-Léon-Marie de Noailles»), so a daughter of theirs could not be a marriageable young woman in 1874; she was probably a young lady of the Mouchy circle or family rather than their daughter. Treat the index's «leur fille» as unconfirmed.
+- Marie believed she was engaged to Lambertye («Fedus»): 017.0366 (18 March 1874), discussed again in 017.0395–0403 (20 March), where ma tante (probably) denies it and Marie maintains it.
+- Filing: this is a person, not a hotel; the entry sits in places/hotels/ (report, not moved).
 - Nickname shows 19th century practice of descriptive sobriquets
 - Marie's romantic idealization of beautiful women
 - Beauty as predictive category
