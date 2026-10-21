@@ -47,7 +47,9 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 | 063 | 201 | done 638820f748 (RSR 46 notes, 30 tags; LAN 81) |
 | 059 | 301 | done 50276d11c5 (RSR 56 notes, 35 tags; LAN 107; plobster fn fixed) |
 | 070 | 523 | done 1bc72ef4a0 (2 parts; RSR ~143 notes, 9 fn; LAN 154) |
-| 066 | 365 | split a/b (201/164); both RSR running |
+| 066 | 365 | done f4b24ad485 (RSR ~101 notes, 9 fn, 8 locations; LAN 144) |
+| 086 | 206 | RSR running |
+| 083 | 175 | RSR running |
 | 071 | 251 | RSR running |
 | next | | by size: 067 668, 070 523, 066 365, 059 301, 071 251, 050 215, 086 206, 063 201, 083 175, 065 150 … (5,724 total) |
 
@@ -58,6 +60,12 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 090 ×16, 080/070/066 ×15, 078 ×13, 030 ×11 …). List: scratchpad nolan-entries.txt. After Track O,
 run a LAN pass on whatever remains (include nickname TRAPs at first occurrence: «Giro» = Olga 050/12-06, «Pépino» = Albert Gautier 050/11-28) (per-paragraph "no LAN" counts are not a gap measure: the density
 cap leaves ~70% of paragraphs without a note by design).
+
+## Date-only entries flag (2026-10-21)
+
+544 entries carry only «[Aucun texte - date seule mentionnée]»; 411 lacked `empty_in_source`.
+Flagged 403 (492d308ad7) + 4 in 066 (f4b24ad485); 071 left (4) — flag when 071 is committed
+(scratchpad flag_empty.py).
 
 ## Follow-ups
 

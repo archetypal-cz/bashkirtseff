@@ -3,24 +3,24 @@ id: KONDAREFF
 name: Kondareff
 aliases:
   - Kondareff
+  - Lise Kondareff
+  - Lisa Kondareff
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+languages:
+  - ru
 ---
 # Kondareff
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+## Overview
+A Russian family in Nice, 1876–77. Mme Kondareff is the sister of Princess Souvoroff, «la plus laide et la plus pauvre des Basilewsky» (068.0063); in May 1877 she sups with Marie's aunt (071.0365) and is «toujours en train d'emprunter» (071.0501). Her daughter is «la petite Lisa Kondareff, nièce de la princesse Souvoroff» (068.0751), the Lise of twelve («Lise a douze ans», 071.0526) who cannot pronounce *r* (071.0541) and plays with the Anitchkoff girls in May–June 1877. The Mon Journal t.10 index lists «Kondareff (Mlle Lise), 174, 176, 178-179, 180, 188, 190, 192, 195, 197, 208, 215, 223, 231».
 
-## Description
-[No description available - stub entry created from diary references]
+## Tagging note
+In carnet 071 Lise is usually tagged [Lise](LISE.md), which is the Lise Howard of 1874; the 1877 child is this Lise Kondareff (ledger). A separate stub [Mme Kondareff](../aristocracy/MME_KONDAREFF.md) exists for the mother.
 
 ## References in Diary
-[Multiple references found - needs research]
+- 1876-12-15 (068.0063), 1877-01-20 (068.0751); 1877-05-14 (071.0322), 05-16 (071.0365), 05-19 (071.0382), 05-26 (071.0459), 05-30 (071.0501), 06-01 (071.0526), 06-02 (071.0540–0541)
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-10-21T10:48:15 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 071 paragraphs (rsr-071); diary text and t.10 index. %%
