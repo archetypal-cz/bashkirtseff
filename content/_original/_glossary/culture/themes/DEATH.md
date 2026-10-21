@@ -123,7 +123,7 @@ Marie died on 31 October 1884; after the funeral service at the Russian church i
 ## Cholera and Epidemic Death
 
 %% GLO_DEATH.0032 %%
-Cholera shadows the diary from beginning to end. In 1873, the epidemic at the Vienna World Exhibition nearly derails Marie's travel plans: "the cholera is raging" (006, 1873-07-11). She writes defiantly: "Je n'ai pas peur du cholera, et puis je me confie a Dieu" (007, 1873-07-16). When Abramovitch dies in August 1873, Marie attributes it to cholera (008, 1873-08-29). In 1884, cholera returns to France via Toulon: "Il parait que nous aurons le cholera. Il est deja a Toulon" (104, 1884-06-24). Marie advocates quarantine with characteristically ruthless logic: "On devrait tirer sur ceux qui tenteraient de sortir" (105, 1884-07-13). She even fears catching it herself: "Ce matin j'ai cru que j'allais avoir le cholera" (105, 1884-07-11). See [DISEASES](DISEASES.md).
+Cholera shadows the diary from beginning to end. In 1873, the epidemic at the Vienna World Exhibition nearly derails Marie's travel plans: "the cholera is raging" (006, 1873-07-11). She writes defiantly: "Je n'ai pas peur du cholera, et puis je me confie a Dieu" (007, 1873-07-16). When Abramovitch dies in August 1873, Marie attributes it to cholera (008, 1873-08-29). In 1884, cholera returns to France via Toulon: "Il parait que nous aurons le cholera. Il est deja a Toulon" (104, 1884-06-24). Marie advocates quarantine with characteristically ruthless logic: "On devrait tirer sur ceux qui tenteraient de sortir" (105, 1884-07-13). She even fears catching it herself: "Ce matin j'ai cru que j'allais avoir le cholera" (105, 1884-07-11). See [HEALTH](HEALTH.md).
 
 %% GLO_DEATH.0033 %%
 ## Marie's Death Vocabulary
@@ -182,7 +182,7 @@ Cholera shadows the diary from beginning to end. In 1873, the epidemic at the Vi
 %% GLO_DEATH.0042 %%
 - [MORTALITY](MORTALITY.md) -- Marie's figurative and philosophical death obsession ("il est mort pour moi")
 - [HEALTH](HEALTH.md) -- Illness and medical themes, often preceding death
-- [DISEASES](DISEASES.md) -- Specific named illnesses (cholera, tuberculosis, typhoid)
+- [HEALTH](HEALTH.md) -- Specific named illnesses (cholera, tuberculosis, typhoid)
 - [RELIGION](RELIGION.md) -- Religious aspects of death rituals (Orthodox and Catholic)
 - [EMOTIONS](EMOTIONS.md) -- Marie's emotional responses to death events
 

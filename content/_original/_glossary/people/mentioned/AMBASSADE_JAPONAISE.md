@@ -4,7 +4,6 @@ name: ambassade japonaise
 aliases:
   - ambassade japonaise
   - Ambassade Japonaise
-  - japonaise
 type: Person
 category: people/mentioned
 research_status: Basic

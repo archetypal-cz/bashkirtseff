@@ -26,7 +26,7 @@ Within days he is «plus ou moins de la famille» (068.0801): he escorts the fam
 - 1877-01-23 to 1877-02-08 (carnet 068)
 
 ## Related
-- [SAPOGENIKOFF_NINA](SAPOGENIKOFF_NINA.md)
+- [NINA](NINA.md)
 - [MEISSNER](MEISSNER.md)
 
 %% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%

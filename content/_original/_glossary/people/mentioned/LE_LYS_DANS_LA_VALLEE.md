@@ -4,7 +4,6 @@ name: Le lys dans la vallee
 aliases:
   - Le lys dans la vallee
   - Le Lys Dans la Vallee
-  - vallee
 type: Person
 category: people/mentioned
 research_status: Basic

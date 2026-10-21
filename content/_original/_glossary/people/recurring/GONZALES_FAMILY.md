@@ -107,8 +107,8 @@ Marie writes "Gonzales" (with grave accent on the 'e'), though "Gonzales" (witho
 
 ## Related Entries
 
-- [#Remy_de_Gonzales_Moreno](../mentioned/REMY_DE_GONZALES_MORENO.md) - The son
-- [#Boyd_Family](BOYD_FAMILY.md) - Social connections in Baden-Baden
+- [#Remy_de_Gonzales](../mentioned/REMY_DE_GONZALES.md) - The son
+- [#Boyd](../mentioned/BOYD.md) - Social connections in Baden-Baden
 - [#Berthe](BERTHE.md) - Remy's romantic interest
 - [#Maman](../family/MAMAN.md) - The innocent party in the triangle
 - [#Baden_Baden](../../places/travel/BADEN_BADEN.md) - Where they met

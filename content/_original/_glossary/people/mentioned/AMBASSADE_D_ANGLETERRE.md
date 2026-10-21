@@ -4,8 +4,6 @@ name: ambassade d Angleterre
 aliases:
   - ambassade d Angleterre
   - Ambassade d'Angleterre
-  - Angleterre
-  - ambassade
 type: Person
 category: people/mentioned
 research_status: Basic

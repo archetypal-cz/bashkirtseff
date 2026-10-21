@@ -11,11 +11,8 @@ aliases:
   - princesse Galitzine
   - Princess Galitzine
   - Princesse Galitzine
-  - princesse
-  - la princesse
   - Nathalie Galitzine
   - Nadine Galitzine
-  - Nadine
   - Galitzine (princesse)
 type: Person
 category: people/mentioned

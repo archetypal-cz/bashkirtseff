@@ -10,7 +10,6 @@ aliases:
   - Mme Paul
   - la femme à Paul
   - la femme de Paul
-  - sa femme
   - Alexandra
 type: Person
 category: people/mentioned

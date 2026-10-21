@@ -4,7 +4,6 @@ name: Baron de lAriege
 aliases:
   - Baron de lAriege
   - Baron de Lariege
-  - lAriege
 type: Person
 category: people/aristocracy
 research_status: Basic

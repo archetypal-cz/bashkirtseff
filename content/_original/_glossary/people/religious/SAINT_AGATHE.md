@@ -7,22 +7,13 @@ aliases:
 type: Person
 category: people/religious
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: SAINT_AMAND
 ---
-# Saint Agathe
 
-**Research Status**: Basic
-**Last Updated**: 2025-01-24
-**Diary Coverage**: Up to June 1881
+%% GLO_SAINT_AGATHE.0001 %%
+**Retired.** Merged into [#SAINT_AMAND](../writers/SAINT_AMAND.md) (`people/writers/SAINT_AMAND.md`); use that entry instead.
 
-Saint Agathe is a correspondent of Marie's during her time in Russia (summer 1881). Marie mentions receiving letters from Saint Agathe, suggesting ongoing correspondence while she is at Gavronzi.
-
-The name suggests this may be a nickname or pseudonym, possibly for a friend from Paris or Nice. Further research needed to identify this person's full identity and relationship to Marie.
-
-**Key Diary References**:
-- June 19, 1881: "Saint Agathe répond à ma lettre, la princesse aussi" - Saint Agathe responds to Marie's letter
-
-**Research Notes**:
-- May be a nickname for a close friend
-- Active correspondent during Russian summer 1881
-- Mentioned alongside "la princesse" (another correspondent)
+%% GLO_SAINT_AGATHE.0002 %%
+%% 2026-10-21T21:23:53 RSR: Retired by glossary-merge; content and links moved to SAINT_AMAND. replaced_by: people/writers/SAINT_AMAND.md. %%

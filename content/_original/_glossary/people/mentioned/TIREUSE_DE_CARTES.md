@@ -5,7 +5,6 @@ aliases:
   - Tireuse de cartes
   - Tireuse de Cartes
   - Tireuse
-  - cartes
 type: Person
 category: people/mentioned
 research_status: Basic

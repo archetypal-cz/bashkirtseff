@@ -1,0 +1,112 @@
+id	removed_alias	reason
+SAINTES_FEMMES	femmes	common word / title fragment, not a name for this entity
+BETE	princesse	generic title; Marie writes «la princesse» for many princesses
+BETE	la princesse	generic title; Marie writes «la princesse» for many princesses
+BETE	Nadine	belongs to NADINE; Bête keeps «Nadine Galitzine»
+MARIE_SAPOGENIKOFF	Marie	bare first name; Marie is the diarist's own name
+GRAND_DUCHESS_MARIE	Marie	bare first name shared by many entries (kept only on MARIE)
+GRANDE_DUCHESSE_MARIE	Marie	bare first name shared by many entries (kept only on MARIE)
+MARIE_IVANOVNA_PERLIK	Marie	bare first name shared by many entries (kept only on MARIE)
+MARIE_BASHKIRTSEFF_AUNT	Marie	bare first name shared by many entries (kept only on MARIE)
+MARIE_BASHKIRTSEFF_MOTHER	Marie	bare first name shared by many entries (kept only on MARIE)
+SAINTE_MARIE	Marie	bare first name shared by many entries (kept only on MARIE)
+TANTE_MARIE	Marie	bare first name shared by many entries (kept only on MARIE)
+JULIAN	l'atelier	generic word; Marie says «l'atelier» for every studio
+NINI	sa femme	generic phrase
+TIREUSE_DE_CARTES	cartes	common word / title fragment, not a name for this entity
+JARDIN_DE_L_ORANGERIE	jardin	common word / title fragment, not a name for this entity
+ROSALIE	la fille	generic phrase; Marie had other maids
+ROSALIE	cette fille	generic phrase; Marie had other maids
+ROSALIE	ma femme de chambre	generic phrase; Marie had other maids
+ROSALIE	femme de chambre	generic phrase; Marie had other maids
+ANGLAIS	Anglais	nationality word; every mention of the English matched (tag by hand)
+FRANCAIS	Francais	nationality word; every mention of the French matched (tag by hand)
+L_ANGLAISE	Anglaise	nationality word
+GEORGES	ce monstre	generic epithet; Marie uses it for others too
+GEORGES	ce misérable	generic epithet; Marie uses it for others too
+GEORGES	cette canaille	generic epithet; Marie uses it for others too
+GEORGES	ce cher trésor	generic epithet; Marie uses it for others too
+GEORGES	le monstre	generic epithet; Marie uses it for others too
+GEORGES	cette horreur	generic epithet; Marie uses it for others too
+GEORGES	diadia	belongs to DIADIA (Toulouse-Lautrec per Mon Journal index)
+GEORGES	Diadia	belongs to DIADIA (Toulouse-Lautrec per Mon Journal index)
+CAFE_DE_LA_PAIX	Paix	common word / title fragment, not a name for this entity
+CAFE_DE_LA_PAIX	cafe	common word / title fragment, not a name for this entity
+AMBASSADE_D_ANGLETERRE	Angleterre	common word / title fragment, not a name for this entity; «Angleterre» is the country
+AMBASSADE_D_ANGLETERRE	ambassade	common word / title fragment, not a name for this entity; «Angleterre» is the country
+GIOIA	la belle	generic epithet
+GIOIA	c'tte femme	generic epithet
+APPEL_AU_PEUPLE	peuple	common word / title fragment, not a name for this entity
+APPEL_AU_PEUPLE	Appel	common word / title fragment, not a name for this entity
+MINISTERE_DE_L_INTERIEUR	interieur	common word / title fragment, not a name for this entity
+MINISTERE_DE_L_INTERIEUR	Ministere	common word / title fragment, not a name for this entity
+CESI	Ceci	French word «ceci»
+LA_REPUBLIQUE_FRANCAISE	francaise	common word / title fragment, not a name for this entity
+REPUBLIQUE_FRANCAISE	francaise	common word / title fragment, not a name for this entity
+COLLIGNON	cette canaille	generic epithet
+COLLIGNON	cette chère	generic epithet
+L_HISTOIRE_D_UN_CRIME	crime	common word / title fragment, not a name for this entity
+PONT_D_AVIGNON	Avignon	common word / title fragment, not a name for this entity; Avignon is the city
+PONT_D_AVIGNON	pont	common word / title fragment, not a name for this entity; Avignon is the city
+TOUR_SAINT_JACQUES	Jacques	common word / title fragment, not a name for this entity
+TOUR_SAINT_JACQUES	Tour	common word / title fragment, not a name for this entity
+ECOLE_DES_BEAUX_ARTS	Ecole	common word / title fragment, not a name for this entity
+ECOLE_DES_BEAUX_ARTS	Arts	common word / title fragment, not a name for this entity
+ECOLE_DE_MEDECINE	Ecole	common word / title fragment, not a name for this entity
+LAMBERTYE	le singe	generic epithet («le singe» is also Pitou, Marie's monkey)
+LAMBERTYE	le petit comte	generic epithet («le singe» is also Pitou, Marie's monkey)
+PETIT_SAINT_THOMAS	Thomas	common word / title fragment, not a name for this entity
+PETIT_SAINT_THOMAS	Petit	common word / title fragment, not a name for this entity
+CERCLE_DES_BAINS	Cercle	common word / title fragment, not a name for this entity
+CERCLE_DE_LA_RUE_ROYALE	Cercle	common word / title fragment, not a name for this entity
+CERCLE_DE_LUNION	Cercle	common word / title fragment, not a name for this entity
+CERCLE_DE_LA_MEDITERRANEE	Cercle	common word / title fragment, not a name for this entity
+CERCLE_DE_LA_MEDITERRANEE	Méditerranée	the sea, not the club
+CERCLE_DE_LA_MEDITERRANEE	Mediterranee	the sea, not the club
+PAUL	mon frère	generic phrase (kept «mon frère Paul»)
+CASSAGNAC	Paul	bare first name of Marie's brother (PAUL)
+PAUL_GRIGORIEVITCH_BASHKIRTSEFF	Paul	bare first name of Marie's brother (PAUL)
+PAUL_LE_ROUX	Paul	bare first name of Marie's brother (PAUL)
+GRAND_SAINT_PAUL	Paul	bare first name of Marie's brother (PAUL)
+PAUL_GRIGORIEVITCH_BASHKIRTSEFF	Bashkirtseff	bare surname of the whole family (kept only on BASHKIRTSEFF)
+MARIE_BASHKIRTSEFF	Bashkirtseff	bare surname of the whole family (kept only on BASHKIRTSEFF)
+M_BASHKIRTSEFF	Bashkirtseff	bare surname of the whole family (kept only on BASHKIRTSEFF)
+ALEXANDRE_BASHKIRTSEFF	Bashkirtseff	bare surname of the whole family (kept only on BASHKIRTSEFF)
+PAUL_BASHKIRTSEFF	Bashkirtseff	bare surname of the whole family (kept only on BASHKIRTSEFF)
+BAINS_GEORGES	Georges	bare first name of GEORGES
+MERE_GEORGES	Georges	bare first name of GEORGES
+ALEXANDRE_DUMAS_FILS	Alexandre	bare first name of ALEXANDRE
+ALEXANDRE_XI_BORGIA	Alexandre	bare first name of ALEXANDRE
+EMILE_D_AUDIFFRET	Feu	junk («fr») / common word
+EMILE_D_AUDIFFRET	fr	junk («fr») / common word
+ROBERT_FLEURY	fr	junk alias
+EMILE_BASTIEN_LEPAGE	Bastien-Lepage	surname shared with BASTIEN_LEPAGE (Jules)
+MOUSSIA	Moussia	Marie's own nickname; this stub (0 refs) is someone else
+AVENUE_DE_LA_GRANDE_ARMEE	avenue	common word / title fragment, not a name for this entity
+OEIL_DE_BOEUF	boeuf	common word / title fragment, not a name for this entity
+LES_BRIGANDS	brigands	common word / title fragment, not a name for this entity
+LE_PRE_AUX_CLERCS	clercs	common word / title fragment, not a name for this entity
+LA_FORZA_DEL_DESTINO	destino	common word / title fragment, not a name for this entity
+MELODIE_DE_CAEN	melodie	common word / title fragment, not a name for this entity
+LE_PIED_DE_MOUTON	mouton	common word / title fragment, not a name for this entity
+CODE_PENAL	penal	common word / title fragment, not a name for this entity
+UN_CAS_DE_RUPTURE	rupture	common word / title fragment, not a name for this entity
+LES_DEUX_TIMIDES	timides	common word / title fragment, not a name for this entity
+LE_LYS_DANS_LA_VALLEE	vallee	common word / title fragment, not a name for this entity
+TIR_AUX_PIGEONS	pigeons	common word / title fragment, not a name for this entity
+AMBASSADE_JAPONAISE	japonaise	common word / title fragment, not a name for this entity
+GRAND_DUCHESS	grande-duchesse	generic title
+FRITZ_SOMMELIER	sommelier	common word / title fragment, not a name for this entity
+PARODIE_MIGNON_ACROSTICHE	acrostiche	common word / title fragment, not a name for this entity
+ISCHIA_LOTTERY	lottery	English word, never in the French
+CHARLOTTE_CORDAY	play	English word, never in the French
+MARIE_BASHKIRTSEFF_AUNT	aunt	English word, never in the French
+BASHKIRTSEFF_FATHER	father	English word, never in the French
+MARIE_BASHKIRTSEFF_MOTHER	mother	English word, never in the French
+COMTE_DASPREMONT	dAspremont	mangled fragment
+RUE_DU_CHATEAU_DEAU	dEau	mangled fragment
+CONSEIL_DETAT	dEtat	mangled fragment
+BARON_DE_LARIEGE	lAriege	mangled fragment
+CERCLE_DE_LUNION	lUnion	mangled fragment
+LOUIS_XIV_ET_SES_FEMMES	femmes"	broken fragment
+LES_COURTISANES_DU_MONDE	monde"	broken fragment

@@ -2,7 +2,6 @@
 id: PARODIE_MIGNON_ACROSTICHE
 name: "Parody of Mignon's romance and the acrostic EMILE (1874)"
 aliases:
-  - acrostiche
   - cet acrostiche
   - romance que je viens de refaire
   - romance que je viens de refaire à ma façon
@@ -35,7 +34,7 @@ On 23 December 1874 (027.0364), at her desk, she says: "J'écris, Dina entre et 
 
 **E** ngourdie dans sa graisse / **M** âchonnant Dumas / **I** mperturbable dans sa paresse / **L** a belle dormait et n'aimait pas / **E** mile paraît, et le rêve cesse !
 
-The wording is feminine ("Engourdie", "La belle dormait"), so the person being teased appears to be the listener, [Dina](../../people/core/DINA.md): a stout, idle girl chewing on Dumas, sleeping until "Emile" appears. Which Émile is meant is not stated; in the days around it Marie's mind is on [Émile d'Audiffret](../../people/recurring/EMILE_D_AUDIFFRET.md) (027.0370), which is the likely reference but an inference. The novelist chewed over is [Dumas](../../people/mentioned/DUMAS.md).
+The wording is feminine ("Engourdie", "La belle dormait"), so the person being teased appears to be the listener, [Dina](../../people/core/DINA.md): a stout, idle girl chewing on Dumas, sleeping until "Emile" appears. Which Émile is meant is not stated; in the days around it Marie's mind is on [Émile d'Audiffret](../../people/recurring/EMILE_D_AUDIFFRET.md) (027.0370), which is the likely reference but an inference. The novelist chewed over is [ALEXANDRE_DUMAS_FILS](../../people/mentioned/ALEXANDRE_DUMAS_FILS.md).
 
 %% GLO_PARODIE_MIGNON_ACROSTICHE.0005 %%
 ## The Mignon parody

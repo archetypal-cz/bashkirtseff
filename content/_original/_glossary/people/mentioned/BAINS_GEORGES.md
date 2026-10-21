@@ -3,7 +3,6 @@ id: BAINS_GEORGES
 name: Bains Georges
 aliases:
   - Bains Georges
-  - Georges
 type: Person
 category: people/mentioned
 research_status: Basic

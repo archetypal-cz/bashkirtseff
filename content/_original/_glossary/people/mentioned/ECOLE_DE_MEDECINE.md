@@ -4,7 +4,6 @@ name: Ecole de Medecine
 aliases:
   - Ecole de Medecine
   - Medecine
-  - Ecole
 type: Person
 category: people/mentioned
 research_status: Basic

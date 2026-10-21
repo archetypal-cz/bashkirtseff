@@ -4,7 +4,6 @@ name: Le pre aux clercs
 aliases:
   - Le pre aux clercs
   - Le Pre Aux Clercs
-  - clercs
 type: Person
 category: people/mentioned
 research_status: Basic

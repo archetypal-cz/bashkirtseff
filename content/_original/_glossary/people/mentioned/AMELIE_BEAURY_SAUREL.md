@@ -36,3 +36,5 @@ Wikipedia: [Amélie Beaury-Saurel](https://en.wikipedia.org/wiki/Am%C3%A9lie_Bea
 %% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-31.md (and 1880-04-30.md references to "Amélie"). Amélie Beaury-Saurel (1849-1924), French portrait painter, Julian student and rival of Marie's at the Salon 1880. Later became director of the Académie Julian after Rodolphe Julian's death. Source: Wikipedia, AWARE. %%
 
 %% 2026-10-21T11:42:00 RSR: January 1881 references added from the restored 090 paragraphs; the 090 tags that pointed at the AMELIE.md stub were retargeted here per the tag-audit calibration (rsr-090). %%
+
+%% 2026-10-21T21:17:58 RSR: Merged AMELIE (no content kept: empty stub) %%

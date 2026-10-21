@@ -4,7 +4,6 @@ name: Les courtisanes du monde
 aliases:
   - '"Les courtisanes du monde"'
   - Les Courtisanes du Monde
-  - monde"
   - '"Les'
 type: Person
 category: people/mentioned

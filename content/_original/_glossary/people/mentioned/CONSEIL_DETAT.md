@@ -4,7 +4,6 @@ name: Conseil dEtat
 aliases:
   - Conseil dEtat
   - Conseil Detat
-  - dEtat
 type: Person
 category: people/mentioned
 research_status: Basic

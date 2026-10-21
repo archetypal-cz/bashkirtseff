@@ -3,7 +3,6 @@ id: CESI
 name: Beniamino Cesi
 aliases:
   - Cesi
-  - Ceci
 type: Person
 category: people/mentioned
 research_status: Stub

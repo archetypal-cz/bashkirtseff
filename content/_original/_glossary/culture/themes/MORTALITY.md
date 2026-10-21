@@ -191,7 +191,7 @@ Earlier versions of this entry deliberately tagged figurative death language too
 %% GLO_MORTALITY.0033 %%
 - [DEATH](DEATH.md) -- Literal death events only (funerals, burials, mourning)
 - [HEALTH](HEALTH.md) -- Illness and medical themes
-- [DISEASES](DISEASES.md) -- Specific named illnesses (retired; now part of HEALTH)
+- [HEALTH](HEALTH.md) -- Specific named illnesses (retired; now part of HEALTH)
 - [EMOTIONS](EMOTIONS.md) -- Emotional self-analysis
 - [PHILOSOPHY](PHILOSOPHY.md) -- Existential meditation
 - [JULES_BASTIEN_LEPAGE](../../people/recurring/BASTIEN_LEPAGE.md) -- Fellow artist dying alongside Marie

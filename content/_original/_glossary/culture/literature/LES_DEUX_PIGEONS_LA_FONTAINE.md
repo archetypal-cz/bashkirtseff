@@ -26,7 +26,7 @@ full_text:
 ## Marie and this work
 
 %% GLO_LES_DEUX_PIGEONS_LA_FONTAINE.0004 %%
-%% [#Pietro](../../people/recurring/PIETRO.md) %%
+%% [#Antonelli](../../people/mentioned/ANTONELLI.md) %%
 1 July 1876 (062.0839): on the eve of her departure for Russia, with the separation from Pietro in Rome before her, Marie quotes the line, in guillemets, as the thought that troubles her: "L'absence « est le plus grand des maux »". The reader's footnote in the diary identifies it as La Fontaine IX, 2. Three months of absence "c'est énorme", she fears Pietro may forget her.
 
 %% GLO_LES_DEUX_PIGEONS_LA_FONTAINE.0005 %%

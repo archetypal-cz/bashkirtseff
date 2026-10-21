@@ -3,7 +3,6 @@ id: SAINTE_MARIE
 name: Sainte Marie
 aliases:
   - Sainte Marie
-  - Marie
 type: Person
 category: people/mentioned
 research_status: Basic

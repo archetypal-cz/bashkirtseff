@@ -4,7 +4,6 @@ name: Les brigands
 aliases:
   - Les brigands
   - Les Brigands
-  - brigands
 type: Person
 category: people/mentioned
 research_status: Basic

@@ -4,8 +4,6 @@ name: cafe de la Paix
 aliases:
   - cafe de la Paix
   - Cafe de la Paix
-  - Paix
-  - cafe
 type: Place
 category: places/social
 research_status: Basic

@@ -4,7 +4,6 @@ name: Republique francaise
 aliases:
   - Republique francaise
   - Republique Francaise
-  - francaise
 type: Person
 category: people/mentioned
 research_status: Basic

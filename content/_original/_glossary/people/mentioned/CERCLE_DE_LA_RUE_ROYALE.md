@@ -5,7 +5,6 @@ aliases:
   - Cercle de la rue Royale
   - Cercle de la Rue Royale
   - Royale
-  - Cercle
 type: Person
 category: people/mentioned
 research_status: Basic

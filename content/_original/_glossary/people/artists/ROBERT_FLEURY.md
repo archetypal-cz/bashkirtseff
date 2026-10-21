@@ -9,7 +9,6 @@ aliases:
   - Tony Robert-Fleury
   - M. Robert-Fleury
   - Monsieur Robert-Fleury
-  - fr
 type: Person
 category: people/artists
 research_status: Comprehensive

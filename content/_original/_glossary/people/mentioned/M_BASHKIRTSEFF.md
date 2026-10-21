@@ -3,7 +3,6 @@ id: M_BASHKIRTSEFF
 name: M Bashkirtseff
 aliases:
   - M Bashkirtseff
-  - Bashkirtseff
 type: Person
 category: people/mentioned
 research_status: Basic

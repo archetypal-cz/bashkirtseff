@@ -42,3 +42,5 @@ The tag covers a father and son, both deputies, introduced to Marie as friends o
 ## Related Entries
 
 [To be determined based on research]
+
+%% 2026-10-21T21:18:09 RSR: Merged M_JANVIER_DE_LA_MOTTE (no content kept: empty stub) %%

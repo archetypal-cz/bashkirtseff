@@ -4,8 +4,6 @@ name: Appel au peuple
 aliases:
   - Appel au peuple
   - Appel Au Peuple
-  - peuple
-  - Appel
 type: Culture
 category: culture/history
 research_status: Basic

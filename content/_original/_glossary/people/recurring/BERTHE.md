@@ -136,11 +136,11 @@ Berthe's trajectory illustrates the precariousness of women's social position in
 
 ## Related Entries
 
-- [#Boyd_Family](BOYD_FAMILY.md) - Berthe's aristocratic English family
+- [#Boyd](../mentioned/BOYD.md) - Berthe's aristocratic English family
 - [#Mme_Boyd](../aristocracy/MME_BOYD.md) - Berthe's mother
-- [#Madame_Yorke](../aristocracy/MADAME_YORKE.md) - Berthe's sister
+- [#Yorke](../mentioned/YORKE.md) - Berthe's sister
 - [#Blanche_Boyd](../mentioned/BLANCHE_BOYD.md) - Berthe's sister, married Lord Paget
-- [#Remy_de_Gonzales_Moreno](../mentioned/REMY_DE_GONZALES_MORENO.md) - Her childhood sweetheart
+- [#Remy_de_Gonzales](../mentioned/REMY_DE_GONZALES.md) - Her childhood sweetheart
 - [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) - Shared romantic interest
 - [#Cassagnac](CASSAGNAC.md) - The masked visit episodes
 - [#Baden_Baden](../../places/travel/BADEN_BADEN.md) - Where Marie first met her

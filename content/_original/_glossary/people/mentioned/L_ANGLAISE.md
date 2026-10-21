@@ -4,7 +4,6 @@ name: L Anglaise
 aliases:
   - L Anglaise
   - l'Anglaise
-  - Anglaise
 type: Person
 category: people/mentioned
 research_status: Basic

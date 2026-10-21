@@ -3,7 +3,6 @@ id: MERE_GEORGES
 name: Mere Georges
 aliases:
   - Mere Georges
-  - Georges
 type: Person
 category: people/mentioned
 research_status: Stub

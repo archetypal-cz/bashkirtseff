@@ -4,7 +4,6 @@ name: Ischia lottery
 aliases:
   - Ischia lottery
   - Ischia Lottery
-  - lottery
 type: Person
 category: people/mentioned
 research_status: Basic

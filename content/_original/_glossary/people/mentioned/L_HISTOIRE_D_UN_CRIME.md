@@ -4,7 +4,6 @@ name: L Histoire d un crime
 aliases:
   - L Histoire d un crime
   - l'Histoire d'Un Crime
-  - crime
 type: Person
 category: people/mentioned
 research_status: Basic

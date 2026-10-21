@@ -4,7 +4,6 @@ name: Un cas de rupture
 aliases:
   - Un cas de rupture
   - Un Cas de Rupture
-  - rupture
 type: Person
 category: people/mentioned
 research_status: Basic

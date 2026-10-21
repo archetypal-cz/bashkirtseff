@@ -4,9 +4,6 @@ name: Cercle de la Méditerranée
 aliases:
   - Cercle de la Méditerranée
   - Cercle de la Mediterranee
-  - Cercle
-  - Méditerranée
-  - Mediterranee
 type: Place
 category: places/social
 research_status: Basic

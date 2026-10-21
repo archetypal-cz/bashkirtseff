@@ -5,7 +5,6 @@ aliases:
   - jardin de l Orangerie
   - Jardin de l'Orangerie
   - Orangerie
-  - jardin
 type: Person
 category: people/mentioned
 research_status: Basic

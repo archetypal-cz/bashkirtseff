@@ -23,7 +23,7 @@ After Robert Milton's insinuating report on the Nice races in *Le Sport* (27 Jan
 ## Related
 - [ROBERT_MILTON](../writers/ROBERT_MILTON.md)
 - [MALAUSSENA](MALAUSSENA.md)
-- [FIGARO](../../culture/literature/FIGARO.md)
+- [LE_FIGARO](../../culture/newspapers/LE_FIGARO.md)
 - [JARDIN_VILLEMESSANT](../../places/parks/JARDIN_VILLEMESSANT.md)
 
 %% 2026-09-27T22:18:57 RSR: Replaced auto-generated stub with identity and the January 1877 Le Sport affair (carnet 068). %%

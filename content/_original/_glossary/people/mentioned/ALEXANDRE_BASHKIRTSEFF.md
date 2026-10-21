@@ -3,7 +3,6 @@ id: ALEXANDRE_BASHKIRTSEFF
 name: Alexandre Bashkirtseff
 aliases:
   - Alexandre Bashkirtseff
-  - Bashkirtseff
 type: Person
 category: people/mentioned
 research_status: Basic

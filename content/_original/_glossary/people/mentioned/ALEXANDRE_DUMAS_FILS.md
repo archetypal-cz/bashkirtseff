@@ -4,7 +4,6 @@ name: Alexandre Dumas fils
 aliases:
   - Alexandre Dumas fils
   - Alexandre Dumas Fils
-  - Alexandre
 type: Person
 category: people/mentioned
 research_status: Basic

@@ -51,7 +51,7 @@ Oil on canvas, 92,5 × 73 cm. Marie leaves no description of the composition, bu
 ## Making of the Work
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0008 %%
-%% [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) [#Health](../themes/HEALTH.md) %%
+%% [#Robert_fleury](../../people/artists/ROBERT_FLEURY.md) [#Health](../themes/HEALTH.md) %%
 The picture was painted over about a fortnight at the turn of 1881–82, in a burst of energy and then in illness. It begins on **29 December 1881** (¶ 094.DROPPED-0057): "Je fais le portrait de la femme à Paul, hier c'était une telle reprise de forces que je voulais faire à la fois Dina, Nini et Irma." Two days later she took the *esquisse* to Tony Robert-Fleury, who found it "très originale, très original d'arrangement et bien parti" (¶ 094.0115).
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0009 %%
@@ -76,7 +76,7 @@ The painting is not mentioned again after January 1882; it does not reappear in 
 - [#Nini](../../people/mentioned/NINI.md) — the sitter, Alexandrine Patchenko
 - [#Paul](../../people/family/PAUL.md) — her husband, Marie's brother
 - [#Portrait_Paul](./PORTRAIT_PAUL.md) — Marie's portrait of the brother, at Nice
-- [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) · [#Art_practice](../themes/ART_PRACTICE.md) · [#Portrait](./PORTRAIT.md)
+- [#Robert_fleury](../../people/artists/ROBERT_FLEURY.md) · [#Art_practice](../themes/ART_PRACTICE.md) · [#Portrait](./PORTRAIT.md)
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0015 %%
 ## Sources

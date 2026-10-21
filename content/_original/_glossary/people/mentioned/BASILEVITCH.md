@@ -36,3 +36,5 @@ Mme Basilévitch, a lady of the Spa season of 1874. Marie meets her on 26 June 1
 ## Related Entries
 
 [To be determined based on research]
+
+%% 2026-10-21T21:21:32 RSR: Merged MME_BASILEVITCH (no content kept: empty stub) %%

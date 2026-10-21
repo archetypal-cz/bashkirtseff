@@ -3,8 +3,6 @@ id: ECOLE_DES_BEAUX_ARTS
 name: Ecole des Beaux Arts
 aliases:
   - Ecole des Beaux Arts
-  - Ecole
-  - Arts
 type: Person
 category: people/mentioned
 research_status: Basic

@@ -7,18 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: MME_DE_BRIMOND
 ---
-# Madame de Brimond
 
-**Research Status**: Basic
-**Last Updated**: 2025-01-23
-**Diary Coverage**: Up to 1880-10-24
+%% GLO_BRIMOND.0001 %%
+**Retired.** Merged into [#MME_DE_BRIMOND](MME_DE_BRIMOND.md) (`people/mentioned/MME_DE_BRIMOND.md`); use that entry instead.
 
-Madame de Brimond was a Parisian friend of Marie and her aunt in 1880. Marie describes her as "a charming woman."
-
-On October 24, 1880, when Marie and her aunt couldn't get a carriage due to rain, Mme de Brimond drove them to "number 37" (likely the address of Dr. Potain or another doctor they were consulting).
-
-Marie notes poignantly: "It's a charming woman and I don't go to her house for fear..." - leaving the sentence unfinished but clearly referring to her increasing deafness, which made her terrified of social visits where she might be unable to hear conversation.
-
-Despite Mme de Brimond's kindness and charm, Marie was avoiding social contact with her precisely because of this disability - revealing how Marie's hearing loss was increasingly isolating her from even her closest friends.
+%% GLO_BRIMOND.0002 %%
+%% 2026-10-21T21:17:46 RSR: Retired by glossary-merge; content and links moved to MME_DE_BRIMOND. replaced_by: people/mentioned/MME_DE_BRIMOND.md. %%

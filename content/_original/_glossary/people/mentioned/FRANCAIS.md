@@ -1,8 +1,7 @@
 ---
 id: FRANCAIS
 name: Francais
-aliases:
-  - Francais
+aliases: []
 type: Person
 category: people/mentioned
 research_status: Basic

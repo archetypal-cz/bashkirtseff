@@ -4,7 +4,6 @@ name: Oeil de boeuf
 aliases:
   - Oeil de boeuf
   - Oeil de Boeuf
-  - boeuf
   - Oeil
 type: Person
 category: people/mentioned

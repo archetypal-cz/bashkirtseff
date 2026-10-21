@@ -25,9 +25,34 @@ This reveals the family's tendency to keep Marie uninformed about difficult matt
 The name Woldemar (German/Baltic form of Vladimir) suggests Baltic German or Russified German origins.
 
 ## Identity
-Woldemar is Marie's maternal uncle, Wladimir (Vladimir) Stepanovich Babanine, a brother of Maman. The Mon Journal t.9 index lists «Babanine (Wladimir Stépanovitch [Woldemar]), onde [oncle] de Marie Bashkirtseff». Marie calls him «Mon oncle Woldemar» when he turns up in Paris in September 1880 (089.0569, 089/1880-09-17), and «mon oncle Voldemar» in 1876 (066.0703). He is therefore family, not a «family associate». The guess above about Baltic German origins is contradicted by the index and should be disregarded: Woldemar is simply the Western form of the name Vladimir. The same uncle has two more files, [ONCLE_WLADIMIR](ONCLE_WLADIMIR.md) (Gavronzi, July 1881: «Mes deux oncles Etienne et Wladimir», 092.0159) and [UNCLE_WLADIMIR](UNCLE_WLADIMIR.md). The duplication is logged in the open-items ledger.
+Woldemar is Marie's maternal uncle, Wladimir (Vladimir) Stepanovich Babanine, a brother of Maman. The Mon Journal t.9 index lists «Babanine (Wladimir Stépanovitch [Woldemar]), onde [oncle] de Marie Bashkirtseff». Marie calls him «Mon oncle Woldemar» when he turns up in Paris in September 1880 (089.0569, 089/1880-09-17), and «mon oncle Voldemar» in 1876 (066.0703). He is therefore family, not a «family associate». The guess above about Baltic German origins is contradicted by the index and should be disregarded: Woldemar is simply the Western form of the name Vladimir. The same uncle has two more files, [ONCLE_WLADIMIR](WOLDEMAR.md) (Gavronzi, July 1881: «Mes deux oncles Etienne et Wladimir», 092.0159) and [UNCLE_WLADIMIR](WOLDEMAR.md). The duplication is logged in the open-items ledger.
 
 ## Crimean War
 On 7 October 1876 Marie wears a Cross of St George that, she writes, «a été donnée par le grand-duc Michel ou Nicolas à mon oncle Voldemar sur le Kourgan de Malakoff, où il restait seul avec quatre ou cinq soldats, sans perdre courage et chargeant lui-même les canons». Maman had put the cross away after the Crimean campaign, and Marie found it while going through things at Tchernakowka (066.0702–0703, 066/1876-10-07). This is family tradition as Marie reports it; no service record has been checked. That he is the same uncle as the 1880 «oncle Woldemar» rests on the name alone (0.8).
 
 %% 2026-10-21T10:30:27 RSR: Identity and Crimean War sections added during RSR research of the restored 066 paragraphs (rsr-066b). Source: the Mon Journal t.9 index. The older body text above is left as it was. Note also that 064/1876-08-04 tags this file for the Grand Prince «saint Woldemar» (Vladimir the Great), which is a mis-tag. %%
+
+%% 2026-10-21T21:15:08 RSR: Merged content from ONCLE_WLADIMIR %%
+
+**Research Status**: Basic
+**Last Updated**: 2025-01-24
+**Diary Coverage**: Up to July 1881
+
+Uncle Wladimir (Vladimir) is one of Marie's uncles who visits Gavronzi during summer 1881. Marie notes his talent for imitation and finds him amusing.
+
+**Key Diary References**:
+- July 2, 1881: "Mes deux oncles Etienne et Wladimir sont ici. Wladimir a un talent d'imitation très amusant" - Wladimir has an amusing talent for imitation
+- July 2, 1881: "Wladimir accourt avec un verre de lait" - Wladimir rushes over with a glass of milk as part of the family's health-watching over Marie
+
+**Context**:
+- Visits Gavronzi during the Russian summer
+- Part of the extended Bashkirtseff family circle
+- Has entertaining skills (imitation/mimicry)
+- Participates in family efforts to monitor Marie's health
+
+**Research Notes**:
+- Full name and exact family relationship need confirmation
+- Possibly Pavel Bashkirtseff's brother
+- Further research needed into the Bashkirtseff family tree
+
+%% 2026-10-21T21:15:19 RSR: Merged UNCLE_WLADIMIR (no content kept: empty stub) %%

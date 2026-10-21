@@ -49,3 +49,5 @@ Marie's creation of this society demonstrates her tendency to mythologize her ex
 - Romantic pursuits and social adventures
 
 %% 2026-10-21T13:05:00 RSR: Founding scene, 9 May 1875 (restored paragraphs 032.0368-0370): in Marie's study she proposes "une maçonnerie" whose aim is "l'accaparation des jeunes gens"; the three girls brew a philtre from soda water, pebbles from Rosalie Léon's terrace and leaves from Gioia's garden, add three drops of blood each and swear an oath. Device: "Trois grâces soutenant un ruban enguirlandé de roses", motto "Audacter et amanter" ("hardiment et tendrement"). Kernberger (2013, glossary) calls the device "A. T. E." (Aglaia, Thalia, Euphrosyne). %%
+
+%% 2026-10-21T21:21:21 RSR: Merged GRACES (no content kept: empty stub) %%

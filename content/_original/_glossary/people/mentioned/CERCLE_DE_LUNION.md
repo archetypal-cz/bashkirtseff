@@ -4,8 +4,6 @@ name: Cercle de lUnion
 aliases:
   - Cercle de lUnion
   - Cercle de Lunion
-  - lUnion
-  - Cercle
 type: Person
 category: people/mentioned
 research_status: Basic

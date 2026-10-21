@@ -5,8 +5,8 @@ aliases:
   - Palais d Hooghworst
   - Palais d'Hooghworst
   - Hooghworst
-type: Person
-category: people/mentioned
+type: Place
+category: places/buildings
 research_status: Basic
 last_updated: 2026-03-06
 ---

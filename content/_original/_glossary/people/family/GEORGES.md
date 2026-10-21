@@ -10,15 +10,7 @@ aliases:
   - M. Georges de Babanine
   - Uncle Georges
   - mon oncle Georges
-  - ce monstre
-  - ce misérable
-  - cette canaille
-  - ce cher trésor
   - cet adorable Georges
-  - le monstre
-  - cette horreur
-  - diadia
-  - Diadia
 type: Person
 category: people/family
 research_status: Comprehensive

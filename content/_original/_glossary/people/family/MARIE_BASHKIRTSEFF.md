@@ -3,7 +3,6 @@ id: MARIE_BASHKIRTSEFF
 name: Marie Bashkirtseff
 aliases:
   - Marie Bashkirtseff
-  - Bashkirtseff
   - Marie Bachkirtseff
   - Bachkirtseff
   - Marie Bashkirseff

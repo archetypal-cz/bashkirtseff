@@ -4,7 +4,6 @@ name: avenue de la Grande Armee
 aliases:
   - avenue de la Grande Armee
   - Avenue de la Grande Armee
-  - avenue
   - Armee
 type: Place
 category: places/streets

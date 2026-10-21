@@ -11,6 +11,7 @@ aliases:
   - le père Saint Amand
   - Imbert de Saint-Amand
   - Arthur de Saint-Amand
+  - Saint Agathe
 type: Person
 category: people/writers
 research_status: Comprehensive
@@ -75,3 +76,5 @@ His real service is publicity. In early 1881 he takes charge of launching her in
 
 %% GLO_SAINT_AMAND.0016 %%
 %% 2026-10-11T12:00:00 RSR: REWRITE from a Basic stub. The old page listed him as "a musical friend" and filed him under people/religious (the file name sounds like a saint); he belongs in people/mentioned (lead to move). IDENTIFICATION probable, not certain: earlier footnotes in 091.0285 and 091.0179 already call him "Baron Arthur de Saint-Amand" and "Arthur de Saint-Amand" without a source. Pro: baron; Foreign Ministry; Récamier-Girardin; books with dedications; Marie-Antoinette volumes. Contra / open: (a) 089.0316 (1880-08-11) "Mme de Saint Amand est allée au Mont-Dore avec l'intention de demander ma main pour son frère" and 095.0294 (1882-07-16) "la baronne et son fils" and 101.0072 "la baronne de Saint-Amand" imply a Baronne de Saint-Amand and a son; the historian's mother died 1872 and his only sister Philippine in 1875 (per fr.wikipedia), and no marriage was found, so this may be a different family member or a wife not found; (b) he is called "vieux" by himself in 1880 (087.0752: aged 45, plausible). Footnote claim "Les Dernières Années de Marie-Antoinette (1879)" not verified; BnF cites "Les Beaux Jours de Marie-Antoinette" (1879) in his record. Both existing footnotes should be re-worded to "probably Arthur-Léon Imbert de Saint-Amand". "Agathe" = pen name in Le Sport/feuilleton "Baron de Saint-Agathe" (091.0410 footnote), not verified. %%
+
+%% 2026-10-21T21:23:53 RSR: Merged SAINT_AGATHE (no content kept: empty stub) %%

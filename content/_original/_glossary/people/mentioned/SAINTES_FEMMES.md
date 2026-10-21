@@ -4,7 +4,6 @@ name: Saintes femmes
 aliases:
   - Saintes femmes
   - Saintes Femmes
-  - femmes
 type: Person
 category: people/mentioned
 research_status: Basic

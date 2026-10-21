@@ -1,8 +1,7 @@
 ---
 id: ANGLAIS
 name: Anglais
-aliases:
-  - Anglais
+aliases: []
 type: Person
 category: people/mentioned
 research_status: Basic

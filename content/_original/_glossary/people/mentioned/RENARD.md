@@ -31,7 +31,7 @@ Papa's beloved pet animal (likely a dog).
 
 ## Related Entries
 - [#Grand_papa](../family/GRAND_PAPA.md) - Owner (Marie's "papa" in 1873–1875 = her grandfather Stepan Babanine)
-- [#Stiopa](STIOPA.md) - Finder
+- [#Tante_Etienne](../family/TANTE_ETIENNE.md) - Finder
 
 ## Research Notes
 - Pet ownership in 1870s Nice

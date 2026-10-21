@@ -31,3 +31,5 @@ This entry was mentioned 2 times in Book 13 of Marie's diary (1879).
 ## Related Entries
 
 [To be determined based on research]
+
+%% 2026-10-21T21:18:57 RSR: Merged DUGUE_DE_LA_FAUCONNERIE (no content kept: empty stub) %%

@@ -7,21 +7,13 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: MME_DE_POURTALES
 ---
-# Madame de Pourtales
 
-## Basic Information
-- Type: people - aristocracy
-- Status: Stub entry (automatically generated)
+%% GLO_MADAME_DE_POURTALES.0001 %%
+**Retired.** Merged into [#MME_DE_POURTALES](../mentioned/MME_DE_POURTALES.md) (`people/mentioned/MME_DE_POURTALES.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_MADAME_DE_POURTALES.0002 %%
+%% 2026-10-21T21:24:05 RSR: Retired by glossary-merge; content and links moved to MME_DE_POURTALES. replaced_by: people/mentioned/MME_DE_POURTALES.md. %%

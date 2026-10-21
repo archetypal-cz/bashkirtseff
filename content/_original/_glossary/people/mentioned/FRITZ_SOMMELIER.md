@@ -4,7 +4,6 @@ name: Fritz sommelier
 aliases:
   - Fritz sommelier
   - Fritz Sommelier
-  - sommelier
 type: Person
 category: people/mentioned
 research_status: Basic

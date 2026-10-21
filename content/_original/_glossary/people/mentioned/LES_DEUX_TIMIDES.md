@@ -4,7 +4,6 @@ name: Les deux timides
 aliases:
   - Les deux timides
   - Les Deux Timides
-  - timides
 type: Person
 category: people/mentioned
 research_status: Basic

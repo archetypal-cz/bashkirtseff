@@ -14,7 +14,6 @@ aliases:
   - mon Mirabeau
   - ce turc
   - Paolo
-  - Paul
 type: Person
 category: people/recurring
 research_status: Comprehensive

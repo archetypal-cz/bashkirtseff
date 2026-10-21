@@ -119,12 +119,12 @@ Breslau's career shows what women artists could reach in the 1880s through the A
 - [#Academie_Julian](../../places/schools/JULIAN.md) - the school where they competed
 - [#Art_Practice](../../culture/themes/ART_PRACTICE.md) - Marie's artistic development, Breslau's role in it
 - [#Rodolphe_Julian](../recurring/RODOLPHE_JULIAN.md) - school director who managed the rivalry
-- [#Tony](../mentioned/TONY.md) - Tony Robert-Fleury, teacher of both
-- [#Amelie](../mentioned/AMELIE.md) - Amélie Beaury-Saurel, fellow student ("d'Artagnan")
+- [#Robert_fleury](ROBERT_FLEURY.md) - Tony Robert-Fleury, teacher of both
+- [#Amelie](../mentioned/AMELIE_BEAURY_SAUREL.md) - Amélie Beaury-Saurel, fellow student ("d'Artagnan")
 - [#Schaeppi](../mentioned/SCHAEPPI.md) - Sophie Schaeppi, Swiss friend ("Porthos")
 - [#Sarah_Purser](../mentioned/SARAH_PURSER.md) - Irish student who reconciled them in 1879
 - [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) - painter both women admired
-- [#Cartwright](../mentioned/CARTWRIGHT.md) - patron who played them against each other
+- [#Mme_cartwright](../mentioned/MME_CARTWRIGHT.md) - patron who played them against each other
 - [#Feurgard](../mentioned/FEURGARD.md) - mutual friend and go-between
 - [#Wolff](../writers/WOLFF.md) - the critic whose praise of Breslau stung Marie
 - [#Salon](../../culture/art/SALON.md)

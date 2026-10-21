@@ -20,7 +20,7 @@ For the brother Marie knew in Nice in January-February 1877, see [ALEXIS_DE_MEYS
 - 1877-12-27 (carnet 077)
 
 ## Related
-- [SAPOGENIKOFF_OLGA](SAPOGENIKOFF_OLGA.md)
+- [OLGA](OLGA.md)
 - [ALEXIS_DE_MEYSSNER](ALEXIS_DE_MEYSSNER.md)
 
 %% 2026-09-27T22:18:57 RSR: Replaced auto-generated stub: disambiguated from ALEXIS_DE_MEYSSNER (Kernberger 2013; 077/1877-12-27). %%

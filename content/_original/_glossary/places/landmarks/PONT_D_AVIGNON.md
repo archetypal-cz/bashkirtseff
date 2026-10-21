@@ -4,8 +4,6 @@ name: pont d Avignon
 aliases:
   - pont d Avignon
   - Pont d'Avignon
-  - Avignon
-  - pont
 type: Place
 category: places/landmarks
 research_status: Basic

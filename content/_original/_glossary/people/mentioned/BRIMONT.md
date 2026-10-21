@@ -7,19 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: MME_DE_BRIMOND
 ---
-# Madame de Brimont
 
-**Research Status**: Basic
-**Last Updated**: 2025-01-23
-**Diary Coverage**: Up to 1881-02-09
+%% GLO_BRIMONT.0001 %%
+**Retired.** Merged into [#MME_DE_BRIMOND](MME_DE_BRIMOND.md) (`people/mentioned/MME_DE_BRIMOND.md`); use that entry instead.
 
-A woman in Marie's Parisian social circle during the early 1880s. Marie finds social interactions at Mme de Brimont's gatherings difficult, mentioning occasions where she couldn't find "deux mots de suite" (two words in a row).
-
-## Diary References
-- February 5, 1881: Marie references difficulties at Mme de Brimont's
-- February 9, 1881: Marie visits or mentions Mme de Brimont
-
-## Notes
-Part of the upper-class Parisian social circle. Further research needed on her identity and salon.
+%% GLO_BRIMONT.0002 %%
+%% 2026-10-21T21:17:33 RSR: Retired by glossary-merge; content and links moved to MME_DE_BRIMOND. replaced_by: people/mentioned/MME_DE_BRIMOND.md. %%

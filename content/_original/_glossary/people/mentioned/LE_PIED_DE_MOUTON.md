@@ -4,7 +4,6 @@ name: Le pied de mouton
 aliases:
   - Le pied de mouton
   - Le Pied de Mouton
-  - mouton
 type: Person
 category: people/mentioned
 research_status: Basic

@@ -4,7 +4,6 @@ name: Charlotte Corday (play)
 aliases:
   - Charlotte Corday (play)
   - Charlotte Corday
-  - play
 type: Culture
 category: culture/theater
 research_status: Basic

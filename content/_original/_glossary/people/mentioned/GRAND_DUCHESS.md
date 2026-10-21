@@ -2,7 +2,6 @@
 id: GRAND_DUCHESS
 name: Grand Duchess (Nice, 1873)
 aliases:
-  - grande-duchesse
   - Grand Duchess
 type: Person
 category: people/mentioned

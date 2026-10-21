@@ -20,18 +20,18 @@ full_text:
 ## Overview
 
 %% GLO_LE_ROMAN_D_UNE_FEMME_DUMAS_FILS.0002 %%
-%% [#Dumas_fils](../../people/mentioned/DUMAS_FILS.md) %%
+%% [#Alexandre_dumas_fils](../../people/mentioned/ALEXANDRE_DUMAS_FILS.md) %%
 *Le Roman d'une femme* is an early novel by Alexandre Dumas fils (1824–1895), the author of *La Dame aux camélias*. It appeared in the years after that book (1848 per the 1911 Encyclopaedia Britannica; 1849 per Wikipedia's bibliography). This entry does not summarise the plot, as the novel was not read for it; Marie's comments below are the only description.
 
 %% GLO_LE_ROMAN_D_UNE_FEMME_DUMAS_FILS.0003 %%
 ## Marie and this work
 
 %% GLO_LE_ROMAN_D_UNE_FEMME_DUMAS_FILS.0004 %%
-%% [#Dumas_fils](../../people/mentioned/DUMAS_FILS.md) [#Reading](../themes/READING.md) %%
+%% [#Alexandre_dumas_fils](../../people/mentioned/ALEXANDRE_DUMAS_FILS.md) [#Reading](../themes/READING.md) %%
 8 January 1879 (083.0569–0570): "Je viens de lire 'Le roman d'une femme' par Dumas fils. Rarement on rencontre des choses plus révoltantes et plus odieuses. C'est immoral et pourtant cela fait horreur, donc ce n'est plus immoral n'étant pas tentant." She objects that Dumas himself "se méprend sur le sens du mot" when he paints Marie, the heroine, as the ideal of innocence: *nocens* ("nocens ou nocoens" in her spelling) means harmful or guilty, so *innocent* must mean not guilty, not harmful, and "si Marie était innocente, Le roman d'une femme n'existerait pas".
 
 %% GLO_LE_ROMAN_D_UNE_FEMME_DUMAS_FILS.0005 %%
-%% [#Dumas_fils](../../people/mentioned/DUMAS_FILS.md) %%
+%% [#Alexandre_dumas_fils](../../people/mentioned/ALEXANDRE_DUMAS_FILS.md) %%
 21 June 1879 (085.0427), writing about the death of the Prince Imperial (085.0425–0426), she compares it to "l'invraisemblable, l'infâme et le révoltant 'Roman d'une femme' de Dumas fils": events over which centuries pass but which stay "navrants et horribles".
 
 %% GLO_LE_ROMAN_D_UNE_FEMME_DUMAS_FILS.0006 %%

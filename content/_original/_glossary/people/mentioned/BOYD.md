@@ -90,7 +90,7 @@ Berthe (possibly Berthe Boyd) appears again in Marie's diary in September 1873 a
 
 - [#Berthe](../recurring/BERTHE.md) - Berthe Boyd
 - [#Baden_Baden](../../places/travel/BADEN_BADEN.md) - The spa resort where they met
-- [#Remy_de_Gonzales_Moreno](REMY_DE_GONZALES_MORENO.md) - Berthe's young admirer
+- [#Remy_de_Gonzales](REMY_DE_GONZALES.md) - Berthe's young admirer
 - [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) - Later romantic rival context
 
 %% 2025-12-07T14:30:00 RSR: Created comprehensive entry for Boyd Family based on Book 00 retrospective narrative. The Boyd family represents Marie's first conscious experience of social exclusion and class anxiety, a theme that would dominate her life. %%

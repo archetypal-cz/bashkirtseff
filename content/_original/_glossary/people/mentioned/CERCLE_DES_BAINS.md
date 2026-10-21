@@ -3,7 +3,6 @@ id: CERCLE_DES_BAINS
 name: Cercle des Bains
 aliases:
   - Cercle des Bains
-  - Cercle
   - Bains
 type: Person
 category: people/mentioned

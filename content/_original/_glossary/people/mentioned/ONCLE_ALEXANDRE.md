@@ -7,21 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: ALEXANDRE
 ---
-# Oncle Alexandre
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_ONCLE_ALEXANDRE.0001 %%
+**Retired.** Merged into [#ALEXANDRE](../core/ALEXANDRE.md) (`people/core/ALEXANDRE.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_ONCLE_ALEXANDRE.0002 %%
+%% 2026-10-21T21:25:28 RSR: Retired by glossary-merge; content and links moved to ALEXANDRE. replaced_by: people/core/ALEXANDRE.md. %%

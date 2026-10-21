@@ -107,7 +107,7 @@ Marie saw Grand-papa as someone who wasted his considerable gifts:
 
 ### Family Authority - Limited and Defied
 
-**Sons' Marriages**: "Presque tous ses fils se sont mariés sans le lui dire" (Almost all his sons married without telling him). When [#Alexandre](../core/ALEXANDRE.md) married [#Nadine_Martinoff](../mentioned/NADINE_MARTINOFF.md), Grand-papa was furious, but this defiance was a pattern.
+**Sons' Marriages**: "Presque tous ses fils se sont mariés sans le lui dire" (Almost all his sons married without telling him). When [#Alexandre](../core/ALEXANDRE.md) married [#Nadine](../mentioned/NADINE.md), Grand-papa was furious, but this defiance was a pattern.
 
 **Absent from Schemes**: When the family gathered at [#Akhtyrka](../../places/travel/AKHTYRKA.md) to entrap [#Romanoff](../mentioned/ROMANOFF.md), Grand-papa was notably absent ("tout le monde s'installe, sauf grand-papa"). This suggests either disapproval of such machinations or deliberate exclusion.
 

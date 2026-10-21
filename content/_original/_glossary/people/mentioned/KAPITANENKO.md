@@ -29,3 +29,5 @@ Kapitanenko is mentioned as someone who was fetched to attend Paul and Nini's we
 - Full name and background need research
 - Likely local gentry or professional (lawyer, doctor, official)
 - Part of the social network around the Bashkirtseff and Eristoff families
+
+%% 2026-10-21T21:14:33 RSR: Merged KAPITAN (no content kept: empty stub) %%

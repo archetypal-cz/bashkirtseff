@@ -5,7 +5,6 @@ aliases:
   - Paul Le Roux
   - Paul le Roux
   - Roux
-  - Paul
 type: Person
 category: people/mentioned
 research_status: Basic

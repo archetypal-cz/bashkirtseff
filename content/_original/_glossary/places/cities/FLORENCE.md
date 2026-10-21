@@ -169,7 +169,7 @@ Florence represents several overlapping meanings across the diary's twelve years
 ## Note: "Florence" as Personal Name
 
 Several diary references to "Florence" refer to people, not the city:
-- **[Florence Foster](../../people/mentioned/FLORENCE_FOSTER.md)**: Acquaintance from Ostende (carnet 024)
+- **[Florence Foster](../../people/mentioned/FOSTER.md)**: Acquaintance from Ostende (carnet 024)
 - **[Florence Lacon](../../people/mentioned/FLORENCE_LACON.md)**: Friend who introduces Marie to M. de Lesseps (carnets 082, 085); "Florence s'ennuyait et voulait partir" (085.0597) refers to this person
 - **Florence Graham**: Fellow art student at the atelier (carnet 087)
 

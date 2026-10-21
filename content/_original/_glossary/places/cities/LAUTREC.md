@@ -8,36 +8,13 @@ aliases:
 type: Place
 category: places/cities
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: ONCLE_LAUTREC
 ---
-# Lautrec (Sacha)
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-06
-**Diary Coverage**: Up to 1874-04-19
+%% GLO_LAUTREC.0001 %%
+**Retired.** Merged into [#ONCLE_LAUTREC](../../people/mentioned/ONCLE_LAUTREC.md) (`people/mentioned/ONCLE_LAUTREC.md`); use that entry instead.
 
-## Identity
-Man used as comparison for Tchernichoff's personality type - appears to be a known womanizer with affected manners.
-
-## Diary References
-
-### 1874
-- **April 19**: Tchernichoff described as "the genre of Sacha Lautrec that is the best description of his person." Marie later calls Tchernichoff "Lautrec n° 2" and "un vrai Lautrec."
-
-## Context
-- First name: Sacha (Alexander)
-- Represents a type of man:
-  - Affected simplicity
-  - Makes witticisms
-  - Charms women
-  - Possibly older, dyes hair
-  - Rude manners beneath charm
-- Used as archetype for seducers
-
-## Related Entries
-- [#Tchernichoff](../../people/mentioned/TCHERNICHOFF.md) - Compared to him
-
-## Research Notes
-- Male archetypes in 1870s society
-- Seduction techniques and social types
-- Russian/French naming (Sacha)
+%% GLO_LAUTREC.0002 %%
+%% 2026-10-21T21:17:21 RSR: Retired by glossary-merge; content and links moved to ONCLE_LAUTREC. replaced_by: people/mentioned/ONCLE_LAUTREC.md. %%

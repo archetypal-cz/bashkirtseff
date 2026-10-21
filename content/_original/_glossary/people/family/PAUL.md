@@ -7,7 +7,6 @@ aliases:
   - Pavel Konstantinovich Bashkirtsev
   - Paul
   - mon frère Paul
-  - mon frère
 type: Person
 category: people/family
 research_status: Comprehensive

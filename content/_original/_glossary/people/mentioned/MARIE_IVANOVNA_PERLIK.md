@@ -4,7 +4,6 @@ name: Marie Ivanovna Perlik
 aliases:
   - Marie Ivanovna Perlik
   - Perlik
-  - Marie
 type: Person
 category: people/mentioned
 research_status: Basic

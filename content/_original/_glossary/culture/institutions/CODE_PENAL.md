@@ -4,7 +4,6 @@ name: Code penal
 aliases:
   - Code penal
   - Code Penal
-  - penal
 type: Culture
 category: culture/institutions
 research_status: Basic

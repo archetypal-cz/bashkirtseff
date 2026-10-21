@@ -3,8 +3,6 @@ id: PETIT_SAINT_THOMAS
 name: Petit Saint Thomas
 aliases:
   - Petit Saint Thomas
-  - Thomas
-  - Petit
 type: Person
 category: people/mentioned
 research_status: Basic

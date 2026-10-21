@@ -7,21 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: ANDRIEUX
 ---
-# M Andrieux
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_M_ANDRIEUX.0001 %%
+**Retired.** Merged into [#ANDRIEUX](ANDRIEUX.md) (`people/mentioned/ANDRIEUX.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_M_ANDRIEUX.0002 %%
+%% 2026-10-21T21:26:05 RSR: Retired by glossary-merge; content and links moved to ANDRIEUX. replaced_by: people/mentioned/ANDRIEUX.md. %%

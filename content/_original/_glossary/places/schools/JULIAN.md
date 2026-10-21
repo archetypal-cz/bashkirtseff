@@ -6,7 +6,6 @@ aliases:
   - Atelier Julian
   - Julian
   - chez Julian
-  - l'atelier
 type: Place
 category: places/schools
 research_status: Comprehensive
@@ -259,7 +258,7 @@ The Académie Julian operated continuously from 1868 until 1968, when it was int
 - [#Rodolphe_Julian](../../people/recurring/RODOLPHE_JULIAN.md) -- The founder
 - [#Robert_Fleury](../../people/artists/ROBERT_FLEURY.md) -- Principal visiting professor
 - [#Louise_Breslau](../../people/artists/LOUISE_BRESLAU.md) -- Marie's chief rival
-- [#Amelie](../../people/mentioned/AMELIE.md) -- Fellow student, later Mme Julian
+- [#Amelie](../../people/mentioned/AMELIE_BEAURY_SAUREL.md) -- Fellow student, later Mme Julian
 - [#Art_practice](../../culture/themes/ART_PRACTICE.md) -- Thematic entry on Marie's artistic development
 - [#Salon](../../culture/art/SALON.md) -- The annual Paris exhibition
 - [#Paris](../cities/PARIS.md) -- The city

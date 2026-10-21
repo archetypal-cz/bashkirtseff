@@ -42,3 +42,35 @@ The Mon Journal t.5 index lists «Toulouse-Lautrec (comte de), [Diadia], 248, 25
 
 ## 1874: "Diadia" in Nice (RSR, 2026-10-21)
 The Mon Journal t.3 index lists «Toulouse-Lautrec (Sacha de) [Diadia], 6, 17, 57, 87, 154, 165», «Toulouse-Lautrec (Emile de), 166» and «Diadia : Toulouse-Lautrec, (comte de)». On 9 April 1874 (t.3 p.154) «Diadia» passes on the gossip that Prince Wittgenstein has married Rosalie Léon (018.0210, retagged here from DIADIA). The other DIADIA tags of 1873–74 (16 files) have not been audited against the index pages (see ledger B-55).
+
+%% 2026-10-21T21:17:21 RSR: Merged content from LAUTREC %%
+
+**Research Status**: Basic
+**Last Updated**: 2025-07-06
+**Diary Coverage**: Up to 1874-04-19
+
+## Identity
+Man used as comparison for Tchernichoff's personality type - appears to be a known womanizer with affected manners.
+
+## Diary References
+
+### 1874
+- **April 19**: Tchernichoff described as "the genre of Sacha Lautrec that is the best description of his person." Marie later calls Tchernichoff "Lautrec n° 2" and "un vrai Lautrec."
+
+## Context
+- First name: Sacha (Alexander)
+- Represents a type of man:
+  - Affected simplicity
+  - Makes witticisms
+  - Charms women
+  - Possibly older, dyes hair
+  - Rude manners beneath charm
+- Used as archetype for seducers
+
+## Related Entries
+- [#Tchernichoff](TCHERNICHOFF.md) - Compared to him
+
+## Research Notes
+- Male archetypes in 1870s society
+- Seduction techniques and social types
+- Russian/French naming (Sacha)

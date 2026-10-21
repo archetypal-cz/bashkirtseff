@@ -9,30 +9,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: REMY_DE_GONZALES
 ---
-# Rémy Moreno de Gonzalès
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-01-08
+%% GLO_REMY_MORENO_DE_GONZALES.0001 %%
+**Retired.** Merged into [#REMY_DE_GONZALES](REMY_DE_GONZALES.md) (`people/mentioned/REMY_DE_GONZALES.md`); use that entry instead.
 
-## Overview
-
-Marie's first admirer, listed as #1 in her list of suitors.
-
-## Relationship to Marie
-
-Her first recorded admirer, mentioned January 8, 1874 when she lists her three admirers at age "almost fifteen."
-
-## Name Analysis
-
-Spanish or Hispanic name suggesting aristocratic background - "de Gonzalès" indicates nobility.
-
-## Research Needed
-
-- Full background and family
-- When they met
-- Current status in 1874
-- Connection to Georges (same surname Gonzalès?)
-- Age and occupation
+%% GLO_REMY_MORENO_DE_GONZALES.0002 %%
+%% 2026-10-21T21:13:56 RSR: Retired by glossary-merge; content and links moved to REMY_DE_GONZALES. replaced_by: people/mentioned/REMY_DE_GONZALES.md. %%

@@ -106,3 +106,5 @@ Hamilton Palace, which so impressed Marie in her reading, was demolished in the 
 ## Research Notes
 
 See annotations above for detailed research notes.
+
+%% 2026-10-21T21:20:44 RSR: Merged HAMILTON (no content kept: empty stub) %%

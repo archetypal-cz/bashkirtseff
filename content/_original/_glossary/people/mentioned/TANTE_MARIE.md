@@ -4,7 +4,6 @@ name: tante Marie
 aliases:
   - tante Marie
   - Tante Marie
-  - Marie
 type: Person
 category: people/mentioned
 research_status: Basic

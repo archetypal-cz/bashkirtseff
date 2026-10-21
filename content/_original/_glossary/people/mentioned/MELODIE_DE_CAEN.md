@@ -4,7 +4,6 @@ name: melodie de Caen
 aliases:
   - melodie de Caen
   - Melodie de Caen
-  - melodie
   - Caen
 type: Person
 category: people/mentioned

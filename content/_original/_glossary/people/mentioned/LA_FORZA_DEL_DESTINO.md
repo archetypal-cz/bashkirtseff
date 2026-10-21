@@ -4,7 +4,6 @@ name: La Forza del destino
 aliases:
   - La Forza del destino
   - La Forza Del Destino
-  - destino
 type: Person
 category: people/mentioned
 research_status: Basic

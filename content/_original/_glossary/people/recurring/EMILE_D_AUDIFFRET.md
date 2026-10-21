@@ -11,7 +11,6 @@ aliases:
   - Emile d'Audiffret
   - Emile dAudiffret
   - Epiphane
-  - Feu
   - Girofla
   - Hector
   - Héliogabale
@@ -23,7 +22,6 @@ aliases:
   - Terffidua
   - britaya soroka
   - d'Audiffret
-  - fr
   - frère Emile
   - le Niçois
   - le Surprenant
@@ -235,3 +233,5 @@ The following carnets contain significant Audiffret content (based on reference 
 %% 2026-02-09T22:00:00 RSR: Added carnet 047 context: Bibi system, anagrams, neologism verbs, theater visit, couronne du martyr, final resolve. %%
 %% 2026-02-11T14:00:00 RSR: Per Kernberger (2013), Émile Audiffret's full list of nicknames: Audiffer, Bibi, Girofla, Hector, Impetuous Squire, Soroka (magpie), the Surprising One, Terffidua (Audiffret backwards). He had a sister Marie Audiffret and a step-mother Mme Audiffret. %%
 %% 2026-05-24T14:00:00 RSR: Comprehensive expansion. Added paragraph IDs (GLO_AUDIFFRET.0001-0031). Full relationship arc traced from carnet 003 (March 1873) through carnet 103 (February 1884). Added historical context: famille d'Audiffret origins (Barcelonnette valley, nobility from 1390), Château de la Tour des Baumettes history (built c.1850-60, architect Dunski, sold 1878 to Caravadossi for 162,500 francs). Expanded family section: Léon d'Audiffret père (cloth merchant background), Mme Audiffret (step-mother, Paris salon), Marie Audiffret (sister, convent, Gnom scandal). Complete nickname table (20+ names) with origins. Six-phase relationship arc with diary quotations. Social context: Cercle de la Méditerranée, Niçois aristocracy. Marie's self-analysis across decade. Associated music (Mignon). Carnet coverage index. Sources: Wikipedia (famille d'Audiffret, Girofle-Girofla, Lecocq, Ambroise Thomas), Kernberger (2013), Agence Istra / Lu Baumetan (Château de la Tour des Baumettes), BnF (Cercle de la Méditerranée), Persée (Nice noblesse). Updated aliases for auto-tagging. %%
+
+%% 2026-10-21T21:21:45 RSR: Merged TERFFIDUA (no content kept: empty stub) %%

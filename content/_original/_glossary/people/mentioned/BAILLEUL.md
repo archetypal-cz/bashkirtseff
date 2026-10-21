@@ -41,7 +41,7 @@ In November 1876 and in the summer of 1877 a "comtesse de Bailleul", wife of a "
 **1881.** On 26 January 1881 Marie is surprised to see her carry off Alexis, and writes frankly that "the mother Bailleul, who gives herself forty-six years, powders herself like frost and is as robust as a peasant and fond of bawdy talk ... cannot be wise" (091.0006-0007). In February 1881 she talks of Multedo, of whose mother-in-law she is "intimate" (091.0200). On 2 April she brings Mme de la Lande, who gives a costume ball on 18 April, to which she takes Marie's group; "la Bailleul knew nearly everyone" (091.0409, 091.0491). On 4 May 1881 she sits for a portrait: "she asked for it so much that it had to be done, but it is very annoying" (091.0559); on 7 May she comes with her father (091.0574); on 12 May "la Bailleul wants to marry me off ... title and a hundred thousand francs a year, or *Balandard*..." (091.0618).
 
 %% GLO_BAILLEUL.0009 %%
-**1882-83: the Bari affair.** On 11 January 1882 she suggests inviting Bastien-Lepage to the Bashkirtseffs' evening, through her friend Mrs [Cartwright](./CARTWRIGHT.md) (094.0152). She introduced the family to the Comte and Comtesse de Bari (094.0175) and, in January 1883, Marie's soirée becomes entangled in gossip: on 27-28 January Bailleul warns her of articles to be written against the Bashkirtseffs and of a scandal planned for their Saturday (098.0174, 098.0198-0199); on 27 January Marie calls her "that old hussy" (098.0174); on 1 February Marie writes that it was at Bailleul's that they met the Bari and Bargigli ladies, "women we had to drop, enemies" (098.0243); on 15 August 1883 Marie thinks she brought a piece of gossip to divert suspicion from "her dear countess-cocotte of Bari" (101.0123). Bailleul is last seen as a dinner guest on 24 June, 11 and 28 July and 11 December 1883 (100.0221, 100.0303, 100.0451, 102.0472).
+**1882-83: the Bari affair.** On 11 January 1882 she suggests inviting Bastien-Lepage to the Bashkirtseffs' evening, through her friend Mrs [MME_CARTWRIGHT](MME_CARTWRIGHT.md) (094.0152). She introduced the family to the Comte and Comtesse de Bari (094.0175) and, in January 1883, Marie's soirée becomes entangled in gossip: on 27-28 January Bailleul warns her of articles to be written against the Bashkirtseffs and of a scandal planned for their Saturday (098.0174, 098.0198-0199); on 27 January Marie calls her "that old hussy" (098.0174); on 1 February Marie writes that it was at Bailleul's that they met the Bari and Bargigli ladies, "women we had to drop, enemies" (098.0243); on 15 August 1883 Marie thinks she brought a piece of gossip to divert suspicion from "her dear countess-cocotte of Bari" (101.0123). Bailleul is last seen as a dinner guest on 24 June, 11 and 28 July and 11 December 1883 (100.0221, 100.0303, 100.0451, 102.0472).
 
 %% GLO_BAILLEUL.0010 %%
 ## Related entries
@@ -50,8 +50,8 @@ In November 1876 and in the summer of 1877 a "comtesse de Bailleul", wife of a "
 - [Mertens](./MERTENS.md)
 - [Mouzay](./MOUZAY.md)
 - [Soutzo](./SOUTZO.md)
-- [Girardin](./GIRARDIN.md)
-- [Cartwright](./CARTWRIGHT.md)
+- [Girardin](../writers/EMILE_DE_GIRARDIN.md)
+- [MME_CARTWRIGHT](MME_CARTWRIGHT.md)
 - [Comte de Bari](./COMTE_DE_BARI.md)
 - [Multedo](./MULTEDO.md)
 

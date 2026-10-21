@@ -4,7 +4,6 @@ name: Alexandre XI Borgia
 aliases:
   - Alexandre XI Borgia
   - Alexandre Xi Borgia
-  - Alexandre
   - Borgia
 type: Person
 category: people/mentioned

@@ -4,7 +4,6 @@ name: Louis XIV et ses femmes
 aliases:
   - '"Louis XIV et ses femmes"'
   - Louis Xiv et Ses Femmes
-  - femmes"
   - '"Louis'
 type: Person
 category: people/mentioned

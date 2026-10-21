@@ -10,8 +10,6 @@ aliases:
   - Fédus
   - Parvus Fedus
   - le petit chapeau
-  - le singe
-  - le petit comte
   - le regardeur
   - pantalons de cuir
   - Lambertoun

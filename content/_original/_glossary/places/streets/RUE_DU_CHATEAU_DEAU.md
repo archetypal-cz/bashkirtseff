@@ -4,7 +4,6 @@ name: Rue du Chateau dEau
 aliases:
   - Rue du Chateau dEau
   - Rue du Chateau Deau
-  - dEau
 type: Place
 category: places/streets
 research_status: Basic

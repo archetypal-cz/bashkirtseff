@@ -9,11 +9,9 @@ aliases:
   - cette Collignon
   - cette canaille Collignon
   - canaille Collignon
-  - cette canaille
   - cette pauvre Collignon
   - la pauvre Collignon
   - pauvre Collignon
-  - cette chère
   - la belle aux longs cheveux
   - ce précieux fardeau
 type: Person

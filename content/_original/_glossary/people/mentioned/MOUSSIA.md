@@ -1,8 +1,7 @@
 ---
 id: MOUSSIA
 name: Moussia
-aliases:
-  - Moussia
+aliases: []
 type: Person
 category: people/mentioned
 research_status: Basic

@@ -4,7 +4,6 @@ name: Comte dAspremont
 aliases:
   - Comte dAspremont
   - Comte Daspremont
-  - dAspremont
 type: Person
 category: people/aristocracy
 research_status: Basic

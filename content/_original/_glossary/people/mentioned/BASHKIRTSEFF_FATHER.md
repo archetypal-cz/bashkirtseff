@@ -4,7 +4,6 @@ name: Bashkirtseff father
 aliases:
   - Bashkirtseff father
   - Bashkirtseff Father
-  - father
 type: Person
 category: people/mentioned
 research_status: Basic

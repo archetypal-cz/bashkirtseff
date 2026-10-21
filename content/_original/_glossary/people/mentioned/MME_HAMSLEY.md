@@ -7,8 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: HAMSLEY
 ---
-# Mme Hamsley
 
-Stub entry — needs research.
+%% GLO_MME_HAMSLEY.0001 %%
+**Retired.** Merged into [#HAMSLEY](HAMSLEY.md) (`people/mentioned/HAMSLEY.md`); use that entry instead.
+
+%% GLO_MME_HAMSLEY.0002 %%
+%% 2026-10-21T21:20:58 RSR: Retired by glossary-merge; content and links moved to HAMSLEY. replaced_by: people/mentioned/HAMSLEY.md. %%

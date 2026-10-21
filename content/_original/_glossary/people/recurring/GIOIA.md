@@ -11,8 +11,6 @@ aliases:
   - Centifolia
   - Mme Pirate
   - bijou de mon âme
-  - la belle
-  - c'tte femme
   - C'teu
 type: Person
 category: people/recurring

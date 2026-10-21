@@ -4,8 +4,6 @@ name: Marie Bashkirtseff aunt
 aliases:
   - Marie Bashkirtseff aunt
   - Marie Bashkirtseff Aunt
-  - Marie
-  - aunt
 type: Person
 category: people/mentioned
 research_status: Basic

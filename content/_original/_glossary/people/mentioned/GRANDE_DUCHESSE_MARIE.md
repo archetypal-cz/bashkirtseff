@@ -4,7 +4,6 @@ name: grande duchesse Marie
 aliases:
   - grande duchesse Marie
   - Grande Duchesse Marie
-  - Marie
 type: Person
 category: people/mentioned
 research_status: Basic

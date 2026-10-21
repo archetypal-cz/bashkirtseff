@@ -23,7 +23,7 @@ A young man in Marie's Nice social circle during summer 1875. Initially shy and 
 - **Age**: eighteen and a half in July 1875, sitting the baccalauréat (037/1875-07-19).
 - **"Désiré"**: Marie's nickname for him from 3 July 1875 ("je désire tout haut Godard et je l'ai nommé Désiré", 035.0158); he is presented to her at the bal champêtre of 4 July (035.0191).
 - The comte d'Etienne de Robillard, named beside "Désiré" in 035.0191, is a different man ("un mélange de Godard et de Robillard", 053/1876-02-10).
-- [Maurice Godard Decrais](MAURICE_GODARD_DECRAIS.md) is an empty stub for the same person (no tags point at it; 039/1875-08-21 lists it in frontmatter only).
+- [Maurice Godard Decrais](GODARD.md) is an empty stub for the same person (no tags point at it; 039/1875-08-21 lists it in frontmatter only).
 
 ## Role in Marie's Life
 
@@ -45,3 +45,5 @@ A young man in Marie's Nice social circle during summer 1875. Initially shy and 
 
 %% 2026-02-10T14:01:00 RSR: Expanded stub from carnet 036 references. Shy young man in Marie's social circle. %%
 %% 2026-10-21T09:05:00 RSR: Identity section added from carnets 034-039 (restored paragraphs of 035). The "First name unknown" research note above is superseded: he is Maurice Godard. %%
+
+%% 2026-10-21T21:13:33 RSR: Merged MAURICE_GODARD_DECRAIS (no content kept: empty stub) %%

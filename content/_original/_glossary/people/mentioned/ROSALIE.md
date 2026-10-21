@@ -9,10 +9,6 @@ aliases:
   - Mme Pitauchard
   - Pitauchard
   - le dragon
-  - la fille
-  - cette fille
-  - ma femme de chambre
-  - femme de chambre
 type: Person
 category: people/mentioned
 research_status: Comprehensive

@@ -35,7 +35,7 @@ Marie describes Vassilissa's tragic descent with powerful imagery:
 
 **The Permanent Visit**: One time she came as usual for a visit. A few weeks later, they removed the plants from the terrace - but she stayed forever. "Toujours veneree de moins en moins" (always revered less and less).
 
-**Final Years**: After Grand-papa left, her adopted daughter [#Nadine_Martinoff](../mentioned/NADINE_MARTINOFF.md) and [#Alexandre](../core/ALEXANDRE.md) relegated her to a miserable room in an old pavilion where she died - abandoned by everyone.
+**Final Years**: After Grand-papa left, her adopted daughter [#Nadine](../mentioned/NADINE.md) and [#Alexandre](../core/ALEXANDRE.md) relegated her to a miserable room in an old pavilion where she died - abandoned by everyone.
 
 ## Failed Inheritance Schemes
 
@@ -81,7 +81,7 @@ In 19th century Russian aristocratic society:
 
 - [#Grand_papa](GRAND_PAPA.md) - Her brother who initially protected her
 - [#Georges](GEORGES.md) - Who tried to marry her for her fortune
-- [#Nadine_Martinoff](../mentioned/NADINE_MARTINOFF.md) - Adopted daughter who abandoned her
+- [#Nadine](../mentioned/NADINE.md) - Adopted daughter who abandoned her
 - [#Alexandre](../core/ALEXANDRE.md) - Nephew who married the adopted daughter
 
 ## Related Location

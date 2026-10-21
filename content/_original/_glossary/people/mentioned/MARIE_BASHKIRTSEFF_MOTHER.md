@@ -4,8 +4,6 @@ name: Marie Bashkirtseff mother
 aliases:
   - Marie Bashkirtseff mother
   - Marie Bashkirtseff Mother
-  - mother
-  - Marie
 type: Person
 category: people/mentioned
 research_status: Basic

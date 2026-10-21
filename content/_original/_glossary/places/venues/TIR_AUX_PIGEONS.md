@@ -4,7 +4,6 @@ name: Tir aux pigeons
 aliases:
   - Tir aux pigeons
   - Tir Aux Pigeons
-  - pigeons
 type: Place
 category: places/venues
 research_status: Basic

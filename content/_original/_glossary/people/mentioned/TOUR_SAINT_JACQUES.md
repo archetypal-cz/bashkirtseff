@@ -3,8 +3,6 @@ id: TOUR_SAINT_JACQUES
 name: Tour Saint Jacques
 aliases:
   - Tour Saint Jacques
-  - Jacques
-  - Tour
 type: Person
 category: people/mentioned
 research_status: Basic

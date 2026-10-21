@@ -4,8 +4,6 @@ name: Ministere de l interieur
 aliases:
   - Ministere de l interieur
   - Ministere de l'Interieur
-  - interieur
-  - Ministere
 type: Person
 category: people/mentioned
 research_status: Basic

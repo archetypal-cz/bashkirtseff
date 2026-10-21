@@ -2,7 +2,6 @@
 id: EMILE_BASTIEN_LEPAGE
 name: Émile Bastien-Lepage
 aliases:
-  - Bastien-Lepage
   - Emile Bastien Lepage
   - Emile Bastien-Lepage
   - Émile Bastien-Lepage
