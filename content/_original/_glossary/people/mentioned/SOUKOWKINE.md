@@ -26,3 +26,4 @@ A Russian lady in Rome in the winter of 1876, introduced by the archimandrite: �
 - 1877-05-01 (071.0088)
 
 %% 2026-10-21T10:48:15 RSR: Created during RSR of the restored carnet 071 paragraphs (rsr-071). The 1876 mentions (053–056) are not tagged yet. %%
+%% 2026-10-21T12:50:56 RSR: Tagged in every paragraph that names her in 053–054 (053.0031, 0034, 0122, 0192, 0194, 0195, 0197, 0327, 0392, 0466, 0472, 0473, 0493, 0512; 054.0159, 054.0559). 056.0390 is still untagged (outside this batch). %%
