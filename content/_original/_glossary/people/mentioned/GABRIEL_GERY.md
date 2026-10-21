@@ -17,7 +17,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-10-11
+last_updated: 2026-10-21
 ---
 
 %% GLO_GABRIEL_GERY.0001 %%
@@ -36,7 +36,7 @@ Two men called Géry appear in the diary, and Marie tells them apart only by "le
 **The father** is called "le père Géry", "M. Géry" or simply "Géry". The diary gives him these traits: an intimate friend of Prince Napoléon ("Plon-Plon", Prince Jérôme) whom Marie meets at the Gavinis' in July 1879 (085.0568); one of the "deux anciens préfets de la pourriture impériale" with [Saint-Amand](../writers/SAINT_AMAND.md) (089.0612); the owner of a villa at Nice (094.0197); and a man with a daughter, "Mme Dupont", whose miscarriage in spring 1880 keeps him away from Marie's dinner (087.0884; 088.0113). In July 1881 Marie hears that he has quarrelled with the Prince, "c'est Lachaud qui a fait le coup", and that [Gavini](./GAVINI.md) fares no better (092.0351). He goes to Tunis in February 1880 (087.0437). He is one of the Gavini circle that dines and goes to the theatre with the Bashkirtseffs until the last weeks of the diary.
 
 %% GLO_GABRIEL_GERY.0006 %%
-Neither man could be identified in an independent source for this page. The father's first name, office and dates are not given in the diary; the sources searched (Journal officiel, searches on Gallica and the French diplomatic yearbook) did not yield him. Nothing in the diary supports the older note that Gabriel came "from the Ariège"; that was a confusion with Joseph Arnaud (de l'Ariège) (see below).
+Neither man could be identified in an independent source for this page. The father's first name, office and dates are not given in the diary; the sources searched (Journal officiel, searches on Gallica and the French diplomatic yearbook) did not yield him. The editors' index of the printed edition does name him: "Géry (Charles), préfet" and "Géry (Gabriel, fis du précédent), diplomate" (Mon Journal t.15 index; t.16 has the same two headings, "fils du précédent"). So the father is Charles Géry, a former prefect, which fits Marie's "deux anciens préfets"; the editors' source for the first name is not stated. Nothing in the diary supports the older note that Gabriel came "from the Ariège"; that was a confusion with Joseph Arnaud (de l'Ariège) (see below).
 
 %% GLO_GABRIEL_GERY.0007 %%
 ## Marie and Gabriel Géry
@@ -84,3 +84,5 @@ The father is one of the Gavini household's "vieillards" and a regular at Marie'
 - Journal officiel de la République française, decree of April 1882 on diplomatic promotions: [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6225459s) (reported by a search; not read directly)
 
 %% 2026-10-11T12:00:00 RSR: People-glossary wave, batch 04. Rewrote the Basic stub. GERY.md (85 tagged entries, covers both men) and GABRIEL_GERY.md (about 100 tagged entries, mostly Gabriel) are the same family; this page holds both, GERY.md points here. The old LAN/RSR remark "Gabriel Gery is a young man of the Ariege region" (087.0019 comment) is unsupported: the Ariège in the text is Arnaud's. Gabriel's career dates: diary 086.0460 (Brussels), 089.0604 (Rome), 090.0174 (Berlin), 097.0346 / 102.0092 (Constantinople); April 1882 decree from a web-search summary of Gallica ark:/12148/bpt6k6225459s, which was behind a bot wall and could not be read. Father's identity not found (no first name; "ancien préfet" per 089.0612; Nice villa 094.0197; daughter Mme Dupont). LAN 085.0572 correctly keeps father and son distinct. 095.0291 ("Géry que je déteste") and 087.0221 are ambiguous between the two. No portrait of either man found. %%
+
+%% 2026-10-21T15:00:00 RSR: Added the Mon Journal t.15/t.16 index headings for the father (Charles Géry, préfet), found in the no-LAN entries pass (100/1883-06-13, 100.0140 "le père Géry"). %%

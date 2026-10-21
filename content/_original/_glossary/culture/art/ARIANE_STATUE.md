@@ -1,6 +1,6 @@
 ---
 id: ARIANE_STATUE
-name: "Ariane (statue project, 1883)"
+name: "Ariane (statue project, 1879–1883)"
 aliases:
   - Ariane
   - Ariane (projet de statue)
@@ -13,25 +13,25 @@ type: Culture
 category: culture/art
 marie_work: true
 work:
-  year: "1883"
+  year: "1879–1883"
   medium: "project for a statue (never executed, as far as known)"
   status: unknown
   location: "Never executed; sketches only"
 research_status: Moderate
-last_updated: 2026-10-10
+last_updated: 2026-10-21
 ---
 
 %% GLO_ARIANE_STATUE.0001 %%
 ## Overview
 
 %% GLO_ARIANE_STATUE.0002 %%
-*Ariane* (Ariadne) is a statue that Marie planned in 1883 and never made. The diary names it in five paragraphs between March and December 1883, always as one of several projects waiting their turn, and each time next to the statue she *did* make, [La Douleur de Nausicaa](./DOULEUR_DE_NAUSICAA.md).
+*Ariane* (Ariadne) is a statue that Marie planned from 1879 to 1883 and never made. The subject was set at the Académie Julian in October 1879, when she made a sketch of it; the diary describes it at length on 29 August 1882 and names it in five more paragraphs between March and December 1883, always as one of several projects waiting their turn, and each time next to the statue she *did* make, [La Douleur de Nausicaa](./DOULEUR_DE_NAUSICAA.md).
 
 %% GLO_ARIANE_STATUE.0003 %%
 ## Marie and this work
 
 %% GLO_ARIANE_STATUE.0004 %%
-The first mention is 22 March 1883 (098.0551), the day she has professionals build the armature of the big statue from her small clay model -- which is Nausicaa: "Les Saintes femmes en peinture que je tâcherai de faire cet été. Et en sculpture ma grande préoccupation c'est Ariadne. Ces deux œuvres sont connues avec un sentiment sublime, je le dis quoique ce soit moi." Of Ariadne she adds (098.0552) "Je n'en ferai peut-être pas grand chose, mais cela pourrait être merveilleux", and "en attendant je fais cette femme" -- the weeping Nausicaa (098.0553). No description of Ariadne's pose is given.
+The earliest account is 29 August 1882 (096.0160), written while she was rereading Ouida's *Ariadnê*: "Et qu'est-ce que je fais de mon esquisse d'il y a trois ans, car elle est d'octobre 1879. On nous a donné ce sujet chez Julian et j'en ai été saisie comme des Saintes femmes au sépulcre. Ariadne. Julian et Tony ont trouvé qu'il y avait là un bon sentiment [...] Voilà trois ans que je suis sur le point de sculpter pour faire ce sujet..." She then describes the pose: Ariadne, alone at dawn after Theseus has fled, sees the ship as a dot on the horizon and "tombe sur la roche la tête sur le bras droit dans une pose qui doit exprimer toute l'horreur de l'abandon, du désespoir, de l'impuissance". No entry of October 1879 (carnets 086-087) records the sketch. (An undated title-page note of Livre 91, 091/1881-01-23, plans to paint "Aradnié, effet du soleil levant" in the open air, probably the same subject treated as a painting.) In 1883 the first mention is 22 March (098.0551), the day she has professionals build the armature of the big statue from her small clay model -- which is Nausicaa: "Les Saintes femmes en peinture que je tâcherai de faire cet été. Et en sculpture ma grande préoccupation c'est Ariadne. Ces deux œuvres sont connues avec un sentiment sublime, je le dis quoique ce soit moi." Of Ariadne she adds (098.0552) "Je n'en ferai peut-être pas grand chose, mais cela pourrait être merveilleux", and "en attendant je fais cette femme" -- the weeping Nausicaa (098.0553). No description of the pose is given in 1883.
 
 %% GLO_ARIANE_STATUE.0005 %%
 On 17 July (100.0376) she lists her coming works: "Une statue. Nausicca ou Ariadne, les esquisses sont tout arrêtées. Ariadne fera blaguer, on dira que c'est moi, abandonnée par qui ? Et Nausicaa. J'aime les deux." The Ariadne of the myth is the woman abandoned on Naxos by Theseus, and Marie foresees that the public will read the subject as her own story. On 7 August (100.0552): "Et Nausicaa et Ariadne. Les belles choses ! ... Nausicaa pourra bien... Non, Ariadne voir bientôt le jour." On 28 November (102.0352) the list has grown to "Les Saintes femmes ... Le grand bas-relief Printemps, Jules César, Ariadne. On se sent pris de vertige", and on 3 December (102.0423) the candidates are "Les Saintes femmes ou Nausicaa, ou Ariadne, ou le Printemps". After that, the statue she works on in December (102.0521-0589) and brings to the Salon plans of 1884 is Nausicaa; Ariadne does not come up again.
@@ -46,6 +46,7 @@ Ouida's novel *Ariadne* (1877), which Marie rereads in English on 28 August 1882
 ## References in Diary
 
 %% GLO_ARIANE_STATUE.0009 %%
+- 1882-08-29 (096.0160) -- the October 1879 Julian sketch; the pose described
 - 1883-03-22 (098.0551-0552) -- "ma grande préoccupation"
 - 1883-07-17 (100.0376) -- sketches settled; "Ariadne fera blaguer"
 - 1883-08-07 (100.0552) -- "Ariadne voir bientôt le jour"
@@ -65,8 +66,10 @@ Ouida's novel *Ariadne* (1877), which Marie rereads in English on 28 August 1882
 ## Sources
 
 %% GLO_ARIANE_STATUE.0013 %%
-- The diary: carnets 098, 100, 102, French originals in `/content/_original/`
+- The diary: carnets 096, 098, 100, 102, French originals in `/content/_original/`
 - The 1885 posthumous catalogue lists five sculptures (Nausicaa, Femme appuyée, Le Bras, Petit Garçon, Une Femme) and no Ariadne: [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)
 
 %% GLO_ARIANE_STATUE.0014 %%
 %% 2026-10-10T20:54:04 RSR: Created in the works-glossary wave (batch 10). Supersedes the stub people/mentioned/ARIANE_SCULPTURE.md (not moved or deleted). Bare alias Ariadne deliberately omitted because people/mentioned/ARIADNE.md exists and the Ouida novel Ariadne is also in the diary. Ouida paragraphs verified at 096.0141-0156 (28 August 1882). %%
+
+%% 2026-10-21T13:42:33 RSR: Extended with 096.0160 (29 August 1882): the subject dates from an October 1879 Julian sketch, and the pose is described there; the 'first mention 1883' and 'no description of the pose' statements were corrected accordingly. The 091/1881-01-23 'Aradnié' reading is hedged (probably). %%
