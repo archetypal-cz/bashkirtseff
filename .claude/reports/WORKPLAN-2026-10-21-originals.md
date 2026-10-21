@@ -53,7 +53,8 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 | 028–033 | 214 | RSR running (batch 1875) |
 | 090 | 131 | done 2d3a0b7d87 (RSR ~51 notes, 32 Amélie retags; LAN 73) |
 | 084 | 105 | done 586e8a7862 (RSR 45 paragraphs, 4 fn; LAN 50) |
-| 081+082 | 90+102 | RSR done (79 notes, 3 corrections; C-20 footnote Gans = Hans) → LAN running |
+| 081+082 | 90+102 | done f8a32db80c (RSR 79 notes, 3 corrections, C-20 fixed in all trees; LAN 85) |
+| 040–054 | 138 | RSR running (batch 1875b) |
 | 072–077 | 199 | RSR running (batch 1877) |
 | 060+061+064 | 185 | RSR running (batch 1876a) |
 | 055–058 | 197 | RSR running (batch 1876b) |
