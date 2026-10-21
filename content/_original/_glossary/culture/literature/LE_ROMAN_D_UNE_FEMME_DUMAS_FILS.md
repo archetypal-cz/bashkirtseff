@@ -32,7 +32,7 @@ full_text:
 
 %% GLO_LE_ROMAN_D_UNE_FEMME_DUMAS_FILS.0005 %%
 %% [#Dumas_fils](../../people/mentioned/DUMAS_FILS.md) %%
-21 June 1879 (085.0427), discussing some other horrible story, she compares it to "l'invraisemblable, l'infâme et le révoltant 'Roman d'une femme' de Dumas fils": events over which centuries pass but which stay "navrants et horribles".
+21 June 1879 (085.0427), writing about the death of the Prince Imperial (085.0425–0426), she compares it to "l'invraisemblable, l'infâme et le révoltant 'Roman d'une femme' de Dumas fils": events over which centuries pass but which stay "navrants et horribles".
 
 %% GLO_LE_ROMAN_D_UNE_FEMME_DUMAS_FILS.0006 %%
 ## Identification note
