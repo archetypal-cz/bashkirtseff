@@ -710,7 +710,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | pittoresque | мальовнича | Picturesque; self-description after blushing |
 | heureuse nature | щаслива вдача | Happy/fortunate disposition; ironic (forgets bad news easily) |
 | je règne (London variant) | я паную | "I reign" — London version of Marie's dominance claim |
-| Hitchcock | «Гічкок» (owner 2026-10-05, A-17) | Marie's type-name for unfashionable provincial women; keep with quotes |
+| Hitchcock | «Гічкок» (owner 2026-10-05, A-17) | Marie's type-name for unfashionable provincial women; keep with quotes («жахливими «Гічкоками»», «стільки «Гічкоків»»). Miss Hitchcock the governess (011–017) has the same spelling, unquoted and indeclinable: «з Гічкок», «міс Гічкок». Swept 2026-10-21 (D-45): Гітчкок ×33, Хічкок ×2 → Гічкок; 0 left in visible text |
 | Musy / Муся | Муся | Marie's nickname for herself; keep as-is |
 
 ### Updated
@@ -1137,7 +1137,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Audiffret / Girofla / Terffidua / Toto | Одіффре / Джирофла / Терффідуа / Тото | Émile d'Audiffret, 23, lives alone in château; nickname Джирофла (established 030/035); Терффідуа = name reversed (established 026/030); Тото = pet diminutive |
 | le (petit) Paysan / paysan | (малий) Селюк / селюк | Marie's contemptuous nickname/insult for Audiffret; capitalized = codename. Cluster-standard term (031–035): Селюк/малий селюк |
 | Mme Voyeïkoff | пані Воєйкова | Russian society lady at Hôtel du Luxembourg |
-| Julie | Жулі | Bride-to-be; frank/talkative; offers Marie her brother-in-law |
+| Julie | Жюлі | Bride-to-be (Julie Voeikoff); frank/talkative; offers Marie her brother-in-law. Ruling (2026-10-05, KRR, A-18): tree majority «Жюлі» (was «Жулі»; swept 2026-10-21, D-46) |
 | Prodgers / la Prodgers | Проджерс / та Проджерс | English family; "la Prodgers" = contemptuous article reducing person to a type |
 | Collignon | Коліньйон | French governess (established earlier carnets) |
 | Sapogenikoff (family) | Сапоженікови | Russian family, near-daily companions (established 035) |
@@ -1954,7 +1954,7 @@ Continuation of the father-reunion stay at Gavronci, Poltava social rounds, the 
 | Kapitanenko / "Kapitan" | Капітаненко / «Капітан» | retired guard officer, household butt |
 | Gritz Miloradovitch | Гриць (Григорій Левич) Милорадович | (per 065 TM); the childhood suitor |
 | Collignon (Mlle, governess) | Коліньйон | FEMALE indeclinable, single-л (per 062 TM) — confirmed: «відповідь Коліньйон», fem. verb «розпитує» |
-| Kotchoubey (prince Serge / Victor / Basile) | Кочубей (князь Сергій / Віктор / Василь) | Dikanka owners |
+| Kotchoubey (prince Serge / Victor / Basile) | Кочубей (князь Сергій / Віктор / Базиль) | Dikanka owners. Basile = «Базиль» per Ruling (2026-10-05, KRR, A-18); the historical Vasyl Kochubey (1640–1708) stays «Василь» |
 | Vassilissa | Василиса | great-aunt, "excessivement comme il faut" |
 
 ### Key Terms & Idioms (Carnet 066)
@@ -2024,7 +2024,7 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Paul et Virginie (Massé opera / Saint-Pierre novel) | «Поль і Вірджинія» | LOCKED to TM 021 form «Вірджинія» (з дж); RED normalized «Віргінію»→«Вірджинію» 3× this carnet (067.1086/0187/0201). "des airs de Virginie" = acting demure like the heroine |
-| Giroflé-Girofla (Lecocq) | «Жирофле-Жирофла» | opéra-bouffe; "Girofla"→«Жирофля» also Marie's nickname for Audiffret |
+| Giroflé-Girofla (Lecocq) | «Жирофле-Жирофла» | opéra-bouffe; heroine «Жирофла» (decl. Жирофли/Жирофлу); Marie's nickname for Audiffret is «Джирофла» (Ruling 2026-10-05, KRR, A-18; this row said «Жирофля») |
 | Un ballo in maschera (Verdi) | «Бал-маскарад» | Verdi opera; rendered as translated title |
 | La Jeunesse du roi Henri (Ponson du Terrail) | «Молодість короля Анрі» | Ponson du Terrail = «Понсон дю Тераль»; Antonelli's seduction-manual |
 | Tite-Live | Тіт Лівій | Livy; Marie compares him to «Александр Дюма» (the NOVELIST — Russified-form Dumas is CORRECT here, NOT the uncle «Олександр») |
@@ -2540,7 +2540,7 @@ Read with the cross-carnet resolutions at the end of this block.
 ### People & Places (Carnet 096)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Kotchoubey (Victor / Basile-Vassily) | Кочубей (Віктор / Василь) | living neighbour princes — distinct individuals from the Dikanka/Pushkin Kochubey (TM 066) |
+| Kotchoubey (Victor / Basile-Vassily) | Кочубей (Віктор / Базиль) | living neighbour princes — distinct individuals from the Dikanka/Pushkin Kochubey (TM 066). Where Marie writes *Basile*: «Базиль» (Ruling 2026-10-05, KRR, A-18; tree majority); where she writes *Vassily* (096/1882-09-04): «Василь» |
 | Tchoumakoff (le père / le vieux) | Чумаков (батечко / старий) | |
 | Likhopoï / Garnitsky / Mitchka | Ліхопой / Гарницький / Мічка | Gavronzi circle |
 | Gavronzi / Dikanka / Znamenka / Poltava | Гавронці / Диканька / Знам'янка / Полтава | homeland toponyms |
@@ -2633,7 +2633,7 @@ Surfaced by the consolidation pass; **decided canon** + which committed carnets 
 |------|-------|----------------|
 | **Karageorgevitch** | **Караджорджевич** (Serbian-faithful) | 086 had «Карагеоргевич» ×9 → **NORMALIZED in files 2026-06-14**. 084/085/087 already correct. |
 | **Vassilissa** (great-aunt) | **Василиса** (066 lock) | 092 had «Василісу» → **NORMALIZED in files 2026-06-14**. |
-| **Laferrière** | **Лафер'єр** (con-084 lock; single р, straight apostrophe U+0027; decl. Лафер'єр/-а/-у/-ом) | **NORMALIZED corpus-wide 2026-06-14**: 62 instances across 25 carnets unified from «Лафер'єр»/«Лаферр'єр»/«Лаферр’єр»/«Лаферьєр» → «Лафер'єр». 0 residual. |
+| **Laferrière** | **Лафер'єр** (con-084 lock; single р, straight apostrophe U+0027; **indeclinable** — Madeleine Laferrière is a woman: «до Лафер'єр», «у Лафер'єр», «Лафер'єр, якої боюся», «пошила Лафер'єр». Ruling (2026-10-05, KRR, A-18) per grammar; the masculine -а/-у/-ом forms swept 2026-10-21, D-46) | **NORMALIZED corpus-wide 2026-06-14**: 62 instances across 25 carnets unified from «Лафер'єр»/«Лаферр'єр»/«Лаферр’єр»/«Лаферьєр» → «Лафер'єр». 0 residual. |
 | **Patchenko** (family) | **Патченко** | 087 source variants "Pachtenko"/"Patchenko" CON-normalized; matches 092. |
 | **le Défunt** (Cassagnac conceit) | **Покійний** (088 lock, adjectival) | **NORMALIZED 2026-06-14**: 084 was already «Покійний»; 085 had «Покійник» ×4 (e.g. «лист Покійника»→«лист Покійного») → fixed. Literal-corpse «покійник» / the separate feminine «покійна Йорк» left untouched. |
 | **Popaul** (Cassagnac diminutive) | **«Пополь»** (soft sign, NO stress mark) — Julian-arc lock (078–080; 080 RED note); decl. Пополь / Пополя / Пополю / Пополем | **NORMALIZED corpus-wide 2026-06-14**: 084 «Попотик», 085 «Попо́ль» (stressed), 086 «Попол» (hard), 089 «Польчик», + 077/079/099 stressed «Попо́ль» → all → «Пополь». (Pre-existing odd «Пополо»×6 / «Попольові»×1 in already-locked 078/080 left as-is.) NB: my first-pass canon «Попол» was wrong — corrected to the locked «Пополь». |
@@ -2687,6 +2687,30 @@ The owner ruled that one-off printed variants are typesetting slips (A-56): the 
 | Papari poulous grec (022.0087, a pun) | **Папарі Пулус, грек** | kept for the pun; Paparigopoulos elsewhere stays **Папаріґопулос** |
 
 Tree drift «Одіфре» swept to «Одіффре» 2026-10-10 (RED, D-33: 32 visible hits in 23 files; old form survives only inside older comments).
+
+## Name divergences → tree majority (Ruling 2026-10-05, KRR, A-18)
+
+Counted over the visible text of content/uk (every case form; comments and link targets excluded) on 2026-10-21 and swept (D-46). Gender items follow grammar, not counts. Hitchcock (A-17, D-45) is in its own row above.
+
+| French | Ukrainian | Count before → rule |
+|---|---|---|
+| Julie / Julia | **Жюлі** (indecl.) / **Жюлія** (decl.) | Жюлі 25 vs Жулі 17; Жюлія-forms 12 vs Жулія 1 → all Жулі/Жулія swept |
+| Silhardt | **Зільгардт** (indecl., a woman) | 6 vs Зільхардт 2 |
+| Karageorgevitch | **Караджорджевич** | already uniform (0 Карагеоргевич) |
+| Brisbane (Alice, model) | **Брізбен** (indecl.) | 11 vs Брізбейн 3, Бризбен 1 |
+| Basile Kotchoubey | **Базиль** (decl. Базиля, Базилем) | 7 (097, 103) vs Василь 5 (096) → Базиль; *Vassily* (096/1882-09-04) stays «Василь» |
+| Mackay | **Маккей** | 104 vs Мак-Кей 12 — the 12 are all in 106, where Marie herself switches to *Mac-Kay*; left as she wrote |
+| Henner | **Геннер** (decl. Геннера, Геннером) | 7 vs Еннер 3 (099 ×2, 104); d'Ennery (019) is another man, «д'Еннері» |
+| Soden / Schlangenbad | **Зоден** / **Шланґенбад** | Зоден uniform (58); Шлангенбад 1 → Ґ (53 vs 1) |
+| Cazin | **Казен** (decl.) | already uniform |
+| Périvier | **Перів'є** | already uniform |
+| Margherita of Savoy (declined form) | **Марґеріта** (decl. -и/-у/-і/-ою) | -ер- forms 30 (Марґеріта 18, Маргерита 7, Маргеріта 5) vs Маргарита 19 → Марґеріта (31 forms swept). The indeclinable «принцеса Марґеріт» (~40×, 022–069) not touched — open owner question. Faust's Marguerite (Gretchen), Marguerite de Valois / de Navarre / de Bourgogne and Marguerite Gautier stay «Маргарита» |
+| Kondareff (Mme) | **Кондарева** (decl.) | 45 vs Кондарєф 1 (081, → «пані Кондаревої») |
+| Girofla (nickname) / operetta | **Джирофла** / **«Жирофле-Жирофла»** | nickname Джирофл- 489; Жірофле/Жірофля/Жірофлі 4 and the nickname note «Жирофля» (052) → Жирофле/Жирофла/Джирофла. Left: 024/1874-09-17 «Жирофла» and 020/1874-06-13 «це Жирофла» (1874, an unnamed young man, before the Audiffret nickname) |
+| Wykerslooth | **Вейкерслот** | 16 vs Вайкерслот 2, Вейкерслоот 1, Вікерслоот 1 |
+| Eristoff | **Ерістов** | already uniform |
+| Laferrière | **Лафер'єр**, indeclinable, feminine | a woman (Madeleine Laferrière): 42 masculine case forms → Лафер'єр, «якого» → «якої», «пошив» → «пошила»; 5 footnotes «кравець / кутюр'є» made feminine |
+| Tchernitsky / Tchernisky / Cernitsky (Mlle) | **Черницька** (adjectival, feminine); **Черниська** where Marie writes *Tchernisky* | a woman throughout (*Mlle Tchernitsky*, *la Tchernitsky*): 11 masculine forms → feminine («Черницький зустрів» → «Черницька зустріла»); Чернітська 2 → Черницька; Tchernisky (094 ×2, 097, 100, 101) → Черниська |
 
 ## OWNER rulings 2026-10-05 (OPEN-ITEMS A-01…A-14) — applied in the uk sweep D-26 (RED 2026-10-10) — LOCKED
 
