@@ -110,3 +110,22 @@ Round 2 (running):
 Next: glossary cleanup (59 open B items: duplicates, misfilings — glossary-move/merge rewrite refs in all
 trees, so run when no tree agent is active); tag candidates (1,020, scratchpad entities-tag-candidates-v2.tsv);
 D-55 visible dashes in uk/fr; C-21 OCR damage check.
+
+## Status 2026-10-21 ~21:30 — round 2 done; glossary cleanup; round 3 (pull + tags) running
+
+Done since 13:45: round-2 LAN (120 entries) reviewed; footnote quality review 000–070 and 071–106 (1,057
+source notes in 071–106: 459 rewritten, 78 cut, carried to all trees, f2137d5325); missing source footnotes
+synced (4d833322c4); tag candidates 000–106 from entities-sync reviewed (b600898929, bea438d1dc); glossary
+tools fixed (ae62ea948e, 9130c1ef7b); glossary cleanup phase 1 (75 moves, 124 shadow twins, 417a500064) and
+phase 2 (64 merges as retired stubs, 3 splits, 111 junk aliases, 158ab526a0). Plan, alias log and owner
+questions: .claude/reports/glossary-cleanup-2026-10-21/.
+
+Round 3 (running), briefs fn-pull-brief.md and tag-scout-review-brief.md:
+- Tree-only research → _original: scout found 649 PULL rows (value ≥2: 367) and 148 doubtful tree notes
+  (scratchpad fn-scout/). Round A carnets 020–048, 062–078, 088–097, 104–106; round B the rest.
+- Untagged alias mentions: scout found 7,397 rows after alias cleanup (LIKELY 2,265 / AMBIGUOUS 4,122).
+  Batches B01–B08 by carnet range (round A: B01, B03, B05, B07; round B: B02, B04, B06, B08, alternating
+  with the pull wave so no two agents share a carnet); 26 high-volume IDs decided read-only (tag-bulk),
+  applied last.
+After round 3: entities-sync --strict; `just tag-reconcile LANG all --scope all --write` for cz/uk/en/fr
+(dry run 21:20: +1,074 −112 per tree); glossary body fixes (plan section D) and new entries (E).
