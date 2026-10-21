@@ -39,6 +39,9 @@ For each listed paragraph, do the research the rest of the carnet already has:
 8. Cite paragraphs by their `%% CCC.NNNN %%` ID, found by searching the text, never by line number: other
    agents insert lines into the same carnet while you work (070, 2026-10-21: two citations pointed one
    paragraph off). Re-check every ID you cite just before you finish.
+9. In a passage with Russian printed between stars, check **every** italic run of the paragraph (and its
+   neighbours) against the scan, not only the one already suspected (017–027 review: two misses sat next
+   to an already-flagged Russian run).
 
 ## Format
 
