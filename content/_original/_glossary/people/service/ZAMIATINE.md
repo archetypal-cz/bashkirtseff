@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/service
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
 ---
 # Zamiatine
 
@@ -23,3 +23,6 @@ Marie's comment reveals the Zamiatines actively sought to trap her mother legall
 The nature of the lawsuit and the Zamiatines' relationship to the family is not fully explained in this entry, but Marie's tone suggests they were seen as malicious opponents taking advantage of legal mechanisms to harass the family.
 
 The name Zamiatine is Russian (Замятин/Замятина), indicating they were likely Russian nobility or landowners involved in property or inheritance disputes - common sources of protracted lawsuits in Imperial Russia.
+
+
+%% 2026-10-21T09:31:34 RSR: 1876 mention: Marie names the Zamiatines as the instigators of the lawsuit over her aunt's Romanoff fortune, "ceux qui ont suscité le procès par avarice (les Zamiatine sont plus riches que nous)" (067.0071). The Mon Journal t.9 index lists "Zamiatine (M.)" and "Zannatine (Mme)" (p. 128). The family are litigants, not servants; the people/service filing is logged in the open-items ledger. %%

@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
 ---
 # Prater
 
@@ -28,3 +28,5 @@ Marie's large dog who accompanied her in Paris and was well-known in society.
 - Admired by many people
 - No longer with Marie by 1874
 - Shows Marie's distinctive presence in society (girl with the big dog)
+
+%% 2026-10-21T09:50:47 RSR: Correction: "No longer with Marie by 1874" is wrong. Prater is still hers in 1876: «Prater a été si content de me voir !» (067/1876-11-19, Paris) and, at home in Nice, «Victor avec sa grosse tête noire, Pincio blanc comme la neige, Bagatelle, Prater... tout cela me regardait dans les yeux» (067.1394, 067/1876-12-02). The Mon Journal t.9 index has «Prater, chien», and the tag runs on into 068-076 (1877) and 088 (1880). The 1874 question «ce qu'est devenu le grand chien» only means Prater was not with her at the Howards'. %%

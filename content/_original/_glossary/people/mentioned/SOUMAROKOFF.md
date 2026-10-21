@@ -3,11 +3,30 @@ id: SOUMAROKOFF
 name: Soumarokoff
 aliases:
   - Soumarokoff
+  - Elstonn-Soumarokoff
+  - Elstone-Soumarokoff
+  - Somorokoff
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
 ---
-# Soumarokoff
+# Soumarokoff (Count Elston-Soumarokoff)
 
-Stub entry — needs research.
+## Overview
+«Le comte Soumarokoff», also written «Elstonn-Soumarokoff» (067.0488), «Elstone-Soumarokoff» (067.0643) and «Somorokoff» (067.0955): a young officer of the Guards sent to the Poltava region in the autumn of 1876 with some fifteen others «à l'occasion de la nouvelle loi sur les chevaux» (067.0396, 067/1876-10-31). The Mon Journal t.9 index has «Elsonn-Soumarokoff (comte)» and «Soumarokoff (comte)».
+
+The name points to the Sumarokov-Elston family, whose head, Count Felix Nikolaevich Sumarokov-Elston (1820–1877), commanded the troops of the Kharkov Military District and died in Kharkov (ru.wikipedia, «Сумароков-Эльстон, Феликс Николаевич»). Which member Marie means is not established; his son Felix Felixovich (born 1856), later Prince Yusupov, is one candidate (0.4).
+
+## Relevance to Marie
+- He had seen her on the train near St Petersburg in August 1876 («Je l'ai rencontrée dans un wagon près de Pétersbourg et elle nous a positivement frappé, moi et mes camarades», 067.0953, 067/1876-11-11), probably the ride to Peterhof of 9 August with four Guards officers (064.0468) (0.8).
+- Papa refuses the officers' request to call at Gavronzi (067.0396, 067.0488–067.0489).
+- 3 November 1876: Marie meets him in the hotel corridor in Poltava and remembers seeing him, «il y a longtemps», dance with Grand Duchess Marie at Livadia (067.0643–067.0644).
+- 11 November 1876: he praises her to uncle Alexandre without knowing who he is, and says her place is in St Petersburg (067/1876-11-11).
+
+## References in Diary
+- 1876-10-31 (067.0396); 1876-11-01 (067.0488); 1876-11-03 (067.0643–0644); 1876-11-11 (067.0953, 067.0955, 067.0967)
+
+See also [#Grand_Duchess_Marie](../aristocracy/GRAND_DUCHESS_MARIE.md).
+
+%% 2026-10-21T09:47:00 RSR: Extended from the restored paragraphs 067.0396, 067.0488, 067.0643-0644 (rsr-067b). %%

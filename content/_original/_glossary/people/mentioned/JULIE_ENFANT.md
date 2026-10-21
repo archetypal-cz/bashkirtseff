@@ -7,7 +7,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-03
+last_updated: 2026-10-21
 ---
 
 %% GLO_JULIE_ENFANT.0001 %%
@@ -18,3 +18,6 @@ A girl of six in February 1875, sister of the boy Stiopa ([#Stiopa](STIOPA_ENFAN
 
 %% GLO_JULIE_ENFANT.0003 %%
 %% 2026-10-03T16:00:00 RSR: 1875-02-07 (029): "Stiopa, l'ainé a sept ans, Julie a six ans." 1875-02-08 (029): the children reason with "naïve gravité". 1875-02-14 (029): at the music with Nadia and Julie. 1875-02-28 (030): taken to Dinorah with Stiopa and Liouba. 1875-03-10 (030): Rumpelmayer's, dressed in grey. 1875-03-15 (030): in the second carriage with Olga and Nadinka. Parentage is not stated in these lines. Liouba is named once (030/1875-02-28) and gets no file of her own. %%
+
+%% GLO_JULIE_ENFANT.0004 %%
+%% 2026-10-21T09:31:34 RSR: Probably Julie Alexandrovna Babanine, daughter of uncle Alexandre and Nadine (0.7): the Mon Journal t.9 index lists "Babanine (Julie Alexandrovna) cousine de Marie Bashkirtseff" and "Babanine (Etienne Alexandrovitch), cousin"; a Stiopa of seven and a Julie of six in February 1875 fit a marriage "il y a dix ans" (067.0306, October 1876). At Tcherniakovka in October 1876 the peasants and servants call a Julie by Marie's own childhood name «Moucha» (067.0289). %%
