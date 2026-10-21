@@ -16,6 +16,15 @@ last_updated: 2026-03-06
 
 A young man in Marie's Nice social circle during summer 1875. Initially shy and reserved, Marie notes he is "not as stupid as he looks" as he warms up during parlor games (July 13, 1875).
 
+## Identity
+
+- **Maurice Godard**: Marie and he sign a joke letter "M.B. M.G. Marie Bashkirtseff, Maurice Godard" (037/1875-07-21); her verse portrait calls him "Maurice-Godard-Decrais ... Fils du préfet, on le tolère" (039/1875-08-21).
+- **Stepson of the prefect**: "Godard, le beau-fils de Decrais, préfet d'ici" (034/1875-06-12); Marie also says "le fils du préfet" (035.0206). Albert Decrais was prefect of the Alpes-Maritimes from 11 November 1874 to March 1876 (Wikipedia, "Albert Decrais").
+- **Age**: eighteen and a half in July 1875, sitting the baccalauréat (037/1875-07-19).
+- **"Désiré"**: Marie's nickname for him from 3 July 1875 ("je désire tout haut Godard et je l'ai nommé Désiré", 035.0158); he is presented to her at the bal champêtre of 4 July (035.0191).
+- The comte d'Etienne de Robillard, named beside "Désiré" in 035.0191, is a different man ("un mélange de Godard et de Robillard", 053/1876-02-10).
+- [Maurice Godard Decrais](MAURICE_GODARD_DECRAIS.md) is an empty stub for the same person (no tags point at it; 039/1875-08-21 lists it in frontmatter only).
+
 ## Role in Marie's Life
 
 - Attends the bal champêtre (July 11, 1875) and evening gatherings at Marie's home
@@ -35,3 +44,4 @@ A young man in Marie's Nice social circle during summer 1875. Initially shy and 
 - First name unknown; minor social acquaintance
 
 %% 2026-02-10T14:01:00 RSR: Expanded stub from carnet 036 references. Shy young man in Marie's social circle. %%
+%% 2026-10-21T09:05:00 RSR: Identity section added from carnets 034-039 (restored paragraphs of 035). The "First name unknown" research note above is superseded: he is Maurice Godard. %%
