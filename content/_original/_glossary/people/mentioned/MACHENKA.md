@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
 ---
 # Machenka
 
@@ -43,6 +43,13 @@ Aunt by marriage - wife of Marie's Uncle Stiopa (Stepan).
 
 ### 1875
 - **August 16**: Accompanies Marie and Dina on a trip to Wiesbaden to find a carriage and horses, encounters German children shouting "hourra!" at them, moonlit carriage ride home discussing elopement and marriage
+
+## Identity (Mon Journal t.8 index)
+
+- «Babanine (Marie Dimitrievna, née Kandiba épouse d'Etienne Stépanovitch), tante de Marie Bashkirtseff : 370, 375». «Machenka» is the diminutive of Maria; her husband is uncle Étienne (Stepan, «Stiopa») Stépanovitch Babanine (tag file TANTE_ETIENNE).
+- Diary: «Marie, ma tante, nous reçoit sur le perron» at the couple's estate, Chpatowoka, 14 August 1876 (064.0583). In 1881 Marie calls her «Marie, femme d'Etienne» (091/1881-03-21).
+
+%% 2026-10-21T12:41:21 RSR: Identity added from the t.8 index during the 1876a restored-paragraph pass (064). The «Research Needed» items full name and maiden name are now answered by the index. %%
 
 ## Research Needed
 
