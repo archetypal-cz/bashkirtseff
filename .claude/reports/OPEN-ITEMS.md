@@ -92,6 +92,7 @@ The single list of everything still open in the project: owner questions, resear
 - [ ] A-51 [frontend][S] **Museum image-permission requests** (11 museums: Nice Chéret, Orsay/RMN, Russian Museum…) — owner outreach; 1885 plates stand in meanwhile — src: ~/rebuild-state/works-catalogue.md
 - [x] A-52 [cz][S] **050.1310 *coquine de Biou*** — Audiffret nickname (cz „ty darebnice Biou!", per LAN) or the Niçois oath as in 032.0394 (kept original, Marie flags it)? — default now: nickname reading — src: D-25 worker 2026-10-05 — **RULED 2026-10-05:** both readings stand — cz footnote added at 050.1310 (pun: Niçois oath + Audiffret nickname)
 - [ ] A-62 [uk][S] **Mlle Tchernitsky spelling in uk** — «Черниська» where Marie writes *Tchernisky* (094 ×2, 097, 100, 101), «Черницька» elsewhere — default now: as is (follows Marie per occurrence) — alternative: «Черницька» throughout — src: session 2026-10-21 (uk D-46)
+- [ ] A-63 [all][S] **Footnotes on Marie's prejudiced remarks** — e.g. 058/1876-04-18 [^5] glosses an antisemitic remark; other passages carry «Juif» used pejoratively (087/1880-04-21) or «mener comme des nègres» (087/1880-04-08), which LAN tells translators to keep unsoftened. Should the edition add a short contextual footnote to such passages, none, or one general note in the preface? — default now: keep existing notes, add none — src: footnote review 2026-10-21
 
 ## B. Research
 
