@@ -52,7 +52,9 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 | 085 | 136 | done c049ca2096 + trees 4223b55780 (RSR 43 notes; LAN 52; A-56 Bashkirtseff) |
 | 028–033 | 214 | done 19d9d61b14 (RSR 111 paragraphs; LAN 82) |
 | 055–058 | 197 | done 54b0a9998b + trees 21861f3c37 (RSR 44 notes, Borgagli; LAN 53) |
-| 060+061+064 | 185 | RSR done (49 notes, 3 fn, Titian) → LAN running |
+| 060+061+064 | 185 | done 5183a5931e (RSR 49 notes; LAN 71; Chocolat corrections in 061/064/074) |
+| 072–077 | 199 | RSR done (75 notes, LISE→KONDAREFF, 073 godchild fn fixed + trees 264bfa3165) → LAN 072/073/077 running; dialogue dashes 075/076 being restored from the scan |
+| 091–106 | 114 | RSR running (batch 1880–84) |
 | 038+039 | 85 | RSR running |
 | 068+069 | 121 | RSR running |
 | 017–027 | 169 | RSR running (batch 1874) |
@@ -60,7 +62,6 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 | 084 | 105 | done 586e8a7862 (RSR 45 paragraphs, 4 fn; LAN 50) |
 | 081+082 | 90+102 | done f8a32db80c (RSR 79 notes, 3 corrections, C-20 fixed in all trees; LAN 85) |
 | 040–054 | 138 | RSR running (batch 1875b) |
-| 072–077 | 199 | RSR running (batch 1877) |
 | 083 | 175 | done 288f7f5078 (RSR 52 notes + 3 corrections; LAN 78) |
 | 071 | 251 | done f70cb9428e (RSR 126 notes, 5 tag fixes; LAN 68) |
 | 065 | 150 | done 874672333a (RSR 42 notes, 6 locations; LAN 52) |
