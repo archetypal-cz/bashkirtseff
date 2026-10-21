@@ -46,7 +46,9 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 | 067 | 668 | done 7fbe0fb61d (3 parts; Opus spot review: LAN 421→344, 3 RSR fixes incl. one that named the 0423 insinuation) |
 | 063 | 201 | done 638820f748 (RSR 46 notes, 30 tags; LAN 81) |
 | 059 | 301 | done 50276d11c5 (RSR 56 notes, 35 tags; LAN 107; plobster fn fixed) |
-| 070 | 523 | split a/b (285/238); 070a RSR+LAN done; 070b RSR running |
+| 070 | 523 | done 1bc72ef4a0 (2 parts; RSR ~143 notes, 9 fn; LAN 154) |
+| 066 | 365 | split a/b (201/164); both RSR running |
+| 071 | 251 | RSR running |
 | next | | by size: 067 668, 070 523, 066 365, 059 301, 071 251, 050 215, 086 206, 063 201, 083 175, 065 150 … (5,724 total) |
 
 ## Second LAN gap (measured 2026-10-21 after reset)
