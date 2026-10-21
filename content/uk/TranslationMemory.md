@@ -261,7 +261,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Tir aux pigeons | стрільба по голубах | Pigeon shooting (established from earlier TM) |
 | bain ferrugineux | залізний ванна | Iron/mineral bath spa treatment |
 | Redoute | «Редут» | Assembly/entertainment room at spa resort |
-| avant-scène | авансцена | Stage box (prestigious theater seating) |
+| avant-scène | авансцена | Stage box (prestigious theater seating) — exception 079.0125: slang for a (padded) bosom → «бюст» + footnote (2026-10-21) |
 | P.P.C. | P.P.C. | Pour Prendre Congé — farewell calling card on departure; kept as abbreviation with footnote |
 | dame d'honneur | дама двору | Lady-in-waiting, attendant to royalty |
 
@@ -1248,7 +1248,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | cabine | купальна кабіна / кабіна | Beach changing-cabin, NOT cabinet/study |
 | faire la planche | лежати на воді | Float on one's back |
 | le pont (du bain) | поміст | Diving platform/pier at the bathing establishment |
-| avant-scène | авансцена | Stage box (established 022) |
+| avant-scène | авансцена | Stage box (established 022) — exception 079.0125: slang for a (padded) bosom → «бюст» + footnote (2026-10-21) |
 | salon de la loge | салон ложі | Private anteroom behind a theatre box |
 | faquin / maroufle | фат / нікчема | Archaic insults; "faquin"→фат kept consistent (also 030/035) |
 | singe / singesse / singeries | мавпа / мавпиця / мавпування | Marie's recurring monkey-metaphor for ridiculous people |

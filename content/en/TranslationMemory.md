@@ -2668,6 +2668,7 @@ When Marie writes in Italian/Latin/German/Russian/Spanish, or leaves a French ph
 - Translation: stage box
 - Context: Theater box at the very front, adjacent to the stage; prestigious seating
 - Notes: Carnet 022 Aug 6; "nous sommes dans une avant-scène"
+- Exception (2026-10-21, RSR/RED): 079.0125 «j'ai une telle avant-scène» is period slang for a (padded) bosom — en "such a balcony" (no footnote); not the theatre box
 
 ### P.P.C. / pour prendre congé
 - Translation: P.P.C. (with footnote)
