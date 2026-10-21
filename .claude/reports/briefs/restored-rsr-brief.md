@@ -36,6 +36,9 @@ For each listed paragraph, do the research the rest of the carnet already has:
 5. Quote sources exactly for spelling variants and cross-references; never add unsourced variants.
 6. One note per fact. If a LAN note already explains it, don't repeat it.
 7. Cite secondary sources (Kernberger 2013, Blind 1890, Wikipedia, etc.) whenever you use them.
+8. Cite paragraphs by their `%% CCC.NNNN %%` ID, found by searching the text, never by line number: other
+   agents insert lines into the same carnet while you work (070, 2026-10-21: two citations pointed one
+   paragraph off). Re-check every ID you cite just before you finish.
 
 ## Format
 

@@ -1,26 +1,26 @@
 ---
 id: CESI
-name: Cesi
+name: Beniamino Cesi
 aliases:
   - Cesi
+  - Ceci
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Stub
+last_updated: 2026-10-21
+languages:
+  - it
 ---
-# Cesi
+# Beniamino Cesi
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+## Overview
+Beniamino Cesi (6 November 1845 – 19 January 1907), Neapolitan pianist, composer and teacher, a pupil of Thalberg, professor of piano at the San Pietro a Majella conservatory in Naples from about 1865 and regarded as the founder of the Neapolitan piano school; he taught at the Saint Petersburg Conservatory in 1885–1891 (en.wikipedia «Beniamino Cesi»). The Mon Journal t.10 index spells him «Ceci (pianiste), 12, 123».
 
-## Description
-[No description available - stub entry created from diary references]
+## Relevance to Marie
+- 2 March 1877: Marie attends «un concert donné par les deux pianistes célèbres de Naples, Palumbo et Cesi» (069/1877-03-02).
+- 18 April 1877: at the Fabbricatore ball, «Cesi le plus grand musicien de Naples» is, with Baron Callotti and the old duc de Carmignano, her «vraie consolation» (070.0694).
 
 ## References in Diary
-[Multiple references found - needs research]
+- 1877-03-02 (069); 1877-04-18 (070.0694)
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-10-21T10:24:00 RSR: Rewritten from the auto-generated stub during RSR research of the restored carnet 070 paragraphs (rsr-070b). Identification: both passages call him a celebrated Naples pianist/musician; confidence 0.9. %%

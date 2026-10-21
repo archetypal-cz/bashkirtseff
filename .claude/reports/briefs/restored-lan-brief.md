@@ -19,7 +19,8 @@ LAN note on the same expression and stay consistent with it.
    dictionary glosses a competent translator would not miss. Skip paragraphs that need nothing.
 2. If a person is tagged on the paragraph, name them from the tag (bare "Marie" tagged MARIE_SAPOGENIKOFF
    is Marie Sapogenikoff), not "another girl". Roles come from the glossary or the source, never a guess.
-3. Write "see existing note" / "cf. CCC.NNNN" only after grepping that it exists.
+3. Write "see existing note" / "cf. CCC.NNNN" only after grepping that it exists. Find IDs by searching
+   the text, never by line number (other agents insert lines into the same carnet concurrently).
 4. Don't build a note on an allusion the text does not mark.
 5. `TRAP` only for real hazards across target languages (false friends, referent collisions, nicknames,
    pronoun traps, expletive *ne*). Style observations are plain notes.
