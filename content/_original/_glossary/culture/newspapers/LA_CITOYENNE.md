@@ -6,7 +6,7 @@ aliases:
 type: Culture
 category: culture/newspapers
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
 ---
 # La Citoyenne
 
@@ -27,6 +27,7 @@ Under Auclert's direction, *La Citoyenne* promoted:
 - Education and professional opportunities for women
 
 ## Diary References
+- January 5–6, 1881: before the first number, Marie attends the meetings of the «conseil d'administration de notre futur journal», where the title is still being debated, and on the 6th brings la Cerny (Mlle Tchernitsky) along: «je prends cela tout au début, je partagerai toutes les peines, je contribuerai à édifier l'œuvre» (090.0544). The first number appeared on 13 February 1881 (en.wikipedia, «La Citoyenne»).
 - March 2, 1881: Marie mentions wanting to become a shareholder ("actionnaire") in *La Citoyenne* with 500 francs
 - March 6, 1881: Marie's article is published in *La Citoyenne*. She writes: "Ça m'empêche d'être contente de voir mon article imprimé dans La Citoyenne. Lisez aussi celui de Hubertine qui est très remarquable."
 
@@ -40,3 +41,5 @@ For an aristocratic young woman to invest in and write for a radical feminist ne
 - French feminist press history
 - Hubertine Auclert biographical studies
 - Studies of 19th-century women's rights movements
+
+%% 2026-10-21T11:42:00 RSR: January 1881 board meetings added from the restored 090 paragraphs (rsr-090). %%

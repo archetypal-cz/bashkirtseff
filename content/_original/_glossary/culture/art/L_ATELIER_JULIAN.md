@@ -17,7 +17,7 @@ work:
   status: public
   location: "Dnipro Art Museum"
 research_status: Comprehensive
-last_updated: 2026-08-13
+last_updated: 2026-10-21
 images:
   - src: /images/marie/works/atelier-julian.jpg
     caption: "L'Atelier Julian (1881), oil on canvas, Dnipro Art Museum, Ukraine"
@@ -48,7 +48,7 @@ The picture illustrates the ethos Marie had set down in her own words as a begin
 
 %% GLO_L_ATELIER_JULIAN.0008 %%
 %% [#Academie_Julian](../../places/schools/JULIAN.md) %%
-The picture was a commission, and the commission was a bargain: on **24 December 1880** [Rodolphe Julian](../../people/recurring/RODOLPHE_JULIAN.md) offered her a subject that would make her name two days after the Salon opened, on condition that the canvas be his at whatever stage of finish -- an engagement she and [Amélie](../../people/mentioned/AMELIE.md) signed in writing, with Magnan and Magdeleine as witnesses (090.0447). Marie got "un coin de notre atelier avec trois personnes sur le premier plan grandeur nature"; Amélie got the whole rue Vivienne studio in small. "Jamais un atelier de femmes n'a été fait," Marie wrote (090.0448) -- and she noted Julian's three motives without illusion: he had no time to paint it himself, he wanted to please her, and he wanted to enrage [Breslau](../../people/artists/LOUISE_BRESLAU.md) (090.0451). She also suspected he wanted her bogged down in a picture too big for the time available.
+The picture was a commission, and the commission was a bargain: on **24 December 1880** [Rodolphe Julian](../../people/recurring/RODOLPHE_JULIAN.md) offered her a subject that would make her name two days after the Salon opened, on condition that the canvas be his at whatever stage of finish -- an engagement she and [Amélie](../../people/mentioned/AMELIE_BEAURY_SAUREL.md) signed in writing, with [Mme Magnan](../../people/mentioned/MME_MAGNAN.md) and Magdeleine as witnesses (090.0447). Marie got "un coin de notre atelier avec trois personnes sur le premier plan grandeur nature"; Amélie got the whole rue Vivienne studio in small. "Jamais un atelier de femmes n'a été fait," Marie wrote (090.0448) -- and she noted Julian's three motives without illusion: he had no time to paint it himself, he wanted to please her, and he wanted to enrage [Breslau](../../people/artists/LOUISE_BRESLAU.md) (090.0451). She also suspected he wanted her bogged down in a picture too big for the time available.
 
 %% GLO_L_ATELIER_JULIAN.0009 %%
 The making of it was a three-month war with the room itself. She could not compose the *esquisse* without knowing where she would be allowed to stand and how much space she would be given; Julian jeered at her through the acoustic tube; her letter to him survives in full in the diary -- "Je n'ai jamais demandé qu'on démolisse la maison mais il faudrait m'accorder un certain espace" (090.0473). The *perspecteur*'s ruling upended the whole design -- she had to imagine herself six metres further back than the wall allowed -- costing four or five days and a 25-minute lecture on his infallible rules (091.0112, 091.0131). [Alice Brisbane](../../people/mentioned/ALICE_BRISBANE.md) and Villevieille were her principal models (091.0088); Brisbane's head was painted in two hours and Julian told her to leave it alone (091.0130).
@@ -73,6 +73,11 @@ The canvas travelled with the bulk of her work: from her mother to the Museum of
 - Precursor: 1877-10 (075.0169) -- the atelier as a place where name and family disappear; the idea the picture illustrates
 - **First mention**: 1880-12-24 (090.0447–0422) -- Julian's offer, the signed engagement, "jamais un atelier de femmes n'a été fait", and his three motives
 - 1880-12-27 (090.0469–0444, 090.0480) -- she cannot compose without knowing her allotted space; her letter to Julian in full
+- 1881-01-01 to 01-22 (restored text, 090.0506–0650): the partition between the little salon and the atelier, which Marie pays for, is put off by Julian («Le Juif Julian ne veut pas qu'on ouvre la cloison avant dimanche», 090.0528), then knocked down on 10 January by a carpenter working after hours (090.0567, 090.0569); Mme Magnan warns her that Amélie means to paint the same corner, and Julian says he wants the right to put Amélie there (090.0542–0543); Marie stays in rather than give Amélie the satisfaction (090.0553); she weighs other subjects, a «refuge» and the Madeleine flower market (090.0546, 090.0571); Saint-Amand is shocked by the nude model in the sketch (090.0534)
+- 1881-01-15 (090.0593) -- the big canvas is in; the new visiting professor Cot is told it is hers
+- 1881-01-17 (090.0620–0628) -- Tony approves the sketch: «Vous n'avez jamais fait de tableau ... Et vous ne savez pas un mot de perspective»
+- 1881-01-18 (090.0629–0631) -- she starts drawing the figures in charcoal; Mlle de Villevieille and «la petite turque» pose; heads in the foreground 12–14 cm
+- 1881-01-22 (090.0642–0646) -- Cot's corrections «insignifiantes», Tony: «il n'y a qu'à continuer»; Julian «vient le regarder souvent»
 - 1881-02-05 (091.0079) -- Tony: "Le point de départ est bon, cela va bien"
 - 1881-02-06 (091.0088) -- the picture back on track; Villevieille and Alice Brisbane as principal models
 - 1881-02-12 (091.0112), 1881-02-13 (091.0131) -- the perspective expert overturns the composition
@@ -101,7 +106,7 @@ The canvas travelled with the bulk of her work: from her mother to the Museum of
 - [#Salon](./SALON.md) -- the annual Paris exhibition
 - [#Tony_Robert_Fleury](../../people/artists/ROBERT_FLEURY.md) -- her teacher
 - [#Louise_Breslau](../../people/artists/LOUISE_BRESLAU.md) -- her rival, who took the 1881 award
-- [#Amelie](../../people/mentioned/AMELIE.md) -- who had the rival commission and painted one head of this canvas
+- [#Amelie](../../people/mentioned/AMELIE_BEAURY_SAUREL.md) -- who had the rival commission and painted one head of this canvas
 - [#Alice_Brisbane](../../people/mentioned/ALICE_BRISBANE.md) -- one of the models
 - [#Jules_Lefebvre](./JULES_LEFEBVRE.md) -- the visiting professor who praised it
 - [#Un_meeting](./UN_MEETING.md) -- the Salon picture of 1884
@@ -119,3 +124,5 @@ The canvas travelled with the bulk of her work: from her mother to the Museum of
 
 %% GLO_L_ATELIER_JULIAN.0020 %%
 %% 2026-08-13T14:00:00 RSR: Created as part of the artworks glossary wave. Facts from the project research catalog (scratchpad/artworks-catalog.md, §3.2 and §5.1) and the diary mention maps for carnets 060-075 and 087-096. The dimensional conflict is reported rather than resolved: four published figures disagree and the Dnipro museum publishes no catalogue record. Provenance to Ukraine (1930 vs 1932 consignment) is likewise left open, as is the donation date to St Petersburg, which three sources give as 1902, 1904 and 1908. The Ukrinform claim that the jury "placed it second" is reported alongside the diary's own numéro 2, which is the likelier underlying fact. Tagging note: the French title of this painting is identical to an alias of the Académie Julian school entry, so tag propagation for this work must be curated by hand rather than driven by alias matching. Image downscaled from the Wikimedia Commons file (1998 x 1638 original); the alternative Commons file "In the Studio 2.jpg" carries a CC-BY-SA self-tag with no PD tag and was avoided. %%
+
+%% 2026-10-21T11:42:00 RSR: Extended from the restored 090 paragraphs (January 1881) and Amélie links retargeted to AMELIE_BEAURY_SAUREL (rsr-090). %%

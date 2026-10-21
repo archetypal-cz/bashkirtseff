@@ -8,7 +8,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Stub
-last_updated: 2026-05-31
+last_updated: 2026-10-21
 ---
 # Amélie Beaury-Saurel
 
@@ -24,9 +24,15 @@ Marie and Amélie were contemporaries at the Académie Julian and rivals at the 
 
 - 1880-04-30: Marie sees Amélie's portrait of Léon Say at the Salon; mixed admiration and scepticism.
 - 1880-05-31: Speculation that Amélie will receive a Salon medal through Léon Say's influence.
+- 1880-12-24: Julian gives her the companion commission to Marie's, the whole rue Vivienne atelier in small; she bursts into tears (090.0447; see [L'Atelier Julian](../../culture/art/L_ATELIER_JULIAN.md)).
+- 1881-01-01: she tells Marie of her love, six years old, for a man whose step on the stairs she knows (090.0507); on 6 January Marie names «ses amours avec Julian» (090.0543) and on 22 January calls her «Amélie ... à l'amour implacable» (090.0650). She married Julian in 1895 (see Overview).
+- 1881-01-05 to 01-14: the quarrel over the little salon: Marie suspects Amélie of working through the atelier maid to have Julian let her paint in the same corner (090.0542–0543, 090.0553, 090.0566, 090.0569); a coolness at the atelier on 14 January (090.0590).
+- The t.14 index entry is «Beaury-Saurel (Amélie), élève à l'atelier Julian»; her sister Irma and their mother appear in the same tome (index).
 
 ## Sources
 
 Wikipedia: [Amélie Beaury-Saurel](https://en.wikipedia.org/wiki/Am%C3%A9lie_Beaury-Saurel); AWARE Women Artists: [Amélie Beaury-Saurel](https://awarewomenartists.com/en/artiste/amelie-beaury-saurel/)
 
 %% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-31.md (and 1880-04-30.md references to "Amélie"). Amélie Beaury-Saurel (1849-1924), French portrait painter, Julian student and rival of Marie's at the Salon 1880. Later became director of the Académie Julian after Rodolphe Julian's death. Source: Wikipedia, AWARE. %%
+
+%% 2026-10-21T11:42:00 RSR: January 1881 references added from the restored 090 paragraphs; the 090 tags that pointed at the AMELIE.md stub were retargeted here per the tag-audit calibration (rsr-090). %%
