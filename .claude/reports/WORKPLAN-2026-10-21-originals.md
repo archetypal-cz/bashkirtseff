@@ -93,3 +93,20 @@ Flagged 403 (492d308ad7) + 4 in 066 (f4b24ad485); 071: 2 flagged in f70cb9428e
 - uk carry of the source-note fixes (agent uk-redo), then tick C-01/C-02/C-07/C-08.
 - Ledger: re-add the session's new items under origin's numbering (A-61+, B-15+, C-18+, D-48+),
   after checking each against origin's text (cz FAB-found issues may already be fixed by origin's 10-10 pass).
+
+## Status 2026-10-21 ~13:45 — restored-paragraph wave COMPLETE
+
+Every carnet with text restored in the 2026-09-28 rebuild now has RSR (Opus) + LAN (Sonnet, capped) notes,
+`entities:` rebuilt by entities-sync, and the dialogue dashes the docx import dropped restored from the scans
+(1,505 paragraphs; C-22 holds the remainder). Last commit of the wave: ffd5c12248.
+
+Round 2 (running):
+- 120 entries (≥100 words, ~46k words) still had no LAN note at all — RSR (Opus) then LAN (Sonnet),
+  brief .claude/reports/briefs/nolan-entries-brief.md; groups nolan-g1/g2/g3.
+- New source footnotes → trees: `just sync --footnotes` added 211 (cz 28 / uk 26 / en 19 carnets);
+  en placed and committed ffcd3db984; cz, uk translations running. 091–106 still to sync.
+- 001 source footnotes quality review (filler/speculation) running.
+- Opus spot review of the 1874 batch running.
+Next: glossary cleanup (59 open B items: duplicates, misfilings — glossary-move/merge rewrite refs in all
+trees, so run when no tree agent is active); tag candidates (1,020, scratchpad entities-tag-candidates-v2.tsv);
+D-55 visible dashes in uk/fr; C-21 OCR damage check.
