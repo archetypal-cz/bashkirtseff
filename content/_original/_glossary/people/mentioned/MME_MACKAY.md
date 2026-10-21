@@ -15,7 +15,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-11
+last_updated: 2026-10-21
 ---
 # Mme Mackay (Bastien-Lepage's friend)
 
@@ -50,7 +50,7 @@ last_updated: 2026-10-11
 ## The other Mackay: the "richissime"
 
 %% GLO_MME_MACKAY.0010 %%
-Marie also writes "Mme Mackay (la richissime)" for a different woman (103.0357, 22 February 1884) -- the wife of the Comstock silver millionaire John William Mackay, who ordered her portrait from Ernest Meissonier. Marie recounts the quarrel: Meissonier asked 70,000 francs, the picture was shown at the "Triennal" and found mediocre, Mrs Mackay demanded retouching, he refused, and she had it destroyed (103.0357-0364); Marie criticises both. An 1884 press account summarised on the Gurney Journey site says the portrait, a picture of Mrs. J. W. Mackay of California, was sent to her with a bill, Mr Mackay first refused to pay, then paid and burned it ([Gurney Journey](http://gurneyjourney.blogspot.com/2015/05/the-meissonier-mackay-affair.html), citing *Alta California*, 1884). The same woman is probably meant when Julian says, of a rich wife that Bastien might marry, "une femme avec de l'argent comme Mme Mackay, qui a soixante millions de rentes" (103.0756) and in Marie's notation of Bastien taking her for "la richissime Mackay" at the start of the affair (101.0171). The silver heiress is Marie Louise Hungerford Mackay, married to John W. Mackay in 1867 ([Wikipedia: John William Mackay](https://en.wikipedia.org/wiki/John_William_Mackay)). The two women must not be conflated, and the entry should be split: see the RSR note.
+Marie also writes "Mme Mackay (la richissime)" for a different woman, the wife of the Comstock silver millionaire John W. Mackay, in her account of the Meissonier portrait quarrel (103.0356-0365, 22 February 1884) and probably in 103.0756. That woman now has her own entry, [#Louise_Mackay](LOUISE_MACKAY.md), and those paragraphs should be tagged there. The two must not be conflated: Marie herself separates them at first mention, "Mme Mackay (pas la richissime) la Mackay Bastien" (098.0101), and Mme Cartwright says Bastien at first "l'avait prise pour la richissime Mackay" (101.0171), a mistake about *this* woman, not an identity.
 
 %% GLO_MME_MACKAY.0011 %%
 ## Related entries
@@ -59,17 +59,22 @@ Marie also writes "Mme Mackay (la richissime)" for a different woman (103.0357, 
 - [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) -- Jules Bastien-Lepage (1848-1884)
 - [#Emile_Bastien_Lepage](../recurring/EMILE_BASTIEN_LEPAGE.md) -- his brother, the architect, who escorted her
 - [#Mme_cartwright](MME_CARTWRIGHT.md) -- Mme Cartwright, source of most of the gossip about her
-- [#Meissonier](../artists/MEISSONNIER.md) -- painter of the "richissime" Mackay's portrait
+- [#Louise_Mackay](LOUISE_MACKAY.md) -- the silver heiress, a different woman
 
 %% GLO_MME_MACKAY.0013 %%
 ## Sources
 
 %% GLO_MME_MACKAY.0014 %%
 - Diary paragraphs cited above; Kernberger (2013), *I Am the Most Interesting Book of All*, glossary entry "Mackay, Stephanie" and diary text of 21 January and 18 August 1883.
-- John W. Mackay and the Meissonier portrait: the Wikipedia and Gurney Journey pages linked above.
+- John W. Mackay and the Meissonier portrait: see [#Louise_Mackay](LOUISE_MACKAY.md).
+
 
 %% GLO_MME_MACKAY.0015 %%
-%% 2026-10-02T12:00:00 RSR: 1883-01-21 (098): at Mme de Bari's, before la Bailleul, "on a dit que la Mackay est furieuse et jalouse" because Bastien spoke flatteringly of Marie. 1883-01-31 (098): "Mme Mackay a un fils". 1883-04-03 (099): Marie's circle mock "la mère Mackay"; footnote there calls her a woman in Bastien-Lepage's circle. 1883-04-28 (099): Marie is tempted to allude to her age and dyed hair. 1883-05-01/02 (099): Marie fears her appearance at the vernissage; "cette Mackay le tient". 1883-05-03 (099): at the vernissage with Princess Massalsky, wife of the Russian consul. Identification with the Comstock-silver heiress Louise Mackay (Mrs John W. Mackay) is plausible but NOT confirmed by the diary text; verify before stating it in a footnote. %%
+## Open points
 
-%% GLO_MME_MACKAY.0016 %%
-%% 2026-10-11T12:00:00 RSR: CORRECTION. The older note above ("identification with the Comstock heiress is plausible") is WRONG for the Bastien-Lepage Mackay: Marie herself writes "Mme Mackay (pas la richissime) la Mackay Bastien" (098.0101) and Mme Cartwright says Bastien at first "l'avait prise pour la richissime Mackay" (101.0171), i.e. the friend is NOT the silver heiress. The richissime appears only in the Meissonier affair (103.0357-0365) and in Julian's remark 103.0756 (and arguably 101.0171). Several existing footnotes are therefore wrong and need fixing by the lead in the source and in all trees: 102.0172 fn "[^2] Mrs. Mackay: Katherine Mackay, wife of ... John William Mackay, with whom Bastien-Lepage was linked" (wrong name -- Katherine Duer was wife of Clarence Mackay, married 1898 -- and wrong woman); 103.0121 fn "[^1] ... an American heiress who was Bastien-Lepage's wealthy patroness" (wrong); 099.0028 fn is neutral. 103.0356 fn about the Meissonier-Mackay scandal ("hung the portrait in her water closet") is not supported by the sources I found (they say the portrait was burned by Mr Mackay after paying; the 70,000 francs is Marie's figure) -- soften it. Unresolved: who Mme Mackay (Stéphanie) really was. No independent source found for a liaison between Bastien-Lepage and any Mackay in biographies reachable online; Kernberger (2013) has only Marie's text. Marie's data: ~40 in 1884, son 18-19, German-born (Prussian, from Cologne), husband American (ex telegraph clerk, New York), owner of an hôtel and four horses paid by "un nommé Spencer" (rumour), "KM" initials on a house/parrot (105.0340-0354; Marie thinks of Mackay but the architect says Klotz). To investigate: the Bastien-Lepage Médard-family archive, Gallica press 1884 (Bastien-Lepage's deathbed), his "Ophélie" study for which Marie says Jules used "Stéphanie" as model (098.0381, 1883-02-22). Recommendation to the lead: split into MME_MACKAY (Stéphanie, Bastien's friend: tags in 098-106 except 103.0356-0365) and a new entry MME_JOHN_MACKAY (the silver heiress, 103.0356-0365 only, and 103.0756 as a toss-up); then re-tag. The 'Mme Mackay' of 099.0333 and 100.0004 is Bastien's friend. %%
+- Who Bastien-Lepage's Mme Mackay ("Stéphanie") really was is unresolved; no independent source found for the liaison (Kernberger 2013 has only Marie's text). Marie's data: about 40 in 1884, son 18-19, German-born, husband American, a house and four horses paid by "un nommé Spencer" (rumour), "KM" initials on a house/parrot (105.0340-0354; Marie thinks of Mackay, the architect says Klotz).
+- To investigate: the Bastien-Lepage family archive, 1884 Gallica press on his last illness, the "Ophélie" study for which Marie says Jules used "Stéphanie" as model (098.0381).
+- The "Mme Mackay" of 099.0333 and 100.0004 (via Mme Massalsky, wife of the Russian consul) is Bastien's friend.
+
+%% 2026-10-21T22:30:00 RSR: Fix (OPEN-ITEMS D-42): the heiress section moved to the new entry LOUISE_MACKAY; stale 2026-10-02/10-11 notes («identification with the Comstock heiress is plausible», «footnotes need fixing», «split recommended») removed. Footnotes at 102.0172 and 103.0121 now say «not Louise Mackay» (D-43). Main sense settled by «Mme Mackay (pas la richissime) la Mackay Bastien» (098.0101). Retag 103.0356–0365 and 103.0756 to LOUISE_MACKAY (see report). %%
+

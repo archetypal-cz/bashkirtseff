@@ -1,58 +1,33 @@
 ---
 id: ALEXANDRINE
-name: Alexandrine
+name: Alexandrine (La Righi's daughter)
 aliases:
   - Alexandrine
+  - Alexandrina
+  - petite Alexandrine
+  - la fille de Larderel
 type: Person
 category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-21
 ---
-# Alexandrine
+# Alexandrine (La Righi's daughter)
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+## Overview
 
-## Description
-[No description available - stub entry created from diary references]
+The small daughter of the actress La Righi (Larderel's mistress, «la Coquine», «Silène»), whom Count Larderel calls «ma petite Alexandrina» at Sorrento on 3 April 1877 and wants to adopt. Mon Journal t.10 index: «Righi (Alexandrine, fille de La Righi)», pp.12, 36, 65-66, 73, 75, 78, 87, 110, 148, 155-157, 159, 173, 176, 187, 195, 230, 283, 306. The child is a focus of Marie's jealousy and then of her fantasies: the «air de tendresse donné à ma petite Alexandrine» makes her furious (070.0030); Larderel proposes marriage «en priant d'adopter sa fille» (070.0420); she dreams of the child turning into a cat or a black dog (070.0536, 070.0584); on 1 June she wishes to bring Alexandrine up herself («l'autre en aura autant dans dix ans», 071.0526, when Lise is twelve, so the child is about two); in July Rosalie tells in bed how she would carry her off (073.0237); and in October 1878 Marie recalls «j'étais enragée pour enlever et élever la petite Alexandrine» (082.0614). Marie also calls her «ma fille, c'est-à-dire la fille de Larderel», who «reçoit six mille par an de son père» (071.0129).
 
-## References in Diary
-[Multiple references found - needs research]
+## Not to be confused with
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-
----
-
-%% 2026-02-04T06:46:51.702Z RSR: Merged content from ALEXANDRINA %%
-
-# Alexandrina
-
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
-
-## Description
-[No description available - stub entry created from diary references]
+- **Marie's goddaughter Alexandrine** (Mme Raynaud's granddaughter, 1877): see [ALEXANDRINE_FILLEULE](ALEXANDRINE_FILLEULE.md).
+- **Mlle Alexandrine**, Mme Doubelt's companion in Naples/Paris, autumn 1877 - spring 1878 (075.0470, 075.0485, 078.0382, 081.0221, 081.0228): see [Mlle Alexandrine](../aristocracy/MLLE_ALEXANDRINE.md).
+- **Alexandrine Pachtenko**, Paul's fiancée and wife (087.0078, 087.0105): see [NINI](NINI.md).
 
 ## References in Diary
-[Multiple references found - needs research]
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+Righi's daughter: 070/1877-04-03 (070.0029, 0030, 0069); 070/1877-04-04 (070.0110, the adoption project); 070/1877-04-07 (070.0207); 070/1877-04-09 (070.0420); 070/1877-04-12 (070.0536); 070/1877-04-14 (070.0584); 071/1877-04-29 (071.0060, «la petite fille» at Florence); 071/1877-05-03 (071.0129); 071/1877-06-01 (071.0526, 071.0527); 073/1877-07-30 (073.0237); 082/1878-10-12 (082.0614).
 
-## Disambiguation (RSR, 2026-10-21)
-This file is tagged for at least two different children of 1877, and the Mon Journal indexes keep them apart:
-- **La Righi's daughter.** The little girl of Larderel's mistress La Righi, whom Larderel calls «ma petite Alexandrina» at Sorrento on 3 April 1877 (070.0029); t.10 index «Righi (Alexandrine, fille de La Righi)». She is the child of Marie's fantasies of adoption and kidnapping: «l'adoption de la petite Alexandrine» (072.0265), Rosalie's tale of how she would carry her off (073.0237), «la vraie» (073.0496).
-- **Marie's goddaughter.** The baby of Mme Raynaud's married daughter, for whom Marie promised in June 1877 to be godmother and to give the name Alexandre or Alexandrine (071.0548); t.10 index «Alexandrine (filleule de Marie), petite-fille de Mme Elisabeth Raynaud». The christening by proxy is in 073.0495.
+Tagged here but belonging elsewhere (retag list in the worker report): 071.0358 and 073.0495 and 084.0377 (goddaughter); 075.0470, 075.0485, 081.0221, 081.0228 (Mlle Alexandrine); 087.0078, 087.0105 (Nini). Undetermined: 071.0454 («Alexandrine, cette fille a vraiment pensé un tas de choses», 071/1877-05-26), a girl addressed or described by name whom the diary does not otherwise identify.
 
-A third person, «Mlle Alexandrine», «la demoiselle de la Générale» of Mme Doubelt's household in Paris, autumn 1877 (075.0470), has her own file, [Mlle Alexandrine](../aristocracy/MLLE_ALEXANDRINE.md); the t.11 index has both «Doubelt (Mlle Alexandrine)» and «Dolmatoff (Alexandrine Mlle)», and which one Marie means is not settled.
-
-The tags have not been split; this is listed in the open-items ledger.
-
-%% 2026-10-21T12:50:00 RSR: Section added during RSR research of the restored 072–077 paragraphs (rsr-1877). %%
+%% GLO_ALEXANDRINE.9100 %%
+%% 2026-10-21T22:55:00 RSR: Fix (OPEN-ITEMS B-37(7), B-53(3)): stub boilerplate and the "Alexandrina" merge residue replaced by a real body; the entry is now the Righi child, the other three Alexandrines are named in "Not to be confused with". Evidence quotes: «ma petite Alexandrina» (070/1877-04-03, 070.0029); «Il m'a demandée en mariage en priant d'adopter sa fille» (070.0420); «ma fille, c'est-à-dire la fille de Larderel» (071.0129); «enlever et élever la petite Alexandrine» (082.0614). %%

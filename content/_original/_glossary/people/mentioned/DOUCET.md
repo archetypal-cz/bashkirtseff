@@ -5,30 +5,23 @@ aliases:
   - Doucet
   - Maison Doucet
   - Jacques Doucet
-  - Lucien Doucet
-  - Henri-Lucien Doucet
 type: Person
 category: people/mentioned
 research_status: Comprehensive
-last_updated: 2026-10-11
+last_updated: 2026-10-21
 images:
   - src: /images/people/jacques-doucet.jpg
     caption: "Jacques Doucet (1853-1929), caricature by Leonetto Cappiello, 1903 (also printed in Femina, Les Célébrités de la Mode)"
     credit: "Leonetto Cappiello, 1903, via Wikimedia Commons, public domain"
     link: https://commons.wikimedia.org/wiki/File:Caricature_of_Jacques_Doucet_by_Leonetto_Cappiello,_1903.jpg
     alt: "Colour caricature of the couturier Jacques Doucet by Cappiello"
-  - src: /images/people/lucien-doucet.jpg
-    caption: "Henri-Lucien Doucet (1856-1895) at work in his studio, c. 1890, unidentified photographer"
-    credit: "Unidentified photographer, c. 1890, via Wikimedia Commons, public domain"
-    link: https://commons.wikimedia.org/wiki/File:Henri_Lucien_Doucet_vers_1890.jpg
-    alt: "Sepia photograph of the painter Lucien Doucet, bearded and bespectacled, seated with a palette beside a large nude painting"
 ---
 
 %% GLO_DOUCET.0001 %%
-## Two Doucets
+## Doucet, the couturier
 
 %% GLO_DOUCET.0002 %%
-The name stands for two unrelated people. Almost every mention (1875-1883) is the Parisian dress-making house of **Jacques Doucet**, where Marie had her clothes made. Two entries of 1880 and 1883 are about the painter **Lucien Doucet**, Prix de Rome, whom Marie describes as a favourite pupil of Julian. This page treats the couturier first.
+«Doucet» in Marie's text is the Parisian dress-making house of **Jacques Doucet**, where she had her clothes made (1875-1883). The painter Lucien Doucet, whom she mentions in 1880 and 1883, is a different person with his own entry: [#Lucien Doucet](../artists/LUCIEN_DOUCET.md).
 
 %% GLO_DOUCET.0003 %%
 ## Jacques Doucet, couturier (1853-1929)
@@ -59,26 +52,17 @@ The diary does not say whether Marie dealt with Jacques himself; "Doucet" is the
 - **1 May 1883** (099.0305). "Chez Doucet et Gelot pour des chapeaux", with Gervex, Julian and Carrier-Belleuse.
 - **5 November 1883** (102.0133). Her claim: after years of working "pendant des heures chez Laferrière, Worth ou Doucet", draperies, jabots and negligent sashes came into fashion, and "les façons les plus courues chez Doucet sont de mon invention. Et rien de cela ne porte mon nom."
 
-%% GLO_DOUCET.0008 %%
-## Lucien Doucet, painter (1856-1895)
-
-%% GLO_DOUCET.0009 %%
-Henri-Lucien Doucet was born in Paris on 23 August 1856 and died at Saint-Leu-d'Esserent (Oise) on 31 December 1895. A pupil of Jules Lefebvre and Gustave Boulanger, he won the Prix de Rome in 1880 and was at the Villa Medici from 1881 to 1884; he later taught at the Académie Julian (1888). Best known for *Après le bal* (1889) and portraits (Princess Mathilde; Robert de Montesquiou, 1879), he received a first-class pastel medal in 1889 and the Légion d'honneur in 1891. (En. Wikipedia, "Henri Lucien Doucet", https://en.wikipedia.org/wiki/Henri_Lucien_Doucet; Orsay artist index; Villa Médicis residents list.)
-
-%% GLO_DOUCET.0010 %%
-- **17 July 1880** (089.0177). The day the Prix de Rome result reaches Julian's: "C'est Doucet l'élève favori de Julian qui a le prix de Rome." Mlle de Villevieille offers a punch upstairs and Julian pays for another below; they shout "Vive la Commune!" in jest. (Her "élève favori de Julian" is her wording; Lefebvre taught at Julian's.)
-- **24-25 June 1883** (100.0207, 100.0210, 100.0212, 100.0227). At the École des Beaux-Arts she sees the Rome "envois". Of the two paintings she can look at, she finds Schommer's "abominable, vide, bête, poncif" and Doucet's *Ave Maria* "exquise": a white-walled town in sunlight, the Virgin in white, an angel in a flowered yellow gown; on second view the colour is "ravissante" and the handling reminds her of Bastien-Lepage and Morot.
-
 %% GLO_DOUCET.0011 %%
 ## Related entries
 
 %% GLO_DOUCET.0012 %%
-[Worth](./WORTH.md); [Laferrière](../../culture/fashion/LAFERRIERE.md); [Rodolphe Julian](../recurring/RODOLPHE_JULIAN.md); [Gervex](../artists/GERVEX.md); [Carrier-Belleuse](./CARRIER_BELLEUSE.md); [Fashion](../../culture/themes/FASHION.md).
+[Lucien Doucet](../artists/LUCIEN_DOUCET.md); [Worth](./WORTH.md); [Laferrière](../../culture/fashion/LAFERRIERE.md); [Rodolphe Julian](../recurring/RODOLPHE_JULIAN.md); [Gervex](../artists/GERVEX.md); [Carrier-Belleuse](./CARRIER_BELLEUSE.md); [Fashion](../../culture/themes/FASHION.md).
 
 %% GLO_DOUCET.0013 %%
 ## Sources
 
 %% GLO_DOUCET.0014 %%
-Wikipédia FR "Jacques Doucet (couturier)" and EN "Henri Lucien Doucet"; Mimi Matthews, "The House of Doucet (1816-1928)"; Wikimedia Commons (Cappiello caricature 1903; Lucien Doucet photograph c. 1890). Diary paragraphs as cited.
+Wikipédia FR "Jacques Doucet (couturier)"; Mimi Matthews, "The House of Doucet (1816-1928)"; Wikimedia Commons (Cappiello caricature 1903). Diary paragraphs as cited.
 
 %% 2026-10-11T12:00:00 RSR: Old page was an empty stub that mis-dated the only mention to "Book 13 (1879)". The lingerie origin and the 21 rue de la Paix address come from the Mimi Matthews article and V&A notes, not from fr.wikipedia. Whether Marie was ever served by Jacques personally is not in the diary. At 093.0337 and 099.0305 (hats, with Gelot) the shop is meant, but "vu Doucet" could be a person. The 1882-01-13 passage mentions "sous-Potain" in the same paragraph (a separate entry). I did not find the title of Lucien Doucet's 1883 Rome envoi: Marie's "Ave Maria" is her description, not checked against INHA's Envois de Rome database (an open question). The photograph's identification as Lucien Doucet is Commons's. DUPLICATE/MIS-FILING: this file should be split into JACQUES_DOUCET (couturier, 25+ tags; culture/fashion or people/mentioned) and LUCIEN_DOUCET (painter, people/artists; tags 089/1880-07-17, 100/1883-06-24, 100/1883-06-25); remaining tags go to the couturier. %%
+%% 2026-10-21T23:32:00 RSR: Split done (OPEN-ITEMS D-42): the painter section, aliases and Commons photograph moved to LUCIEN_DOUCET (people/artists); this file (id kept, DOUCET) now describes the couturier only. Tags to retarget DOUCET to LUCIEN_DOUCET: 089.0177, 100.0207, 100.0210, 100.0212, 100.0227. Two untagged couturier mentions found: 099.0305 («chez Doucet et Gelot pour des chapeaux») and 103.0115 («chez Doucet etc...») may take DOUCET. %%

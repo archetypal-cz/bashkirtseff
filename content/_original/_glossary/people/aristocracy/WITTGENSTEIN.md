@@ -1,80 +1,46 @@
 ---
 id: WITTGENSTEIN
-name: Wittgenstein
+name: Prince Pierre de Wittgenstein
 aliases:
   - Blackprince
   - Prince Wittgenstein
+  - prince de Wittgenstein
+  - le prince noir
   - Wittgenstein
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-10-03
+last_updated: 2026-10-21
 ---
-# Wittgenstein
+# Prince Pierre de Wittgenstein
 
 **Research Status**: Basic
-**Last Updated**: 2025-07-06
-**Diary Coverage**: Up to 1874-04-29
+**Last Updated**: 2026-10-21
+**Diary Coverage**: 1873-01 to 1877 (about 120 entries, mostly 1873-1875)
 
 ## Overview
 
-Wittgenstein appears in Marie Bashkirtseff's diary as a member of the aristocratic society in Nice during 1873. The family owned a villa in Nice and was part of the international high society that wintered on the French Riviera.
+«Le prince de Wittgenstein», a Russian prince with a villa in Nice, with whom the young Marie is fascinated in 1873-1875. The Mon Journal (t.3) index lists him as «Wittgenstein (Pierre, prince de), [Blackprince], [Bute]». Marie's text calls him «russe» («on voit bien qu'il est russe et ours», 018.0209) and «le prince de Wittgenstein» (018.0120); in a struck-out passage of April 1874 he is her «Blackprince» («le prince noir», 018/1874-04-05). His companion is Rosalie Léon, the demi-mondaine whom the index lists as «La Wittgenstein» (see [Rosalie Léon](../mentioned/ROSALIE_LEON.md)); Marie writes of him «avec une cocotte» (059.0082).
 
-## Key Appearances
+He is not a member of the family of the philosopher Ludwig Wittgenstein (the Austrian industrialist Wittgensteins were untitled).
 
-### October 15, 1873
-During Marie's emotional crisis following news of Hamilton's engagement, she notes: "Point de Gioia... Point de Wittgenstein; partis!" (No Gioia... No Wittgenstein; gone!). This suggests Wittgenstein left Nice around the same time as Gioia, possibly indicating they were connected or traveled in the same social circles.
+## Identity
 
-### April 1874
-- **April 20**: Marie observes "En descendant la rue nous croisâmes la voiture du prince de Wittgenstein dans laquelle il était avec une belle dame qui sans doute est sa fille." Notes the prince looks around 50 years old.
-- **April 29**: Regular horseback rider: "Toutes les fois que le prince de Wittgenstein monte à cheval nous le voyons rentrer chez lui vers six heures, galopant." Marie sees only his back on grey horse. His presence makes her "rêveuse et fantastique." She observes: "J'ai vu aujourd'hui son dos, c'est la partie que j'aime le mieux en lui. Il tient la face et les yeux baissés. Sur ce cheval il paraît énorme."
+A Russian Sayn-Wittgenstein in Russian service is meant. The most likely candidate is Prince Pyotr (Pierre) Lvovich Wittgenstein, a Russian general of the Sayn-Wittgenstein line (O. Popko, *Vestsi NAN Belarusi*, 2021; Wikipedia «Ludwig zu Sayn-Wittgenstein-Berleburg»), but this is unconfirmed (confidence 0.5). In support: in November 1874 Marie pastes in a Figaro cutting reporting that he dined at the Élysée with the Tsarevich and Grand Duke Alexis, and writes «Wittgenstein en tenue de général !» (027.0099).
 
-### Social Position
+## Key appearances
 
-The Wittgenstein mentioned is likely a member of the prominent European noble family. The Wittgensteins were:
-- **Austrian or German nobility**: The family had branches in both empires
-- **Wealthy industrialists**: Known for their business enterprises
-- **Cultural patrons**: Supported arts and music
-- **International society**: Maintained residences in multiple European cities
+- 1873-01-26: «l'ombrelle rouge de la Wittgenstein» on the Duke of Hamilton's yacht (001.0050; the lady, not the prince). On 1873-03-04 his yacht and the Duke's «sont partis il y a huit jours» (002.0181).
+- 1873-10-15: «Nice n'est plus Nice. Gioia n'est plus et Wittgenstein non plus.» «Ce Wittgenstein avec sa villa ne me faisait rien du tout; je le voyais une fois par mois pas même, sa belle aussi.» She mourns the departure because the two houses were tied to Hamilton (011.0007, 011.0008).
+- 1874-01-02: she passes «la villa Wittgenstein», under reconstruction, in Nice (015.0005).
+- 1874-03-05: «un personnage intéressant, Wittgenstein avec le prince Dolgorouky» on the Promenade (017.0178). 1874-03-28: at the Monte Carlo casino «le prince de Wittgenstein avec Madame» (018.0023).
+- 1874-04: the spring of her fixation. She walks behind his carriage and horse: «Toutes les fois que le prince de Wittgenstein monte à cheval nous le voyons rentrer chez lui vers six heures, galopant» (019.0037, 1874-04-29); in 1874-04-21 she realises she was addressing her wish for rescue «machinalement au prince de Wittgenstein» (018.0345).
+- 1874-11-30: the Figaro cutting and «en tenue de général» (027.0099). 1874-12-14: a marginal note «Wittgenstein - Nietsnegttiw» (027.0254).
+- 1875-10-05: «Une beauté comme, comme Wittgenstein par exemple, me plaît mais je crains cet homme imposant» (046.0143).
+- 1876-04-21, Naples: «Est-ce vilain de se montrer partout avec une cocotte ! Comme Wittgenstein.» (059.0082). 1876-07-09: her uncle goes to the prince's house (063.0123).
 
-## Connection to Nice Society
+## References in Diary
 
-The Wittgensteins in Nice:
-- Owned a villa (referenced as staying at their property)
-- Part of the international winter colony
-- Connected to other prominent figures like Gioia
-- Their departure marked a change in the social season
+First mentioned (as «Wittgenstein»): 1873-01-26 (001.0050); the prince himself from 1873-10-15 (011.0007). Heaviest in carnets 015-019 (Jan-May 1874). About 120 entries tagged, to 1877.
 
-## Relationship to Marie's Circle
-
-- **Social peer**: Part of the same aristocratic circles
-- **Gioia connection**: Their simultaneous departure suggests association
-- **Hamilton orbit**: As part of Nice high society, likely knew the Duke
-
-## Historical Context
-
-Nice in the 1870s was a favorite wintering spot for European aristocracy. Families like the Wittgensteins would:
-- Spend winters in Nice for the climate
-- Maintain villas or rent prestigious properties
-- Participate in the social season
-- Form an international community of nobility and wealthy bourgeoisie
-
-## Possible Identity
-
-This could be a member of the prominent Wittgenstein family that later produced the philosopher Ludwig Wittgenstein (born 1889). The family was already established in high society by the 1870s through their industrial wealth and cultural connections.
-
-## Identification from the source (2026-10-21, RSR)
-
-- The Tome 3 name index of *Mon Journal* lists him as «Wittgenstein (Pierre, prince de), [Blackprince], [Bute]», and his companion as «Léon (Mme Rosalie) [Zigouzin] [La Wittgenstein] demi-mondaine» (see ROSALIE_LEON).
-- Marie's text calls him «le prince de Wittgenstein» (018.0120) and «russe» (018.0209 «on voit bien qu'il est russe et ours»). In April 1874 he walks the Promenade with two large dogs and a little bitch, Bijou (018.0127, 018.0129).
-- This contradicts «Possible Identity» above: the family of the philosopher Ludwig Wittgenstein were untitled Austrian industrialists, not princes. A Russian prince Pierre (Pyotr) Wittgenstein points instead to the Sayn-Wittgenstein line in Russian service; possibly Prince Pyotr Lvovich Wittgenstein, a Russian general, son of Ludwig zu Sayn-Wittgenstein-Berleburg (O. Popko, *Vestsi NAN Belarusi*, 2021; Wikipedia «Ludwig zu Sayn-Wittgenstein-Berleburg»), unconfirmed (0.5); in support, Marie reads in the Figaro (November 1874) that he dined at the Élysée with the Tsarevich and Grand Duke Alexis «en tenue de général» (027.0099). Ledger B, 2026-10-21.
-- The entry's folder (culture/music) does not fit a person; not moved (report only).
-
-## Questions for Further Research
-
-- Which specific Wittgenstein family member was in Nice in 1873?
-- What was their connection to Gioia?
-- Did they own or rent their Nice property?
-- Were they Austrian or German Wittgensteins?
-
-%% 2025-06-30T21:35:00 RSR: Created entry for Wittgenstein based on October 1873 references %%
+%% 2026-10-21T22:35:00 RSR: Fix (OPEN-ITEMS B-57 (2)): the «Possible Identity» section (Ludwig Wittgenstein's industrial family) and the paragraph "member of the Wittgenstein family … Austrian or German nobility, wealthy industrialists, cultural patrons" are removed; they contradict the source: Mon Journal t.3 index «Wittgenstein (Pierre, prince de), [Blackprince], [Bute]», 018.0209 «on voit bien qu'il est russe et ours», 027.0099 «Wittgenstein en tenue de général !». The earlier "family owned a villa in Nice / left with Gioia" generalisations were also dropped; the 1874-04-20 «belle dame qui sans doute est sa fille» sighting (cited in the old body) was not re-found in the text and is left out. Pyotr Lvovich identification kept as a hedge (0.5), citing the earlier note's Popko 2021 / Wikipedia sources which I did not re-open. Folder: the ledger's "culture/music" is out of date, the file already sits in people/aristocracy. %%

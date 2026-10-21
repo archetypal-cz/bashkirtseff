@@ -5,32 +5,34 @@ aliases:
   - Brunet
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Moderate
+last_updated: 2026-10-21
 ---
 # Brunet
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-06
-**Diary Coverage**: Up to 1874-03-12
+**Research Status**: Moderate
+**Diary Coverage**: 1873-09-06 to 1877-09-06
 
 ## Identity
-A servant in the Bashkirtseff household. Marie is mortified to find herself blushing when his name is mentioned.
+M. Brunet, Marie's private tutor in Nice: «professeur de littérature» in the printed index of Mon Journal t.3 (p. 16 etc.) and «professeur» in the t.8 and t.10 indexes. He gives her lessons in literature, grammar, rhetoric, history and mythology from September 1873, French lessons alongside, and from February 1875 Latin (Caesar, Sallust). He is not a household servant.
 
 ## Diary References
 
-### 1874
-- **March 7**: Marie has appointment with Brunet at 4:15 PM, which conflicts with Biasini's delayed arrival at the villa.
-- **March 12**: Marie reveals her shame: "Ce qui est infâme c'est que je rougis quand on dit 'Brunet', je me serais assassinée, tant j'en rage!" She calls him "ce domestique" (this servant) and is furious that her mother's way of pronouncing his name makes her blush.
+- **1873-09-06** (009): «Première leçon avec M. Brunet, de littérature, grammaire, rhétorique, histoire, mythologie. C'était une espèce d'examen.»
+- **1873-09-23** (010): «une demi-heure de français avec M. Brunet».
+- **1873-11-13** (012): «une heure de latin et une heure avec Brunet» added to her studies.
+- **1873-11-15** (012): Brunet «me chagrine toujours en disant que Paul ne fait rien» (he reports on her brother Paul's laziness at the lycée).
+- **1874-03-07** (017): Marie has «Brunet à quatre heures un quart», and Biasini, who was to meet her at "55", only arrives at four when she has already left.
+- **1874-03-12** (017.0283-0284): «je rougis quand on dit "Brunet", je me serais assassinée, tant j'en rage !» She calls him «ce domestique», a class-anxious word of hers for a hired teacher, and prays «faites que je ne rougisse plus pour ce domestique», because her mother seemed to pronounce his name in a certain way. The diary does not say why she blushes (LAN note: "AMBIGUOUS").
+- **1875-02-16** (029): «J'ai commencé le latin avec Brunet et, sauf l'exécrable prononciation française, ses leçons sont excellentes.»
+- **1875-02-25** (030): «C'est incroyable comme j'avance en latin avec Brunet.»
+- **1875-03-11** (030): «Brunet est très content de mon latin».
+- **1875-07-14** (036): «En cinq mois j'ai fait, au dire de Brunet, ce qu'on fait au lycée en trois ans.»
+- **1876-06-28** (062): «disait M. Brunet, mon maître» (his remark on the simplicity of the Gospel narrative).
+- **1877-05-26** (071): «mon vieux professeur Brunet» comes to help with the «fameux catalogue»; 1877-08-04 (073) and 1877-09-06 (074): he corresponds with her about the catalogue.
 
-## Context
-- Household servant, not a teacher as initially assumed
-- Marie's blushing suggests unwanted attraction or embarrassment
-- Her violent reaction ("je me serais assassinée") shows class anxiety
-- Mother's pronunciation implies awareness of Marie's reaction
-- Marie prays to God not to blush for "this servant"
+## Not this Brunet
+- 087/1880-01-24 «le baron Brunet» at a lunch with Gavini and Prince Napoleon is a different man (Mon Journal t.13 index lists «Brunet (baron)» separately); tag should be removed.
+- «Mme Brunet-Capdeville» (085/1879-06-21, «de chez les Lesseps») is a third person.
 
-## Research Notes
-- Marie's horror at blushing for servant shows strict class boundaries
-- Her prayer shows depth of mortification: "Mon Dieu c'est affreux!"
-- Incident reveals Marie's vulnerability to inappropriate attractions
+%% 2026-10-21T22:05:00 RSR: Fix (OPEN-ITEMS B-15): «servant» and «not a teacher as initially assumed» removed. «Première leçon avec M. Brunet, de littérature, grammaire, rhétorique, histoire, mythologie» (009/1873-09-06) and «J'ai commencé le latin avec Brunet» (029/1875-02-16) show he is her tutor; Mon Journal t.3 index: «Brunet (M.), professeur de littérature». Coverage extended from 1874-03-12 to 1877-09-06. %%

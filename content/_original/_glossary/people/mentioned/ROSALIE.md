@@ -1,25 +1,23 @@
 ---
 id: ROSALIE
-name: Rosalie Dame (née Pitauchard)
+name: Rosalie Dame (née Grond)
 aliases:
   - Rosalie
   - Rosalie Pitauchard
   - Rosalie Dame
-  - Mme Dame
-  - Mme Pitauchard
-  - Pitauchard
+  - Rosalie Grond
   - le dragon
 type: Person
 category: people/mentioned
 research_status: Comprehensive
-last_updated: 2026-05-25
+last_updated: 2026-10-21
 ---
 
 %% GLO_ROSALIE.0001 %%
-# Rosalie Dame (née Pitauchard)
+# Rosalie Dame (née Grond)
 
 %% GLO_ROSALIE.0002 %%
-Rosalie Pitauchard, later Rosalie Dame, was Marie Bashkirtseff's personal [lady's maid](https://en.wikipedia.org/wiki/Lady%27s_maid) (*femme de chambre*) from approximately late 1876 or early 1877 until Marie's death in October 1884. She married Dominique Dame (whom Marie called "Pitauchard") in June 1883, but remained in Marie's service after the wedding, with her husband given a room in the basement of the household at 30 rue Ampère. With approximately 184 diary entries mentioning her across carnets 068--106 (1877--1884), Rosalie is by far the most frequently mentioned servant in the diary and one of its most vivid secondary characters.
+Rosalie Grond (Mon Journal t.11-t.13 indexes: «Rosalie Grond, femme de chambre de Marie Bashkirtseff»), later Rosalie Dame (t.16 index: «Rosalie (épouse Dame), femme de chambre de Marie»; t.15 index: «Dame (Dominique) [Pitauchard], épouse de Rosalie»), was Marie Bashkirtseff's personal [lady's maid](https://en.wikipedia.org/wiki/Lady%27s_maid) (*femme de chambre*) from approximately late 1876 or early 1877 until Marie's death in October 1884. She married Dominique Dame (whom Marie calls "Pitauchard", a nickname for the husband) in June 1883, but remained in Marie's service after the wedding, with her husband given a room in the basement of the household at 30 rue Ampère. With approximately 184 diary entries mentioning her across carnets 068--106 (1877--1884), Rosalie is by far the most frequently mentioned servant in the diary and one of its most vivid secondary characters.
 
 %% GLO_ROSALIE.0003 %%
 ## Role and Character
@@ -116,7 +114,7 @@ In July 1882, Rosalie announced her intention to marry, causing Marie genuine di
 The wedding took place in late June 1883. The groom, whom Marie called "Pitauchard," was actually named Dominique Dame (1883-06-27: "Pitauchard, qui s'appelle en réalité Dominique Dame"). Bojidar Karageorgevitch served as best man (*garçon d'honneur*) and Marie as maid of honor (*demoiselle d'honneur*). Invitations were sent jokingly to Coco (Marie's parrot) and Bojidar's dog. Marie noted wryly: "Rosalie et Pitauchard ne sont pas poétiques, ils n'ont pas été touchants et je les soupçonne d'avoir péché d'avance" (1883-06-27).
 
 %% GLO_ROSALIE.0018 %%
-After the marriage, the couple was given an apartment in the basement of the household at 30 rue Ampère. Marie visited them socially: "nous descendons dans l'appartement des Pitauchard où Rosalie nous offre du thé" (1883-07-28). After the marriage, Marie occasionally referred to her as "Rosalie Pitauchard" and to the couple as "les Pitauchard."
+After the marriage, the couple was given an apartment in the basement of the household at 30 rue Ampère. Marie visited them socially: "nous descendons dans l'appartement des Pitauchard où Rosalie nous offre du thé" (1883-07-28). Marie refers to the couple as "les Pitauchard" and, once, to Rosalie herself as "Rosalie Pitauchard" (101.0421, 1883-09-21: "le trac comme dit Rosalie Pitauchard"). Pitauchard is the husband's nickname (t.15 index: "Dame (Dominique) [Pitauchard], époux de Rosalie"), not her maiden name.
 
 %% GLO_ROSALIE.0019 %%
 ### Health
@@ -183,3 +181,4 @@ The context generally makes identification clear: from carnet 068 (February 1877
 %% GLO_ROSALIE.0031 %%
 %% 2026-02-10T10:30:00 RSR: Enriched from stub. Rosalie was a household servant who appears frequently across the diary from 1877-1883. Identified through diary context as performing errands, accompanying Marie to the studio, and serving as a model for sculpture. %%
 %% 2026-05-25T02:00:00 RSR: Comprehensive expansion. Full name confirmed from raw carnet 16 index: "Rosalie (épouse Dame), femme de chambre de Marie" and "Pitauchard, Dame, époux de Rosalie." Rosalie's maiden name was Pitauchard; she married Dominique Dame (called "Pitauchard" by Marie) in June 1883. 184 entry files reference her across carnets 068-106. Role documented as lady's maid, confidante, intelligence operative, artist's model, and caretaker. Speech patterns, personal opinions, marriage, health episodes, and relationship dynamics reconstructed from diary text. Disambiguation from Rosalie Léon and Rosalie Wittgenstein added. No external biographical sources available -- all information derived from the diary itself. %%
+%% 2026-10-21T22:16:59 RSR: Fix (OPEN-ITEMS B-59(2)): CORRECTION to the note above, which gave her maiden name as Pitauchard. The Mon Journal indexes give «Rosalie Grond, femme de chambre de Marie Bashkirtseff» (t.12 index) and «Rosalie (Grond)» (t.11), later «Rosalie (épouse Dame)» (t.16); «Pitauchard» is Marie's nickname for the husband Dominique Dame («Pitauchard (qui s'appelle en réalité Dominique Dame)», 100.0243; «Son Pitauchard va loger ici», 100.0233; «les Pitauchard», 100.0452). The diary applies it to Rosalie herself only once, «Rosalie Pitauchard» (101.0421), which is kept as an alias; the bare «Pitauchard», «Mme Pitauchard» and «Mme Dame» aliases were removed (not found as forms for her; bare «Pitauchard» denotes the husband). name:, title and aliases updated. Tag follow-up: bare «Pitauchard» paragraphs 100.0233, 100.0243 mean the husband, not Rosalie. %%

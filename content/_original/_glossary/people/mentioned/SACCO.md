@@ -6,84 +6,23 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
 ---
 # Sacco
 
 **Research Status**: Basic
-**Last Updated**: 2025-06-30
-**Diary Coverage**: Up to 1874-01-01
 
 ## Overview
 
-Sacco appears 12 times in Marie Bashkirtseff's diary and was clearly a flower shop or florist establishment in Nice that the family patronized regularly. The shop played a role in the social life of the expatriate community, as flowers were essential for social occasions.
+M. and Mme Sacco, florists in Nice, who were also Marie's family's **landlords** in 1873-74: Mon Journal t.1 index «Sacco (M. et Mme), fleuriste», t.2 «Sacco (Mme), fleuriste», t.3 and t.4 «Sacco, fleuriste». The flower shop is the one Marie and the Howards visit for bouquets (003/1873-04-11, 003.0271: the 300-franc monster bouquet; 012/1873-11-04 and 11-05, 012.0053, 012.0068), but the Saccos are more than tradespeople.
 
-## The Establishment
+- **June 1873**: before the move Marie is sent to settle things «chez Sacco»; «Mme Sacco, notre future maîtresse, montre une sympathie tellement grande pour moi», and refuses to let the family leave within three months (006/1873-06-16, 006.0002-0004). Her *fête* in July: she asks leave «de faire danser son monde devant nos fenêtres» (007/1873-07-27, 007.0251).
+- **December 1873**: the family lives in the house above the shop: «Notre demeure est affreuse, nous vivons dans un magasin, tous les cochons viennent acheter des fleurs. J'ai parlé à Sacco et elle dit qu'on ne peut faire autrement, c'est leur boutique» (013/1873-12-02, 013.0163).
+- **March 1874**: furniture «que nous achèterons à Sacco» (017/1874-03-02, 017.0119).
+- **August 1874**: in a list of Nice acquaintances, «Desforges, Biasini, Sacco, Avigdor» (023/1874-08-14, 023.0113).
 
-Sacco was:
-- **Flower Shop/Florist**: Specializing in flowers and plants
-- **High-End Establishment**: Catering to wealthy clientele
-- **Social Meeting Place**: Where society members might encounter each other
-- **Regular Supplier**: To the Bashkirtseff household
+## References in Diary
 
-## Notable Visit - November 5, 1873
+003/1873-04-11 (003.0271); 006/1873-06-16 (006.0002, 0003, 0004); 007/1873-07-27 (007.0251); 012/1873-11-04 (012.0053); 012/1873-11-05 (012.0068); 013/1873-12-02 (013.0163); 017/1874-03-02 (017.0119); 023/1874-08-14 (023.0113).
 
-Marie provides a detailed account of visiting Sacco with the Howard family:
-- Accompanied by Willy, Helene, Lise, and Aggie Howard
-- "Plantus" (possibly M. Plantus, an old man) was examining flowers
-- The visit was part of a social outing
-- Shows the shop was a respectable place for young ladies
-
-## Social Significance
-
-Flower shops like Sacco were important because:
-- **Social Necessity**: Flowers needed for visits, gifts, and entertaining
-- **Meeting Ground**: Respectable place to encounter acquaintances
-- **Status Symbol**: Quality of flowers reflected social standing
-- **Cultural Practice**: Flower-giving was essential to 19th century etiquette
-
-## Business Practices
-
-Based on diary mentions:
-- **Personal Service**: Likely knew customers' preferences
-- **Home Delivery**: Probably delivered to villas
-- **Seasonal Offerings**: Different flowers for different occasions
-- **Credit Accounts**: Wealthy families likely had accounts
-
-## Location and Clientele
-
-Sacco was probably:
-- Located in the fashionable quarter of Nice
-- Near other luxury shops
-- Accessible to the villa districts
-- Frequented by international clientele
-
-## Cultural Context
-
-In 1870s Nice:
-- Flowers were integral to social life
-- Gardens and floral displays showed wealth
-- Flower language (floriography) was understood
-- Fresh flowers needed constantly for:
-  - Social calls
-  - Dinner parties
-  - Personal adornment
-  - Home decoration
-  - Gifts and condolences
-
-## Relationship to Other Businesses
-
-Sacco appears alongside mentions of:
-- Other luxury providers
-- Establishments catering to wealthy visitors
-- Part of the network serving expatriate community
-
-## Questions for Further Research
-
-- Was Sacco an Italian family business?
-- Where exactly was the shop located?
-- Did they specialize in particular flowers?
-- How long did the business operate?
-- Were they suppliers to other notable families?
-
-%% 2025-06-30T22:55:00 RSR: Created entry for Sacco flower shop based on 12 diary mentions %%
+%% 2026-10-21T23:25:00 RSR: Fix (OPEN-ITEMS B-61(5)): the speculative body (shop "probably in the fashionable quarter", "credit accounts", etc.) replaced by the facts read in the tagged paragraphs: the Saccos are florists and the Bashkirtseffs' landlords in Nice 1873-74 («Mme Sacco, notre future maîtresse», 006.0004; «nous vivons dans un magasin … c'est leur boutique», 013.0163). Indexes t.1-t.4 call them "fleuriste". The shop address is not in the diary. %%

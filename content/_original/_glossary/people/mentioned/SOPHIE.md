@@ -5,6 +5,7 @@ aliases:
   - Sophie
   - Sonitchka
   - Sonia
+  - Sophie Pavlovna
   - Sophie Grigorievna
   - Mme Tutcheff
   - la Tutcheff
@@ -13,13 +14,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-05-24
+last_updated: 2026-10-21
 ---
 # Sophie Tutcheff, nee Bashkirtseff (paternal aunt)
 
 ## Identity
 
-**Full name**: Sophie Grigorievna Tutcheff, nee Bashkirtseff (nicknames: Sonia, Sonitchka)
+**Full name**: Sophie Pavlovna Tutcheff, nee Bashkirtseff (nicknames: Sonia, Sonitchka). Marie writes «Sophie Pavlovna Tutcheff» (067.0187); the Mon Journal t.9 index reads «Tutcheff (Mme), Sophie Pavlona Bashkirtseff», and the patronymic agrees with her father, General Paul Grigorievitch Bashkirtseff. The t.1 index prints «Tutscheff (Mme Sophie Grigorievna)», and Marie's 1873 «Sophie Grigorievna» (002/1873-02-23) uses the same form; «Grigorievna» is therefore kept only as an alias.
 
 **Relationship**: Marie's PATERNAL aunt -- sister of Marie's father (Papa/Constantin Bashkirtseff). Daughter of the General (Paul Grigorievitch Bashkirtseff).
 
@@ -34,7 +35,7 @@ last_updated: 2026-05-24
 Sophie Tutcheff appears in two distinct phases:
 
 ### Early Diary (1873): Visiting Relative
-In carnets 001-002, Sophie visits Nice with her son Emile. She appears alongside but SEPARATELY from "ma tante" (Nadine Romanoff). For example, February 23, 1873: "nous etions maman, ma tante, Sophie, Emile, Dina, moi." She is treated as a guest, not a permanent household member. Marie throws carnival bouquets while calling out "Sophie Grigorievna."
+In carnets 001-002, Sophie visits Nice with her son Emile. She appears alongside but SEPARATELY from "ma tante" (Nadine Romanoff). For example, February 23, 1873: "nous etions maman, ma tante, Sophie, Emile, Dina, moi." She is treated as a guest, not a permanent household member. Marie throws carnival bouquets while calling out "Sophie Grigorievna" (her form of the name; the t.1 index identifies this Sonitchka with the aunt).
 
 ### Later Diary (1875+): Family Enemy
 From carnet 004 onward, Mme Tutcheff becomes one of the family's most dangerous enemies. Marie describes her with increasing venom:
@@ -67,3 +68,4 @@ Emile visited Nice with his mother in early 1873. He appears in the diary's soci
 
 %% 2025-06-28T13:05:00 RSR: Created basic entry. Originally conflated with Ma tante -- see correction below. %%
 %% 2026-05-24T12:00:00 RSR: MAJOR CORRECTION. This entry was previously titled "Sophie (Ma tante)" -- WRONG. Sophie Tutcheff (nee Bashkirtseff) is Marie's PATERNAL aunt, a DIFFERENT person from "ma tante" (Nadine Romanoff, nee Babanine, Marie's MATERNAL aunt). The Apostolescu index in carnet 01 lists them separately: "Romanoff (Mme Nadine), nee Babanine, tante" vs "Tutscheff (Mme Sophie Grigorievna), nee Bashkirtseff." In the Feb 23 1873 entry, "maman, ma tante, Sophie, Emile, Dina, moi" lists them as distinct people. Sophie Tutcheff becomes a major antagonist from carnet 04 onward. Updated to Moderate. %%
+%% 2026-10-21T21:59:27 RSR: Fix (OPEN-ITEMS B-32): «Grigorievna» replaced by «Pavlovna» as the primary patronymic: «ce n'est pas Sophie Pavlovna Tutcheff» (067/1876-10-20, 067.0187) and Mon Journal t.9 index «Tutcheff (Mme), Sophie Pavlona Bashkirtseff»; her father is «le général Paul Grigorievitch Bashkirtseff» (t.1). Marie's 1873 «Sophie Grigorievna» and the t.1 index «Tutscheff (Mme Sophie Grigorievna)» keep the older form as alias. %%

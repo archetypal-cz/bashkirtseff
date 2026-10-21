@@ -1,0 +1,246 @@
+file	paragraph_id	id	path	action	note	worker
+087/1880-01-24.md	087.0309	BRUNET	people/mentioned/BRUNET.md	remove	«le baron Brunet» at lunch with Gavini/Plon-Plon is not the tutor (Mon Journal t.13 index lists Brunet (baron) separately)	p3-a
+009/1873-09-19.md	009.0263	SOUBISE	people/mentioned/SOUBISE.md	add	«Gioia avec Pitou (Soubise ressemble au feu Pitou comme une sœur)»: Pitou = Marie nickname for la Soubise; PITOU tag may stay for the monkey comparison	p3-a
+019/1874-05-16.md	019.0234	PITOU	people/mentioned/PITOU.md	remove	«Pense-à-Pitou qui nous reconnut et nous passa deux fois» = nickname of a man in Paris, not the monkey	p3-a
+005/1873-06-01.md	005.0139	ARTHUR_MALAUSSENA	people/mentioned/ARTHUR_MALAUSSENA.md	retarget-from:MALAUSSENA	1873 lawyer = Arthur per Mon Journal t.1/t.2 index	p3-a
+005/1873-06-14.md	005.0271	ARTHUR_MALAUSSENA	people/mentioned/ARTHUR_MALAUSSENA.md	retarget-from:MALAUSSENA	1873 lawyer = Arthur per Mon Journal t.1/t.2 index	p3-a
+006/1873-06-20.md	006.0054	ARTHUR_MALAUSSENA	people/mentioned/ARTHUR_MALAUSSENA.md	retarget-from:MALAUSSENA	1873 lawyer = Arthur per Mon Journal t.1/t.2 index	p3-a
+006/1873-06-21.md	006.0064	ARTHUR_MALAUSSENA	people/mentioned/ARTHUR_MALAUSSENA.md	retarget-from:MALAUSSENA	1873 lawyer = Arthur per Mon Journal t.1/t.2 index	p3-a
+010/1873-09-24.md	010.0055	ARTHUR_MALAUSSENA	people/mentioned/ARTHUR_MALAUSSENA.md	retarget-from:MALAUSSENA	1873 lawyer = Arthur per Mon Journal t.1/t.2 index	p3-a
+011/1873-10-28.md	011.0300	VILLA_GIOIA	places/residences/VILLA_GIOIA.md	add	paragraph names «villa Gioia»; checked by reading	p3-a
+012/1873-11-04.md	012.0063	VILLA_GIOIA	places/residences/VILLA_GIOIA.md	add	paragraph names «villa Gioia»; checked by reading	p3-a
+012/1873-11-15.md	012.0221	VILLA_GIOIA	places/residences/VILLA_GIOIA.md	add	paragraph names «villa Gioia»; checked by reading	p3-a
+032/1875-05-09.md	032.0373	VILLA_GIOIA	places/residences/VILLA_GIOIA.md	add	paragraph names «villa Gioia»; checked by reading	p3-a
+045/1875-09-27.md	045.0119	VILLA_GIOIA	places/residences/VILLA_GIOIA.md	add	paragraph names «villa Gioia»; checked by reading	p3-a
+029/1875-02-14.md	029.0320	CENDRILLON	culture/theater/CENDRILLON.md	add	«au cirque, Cendrillon jouée par des bambins de deux à huit ans»	p3-a
+002/1873-02-19.md	002.0035	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	Nice bookshop/reading room, not the Roman baron	p3-a
+002/1873-02-23.md	002.0069	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	Nice bookshop/reading room, not the Roman baron	p3-a
+009/1873-09-22.md	009.0297	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	Nice bookshop/reading room, not the Roman baron	p3-a
+010/1873-10-08.md	010.0295	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	Nice bookshop/reading room, not the Roman baron	p3-a
+014/1873-12-16.md	014.0112	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	Nice bookshop/reading room, not the Roman baron	p3-a
+016/1874-02-17.md	016.0318	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	Nice bookshop/reading room, not the Roman baron	p3-a
+016/1874-02-17.md	016.0319	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	Nice bookshop/reading room, not the Roman baron	p3-a
+016/1874-02-17.md	016.0323	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	Nice bookshop/reading room, not the Roman baron	p3-a
+016/1874-02-19.md	016.0338	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	Nice bookshop/reading room, not the Roman baron	p3-a
+024/1874-10-09.md	024.0274	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	Nice bookshop/reading room, not the Roman baron	p3-a
+062/1876-06-28.md	062.0775	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	Nice bookshop/reading room, not the Roman baron	p3-a
+048/1875-11-06.md	048.0640	VISCONTI_LIBRAIRIE	places/shops/VISCONTI_LIBRAIRIE.md	retarget-from:VISCONTI	«On conduit Marie chez Visconti» (Nice, probably the shop; not certain)	p3-a
+017/1874-03-24.md	017.0465	WEB	people/service/WEB.md	add	«monter accompagnée de Web… Mais Web est sorti»: the groom	p3-a
+071/1877-05-15.md	071.0358	ALEXANDRINE_FILLEULE	people/mentioned/ALEXANDRINE_FILLEULE.md	retarget-from:ALEXANDRINE	On parle tant d'Alexandre et d'Alexandrine: name for Marie's coming goddaughter (probable)	p3-b
+071/1877-06-03.md	071.0548	ALEXANDRINE_FILLEULE	people/mentioned/ALEXANDRINE_FILLEULE.md	add	marraine promise, Mme Raynaud's daughter's child (now tagged RAYNAUD only)	p3-b
+073/1877-08-19.md	073.0495	ALEXANDRINE_FILLEULE	people/mentioned/ALEXANDRINE_FILLEULE.md	retarget-from:ALEXANDRINE	christening by proxy, ma petite Alexandrine	p3-b
+084/1879-03-03.md	084.0377	ALEXANDRINE_FILLEULE	people/mentioned/ALEXANDRINE_FILLEULE.md	retarget-from:ALEXANDRINE	ma filleule Alexandrine, dix huit mois	p3-b
+075/1877-10-28.md	075.0470	ALEXANDRINE	people/mentioned/ALEXANDRINE.md	remove	already also tagged MLLE_ALEXANDRINE; la demoiselle de la Générale	p3-b
+075/1877-10-29.md	075.0485	ALEXANDRINE	people/mentioned/ALEXANDRINE.md	remove	already also tagged MLLE_ALEXANDRINE	p3-b
+081/1878-07-02.md	081.0221	MLLE_ALEXANDRINE	people/aristocracy/MLLE_ALEXANDRINE.md	retarget-from:ALEXANDRINE	l'Alexandrine de Mme Doubelt	p3-b
+081/1878-07-02.md	081.0228	MLLE_ALEXANDRINE	people/aristocracy/MLLE_ALEXANDRINE.md	retarget-from:ALEXANDRINE	Mlle Alexandrine a été chez nous ce soir	p3-b
+076/1877-11-27.md	076.0273	MLLE_ALEXANDRINE	people/aristocracy/MLLE_ALEXANDRINE.md	add	la demoiselle de compagnie de Mme Doubelt (probable)	p3-b
+075/1877-10-20.md	075.0362	MLLE_ALEXANDRINE	people/aristocracy/MLLE_ALEXANDRINE.md	add	Melle Dolmatoff (parente et demoiselle de compagnie) - probable same person; alt: merge DOLMATOFF	p3-b
+087/1879-12-28.md	087.0078	NINI	people/mentioned/NINI.md	retarget-from:ALEXANDRINE	Paul's fiancée Alexandrine	p3-b
+087/1879-12-31.md	087.0105	NINI	people/mentioned/NINI.md	retarget-from:ALEXANDRINE	la belle Alexandrine Pachtenko	p3-b
+068/1876-12-22.md	068.0280	LOLA	people/mentioned/LOLA.md	remove	Lola here = Marie [Lola] Gorpintchenko, Mme Sperandio (la princesse, Hélène, sa fille, Lola et son mari, Sperandio); keep SPERANDIO tag	p3-b
+024/1874-10-03.md	024.0204	OGAREV	people/writers/OGAREV.md	retarget-from:OGAREFF	Ogareff le socialiste, poet N. Ogarev	p3-b
+024/1874-10-04.md	024.0230	OGAREV	people/writers/OGAREV.md	retarget-from:OGAREFF	lettre ou Ogareff dit avoir mordu Tourguenieff	p3-b
+024/1874-10-04.md	024.0235	OGAREV	people/writers/OGAREV.md	retarget-from:OGAREFF	un homme comme Ogareff	p3-b
+093/1881-09-17.md	093.0086	MLLES_MARTINOFF	people/mentioned/MLLES_MARTINOFF.md	retarget-from:MARTINOFF	Naples/Biarritz Mlles Martinoff, not the Poltava prefect	p3-b
+093/1881-09-19.md	093.0096	MLLES_MARTINOFF	people/mentioned/MLLES_MARTINOFF.md	retarget-from:MARTINOFF	Naples/Biarritz Mlles Martinoff, not the Poltava prefect	p3-b
+099/1883-05-23.md	099.0556	MLLES_MARTINOFF	people/mentioned/MLLES_MARTINOFF.md	retarget-from:MARTINOFF	Naples/Biarritz Mlles Martinoff, not the Poltava prefect	p3-b
+100/1883-06-06.md	100.0074	MLLES_MARTINOFF	people/mentioned/MLLES_MARTINOFF.md	retarget-from:MARTINOFF	Naples/Biarritz Mlles Martinoff, not the Poltava prefect	p3-b
+100/1883-06-06.md	100.0075	MLLES_MARTINOFF	people/mentioned/MLLES_MARTINOFF.md	retarget-from:MARTINOFF	Naples/Biarritz Mlles Martinoff, not the Poltava prefect	p3-b
+100/1883-06-06.md	100.0077	MLLES_MARTINOFF	people/mentioned/MLLES_MARTINOFF.md	retarget-from:MARTINOFF	Naples/Biarritz Mlles Martinoff, not the Poltava prefect	p3-b
+100/1883-08-05.md	100.0493	MLLES_MARTINOFF	people/mentioned/MLLES_MARTINOFF.md	retarget-from:MARTINOFF	Naples/Biarritz Mlles Martinoff, not the Poltava prefect	p3-b
+067/1876-12-07.md	067.1454	JEANNE_DE_BALLORE	people/mentioned/JEANNE_DE_BALLORE.md	retarget-from:JEANNE	Jeanne = Jeanne de Ballore (baronne de Wykerslooth)	p3-b
+068/1876-12-14.md	068.0049	JEANNE_DE_BALLORE	people/mentioned/JEANNE_DE_BALLORE.md	retarget-from:JEANNE	Jeanne = Jeanne de Ballore (baronne de Wykerslooth)	p3-b
+068/1876-12-14.md	068.0052	JEANNE_DE_BALLORE	people/mentioned/JEANNE_DE_BALLORE.md	retarget-from:JEANNE	Jeanne = Jeanne de Ballore (baronne de Wykerslooth)	p3-b
+068/1877-02-01.md	068.0913	JEANNE_DE_BALLORE	people/mentioned/JEANNE_DE_BALLORE.md	retarget-from:JEANNE	Jeanne = Jeanne de Ballore (baronne de Wykerslooth)	p3-b
+068/1877-02-02.md	068.0917	JEANNE_DE_BALLORE	people/mentioned/JEANNE_DE_BALLORE.md	retarget-from:JEANNE	Jeanne = Jeanne de Ballore (baronne de Wykerslooth)	p3-b
+094/1882-02-14.md	094.0262	JEANNE_DE_BALLORE	people/mentioned/JEANNE_DE_BALLORE.md	retarget-from:JEANNE	Jeanne = Jeanne de Ballore (baronne de Wykerslooth)	p3-b
+067/1876-12-07.md	067.1454	TREMOLILE	people/mentioned/TREMOLILE.md	add	la princesse de la Tremoille, belle-mère de Jeanne (untagged)	p3-b
+094/1882-02-14.md	094.0262	TREMOLILE	people/mentioned/TREMOLILE.md	add	fils de la princesse de la Tremoille (untagged)	p3-b
+085/1879-05-18.md	085.0092	JEANNE_DE_BALLORE	people/mentioned/JEANNE_DE_BALLORE.md	retarget-from:BARONNE_DE_WYKERSLOOTH	baronne = Jeanne de Ballore; only if lead does not merge BARONNE_DE_WYKERSLOOTH into JEANNE_DE_BALLORE	p3-b
+085/1879-05-18.md	085.0093	JEANNE_DE_BALLORE	people/mentioned/JEANNE_DE_BALLORE.md	retarget-from:BARONNE_DE_WYKERSLOOTH	baronne = Jeanne de Ballore; only if lead does not merge BARONNE_DE_WYKERSLOOTH into JEANNE_DE_BALLORE	p3-b
+085/1879-05-18.md	085.0094	JEANNE_DE_BALLORE	people/mentioned/JEANNE_DE_BALLORE.md	retarget-from:BARONNE_DE_WYKERSLOOTH	baronne = Jeanne de Ballore; only if lead does not merge BARONNE_DE_WYKERSLOOTH into JEANNE_DE_BALLORE	p3-b
+085/1879-05-18.md	085.0091	JEANNE_DE_BALLORE	people/mentioned/JEANNE_DE_BALLORE.md	retarget-from:BARONNE_DE_WYKERSLOOTH	Jeanne m'a posé; only if lead does not merge BARONNE_DE_WYKERSLOOTH into JEANNE_DE_BALLORE	p3-b
+072/1877-07-08.md	072.0440	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+074/1877-08-20.md	074.0010	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+074/1877-08-31.md	074.0171	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+079/1878-04-17.md	079.0421	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+079/1878-05-01.md	079.0622	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+079/1878-05-01.md	079.0625	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+079/1878-05-02.md	079.0627	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+080/1878-05-05.md	080.0010	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+080/1878-05-20.md	080.0193	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+080/1878-05-20.md	080.0198	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+080/1878-05-20.md	080.0206	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+080/1878-05-20.md	080.0210	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+080/1878-05-20.md	080.0235	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+080/1878-05-27.md	080.0305	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+080/1878-05-31.md	080.0368	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+080/1878-06-01.md	080.0376	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+081/1878-07-02.md	081.0219	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+081/1878-07-03.md	081.0240	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+081/1878-07-03.md	081.0274	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+081/1878-07-04.md	081.0302	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+081/1878-07-14.md	081.0437	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	retarget-from:EXPOSITION	about the Paris Exposition of 1878 (future or open); read	p3-c
+074/1877-08-25.md	074.0065	EXPOSITION	people/mentioned/EXPOSITION.md	remove	Wiesbaden Aug 1877, a local exhibition where the emperor spoke to a girl; not the Paris 1878 fair, no entry for it	p3-c
+074/1877-09-14.md	074.0339	EXPOSITION	people/mentioned/EXPOSITION.md	remove	Wiesbaden, "l exposition de tableaux" (picture exhibition); not the 1878 fair	p3-c
+101/1883-09-20.md	101.0406	EXPOSITION	people/mentioned/EXPOSITION.md	remove	Paris 1883-09-20 "à l Exposition, Bois": an unidentified exhibition, not the 1878 fair	p3-c
+080/1878-05-30.md	080.0354	EXPOSITION_UNIVERSELLE	culture/history/EXPOSITION_UNIVERSELLE.md	remove	a proposed universal exposition in Italy for 1881 (Florence), not the Paris fair	p3-c
+079/1878-04-07.md	079.0252	BAL_DE_L_OPERA	places/theaters/BAL_DE_L_OPERA.md	add	literal mention «bal de l Opéra»; read	p3-c
+079/1878-04-07.md	079.0260	BAL_DE_L_OPERA	places/theaters/BAL_DE_L_OPERA.md	add	literal mention «bal de l Opéra»; read	p3-c
+084/1879-03-19.md	084.0506	BAL_DE_L_OPERA	places/theaters/BAL_DE_L_OPERA.md	add	literal mention «bal de l Opéra»; read	p3-c
+087/1879-12-29.md	087.0096	BAL_DE_L_OPERA	places/theaters/BAL_DE_L_OPERA.md	add	literal mention «bal de l Opéra»; read	p3-c
+087/1880-01-17.md	087.0253	BAL_DE_L_OPERA	places/theaters/BAL_DE_L_OPERA.md	add	literal mention «bal de l Opéra»; read	p3-c
+087/1880-01-17.md	087.0258	BAL_DE_L_OPERA	places/theaters/BAL_DE_L_OPERA.md	add	literal mention «bal de l Opéra»; read	p3-c
+091/1881-02-24.md	091.0185	BAL_DE_L_OPERA	places/theaters/BAL_DE_L_OPERA.md	add	literal mention «bal de l Opéra»; read	p3-c
+093/1881-09-23.md	093.0117	BAL_DE_L_OPERA	places/theaters/BAL_DE_L_OPERA.md	add	literal mention «bal de l Opéra»; read	p3-c
+087/1880-02-25.md	087.0540	MME_BOJE	people/aristocracy/MME_BOJE.md	add	«la Suédoise de Cassagnac, Mme de Boje»; Marie doubts it is the same woman	p3-c
+070/1877-04-15.md	070.0613	BALZORANO	people/mentioned/BALZORANO.md	add	printed Naples race programme: «Conte F. Lefebvre di Balsorano» among the judges; probably him or a relative (hedged, optional)	p3-c
+012/1873-11-15.md	012.0220	LECLERC	people/mentioned/LECLERC.md	retarget-from:M_LECLERC	«première leçon avec M. Leclerc, chimiste»; M_LECLERC is an empty duplicate stub (only tag)	p3-c
+099/1883-05-24.md	099.0571	ZILLHARDT	people/artists/ZILLHARDT.md	add	«arrive Villevieille, Zillhardt et Claire»	p3-c
+099/1883-05-24.md	099.0572	ZILLHARDT	people/artists/ZILLHARDT.md	add	«Je parais très contente devant Zillhardt»	p3-c
+103/1884-03-31.md	103.0631	ZILLHARDT	people/artists/ZILLHARDT.md	add	Salon rank compared with Zillhardt	p3-c
+103/1884-03-31.md	103.0635	ZILLHARDT	people/artists/ZILLHARDT.md	add	«inférieur à celui de Breslau ou même de Zillhardt»	p3-c
+103/1884-02-22.md	103.0356	LOUISE_MACKAY	people/mentioned/LOUISE_MACKAY.md	retarget-from:MME_MACKAY	«l'incident Meissonnier-Mackay» (silver heiress)	p3-d
+103/1884-02-22.md	103.0357	LOUISE_MACKAY	people/mentioned/LOUISE_MACKAY.md	retarget-from:MME_MACKAY	«Mme Mackay (la richissime) va trouver Meissonnier»	p3-d
+103/1884-02-22.md	103.0358	LOUISE_MACKAY	people/mentioned/LOUISE_MACKAY.md	retarget-from:MME_MACKAY	Mme Mackay demande des retouches... portrait dans son W.C.	p3-d
+103/1884-02-22.md	103.0360	LOUISE_MACKAY	people/mentioned/LOUISE_MACKAY.md	retarget-from:MME_MACKAY	«Mme Mackay détruit le portrait. Fin.»	p3-d
+103/1884-02-22.md	103.0363	LOUISE_MACKAY	people/mentioned/LOUISE_MACKAY.md	retarget-from:MME_MACKAY	«Mme Mackay a manqué de délicatesse»	p3-d
+103/1884-02-22.md	103.0364	LOUISE_MACKAY	people/mentioned/LOUISE_MACKAY.md	retarget-from:MME_MACKAY	Meissonnier «forçant cette ignorante et cette bourgeoise»	p3-d
+103/1884-02-22.md	103.0365	LOUISE_MACKAY	people/mentioned/LOUISE_MACKAY.md	retarget-from:MME_MACKAY	«Mme Mackay est étrangère. Elle aura tort.»	p3-d
+103/1884-04-06.md	103.0756	LOUISE_MACKAY	people/mentioned/LOUISE_MACKAY.md	retarget-from:MME_MACKAY	«des millions comme Mme Mackay, soixante millions de rente» (probable, not certain)	p3-d
+087/1880-02-25.md	087.0535	LEONIE	people/mentioned/LEONIE.md	remove	«le modèle Léonie… ce nom [Nana] que je donne à Léonie»: Julian-atelier model, not the maid; no entry exists	p3-d
+089/1880-07-13.md	089.0139	TCHOUMAKOFF	people/artists/TCHOUMAKOFF.md	retarget-from:LEONIE	«Les Tchoumakoff à dîner… je le fais danser avec Léonie»: Léonie Tchoumakoff	p3-d
+072/1877-06-13.md	072.0035	OLGA	people/mentioned/OLGA.md	remove	«le buste de la grande-duchesse Olga de Russie»: not Olga Sapogenikoff	p3-d
+037/1875-07-26.md	037.0424	SAETONE	people/recurring/SAETONE.md	retarget-from:ANDRIOT	«mon oncle Andriot» = Saëtone (Alphonse Andriot Saëtone per 062/1876-06-16 fn)	p3-d
+047/1875-10-14.md	047.0023	SAETONE	people/recurring/SAETONE.md	retarget-from:ANDRIOT	«L'Andriot Saëtone Triton dans l'eau»	p3-d
+047/1875-10-14.md	047.0027	SAETONE	people/recurring/SAETONE.md	retarget-from:ANDRIOT	«Andriot vient près du landau»	p3-d
+071/1877-05-23.md	071.0419	SAETONE	people/recurring/SAETONE.md	retarget-from:ANDRIOT	«cher Andriot… votre tendre moitié» (Mlle Lacroix)	p3-d
+019/1874-05-16.md	019.0229	GRANDS_MAGASINS_DU_LOUVRE	places/shops/GRANDS_MAGASINS_DU_LOUVRE.md	add	department store	p3-e
+019/1874-05-23.md	019.0318	GRANDS_MAGASINS_DU_LOUVRE	places/shops/GRANDS_MAGASINS_DU_LOUVRE.md	add	department store	p3-e
+043/1875-09-14.md	043.0173	GRANDS_MAGASINS_DU_LOUVRE	places/shops/GRANDS_MAGASINS_DU_LOUVRE.md	add	department store	p3-e
+087/1879-12-31.md	087.0103	GRANDS_MAGASINS_DU_LOUVRE	places/shops/GRANDS_MAGASINS_DU_LOUVRE.md	add	department store	p3-e
+105/1884-07-07.md	105.0074	GRANDS_MAGASINS_DU_LOUVRE	places/shops/GRANDS_MAGASINS_DU_LOUVRE.md	add	department store	p3-e
+105/1884-07-14.md	105.0167	GRANDS_MAGASINS_DU_LOUVRE	places/shops/GRANDS_MAGASINS_DU_LOUVRE.md	add	department store	p3-e
+058/1876-04-16.md	058.0088	CAPODIMONTE	places/buildings/CAPODIMONTE.md	add	palace visit 1876-04-16	p3-e
+058/1876-04-16.md	058.0089	CAPODIMONTE	places/buildings/CAPODIMONTE.md	add	palace visit 1876-04-16	p3-e
+069/1877-02-26.md	069.0033	CAPO_DI_MONTE	people/mentioned/CAPO_DI_MONTE.md	remove	Capo-di-Monte porcelain shown in a monastery, not the palace; stub is misfiled	p3-e
+020/1874-06-19.md	020.0360	SOPHIE_CROIZETTE	people/artists/SOPHIE_CROIZETTE.md	add	actress at Le Sphinx	p3-e
+079/1878-03-25.md	079.0083	SOPHIE_CROIZETTE	people/artists/SOPHIE_CROIZETTE.md	retarget-from:CROIZETTE	woman who resembles Croizette; probable actress	p3-e
+002/1873-02-19.md	002.0038	EMILE_TUTCHEFF	people/mentioned/EMILE_TUTCHEFF.md	retarget-from:EMILE	1873 Emile with aunt Sophie, not Audiffret pere	p3-e
+002/1873-02-23.md	002.0078	EMILE_TUTCHEFF	people/mentioned/EMILE_TUTCHEFF.md	retarget-from:EMILE	1873 Emile with aunt Sophie, not Audiffret pere	p3-e
+002/1873-03-02.md	002.0137	EMILE_TUTCHEFF	people/mentioned/EMILE_TUTCHEFF.md	retarget-from:EMILE	1873 Emile with aunt Sophie, not Audiffret pere	p3-e
+002/1873-03-07.md	002.0223	EMILE_TUTCHEFF	people/mentioned/EMILE_TUTCHEFF.md	retarget-from:EMILE	1873 Emile with aunt Sophie, not Audiffret pere	p3-e
+002/1873-03-11.md	002.0286	EMILE_TUTCHEFF	people/mentioned/EMILE_TUTCHEFF.md	retarget-from:EMILE	1873 Emile with aunt Sophie, not Audiffret pere	p3-e
+002/1873-03-12.md	002.0301	EMILE_TUTCHEFF	people/mentioned/EMILE_TUTCHEFF.md	retarget-from:EMILE	1873 Emile with aunt Sophie, not Audiffret pere	p3-e
+003/1873-03-14.md	003.0020	EMILE_TUTCHEFF	people/mentioned/EMILE_TUTCHEFF.md	add	1873 Emile/oncle Tutcheff; probable husband of Sophie	p3-e
+003/1873-03-17.md	003.0034	EMILE_TUTCHEFF	people/mentioned/EMILE_TUTCHEFF.md	add	1873 Emile/oncle Tutcheff; probable husband of Sophie	p3-e
+003/1873-03-19.md	003.0054	EMILE_TUTCHEFF	people/mentioned/EMILE_TUTCHEFF.md	add	1873 Emile/oncle Tutcheff; probable husband of Sophie	p3-e
+014/1873-12-28.md	014.0264	EMILE_TUTCHEFF	people/mentioned/EMILE_TUTCHEFF.md	add	1873 Emile/oncle Tutcheff; probable husband of Sophie	p3-e
+066/1876-09-15.md	066.0238	ETIENNE_ALEXANDROVITCH	people/family/ETIENNE_ALEXANDROVITCH.md	add	le petit Etienne, Alexandre's son	p3-e
+066/1876-09-15.md	066.0239	ETIENNE_ALEXANDROVITCH	people/family/ETIENNE_ALEXANDROVITCH.md	add	le petit Etienne, Alexandre's son	p3-e
+067/1876-10-30.md	067.0384	ETIENNE_ALEXANDROVITCH	people/family/ETIENNE_ALEXANDROVITCH.md	add	le petit Etienne, Alexandre's son	p3-e
+067/1876-10-30.md	067.0386	ETIENNE_ALEXANDROVITCH	people/family/ETIENNE_ALEXANDROVITCH.md	add	le petit Etienne, Alexandre's son	p3-e
+067/1876-10-30.md	067.0387	ETIENNE_ALEXANDROVITCH	people/family/ETIENNE_ALEXANDROVITCH.md	add	le petit Etienne, Alexandre's son	p3-e
+092/1881-06-02.md	092.0088	ETIENNE_ALEXANDROVITCH	people/family/ETIENNE_ALEXANDROVITCH.md	retarget-from:ETIENNE	le petit Etienne son fils (Alexandre)	p3-e
+050/1875-12-24.md	050.1185	COUVENT_DU_BON_PASTEUR	places/churches/COUVENT_DU_BON_PASTEUR.md	add	convent / nuns	p3-e
+056/1876-03-28.md	056.0090	COUVENT_DU_BON_PASTEUR	places/churches/COUVENT_DU_BON_PASTEUR.md	add	convent / nuns	p3-e
+059/1876-05-09.md	059.0960	COUVENT_DU_BON_PASTEUR	places/churches/COUVENT_DU_BON_PASTEUR.md	add	convent / nuns	p3-e
+060/1876-05-18.md	060.0578	COUVENT_DU_BON_PASTEUR	places/churches/COUVENT_DU_BON_PASTEUR.md	add	convent / nuns	p3-e
+063/1876-07-04-05.md	063.0009	COUVENT_DU_BON_PASTEUR	places/churches/COUVENT_DU_BON_PASTEUR.md	add	convent / nuns	p3-e
+063/1876-07-04-05.md	063.0010	COUVENT_DU_BON_PASTEUR	places/churches/COUVENT_DU_BON_PASTEUR.md	add	convent / nuns	p3-e
+050/1875-12-25.md	050.1252	COUVENT_DU_BON_PASTEUR	places/churches/COUVENT_DU_BON_PASTEUR.md	add	nuns named only as mock signature/joke; findability only, drop if too loose	p3-e
+053/1876-01-24.md	053.0004	COUVENT_DU_BON_PASTEUR	places/churches/COUVENT_DU_BON_PASTEUR.md	add	nuns named only as mock signature/joke; findability only, drop if too loose	p3-e
+053/1876-01-24.md	053.0006	COUVENT_DU_BON_PASTEUR	places/churches/COUVENT_DU_BON_PASTEUR.md	add	nuns named only as mock signature/joke; findability only, drop if too loose	p3-e
+019/1874-05-17.md	019.0255	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+073/1877-07-15.md	073.0004	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+078/1878-03-10.md	078.0468	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+079/1878-03-23.md	079.0056	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+079/1878-03-23.md	079.0061	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+079/1878-03-24.md	079.0064	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+079/1878-03-31.md	079.0156	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+079/1878-04-07.md	079.0260	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+079/1878-04-07.md	079.0262	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+079/1878-04-14.md	079.0360	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+079/1878-04-14.md	079.0362	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+079/1878-04-21.md	079.0495	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+079/1878-04-21.md	079.0499	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+081/1878-07-05.md	081.0315	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:MADELEINE	church (la Madeleine, Paris)	p3-e
+024/1874-09-24.md	024.0086	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:LA_MADELEINE	wedding at the church	p3-e
+024/1874-09-25.md	024.0112	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	retarget-from:LA_MADELEINE	wedding at the church	p3-e
+081/1878-07-05.md	081.0325	EGLISE_DE_LA_MADELEINE	places/churches/EGLISE_DE_LA_MADELEINE.md	add	curé de la Madeleine (Figaro clipping)	p3-e
+077/1878-01-16.md	077.0222	POSTE_MADELEINE	people/mentioned/POSTE_MADELEINE.md	retarget-from:LA_MADELEINE	bureau/poste de la Madeleine (post office), not the church	p3-e
+077/1878-01-20.md	077.0292	POSTE_MADELEINE	people/mentioned/POSTE_MADELEINE.md	retarget-from:LA_MADELEINE	bureau/poste de la Madeleine (post office), not the church	p3-e
+077/1878-01-23.md	077.0332	POSTE_MADELEINE	people/mentioned/POSTE_MADELEINE.md	retarget-from:LA_MADELEINE	bureau/poste de la Madeleine (post office), not the church	p3-e
+077/1878-01-27.md	077.0395	POSTE_MADELEINE	people/mentioned/POSTE_MADELEINE.md	retarget-from:LA_MADELEINE	bureau/poste de la Madeleine (post office), not the church	p3-e
+077/1878-01-20.md	077.0293	POSTE_MADELEINE	people/mentioned/POSTE_MADELEINE.md	add	bureau de la Madeleine (post office)	p3-e
+101/1883-08-16.md	101.0150	MADELEINE	people/mentioned/MADELEINE.md	remove	Marie's own painted Magdalene (Les Saintes Femmes), not a person	p3-e
+079/1878-04-04.md	079.0215	MAGDELEINE_DELSARTE	people/mentioned/MAGDELEINE_DELSARTE.md	retarget-from:MADELEINE	Julian-atelier student Madeleine (Delsarte, cf. 076.0264, 086.0514); probable	p3-e
+086/1879-10-25.md	086.0427	MAGDELEINE_DELSARTE	people/mentioned/MAGDELEINE_DELSARTE.md	retarget-from:MADELEINE	Julian-atelier student Madeleine (Delsarte, cf. 076.0264, 086.0514); probable	p3-e
+073/1877-08-15.md	073.0430	EGLISE_SAINT_AUGUSTIN	places/churches/EGLISE_SAINT_AUGUSTIN.md	retarget-from:SAINT_AUGUSTIN	church, not the saint (keep saint on 054.0279)	p3-e
+082/1878-08-31.md	082.0245	EGLISE_SAINT_AUGUSTIN	places/churches/EGLISE_SAINT_AUGUSTIN.md	retarget-from:SAINT_AUGUSTIN	church, not the saint (keep saint on 054.0279)	p3-e
+079/1878-03-19.md	079.0007	EGLISE_SAINT_AUGUSTIN	places/churches/EGLISE_SAINT_AUGUSTIN.md	add	church	p3-e
+079/1878-04-12.md	079.0339	EGLISE_SAINT_AUGUSTIN	places/churches/EGLISE_SAINT_AUGUSTIN.md	add	church	p3-e
+081/1878-06-28.md	081.0098	EGLISE_SAINT_AUGUSTIN	places/churches/EGLISE_SAINT_AUGUSTIN.md	add	church	p3-e
+085/1879-06-27.md	085.0453	EGLISE_SAINT_AUGUSTIN	places/churches/EGLISE_SAINT_AUGUSTIN.md	add	church	p3-e
+085/1879-07-02.md	085.0490	EGLISE_SAINT_AUGUSTIN	places/churches/EGLISE_SAINT_AUGUSTIN.md	add	church	p3-e
+096/1882-08-02.md	096.0003	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-08-07.md	096.0033	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-08-08.md	096.0037	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-08-08.md	096.0040	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-08-10.md	096.0050	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-08-12.md	096.0065	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-08-17.md	096.0091	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-09-17.md	096.0246	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-09-17.md	096.0248	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-09-18.md	096.0256	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-09-27.md	096.0299	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-09-28.md	096.0302	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+096/1882-10-04.md	096.0332	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1882-11-18.md	097.0101	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1882-11-18.md	097.0102	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1882-11-18.md	097.0103	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1882-11-18.md	097.0104	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1882-11-18.md	097.0105	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1882-12-06.md	097.0206	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1882-12-06.md	097.0207	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1882-12-14.md	097.0241	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1882-12-24.md	097.0283	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1882-12-24.md	097.0284	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1882-12-24.md	097.0285	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+097/1883-01-08.md	097.0412	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+099/1883-05-24.md	099.0580	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+099/1883-05-24.md	099.0581	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+099/1883-05-24.md	099.0582	PORTRAIT_DE_MARIE_ROBERT_FLEURY	culture/art/PORTRAIT_DE_MARIE_ROBERT_FLEURY.md	add	Tony Robert-Fleury portrait of Marie 1882	p3-e
+074/1877-09-17.md	074.0370	GRETCHEN_VON_MAX	culture/art/GRETCHEN_VON_MAX.md	retarget-from:M_MARX	Gretchen painting ("Marx"=Max, probable)	p3-e
+074/1877-09-18.md	074.0379	GRETCHEN_VON_MAX	culture/art/GRETCHEN_VON_MAX.md	retarget-from:GRETCHEN	Gretchen = the painting (probable)	p3-e
+075/1877-10-14.md	075.0305	GRETCHEN_VON_MAX	culture/art/GRETCHEN_VON_MAX.md	retarget-from:GRETCHEN	la Gretchen de Max	p3-e
+075/1877-10-14.md	075.0305	GRETCHEN_VON_MAX	culture/art/GRETCHEN_VON_MAX.md	retarget-from:MAX	la Gretchen de Max	p3-e
+101/1883-08-26.md	101.0240	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	retarget-from:LOUIS	Louis Canrobert	p3-e
+101/1883-09-02.md	101.0305	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	retarget-from:LOUIS	Louis Canrobert	p3-e
+101/1883-09-05.md	101.0310	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	retarget-from:LOUIS	Louis Canrobert	p3-e
+101/1883-09-07.md	101.0317	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	retarget-from:LOUIS	Louis Canrobert	p3-e
+101/1883-09-08.md	101.0320	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	retarget-from:LOUIS	Louis Canrobert	p3-e
+101/1883-10-14.md	101.0604	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	retarget-from:LOUIS	Louis Canrobert	p3-e
+104/1884-05-15.md	104.0179	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	retarget-from:LOUIS	Louis Canrobert	p3-e
+099/1883-05-17.md	099.0467	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	add	Louis Canrobert (untagged)	p3-e
+102/1883-12-08.md	102.0446	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	add	Louis Canrobert (untagged)	p3-e
+102/1883-12-31.md	102.0618	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	add	Louis Canrobert (untagged)	p3-e
+104/1884-05-15.md	104.0180	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	add	Louis Canrobert (untagged)	p3-e
+105/1884-08-04.md	105.0435	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	add	Louis Canrobert (untagged)	p3-e
+105/1884-08-05.md	105.0455	LOUIS_CANROBERT	people/mentioned/LOUIS_CANROBERT.md	add	Louis Canrobert (untagged)	p3-e
+100/1883-06-06.md	100.0078	LOUIS_THIBAUDIN	people/mentioned/LOUIS_THIBAUDIN.md	retarget-from:LOUIS	servant Louis-Jules-René-Marie "Thibaudin"	p3-e
+100/1883-06-06.md	100.0080	LOUIS_THIBAUDIN	people/mentioned/LOUIS_THIBAUDIN.md	retarget-from:LOUIS	servant Louis-Jules-René-Marie "Thibaudin"	p3-e
+100/1883-06-07.md	100.0094	LOUIS_THIBAUDIN	people/mentioned/LOUIS_THIBAUDIN.md	retarget-from:LOUIS	servant Louis-Jules-René-Marie "Thibaudin"	p3-e
+100/1883-07-28.md	100.0452	LOUIS_THIBAUDIN	people/mentioned/LOUIS_THIBAUDIN.md	retarget-from:LOUIS	servant Louis-Jules-René-Marie "Thibaudin"	p3-e
+100/1883-07-28.md	100.0454	LOUIS_THIBAUDIN	people/mentioned/LOUIS_THIBAUDIN.md	retarget-from:LOUIS	servant Louis-Jules-René-Marie "Thibaudin"	p3-e
+089/1880-07-17.md	089.0177	LUCIEN_DOUCET	people/artists/LUCIEN_DOUCET.md	retarget-from:DOUCET	painter Lucien Doucet	p3-e
+100/1883-06-24.md	100.0207	LUCIEN_DOUCET	people/artists/LUCIEN_DOUCET.md	retarget-from:DOUCET	painter Lucien Doucet	p3-e
+100/1883-06-24.md	100.0210	LUCIEN_DOUCET	people/artists/LUCIEN_DOUCET.md	retarget-from:DOUCET	painter Lucien Doucet	p3-e
+100/1883-06-24.md	100.0212	LUCIEN_DOUCET	people/artists/LUCIEN_DOUCET.md	retarget-from:DOUCET	painter Lucien Doucet	p3-e
+100/1883-06-25.md	100.0227	LUCIEN_DOUCET	people/artists/LUCIEN_DOUCET.md	retarget-from:DOUCET	painter Lucien Doucet	p3-e
+019/1874-05-22.md	019.0314	DUSAUTOY_TAILLEUR	people/mentioned/DUSAUTOY_TAILLEUR.md	retarget-from:DUSAUTOY	1874 tailor	p3-e
+020/1874-06-12.md	020.0228	DUSAUTOY_TAILLEUR	people/mentioned/DUSAUTOY_TAILLEUR.md	retarget-from:DUSAUTOY	1874 tailor	p3-e
+020/1874-06-13.md	020.0238	DUSAUTOY_TAILLEUR	people/mentioned/DUSAUTOY_TAILLEUR.md	retarget-from:DUSAUTOY	1874 tailor	p3-e
+020/1874-06-20.md	020.0367	DUSAUTOY_TAILLEUR	people/mentioned/DUSAUTOY_TAILLEUR.md	retarget-from:DUSAUTOY	1874 tailor	p3-e
+020/1874-06-22.md	020.0376	DUSAUTOY_TAILLEUR	people/mentioned/DUSAUTOY_TAILLEUR.md	retarget-from:DUSAUTOY	1874 tailor	p3-e

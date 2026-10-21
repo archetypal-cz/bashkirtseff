@@ -1,113 +1,35 @@
 ---
 id: LOLA
-name: Lola
+name: Lola Babanine
 aliases:
   - Lola
+  - Marie Yégorovna Babanine
+  - Lola Babanine
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
 ---
-# Lola
+# Lola Babanine
 
-**Research Status**: Basic
-**Last Updated**: 2025-12-07
-**Diary Coverage**: Book 00 (1884 retrospective)
+## Overview
 
-## Basic Information
+Marie Yégorovna Babanine, called Lola: Marie's cousin, daughter of Georges Babanine and Domenica, sister of Dina (Countess de Toulouse-Lautrec) and of Etienne, who killed himself at sixteen. Mon Journal t.9 index: «Babanine (Marie Yégorovna) [Lola], cousine de Marie Bashkirtseff» (pp.73-74, 145, 147-149, 165, 182); Marie herself writes «Marie Yégorovna Babanine (Lola)» when she is admitted to the "société du Cœur d'Argent" (067.0979). In the 1884 preface she is only «Une fille, Lola … La fille est mariée» (000.0035), but in the diary she is a lively companion in 1876:
 
-Lola was the daughter of Georges Babanine and his wife Domenica. She was Marie Bashkirtseff's cousin and the sister of Dina and Etienne.
+- **Rome, January-March 1876**: she arrives at Nice with her mother Domenica (052.0116, 13 January 1876) and goes on with Dina and Marie to Rome, where she shares the carnival, the Pincio, St Peter's and the Capitol with Marie (053.0122 to 055.0004); she nicknames Ruspoli «Sobaka» (053.0382), announces «le vrai Soroka est arrivé» (053.0422) and jokes about the third admirer's umbrella (054.0027); «Lola n'est pas jolie mais le soir elle peut faire de l'effet» (053.0123); she leaves Rome with Domenica on 1 March (055.0004).
+- **Russia, September-November 1876**: Marie visits «Doménica et Lola» at Poltava and talks of Rome (066.0196); Lola, Domenica and uncle Nicolas see her off at the station (066.0214-0216); at Kharkov in October she is in the party with Nadine, Etienne and Alexandre (067.0324, 067.0343) and brings Marie the gossip of Poltava (067.0300).
+- **1881-1882**: «Dina et sa sœur Lola» in Poltava (092.0107, 092.0120); Marie's retelling in March 1882 of the Babanine children, «Dina, Lola et le frère âgé de seize ans» (094.0313); and in September 1882 «Lola, la sœur de Dina s'est mariée» (096.0237).
 
-## Family Position
+## Not to be confused with Lola Gorpintchenko
 
-Lola was the second daughter of Georges and Domenica:
-1. **Dina** - Older sister, taken and raised by grand-maman, became Countess Toulouse-Lautrec
-2. **Lola** - Middle child
-3. **Etienne** - Younger brother, died at age sixteen
+A second "Lola" is Marie [Lola] Gorpintchenko, Pacha's sister and Marie's cousin on the Bashkirtseff side, who married the Italian Sperandio (Mon Journal t.9 index: «Gorpintchenko (Marie) [Lola] (cousine de Marie Bashkirtseff): épouse Sperandio»; «Sperandio (M.) époux de Marie [Lola] Gorpinchencko»). She appears under the name Lola only once, at San Remo in December 1876: «la princesse, son amant italien, Hélène, sa fille, Lola et son mari, l'italien Sperandio» (068/1876-12-22, 068.0280); see [SPERANDIO](SPERANDIO.md). That paragraph should not carry the LOLA tag. The Lola of 066/1876-09-13 and 09-14 (066.0196, 066.0214-0216) was re-checked: she is with her mother Domenica, so she is Lola Babanine.
 
-## What Marie Records (1884)
+## Family
 
-In her retrospective preface, Marie provides minimal information:
-- **"La fille est mariée"** - "The daughter is married" (as of 1884)
+- [Georges](../family/GEORGES.md), father; [Domenica](DOMENICA.md), mother; [Dina](../core/DINA.md), sister; [Etienne](ETIENNE.md), brother.
 
-This terse mention suggests:
-- **Distant Relationship**: Marie didn't know Lola well or didn't consider her significant
-- **Conventional Life**: Unlike Dina (raised with Marie) or Etienne (dramatic early death), Lola followed a normal path
-- **Outside the Household**: Lola apparently was raised by Domenica, unlike Dina who was taken by grand-maman
-- **Unremarkable**: No scandals, dramas, or noteworthy events to record
+## References in Diary
 
-## Contrast with Her Siblings
+000/000-08 (000.0035); 052/1876-01-13 (052.0116); 053/1876-01-27 to 02-09 (about 25 paragraphs); 054/1876-02-13 to 02-29; 055/1876-03-01, 03-14 (055.0700); 061/1876-05-27 (061.0235, her letter); 062/1876-06-30 (062.0810, Marie's plan to marry her to Gautier); 066/1876-09-13, 09-14; 067/1876-10-24 to 11-15; 092/1881-06-11, 06-16 (092.0107, 092.0120); 094/1882-03-12 (094.0313); 096/1882-09-13 (096.0237).
 
-The stark difference in Marie's treatment of the three siblings is revealing:
-
-### Dina
-- Extensive diary mentions
-- Raised in the household with Marie
-- Lifelong companion
-- Became Countess Toulouse-Lautrec
-- Marie painted her portrait
-
-### Etienne
-- Marie promises to explain his death at sixteen
-- Implies a dramatic or tragic story worth telling
-- Enough significance to warrant future narrative
-
-### Lola
-- Single sentence: "La fille est mariée"
-- No further elaboration
-- No indication of relationship or contact
-- Essentially forgotten in Marie's narrative
-
-## Possible Explanations
-
-Several factors might explain Lola's minimal presence:
-
-1. **Age Difference**: Lola may have been significantly older or younger than Marie, limiting childhood interaction
-2. **Separate Upbringing**: Raised by Domenica rather than in the main Babanine household
-3. **Early Marriage**: May have married young and left the family orbit before Marie knew her well
-4. **Geographic Distance**: Could have been living elsewhere by the 1870s-1880s
-5. **Personality**: Simply may not have been memorable or significant to Marie
-6. **Social Class**: If married beneath her station, might have been minimized in family narrative
-
-## Historical Context
-
-### Marriage as Woman's Destiny (1870s-1880s)
-
-For women of Lola's generation and class, marriage was the expected life path. Marie's single-sentence summary "La fille est mariée" treats this as:
-- **Expected Outcome**: Nothing remarkable about a woman marrying
-- **Complete Story**: Once married, a woman's independent identity was subsumed
-- **Successful Fate**: Better than remaining unmarried, at least from family perspective
-
-### Contrast with Marie's Path
-
-By 1884 when Marie writes this, she herself has:
-- Rejected multiple marriage proposals
-- Pursued art career professionally
-- Achieved Salon recognition
-- Chosen independence over conventional marriage
-
-Her dismissive one-line treatment of Lola's marriage may reflect:
-- **Disdain for Conventional Path**: Marriage as boring, unremarkable fate
-- **Artistic Superiority**: Marie chose a more interesting life
-- **Limited Imagination**: Unable to see Lola's life as having intrinsic interest
-
-## Unknown Details
-
-Marie's preface leaves many questions unanswered:
-- When did Lola marry?
-- Whom did she marry?
-- Where did she live?
-- Did she have children?
-- What was her relationship with Marie?
-- Is she still alive in 1884?
-- What became of her after Marie's death in 1884?
-
-## Related Entries
-
-- [#Georges](../family/GEORGES.md) - Her father
-- [#Domenica](DOMENICA.md) - Her mother
-- [#Dina](../core/DINA.md) - Her sister, raised with Marie
-- [#Etienne](ETIENNE.md) - Her brother who died at sixteen
-- [#Grand_maman](../family/GRAND_MAMAN.md) - Her grandmother who took Dina but apparently not Lola
-
-%% 2025-12-07T15:15:00 RSR: Created based on Book 00.35. Lola represents the conventional female fate Marie rejected - married and forgotten. The contrast between extensive Dina entries and dismissive one-line Lola mention reveals Marie's values and relationships. %%
+%% 2026-10-21T23:40:00 RSR: Fix (OPEN-ITEMS B-43(4)): body rewritten. The old text called her a distant, "forgotten" cousin on the strength of one preface line; the 50-odd tagged paragraphs show a close Rome companion in 1876 and a Poltava presence later. Disambiguation from Lola Gorpintchenko (Mme Sperandio) recorded, with the quotes «Lola et son mari, l'italien Sperandio» (068.0280) and the t.9 index «Gorpintchenko (Marie) [Lola] … épouse Sperandio». Quoted evidence read in 000.0035, 052.0116, 053.0123, 066.0196, 067.0979, 096.0237. %%

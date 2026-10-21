@@ -5,32 +5,32 @@ aliases: [Tchernakowka, Chernakovka]
 type: Place
 category: places/residences
 research_status: Standard
-last_updated: 2026-02-12
+last_updated: 2026-10-21
 ---
 
 # Tcherniakovka
 
 ## Overview
 
-Former Bashkirtseff family estate in the Poltava region of Ukraine. The name may derive from "chornyi" (black/dark in Ukrainian/Russian), suggesting a dark feature of the landscape. The suffix -ovka indicates a village or estate. The property was lost as part of the family's broader economic decline following the 1861 emancipation reforms, but continued to provide agricultural income that supported the Bashkirtseff family's lifestyle abroad.
+The Babanine family house and estate (Marie's maternal grandfather Stepan Babanine, «grand-papa», and later his son Alexandre) in the Poltava region of Ukraine, where Marie spent her earliest childhood: «notre ancien nid, où chaque homme, chaque objet ont une histoire pour moi» (066/1876-10-06). It was not the Bashkirtseff (paternal) property, which was Gavronzi; her mother's family lived here: «venir habiter chez grand-papa à Tcherniakovka» (000/000-04). The name may derive from "chornyi" (black/dark in Ukrainian/Russian), suggesting a dark feature of the landscape. The suffix -ovka indicates a village or estate. In the diary it is still the Babanine seat in 1876 (Marie visits it on 4-6 October 1876 and still has her great-aunt Vassilissa Babanine living there, 066/1876-10-06); the remark in 018/1874-04-13 on its lost «grandeurs passées» is grand-papa's, not a statement about the family losing the estate.
 
 ## Relevance to Marie
 
 Tcherniakovka carries dual significance for Marie:
 - **Negative**: represents the provincial ways she rejects in her pursuit of Parisian sophistication
-- **Nostalgic**: the lost family grandeur she never knew, romanticized through her father's stories
+- **Nostalgic**: the lost family grandeur she never knew, romanticized through grand-papa's stories ("papa" in 018/1874-04-13 is Stepan Babanine)
 - **Economic**: part of the Ukrainian world she left as a child but which remained economically vital
 
 ## Context
 
 - **Location**: Poltava governorate, Russian Empire (now Ukraine)
-- **Purpose**: Agricultural estate providing income to the family
-- **Management**: Run by stewards or family members while Marie's mother traveled Europe
+- **Purpose**: Babanine family estate and house, source of revenue for the family
+- **Management** (1876): by her uncle Alexandre, whom Marie goes to confront over the accounts (066/1876-10-04 to 06; see the RSR note on 066/1876-10-06)
 
 ## Diary References
 
 ### Preface (Carnet 000)
-- **000-04, 000-05**: Mentioned in context of Nadine Martinoff's story and the family's Ukrainian roots
+- **000-04, 000-05**: Nadine Martinoff goes to live with grand-papa at Tcherniakovka; after Romanoff's marriage to Nadine the family «revint à Tcherniakovka»
 
 ### 1873
 - **March 3**: Baba/nostalgia scene - evokes Marie's complex relationship with the family past
@@ -59,3 +59,4 @@ Tcherniakovka carries dual significance for Marie:
 
 %% 2026-02-10T17:00:00 RSR: Expanded from one-line stub %%
 %% 2026-02-12T00:00:00 RSR: Merged content from TCHERNAKOWKA (alternate transliteration) %%
+%% 2026-10-21T22:12:00 RSR: Fix (OPEN-ITEMS B-32): first line «Former Bashkirtseff family estate» replaced: Tcherniakovka is grand-papa Babanine's house: «Tcherniakovka où il y avait plus de distractions» with «chez grand-papa» (000/000-04), «la sœur de grand-papa … est venue vivre ici» (Vassilissa Babanine, 066/1876-10-06), «notre ancien nid» (066/1876-10-06). Management and "lost estate" sentences recast accordingly. %%
