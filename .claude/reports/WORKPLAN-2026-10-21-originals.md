@@ -49,13 +49,16 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 | 070 | 523 | done 1bc72ef4a0 (2 parts; RSR ~143 notes, 9 fn; LAN 154) |
 | 066 | 365 | done f4b24ad485 (RSR ~101 notes, 9 fn, 8 locations; LAN 144) |
 | 086 | 206 | done d4121572f2 (RSR 83 notes; LAN 83) |
-| 085 | 136 | RSR running |
-| 090 | 131 | RSR running |
+| 085 | 136 | RSR done (43 notes, 6 fn) → LAN running; at commit: 0148 «Bashirtseff» → Bashkirtseff per A-56 + RSR note; 0149 scan check (t.13 p.19 prints «présenter») |
+| 090 | 131 | done 2d3a0b7d87 (RSR ~51 notes, 32 Amélie retags; LAN 73) |
+| 084 | 105 | RSR running |
+| 081+082 | 90+102 | RSR running |
 | 083 | 175 | done 288f7f5078 (RSR 52 notes + 3 corrections; LAN 78) |
 | 071 | 251 | done f70cb9428e (RSR 126 notes, 5 tag fixes; LAN 68) |
 | 065 | 150 | done 874672333a (RSR 42 notes, 6 locations; LAN 52) |
 | 062 | 128 | RSR running |
-| next | | by size: 067 668, 070 523, 066 365, 059 301, 071 251, 050 215, 086 206, 063 201, 083 175, 065 150 … (5,724 total) |
+| plan for the rest | 1,872 in 74 carnets | batches by period: 030+028+029+031–033 (1875) · 072–077 (1877) · 060+061+064 (1876) · 055–058 · 042–054 · 038+039 · 017–027 (1874) · 002–016 · 068+069 · 079+080+091–106 |
+| (old) | | by size: 067 668, 070 523, 066 365, 059 301, 071 251, 050 215, 086 206, 063 201, 083 175, 065 150 … (5,724 total) |
 
 ## Second LAN gap (measured 2026-10-21 after reset)
 
