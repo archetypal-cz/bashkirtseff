@@ -21,6 +21,6 @@ A Russian family in Nice, 1876–77. Mme Kondareff is the sister of Princess Sou
 In carnet 071 Lise is usually tagged [Lise](LISE.md), which is the Lise Howard of 1874; the 1877 child is this Lise Kondareff (ledger). A separate stub [Mme Kondareff](../aristocracy/MME_KONDAREFF.md) exists for the mother.
 
 ## References in Diary
-- 1876-12-15 (068.0063), 1877-01-20 (068.0751); 1877-05-14 (071.0322), 05-16 (071.0365), 05-19 (071.0382), 05-26 (071.0459), 05-30 (071.0501), 06-01 (071.0526), 06-02 (071.0540–0541)
+- 1876-12-15 (068.0063), 1877-01-20 (068.0751); 1877-05-14 (071.0322), 05-16 (071.0365), 05-19 (071.0382), 05-26 (071.0459), 05-30 (071.0501), 06-01 (071.0526), 06-02 (071.0540–0541); Lise in Nice, June 1877: 06-11 (072.0002, 072.0006), 06-15 (072.0062), 06-17 (072.0144–0145), 06-21 (072.0279), these tags retargeted from LISE by rsr-1877 on 2026-10-21
 
 %% 2026-10-21T10:48:15 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 071 paragraphs (rsr-071); diary text and t.10 index. %%
