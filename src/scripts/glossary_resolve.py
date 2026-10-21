@@ -59,8 +59,8 @@ def basename_of(query):
 
 
 def parse_frontmatter(text):
-    """Return dict with id, name, aliases (list), category."""
-    fm = {"id": None, "name": None, "aliases": [], "category": None}
+    """Return dict with id, name, aliases (list), category, status."""
+    fm = {"id": None, "name": None, "aliases": [], "category": None, "status": None}
     if not text.startswith("---"):
         return fm
     end = text.find("\n---", 3)
@@ -84,6 +84,8 @@ def parse_frontmatter(text):
             fm["name"] = val
         elif key == "category":
             fm["category"] = val
+        elif key == "status":
+            fm["status"] = val
         elif key == "aliases":
             fm["aliases"] = []
             cur_list = fm["aliases"]
@@ -128,6 +130,8 @@ def load_entries():
         except OSError:
             continue
         fm = parse_frontmatter(text)
+        if fm["status"] == "retired":  # never suggest a retired stub as a target
+            continue
         base = os.path.basename(f)[:-3]
         rel = os.path.relpath(f, GLOSS_ROOT)
         cat = fm["category"] or os.path.dirname(rel)

@@ -18,7 +18,7 @@
  * Default (recall-preserving): an id that would be removed is KEPT when one of its glossary aliases
  * (frontmatter aliases + name + id; accent-insensitive, word-boundary, case-sensitive proper nouns) occurs in the entry's
  * visible French and no tag already covers that alias. Kept ids are listed as tag candidates (--candidates FILE.tsv)
- * for the glossary-tagger. --strict removes them anyway.
+ * for the glossary-tagger. --strict removes them anyway. Ids of retired stubs (`status: retired`) are never kept.
  *
  * Usage: just entities-sync [--apply] [--carnet 034,037] [--exclude 012] [--report file.json] [--candidates file.tsv] [--strict] [--root content/_original]
  */
@@ -100,7 +100,7 @@ function render(l: Lists, hadCultural: boolean): string {
 
 const fold = (t: string) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 const AMBIGUOUS = new Set(['Nice', 'Portrait', 'Salon', 'Atelier', 'Concert', 'Album', 'Bal', 'Break', 'Roman']);
-interface GEntry { id: string; aliases: string[] }
+interface GEntry { id: string; aliases: string[]; retired: boolean }
 const glossaryRoot = path.join(root, '_glossary');
 const glossary = new Map<string, GEntry>(); // lowercased basename -> entry
 (function loadGlossary() {
@@ -111,6 +111,7 @@ const glossary = new Map<string, GEntry>(); // lowercased basename -> entry
       if (!e.name.endsWith('.md') || e.name === 'CLAUDE.md' || e.name === 'README.md') continue;
       const id = e.name.slice(0, -3);
       let names: string[] = [id.replace(/_/g, ' ')];
+      let retired = false;
       const t = fs.readFileSync(fp, 'utf-8');
       const end = t.startsWith('---\n') ? t.indexOf('\n---\n', 4) : -1;
       if (end !== -1) {
@@ -118,11 +119,14 @@ const glossary = new Map<string, GEntry>(); // lowercased basename -> entry
           const fmv = YAML.parse(t.slice(4, end)) ?? {};
           if (fmv.name) names.push(String(fmv.name));
           if (Array.isArray(fmv.aliases)) names.push(...fmv.aliases.map(String));
+          retired = fmv.status === 'retired';
         } catch { /* ignore */ }
       }
       const aliases = [...new Set(names.map(n => fold(n).trim()))]
         .filter(a => a.length >= 3 && /^[A-Z]/.test(a) && !AMBIGUOUS.has(a));
-      glossary.set(id.toLowerCase(), { id, aliases });
+      // A live entry wins over a retired stub with the same basename
+      if (retired && glossary.get(id.toLowerCase())?.retired === false) continue;
+      glossary.set(id.toLowerCase(), { id, aliases, retired });
     }
   };
   if (fs.existsSync(glossaryRoot)) walk(glossaryRoot);
@@ -184,7 +188,7 @@ for (const carnet of carnets) {
           const lo = oid.toLowerCase();
           if (have.has(lo) || nextAll.has(lo) || kept[k].some(x => x.toLowerCase() === lo)) continue;
           const g = glossary.get(lo);
-          if (!g) continue;
+          if (!g || g.retired) continue; // a retired id is dropped, never kept as a candidate
           paras ??= visibleParas(body);
           let hit: { alias: string; para: string } | undefined;
           for (const a of g.aliases) {

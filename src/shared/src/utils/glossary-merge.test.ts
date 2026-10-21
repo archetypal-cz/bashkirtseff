@@ -53,17 +53,17 @@ test('merge rewrites links in every tree and in the glossary itself', async () =
     assert.deepEqual(result.errors, []);
 
     const original = fs.readFileSync(path.join(base, 'content/_original/001/1873-01-11.md'), 'utf-8');
-    assert.match(original, /\[#TARGET\]\(\.\.\/_glossary\/people\/core\/TARGET\.md\)/);
+    assert.match(original, /\[#Target\]\(\.\.\/_glossary\/people\/core\/TARGET\.md\)/);
     assert.match(original, /^ {2}- TARGET$/m);
 
     const uk = fs.readFileSync(path.join(base, 'content/uk/001/1873-01-11.md'), 'utf-8');
-    assert.match(uk, /\[#TARGET\]\(\.\.\/\.\.\/_original\/_glossary\/people\/core\/TARGET\.md\)/);
+    assert.match(uk, /\[#Target\]\(\.\.\/\.\.\/_original\/_glossary\/people\/core\/TARGET\.md\)/);
 
     const other = fs.readFileSync(
       path.join(base, 'content/_original/_glossary/people/mentioned/OTHER.md'),
       'utf-8'
     );
-    assert.match(other, /\[#TARGET\]\(\.\.\/core\/TARGET\.md\)/);
+    assert.match(other, /\[#Target\]\(\.\.\/core\/TARGET\.md\)/);
 
     assert.equal(result.linksUpdated, 3);
     assert.equal(result.frontmatterUpdated, 1);
@@ -172,6 +172,60 @@ test('clean append drops the source title and continues the target GLO_ numberin
     assert.match(target, /%% GLO_TARGET\.0003 %%\nSource body\./);
     assert.match(target, /%% GLO_TARGET\.0004 %%\nMore\./);
     assert.match(target, /%% \d{4}-\d\d-\d\dT\d\d:\d\d:\d\d RSR: Merged content from SOURCE %%/);
+  } finally {
+    fs.rmSync(base, { recursive: true, force: true });
+  }
+});
+
+test('merge renames the id inside nested entities lists and dedupes it', async () => {
+  const base = makeRepo();
+  try {
+    const entry = path.join(base, 'content/_original/001/1873-01-11.md');
+    fs.writeFileSync(
+      entry,
+      '---\ndate: 1873-01-11\nentities:\n  people:\n    - SOURCE\n    - OTHER\n  places: []\n  cultural:\n    - SOURCE\n    - TARGET\nworkflow:\n  research_complete: true\n---\n\n%% 001.0001 %%\n%% [#Source](../_glossary/people/core/SOURCE.md) %%\nText.\n'
+    );
+    const result = await mergeGlossaryEntries(base, 'SOURCE', 'TARGET', { deleteSource: true });
+    assert.deepEqual(result.errors, []);
+    assert.equal(result.frontmatterUpdated, 2);
+    const text = fs.readFileSync(entry, 'utf-8');
+    assert.match(text, /entities:\n {2}people:\n {4}- TARGET\n {4}- OTHER\n {2}places: \[\]\n {2}cultural:\n {4}- TARGET\nworkflow:/);
+  } finally {
+    fs.rmSync(base, { recursive: true, force: true });
+  }
+});
+
+test('retargeted links take the display the target\'s diary tags already use', async () => {
+  const base = makeRepo();
+  try {
+    fs.writeFileSync(
+      path.join(base, 'content/_original/001/1873-01-12.md'),
+      '%% 001.0002 %%\n%% [#Le_target](../_glossary/people/core/TARGET.md) %%\nText.\n'
+    );
+    const result = await mergeGlossaryEntries(base, 'SOURCE', 'TARGET', { deleteSource: true });
+    assert.deepEqual(result.errors, []);
+    const uk = fs.readFileSync(path.join(base, 'content/uk/001/1873-01-11.md'), 'utf-8');
+    assert.match(uk, /\[#Le_target\]\(\.\.\/\.\.\/_original\/_glossary\/people\/core\/TARGET\.md\)/);
+  } finally {
+    fs.rmSync(base, { recursive: true, force: true });
+  }
+});
+
+test('retireSource keeps the source as a retired stub pointing at the target', async () => {
+  const base = makeRepo();
+  try {
+    const sourcePath = path.join(base, 'content/_original/_glossary/people/core/SOURCE.md');
+    fs.writeFileSync(sourcePath, '---\nid: SOURCE\nlast_updated: 2026-01-01\n---\n\nSource body.\n');
+    const result = await mergeGlossaryEntries(base, 'SOURCE', 'TARGET', { retireSource: true });
+    assert.deepEqual(result.errors, []);
+    assert.equal(result.sourceDeleted, false);
+    assert.equal(result.sourceRetired, true);
+    const stub = fs.readFileSync(sourcePath, 'utf-8');
+    assert.match(stub, /^---\nid: SOURCE\nlast_updated: \d{4}-\d\d-\d\d\nstatus: retired\nreplaced_by: TARGET\n---\n/);
+    assert.match(stub, /%% GLO_SOURCE\.0001 %%\n\*\*Retired\.\*\* Merged into \[#TARGET\]\(TARGET\.md\)/);
+    assert.ok(!stub.includes('Source body.'), stub);
+    const target = fs.readFileSync(path.join(base, 'content/_original/_glossary/people/core/TARGET.md'), 'utf-8');
+    assert.match(target, /Source body\./);
   } finally {
     fs.rmSync(base, { recursive: true, force: true });
   }

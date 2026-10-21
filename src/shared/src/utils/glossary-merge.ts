@@ -8,7 +8,7 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { writeFileAtomic } from './atomic-write.js';
-import { rewriteGlossaryLinks } from './glossary-links.js';
+import { glossaryLinkFrom, rewriteGlossaryLinks } from './glossary-links.js';
 
 // Pattern to match frontmatter list items
 export const FRONTMATTER_ITEM_PATTERN = /^(\s+-\s+)(\S+)$/;
@@ -22,6 +22,7 @@ export interface MergeResult {
   frontmatterUpdated: number;
   glossaryMerged: boolean;
   sourceDeleted: boolean;
+  sourceRetired: boolean;
   errors: string[];
 }
 
@@ -29,6 +30,11 @@ export interface MergeOptions {
   dryRun?: boolean;
   verbose?: boolean;
   deleteSource?: boolean;
+  /**
+   * Instead of deleting the source, rewrite it as a retired stub (`status: retired`,
+   * `replaced_by: TARGET`, a "**Retired.**" body pointing at the target). Wins over deleteSource.
+   */
+  retireSource?: boolean;
   translationDirs?: string[];
   /**
    * Plain-append only: drop the source's H1 title and re-id its `GLO_SOURCE.NNNN`
@@ -133,9 +139,12 @@ export function getGlossaryRelativePath(glossaryBase: string, id: string): strin
   return path.relative(glossaryBase, filePath);
 }
 
+/** A metadata list key: top-level (`people:`) or nested under `entities:` (`  people:`). */
+const FRONTMATTER_LIST_KEY = /^(\s*)(people|places|themes|culture|cultural):\s*$/;
+
 /**
  * Update frontmatter metadata lists
- * Updates people:, places:, themes: lists
+ * Updates people:, places:, themes:, cultural: lists, top-level or under `entities:`
  */
 export function updateFrontmatter(
   content: string,
@@ -145,10 +154,9 @@ export function updateFrontmatter(
   const lines = content.split('\n');
   let inFrontmatter = false;
   let inRelevantList = false;
+  let listIndent = 0;
   let count = 0;
   const seenInList = new Set<string>();
-
-  const relevantLists = ['people:', 'places:', 'themes:', 'culture:'];
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -167,14 +175,16 @@ export function updateFrontmatter(
     if (!inFrontmatter) continue;
 
     // Check if entering a relevant list
-    if (relevantLists.some((l) => line.startsWith(l))) {
+    const keyMatch = line.match(FRONTMATTER_LIST_KEY);
+    if (keyMatch) {
       inRelevantList = true;
+      listIndent = keyMatch[1].length;
       seenInList.clear();
       continue;
     }
 
-    // Check if leaving list (non-indented line)
-    if (inRelevantList && !line.startsWith(' ') && !line.startsWith('\t') && line.trim() !== '') {
+    // Check if leaving list (a line indented no deeper than its key)
+    if (inRelevantList && line.trim() !== '' && line.length - line.trimStart().length <= listIndent) {
       inRelevantList = false;
       seenInList.clear();
     }
@@ -195,6 +205,9 @@ export function updateFrontmatter(
             seenInList.add(targetId);
           }
           count++;
+        } else if (value === targetId && seenInList.has(targetId)) {
+          // The target listed after a renamed source: keep only the first
+          lines[i] = '<<<DELETE>>>';
         } else {
           seenInList.add(value);
         }
@@ -251,6 +264,43 @@ export function cleanAppendedBody(
 }
 
 /**
+ * The project's retired-stub form of a merged-away entry: its frontmatter with
+ * `status: retired` and `replaced_by:`, and a body that points at the survivor.
+ */
+export function retiredStub(
+  sourceContent: string,
+  sourceId: string,
+  targetId: string,
+  sourceDir: string,
+  glossaryBase: string,
+  targetPath: string
+): string {
+  const now = new Date().toISOString().replace(/\.\d+Z$/, '');
+  const fm = sourceContent.match(/^---\n([\s\S]*?)\n---\n/);
+  const fmLines = (fm ? fm[1].split('\n') : [`id: ${sourceId}`]).filter(
+    (l) => !/^(status|replaced_by):/.test(l)
+  );
+  const updated = fmLines.findIndex((l) => l.startsWith('last_updated:'));
+  if (updated >= 0) fmLines[updated] = `last_updated: ${now.slice(0, 10)}`;
+  fmLines.push('status: retired', `replaced_by: ${targetId}`);
+
+  const rel = path.relative(glossaryBase, targetPath).split(path.sep).join('/');
+  const link = glossaryLinkFrom(sourceDir, targetPath);
+  return [
+    '---',
+    ...fmLines,
+    '---',
+    '',
+    `%% GLO_${sourceId}.0001 %%`,
+    `**Retired.** Merged into [#${targetId}](${link}) (\`${rel}\`); use that entry instead.`,
+    '',
+    `%% GLO_${sourceId}.0002 %%`,
+    `%% ${now} RSR: Retired by glossary-merge; content and links moved to ${targetId}. replaced_by: ${rel}. %%`,
+    '',
+  ].join('\n');
+}
+
+/**
  * Calculate Levenshtein distance between two strings
  */
 export function levenshteinDistance(a: string, b: string): number {
@@ -281,6 +331,36 @@ export function levenshteinDistance(a: string, b: string): number {
   return matrix[b.length][a.length];
 }
 
+/**
+ * The most common `#Display` of the diary tags (in `_original`) that already point at
+ * `targetPath`; with none, the tag convention: first letter upper, rest lower.
+ */
+export function usualDisplay(
+  files: { filePath: string; content: string }[],
+  glossaryBase: string,
+  targetPath: string,
+  targetId: string
+): string {
+  const counts = new Map<string, number>();
+  const diaryDir = path.dirname(glossaryBase) + path.sep;
+  for (const { filePath, content } of files) {
+    if (!filePath.startsWith(diaryDir) || filePath.startsWith(glossaryBase + path.sep)) continue;
+    if (!content.includes(path.basename(targetPath))) continue;
+    rewriteGlossaryLinks(content, path.dirname(filePath), glossaryBase, (target, displayText) => {
+      if (target === targetPath && displayText.startsWith('#')) {
+        counts.set(displayText, (counts.get(displayText) ?? 0) + 1);
+      }
+      return null;
+    });
+  }
+  let best = `#${targetId[0]}${targetId.slice(1).toLowerCase()}`;
+  let bestCount = 0;
+  for (const [display, n] of counts) {
+    if (n > bestCount) [best, bestCount] = [display, n];
+  }
+  return best;
+}
+
 interface PendingWrite {
   filePath: string;
   content: string;
@@ -306,16 +386,20 @@ export function planMergeRewrites(
 
   const sourceFile = `${sourceId}.md`;
 
+  const files: { filePath: string; content: string }[] = [];
   for (const filePath of contentFiles) {
-    let content: string;
     try {
-      content = fs.readFileSync(filePath, 'utf-8');
+      files.push({ filePath, content: fs.readFileSync(filePath, 'utf-8') });
     } catch (e) {
       errors.push(`Cannot read ${filePath}: ${e}`);
-      continue;
     }
+  }
 
-    const originalContent = content;
+  // Retargeted `#…` links take the display the target's own diary tags already use.
+  const targetDisplay = usualDisplay(files, glossaryBase, targetPath, targetId);
+
+  for (const { filePath, content: originalContent } of files) {
+    let content = originalContent;
 
     const linkResult = rewriteGlossaryLinks(
       content,
@@ -323,7 +407,7 @@ export function planMergeRewrites(
       glossaryBase,
       (target, displayText) =>
         path.basename(target) === sourceFile
-          ? { path: targetPath, displayText: displayText.startsWith('#') ? `#${targetId}` : undefined }
+          ? { path: targetPath, displayText: displayText.startsWith('#') ? targetDisplay : undefined }
           : null
     );
     content = linkResult.content;
@@ -356,6 +440,7 @@ export async function mergeGlossaryEntries(
     dryRun = false,
     verbose = false,
     deleteSource = true,
+    retireSource = false,
     translationDirs = TRANSLATION_DIRS,
     smartMerge,
     clean = false,
@@ -368,6 +453,7 @@ export async function mergeGlossaryEntries(
     frontmatterUpdated: 0,
     glossaryMerged: false,
     sourceDeleted: false,
+    sourceRetired: false,
     errors: [],
   };
 
@@ -467,7 +553,17 @@ export async function mergeGlossaryEntries(
       }
 
       // Only now is the source redundant
-      if (deleteSource) {
+      if (retireSource) {
+        writeFileAtomic(
+          sourcePath,
+          retiredStub(sourceContent, upperSource, upperTarget, path.dirname(sourcePath), glossaryBase, targetPath)
+        );
+        result.sourceRetired = true;
+
+        if (verbose) {
+          console.log(`  Retired source: ${path.relative(glossaryBase, sourcePath)}`);
+        }
+      } else if (deleteSource) {
         fs.unlinkSync(sourcePath);
         result.sourceDeleted = true;
 
@@ -479,7 +575,9 @@ export async function mergeGlossaryEntries(
       result.errors.push(`Error merging glossary files: ${e}`);
     }
   } else if (sourcePath && dryRun && verbose) {
-    console.log(`  Would merge ${upperSource} into ${upperTarget} and delete the source`);
+    console.log(
+      `  Would merge ${upperSource} into ${upperTarget} and ${retireSource ? 'retire' : deleteSource ? 'delete' : 'keep'} the source`
+    );
   }
 
   return result;

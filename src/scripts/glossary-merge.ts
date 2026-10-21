@@ -32,6 +32,7 @@ interface CliOptions {
   dryRun: boolean;
   verbose: boolean;
   deleteSource: boolean;
+  retire: boolean;
   simple: boolean;
   clean: boolean;
 }
@@ -50,6 +51,7 @@ function parseArgs(): CliOptions {
     dryRun: false,
     verbose: false,
     deleteSource: true,
+    retire: false,
     simple: false,
     clean: false,
   };
@@ -64,6 +66,8 @@ function parseArgs(): CliOptions {
       options.verbose = true;
     } else if (arg === '--no-delete') {
       options.deleteSource = false;
+    } else if (arg === '--retire') {
+      options.retire = true;
     } else if (arg === '--simple') {
       options.simple = true;
     } else if (arg === '--clean') {
@@ -93,10 +97,11 @@ Usage:
 
 Commands:
   merge <source> <target>  Merge source tag into target
-                           - Renames all [#source] links to [#target]
-                           - Updates frontmatter metadata lists
+                           - Renames all [#source] links to [#target], with the display
+                             text the target's diary tags already use
+                           - Updates frontmatter entities lists (people/places/cultural)
                            - Appends source glossary content to target
-                           - Deletes source glossary file (unless --no-delete)
+                           - Deletes source glossary file (unless --no-delete / --retire)
 
   find-duplicates          Find potential duplicate glossary entries
                            - Similar names (Levenshtein distance)
@@ -112,6 +117,8 @@ Options:
   --dry-run, -n            Preview changes without modifying files
   --verbose, -v            Show detailed output
   --no-delete              Don't delete source glossary file after merge
+  --retire                 Keep the source as a retired stub (status: retired,
+                           replaced_by: TARGET) instead of deleting it
   --simple                 Use mechanical append instead of AI-powered merge
   --clean                  With --simple: drop the source's H1 title, re-id its GLO_ markers
                            into the target's sequence, no '---' rule / ms-Z timestamp
@@ -206,6 +213,7 @@ function runMerge(source: string, target: string, options: CliOptions): Promise<
     dryRun: options.dryRun,
     verbose: options.verbose,
     deleteSource: options.deleteSource,
+    retireSource: options.retire,
     clean: options.clean,
     smartMerge: options.simple
       ? undefined
@@ -381,6 +389,7 @@ async function main(): Promise<void> {
       console.log(`Frontmatter updated:  ${result.frontmatterUpdated}`);
       console.log(`Glossary merged:      ${result.glossaryMerged ? 'Yes' : 'No'}`);
       console.log(`Source deleted:       ${result.sourceDeleted ? 'Yes' : 'No'}`);
+      console.log(`Source retired:       ${result.sourceRetired ? 'Yes' : 'No'}`);
 
       if (result.errors.length > 0) {
         console.log('\nErrors:');

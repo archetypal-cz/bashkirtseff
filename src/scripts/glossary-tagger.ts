@@ -66,6 +66,7 @@ function loadGlossaryEntries(filterCategory?: string): GlossaryEntry[] {
         const content = fs.readFileSync(filePath, 'utf-8');
         let aliases: string[] = [];
         let name = id;
+        let retired = false;
 
         // Parse frontmatter
         if (content.startsWith('---\n')) {
@@ -75,10 +76,12 @@ function loadGlossaryEntries(filterCategory?: string): GlossaryEntry[] {
               const fm = YAML.parse(content.substring(4, endIdx)) ?? {};
               aliases = fm.aliases || [];
               name = fm.name || id;
+              retired = fm.status === 'retired';
             } catch { /* skip */ }
           }
         }
 
+        if (retired) continue; // Retired stubs (replaced_by) are never tag targets
         if (aliases.length === 0) continue; // No aliases = can't match
 
         // Derive display name from ID

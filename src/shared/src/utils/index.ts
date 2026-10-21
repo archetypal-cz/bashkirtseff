@@ -43,6 +43,8 @@ export {
   extractBodyContent,
   levenshteinDistance,
   planMergeRewrites,
+  usualDisplay,
+  retiredStub,
   mergeGlossaryEntries,
 } from './glossary-merge.js';
 
