@@ -63,9 +63,10 @@ glossary-move id new_category *FLAGS:
 
 # Merge two glossary entries (source → target, updates all refs; use --dry-run to preview)
 # Flags: --simple --clean (mechanical append; the default is an AI body merge via `claude -p`),
-# --retire (keep the source as a retired stub), --no-delete. It renames the id inside the
-# `entities:` lists but keeps it under its old key: after a people/places/culture-crossing merge
-# run `just entities-sync --apply --strict --carnet …` on the touched carnets.
+# --retire (keep the source as a retired stub), --no-delete, --no-body (empty stub: keep none of
+# its body). It renames the id inside the `entities:` lists but keeps it under its old key:
+# after a people/places/culture-crossing merge run `just entities-sync --apply --strict --carnet …`
+# on the touched carnets.
 glossary-merge source target *FLAGS:
     npx tsx src/scripts/glossary-merge.ts merge {{FLAGS}} {{source}} {{target}}
 

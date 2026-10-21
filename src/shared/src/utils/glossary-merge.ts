@@ -43,6 +43,11 @@ export interface MergeOptions {
    */
   clean?: boolean;
   /**
+   * Keep none of the source's body (an empty auto-stub): the target only gets a
+   * one-line RSR merge note.
+   */
+  skipBody?: boolean;
+  /**
    * Optional AI-assisted merge of the two entries. Returns the full merged file
    * content for the target, or null to fall back to a plain append.
    */
@@ -444,6 +449,7 @@ export async function mergeGlossaryEntries(
     translationDirs = TRANSLATION_DIRS,
     smartMerge,
     clean = false,
+    skipBody = false,
   } = options;
 
   const glossaryBase = path.join(basePath, 'content/_original/_glossary');
@@ -518,11 +524,18 @@ export async function mergeGlossaryEntries(
       const sourceContent = fs.readFileSync(sourcePath, 'utf-8');
       const targetContent = fs.readFileSync(targetPath, 'utf-8');
 
-      const merged = smartMerge
+      const merged = skipBody
+        ? null
+        : smartMerge
         ? smartMerge(upperSource, sourceContent, upperTarget, targetContent)
         : null;
 
-      if (merged) {
+      if (skipBody) {
+        const stamp = new Date().toISOString().replace(/\.\d+Z$/, '');
+        const note = `\n%% ${stamp} RSR: Merged ${upperSource} (no content kept: empty stub) %%\n`;
+        writeFileAtomic(targetPath, targetContent.trimEnd() + '\n' + note);
+        result.glossaryMerged = true;
+      } else if (merged) {
         writeFileAtomic(targetPath, merged.endsWith('\n') ? merged : `${merged}\n`);
         result.glossaryMerged = true;
       } else {

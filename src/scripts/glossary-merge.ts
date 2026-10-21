@@ -33,6 +33,7 @@ interface CliOptions {
   verbose: boolean;
   deleteSource: boolean;
   retire: boolean;
+  noBody: boolean;
   simple: boolean;
   clean: boolean;
 }
@@ -52,6 +53,7 @@ function parseArgs(): CliOptions {
     verbose: false,
     deleteSource: true,
     retire: false,
+    noBody: false,
     simple: false,
     clean: false,
   };
@@ -66,6 +68,8 @@ function parseArgs(): CliOptions {
       options.verbose = true;
     } else if (arg === '--no-delete') {
       options.deleteSource = false;
+    } else if (arg === '--no-body') {
+      options.noBody = true;
     } else if (arg === '--retire') {
       options.retire = true;
     } else if (arg === '--simple') {
@@ -119,6 +123,7 @@ Options:
   --no-delete              Don't delete source glossary file after merge
   --retire                 Keep the source as a retired stub (status: retired,
                            replaced_by: TARGET) instead of deleting it
+  --no-body                Keep none of the source's body (empty stub); the target gets a merge note
   --simple                 Use mechanical append instead of AI-powered merge
   --clean                  With --simple: drop the source's H1 title, re-id its GLO_ markers
                            into the target's sequence, no '---' rule / ms-Z timestamp
@@ -214,6 +219,7 @@ function runMerge(source: string, target: string, options: CliOptions): Promise<
     verbose: options.verbose,
     deleteSource: options.deleteSource,
     retireSource: options.retire,
+    skipBody: options.noBody,
     clean: options.clean,
     smartMerge: options.simple
       ? undefined
