@@ -33,3 +33,5 @@ full_text:
 - Searches of the BnF and Internet Archive catalogues found no one-act "Cendrillon" comedy of 1873 matching the Nice bill; the identification is open.
 
 %% 2026-10-10T12:00:00 RSR: New entry (batch 02). The inventory merged two different productions (Nice Théâtre-Français 1873-03-28, 003.0122-0123; Renz circus pantomime, Vienna 1873-08-14, 008.0025). Doubt: the Nice piece is unidentified; if the lead prefers, split into CENDRILLON_NICE_1873 and CENDRILLON_PANTOMIME_RENZ. %%
+
+%% 2026-10-21T12:35:00 RSR: A third mention: 11 March 1875, Nice (030.0179). Marie Sapogenikoff calls her own childlike engagement "le mariage Cendrillon (joué par des enfants, ici au cirque)", i.e. a Cinderella piece played by children at the circus then in Nice; not identified, and not the Vienna Renz pantomime of 1873. %%

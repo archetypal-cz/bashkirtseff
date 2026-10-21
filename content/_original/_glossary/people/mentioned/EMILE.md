@@ -33,3 +33,5 @@ An older man in Nice known for his cabriolet (two-wheeled carriage).
 - Cabriolet ownership in 1870s
 - Social status and vehicles
 - Nice transportation culture
+
+%% 2026-10-21T12:10:06 RSR: Identity: "le vieux Emile" is Émile d'Audiffret's father. Marie glosses the phrase herself: "Le vieux Emile était dans la loge avec ses filles (le père Audiffret)" (027.0082, 29 November 1874); the Mon Journal tome 4 index has "Audiffret (Emile), père". Same man at 028.0207 (9 January 1875, with "ses deux petites filles" and "le jeune"). The EMILE_D_AUDIFFRET entry calls the father Léon d'Audiffret. In 1883-84, "Emile" is Émile Bastien-Lepage, not this man. %%
