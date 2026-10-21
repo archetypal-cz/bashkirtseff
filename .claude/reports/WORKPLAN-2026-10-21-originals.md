@@ -50,7 +50,8 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 | 066 | 365 | done f4b24ad485 (RSR ~101 notes, 9 fn, 8 locations; LAN 144) |
 | 086 | 206 | RSR running |
 | 083 | 175 | RSR running |
-| 071 | 251 | RSR running |
+| 071 | 251 | done f70cb9428e (RSR 126 notes, 5 tag fixes; LAN 68) |
+| 065 | 150 | RSR running |
 | next | | by size: 067 668, 070 523, 066 365, 059 301, 071 251, 050 215, 086 206, 063 201, 083 175, 065 150 … (5,724 total) |
 
 ## Second LAN gap (measured 2026-10-21 after reset)
@@ -64,7 +65,7 @@ cap leaves ~70% of paragraphs without a note by design).
 ## Date-only entries flag (2026-10-21)
 
 544 entries carry only «[Aucun texte - date seule mentionnée]»; 411 lacked `empty_in_source`.
-Flagged 403 (492d308ad7) + 4 in 066 (f4b24ad485); 071 left (4) — flag when 071 is committed
+Flagged 403 (492d308ad7) + 4 in 066 (f4b24ad485); 071: 2 flagged in f70cb9428e
 (scratchpad flag_empty.py).
 
 ## Follow-ups
