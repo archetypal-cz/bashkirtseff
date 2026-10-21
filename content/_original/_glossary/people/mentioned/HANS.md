@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
 ---
 # Hans
 
@@ -24,3 +24,7 @@ last_updated: 2026-03-06
 - Created: 2026-01-06
 - Auto-generated stub from broken link detection
 - Needs proper research and content
+
+## Identity (Soden, 1878)
+
+Prince Hans zu Hohenlohe-Öhringen (born 24 April 1858; en.wikipedia «Hans zu Hohenlohe-Öhringen»), younger brother of «Schwarz» ([#Schwarz](SCHWARZ.md)). Mon Journal t.12 index: «Hohenlohe-Oeringen (Hans) [Ganz], frère du précédent : 44, 46, 49, 52, 63, 65, 69-73, 75, 77-86, 89-91, 94». Mme Rembelinsky's pun «Ganz»/«Gans» (goose) on his name (081.0575) gives the nickname «Gans»; the corpus also tags the singular «Gans» and the plural «les Gans» (both brothers) with the separate stub [#Gans](GANS.md).
