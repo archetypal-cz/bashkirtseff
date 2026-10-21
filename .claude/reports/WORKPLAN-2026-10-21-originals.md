@@ -48,8 +48,10 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 | 059 | 301 | done 50276d11c5 (RSR 56 notes, 35 tags; LAN 107; plobster fn fixed) |
 | 070 | 523 | done 1bc72ef4a0 (2 parts; RSR ~143 notes, 9 fn; LAN 154) |
 | 066 | 365 | done f4b24ad485 (RSR ~101 notes, 9 fn, 8 locations; LAN 144) |
-| 086 | 206 | RSR running |
-| 083 | 175 | RSR running |
+| 086 | 206 | RSR done (83 notes, 1 fn, 7 new glossary, correction) → LAN running |
+| 085 | 136 | RSR running |
+| 090 | 131 | RSR running |
+| 083 | 175 | done 288f7f5078 (RSR 52 notes + 3 corrections; LAN 78) |
 | 071 | 251 | done f70cb9428e (RSR 126 notes, 5 tag fixes; LAN 68) |
 | 065 | 150 | RSR running |
 | next | | by size: 067 668, 070 523, 066 365, 059 301, 071 251, 050 215, 086 206, 063 201, 083 175, 065 150 … (5,724 total) |
@@ -69,6 +71,10 @@ Flagged 403 (492d308ad7) + 4 in 066 (f4b24ad485); 071: 2 flagged in f70cb9428e
 (scratchpad flag_empty.py).
 
 ## Follow-ups
+
+- **New source footnotes from this wave must reach the trees**: 035 (1), 037 (2), 041 (4), 059 (2), 063 (3),
+  066 (9), 067 (2), 070 (9), 071 (4), 086 (1)… — `just sync C LANG --footnotes` per tree, then translate the
+  English footnote text in cz/uk (and es where present) in tree style; run after the wave or per batch.
 
 - Tag candidates from entities-sync (scratchpad entities-tag-candidates-v2.tsv, 1,019) → glossary-tagger review.
 - uk carry of the source-note fixes (agent uk-redo), then tick C-01/C-02/C-07/C-08.
