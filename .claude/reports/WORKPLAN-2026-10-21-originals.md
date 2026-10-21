@@ -40,9 +40,21 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 |---|---|---|
 | 034 | 181 | done 2784066a10 |
 | 037 | 185 | done b9333d26ce (Opus review: 46 LAN filler deleted, ~140 trimmed/corrected) |
-| 035 | 203 | RSR (Opus) running |
-| 041 | 163 | RSR (Opus) running |
+| 035 | 203 | done cc40ffe5d1 (RSR 52 notes; LAN 99) |
+| 041 | 163 | done d2ccea3c49 (RSR 31 notes; LAN 56, capped brief works) |
+| 050 | 215 | done (RSR 51 notes, 22 tags; LAN 76) |
+| 067 | 668 | split a/b/c (230/251/187, by file); 067a + 067b RSR running |
+| 063 | 201 | done 638820f748 (RSR 46 notes, 30 tags; LAN 81) |
+| 059 | 301 | RSR running |
 | next | | by size: 067 668, 070 523, 066 365, 059 301, 071 251, 050 215, 086 206, 063 201, 083 175, 065 150 … (5,724 total) |
+
+## Second LAN gap (measured 2026-10-21 after reset)
+
+295 entries with ≥100 words (167k words) carry no LAN note at all — many are restored entries
+(covered by Track O), the rest were never annotated (067 ×29, 086 ×26, 091 ×20, 071 ×18, 100 ×17,
+090 ×16, 080/070/066 ×15, 078 ×13, 030 ×11 …). List: scratchpad nolan-entries.txt. After Track O,
+run a LAN pass on whatever remains (include nickname TRAPs at first occurrence: «Giro» = Olga 050/12-06, «Pépino» = Albert Gautier 050/11-28) (per-paragraph "no LAN" counts are not a gap measure: the density
+cap leaves ~70% of paragraphs without a note by design).
 
 ## Follow-ups
 
