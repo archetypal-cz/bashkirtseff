@@ -513,7 +513,7 @@ After processing an entry, return structured JSON:
 
 - Duke of Hamilton (Marie's obsession) - see glossary for full context
 - Gioia (Hamilton's mistress) - coded names: "Laïs", "la Gioia"
-- Princess Souvoroff (Bête/Cunegunda) - socialite friend
+- Princess Nathalie Galitzine («Bête», Cunégonde) - socialite friend (Mon Journal t.2 index; glossary BETE)
 - Various family members: "diadia" (uncle), "ma tante", "Dina" (cousin)
 
 **Common Places**:

@@ -70,7 +70,7 @@ Get every original French entry properly researched, annotated, and footnoted be
 
 **Agent Teams setup**: ED is team lead in delegate mode. RSR and LAN are persistent teammates that self-claim tasks from a shared task list with dependency chains. EVAL is handled by ED or a Sonnet subagent. Sonnet is sufficient for verification work; Opus for complex entries.
 
-**Status**: Source preparation is COMPLETE for all 107 carnets (000–106). This pipeline is now only needed for gap-filling.
+**Status**: Source preparation was complete for all 107 carnets (000–106) before the 2026-09-28 rebuild, which restored ~5,700 paragraphs (~218k words) that had no RSR/LAN. Those were annotated in the 2026-10-21 gap-filling wave (RSR Opus → LAN Sonnet → `just entities-sync` → gates; tracker `.claude/reports/WORKPLAN-2026-10-21-originals.md`). Binding briefs for any further gap-filling: `.claude/reports/briefs/restored-rsr-brief.md` and `restored-lan-brief.md` (density cap, grep before "first appearance", IDs by text search, CORRECTION lines under wrong older notes).
 
 ### Pipeline 2: Translation (ACTIVE) — canonical order
 
