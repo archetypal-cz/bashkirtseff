@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
 ---
 # Hotowsky
 
@@ -15,7 +15,7 @@ last_updated: 2026-03-06
 - Status: Stub entry (automatically generated)
 
 ## Description
-[No description available - stub entry created from diary references]
+Same family as [GATOWSKY](GATOWSKY.md): Marie writes «Mme et Mlle Hotowsky» on 19 March 1877 (069.0451) and corrects herself on 25 March: «Les Gatowsky (et non Holowsky)» (069.0515). Its two 069 tags were moved to GATOWSKY on 2026-10-21; this stub can be retired (OPEN-ITEMS).
 
 ## References in Diary
 [Multiple references found - needs research]

@@ -18,6 +18,8 @@ last_updated: 2026-03-06
 
 Bikowsky was an acquaintance of the Bashkirtseff family, a small man whom Marie had not seen for some time before their chance encounter in Paris in August 1873.
 
+**Not the Bikowsky of Nice and Naples (1877–78).** In Naples Marie meets «Bikowsky de Nice. C'est le cousin de celui de Paris» (069.0430): that cousin, prince Gryf-Jaxa-Bikowsky in the *Mon Journal* t.10 index, has his own entry, [GRYF_JAXA_BIKOWSKY](GRYF_JAXA_BIKOWSKY.md). (RSR 2026-10-21)
+
 ## Personal Description
 
 Marie describes him as:
