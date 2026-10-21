@@ -35,3 +35,5 @@ One of Marie's teachers who loves food and often speaks of dishes during lessons
 ## Research Notes
 - Subject taught not specified
 - His food discussions lighten formal lessons
+
+%% 2026-10-21T12:37:00 RSR: Subject: Mon Journal t.7 index has «Leclerc (M.), professeur de chimie-physique : 221». On that page (Rome, 6 April 1876) Marie remembers that «Leclerc m'avait parlé un jour du prussiate jaune, j'en ai dans ma chimie» (056.0461). The same man as Marie's chemistry teacher in Nice: «J'ai ma première leçon avec M. Leclerc, chimiste» (012/1873-11-15); «Avec Leclerc, j'ai parlé de l'installation de ma chimie et physique» (028/1874-12-26); «je rentre pour Leclerc avec lequel j'installe mon laboratoire dans l'ex-cuisine du pavillon» (032/1875-05-10); «ma leçon de chimie avec Leclerc» (034/1875-06-14). So the «Subject taught not specified» above is out of date: he taught chemistry and physics. %%
