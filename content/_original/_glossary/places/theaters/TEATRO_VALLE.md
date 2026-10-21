@@ -33,7 +33,7 @@ In the spring of 1876 the Valle is the family's other Roman theatre after the Ap
 
 ## Related
 
-- [Apollo](../../people/mentioned/APOLLO.md) (the Teatro Apollo)
+- [Apollo](APOLLO.md) (the Teatro Apollo)
 - [Antonelli](../../people/mentioned/ANTONELLI.md)
 
 %% 2026-10-21T09:41:16 RSR: Created during RSR of the restored carnet 059 paragraphs (≥2 mentions, no entry). Dates checked by grep of «Valle» in content/_original 052-060. %%

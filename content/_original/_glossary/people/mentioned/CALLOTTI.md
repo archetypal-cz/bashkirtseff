@@ -24,6 +24,6 @@ Marie talks with him at the ball and finds him, with Carmignano and the pianist 
 - 1877-04-18 (070.0694)
 - 1877-04-19 (070.0729, 070.0730)
 
-See also [#Gettatura](GETTATURA.md).
+See also [#Gettatura](../../culture/social_customs/GETTATURA.md).
 
 %% 2026-10-21T10:20:00 RSR: Created during RSR research of the restored carnet 070 paragraphs (rsr-070b). The alias «Gallotti» is the probable real spelling, not a form Marie uses. %%

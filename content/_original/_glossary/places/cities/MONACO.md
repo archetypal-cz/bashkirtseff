@@ -160,7 +160,7 @@ The Hotel de Paris Monte-Carlo, designed by Gobineau de la Bretonnerie and const
 %% GLO_MONACO.0032 %%
 - [#Nice](NICE.md) -- Marie's home base from which Monaco trips departed
 - [#Duke_of_Hamilton](../../people/core/DUKE_OF_HAMILTON.md) -- Primary object of Marie's Monaco observations (1873)
-- [#Tir_aux_pigeons](../../people/mentioned/TIR_AUX_PIGEONS.md) -- Pigeon shooting competitions
+- [#Tir_aux_pigeons](../venues/TIR_AUX_PIGEONS.md) -- Pigeon shooting competitions
 - [#Blanc](../../people/mentioned/BLANC.md) -- Likely connected to Francois Blanc's family
 - [#Mlle_Blanc](../../people/aristocracy/MLLE_BLANC.md) -- Member of the Blanc dynasty
 - [#Yourkoff](../../people/mentioned/YOURKOFF.md) -- Killed himself at Monaco (c. April 1876)

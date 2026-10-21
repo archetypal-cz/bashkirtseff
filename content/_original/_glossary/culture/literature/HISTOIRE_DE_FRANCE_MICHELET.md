@@ -36,7 +36,7 @@ full_text:
 On 3 October 1877 (075.0129) Marie has just read "un chapitre de l'Histoire de France de Michelet" and complains that when he speaks of God "il me semble qu'il plaisante, qu'il se moque de ceux qui n'y croient pas"; the remark comes while she is still occupied with her superstitious "sachet" (amulet).
 
 %% GLO_HISTOIRE_DE_FRANCE_MICHELET.0005 %%
-%% [#Michelet](../../people/mentioned/MICHELET.md) [#Tite_Live](../../people/mentioned/TITE_LIVE.md) [#Reading](../themes/READING.md) %%
+%% [#Michelet](../../people/mentioned/MICHELET.md) [#Tite_Live](../../people/writers/TITE_LIVE.md) [#Reading](../themes/READING.md) %%
 On 23 September 1878 (082.0442) it is part of her self-imposed reading programme: "Quand j'aurai fini Tite-Live je lirai l'Histoire de France de Michelet", and then the Greeks she knows only by hearsay. Her books are still packed in crates. The programme is discussed in the RSR note at that paragraph.
 
 %% GLO_HISTOIRE_DE_FRANCE_MICHELET.0006 %%

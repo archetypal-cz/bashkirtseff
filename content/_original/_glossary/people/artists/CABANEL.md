@@ -39,7 +39,7 @@ In the summer of 1883, hoping to get a late picture accepted, she writes to Caba
 ## Related entries
 - [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) -- his pupil
 - [#Meissonnier](MEISSONNIER.md), [#Lefebvre](LEFEBVRE.md) -- fellow academicians in Marie's judgments
-- [#Bouguereau](../../culture/history/BOUGUEREAU.md)
+- [#Bouguereau](BOUGUEREAU.md)
 - [#Salon](../../culture/art/SALON.md)
 
 %% GLO_CABANEL.0008 %%

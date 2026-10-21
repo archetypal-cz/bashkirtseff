@@ -31,7 +31,7 @@ French count attending lunch at the Teplakoffs.
 - Social hierarchies at mixed-age gatherings
 
 ## Related Entries
-- [#Teplakoff](../../places/churches/TEPLAKOFF.md) - Hosts
+- [#Mme_teplakoff](../mentioned/MME_TEPLAKOFF.md) - Hosts
 - [#Abrial](../recurring/ABRIAL.md) - Fellow adult guest
 
 ## Research Notes

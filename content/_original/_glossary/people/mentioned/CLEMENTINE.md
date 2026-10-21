@@ -31,7 +31,7 @@ Woman constantly seen on Lewin's arm, likely his fiancée.
 - Part of Nice society
 
 ## Related Entries
-- [#Lewin](../../culture/theater/LEWIN.md) - Constant companion/fiancé
+- [#Lewin](LEWIN.md) - Constant companion/fiancé
 
 ## Research Notes
 - Engagement etiquette 1870s

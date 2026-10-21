@@ -58,7 +58,7 @@ Dieppe's proximity to England -- the closest major French port to the English co
 ### Sea Bathing as Medical Therapy
 
 %% GLO_DIEPPE.0009 %%
-By the 1870s, [thalassotherapy](https://en.wikipedia.org/wiki/Thalassotherapy) -- the therapeutic use of seawater and marine climate -- was an established branch of French medicine. The concept had been formalized in 1865 by Dr. Jacques de la Bonnardière, who coined the term from the Greek *thalassa* (sea). The first warm-water spa at Dieppe had opened in 1822, and by mid-century sea bathing was prescribed by physicians for conditions ranging from respiratory ailments to nervous disorders. Marie's doctor, [Krishaber](../../people/mentioned/KRISHABER.md), offered her a choice between [Mont-Dore](../../people/mentioned/MONT_DORE.md) (a thermal spa in the Auvergne for respiratory problems) and the sea. She chose Dieppe because "le Mont-Dore est loin, Dieppe est tout près, les Karageorgevitch sont à Dieppe" (086.0067) -- medical necessity tempered by social calculation and convenience, as was typical of her.
+By the 1870s, [thalassotherapy](https://en.wikipedia.org/wiki/Thalassotherapy) -- the therapeutic use of seawater and marine climate -- was an established branch of French medicine. The concept had been formalized in 1865 by Dr. Jacques de la Bonnardière, who coined the term from the Greek *thalassa* (sea). The first warm-water spa at Dieppe had opened in 1822, and by mid-century sea bathing was prescribed by physicians for conditions ranging from respiratory ailments to nervous disorders. Marie's doctor, [Krishaber](../../people/mentioned/KRISHABER.md), offered her a choice between [Mont-Dore](../cities/MONT_DORE.md) (a thermal spa in the Auvergne for respiratory problems) and the sea. She chose Dieppe because "le Mont-Dore est loin, Dieppe est tout près, les Karageorgevitch sont à Dieppe" (086.0067) -- medical necessity tempered by social calculation and convenience, as was typical of her.
 
 ### Dieppe and the Impressionists
 
@@ -182,7 +182,7 @@ Dieppe represented several intersecting themes for Marie:
 - [#Julian](../schools/JULIAN.md) -- The Académie to which Marie returned with her Dieppe studies
 - [#Krishaber](../../people/mentioned/KRISHABER.md) -- The doctor who prescribed the sea cure
 - [#Berthe](../../people/recurring/BERTHE.md) -- Whose Dieppe scandals haunted the social circle
-- [#Trouville](../../people/mentioned/TROUVILLE.md) -- Rival Normandy resort, the more popular alternative
+- [#Trouville](../cities/TROUVILLE.md) -- Rival Normandy resort, the more popular alternative
 
 ## Sources
 

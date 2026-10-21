@@ -16,7 +16,7 @@ last_updated: 2026-10-11
 ## Who he was
 
 %% GLO_BAGNITSKY.0002 %%
-Bagnitsky was a Russian journalist in Paris in 1883-84, a correspondent of the St Petersburg daily *Novoe Vremya* ("New Times", which Marie writes "Nouveau-Temps" and "Novoïc Vremia"; see [Novoic Vremia](./NOVOIC_VREMIA.md)). Marie gives only his surname. She says that he sends the paper, "among other things, studies on our painters in Paris" (100.0176). His first name, dates and biography have not been established from outside the diary, and no portrait is known.
+Bagnitsky was a Russian journalist in Paris in 1883-84, a correspondent of the St Petersburg daily *Novoe Vremya* ("New Times", which Marie writes "Nouveau-Temps" and "Novoïc Vremia"; see [Novoic Vremia](../../culture/newspapers/NOVOIC_VREMIA.md)). Marie gives only his surname. She says that he sends the paper, "among other things, studies on our painters in Paris" (100.0176). His first name, dates and biography have not been established from outside the diary, and no portrait is known.
 
 %% GLO_BAGNITSKY.0003 %%
 ## Marie and Bagnitsky
@@ -37,7 +37,7 @@ Bagnitsky was a Russian journalist in Paris in 1883-84, a correspondent of the S
 ## Related entries
 
 %% GLO_BAGNITSKY.0009 %%
-- [Novoic Vremia](./NOVOIC_VREMIA.md)
+- [Novoic Vremia](../../culture/newspapers/NOVOIC_VREMIA.md)
 - [Julian](../../places/schools/JULIAN.md)
 - [Jules Bastien-Lepage](../recurring/BASTIEN_LEPAGE.md) and [Émile Bastien-Lepage](../recurring/EMILE_BASTIEN_LEPAGE.md)
 - [Un meeting](../../culture/art/UN_MEETING.md)

@@ -61,7 +61,7 @@ The paragraph 004.0276 (3 May 1873: a dinner with the Anitchkoffs, "Lefevre" and
 - [#Robert_Fleury](ROBERT_FLEURY.md) -- fellow master at Julian's and the Salon jury
 - [#Tony_Robert_Fleury](../mentioned/TONY_ROBERT_FLEURY.md)
 - [#Julian](../recurring/RODOLPHE_JULIAN.md) -- director of the school where Lefebvre taught
-- [#Cabanel](CABANEL.md), [#Bouguereau](../../culture/history/BOUGUEREAU.md)
+- [#Cabanel](CABANEL.md), [#Bouguereau](BOUGUEREAU.md)
 - [#Salon](../../culture/art/SALON.md)
 
 %% GLO_LEFEBVRE.0014 %%
