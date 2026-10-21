@@ -48,12 +48,13 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 | 059 | 301 | done 50276d11c5 (RSR 56 notes, 35 tags; LAN 107; plobster fn fixed) |
 | 070 | 523 | done 1bc72ef4a0 (2 parts; RSR ~143 notes, 9 fn; LAN 154) |
 | 066 | 365 | done f4b24ad485 (RSR ~101 notes, 9 fn, 8 locations; LAN 144) |
-| 086 | 206 | RSR done (83 notes, 1 fn, 7 new glossary, correction) → LAN running |
+| 086 | 206 | done d4121572f2 (RSR 83 notes; LAN 83) |
 | 085 | 136 | RSR running |
 | 090 | 131 | RSR running |
 | 083 | 175 | done 288f7f5078 (RSR 52 notes + 3 corrections; LAN 78) |
 | 071 | 251 | done f70cb9428e (RSR 126 notes, 5 tag fixes; LAN 68) |
-| 065 | 150 | RSR running |
+| 065 | 150 | done 874672333a (RSR 42 notes, 6 locations; LAN 52) |
+| 062 | 128 | RSR running |
 | next | | by size: 067 668, 070 523, 066 365, 059 301, 071 251, 050 215, 086 206, 063 201, 083 175, 065 150 … (5,724 total) |
 
 ## Second LAN gap (measured 2026-10-21 after reset)
