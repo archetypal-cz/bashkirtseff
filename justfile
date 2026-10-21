@@ -440,6 +440,10 @@ extract-czech *ARGS:
 sync carnet lang=default_lang *FLAGS:
     npx tsx src/scripts/sync-translation.ts {{carnet}} --lang {{lang}} {{FLAGS}}
 
+# Rebuild `entities:` frontmatter (people/places/cultural) of _original entries from inline glossary tags. Dry run unless --apply. Flags: --carnet 034,037  --exclude 012  --report FILE  --root DIR
+entities-sync *FLAGS:
+    npx tsx src/scripts/entities-sync.ts {{FLAGS}}
+
 # Sync annotations for ALL carnets in a language
 sync-all lang=default_lang:
     #!/usr/bin/env bash

@@ -33,6 +33,7 @@ scripts/
 ├── glossary-dedup.ts                # Analyze/execute glossary dedup plans
 ├── glossary-frontmatter.ts          # Manage glossary YAML frontmatter
 ├── glossary-tagger.ts               # Auto-tag entries with glossary refs
+├── entities-sync.ts                 # Rebuild entities: frontmatter from inline glossary tags
 ├── theme-tagger.ts                  # Add theme tags to entries
 ├── project-status.ts                # Project progress tracking
 ├── update-frontmatter.ts            # Update calculated frontmatter fields
@@ -97,6 +98,17 @@ Site and misc:
 - `open_items_to_json.py` — `.claude/reports/OPEN-ITEMS.md` to JSON for the Open Items page
 - `a11y-audit.mjs`, `a11y-contrast-matrix.mjs` — accessibility audit (`a11y-axe-run.mjs`, `a11y-axe-detail.mjs` are obsolete)
 - `experiments/` — translation-prompt experiments (see its README)
+
+## entities-sync
+
+`just entities-sync [--apply] [--strict] [--candidates FILE.tsv] [--carnet 034,037] [--exclude 012] [--report FILE.json] [--root DIR]` rewrites the
+`entities:` block (people / places / cultural) of `_original` entries from the inline glossary tags (the curated
+truth; frontmatter was stale research). Dry run by default; prints per-carnet files/changed/+ids/-ids. ids are
+glossary FILE basenames (CAPITAL_ASCII), matching the filter builder's subcategory map and glossary pages
+(`filter.ts` matches case-insensitively, so old mixed-case ids still worked). people/places always written
+(`[]` when none); `cultural` only if non-empty or already present; themes excluded. Skips `empty_in_source`
+and README/_summary; body and other frontmatter untouched. After `--apply`, run `just fe-filter-index`.
+Default is recall-preserving: an id that would be removed is KEPT (and listed in the `--candidates` TSV: file, id, alias, paragraph) when one of its glossary aliases/name matches the entry's visible French (accent-insensitive, word-boundary, capitalised aliases only) and no tag already covers that alias; `--strict` removes them anyway. Feed the TSV to glossary-tagger. Tags are the source: a place/person that is real but untagged disappears from the filter, so fix tags, not frontmatter.
 
 ## Running Scripts
 
