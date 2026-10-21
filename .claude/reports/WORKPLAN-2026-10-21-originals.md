@@ -22,7 +22,7 @@ uk D-26 part. Unique work re-applied:
 | 424b0699b4 034 RSR+LAN | 2784066a10 (tags → origin's works entries) |
 | bf173d3746 entities frontmatter | regenerated on origin: 9d369be094 |
 | 07edd69ba4 uk sweeps | D-45/D-46 re-run on origin (agent uk-redo) |
-| WIP 037 RSR+LAN | rebased onto renumbered 037 (agent rebase-037) |
+| WIP 037 RSR+LAN | rebased onto renumbered 037: b9333d26ce |
 
 ## Baseline audit (pre-reset counts; recount on origin)
 
@@ -39,8 +39,10 @@ Per carnet: RSR → LAN → `just entities-sync --carnet C --apply` → gates �
 | Carnet | bare | status |
 |---|---|---|
 | 034 | 181 | done 2784066a10 |
-| 037 | 185 | rebasing onto origin + review |
-| next | | 035, 041, then by size |
+| 037 | 185 | done b9333d26ce (Opus review: 46 LAN filler deleted, ~140 trimmed/corrected) |
+| 035 | 203 | RSR (Opus) running |
+| 041 | 163 | RSR (Opus) running |
+| next | | by size: 067 668, 070 523, 066 365, 059 301, 071 251, 050 215, 086 206, 063 201, 083 175, 065 150 … (5,724 total) |
 
 ## Follow-ups
 
