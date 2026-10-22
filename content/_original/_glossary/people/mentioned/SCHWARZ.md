@@ -1,30 +1,24 @@
 ---
 id: SCHWARZ
-name: Schwarz
+name: Schwarz (Prince Auguste zu Hohenlohe-Öhringen)
 aliases:
+  - Auguste le brun
+  - le prince noir
+  - Auguste Hohenlohe
   - Schwarz
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
-# Schwarz
+# Schwarz (Prince Auguste zu Hohenlohe-Öhringen)
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+## Overview
 
-## Description
-[No description available - stub entry created from diary references]
+«Schwarz» («black»), «le prince noir», is Marie's name for Prince Auguste zu Hohenlohe-Öhringen, the elder and dark of the two Hohenlohe princes she watches and teases at the Kurhaus of Soden in July–August 1878 («Je prends Auguste le brun, elle prend Hans, le blond», 081.0509). Mon Journal t.12 index: «Hohenlohe-Oeringen (Auguste) [Schwarz], fils de la précédente», his mother being «Hohenlohe-Oeringen (princesse de), née Pauline de Fürstenberg». His brother is [HANS](HANS.md); the pair, [HOHENLOHE_PRINCES](HOHENLOHE_PRINCES.md).
 
 ## References in Diary
-[Multiple references found - needs research]
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+081 (from 1878-07-19) and 082 (to 1878-08-20), Soden; recalled in her list of men whose names begin with A, «Auguste Hohenlohe» (084.0538, 23 March 1879).
 
-## Identity (Soden, 1878)
-
-«Schwarz», «le prince noir», «Auguste» = Prince August Karl zu Hohenlohe-Öhringen (2 January 1854 – 27 January 1884, San Remo), son of Hugo, 4th Fürst zu Hohenlohe-Öhringen, and Pauline zu Fürstenberg (thepeerage.com; Mon Journal t.12 index «Hohenlohe-Oeringen (Auguste) [Schwarz], fils de la précédente : 44, 46, 49, 52, 63, 65, 67-73, 75, 76-91, 94, 246»). He and his younger brother Hans ([#Hans](HANS.md), «Gans») are Marie's neighbours at the Kurhaus in July–August 1878 (carnets 081–082). Calibration (tag audit 2026-10): «Auguste», «le prince noir», «Schwarz» at Soden → this file.
+%% 2026-10-22T14:40:48 RSR: B-69 (2): body written from HOHENLOHE_PRINCES and the t.12 index; 084.0538 retargeted from AUGUSTE_HOHENLOHE (now unused, like PRINCE_AUGUSTE_DE_HOHENLOHE_OEHRINGEN: retire both, redirect to SCHWARZ). %%

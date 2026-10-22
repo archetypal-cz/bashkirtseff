@@ -1,34 +1,26 @@
 ---
 id: ROUSSEAU_PAINTER
-name: Rousseau painter
+name: Théodore Rousseau
 aliases:
   - Rousseau painter
   - Rousseau Painter
 type: Culture
 category: culture/art
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
-# Rousseau painter
-
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
+# Théodore Rousseau
 
 ## Overview
 
-[Research needed]
+Théodore Rousseau (1812–1867), landscape painter, leading figure of the Barbizon school (en.wikipedia «Théodore Rousseau»). Marie names him with Corot, Troyon and Millet, the painters of the generation before hers. Not the writer Jean-Jacques Rousseau ([JEAN_JACQUES_ROUSSEAU](../../people/mentioned/JEAN_JACQUES_ROUSSEAU.md)).
 
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
+## References in Diary
 
-## Research Needed
+- 086.0262 (13 September 1879): in a collector's flat, «des Rousseau, des Corot, des Troyon, Delacroix et même Raphaël».
+- 100.0161 (15 June 1883): among the masters of an exhibition, «Decamps, Delacroix, Fortuny, Rembrandt, Rousseau, Millet, Meissonnier, le seul vivant».
+- 103.0046 (16 January 1884): «est-ce que le public a aimé Millet, Rousseau, Corot ! Il les a aimés quand ils furent à la mode».
 
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
+The entry is filed under culture/art but is a person (move to people/artists listed for the lead).
 
-## Related Entries
-
-[To be determined based on research]
+%% 2026-10-22T14:33:33 RSR: B-67 (4): body written (Théodore Rousseau, 0.85 from the company he keeps in all three lists); 100.0161 and 103.0046 tagged. %%

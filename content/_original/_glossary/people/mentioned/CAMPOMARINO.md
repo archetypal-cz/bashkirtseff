@@ -7,7 +7,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Partial
-last_updated: 2026-04-10
+last_updated: 2026-10-22
 ---
 # Marchese de Campomarino
 
@@ -21,7 +21,7 @@ An Italian nobleman bearing the marquisate of Campomarino, a town in Molise (Pro
 
 The marquisate was a feudal grant from the Bourbon Kingdom of the Two Sicilies over the Campomarino territory. After Italian Unification (1860–61), noble titles were recognized but feudal privileges abolished.
 
-The specific individual has not been identified in accessible genealogical records.
+The son of the duc de San Cesario, president of the Naples Cercle: «le marquis di Campomarino, fils du duc de Sanceso» (069.0527), «un tout petit renard blond à nez énorme et à monocle»; Marie also calls him «San Cesario, c'est-à-dire Campomarino» (069.0528, 069.0560). When his father dies in May 1877 he inherits the ducal title («vive le duc de San Cesario. Il n'y a plus Campomarino», 071.0519). See [Duc de San Cesario](DUC_DE_SAN_CESARIO.md). His family name has not been traced.
 
 ## References in Diary
 - 069.0535 (1877-03-26): His visiting card is left along with that of Comte Francesco Caracciolo dei principi di Torchiaroli. Marie and the Fabbricatore girls discuss the callers.
@@ -30,3 +30,4 @@ The specific individual has not been identified in accessible genealogical recor
 - Created: 2026-01-06 (auto-generated stub)
 - Researched: 2026-04-10 — territorial title identified; individual bearer untraced
 - Would require Italian genealogical archives (Libro d'Oro or Archivio di Stato di Napoli) to identify
+%% 2026-10-22T15:25:00 RSR: Identity as the duke's son added (OPEN-ITEMS B-75(2)); kept apart from DUC_DE_SAN_CESARIO (the father). %%

@@ -10,14 +10,14 @@ aliases:
 type: Place
 category: places/churches
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 
 %% GLO_COUVENT_DU_BON_PASTEUR.0001 %%
 ## Overview
 
 %% GLO_COUVENT_DU_BON_PASTEUR.0002 %%
-The convent of the Sisters of the Good Shepherd (Bon Pasteur), the congregation of Our Lady of Charity of the Good Shepherd founded at Angers in the 1830s for the care of «fallen» girls and women and for orphans. The diary footnotes place Marie's convent «in Nice» / «near Nice» (059.0960, 063.0009). Nothing in the diary gives its street.
+The convent of the Sisters of the Good Shepherd (Bon Pasteur), the congregation of Our Lady of Charity of the Good Shepherd, founded at Angers by Mary Euphrasia Pelletier (first house 1829; the congregation approved by Rome in 1835) for the care of girls and the reform of «repentant» prostitutes (Wikipedia, «Congregation of Our Lady of Charity of the Good Shepherd»; aaef-asso.fr). The convent Marie visits is in Nice on the evidence of the diary: she means to talk with its Mother Superior every Sunday once «à la maison» (060.0578) and pays a farewell visit before leaving Nice for Paris (063.0009). Nothing in the diary gives its street, and its foundation date was not found.
 
 %% GLO_COUVENT_DU_BON_PASTEUR.0003 %%
 ## Relevance to Marie

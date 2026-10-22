@@ -9,7 +9,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-10-02
+last_updated: 2026-10-22
 ---
 
 %% GLO_PACHA.0001 %%
@@ -23,6 +23,7 @@ last_updated: 2026-10-02
 
 %% GLO_PACHA.0004 %%
 %% 2026-10-02T13:00:00 RSR: 1876-08-20 (065): Marie arrives; introduced as "Paul Gorpintchenko (le fils de sa sainte soeur)" with Michel Eristoff. 1876-09 (066): "Pacha ne me baise jamais la main, c'est moi qui la lui mets contre les lèvres"; she makes him kiss it nightly; Pacha's mother warns about falling for "Mousse"; he detests Mme Tutcheff. 1876-10-16 (067): Marie lets Pacha light her path and tests whether he could serve her revenge ("un homme précieux, de la pâte des fanatiques"). 1876-11-05/11 (067): the Durocher incident; Marie stages Pacha's rehabilitation before the family. 1876-11-12 (067): last night before her departure; his "baiser de chien, fidèle et respectueux". 1876-12-23 (068): "Sperandio le mari de la soeur de Pacha". 1877-08-11 (073): Pacha's "bel et noble amour". 1878-01-02 (077): Mme Tutcheff's scheme to marry the girl to "Pacha, ce gros paysan aux grands sentiments". 1879-10-20 (086): Miloradovitch tells of the wrongs done to him at Gavronzi by "le distingué Pacha et Michka Eristoff". 1881-07-15/16 (092): Sperandio comes "avec sa femme (soeur de Pacha)"; "le gros Pacha, mon ancien amoureux" arrives. %%
+%% 2026-10-22T14:24:00 RSR: Names and index (OPEN-ITEMS B-35(4)): his patronymic is Apollonovitch, «M. Paul Apollonovitch» (067.0844, 067/1876-11-07). The Mon Journal t.9 index lists «Apollonovitch (Paul) : 175» as a separate person beside «Gorpintchenko (Paul), [Girofla], [l'homme vert], [Pacha], [Philoslave], (cousin de Marie Bashkirtseff)»: an index slip, one man. %%
 
 %% GLO_PACHA.0005 %%
 ## Not to be confused with

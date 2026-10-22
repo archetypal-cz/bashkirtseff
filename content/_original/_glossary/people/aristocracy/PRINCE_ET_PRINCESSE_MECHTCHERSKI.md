@@ -7,21 +7,18 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+identity_uncertain: true
 ---
-# Prince et Princesse Mechtcherski
+# Princesse Mechtchersky (Rome, 1876)
 
-## Basic Information
-- Type: people - aristocracy
-- Status: Stub entry (automatically generated)
+## Overview
+«La princesse Mechtchersky», a Russian princess of the Rome colony in 1876, seen with the Russian ambassadress: «l'ambassadrice avec la princesse Mechtchersky» at the Villa Borghese (055.1205, 26 March 1876). Probably the wife of the [old prince](PRINCE_MECHTCHERSKY.md) and the mother of [Mlle Mechtchersky](MLLE_MECHTCHERSKY.md). In August 1878 at Soden Marie meets «le prince et la princesse Mechtcherski de Rome», who recognise the family after church (082.0181). Mon Journal t.7 index: «Mechtchersky (princesse) : 177, 207, 291»; t.9: «Mechtchersky (princesse) : 299, 326, 328» (the 1877 «princesse Mechtchersky» who marries Fabrizio Spinosa Ruffo is probably the daughter: see MLLE_MECHTCHERSKY).
 
-## Description
-[No description available - stub entry created from diary references]
+## Identity uncertain
+We are not sure who this is: Marie gives no first name. If you can identify her, we would be glad to hear from you.
 
 ## References in Diary
-[Multiple references found - needs research]
+- 1876-03-26 (055.1205); 1878-08-25 (082.0181)
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-10-22T15:05:00 RSR: Body written for OPEN-ITEMS B-51 (6). The file name says «prince et princesse»; it is used for the princess (055.1205) and the couple (082.0181). %%

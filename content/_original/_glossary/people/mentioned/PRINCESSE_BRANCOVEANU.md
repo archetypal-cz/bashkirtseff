@@ -7,21 +7,21 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+identity_uncertain: true
 ---
 # Princesse Brancoveanu
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+## Overview
 
-## Description
-[No description available - stub entry created from diary references]
+A princess of the Romanian Brâncoveanu (Bassaraba de Brancovan) family, seen by Marie at the Opéra on 15 January 1879 in the company of the portrait painter Nélie Jacquemart: «Mlle Jacquemard était avec la princesse Brâncoveanu et Mme Gavini qui la connaît m'a promis de me la faire connaître» (084.0029). The Mon Journal t.12 index has only «Brâncoveanu (princesse) : 198».
+
+## Identity uncertain
+
+We are not sure who this is. The princess most prominent in Paris society in 1879 under this name was Rachel (Ralouka) Musurus, the Greek-born pianist married to Prince Grégoire Bassaraba de Brancovan, mother of the poet Anna de Noailles (born in Paris in 1876) (en.wikipedia, «Anna de Noailles»); her musical salon would fit a box at *Les Huguenots* with a society painter, but nothing in the diary confirms it (0.5). If you can identify this princess, we would be glad to hear from you.
 
 ## References in Diary
-[Multiple references found - needs research]
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+- 084.0029 (1879-01-15)
+
+%% 2026-10-22T14:12:04 RSR: B-49 (5): stub body written; identity uncertain (candidate Rachel Musurus, princesse de Brancovan, 0.5). %%

@@ -1,28 +1,24 @@
 ---
-id: LYON_LIT
-name: Lyon (Literary Reference)
+id: LYON
+name: Lyon
 aliases:
-  - Lyon (Literary Reference)
-  - Literary Reference
   - Lyon
 type: Place
 category: places/cities
-research_status: Stub
-last_updated: 2026-02-10
+research_status: Basic
+last_updated: 2026-10-22
 ---
 
-%% GLO_LYON_LIT.0001 %%
+%% GLO_LYON.0001 %%
 ## Overview
 
-%% GLO_LYON_LIT.0002 %%
-A literary reference requiring further research. This may refer to a work set in Lyon, an author from Lyon, or a publication associated with the city. The placement in the literature category rather than places suggests a textual rather than geographic reference.
+%% GLO_LYON.0002 %%
+Lyon, the city on the Rhône and Saône, on the railway from Paris and from Geneva to the Riviera. In the diary it is a stage of the family's train journeys, not a place where they stay: Geneva–Lyon with American travellers and Lyon by night in a «coupé-lit» (005.0023, 005.0072, 005.0073, May 1873); «Depuis Paris jusqu'à Lyon nous étions dans la neige» on the way back to Nice (050.0247, 28 November 1875).
 
-%% GLO_LYON_LIT.0003 %%
-## Research Needed
+%% GLO_LYON.0003 %%
+## Tagging note
 
-%% GLO_LYON_LIT.0004 %%
-- Identify the specific literary reference
-- Determine diary context
-- Clarify distinction from Lyon as a place entry
+%% GLO_LYON.0004 %%
+The tag at 019.0027 («Ce lion, c'est moi») is a false match on «lion» and should be removed (listed in OPEN-ITEMS B-66 (4)).
 
-%% 2026-02-10T20:00:00 RSR: Enriched from stub. Needs identification from diary context. %%
+%% 2026-10-22T15:35:00 RSR: The old body («Lyon (Literary Reference)», id LYON_LIT) was an auto-stub left from when the file sat under culture/literature; rewritten as the city from its tagged paragraphs (OPEN-ITEMS B-66 (4)). The id was aligned with the filename. %%

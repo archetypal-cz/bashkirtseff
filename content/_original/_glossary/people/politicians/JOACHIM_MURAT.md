@@ -20,7 +20,7 @@ Not the same person as King Joachim Murat (glossary ROI_MURAT) or Prince Lucien 
 ## Relevance to Marie
 - 7 December 1879: at the Gavinis' «nous faisons connaissance du comte J. Murat, président du groupe de l'Appel du peuple» (086.0628). Wikipedia does not say he presided over the group; that is Marie's statement.
 - 9 February 1880: Marie comes down the stairs of the Opéra «au bras du comte J. Murat» (087.0440).
-- 25 June 1880: at the Opéra «avec les Gavini, le comte et la comtesse Murat» (089.0030). The countess may belong in this entry or in COMTESSE_MURAT (not checked).
+- 25 June 1880: at the Opéra «avec les Gavini, le comte et la comtesse Murat» (089.0030). The t.13 index lists this page (p.296) under «Murat (Joachim comte)» and «Murat (comtesse, épouse du précédent)», so the couple are the deputy and his wife; she is tagged COMTESSE_MURAT there.
 
 ## References in Diary
 - 1879-12-07 (086.0628); 1880-02-09 (087.0440); 1880-06-25 (089.0030)
@@ -30,3 +30,4 @@ Not the same person as King Joachim Murat (glossary ROI_MURAT) or Prince Lucien 
 - Mon Journal t.13 (L'Âge d'Homme), index.
 
 %% 2026-10-21T11:03:22 RSR: Created during RSR research of the restored 086 paragraphs (rsr-086). Only 086.0628 is tagged here so far; 087.0440 and 089.0030 still need the tag. %%
+%% 2026-10-22T13:58:39 RSR: B-42 (4): 087.0440 (already tagged) and 089.0030 (tag added) now carry this entry. %%

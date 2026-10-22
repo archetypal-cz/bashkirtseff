@@ -244,6 +244,7 @@ These override older per-carnet entries below where they conflict.
 
 ### cocotte
 - Translation (Czech): koketa (OWNER ruling 2026-10-03, replaces earlier „kokota“; all forms swept: kokota→koketa, kokotka→koketka, kokotský/kokotí/kokotovský→koketní)
+- **KRR 2026-10-22:** „kurtizána“ where the sense is a kept woman / demimondaine (e.g. Larderel «avec sa cocotte», 059.0080); „koketa“ otherwise
 - Context: Demimondaine/courtesan — keep Czech equivalent
 - First appearance: 007 (1873-07-26)
 
@@ -2075,7 +2076,7 @@ These override older per-carnet entries below where they conflict.
 
 ## OWNER rulings 2026-10-03 (after the reading-conventions wave) — LOCKED
 
-- **cocotte → „koketa“** (all forms; replaces „kokota“). Swept 2026-10-03.
+- **cocotte → „koketa“** (all forms; replaces „kokota“). Swept 2026-10-03. **Refined by KRR 2026-10-22:** „kurtizána“ where Marie means a kept woman / demimondaine; „koketa“ otherwise.
 - **Marie's *Un Meeting* → *Schůzka*** (italic, declined: *Schůzku*, *Schůzky*; French title in the first footnote). Replaces *Schůze* (row above).
 - **Bastien-Lepage *Jeanne d'Arc* and the saint → „Johanka z Arku“** (Johanky, Johance, Johanku, Johankou). Replaces „Jana z Arku“.
 - **Bastien-Lepage *Les Foins* → *Senoseč*** (replaces *Seno*).

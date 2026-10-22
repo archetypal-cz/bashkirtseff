@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 # Pitou
 
@@ -29,7 +29,7 @@ Marie also uses «Pitou» as a nickname for the demi-mondaine la Soubise, who lo
 - **1873-09-30** (010.0143): has torn the wallpaper off the walls. **1873-10-19** (011): destroyed Marie's second jockey-cap. **1873-11-07** (012): «Pitou devient très méchant»; tore Solominka's hats. **1873-11-30** (013): knocks over the lamp at dinner.
 - **1874-02-01** (016.0069): «Pitou l'a terriblement mordue»: bites Marie's mother's hands while she washes them.
 - **1874-02-28** (017.0086): «On a acheté une femme à Pitou.»; **1874-03-03** (017.0125): «monsieur Pitou, mécontent de son épouse» wrecks Marie's chemistry cupboard (prussiate jaune).
-- **1874-06-11** (020.0212): in Paris, Marie hears news from home («la maison… des singes»): «Gioia est devenue plus amusante que Pitou, qu'elle se baigne et puis se sèche au soleil.»
+- **1874-06-11** (020.0212): in Paris, Marie hears news from home («la maison… des singes»): «Gioia est devenue plus amusante que Pitou, qu'elle se baigne et puis se sèche au soleil.» «Gioia» is Pitou's she-monkey (Mon Journal t.3 index «Gioia, singe, “épouse” de Pitou, 229»), presumably named after the demi-mondaine; she is the «femme» bought on 1874-02-28.
 
 ## Open points
 - «Pitou (Fortuné) vient annoncer que les demoiselles Howard sont là» (013/1873-12-01, 013.0154): Pitou here seems to be a nickname for the servant Fortuné, not the monkey; not tagged.

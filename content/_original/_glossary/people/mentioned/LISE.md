@@ -7,7 +7,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-03
+last_updated: 2026-10-22
 ---
 # Lise
 
@@ -59,3 +59,5 @@ Member of the Howard family, sister of Hélène.
 - Created: 2026-01-06
 - Auto-generated stub from broken link detection
 - Needs proper research and content
+
+%% 2026-10-22T14:40:00 RSR: Not the «Lise» of Nice, May-June 1877 (071-072): that is the girl Lise Kondareff (t.10 index «Kondareff (Mlle Lise)»), tagged KONDAREFF (OPEN-ITEMS B-40(3)). %%

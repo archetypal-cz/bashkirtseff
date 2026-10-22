@@ -30,6 +30,7 @@ Mme Boje, a Swedish woman living in Paris, wife of M. Boje, a former chamberlain
 
 ## References in Diary
 
-077.0020, 077.0377, 077.0465, 077.0508, 077.0520-0523, 077.0527, 077.0533, 077.0538; 079.0007, 079.0270, 079.0511, 079.0564; 080.0072; 087.0540 (not yet tagged).
+077.0020, 077.0377, 077.0465, 077.0508, 077.0520-0523, 077.0527, 077.0533, 077.0538; 079.0007, 079.0270, 079.0365, 079.0396, 079.0409, 079.0436, 079.0511, 079.0564; 080.0072; 087.0540.
 
 %% 2026-10-21T22:50:00 RSR: Body written (OPEN-ITEMS B-59 (3)): identification from 077.0522 and the 079.0511 RSR note (0.85), all paragraphs listed were opened. That Cassagnac's mistress is the Hungarian/Swedish woman is Marie's report from hearsay, not established fact. The 1880 «Mme de Boje» (087.0540) is the same name; Marie herself doubts the identity, so left hedged. %%
+%% 2026-10-22T14:08:14 RSR: B-59 (5): epithet paragraphs of 079 tagged («la Suédoise qui console Cassagnac» 079.0270; «sa femme hongroise» 079.0365; «la femme suédoise» 079.0396; «la femme hongroise» 079.0409; «Une Hongroise, une Suédoise…» 079.0436). The 077 epithet paragraphs are outside this sweep's range. %%

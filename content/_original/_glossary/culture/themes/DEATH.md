@@ -8,7 +8,7 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-10-02
+last_updated: 2026-10-22
 ---
 
 %% GLO_DEATH.0001 %%
@@ -26,7 +26,7 @@ This thematic tag collects diary paragraphs describing literal death events: fun
 %% GLO_DEATH.0005 %%
 - **Grand-maman** (before the diary): Marie recalls her grandmother's death in the preface (carnet 000), noting the deep impression it left on her as a child.
 - **Uncle Emile** (d. ~May 1874): Marie's uncle. She learns of his death in September 1874, four months after the fact: "Emile, mon pauvre oncle, est mort il y a quatre mois. Une demi-heure apres je n'y pensais plus" (023, 1874-09-10). The family takes six weeks of mourning; Marie notes "Maman est en deuil, ma tante aussi et je serais seule en couleur comme une bete" (024, 1874-09-16).
-- **Etienne Babanine** (d. Jan-Feb 1874): Dina's half-brother, aged 15, stabbed himself with a dagger at his mother's house. The family learns from the newspapers before the mother's letter arrives: "il s'est tue avec un poignard" (017, 1874-02-25). Marie connects broken mirrors and a dream about losing a tooth to this death as omens (017, 1874-03-13).
+- **Etienne Babanine** (d. Jan-Feb 1874): Dina's brother (a full brother: the preface says of Domenica, Georges's wife, «De Georges elle eut encore deux enfants. Une fille, Lola, et un garçon, Etienne», 000.0035; Kernberger 2013 also calls him Dina's brother), who died at sixteen («Le garçon est mort à seize ans», 000.0035; the Russian paper gave fifteen). On 25 January 1874 a telegram from his mother says he is dying, and «Dans le journal russe on a lu que l'élève du *collège militaire* Etienne Babanine âgé de quinze ans s'est fait trois blessures avec un poignard, dans la maison de sa mère» (015.0334). The family learns from the newspapers that he killed himself with a dagger before his mother's letter arrives: "Nous savions par les journaux qu'il s'est tué avec un poignard, mais sa mère ne dit rien des causes" (017.0038, 1874-02-25); the letter also speaks of «sa maladie» (017.0039). Marie connects broken mirrors and a dream about losing a tooth to this death as omens (017, 1874-03-13).
 - **Grandfather / Grand-papa** (d. late August 1878): After a long illness that Marie chronicles throughout 1877-78, he dies in Paris. Marie describes attending daily prayers before his coffin in full mourning: "Mon grand-pere est mort, je vais tout en deuil, avec ma famille, tous les jours ecouter les prieres dites devant son cercueil" (082, 1878-09-02). His death triggers Marie's extended mourning period and her famous reflections on mourning as aesthetic opportunity.
 - **Marie's father** (d. June 1883): "Mon pere est mort" (100, 1883-06-10). Marie's reaction is characteristically complex -- she is moved but cannot weep until telling Rosalie: "ce n'est pas la peine, monsieur est mort." She reflects candidly on her emotional distance: "J'attendais avec une sorte d'impatience un denouement, sans le desirer, mais cette idee d'un evenement, d'etre en grand deuil..., il y avait la une occupation, une nouveaute" (100, 1883-06-10).
 - **Uncle Georges** (d. March 1882): Marie's dissolute uncle. His death prompts the family to send for money for the funeral: "mon pere qui a envoye des depeches pour qu'Alexandre envoie l'argent de l'enterrement" (094, 1882-03-13). Marie oscillates between reproach and pity: "Tout s'efface devant la mort" (094, 1882-03-12).

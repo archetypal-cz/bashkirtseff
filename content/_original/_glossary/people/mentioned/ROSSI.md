@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 # Rossi
 
@@ -28,3 +28,5 @@ A regular caller and source of Roman gossip. He tells the family who Pietro Anto
 - [Falloux](FALLOUX.md), [Antonelli](ANTONELLI.md)
 
 %% 2026-10-21T09:41:16 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 059 paragraphs. The tag is also used in 1873-74 carnets (e.g. 012/1873-11-13, 019/1874-04-26), not checked against this identity: possibly another Rossi. %%
+
+%% 2026-10-22T14:40:00 RSR: Index caution (OPEN-ITEMS B-47 (2)): the Mon Journal t.8 index «Rossi (chevalier) : 33, 37, 225-226» includes pp.225–226, the Figaro article on Cardinal Antonelli by Ignotus pasted in on 27 June 1876 (062.0758), where «la manière Rossi» is Pellegrino Rossi (1787–1848), Pius IX's minister murdered in 1848 (footnote there). That Rossi is not this man and is not tagged ROSSI. The chevalier of 1876 is at pp.33, 37 (060/1876-05-14, «les compliments du chevalier Rossi»). %%

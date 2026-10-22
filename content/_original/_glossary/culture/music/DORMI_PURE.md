@@ -7,7 +7,7 @@ aliases:
 type: Culture
 category: culture/music
 research_status: Basic
-last_updated: 2026-10-10
+last_updated: 2026-10-22
 languages:
   - it
 pronunciation: "https://translate.google.com/?sl=it&tl=en&text=Dormi%20pure"
@@ -20,7 +20,7 @@ pronunciation: "https://translate.google.com/?sl=it&tl=en&text=Dormi%20pure"
 An Italian romance ("Sleep on, then") that Marie calls "ma romance, celle que j'ai chantée à Saint-Jean et chez nous et partout" (050.0756). The composer is **not established**.
 
 - The earlier LAN/RSR comments (048.0383) say it is from Bellini's *La sonnambula*. No aria "Dormi pure" has been found in that opera, so that attribution is doubtful and should not be repeated as fact.
-- A song with the title exists: a serenata "Dormi pure" by S. Scuderi (Salvatore Scuderi), recorded in the Biblioteca Nazionale di Napoli catalogue (https://dl.bnnonline.it/handle/20.500.12113/1740) and later recorded by Emilio de Gogorza (UCSB Discography of American Historical Recordings, matrix Victor C-3494). The Ricordi edition is dated to 1872 in a search summary; the score has not been seen and it is not confirmed that this is the song Marie sings. It is a candidate only.
+- A song with the title exists: a serenata "Dormi pure" by S. Scuderi (Salvatore Scuderi), recorded in the Biblioteca Nazionale di Napoli catalogue (https://dl.bnnonline.it/handle/20.500.12113/1740) and later recorded by Emilio de Gogorza (UCSB Discography of American Historical Recordings, matrix Victor C-3494). The BNN record gives «Dormi pure, serenata», Salvatore Scuderi, Milano, Ricordi, [1872]; G. Schirmer of New York published it in 1873 as «Sleep On! (Dormi pure)», a serenade with Italian, French and English words (Levy Sheet Music Collection, Johns Hopkins, levysheetmusic.mse.jhu.edu/node/40834). So it was a new, widely printed drawing-room serenade in 1872–73, which fits a romance Marie sings everywhere in 1875 and a tenor inserts in the lesson scene of the Barber at Nice (050.0756) (0.7). The words have not been seen, so whether they contain «gioia» (034.0020) is unchecked; not confirmed.
 
 Not linked as a full text for the same reason.
 
@@ -34,3 +34,5 @@ Not linked as a full text for the same reason.
 ## Sources
 
 - Diary paragraphs as cited; BNN catalogue record and UCSB DAHR as above.
+
+%% 2026-10-22T14:29:38 RSR: B-04 (Dormi pure, Bellini vs Scuderi): Bellini excluded (no such number in La sonnambula); Scuderi's 1872 serenata strengthened to 0.7 with the 1873 Schirmer edition. Sources: dl.bnnonline.it/handle/20.500.12113/1740; Levy Sheet Music Collection; ARSC list thread 2008-11 on Salvatore vs Gaspare Scuderi. %%

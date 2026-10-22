@@ -15,7 +15,7 @@ aliases:
 type: Person
 category: people/recurring
 research_status: Comprehensive
-last_updated: 2026-10-01
+last_updated: 2026-10-22
 ---
 
 # Mme Amélie Gioia
@@ -206,7 +206,7 @@ The transformation of jealousy into ambition is one of the diary's key themes. M
 %% GLO_GIOIA.0023 %%
 No external biographical records for Amélie Gioia have been identified beyond the diary and its published indexes. She is classified consistently as "demi-mondaine" in all published indexes (carnets 02, 03, 05, 06, 07, 08, 09, 10, 13). The world of the *demi-monde* (literally "half-world") — women who lived in luxury maintained by wealthy men but were excluded from respectable society — was a recognized feature of Second Empire and early Third Republic France. Nice, as an international winter resort, was a particular center of this milieu.
 
-The name "Gioia" (Italian for "joy" or "jewel") may well be a *nom de guerre* rather than a birth name, as was common practice among courtesans of the period. Marie explicitly plays on the Italian meaning: "bijou de mon âme" (jewel of my soul), "O Gioia!" (Oh Joy!), and "questa cara Gioia di Schlangenbad" (this dear Joy of Schlangenbad — 040.1875-08-30).
+The name "Gioia" (Italian for "joy" or "jewel") may well be a *nom de guerre* rather than a birth name, as was common practice among courtesans of the period. Marie may play on the Italian meaning in "bijou de mon âme" (jewel of my soul) and "O Gioia!" (Oh Joy!). The Italian line "questa cara Gioia di Schlangenbad" (040.0169, 1875-08-30) is most likely the common noun, "this dear joy of Schlangenbad" (her new gaiety there): Gioia is not at Schlangenbad and is not mentioned in those days, so a pun on the name is possible but unsupported (RSR CORRECTION at 040.0169; OPEN-ITEMS B-70).
 
 ## The Fictional Gioia (Ouida's *Ariadne*)
 

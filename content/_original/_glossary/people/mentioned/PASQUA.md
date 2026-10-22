@@ -6,7 +6,8 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
+identity_uncertain: true
 ---
 # Pasqua
 
@@ -23,8 +24,8 @@ last_updated: 2026-10-21
 - 051/1875-12-30 (051.0170): Marie weeps at the opera; «Il est vrai que Pasqua est une merveilleuse comédienne.»
 - 051/1876-01-01: «Pasqua a des expressions et des mouvements dramatiques si naturels, qu'elle me ravit et m'émeut.»
 
-## Identity
+## Identity uncertain
 
-Not established. She may be the Italian mezzo-soprano Giuseppina Pasqua (1851–1930), later Verdi's first Mistress Quickly (Wikipedia, "Giuseppina Pasqua"), but no source found places her in Nice in 1875–76 (0.5).
+We are not sure who this is. The likeliest candidate is the Italian singer Giuseppina Pasqua (1851–1930), later Verdi's first Mistress Quickly, who began as a soprano and retrained as a mezzo-soprano in the 1870s (Wikipedia, "Giuseppina Pasqua"): Mignon and Léonor in *La Favorite*, the roles Marie hears in Nice, are both mezzo parts. But no source found places her in Nice in 1875–76 (0.5). Sources checked: Mon Journal t.6 index; Wikipedia; web searches (2026-10-21, 2026-10-22). If you can identify her, we would be glad to hear from you.
 
 %% 2026-10-21T12:40:44 RSR: Stub expanded from the tome 6 index and the diary text (carnets 049–051). %%

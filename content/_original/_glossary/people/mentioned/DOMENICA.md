@@ -11,7 +11,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-07-06
+last_updated: 2026-10-22
 ---
 # Domenica Pavlovna Babanine, née Issaïevitch (Mme Georges)
 
@@ -23,7 +23,9 @@ last_updated: 2026-07-06
 
 **Full name**: Domenica Pavlovna, née Issaïevitch; widowed name Kandiba from her first marriage; "Mme Georges" / Mme (de) Babanine after marrying Georges Babanine (Marie's maternal uncle). Per Kernberger (2013), Glossary: "Babanine, Domenica, née Issaïevitch: Marie's aunt, wife of George, mother of Dina" and "Kandiba, Domenica: name of George's wife before her marriage to him."
 
-She married Georges when she was, per Marie's preface, thirty-six years old and already a widow with children; Georges was only twenty. The marriage occurred around 1853-1854, four or five years before Marie's birth in 1858. (Note: the Kernberger genealogy tree gives "Domenica Pavlovna ISSAÏEVITCH, née vers 1831" — the same birth-year band as Georges — which contradicts the preface's sixteen-year age gap; the tree scan is low-resolution and its year digits are not reliably legible, so the discrepancy is recorded, not resolved.)
+She married Georges when she was, per Marie's preface, thirty-six years old and already a widow with children; Georges was only twenty. The marriage occurred around 1853-1854, four or five years before Marie's birth in 1858. (Note: the Kernberger genealogy tree gives "Domenica Pavlovna ISSAÏEVITCH, née vers 1831" — the same birth-year band as Georges — which contradicts the preface's sixteen-year age gap; the tree scan is low-resolution and its year digits are not reliably legible.)
+
+**Birth year (RSR, 2026-10-22): about 1815–1816.** Marie gives the age gap twice, independently: the preface says Georges «s'est marié à vingt ans avec une belle veuve de trente-six ans, mère de plusieurs enfants» (000.0008), and on 6 February 1876, after church with her, «Elle est plus âgée de quinze ans que son mari» (053.0415). Georges was «quarante-six ans» in August 1877 (074/1877-08-23; GEORGES.md), i.e. born about 1831, so Domenica was born about 1815–1816. The «vers 1831» of the Kernberger (2013) tree is then most likely Georges's year (or a misread digit), not hers; the only legible copy of the tree here (content/_raw/images/kernberger/kernberger_209_00208.jpeg, 287×1024 px) is too small to check. Confidence 0.8 for «c. 1815–1816» (two statements of Marie's agree; neither is a document).
 
 ## Family Information
 

@@ -13,7 +13,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-09-27
+last_updated: 2026-10-22
 ---
 # Belle-de-jour (George Bergerault)
 
@@ -24,6 +24,7 @@ last_updated: 2026-09-27
 Part of the Audiffret set at the Nice Skating-rink and opera in 1876-1877. Marie snubs him repeatedly because he avoided greeting her in public; on 5 February 1877 she corrects the nickname to the masculine «Bel-de-jour» and turns her back on him when he finally greets her (068.0975). She names him «Bergerault» alongside Audiffret on 18 December 1876 (068.0180).
 
 ## References in Diary
+- Nice, December 1875 (050, 051); dreams of his visiting card in Rome, 1876-01-30 (053.0244–0245, «Directeur de Notre-Dame»), 1876-02-03 (053.0352), 1876-02-24 (054.0415–0416, «violoniste del Re»); in Rome himself: «le véritable Bergerault en voiture avec une fort jolie femme, au Corso» (054.0418), «Le vautour Bergerault est encore ici» (055.0694, 1876-03-14). Mon Journal t.7 index: «Bergerault (Georges), [Belle-de-jour] : 26, 35, 84, 142».
 - 067 (December 1876), 068: 1876-12-15, 1876-12-16, 1876-12-18, 1877-01-20, 1877-01-28, 1877-02-05
 
 ## Related

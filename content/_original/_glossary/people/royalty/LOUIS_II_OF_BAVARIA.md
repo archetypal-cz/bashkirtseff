@@ -7,7 +7,7 @@ aliases:
 type: Person
 category: people/royalty
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 # Louis II of Bavaria
 
@@ -19,4 +19,4 @@ In her ambition-fantasies Marie sees herself as a queen. On 24 June 1875 the ide
 
 ## References in Diary
 - 1875-06-24 (034.0554-0555)
-- 1875-10-05 (046)
+- 1875-10-05 (046.0127, 046.0131)

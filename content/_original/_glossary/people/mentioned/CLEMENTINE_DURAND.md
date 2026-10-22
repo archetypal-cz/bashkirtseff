@@ -8,34 +8,20 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
-# Clémentine Durand
-
-**Research Status**: Basic
-**Last Updated**: 2025-07-06
-**Diary Coverage**: Up to 1874-03-19
+# Clémentine Durand (Mme John de Lewin)
 
 ## Identity
-Person whom Marie's mother used to look at in a particular way, used as comparison for how Lambertye looks at Marie.
+Clémentine Durand, one of the daughters of the Spanish Mme Durand of Nice (sisters Lucie/Lucy and Marie; Mon Journal t.4–t.6 indexes «Durand (Mlle Clémentine)»), who married John Lewin in 1874: «Melle Durand épouse de Lewin, c'est sûr» (019/1874-05-03); «Lewin et Clémentine» (027/1874-12-18). From 1875 she is «Mme de Lewin» (t.6 index «Lewin (Mme Clémentine de), 219, 228, 233, 339»): «Lewin avec sa femme Clémentine grosse au dernier point» (050.0596, Dec 1875); she gossips to maman about Marie's marriage with Audiffret (050.0811).
 
-## Diary References
-
-### 1874
-- **March 19**: Used as comparison: "Il me regarde comme maman regardait Clémentine Durand" (He looks at me like Maman looked at Clémentine Durand).
-
-## Context
-- Someone from mother's past
-- Possibly child or young person given context
-- Look described as seeing "gentille enfant" (nice child)
-- May be related to other Durand family members
+## References in Diary
+- 1874-03-19 (017): «Il me regarde comme maman regardait Clémentine Durand».
+- 1874-04-19 (018), 1874-05-03 (019), 1874-12-18 (027): with Lewin.
+- 1875-12-10 (050.0596), 1875-12-14 (050.0739), 1875-12-16 (050.0811): «Mme de Lewin».
 
 ## Related Entries
-- [#Maman](../family/MAMAN.md) - Who used to look at her
-- [#Lucie_Durand](LUCIE_DURAND.md) - Possible relative
-- [#Lambertye](LAMBERTYE.md) - Who looks at Marie similarly
+- [#Lewin](LEWIN.md) — her husband John Lewin
+- [#Durand](DURAND.md) — the family
 
-## Research Notes
-- Durand common French surname
-- Context suggests fond/protective gaze
-- Possibly deceased or moved away
+%% 2026-10-22T14:21:23 RSR: Body rewritten (B-66(1), Mme de Lewin). The older text («someone from mother's past … possibly deceased») did not know who she was. people/mentioned/CLEMENTINE.md («woman constantly seen on Lewin's arm») is the same woman: merge CLEMENTINE → CLEMENTINE_DURAND (lead). %%

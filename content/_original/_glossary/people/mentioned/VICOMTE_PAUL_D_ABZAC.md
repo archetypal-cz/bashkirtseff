@@ -20,8 +20,13 @@ A Paris acquaintance of 1880-81. On 16 December 1880 Marie meets «des connaissa
 
 We are not sure who this is. The diary gives only «vicomte d'Abzac» (090.0398, 16 December 1880) and «Paul d'Abzac» (090.0512, 1 January 1881). Candidates: (1) the [comte d'Abzac de la Douze](../aristocracy/COMTE_D_ABZAC.md) of Marie's 1878 salon: the family is the same, but the title differs (comte in 1878, vicomte in 1880) and the Mon Journal indexes keep them apart (t.11 «Abzac de la Douze (comte d')», t.14 «Abzzac d' (vicomte Paul)»), though the indexes of different volumes were made separately; (2) a diplomat Paul d'Abzac, French consul (later consul general in New York, 1888), born at Poitiers (everybodywiki, «Paul d'Abzac»), for whom we found no link to the duel of 1881. Sources checked: the diary, the t.11, t.12 and t.14 indexes, a web search. If you can identify this person, we would be glad to hear from you.
 
+## In the press
+
+The duel annual of the period confirms the title and initial: in the d'Infreville–Graux affair of December 1880 the seconds of M. d'Infreville were «MM. le comte A. de Brimont et le vicomte P. d'Abzac» (Ferréus, *Annuaire du duel 1880–1889*, OCR read 2026-10-22).
+
 ## References in Diary
 
 090.0398 (1880-12-16); 090.0512 (1881-01-01).
 
 %% 2026-10-22T14:00:00 RSR: Created (B-45(3), glossary identity questions). Both paragraphs are untagged in the source; the tags are queued in gid decisions-a.tsv. %%
+%% 2026-10-22T14:01:58 RSR: B-45 (4): Ferréus duel annual citation added (vicomte P. d'Abzac). %%

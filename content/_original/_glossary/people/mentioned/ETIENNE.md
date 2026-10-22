@@ -5,109 +5,44 @@ aliases:
   - Etienne
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Moderate
+last_updated: 2026-10-22
 ---
 # Etienne
 
-**Research Status**: Basic
-**Last Updated**: 2025-12-07
-**Diary Coverage**: Book 00 (1884 retrospective)
+**Research Status**: Moderate
+**Last Updated**: 2026-10-22
+**Diary Coverage**: 1874 (his death), recalled 1875, 1876, 1882; preface 1884
 
-## Basic Information
+## Identity
 
-Etienne was the son of Georges Babanine and his wife Domenica. He was Marie Bashkirtseff's cousin and the brother of Dina and Lola. He died at age sixteen, before Marie wrote her 1884 retrospective preface.
+Etienne (Stepan) Babanine was the son of [#Georges](../family/GEORGES.md) Babanine and his wife [#Domenica](DOMENICA.md), the younger brother of [#Dina](../core/DINA.md) and of [#Lola](LOLA.md), and so Marie's first cousin. He was Dina's full brother: the preface says of Domenica «De Georges elle eut encore deux enfants. Une fille, Lola, et un garçon, Etienne. La fille est mariée. Le garçon est mort à seize ans, vous verrez comment» (000.0035). Kernberger (2013, Genealogy appendix) lists him as «Étienne Yégorovitch Babanine».
 
-## Family Position
+He is not the other Etiennes of the diary: uncle Etienne («Stiopa», Machenka's husband → [#Tante_Etienne](../family/TANTE_ETIENNE.md)), grand-papa Stepan Babanine, or uncle Alexandre's son Etienne (aged 7 in 1875, 14 in 1882).
 
-Etienne was the youngest of three children born to Georges and Domenica:
-1. **Dina** - Older sister, taken and raised by grand-maman
-2. **Lola** - Middle sister, married
-3. **Etienne** - Youngest, died at sixteen
+## His death (January 1874)
 
-## What Marie Records (1884)
+Marie tells the story she promised in the preface as it reached Nice:
 
-In her retrospective preface, Marie mentions Etienne with ominous foreshadowing:
+- **25 January 1874**: a telegram from Domenica asks the consul to tell Georges that his son is dying; «Dans le journal russe on a lu que l'élève du *collège militaire* Etienne Babanine âgé de quinze ans s'est fait trois blessures avec un poignard, dans la maison de sa mère» (015.0334). Dina is not told.
+- **25 February 1874**: Domenica's letter announces his death: «Nous savions par les journaux qu'il s'est tué avec un poignard, mais sa mère ne dit rien des causes» (017.0038); during his illness he had asked for his photograph to be sent to «Moussia "qu'il aime encore sans espoir depuis l'enfance"» (017.0039).
+- **13 March 1874**: Marie reads the broken mirrors and her dream of losing a tooth as omens of «la mort du frère de Dina» (017.0295); in September 1875 she recalls «deux glaces cassées dans ma chambre, et deux morts dans la famille, le frère de Dina Etienne, et Emile mon oncle» (042.0003).
+- **2 April 1874**: Domenica finally gives the cause, vaguely: he had heard that «l'affaire du mariage» (the suit to annul his parents' marriage) had taken a serious turn and that he would be left without property; «Alors il se frappa» (018.0094).
+- **1876**: Georges exploits the death to beg money from Dina («pauvre petit Etienne est mort, donne-moi vingt francs !», 053.0297–0298).
+- **12 March 1882**: Marie sums it up: «le frère âgé de seize ans, brillant écolier … lorsqu'il a appris qu'il n'avait pas de nom … il s'est tué» (094.0313).
 
-> "De Georges elle eut encore deux enfants. Une fille, Lola, et un garçon, Etienne. La fille est mariée. **Le garçon est mort à seize ans, vous verrez comment.**"
-
-> "From Georges she had two more children. A daughter, Lola, and a boy, Etienne. The daughter is married. **The boy died at sixteen years old, you will see how.**"
-
-## Significance of Marie's Promise
-
-The phrase "vous verrez comment" (you will see how) suggests:
-- **Dramatic Story**: His death was not a simple illness but involved circumstances worth narrating
-- **Future Revelation**: Marie planned to tell this story later in her preface or diary
-- **Emotional Weight**: The story was significant enough to be set up with foreshadowing
-- **Tragic Nature**: The emphasis implies tragedy, scandal, or unusual circumstances
-
-## Possible Causes (Speculative)
-
-Given Marie's promise to explain "how" he died, possible scenarios include:
-
-### Duel or Violence
-- Common cause of death for young aristocratic men
-- Would be dramatic enough to warrant detailed telling
-- Fits the "vous verrez comment" foreshadowing
-
-### Suicide
-- Would explain the emphasis on "how" rather than simple statement of death
-- Family tragedy worth detailed explanation
-- Common in troubled aristocratic families
-
-### Accident
-- Hunting, riding, or other aristocratic pursuits
-- Dramatic circumstances worth narrating
-- Less scandalous than duel or suicide
-
-### Scandalous Circumstances
-- Given Georges' troubled reputation and family dysfunction
-- Could involve criminal activity, debts, or social disgrace
-- Might explain the setup as a story to be revealed
-
-## Historical Context
-
-### Young Male Mortality (1870s-1880s)
-
-Death at sixteen was not uncommon in the 19th century, but Marie's emphasis on "how" suggests this was not:
-- **Tuberculosis** (would be stated matter-of-factly)
-- **Fever or infectious disease** (common, unremarkable)
-- **Childhood illness** (would say he died young, not emphasize the manner)
-
-### Aristocratic Male Risks
-
-Young men of Etienne's class faced specific dangers:
-- **Dueling**: Still practiced despite being illegal
-- **Military Service**: Though sixteen seems young
-- **Reckless Behavior**: Gambling, drinking, dangerous pursuits
-- **Family Scandal**: Georges' troubles might have affected his son
-
-## The Missing Story
-
-Frustratingly, Marie's diary as published does not appear to include the promised explanation of Etienne's death. Either:
-- **Never Written**: Marie didn't complete this section of her preface
-- **Lost or Edited**: The story was cut by publishers
-- **Later in Diary**: The story appears elsewhere and hasn't been found yet
-- **Too Scandalous**: Family requested removal
-
-## Contrast with Lola
-
-While Lola receives dismissive one-line treatment ("La fille est mariée"), Etienne's death warrants:
-- **Detailed Setup**: Foreshadowing with "vous verrez comment"
-- **Promise of Explanation**: Marie commits to telling the full story
-- **Emotional Weight**: Treated as significant narrative event
-
-This suggests:
-- **Closer Relationship**: Etienne may have been part of Marie's childhood world
-- **Dramatic Impact**: His death affected the family notably
-- **Story Worth Telling**: The circumstances had narrative interest beyond simple death notice
+The age differs: fifteen in the Russian newspaper (015.0334), sixteen in the preface and in 1882.
 
 ## Related Entries
 
-- [#Georges](../family/GEORGES.md) - His father, described as troubled
-- [#Domenica](DOMENICA.md) - His mother
-- [#Dina](../core/DINA.md) - His older sister, raised with Marie
-- [#Lola](LOLA.md) - His other sister
-- [#Grand_maman](../family/GRAND_MAMAN.md) - His grandmother
+- [#Georges](../family/GEORGES.md) — his father
+- [#Domenica](DOMENICA.md) — his mother
+- [#Dina](../core/DINA.md), [#Lola](LOLA.md) — his sisters
+- [#Death](../../culture/themes/DEATH.md) — the theme entry
 
-%% 2025-12-07T15:30:00 RSR: Created based on Book 00.35. Etienne's death at sixteen is set up dramatically ("vous verrez comment") but the promised explanation doesn't appear in available text. The emphasis on HOW he died suggests scandal, tragedy, or unusual circumstances worth detailed narration. %%
+## Tagging note
+
+096.0431 and 096.0438 (October 1882, Tcherniakovka) tag this file for uncle Alexandre's son Etienne, who is alive and fourteen; those tags are wrong referents (no file for that boy).
+
+%% 2025-12-07T15:30:00 RSR: Created based on Book 00.35. %%
+%% 2026-10-22T14:00:30 RSR: Rewritten from the diary: the death is told in 015.0334, 017.0038–0039, 017.0295, 018.0094 and recalled in 042.0003, 053.0297–0298, 094.0313; the speculative «possible causes» and «missing story» sections were removed (the story is in the diary). %%

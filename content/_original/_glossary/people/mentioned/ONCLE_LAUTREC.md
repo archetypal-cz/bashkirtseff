@@ -81,3 +81,6 @@ On 20 November 1873 the family hears that «le comte de Toulouse-Lautrec … vie
 %% 2026-10-22T15:30:00 RSR: 1873 section added (glossary identity questions, DIADIA = ONCLE_LAUTREC). %%
 
 %% 2026-10-22T12:28:56 RSR: Merged DIADIA (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+
+## «Sacha» and «l'oncle Sacha» (RSR, 2026-10-22)
+The t.3 index names him «Sacha de» Toulouse-Lautrec because of «the genre of *Sacha* Lautrec» (018.0312), so «Sacha» (Alexandre) agrees with the t.13 «Alexandre comte de». «Sacha» alone in 1873 and 1875 is uncle Alexandre Babanine (t.2 and t.5 indexes; see SACHA.md). «L'oncle Sacha» of 26 Dec 1873 (014.0227), indexed under Babanine, could also be «diadia» himself and is left untagged. The untagged «diadia» of 014.0038, 014.0226 and 014.0281 (Dec 1873) were tagged here on 2026-10-22. In tome 4 (Jul 1874–Apr 1875) «diadia» is Alexandre Babanine instead (t.4 index «Babanine (Alexandre), [Sacha], [diadia] oncle»; 030.0064), so «diadia» is decided per tome.

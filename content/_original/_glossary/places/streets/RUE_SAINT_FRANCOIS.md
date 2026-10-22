@@ -8,7 +8,7 @@ aliases:
 type: Place
 category: places/streets
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Rue Saint-François
 
@@ -29,6 +29,9 @@ A street in Nice where Marie encounters Prince Tchetvertinski, Mlle de Galve, an
 - Part of riding circuit for society members
 - Close enough to Bashkirtseff residence ("notre ruelle")
 - Named after Saint Francis
+
+## Rue Saint-François-de-Paule (RSR, 2026-10-22)
+Marie names the rue Saint-François-de-Paule in full twice: the carnival illuminations of 23 February 1873, «la lumière électrique du Cours et de la rue Saint-François-de-Paule» (002.0078), and the battle of flowers of 7 February 1875, «Dès l'entrée de la rue Saint-François-de-Paule, la bataille commença» (029.0227); both paragraphs are tagged here. It is the old-town street on which the Nice opera house stands (Wikipedia, «Opéra de Nice»: rue Saint-François-de-Paule). Whether the bare «rue Saint-François» of 12 March 1874 (017) is the same street or the old-town rue Saint-François is not settled.
 
 ## Research Notes
 - Rue Saint-François-de-Paule likely reference

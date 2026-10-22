@@ -28,7 +28,7 @@ full_text:
 
 ## Overview
 
-*Ruy Blas* is a dramma lirico in four acts by Filippo Marchetti to a libretto by Carlo d'Ormeville, after Victor Hugo's play *Ruy Blas* (1838). It was first given at La Scala, Milan, on 3 April 1869 (Wikipédia fr, "Ruy Blas (Marchetti)"). Hugo's play has its own entry.
+*Ruy Blas* is a dramma lirico in four acts by Filippo Marchetti to a libretto by Carlo d'Ormeville, after Victor Hugo's play *Ruy Blas* (1838). It was first given at La Scala, Milan, on 3 April 1869 (Wikipédia fr, "Ruy Blas (Marchetti)"). Hugo's play has its own entry, [RUY_BLAS_HUGO](RUY_BLAS_HUGO.md).
 
 ## Marie and this work
 

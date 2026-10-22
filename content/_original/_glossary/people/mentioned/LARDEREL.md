@@ -19,6 +19,7 @@ aliases:
   - Alexandre le grand
   - illustre florentin
   - Ladreréel
+  - Violet
 type: Person
 category: people/mentioned
 research_status: Comprehensive
@@ -231,3 +232,4 @@ Alessandro's connection to the House of Savoy through his sister Bianca's marria
 %% 2026-10-03T12:00:00 RSR: Renamed from LARDEREI (owner decision 2026-10-03: the printed-edition spelling is «Larderel»; «Larderei» is the OCR/print-index form, kept as an alias). %%
 
 %% 2026-10-22T11:30:51 RSR: Merged VIOLET (no content kept: empty stub) %%
+%% 2026-10-22T15:28:00 RSR: Alias «Violet» added (OPEN-ITEMS B-56(4)): Larderel's signature in his letters to Marie («Il signe Violet et moi Violette», 072/1877-07-14; «ce détestable Violet», 069.0505). The Mon Journal t.10 index lists «Violet (M.), 41» as a separate person, an index slip. %%

@@ -6,11 +6,16 @@ aliases:
 type: Place
 category: places/cities
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # London House
 
 London House was a popular upscale confectionery and café in Nice frequently mentioned in Marie Bashkirtseff's diary. It served as both a refreshment spot and a social hub for the aristocracy and wealthy visitors to the French Riviera in the 1870s.
+
+## Sources
+- Mon Journal t.5 and t.6 indexes: «London House (salon de thé)» (t.5: 22, 32, 37, 93, 103-104, 168, 173, 317, 336, 341; t.6: 155, 284, 286, 289, 301, 305, 331).
+- Kernberger (2013, glossary): «London House: fashionable restaurant in Nice».
+- No directory, guidebook or press source for the establishment was found (web search 2026-10-22); its address is unknown. The description below is drawn from the diary. The edition's «salon de thé» and Marie's own descriptions (chocolate, ices, cakes, a counter) fit a tea room and confectioner's better than Kernberger's «restaurant».
 
 ## Description
 
