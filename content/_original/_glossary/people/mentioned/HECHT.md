@@ -27,7 +27,7 @@ Henri Hecht. The Mon Journal t.13 index lists «Hecht (Henri), négociant : 70-7
 
 Marie's «le Juif», «le Juif Hecht» is her period antisemitic labelling; kept as written in the source.
 
-**Open point (family).** The collector Albert Hecht (1842–1889) had two brothers, Myrtil and Henri, and the brothers' collection was largely Impressionist (en.wikipedia «Albert Hecht»). The diary's Hecht has no first name except through the Mon Journal index, and the source footnote at 105/1884-09-01 gives «Henri Hecht (1840–1891)»; I could not confirm those dates (a web search found 1891 only as the death year of the father, Maurice Hecht). Treat the dates as unverified.
+**Open point (family).** The collector Albert Hecht (1842–1889) had two brothers, Myrtil and Henri, and the brothers' collection was largely Impressionist (en.wikipedia «Albert Hecht»). The diary's Hecht has no first name except through the Mon Journal index, and the source footnote at 105/1884-09-01 gives «Henri Hecht (1840–1891)»; I could not confirm those dates (a web search found 1891 only as the death year of the father, Maurice Hecht). Treat the dates as unverified. A search snippet of the Musée d'Orsay personalities catalogue («Henri Hecht», no. 205216, «homme d'affaires», an early admirer of Manet; not opened) gives 1842–1891, which clashes with Albert's birth on 2 July 1842; the Morgan Library holds 1883 letters from Henri Hecht to Manet and to Suzanne Manet, one written from 60 rue de la Victoire (themorgan.org, Tabarant collection). On 2026-10-22 the dates were dropped from the footnote at 105/1884-09-01 in every tree (OPEN-ITEMS B-78); restore them only with an état-civil source.
 
 %% 2026-10-21T11:03:22 RSR: Extended during RSR research of the restored 086 paragraphs (rsr-086). %%
 

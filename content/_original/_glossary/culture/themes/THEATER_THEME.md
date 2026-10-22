@@ -215,7 +215,7 @@ The following glossary entries cover specific theaters and performance venues Ma
 - [#Italian_Opera_Nice](../../places/theaters/ITALIAN_OPERA_NICE.md) -- Italian opera performances in Nice
 
 ### Paris
-- [#Comedie_Francaise](../../places/social/COMEDIE_FRANCAISE.md) -- The national theater of France ("le Francais"), Marie's most frequently attended Paris venue
+- [#Comedie_Francaise](../../places/theaters/COMEDIE_FRANCAISE.md) -- The national theater of France ("le Francais"), Marie's most frequently attended Paris venue
 - [#Theatre_Francais](../../places/theaters/THEATRE_FRANCAIS.md) -- The physical theater building housing the Comedie-Francaise
 - [#Opera](../../places/theaters/OPERA.md) -- The Paris Opera, housed in the Palais Garnier from 1875
 - [#Theatre_des_Varietes](../../places/theaters/THEATRE_DES_VARIETES.md) -- Boulevard theater known for operettas and comedies
