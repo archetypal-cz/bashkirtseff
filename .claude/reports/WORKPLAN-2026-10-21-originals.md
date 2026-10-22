@@ -129,3 +129,23 @@ Round 3 (running), briefs fn-pull-brief.md and tag-scout-review-brief.md:
   applied last.
 After round 3: entities-sync --strict; `just tag-reconcile LANG all --scope all --write` for cz/uk/en/fr
 (dry run 21:20: +1,074 −112 per tree); glossary body fixes (plan section D) and new entries (E).
+
+## Status 2026-10-22 ~14:00 — round 3 done; owner rulings applied; identity research
+
+Round 3 committed 2026-10-21 (footnote pulls 000–106, ~1,850 tags from the alias scout). Glossary cleanup
+phase 3 (123de320f6) and phase 4 (82b42aaa68 + trees): 1,071 tags added / 145 removed, 59 merges, 5 moves,
+053 location → Rome, strict entities-sync, tag-reconcile all trees.
+
+Owner rulings 2026-10-22 (memory owner-rulings-2026-10-22):
+- Mask names are tagged (D-64, done): 82 tags, VIOLETTE / CINQ_FEMMES + 7 new mask entries.
+- Prejudiced remarks get contextual footnotes (D-63, done): 39 source notes in 000–106, carried to
+  cz/uk/en (fr where edited); 058 apology note rewritten.
+- Unresolved identities are research questions; what stays unsure gets «## Identity uncertain» +
+  `identity_uncertain: true`. Research gid-a/gid-b (096cc5d284) applied (22f3c0e67c, f0af89807b): 235
+  tags added / 210 removed, 26 merges; follow-ups B-79–B-83 (e64b1a9090).
+
+Tooling: `sync --footnotes` no longer skips a source note silently (D-65, 7bf5592078); WARN queue reviewed
+in cz/uk/en: 23 missing notes added, 10 wrong tree notes fixed. Project statusline (c79f941c60).
+
+Open for the owner: A-64 (cocotte „koketa“ vs „kurtizána“, 31 cz paragraphs); glossary owner questions in
+glossary-cleanup-2026-10-21/. Running: rsr-small2 (B-76 rest, B-78, B-82, D-67, 055.0261).
