@@ -33,7 +33,7 @@ last_updated: 2026-10-22
 Sophie Tutcheff appears in two distinct phases:
 
 ### Early Diary (1873): Visiting Relative
-In carnets 001-003, Sophie visits Nice with Emile Tutcheff, whom Marie calls her uncle (see below). She appears alongside but SEPARATELY from "ma tante" (Nadine Romanoff). For example, February 23, 1873: "nous etions maman, ma tante, Sophie, Emile, Dina, moi." She is treated as a guest, not a permanent household member. The «Sonitchka … Sophie Grigorievna» to whom Marie throws carnival bouquets that day is not the aunt but Mlle Kolokolzoff (009.0146).
+In carnets 001-003, a «Sophie» visits Nice with an «Emile», indexed as Tutcheff in Mon Journal t.1 (identity open, see below). She appears alongside but SEPARATELY from "ma tante" (Nadine Romanoff). For example, February 23, 1873: "nous etions maman, ma tante, Sophie, Emile, Dina, moi." She is treated as a guest, not a permanent household member. The «Sonitchka … Sophie Grigorievna» to whom Marie throws carnival bouquets that day is not the aunt but Mlle Kolokolzoff (009.0146).
 
 ### Later Diary (1875+): Family Enemy
 From carnet 004 onward, Mme Tutcheff becomes one of the family's most dangerous enemies. Marie describes her with increasing venom:
@@ -60,9 +60,11 @@ During Marie's visit to her father in Russia (carnet 09), she encounters Mme Tut
 
 Marie describes their tense meeting: "Mon pere m'amena Mme Tutcheff... Je me levai pour lui tendre la main et effleurer de mes levres sa bouche de serpent, et je me rassis aussitot la laissant debout."
 
-## Emile Tutcheff (an uncle, not her son)
+## Emile (1873) and M. Tutcheff
 
-Emile came to Nice with Sophie in February-March 1873 and left with her on 19 March («Emile et Sophie partent ce soir… il lui donnait le bras», 003.0054); in December 1873 «Mon oncle et ma tante Tutcheff sont arrivés» (014.0264). He is Marie's uncle, not her cousin: «C'est qu'Emile, mon pauvre oncle, est mort il y a quatre mois» (023.0628, 10 September 1874; t.4 index «Tutcheff (Emile), 183-184, 220»). He was probably Sophie's husband; but a «M. Tutcheff», maréchal de noblesse, is alive in 1876-82 (062/1876-06-16, 067/1876-10-19, 094/1882-04-09), so this is not settled. See [Emile Tutcheff](EMILE_TUTCHEFF.md).
+An «Emile» came to Nice with a «Sophie» in February-March 1873 and left with her on 19 March («Emile et Sophie partent ce soir… il lui donnait le bras», 003.0054). The Mon Journal t.1 index calls him «Tutscheff (Emile)», but who he is remains open: Sophie Tutcheff's husband, or Maman's brother Emile Babanine (Kernberger 2013, glossary: «Émile: Uncle Babanine»). See [Emile Tutcheff](EMILE_TUTCHEFF.md). He is not the uncle Emile who died in 1874 (023.0628): that was Emile Stépanovitch Babanine (t.5 and t.9 indexes, 067.0481; see [Oncle Emile](ONCLE_EMILE.md)). In December 1873 «Mon oncle et ma tante Tutcheff sont arrivés» (014.0264). Sophie's husband, «M. Tutcheff», maréchal de noblesse, is alive in 1876-82 (062/1876-06-16, 067/1876-10-19, 094/1882-04-09); the diary never gives his first name.
+
+%% 2026-10-22T13:07:46 RSR: Section corrected (OPEN-ITEMS B-81): the 1874 death is Emile Babanine's, not a Tutcheff's (t.5, t.9 indexes); the t.4 index «Tutcheff (Emile)» is a slip. %%
 
 %% 2025-06-28T13:05:00 RSR: Created basic entry. Originally conflated with Ma tante -- see correction below. %%
 %% 2026-05-24T12:00:00 RSR: MAJOR CORRECTION. This entry was previously titled "Sophie (Ma tante)" -- WRONG. Sophie Tutcheff (nee Bashkirtseff) is Marie's PATERNAL aunt, a DIFFERENT person from "ma tante" (Nadine Romanoff, nee Babanine, Marie's MATERNAL aunt). The Apostolescu index in carnet 01 lists them separately: "Romanoff (Mme Nadine), nee Babanine, tante" vs "Tutscheff (Mme Sophie Grigorievna), nee Bashkirtseff." In the Feb 23 1873 entry, "maman, ma tante, Sophie, Emile, Dina, moi" lists them as distinct people. Sophie Tutcheff becomes a major antagonist from carnet 04 onward. Updated to Moderate. %%

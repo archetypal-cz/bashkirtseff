@@ -5,17 +5,17 @@ aliases:
   - Pierre-Alfred Ravel (Actor)
   - Pierre-Alfred Ravel
   - Pierre Alfred Ravel
-  - Actor
+  - Ravel
 type: Person
 category: people/artists
 research_status: Basic
-last_updated: 2026-10-03
+last_updated: 2026-10-22
 ---
 # Pierre-Alfred Ravel (Actor)
 
 **Research Status**: Comprehensive
 **Last Updated**: 2025-12-07
-**Diary Coverage**: Up to 1873-01-12
+**Diary Coverage**: 1873-01-12 to 1875-06-19
 
 ## Biography
 
@@ -43,7 +43,11 @@ Ravel was one of the most respected comic actors of his generation. His appearan
 
 ## Note
 
-Not to be confused with [Ravel](../mentioned/RAVEL.md), the family carriage mentioned in later diary entries.
+## Later mentions (Nice, 1874-75)
+
+Marie sees him again at the Théâtre-Français of Nice: «Le Réveillon» «par Ravel» (015.0224, 17 January 1874); his benefit night, «Ravel est charmant comme toujours» (016.0050, 016.0052, 31 January 1874); «vendredi commencent les représentations de Ravel» and «La Boule … Ravel joue» (032.0408, 032.0457, May 1875); the May 1875 season (033, where the Mon Journal t.5 index names his wife, «Deschamps (Elisa) actrice (femme de Ravel)»); and a couplet «comme chante Ravel» (034.0428, June 1875).
+
+Not to be confused with the «Ravel qu'on raccommode» of 7 March 1874 (017.0196), apparently Marie's alarm clock (*réveil*); the retired entry [Ravel](../mentioned/RAVEL.md) explains it.
 
 ## Sources
 
@@ -53,3 +57,5 @@ Research conducted using web sources: [Pierre-Alfred Ravel - Wikipedia](https://
 
 %% GLO_PIERRE_ALFRED_RAVEL.9000 %%
 %% 2026-10-03T10:00:00 RSR: Moved from places/theaters/PIERRE_ALFRED_RAVEL.md. Body copied unchanged. %%
+
+%% 2026-10-22T13:07:46 RSR: Alias «Ravel» added and the 1874-75 mentions retagged here from the retired RAVEL (OPEN-ITEMS B-76(1)); alias «Actor» dropped (it is not a name). %%
