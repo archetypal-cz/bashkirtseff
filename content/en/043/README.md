@@ -27,7 +27,7 @@
 - **Corrupted Dante quote** (043.0210): Highlighted, footnoted as unidentifiable
 - **Ghiberti/Cellini attribution error** (043.0171): Preserved per voice-maintenance policy, flagged in footnote
 - **"engodardée" neologism** (043.0262): Rendered as "*en-Godarded*" [sic]
-- **"Complainte de Girofla"** (043.DROPPED-0395–044.0021): Fully translated as verse, preserving rhyme and metre
+- **"Complainte de Girofla"** (043.0367–044.0021): Fully translated as verse, preserving rhyme and metre
 - **"châteaux en Espagne"**: Rendered as "castles in Spain" (established English idiom)
 - **"roué"**: Rendered as "rake" (18th-century English equivalent)
 - **"comme il faut"**: Kept in French (no English equivalent)

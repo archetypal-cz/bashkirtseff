@@ -44,7 +44,7 @@ The picture is in the **Petit Palais, Musée des Beaux-Arts de la Ville de Paris
 A round-faced young woman, seen close and half-length against a plain ground, in a simple straw hat trimmed with a garland of flowers. It is a small canvas and an unpretentious one -- Marie's own verdict at the Salon was that it was "une chose sans prétention" -- and its interest is that it is a portrait of a working model treated as a portrait of a Parisian woman: the title generalises the sitter into a type without prettifying her.
 
 %% GLO_LA_PARISIENNE.0006 %%
-Marie had described Irma in December 1881 as the vanished "type de la grisette", drôle and sentimental with naïvetés of vice, and had noted exactly the quality that makes this painting possible: "Elle pose avec intelligence, on peut en faire ce qu'on veut car elle est avec sa pâleur étonnante aussi bien une candide jeune fille qu'un abîme de dépravations" (094.DROPPED-0057).
+Marie had described Irma in December 1881 as the vanished "type de la grisette", drôle and sentimental with naïvetés of vice, and had noted exactly the quality that makes this painting possible: "Elle pose avec intelligence, on peut en faire ce qu'on veut car elle est avec sa pâleur étonnante aussi bien une candide jeune fille qu'un abîme de dépravations" (094.0113).
 
 %% GLO_LA_PARISIENNE.0007 %%
 ## Making of the Work
@@ -63,8 +63,8 @@ Marie sent it to the Salon of 1883 as a second *envoi* that nobody knew about, a
 ## References in Diary
 
 %% GLO_LA_PARISIENNE.0012 %%
-- 1881-11-15 (093.DROPPED-0177) -- an oblique first trace: "cette affaire d'Irma", a quarrel with Amélie over the model
-- **First substantial mention: 1881-12-29 (094.DROPPED-0057)** -- the character sketch of Irma, and of what makes her a subject
+- 1881-11-15 (093.0374) -- an oblique first trace: "cette affaire d'Irma", a quarrel with Amélie over the model
+- **First substantial mention: 1881-12-29 (094.0113)** -- the character sketch of Irma, and of what makes her a subject
 - 1882-07-01 (095.0232) -- "Depuis le matin je travaille avec Irma"
 - **1882-07-18 (095.0298–0278)** -- "Fin de la tête d'Irma"; Tony's and Julian's compliments
 - 1882-11-27 (097.0154) -- the two-year inventory of her work, Irma among "les grands tableaux"

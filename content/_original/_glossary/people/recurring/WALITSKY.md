@@ -262,7 +262,7 @@ Walitsky's death became a touchstone for Marie -- a measure against which she ga
 - **June 1878**: On Cassagnac's marriage: "me contrarie comme la mort de Walitsky" (080.0078)
 - **June 1878**: "C'est comme la mort de ce pauvre Walitsky, je realiserai difficilement la mort de ce pauvre Cassagnac" (081.0496)
 - **July 1878**: "Je ne realise pas cette fin comme je ne realisais pas la mort de Walitsky" (081.0546)
-- **July 1878**: At Soden, the spa he recommended: "Soden me ferait-il vraiment du bien? Ce pauvre cher Walitsky" (%% 081.DROPPED-0413 %%)
+- **July 1878**: At Soden, the spa he recommended: "Soden me ferait-il vraiment du bien? Ce pauvre cher Walitsky" (%% 081.0548 %%)
 - **August 1878**: Returning to the apartment: "Cet appartement m'est desagreable... Walitsky y est mort, Pincio y a ete perdu et Cassagnac n'y reviendra plus" (082.0150)
 - **August 1878**: Mlle Oelsnitz, the Anitchkoffs' former governess, joins the household -- "elle etait amoureuse de Walitsky" (082.0152)
 - **September 1878**: Dreams of Walitsky "en train de consulter un pullaire antique" -- consulting an ancient chicken oracle (082.0192)
@@ -400,7 +400,7 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 - 078.0119 (Mar 12): Grief for Pincio compared to Walitsky
 - 079.0063 (Mar 23): Recalls day of death and going to Versailles with Cassagnac
 - 080.0054 (May 9): "Mon pauvre Pincio et ce pauvre Walitsky..."
-- %% 081.DROPPED-0413 %% (Jul 26): At Soden, remembering his recommendation
+- %% 081.0548 %% (Jul 26): At Soden, remembering his recommendation
 - 082.0150 (Aug 18): "Cet appartement... Walitsky y est mort"
 - 082.0152 (Aug 19): Mlle Oelsnitz "etait amoureuse de Walitsky"
 - 082.0192 (Sep 21): Dream: Walitsky consulting a chicken oracle

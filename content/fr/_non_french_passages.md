@@ -381,20 +381,20 @@ They need AI translation into French.
 - **016/1874-01-31.md** para 016.0045 [ENGLISH]: %% 2026-01-30T10:21:20 LAN: ENGLISH: "have a good galop" - code-switch for horseback riding term %%
 - **016/1874-01-31.md** para 016.0045 [ENGLISH]: %% 2026-01-30T10:21:22 LAN: ENGLISH: "railway bridge" - code-switch; modern infrastructure %%
 - **016/1874-01-31.md** para 016.0047 [ENGLISH]: %% 2026-01-30T10:21:24 LAN: ENGLISH: "canter" and "keep with the carriage" - code-switching mid-sentence for riding terms %%
-- **016/1874-01-31.md** para 016.DROPPED-0052 [ENGLISH]: %% 2026-01-30T10:21:27 LAN: ENGLISH: "but he canters well" - continuing code-switch for riding %%
+- **016/1874-01-31.md** para 016.0049 [ENGLISH]: %% 2026-01-30T10:21:27 LAN: ENGLISH: "but he canters well" - continuing code-switch for riding %%
 - **016/1874-01-31.md** para 016.0050 [ENGLISH]: %% 2026-01-30T10:21:33 LAN: ENGLISH: "nonsenses" - code-switch; comic skits/absurdities %%
 - **016/1874-02-03.md** para 016.0085 [LATIN]: %% 2026-01-30T10:22:10 LAN: LATIN: "Miserere!" - Have mercy!; religious/dramatic exclamation %%
 - **016/1874-02-03.md** para 016.0095 [ENGLISH]: %% 2026-01-30T10:22:18 LAN: ENGLISH: "walk" - code-switch for taking a stroll %%
 - **016/1874-02-03.md** para 016.0096 [ENGLISH]: %% 2026-01-30T10:22:20 LAN: ENGLISH: "I think you won't go before March" - Hitchcock's English response quoted directly %%
 - **016/1874-02-07.md** para 016.0153 [ENGLISH]: %% 2026-01-30T10:30:14 LAN: ENGLISH: "up and down" - Marie switches to English for emphasis %%
 - **016/1874-02-07.md** para 016.0155 [ENGLISH]: %% 2026-01-30T10:30:16 LAN: ENGLISH: "policemen" - English word used for British-style police in cosmopolitan Nice %%
-- **016/1874-02-07.md** para 016.DROPPED-0176 [ENGLISH]: %% 2026-01-30T10:30:30 LAN: ENGLISH: "closely" - Marie switches to English for intensity %%
+- **016/1874-02-07.md** para 016.0165 [ENGLISH]: %% 2026-01-30T10:30:30 LAN: ENGLISH: "closely" - Marie switches to English for intensity %%
 - **016/1874-02-08.md** para 016.0184 [ENGLISH]: %% 2026-01-30T10:30:39 LAN: ENGLISH: "drives" - Marie uses English verb for fashionable carriage driving %%
 - **016/1874-02-08.md** para 016.0191 [ITALIAN]: %% 2026-01-30T10:30:52 LAN: ITALIAN: "prima donna" - leading lady (opera term), used metaphorically %%
 - **016/1874-02-10.md** para 016.0210 [ENGLISH]: %% 2026-01-30T10:31:18 LAN: ENGLISH: "a perfect théâtre" - English adjective with French noun %%
 - **016/1874-02-11.md** para 016.0214 [RUSSIAN]: %% 2026-01-30T10:31:28 LAN: RUSSIAN: "moujik" - Russian peasant, here used dismissively for hairdresser's assistant %%
 - **016/1874-02-11.md** para 016.0240 [LATIN]: %% 2026-01-30T10:31:48 LAN: LATIN/SPANISH: "Triple miserere !" - triple mercy (intensified exclamation, religious origin) %%
-- **016/1874-02-13.md** para 016.DROPPED-0278 [ITALIAN]: %% 2026-01-30T10:32:11 LAN: ITALIAN: "in fretta" - in a hurry, quickly %%
+- **016/1874-02-13.md** para 016.0261 [ITALIAN]: %% 2026-01-30T10:32:11 LAN: ITALIAN: "in fretta" - in a hurry, quickly %%
 - **016/1874-02-13.md** para 016.0262 [ENGLISH]: %% 2026-01-30T10:32:13 LAN: ENGLISH: "upstairs" - Marie switches to English %%
 - **016/1874-02-15.md** para 016.0267 [ENGLISH]: %% 2026-01-30T10:32:16 LAN: ENGLISH: "for a walk" - Marie switches to English %%
 - **016/1874-02-15.md** para 016.0274 [ENGLISH]: %% 2026-01-30T10:32:30 LAN: ENGLISH: "Gulliver's travels" - literary reference to Swift's novel %%
@@ -407,7 +407,7 @@ They need AI translation into French.
 - **016/1874-02-16.md** para 016.0308 [LATIN]: %% 2026-01-30T10:32:59 LAN: LATIN: "Miserere !" - Have mercy! (religious exclamation) %%
 - **016/1874-02-17.md** para 016.0324 [ITALIAN]: %% 2026-01-30T10:33:28 LAN: ITALIAN: "veglione" - grand masked ball (Italian carnival term) %%
 - **016/1874-02-19.md** para 016.0340 [RUSSIAN]: %% 2026-01-30T10:40:18 LAN: RUSSIAN: "kwass mousseux" - Russian fermented drink (kvass); sparkling variety %%
-- **016/1874-02-21.md** para 016.DROPPED-0374 [ENGLISH]: %% 2026-01-30T10:40:35 LAN: ENGLISH: "put down" - code-switch to English for action verb %%
+- **016/1874-02-21.md** para 016.0351 [ENGLISH]: %% 2026-01-30T10:40:35 LAN: ENGLISH: "put down" - code-switch to English for action verb %%
 - **016/1874-02-21.md** para 016.0368 [RUSSIAN]: %% 2026-01-30T10:40:42 LAN: RUSSIAN: "moujik" - Russian peasant; used as insult for uncouth/peasant-like appearance %%
 - **017/1874-02-22.md** para 017.0006 [RUSSIAN]: %% 2026-01-30T10:40:55 LAN: RUSSIAN: "porte-monnaie avec une pièce de cinq kopecks" - sarcastic: purse with a five-kopeck coin; implying poverty/stinginess %%
 - **017/1874-02-22.md** para 017.0009 [RUSSIAN]: %% 2026-01-30T10:40:56 LAN: RUSSIAN: "Tchetvertinski" - Russian princely name (Chetvertinskii) %%
@@ -1120,7 +1120,7 @@ They need AI translation into French.
 - **054/1876-02-19.md** para 054.0308 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "di rabbia e di furror" - with rage and fury, quote from Thomas's opera Mignon %%
 - **054/1876-02-22.md** para 054.0374 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "carino! angelo!" - darling! angel! (carnival exclamations) %%
 - **054/1876-02-22.md** para 054.0382 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "coarse" - Marie uses English word for slightly rough/vulgar quality %%
-- **054/1876-02-23.md** para 054.DROPPED-0392 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "flirter" - to flirt, borrowed English word %%
+- **054/1876-02-23.md** para 054.0389 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "flirter" - to flirt, borrowed English word %%
 - **054/1876-02-23.md** para 054.0392 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Quando lei ritorna a Nizza?" - When do you return to Nice? %%
 - **054/1876-02-23.md** para 054.0393 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Nel mese d'aprile o forse di maggio" - In April or perhaps May %%
 - **054/1876-02-23.md** para 054.0402 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "E bello veramente" - It's truly beautiful %%
@@ -1141,7 +1141,7 @@ They need AI translation into French.
 - **055/1876-03-02.md** para 055.0012 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "O Gioia!" - ITALIAN exclamation: "Oh Joy!" %%
 - **055/1876-03-02.md** para 055.0014 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "cardinalino" - ITALIAN diminutive: "little cardinal", Marie's nickname for Antonelli (nephew of Cardinal Antonelli) %%
 - **055/1876-03-03.md** para 055.0091 [LATIN]: %% 2026-02-02T12:10:00 LAN: "miserere" - LATIN: "have mercy", from the psalm %%
-- **055/1876-03-04.md** para 055.DROPPED-0100 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: "keepsake" - ENGLISH: illustrated gift annual, a genre of sentimental publication %%
+- **055/1876-03-04.md** para 055.0096 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: "keepsake" - ENGLISH: illustrated gift annual, a genre of sentimental publication %%
 - **055/1876-03-05.md** para 055.0138 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "via" - ITALIAN: interjection meaning "come now" or dismissive "away with it" %%
 - **055/1876-03-05.md** para 055.0150 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "Ohimè" - ITALIAN exclamation: "alas!" %%
 - **055/1876-03-05.md** para 055.0150 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: "associations" - ENGLISH word used, meaning emotional connections/memories %%
@@ -1456,7 +1456,7 @@ They need AI translation into French.
 - **092/1881-08-18.md** para 092.0423 [LATIN]: %% 2026-02-02T09:08:12 LAN: LATIN: "in petto" - in one's breast, secretly, to oneself %%
 - **092/1881-08-18.md** para 092.0427 [LATIN]: %% 2026-02-02T09:08:27 LAN: LATIN: "id est" - that is (scholarly abbreviation) %%
 - **093/1881-08-23.md** para 093.0015 [ENGLISH]: %% 2026-02-02T09:03:11 LAN: ENGLISH: "I!" - Marie's characteristic English exclamation for emphasis %%
-- **093/1881-09-18.md** para 093.DROPPED-0067 [ENGLISH]: %% 2026-02-02T09:01:13 LAN: "ulster" - ENGLISH: heavy overcoat (Ulster coat), fashionable 1870s-80s %%
+- **093/1881-09-18.md** para 093.0093 [ENGLISH]: %% 2026-02-02T09:01:13 LAN: "ulster" - ENGLISH: heavy overcoat (Ulster coat), fashionable 1870s-80s %%
 - **093/1881-10-04.md** para 093.0175 [LATIN]: %% 2026-02-02T09:10:06 LAN: "idem" - LATIN: the same, likewise (to be painted nude) %%
 - **093/1881-10-10.md** para 093.0201 [LATIN]: %% 2026-02-02T09:03:09 LAN: LATIN: "verticem mundi" - summit/pinnacle of the world; Marie's classical education %%
 - **093/1881-10-30.md** para 093.0316 [RUSSIAN]: %% 2026-02-02T09:06:05 LAN: RUSSIAN: "les yeux s'enfuient dans toutes les directions comme on dit en russe" - Russian idiom Marie translates %%

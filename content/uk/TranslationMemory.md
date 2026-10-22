@@ -1795,8 +1795,8 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 
 ### Carnet 063 Multilingual Conventions
 - "Caccia-Club" — Italian club name; keep as-is (no translation)
-- "Gloriae cupiditate" (para 063.DROPPED-0500) — ==З жадоби слави==, Latin → footnote. STALE (CON uk 061–063, 2026-10-03): no such paragraph in uk/063 after the rebuild (grep: 0 hits); the motto row (Latin italics + footnote) governs.
-- "[His] Grace [the] D[uke] of H[amilton]" (para 063.DROPPED-0500) — abbreviated English cipher; code abbreviation kept (UNSURE), full form explained in the footnote
+- "Gloriae cupiditate" (Livre 64 title page, withdrawn in the 2026-09 rebuild) — ==З жадоби слави==, Latin → footnote. STALE (CON uk 061–063, 2026-10-03): no such paragraph in uk/063 after the rebuild (grep: 0 hits); the motto row (Latin italics + footnote) governs.
+- "[His] Grace [the] D[uke] of H[amilton]" (Livre 64 title page, withdrawn in the 2026-09 rebuild) — abbreviated English cipher; code abbreviation kept (UNSURE), full form explained in the footnote
 - "[mots rayés]" / "[deux mots rayés]" — manuscript crossed-out words: render as "[слова закреслено]" / "[два слова закреслено]"
 - Manuscript "Pietro*" asterisk — Marie's own code-marker; always preserve
 - "Santa Fé" — Marie's pseudonym for herself in Pietro correspondence; keep in Spanish (established carnet 062)
@@ -2169,13 +2169,13 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 - Dante quotations (Marie's transcription errors intact in the FOOTNOTE; Ukrainian rendering in the text, KRR 2026-10-03; was: kept in Italian): Inferno I:37-40 (070.0085), Vita Nuova XXVI "Tanto gentile" (070.0809), Inferno I:16-18 split across 070.0845-0111 (one continuous quote — footnote on closing para), Inferno I:41 (070.0858).
 - Princess Gerace's Italian panic cry (070.0220) → Ukrainian in `==…==`, Italian → footnote.
 - Italian "nebbioso" (070.0861) → ==туманний==, Italian → footnote.
-- Latin motto "Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate" (070.DROPPED-0198-0199, Marie's own) → ==Сумнів, ілюзія, обман, утиск== / ==З жадоби слави==, Latin → footnote on closing line.
+- Latin motto "Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate" (Livre 71 title page, Marie's own; withdrawn in the 2026-09 rebuild) → ==Сумнів, ілюзія, обман, утиск== / ==З жадоби слави==, Latin → footnote on closing line.
 - Russian code-switch "dis-je en russe" (070.0218, Marie to Maman in public) → rendered in UK narration; TR note flags the spoken line was Russian.
 - Gounod's Faust "roi de Thulé" ballad (070.0001) → rendered as UK verse (Marie sings it); Sirène/Silène pun + Lustucru + "vieux Suisse des treize cantons" footnoted.
 - La Fontaine fable allusion "Le Renard et les Raisins" (070.0889) → footnote.
 - Markers [Навскоси:] (En travers), [Зачорнено:] (Mots noircis), [Викреслено:] preserved.
 - The entry 1877-04-03 is a SINGLE paragraph block (070.0001, para_start=para_end=1) containing all the Sorrento dialogue/verse — translated as one block preserving internal line structure.
-- Empty trailing para_end markers (070.DROPPED-0009, 070.DROPPED-0036) omitted (no source text).
+- Empty trailing placeholder paragraphs (dropped in the 2026-09 rebuild) omitted (no source text).
 
 - 2026-06-07: Carnet 070 complete (Naples, Sorrento excursion + Larderei affair climax, Apr 1877). 8 entries, all content. Larderei→«Лардерель» (indeclinable) and Bijou→«Біжу» reconfirmed; "mon empereur"→«мій імператоре» catchphrase established; uncle Олександр LOCK clean (070.0898); Larderei-given-name joke (070.0918) → «Алессандро», kept lexically distinct from uncle «Олександр» (per CON/team-lead disambiguation). Dante/Latin/Italian kept in original w/ footnotes; verify-equivalent manual checks pass (121 glossary links 0 drift, all footnotes paired). (tr-a run)
 
