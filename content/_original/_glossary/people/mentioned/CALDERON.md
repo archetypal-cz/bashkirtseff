@@ -3,6 +3,8 @@ id: CALDERON
 name: Calderon
 aliases:
   - Calderon
+  - marquis Calderon
+  - Colorado Claro
 type: Person
 category: people/mentioned
 research_status: Basic
@@ -24,3 +26,8 @@ A young Spaniard of Marie's Nice circle in 1875, "le petit Espagnol noir" (039.0
 - 1875-05-07 (032.0331); 1875-08-19 (039.0139). 
 
 %% 2026-10-22T20:20:00 RSR: Body written. The playwright Calderón de la Barca (1600–1681) is not meant. %%
+
+%% 2026-10-22T22:11:51 RSR: Merged MARQUIS_CALDERON (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
+
+%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
+- 9 April 1875 (merged entry MARQUIS_CALDERON): «le petit Espagnol se nomme le marquis Calderon, et comme Olga soupirait je dis que ce sera son nom mais un peu autrement; Colorado Claro» (031.0171), a cigar grade. The Mon Journal t.5 index has one line, «Calderon (Claro) [Colorado Claro, marquis], Espagnol, 17, 54».

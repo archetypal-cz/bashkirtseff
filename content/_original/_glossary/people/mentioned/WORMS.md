@@ -21,9 +21,10 @@ The entry covers two different mentions of the name «Worms»:
 
 ## In Marie's diary
 
-- 1874-09-28 (024.0151, Paris): the shop «chez Worms» (not the actor).
+%% 2026-10-22T22:16:12 RSR: Stub-pass apply (2026-10-22): only the actor is tagged here; 024.0151 (the shop) carries an RSR note and no tag. %%
+
 - 1878-12-29 (083.0497, Paris): the actor.
 
 Not to be confused with [Mme Worms](MME_WORMS.md).
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Split proposed: paragraph 024.0151 is not the actor. Gustave Worms dates from en.wikipedia + data.bnf.fr (sources disagree on the sociétaire year, 1864 vs 1878, so none is given). %%
+%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Paragraph 024.0151 is not the actor. Gustave Worms dates from en.wikipedia + data.bnf.fr (sources disagree on the sociétaire year, 1864 vs 1878, so none is given). %%

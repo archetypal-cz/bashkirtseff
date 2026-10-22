@@ -17,7 +17,7 @@ M. Beketoff, a Russian acquaintance at Nice (Mon Journal t.5 index: «Beketoff (
 
 ## Relevance to Marie
 
-Stub replaced. Possible duplicate: BEKETOFF (stub).
+Stub replaced. Not the same as BEKETOFF, which is Mme Beketoff (the Mon Journal indexes have separate lines for M. and Mme).
 
 ## References in Diary
 

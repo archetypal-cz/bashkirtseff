@@ -17,7 +17,7 @@ Mme de Boishébert, Amélie, marquise de Boishébert, wife of Raoul marquis de B
 
 ## Relevance to Marie
 
-Stub replaced. Names from the t.13/t.14 indexes (RSR at 085.0328). All claims of liaisons are gossip as reported by Marie, not established. WRONG-TAG CANDIDATE: 091.0595 is about Mme de Brimont, Schaeppi and a bal de l'Opéra and does not name Mme de Boishébert in the text read.
+Stub replaced. Names from the t.13/t.14 indexes (RSR at 085.0328). All claims of liaisons are gossip as reported by Marie, not established. The tag on 091.0595 (about Mme de Brimont, Schaeppi and a bal de l'Opéra) was removed on 2026-10-22; 091.0597 names her. Her husband Raoul is [Boishébert](BOISHEBERT.md).
 
 ## References in Diary
 

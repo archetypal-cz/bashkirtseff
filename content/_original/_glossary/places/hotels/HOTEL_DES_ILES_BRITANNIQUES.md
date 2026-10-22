@@ -20,8 +20,10 @@ The small hotel at 22 rue de la Paix, Paris, where the Bashkirtseffs lodge on th
 - 1874-09-16 (023.0677): back from England, «A l'hôtel des Iles Britanniques nous sommes reçues en vieilles connaissances. Je mange une soupe et écris.» 09-18 (024.0019): in a note she invites a correspondent there.
 - 1875-07-21 (037.0341, restored dialogue): «Au Grand Hôtel ou aux Iles Britanniques, c'est petit, mais commode.»
 - 1875-08-01 (038.0003); 1875-08-31 (040.0179): «ce petit hôtel de la rue de la Paix où l'on ne voyait personne» as against the hotel of the courtyard where they now stay.
-- 1875-12-07 (050.0546, Nice): hunting a man she takes for Miloradovitch, she thinks he has entered «l'hôtel des Iles Britanniques» near the avenue de la Gare; the concierge has no guest of that name. This is a Nice hotel.
+- 1875-12-07 (050.0546, Nice): hunting a man she takes for Miloradovitch, she thinks he has entered «l'hôtel des Iles Britanniques» near the avenue de la Gare; the concierge has no guest of that name. This is a Nice hotel and is not tagged here (one mention; RSR note on the paragraph).
 
-The tag at 030.0051 (1875-02-21, Nice) has no mention of the hotel in its text.
+- 1875-02-21 (030.0051, Nice): at the theatre the music of *Bagatelle* carries her back «dans notre petit salon de l'hôtel des Iles Britanniques» in Paris.
+
+%% 2026-10-22T22:16:12 RSR: Stub-pass apply (2026-10-22): 030.0051 does name the Paris hotel (the earlier wrong-tag note was mistaken); 050.0546 (Nice) untagged. %%
 
 %% 2026-10-22T21:35:45 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Eight paragraphs read. Wrong-tag candidate 030.0051; the Nice hotel (050.0546) is probably a separate entity. %%

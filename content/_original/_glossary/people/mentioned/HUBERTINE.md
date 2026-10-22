@@ -7,13 +7,12 @@ type: Person
 category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-22
+status: retired
+replaced_by: HUBERTINE_AUCLERT
 ---
 
 %% GLO_HUBERTINE.0001 %%
-## Hubertine (Auclert)
+**Retired.** Merged into [#HUBERTINE_AUCLERT](HUBERTINE_AUCLERT.md) (`people/mentioned/HUBERTINE_AUCLERT.md`); use that entry instead.
 
 %% GLO_HUBERTINE.0002 %%
-Marie's «Hubertine» is Hubertine Auclert (1848-1914), French suffragist, founder of *Le Droit des femmes* and of the newspaper *La Citoyenne*; see the entry HUBERTINE_AUCLERT.
-
-%% GLO_HUBERTINE.0003 %%
-On 18 August 1881 Marie reports the meeting of the society at the home of the «Citoyenne» Lacorre after Hubertine's resignation: «Cette pauvre fille est toujours en butte aux incapacités qui l'entourent» (092.0421). The fourteen members present vote the expulsion of the commandant d'Epailly and a Mlle Drouin, who had slandered Hubertine (092.0422); see also LACORRE and LEVRIER.
+%% 2026-10-22T22:11:29 RSR: Retired by glossary-merge; content and links moved to HUBERTINE_AUCLERT. replaced_by: people/mentioned/HUBERTINE_AUCLERT.md. %%

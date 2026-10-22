@@ -3,6 +3,7 @@ id: VAUDEVILLE
 name: Vaudeville
 aliases:
   - Vaudeville
+  - Théâtre du Vaudeville
 type: Place
 category: places/theaters
 research_status: Basic
@@ -20,3 +21,12 @@ The Théâtre du Vaudeville, boulevard des Capucines, Paris. Marie sees *Montjoy
 - 1880-02-02 (087.0411)
 
 %% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%
+
+%% 2026-10-22T22:12:59 RSR: Merged VAUDEVILLE_THEATER (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
+
+%% 2026-10-22T22:13:04 RSR: Merged THEATRE_DU_VAUDEVILLE (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
+
+## Merged entries (VAUDEVILLE_THEATER, THEATRE_DU_VAUDEVILLE)
+
+%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
+The company played at the Salle de la Bourse until 1869 and from then in the new house at the corner of the boulevard des Capucines and the rue de la Chaussée-d'Antin (en.wikipedia «Théâtre du Vaudeville»). Further visits: 13 May 1874, Sardou's *Les Ganaches*, «fort immorale» (019.0198); 29 August 1875, *Le Procès Veauradieux*, in white with her aunt, «Deux femmes seules aller au Vaudeville et se mettre en blanc» (040.0150, 040.0157); 21 November 1875, her aunt's joke on leaving the Vaudeville (050.0111).

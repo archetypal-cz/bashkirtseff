@@ -3,24 +3,22 @@ id: THEATRE_DES_BOUFFES
 name: Theatre des Bouffes
 aliases:
   - Theatre des Bouffes
+  - Bouffes
+  - les Bouffes
+  - Bouffes-Parisiens
 type: Place
 category: places/theaters
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Moderate
+last_updated: 2026-10-22
 ---
-# Theatre des Bouffes
 
-## Basic Information
-- Type: places - theaters
-- Status: Stub entry (automatically generated)
+# Théâtre des Bouffes-Parisiens
 
-## Description
-[No description available - stub entry created from diary references]
+## Overview
+%% 2026-10-22T22:16:12 RSR: Body written from the merged entry BOUFFES_THEATER (stub pass 2026-10-22). %%
+«Les Bouffes»: the Théâtre des Bouffes-Parisiens, the Paris operetta house founded by Offenbach in 1855, passage Choiseul (en.wikipedia «Théâtre des Bouffes-Parisiens»).
 
-## References in Diary
-[Multiple references found - needs research]
+## In Marie's diary
+- 20 May 1874: «On donne demain aux Bouffes "Bagatelle" avec Judic, nouvelle œuvre d'Offenbach. Pas une seule place, hélas !» (019.0297). *Bagatelle* gave its name to her bulldog bitch (see [#BAGATELLE_DOG](../../people/mentioned/BAGATELLE_DOG.md)).
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-10-22T22:09:45 RSR: Merged BOUFFES_THEATER (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%

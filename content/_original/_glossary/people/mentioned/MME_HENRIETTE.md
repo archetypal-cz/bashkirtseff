@@ -17,7 +17,7 @@ A woman called Mme Henriette whom Paul teases Marie by comparing her to, in July
 
 ## Relevance to Marie
 
-Stub replaced. Identification as hotel employee from the t.3 index; the connection to the joke is an inference. Possible duplicate: HENRIETTE (stub).
+Stub replaced. Identification as hotel employee from the t.3 index; the connection to the joke is an inference. Not the same as HENRIETTE (080.0296, a name in a dream of 1878).
 
 ## References in Diary
 

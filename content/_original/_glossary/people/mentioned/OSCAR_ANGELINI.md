@@ -6,10 +6,11 @@ aliases:
   - Oscar Angelini
   - le comte Oscar Angelini
   - Oscar
+  - Angiolini
 type: Person
 category: people/mentioned
 research_status: Stub
-last_updated: 2026-09-27
+last_updated: 2026-10-22
 ---
 # Count Oscar Angelini
 
@@ -29,3 +30,10 @@ Angelini is one of Marie's teasing correspondents: on 1 January 1877 she sends h
 - [VEGLIONE](../../culture/social_customs/VEGLIONE.md)
 
 %% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%
+
+%% 2026-10-22T22:09:05 RSR: Merged ANGIOLINI (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
+
+## «Angiolini» (1881)
+
+%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
+On 9 September 1881 Marie recalls the Rome masked ball of February 1877: «Au bal masqué à Rome, nous étions dans une loge, maman, Dina et moi. Angiolini est venu dire quelque inconvenance puis voyant deux jeunes et une plus âgée ... il se mit à parler à maman de nos charmes et lui demander d'arranger un mariage» (093.0060). The Mon Journal t.14 index spells «Angiolini (M.) : 201», t.9 «Angelini (comte Oscar)»; the scene fits the Apollo veglione of 7 February 1877 (confidence 0.8).

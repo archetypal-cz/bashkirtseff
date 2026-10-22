@@ -21,6 +21,6 @@ We are not sure who this is. Marie gives only the surname; the t.14 index calls 
 
 ## References in Diary
 
-- 1881-04-16 (091.0479). The second tag, 091.0500 (21 April 1881), carries the name only in the tag line; the paragraph text is about Kapnist and Orloff.
+- 1881-04-16 (091.0479). A second tag on 091.0500 (21 April 1881), whose text names only Kapnist and Orloff, was removed in the stub-pass apply (2026-10-22).
 
 %% 2026-10-22T18:32:00 RSR: Body written; identity_uncertain set. Wrong tag listed: 091.0500 (name not in the paragraph text). %%

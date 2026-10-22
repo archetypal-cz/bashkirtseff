@@ -4,10 +4,11 @@ name: Hubertine Auclert
 aliases:
   - Hubertine Auclert
   - Auclert
+  - Hubertine
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Hubertine Auclert
 
@@ -43,3 +44,8 @@ Marie's engagement with Auclert represents her growing interest in the women's m
 **References in diary:**
 - First mentioned 1880-11-21 (Marie plans to visit)
 - First meeting 1880-12-01 (detailed description of visit and conversation)
+
+%% 2026-10-22T22:11:29 RSR: Merged HUBERTINE (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
+
+%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
+- 18 August 1881 (merged entry HUBERTINE): «Hier soir je suis allée au droit des femmes, Hubertine ayant donné sa démission à la suite d'un tas de petits tripotages ... Cette pauvre fille est toujours en butte aux incapacités qui l'entourent» (092.0421); the fourteen members present vote the expulsion of the commandant d'Epailly and Mlle Drouin, who had slandered her (092.0422).

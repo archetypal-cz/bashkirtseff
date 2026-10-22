@@ -13,7 +13,7 @@ last_updated: 2026-10-22
 
 ## Overview
 
-Willy, the son of the Howard family of Nice, English friends of the Bashkirtseffs in 1873-74 (see [Howard family](../recurring/HOWARD_FAMILY.md), [Lise Howard](../../places/hotels/LISE_HOWARD.md)). Mon Journal indices: t.1 «Howard (Willy), 63, 120, 140, 149, 181, 184, 185, 189»; t.2 «Howard (Willy), 161, 201, 216, 266-267». He is never described at length.
+Willy, the son of the Howard family of Nice, English friends of the Bashkirtseffs in 1873-74 (see [Howard family](../recurring/HOWARD_FAMILY.md), [Lise Howard](LISE_HOWARD.md)). Mon Journal indices: t.1 «Howard (Willy), 63, 120, 140, 149, 181, 184, 185, 189»; t.2 «Howard (Willy), 161, 201, 216, 266-267». He is never described at length.
 
 ## In Marie's diary
 

@@ -9,9 +9,12 @@ created: 2025-07-06 15:08
 source: null
 tags: null
 description: null
+last_updated: 2026-10-22
+status: retired
 ---
-# ENGLISH_TEACHER
 
-Not a person's name: the unnamed «professeur d'anglais» who gives Marie her first English lesson at Nice (1874-03-07, 017.0198): «Le professeur d'anglais était venu ce matin, à lundi la première leçon.» No name appears in the diary or in the Mon Journal index. Common-noun entry; see the retire list.
+%% GLO_ENGLISH_TEACHER.0001 %%
+**Retired.** «Le professeur d'anglais» (017.0198) is not named.
 
-%% 2026-10-22T21:34:22 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%
+%% GLO_ENGLISH_TEACHER.0002 %%
+%% 2026-10-22T22:16:12 RSR: Retired in the stub-pass apply (2026-10-22, owner rule: common nouns and descriptive labels are not tagged); its diary tags were removed. %%

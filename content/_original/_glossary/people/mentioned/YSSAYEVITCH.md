@@ -6,21 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
+replaced_by: PAUL_YSSAYEVITCH
 ---
-# Yssayevitch
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_YSSAYEVITCH.0001 %%
+**Retired.** Merged into [#PAUL_YSSAYEVITCH](../recurring/PAUL_YSSAYEVITCH.md) (`people/recurring/PAUL_YSSAYEVITCH.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_YSSAYEVITCH.0002 %%
+%% 2026-10-22T22:12:31 RSR: Retired by glossary-merge; content and links moved to PAUL_YSSAYEVITCH. replaced_by: people/recurring/PAUL_YSSAYEVITCH.md. %%

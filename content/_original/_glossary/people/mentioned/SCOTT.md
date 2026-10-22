@@ -19,10 +19,10 @@ The surname covers two different referents in Marie's text: (1) **Sir Walter Sco
 - 29 June 1876: «mon caractère n'est pas celui des héroïnes de Walter Scott, je ne suis pas sensible, je ne suis pas éternelle avec mes amours» (062.0798).
 
 ## The London shop
-On 8 September 1874: «waterproof - Scott : 3 £» in her list of purchases (023.0598); see [SAUGSTER](SAUGSTER.md) and [THE_CITY](THE_CITY.md). This paragraph is tagged here by mistake (see the list of wrong tags).
+On 8 September 1874: «waterproof - Scott : 3 £» in her list of purchases (023.0598); see [SAUGSTER](../../places/shops/SAUGSTER.md) and [THE_CITY](../../places/neighborhoods/THE_CITY.md). The tag on this paragraph was removed in the stub-pass apply (2026-10-22); an RSR note there names the shop.
 
 ## References in Diary
-- 1874-09-08 (023.0598, shop); 1875-01-11 (028.0220); 1875-03-30 (030.0412); 1876-06-29 (062.0798)
+- 1875-01-11 (028.0220); 1875-03-30 (030.0412); 1876-06-29 (062.0798)
 
 ## Sources
 Diary as quoted; Mon Journal t.4 and t.8 indexes.

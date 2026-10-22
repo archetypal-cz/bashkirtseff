@@ -8,10 +8,12 @@ type: Person
 category: people/aristocracy
 research_status: Basic
 last_updated: 2026-10-22
+status: retired
+replaced_by: LORD_FALKNER
 ---
 
 %% GLO_LORD_FOLKNER.0001 %%
-## Lord Folkner
+**Retired.** Merged into [#LORD_FALKNER](LORD_FALKNER.md) (`people/aristocracy/LORD_FALKNER.md`); use that entry instead.
 
 %% GLO_LORD_FOLKNER.0002 %%
-Marie's other spelling of Lord Falkner: the husband of Lady Folkner at the Nice theatre on 14 April 1875, «lord et lady Folkner, lord Loftus et encore un» (031.0232), and in the promenade on 16 April (031.0249). The same person as LORD_FALKNER (the Mon Journal indexes spell the lady «Falkner» in t.2-t.3 and «Folkner» in t.5); see also LADY_FOLKNER.
+%% 2026-10-22T22:11:57 RSR: Retired by glossary-merge; content and links moved to LORD_FALKNER. replaced_by: people/aristocracy/LORD_FALKNER.md. %%

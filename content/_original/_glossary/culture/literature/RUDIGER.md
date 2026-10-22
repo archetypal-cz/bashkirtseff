@@ -7,21 +7,13 @@ aliases:
 type: Culture
 category: culture/literature
 research_status: Stub
-last_updated: 2026-02-10
+last_updated: 2026-10-22
+status: retired
+replaced_by: COMTESSE_RUDIGER
 ---
 
 %% GLO_RUDIGER.0001 %%
-## Overview
+**Retired.** Merged into [#COMTESSE_RUDIGER](../../people/aristocracy/COMTESSE_RUDIGER.md) (`people/aristocracy/COMTESSE_RUDIGER.md`); use that entry instead.
 
 %% GLO_RUDIGER.0002 %%
-A literary or historical reference requiring further research. Possibly a character from German Romantic literature (the name Rüdiger appears in the *Nibelungenlied* as a loyal margrave) or a reference to a contemporary figure. Context from the diary entry where this appears would clarify the identification.
-
-%% GLO_RUDIGER.0003 %%
-## Research Needed
-
-%% GLO_RUDIGER.0004 %%
-- Identify the specific reference in Marie's diary
-- Determine if literary, historical, or personal reference
-- Establish context and significance
-
-%% 2026-02-10T20:00:00 RSR: Enriched from stub with provisional identification. Needs further research with diary context. %%
+%% 2026-10-22T22:13:50 RSR: Retired by glossary-merge; content and links moved to COMTESSE_RUDIGER. replaced_by: people/aristocracy/COMTESSE_RUDIGER.md. %%

@@ -17,7 +17,7 @@ The chevalier de Neufarge, a handsome, well-dressed man with a bad reputation at
 
 ## Relevance to Marie
 
-Stub replaced. 'Fils bâtard d'un prince russe' is hearsay as reported by Marie. Duplicate: CHEVALIER_DE_NEUFARGE (same man, Mon Journal t.3/t.4).
+Stub replaced. 'Fils bâtard d'un prince russe' is hearsay as reported by Marie. CHEVALIER_DE_NEUFARGE (merged here; same man, Mon Journal t.3/t.4).
 
 ## References in Diary
 

@@ -41,7 +41,7 @@ In August 1883 he becomes the model of what she wants to paint: "quelque chose q
 - [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md)
 - [#Saint_Marceaux](SAINT_MARCEAUX.md) -- sculptor, exhibited with Bastien-Lepage and Cazin in December 1882
 - [#Millet](../mentioned/MILLET.md)
-- [#Petit](../mentioned/PETIT.md) -- the gallery of Georges Petit, rue de Sèze
+- [#Galerie_georges_petit](../../places/buildings/GALERIE_GEORGES_PETIT.md) -- the gallery of Georges Petit, rue de Sèze
 
 %% GLO_CAZIN.0008 %%
 ## Sources

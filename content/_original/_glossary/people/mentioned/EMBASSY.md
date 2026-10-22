@@ -7,9 +7,11 @@ type: Person
 category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-22
+status: retired
 ---
-# Embassy
 
-The Russian embassy in Paris, the place where, Marie says, the summons papers about her family's Russian lawsuit arrive: on 1883-10-13 (101.0588) one Russian affair is still pending, in which her brother Georges, Alexandre and another man beat a policeman, and her mother and aunt were summoned as witnesses «avec la vieille procédure russe»; her aunt «trouve que cela ne vaut pas un voyage en Russie et tous les six mois il arrive ces vilains papiers à l'ambassade.» The paragraph does not say "russe"; it is the Russian embassy by context. See [#Coronation](CORONATION.md) for the rest of the passage. Not a person; common noun, see the retire list.
+%% GLO_EMBASSY.0001 %%
+**Retired.** «l'ambassade» (101.0588) is the Russian embassy in Paris named by a common noun.
 
-%% 2026-10-22T21:34:22 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%
+%% GLO_EMBASSY.0002 %%
+%% 2026-10-22T22:16:12 RSR: Retired in the stub-pass apply (2026-10-22, owner rule: common nouns and descriptive labels are not tagged); its diary tags were removed. %%

@@ -7,17 +7,12 @@ type: Person
 category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-22
+status: retired
+replaced_by: GALERIE_GEORGES_PETIT
 ---
-# Georges Petit (gallery)
 
-## Overview
-Marie's «chez Petit» is the art gallery of Georges Petit (1856–1920), the Paris dealer who ran the Galerie Georges Petit, a main rival of Durand-Ruel and the host of the annual *Expositions internationales de peinture* from 1882; the gallery was at 8 rue de Sèze (en.wikipedia «Georges Petit»; Metropolitan Museum, Modern Art Index Project, «Galerie Georges Petit», which dates the move from rue Godot de Mauroy to rue de Sèze to 1890). The Mon Journal t.16 index lists «Petit (Galerie de peintures) : 173». The entry is filed under people, but it names a place of business.
+%% GLO_PETIT.0001 %%
+**Retired.** Renamed to [#GALERIE_GEORGES_PETIT](../../places/buildings/GALERIE_GEORGES_PETIT.md) (`places/buildings/GALERIE_GEORGES_PETIT.md`); use that entry instead.
 
-## Relevance to Marie
-On 27 August 1883 the prizes of the Ischia charity lottery are on show there: «les lots sont exposés rue de Sèze chez Petit, la salle chic moderne, wolffiste [sic]» (101.0266). The word *wolffiste* refers to the critic Albert Wolff, who set the tone of the Figaro's art column. Marie had given her *Pêcheur à la ligne* ([PECHEUR_A_LA_LIGNE](PECHEUR_A_LA_LIGNE.md)); see also [Ischia lottery](ISCHIA_LOTTERY.md). The address in 1883 is stated by Marie; the sources above disagree on when the gallery moved to rue de Sèze, so the 1883 location of the gallery itself has not been verified here.
-
-## References in Diary
-- 1883-08-27 (101.0266)
-
-## Sources
-Diary 101.0266; en.wikipedia «Georges Petit»; Metropolitan Museum of Art, Modern Art Index Project (https://www.metmuseum.org/research-centers/leonard-a-lauder-research-center/research-resources/modern-art-index-project/galerie-georges-petit); Mon Journal t.16 index.
+%% GLO_PETIT.0002 %%
+%% 2026-10-22T22:32:20 RSR: Retired (renamed in the stub-pass apply 2026-10-22); content and links moved to GALERIE_GEORGES_PETIT. replaced_by: places/buildings/GALERIE_GEORGES_PETIT.md. %%

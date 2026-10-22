@@ -17,7 +17,7 @@ Probably Alexis de Solms (born 1852; identification 0.8), the son of the Parisia
 - 13 April 1883: «M. le comte de Salms» dines with the Bashkirtseffs, among thirteen guests (099.0123).
 - 27 September 1883: Mme [Faleyeff](FALEYEFF.md) says her daughter is going to marry Salms; Marie reports the daughter's scandal with a Russian consulate attaché and thinks Salms «très amoureux ou très endetté» (101.0456–101.0458).
 - 14 October 1883: at the evening of the engaged couple he plays bezique with Mme Gavini (101.0606, 101.0614, 101.0617): «il sait *tout* et épouse... sans amour», a gambler.
-- 13 December 1882 (097.0235), «le comte de Solms» sits behind her at the Opéra with count Plater (see [PLATER](PLATER.md)); that paragraph is tagged on PLATER, but the man may be this one.
+- 13 December 1882 (097.0235), «le comte de Solms» sits behind her at the Opéra with count Plater (see [PLATER](PLATER.md)); tagged here as well since the stub-pass apply of 2026-10-22 (same name, same Paris circle; 0.8).
 
 ## References in Diary
 - 1883-04-13 (099.0123); 1883-09-27 (101.0456–101.0458); 1883-10-14 (101.0606, 101.0614, 101.0617)

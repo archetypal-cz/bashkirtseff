@@ -23,6 +23,11 @@ Zoé Pelikan, a young Russian woman of Nice, the daughter of M. Pelikan (a paral
 - 1875-03-02 (030.0115): Pelikan writes that his daughter will marry «un officier inférieur de marine du bâteau à vapeur *Prince Pojarski*, un nommé Cross. Belle affaire.»; 03-18 (030.0249): «Zoé a été chez maman avec son Cross. Ils sont très heureux à ce qu'il paraît et s'adorent.»; 04-22 (031.0338): Zoé «s'embrassait avec son Cross».
 - 1880-05-13 (088.0164, Paris): «La fille de Pélikan, Mlle Pélikan est arrivée avec Mme Cross dont le fils a épousé Zoé Pélikan que j'ai connue à Nice»; a second Pelikan daughter ([Mlle Pelikan](MLLE_PELIKAN.md)) comes with the mother-in-law.
 
-Merge proposed: [Zoé](ZOE.md) → ZOE_PELIKAN. See also [Cross](CROSS.md).
+See also [Cross](CROSS.md).
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Sixteen tagged paragraphs read; Mon Journal t.4 and t.13 indices; wrong tag listed for 069.0221. %%
+%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Sixteen tagged paragraphs read; Mon Journal t.4 and t.13 indices; wrong tag listed for 069.0221 (removed in the stub-pass apply: «depuis Pelikan» is her father). %%
+
+%% 2026-10-22T22:13:15 RSR: Merged ZOE (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
+
+%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
+- Merged entry ZOE (first name only): 26 November 1874, «Après le thé Zoé, moi et Dina allâmes au salon, le comte nous suivit» (027.0037); 22 April 1875, her mother tells «que Zoé s'embrassait avec son Cross» (031.0338), the naval officer whose engagement to Zoé Pelikan had been announced on 2 March 1875 (030.0115).

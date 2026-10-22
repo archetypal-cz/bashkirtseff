@@ -1,34 +1,19 @@
 ---
 id: BOISHEBERT
-name: Boishébert
+name: Marquis de Boishébert
 aliases:
   - Boishébert
   - Boishebert
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
-# Boishébert
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 2 mentions
-**Type**: Person/Place
+# Raoul, marquis de Boishébert
 
-## Overview
+%% 2026-10-22T22:16:12 RSR: Body written in the stub-pass apply (2026-10-22) from the tagged paragraph and the Mon Journal t.13 index. %%
+Raoul, marquis de Boishébert (Mon Journal t.13 index «Boishébert (Raoul marquis de) : 36, 72»), the estranged husband of [Mme de Boishébert](MME_DE_BOISHEBERT.md), of whom Marie writes in June 1879 that she is «récemment séparée de M. le marquis de Boishébert, son mari» (085.0328).
 
-[Research needed]
-
-This entry was mentioned 2 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+## In Marie's diary
+- 10 August 1879: of Berthe's husband (Johnstone, «Lancaster»): «Il court avec MM. de Boishébert et de Rohan; ces deux messieurs qui lorsque je les ai nommés comme compagnons de Lancaster ont fait dire à Gavini : "Ah ! ha ! Alors il est clair que c'est un drôle."» (086.0047).

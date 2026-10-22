@@ -5,10 +5,12 @@ aliases:
   - Rosalie Léon
   - Rosalie Leon
   - Léon
+  - Zigouzin
+  - la bella Zigouzin
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Rosalie Léon
 
@@ -32,3 +34,8 @@ Woman in Nice society. Originally thought to be fictional name for Wittgenstein 
 - Drives in coupé (sign of wealth)
 - Marie finds her detestable, ugly, old
 - Freckled face and pinched expression
+
+%% 2026-10-22T22:13:21 RSR: Merged ZIGOUZIN (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
+
+%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
+- «La bella Zigouzin» (merged entry ZIGOUZIN): 12 January 1874 on the Promenade, «La bella Zigouzin se promenait en voiture de malade. Son époux l'a battue, nous supposons», just after Marie has seen Wittgenstein with Lambertye (015.0129). Mon Journal t.3 index: «Léon (Mme Rosalie) [Zigouzin] [La Wittgenstein] demi-mondaine».

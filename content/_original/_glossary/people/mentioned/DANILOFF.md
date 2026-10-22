@@ -3,28 +3,25 @@ id: DANILOFF
 name: Daniloff
 aliases:
   - Daniloff
+  - Mme Daniloff
+  - la Daniloff
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
-# Daniloff
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-07
-**Diary Coverage**: Up to May 1874
+# Mme Daniloff
 
-## Identity
+## Overview
+%% 2026-10-22T22:16:12 RSR: Body rewritten with the merged entry MME_DANILOFF (stub pass 2026-10-22). %%
+Mme Daniloff, a Russian lady of the Nice colony and a friend of the Bashkirtseff household from 1873, mother of a little girl (see [#Jeanne Daniloff](JEANNE_DANILOFF.md)). The Mon Journal indexes list «Daniloff (Mme)» in t.1–t.10 and «Daniloff (Jeanne)» separately. Her forename is not given.
 
-Mme Daniloff - Russian expatriate in Nice who provides lodging to the ill princess (likely referring to a member of Russian nobility).
+## In Marie's diary
+- 17 May 1873: among the callers (004.0375).
+- May 1874: she lodges the ill princess who had been delirious (see the earlier tagged paragraphs).
+- 4 October 1874: «Mme Daniloff déjeune chez nous avec sa petite fille. C'est une excellente femme» (024.0229); 11 October, present at the quarrel over her aunt's money (024.0293).
+- 4 November 1874: her presence at a dinner «compromet en société», and «sans parler de son passé, dans son présent elle ne se conduit pas comme il convient» (025.0105).
+- 16 November 1874: «la Daniloff» lunches with the family (025.0252). Further paragraphs are tagged here.
 
-## Context
-
-Part of the Russian émigré community in Nice. Trusted enough to care for an ill princess who had been delirious.
-
-## Appearances
-
-### 1874
-- **May 5**: Housing the princess who had been delirious but is now recovering
-
-%% 2025-07-07T08:01:00 RSR: Created basic entry for Daniloff based on May 5, 1874 reference %%
+%% 2026-10-22T22:12:14 RSR: Merged MME_DANILOFF (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%

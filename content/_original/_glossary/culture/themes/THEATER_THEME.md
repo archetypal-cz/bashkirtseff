@@ -220,7 +220,7 @@ The following glossary entries cover specific theaters and performance venues Ma
 - [#Opera](../../places/theaters/OPERA.md) -- The Paris Opera, housed in the Palais Garnier from 1875
 - [#Theatre_des_Varietes](../../places/theaters/THEATRE_DES_VARIETES.md) -- Boulevard theater known for operettas and comedies
 - [#Theatre_des_Italiens](../../places/theaters/THEATRE_DES_ITALIENS.md) -- Home of Italian opera in Paris
-- [#Theatre_du_Vaudeville](../../places/theaters/THEATRE_DU_VAUDEVILLE.md) -- Boulevard theater for light comedies
+- [#Vaudeville](../../places/theaters/VAUDEVILLE.md) -- Boulevard theater for light comedies
 - [#Theatre_de_la_Gaite](../../places/theaters/THEATRE_DE_LA_GAITE.md) -- Popular theater
 - [#Theatre_de_la_Porte_Saint_Martin](../../places/theaters/THEATRE_DE_LA_PORTE_SAINT_MARTIN.md) -- Major boulevard theater
 - [#Theatre_de_la_Renaissance](../../places/theaters/THEATRE_DE_LA_RENAISSANCE.md) -- Boulevard theater

@@ -21,7 +21,7 @@ Prince Peter Karageorgevitch (1844–1921), Marie's friend Bojidar's cousin, pre
 - 17 September 1883: since the marriage Pierre has become the candidate «prôné par l'empereur Alexandre»; she wonders «si nos Bojidar sont des Karageorgevitch sérieux» and pushes the princess to be on good terms with him, for the family is «en délicatesses» (101.0380).
 
 ## References in Diary
-- 1878-10-27 (083.0059); 1883-03-15 (098.0505); 1883-08-05 (100.0498); 1883-09-17 (101.0380); the tag at 088.0728 (13 June 1880) concerns «Alexis Karageorgevitch», not Pierre (see the list of wrong tags).
+- 1878-10-27 (083.0059); 1883-03-15 (098.0505); 1883-08-05 (100.0498); 1883-09-17 (101.0380); 088.0728 (13 June 1880), about «Alexis Karageorgevitch», also names «Le prince Pierre est le prétendant remuant et avoué», so the tag stays.
 
 ## Sources
 en.wikipedia «Peter I of Serbia» (https://en.wikipedia.org/wiki/Peter_I_of_Serbia); «Princess Zorka of Montenegro»; Mon Journal t.12 index and p.240; entries [KARAGEORGEVITCH](../mentioned/KARAGEORGEVITCH.md), BOJIDAR, ALEXIS.

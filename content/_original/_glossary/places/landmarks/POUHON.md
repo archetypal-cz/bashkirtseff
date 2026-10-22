@@ -8,7 +8,7 @@ category: places/landmarks
 research_status: Moderate
 last_updated: 2026-10-22
 wikipedia:
-  - https://historicthermaltowns.eu/portal/spa-belgium/
+  - https://historicthermaltowns.eu/portfolio/spa-belgium/
 ---
 # Pouhon (Spa)
 

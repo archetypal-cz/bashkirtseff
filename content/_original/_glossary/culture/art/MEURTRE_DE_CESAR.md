@@ -48,7 +48,7 @@ The same evening's list that makes her dizzy (102.0352) is "Les Saintes femmes..
 
 %% GLO_MEURTRE_DE_CESAR.0010 %%
 - [#Plutarque](../../people/writers/PLUTARQUE.md) -- her source
-- [#Cesar](../../people/mentioned/CESAR.md) -- Julius Caesar in the glossary
+- [#Caesar](../../people/historical/CAESAR.md) -- Julius Caesar in the glossary
 - [#Les_Saintes_Femmes](./LES_SAINTES_FEMMES.md), [#Le_Printemps](./LE_PRINTEMPS.md), [#Ariane_statue](./ARIANE_STATUE.md) -- the other projects of the same winter
 - [#Art_practice](../themes/ART_PRACTICE.md)
 

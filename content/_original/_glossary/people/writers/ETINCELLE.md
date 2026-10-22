@@ -9,10 +9,14 @@ aliases:
   - Marie Biard
   - baronne Double
   - Mme de Peyronny
+  - Mme de Peyronney
+  - Mme de Peronney
+  - vicomte de Létorières
+  - vicomtesse de Létarière
 type: Person
 category: people/writers
 research_status: Moderate
-last_updated: 2026-10-11
+last_updated: 2026-10-22
 ---
 
 %% GLO_ETINCELLE.0001 %%
@@ -67,3 +71,14 @@ Later she became the **baronne Double**: the diary's "baron Dauble" or "Double" 
 %% 2026-10-11T12:00:00 RSR: Open points. (1) "Mimie" is not named in fr.wikipedia, which gives the daughter as Camille; a nickname is plausible but unproved. (2) Marriage date: diary says already married in Germany in May 1884 (104.0210); fr.wikipedia says London 1885 and cites a civil-register reference dated 1892 that does not obviously fit; not resolved. (3) No portrait found on Commons or Wikidata (no P18); none added. (4) The glossary also holds PEYRONNEY, PERONNEY and MME_DE_PEYRONNEY, all stubs; in the diary "Peyronney" can be Étincelle herself (091.0409) or her husband (098.0149, "de Peyronney ne veut pas en entendre parler"); they should be reviewed together with this page. %%
 
 %% 2026-10-22T12:28:32 RSR: Merged PEYRONNEY (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+
+%% 2026-10-22T22:11:34 RSR: Merged LETORIERE (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
+
+%% 2026-10-22T22:11:40 RSR: Merged LETORIERES (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
+
+%% GLO_ETINCELLE.0015 %%
+## «Mme de Peyronney (vicomtesse de Létarière)»
+
+%% GLO_ETINCELLE.0016 %%
+%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
+Marie also names her by the other pen name and by her married name: «Mme de Peyronney (vicomtesse de Létarière) devait venir avec nous» (091.0409, 2 April 1881); «le "Carnet d'un mondain" signé Etincelle, du "Figaro", que fait Mme de Peronney (le vicomte de Létorières)» (091.0321, 19 March 1881). Mon Journal t.14 index: «Peyronney (Mme), vicomtesse de Létarière». (Merged entries LETORIERE, LETORIERES.)

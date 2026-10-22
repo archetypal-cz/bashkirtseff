@@ -7,9 +7,11 @@ type: Person
 category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-22
+status: retired
 ---
-# Croquet
 
-Not a person: the lawn game. Marie mentions it twice, both times at Jouy-en-Josas in the summer of 1883: on 1883-08-31 (101.0301) the household «a acheté un jeu de croquet», and on 1883-09-01 (101.0304) she plays «avec les filles du général Hartung, deux très élégantes personnes majeures» after her first ride in three years through the Meudon woods. The Mon Journal t.16 index has «Hartung (filles)» on p.29; for the general see [#Hartung](HARTUNG.md). Common-noun entry; see the retire list.
+%% GLO_CROQUET.0001 %%
+**Retired.** The game of croquet (101.0301, 101.0304); a common noun.
 
-%% 2026-10-22T21:28:59 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%
+%% GLO_CROQUET.0002 %%
+%% 2026-10-22T22:16:12 RSR: Retired in the stub-pass apply (2026-10-22, owner rule: common nouns and descriptive labels are not tagged); its diary tags were removed. %%

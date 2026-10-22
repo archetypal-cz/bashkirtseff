@@ -17,7 +17,7 @@ Mme de Jolly, one of the «ravissant trio» of beauties (Mmes de Reverseaux, Tho
 
 ## Relevance to Marie
 
-Stub replaced. Forename and family not found. WRONG-TAG CANDIDATE: 091.0484 names the Gavinis, the Bois, Pré Catalan and Montgomery; no «Jolly» in the text read.
+Stub replaced. Forename and family not found. 091.0484 (17 April 1881, Pré Catalan) lists «Mmes de Reverseaux, Thouvenel, de Joly, Janvier»: Marie spells the name «Joly» there; the tag stands.
 
 ## References in Diary
 
