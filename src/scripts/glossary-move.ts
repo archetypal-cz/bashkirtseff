@@ -54,7 +54,7 @@ Options:
 Examples:
   just glossary-move BARBIER_DE_SEVILLE culture/opera
   just glossary-move WALITSKY people/recurring
-  just glossary-move --dry-run RUSSIA places/countries
+  just glossary-move RUSSIA places/countries --dry-run   # flags after ID and category
 `);
 }
 

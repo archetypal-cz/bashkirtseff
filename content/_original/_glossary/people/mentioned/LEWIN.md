@@ -30,7 +30,7 @@ Man who appears to be romantically involved with Clémentine, possibly engaged.
 - Marie finds their constant togetherness notable
 
 ## Related Entries
-- [#Clementine](CLEMENTINE.md) - Constant companion/fiancée
+- [#Clementine_Durand](CLEMENTINE_DURAND.md) - Constant companion/fiancée
 
 ## Research Notes
 - Engagement customs in 1870s

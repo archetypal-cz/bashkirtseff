@@ -31,7 +31,7 @@ Person Tchernichoff resembles, along with "vieux Emile."
 
 ## Related Entries
 - [#Tchernichoff](TCHERNICHOFF.md) - Resembles him
-- [#Emile](EMILE.md) - Also resembles him
+- [#Leon_d_audiffret](LEON_D_AUDIFFRET.md) - Also resembles him
 
 ## Research Notes
 - Male vanity and hair dyeing

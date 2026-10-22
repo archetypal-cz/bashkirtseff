@@ -18,3 +18,5 @@ A Russian family, «d'anciennes connaissances» of the Bashkirtseffs (022/1874-0
 The file people/recurring/TAMANCHOFF.md is an unused duplicate stub.
 
 %% 2026-10-22T14:32:26 RSR: Identity written (ledger B-77 (5), Ostende «Lise»/«Katia»); the girls' paragraphs 023.0248, 0276, 0303, 0321, 0322, 0339 tagged here. %%
+
+%% 2026-10-22T15:08:02 RSR: Merged TAMANCHOFF (no content kept: empty stub) %%

@@ -33,3 +33,5 @@ This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
 ## Related Entries
 
 [To be determined based on research]
+
+%% 2026-10-22T15:08:14 RSR: Merged ROI (no content kept: empty stub) %%

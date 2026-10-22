@@ -23,3 +23,4 @@ We are not sure who this is: Marie gives no first name, and the Meshchersky fami
 - 1876-02-18 (054.0225); 1876-02-25 (054.0451, 054.0461); 1876-04-02 (056.0333, 056.0350)
 
 %% 2026-10-22T15:05:00 RSR: Body written for OPEN-ITEMS B-51 (6) (Mechtchersky files undifferentiated). Two legacy tags in 068 (068.1120, 068.1569) do not mention a Mechtchersky; left for review (outside this sweep's range). %%
+%% 2026-10-22T15:01:06 RSR: CORRECTION of the note above: both 068 paragraphs do name a Mechtchersky. 068.1569 «j'étais avec le prince Mechtchersky» (Naples, Feb 1877) keeps this tag; 068.1120 «la princesse Mechtchersky» (the name Marie gives her own domino at the Rome ball, Feb 1877) is retagged MLLE_MECHTCHERSKY, the young princess of 068.1609 (0.7). %%

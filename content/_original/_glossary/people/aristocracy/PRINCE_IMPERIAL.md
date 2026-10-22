@@ -125,7 +125,7 @@ The Prince Imperial's death was a watershed:
 ## Related Entries
 - [#Napoleon_III](../politicians/NAPOLEON_III.md) - His father, former Emperor
 - [#Imperatrice_Eugenie](../mentioned/IMPERATRICE_EUGENIE.md) - His mother, Empress Eugénie
-- [#Chislehurst](../mentioned/CHISLEHURST.md) - Exile residence in England
+- [#Chislehurst](../../places/cities/CHISLEHURST.md) - Exile residence in England
 - [#Lieutenant_Carey](../mentioned/LIEUTENANT_CAREY.md) - Officer blamed for not saving him
 - [#Politics](../../culture/themes/POLITICS.md) - The Bonapartist movement he symbolized (thematic tag)
 - [#Cassagnac](../recurring/CASSAGNAC.md) - Bonapartist journalist who mourned him

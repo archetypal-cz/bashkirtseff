@@ -62,6 +62,6 @@ Mary, along with her sister Olga, was one of Marie's closest friends in Nice. To
 ## Related Entries
 
 - [#OLGA](OLGA.md) - Her sister Olga
-- [#Three_Graces](../../culture/art/THREE_GRACES.md) - Their secret society
+- [#Three_Graces](../../culture/social_customs/THREE_GRACES.md) - Their secret society
 
 %% 2026-02-11T13:25:00 RSR: Per Kernberger (2013), Mary Sapogenikoff was the daughter of Nina Sapogenikoff. The Sapogenikoffs were a Russian family, close friends of Marie's family in Nice. Enriched from stub. %%

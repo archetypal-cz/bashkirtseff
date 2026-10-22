@@ -68,6 +68,6 @@ His work represented a middle path between Romantic idealization and Naturalist 
 ## Related Entries
 
 - [#Emile_Zola](EMILE_ZOLA.md) - Friend and fellow writer
-- [#Georges_Sand](../../places/cities/GEORGES_SAND.md) - Unfavorably compared to Daudet
+- [#George_Sand](GEORGE_SAND.md) - Unfavorably compared to Daudet
 - Naturalism - Literary movement (no glossary entry)
 - Parisian literary life (no glossary entry)

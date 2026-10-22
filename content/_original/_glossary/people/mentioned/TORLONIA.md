@@ -59,3 +59,5 @@ Marie and Rosalie call him «Torniole» (072.0190 «Torniole i.e. Torlonia»; 07
 
 %% 2026-10-21T12:45:00 RSR: Identification added during RSR research of the restored 072–077 paragraphs (rsr-1877); sources are the two tome indexes and the paragraphs cited. The other uses of this file (Rome 1876, «Clément», «le blond sympathique» per the tag-audit calibration) were not re-checked. %%
 %% 2026-10-22T15:16:00 RSR: OPEN-ITEMS B-53(6): don Clemente's place in the family is still not established. Checked: en.wikipedia pages of the Torlonia princes of Civitella-Cesi and dukes of Poli (Giovanni, Marino, Giulio's sons Leopoldo and Marino, Alessandro); none names a Clemente. The index title «duc» (t.10) is not confirmed by any source found. %%
+
+%% 2026-10-22T15:07:09 RSR: Merged CLEMENT (no content kept: empty stub) %%

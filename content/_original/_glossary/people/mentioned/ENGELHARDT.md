@@ -58,7 +58,7 @@ Another entry, [Mme Engelhardt](ENGELHARDT.md), describes the same lady from the
 - [Mme Engelhardt](ENGELHARDT.md) -- duplicate entry for the mother
 - [Tchernitsky](./TCHERNITSKY.md) -- the singer ("Cerny") who goes everywhere with them
 - [Pope](./POPE.md) -- the Orthodox priest, the other fixture of the 1883 table
-- [Gil Blas](./GIL_BLAS.md) -- the newspaper of the December 1883 item
+- [Gil Blas](../../culture/newspapers/GIL_BLAS.md) -- the newspaper of the December 1883 item
 - [Gavini](./GAVINI.md)
 
 %% GLO_ENGELHARDT.0013 %%

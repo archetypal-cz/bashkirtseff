@@ -26,3 +26,5 @@ The old man is also Marie's «vieux Emile» of the Nice winters of 1874–75, an
 
 %% GLO_LEON_D_AUDIFFRET.9400 %%
 %% 2026-10-03T16:00:00 RSR: IDENTITY UNCONFIRMED: kinship to Emile d'Audiffret not established (owner ruling 2026-10-03: kept separate; 'le vieux d'Audiffret papa' is Marie's joke, 046/1875-10-06). %%
+
+%% 2026-10-22T15:07:26 RSR: Merged EMILE (no content kept: empty stub) %%

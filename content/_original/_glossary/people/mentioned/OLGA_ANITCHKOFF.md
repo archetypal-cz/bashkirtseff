@@ -29,7 +29,7 @@ The «Olga Anitchkoff» of April 1874 is the same child (0.85): the t.3 index gi
 
 ## Related Entries
 - [#Anitchkoff](../recurring/ANITCHKOFF.md) - Family connection
-- [#Marie_Anitchkoff](../../places/churches/MARIE_ANITCHKOFF.md) - her sister Marie (Bogdanova) (file misfiled under places/churches)
+- [#Marie_Anitchkoff](MARIE_ANITCHKOFF.md) - her sister Marie (Bogdanova) (file misfiled under places/churches)
 
 ## Research Notes
 %% 2026-10-22T14:20:00 RSR: OPEN-ITEMS B-35(3): the 1874 Olga settled as the same child (t.3 index one «Mlle Olga»; the unruly children of 017.0015, 018.0226). The old "Context" list (erratic adult, "mental health stigma") rested on reading her as an adult and is removed. The related link MARIE_ANITCHKOFF is filed under places/churches (misfiling, reported). Alias «Anitchkoff» removed (it would tag every Anitchkoff on her). %%

@@ -25,3 +25,5 @@ Clémentine Durand, one of the daughters of the Spanish Mme Durand of Nice (sist
 - [#Durand](DURAND.md) — the family
 
 %% 2026-10-22T14:21:23 RSR: Body rewritten (B-66(1), Mme de Lewin). The older text («someone from mother's past … possibly deceased») did not know who she was. people/mentioned/CLEMENTINE.md («woman constantly seen on Lewin's arm») is the same woman: merge CLEMENTINE → CLEMENTINE_DURAND (lead). %%
+
+%% 2026-10-22T15:07:20 RSR: Merged CLEMENTINE (no content kept: empty stub) %%

@@ -235,7 +235,7 @@ for (const [c, s] of perCarnet) {
   console.log(`${c}  ${String(s.files).padStart(5)}  ${String(s.changed).padStart(7)}  ${String(s.added).padStart(4)}  ${String(s.removed).padStart(4)}`);
   tot.files += s.files; tot.changed += s.changed; tot.added += s.added; tot.removed += s.removed;
 }
-console.log(`kept as tag candidates (not removed): ${keptCount}${strict ? ' (strict: off)' : ''}`);
+console.log(`kept as tag candidates (not removed): ${keptCount}${strict ? ' (--strict: none kept)' : ''}`);
 if (candidatesPath) {
   fs.writeFileSync(candidatesPath, ['file\tid\talias\tparagraph', ...candidates.map(c => [c.file, c.id, c.alias, c.para].join('\t'))].join('\n') + '\n');
   console.log(`candidates: ${candidatesPath}`);

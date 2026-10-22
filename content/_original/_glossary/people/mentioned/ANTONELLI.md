@@ -276,7 +276,7 @@ Marie's retrospective self-annotation, added marginally to one of the early entr
 - [#Cardinal_Antonelli](CARDINAL_ANTONELLI.md) -- Cardinal Giacomo Antonelli (1806-1876), Vatican Secretary of State, Pietro's uncle
 - [#Louis_Antonelli](LOUIS_ANTONELLI.md) -- Count Luigi/Louis Antonelli, Pietro's father
 - [#Paul_Antonelli](PAUL_ANTONELLI.md) -- Paolo/Paul Antonelli, Pietro's brother
-- [#Pierre_Antonelli](PIERRE_ANTONELLI.md) -- alternate French-form reference to Pietro
+- [#Antonelli](ANTONELLI.md) -- alternate French-form reference to Pietro
 
 %% GLO_ANTONELLI.0063 %%
 ## Related Entries
@@ -299,3 +299,5 @@ Marie's retrospective self-annotation, added marginally to one of the early entr
 ## Research Notes
 
 %% 2026-05-24T14:00:00 RSR: Comprehensive expansion from stub. Key discovery: the Wikipedia "Pietro Antonelli" diplomat/explorer (1853-1901) IS the same person as Marie's Roman romantic interest. The identification is confirmed by: (1) exact match of parents' names (Count Luigi and Camilla Folchi), (2) exact match of birth date (April 29, 1853 -- Pietro told Marie he would turn 23 in April, confirmed by Wikipedia), (3) the diary records his departure for Africa after the Cardinal's death and the family's financial decline -- Wikipedia confirms he left Italy at 26 (1879). The English Wikipedia incorrectly calls Pietro the Cardinal's "grandson"; the Italian Wikipedia correctly says "nipote" (nephew), and Marie's detailed family tree (059, April 29) makes the relationship unambiguous: the Cardinal was Luigi's brother, making Pietro the nephew. Marie's diary is thus a unique primary source for Pietro's early life -- his personality, his family dynamics, the Caccia-Club scandal, and the monastery episode -- none of which appear in any other known source. %%
+
+%% 2026-10-22T15:06:58 RSR: Merged PIERRE_ANTONELLI (no content kept: empty stub) %%

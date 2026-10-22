@@ -27,3 +27,5 @@ The t.12, t.13 and t.14 indexes list only «Turquan (M.)» (and the brother); no
 080.0489, 080.0523 (1878-06-08); 081.0004; 083.0091, 083.0110, 083.0237 (Nov 1878); 085–089 (1879–1880, passim); 091.0520; 094.0082; 102.0497 (1883-12-16); 104.0022 (1884-04-20).
 
 %% 2026-10-22T14:38:26 RSR: B-67 (5): body written from the paragraphs and the t.12–t.16 indexes; the M_TURQUAN tags (080, 083) retargeted here (duplicate stub, retire); 102.0497 tagged. %%
+
+%% 2026-10-22T15:08:26 RSR: Merged M_TURQUAN (no content kept: empty stub) %%

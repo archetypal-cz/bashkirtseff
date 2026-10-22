@@ -8,12 +8,15 @@ category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-22
 ---
-# Raynaud
+# Raynaud (Nice, 1875)
 
-## Two different Raynauds
-This file is tagged for two unrelated people; it should be split (or the first referent dropped):
+## Overview
+«Un certain Raynaud» of Nice, October 1875: «On a des soupçons contre un certain Raynaud, qui est ici et qui était à Genève» (047.0117), suspected of writing the anonymous letters signed «Georges» that tried to set Cima against Marie Sapogenikoff (047.0116). Not identified; one mention.
 
-1. **«un certain Raynaud»** (Nice, 17 October 1875): «On a des soupçons contre un certain Raynaud, qui est ici et qui était à Genève» (047.0117), suspected of writing the anonymous letters signed «Georges» that tried to set Cima against Marie Sapogenikoff (047.0116). Not identified; one mention.
-2. **The Raynaud family of Nice, 1877**: «Mademoiselle Raynaud, c'est-à-dire Françoise la blanchisseuse», whose mother is the household's cook in emergencies and whose father is a cobbler, brings Marie a bouquet, and «Madame Raynaud elle-même» comes with her married daughter, whose child Marie will be godmother to (071.0547–0548, 3 June 1877).
+The Raynaud family of 1877 (Françoise the laundress, her mother and sister, 071.0547–0548) is a different family: see [#Raynaud_family](../service/RAYNAUD_FAMILY.md).
+
+## References in Diary
+- 1875-10-17 (047.0117)
 
 %% 2026-10-22T14:33:38 RSR: Body written (ledger B-68 (3)): split needed (lead). %%
+%% 2026-10-22T15:12:00 RSR: Split done: 071.0547–0548 retagged RAYNAUD_FAMILY; this file keeps the 1875 suspect. %%
