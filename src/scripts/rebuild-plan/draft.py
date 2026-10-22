@@ -502,7 +502,8 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
         rng = f'¶{a_}' if a_ == b_ else f'¶{a_}–{b_}'
         pg = tome.pages(a_, b_)
         where = f"tome{tome.tome:02d}.docx {rng}" + (f", Mon Journal t.{tome.tome} {pg}" if pg else '')
-        return f'Restored from {where} (missing from original extraction, {TODAY} rebuild).'
+        # a source citation, not rebuild history (KRR 2026-10-22: _original keeps result notes only)
+        return f'Source: {where}.'
 
     items = []  # (key, carnet, plan paragraph, info)
     doms = {c: dominant_style(tome, c) for c in tome.carnets}
@@ -572,7 +573,7 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
     for h in hidx:
         nxt = next((x for x in hidx if x > h), b)
         if not any(h <= kk < nxt for kk, *_ in items) and (tome.seg.get(h) or carnet_near(h)):
-            items.append((h + 0.5, tome.seg.get(h) or carnet_near(h), {'new': {'french': EMPTY_DAY, 'rsr': f"tome{tome.tome:02d}.docx ¶{h}: the date line «{tome.R[h]['t'][:40]}» has no text under it ({TODAY} rebuild)."}}, None))
+            items.append((h + 0.5, tome.seg.get(h) or carnet_near(h), {'new': {'french': EMPTY_DAY, 'rsr': f"tome{tome.tome:02d}.docx ¶{h}: the date line «{tome.R[h]['t'][:40]}» has no text under it."}}, None))
             rv['empty_days'].append(f"{heads[h]['date']} (¶{h}, Livre {int(tome.seg.get(h) or carnet_near(h))}): no text under the date line — «{EMPTY_DAY}» inserted")
 
     # --- entries per carnet
@@ -623,7 +624,7 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
                 a_, b_ = ch[0][0], ch[-1][0]
                 pg = tome.pages(a_, b_)
                 cover['paragraphs'].append({'new': {'french': '\n'.join(t for _, t in ch), 'kind': 'cover', 'source': f'page de titre du Livre {int(carnet)}',
-                                                    'rsr': f"Restored from tome{tome.tome:02d}.docx ¶{a_}{'' if a_ == b_ else '–' + str(b_)}" + (f", Mon Journal t.{tome.tome} {pg}" if pg else '') + f": the title page Marie wrote for Livre {int(carnet)}; cover entry ({TODAY} rebuild)."}})
+                                                    'rsr': f"The title page Marie wrote for Livre {int(carnet)}. Source: tome{tome.tome:02d}.docx ¶{a_}{'' if a_ == b_ else '–' + str(b_)}" + (f", Mon Journal t.{tome.tome} {pg}" if pg else '') + "."}})
                 fl = ocr_flags(' '.join(t for _, t in ch))
                 if fl:
                     rv['ocr'].append(f"cover ¶{a_}: {', '.join(fl)} — «{' / '.join(t for _, t in ch)[:80]}»")
