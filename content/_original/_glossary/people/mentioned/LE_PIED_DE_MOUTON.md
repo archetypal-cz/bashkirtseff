@@ -7,8 +7,11 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
-# Le pied de mouton
 
-Stub entry — needs research.
+%% GLO_LE_PIED_DE_MOUTON.0001 %%
+## Le Pied de mouton
+
+%% GLO_LE_PIED_DE_MOUTON.0002 %%
+Féerie by Martainville and Ribié, first performed at the Théâtre de la Gaîté on 6 December 1806 (Wikipedia, «Féerie»; BnF data, «Le pied de mouton (1806)»). Marie sees it on 15 June 1874: «c'est une pièce de foire. C'est stupide» (020.0295).

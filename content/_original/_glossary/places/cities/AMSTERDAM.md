@@ -21,3 +21,4 @@ last_updated: 2026-10-01
 
 %% GLO_AMSTERDAM.0004 %%
 - 080.0170 (1878-05-18): tagged with the letter from Jeanne Suermondt written at nearby Halfweg.
+- 101.0080 (1883-08-13, Paris): of Bastien-Lepage, whom Marie praises for not speaking of himself or his talent: «la seule fois ça a été à propos de son envoi à Amsterdam qu'il a traité de "pochade"» (footnote: a rapid oil sketch, dashed off rather than laboured). A work of his had been sent to an exhibition in Amsterdam; nothing more is said.

@@ -6,11 +6,20 @@ aliases:
 type: Place
 category: places/buildings
 research_status: Basic
-last_updated: 2026-10-02
+last_updated: 2026-10-22
+wikipedia:
+  - https://en.wikipedia.org/wiki/Ivan_Turgenev
 ---
-# Gare
+# La gare (Paris, 1883)
 
-Stub entry — needs research.
+## Overview
 
-%% GLO_GARE.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/GARE.md (a place filed under people). Body copied unchanged. %%
+The railway station from which Turgenev's coffin was sent to Russia on 1 October 1883: «Notre grand écrivain Tourguenieff mort il y a quinze jours est expédié aujourd'hui en Russie. Grande cérémonie d'adieux à la gare. Discours de M. Renan, de M. About et de Virouboff un Russe qui a parlé français très bien et a ému plus que les autres» (101.0470). A commemorative service was held at the Gare du Nord, with Renan and About speaking beside the train (Henry James, «Ivan Turgenieff», 1903, via the Wikipedia article «Ivan Turgenev», which gives his death at Bougival on 3 September 1883). Marie's «il y a quinze jours» is her own count.
+
+The entry is tagged only on this paragraph. A generic «gare» is a common noun and is not otherwise tagged. Retire or rename (e.g. GARE_DU_NORD) proposed.
+
+## In Marie's diary
+
+- 1883-10-01 (101.0470, Paris): the farewell ceremony.
+
+%% 2026-10-22T21:34:40 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph; Turgenev ceremony from Wikipedia 'Ivan Turgenev' (Henry James tribute). Virouboff not verified. %%

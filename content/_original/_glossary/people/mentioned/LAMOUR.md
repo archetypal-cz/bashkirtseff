@@ -6,8 +6,11 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
-# Lamour
 
-Stub entry — needs research.
+%% GLO_LAMOUR.0001 %%
+## L'Amour (Michelet)
+
+%% GLO_LAMOUR.0002 %%
+Book by Jules Michelet, *L'Amour* (1858), on love and marriage. Marie reads it in June 1874: «Je trouve "L'amour", par Michelet, fade, ennuyeux et sale. Cet amour dégoûterait de l'amour» (020.0215, 12 June 1874). See MICHELET.

@@ -8,9 +8,19 @@ category: places/shops
 research_status: Basic
 last_updated: 2026-10-22
 ---
-# Alfred
+# Alfred (couture house, Paris)
 
-## Identity
-«Alfred» is a Paris tailor for ladies' riding habits (amazones), a business rather than a friend (Mon Journal t.3 index «Alfred, maison de couture, 228, 231, 236»; t.4 «Alfred, maison de couture, 8»). In June 1874 an acquaintance recommends «un tailleur pour amazone, à côté de nous, Alfred» (020.0189, 9 June); Marie and maman order a habit there («Il va me faire une amazone», 020.0238, 13 June; he also works for the princess Souvoroff); «Alfred m'essaye l'amazone» (020.0299, 16 June); at Spa «Alfred a expédié...» (021.0035, 7 July), i.e. the habit has been sent on. Not the same as Alfred Boreel ([#Boreel](../../people/recurring/BOREEL.md)). This file belongs under places/shops.
+## Overview
 
-%% 2026-10-22T14:21:36 RSR: Written from the four tagged paragraphs and the t.3/t.4 indexes (ledger B-64 (4), 021.0035 «Alfred a expédié»). %%
+«Alfred», the Paris dressmaker and tailor from whom Marie orders her riding habit (*amazone*) in June 1874. Princess Souvoroff recommended him «un tailleur pour amazone, à côté de nous» (the family was at the hôtel Scribe) when they met on the promenade (020.0189, 9 June 1874). Mon Journal indices: t.3 «Alfred, maison de couture, 228, 231, 236»; t.4 «Alfred, maison de couture, 8». His surname and address are not given.
+
+## In Marie's diary
+
+- 1874-06-09 (020.0189, Paris): recommended by Princess Souvoroff, who rides with M. Zveguinzoff.
+- 1874-06-13 (020.0238): Marie goes with her mother, who tells him the story of Dusautoy; «Il va me faire une amazone»; he also dresses Princess Souvoroff, who left the day before at five in the morning «presque en cachette, on croit qu'elle a des dettes».
+- 1874-06-16 (020.0299): «Alfred m'essaye l'amazone.»
+- 1874-07-07 (021.0035): «Alfred a expédié...» (the order is sent off).
+
+Filing: a business, not a person; kept in places/shops.
+
+%% 2026-10-22T21:34:03 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Four paragraphs + Mon Journal t.3 and t.4 indices. 021.0035's Alfred is read as the same house (the dress sent off), not certain. %%

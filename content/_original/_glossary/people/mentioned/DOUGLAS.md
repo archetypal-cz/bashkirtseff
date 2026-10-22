@@ -6,8 +6,10 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Douglas
 
-Stub entry — needs research.
+An actress, Mme Douglas, whom Marie names only as a point of comparison: describing Mme Angel on 1874-10-19 (024.0362), she says the lady is a Russian of thirty-five with magnificent hair, and that to make her one would have to melt together «Mlle Collignon et Douglas, l'actrice dramatique de l'année dernière». The Mon Journal t.4 index has «Douglas (Mme), actrice, 180». She was therefore a dramatic actress seen in Nice during the previous (1873–74) season; no first name or company was found.
+
+%% 2026-10-22T21:32:38 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

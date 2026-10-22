@@ -7,8 +7,12 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Crystal Palace
 
-Stub entry — needs research.
+The Crystal Palace at Sydenham, south London: the iron-and-glass hall first built in Hyde Park for the Great Exhibition of 1851, bought by a private company in 1854 and re-erected on Sydenham Hill, where it housed exhibitions, concerts and events until it burned down in 1936 (en.wikipedia «Sydenham, London»; London Museum, «Crystal Palace, Sydenham»).
+
+Marie visits it once, during the London days of September 1874 (023.0630, 1874-09-10): «Nous allons chez Brown et ensuite au Crystal Palace. Nous le visitons malgré les hurlements de ma tante.» Not a person; it belongs among the places (see the move list).
+
+%% 2026-10-22T21:29:21 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

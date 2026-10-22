@@ -12,7 +12,7 @@ last_updated: 2026-05-31
 
 ## Overview
 
-A social acquaintance encountered at the Grand Prix at Longchamp on 30 May 1880, listed among fashionable society: "Pernety, Nervo [...] L. Chevreau, prince de Monaco, Dufour, de Lareintie etc." No further biographical details available from diary context.
+A social acquaintance encountered at the Grand Prix at Longchamp on 30 May 1880, listed among fashionable society: "Pernety, Nervo [...] L. Chevreau, prince de Monaco, Dufour, de Lareintie etc." The Mon Journal t.13 index has «Dufour (M.): 263» (the page of the entry of 30 May 1880). First name, profession and any link to the other names of the list were not found.
 
 ## References in Diary
 

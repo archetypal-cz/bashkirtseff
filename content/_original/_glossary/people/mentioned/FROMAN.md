@@ -12,7 +12,7 @@ last_updated: 2026-05-31
 
 ## Overview
 
-A social acquaintance who appears among visitors to Marie's home on 29 May 1880: "Gavini, Berthe, Antoine, d'Alt, Froman, Moraes, Bailleul, Soutzo." No further details available from diary context.
+A social acquaintance who appears among visitors to Marie's home on 29 May 1880: "Gavini, Berthe, Antoine, d'Alt, Froman, Moraes, Bailleul, Soutzo." The Mon Journal t.13 index has «Froman (M.): 262» (the page of this passage). He is one of the callers of 29 May 1880; first name and profession were not found.
 
 ## References in Diary
 
