@@ -4,7 +4,7 @@ name: Smith (furniture shop, Paris)
 aliases:
   - Smith
 type: Place
-category: people/mentioned
+category: places/shops
 research_status: Basic
 last_updated: 2026-10-22
 ---
@@ -12,7 +12,7 @@ last_updated: 2026-10-22
 
 ## Overview
 
-A Paris furniture dealer and decorator whom the Bashkirtseffs consult in May-June 1874 while furnishing their new home: Mon Journal t.3 index «Smith, magasin de meubles, 191, 197, 214, 230, 236». Not a person of Marie's acquaintance; not [Miss Smith](MISS_SMITH.md) of Florence.
+A Paris furniture dealer and decorator whom the Bashkirtseffs consult in May-June 1874 while furnishing their new home: Mon Journal t.3 index «Smith, magasin de meubles, 191, 197, 214, 230, 236». Not a person of Marie's acquaintance; not [Miss Smith](../../people/mentioned/MISS_SMITH.md) of Florence.
 
 ## Relevance to Marie
 

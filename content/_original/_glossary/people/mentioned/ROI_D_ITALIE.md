@@ -7,9 +7,12 @@ type: Person
 category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-22
+status: retired
+replaced_by: VICTOR_EMMANUEL_II
 ---
-# Roi d'Italie
 
-Not an entity: «le roi d'Italie» is Victor Emmanuel II until his death on 9 January 1878 (062/1876-06-12, 063/1876-07-19, 070/1877-04-23, 072/1877-07-08, 084/1879-01-16 recalling Naples 1876; [Victor Emmanuel II](VICTOR_EMMANUEL_II.md)) and Umberto I afterwards («le frère du roi d'Italie», 086/1879-09-12; [Humbert](HUMBERT.md)). No paragraph is tagged with this file; it is to be retired (decision of 2026-10-22).
+%% GLO_ROI_D_ITALIE.0001 %%
+**Retired.** Not an entity: «le roi d'Italie» is [#VICTOR_EMMANUEL_II](VICTOR_EMMANUEL_II.md) (`people/mentioned/VICTOR_EMMANUEL_II.md`) until 9 January 1878 and [#HUMBERT](HUMBERT.md) (`people/mentioned/HUMBERT.md`) afterwards; tag the king meant, never this file.
 
-%% 2026-10-22T15:00:00 RSR: Stub replaced; alias «Italie» removed (it matched the country). %%
+%% GLO_ROI_D_ITALIE.0002 %%
+%% 2026-10-22T12:40:00 RSR: Retired (glossary identity research 2026-10-22, 0 tags in any tree). Old body: Victor Emmanuel II up to 9 Jan 1878 (062/1876-06-12, 063/1876-07-19, 070/1877-04-23, 072/1877-07-08), Umberto I afterwards (086/1879-09-12). %%

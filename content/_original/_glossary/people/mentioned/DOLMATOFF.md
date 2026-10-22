@@ -7,9 +7,12 @@ type: Person
 category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-22
+status: retired
+replaced_by: MLLE_ALEXANDRINE
 ---
-# Dolmatoff
 
-Mlle Alexandrine Dolmatoff, relative and «demoiselle de compagnie» of Mme Doubelt (075.0362; Mon Journal t.11 index «Dolmatoff (Alexandrine Mlle) : 31»). Full entry: [Mlle Alexandrine](../aristocracy/MLLE_ALEXANDRINE.md). To be merged into it (decision of 2026-10-22).
+%% GLO_DOLMATOFF.0001 %%
+**Retired.** Merged into [#MLLE_ALEXANDRINE](../aristocracy/MLLE_ALEXANDRINE.md) (`people/aristocracy/MLLE_ALEXANDRINE.md`); use that entry instead.
 
-%% 2026-10-22T14:30:00 RSR: Stub replaced. %%
+%% GLO_DOLMATOFF.0002 %%
+%% 2026-10-22T12:28:38 RSR: Retired by glossary-merge; content and links moved to MLLE_ALEXANDRINE. replaced_by: people/aristocracy/MLLE_ALEXANDRINE.md. %%

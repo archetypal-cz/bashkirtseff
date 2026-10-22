@@ -13,7 +13,7 @@ last_updated: 2026-10-22
 
 ## Overview
 
-An English or American lady of Florence «qui a un des salons les plus élégants de Florence», to whom Miss Hall, Marie's American acquaintance at Schlangenbad, offers her a letter of introduction in August 1877 (073.0265). Mon Journal t.10 index «Smith (Miss), 286, 293-294». Not the Paris furniture shop [Smith](SMITH.md).
+An English or American lady of Florence «qui a un des salons les plus élégants de Florence», to whom Miss Hall, Marie's American acquaintance at Schlangenbad, offers her a letter of introduction in August 1877 (073.0265). Mon Journal t.10 index «Smith (Miss), 286, 293-294». Not the Paris furniture shop [Smith](../../places/shops/SMITH.md).
 
 ## Relevance to Marie
 

@@ -30,3 +30,5 @@ Not to be confused with the children Alexandrine: see [ALEXANDRINE](../mentioned
 %% 2026-10-21T23:05:00 RSR: Body written from the auto-stub (OPEN-ITEMS B-37(7)/B-53(3)). Doubelt vs Dolmatoff decided from the text: «Mme Doubelt, Melle Dolmatoff (parente et demoiselle de compagnie)» (075.0362) and «la demoiselle de la Générale, Mlle Alexandrine» (075.0470) describe one role in one household within eight days, with t.11 index pp.31 / 32-39; probable, not certain. Suggested follow-up for the lead: merge DOLMATOFF into this entry and retag 075.0362. %%
 
 %% 2026-10-22T14:30:00 RSR: Identification settled from the t.11 index «Dolmatoff (Alexandrine Mlle) : 31» (glossary identity questions, 2026-10-22). %%
+
+%% 2026-10-22T12:28:38 RSR: Merged DOLMATOFF (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%

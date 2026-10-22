@@ -4,8 +4,8 @@ name: Exposition Triennale
 aliases:
   - Exposition Triennale
   - Triennale
-type: Person
-category: people/mentioned
+type: Culture
+category: culture/art
 research_status: Basic
 last_updated: 2026-03-06
 ---

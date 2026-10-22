@@ -34,3 +34,5 @@ His wife (Mme de Gonzalès Moreno), his daughter [Mathilde («Matildita»)](MATH
 Marie Bashkirtseff, *Journal* (paragraphs cited); Mon Journal indexes t.1, t.3-t.6, t.8, t.10, t.11. No outside source on the family was found.
 
 %% 2026-10-22T12:15:00 RSR: Body rewritten (glossary-owner-questions B-23). MORENO and MORENO_DE_GONZALES are the same family name: their tags are assigned per paragraph in the identity-decisions TSV (father -> this entry, the family -> GONZALES_FAMILY, the daughter -> MATHILDE_MORENO), after which both stubs can be retired. The 1875 «Mlle de Gonzalès» paragraphs tagged here (050.0668, 050.0983-0985, 050.1059, 050.1094-1095, 050.1148) are the daughter. %%
+
+%% 2026-10-22T12:30:03 RSR: Merged MORENO_DE_GONZALES (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%

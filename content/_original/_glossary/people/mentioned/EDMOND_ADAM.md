@@ -8,9 +8,12 @@ type: Person
 category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-22
+status: retired
+replaced_by: MME_ADAM
 ---
-# Edmond Adam
 
-Edmond Adam (1816-1877), republican politician, husband of Juliette Lamber (Mme Adam). He never appears in the diary: the only mention is his widow's name, «Juliette Lamber (Mme Edmond Adam)» (085/1879-08-03), who is [Mme Adam](MME_ADAM.md). No paragraph is tagged with this file; it is to be retired (decision of 2026-10-22).
+%% GLO_EDMOND_ADAM.0001 %%
+**Retired.** Merged into [#MME_ADAM](MME_ADAM.md) (`people/mentioned/MME_ADAM.md`); use that entry instead.
 
-%% 2026-10-22T15:30:00 RSR: Stub replaced. %%
+%% GLO_EDMOND_ADAM.0002 %%
+%% 2026-10-22T12:30:34 RSR: Retired by glossary-merge; content and links moved to MME_ADAM. replaced_by: people/mentioned/MME_ADAM.md. %%

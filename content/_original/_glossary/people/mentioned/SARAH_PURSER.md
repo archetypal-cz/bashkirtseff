@@ -26,3 +26,9 @@ Sarah Purser (1848-1943), Irish painter, a pupil at the Académie Julian in 1878
 084.0605, 084.0606, 084.0674, 084.0678, 084.0679, 084.0692; 086.0477; 094.0091 (the 1879 paragraphs are tagged SARAH; to be merged here).
 
 %% 2026-10-22T15:30:00 RSR: Stub replaced (phase 4, SARAH / SARAH_PURSER); page matches checked on Tome12.pdf and Tome13.pdf. %%
+
+%% 2026-10-22T12:31:15 RSR: Merged SARAH (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+
+## Not Sarah Bernhardt
+
+The retired file SARAH, merged here on 2026-10-22, had been used for two women. Bojidar's «c'est l'amour pour Sarah qui l'aura repris» (101.0221; Mon Journal t.16 index «Bernhardt (Rosine, dite Sarah) : 22») is [#Sarah Bernhardt](../artists/SARAH_BERNHARDT.md) and was retagged before the merge. «Mme Cartwright que j'ai connue par Sarah un jour qu'elle est venue à l'atelier» (091.0491, April 1881) is left untagged: the t.14 index files that page (p.117) under Bernhardt and Sarah Purser only at p.266, but the text alone does not settle it.

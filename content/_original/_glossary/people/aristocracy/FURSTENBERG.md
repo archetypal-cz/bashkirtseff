@@ -28,3 +28,5 @@ The young Prince Charles (Karl) of Fürstenberg, a German, in Nice with his pare
 - Marie's social awkwardness with him
 - Victim of her inadvertent physical comedy
 - Shows her prejudice: "c'est un Allemand et avec une tante allemande!"
+
+%% 2026-10-22T12:30:15 RSR: Merged CHARLES (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%

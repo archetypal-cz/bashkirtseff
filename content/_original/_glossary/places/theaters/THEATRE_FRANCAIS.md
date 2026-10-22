@@ -25,3 +25,5 @@ last_updated: 2026-03-06
 - Created: 2026-01-06
 - Auto-generated stub from broken link detection
 - Needs proper research and content
+
+%% 2026-10-22T12:30:27 RSR: Merged FRANCAIS (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%

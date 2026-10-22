@@ -203,7 +203,7 @@ Lambertye occupies a unique position in Marie's emotional landscape. He is empha
 - [#Clementine_Durand](CLEMENTINE_DURAND.md) -- Mother's way of looking at her compared to Lambertye's gaze
 - [#Conquista](CONQUISTA.md) -- Seen with Lambertye leaving Duchess de Mouchy's
 - [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) -- The true obsession; Lambertye was to be stepping-stone to Hamilton
-- [#Duchess_de_Mouchy](../aristocracy/DUCHESS_DE_MOUCHY.md) -- Lambertye in her social circle
+- [#Duchesse_de_mouchy](../aristocracy/DUCHESSE_DE_MOUCHY.md) -- Lambertye in her social circle
 - [#Galve](GALVE.md) -- Pigeon-shooting rival and social companion
 - [#Gavini](GAVINI.md) -- Social connection in Paris
 - [#Martin_Baton](MARTIN_BATON.md) -- Gardener whose poodle resembles Lambertye

@@ -9,9 +9,12 @@ type: Person
 category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-22
+status: retired
+replaced_by: DUCHESSE_DE_MOUCHY
 ---
-# Mme de Mouchy
 
-Duplicate of [Duchesse de Mouchy](../aristocracy/DUCHESSE_DE_MOUCHY.md) (Anna Murat, 1841-1924): every «duchesse de Mouchy» / «Mme de Mouchy» of the diary is she (Mon Journal t.13 index «Mouchy (duchesse de. née princesse Anna Murat)», t.14 «Mouchy (Mme Anna, duchesse de)»). To be merged into DUCHESSE_DE_MOUCHY; the paragraphs about the duke (016.0276, 017.0176) go to [Duc de Mouchy](../aristocracy/DUC_DE_MOUCHY.md) first (decision of 2026-10-22).
+%% GLO_MME_DE_MOUCHY.0001 %%
+**Retired.** Merged into [#DUCHESSE_DE_MOUCHY](../aristocracy/DUCHESSE_DE_MOUCHY.md) (`people/aristocracy/DUCHESSE_DE_MOUCHY.md`); use that entry instead.
 
-%% 2026-10-22T14:30:00 RSR: Body replaced (A-40). %%
+%% GLO_MME_DE_MOUCHY.0002 %%
+%% 2026-10-22T12:28:27 RSR: Retired by glossary-merge; content and links moved to DUCHESSE_DE_MOUCHY. replaced_by: people/aristocracy/DUCHESSE_DE_MOUCHY.md. %%

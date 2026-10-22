@@ -8,9 +8,12 @@ type: Person
 category: people/aristocracy
 research_status: Basic
 last_updated: 2026-10-22
+status: retired
+replaced_by: BLANCHE
 ---
-# Madame de Mirafiore
 
-Duplicate of [Blanche](../mentioned/BLANCHE.md), Bianca de Larderel, comtesse de Mirafiore (Mon Journal t.11 index «Mirafiore (Blanche comtesse de), née Larderei»). No paragraph is tagged with this file; to be merged into BLANCHE (decision of 2026-10-22). «La belle Rosine, comtesse de Mirafiore, épouse du roi» (069.0056) is a different woman, Rosa Vercellana, the king's morganatic wife (see [Mirafiore](../mentioned/MIRAFIORE.md)).
+%% GLO_MADAME_DE_MIRAFIORE.0001 %%
+**Retired.** Merged into [#BLANCHE](../mentioned/BLANCHE.md) (`people/mentioned/BLANCHE.md`); use that entry instead.
 
-%% 2026-10-22T15:30:00 RSR: Stub replaced. %%
+%% GLO_MADAME_DE_MIRAFIORE.0002 %%
+%% 2026-10-22T12:29:09 RSR: Retired by glossary-merge; content and links moved to BLANCHE. replaced_by: people/mentioned/BLANCHE.md. %%

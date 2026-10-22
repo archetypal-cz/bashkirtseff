@@ -29,3 +29,7 @@ A star of the Nice winter seasons of 1873-75 whom Marie admires and envies from 
 012.0302; 014.0228; 015.0191, 015.0265, 015.0326; 016.0274; 017.0309, 017.0324, 017.0335, 017.0344, 017.0366, 017.0377, 017.0402; 018.0062, 018.0347; 019.0208; 020.0119; 024.0092, 024.0123; 029.0021; 071.0477 («les Mouchy»); 086.0122.
 
 %% 2026-10-22T14:30:00 RSR: Body rewritten (A-40, B-57(3)); all paragraphs tagged DUCHESS_DE_MOUCHY / MME_DE_MOUCHY / DUC_DE_MOUCHY read. %%
+
+%% 2026-10-22T12:28:21 RSR: Merged DUCHESS_DE_MOUCHY (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+
+%% 2026-10-22T12:28:27 RSR: Merged MME_DE_MOUCHY (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%

@@ -38,7 +38,7 @@ full_text:
 
 ## What it was
 
-A "concerto vocale e strumentale di musica sacra" given by the amateur [Società Filarmonica](../../people/mentioned/SOCIETA_FILARMONICA.md) of [Naples](../../places/cities/NAPLES.md) on **Sunday 25 March 1877** (Palm Sunday in 1877; Easter fell on 1 April), with singers drawn from the Neapolitan aristocracy and a volunteer orchestra of gentlemen "dilettanti". Marie, her mother, [Dina](../../people/core/DINA.md) and Olga Hamontoff attended. She pasted the printed programme into her diary (069.0518-0520), having announced it in 069.0516 ("Ce soir concert à la Filarmonica dont voici le programme").
+A "concerto vocale e strumentale di musica sacra" given by the amateur [Società Filarmonica](../../places/social/SOCIETA_FILARMONICA.md) of [Naples](../../places/cities/NAPLES.md) on **Sunday 25 March 1877** (Palm Sunday in 1877; Easter fell on 1 April), with singers drawn from the Neapolitan aristocracy and a volunteer orchestra of gentlemen "dilettanti". Marie, her mother, [Dina](../../people/core/DINA.md) and Olga Hamontoff attended. She pasted the printed programme into her diary (069.0518-0520), having announced it in 069.0516 ("Ce soir concert à la Filarmonica dont voici le programme").
 
 ## The programme (as printed)
 
@@ -66,7 +66,7 @@ Her account of the evening is in 069.0521-0535. She arrived in fear that everyon
 
 - **Identified**: Haydn (*Seven Last Words*, quartet version), Mozart (Requiem), Pergolesi (*Stabat Mater*), Gounod (*Ave Maria* on Bach's first Prelude from *The Well-Tempered Clavier*), Rossini (*La Charité*, one of the three *Chœurs religieux*, for women's voices). The IMSLP links point to scores of these works, not to the arrangements actually used in Naples.
 - **Not identified**: "Miceli" (a Neapolitan composer; the best candidate is Giorgio Miceli, 1836-1895, born in Reggio Calabria and trained at the Naples Conservatory, per Wikipedia, but no sacred *Stabat* or *Miserere* by him has been found); "Ed. Moreaux, *Rimember!*"; "E. Burelle", transcriber of a "Penitenza di Beethoven" (presumably the Beethoven song known as the "Bußlied"); the Mozart *Agnus Dei* solo.
-- The Società Filarmonica itself could not be traced in outside sources; no history of the society, or of its "duca Galiani" members, has been found. It is the same club as Marie's «Cercle Philharmonique»: the invitation of 12 March 1877 «pour un concert du Cercle Philharmonique» is headed «Società Filarmonica» (069.0282-0283), and on 24 April she writes «au Cercle, ou a la société filarmonica» (070.0911); see [Società Filarmonica](../../people/mentioned/SOCIETA_FILARMONICA.md) (2026-10-22).
+- The Società Filarmonica itself could not be traced in outside sources; no history of the society, or of its "duca Galiani" members, has been found. It is the same club as Marie's «Cercle Philharmonique»: the invitation of 12 March 1877 «pour un concert du Cercle Philharmonique» is headed «Società Filarmonica» (069.0282-0283), and on 24 April she writes «au Cercle, ou a la société filarmonica» (070.0911); see [Società Filarmonica](../../places/social/SOCIETA_FILARMONICA.md) (2026-10-22).
 - Marie's own wording and most surnames in the concert paragraphs are in the diary; this entry gives the programme the paragraph IDs and the context.
 
 ## Sources

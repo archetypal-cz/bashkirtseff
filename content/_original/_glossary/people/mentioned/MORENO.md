@@ -6,21 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
+replaced_by: GONZALES_FAMILY
 ---
-# Moreno
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_MORENO.0001 %%
+**Retired.** Merged into [#GONZALES_FAMILY](../recurring/GONZALES_FAMILY.md) (`people/recurring/GONZALES_FAMILY.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_MORENO.0002 %%
+%% 2026-10-22T12:29:57 RSR: Retired by glossary-merge; content and links moved to GONZALES_FAMILY. replaced_by: people/recurring/GONZALES_FAMILY.md. %%

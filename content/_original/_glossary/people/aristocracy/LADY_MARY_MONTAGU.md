@@ -50,3 +50,11 @@ After the Duke of Hamilton's death in 1895 (from alcoholism-related illness), La
 
 %% GLO_LADY_MARY_MONTAGU.0011 %%
 %% 2026-02-10T12:00:00 RSR: Enriched from stub. Lady Mary Montagu married the Duke of Hamilton on 10 December 1873, becoming the woman who claimed the man Marie had fantasized about throughout early 1873. Historical details from thepeerage.com, NPG, and Wikipedia. %%
+
+%% 2026-10-22T12:28:15 RSR: Merged DUCHESS_OF_HAMILTON (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+
+%% GLO_LADY_MARY_MONTAGU.0012 %%
+## Not the dowager duchess
+
+%% GLO_LADY_MARY_MONTAGU.0013 %%
+The retired file DUCHESS_OF_HAMILTON, merged here on 2026-10-22, had been used for two women. Its tags from 1874-75 (016, 018, 020, 028, 030) are Lady Mary, the 12th Duke's wife. The three October 1873 paragraphs about «la vieille duchesse» (011.0134, 011.0135, 011.0225) are the Duke's mother, [#Princess Marie of Baden](../royalty/PRINCESS_MARIE_OF_BADEN.md), and were retagged before the merge (011.0225 names both women and carries both tags).

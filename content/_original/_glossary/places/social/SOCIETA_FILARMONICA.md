@@ -9,7 +9,7 @@ aliases:
   - Cercle Philharmonique
   - la Filarmonica
 type: Place
-category: people/mentioned
+category: places/social
 research_status: Basic
 last_updated: 2026-10-22
 languages:
@@ -34,3 +34,7 @@ The «Cercle philharmonique» of 11 May 1877 (071.0265), where Marie hears a cha
 Marie Bashkirtseff, *Journal*, carnets 069-070. The society's history, seat and dates were not traced (searched in Italian for the Naples «Società Filarmonica» and for the duke of San Cesario, without result).
 
 %% 2026-10-22T12:40:00 RSR: Body written (glossary-owner-questions B-56(2)). Identity settled from the diary itself (070.0911 «au Cercle, ou a la société filarmonica»; 069.0282-0283 «Cercle Philharmonique» = «Società Filarmonica» on the card), 0.95. Recommended: keep this id (the society's own name), move it to places/social beside the other clubs (CERCLE_DE_LA_MEDITERRANEE, CACCIA_CLUB), merge CERCLE_PHILHARMONIQUE and FILARMONICA (0 tags) into it, drop the CERCLE_PHILHARMONIQUE tag at 071.0265 (Florence). The RSR note at 070.0911 guessing that «le Cercle» is the Circolo Nazionale is contradicted by Marie's «ou». %%
+
+%% 2026-10-22T12:29:32 RSR: Merged CERCLE_PHILHARMONIQUE (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+
+%% 2026-10-22T12:29:39 RSR: Merged FILARMONICA (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%

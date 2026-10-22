@@ -69,3 +69,5 @@ Emile came to Nice with Sophie in February-March 1873 and left with her on 19 Ma
 %% 2026-10-21T21:59:27 RSR: Fix (OPEN-ITEMS B-32): «Grigorievna» replaced by «Pavlovna» as the primary patronymic: «ce n'est pas Sophie Pavlovna Tutcheff» (067/1876-10-20, 067.0187) and Mon Journal t.9 index «Tutcheff (Mme), Sophie Pavlona Bashkirtseff»; her father is «le général Paul Grigorievitch Bashkirtseff» (t.1). Marie's 1873 «Sophie Grigorievna» and the t.1 index «Tutscheff (Mme Sophie Grigorievna)» keep the older form as alias. %%
 
 %% 2026-10-22T15:00:00 RSR: Fix (glossary identity questions, 2026-10-22): «Sonitchka» and «Sophie Grigorievna» aliases removed (they are Mlle Kolokolzoff, 009.0146; t.2 index); «son Emile» corrected to «uncle» (023.0628). MME_TUTCHEFF to be merged here. Tags 014.0108, 014.0215, 014.0218, 014.0222 («ma tante», before the Tutcheffs arrived on 28 Dec 1873) are queued for removal. %%
+
+%% 2026-10-22T12:28:50 RSR: Merged MME_TUTCHEFF (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
