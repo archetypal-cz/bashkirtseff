@@ -6,7 +6,7 @@
 
 Carnet 063 of Marie Bashkirtseff's diary.
 
-**Date range**: 1876-07-06 to 1876-07-19
+**Date range**: 1876-07-04 to 1876-07-19
 **Entry count**: 15
 **Location(s)**: TBD
 

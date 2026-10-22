@@ -6,7 +6,7 @@
 
 Carnet 041 of Marie Bashkirtseff's diary.
 
-**Date range**: 1875-09-02 to 1875-09-03
+**Date range**: 1875-09-01 to 1875-09-07
 **Entry count**: 7
 **Location(s)**: Paris
 

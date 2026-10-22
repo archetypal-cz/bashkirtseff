@@ -6,7 +6,7 @@
 
 Carnet 023 of Marie Bashkirtseff's diary.
 
-**Date range**: 1874-08-09 to 1874-09-12
+**Date range**: 1874-08-08 to 1874-09-16
 **Entry count**: 37
 **Location(s)**: Spa, Brussels, Ostende
 

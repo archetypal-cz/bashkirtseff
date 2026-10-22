@@ -6,7 +6,7 @@
 
 Carnet 103 of Marie Bashkirtseff's diary.
 
-**Date range**: 1884-01-13 to 1884-04-13
+**Date range**: 1884-01-12 to 1884-04-13
 **Entry count**: 92
 **Location(s)**: Paris
 

@@ -6,7 +6,7 @@
 
 Carnet 093 of Marie Bashkirtseff's diary.
 
-**Date range**: 1881-08-19 to 1881-11-22
+**Date range**: 1881-08-18 to 1881-11-22
 **Entry count**: 97
 **Location(s)**: Paris
 

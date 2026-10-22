@@ -6,7 +6,7 @@
 
 Carnet 099 of Marie Bashkirtseff's diary.
 
-**Date range**: 1883-03-31 to 1883-05-25
+**Date range**: 1883-03-31 to 1883-05-26
 **Entry count**: 57
 **Location(s)**: TBD
 

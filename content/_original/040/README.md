@@ -6,7 +6,7 @@
 
 Carnet 040 of Marie Bashkirtseff's diary.
 
-**Date range**: 1875-08-29 to 1875-09-01
+**Date range**: 1875-08-27 to 1875-09-01
 **Entry count**: 5
 **Location(s)**: Paris
 

@@ -27,7 +27,7 @@ In December 1876 Marie ranks him among the men who could make her «parfaitement
 
 ## Related
 - [PEPINO](PEPINO.md) (nickname entry)
-- [GAUTIER](GAUTIER.md) (untyped «Gautier» references)
+- GAUTIER (untyped «Gautier» references)
 - [EMILE_D_AUDIFFRET](../recurring/EMILE_D_AUDIFFRET.md)
 
 %% 2026-09-27T22:18:57 RSR: Replaced auto-generated stub: identity (Albert-Joseph Gautier, «Pepino», Crédit de Nice) from Kernberger (2013) and carnet 068 restored paragraphs. %%

@@ -6,7 +6,7 @@
 
 Carnet 067 of Marie Bashkirtseff's diary.
 
-**Date range**: 1876-10-14 to 1876-11-28
+**Date range**: 1876-10-12 to 1876-12-11
 **Entry count**: 60
 **Location(s)**: TBD
 

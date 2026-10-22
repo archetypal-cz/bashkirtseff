@@ -6,7 +6,7 @@
 
 Carnet 091 of Marie Bashkirtseff's diary.
 
-**Date range**: 1881-02-02 to 1881-05-14
+**Date range**: 1881-01-23 to 1881-05-14
 **Entry count**: 112
 **Location(s)**: Paris
 

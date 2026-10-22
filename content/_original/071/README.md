@@ -6,7 +6,7 @@
 
 Carnet 071 of Marie Bashkirtseff's diary. Marie leaves Naples, spends 10 days in Florence stalking Alexandre de Larderel's family (meeting his mother, seeing baby Alexandrine, discovering Gordigiani the painter), then settles in Nice for 4 weeks of social comedy, painting, and preparation for Paris. Key themes: Marcuard's coded marriage proposal, Marie's blood-coughing (early TB symptom), the Gulliver passage on writing consciousness, household farce with Triphon.
 
-**Date range**: 1877-04-27 to 1877-06-10
+**Date range**: 1877-04-26 to 1877-06-10
 **Entry count**: 46
 **Location(s)**: Naples, Florence, Nice
 **Paragraph range**: 071.0001-071.0622 (renumbered by the 2026-09-27 tome-10 rebuild)

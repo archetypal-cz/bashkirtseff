@@ -6,7 +6,7 @@
 
 Carnet 056 of Marie Bashkirtseff's diary. Marie is in Rome throughout, at the Hôtel de la Ville on Via del Babuino. The carnet charts the Antonelli crisis: Pietro's convent retreat at San Giovanni e Paolo (8 days, Mar 31–Apr 8), the family's opposition to any marriage, and Marie's agonized wait. Parallel threads: Torlonia obsession intensifies (Villa Torlonia visit, bibliomancy discovery of his fortune), Plowden declares love, Fanny Lear expelled from Italy, father's letter exchange, and Marie's painting progress with Katorbinsky. Closes with the desperate Palm Sunday when Pietro fails to appear after his retreat.
 
-**Date range**: 1876-03-28 to 1876-04-09
+**Date range**: 1876-03-27 to 1876-04-09
 **Entry count**: 14
 **Location(s)**: Rome
 

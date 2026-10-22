@@ -6,7 +6,7 @@
 
 Carnet 024 of Marie Bashkirtseff's diary.
 
-**Date range**: 1874-09-16 to 1874-10-26
+**Date range**: 1874-09-17 to 1874-10-26
 **Entry count**: 40
 **Location(s)**: Paris
 

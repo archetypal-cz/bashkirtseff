@@ -6,7 +6,7 @@
 
 Carnet 090 of Marie Bashkirtseff's diary.
 
-**Date range**: 1880-10-03 to 1882-04-25
+**Date range**: 1880-10-03 to 1881-01-22
 **Entry count**: 112
 **Location(s)**: Paris
 

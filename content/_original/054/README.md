@@ -56,7 +56,7 @@ State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter 
 - RSR comments added to all entries with significant content
 - Glossary tags added to key paragraphs
 - Fixed incorrect locations (was "Nice"/"Paris"/"Vienna" → all "Rome")
-- Fixed paragraph ID error: 054.0110 → 054.1100 in 1876-02-29 <!-- rebuild-carnet: keep -->
+- Fixed a mistyped paragraph ID (corrected to 054.0110) in 1876-02-29 <!-- rebuild-carnet: keep -->
 - Created ROME glossary entry
 
 ## Changelog
@@ -74,4 +74,4 @@ Complete RSR pass on all 18 entries:
 - Added RSR comments: papal audience, family lawsuit, Antonelli identification, Carnival events, Fanny Lear, Doria coup de foudre, Bruschetti proposal, Via Appia, Barberi races
 - Added glossary tags (Rome, Antonelli_Pietro, Bruschetti, Audiffret, Walitsky, etc.)
 - Created ROME glossary entry in places/cities/
-- Fixed paragraph ID: 054.0110 → 054.1100 <!-- rebuild-carnet: keep -->
+- Fixed a mistyped paragraph ID (corrected to 054.0110) <!-- rebuild-carnet: keep -->

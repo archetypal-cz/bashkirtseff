@@ -18,7 +18,7 @@ last_updated: 2026-10-03
 
 ## Overview
 
-A young Niçois man, aspiring notary. Following Kernberger (2013, glossary: "Fiouloulou: nickname for Galula"; Galula = Dechiar Galula, notary's clerk in Nice and Audiffret's friend), this project identifies him as **Galula** — see [Galula](GALULA.md) and [Galula Dechiar](../mentioned/GALULA_DECHIAR.md). Marie refers to him by the nickname "Fiouloulou" (sometimes spelled "Fioulouiou"). He is a persistent but unwanted suitor who becomes Audiffret's loyal follower.
+A young Niçois man, aspiring notary. Following Kernberger (2013, glossary: "Fiouloulou: nickname for Galula"; Galula = Dechiar Galula, notary's clerk in Nice and Audiffret's friend), this project identifies him as **Galula** — see [Galula](GALULA.md). Marie refers to him by the nickname "Fiouloulou" (sometimes spelled "Fioulouiou"). He is a persistent but unwanted suitor who becomes Audiffret's loyal follower.
 
 ## Identity
 

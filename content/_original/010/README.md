@@ -6,7 +6,7 @@
 
 Carnet 010 of Marie Bashkirtseff's diary.
 
-**Date range**: 1873-09-23 to 1873-10-14
+**Date range**: 1873-09-23 to 1873-10-13
 **Entry count**: 21
 **Location(s)**: Nice
 

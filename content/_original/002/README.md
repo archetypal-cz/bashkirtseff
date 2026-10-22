@@ -6,7 +6,7 @@
 
 Carnet 002 of Marie Bashkirtseff's diary.
 
-**Date range**: 1873-02-16 to 1873-03-12
+**Date range**: 1873-02-02 to 1873-03-12
 **Entry count**: 26
 **Location(s)**: Nice
 

@@ -6,7 +6,7 @@
 
 Carnet 101 of Marie Bashkirtseff's diary.
 
-**Date range**: 1883-08-11 to 1883-10-15
+**Date range**: 1883-08-08 to 1883-10-15
 **Entry count**: 69
 **Location(s)**: Paris
 

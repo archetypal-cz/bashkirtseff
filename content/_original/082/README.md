@@ -6,7 +6,7 @@
 
 Carnet 082 of Marie Bashkirtseff's diary.
 
-**Date range**: 1878-08-09 to 1878-10-16
+**Date range**: 1878-08-08 to 1878-10-16
 **Entry count**: 70
 **Location(s)**: Soden am Taunus (Aug 9-17), Paris (Aug 18-Oct 16)
 

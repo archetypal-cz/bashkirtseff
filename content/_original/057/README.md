@@ -6,7 +6,7 @@
 
 Carnet 057 of Marie Bashkirtseff's diary. Only 4 entries spanning the last days in Rome and arrival in Naples. Marie still agonizes over Pietro's disappearance (convent retreat has ended but he hasn't appeared). Trevi Fountain ritual for return to Rome. Issaïevitch departs. Remarkable political essay comparing Roman aristocracy, France, Russia, and England. Departure from Rome by train — final encounters with Torlonia. Arrival in Naples on Holy Thursday with extended verbatim reconstruction of Pietro's love declarations and religious self-examination.
 
-**Date range**: 1876-04-10 to 1876-04-13
+**Date range**: 1876-04-09 to 1876-04-13
 **Entry count**: 5
 **Location(s)**: Rome (Apr 10-12), Naples (Apr 13)
 

@@ -6,7 +6,7 @@
 
 Carnet 106 of Marie Bashkirtseff's diary.
 
-**Date range**: 1884-09-12 to 1884-10-20
+**Date range**: 1884-09-11 to 1884-10-20
 **Entry count**: 36
 **Location(s)**: Paris
 

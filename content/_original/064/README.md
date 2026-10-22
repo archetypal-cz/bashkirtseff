@@ -6,7 +6,7 @@
 
 Carnet 064 of Marie Bashkirtseff's diary.
 
-**Date range**: 1876-07-20 to 1876-08-14
+**Date range**: 1876-07-19 to 1876-08-16
 **Entry count**: 28
 **Location(s)**: TBD
 

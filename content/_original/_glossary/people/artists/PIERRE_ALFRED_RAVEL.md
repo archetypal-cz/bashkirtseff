@@ -47,7 +47,7 @@ Ravel was one of the most respected comic actors of his generation. His appearan
 
 Marie sees him again at the Théâtre-Français of Nice: «Le Réveillon» «par Ravel» (015.0224, 17 January 1874); his benefit night, «Ravel est charmant comme toujours» (016.0050, 016.0052, 31 January 1874); «vendredi commencent les représentations de Ravel» and «La Boule … Ravel joue» (032.0408, 032.0457, May 1875); the May 1875 season (033, where the Mon Journal t.5 index names his wife, «Deschamps (Elisa) actrice (femme de Ravel)»); and a couplet «comme chante Ravel» (034.0428, June 1875).
 
-Not to be confused with the «Ravel qu'on raccommode» of 7 March 1874 (017.0196), apparently Marie's alarm clock (*réveil*); the retired entry [Ravel](../mentioned/RAVEL.md) explains it.
+Not to be confused with the «Ravel qu'on raccommode» of 7 March 1874 (017.0196), apparently Marie's alarm clock (*réveil*); the retired entry Ravel (people/mentioned/RAVEL) explains it.
 
 ## Sources
 

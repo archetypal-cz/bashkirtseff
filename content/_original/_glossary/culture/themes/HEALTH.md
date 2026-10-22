@@ -264,7 +264,7 @@ Marie's horror of physical decline was not mere vanity. For her, beauty was both
 - **Do not tag** a death with no illness in view ([Death & Mourning](DEATH.md)).
 - **Do not tag** her fear of dying ([Mortality](MORTALITY.md)) unless a symptom is also named.
 - **Do not tag** a spa visited as a social venue, with no cure in view ([Travel](TRAVEL.md)).
-- This theme also covers the scope of the former Diseases tag ([Diseases & Diagnoses](DISEASES.md), retired); named illnesses are tagged here.
+- This theme also covers the scope of the former Diseases tag (Diseases & Diagnoses, retired); named illnesses are tagged here.
 - The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
 
 %% GLO_HEALTH.0056 %%

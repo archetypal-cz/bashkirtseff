@@ -6,7 +6,7 @@
 
 Carnet 097 of Marie Bashkirtseff's diary.
 
-**Date range**: 1882-10-30 to 1883-01-11
+**Date range**: 1882-10-29 to 1883-01-11
 **Entry count**: 75
 **Location(s)**: TBD
 

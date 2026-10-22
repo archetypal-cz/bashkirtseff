@@ -6,7 +6,7 @@
 
 Carnet 068 of Marie Bashkirtseff's diary.
 
-**Date range**: 1876-12-12 to 1877-01-01
+**Date range**: 1876-12-12 to 1877-02-23
 **Entry count**: 74
 **Location(s)**: TBD
 

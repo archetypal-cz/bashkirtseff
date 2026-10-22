@@ -6,7 +6,7 @@
 
 Carnet 066 of Marie Bashkirtseff's diary.
 
-**Date range**: 1876-09-03 to 1876-10-08
+**Date range**: 1876-09-03 to 1876-10-11
 **Entry count**: 39
 **Location(s)**: Gavronzi
 

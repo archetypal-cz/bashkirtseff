@@ -6,7 +6,7 @@
 
 Carnet 100 of Marie Bashkirtseff's diary.
 
-**Date range**: 1883-05-27 to 1883-08-08
+**Date range**: 1883-05-27 to 1883-08-07
 **Entry count**: 73
 **Location(s)**: TBD
 

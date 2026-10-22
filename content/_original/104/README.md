@@ -6,7 +6,7 @@
 
 Carnet 104 of Marie Bashkirtseff's diary.
 
-**Date range**: 1884-04-16 to 1884-07-01
+**Date range**: 1884-04-14 to 1884-07-01
 **Entry count**: 79
 **Location(s)**: Paris
 

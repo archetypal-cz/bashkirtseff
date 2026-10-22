@@ -6,7 +6,7 @@
 
 Carnet 078 of Marie Bashkirtseff's diary.
 
-**Date range**: 1878-02-04 to 1878-03-16
+**Date range**: 1878-02-03 to 1878-03-16
 **Entry count**: 41
 **Location(s)**: Paris
 

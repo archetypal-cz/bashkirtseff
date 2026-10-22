@@ -6,7 +6,7 @@
 
 Carnet 085 of Marie Bashkirtseff's diary.
 
-**Date range**: 1879-04-26 to 1879-08-06
+**Date range**: 1879-04-25 to 1879-08-06
 **Entry count**: 104
 **Location(s)**: Paris
 

@@ -6,7 +6,7 @@
 
 Carnet 029 of Marie Bashkirtseff's diary.
 
-**Date range**: 1875-01-21 to 1875-02-18
+**Date range**: 1875-01-20 to 1875-02-18
 **Entry count**: 30
 **Location(s)**: Paris, Nice
 

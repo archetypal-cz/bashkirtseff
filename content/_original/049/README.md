@@ -6,7 +6,7 @@
 
 Carnet 049 of Marie Bashkirtseff's diary.
 
-**Date range**: 1875-11-08 to 1875-11-17
+**Date range**: 1875-11-06 to 1875-11-17
 **Entry count**: 12
 **Location(s)**: Nice
 

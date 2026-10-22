@@ -21,4 +21,4 @@ Academic painter and one of the three principal masters of the Académie Julian,
 %% 2026-10-02T12:00:00 RSR: 1878-10-09 (carnet 082): Jules Lefebvre and Gustave Boulanger, established academic painters who also taught at Julian's men's ateliers. 1879-01-14 (084): the competition is "jugé ce matin par les trois maîtres au complet. Lefebvre, Robert-Fleury et Boulanger"; Marie wins the prize. 1879-11-15 (086): Marie notes that Boulanger lives at 6 bis rue de Boulogne. 1884-03-29 (103): the Salon refusal; she had behind her "Boulanger, Tony, Lefèbvre". Dates of the painter: standard art-historical reference data, not stated in the diary. %%
 
 %% GLO_GUSTAVE_BOULANGER.0004 %%
-Created from the retired stub [#Boulanger](../../culture/history/BOULANGER.md).
+Created from the retired stub Boulanger (culture/history/BOULANGER).

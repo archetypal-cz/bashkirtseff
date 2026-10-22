@@ -6,7 +6,7 @@
 
 Carnet 008 of Marie Bashkirtseff's diary.
 
-**Date range**: 1873-08-11 to 1873-09-01
+**Date range**: 1873-08-11 to 1873-08-31
 **Entry count**: 21
 **Location(s)**: Vienna
 

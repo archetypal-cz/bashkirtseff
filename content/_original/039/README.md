@@ -6,7 +6,7 @@
 
 Carnet 039 of Marie Bashkirtseff's diary.
 
-**Date range**: 1875-08-15 to 1875-08-26
+**Date range**: 1875-08-13 to 1875-08-26
 **Entry count**: 14
 **Location(s)**: Wiesbaden, Schlangenbad
 

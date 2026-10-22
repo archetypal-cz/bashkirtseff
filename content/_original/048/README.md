@@ -6,7 +6,7 @@
 
 Carnet 048 of Marie Bashkirtseff's diary.
 
-**Date range**: 1875-10-24 to 1875-11-07
+**Date range**: 1875-10-24 to 1875-11-06
 **Entry count**: 14
 **Location(s)**: Nice
 

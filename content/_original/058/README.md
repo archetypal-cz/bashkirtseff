@@ -6,7 +6,7 @@
 
 Carnet 058 of Marie Bashkirtseff's diary.
 
-**Date range**: 1876-04-14 to 1876-04-19
+**Date range**: 1876-04-13 to 1876-04-19
 **Entry count**: 7
 **Location(s)**: Paris, Rome, Nice
 

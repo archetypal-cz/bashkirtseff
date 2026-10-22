@@ -6,7 +6,7 @@
 
 Carnet 009 of Marie Bashkirtseff's diary.
 
-**Date range**: 1873-09-02 to 1873-09-22
+**Date range**: 1873-09-01 to 1873-09-22
 **Entry count**: 22
 **Location(s)**: Nice
 

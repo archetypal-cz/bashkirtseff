@@ -6,7 +6,7 @@
 
 Carnet 036 of Marie Bashkirtseff's diary.
 
-**Date range**: 1875-07-09 to 1875-07-10
+**Date range**: 1875-07-09 to 1875-07-14
 **Entry count**: 6
 **Location(s)**: Nice
 

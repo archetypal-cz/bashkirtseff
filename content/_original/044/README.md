@@ -6,7 +6,7 @@
 
 Carnet 044 of Marie Bashkirtseff's diary.
 
-**Date range**: 1875-09-22 to 1875-09-25
+**Date range**: 1875-09-21 to 1875-09-25
 **Entry count**: 5
 **Location(s)**: Nice
 
