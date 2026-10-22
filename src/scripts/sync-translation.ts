@@ -147,6 +147,11 @@ Options:
                       (trees such as en never carried LAN notes: this adds them all)
   --notes-since DATE  Only notes stamped at/after DATE (carry a source fix's notes)
   --footnotes         Also add footnotes absent from the translation
+                      (WARN: a source note the tree may lack beside a tree note
+                      that shares nothing with it — not added, check by hand;
+                      --verbose adds CHECK lines for notes paired by shared
+                      names/dates, WEAK where the shared word is only the
+                      annotated word itself — review those after adding notes)
   --all               --tags --notes --footnotes
   -h, --help          Show this help message
 
@@ -176,6 +181,15 @@ function printResult(result: CarnetSyncResult, options: CliOptions): void {
   console.log(`Modified: ${result.entriesModified} files`);
   console.log(`Skipped:  ${result.entriesSkipped} files (no changes needed)`);
   console.log(`Total changes: ${result.totalChanges}`);
+
+  const assumed = result.entries.reduce((n, e) => n + (e.footnotesAssumed?.length ?? 0), 0);
+  const weak = result.entries.reduce((n, e) => n + (e.footnotesWeak?.length ?? 0), 0);
+  if (assumed + weak > 0) {
+    console.log(
+      `Footnotes taken as relabelled tree notes: ${assumed + weak}, ${weak} of them on a word of the paragraph only` +
+      (options.verbose ? ' (CHECK / WEAK lines above)' : ' (--verbose lists them)')
+    );
+  }
 
   if (result.errors.length > 0) {
     console.log(`\nErrors:`);

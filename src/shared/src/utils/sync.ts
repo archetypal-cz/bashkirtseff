@@ -100,6 +100,16 @@ export interface EntrySyncResult {
   error?: string;
   /** Footnotes deliberately NOT propagated because the target's state is ambiguous */
   warnings: string[];
+  /**
+   * Source notes taken to be a tree note under another label because the two
+   * share names/dates/quoted terms; listed under --verbose only
+   */
+  footnotesAssumed: string[];
+  /**
+   * Like footnotesAssumed, but the only shared words are words of the paragraph
+   * itself: the pairing most likely to hide a new note; listed under --verbose
+   */
+  footnotesWeak: string[];
 }
 
 /**
@@ -112,6 +122,10 @@ interface FootnotePlan {
   /** Translation paragraph id -> source ids whose marker is appended at its end */
   addRefs: Map<string, string[]>;
   warnings: string[];
+  /** See EntrySyncResult.footnotesAssumed */
+  assumed: string[];
+  /** See EntrySyncResult.footnotesWeak */
+  weak: string[];
 }
 
 /**
@@ -136,6 +150,42 @@ export type BookSyncResult = CarnetSyncResult;
 /**
  * Entry sync utility for propagating changes from originals to translations
  */
+/**
+ * Capitalised words too common in source footnotes to tie a translated note
+ * to its source (see EntrySync.footnoteAnchors)
+ */
+const FOOTNOTE_ANCHOR_STOPWORDS = new Set([
+  'marie', 'maman', 'paris', 'nice', 'french', 'english', 'russian', 'italian',
+  'german', 'latin', 'polish', 'spanish', 'francais', 'francaise', 'russe', 'anglais',
+  'italien', 'italienne', 'allemand', 'original', 'manuscript', 'translation',
+  'literally', 'here', 'this', 'that', 'there', 'they', 'their', 'with', 'from',
+  'when', 'also', 'still', 'after', 'before', 'mlle', 'mme', 'madame',
+  'monsieur', 'mademoiselle', 'saint', 'sainte',
+]);
+
+const CYRILLIC_LATIN: Record<string, string> = {
+  а: 'a', б: 'b', в: 'v', г: 'h', ґ: 'g', д: 'd', е: 'e', є: 'ie', ё: 'e', ж: 'zh', з: 'z',
+  и: 'i', і: 'i', ї: 'i', й: 'i', к: 'k', л: 'l', м: 'm', н: 'n', о: 'o', п: 'p', р: 'r',
+  с: 's', т: 't', у: 'u', ф: 'f', х: 'kh', ц: 'ts', ч: 'ch', ш: 'sh', щ: 'shch', ь: '',
+  ъ: '', ы: 'y', э: 'e', ю: 'iu', я: 'ia',
+};
+
+/** Rough cross-script spelling skeleton for matching footnote anchors */
+function footnoteSkeleton(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[а-яёєіїґ]/g, (ch) => CYRILLIC_LATIN[ch] ?? ch)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f'’ʼ]/g, '')
+    .replace(/ph/g, 'f')
+    .replace(/[cq]/g, 'k')
+    .replace(/x/g, 'ks')
+    .replace(/w/g, 'v')
+    .replace(/[yj]/g, 'i')
+    .replace(/g/g, 'h')
+    .replace(/(\p{L})\1+/gu, '$1');
+}
+
 export class EntrySync {
   private parser: ParagraphParser;
   private renderer: ParagraphRenderer;
@@ -355,24 +405,66 @@ export class EntrySync {
   }
 
   /**
+   * The words of a source footnote a translated copy is likely to keep as they
+   * are: years and other numbers, capitalised names, italicised or quoted terms
+   * (`*muso*`, «Dormi pure»). Folded to lower case without diacritics.
+   */
+  static footnoteAnchors(text: string): string[] {
+    const fold = (w: string) => w.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const words = new Set<string>();
+    const add = (w: string) => {
+      const f = fold(w).replace(/^['’-]+|['’-]+$/g, '').replace(/['’]s$/, '');
+      if (f.length >= 4 && !FOOTNOTE_ANCHOR_STOPWORDS.has(f)) words.add(f);
+    };
+    for (const m of text.matchAll(/\d{3,4}/g)) words.add(m[0]);
+    for (const m of text.matchAll(/\p{Lu}[\p{L}'’-]{3,}/gu)) add(m[0]);
+    for (const m of text.matchAll(/\*([^*]+)\*|«([^»]+)»|"([^"]+)"|“([^”]+)”/g)) {
+      for (const w of (m[1] ?? m[2] ?? m[3] ?? m[4]).split(/[^\p{L}\d'’-]+/u)) add(w);
+    }
+    return [...words];
+  }
+
+  /**
+   * Anchors of a source note found in a tree note's definition. Both sides are
+   * reduced to a rough spelling skeleton (Cyrillic romanised; c/k, g/h, y/i…
+   * merged; doubled letters collapsed) and an anchor counts when its first five
+   * letters occur, so «Binder» finds «Біндер» and «Vanvitelli» «Vanvitellim».
+   */
+  private static sharedAnchors(sourceText: string, treeText: string | undefined): string[] {
+    if (!treeText) return [];
+    const tree = footnoteSkeleton(treeText);
+    return EntrySync.footnoteAnchors(sourceText).filter(w => tree.includes(footnoteSkeleton(w).slice(0, 5)));
+  }
+
+  /**
    * Decide which source footnotes are genuinely absent from the translation.
    *
    * Translation trees renumber footnotes (source `[^3]` may be `[^01.10.1]` or
-   * `[^2]` in the target), so "the source id is missing" is not evidence the note
-   * is missing. A source marker counts as PRESENT when
-   *   - the target references the same id anywhere, or
-   *   - the target paragraph carries at least as many markers as the source
-   *     paragraph (the k-th source marker maps to the k-th target marker), or
-   *   - some target definition is the same text as the source definition.
-   * A source marker is ADDED (definition + marker at paragraph end) only when the
-   * target paragraph is translated and carries no marker at all. Anything else —
-   * fewer markers than the source, an untranslated paragraph, a source note no
-   * source paragraph references — is ambiguous: it is skipped with a warning
-   * rather than guessed. A definition is never overwritten and never added
-   * without a marker to anchor it.
+   * `[^2]` in the target), and their labels are their own numbering — often an
+   * older paragraph number, sometimes the same `.1` a new source note uses for
+   * something else (cz 091.0253) — so labels other than the exact source id
+   * prove nothing. A source marker is MATCHED, claiming that target marker of
+   * the paragraph one to one, when the target has
+   *   - the same id in the paragraph, or anywhere unless it is a bare number, or
+   *   - a definition with the same text as the source definition, or
+   *   - an unclaimed marker in the paragraph whose definition shares a name,
+   *     date or quoted term with the source definition (footnoteAnchors) — the
+   *     usual translated copy; listed in `assumed` for a --verbose check, or in
+   *     `weak` when every shared word is a word of the paragraph itself (two
+   *     different notes on one phrase share exactly that).
+   * An unmatched source marker is ADDED (definition + marker at paragraph end)
+   * only when the target paragraph is translated and has no unclaimed marker
+   * left, none of them claimed by shared words alone, and its label is free in
+   * the tree (both other cases are warnings).
+   * If unclaimed markers remain they share nothing with the source note:
+   * translator-only notes or an unrecognisable translation of it — skipped with
+   * a warning naming them (equal marker counts used to pass silently and hid new
+   * source notes beside translator-only ones, D-65). Untranslated paragraphs and
+   * source notes no source paragraph references are skipped with a warning too.
+   * A definition is never overwritten and never added without a marker.
    */
   private planFootnoteSync(original: DiaryEntry, translation: DiaryEntry): FootnotePlan {
-    const plan: FootnotePlan = { addDefinitions: [], addRefs: new Map(), warnings: [] };
+    const plan: FootnotePlan = { addDefinitions: [], addRefs: new Map(), warnings: [], assumed: [], weak: [] };
 
     const transParas = new Map(translation.paragraphs.map(p => [p.id, p]));
     const transRefIds = new Set<string>();
@@ -382,6 +474,10 @@ export class EntrySync {
     const transDefKeys = new Set(
       Object.values(translation.footnotes).map(t => EntrySync.footnoteKey(t))
     );
+    const snippet = (text: string | undefined) => {
+      const t = (text ?? '').replace(/\s+/g, ' ').trim();
+      return t.length > 50 ? `${t.slice(0, 50)}…` : t;
+    };
 
     const referencedInSource = new Set<string>();
     const decided = new Set<string>();
@@ -393,23 +489,71 @@ export class EntrySync {
 
     for (const origPara of original.paragraphs) {
       const transPara = transParas.get(origPara.id);
+      const transMarkers = transPara?.footnoteRefs ?? [];
+      const claimed = new Set<string>();
+
+      // Pass 1: exact id or identical text
+      const unmatched: string[] = [];
       for (const fnId of origPara.footnoteRefs) {
         referencedInSource.add(fnId);
         if (decided.has(fnId)) continue;
         decided.add(fnId);
         const fnText = original.footnotes[fnId];
 
-        if (transRefIds.has(fnId)) {
-          // Same id already anchored; only a missing definition needs repair
+        if (transMarkers.includes(fnId) || (transRefIds.has(fnId) && !/^\d+$/.test(fnId))) {
+          // Same id already anchored; only a missing definition needs repair. A bare
+          // number elsewhere in the entry is the tree's own numbering, not this note.
+          if (transMarkers.includes(fnId)) claimed.add(fnId);
           addDef(fnId);
-          continue;
+        } else if (fnText !== undefined && transDefKeys.has(EntrySync.footnoteKey(fnText))) {
+          const textKey = EntrySync.footnoteKey(fnText);
+          const hit = transMarkers.find(id =>
+            !claimed.has(id) && id in translation.footnotes && EntrySync.footnoteKey(translation.footnotes[id]) === textKey);
+          if (hit) claimed.add(hit);
+        } else {
+          unmatched.push(fnId);
         }
-        if (transPara && transPara.footnoteRefs.length >= origPara.footnoteRefs.length) {
-          continue; // renumbered: the k-th target marker is this note
+      }
+
+      // Pass 2: a translated copy shares names, dates or quoted terms (best pair first)
+      const pairs: { fnId: string; id: string; shared: string[] }[] = [];
+      for (const fnId of unmatched) {
+        const fnText = original.footnotes[fnId];
+        if (fnText === undefined) continue;
+        for (const id of transMarkers) {
+          if (claimed.has(id)) continue;
+          const shared = EntrySync.sharedAnchors(fnText, translation.footnotes[id]);
+          if (shared.length) pairs.push({ fnId, id, shared });
         }
-        if (fnText !== undefined && transDefKeys.has(EntrySync.footnoteKey(fnText))) {
-          continue; // same note text under another id
+      }
+      pairs.sort((a, b) => b.shared.length - a.shared.length);
+      const paired = new Set<string>();
+      const paraText = pairs.length
+        ? footnoteSkeleton(`${origPara.originalText ?? ''} ${transPara?.translatedText ?? ''}`)
+        : '';
+      for (const { fnId, id, shared } of pairs) {
+        if (paired.has(fnId) || claimed.has(id)) continue;
+        paired.add(fnId);
+        claimed.add(id);
+        if (shared.every(w => paraText.includes(footnoteSkeleton(w).slice(0, 5)))) {
+          // Only the annotated word itself is shared. Usually still a gloss and its
+          // translation, but two different notes on one phrase look exactly like
+          // this (a D-63 context note beside the tree's gloss of the same epithet)
+          plan.weak.push(
+            `[^${fnId}] (paragraph ${origPara.id}) taken as the tree's [^${id}] only because both name ` +
+            `${shared.slice(0, 3).join(', ')} from the paragraph itself — source "${snippet(original.footnotes[fnId])}" vs tree ` +
+            `"${snippet(translation.footnotes[id])}": same note?`
+          );
+        } else {
+          plan.assumed.push(`[^${fnId}] (paragraph ${origPara.id}) taken as the tree's [^${id}] (shared: ${shared.slice(0, 4).join(', ')})`);
         }
+      }
+
+      // Pass 3: an unmatched note is added only where nothing else could be it
+      const unclaimed = transMarkers.filter(id => !claimed.has(id));
+      for (const fnId of unmatched) {
+        if (paired.has(fnId)) continue;
+        const fnText = original.footnotes[fnId];
         if (fnText === undefined) {
           plan.warnings.push(`[^${fnId}] referenced in source paragraph ${origPara.id} but never defined in the source; not propagated`);
           continue;
@@ -418,14 +562,31 @@ export class EntrySync {
           plan.warnings.push(`[^${fnId}] (paragraph ${origPara.id}) skipped: paragraph is not translated yet, nowhere to anchor the marker`);
           continue;
         }
-        if (transPara.footnoteRefs.length > 0) {
+        if (unclaimed.length > 0) {
           plan.warnings.push(
-            `[^${fnId}] (paragraph ${origPara.id}) skipped: target paragraph carries ${transPara.footnoteRefs.length} marker(s) ` +
-            `[${transPara.footnoteRefs.map(r => `^${r}`).join(', ')}] vs ${origPara.footnoteRefs.length} in source — cannot tell which note is missing`
+            `[^${fnId}] (paragraph ${origPara.id}) skipped: source note "${snippet(fnText)}" has no matching tree note; ` +
+            `the tree paragraph has unmatched note(s) ` +
+            unclaimed.map(r => `[^${r}] "${snippet(translation.footnotes[r])}"`).join(', ') +
+            ` — translator-only, or a translation of this note? check by hand`
           );
           continue;
         }
-        // Translated paragraph with no marker at all: safe to append
+        if (paired.size > 0) {
+          // The other markers were only matched by shared words: probably right, not proof
+          plan.warnings.push(
+            `[^${fnId}] (paragraph ${origPara.id}) skipped: source note "${snippet(fnText)}" looks missing ` +
+            `(the tree paragraph's other note(s) were taken as translations of other source notes by shared words) — add by hand if so`
+          );
+          continue;
+        }
+        if (fnId in translation.footnotes || transRefIds.has(fnId)) {
+          plan.warnings.push(
+            `[^${fnId}] (paragraph ${origPara.id}) looks missing, but the tree uses that label for another note ` +
+            `"${snippet(translation.footnotes[fnId])}" — add it by hand under a new label`
+          );
+          continue;
+        }
+        // Translated paragraph whose markers all match exactly: safe to append
         addDef(fnId);
         const list = plan.addRefs.get(origPara.id) ?? [];
         list.push(fnId);
@@ -653,6 +814,8 @@ export class EntrySync {
       changes: [],
       written: false,
       warnings: [],
+      footnotesAssumed: [],
+      footnotesWeak: [],
     };
 
     try {
@@ -686,6 +849,16 @@ export class EntrySync {
         result.warnings = plan?.warnings ?? [];
         for (const w of result.warnings) {
           console.warn(`[sync] WARN ${path.basename(translationPath)}: ${w}`);
+        }
+        result.footnotesAssumed = plan?.assumed ?? [];
+        result.footnotesWeak = plan?.weak ?? [];
+        if (options.verbose) {
+          for (const a of result.footnotesWeak) {
+            console.warn(`[sync] WEAK ${path.basename(translationPath)}: ${a}`);
+          }
+          for (const a of result.footnotesAssumed) {
+            console.warn(`[sync] CHECK ${path.basename(translationPath)}: ${a}`);
+          }
         }
         const before = fs.readFileSync(translationPath, 'utf-8');
         const patched = patchTranslation(
@@ -1145,7 +1318,7 @@ export function patchTranslation(
       }
     }
 
-    // Footnote markers (the plan only adds them to translated paragraphs with none)
+    // Footnote markers (the plan only adds them where every existing marker is matched)
     for (const fnId of footnotes?.addRefs.get(oc.id) ?? []) {
       const text = textLineIdx(lines);
       if (!text.length) continue;
