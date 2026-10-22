@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Koulibiaks
 
@@ -20,7 +20,7 @@ Russian savory pies (кулебяка/kulebyaka), traditional festive food order
 ## Diary References
 
 ### 1874
-- **March 5**: Marie orders "des koulibiaks etc." for the villa blessing ceremony the next day.
+- **March 5** (017.0179): Marie orders "des koulibiaks etc." for the villa blessing ceremony the next day.
 
 ## Context
 - Traditional Russian filled pastry

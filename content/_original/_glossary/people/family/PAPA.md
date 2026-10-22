@@ -12,7 +12,7 @@ aliases:
 type: Person
 category: people/family
 research_status: Comprehensive
-last_updated: 2026-10-11
+last_updated: 2026-10-22
 images:
   - src: /images/people/papa.jpg
     caption: "Konstantin Pavlovich Bashkirtseff (1833--1883), portrait photograph reproduced in The Sketch, vol. III, no. 37, 11 October 1893, p. 556"
@@ -29,7 +29,7 @@ images:
 %% GLO_PAPA.0002 %%
 ## Who he was
 
-Konstantin (Constantin) Pavlovich Bashkirtseff (Bashkirtsev, 1833--1883) was Marie Bashkirtseff's father, a landowner of Gavronzi near Poltava (then in the Russian Empire, now Ukraine) and a local marshal of the nobility (English Wikipedia, "Marie Bashkirtseff"; the Ukrainian Wikipedia article calls him head of the Poltava gentry). Both dates are from Kernberger (2013, Appendix I, Glossary: "Bashkirtseff, Constantine: Marie's father (1833-1883), separated from mother"); no second source for either was found. His own father was General Paul Grigorievitch Bashkirtseff ([#Paul_Grigorievitch_Bashkirtseff](./PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md), a veteran of 1812 per the Ukrainian Wikipedia article). Marie says "mon père est maréchal de noblesse" (023.0637) and "mon honorable père, maréchal de noblesse" (030.0127). He married [#Maman](./MAMAN.md) (Maria Stepanovna Babanina) and was the father of Marie (b. 1858) and [#Paul](PAUL.md) (b. 1859).
+Konstantin (Constantin) Pavlovich Bashkirtseff (Bashkirtsev, 1833--1883) was Marie Bashkirtseff's father, a landowner of Gavronzi near Poltava (then in the Russian Empire, now Ukraine) and a local marshal of the nobility (English Wikipedia, "Marie Bashkirtseff"; the Ukrainian Wikipedia article calls him head of the Poltava gentry). Both dates are from Kernberger (2013, Appendix I, Glossary: "Bashkirtseff, Constantine: Marie's father (1833-1883), separated from mother"); no second source for either was found. His own father was General Paul Grigorievitch Bashkirtseff ([#Paul_Grigorievitch_Bashkirtseff](./PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md), a veteran of 1812 per the Ukrainian Wikipedia article). Marie says "mon père est maréchal de noblesse" (023.0646) and "mon honorable père, maréchal de noblesse" (030.0127). He married [#Maman](./MAMAN.md) (Maria Stepanovna Babanina) and was the father of Marie (b. 1858) and [#Paul](PAUL.md) (b. 1859).
 
 %% GLO_PAPA.0003 %%
 The marriage failed early. The date of the separation is not given in the diary: Marie counts "vingt ans" of separation in 1883 (099.0110) and 1884 (106.0057), i.e. about 1863; English Wikipedia says "when she was 12", which the diary contradicts; one biography places it as early as 1859. He and his father twice tried to recover Maria: at one point he took the children to Gavronzi and hid them, until Maria and her brothers fetched them by force (000.0013). A story told on 1 September 1873 has Marie Ivanovna Perlik warning Marie's mother, before the wedding, not to marry Bashkirtseff because he already had a mistress with children (diary, 1873-09-01; Kernberger 2013).

@@ -8,7 +8,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Stub
-last_updated: 2026-09-27
+last_updated: 2026-10-22
 ---
 # General Wolf
 
@@ -18,7 +18,7 @@ A Russian general living in Nice in 1876-1877, an intimate friend of thirty year
 Not the same person as Albert Wolff, the Figaro art critic of the 1880s (see [WOLFF](../writers/WOLFF.md)).
 
 ## Relevance to Marie
-Wolf belongs to the circle of elderly Russians around the Anitchkoffs that Marie finds stifling in Nice. In the «Pierret affair» of January 1877, M. Gustave Pierret names «le général Wolf» as one of the few people he walks with (068.0489); after Marie's interview with Pierret, Pierret goes straight to Wolf for an explanation, and Wolf sulks at the Bashkirtseffs (068.0754). He appears in 067 as «le général Wolf» among the family's guests.
+Wolf belongs to the circle of elderly Russians around the Anitchkoffs that Marie finds stifling in Nice. In the «Pierret affair» of January 1877, M. Gustave Pierret names «le général Wolf» as one of the few people he walks with (068.0542); after Marie's interview with Pierret, Pierret goes straight to Wolf for an explanation, and Wolf sulks at the Bashkirtseffs (068.0754). He appears in 067 as «le général Wolf» among the family's guests.
 
 ## References in Diary
 - 067 (December 1876): guest in the garden with Pelikan, Broussais and the Anitchkoffs

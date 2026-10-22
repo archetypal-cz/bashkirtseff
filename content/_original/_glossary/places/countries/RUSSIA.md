@@ -9,7 +9,7 @@ aliases:
 type: Place
 category: places/countries
 research_status: Comprehensive
-last_updated: 2026-05-25
+last_updated: 2026-10-22
 ---
 # Russia
 
@@ -119,7 +119,7 @@ Marie's relationship with Russia and France constitutes one of the diary's centr
 
 Russia is not only an emotional concept but a practical nightmare. The diary is threaded with anxieties about "les affaires de Russie" --- endless lawsuits, property disputes, and family mismanagement:
 
-- Marie's uncles Georges and Alexandre engaged in scandalous behavior in Poltava, "rossant des fonctionnaires" and provoking the governor, leading to Georges's exile to Viatka in 1865 (000.0002).
+- Marie's uncles Georges and Alexandre engaged in scandalous behavior in Poltava, "ont rossé des fonctionnaires" and provoked the governor, leading to Georges's exile to Viatka in 1865 (000.0009).
 - Ongoing lawsuits paralyze the family's finances: "cette stupide affaire en Russie qui embrouille tout" (November 18, 1873).
 - The family's legal troubles drag on for decades: "toutes les affaires en Russie sont terminees, sauf une" (October 13, 1883) --- but even that exception generates "vilains papiers a l'ambassade" every six months.
 - Money sent from Russian estates supports life abroad: Marie's brother Paul manages the property, but negotiations over her share produce bitter conflict (September 21, 1883).

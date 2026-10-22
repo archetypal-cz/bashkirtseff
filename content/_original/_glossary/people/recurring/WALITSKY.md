@@ -114,7 +114,7 @@ This passage reveals:
 - Diagnosed Mlle Collignon's terminal condition: "Walitsky nous dit des lors qu'elle ne vivrait pas" (002.0151, echoed in 102.0012)
 - Correctly recommended Soden spa for Marie's throat: "Ce coquin de Walitsky est un habile homme, il s'entend a toutes les maladies" (073.0235)
 - Treated external patients in Nice: "il a la tous ses malades, tous ses amis" (077.0195)
-- Served as witness to grandfather's will alongside Patton, Orgesko, Bihovetz, and Anitchkoff (082.0167)
+- Served as witness to grandfather's will alongside Patton, Orgesko, Bihovetz, and Anitchkoff (082.0269)
 - Nursed grandfather during paralysis: "Walitsky le cher Walitsky court et soigne et grogne et console" (076.0357)
 
 %% GLO_WALITSKY.0018 %%
@@ -122,23 +122,23 @@ This passage reveals:
 Walitsky was far more than a physician. He was a constant presence in family life across every sphere:
 
 - **Travel companion**: Present in Baden-Baden (1870), Nice (1873-74), Spa (1874), Rome (1876), and Paris (1877-78)
-- **Chaperone and escort**: Accompanied Marie to the theatre, dog markets, excursions, and outings (e.g., 020.0050: "Le soir je vais a la Gaite deguisee en noir avec Walitsky et Paul")
+- **Chaperone and escort**: Accompanied Marie to the theatre, dog markets, excursions, and outings (e.g., 020.0230: "Le soir je vais a la Gaite deguisee en noir avec Walitsky et Paul")
 - **Social intermediary**: Knew the Duke of Hamilton through social connections; noted Marie's reactions with teasing grimaces
 - **Household participant**: Joined roulette games, carnival outings, croquet matches, excursions
-- **Physical protector**: Slapped an Englishman at Monaco who insulted Paul: "Walitsky... lui donna des beaux coups dans la figure et partout" (018.0087)
+- **Physical protector**: Slapped an Englishman at Monaco who insulted Paul: "Walitsky... lui donna des beaux coups dans la figure et partout" (018.0270)
 - **Verse-writer**: Composed humorous poems about the family's social circle at Spa, satirizing their suitors (022.0106: "Improvisation de Walitsky")
-- **Dog-fighter intervener**: Even timid in domestic crises -- "Walitsky n'osant intervenir" when the dogs fought (071.0540)
-- **Financial handler**: Managed practical matters the family disdained: "Walitsky pourvoira a tout. Je n'aime pas m'occuper de ces choses" (020.0083)
+- **Dog-fighter intervener**: Even timid in domestic crises -- "Walitsky n'osant intervenir" when the dogs fought (071.0392)
+- **Financial handler**: Managed practical matters the family disdained: "Walitsky pourvoira a tout. Je n'aime pas m'occuper de ces choses" (020.0228)
 
 %% GLO_WALITSKY.0019 %%
 ### Confidant and Go-Between
-- Relayed confidences: told Maman about Antonelli's nocturnal activities -- "il passait toutes ses nuites avec des filles! En sortant de chez moi!!!" (067.1032)
-- Participated in family councils about finances: "Walitsky et ma tante ont passe la soiree a me persuader que mes calculs ne servaient a rien" (067.1072)
-- Observed Marie's romantic reactions: "Walitsky a dit: C'est Moussia et Dina" regarding a mysterious bouquet sender (018.0083)
+- Relayed confidences: told Maman about Antonelli's nocturnal activities -- "il passait toutes ses nuites avec des filles! En sortant de chez moi!!!" (067.1096)
+- Participated in family councils about finances: "Walitsky et ma tante ont passe la soiree a me persuader que mes calculs ne servaient a rien" (067.1427)
+- Observed Marie's romantic reactions: "Walitsky a dit: C'est Moussia et Dina" regarding a mysterious bouquet sender (018.0224)
 
 %% GLO_WALITSKY.0020 %%
 ### Object of Affectionate Mockery
-Mme Kondareff's famous quip captures his position in the all-female household: "un vrai serail avec Walitsky pour ennuque" ("a true harem with Walitsky for eunuch," 071.0542). Marie and the household treated him as a beloved fixture -- the butt of pranks (she once hid a dead rat and eggs in his bed, 072.0146) and the audience for domestic comedies ("Walitsky se pame" -- Walitsky swoons with laughter).
+Mme Kondareff's famous quip captures his position in the all-female household: "un vrai serail avec Walitsky pour ennuque" ("a true harem with Walitsky for eunuch," 071.0542). Marie and the household treated him as a beloved fixture -- the butt of pranks (she once hid a dead rat and eggs in his bed, 072.0017) and the audience for domestic comedies ("Walitsky se pame" -- Walitsky swoons with laughter).
 
 %% GLO_WALITSKY.0021 %%
 ## The Poisoning Scandal
@@ -257,15 +257,15 @@ The juxtaposition of death and pleasure is characteristic: on the very day Walit
 
 Walitsky's death became a touchstone for Marie -- a measure against which she gauged other losses:
 
-- **March 1878**: "Walitsky est mort, Pincio est perdu... et moi je suis ennuyee et triste" (078.0095)
-- **March 1878**: Comparing grief: "le perdre me fait peut-etre autant de peine que la mort de Walitsky" (about her lost dog Pincio, 078.0119)
-- **June 1878**: On Cassagnac's marriage: "me contrarie comme la mort de Walitsky" (080.0078)
-- **June 1878**: "C'est comme la mort de ce pauvre Walitsky, je realiserai difficilement la mort de ce pauvre Cassagnac" (081.0496)
-- **July 1878**: "Je ne realise pas cette fin comme je ne realisais pas la mort de Walitsky" (081.0546)
+- **March 1878**: "Walitsky est mort, Pincio est perdu... et moi je suis ennuyee et triste" (078.0411)
+- **March 1878**: Comparing grief: "le perdre me fait peut-etre autant de peine que la mort de Walitsky" (about her lost dog Pincio, 078.0501)
+- **June 1878**: On Cassagnac's marriage: "me contrarie comme la mort de Walitsky" (080.0386)
+- **June 1878**: "C'est comme la mort de ce pauvre Walitsky, je realiserai difficilement la mort de ce pauvre Cassagnac" (081.0095)
+- **July 1878**: "Je ne realise pas cette fin comme je ne realisais pas la mort de Walitsky" (081.0233)
 - **July 1878**: At Soden, the spa he recommended: "Soden me ferait-il vraiment du bien? Ce pauvre cher Walitsky" (%% 081.0548 %%)
 - **August 1878**: Returning to the apartment: "Cet appartement m'est desagreable... Walitsky y est mort, Pincio y a ete perdu et Cassagnac n'y reviendra plus" (082.0150)
-- **August 1878**: Mlle Oelsnitz, the Anitchkoffs' former governess, joins the household -- "elle etait amoureuse de Walitsky" (082.0152)
-- **September 1878**: Dreams of Walitsky "en train de consulter un pullaire antique" -- consulting an ancient chicken oracle (082.0192)
+- **August 1878**: Mlle Oelsnitz, the Anitchkoffs' former governess, joins the household -- "elle etait amoureuse de Walitsky" (082.0150)
+- **September 1878**: Dreams of Walitsky "en train de consulter un pullaire antique" -- consulting an ancient chicken oracle (082.0429)
 - **November 1878**: "Je reve que Walitsky revient et que Dina et Rosalie mortes reviennent aussi. Je les supplie de s'en aller: Vous etes morts, allez-vous en, j'ai peur!" (083.0290)
 - **October 1883**: Still remembering his medical acumen five years later: "Walitsky nous dit des lors qu'elle ne vivrait pas" -- about his correct diagnosis of Collignon's tuberculosis, now as Marie faces her own (102.0012)
 
@@ -297,7 +297,7 @@ This stands in extraordinary contrast to her harsh judgments of almost everyone 
 - **1874 (March)**: Diagnosed Mlle Collignon's terminal illness (002.0151)
 - **1874 (April)**: Slapped an Englishman at Monaco defending Paul (018.0082)
 - **1874 (summer)**: With family at Spa; wrote satirical verse about suitors (022.0106)
-- **1876**: With family in Rome; connections to Russian artist circle via Botkine; wrestled with Antonelli (055.0285)
+- **1876**: With family in Rome; connections to Russian artist circle via Botkine; wrestled with Antonelli (055.0548)
 - **1876 (October)**: Accused (absurdly) of poisoning Romanoff (066.0629)
 - **1877 (summer)**: Recommended Soden spa for Marie's throat (073.0235)
 - **1877 (December 9)**: Nursing paralyzed grandfather: "court et soigne et grogne et console" (076.0357)
@@ -323,7 +323,7 @@ Among the Russian and Polish-Russian gentry, a *domashny vrach* (household physi
 %% GLO_WALITSKY.0046 %%
 ### A Woman in Love
 
-A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a governess at the Anitchkoffs', joins the Bashkirtseff household -- Marie notes "elle etait amoureuse de Walitsky" (082.0152). This is the only indication that Walitsky inspired romantic attachment outside the family. Marie describes Oelsnitz with her artist's eye: "petite, rousse, jeune, triste. Une figure ronde qui a l'air d'une caricature de la lune quand la lune est triste."
+A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a governess at the Anitchkoffs', joins the Bashkirtseff household -- Marie notes "elle etait amoureuse de Walitsky" (082.0150). This is the only indication that Walitsky inspired romantic attachment outside the family. Marie describes Oelsnitz with her artist's eye: "petite, rousse, jeune, triste. Une figure ronde qui a l'air d'une caricature de la lune quand la lune est triste."
 
 %% GLO_WALITSKY.0047 %%
 ## Related Entries
@@ -357,30 +357,30 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 %% GLO_WALITSKY.0051 %%
 ### Books 16-18 (Nice 1874)
 - 018.0082 (Apr 1, 1874): Marie writes April Fools letter pretending to be the Englishman Walitsky slapped at Monaco
-- 018.0087 (Apr 14): Walitsky beats a man who insulted the family
-- 018.0101 (Apr 19): Potential duel mentioned: "M. Walitsky aura un duel avec un autre homme, pour lui avoir donne une claque sur la main"
+- 018.0270 (Apr 14): Walitsky beats a man who insulted the family
+- 018.0317 (Apr 19): Potential duel mentioned: "M. Walitsky aura un duel avec un autre homme, pour lui avoir donne une claque sur la main"
 
 %% GLO_WALITSKY.0052 %%
 ### Books 19-22 (Paris, Spa 1874)
-- 020.0050 (Jun 12): Escorts Marie to theatre "deguisee en noir"
-- 020.0083: Handles practical finances: "Walitsky pourvoira a tout"
+- 020.0230 (Jun 12): Escorts Marie to theatre "deguisee en noir"
+- 020.0228: Handles practical finances: "Walitsky pourvoira a tout"
 - 022.0106 (Jul 25): Composes satirical verse about Spa suitors ("Improvisation de Walitsky")
 
 %% GLO_WALITSKY.0053 %%
 ### Books 47-62 (Rome, Nice, Italy 1875-76)
 - Carnet 055 has 24 entries with Walitsky -- the densest carnet; constant companion during the Rome period
-- 055.0285: Physical horseplay -- "C'est Walitsky et Antonelli qui ont essaye leur force"
+- 055.0548: Physical horseplay -- "C'est Walitsky et Antonelli qui ont essaye leur force"
 - Connections to Russian artist circle in Rome via Botkine
 
 %% GLO_WALITSKY.0054 %%
 ### Books 66-67 (Ukraine 1876)
 - 066.0629 (Oct 4, 1876): Poisoning accusation -- "Walitsky a empoisonne M. Romanoff"
-- 067.1032 (Nov 21): Relays Antonelli's scandalous behavior to Maman
+- 067.1096 (Nov 21): Relays Antonelli's scandalous behavior to Maman
 
 %% GLO_WALITSKY.0055 %%
 ### Books 71-73 (Nice, Paris 1877)
 - 071.0542 (Jun 2): "Un vrai serail avec Walitsky pour ennuque"
-- 072.0146 (Jun 11): Marie hides dead rat and eggs in his bed
+- 072.0017 (Jun 12): Marie hides dead rat and eggs in his bed
 - 073.0235 (Jul 30): "Ce coquin de Walitsky est un habile homme" -- medical advice on Soden
 
 %% GLO_WALITSKY.0056 %%
@@ -396,14 +396,14 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 
 %% GLO_WALITSKY.0057 %%
 ### Books 78-83 (Post-death references 1878)
-- 078.0095 (Mar 5): "Walitsky est mort, Pincio est perdu..."
-- 078.0119 (Mar 12): Grief for Pincio compared to Walitsky
-- 079.0063 (Mar 23): Recalls day of death and going to Versailles with Cassagnac
-- 080.0054 (May 9): "Mon pauvre Pincio et ce pauvre Walitsky..."
+- 078.0411 (Mar 5): "Walitsky est mort, Pincio est perdu..."
+- 078.0501 (Mar 12): Grief for Pincio compared to Walitsky
+- 079.0053 (Mar 23): Recalls day of death and going to Versailles with Cassagnac
+- 080.0071 (May 9): "Mon pauvre Pincio et ce pauvre Walitsky..."
 - %% 081.0548 %% (Jul 26): At Soden, remembering his recommendation
 - 082.0150 (Aug 18): "Cet appartement... Walitsky y est mort"
-- 082.0152 (Aug 19): Mlle Oelsnitz "etait amoureuse de Walitsky"
-- 082.0192 (Sep 21): Dream: Walitsky consulting a chicken oracle
+- 082.0150 (Aug 19): Mlle Oelsnitz "etait amoureuse de Walitsky"
+- 082.0429 (Sep 21): Dream: Walitsky consulting a chicken oracle
 - 083.0290 (Nov 29): Dream: Walitsky returns from death; Marie begs him to leave
 
 %% GLO_WALITSKY.0058 %%

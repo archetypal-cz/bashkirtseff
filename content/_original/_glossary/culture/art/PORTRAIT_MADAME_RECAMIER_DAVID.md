@@ -10,7 +10,7 @@ aliases:
 type: Culture
 category: culture/art
 research_status: Moderate
-last_updated: 2026-10-10
+last_updated: 2026-10-22
 images:
   - src: /images/works/madame-recamier-david.jpg
     caption: "Madame Récamier (1800, unfinished), Jacques-Louis David, oil on canvas, Musée du Louvre, Paris (INV 3708)"
@@ -29,7 +29,7 @@ The *Portrait de Madame Récamier* (1800) by Jacques-Louis David shows Juliette 
 ## Marie and the Récamier costume
 
 %% GLO_PORTRAIT_MADAME_RECAMIER_DAVID.0004 %%
-For Marie « en Récamier » means the white, high-waisted, Directoire dress. On **17 January 1880** she wears it at a party: white crêpe de Chine with a peplum trimmed with silver fringe and a garland of white roses (087.0246); on 3 May 1880 she wears the « costume Récamier » again to success (088.0082). On **27 April 1880** she begins a portrait of a young American, who « ressemble à Mme Récamier »: Marie turns up the hair « à la Psyché » and puts her in a short-sleeved batiste chemise with a pink ribbon under the breast and a straw-coloured scarf (088.0028); on **22 April 1881** she finishes the portrait of Brisbane « en Récamier » (091.0504, with a reader footnote; the sitter is probably [Alice Brisbane](../../people/mentioned/ALICE_BRISBANE.md)). At a costume party on **21 April 1883** she is « très jolie en Récamier, on m'a posée comme le portrait de David » (099.0167, footnote 099.0157).
+For Marie « en Récamier » means the white, high-waisted, Directoire dress. On **17 January 1880** she wears it at a party: white crêpe de Chine with a peplum trimmed with silver fringe and a garland of white roses (087.0246); on 3 May 1880 she wears the « costume Récamier » again to success (088.0082). On **27 April 1880** she begins a portrait of a young American, who « ressemble à Mme Récamier »: Marie turns up the hair « à la Psyché » and puts her in a short-sleeved batiste chemise with a pink ribbon under the breast and a straw-coloured scarf (088.0028); on **22 April 1881** she finishes the portrait of Brisbane « en Récamier » (091.0504, with a reader footnote; the sitter is probably [Alice Brisbane](../../people/mentioned/ALICE_BRISBANE.md)). At a costume party on **21 April 1883** she is « très jolie en Récamier, on m'a posée comme le portrait de David » (099.0167); nine days later she goes masked to a ball « en Récamier » (099.0268, with a reader footnote).
 
 %% GLO_PORTRAIT_MADAME_RECAMIER_DAVID.0005 %%
 ## Related

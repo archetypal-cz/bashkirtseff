@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Samaritaines
 
@@ -21,7 +21,7 @@ Charitable organization in Nice that benefited from concerts and cultural events
 The Samaritaines (Samaritans) were typically women's charitable organizations in 19th century France that provided aid to the poor and sick. They organized and benefited from social events among the upper classes.
 
 ## References in Diary
-- **March 1, 1874**: Charity concert held at Valrose for their benefit
+- **March 1, 1874** (017.0088): Charity concert held at Valrose for their benefit
 
 ## Related Entries
 - [#Valrose](../../places/cities/VALROSE.md) - Venue for charity concert

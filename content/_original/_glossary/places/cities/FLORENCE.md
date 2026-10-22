@@ -8,7 +8,7 @@ aliases:
 type: Place
 category: places/cities
 research_status: Comprehensive
-last_updated: 2026-05-25
+last_updated: 2026-10-22
 ---
 # Florence (Firenze)
 
@@ -51,7 +51,7 @@ Despite losing its political role, Florence remained Europe's unrivaled city for
 - **[Galleria dell'Accademia](https://en.wikipedia.org/wiki/Galleria_dell%27Accademia)**: Home to Michelangelo's *David*. Marie visits "alla galleria delle belli arti" (043.0154, with her characteristic Italian spelling error).
 - **Opificio delle Pietre Dure**: The Museum of Hard Stones, specializing in *pietra dura* mosaic work (043.0152)
 - **Churches**: [Santa Croce](https://en.wikipedia.org/wiki/Basilica_of_Santa_Croce,_Florence) with its tombs of illustrious men, [San Lorenzo](https://en.wikipedia.org/wiki/Basilica_of_San_Lorenzo,_Florence) with Michelangelo's Medici Chapels, the [Duomo](https://en.wikipedia.org/wiki/Florence_Cathedral), and the [Baptistery](https://en.wikipedia.org/wiki/Florence_Baptistery) with Ghiberti's doors (which Marie mistakenly attributes to Benvenuto Cellini, 043.0180)
-- **Working artists**: [Michele Gordigiani](https://en.wikipedia.org/wiki/Michele_Gordigiani) (1835-1909), the celebrated Florentine portrait painter who had painted Queen Victoria, the Prince of Wales, and King Vittorio Emanuele II, maintained his studio in Florence and encouraged Marie's art during her 1877 visit (071.0270).
+- **Working artists**: [Michele Gordigiani](https://en.wikipedia.org/wiki/Michele_Gordigiani) (1835-1909), the celebrated Florentine portrait painter who had painted Queen Victoria, the Prince of Wales, and King Vittorio Emanuele II, maintained his studio in Florence and encouraged Marie's art during her 1877 visit (071.0269).
 
 ### Key Venues and Promenades
 
@@ -71,12 +71,12 @@ Marie travels from Nice via Genoa with her aunt, arriving September 12. She stay
 
 | Date | Para IDs | Content |
 |------|----------|---------|
-| Sep 11 | 043.0077-0088 | Departure from Nice via Genoa; falls in love with Italy: "je suis amoureuse de l'Italie" |
-| Sep 12 | 043.0088-0111 | Arrives Florence; Hotel New York; rages at Victor Emmanuel for not making the centenary grander |
-| Sep 13 | 043.0109-0143 | Drives through the city in a landau; overwhelmed by architecture: "Soyez honteux, architectes francais, russes, anglais"; Le Cascine; Villa Demidoff; Santa Croce |
-| Sep 14 | 043.0139-0195 | Palazzo Panciatichi, Michelangelo's house, Pitti Palace; critiques Raphael's *Madonna della Sedia*; praises Titian; final night of centenario illuminations at Piazzale Michelangelo; Baptistery doors (misattributed to Cellini) |
-| Sep 15 | 043.0187-0220 | Uffizi Gallery: disappointed by Venus de' Medici, praises Raphael's *Fornarina* and Gherardo delle Notti's nativity; Egyptian and Etruscan museums; Le Cascine; Teatro Pagliano opera |
-| Sep 16 | 043.0209-0227 | Departs Florence quoting Dante; returns via Genoa |
+| Sep 11 | 043.0077-0087 | Departure from Nice via Genoa; falls in love with Italy: "je suis amoureuse de l'Italie" |
+| Sep 12 | 043.0088-0108 | Arrives Florence; Hotel New York; rages at Victor Emmanuel for not making the centenary grander |
+| Sep 13 | 043.0109-0138 | Drives through the city in a landau; overwhelmed by architecture: "Soyez honteux, architectes francais, russes, anglais"; Le Cascine; Villa Demidoff; Santa Croce |
+| Sep 14 | 043.0139-0186 | Palazzo Panciatichi, Michelangelo's house, Pitti Palace; critiques Raphael's *Madonna della Sedia*; praises Titian; final night of centenario illuminations at Piazzale Michelangelo; Baptistery doors (misattributed to Cellini) |
+| Sep 15 | 043.0187-0208 | Uffizi Gallery: disappointed by Venus de' Medici, praises Raphael's *Fornarina* and Gherardo delle Notti's nativity; Egyptian and Etruscan museums; Le Cascine; Teatro Pagliano opera |
+| Sep 16 | 043.0209-0214 | Departs Florence quoting Dante; returns via Genoa |
 
 **Marie's artistic judgments** are characteristically independent:
 - **Venus de' Medici**: "Cette petite poupee est une deception nouvelle" -- the Venus de Milo is "beaucoup plus Venus" (043.0191-0201)
@@ -93,19 +93,19 @@ Marie arrives from Naples around May 2, staying roughly ten days. This visit is 
 
 | Date | Para IDs | Content |
 |------|----------|---------|
-| May 2 | 071.0101-0030 | Arrives; encounters Larderei's mother at the Cascine; investigates family pedigree (Mirafiori, Salviati connections); Skating rink |
-| May 4 | 071.0140-0042 | Stalks la Righi (Larderei's mistress) and baby Alexandrine; Pergola closed for season; frustrated at lack of social venues to "se montrer" |
-| May 6 | 071.0158-0052 | Reveals real purpose: planned to kidnap Alexandrine, Larderei's illegitimate daughter; plan abandoned; Gordigiani visits and encourages her art; three men follow her at Cascine |
-| May 11 | 071.0258-0065 | Last day; stays up all night; farewell to Cascine; final sighting of Larderei family; Gordigiani validates her art; Cercle philharmonique concert; cries on the departing train |
-| May 13 | 071.0279-0101 | Returns to Nice; at Cascine before departure, confronts la Righi face to face; Marcuard delivers coded marriage proposal for Larderei at the train station |
+| May 2 | 071.0101-0115 | Arrives; encounters Larderei's mother at the Cascine; investigates family pedigree (Mirafiori, Salviati connections); Skating rink |
+| May 4 | 071.0140-0151 | Stalks la Righi (Larderei's mistress) and baby Alexandrine; Pergola closed for season; frustrated at lack of social venues to "se montrer" |
+| May 6 | 071.0158-0167 | Reveals real purpose: planned to kidnap Alexandrine, Larderei's illegitimate daughter; plan abandoned; Gordigiani visits and encourages her art; three men follow her at Cascine |
+| May 11 | 071.0258-0270 | Last day; stays up all night; farewell to Cascine; final sighting of Larderei family; Gordigiani validates her art; Cercle philharmonique concert; cries on the departing train |
+| May 13 | 071.0279-0314 | Returns to Nice; at Cascine before departure, confronts la Righi face to face; Marcuard delivers coded marriage proposal for Larderei at the train station |
 
 **Florence as Larderei territory**: During this visit, Florence is less an art capital than the Larderei family's domain. Marie drives past the Palazzo Larderei on Via Tornabuoni, observes la Righi at the Cascine, tracks the family's equipages (green livery, eight springs), and uses the skating rink and Cercle philharmonique as social stages. The Pergola's closure for mourning deprives her of the main venue to be seen: "j'aurais tant donne pour avoir un succes quelconque aux yeux de Larderei" (071.0158).
 
-**Gordigiani's encouragement** (071.0270) is one of the few genuine artistic moments: the celebrated painter, who had painted Queen Victoria, examines Marie's sketches and "m'a encouragee, m'a promis un avenir artistique, a trouve beaucoup de bon dans mes esquisses." This validation from a recognized professional strengthens her resolve.
+**Gordigiani's encouragement** (071.0269) is one of the few genuine artistic moments: the celebrated painter, who had painted Queen Victoria, examines Marie's sketches and "m'a encouragee, m'a promis un avenir artistique, a trouve beaucoup de bon dans mes esquisses." This validation from a recognized professional strengthens her resolve.
 
 ### The 1878 "Visit" That Was Not
 
-Marcuard writes to Marie from Florence (letter dated January 24, 1878, transcribed in 078.0216-0201), describing the city in mourning for King [Vittorio Emanuele II](https://en.wikipedia.org/wiki/Victor_Emmanuel_II_of_Italy) (d. January 9, 1878): "tout est en deuil, a Florence, les dames portent robes noires pendant 40 jours" (077.0215). The Pergola is closed, the skating rink deserted. Gordigiani is painting portraits of Russian and American ladies. Marie herself is in Paris and does not visit Florence in 1878, though she contemplates going: "les Cachines" appear in her plans with Yorke and Berthe (078.0308).
+Marcuard writes to Marie from Florence (letter dated January 24, 1878, transcribed in 078.0216-0224), describing the city in mourning for King [Vittorio Emanuele II](https://en.wikipedia.org/wiki/Victor_Emmanuel_II_of_Italy) (d. January 9, 1878): "tout est en deuil, a Florence, les dames portent robes noires pendant 40 jours" (077.0215). The Pergola is closed, the skating rink deserted. Gordigiani is painting portraits of Russian and American ladies. Marie herself is in Paris and does not visit Florence in 1878, though she contemplates going: "les Cachines" appear in her plans with Yorke and Berthe (078.0308).
 
 ## Florence in Marie's Imagination (1873-1882)
 
@@ -118,7 +118,7 @@ Florence first appears as pure aspiration. The fourteen-year-old Marie writes: "
 After visiting, Florence becomes a standard of comparison:
 - Arriving in Paris (July 1876): "J'ai vu Vienne, Londres, Rome, Florence... et je n'ai jamais rien vu de semblable... a la place de la Concorde" (063.0052) -- even Florence cannot match Paris
 - Comparing Naples to Paris (1877): "s'il faut absolument tout comparer a Paris, je lui comparerai Florence riche, elegante, belle" -- Florence is the closest Italian equivalent to Parisian elegance
-- Considering a move (March 1879): "Si j'allais a Florence? Ce ne serait pas tant pour me marier que pour voir du monde, j'ai idee que nous serions bien a Florence" (084.0420)
+- Considering a move (March 1879): "Si j'allais a Florence? Ce ne serait pas tant pour me marier que pour voir du monde, j'ai idee que nous serions bien a Florence" (084.0421)
 
 ### "Ma famille de Florence" (1877-1882)
 
@@ -127,9 +127,9 @@ Marie's ironic appropriation of the Larderei family as "ma famille" persists lon
 ## People Associated with Florence in the Diary
 
 - **[Alessandro de Larderei](../../people/mentioned/LARDEREL.md)**: Marie's great obsession; Florentine count, resident at Palazzo de Larderel on Via Tornabuoni
-- **Michele Gordigiani** (1835-1909): Florentine portrait painter; painted Queen Victoria, Prince of Wales, Vittorio Emanuele II; encouraged Marie's art (071.0270, 072, 075, 078)
+- **Michele Gordigiani** (1835-1909): Florentine portrait painter; painted Queen Victoria, Prince of Wales, Vittorio Emanuele II; encouraged Marie's art (071.0269, 072, 075, 078)
 - **[Marcuard](../../people/mentioned/MARCUARD.md)**: Swiss friend resident in Florence; his letters provide social intelligence about Florentine society
-- **Mlle Tanska**: Young Polish sculptor (age 16) mentioned in Marcuard's Florence letter (078.0218)
+- **Mlle Tanska**: Young Polish sculptor (age 16) mentioned in Marcuard's Florence letter (078.0221)
 - **Prince Strozzi**, **Mme Needham**: Florentine society figures mentioned in Marcuard's correspondence
 
 ## Key Sites Marie Visited or Referenced
@@ -139,12 +139,12 @@ Marie's ironic appropriation of the Larderei family as "ma famille" persists lon
 - **[Palazzo Pitti](https://en.wikipedia.org/wiki/Palazzo_Pitti)**: Including the Palatine Gallery; Titian's works, Raphael's *Madonna della Sedia* (043.0115, 043.0163)
 - **[Galleria dell'Accademia](https://en.wikipedia.org/wiki/Galleria_dell%27Accademia)**: "alla galleria delle belli arti" (043.0154)
 - **[Opificio delle Pietre Dure](https://en.wikipedia.org/wiki/Opificio_delle_pietre_dure)**: Museum of Hard Stones (043.0152)
-- **[Casa Buonarroti](https://en.wikipedia.org/wiki/Casa_Buonarroti)**: Michelangelo's house, with painting of him sculpting Moses (043.0155)
+- **[Casa Buonarroti](https://en.wikipedia.org/wiki/Casa_Buonarroti)**: Michelangelo's house, with painting of him sculpting Moses (043.0151, 043.0155)
 
 ### Churches and Architecture
 - **[Santa Croce](https://en.wikipedia.org/wiki/Basilica_of_Santa_Croce,_Florence)**: "Ce qui est curieux c'est l'eglise de Santa Croce avec ses tombeaux de tant d'hommes illustres" -- Dante study deepens her appreciation (1877 visit, raw carnet 10)
 - **[Baptistery of San Giovanni](https://en.wikipedia.org/wiki/Florence_Baptistery)**: Marie admires the doors but attributes them to Cellini rather than [Ghiberti](https://en.wikipedia.org/wiki/Lorenzo_Ghiberti) -- a characteristic error (043.0180)
-- **Palazzo Panciatichi**: Visited September 14 (043.0139ff)
+- **Palazzo Panciatichi**: Visited September 14 (043.0143)
 
 ### Promenades and Social Venues
 - **[Le Cascine](https://en.wikipedia.org/wiki/Parco_delle_Cascine)**: Marie's primary social stage in Florence (043.0120, 071.0103, 071.0161, 071.0265, 071.0279)
@@ -152,7 +152,7 @@ Marie's ironic appropriation of the Larderei family as "ma famille" persists lon
 - **[Teatro della Pergola](https://en.wikipedia.org/wiki/Teatro_della_Pergola)**: The social theater (071.0149, 077.0215, 078.0218)
 - **Teatro Pagliano** (now [Teatro Verdi](https://en.wikipedia.org/wiki/Teatro_Verdi_(Florence))): Opera performances (043.0207)
 - **Skating rink**: Electrically lit social venue (071.0113)
-- **Cercle philharmonique**: Charity concert venue (071.0267)
+- **Cercle philharmonique**: Charity concert venue (071.0266)
 - **Villa Demidoff**: Russian estate Marie drives past (043.0123)
 
 ## Significance in Marie's Development
@@ -170,7 +170,7 @@ Florence represents several overlapping meanings across the diary's twelve years
 
 Several diary references to "Florence" refer to people, not the city:
 - **[Florence Foster](../../people/mentioned/FOSTER.md)**: Acquaintance from Ostende (carnet 024)
-- **[Florence Lacon](../../people/mentioned/FLORENCE_LACON.md)**: Friend who introduces Marie to M. de Lesseps (carnets 082, 085); "Florence s'ennuyait et voulait partir" (085.0597) refers to this person
+- **[Florence Lacon](../../people/mentioned/FLORENCE_LACON.md)**: Friend who introduces Marie to M. de Lesseps (carnets 082, 085); "Florence s'ennuyait et voulait partir" (085.0198) refers to this person
 - **Florence Graham**: Fellow art student at the atelier (carnet 087)
 
 ## Related Entries

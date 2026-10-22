@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Citoyen Bal
 
@@ -17,7 +17,7 @@ last_updated: 2026-03-06
 A member of the Droit des Femmes society, described by Marie as "l'homme à la tête invraisemblable" (the man with the unbelievable head).
 
 ## Diary References
-- February 16, 1881: At the society meeting, Bal attacks Victor Hugo, claiming that with leisure and money he could have done as well. He votes against participating in Hugo's celebration.
+- February 16, 1881 (091.0139): At the society meeting, Bal attacks Victor Hugo, claiming that with leisure and money he could have done as well. He votes against participating in Hugo's celebration.
 
 ## Marie's Perspective
 Marie clearly views Bal with disdain, both for his physical appearance and his presumptuous criticism of Victor Hugo.

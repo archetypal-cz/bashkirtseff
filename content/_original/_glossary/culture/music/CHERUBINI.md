@@ -3,31 +3,18 @@ id: CHERUBINI
 name: Cherubini
 aliases:
   - Cherubini
-type: Culture
+type: Person
 category: culture/music
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Stub
+last_updated: 2026-10-22
+identity_uncertain: true
 ---
 # Cherubini
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
-
 ## Overview
+A man Marie meets at the skating club in Paris on 21 December 1879: «Nous sommes allés patiner, Berthe, Paul, Alexis et moi au club; là nous trouvons Lafond et Cherubini» (086.0752). This is the only mention in the diary. He is not the composer Luigi Cherubini, who died in 1842; the file's folder (culture/music) is a leftover of an auto-generated stub and does not mean a composer.
 
-[Research needed]
+## Identity uncertain
+We are not sure who this is. The diary names him once, beside Lafond, among the young men of Berthe's and Alexis's skating set in December 1879; no first name, title or occupation is given, and the Mon Journal index has not been checked for him. If you can identify this person, we would be glad to hear from you.
 
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% 2026-10-22T20:26:03 RSR: Auto-stub body replaced (glossary orphan review); 086.0752 tagged. The entry belongs in people/mentioned: move candidate for the lead (just glossary-move CHERUBINI people/mentioned). %%

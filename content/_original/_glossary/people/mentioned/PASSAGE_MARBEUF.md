@@ -4,31 +4,17 @@ name: Passage Marbeuf
 aliases:
   - Passage Marbeuf
   - Marbeuf
-type: Person
+type: Place
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Stub
+last_updated: 2026-10-22
 ---
 # Passage Marbeuf
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
-
 ## Overview
+A passage in the Marbeuf quarter of Paris (8th arrondissement, near the avenue Marbeuf — see [#Avenue_Marbeuf](../../places/streets/AVENUE_MARBEUF.md)), where the parents of Marie's former governess Mlle Collignon kept a small furnished hotel.
 
-[Research needed]
+## References in Diary
+- 1879-05-17 (085.0090): visiting Collignon, Marie is struck by «son intérieur pauvre, délabré. Ses parents ont une espèce d'hôtel meublé dans un passage Marbeuf, ce sont des gens tout simples et le père portait des sabots et balayait la cour.»
 
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% 2026-10-22T20:26:03 RSR: Auto-stub body replaced (glossary orphan review); 085.0090 tagged. The exact passage is not identified (Marie writes «un passage Marbeuf»). Move candidate: places/streets. %%

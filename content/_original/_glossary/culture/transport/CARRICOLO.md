@@ -6,27 +6,19 @@ aliases:
 type: Culture
 category: culture/transport
 research_status: Basic
-last_updated: 2026-10-03
+last_updated: 2026-10-22
 ---
 # Carricolo
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
-
-## Description
-[No description available - stub entry created from diary references]
+## Overview
+The *carricolo* was the light two-wheeled, one-horse cart of Naples, proverbial for the number of passengers piled on to it (the project's reader footnote at 070.0211: «a Neapolitan two-wheeled cart, famously overloaded»).
 
 ## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+- 1877-04-07, Naples (070.0211): with the Fabbricatore girls in the carriage and the gentlemen climbing on, «nous avons l'air d'un Carricolo; il y avait du monde partout, sur les roues, presque sur les chevaux».
+- 1877-04-29 (071.0037): «— En carricolo !», in the dialogue of friends arriving from Naples.
 
 %% GLO_CARRICOLO.9000 %%
 %% 2026-10-03T16:00:00 RSR: Moved from people/mentioned/CARRICOLO.md. Body copied unchanged. %%
 
 %% GLO_CARRICOLO.9400 %%
-%% 2026-10-03T16:00:00 RSR: 070/1877-04-07: "nous avons l'air d'un Carricolo"; project footnote: a Neapolitan two-wheeled cart, famously overloaded. Only mention, no tag in the text (the stub had none). %%
+%% 2026-10-22T20:26:03 RSR: Auto-stub body replaced from the two diary mentions and the 070.0211 footnote; both paragraphs tagged (glossary orphan review). %%

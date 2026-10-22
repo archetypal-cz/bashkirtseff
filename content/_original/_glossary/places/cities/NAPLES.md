@@ -8,7 +8,7 @@ aliases:
 type: Place
 category: places/cities
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-22
 ---
 # Naples (Napoli)
 
@@ -38,7 +38,7 @@ Naples had been the capital of the [Kingdom of the Two Sicilies](https://en.wiki
 - **1884 cholera epidemic**: A devastating outbreak killed approximately 6,000 people in Naples alone, two-thirds of Italy's total cholera deaths. [Matilde Serao](https://en.wikipedia.org/wiki/Matilde_Serao) documented the horror in *Il ventre di Napoli* (1884)
 
 %% GLO_NAPLES.0004 %%
-Marie herself observed the contrasts sharply. In her political analysis of Italian unification (April 12, 1876, 057.0179), she predicted that "Rome deviendra comme Naples, Milan et les autres villes de l'Italie" -- the great fortunes parcelled out, the galleries seized by the government, and the noble names "trainés dans la boue." Her understanding of post-unification Italy was remarkably sophisticated for a seventeen-year-old.
+Marie herself observed the contrasts sharply. In her political analysis of Italian unification (April 12, 1876, 057.0175), she predicted that "Rome deviendra comme Naples, Milan et les autres villes de l'Italie" -- the great fortunes parcelled out, the galleries seized by the government, and the noble names "trainés dans la boue." Her understanding of post-unification Italy was remarkably sophisticated for a seventeen-year-old.
 
 ### The Lazzaroni
 
@@ -58,19 +58,19 @@ Naples in the 1870s retained extraordinary cultural resources despite its econom
 - **[Teatro di San Carlo](https://en.wikipedia.org/wiki/Teatro_di_San_Carlo)**: Founded in 1737, Europe's oldest continuously active opera house. Marie attended the *veglione* (charity masked ball) there during the 1877 Carnival and also saw *Les Guaranis* (Il Guarany by Carlos Gomes) and other performances. The theater had suffered financially after unification -- it even closed for a year in 1874 -- but remained prestigious
 - **[Museo Archeologico Nazionale](https://en.wikipedia.org/wiki/Naples_National_Archaeological_Museum)**: Treasures from [Pompeii](https://en.wikipedia.org/wiki/Pompeii) and [Herculaneum](https://en.wikipedia.org/wiki/Herculaneum), including the famous erotic "Secret Cabinet"
 - **[Palazzo Reale](https://en.wikipedia.org/wiki/Royal_Palace_of_Naples)**: The former Bourbon residence near San Carlo, which Marie visited: "nous avons visité le palais du Roi, près le théâtre San Carlo" (058.0227, April 19, 1876)
-- **[Palazzo di Capodimonte](https://en.wikipedia.org/wiki/Museum_of_Capodimonte)**: Marie visited and found the park "quelque chose d'admirable" but the palace itself "un peu caserne" compared to Roman grandeur (058.0112, April 16, 1876)
+- **[Palazzo di Capodimonte](https://en.wikipedia.org/wiki/Museum_of_Capodimonte)**: Marie visited and found the park "quelque chose d'admirable" but the palace itself "un peu caserne" compared to Roman grandeur (058.0088–0089, April 16, 1876)
 
 ### Neapolitan Music and Serenades
 
 %% GLO_NAPLES.0008 %%
-The [canzone napoletana](https://en.wikipedia.org/wiki/Canzone_napoletana) tradition was a living presence in Marie's experience. The serenades she heard from her hotel balcony left an indelible impression. Years later, in Paris (July 14, 1883, 100.0329), she recalled: "Je me souviens avoir, à Naples, toute seule au balcon, écoutant une sérénade... des moments vraiment délicieux; se sentir transportée et en extase sans objet et sans autre cause que ce pays, le soir et la musique. Je n'ai jamais retrouvé ces impressions à Paris ni ailleurs qu'en Italie." This was the era of classics like "Santa Lucia" (published in Italian by Teodoro Cottrau in 1849), though "O sole mio" (1898) and "Funiculì, Funiculà" (1880, celebrating the [funicular railway up Vesuvius](https://en.wikipedia.org/wiki/Mount_Vesuvius#Funicular_railway)) came slightly later.
+The [canzone napoletana](https://en.wikipedia.org/wiki/Canzone_napoletana) tradition was a living presence in Marie's experience. The serenades she heard from her hotel balcony left an indelible impression. Years later, in Paris (July 14, 1883, 100.0336), she recalled: "Je me souviens avoir, à Naples, toute seule au balcon, écoutant une sérénade... des moments vraiment délicieux; se sentir transportée et en extase sans objet et sans autre cause que ce pays, le soir et la musique. Je n'ai jamais retrouvé ces impressions à Paris ni ailleurs qu'en Italie." This was the era of classics like "Santa Lucia" (published in Italian by Teodoro Cottrau in 1849), though "O sole mio" (1898) and "Funiculì, Funiculà" (1880, celebrating the [funicular railway up Vesuvius](https://en.wikipedia.org/wiki/Mount_Vesuvius#Funicular_railway)) came slightly later.
 
 ## Marie's Relationship with Naples
 
 ### 1873: First Aspirational Mention
 
 %% GLO_NAPLES.0009 %%
-Naples first appears in the diary on April 30, 1873 (004.0067), when the fourteen-year-old Marie lists her dreams: "Je voudrais aller à Florence, à Naples, à Rome, étudier la peinture, le chant, la musique, à Nice c'est impossible." From the very beginning, Naples represented everything Nice could not offer -- artistic education, cultural richness, and escape from provincial mediocrity.
+Naples first appears in the diary on April 30, 1873 (004.0236), when the fourteen-year-old Marie lists her dreams: "Je voudrais aller à Florence, à Naples, à Rome, étudier la peinture, le chant, la musique, à Nice c'est impossible." From the very beginning, Naples represented everything Nice could not offer -- artistic education, cultural richness, and escape from provincial mediocrity.
 
 ### 1874: Imagined Refuge
 
@@ -90,13 +90,13 @@ The plan was never carried out, but it established Naples in Marie's imagination
 Marie arrived in Naples from Rome in mid-April 1876, age seventeen, and was immediately overwhelmed: "J'ai vu Naples ! C'est en effet beau à en mourir !" -- subverting the famous proverb *Vedi Napoli e poi muori* (See Naples and die) (058.0014, April 14, 1876). Her stay lasted about a week.
 
 %% GLO_NAPLES.0012 %%
-**First impressions and contradictions.** Marie's initial judgment was rapturous: "Naples est tout aussi belle que Paris, des rues larges, de belles maisons. Naples est la première ville du monde... Aussi belle que Paris, elle possède en plus la mer, et des montagnes divines, et un climat comme on ne s'en fait aucune idée" (058.0028). Yet she also noted the disparity between Naples and Rome: "à Naples c'est tout aussi sale avec la différence qu'on ne voit que des maisons de carton, à la française" (058.0112). Her architectural eye was already sharp.
+**First impressions and contradictions.** Marie's initial judgment was rapturous: "Naples est tout aussi belle que Paris, des rues larges, de belles maisons. Naples est la première ville du monde... Aussi belle que Paris, elle possède en plus la mer, et des montagnes divines, et un climat comme on ne s'en fait aucune idée" (058.0028). Yet she also noted the disparity between Naples and Rome: "à Naples c'est tout aussi sale avec la différence qu'on ne voit que des maisons de carton, à la française" (058.0088). Her architectural eye was already sharp.
 
 %% GLO_NAPLES.0013 %%
 **Social navigation.** Walking with Altamura on Via Toledo (Via di Roma), Marie discovered the Accademia -- the noble club -- and was horrified to learn Altamura was excluded because he was not noble: "Altamura n'est pas du grand cercle, bigre ! Et l'on m'a vue avec lui !" Her immediate social recalibration -- "Je deviens subitement fatiguée" -- shows her ruthless social instincts (058.0021).
 
 %% GLO_NAPLES.0014 %%
-**The Pompeii excursion.** On April 18, 1876, Marie drove to [Pompeii](https://en.wikipedia.org/wiki/Pompeii) with the party, admiring [Vesuvius](https://en.wikipedia.org/wiki/Mount_Vesuvius), [Castellammare](https://en.wikipedia.org/wiki/Castellammare_di_Stabia), and [Sorrento](https://en.wikipedia.org/wiki/Sorrento) along the way. The excavations prompted one of her most devastating metaphors: "La femme avant le mariage, dis-je, c'est Pompéi avant l'éruption et la femme après le mariage c'est Pompéi après l'éruption" (058.0158). The skeletons "dans des poses déchirantes" moved her deeply.
+**The Pompeii excursion.** On April 18, 1876, Marie drove to [Pompeii](https://en.wikipedia.org/wiki/Pompeii) with the party, admiring [Vesuvius](https://en.wikipedia.org/wiki/Mount_Vesuvius), [Castellammare](https://en.wikipedia.org/wiki/Castellammare_di_Stabia), and [Sorrento](https://en.wikipedia.org/wiki/Sorrento) along the way. The excavations prompted one of her most devastating metaphors: "La femme avant le mariage, dis-je, c'est Pompéi avant l'éruption et la femme après le mariage c'est Pompéi après l'éruption" (058.0158). The skeletons "dans des poses déchirantes" moved her deeply (058.0156).
 
 %% GLO_NAPLES.0015 %%
 **The horse races.** The Naples races were a major society event. Marie's description (April 20, 1876, 059.0007) rivals her best Paris passages: "Une telle multitude d'équipages attelés de quatre chevaux, à longues guides, avec postillons, piqueurs, en perruque, en grande livrée, ne se peut imaginer ! On se croit transporté dans le bon vieux temps." She also noted the paradox of Neapolitan aristocratic display: "On dit les Napolitains pauvres, fort bien, je consens à passer pour pauvre et mener un pareil train. Pas d'argent et huit chevaux, et quatre voitures" (059.0008).
@@ -116,13 +116,13 @@ Marie returned to Naples in February 1877, at eighteen, for Carnival. This visit
 **Count Larderei.** The hotel neighbor Count Larderei became Marie's consuming obsession during this visit. The masked ball flirtation, the intricate espionage through servants, the ten-minute train ride to Cancello bought on invented pretexts -- all of this played out against Naples's carnival backdrop. Marie learned through servants that Larderei kept a mistress (the singer La Righi) and had a daughter, which paradoxically increased her fascination: "cette idée que Larderei, un enfant lui-même, a un... enfant, cela m'amuse immensément" (068.1512).
 
 %% GLO_NAPLES.0020 %%
-**The Chiaia and the Corso.** Marie frequented the fashionable [Chiaia](https://en.wikipedia.org/wiki/Chiaia) waterfront promenade and watched the Carnival Corso from her hotel balcony at the Hôtel du Louvre. The skating rink on the Chiaia, the evening promenades, and the view of "toutes les voitures de Naples" from her window became the stage for her simultaneous social performance and inner collapse: "j'ai vu défiler devant ma fenêtre toutes les voitures de Naples et je n'ai pas osé me montrer dans la rue" (068.1535, February 18, 1877).
+**The Chiaia and the Corso.** Marie frequented the fashionable [Chiaia](https://en.wikipedia.org/wiki/Chiaia) waterfront promenade and watched the Carnival Corso from her hotel balcony at the Hôtel du Louvre. The skating rink on the Chiaia, the evening promenades, and the view of "toutes les voitures de Naples" from her window became the stage for her simultaneous social performance and inner collapse: "j'ai vu défiler devant ma fenêtre toutes les voitures de Naples et je n'ai pas osé me montrer dans la rue" (068.1569, February 19, 1877).
 
 %% GLO_NAPLES.0021 %%
-**The excursion to Sorrento.** On February 16, 1877, Marie visited [Castellammare](https://en.wikipedia.org/wiki/Castellammare_di_Stabia), Sejano, Vico, and [Sorrento](https://en.wikipedia.org/wiki/Sorrento). Her landscape description is among her finest prose: the blue and calm sea, the sun, lazzaroni half-naked everywhere, olive trees, "un air divin, une petite brise qui rosissait les joues, ça et là des fleurs, au milieu d'une verdure éclatante tranchant sur le bleu de l'eau; des rochers bordant le chemin qui semblent droits comme des murs et pourtant dans une sorte de crevasse... une chèvre endormie" (068.1521). She also visited the Grotto of Posillipo (Pausilippe) and the Tomb of Virgil (068.1528).
+**The excursion to Sorrento.** On February 16, 1877, Marie visited [Castellammare](https://en.wikipedia.org/wiki/Castellammare_di_Stabia), Sejano, Vico, and [Sorrento](https://en.wikipedia.org/wiki/Sorrento). Her landscape description is among her finest prose: the blue and calm sea, the sun, lazzaroni half-naked everywhere, olive trees, "un air divin, une petite brise qui rosissait les joues, ça et là des fleurs, au milieu d'une verdure éclatante tranchant sur le bleu de l'eau; des rochers bordant le chemin qui semblent droits comme des murs et pourtant dans une sorte de crevasse... une chèvre endormie" (068.1521). She also visited the Grotto of Posillipo (Pausilippe) and the Tomb of Virgil (068.1531, February 17).
 
 %% GLO_NAPLES.0022 %%
-**Psychological collapse.** The Naples Carnival visit ended in what the RSR researcher calls "Marie's psychological nadir." The combination of Larderei's departure, social shame carried from Rome, and her mother's illness produced a spiraling despair: "Aujourd'hui j'ai comme honte de tout, de Spa, de Rome, de Naples" (068.1550, February 21, 1877). Her self-interrogation -- "Aurais-je vraiment le cerveau détraqué?" (Am I truly mentally deranged?) -- marks the most severe crisis in the diary up to this point.
+**Psychological collapse.** The Naples Carnival visit ended in what the RSR researcher calls "Marie's psychological nadir." The combination of Larderei's departure, social shame carried from Rome, and her mother's illness produced a spiraling despair: "Aujourd'hui j'ai comme honte de tout, de Spa, de Rome, de Naples" (068.1583, February 20, 1877). Her self-interrogation -- "Aurais-je vraiment le cerveau détraqué?" (Am I truly mentally deranged?) -- marks the most severe crisis in the diary up to this point.
 
 ### Victor Emmanuel II: Admiration from Afar
 
@@ -143,25 +143,25 @@ After settling in Paris to study painting, Marie continued to invoke Naples as a
 ### The Bourbons de Naples Connection
 
 %% GLO_NAPLES.0025 %%
-In February 1878 (077.0344), Marie considered marriage to the Prince de Bourbon, a member of the [Bourbon-Two Sicilies](https://en.wikipedia.org/wiki/House_of_Bourbon-Two_Sicilies) family. The financial calculation was precise: his 25,000 francs plus her 40,000 was insufficient. The plan involved petitioning King Umberto I and Queen Margherita "de rendre une partie de leurs biens aux Bourbons de Naples" -- the properties confiscated at Italian unification. This scheme, mixing romantic strategy with political ambition, shows how Naples remained entangled in Marie's marriage calculations even from Paris.
+In February 1878 (077.0541), Marie considered marriage to the Prince de Bourbon, a member of the [Bourbon-Two Sicilies](https://en.wikipedia.org/wiki/House_of_Bourbon-Two_Sicilies) family. The financial calculation was precise: his 25,000 francs plus her 40,000 was insufficient. The plan involved petitioning King Umberto I and Queen Margherita "de rendre une partie de leurs biens aux Bourbons de Naples" -- the properties confiscated at Italian unification. This scheme, mixing romantic strategy with political ambition, shows how Naples remained entangled in Marie's marriage calculations even from Paris.
 
 ## Key Sites Mentioned in the Diary
 
 ### Cultural Attractions
 
 %% GLO_NAPLES.0026 %%
-- **[Teatro di San Carlo](https://en.wikipedia.org/wiki/Teatro_di_San_Carlo)**: Europe's oldest continuously active opera house (1737). Marie attended the *veglione* masked ball and multiple opera performances here (068.1160, 068.1297)
+- **[Teatro di San Carlo](https://en.wikipedia.org/wiki/Teatro_di_San_Carlo)**: Europe's oldest continuously active opera house (1737). Marie attended the *veglione* masked ball and multiple opera performances here (068.1160, 068.1317)
 - **[Palazzo Reale](https://en.wikipedia.org/wiki/Royal_Palace_of_Naples)**: "Le palais du Roi, près le théâtre San Carlo" (058.0227)
-- **[Museo di Capodimonte](https://en.wikipedia.org/wiki/Museum_of_Capodimonte)**: "Le palais de Capo di Monte... le parc est quelque chose d'admirable" (058.0112)
-- **[Pompeii](https://en.wikipedia.org/wiki/Pompeii)**: The excavations, reached by carriage via Castellammare (058.0154-0131)
-- **[Tomb of Virgil](https://en.wikipedia.org/wiki/Tomb_of_Virgil)** and the **Grotto of Posillipo** (068.1528)
+- **[Museo di Capodimonte](https://en.wikipedia.org/wiki/Museum_of_Capodimonte)**: "Le palais de Capo di Monte... le parc est quelque chose d'admirable" (058.0088)
+- **[Pompeii](https://en.wikipedia.org/wiki/Pompeii)**: The excavations, reached by carriage via Castellammare (058.0154–0158)
+- **[Tomb of Virgil](https://en.wikipedia.org/wiki/Tomb_of_Virgil)** and the **Grotto of Posillipo** (068.1531)
 
 ### Streets and Promenades
 
 %% GLO_NAPLES.0027 %%
 - **[Via Toledo](https://en.wikipedia.org/wiki/Via_Toledo,_Naples)** (Via di Roma): "C'est le Corso de Naples" -- the main promenade street, closed to carriages during Carnival processions (058.0015)
-- **[Chiaia](https://en.wikipedia.org/wiki/Chiaia)**: The fashionable waterfront promenade. Marie walked "toute la Chiaja à pied" and watched the Corso di gala from her hotel balcony (068.1490, 068.1328)
-- **L'Accademia**: The noble club on Via Toledo, from which Altamura was excluded (058.0018-0009)
+- **[Chiaia](https://en.wikipedia.org/wiki/Chiaia)**: The fashionable waterfront promenade. Marie walked "toute la Chiaja à pied" and watched the Corso di gala from her hotel balcony (068.1490, 068.1325)
+- **L'Accademia**: The noble club on Via Toledo, from which Altamura was excluded (058.0018–0021)
 
 ### Excursions from Naples
 
@@ -170,12 +170,12 @@ In February 1878 (077.0344), Marie considered marriage to the Prince de Bourbon,
 - **[Sorrento](https://en.wikipedia.org/wiki/Sorrento)**: Clifftop resort where Marie "acheté quelques objets en bois" and observed the landscape (068.1522)
 - **Posillipo ([Pausilippe](https://en.wikipedia.org/wiki/Posillipo))**: "La descente par le Pausilippe" with views of the bay, Vesuvius, and "la grotte de Pozzuali qu'on aperçoit comme une bouche de canon" (raw carnet 10)
 - **[Vesuvius](https://en.wikipedia.org/wiki/Mount_Vesuvius)**: Marie planned to climb it but never did; she refers to it metaphorically: "Lave du Vésuve ! Fange du Tibre ! Orgue de Barbarie !" (carnet 07, her string of comic exclamations)
-- **[Capri](https://en.wikipedia.org/wiki/Capri)**: Mentioned as intended destination (Grotte d'Azur) but apparently not visited: "tu visiteras la Grotte d'Azur et celle du Chien" (058.0127)
+- **[Capri](https://en.wikipedia.org/wiki/Capri)**: Mentioned as intended destination (Grotte d'Azur) but apparently not visited: "tu visiteras la Grotte d'Azur et celle du Chien" (058.0139)
 
 ### Hotels
 
 %% GLO_NAPLES.0029 %%
-- **Hôtel du Louvre**: On the Chiaia, where Marie stayed during the 1877 Carnival -- "notre balcon est au meilleur endroit, puisque nous logeons à l'hôtel du Louvre" (068.1328). The hotel's position gave her a front-row view of the Corso and, fatefully, placed Larderei in the adjacent room.
+- **Hôtel du Louvre**: On the Chiaia, where Marie stayed during the 1877 Carnival -- "notre balcon est au meilleur endroit, puisque nous logeons à l'hôtel du Louvre" (068.1325). The hotel's position gave her a front-row view of the Corso and, fatefully, placed Larderei in the adjacent room.
 
 ## Significance in the Diary
 

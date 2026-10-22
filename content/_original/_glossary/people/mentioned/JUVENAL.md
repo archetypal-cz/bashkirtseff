@@ -7,28 +7,14 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Juvénal
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
-
 ## Overview
+Juvenal (Decimus Junius Juvenalis, active late 1st – early 2nd century AD), the Roman satirist whose name stands for biting mockery (Wikipedia, "Juvenal").
 
-[Research needed]
+## References in Diary
+- 1879-04-27 (085.0028): Multedo reproaches Marie «de ne pas changer d'esprit, d'être toujours telle moqueuse, toujours Juvénal».
 
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% 2026-10-22T20:26:03 RSR: Auto-stub body replaced (glossary orphan review). The name is used as a type («toujours Juvénal»), so 085.0028 is not tagged (tagging rules, as for LOVELACE); kept as a reference entry, or retire. %%

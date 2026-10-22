@@ -20,7 +20,7 @@ last_updated: 2026-10-22
 The name points to the Sumarokov-Elston family, whose head, Count Felix Nikolaevich Sumarokov-Elston (1820–1877), commanded the troops of the Kharkov Military District and died in Kharkov (ru.wikipedia, «Сумароков-Эльстон, Феликс Николаевич»). Which member Marie means is not established (see below).
 
 ## Relevance to Marie
-- He had seen her on the train near St Petersburg in August 1876 («Je l'ai rencontrée dans un wagon près de Pétersbourg et elle nous a positivement frappé, moi et mes camarades», 067.0953, 067/1876-11-11), probably the ride to Peterhof of 9 August with four Guards officers (064.0468) (0.8).
+- He had seen her on the train near St Petersburg in August 1876 («Je l'ai rencontrée dans un wagon près de Pétersbourg et elle nous a positivement frappé, moi et mes camarades», 067.0953, 067/1876-11-11), probably the ride to Peterhof of 9 August with four Guards officers (064.0468–0469) (0.8).
 - Papa refuses the officers' request to call at Gavronzi (067.0396, 067.0488–067.0489).
 - 3 November 1876: Marie meets him in the hotel corridor in Poltava and remembers seeing him, «il y a longtemps», dance with Grand Duchess Marie at Livadia (067.0643–067.0644).
 - 11 November 1876: he praises her to uncle Alexandre without knowing who he is, and says her place is in St Petersburg (067/1876-11-11).

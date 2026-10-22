@@ -17,7 +17,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Comprehensive
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 # Mlle Collignon
 
@@ -51,7 +51,7 @@ Collignon was hired as Marie's governess before the diary begins. Marie records 
 
 ## Dismissal (May 31, 1873)
 
-Tensions had been building for months. Marie complained bitterly about Collignon's chronic lateness, missed lessons, and failure to speak English conversationally (004.0233: "elle ne parle jamais anglais... elle donne des lecons comme un professeur et ne cause jamais"). In March 1873, Collignon wrote a letter to Marie's aunt complaining of Marie's "caractere impertinent et vain" and threatened to leave (003.0118).
+Tensions had been building for months. Marie complained bitterly about Collignon's chronic lateness, missed lessons, and failure to speak English conversationally (004.0233: "elle ne parle jamais anglais... elle donne des lecons comme un professeur et ne cause jamais"). In March 1873, Collignon wrote a letter to Marie's aunt complaining of Marie's "caractere impertinent et vain" and threatened to leave (003.0086).
 
 The final break came on May 31, 1873, during an arithmetic lesson (005.0106): Marie asked for an explanation, Collignon told her to figure it out herself, and the quarrel escalated. Collignon declared "C'est la derniere lecon que je vous donne!" to which Marie replied "Oh! tant mieux!" (005.0119). Marie maintained supernatural calm while Collignon raged; Markevitch embraced Marie in celebration. Maman then confronted Collignon about her neglected duties: "elle soutint a maman qu'elle remplissait son devoir, qu'elle était constamment avec nous, qu'elle parlait anglais" — which Marie found outrageously dishonest (005.0124).
 

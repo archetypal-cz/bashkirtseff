@@ -41,9 +41,9 @@ Marie's foundational memory. In her 1884 retrospective (carnet 000), Marie recal
 
 Berthe, age 12, was English and "connected with all the children of aristocratic families who knew her family. Mine knew no one and wallowed in roulette and trente-et-quarante." The Boyd family's social capital versus the Bashkirtseffs' gambling habits became Marie's first conscious experience of class exclusion.
 
-Berthe had a 13-year-old "sweetheart" named Remy de Gonzales Moreno. Marie stole Remy's attentions -- "il abandonne Berthe et devient mon adorateur" (004.0017) -- establishing a pattern of romantic rivalry that would define their relationship.
+Berthe had a 13-year-old "sweetheart" named Remy de Gonzales Moreno. Marie stole Remy's attentions -- "il abandonne Berthe et devient mon adorateur" (004.0048) -- establishing a pattern of romantic rivalry that would define their relationship.
 
-The Franco-Prussian War (July 1870) drove the family from Baden-Baden. Marie prayed nightly: "Mon Dieu, faites que je sois amie avec Berthe et que j'aie des cavaliers qui me fassent la cour" (000.0032).
+The Franco-Prussian War (July 1870) drove the family from Baden-Baden. Marie prayed nightly: "Mon Dieu, faites que je sois amie avec Berthe et que j'aie des cavaliers qui me fassent la cour" (000.0039).
 
 ### Phase 2: Nice -- Romantic Rivalry (1873-1874)
 

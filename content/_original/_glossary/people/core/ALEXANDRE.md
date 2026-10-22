@@ -10,7 +10,7 @@ aliases:
 type: Person
 category: people/core
 research_status: Comprehensive
-last_updated: 2026-09-26
+last_updated: 2026-10-22
 ---
 
 %% GLO_ALEXANDRE.0001 %%
@@ -220,7 +220,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 
 ### 1878
 - **078.0324** (February 28): Alexandre arrives in Paris from Russia
-- **079.0066, 0091** (March-April): Alexandre in Paris with family; departs for Russia in April
+- **079.0097, 079.0211** (March-April): Alexandre in Paris with family; departs for Russia in April
 - **082.1878-09-10**: Arrives in Paris; "evil eye" joke
 - **082.1878-09-13**: "Alexandre ne connait personne ici, par consequent il pose devant nous au Bois" (knows nobody, so shows off for us)
 - **082.1878-09-15**: Escorts a courtesan; nicknamed "M. vingt francs l'heure"

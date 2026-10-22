@@ -6,7 +6,7 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Moderate
-last_updated: 2026-10-02
+last_updated: 2026-10-22
 ---
 
 %% GLO_ART_WORLD.0001 %%
@@ -52,7 +52,7 @@ This thematic tag collects diary paragraphs about other people's art and the art
 ## Example Paragraphs
 
 %% GLO_ART_WORLD.0011 %%
-- `102.0117` — on Manet's retrospective: "incohérent, enfantin et grandiose"
+- `102.0651` — on Manet's retrospective: "incohérent, enfantin et grandiose"
 - `064.0292` — the Berlin museum owes its richness to Greece, Egypt and Rome
 - `096.0079` — the Exposition des Arts décoratifs, visited with the Gavini
 

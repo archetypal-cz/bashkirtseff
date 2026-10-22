@@ -8,7 +8,7 @@ aliases:
 type: Place
 category: places/hotels
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Roman Carnival (Carnevale di Roma)
 
@@ -31,7 +31,8 @@ By the 1880s, the Roman Carnival was declining from its 18th-century heyday but 
 The Roman Carnival fascinated 19th-century writers and artists. Goethe wrote extensively about it, as did many other travelers. It represented exotic Italian passion and freedom contrasting with northern European restraint.
 
 ## Diary References
-- February 23, 1881: Marie reads newspaper accounts of carnival balls in Rome, listing "tous ces noms romains et la Course des Barbieri et le Corso." She writes: "Cela vous prend à la gorge comme le mot de Gambetta" (It grabs you by the throat like Gambetta's words). She avoids reading about Rome because "ça me rend trop triste" (it makes me too sad).
+- February 1876, Rome: Marie's own Carnival — the first day and the Barberi race (054.0297, 19 Feb), the decked balconies (054.0354, 21 Feb), a stranger asking if she sees «le carnaval de Rome» for the first time (054.0379, 22 Feb), Mardi gras (054.0619, 29 Feb); fuller account in [#Rome](../cities/ROME.md).
+- February 23, 1881 (091.0181): Marie reads newspaper accounts of carnival balls in Rome, listing "tous ces noms romains et la Course des Barbieri et le Corso." She writes: "Cela vous prend à la gorge comme le mot de Gambetta" (It grabs you by the throat like Gambetta's words). She avoids reading about Rome because "ça me rend trop triste" (it makes me too sad).
 
 ## Marie's Longing
 The Roman Carnival represents everything Marie is missing: youth, gaiety, Italian beauty, social brilliance. Reading about it causes physical pain ("prend à la gorge"). Her nostalgia for Italy combines with her sense of wasted youth and forced isolation in Paris.

@@ -7,7 +7,7 @@ aliases:
 type: Culture
 category: culture/history
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # New Year's Eve
 
@@ -21,7 +21,7 @@ New Year's Eve celebrations and rituals as experienced by Marie Bashkirtseff in 
 
 ## Key Observances
 
-### December 31, 1873 - Midnight Ritual
+### December 31, 1873 - Midnight Ritual (014.0297–0305)
 Marie describes a powerful private ritual:
 - Leaves theater early to be alone at midnight
 - Locks herself in her room

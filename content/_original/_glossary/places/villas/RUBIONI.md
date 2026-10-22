@@ -6,7 +6,7 @@ aliases:
 type: Place
 category: places/villas
 research_status: Stub
-last_updated: 2026-05-31
+last_updated: 2026-10-22
 ---
 # Rubioni
 
@@ -21,7 +21,7 @@ last_updated: 2026-05-31
 ## Diary References
 
 - **May 29, 1873** (005.0092): "I think *Rubioni* is convenient enough" — mentioned during apartment-hunting.
-- **June 4, 1873** (005.0159): "Rubioni" mentioned again in context of accommodation options.
+- **June 4, 1873** (005.0169): "Rubioni" mentioned again in context of accommodation options.
 
 ## Research Notes
 

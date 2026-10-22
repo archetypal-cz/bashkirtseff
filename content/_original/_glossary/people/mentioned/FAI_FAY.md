@@ -7,7 +7,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Fai or Fay
 
@@ -21,7 +21,7 @@ The best pastry chef and confectioner in Nice, located on Avenue de la Gare.
 ## Diary References
 
 ### 1874
-- **March 13**: Marie dreams of eating delicious hot cakes from "Fai ou Fay" near Avenue de la Gare. Next morning asks mother if place exists - it does: "c'est le meilleur pâtissier et confiseur" (it's the best pastry chef and confectioner).
+- **March 13** (017.0296–0297): Marie dreams of eating delicious hot cakes from "Fai ou Fay" near Avenue de la Gare. Next morning asks mother if place exists - it does: "c'est le meilleur pâtissier et confiseur" (it's the best pastry chef and confectioner).
 
 ## Context
 - Premium pastry shop and confectionery

@@ -7,7 +7,7 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-10-02
+last_updated: 2026-10-22
 ---
 
 %% GLO_ART_PRACTICE.0001 %%
@@ -127,7 +127,7 @@ Oil on canvas; the date is disputed (Wikidata 1880, the museum label 1882-1883 -
 %% GLO_ART_PRACTICE.0030 %%
 ### *Portrait de Dina* (pastel, 1882)
 
-Pastel portrait of her cousin [Dina](../../people/core/DINA.md), the constant companion of her diary years, now in the Musée d'Orsay (RF 39091). Made in the spring of 1882 ("le pastel fait il y a près de deux ans", 103.0557), it was shown at the Salon of 1883 as *Portrait de Mlle de B.* (no. 106) and won her the *mention honorable* -- see *[Portrait de la comtesse Dina de Toulouse-Lautrec](../art/PORTRAIT_DINA_PASTEL.md)*.
+Pastel portrait of her cousin [Dina](../../people/core/DINA.md), the constant companion of her diary years, now in the Musée d'Orsay (RF 39091). Made in the spring of 1882 ("le pastel fait il y a près de deux ans", 103.0603), it was shown at the Salon of 1883 as *Portrait de Mlle de B.* (no. 106) and won her the *mention honorable* -- see *[Portrait de la comtesse Dina de Toulouse-Lautrec](../art/PORTRAIT_DINA_PASTEL.md)*.
 
 %% GLO_ART_PRACTICE.0031 %%
 ### *Un meeting* (The Meeting / A Meeting, 1884)

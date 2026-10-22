@@ -10,7 +10,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 # Olga Sapogenikoff
 
@@ -18,7 +18,7 @@ last_updated: 2026-10-21
 
 Olga Sapogenikoff, the younger daughter of Nina Sapogenikoff, and with her elder sister Marie one of the two «Grâces» of Marie Bashkirtseff's Nice years. «Marie seize ans, Olga quatorze» when Marie Bashkirtseff meets them again on 22 January 1875 (029.0014), so she was born about 1860. «Olga est plus grande que sa sœur» and, Marie says, the very image of M. Sapogenikoff (029.0016). She is Marie's closest girl friend until about 1877: the two «font des bêtises» together, play at the «maçonnerie» for «l'accaparation des jeunes gens» (032.0368) and sit in each other's rooms writing novels (049.0360–0361).
 
-**Names.** Mon Journal indexes list her as «Sapogenikoff (Mlle Olga)» with the nicknames [Euphrosine] (t.5), [Aglaé] (t.7), [Giroflé]/[Giro] (t.5, t.6, t.7, t.8, t.10) and, in t.6, [Bibi]. The Graces are Marie Bashkirtseff's «présidente Thalie» and the founding members «Aglaé et Euphrosine» (059.0690, 059.0702). «Giro» is certainly Olga in 064.0498 («Giro, ma chère, viens t'asseoir à côté de moi») and 067.1462 («Olga-Giroflé»); a bare masculine «Girofla» (e.g. 037.0302, 062.0549) is Audiffret's nickname, not hers, and a bare «Bibi» can be Marie or Bihovetz (see [#Bihovetz](BIHOVETZ.md)). Do not read an «Olga» as her without checking: 072.0035 («le buste de la grande-duchesse Olga de Russie») is a different person and carries this tag by mistake.
+**Names.** Mon Journal indexes list her as «Sapogenikoff (Mlle Olga)» with the nicknames [Euphrosine] (t.5), [Aglaé] (t.7), [Giroflé]/[Giro] (t.5, t.6, t.7, t.8, t.10) and, in t.6, [Bibi]. The Graces are Marie Bashkirtseff's «présidente Thalie» and the founding members «Aglaé et Euphrosine» (059.0690, 059.0702). «Giro» is certainly Olga in 064.0498 («Giro, ma chère, viens t'asseoir à côté de moi») and 067.1462 («Olga-Giroflé»); a bare masculine «Girofla» (e.g. 037.0246, 062.0549) is Audiffret's nickname, not hers, and a bare «Bibi» can be Marie or Bihovetz (see [#Bihovetz](BIHOVETZ.md)). Do not read an «Olga» as her without checking: 072.0035 («le buste de la grande-duchesse Olga de Russie») is a different person and carries this tag by mistake.
 
 ## Chronology
 
