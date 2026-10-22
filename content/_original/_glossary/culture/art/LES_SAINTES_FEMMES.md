@@ -137,3 +137,7 @@ The last eighteen months:
 
 %% GLO_LES_SAINTES_FEMMES.0025 %%
 %% 2026-10-02T16:35:00 RSR: Works-catalogue pass added 0024 (the Saratov sketch), from the Nashe Nasledie article fetched 2026-10-02. It does not change the entry's status: the picture itself was never painted. Which of 1885 nos. 60/61 (if either) is the Saratov sketch is not established, since it had left Marie's hands in 1883. %%
+
+%% 2026-10-22T20:55:46 RSR: Merged SAINTES_FEMMES (no content kept: empty stub) %%
+
+%% 2026-10-22T20:55:51 RSR: Merged SAINTE_FEMMES (no content kept: empty stub) %%

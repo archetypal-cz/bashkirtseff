@@ -7,21 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
+replaced_by: LA_FAVORITE_DONIZETTI
 ---
-# La Favorita
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_LA_FAVORITA.0001 %%
+**Retired.** Merged into [#LA_FAVORITE_DONIZETTI](../../culture/theater/LA_FAVORITE_DONIZETTI.md) (`culture/theater/LA_FAVORITE_DONIZETTI.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_LA_FAVORITA.0002 %%
+%% 2026-10-22T20:52:49 RSR: Retired by glossary-merge; content and links moved to LA_FAVORITE_DONIZETTI. replaced_by: culture/theater/LA_FAVORITE_DONIZETTI.md. %%

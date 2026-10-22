@@ -6,10 +6,12 @@ aliases:
   - Isabella II
   - la Reine
   - la Reine d'Espagne
+  - Isabel II
+  - reine d'Espagne
 type: Person
 category: people/royalty
 research_status: Stub
-last_updated: 2026-05-31
+last_updated: 2026-10-22
 ---
 # Queen Isabella II of Spain
 
@@ -29,4 +31,14 @@ Marie visited Queen Isabella on 10 May 1880 and again on subsequent occasions: "
 
 Wikipedia: [Isabella II of Spain](https://en.wikipedia.org/wiki/Isabella_II); Britannica: [Isabella II](https://www.britannica.com/biography/Isabella-II-queen-of-Spain)
 
+## Marie at the Queen's, 1882
+
+On 1 May 1882 Marie goes «chez la Reine» with Maman, then to the Salon (095.0007); her margin note says she went hoping to meet Cassagnac ([#Cassagnac](../recurring/CASSAGNAC.md)). On 29 May 1882 her round of calls is «à la Reine, aux deux duchesses de Fitz-James» (095.0114). The Queen lived at the Palais de Castille ([#Palais_de_Castille](../../places/residences/PALAIS_DE_CASTILLE.md)), the former Hôtel Basilewski on the avenue Kléber, centre of the exiled Spanish court in Paris. The former entries LA_REINE (misfiled under places/hotels), REINE_D_ESPAGNE and QUEEN_ISABEL_II are merged here.
+
 %% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-10.md. Isabella II (1830-1904), exiled Queen of Spain living in Paris; she abdicated 1870 in favour of her son Alfonso XII but remained in France. Marie visited her and describes genuine warmth. Source: Wikipedia, Britannica. %%
+
+%% 2026-10-22T20:56:37 RSR: Merged QUEEN_ISABEL_II (no content kept: empty stub) %%
+
+%% 2026-10-22T20:56:42 RSR: Merged REINE_D_ESPAGNE (no content kept: empty stub) %%
+
+%% 2026-10-22T20:56:46 RSR: Merged LA_REINE; its diary facts were checked against the text and folded in by hand above. %%

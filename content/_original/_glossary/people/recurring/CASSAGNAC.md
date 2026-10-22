@@ -240,3 +240,5 @@ Paul de Cassagnac continued his political and journalistic career through the 18
 
 %% GLO_CASSAGNAC.0062 %%
 %% 2026-10-11T12:00:00 RSR: Batch-10 pass. Added paragraph IDs to the dated citations; corrected two dates in "Phase 4" (the garden-gate sighting is written on 9 June 1883, 100.0101; the crystallization passage is dated 16 July 1883, 100.0361, not 15 July) and the rumour-at-the-atelier date (1878-02-23, 078.0288, not 02-24). Invalidation: French Wikipedia (Paul de Cassagnac) gives 1878-11 as the invalidation and the Ferry insult exclusion as 1883; Marie's own report of an exclusion sitting is 1879-06-16 (a separate, temporary exclusion not covered by Wikipedia). Father's dates: en/fr Wikipedia pages for Adolphe Granier de Cassagnac give 1806--1880; the Paul de Cassagnac fr page prints 1803 -- left at 1806. Photograph: Commons file Paul_de_Cassagnac_LACMA_AC1992.229.44 (Klary, Galerie contemporaine). Open: the Dec 1879 / Aug 1879 passage 086.0092 about "la mort de la femme de Cassagnac" is unexplained (Julie Acard lived on; probably a different person or a false report). %%
+
+%% 2026-10-22T20:52:01 RSR: Merged OGRE (no content kept: empty stub) %%

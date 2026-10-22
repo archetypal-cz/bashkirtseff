@@ -7,12 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Redirect
-last_updated: 2026-09-27
+last_updated: 2026-10-22
+status: retired
+replaced_by: ALBERT_GAUTIER
 ---
-# Pepino
 
-«Pepino» (also «Pépino») is the nickname of Albert-Joseph Gautier of Nice, a member of Audiffret's circle (Kernberger 2013, glossary: "Gautier, Albert-Joseph: ... nickname: Pepino"). In carnet 068 Marie uses both names for the same man in one evening (068.0823-0490: «le frère de Gautier *Michka*» / «mon frère, dit Pepino»).
+%% GLO_PEPINO.0001 %%
+**Retired.** Duplicate of [#ALBERT_GAUTIER](ALBERT_GAUTIER.md) (`people/mentioned/ALBERT_GAUTIER.md`); use that entry instead. «Pepino» is the nickname of Albert-Joseph Gautier (Kernberger 2013, glossary; 068.0823-0490).
 
-See the main entry: [ALBERT_GAUTIER](ALBERT_GAUTIER.md).
-
-%% 2026-09-27T22:18:57 RSR: Converted stub into a pointer to ALBERT_GAUTIER (Pepino = Albert Gautier per Kernberger 2013 and 068.0823-0490). %%
+%% GLO_PEPINO.0002 %%
+%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): redirect stub with no inbound diary links; replaced_by: people/mentioned/ALBERT_GAUTIER.md. %%

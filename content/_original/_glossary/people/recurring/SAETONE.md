@@ -5,6 +5,7 @@ aliases:
   - Saetone (Andriot)
   - Saetone
   - Andriot
+  - marquis de Saetone
 type: Person
 category: people/recurring
 research_status: Moderate
@@ -54,3 +55,5 @@ Saetone occupies a specific and problematic role:
 %% 2026-10-21T22:48:05 RSR: Merged ANDRIOT (no content kept: empty stub) %%
 
 %% 2026-10-22T13:20:00 RSR: CORRECTION to the note of 2026-10-21 above (glossary-owner-questions: SAETONE «ironic oncle»). Saëtone is NOT Audiffret's real uncle: Marie says she invented the name («depuis que je lui ai dit que j'appelle Saëtone Enoteas et son oncle, parle de lui comme de son oncle», 034.0182), and the t.5 index files «[Oncle]» as one of his nicknames. The LAN notes at 034.0129 and 046/1875-10-03 («ironic nickname», «ironic use of "uncle"») are therefore right and stay. The RSR note at 035.0027 («Saëtone is Audiffret's real uncle») is wrong: fix in the identity-decisions TSV. %%
+
+%% 2026-10-22T20:50:47 RSR: Merged MARQUIS_DE_SAETONE (no content kept: empty stub) %%

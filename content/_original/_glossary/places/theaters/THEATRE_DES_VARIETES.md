@@ -3,6 +3,7 @@ id: THEATRE_DES_VARIETES
 name: Theatre des Varietes
 aliases:
   - Theatre des Varietes
+  - Variétés
 type: Place
 category: places/theaters
 research_status: Basic
@@ -24,3 +25,5 @@ last_updated: 2026-03-06
 - Created: 2026-01-06
 - Auto-generated stub from broken link detection
 - Needs proper research and content
+
+%% 2026-10-22T20:56:14 RSR: Merged VARIETES (no content kept: empty stub) %%

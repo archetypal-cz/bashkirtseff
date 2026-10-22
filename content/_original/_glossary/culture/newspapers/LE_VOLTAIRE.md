@@ -13,7 +13,7 @@ last_updated: 2026-10-22
 
 ## Overview
 
-A republican Paris daily, first published on 5 July 1878 under the editorship of Aurélien Scholl, nicknamed «le Figaro républicain» and founded to support Gambetta's Union républicaine; Émile Zola wrote for it and it serialised fiction (en.wikipedia «Le Voltaire (newspaper)»; Center for Research Libraries catalogue: «1re année, n° 1 (5 juillet 1878)», ceased 12 April 1930). Not the writer Voltaire ([VOLTAIRE](../../people/mentioned/VOLTAIRE.md)).
+A republican Paris daily, first published on 5 July 1878 under the editorship of Aurélien Scholl, nicknamed «le Figaro républicain» and founded to support Gambetta's Union républicaine; Émile Zola wrote for it and it serialised fiction (en.wikipedia «Le Voltaire (newspaper)»; Center for Research Libraries catalogue: «1re année, n° 1 (5 juillet 1878)», ceased 12 April 1930). Not the writer Voltaire.
 
 ## Relevance to Marie
 

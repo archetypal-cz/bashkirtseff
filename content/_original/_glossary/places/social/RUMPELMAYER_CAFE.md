@@ -7,11 +7,14 @@ aliases:
 type: Place
 category: places/social
 research_status: Redirect
-last_updated: 2026-05-31
+last_updated: 2026-10-22
 redirect_to: places/cities/RUMPELMAYER
+status: retired
+replaced_by: RUMPELMAYER
 ---
-# Rumpelmayer (Nice)
 
-**Redirect**: See [RUMPELMAYER](../cities/RUMPELMAYER.md) for the consolidated entry.
+%% GLO_RUMPELMAYER_CAFE.0001 %%
+**Retired.** Duplicate of [#RUMPELMAYER](../cities/RUMPELMAYER.md) (`places/cities/RUMPELMAYER.md`); use that entry instead.
 
-The Rumpelmayer confectionery in Nice was a fashionable pastry shop where Marie went for hot chocolate and cakes. The UK translation files reference this entry under the path `places/social/RUMPELMAYER_CAFE.md`; the canonical entry is at `places/cities/RUMPELMAYER.md`.
+%% GLO_RUMPELMAYER_CAFE.0002 %%
+%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): redirect stub with no inbound diary links; replaced_by: places/cities/RUMPELMAYER.md. %%

@@ -6,42 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
----
-# M Bashkirtseff
-
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
-
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-
+last_updated: 2026-10-22
+status: retired
+replaced_by: PAPA
 ---
 
-%% 2026-02-04T06:46:50.355Z RSR: Merged content from M_BACHKIRTSEFF %%
+%% GLO_M_BASHKIRTSEFF.0001 %%
+**Retired.** Merged into [#PAPA](../family/PAPA.md) (`people/family/PAPA.md`); use that entry instead.
 
-# M Bachkirtseff
-
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
-
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_M_BASHKIRTSEFF.0002 %%
+%% 2026-10-22T20:53:08 RSR: Retired by glossary-merge; content and links moved to PAPA. replaced_by: people/family/PAPA.md. %%

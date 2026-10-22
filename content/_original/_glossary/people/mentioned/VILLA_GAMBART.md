@@ -7,23 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
+replaced_by: GAMBART
 ---
-# Villa Gambart
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-01-18
+%% GLO_VILLA_GAMBART.0001 %%
+**Retired.** Merged into [#GAMBART](GAMBART.md) (`people/mentioned/GAMBART.md`); use that entry instead.
 
-## Identity
-Villa in Nice, landmark on the route to the races.
-
-## Diary References
-
-### 1874
-- **January 18**: Passed while heading to the races. Used as reference point when looking back for Paul and Striker's carriage.
-
-## Context
-- Located on the route between the Bashkirtseff residence and the hippodrome
-- Named after owner, possibly art dealer Ernest Gambart who wintered in Nice
-- Representative of the villa culture of the Riviera
+%% GLO_VILLA_GAMBART.0002 %%
+%% 2026-10-22T20:58:09 RSR: Retired by glossary-merge; content and links moved to GAMBART. replaced_by: people/mentioned/GAMBART.md. %%

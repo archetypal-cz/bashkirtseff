@@ -4,6 +4,7 @@ name: Johnstone
 aliases:
   - Johnstone
   - Lancaster
+  - Lancaster Johnstone
 type: Person
 category: people/mentioned
 research_status: Basic
@@ -34,3 +35,7 @@ This entry was mentioned 3 times in Book 13 of Marie's diary (1879).
 [To be determined based on research]
 
 %% 2026-10-21T21:23:42 RSR: Merged ROBERT (no content kept: empty stub) %%
+
+%% 2026-10-22T20:51:42 RSR: Merged M_ROBERT_LANCASTER (no content kept: empty stub) %%
+
+%% 2026-10-22T20:51:47 RSR: Merged LANCASTER_JOHNSTONE (no content kept: empty stub) %%

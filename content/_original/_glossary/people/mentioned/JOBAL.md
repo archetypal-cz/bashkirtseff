@@ -3,6 +3,7 @@ id: JOBAL
 name: Jobal
 aliases:
   - Jobal
+  - M. de Jobal
 type: Person
 category: people/mentioned
 research_status: Basic
@@ -31,3 +32,5 @@ This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
 ## Related Entries
 
 [To be determined based on research]
+
+%% 2026-10-22T20:55:32 RSR: Merged M_DE_JOBAL (no content kept: empty stub) %%

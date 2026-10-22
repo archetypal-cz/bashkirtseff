@@ -6,28 +6,12 @@ aliases:
 type: Person
 category: people/service
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
 ---
-# Marguerite
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
+%% GLO_MARGUERITE.0001 %%
+**Retired.** Empty stub filed as a servant: its 1879 mention is «bonnet de Marguerite» (084.0644), Gretchen of *Faust*. No replacement entry.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_MARGUERITE.0002 %%
+%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): no inbound links; no replaced_by because there is no single referent. %%

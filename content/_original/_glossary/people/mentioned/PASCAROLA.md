@@ -24,3 +24,5 @@ last_updated: 2026-03-06
 - Created: 2026-01-06
 - Auto-generated stub from broken link detection
 - Needs proper research and content
+
+%% 2026-10-22T20:54:54 RSR: Merged MARQUIS_PASCAROLA (no content kept: empty stub) %%

@@ -7,6 +7,7 @@ aliases:
   - Mrs Cartwright
   - Madame Cartwright
   - La Cartwright
+  - Mme Cartright
 type: Person
 category: people/mentioned
 research_status: Basic
@@ -66,3 +67,5 @@ Marie never gives a first name. What she says is all that is known: an American 
 
 %% GLO_MME_CARTWRIGHT.0017 %%
 %% 2026-10-11T12:00:00 RSR: Page expanded from the 2026-10-02 stub; the earlier summary and RSR are kept. Searches (English and French web, Kernberger text, Blind 1890) found no identification of a "Mme/Mrs Cartwright", American, in Paris 1881-84 with a daughter, a mother and a nephew. CORRECTION NEEDED in diary text: the footnote 5 in 102/1883-11-28 (paragraph 102.0381) identifies her as "Julia Cartwright (1851-1924), English art critic"; that does not fit (American, salon, daughter) and the footnote should be removed or replaced by "not identified". Also check that Marie's "Sarah" of 091.0491 is the Irish painter Sarah Purser (a fellow student at Julian's), unverified. %%
+
+%% 2026-10-22T20:57:28 RSR: Merged MME_CARTRIGHT (no content kept: empty stub) %%

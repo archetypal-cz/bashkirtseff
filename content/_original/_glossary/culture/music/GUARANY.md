@@ -6,7 +6,7 @@ aliases:
   - Les Guaranis
   - Il Guarany
 type: Culture
-category: people/mentioned
+category: culture/music
 research_status: Basic
 last_updated: 2026-10-22
 ---

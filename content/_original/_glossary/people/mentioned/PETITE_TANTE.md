@@ -7,21 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
+replaced_by: MACHENKA
 ---
-# Petite tante
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_PETITE_TANTE.0001 %%
+**Retired.** Merged into [#MACHENKA](MACHENKA.md) (`people/mentioned/MACHENKA.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_PETITE_TANTE.0002 %%
+%% 2026-10-22T20:54:36 RSR: Retired by glossary-merge; content and links moved to MACHENKA. replaced_by: people/mentioned/MACHENKA.md. %%

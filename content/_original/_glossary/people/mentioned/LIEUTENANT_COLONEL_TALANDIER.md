@@ -5,6 +5,7 @@ aliases:
   - lieutenant-colonel Talandier
   - Lieutenant Colonel Talandier
   - Talandier
+  - colonel Talandier
 type: Person
 category: people/mentioned
 research_status: Basic
@@ -28,3 +29,5 @@ last_updated: 2026-03-06
 - Needs proper research and content
 
 %% 2026-10-21T22:53:03 RSR: Merged COLONEL_TALLANDIER (no content kept: empty stub) %%
+
+%% 2026-10-22T20:57:50 RSR: Merged COLONEL_TALANDIER (no content kept: empty stub) %%

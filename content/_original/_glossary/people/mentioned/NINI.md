@@ -27,7 +27,7 @@ images:
 ## Who she was
 
 %% GLO_NINI.0002 %%
-**Alexandrine Patchenko** -- Marie writes "Pachtenko" in carnet 087 -- was the wife of Marie's brother [Paul](../family/PAUL.md). The diary calls her "Nini", "la femme à Paul", "Mme Paul", and once, in a joke on the way home from Russia in 1882, "Alexandra" (097.0067). She came from the same part of the Poltava region as the Bashkirtseffs: "of good enough family, known, from the same country, a neighbour, rather rich, young, pretty and, to judge from her letters, of good nature", as Marie summed up the fiancée on 28 December 1879 (087.0078). Her father is [M. Patchenko](./M_PATCHENKO.md) and her sister [Catherine](./CATHERINE_ERISTOFF.md) ("la sœur de Nini"). Her birth and death dates are not in the diary; Marie guesses in October 1882 that she is "twenty-four or twenty-five" (096.0401). The Rijksmuseum names her Alexandrine Patchenko and catalogues the portrait Marie painted of her (Rijksmuseum, SK-A-1988).
+**Alexandrine Patchenko** -- Marie writes "Pachtenko" in carnet 087 -- was the wife of Marie's brother [Paul](../family/PAUL.md). The diary calls her "Nini", "la femme à Paul", "Mme Paul", and once, in a joke on the way home from Russia in 1882, "Alexandra" (097.0067). She came from the same part of the Poltava region as the Bashkirtseffs: "of good enough family, known, from the same country, a neighbour, rather rich, young, pretty and, to judge from her letters, of good nature", as Marie summed up the fiancée on 28 December 1879 (087.0078). Her father is [M. Patchenko](./M_PATCHENKO.md) and her sister [Catherine](CATHERINE.md) ("la sœur de Nini"). Her birth and death dates are not in the diary; Marie guesses in October 1882 that she is "twenty-four or twenty-five" (096.0401). The Rijksmuseum names her Alexandrine Patchenko and catalogues the portrait Marie painted of her (Rijksmuseum, SK-A-1988).
 
 %% GLO_NINI.0003 %%
 ## Marie and Nini
@@ -65,7 +65,7 @@ Marie says on 7 June 1881 at Gavronzi that she is painting Nini's portrait (092.
 %% GLO_NINI.0014 %%
 - [Paul](../family/PAUL.md), her husband, Marie's brother
 - [Maman](../family/MAMAN.md), Marie and Paul's mother
-- [Catherine Eristoff](./CATHERINE_ERISTOFF.md), Nini's sister
+- [Catherine Eristoff](CATHERINE.md), Nini's sister
 - [M. Patchenko](./M_PATCHENKO.md), her father
 - [Dina](../core/DINA.md), often with her in the Paris winters
 - [Gavronzi](../../places/residences/GAVRONZI.md), where she lived

@@ -4,28 +4,12 @@ name: Princesse
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
 ---
-# Princesse
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 5 mentions
-**Type**: Person
+%% GLO_PRINCESSE.0001 %%
+**Retired.** Not an entity: generic title «princesse»; the princesses of the diary have their own entries. No replacement entry.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 5 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_PRINCESSE.0002 %%
+%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): no inbound links; no replaced_by because there is no single referent. %%

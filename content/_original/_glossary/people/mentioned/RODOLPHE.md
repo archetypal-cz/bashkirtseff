@@ -6,14 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Redirect
-last_updated: 2026-02-10
+last_updated: 2026-10-22
+status: retired
+replaced_by: RODOLPHE_JULIAN
 ---
 
 %% GLO_RODOLPHE.0001 %%
-## Redirect
+**Retired.** Duplicate of [#RODOLPHE_JULIAN](../recurring/RODOLPHE_JULIAN.md) (`people/recurring/RODOLPHE_JULIAN.md`); use that entry instead.
 
 %% GLO_RODOLPHE.0002 %%
-This entry is a duplicate. See [#Rodolphe_Julian](../recurring/RODOLPHE_JULIAN.md) for the comprehensive entry on Rodolphe Julian (1839-1907), founder and director of the Academie Julian where Marie studied from 1877 until her death.
-
-%% GLO_RODOLPHE.0003 %%
-%% 2026-02-10T10:45:00 RSR: Marked as redirect to RODOLPHE_JULIAN.md which contains the full entry. %%
+%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): redirect stub with no inbound diary links; replaced_by: people/recurring/RODOLPHE_JULIAN.md. %%

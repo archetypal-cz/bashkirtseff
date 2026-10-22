@@ -7,8 +7,13 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
+replaced_by: SOMAGLIA
 ---
-# Comtesse Somaglia
 
-Stub entry — needs research.
+%% GLO_COMTESSE_SOMAGLIA.0001 %%
+**Retired.** Merged into [#SOMAGLIA](../mentioned/SOMAGLIA.md) (`people/mentioned/SOMAGLIA.md`); use that entry instead.
+
+%% GLO_COMTESSE_SOMAGLIA.0002 %%
+%% 2026-10-22T20:50:29 RSR: Retired by glossary-merge; content and links moved to SOMAGLIA. replaced_by: people/mentioned/SOMAGLIA.md. %%

@@ -6,32 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
+replaced_by: NATHALIE_PATTON
 ---
-# Nathalie
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-06
-**Diary Coverage**: Up to 1874-04-19
+%% GLO_NATHALIE.0001 %%
+**Retired.** Merged into [#NATHALIE_PATTON](NATHALIE_PATTON.md) (`people/mentioned/NATHALIE_PATTON.md`); use that entry instead.
 
-## Identity
-Member of the Patton household who shows Marie around their home.
-
-## Diary References
-
-### 1874
-- **April 19**: "Nathalie me montra la maison" (Nathalie showed me the house) at the Pattons', after which Marie was bored in the garden.
-
-## Context
-- Connected to Patton family
-- Shows guests around
-- Possibly daughter or relative
-- Part of social visiting customs
-
-## Related Entries
-- [#Patton_family](PATTON_FAMILY.md) - Household connection
-
-## Research Notes
-- Household social dynamics
-- Visiting customs in 1870s
-- Family member roles
+%% GLO_NATHALIE.0002 %%
+%% 2026-10-22T20:50:15 RSR: Retired by glossary-merge; content and links moved to NATHALIE_PATTON. replaced_by: people/mentioned/NATHALIE_PATTON.md. %%

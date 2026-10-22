@@ -7,21 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
+replaced_by: MARGHERITA_DI_SAVOIA
 ---
-# Queen Margherita
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_QUEEN_MARGHERITA.0001 %%
+**Retired.** Merged into [#MARGHERITA_DI_SAVOIA](../aristocracy/MARGHERITA_DI_SAVOIA.md) (`people/aristocracy/MARGHERITA_DI_SAVOIA.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_QUEEN_MARGHERITA.0002 %%
+%% 2026-10-22T20:56:51 RSR: Retired by glossary-merge; content and links moved to MARGHERITA_DI_SAVOIA. replaced_by: people/aristocracy/MARGHERITA_DI_SAVOIA.md. %%

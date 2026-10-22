@@ -3,10 +3,12 @@ id: MACHENKA
 name: Machenka
 aliases:
   - Machenka
+  - tante Marie
+  - Maria Dimitrievna
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 # Machenka
 
@@ -58,4 +60,14 @@ Aunt by marriage - wife of Marie's Uncle Stiopa (Stepan).
 - Age
 - Children
 
+## «Maria Dimitrievna», «tante Marie»
+
+Machenka is a diminutive of Maria. On 10 June 1874 Marie pities Stiopa, led round «des Bon Marché et des Petit Saint-Thomas» by «Maria Dimitrievna» (020/1874-06-10): Stiopa's wife, i.e. Machenka (confidence 0.8). The former entries MARIA_DIMITRIEVNA, TANTE_MARIE and PETITE_TANTE are merged here.
+
 %% 2026-02-10T17:10:00 RSR: Added 1875 Wiesbaden excursion reference from carnet 039. %%
+
+%% 2026-10-22T20:54:31 RSR: Merged TANTE_MARIE (no content kept: empty stub) %%
+
+%% 2026-10-22T20:54:36 RSR: Merged PETITE_TANTE (no content kept: empty stub) %%
+
+%% 2026-10-22T20:54:41 RSR: Merged MARIA_DIMITRIEVNA; its diary facts were checked against the text and folded in by hand above. %%

@@ -5,6 +5,7 @@ aliases:
   - comte d Osmond
   - Comte d'Osmond
   - Osmond
+  - M. d'Osmond
 type: Person
 category: people/aristocracy
 research_status: Basic
@@ -26,3 +27,5 @@ last_updated: 2026-03-06
 - Created: 2026-01-06
 - Auto-generated stub from broken link detection
 - Needs proper research and content
+
+%% 2026-10-22T20:55:08 RSR: Merged M_D_OSMOND (no content kept: empty stub) %%

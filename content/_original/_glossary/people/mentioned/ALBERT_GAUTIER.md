@@ -26,7 +26,6 @@ In December 1876 Marie ranks him among the men who could make her «parfaitement
 - 1877-05 to 1878-10 (carnets 071, 072, 082)
 
 ## Related
-- [PEPINO](PEPINO.md) (nickname entry)
 - GAUTIER (untyped «Gautier» references)
 - [EMILE_D_AUDIFFRET](../recurring/EMILE_D_AUDIFFRET.md)
 

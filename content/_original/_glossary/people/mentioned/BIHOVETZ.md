@@ -3,6 +3,7 @@ id: BIHOVETZ
 name: General Bihovetz
 aliases:
   - Bihovetz
+  - général Bihovetz
 type: Person
 category: people/mentioned
 research_status: Stub
@@ -21,3 +22,5 @@ First sighting 27 October 1874: «elle nous a présenté le général de l'état
 
 %% 2026-10-21T23:25:00 RSR: Extended (OPEN-ITEMS B-20): first sighting (025.0003), nickname «Bibi» (086.0227), godfather scene and dense runs added from the tagged paragraphs; no old fact changed. «Polish general» rests on 025.0003 («un Polonais») and the t.10 index. %%
 %% 2026-10-21T10:26:00 RSR: Rewritten from the auto-generated stub during RSR research of the restored carnet 070 paragraphs (rsr-070b), from the diary text and the t.10 index only. %%
+
+%% 2026-10-22T20:53:45 RSR: Merged GENERAL_BIHOVETZ (no content kept: empty stub) %%

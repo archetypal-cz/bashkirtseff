@@ -3,6 +3,8 @@ id: VIVIANI
 name: Viviani
 aliases:
   - Viviani
+  - marquise Viviani
+  - Mme Viviani
 type: Person
 category: people/mentioned
 research_status: Basic
@@ -37,3 +39,7 @@ Social acquaintance who invites the Bashkirtseff family to Beaulieu.
 - Italian community in Nice
 - Social excursion customs
 - Day trip invitations
+
+%% 2026-10-22T20:51:15 RSR: Merged MARQUISE_VIVIANI (no content kept: empty stub) %%
+
+%% 2026-10-22T20:51:19 RSR: Merged MME_VIVIANI (no content kept: empty stub) %%

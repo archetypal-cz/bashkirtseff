@@ -126,10 +126,14 @@ This entry covers Antoine Blanc, the capitaine de frégate. The diary mentions s
 - [#Cassagnac](../recurring/CASSAGNAC.md) -- Blanc's intimate friend, Marie's obsession
 - [#Berthe](../recurring/BERTHE.md) -- Berthe Boyd/Lancaster, frequent companion alongside Blanc
 - [#Gavini](GAVINI.md) -- M. Gavini assessed Blanc as "troisième catégorie"
-- [#De_Mouzay](DE_MOUZAY.md) -- The comtesse who introduced Blanc and Cassagnac to Marie
+- [#Mouzay](MOUZAY.md) -- The comtesse who introduced Blanc and Cassagnac to Marie
 - [#Johnstone](JOHNSTONE.md) -- Robert Lancaster, Berthe's husband, duel adversary
 - [#Dieppe](../../places/travel/DIEPPE.md) -- Summer resort where Blanc was frequently present
 
 %% GLO_BLANC.0024 %%
 %% 2026-02-10T10:30:00 RSR: Enriched from minimal stub. Distinguished between two "Blancs" in the diary: the Blanc of Nice (1873-1874, likely connected to Francois Blanc of Monte Carlo) and the Blanc of Paris (1878-1879), a social companion of lower standing whom Gavini called "de troisieme categorie." %%
 %% 2026-05-25T08:00:00 RSR: COMPREHENSIVE REWRITE. Corrected fundamental error in previous version: there are NOT two Blancs in the diary. The main Blanc throughout is ONE person -- Antoine Blanc, capitaine de frégate, friend of Cassagnac. His first name is confirmed in carnets 084 (1879-04-25: "Blanc, (Antoine)") and 093 (1881-11-07: "L'ignoble Blanc, Antoine, capitaine de fregate"). The 1874 "M. Blanc" at the pigeon shoot (carnet 015) is Francois Blanc, the Monaco casino founder -- a completely different person. The "petit Blanc" / "Blanc de Monaco" involved with Berthe Lancaster (1880-1881) is a son of Francois Blanc -- a third distinct individual. Added: full name, physical description, character traits, role as Cassagnac intermediary, masked ball episode, Lancaster duel affair, journalism connection (La Jeune Garde), failed business ventures, emotional significance, comprehensive alias list. Traced across carnets 062-100 (1876-1883). Separated from other Blancs in the diary (Francois Blanc, Marie Blanc, le petit Blanc de Monaco, Louis Blanc, Sir Seymour Blanc). %%
+
+%% 2026-10-22T20:56:28 RSR: Merged ANTOINE_BLANC (no content kept: empty stub) %%
+
+%% 2026-10-22T20:56:33 RSR: Merged CAPITAINE_BLANC (no content kept: empty stub) %%

@@ -47,3 +47,5 @@ A young man in Marie's Nice social circle during summer 1875. Initially shy and 
 %% 2026-10-21T09:05:00 RSR: Identity section added from carnets 034-039 (restored paragraphs of 035). The "First name unknown" research note above is superseded: he is Maurice Godard. %%
 
 %% 2026-10-21T21:13:33 RSR: Merged MAURICE_GODARD_DECRAIS (no content kept: empty stub) %%
+
+%% 2026-10-22T20:58:37 RSR: Merged DESIRE (no content kept: empty stub) %%

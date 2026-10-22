@@ -45,7 +45,6 @@ After the Duke of Hamilton's death in 1895 (from alcoholism-related illness), La
 %% GLO_LADY_MARY_MONTAGU.0010 %%
 ## Related Entries
 - [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) -- Her husband, object of Marie's obsession
-- [#Lady_Montagu](LADY_MONTAGU.md) -- Likely the same person (duplicate entry)
 - [#Duchess_of_Manchester](DUCHESS_OF_MANCHESTER.md) -- Possibly her mother
 
 %% GLO_LADY_MARY_MONTAGU.0011 %%

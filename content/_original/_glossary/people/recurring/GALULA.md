@@ -60,3 +60,5 @@ By autumn 1875 (carnet 045), Fiouloulou occupies a specific social role:
 
 %% GLO_GALULA.9100 %%
 %% 2026-10-03T10:00:00 RSR: Body merged from FIOULOULOU (richer duplicate). %%
+
+%% 2026-10-22T20:55:04 RSR: Merged GALUTA (no content kept: empty stub) %%

@@ -7,22 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
+replaced_by: VASSILISSA_BABANINE
 ---
-# Vassilissa Egorovna
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-06
-**Diary Coverage**: Up to 1874-03-04
+%% GLO_VASSILISSA_EGOROVNA.0001 %%
+**Retired.** Merged into [#VASSILISSA_BABANINE](../family/VASSILISSA_BABANINE.md) (`people/family/VASSILISSA_BABANINE.md`); use that entry instead.
 
-A person mentioned in conversation during Marie's visit to the [#Howards](../recurring/HOWARD_FAMILY.md) on March 4, 1874. The discussion about Vassilissa Egorovna appears to have been connected to comments about [#Bête](BETE.md).
-
-## Context in Diary
-
-Marie notes that at the Howards, there was conversation about Vassilissa Egorovna, though she doesn't provide details about who this person was or the nature of the discussion.
-
-## Research Notes
-
-The name suggests Russian origins - "Vassilissa" is a Russian feminine name, and "Egorovna" is a patronymic meaning "daughter of Egor." Given the Russian émigré circles in Nice during this period, she was likely part of the Russian community.
-
-Further research needed to identify this person more specifically and understand her connection to the Howard family social circle.
+%% GLO_VASSILISSA_EGOROVNA.0002 %%
+%% 2026-10-22T20:59:11 RSR: Retired by glossary-merge; content and links moved to VASSILISSA_BABANINE. replaced_by: people/family/VASSILISSA_BABANINE.md. %%

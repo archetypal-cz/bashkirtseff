@@ -47,7 +47,7 @@ Cupid shooting arrows on a sky of clouds is the classical subject of a "tableau 
 ## Related Entries
 
 %% GLO_TABLEAU_D_HISTOIRE_1875.0010 %%
-- [#Godard](../../people/mentioned/GODARD.md), [#Saetone](../../people/recurring/SAETONE.md), [#Galula](../../people/recurring/GALULA.md), [#Danis](../../people/mentioned/DANIS.md), [#Desire](../../people/mentioned/DESIRE.md), [#Galula](../../people/recurring/GALULA.md) -- the sitters
+- [#Godard](../../people/mentioned/GODARD.md), [#Saetone](../../people/recurring/SAETONE.md), [#Galula](../../people/recurring/GALULA.md), [#Danis](../../people/mentioned/DANIS.md), [#Godard](../../people/mentioned/GODARD.md), [#Galula](../../people/recurring/GALULA.md) -- the sitters
 - [#Grande_caricature_1875](./GRANDE_CARICATURE_1875.md) -- the five-person caricature of the same set
 - [#Caricature_Smirnoff](./CARICATURE_SMIRNOFF.md)
 - [#Art_practice](../themes/ART_PRACTICE.md)

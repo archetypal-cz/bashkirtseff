@@ -219,8 +219,6 @@ In August 1877, Marie reads *Ariadne* (1877) by Ouida (Louise de la Ramée, 1839
 - [#Duke_of_Hamilton](../../people/core/DUKE_OF_HAMILTON.md) — Gioia's primary patron and Marie's first great love
 - [#Audiffret](../../people/recurring/EMILE_D_AUDIFFRET.md) — "Girofla," Gioia's later companion and Marie's suitor
 - [#Simonoff](../../people/mentioned/SIMONOFF.md) — Russian merchant, Gioia's earlier patron, father of some of her children
-- [#Amelie_Gioia](../../people/mentioned/AMELIE_GIOIA.md) — Duplicate stub entry (should redirect here)
-- [#Centifolia](../../people/mentioned/CENTIFOLIA.md) — Duplicate stub for Marie's code name for Gioia (should redirect here)
 
 %% GLO_GIOIA.0026 %%
 %% 2025-04-05T19:41:05 RSR: Initial glossary entry providing context about Gioia as companion of the Duke of Hamilton and object of Marie's jealousy. %%

@@ -3,6 +3,7 @@ id: PAULINE_ORELL
 name: Pauline Orell
 aliases:
   - Pauline Orell
+  - P. Orell
 type: Person
 category: people/mentioned
 research_status: Basic
@@ -30,3 +31,5 @@ Further research needed to determine if "Pauline Orell" refers to a real person 
 
 %% GLO_PAULINE_ORELL.9000 %%
 %% 2026-10-03T10:00:00 RSR: Moved from places/theaters/PAULINE_ORELL.md. Body copied unchanged. %%
+
+%% 2026-10-22T20:58:43 RSR: Merged P_ORELL (no content kept: empty stub) %%

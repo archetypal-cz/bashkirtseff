@@ -7,8 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
+replaced_by: LES_SAINTES_FEMMES
 ---
-# Sainte-femmes
 
-Stub entry — needs research.
+%% GLO_SAINTE_FEMMES.0001 %%
+**Retired.** Merged into [#LES_SAINTES_FEMMES](../../culture/art/LES_SAINTES_FEMMES.md) (`culture/art/LES_SAINTES_FEMMES.md`); use that entry instead.
+
+%% GLO_SAINTE_FEMMES.0002 %%
+%% 2026-10-22T20:55:51 RSR: Retired by glossary-merge; content and links moved to LES_SAINTES_FEMMES. replaced_by: culture/art/LES_SAINTES_FEMMES.md. %%

@@ -29,3 +29,5 @@ last_updated: 2026-10-02
 
 %% GLO_CASINO_MONTE_CARLO.9000 %%
 %% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/CASINO_MONTE_CARLO.md (a place filed under people). Body copied unchanged. %%
+
+%% 2026-10-22T20:52:06 RSR: Merged MONTE_CARLO_CASINO (no content kept: empty stub) %%

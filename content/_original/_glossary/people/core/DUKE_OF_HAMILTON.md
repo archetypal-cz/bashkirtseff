@@ -4,6 +4,7 @@ name: Duke of Hamilton
 aliases:
   - Duke of Hamilton
   - Hamilton
+  - duc de Hamilton
 type: Person
 category: people/core
 research_status: Comprehensive
@@ -108,3 +109,5 @@ Hamilton Palace, which so impressed Marie in her reading, was demolished in the 
 See annotations above for detailed research notes.
 
 %% 2026-10-21T21:20:44 RSR: Merged HAMILTON (no content kept: empty stub) %%
+
+%% 2026-10-22T20:53:36 RSR: Merged DUC_DE_HAMILTON (no content kept: empty stub) %%

@@ -10,7 +10,7 @@ aliases:
 type: Person
 category: people/family
 research_status: Comprehensive
-last_updated: 2026-10-11
+last_updated: 2026-10-22
 images:
   - src: /images/marie/works/portrait-paul.jpg
     caption: "Marie Bashkirtseff, Portrait de son frère Paul (1876), oil, Musée des Beaux-Arts Jules Chéret, Nice"
@@ -34,6 +34,11 @@ In the preface Marie remembers that her father and grandfather, in their attempt
 
 %% GLO_PAUL.0004 %%
 Marie was merciless about him. On 24 March 1874 she describes a boy of fourteen who "sait à peine écrire et lire", spends his time in cafés, the kitchen and at the roulette table or in the streets, goes to the theatre and comes home at two or three in the morning, with the cook Adam as "son compagnon et mentor" and actresses in his education (017.0466; "Maman n'y peut presque rien"). In 1876 she painted his portrait (see [#Portrait_Paul](../../culture/art/PORTRAIT_PAUL.md), Musée des Beaux-Arts de Nice). At Poltava in September 1876 he is the family's chatterbox ("Kapitan faisait des gestes désespérés pour empêcher Paul de bavarder", 066, 1876-09-06). When Walitsky dies in January 1878 Paul is "nerveux comme une femme" (077.0171) and "fou de Cassagnac" (077.0175).
+
+%% GLO_PAUL.0015 %%
+## 1875: the Zankovsky affair
+
+On 17 August 1875 a letter from Russia brings on another of Maman's attacks: «Paul va se faire volontairement soldat. Les Zankovsky le poussent à cela, il s'est amouraché de la fille cadette qui se conduit mal» (039.0102). The former entry PAUL_BASHKIRTSEFF is merged here.
 
 %% GLO_PAUL.0005 %%
 ## Marriage to Alexandrine Patchenko, 1879--1881
@@ -71,7 +76,7 @@ Paul survived his sister by fifteen years (d. 1899, per Kernberger). No source s
 - [#Paul_Grigorievitch_Bashkirtseff](PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md): their grandfather, the general
 - [#Nini](../mentioned/NINI.md): Alexandrine Patchenko, Paul's wife
 - [#M_Patchenko](../mentioned/M_PATCHENKO.md): Nini's father
-- [#Catherine_Eristoff](../mentioned/CATHERINE_ERISTOFF.md): Nini's sister
+- [#Catherine](../mentioned/CATHERINE.md): Nini's sister
 - [#Gavronzi](../../places/residences/GAVRONZI.md): the family estate
 - [#Dina](../core/DINA.md), [#Georges](GEORGES.md), [#Alexandre](../core/ALEXANDRE.md): cousin and uncles
 - [#Adam](../mentioned/ADAM.md): the cook who "corrupted" him as a boy
@@ -87,3 +92,5 @@ Paul survived his sister by fifteen years (d. 1899, per Kernberger). No source s
 
 %% 2026-05-24T14:00:00 RSR: Comprehensive expansion of glossary entry from Moderate to Comprehensive. Added birth/death dates (1859/1860--1899), full biographical arc, wife identification (Alexandrine Patchenko = "Nini" in diary), wedding scandal of 1880, Gavronzi domestic life 1881, inheritance disputes 1883, final diary mentions 1884, physical descriptions across years, fortune teller prophecy, key diary passages table. Sources: Katherine Kernberger, "I Am the Most Interesting Book of All" Vol I / "Lust for Glory" Vol II (Fonthill Press, 2013) -- death date 1899 from Kernberger's glossary/chronology. Wikipedia (https://en.wikipedia.org/wiki/Marie_Bashkirtseff) -- family background. Encyclopedia.com (https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/bashkirtseff-marie-1859-1884) -- fortune teller prophecy, family history. Rijksmuseum (https://www.rijksmuseum.nl/en/collection/SK-A-1988) -- portrait of Alexandrine Patchenko. Mathilde Blind, Introduction to The Journal of Marie Bashkirtseff (1890) -- family background. Diary entries from carnets 000, 017, 066, 077, 087, 088, 091, 092, 098, 100, 101, 104, 105, 106. %%
 %% 2026-10-11T12:00:00 RSR: Rewritten in the people research wave; the 2026-05-24 comment above is kept. CORRECTIONS: (1) "Born 1859 or 1860 / died 1899" -- only Kernberger (2013) found for both dates; Marie's "quatorze ans" in March 1874 (017.0466) allows 1859 or early 1860; no other source located (two web searches). (2) "In her testament (carnet 104, May 14, 1884), she listed Paul among those for whom she would want to provide" -- WRONG: 104.0199 (16 May 1884) is a list of persons for whom she would sacrifice her dog Coco. (3) "Marie made her testament addressed to Paul ... designating her brother as executor" placed under the father's death -- the sealed testament addressed to Paul is of 1 June 1880 (088.0468); the diary gives no content, 'executor' is unsupported. (4) "Paul departed Paris on September 27, 1883, with Marie's full powers of attorney ... confirms that Paul and Nini had at least one child" -- also 101.0440: Marie had first made him return a proxy signed at the consulate; and the diary shows two children by Oct 1882 (daughter b. c.1881, son b. c. mid-Sept 1882, baptised Constantin 29 Oct 1882, 096.0389, 096.0459). (5) "wedding took place at Micha's country estate" -- 091.0191 says "chez Michel" (Michel Eristoff? MICHA/MICHEL_ERISTOFF/MICHKA_ERISTOFF appear to be overlapping entries -- lead to check). (6) "The Marriage ... March 1880 ... Marie was frantic ... the crisis resolved -- the father backed down" -- 087.0611 says only that the father proposed a formal request; kept in that form. (7) Dropped unsupported generalisations ('provincial landowner whose life left no independent historical record', 'Significance in the Diary' essay, 'Physical Description' list, key-passages table; "Name day June 29/July 11" kept only as in 092.0242). (8) Age at 1884 was 24-25. (9) "Mme Volkowitsky" in 097.0045 is a guest, not Paul's wife. FILING: Paul is Marie's brother and belongs in people/family (like Maman, Papa, Ma tante), not people/mentioned -- lead to move with the tools. Image: Marie's 1876 portrait of Paul (identification certain: museum title; Kernberger illustrated edition caption 'Portrait of P[aul] Bashkirtseff, Marie Bashkirtseff, 1876, Musée des Beaux-Arts, Nice'); reused from /images/marie/works/portrait-paul.jpg. No photograph of Paul found. %%
+
+%% 2026-10-22T20:57:19 RSR: Merged PAUL_BASHKIRTSEFF; its diary facts were checked against the text and folded in by hand above. %%

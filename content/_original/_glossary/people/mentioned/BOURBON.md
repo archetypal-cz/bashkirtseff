@@ -6,21 +6,12 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
 ---
-# Bourbon
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_BOURBON.0001 %%
+**Retired.** Empty auto-generated stub; the individual Bourbons have their own entries (e.g. [#Prince_de_Bourbon](../aristocracy/PRINCE_DE_BOURBON.md)). No replacement entry.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_BOURBON.0002 %%
+%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): no inbound links; no replaced_by because there is no single referent. %%

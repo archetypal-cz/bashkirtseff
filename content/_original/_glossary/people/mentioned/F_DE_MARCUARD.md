@@ -7,13 +7,14 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Redirect
-last_updated: 2026-05-25
+last_updated: 2026-10-22
 redirect_to: MARCUARD
+status: retired
+replaced_by: MARCUARD
 ---
-# F. de Marcuard
 
-**See**: [Friedrich de Marcuard](MARCUARD.md)
+%% GLO_F_DE_MARCUARD.0001 %%
+**Retired.** Duplicate of [#MARCUARD](MARCUARD.md) (`people/mentioned/MARCUARD.md`); use that entry instead.
 
-This is the same person as Friedrich de Marcuard. The "F." stands for Friedrich. See the main entry at [MARCUARD](MARCUARD.md) for comprehensive information.
-
-%% 2026-05-25T10:00:00 RSR: Converted from auto-generated stub to redirect. F. de Marcuard and Marcuard are the same person: Friedrich de Marcuard of the Bernese banking family Marcuard et Cie. The "F." initial appears in his signed letters and formal references in the diary. %%
+%% GLO_F_DE_MARCUARD.0002 %%
+%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): redirect stub with no inbound diary links; replaced_by: people/mentioned/MARCUARD.md. %%

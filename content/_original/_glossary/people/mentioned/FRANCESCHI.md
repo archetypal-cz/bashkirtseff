@@ -28,3 +28,5 @@ last_updated: 2026-03-06
 The sculptor Jules Franceschi, who judges Marie's painting in 1884, is a different man: [JULES_FRANCESCHI](../artists/JULES_FRANCESCHI.md).
 
 %% 2026-10-22T14:31:16 RSR: B-67 (2): the 1884 sculptor tags (102–104) moved to JULES_FRANCESCHI; this stub keeps the 1875–1878 uses (015, 078–080). %%
+
+%% 2026-10-22T20:54:45 RSR: Merged M_FRANCESCHI (no content kept: empty stub) %%

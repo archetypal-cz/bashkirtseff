@@ -4,6 +4,7 @@ name: Baron d Alt
 aliases:
   - Baron d Alt
   - Baron d'Alt
+  - d'Alt
 type: Person
 category: people/aristocracy
 research_status: Basic
@@ -27,3 +28,5 @@ last_updated: 2026-03-06
 - Needs proper research and content
 
 %% 2026-10-21T21:22:31 RSR: Merged M_D_ALT (no content kept: empty stub) %%
+
+%% 2026-10-22T20:53:58 RSR: Merged D_ALT (no content kept: empty stub) %%

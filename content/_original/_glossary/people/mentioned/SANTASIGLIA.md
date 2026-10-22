@@ -3,6 +3,7 @@ id: SANTASIGLIA
 name: Santasiglia
 aliases:
   - Santasiglia
+  - marquis Santasiglia
 type: Person
 category: people/mentioned
 research_status: Basic
@@ -24,3 +25,7 @@ last_updated: 2026-03-06
 - Created: 2026-01-06
 - Auto-generated stub from broken link detection
 - Needs proper research and content
+
+%% 2026-10-22T20:52:58 RSR: Merged MARCHESE_SANTASIGLIA (no content kept: empty stub) %%
+
+%% 2026-10-22T20:53:03 RSR: Merged MARQUIS_SANTASIGLIA (no content kept: empty stub) %%

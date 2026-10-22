@@ -32,3 +32,5 @@ The Mon Journal t.10 index has «Larderei (Blanche, comtesse de), épouse de Gas
 %% 2026-10-21T10:48:15 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 071 paragraphs (rsr-071); diary text, t.10 index and thepeerage.com as cited. %%
 
 %% 2026-10-22T12:29:09 RSR: Merged MADAME_DE_MIRAFIORE (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+
+%% 2026-10-22T20:51:01 RSR: Merged COMTESSE_DE_MIRAFIORE (no content kept: empty stub) %%

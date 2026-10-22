@@ -7,30 +7,13 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
+status: retired
+replaced_by: DOLGOROUKY
 ---
-# Prince Dolgorouky
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-06
-**Diary Coverage**: Up to 1874-03-05
+%% GLO_PRINCE_DOLGOROUKY.0001 %%
+**Retired.** Merged into [#DOLGOROUKY](../mentioned/DOLGOROUKY.md) (`people/mentioned/DOLGOROUKY.md`); use that entry instead.
 
-## Identity
-Russian prince seen walking with Prince Wittgenstein on the Promenade des Anglais in Nice.
-
-## Diary References
-
-### 1874
-- **March 5**: Marie spots him as "un personnage intéressant" (an interesting character) walking with Wittgenstein at the Promenade.
-
-## Context
-- Member of the ancient Dolgorukov princely family
-- Part of Russian aristocratic community in Nice
-- Associates with Wittgenstein
-- Marie considers him noteworthy enough to mention
-- Represents the Russian nobility on the Riviera
-
-## Research Notes
-- Dolgorukov/Dolgorouky is one of Russia's oldest princely families
-- Multiple branches and members would have been in Nice
-- Need to identify specific prince from this period
+%% GLO_PRINCE_DOLGOROUKY.0002 %%
+%% 2026-10-22T20:51:23 RSR: Retired by glossary-merge; content and links moved to DOLGOROUKY. replaced_by: people/mentioned/DOLGOROUKY.md. %%

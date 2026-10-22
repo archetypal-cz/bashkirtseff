@@ -7,7 +7,7 @@ aliases:
   - Ariadne on the Panther
   - Ariadne auf dem Panther
 type: Culture
-category: people/mentioned
+category: culture/art
 research_status: Basic
 last_updated: 2026-10-22
 ---
@@ -21,6 +21,6 @@ last_updated: 2026-10-22
 - 1878-07-31 (081.0566): «Ce soir je me suis posée devant la glace comme Ariane de Danneker à Francfort... si vous voulez savoir comment je suis faite allez à Francfort et regardez l'Ariane.»
 
 ## Do not confuse with
-Marie's own projected statue *Ariane* (1879–1883), [#Ariane_statue](../../culture/art/ARIANE_STATUE.md), which comes later and has a different subject (Ariadne abandoned on Naxos).
+Marie's own projected statue *Ariane* (1879–1883), [#Ariane_statue](ARIANE_STATUE.md), which comes later and has a different subject (Ariadne abandoned on Naxos).
 
 %% 2026-10-22T20:26:03 RSR: Auto-stub body replaced (glossary orphan review). 081.0457 and 081.0566 were tagged ARIANE_STATUE (Marie's 1879–1883 project) although both paragraphs are about Dannecker's statue; both retagged here. Bare alias «Ariane» dropped (it belongs to ARIANE_STATUE / ARIADNE). Move candidate: culture/art. Frontmatter entities of 081/1878-07-15 and 081/1878-07-31 still list ARIANE_STATUE (entities-sync). %%

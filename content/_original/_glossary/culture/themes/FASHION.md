@@ -85,3 +85,5 @@ For Marie, dress was not vanity but strategy. In a world where a woman's appeara
 %% 2026-02-10T20:00:00 RSR: Created thematic tag. Fashion is one of the diary's defining themes, especially in the earlier carnets. %%
 %% 2026-09-28T10:40:00 RSR: Added Clothing alias and tagging criteria; FASHION is the clothing tag (theme-tags pilot, see .claude/reports/theme-tags-2026-09-28.md). %%
 %% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%
+
+%% 2026-10-22T20:59:02 RSR: Merged PARIS_FASHION (no content kept: empty stub) %%

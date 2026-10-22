@@ -47,3 +47,5 @@ Le Bon Marché continued to thrive and expand in the decades following Marie's v
 - **August 1873**: Marie dismisses her cousin Dina's suggestion to visit Le Bon Marché, considering it beneath her social standing
 
 %% 2025-04-05T15:24:18 RSR: Created glossary entry for Le Bon Marché department store %%
+
+%% 2026-10-22T20:57:23 RSR: Merged BON_MARCHE (no content kept: empty stub) %%

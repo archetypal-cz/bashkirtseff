@@ -48,4 +48,4 @@ Reboux hats were known for:
 
 ## Related Entries
 
-See also: [#Mantel](../../people/mentioned/MANTEL.md), [#House_of_Worth](HOUSE_OF_WORTH.md), [#Paris_Fashion](../../people/mentioned/PARIS_FASHION.md)
+See also: [#Mantel](../../people/mentioned/MANTEL.md), [#House_of_Worth](HOUSE_OF_WORTH.md), [#Fashion](../themes/FASHION.md)

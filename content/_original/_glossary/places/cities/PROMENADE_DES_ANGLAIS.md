@@ -31,3 +31,5 @@ Marie's diary shows her intimate familiarity with the Promenade's social geograp
 
 ## Connection to Marie's World
 The Promenade represents the sophisticated international milieu that Marie inhabits and aspires to excel in. It's where she encounters the aristocratic figures who populate her romantic imagination.
+
+%% 2026-10-22T20:58:04 RSR: Merged LA_PROMENADE (no content kept: empty stub) %%

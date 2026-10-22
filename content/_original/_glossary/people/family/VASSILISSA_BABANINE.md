@@ -4,10 +4,13 @@ name: Vassilissa Babanine
 aliases:
   - Vassilissa Babanine
   - Babanine
+  - Vassilissa
+  - Vassilissa Egorovna
+  - Vassilissa Yégorovna
 type: Person
 category: people/family
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Vassilissa Babanine
 
@@ -92,4 +95,12 @@ In 19th century Russian aristocratic society:
 
 Marie tells this story in her retrospective preface with sharp social observation, noting the hypocrisy and greed of family members who claimed to honor Vassilissa while plotting to acquire her wealth. The image of the plants being removed from the terrace while Vassilissa remained - "toujours veneree de moins en moins" - captures the cruelty of her gradual abandonment.
 
+## Vassilissa Egorovna
+
+The «Vassilissa Egorovna» of the diary is the same woman (decided 2026-10-22, confidence 0.9). At Tcherniakovka in October 1876 Marie writes of «la pauvre Vassilissa, la sœur de grand-papa, une ancienne millionnaire» (066/1876-10-06), and a few weeks later «Vassilissa Yégorovna me fit demander pour se plaindre à moi de toutes ses infortunes [...] jadis adorée, riche brillante» (067/1876-10-30): the same ruined, once-rich old maid. Earlier Marie talks with the Howard girls of «Vassilissa Egorovna, de ses biens» (017/1874-03-04), and Maman recalls that «Vassilissa Egorovna a failli épouser un Miloradovitch, et il l'a abandonnée, elle est restée vieille fille» (029/1875-02-14). The former entries VASSILISSA and VASSILISSA_EGOROVNA are merged here.
+
 %% 2025-12-07T18:45:00 RSR: Created based on Book 00 retrospective preface. Vassilissa's story exemplifies Marie's critique of family hypocrisy and the vulnerability of aristocratic women %%
+
+%% 2026-10-22T20:57:37 RSR: Merged VASSILISSA (no content kept: empty stub) %%
+
+%% 2026-10-22T20:59:11 RSR: Merged VASSILISSA_EGOROVNA; its diary facts were checked against the text and folded in by hand above. %%

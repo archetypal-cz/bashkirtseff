@@ -25,3 +25,7 @@ last_updated: 2026-03-06
 - Created: 2026-01-06
 - Auto-generated stub from broken link detection
 - Needs proper research and content
+
+%% 2026-10-22T20:52:16 RSR: Merged MADAME_HOWARD (no content kept: empty stub) %%
+
+%% 2026-10-22T20:52:20 RSR: Merged MRS_HOWARD (no content kept: empty stub) %%

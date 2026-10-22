@@ -48,3 +48,5 @@ KEEP APART: [MLLE_ACARD](JULIA_ACARD.md), [ACARD](ACARD.md), [STEPHANO_ACARD](ST
 %% 2026-10-21T22:55:09 RSR: Merged MLLE_ACARD (no content kept: empty stub) %%
 
 %% 2026-10-21T22:55:22 RSR: Merged MME_DE_CASSAGNAC (no content kept: empty stub) %%
+
+%% 2026-10-22T20:53:27 RSR: Merged MAM_ZELLE_ACARD (no content kept: empty stub) %%

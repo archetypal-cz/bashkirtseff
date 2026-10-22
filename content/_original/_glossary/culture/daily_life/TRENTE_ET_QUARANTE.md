@@ -5,7 +5,7 @@ aliases:
   - Trente et quarante
   - Trente et Quarante
 type: Culture
-category: people/mentioned
+category: culture/daily_life
 research_status: Basic
 last_updated: 2026-10-22
 ---

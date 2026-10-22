@@ -57,4 +57,4 @@ Marie tolerates Bikowsky but doesn't particularly enjoy his company:
 
 ## Related Entries
 
-See also: [#Paris_1870s](../../places/cities/PARIS_1870S.md), [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md)
+See also: [#Paris](../../places/cities/PARIS.md), [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md)

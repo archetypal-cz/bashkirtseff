@@ -5,10 +5,14 @@ aliases: []
 type: Person
 category: people/aristocracy
 research_status: Redirect
-last_updated: 2026-05-25
+last_updated: 2026-10-22
 redirect_to: people/mentioned/MOUZAY
+status: retired
+replaced_by: MOUZAY
 ---
 
-# Madame de Mouzay
+%% GLO_MADAME_DE_MOUZAY.0001 %%
+**Retired.** Duplicate of [#MOUZAY](../mentioned/MOUZAY.md) (`people/mentioned/MOUZAY.md`); use that entry instead.
 
-**Redirect**: See [MOUZAY](../mentioned/MOUZAY.md) for the consolidated entry.
+%% GLO_MADAME_DE_MOUZAY.0002 %%
+%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): redirect stub with no inbound diary links; replaced_by: people/mentioned/MOUZAY.md. %%

@@ -3,10 +3,11 @@ id: DERWIES
 name: Derwies
 aliases:
   - Derwies
+  - von Derwies
 type: Person
 category: people/recurring
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Derwies
 
@@ -30,10 +31,16 @@ A person (likely wealthy) who hosts concerts in Nice that Marie is eager to atte
 - Wealthy enough to host musical events
 
 ## Related Entries
-- [#Von Derwies Family](../../culture/literature/VON_DERWIES.md) - Full family entry with Valrose details
+- [#Derwies](DERWIES.md) - Full family entry with Valrose details
 
 ## Research Notes
 - Same as Von Derwies family - see full entry
 - Pavel von Derwies (1826-1881), Russian railway magnate
 
+## The Derwies family and Valrose
+
+Pavel Grigorievich von Derwies (1826–1881) made an enormous fortune from railway concessions (Moscow–Ryazan, Ryazan–Kozlov) and settled in Nice, where he built the Villa Valrose with its private theatre, gardens and greenhouses (Wikipedia, «Paul von Derwies»). The concert Marie longs to attend on 25 February 1874 is «le concert chez Derwies» (017.0049). The former entry VON_DERWIES (misfiled under culture/literature) is merged here.
+
 %% 2026-02-11T13:40:00 RSR: Per Kernberger (2013), "Von Derwies, M. and Mme: nouveaux riches with extravagant house (Valrose) and little taste." This confirms they were wealthy new-money Russians whose estate Valrose in Nice was known for extravagant but tasteless decoration. %%
+
+%% 2026-10-22T20:58:57 RSR: Merged VON_DERWIES; its diary facts were checked against the text and folded in by hand above. %%

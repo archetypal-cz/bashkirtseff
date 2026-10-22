@@ -3,6 +3,7 @@ id: ADELINE
 name: Adeline
 aliases:
   - Adeline
+  - Mme Adeline
 type: Person
 category: people/mentioned
 research_status: Basic
@@ -19,3 +20,5 @@ Adeline was a friend in Paris who appears in Marie's diary in November 1880. On 
 The phrase "n'y pouvant tenir" (unable to bear it) suggests Adeline was eager to see Marie, perhaps after a separation or with urgent news to share.
 
 Further context needed to identify Adeline's full identity and relationship to Marie.
+
+%% 2026-10-22T20:56:05 RSR: Merged MME_ADELINE (no content kept: empty stub) %%

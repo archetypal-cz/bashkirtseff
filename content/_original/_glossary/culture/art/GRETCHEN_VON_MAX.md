@@ -6,6 +6,7 @@ aliases:
   - la Gretchen de Max
   - Gretchen de Max
   - Gretchen by Gabriel von Max
+  - Gretchen
 type: Culture
 category: culture/art
 research_status: Stub
@@ -36,3 +37,7 @@ It is her touchstone for a work that tells the whole story through expression: �
 %% 2026-10-21T23:15:00 RSR: Created (OPEN-ITEMS D-41): three paragraphs read; they were tagged with the empty stubs M_MARX, GRETCHEN and MAX. Marx/Max identification and the Faust-illustration fact come from a web search summary of Wikipedia «Gabriel von Max» and museum listings, not verified against a catalogue; the specific painting is open (a catalogue of Max's Gretchen subjects, and the Cologne museum's holdings in 1877, should be checked). %%
 
 %% 2026-10-22T16:00:00 RSR: Hedge reviewed (glossary identity questions): painter = Gabriel von Max (t.11 index «Max (Michael), peintre allemand»); which picture, and where Marie saw it, remain open. %%
+
+%% 2026-10-22T20:54:13 RSR: Merged MAX (no content kept: empty stub) %%
+
+%% 2026-10-22T20:54:17 RSR: Merged GRETCHEN (no content kept: empty stub) %%

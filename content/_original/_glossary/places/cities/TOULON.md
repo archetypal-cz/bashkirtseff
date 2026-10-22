@@ -55,4 +55,4 @@ Stops like Toulon allowed passengers to have proper meals, stretch their legs, a
 
 ## Related Entries
 
-See also: [#Train](../../people/mentioned/TRAIN.md), [#Marseille](MARSEILLE.md), [#Nice](NICE.md), [#Paris_1870s](PARIS_1870S.md)
+See also: [#Marseille](MARSEILLE.md), [#Nice](NICE.md), [#Paris](PARIS.md)

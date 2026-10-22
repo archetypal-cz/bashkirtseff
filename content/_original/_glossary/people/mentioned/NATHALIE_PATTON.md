@@ -4,24 +4,15 @@ name: Nathalie Patton
 aliases:
   - Nathalie Patton
   - Patton
+  - Nathalie
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
+
 # Nathalie Patton
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+A member of the Patton household in Nice, probably a daughter of old Mme Patton (the diary does not say). On 19 April 1874, at the Pattons', «Nathalie me montra la maison» (018.0318), after which Marie was bored in the garden. Also tagged in 1873 (004/1873-04-22, 05-11, 05-16; 006/1873-07-05; 012/1873-11-04). The former entry NATHALIE is merged here.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-10-22T20:50:15 RSR: Merged NATHALIE; its diary facts were checked against the text and folded in by hand above. %%

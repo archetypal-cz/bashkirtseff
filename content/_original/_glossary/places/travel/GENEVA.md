@@ -133,7 +133,7 @@ During the Franco-Prussian War (1870-1871):
 - [#Franco_Prussian_War](../../culture/history/FRANCO_PRUSSIAN_WAR.md) - The war that drove the family to Geneva
 - [#Baden_Baden](BADEN_BADEN.md) - Where they fled from
 - [#Nice](../cities/NICE.md) - Where they eventually settled
-- [#Paris_1870s](../cities/PARIS_1870S.md) - Ultimate destination
+- [#Paris](../cities/PARIS.md) - Ultimate destination
 - [#London](../cities/LONDON.md) - Other dream city
 - [#Maman](../../people/family/MAMAN.md) - Who managed the family's flight
 

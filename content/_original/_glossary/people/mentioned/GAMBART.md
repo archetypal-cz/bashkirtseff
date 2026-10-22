@@ -4,10 +4,11 @@ name: M. Gambart
 aliases:
   - M. Gambart
   - Gambart
+  - villa Gambart
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # M. Gambart
 
@@ -28,3 +29,9 @@ Gentleman at theater in Nice society.
 ## Context
 - Part of Nice social circle
 - Theater attendee
+
+## Villa Gambart (Nice)
+
+On 18 January 1874, driving to the races, Marie and her party «avions déjà passé la villa Gambart» (015.0236): the house served as a landmark on the road. If he is Ernest Gambart, this is his Nice villa (Les Palmiers; see the identification above). The former entry VILLA_GAMBART, filed as a person, is merged here.
+
+%% 2026-10-22T20:58:09 RSR: Merged VILLA_GAMBART; its diary facts were checked against the text and folded in by hand above. %%

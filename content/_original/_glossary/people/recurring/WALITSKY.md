@@ -416,3 +416,5 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 %% 2026-05-24T14:00:00 RSR: Comprehensive expansion. Added: death scene (Jan 12 1878, 2 AM, 67 avenue de l'Alma, Paris), final illness (heart + respiratory failure from Dec 27 1877), Marie's grief and inability to grieve, post-death references through 1883, poisoning accusation scandal (Oct 1876), roles beyond medicine (chaperone, protector, verse-writer, financial handler, household "eunuch"), Mlle Oelsnitz connection, godson status (filleul de grand-papa), 362 entries across 73 carnets catalogued, all key paragraph IDs added. Sources: diary originals carnets 000-102, Kernberger (2013). %%
 
 %% 2026-10-22T11:41:43 RSR: Format fix (glossary-owner-questions, phase-3 follow-up): 97 inline paragraph-ID citations written inside double-percent comment markers (a splice hazard: the parser reads them as paragraph boundaries) changed to bare IDs `CCC.NNNN`, as in COLLIGNON. No content changed. %%
+
+%% 2026-10-22T20:50:25 RSR: Merged ALEXANDRE_WALITZKY (no content kept: empty stub) %%

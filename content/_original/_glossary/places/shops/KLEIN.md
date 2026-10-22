@@ -48,6 +48,6 @@ Marie's repeated returns to Klein to study Gioia's photograph reveal her jealous
 
 ## Related Entries
 
-See also: [#Walery_Studio](WALERY_STUDIO.md), [#Gioia](../../people/recurring/GIOIA.md), [#Paris_1870s](../cities/PARIS_1870S.md)
+See also: [#Walery_Studio](WALERY_STUDIO.md), [#Gioia](../../people/recurring/GIOIA.md), [#Paris](../cities/PARIS.md)
 
 %% 2026-10-22T14:14:05 RSR: Overview rewritten (ledger B-68 (3)): 007.0351/0365 are the Vienna house, not a Paris shop; one firm, two houses, so one entry. %%

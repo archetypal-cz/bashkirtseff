@@ -88,3 +88,5 @@ The father is one of the Gavini household's "vieillards" and a regular at Marie'
 %% 2026-10-21T15:00:00 RSR: Added the Mon Journal t.15/t.16 index headings for the father (Charles Géry, préfet), found in the no-LAN entries pass (100/1883-06-13, 100.0140 "le père Géry"). %%
 
 %% 2026-10-22T14:37:18 RSR: B-67 (7): father split out to CHARLES_GERY (45 father-only paragraphs retargeted, 31 paragraphs with both men given both tags); bare «Géry» with an unclear referent left here. %%
+
+%% 2026-10-22T20:54:50 RSR: Merged GABRIEL (no content kept: empty stub) %%

@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Le Bec
 
@@ -15,7 +15,7 @@ last_updated: 2026-03-06
 **Diary Coverage**: Up to 1874-03-07
 
 ## Identity
-Marie's mocking nickname ("le Bec amoureux", the lovesick beak) for the daughter of Princess Labanoff, a young woman of Nice's Russian society; "la maman" is Princess Labanoff. Not a young man (corrected 2026-10-01). Same person as [Bec](BEC.md).
+Marie's mocking nickname ("le Bec amoureux", the lovesick beak) for the daughter of Princess Labanoff, a young woman of Nice's Russian society; "la maman" is Princess Labanoff. Not a young man (corrected 2026-10-01). Same person as [Bec](LE_BEC.md).
 
 ## Diary References
 
@@ -33,3 +33,9 @@ Marie's mocking nickname ("le Bec amoureux", the lovesick beak) for the daughter
 - Nickname typical of Marie's sharp wit
 - Real name not yet revealed
 - Her reappearance worth noting in diary
+
+## 11 February 1874
+
+At a wedding service: «A la fin du service le Bec vint, ce Bec amoureux !» (016.0242). The nickname first appears on 27 January 1874 (016.0018). The former entry BEC is merged here.
+
+%% 2026-10-22T20:58:52 RSR: Merged BEC; its diary facts were checked against the text and folded in by hand above. %%

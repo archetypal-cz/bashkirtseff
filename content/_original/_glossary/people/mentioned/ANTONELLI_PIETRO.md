@@ -7,12 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Redirect
-last_updated: 2026-05-24
+last_updated: 2026-10-22
+status: retired
+replaced_by: ANTONELLI
 ---
-# Antonelli Pietro
 
-**Redirect**: See [#Antonelli](ANTONELLI.md) for the comprehensive entry on Count Pietro Antonelli (1853-1901).
+%% GLO_ANTONELLI_PIETRO.0001 %%
+**Retired.** Duplicate of [#ANTONELLI](ANTONELLI.md) (`people/mentioned/ANTONELLI.md`); use that entry instead.
 
-This stub exists because some diary entries (carnets 054-057) use the tag `[#Antonelli_Pietro]` while later entries use `[#Antonelli]`. Both refer to the same person.
-
-%% 2026-05-24T14:00:00 RSR: Converted to redirect. Primary entry is ANTONELLI.md. %%
+%% GLO_ANTONELLI_PIETRO.0002 %%
+%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): redirect stub with no inbound diary links; replaced_by: people/mentioned/ANTONELLI.md. %%

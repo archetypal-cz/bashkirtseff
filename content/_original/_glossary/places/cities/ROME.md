@@ -132,7 +132,7 @@ The Carnival included the traditional *moccoli* (candles) and the decorated balc
 %% GLO_ROME.0028 %%
 ### The Antonelli Romance
 
-Rome was the setting for one of Marie's most intense romantic episodes. Count [Pietro Antonelli](../../people/mentioned/ANTONELLI_PIETRO.md), nephew of Cardinal [Giacomo Antonelli](https://en.wikipedia.org/wiki/Giacomo_Antonelli) (1806-1876, the powerful Secretary of State to Pope Pius IX, often called the "Italian Richelieu"), first caught Marie's attention on February 15, 1876. The romance dominated carnets 054-057:
+Rome was the setting for one of Marie's most intense romantic episodes. Count [Pietro Antonelli](../../people/mentioned/ANTONELLI.md), nephew of Cardinal [Giacomo Antonelli](https://en.wikipedia.org/wiki/Giacomo_Antonelli) (1806-1876, the powerful Secretary of State to Pope Pius IX, often called the "Italian Richelieu"), first caught Marie's attention on February 15, 1876. The romance dominated carnets 054-057:
 
 %% GLO_ROME.0029 %%
 - **First sighting** (054.0133–0137, Feb 15): Rossi tells her who he is, "le comte Antonelli, le neveu du cardinal". Two days later: "Il n'y a personne de mieux que lui a Rome" (054.0195, Feb 17), and Rossi offers to present him (054.0197).
@@ -248,7 +248,7 @@ Her final word on Rome came in a quotation she first embraced, then subverted (0
 - [#Venice](./VENICE.md) -- visited on Italian tour
 - [#Pincio](../landmarks/PINCIO.md) -- fashionable Roman promenade
 - [#Paris](./PARIS.md) -- where Marie later pursued her artistic career
-- [#Antonelli_Pietro](../../people/mentioned/ANTONELLI_PIETRO.md) -- primary Roman romantic interest
+- [#Antonelli](../../people/mentioned/ANTONELLI.md) -- primary Roman romantic interest
 - [#Botkine](../../people/artists/BOTKINE.md) -- Russian painter, first artistic contact in Rome
 - [#Nice](./NICE.md) -- Marie's primary home, constant comparison point
 

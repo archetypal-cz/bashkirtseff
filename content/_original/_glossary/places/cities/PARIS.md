@@ -231,3 +231,5 @@ Marie's comparisons reveal what Paris meant to her:
 - Transatlantic Cultures: [Academie Julian from a Transatlantic Perspective](https://transatlantic-cultures.org/en/catalog/academie-julian-the-french-artistic-model-from-a-transatlantic-perspective-1880-1920)
 - French Wikipedia: [Hotel du 68 rue Ampere](https://fr.wikipedia.org/wiki/H%C3%B4tel_du_68_rue_Amp%C3%A8re) (historic monument registration 2007)
 - Marie Bashkirtseff's diary (uncensored), carnets 024, 063, 077, 088, 095, 099, 100, 105, 106
+
+%% 2026-10-22T20:58:27 RSR: Merged PARIS_1870S (no content kept: empty stub) %%

@@ -4,7 +4,7 @@ name: Cherubini
 aliases:
   - Cherubini
 type: Person
-category: culture/music
+category: people/mentioned
 research_status: Stub
 last_updated: 2026-10-22
 identity_uncertain: true

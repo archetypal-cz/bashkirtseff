@@ -224,6 +224,5 @@ His presence in the Naples-Florence social circuit of the 1870s was typical of w
 - [DOENHOFF](DOENHOFF.md) -- Doenhoff, fellow member of the Neapolitan circle, porcelain discussion partner
 - [MELISSANO](MELISSANO.md) -- Prince Melissano, another member of the Naples entourage
 - [CASSAGNAC](../recurring/CASSAGNAC.md) -- Cassagnac, whose rumored engagement to Marie was relayed by Marcuard
-- [F_DE_MARCUARD](F_DE_MARCUARD.md) -- Duplicate stub entry (same person)
 
 %% 2026-05-25T10:00:00 RSR: Comprehensive expansion from stub. Marcuard (Friedrich de Marcuard) identified as a member of the Bernese patrician Marcuard banking family. Traced the full arc of 95+ entry appearances across carnets 069-094 (March 1877 -- April 1882). He was introduced by Larderei in Naples, courted Dina unsuccessfully, became Marie's loyal correspondent and confidant, eventually proposed to Marie herself (deflected, Nov 1878), and faded from the diary by 1879. His father died Oct 1878. The raw carnet index identifies him as "Marcuard (Friedrich), [Pacha] peintre" -- Pacha being Marie's playful nickname. His family bank address: "Marcuard et Cie, Banquiers, Berne." Marie's most sustained non-romantic male friendship in the diary. %%

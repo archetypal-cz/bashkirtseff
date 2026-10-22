@@ -31,3 +31,5 @@ Marie's cousin, Russian prince.
 
 %% GLO_ERISTOFF.9400 %%
 %% 2026-10-03T16:00:00 RSR: IDENTITY UNCONFIRMED: bare 'Eristoff' (016/1874-02-02, 065/1876-08-20, 068/1876-12-18, 082, 101) may be Prince Eristoff, the late husband, or a son; not merged with MME_ERISTOFF or the two princesses (owner ruling 2026-10-03). %%
+
+%% 2026-10-22T20:50:38 RSR: Merged PRINCE_ERISTOFF (no content kept: empty stub) %%

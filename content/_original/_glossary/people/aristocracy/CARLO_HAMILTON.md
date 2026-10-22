@@ -4,6 +4,7 @@ name: Carlo Hamilton
 aliases:
   - Carlo Hamilton
   - Hamilton
+  - Charles Hamilton
 type: Person
 category: people/aristocracy
 research_status: Basic
@@ -60,3 +61,5 @@ In August 1875, Marie learns that Carlo Hamilton has been gravely injured or kil
 - Confirm whether Carlo survived the accident
 
 %% 2026-02-10T17:10:00 RSR: Added 1875 carriage accident in St. Petersburg from carnets 039. %%
+
+%% 2026-10-22T20:53:31 RSR: Merged CHARLES_HAMILTON (no content kept: empty stub) %%

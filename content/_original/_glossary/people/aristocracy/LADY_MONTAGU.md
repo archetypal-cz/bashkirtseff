@@ -8,14 +8,13 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Redirect
-last_updated: 2026-02-10
+last_updated: 2026-10-22
+status: retired
+replaced_by: LADY_MARY_MONTAGU
 ---
 
 %% GLO_LADY_MONTAGU.0001 %%
-## Redirect
+**Retired.** Duplicate of [#LADY_MARY_MONTAGU](LADY_MARY_MONTAGU.md) (`people/aristocracy/LADY_MARY_MONTAGU.md`); use that entry instead.
 
 %% GLO_LADY_MONTAGU.0002 %%
-This entry is a duplicate. See [#Lady_Mary_Montagu](LADY_MARY_MONTAGU.md) for the comprehensive entry on Lady Mary Louise Elizabeth Montagu (1854-1934), who married the Duke of Hamilton in December 1873.
-
-%% GLO_LADY_MONTAGU.0003 %%
-%% 2026-02-10T12:00:00 RSR: Marked as redirect to LADY_MARY_MONTAGU.md. %%
+%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): redirect stub with no inbound diary links; replaced_by: people/aristocracy/LADY_MARY_MONTAGU.md. %%

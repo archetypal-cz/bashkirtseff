@@ -57,7 +57,7 @@ This entry's text is built entirely on the diary and general sources on the pape
 
 %% GLO_SALON_DE_1881_P_ORELL.0011 %%
 - [#La_Citoyenne](./LA_CITOYENNE.md) -- the newspaper
-- [#P_Orell](../../people/mentioned/P_ORELL.md) and [#Pauline_Orell](../../people/mentioned/PAULINE_ORELL.md) -- the persona
+- [#Pauline_orell](../../people/mentioned/PAULINE_ORELL.md) and [#Pauline_Orell](../../people/mentioned/PAULINE_ORELL.md) -- the persona
 - [#Hubertine_Auclert](../../people/mentioned/HUBERTINE_AUCLERT.md)
 - [#Salon](../art/SALON.md) -- the 1881 Salon
 - [#Emile_Bastien_Lepage](../../people/recurring/EMILE_BASTIEN_LEPAGE.md)
