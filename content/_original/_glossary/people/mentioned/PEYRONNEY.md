@@ -11,7 +11,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 # Mme de Peyronney (Étincelle) and her family
 
@@ -33,7 +33,7 @@ In the diary «Peyronney» (also spelled «Peronney») is the family name of the
 
 *Her husband:* 098.0149 (the vicomte refuses the divorce).
 
-*Her daughter* («la petite Peyronney», «la petite Etincelle, Mlle de Peyronney»): 098.0092 (portrait planned), 098.0349–0351 (she lunches with the family and Marie sketches her: «Elle est gentille au possible»), 098.0405–0406 («Je voudrais avoir le temps de faire la petite Peyronney !!!»). Étincelle's daughter is Camille according to fr.wikipedia; the diary calls her «Mimie» at 097.0339 (nickname; the identification is plausible but not proved).
+*Her daughter* («la petite Peyronney», «la petite Etincelle, Mlle de Peyronney»): 098.0092 (portrait planned), 098.0349–0351 (she lunches with the family and Marie sketches her: «Elle est gentille au possible»), 098.0405–0406 («Je voudrais avoir le temps de faire la petite Peyronney !!!»). Étincelle's daughter is Camille according to fr.wikipedia; the diary calls her «Mimie» at 097.0339 (nickname; the identification is plausible but not proved). She now has her own entry, [Mlle de Peyronny](MLLE_DE_PEYRONNY.md); this file is to be merged into [Étincelle](../writers/ETINCELLE.md) once her paragraphs have moved (decision of 2026-10-22).
 
 ## References in Diary
 

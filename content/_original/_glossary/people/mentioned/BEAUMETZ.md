@@ -6,7 +6,8 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
+identity_uncertain: true
 ---
 # Beaumetz
 
@@ -19,6 +20,10 @@ What the diary says:
 - «Beaumetz un peintre ami de Caillas en est épaté et ne le cache pas, nous causons peinture» (088/1880-05-26, 088.0371).
 - At Tony Robert-Fleury's: «j'ai trouvé Beaumetz, le peintre vous vous rappelez, l'ami de Caillas… ils ont taché de me donner du courage» (092/1881-05-21, 092.0036).
 - «Hier nous avons été au Salon avec Gavini, le frère de Bastien et Beaumetz» (095/1882-05-20, 095.0076).
+
+## Identity uncertain
+
+We are not sure who this is. The diary gives only a painter called Beaumetz, «ami de Caillas» (the painter Horace de Callias, b. 1847, Musée d'Orsay artist index), met at the Mouzays' in March 1880, with a studio of his own, and seen at Tony Robert-Fleury's and at the Salon until May 1882 (087.0653, 087.0667, 088.0371, 092.0036, 095.0076). The Mon Journal indexes add nothing («Beaumetz (M.) peintre», t.13 p.137; t.14 pp.201-202, 260). The candidate is Étienne Dujardin-Beaumetz (1852-1913), painter of military subjects, later deputy and Under-Secretary of State for Fine Arts, who signed some works «Stephen Beaumetz»: the age, the trade and the name fit, but no source we found links him to Callias or to Tony Robert-Fleury's circle. Sources checked: the diary, the t.13-t.14 indexes, web searches (2026-10-22). If you can identify this person, we would be glad to hear from you.
 
 ## References in Diary
 

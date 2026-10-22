@@ -1,6 +1,6 @@
 ---
 id: MARQUIS_D_ABZAC
-name: marquis d Abzac
+name: Marquis d'Abzac
 aliases:
   - marquis d Abzac
   - Marquis d'Abzac
@@ -8,21 +8,16 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
-# marquis d Abzac
+# Marquis d'Abzac
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+## Overview
 
-## Description
-[No description available - stub entry created from diary references]
+A member of the household of Marshal MacMahon, President of the Republic, at the Élysée: Marie calls him «le marquis d'Abzac de l'Elysée» (077/1878-02-02, 077.0550) when she introduces his cousin, the [comte d'Abzac](../aristocracy/COMTE_D_ABZAC.md). In July 1878 a newspaper report pasted into the diary names «le marquis d'Abzac, représentant le Maréchal» at a church service (081/1878-07-05, 081.0320). The Mon Journal indexes list him as «Abzac (marquis d'), cousin du précédent» (t.11, p.128) and «Abzac (marquis d') : 33» (t.12). His forename and exact office are not given in the diary and were not found in the sources checked.
 
 ## References in Diary
-[Multiple references found - needs research]
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+077.0550 (named only); 081.0320 (newspaper cutting).
+
+%% 2026-10-22T14:00:00 RSR: Stub replaced (B-45(3)). A separate man from the comte (077.0550). %%

@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Stub
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 # Victor (French manservant, 1876)
 
@@ -23,6 +23,8 @@ Not the same as [Victor](VICTOR.md), Marie's big black dog of 1874 onward, who i
 ## References in Diary
 - First mentioned: 1876-09-28 (066.0524)
 - 1876-11-07 (067.0844); 1876-11-15 (067.0983)
-- Possibly 1876-10-16 (067.0083, «Victor (guéri depuis longtemps)», read as the manservant by the 067 research; the index puts the dog at p.130, close to this passage at p.128). Not settled.
+- 1876-10-16 (067.0083): «Victor (guéri depuis longtemps) ayant vu ce matin des... un gibier quelconque»: the manservant, whose illness was on 28 September; the dog was in Nice (067.1394). The t.9 index lists this page (Tome9.pdf p.130) under the dog, but the same index also swaps 067.0983 (servant, p.183) and 067.1394 (dog, p.210), so it is not reliable here.
 
 %% 2026-10-21T10:30:27 RSR: Created during RSR research of the restored 066 paragraphs (rsr-066b), because no file existed for the manservant. 066.0524 was retagged from VICTOR.md to this file. 067.0983 (and 067.1475, which may be the dog) still carry VICTOR.md tags: these are outside 066 and are reported to the lead. %%
+
+%% 2026-10-22T16:00:00 RSR: Settled (glossary identity questions): 067.0083, 067.0844, 067.0983 are the manservant; retags from VICTOR queued. %%

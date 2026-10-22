@@ -7,21 +7,10 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Mme Balagny
 
-## Basic Information
-- Type: people - aristocracy
-- Status: Stub entry (automatically generated)
+Duplicate of [Mme Balagny](../mentioned/BALAGNY.md): the Nice acquaintance of 1874 is the Mme Balagny of 1876-80 («une vieille connaissance de Nice», 063.0611). Its one tag (082.0268) moves with the merge into BALAGNY (decision of 2026-10-22).
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-10-22T15:30:00 RSR: Stub replaced. %%

@@ -8,7 +8,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 # Don Carlos
 
@@ -23,7 +23,7 @@ Carlos de Borbón, Duke of Madrid (1848-1909), the Carlist pretender to the Span
 
 ## Identification note: two "Don Carlos"
 
-The t.12 index also carries «Don Carlos ; Karageorvich Alexis» and «Karageorgevitch (Alexis [Don Carlos], fils des précédents : 176, 240)»: the editors' nickname for the young Alexis Karageorgevitch, son of Prince Pierre (who, Marie writes on 27 October 1878, is «le Don Carlos de la Serbie», the pretender). That use does not occur in the paragraphs tagged here. All tagged paragraphs (carnets 063, 068, 078-080, 083, 085, 086) were read and every tag is Carlos de Bourbon; **no wrong tags found**.
+The t.12 index also carries «Don Carlos ; Karageorvich Alexis» and «Karageorgevitch (Alexis [Don Carlos], fils des précédents : 176, 240)», «les précédents» being Prince Georges and Princess Sarka Karageorgevitch. Neither page calls Alexis «Don Carlos» (p.176: «La princesse Karageorgevitch et son fils», 15 December 1878; p.240: dinner at the Karageorgevitch, «Le prince a servi dans la garde après avoir renoncé au trône de Serbie pour lui et les siens»), and the words «Don Carlos» occur in t.12 only on p.145 and p.165. On p.145 (083.0059, 27 October 1878) Marie applies them to Prince **Pierre**, the cousin: «le père du prince a abdiqué pour lui et ses descendants et … c'est le prince Pierre qui est le Don Carlos de la Serbie». The index's bracket on Alexis is very probably the indexer's slip from that sentence (0.85); no diary paragraph uses «Don Carlos» as a nickname for Alexis. All tagged paragraphs (carnets 063, 068, 078-080, 083, 085, 086) were read and every tag is Carlos de Bourbon; **no wrong tags found**.
 
 ## References in Diary
 

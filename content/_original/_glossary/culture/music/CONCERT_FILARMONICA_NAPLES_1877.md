@@ -8,7 +8,7 @@ aliases:
 type: Culture
 category: culture/music
 research_status: Moderate
-last_updated: 2026-10-10
+last_updated: 2026-10-22
 languages:
   - it
 full_text:
@@ -66,7 +66,7 @@ Her account of the evening is in 069.0521-0535. She arrived in fear that everyon
 
 - **Identified**: Haydn (*Seven Last Words*, quartet version), Mozart (Requiem), Pergolesi (*Stabat Mater*), Gounod (*Ave Maria* on Bach's first Prelude from *The Well-Tempered Clavier*), Rossini (*La Charité*, one of the three *Chœurs religieux*, for women's voices). The IMSLP links point to scores of these works, not to the arrangements actually used in Naples.
 - **Not identified**: "Miceli" (a Neapolitan composer; the best candidate is Giorgio Miceli, 1836-1895, born in Reggio Calabria and trained at the Naples Conservatory, per Wikipedia, but no sacred *Stabat* or *Miserere* by him has been found); "Ed. Moreaux, *Rimember!*"; "E. Burelle", transcriber of a "Penitenza di Beethoven" (presumably the Beethoven song known as the "Bußlied"); the Mozart *Agnus Dei* solo.
-- The Società Filarmonica itself could not be traced; no history of the society, or of its "duca Galiani" members, has been found. The tag on 069.0516 points to the Cercle Philharmonique entry; whether that is the same society was not established.
+- The Società Filarmonica itself could not be traced in outside sources; no history of the society, or of its "duca Galiani" members, has been found. It is the same club as Marie's «Cercle Philharmonique»: the invitation of 12 March 1877 «pour un concert du Cercle Philharmonique» is headed «Società Filarmonica» (069.0282-0283), and on 24 April she writes «au Cercle, ou a la société filarmonica» (070.0911); see [Società Filarmonica](../../people/mentioned/SOCIETA_FILARMONICA.md) (2026-10-22).
 - Marie's own wording and most surnames in the concert paragraphs are in the diary; this entry gives the programme the paragraph IDs and the context.
 
 ## Sources

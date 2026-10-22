@@ -7,28 +7,10 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Edmond Adam
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
+Edmond Adam (1816-1877), republican politician, husband of Juliette Lamber (Mme Adam). He never appears in the diary: the only mention is his widow's name, «Juliette Lamber (Mme Edmond Adam)» (085/1879-08-03), who is [Mme Adam](MME_ADAM.md). No paragraph is tagged with this file; it is to be retired (decision of 2026-10-22).
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% 2026-10-22T15:30:00 RSR: Stub replaced. %%

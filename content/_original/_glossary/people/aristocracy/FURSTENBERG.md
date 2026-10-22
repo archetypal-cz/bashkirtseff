@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Furstenberg
 
@@ -15,7 +15,7 @@ last_updated: 2026-03-06
 **Diary Coverage**: Up to 1874-03-17
 
 ## Identity
-Young German man attending theater with his father and aunts.
+The young Prince Charles (Karl) of Fürstenberg, a German, in Nice with his parents in the winters of 1873-74 and 1874-75. The Mon Journal t.3 index separates «Furstenberg (prince), 58-59, 82, 93, 116, 119, 127, 135-136» (the father, «son espèce de tuteur [Entre les lignes: son père que je prenais pour un gouverneur]», 016.0156), «Furstenberg (Mme), 93, 116, 119» and «Furstenberg (prince Charles) fils, 30, 34, 39, 58-60, 82, 93-94, 105, 116, 121, 132, 136». Marie also calls the son «le petit», «le petit Charles», «mon Charles» and «mon filleul» (016.0377, 017.0108, 017.0215, 017.0365, 017.0479). Which branch of the Fürstenberg family he belongs to was not established.
 
 ## Diary References
 

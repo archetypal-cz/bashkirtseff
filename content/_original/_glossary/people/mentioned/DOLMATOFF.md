@@ -6,21 +6,10 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Dolmatoff
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+Mlle Alexandrine Dolmatoff, relative and «demoiselle de compagnie» of Mme Doubelt (075.0362; Mon Journal t.11 index «Dolmatoff (Alexandrine Mlle) : 31»). Full entry: [Mlle Alexandrine](../aristocracy/MLLE_ALEXANDRINE.md). To be merged into it (decision of 2026-10-22).
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-10-22T14:30:00 RSR: Stub replaced. %%

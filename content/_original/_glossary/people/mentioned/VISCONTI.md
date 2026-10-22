@@ -8,7 +8,8 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-10-21
+last_updated: 2026-10-22
+identity_uncertain: true
 ---
 # Baron Visconti
 
@@ -19,6 +20,11 @@ last_updated: 2026-10-21
 The old Roman baron Visconti, «ancien directeur de l'Empirisme» as the printed text has it (051.0104), a «vieux beau» (053.0472), «personnage remarquable, savant et célèbre et tout-puissant au temps du pape» (060.0455), a spirited man of the world who, as Marie puts it, «bien que très vieux est un homme du monde avec un esprit très souple encore» (053.0472) and «tout le monde connaît». Mon Journal indexes: «Visconti (baron)» in t.6 (p. 276), t.8, t.9 and t.10 (p. 310). Marie arrives in Rome with a letter of introduction to him from Mme de Mouzay (051.0104; 053.0461). The diary gives no first name; an identification with a known Roman Visconti has not been made here.
 
 He is the family's guide and go-between in Rome: he advises Marie and her mother which salons to join (the «salons blancs» of the Court rather than the «salons noirs» of the Pope's party, 053.0472), obtains the Pope's signed portrait («Pax vobis») for Marie (055.1203; 062.0749), and, as an old friend of the Antonelli circle, is the man who relays what the Antonelli family and the Pope think of a marriage to Pietro Antonelli.
+
+## Identity uncertain
+We are not sure who this baron Visconti is. The diary calls him «le baron Visconti ancien directeur de l'Empirisme» (051.0104, so printed in Mon Journal t.6 p.277; the scan reads the same, so the odd word is not an OCR error of ours, but it is probably a misreading of Marie's hand), «très vieux» (053.0472), «savant et célèbre et tout-puissant au temps du pape» (060.0455), a friend of the Antonelli family who can obtain a signed portrait of Pius IX (055.1203). Marie also plays on his name: «Visconto Visconti» (055.0999; t.7 index «Visconti (baron) [Visconto]»). No first name is given anywhere, and the indexes say only «Visconti (baron)» (t.6-t.10).
+
+The best candidate is the archaeologist **Pietro Ercole Visconti** (1802-1880) of Rome, Commissario delle Antichità of the Papal State from 1836 until 1870 and president of the Capitoline Museum (ostia-antica.org, «Pietro Ercole Visconti»): he was in his seventies in 1876, learned and famous, and powerful «au temps du pape», which fits Marie's words; «directeur de l'Empirisme» could be a garbled title of a papal antiquities or museums office. Against it: no source seen gives him the title of baron (he is «cavaliere» or «commendatore»). His nephew Carlo Ludovico Visconti (1818-1894) was too young to be «très vieux». Sources checked: the diary paragraphs, the Mon Journal indexes t.6-t.10 and the scan of t.6 p.277, ostia-antica.org, Wikipedia. If you can identify him, we would be glad to hear from you.
 
 ## Diary References
 
@@ -39,3 +45,5 @@ He is the family's guide and go-between in Rome: he advises Marie and her mother
 The earlier text of this entry described a Nice business, "Visconti's establishment" where carnival tickets were bought (002/1873-02-19). That is the Nice bookshop and reading room, now [#Visconti_Librairie](../../places/shops/VISCONTI_LIBRAIRIE.md); twelve tagged paragraphs (002, 009, 010, 014, 016, 024, 048, 062) belong to it and are listed for retagging.
 
 %% 2026-10-21T22:17:01 RSR: Fix (OPEN-ITEMS B-34(1)): body rewritten as the Roman baron, to whom about 70 of the 83 tagged paragraphs (051-073, 1875-77) belong; the shop sense was moved to VISCONTI_LIBRAIRIE (new entry, 12 shop paragraphs, tag rows in tags-p3-a.tsv). Evidence: «Chez Visconti nous prîmes des billets pour le carnaval» (002.0035) vs. «le baron Visconti qui bien que très vieux est un homme du monde» (053.0472); Mon Journal indexes «Visconti, salon de lecture / librairie / libraire» vs «Visconti (baron)». Unverified: the printed words «ancien directeur de l'Empirisme» (051.0104) look like a misreading (an "Empirisme" directorship is not attested); quoted as printed. %%
+
+%% 2026-10-22T12:20:00 RSR: «Identity uncertain» section added (glossary-owner-questions B-34(1)). The shop/baron split is done (VISCONTI_LIBRAIRIE holds the 12 shop paragraphs; keep it). Candidate Pietro Ercole Visconti 0.5: age, office and fame fit, the baronial title is not attested. %%

@@ -7,39 +7,17 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Duchess of Hamilton
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-06
-**Diary Coverage**: Up to 1874-04-27
+## Overview
 
-## Identity
-Wife of the Duke of Hamilton, traveling with him to Constantinople in 1874. Marie feels intense jealousy toward her.
+In the diary «la duchesse de Hamilton» is two women, and this file has been used for both:
 
-## Diary References
+- **The 12th Duke's wife, Lady Mary Montagu** (1854-1934), daughter of the Duke of Manchester, married on 10 December 1873: the «Anglaise» whom Marie imagines, envies and asks about in 1874-75 («il s'est marié avec une Anglaise», 016.0193; «Sa mère est … la duchesse de Manchester», 020.0046; «Le duc et la duchesse de Hamilton sont arrivés en Angleterre», 020.0414). Full entry: [Lady Mary Montagu](../aristocracy/LADY_MARY_MONTAGU.md).
+- **The Duke's mother, the dowager duchess**, Princess Marie Amelie of Baden (1817-1888): «la vieille duchesse qui veut avoir des héritiers au nom et qui marie son gros fils» (011.0134), «c'est la vieille duchesse !» (011.0135), «si la vieille duchesse de Hamilton meurt» (011.0225), all October 1873. Full entry: [Princess Marie of Baden](../royalty/PRINCESS_MARIE_OF_BADEN.md).
 
-### 1874
-- **April 27**: "Le duc et la duchesse de Hamilton sont arrivés le 18 de ce mois à Constantinople" - arrived Constantinople April 18 with Duke and Princess of Monaco. Marie's reaction: "ils m'ont volé mes rêves" (they've stolen my dreams).
+This file is to be merged into LADY_MARY_MONTAGU after the three October 1873 paragraphs are moved to PRINCESS_MARIE_OF_BADEN (decision of 2026-10-22).
 
-## Context
-- Married to Duke circa 1873
-- International traveler
-- Object of Marie's envy
-- Part of elite travel circuit
-- Constantinople voyage 1874
-
-## Historical Note
-- Likely Lady Mary Montagu
-- Married Duke 1873
-- Scottish aristocracy
-
-## Related Entries
-- [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) - Husband
-- [#Princess_of_Monaco](../aristocracy/PRINCESS_OF_MONACO.md) - Travel companion
-
-## Research Notes
-- Hamilton marriage records
-- British aristocracy 1870s
-- Elite women travelers
+%% 2026-10-22T14:00:00 RSR: Body replaced (B-50(2)); all 25 tagged paragraphs (011-030) read. The old body cited an «April 27» Constantinople passage with the Prince and Princess of Monaco that belongs to LADY_MARY_MONTAGU. %%

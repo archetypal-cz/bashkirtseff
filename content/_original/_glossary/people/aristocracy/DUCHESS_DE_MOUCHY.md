@@ -7,31 +7,10 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Duchess de Mouchy
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-06
-**Diary Coverage**: Up to 1874-03-14
+Duplicate of [Duchesse de Mouchy](../aristocracy/DUCHESSE_DE_MOUCHY.md) (Anna Murat, 1841-1924): every «duchesse de Mouchy» / «Mme de Mouchy» of the diary is she (Mon Journal t.13 index «Mouchy (duchesse de. née princesse Anna Murat)», t.14 «Mouchy (Mme Anna, duchesse de)»). To be merged into DUCHESSE_DE_MOUCHY; the paragraphs about the duke (016.0276, 017.0176) go to [Duc de Mouchy](../aristocracy/DUC_DE_MOUCHY.md) first (decision of 2026-10-22).
 
-## Identity
-French duchess attending the Grand Hotel concert with "l'Obélisque," a remarkably tall and beautiful woman.
-
-## Diary References
-
-### 1874
-- **March 5**: Duke de Mouchy appears with Lambertye at the Promenade
-- **March 14**: "La duchesse de Mouchy y était avec l'Obélisque qui est de toute beauté" - at concert with the Obelisk who is of complete beauty
-
-## Context
-- High French aristocracy
-- Attends elite cultural events
-- Associated with striking tall beauty nicknamed "l'Obélisque"
-- The Mouchy duchy was created in 1817
-- Part of exclusive Nice winter society
-
-## Research Notes
-- House of Noailles held Mouchy title
-- Need to identify specific duchess (likely Anna de Noailles)
-- The "Obélisque" companion needs identification
+%% 2026-10-22T14:30:00 RSR: Body replaced (A-40). %%

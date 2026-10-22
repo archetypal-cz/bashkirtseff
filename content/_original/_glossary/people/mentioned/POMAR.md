@@ -7,12 +7,10 @@ aliases:
   - Duc de Pomar
   - Duc de Medina Pomar
   - Les Pomar
-  - Les petits Pomar
-  - Pomar cadet
 type: Person
 category: people/mentioned
 research_status: Comprehensive
-last_updated: 2026-10-11
+last_updated: 2026-10-22
 ---
 
 # Duc de Pomar
@@ -42,7 +40,7 @@ On 24 March "La scie de Pomar est finie": it is said he will marry the little Tr
 The name comes back in October 1882 in Ukraine, where it no longer means the Duke. Marie has gone to Gavrontsi to be introduced to the neighbours from Dikanka, the two young Princes Kotchoubey, "jeunes, orphelins, chevaliers-gardes et immensément riches" (096.0014), and uses "les Pomar" for them, as Nice's archetype of the eligible fortune: "les petits Pomar sont venus" (096.0389), "les Pomar ... ont promis leur visite" (096.0400), "ces deux Pomar de malheur" (096.0470), "les deux Pomar criant avec leurs malles et un essieu cassé" (097.0044), "Pomar cadet est assez amusant" (097.0045), and, in her despair on 8 November, "on ne trouve jamais en cherchant des Pomar, ça se fait tout seul" (097.0053). The princes are named in the same entries: Victor, the elder, and Basile (Vassily), the younger (096.0407, 096.0470). They are very probably Prince Viktor Sergeyevich Kochubey (1860–1923) and Prince Vasily Sergeyevich Kochubey (1862–1911), both Chevalier-Guards officers, of the Dikanka family (per the Poltava historical essays at histpol.pl.ua and the genealogical base baza.vgd.ru; the ages, the regiment and the Dikanka estate match what Marie says, and Marie's "Victor" and "Basile" match the first names).
 
 %% GLO_POMAR.0009 %%
-The glossary tags on the paragraphs of carnets 096–097 that read "Pomar" therefore refer to the Kotchoubey princes, not to the Duke of Nice.
+The paragraphs of carnets 096–097 (and 103.0100–0101) therefore refer to the Kotchoubey princes, not to the Duke of Nice; they have their own entry, [Princes Kotchoubey](PRINCES_KOTCHOUBEY.md), and their tags are to move there.
 
 %% GLO_POMAR.0010 %%
 ## Related entries
@@ -50,7 +48,7 @@ The glossary tags on the paragraphs of carnets 096–097 that read "Pomar" there
 %% GLO_POMAR.0011 %%
 - [Lady Caithness](LADY_CAITHNESS.md): his mother.
 - [Troubetzkoy](TROUBETZKOY.md): the family of the girl said to be marrying him.
-- [#Kotchoubey](KOTCHOUBEY.md): the princes of Dikanka (the existing stub there is about a different Kotchoubey, of Nice, 1876).
+- [Princes Kotchoubey](PRINCES_KOTCHOUBEY.md): Victor and Basile, the princes of Dikanka nicknamed «les Pomar» in 1882 (not [Princesse Kotchoubey](KOTCHOUBEY.md) of Nice, 1876).
 
 %% GLO_POMAR.0012 %%
 ## Sources

@@ -1,33 +1,17 @@
 ---
 id: SONITCHKA
-name: Sonitchka (Sophie Grigorievna)
+name: Sonitchka (Sophie Grigorievna Kolokolzoff)
 aliases:
   - Sonitchka (Sophie Grigorievna)
-  - Sophie Grigorievna
-  - Sonitchka
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
-# Sonitchka (Sophie Grigorievna)
+# Sonitchka (Sophie Grigorievna Kolokolzoff)
 
-**Research Status**: Basic
-**Last Updated**: 2025-12-07
-**Diary Coverage**: Up to 1873-02-25
+«Sonitchka», «Sonka», «Sophie Grigorievna» is Mlle Sophie Kolokolzoff of the Russian colony in Nice: see [Mlle Kolokolzoff](KOLOKOLZOFF.md). Marie's carnival bouquets of 23 February 1873, meant for «Sonitchka … *Sophie Grigorievna*» but landing at Boreel's feet (002.0071, 002.0073), are remembered on 11 September 1873 as «le Mardi Gras, lorsque je jetais des bouquets à Mlle Kolokolzoff et qu'au moment même Boreel se trouve devant la voiture» (009.0146). Mon Journal t.2 index: «Kolokolzoff (Mlle Sophie) [Sonka], [Sonitchka]»; «Sonitchka: Kolokolzoff (Sophie)».
 
-A friend of Marie's, involved in the famous "flower incident" during the Nice Carnival of February 23, 1873.
+She is not Marie's aunt Sophie Tutcheff ([Sophie](SOPHIE.md)), who was in Marie's own party that day («maman, ma tante, Sophie, Emile, Dina, moi», 002.0078). To be merged into KOLOKOLZOFF (decision of 2026-10-22).
 
-## Mentions in the Diary
-
-- **February 23, 1873**: During the carnival parade, Marie stopped her carriage to speak with Sonitchka. While throwing flowers to her friend and calling out "Sophie Grigorievna," Marie accidentally threw the bouquets too close to Boreel, who was nearby. This incident mortified Marie, as she worried Boreel would think the flowers were meant for him rather than for Sonitchka.
-
-## Name Analysis
-
-"Sonitchka" is a Russian diminutive/affectionate form of Sofia/Sophie. The patronymic "Grigorievna" (daughter of Grigory/Gregory) confirms her Russian identity. Marie's use of the full formal name during the carnival suggests she was calling out to get her friend's attention in a crowded, noisy environment.
-
-## Significance
-
-This person was clearly a close enough friend that Marie felt comfortable stopping her carriage during the carnival procession to speak with her. The flower-throwing incident became one of those moments that Marie recalled with embarrassment for years afterward, as evidenced by her later marginal notes.
-
-%% 2025-12-07T12:10:00 RSR: Need to search for Sophie/Sonitchka in later entries to trace this friendship %%
+%% 2026-10-22T15:00:00 RSR: Body replaced (phase 4, SONITCHKA vs KOLOKOLZOFF vs SOPHIE). %%

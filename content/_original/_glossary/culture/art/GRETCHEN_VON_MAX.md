@@ -9,14 +9,14 @@ aliases:
 type: Culture
 category: culture/art
 research_status: Stub
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 
 %% GLO_GRETCHEN_VON_MAX.0001 %%
 ## Overview
 
 %% GLO_GRETCHEN_VON_MAX.0002 %%
-A painting of Gretchen (Margarete), the heroine of Goethe's *Faust*, which Marie saw in September 1877 and which haunted her for days. She names the painter «Marx» in 074.0370 and «Max» in 075.0305. The identification with **Gabriel von Max** (1840-1915), the Prague-born Munich painter of dreamy, melancholy and often mystical female figures who also illustrated Goethe's *Faust* (a set of *Faust I* illustrations including «Gretchen im Kerker» is in the Frankfurt Goethe-Museum, per a web search summary), is a probable inference from the spelling «Max» and the subject, not stated by Marie. Which Gretchen picture she saw, and where, is not established (the paragraph follows her stop at Cologne on 17 September 1877).
+A painting of Gretchen (Margarete), the heroine of Goethe's *Faust*, which Marie saw in September 1877 and which haunted her for days. She names the painter «Marx» in 074.0370 and «Max» in 075.0305. The identification with **Gabriel von Max** (1840-1915), the Prague-born Munich painter of dreamy, melancholy and often mystical female figures who also illustrated Goethe's *Faust* (a set of *Faust I* illustrations including «Gretchen im Kerker» is in the Frankfurt Goethe-Museum, per a web search summary), is supported by the Mon Journal t.11 index, which files 075.0305 as «Max (Michael), peintre allemand : 27» (Tome11.pdf p.28 = printed p.27): the editor too read «a German painter Max»; the forename Michael is not that of any known painter of the subject and looks like an index slip (the t.10 index files «Marx» of 074.0370 under an American «Marx (M.)», another slip). Settled for the painter (about 0.8). Which Gretchen picture she saw, and where, is not established (the paragraph follows her stop at Cologne on 17 September 1877).
 
 %% GLO_GRETCHEN_VON_MAX.0003 %%
 ## Relevance to Marie
@@ -34,3 +34,5 @@ It is her touchstone for a work that tells the whole story through expression: �
 
 %% GLO_GRETCHEN_VON_MAX.0007 %%
 %% 2026-10-21T23:15:00 RSR: Created (OPEN-ITEMS D-41): three paragraphs read; they were tagged with the empty stubs M_MARX, GRETCHEN and MAX. Marx/Max identification and the Faust-illustration fact come from a web search summary of Wikipedia «Gabriel von Max» and museum listings, not verified against a catalogue; the specific painting is open (a catalogue of Max's Gretchen subjects, and the Cologne museum's holdings in 1877, should be checked). %%
+
+%% 2026-10-22T16:00:00 RSR: Hedge reviewed (glossary identity questions): painter = Gabriel von Max (t.11 index «Max (Michael), peintre allemand»); which picture, and where Marie saw it, remain open. %%

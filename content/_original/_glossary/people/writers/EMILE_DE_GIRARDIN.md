@@ -10,7 +10,7 @@ aliases:
 type: Person
 category: people/writers
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 # Émile de Girardin
 
@@ -31,7 +31,7 @@ last_updated: 2026-10-21
 - 1881-01-01: the scandal in which Mme Gros, widow Duvergier de Hauranne, accuses Mme de Brimont of Prussian espionage; «Girardin a obtenu pleine satisfaction à la Chambre» (090.0510-0511).
 - 1881-02-05: the dinner at the Juvisys', 17 guests; «voici Emile de Girardin, âgé de Dieu sait combien d'années, il marche, cause et flirte encore» (091.0080-0084). 1881-04-06: his remark that the Cassagnac-Mitchell quarrel is «la déconsidération de l'injure» (091.0430).
 - 1881-04-29: Mme de Brimont, affected, tells her «tous les détails» of his death (091.0535). 1881-05-15: «le testament de Girardin» is one of the stories the two women swap that evening, with magnetising and costume fittings (092.0010, 092/1881-05-15). Marie gives no details of the will.
-- 1883-08-20: in the marriage scene with Saint-Amand, Marie lists the advantages of a husband who leaves her free: «M. Récamier, M. de Girardin etc.» (101.0195) and «Saint-Amand-Récamier-Girardin» (101.0212). Probably Girardin as the husband of the salon hostess Delphine Gay, with Récamier as the husband of Juliette Récamier (inference; confidence about 0.6).
+- 1883-08-20: in the marriage scene with Saint-Amand, Marie lists the advantages of a husband who leaves her free: «M. Récamier, M. de Girardin etc.» (101.0195) and «Saint-Amand-Récamier-Girardin» (101.0212). Paired with M. Récamier, the husband of the salon queen Juliette Récamier, «M. de Girardin» is the husband of Delphine Gay, that is Émile himself (the other Girardin of the diary, the comte, is «rien d'Emile», 087.0832); t.16 index «Girardin (M. de) : 20-21». Settled, about 0.8.
 
 ## Not to be confused with
 

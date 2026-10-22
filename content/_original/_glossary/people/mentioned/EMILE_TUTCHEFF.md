@@ -9,14 +9,14 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 
 %% GLO_EMILE_TUTCHEFF.0001 %%
 ## Overview
 
 %% GLO_EMILE_TUTCHEFF.0002 %%
-Emile Tutcheff is the man who appears with Marie's paternal aunt [#Sophie Tutcheff](SOPHIE.md) on her visit to Nice in March 1873, and whom Marie calls «mon oncle» Tutcheff when the couple returns in December 1873. The Mon Journal index lists him separately as «Tutscheff (Emile)» (t.1, pp. 12, 40, 44, 48, 51, 60, 61, 67, 68, 73, 74, 77) and «Tutcheff (Emile)» (t.2, pp. 255, 260), with the same pages as Sophie. The index gives no relationship; the reading as Sophie's **husband** (the family Tutcheff of the Nice enemies, [#Tutcheff](TUTCHEFF.md)) rests on the evidence below and is probable, not certain. The existing SOPHIE entry calls Emile her son; that reading is not supported by these passages.
+Emile Tutcheff is the man who appears with Marie's paternal aunt [#Sophie Tutcheff](SOPHIE.md) on her visit to Nice in March 1873, and whom Marie calls «mon oncle» Tutcheff when the couple returns in December 1873. The Mon Journal index lists him separately as «Tutscheff (Emile)» (t.1, pp. 12, 40, 44, 48, 51, 60, 61, 67, 68, 73, 74, 77) and «Tutcheff (Emile)» (t.2, pp. 255, 260), with the same pages as Sophie. The index gives no relationship. Marie calls him her uncle, and so he is not Sophie's son: «C'est qu'Emile, mon pauvre oncle, est mort il y a quatre mois» (023.0628, 10 September 1874; «Maman a laissé une lettre dans laquelle elle sait qu'Emile est mort … Maman est en deuil, ma tante aussi», 023.0678; t.4 index «Tutcheff (Emile), 183-184, 220» = these pages). He died about May 1874. That he was Sophie's **husband** is probable but not settled (see the open point below).
 
 %% GLO_EMILE_TUTCHEFF.0003 %%
 ## Evidence
@@ -38,7 +38,13 @@ Emile Tutcheff is the man who appears with Marie's paternal aunt [#Sophie Tutche
 - 1873-03-11, 03-12 (002.0286, 002.0301): «Emile devait partir à deux heures mais il est resté jusqu'à demain»; walks home with Dina and Emile.
 - 1873-03-14, 03-17, 03-19 (003.0020, 003.0034, 003.0054): the departure with Sophie.
 - 1873-12-28 (014.0264): «Mon oncle et ma tante Tutcheff sont arrivés».
-- Tome 4 index also lists «Tutcheff (Emile)» (pp. 183-184, 220); these pages were not matched to a paragraph here.
+- 1874-09-10 (023.0628): «Emile, mon pauvre oncle, est mort il y a quatre mois»; 1874-09-16 (023.0678): the family goes into mourning (t.4 index pp. 183-184, 220).
+
+## Open point
+
+A «M. Tutcheff», maréchal de noblesse and «un excellent bonhomme gros comme un tonneau», is alive in 1876 and 1882 (062/1876-06-16, 067/1876-10-19, 067/1876-10-22, 094/1882-04-09; t.8-t.14 indexes «Tutcheff (M.)»), and Marie's father has «sœurs, Mmes Tutcheff» in 1873 (011/1873-10-25). Either Sophie remarried after Emile's death, or Emile was the husband of the other Tutcheff aunt and the 1876 M. Tutcheff is Sophie's husband. The diary read so far does not decide it.
 
 %% GLO_EMILE_TUTCHEFF.0007 %%
 %% 2026-10-21T22:35:00 RSR: Created (OPEN-ITEMS B-64(3), the 1873 «Emile» with aunt Sophie, 003.0020/003.0034): nine paragraphs read; all of the 1873 paragraphs were tagged EMILE (the stub for «le vieux Emile» = Audiffret père), which is wrong for them. Identification as Sophie's husband from the Mon Journal t.2 index page match (255, 260 = 28 Dec 1873, «mon oncle et ma tante Tutcheff») and 003.0054; hedged. The SOPHIE entry's «Son: Emile Tutcheff» section should be corrected by whoever owns that file. %%
+
+%% 2026-10-22T15:00:00 RSR: Son vs husband (glossary identity questions): not a son, an uncle who died c. May 1874 (023.0628, 023.0678; t.4 index). Tags for 023.0628/0678 queued. %%

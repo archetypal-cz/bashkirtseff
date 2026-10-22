@@ -6,28 +6,12 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-22
 ---
 # Diadia
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-02-06
+«Diadia» (Russian дядя, uncle) is a form of address, not a name. Every paragraph tagged with this file (24, carnets 009-017 and 040) means the comte de Toulouse-Lautrec, the family friend Marie calls «oncle Lautrec»: see [Oncle Lautrec](ONCLE_LAUTREC.md). Evidence: «diadia comme nous appelons le comte de Toulouse-Lautrec» (013.0004, 21 November 1873); Mon Journal t.2 index «Diadia (oncle en russe): Toulouse-Lautrec» and «Toulouse-Lautrec (comte de) [Diadia], 57, 186 … 262»; t.3 «Toulouse-Lautrec (Sacha de) [Diadia]»; t.5 «Toulouse-Lautrec (comte de), [Diadia], 248, 257, 264», p.264 being Marie's letter of 28 August 1875 «Je vous embrasse tous, Diadia aussi si vous le voyez» (040.0022; Tome5.pdf p.265).
 
-## Identity
-Family member or close family friend.
+Elsewhere the word means other uncles: in 1874-75 (t.4) «diadia» is Alexandre Babanine («Babanine (Alexandre), [Sacha], [diadia] oncle»; e.g. 030/1875-02-23 «Ne me dites pas cela, diadia»), and the t.5 index also lists «Diadia : Babanine Etienne». So «Diadia» must not be used as an automatic alias. This file is to be merged into ONCLE_LAUTREC (decision of 2026-10-22).
 
-## Diary References
-
-### 1874
-- **February 6**: Arrives while everyone assembles at aunt's house before the Emnaus ball.
-
-## Context
-- Russian diminutive term, often meaning "uncle"
-- Part of intimate family circle
-- Present at family gatherings
-
-## Several referents (RSR, 2026-10-21)
-"Diadia" is a form of address, not one person. The Mon Journal t.5 index (April–September 1875) lists two: "Diadia : Babanine Etienne" and "Diadia : Toulouse-Lautrec, (comte de)". In August 1875 at Wiesbaden and Schlangenbad it is the comte de Toulouse-Lautrec ("Qui vois-je ! Diadia ! M. de Toulouse !", 039.0068; t.5 index "Toulouse-Lautrec (comte de), [Diadia], 248, 257, 264"); 039.0188 is tagged [ONCLE_LAUTREC](ONCLE_LAUTREC.md) instead of this file. Other uses should be checked one by one and tagged with the person meant.
-
-%% 2026-10-21T13:01:43 RSR: Section added during RSR research of the restored 039 paragraphs (rsr-1875c). %%
+%% 2026-10-22T15:30:00 RSR: Body replaced; all 24 DIADIA paragraphs read against the t.2, t.3 and t.5 indexes (B-55, phase 4). %%

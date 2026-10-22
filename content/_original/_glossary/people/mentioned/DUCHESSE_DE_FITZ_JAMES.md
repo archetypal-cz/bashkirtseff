@@ -12,7 +12,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-10-11
+last_updated: 2026-10-22
 ---
 
 %% GLO_DUCHESSE_DE_FITZ_JAMES.0001 %%
@@ -50,7 +50,7 @@ In the diary the old duchess is a pious and charitable lady of the faubourg Sain
 %% GLO_DUCHESSE_DE_FITZ_JAMES.0011 %%
 - [Soutzo](SOUTZO.md), who bought Marie's painting at the 1880 sale
 - Tony Robert-Fleury and Rodolphe Julian, to whom she introduced her granddaughter
-- [Fitz-James](FITZ_JAMES.md), a stub entry that probably denotes the same family
+- [Fitz-James](FITZ_JAMES.md), the family (the ball of «les Fitz-James», a born Fitz-James in 1877)
 
 %% GLO_DUCHESSE_DE_FITZ_JAMES.0012 %%
 ## Sources
