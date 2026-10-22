@@ -812,10 +812,11 @@ workspace-ssh:
 # OBSOLETE — candidates for removal (2026-07-06 backend-tooling review):
 # This headless `claude -p` pipeline predates the current skills/agent-team
 # workflow (/executive-director, background Agents, verify-carnet gate).
-# content/_original/_workflow/ has been dormant since Feb 2026 (carnet-015-era
-# JSONs only), and `claude --resume latest` is not valid on the current CLI.
-# Kept for reference until KRR confirms removal. `workflow-status` still works
-# (it just wraps project-status.ts) and is NOT obsolete.
+# The per-entry headless recipes (research, annotate, translate, review,
+# conduct, pipeline, prepare-batch, workflow-report, workflow-clean) and their
+# content/_original/_workflow/ dir were removed (KRR 2026-10-22).
+# `claude --resume latest` is not valid on the current CLI. `workflow-status`
+# still works (it just wraps project-status.ts) and is NOT obsolete.
 
 # OBSOLETE: superseded by the /architect skill used interactively
 # Start Workflow Architect session (for developing/debugging the system)
@@ -830,101 +831,9 @@ ed carnet="015":
     @echo "Starting Executive Director for Carnet {{carnet}}..."
     claude --resume latest "You are the Executive Director. Load .claude/project_config.md and .claude/skills/executive-director/SKILL.md. Begin processing Carnet {{carnet}}. Report current status and await instructions."
 
-# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
-# Run researcher on a specific entry (headless)
-research entry carnet="015":
-    @echo "Running researcher on {{entry}}..."
-    set -o pipefail; claude -p "First, read your full instructions from .claude/skills/researcher/SKILL.md. Then process entry content/_original/{{carnet}}/{{entry}}.md following those instructions. Return structured JSON output as specified." \
-        --output-format json \
-        --allowedTools "Read,Write,Edit,Grep,Glob,WebSearch" \
-        | tee content/_original/_workflow/research_{{entry}}.json
-
-# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
-# Run linguistic annotator on a specific entry (headless)
-annotate entry carnet="015":
-    @echo "Running linguistic annotator on {{entry}}..."
-    set -o pipefail; claude -p "First, read your full instructions from .claude/skills/linguistic-annotator/SKILL.md. Then process entry content/_original/{{carnet}}/{{entry}}.md following those instructions. Return structured JSON output as specified." \
-        --output-format json \
-        --allowedTools "Read,Edit,Write,Grep,Glob" \
-        | tee content/_original/_workflow/annotate_{{entry}}.json
-
-# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
-# Run translator on a specific entry (headless)
-translate entry carnet="015" lang="cz":
-    @echo "Running translator on {{entry}} to {{lang}}..."
-    @mkdir -p content/{{lang}}/{{carnet}}
-    set -o pipefail; claude -p "First, read your full instructions from .claude/skills/translator/SKILL.md. Then translate content/_original/{{carnet}}/{{entry}}.md to the target language ({{lang}}). Output to content/{{lang}}/{{carnet}}/{{entry}}.md. Return structured JSON output as specified." \
-        --output-format json \
-        --allowedTools "Read,Edit,Write,Grep,Glob" \
-        | tee content/_original/_workflow/translate_{{entry}}.json
-
-# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
-# Run editor review on a translation (headless)
-review entry carnet="015" lang="cz":
-    @echo "Running editor review on {{entry}}..."
-    set -o pipefail; claude -p "First, read your full instructions from .claude/skills/editor/SKILL.md. Then review translation content/{{lang}}/{{carnet}}/{{entry}}.md against original content/_original/{{carnet}}/{{entry}}.md. Return structured JSON output as specified." \
-        --output-format json \
-        --allowedTools "Read,Grep,Glob" \
-        | tee content/_original/_workflow/review_{{entry}}.json
-
-# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
-# Run conductor final review (headless)
-conduct entry carnet="015" lang="cz":
-    @echo "Running conductor final review on {{entry}}..."
-    set -o pipefail; claude -p "First, read your full instructions from .claude/skills/conductor/SKILL.md. Then do final review of content/{{lang}}/{{carnet}}/{{entry}}.md against content/_original/{{carnet}}/{{entry}}.md. Return structured JSON output as specified." \
-        --output-format json \
-        --allowedTools "Read,Grep,Glob" \
-        | tee content/_original/_workflow/conduct_{{entry}}.json
-
-# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
-# Run full pipeline on a single entry
-pipeline entry carnet="015" lang="cz":
-    @echo "=== Full pipeline for {{entry}} ==="
-    just research {{entry}} {{carnet}}
-    @echo ""
-    just annotate {{entry}} {{carnet}}
-    @echo ""
-    just translate {{entry}} {{carnet}} {{lang}}
-    @echo ""
-    just review {{entry}} {{carnet}} {{lang}}
-    @echo ""
-    just conduct {{entry}} {{carnet}} {{lang}}
-    @echo "=== Pipeline complete for {{entry}} ==="
-
-# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
-# Batch process multiple entries (research + annotate only)
-prepare-batch start end carnet="015":
-    #!/usr/bin/env bash
-    set -euo pipefail
-    echo "Preparing entries {{start}} to {{end}} in Carnet {{carnet}}..."
-    for entry in $(ls content/_original/{{carnet}}/ | grep -E '\.md$' | sort | sed -n '/^{{start}}/,/^{{end}}/p'); do
-        just research "${entry%.md}" {{carnet}}
-        just annotate "${entry%.md}" {{carnet}}
-    done
-
 # Show workflow status for a carnet
 workflow-status carnet="015":
     npx tsx src/scripts/project-status.ts original {{carnet}}
-
-# OBSOLETE: targets the dormant content/_original/_workflow/ dir
-# Generate workflow metrics report
-workflow-report carnet="015":
-    @echo "Generating workflow report for Carnet {{carnet}}..."
-    claude -p "Analyze all JSON files in content/_original/_workflow/. Generate a metrics report with agent performance, quality trends, and improvement suggestions. Save to content/_original/_workflow/metrics/carnet_{{carnet}}_metrics.md" \
-        --allowedTools "Read,Write,Grep,Glob"
-
-# OBSOLETE: targets the dormant _workflow/ dir
-# Clean workflow state (careful!)
-workflow-clean:
-    #!/usr/bin/env bash
-    echo "This will delete all workflow state files. Continue? [y/N]"
-    read -r confirm
-    if [ "$confirm" = "y" ]; then
-        rm -rf content/_original/_workflow/*.json
-        echo "Deleted."
-    else
-        echo "Cancelled"
-    fi
 
 # === HELP ===
 
@@ -1009,17 +918,11 @@ help:
     @echo "AI TRANSLATION WORKFLOW:"
     @echo "  just architect                  # Start Workflow Architect (system dev)"
     @echo "  just ed 015                     # Start Executive Director for Carnet 015"
-    @echo "  just research 1881-05-15 015    # Run researcher on entry"
-    @echo "  just annotate 1881-05-15 015    # Run linguistic annotator on entry"
-    @echo "  just translate 1881-05-15 015 cz # Translate entry to Czech"
-    @echo "  just review 1881-05-15 015      # Run editor review"
-    @echo "  just conduct 1881-05-15 015     # Run conductor final review"
-    @echo "  just pipeline 1881-05-15 015    # Run full pipeline on entry"
+    @echo "  (use the skills: /executive-director, /translator, /editor, …)"
     @echo "  just workflow-status 015        # Show workflow progress"
-    @echo "  just workflow-report 015        # Generate metrics report"
     @echo ""
     @echo "Available carnets: 000-106 (3-digit IDs)"
-    @echo "Available languages: _original, cz"
+    @echo "Available languages: _original, cz, uk, en, fr, es"
     @echo ""
     @echo "CULTURAL STEWARDSHIP:"
     @echo "  just stewardship-init        # Initialize stewardship directories"
