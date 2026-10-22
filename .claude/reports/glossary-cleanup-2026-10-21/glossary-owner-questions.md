@@ -41,3 +41,14 @@ One line each: question — evidence — suggestion.
 - **Diary-side notes found wrong:** 050.0920 footnote «Nikolai Sapogenikoff» → the 1875 «Coco» is Nicolas Yourkoff (046.0336, t.4 index); SAETONE «ironic oncle» LAN notes 034/1875-06-10, 046/1875-10-03; 085/083 RSR notes on the «Don Carlos» = Alexis nickname contradict the t.12 index; 067.0926 footnote/RSR on which grand duke Nicolas.
 - **Glossary files outside phase-3 lists still wrong:** ROSALIE_PITAUCHARD (redirect stub repeats «maiden name Pitauchard»); SKOBELEFF (states the marriage to the grand duke as fact); SOPHIE.md calls Emile her son, but EMILE_TUTCHEFF (new) reads him as probably her husband — reconcile; WALITSKY.md has inline paragraph-ID comment splices like the ones fixed in COLLIGNON.
 - **Hedged identifications to confirm:** WITTGENSTEIN = Pyotr Lvovich (0.5); BEAUMETZ = Dujardin-Beaumetz (~0.7); GRETCHEN_VON_MAX (Marie's «Marx/Max»); EMILE_DE_GIRARDIN in 101.0195/0212 (~0.6); CHOCOLAT 1874–75 Fortuné = the Roman boy.
+
+## Phase 4 (2026-10-22): pairs NOT merged (not verifiably one entity)
+- **PEYRONNEY vs ETINCELLE**: same woman, but PEYRONNEY also tags her husband (098.0149) and daughter — split the family paragraphs first, then merge PEYRONNEY → ETINCELLE.
+- **DOLMATOFF → MLLE_ALEXANDRINE**: probable only (075.0362 «Melle Dolmatoff (parente et demoiselle de compagnie)» vs 075.0470 «la demoiselle de la Générale, Mlle Alexandrine»).
+- **WYKERSLOOTH**: kept — 094.0262 is the husband («son mari, le baron de Wykerslooth»); BARONNE_DE_WYKERSLOOTH was merged into JEANNE_DE_BALLORE.
+- **MISS_SMITH vs SMITH**: SMITH is the 1874 Paris furniture shop (019.0222, 019.0294); MISS_SMITH (0 tags) is someone else.
+- **BOTKIN / BOTKINE**: the ledger lists them as one, the plan (B-50) as two men (doctor Sergei / painter Mikhail) — decide.
+- **SONITCHKA vs KOLOKOLZOFF**: «Sophie Grigorievna» is also SOPHIE Tutcheff's 1873 alias — check 009.0146, 012.0229.
+- **ROI_D_ITALIE** (0 tags): Victor Emmanuel II or Umberto? Retire once the referent is known.
+- **DIADIA = ONCLE_LAUTREC**: per-paragraph audit of DIADIA (Étienne Babanine vs Toulouse-Lautrec) first.
+- **MME_TUTCHEFF / SOPHIE**, **MME_BALAGNY / BALAGNY**, **SARAH / SARAH_PURSER**, **EDMOND_ADAM** (the husband), **MADAME_DE_MIRAFIORE → BLANCHE**, **VICTOR / VICTOR_DOMESTIQUE**: not merged.

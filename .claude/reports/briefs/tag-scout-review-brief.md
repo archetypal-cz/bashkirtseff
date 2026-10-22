@@ -18,7 +18,7 @@ Your prompt says which rows are yours (a carnet range, or a list of IDs).
 - Tag only where the alias really refers to that entity in that paragraph. Read the paragraph, and the entry
   around it when the referent depends on context (who is «la princesse», «Marie», «Alexandre», «papa» in this
   year; which Opéra, Salon, Exposition). Check `alt_ids`: the right file may be one of them.
-- Never tag Marie's code names, «tout Paris»/society uses, office titles («député de…»), nationality words.
+- Marie's code names: tag the mask-name file (e.g. SUZANNE; owner ruling 2026-10-22). Never tag «tout Paris»/society uses, office titles («député de…»), nationality words.
 - Auto-generated stubs: if a canonical file exists for the same entity, tag that instead; if the stub is the
   only file, tag it.
 - A row you can't settle from the text: leave it and list it (unsure).
