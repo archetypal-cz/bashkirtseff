@@ -83,6 +83,6 @@ By 1880, four years after Sand's death, she was already becoming a canonical fig
 
 - [#Theophile_Gautier](../../people/writers/THEOPHILE_GAUTIER.md) - Compared to Sand
 - [#Alphonse_Daudet](../../culture/literature/ALPHONSE_DAUDET.md) - Preferred over Sand
-- [#Valentine](../../people/mentioned/VALENTINE.md) - Novel Marie is reading
+- [#Pernetti](../../people/mentioned/PERNETTI.md) - Novel Marie is reading
 - Women writers (no glossary entry)
 - Class consciousness (no glossary entry)

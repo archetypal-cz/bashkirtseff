@@ -43,4 +43,8 @@ Marie's names for her in carnet 083 (Oct 1878 – Jan 1879): «Mlle Acard» (083
 
 The gossip Marie records makes Julia's mother a former mistress of Cardinal Antonelli (081.0172, 081.0237, 082.0310), hence the jokes of 083.0154–0157.
 
-KEEP APART: [MLLE_ACARD](MLLE_ACARD.md), [ACARD](ACARD.md), [STEPHANO_ACARD](STEPHANO_ACARD.md) and [COMTESSE_ACARD](../aristocracy/COMTESSE_ACARD.md) are stubs; per the tag-audit rulings Julia's own tags go here, «les Acard» to ACARD.
+KEEP APART: [MLLE_ACARD](JULIA_ACARD.md), [ACARD](ACARD.md), [STEPHANO_ACARD](STEPHANO_ACARD.md) and [COMTESSE_ACARD](../aristocracy/COMTESSE_ACARD.md) are stubs; per the tag-audit rulings Julia's own tags go here, «les Acard» to ACARD.
+
+%% 2026-10-21T22:55:09 RSR: Merged MLLE_ACARD (no content kept: empty stub) %%
+
+%% 2026-10-21T22:55:22 RSR: Merged MME_DE_CASSAGNAC (no content kept: empty stub) %%

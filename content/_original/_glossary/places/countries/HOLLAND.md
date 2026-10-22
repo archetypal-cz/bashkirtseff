@@ -39,3 +39,5 @@ Holland (the Netherlands) appears in Marie Bashkirtseff's diary in connection wi
 - [#Salon](../../culture/art/SALON.md) - Where artists influenced by Dutch traditions exhibited
 
 %% 2026-02-10T14:25:00 RSR: Expanded from one-line stub with Dutch art context %%
+
+%% 2026-10-21T22:56:32 RSR: Merged HOLLANDE (no content kept: empty stub) %%

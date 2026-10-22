@@ -32,3 +32,5 @@ Prince Alexander Mikhailovich Gorchakov (1798–1883), Russian foreign minister 
 - Mon Journal t.13 (L'Âge d'Homme), index. Dates are standard (Wikipedia EN, «Alexander Gorchakov»).
 
 %% 2026-10-21T11:03:22 RSR: Created during RSR research of the restored 086 paragraphs (rsr-086). Only 086.0541 is tagged here so far. %%
+
+%% 2026-10-21T22:56:54 RSR: Merged PRINCE_GORTSCHAKOFF (no content kept: empty stub) %%

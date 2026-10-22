@@ -6,18 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: DUSAUTOY
 ---
-# Dautoy
 
-**Research Status**: Basic
-**Last Updated**: 2025-01-23
-**Diary Coverage**: Up to 1881-03-02
+%% GLO_DAUTOY.0001 %%
+**Retired.** Merged into [#DUSAUTOY](DUSAUTOY.md) (`people/mentioned/DUSAUTOY.md`); use that entry instead.
 
-A talented pianist, friend of Alexis, encountered at Mme Engelhardt's salon.
-
-## Diary References
-- March 2, 1881: Alexis presents his friend Dautoy, described as having "grand talent au piano" (great piano talent). They met at Mme Engelhardt's.
-
-## Notes
-Part of the musical/artistic circle around Mme Engelhardt's salon. Further research needed on identity and career.
+%% GLO_DAUTOY.0002 %%
+%% 2026-10-21T22:50:37 RSR: Retired by glossary-merge; content and links moved to DUSAUTOY. replaced_by: people/mentioned/DUSAUTOY.md. %%

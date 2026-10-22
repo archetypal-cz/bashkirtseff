@@ -9,21 +9,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: CAPODIMONTE
 ---
-# Capo di Monte
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_CAPO_DI_MONTE.0001 %%
+**Retired.** Merged into [#CAPODIMONTE](../../places/buildings/CAPODIMONTE.md) (`places/buildings/CAPODIMONTE.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_CAPO_DI_MONTE.0002 %%
+%% 2026-10-21T22:50:02 RSR: Retired by glossary-merge; content and links moved to CAPODIMONTE. replaced_by: places/buildings/CAPODIMONTE.md. %%

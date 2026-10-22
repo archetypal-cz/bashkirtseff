@@ -7,28 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: GRAND_PRIX_DE_PARIS
 ---
-# Grand Prix
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
+%% GLO_GRAND_PRIX.0001 %%
+**Retired.** Merged into [#GRAND_PRIX_DE_PARIS](../../culture/social_customs/GRAND_PRIX_DE_PARIS.md) (`people/mentioned/GRAND_PRIX_DE_PARIS.md`); use that entry instead.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_GRAND_PRIX.0002 %%
+%% 2026-10-21T22:57:51 RSR: Retired by glossary-merge; content and links moved to GRAND_PRIX_DE_PARIS. replaced_by: people/mentioned/GRAND_PRIX_DE_PARIS.md. %%

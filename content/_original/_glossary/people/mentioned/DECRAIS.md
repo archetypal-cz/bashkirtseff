@@ -21,10 +21,12 @@ Pierre Louis Albert Decrais (1838-1915), French lawyer, administrator and later 
 - 28 December 1874: «Il y a réception à la préfecture: M. et Mme Decrais» (028.0051).
 - 12 June 1875: «le beau-fils de Decrais, préfet d'ici» among the bathers (034.0181).
 - 10 January 1876: Marie recalls the looks of the ladies of Nice society, «les Bueno, d'Auzac, Decrais, Francia» (052.0032).
-- The unnamed «préfet» and «préfète» of October 1875 (047.0157, 047.0160, 047.0222, 047.0290) are Decrais and his wife by date (he was in office until March 1876); these paragraphs are tagged [NICE_PREFET](NICE_PREFET.md), which should be merged into this entry.
+- The unnamed «préfet» and «préfète» of October 1875 (047.0157, 047.0160, 047.0222, 047.0290) are Decrais and his wife by date (he was in office until March 1876); these paragraphs are tagged [NICE_PREFET](DECRAIS.md), which should be merged into this entry.
 
 ## References in Diary
 
 027/1874-12-02 (027.0121); 028/1874-12-28 (028.0051); 034/1875-06-12 (034.0181); 052/1876-01-10 (052.0032); 047/1875-10-18 to 10-20 via NICE_PREFET.
 
 %% 2026-10-21T23:10:00 RSR: Body written from the stub (OPEN-ITEMS B-27). Dates per English Wikipedia, «Albert Decrais» («On 11 November 1874 he was made prefect of the Alpes-Maritimes, and on 21 March 1876 he was appointed prefect of the Gironde»); the diary says «le nouveau préfet, M. Decrais» on 2 December 1874 (027.0121). The 047 «préfet» (October 1875) falls inside his term. %%
+
+%% 2026-10-21T22:47:53 RSR: Merged NICE_PREFET (no content kept: empty stub) %%

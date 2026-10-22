@@ -218,7 +218,7 @@ Marie's comparisons reveal what Paris meant to her:
 - [#Bois_de_Boulogne](../social/BOIS_DE_BOULOGNE.md) - Daily social ritual
 - [#Academie_Julian](../schools/JULIAN.md) - Art studies
 - [#Salon](../../culture/art/SALON.md) - Annual art exhibition
-- [#Opera_de_Paris](../theaters/OPERA_DE_PARIS.md) - Palais Garnier performances and masked balls
+- [#Opera](../theaters/OPERA.md) - Palais Garnier performances and masked balls
 
 %% GLO_PARIS.0037 %%
 ## Sources

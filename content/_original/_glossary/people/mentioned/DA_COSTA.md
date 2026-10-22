@@ -7,28 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: DA_COSTA_MOTTA
 ---
-# Da Costa
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 5 mentions
-**Type**: Person/Place
+%% GLO_DA_COSTA.0001 %%
+**Retired.** Merged into [#DA_COSTA_MOTTA](DA_COSTA_MOTTA.md) (`people/mentioned/DA_COSTA_MOTTA.md`); use that entry instead.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 5 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_DA_COSTA.0002 %%
+%% 2026-10-21T22:54:45 RSR: Retired by glossary-merge; content and links moved to DA_COSTA_MOTTA. replaced_by: people/mentioned/DA_COSTA_MOTTA.md. %%

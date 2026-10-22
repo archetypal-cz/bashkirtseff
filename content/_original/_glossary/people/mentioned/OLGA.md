@@ -28,7 +28,7 @@ Olga Sapogenikoff, the younger daughter of Nina Sapogenikoff, and with her elder
 - **Letters and marriage**: Marie Bashkirtseff writes to «Olga-Giroflé» on 7 December 1876 (067.1462) and thinks of «Giro-Olga» as the sister she would rather have (071.0113). On 27 December 1877: «Olga se marie avec un des Meissner, le frère de celui que j'ai connu à Nice. Un imbécile ou à peu près et totalement laid» (077.0036), though she is glad for her: «ce coup de théâtre longtemps désiré, depuis deux ans» (077.0039).
 - **Last mention**: 30 December 1883, Mme Sapogenikoff visits: «Marie et Olga sont mariées comme vous le savez et mères trois ou quatre fois» (102.0605).
 
-Related entries: [#Marie_Sapogenikoff](MARIE_SAPOGENIKOFF.md), [#Mme_Sapogenikoff](../aristocracy/MME_SAPOGENIKOFF.md), [#Meissner](MEISSNER.md).
+Related entries: [#Marie_Sapogenikoff](MARIE_SAPOGENIKOFF.md), [#Nina](NINA.md), [#Meissner](MEISSNER.md).
 
 ## References in Diary
 

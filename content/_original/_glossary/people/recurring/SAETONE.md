@@ -50,3 +50,5 @@ Saetone occupies a specific and problematic role:
 %% 2026-10-21T22:08:00 RSR: Fix (OPEN-ITEMS B-17): «she ironically calls him mon oncle» removed. «d'Audiffret amène et présente son oncle Saëtone» (034/1875-06-15, 034.0290) makes him Audiffret's real uncle; Marie borrows the title («mon oncle Saëtone», 035/1875-06-28). The LAN notes at 034/1875-06-10 («ironic nickname… mock-familial») and 046/1875-10-03 («ironic use of "uncle"») rest on the old reading and should be corrected in a diary pass. %%
 
 %% 2026-02-09T21:00:00 RSR: Created entry. Saetone is the social catalyst/meddler in the Audiffret affair. His first name Andriot is confirmed in carnet 046. Nina Sapogenikoff's denunciation of him as "entremetteur" (046.0049) is the key passage for understanding his function. %%
+
+%% 2026-10-21T22:48:05 RSR: Merged ANDRIOT (no content kept: empty stub) %%

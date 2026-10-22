@@ -35,3 +35,9 @@ Three other entries cover the same man: `people/aristocracy/COMTE_D_ASPREMONT.md
 25 tagged paragraphs, 028.0102 (first) to 075.0329 (last); also in 077/1878-01-27, 086/1879-12-01 and 094/1882-04-18 under other ids. All tagged paragraphs read 2026-10-21.
 
 %% 2026-10-21T23:15:00 RSR: Fix (OPEN-ITEMS B-20): auto-stub replaced from tagged paragraphs and Mon Journal t.4–t.14 indexes; «Joseph Victor, comte» rests only on t.13/t.14 index entries. Merge candidates COMTE_D_ASPREMONT, COMTE_DASPREMONT, M_D_ASPREMONT reported. %%
+
+%% 2026-10-21T22:48:16 RSR: Merged COMTE_D_ASPREMONT (no content kept: empty stub) %%
+
+%% 2026-10-21T22:48:28 RSR: Merged COMTE_DASPREMONT (no content kept: empty stub) %%
+
+%% 2026-10-21T22:48:40 RSR: Merged M_D_ASPREMONT (no content kept: empty stub) %%

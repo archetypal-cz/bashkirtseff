@@ -35,3 +35,5 @@ Arnaud appears 5 times in Book 13 (1879) during the period when Marie was most p
 - [#Cassagnac](CASSAGNAC.md) - Bonapartist rival of Gambetta
 
 %% 2026-02-11T13:50:00 RSR: Per Kernberger (2013), Joseph Arnaud de l'Ariège was a young member of Gambetta's cabinet. Nicknamed "Antinoüs" by Marie (historically: beautiful favorite of Emperor Hadrian). His mother Mme Suzanne Arnaud was a supporter of the Republican party. Enriched from stub. %%
+
+%% 2026-10-21T22:54:57 RSR: Merged JOSEPH_ARNAUD (no content kept: empty stub) %%

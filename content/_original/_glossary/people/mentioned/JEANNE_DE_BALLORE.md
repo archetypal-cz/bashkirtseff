@@ -31,3 +31,5 @@ Not to be confused with other Jeannes (see [JEANNE](JEANNE.md)).
 067.1454; 068.0049, 068.0052, 068.0913, 068.0917; 085.0091-0094; 094.0262. Duplicate stubs for the same woman exist: BARONNE_DE_WYKERSLOOTH and WYKERSLOOTH (merge candidates for the lead).
 
 %% 2026-10-21T22:50:00 RSR: New entry created from the generic JEANNE stub (OPEN-ITEMS B-56(3)). Identification: «Jeanne = Jeanne de Ballore, Mme de Ballore's daughter («M. et Mme de Ballore, Jeanne leur fille», 068.0049)» (RSR at 068/1877-02-02) and the Mon Journal indexes quoted above; Kernberger (2013, glossary) for the Wykerslooth name. The husband's rank ("prince" in the t.9 index, "baron" in Marie) is unresolved. %%
+
+%% 2026-10-21T22:49:16 RSR: Merged BARONNE_DE_WYKERSLOOTH (no content kept: empty stub) %%

@@ -164,7 +164,7 @@ The Hotel de Paris Monte-Carlo, designed by Gobineau de la Bretonnerie and const
 - [#Blanc](../../people/mentioned/BLANC.md) -- Likely connected to Francois Blanc's family
 - [#Mlle_Blanc](../../people/aristocracy/MLLE_BLANC.md) -- Member of the Blanc dynasty
 - [#Yourkoff](../../people/mentioned/YOURKOFF.md) -- Killed himself at Monaco (c. April 1876)
-- [#Mme_Sapogenikoff](../../people/aristocracy/MME_SAPOGENIKOFF.md) -- Yourkoff's companion, frequent Monaco visitor
+- [#Nina](../../people/mentioned/NINA.md) -- Yourkoff's companion, frequent Monaco visitor
 - [#Cercle_Massena](../../places/social/CERCLE_MASSENA.md) -- Nice's answer to Monte Carlo's exclusivity
 - [#Hotel_de_Paris](../../places/hotels/HOTEL_DE_PARIS.md) -- Premier Monaco hotel
 

@@ -35,3 +35,5 @@ Nina appears to be a regular member of the household's social circle, participat
 ## Research Notes
 
 Limited specific biographical information available. The name Nina was common in Russian circles during this period.
+
+%% 2026-10-21T22:58:03 RSR: Merged MME_SAPOGENIKOFF (no content kept: empty stub) %%

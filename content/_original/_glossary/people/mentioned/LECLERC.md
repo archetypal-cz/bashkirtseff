@@ -32,3 +32,5 @@ Marie's teacher of chemistry and physics at Nice, 1873-1875. The Mon Journal t.7
 012.0220; 016.0020, 0269; 017.0306; 024.0351; 025.0144; 028.0037, 0159; 029.0118, 0281; 032.0379-0381; 034.0262; 037.0162, 0333; 056.0461 (1873-11 to 1876-04). Note: 012.0220 is tagged to the stub M_LECLERC (see the retarget row reported).
 
 %% 2026-10-21T23:30:00 RSR: Fix (OPEN-ITEMS B-20 part / B-51 (6)): body "Teacher (subject unknown)" replaced. Subject from the Mon Journal t.7 index «Leclerc (M.), professeur de chimie-physique : 221» and the lessons above, all opened. The coverage line "Up to 1874-03-14" is now to 1876-04-06. 037.0162: the person absent from the lycée is not named in that paragraph (not checked further); 037.0333 the anonymous letter is a joke by Marie and Godard, not a real commission. %%
+
+%% 2026-10-21T22:49:27 RSR: Merged M_LECLERC (no content kept: empty stub) %%

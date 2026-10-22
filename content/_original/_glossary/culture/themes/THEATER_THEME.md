@@ -217,7 +217,7 @@ The following glossary entries cover specific theaters and performance venues Ma
 ### Paris
 - [#Comedie_Francaise](../../places/social/COMEDIE_FRANCAISE.md) -- The national theater of France ("le Francais"), Marie's most frequently attended Paris venue
 - [#Theatre_Francais](../../places/theaters/THEATRE_FRANCAIS.md) -- The physical theater building housing the Comedie-Francaise
-- [#Opera_de_Paris](../../places/theaters/OPERA_DE_PARIS.md) -- The Paris Opera, housed in the Palais Garnier from 1875
+- [#Opera](../../places/theaters/OPERA.md) -- The Paris Opera, housed in the Palais Garnier from 1875
 - [#Theatre_des_Varietes](../../places/theaters/THEATRE_DES_VARIETES.md) -- Boulevard theater known for operettas and comedies
 - [#Theatre_des_Italiens](../../places/theaters/THEATRE_DES_ITALIENS.md) -- Home of Italian opera in Paris
 - [#Theatre_du_Vaudeville](../../places/theaters/THEATRE_DU_VAUDEVILLE.md) -- Boulevard theater for light comedies
@@ -229,7 +229,7 @@ The following glossary entries cover specific theaters and performance venues Ma
 - [#Opera_Comique](../../places/theaters/OPERA_COMIQUE.md) -- Home of French comic opera
 
 ### Other Cities
-- [#Opera_Naples](../../places/theaters/OPERA_NAPLES.md) -- Naples opera
+- [#San_Carlo](../../places/theaters/SAN_CARLO.md) -- Naples opera
 - [#Teatro_del_Fondo](../../places/theaters/TEATRO_DEL_FONDO.md) -- Naples theater
 
 %% GLO_THEATER_THEME.0048 %%

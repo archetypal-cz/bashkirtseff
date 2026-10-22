@@ -7,28 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: MME_ADAM
 ---
-# Juliette Lamber
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 3 mentions
-**Type**: Person/Place
+%% GLO_JULIETTE_LAMBER.0001 %%
+**Retired.** Merged into [#MME_ADAM](MME_ADAM.md) (`people/mentioned/MME_ADAM.md`); use that entry instead.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 3 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_JULIETTE_LAMBER.0002 %%
+%% 2026-10-21T22:55:35 RSR: Retired by glossary-merge; content and links moved to MME_ADAM. replaced_by: people/mentioned/MME_ADAM.md. %%

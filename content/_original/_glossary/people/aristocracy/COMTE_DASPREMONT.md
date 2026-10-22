@@ -7,8 +7,13 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: ASPREMONT
 ---
-# Comte dAspremont
 
-Stub entry — needs research.
+%% GLO_COMTE_DASPREMONT.0001 %%
+**Retired.** Merged into [#ASPREMONT](../mentioned/ASPREMONT.md) (`people/mentioned/ASPREMONT.md`); use that entry instead.
+
+%% GLO_COMTE_DASPREMONT.0002 %%
+%% 2026-10-21T22:48:28 RSR: Retired by glossary-merge; content and links moved to ASPREMONT. replaced_by: people/mentioned/ASPREMONT.md. %%

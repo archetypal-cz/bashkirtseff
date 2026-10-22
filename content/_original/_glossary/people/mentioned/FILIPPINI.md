@@ -52,3 +52,7 @@ This entry was mentioned 2 times in Book 13 of Marie's diary (1879).
 - Created: 2026-01-06
 - Auto-generated stub from broken link detection
 - Needs proper research and content
+
+%% 2026-10-21T22:53:42 RSR: Merged PHILIPPINI (no content kept: empty stub) %%
+
+%% 2026-10-21T22:53:55 RSR: Merged M_PHILIPPINI (no content kept: empty stub) %%

@@ -4,8 +4,8 @@ name: Poste Madeleine
 aliases:
   - Poste Madeleine
   - Madeleine
-type: Person
-category: people/mentioned
+type: Place
+category: places/buildings
 research_status: Basic
 last_updated: 2026-03-06
 ---

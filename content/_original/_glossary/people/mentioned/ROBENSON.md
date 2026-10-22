@@ -26,3 +26,5 @@ A young American woman, "la Pointue Américaine" in Marie's nickname, whom Marie
 ## References in Diary
 - First mentioned: 1874-07 (carnet 021; first meeting 021.0531)
 - Key entries: 048.0609, 050.0101, 050.0790
+
+%% 2026-10-21T22:58:26 RSR: Merged MISS_ROBENSON (no content kept: empty stub) %%

@@ -4,7 +4,7 @@ name: Walery Studio
 aliases:
   - Walery Studio
 type: Place
-category: places/theaters
+category: places/shops
 research_status: Basic
 last_updated: 2026-03-06
 ---
@@ -43,3 +43,5 @@ The younger Walery's photographs of the Folies Bergère and other Parisian enter
 
 %% 2025-04-05T15:13:06 RSR: Created glossary entry for Walery Studio %%
 %% 2025-04-05T18:35:00 RSR: Updated with September 4, 1873 mention of Marie receiving her photographs from Walery %%
+
+%% 2026-10-21T22:58:14 RSR: Merged WALERY (no content kept: empty stub) %%

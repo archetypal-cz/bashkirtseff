@@ -7,28 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: ARNAUD_DE_L_ARIEGE
 ---
-# Joseph Arnaud
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 6 mentions
-**Type**: Person/Place
+%% GLO_JOSEPH_ARNAUD.0001 %%
+**Retired.** Merged into [#ARNAUD_DE_L_ARIEGE](../recurring/ARNAUD_DE_L_ARIEGE.md) (`people/recurring/ARNAUD_DE_L_ARIEGE.md`); use that entry instead.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 6 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_JOSEPH_ARNAUD.0002 %%
+%% 2026-10-21T22:54:57 RSR: Retired by glossary-merge; content and links moved to ARNAUD_DE_L_ARIEGE. replaced_by: people/recurring/ARNAUD_DE_L_ARIEGE.md. %%

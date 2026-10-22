@@ -13,3 +13,5 @@ last_updated: 2026-03-06
 # Peter the Great
 
 Stub entry — needs research.
+
+%% 2026-10-21T22:52:14 RSR: Merged PIERRE_THE_GREAT (no content kept: empty stub) %%

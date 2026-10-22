@@ -46,6 +46,6 @@ Algeria in the 1870s-1880s:
 ## Related Entries
 - [#Paris](../cities/PARIS.md) - The metropole governing Algeria
 - [#Algiers](../cities/ALGIERS.md) - The capital city
-- [#Alger](../cities/ALGER.md) - French name for Algiers
+- [#Algiers](../cities/ALGIERS.md) - French name for Algiers
 
 %% 2026-02-10T13:35:00 RSR: Expanded from one-line stub with colonial context %%

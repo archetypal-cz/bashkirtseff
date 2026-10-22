@@ -130,4 +130,4 @@ The Prince Imperial's death was a watershed:
 - [#Politics](../../culture/themes/POLITICS.md) - The Bonapartist movement he symbolized (thematic tag)
 - [#Cassagnac](../recurring/CASSAGNAC.md) - Bonapartist journalist who mourned him
 - [#Gambetta](../politicians/GAMBETTA.md) - Republican beneficiary of his death
-- [#Second_Empire](../mentioned/SECOND_EMPIRE.md) - The regime he would have restored
+- [#Empire](../../culture/history/EMPIRE.md) - The regime he would have restored

@@ -41,3 +41,5 @@ French or European society newspaper that reports on aristocratic movements and 
 - 1870s society journalism
 - Racing press history
 - Aristocratic news networks
+
+%% 2026-10-21T22:56:09 RSR: Merged DERBY (no content kept: empty stub) %%

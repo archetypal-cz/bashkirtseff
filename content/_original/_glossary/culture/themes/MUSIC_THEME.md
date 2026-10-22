@@ -212,7 +212,7 @@ Music serves multiple functions in the diary:
 ## See Also
 
 - [#Opera_Nice](../../places/theaters/OPERA_NICE.md) --- The Opera de Nice
-- [#Opera_Paris](../../places/theaters/OPERA_PARIS.md) --- The Paris Opera (Palais Garnier)
+- [#Opera](../../places/theaters/OPERA.md) --- The Paris Opera (Palais Garnier)
 - [#Concert_Pasdeloup](../../places/social/CONCERT_PASDELOUP.md) --- Sunday concerts in Paris
 - [#Italian](../../culture/languages/ITALIAN.md) --- Italian language and opera culture
 - [#Theater](../../culture/themes/THEATER_THEME.md) --- Theater thematic tag

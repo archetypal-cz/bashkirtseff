@@ -33,3 +33,5 @@ Russian woman who is subject of mockery by Marie's social circle.
 - Social ostracism in expatriate communities
 - Russian naming patterns
 - Nice society hierarchies
+
+%% 2026-10-21T22:59:01 RSR: Merged MLLE_KOLOKOLZOFF (no content kept: empty stub) %%

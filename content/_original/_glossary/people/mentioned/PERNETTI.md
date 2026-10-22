@@ -21,3 +21,9 @@ A guest at a small dinner Marie attends in Paris on 10 July 1884, alongside the 
 - 1884-07-10 (para 105.0105): listed among the dinner guests, no further mention
 
 %% 2026-07-06T21:00:00 RSR: Created per report-triage flag (2026-07-06 session) — diary-only figure; no secondary-source identification found. Entry kept short per project convention (a short sourced stub beats a broken link). %%
+
+%% 2026-10-21T22:57:06 RSR: Merged PERNETY (no content kept: empty stub) %%
+
+%% 2026-10-21T22:57:17 RSR: Merged VICOMTESSE_PERNETY (no content kept: empty stub) %%
+
+%% 2026-10-21T22:57:29 RSR: Merged VALENTINE (no content kept: empty stub) %%

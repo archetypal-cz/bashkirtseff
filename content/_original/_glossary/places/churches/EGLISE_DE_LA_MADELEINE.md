@@ -42,3 +42,7 @@ Spring 1878 is the church's main moment in the diary: she goes to mass there (07
 
 %% GLO_EGLISE_DE_LA_MADELEINE.0007 %%
 %% 2026-10-21T22:55:00 RSR: Created (OPEN-ITEMS B-59(3), B-52): the stubs people/mentioned/MADELEINE and LA_MADELEINE were used for the church, the post office, the painted Magdalene and a student; each tagged paragraph was read and sorted (see the tag rows). The church description is general knowledge (place de la Madeleine, rue Royale); no secondary source was opened for it. 104.0613 («Rosalie avait été à la Madeleine hier», in the Maupassant letters episode) may mean the post office or the church; left untagged. %%
+
+%% 2026-10-21T22:49:39 RSR: Merged MADELEINE (no content kept: empty stub) %%
+
+%% 2026-10-21T22:49:50 RSR: Merged LA_MADELEINE (no content kept: empty stub) %%

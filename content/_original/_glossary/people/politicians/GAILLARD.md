@@ -45,7 +45,7 @@ The identification rests on the diary alone and fits it closely: Marie calls him
 ## Related entries
 
 %% GLO_GAILLARD.0007 %%
-[Madame de Mouzay](../mentioned/MOUZAY.md); [Rodolphe Julian](../recurring/RODOLPHE_JULIAN.md); [Gavini](../mentioned/GAVINI.md); [Mme Adam](../mentioned/MME_ADAM.md); [Gambetta](GAMBETTA.md); [Joseph Arnaud](../mentioned/JOSEPH_ARNAUD.md); [Soutzo](../mentioned/SOUTZO.md).
+[Madame de Mouzay](../mentioned/MOUZAY.md); [Rodolphe Julian](../recurring/RODOLPHE_JULIAN.md); [Gavini](../mentioned/GAVINI.md); [Mme Adam](../mentioned/MME_ADAM.md); [Gambetta](GAMBETTA.md); [Joseph Arnaud](../recurring/ARNAUD_DE_L_ARIEGE.md); [Soutzo](../mentioned/SOUTZO.md).
 
 %% GLO_GAILLARD.0008 %%
 ## Sources

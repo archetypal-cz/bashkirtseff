@@ -31,3 +31,7 @@ This entry was mentioned 3 times in Book 13 of Marie's diary (1879).
 ## Related Entries
 
 [To be determined based on research]
+
+%% 2026-10-21T22:51:02 RSR: Merged OPERA_DE_PARIS (no content kept: empty stub) %%
+
+%% 2026-10-21T22:51:14 RSR: Merged OPERA_PARIS (no content kept: empty stub) %%

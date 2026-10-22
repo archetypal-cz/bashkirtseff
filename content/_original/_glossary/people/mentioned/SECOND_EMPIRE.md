@@ -7,28 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-21
+status: retired
+replaced_by: EMPIRE
 ---
-# Second Empire
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
+%% GLO_SECOND_EMPIRE.0001 %%
+**Retired.** Merged into [#EMPIRE](../../culture/history/EMPIRE.md) (`culture/history/EMPIRE.md`); use that entry instead.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_SECOND_EMPIRE.0002 %%
+%% 2026-10-21T22:52:26 RSR: Retired by glossary-merge; content and links moved to EMPIRE. replaced_by: culture/history/EMPIRE.md. %%
