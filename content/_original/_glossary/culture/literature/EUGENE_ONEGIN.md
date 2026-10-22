@@ -21,9 +21,9 @@ Alexander Pushkin's novel in verse, published in full in 1833. The young Tatiana
 
 ## Relevance to Marie
 - Nice, September 1873: Maman reads an extract aloud («Onéguine pâlit, dépérit», 009.0208).
-- Nice, 31 May 1877: Marie dreams of meeting Larderel again «et peut-être à répéter le roman *d'Eugène Oneguine* (par Pouchkine !). Jusqu'à présent c'est exactement notre histoire» (071.0524), i.e. she casts herself as the rejected Tatiana who will one day be loved in turn.
+- Nice, 31 May 1877: Marie dreams of meeting Larderel again «et peut-être à répéter le roman *d'Eugène Oneguine* (par Pouchkine !). Jusqu'à présent c'est exactement notre histoire» (071.0525), i.e. she casts herself as the rejected Tatiana who will one day be loved in turn.
 
 ## References in Diary
-- 1873-09-16 (009.0208), 1877-05-31 (071.0524)
+- 1873-09-16 (009.0208), 1877-05-31 (071.0525)
 
 %% 2026-10-21T10:48:15 RSR: Created during RSR of the restored carnet 071 paragraphs (rsr-071). 009.0208 is not tagged yet. %%

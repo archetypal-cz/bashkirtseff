@@ -19,13 +19,13 @@ The tag is used for the wife of Count Gaston de Larderel, Alexandre's elder brot
 
 ## Relevance to Marie
 - «son frère a épousé une Salviati» is one of the reasons Marie forgives herself her weakness for Alexandre (071.0110).
-- Florence, May 1877: she watches Gaston's wife at the Cascine (071.0071), in a four-in-hand (071.0214), on the grandstand at the races (071.0231), and overhears her describing Blanche's hair (071.0217). On 11 May she sees «Gaston et sa femme» at a charity concert (071.0265); on 25 May she imagines «la femme à Gaston mourra et j'épouserai Gaston» (071.0453).
+- Florence, May 1877: she watches Gaston's wife at the Cascine (071.0071), in a four-in-hand (071.0215), on the grandstand at the races (071.0232), and overhears her describing Blanche's hair (071.0218). On 11 May she sees «Gaston et sa femme» at a charity concert (071.0266); on 25 May she imagines «la femme à Gaston mourra et j'épouserai Gaston» (071.0454).
 
 ## Identity note
 The Mon Journal t.10 index calls her «Blanche, comtesse de Larderei, épouse de Gaston, née Salviati», but Blanche is Gaston's sister, Mme de Mirafiore (see [Blanche](BLANCHE.md); ledger).
 
 ## References in Diary
-- 1877-04-29 (071.0071), 05-02 (071.0110), 05-09 (071.0214, 0217), 05-10 (071.0231), 05-11 (071.0265), 05-25 (071.0453); 1877-08-08 (073.0342)
+- 1877-04-29 (071.0071), 05-02 (071.0110), 05-09 (071.0215, 0217), 05-10 (071.0232), 05-11 (071.0266), 05-25 (071.0454); 1877-08-08 (073.0342)
 
 See also [Gaston de Larderel](GASTON_DE_LARDEREL.md), [Larderel](LARDEREL.md).
 

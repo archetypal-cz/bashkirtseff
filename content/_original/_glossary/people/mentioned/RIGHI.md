@@ -59,7 +59,7 @@ Marie's fixation on Silène runs through the Naples and Florence episodes of spr
 - 071.0080 (1877-05-01): in the Cascine, Florence, Marie sees "Silène Righi, ex-coquine de Monsieur le comte" and insists she must see her naked.
 - 071.0120 (1877-05-03): Marie learns that Silène has an eighteen-year-old sister, a dancer in Milan called la Michetta, and that Silène herself was never a dancer but a mime.
 - 071.0150 (1877-05-04): "Dieu que je voudrais la fille de Silène" — Marie covets Alexandrine, the little daughter of Silène and Larderel.
-- 071.0308 (1877-05-13) and 071.0326 (1877-05-14): Marie talks of Silène to her family; Dina mimes her in a pantomime on the stairs.
+- 071.0309 (1877-05-13) and 071.0327 (1877-05-14): Marie talks of Silène to her family; Dina mimes her in a pantomime on the stairs.
 - 073.0203 (1877-07-27): Miss Hall "lived opposite Silène" in Florence; 073.0261 (1877-08-02): they discuss Florence, Alexandre and Silène.
 
 %% GLO_RIGHI.0009 %%

@@ -1332,10 +1332,10 @@ They need AI translation into French.
 - **070/1877-04-25.md** para withdrawn in the 2026-09 rebuild (old carnet 070 ¶0198; see content/_renumber/070-2026-09-28.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate" - Doubt, illusion, deception, oppression / By desire for glory; Marie's philosophical/mood notation, recurring motif %%
 - **071/1877-05-02.md** para 071.0110 [ITALIAN]: %% 2026-02-02T15:00:00 LAN: ITALIAN: "palazzo" - palace/mansion, used untranslated in French for Italian noble residences %%
 - **071/1877-05-02.md** para 071.0113 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "Skating" - refers to a skating rink, fashionable social venue; term used in English %%
-- **071/1877-05-13.md** para 071.0308 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "Veglione" - ITALIAN: masked ball, typically during carnival season %%
-- **071/1877-06-02.md** para 071.0541 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "tarentelle" - ITALIAN: tarantella; lively Italian folk dance %%
-- **071/1877-06-08.md** para 071.0605 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: "water-closet" - ENGLISH: toilet; the pun links the name "Chaussade/Closet" to toilet humor %%
-- **071/1877-06-10.md** para 071.0615 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: ITALIAN quotation from Dante's Inferno, Canto V: "Master, who are those people whom the black air so punishes?" %%
+- **071/1877-05-13.md** para 071.0309 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "Veglione" - ITALIAN: masked ball, typically during carnival season %%
+- **071/1877-06-02.md** para 071.0542 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "tarentelle" - ITALIAN: tarantella; lively Italian folk dance %%
+- **071/1877-06-08.md** para 071.0606 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: "water-closet" - ENGLISH: toilet; the pun links the name "Chaussade/Closet" to toilet humor %%
+- **071/1877-06-10.md** para 071.0616 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: ITALIAN quotation from Dante's Inferno, Canto V: "Master, who are those people whom the black air so punishes?" %%
 - **072/1877-06-15.md** para 072.0059 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Guarda Don Bartolo" - "Look, Don Bartolo" - from the opera %%
 - **072/1877-06-18.md** para 072.0187 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "bulldog" - ENGLISH: English bulldog breed %%
 - **072/1877-06-18.md** para 072.0190 [LATIN]: %% 2026-02-02T13:00:00 LAN: "i.e." - LATIN: id est (that is); Marie codes Torlonia as "Torniole" %%

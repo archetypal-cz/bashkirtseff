@@ -19,4 +19,4 @@ Not a separate person: «Suzanne» is the name Paul de Cassagnac gave Marie duri
 - 1878-03-12: «il a dit cinquante choses de Suzanne, de la colonelle et d'autres» (078.0494)
 - 1878-06-22: she signs her anonymous letter to Cassagnac «SUZANNE AU MASQUE» (080.0716)
 
-Do not confuse with other Suzannes in the diary («Suzanne peut-être !», a guess at a name, 080.0160; «la chaste Suzanne», the biblical Susanna, 071.0459); tag only the mask name with this entry. Owner ruling 2026-10-22 (B-75): Marie's code and mask names are tagged to the mask-name file, never to MARIE.
+Do not confuse with other Suzannes in the diary («Suzanne peut-être !», a guess at a name, 080.0160; «la chaste Suzanne», the biblical Susanna, 071.0460); tag only the mask name with this entry. Owner ruling 2026-10-22 (B-75): Marie's code and mask names are tagged to the mask-name file, never to MARIE.

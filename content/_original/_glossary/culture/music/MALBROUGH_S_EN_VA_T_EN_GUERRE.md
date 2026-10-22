@@ -33,7 +33,7 @@ A traditional French song mocking the Duke of Marlborough (John Churchill), repo
 
 - 066.0135 (9 Sep 1876): she sits on her highest step "comme le rossignol de Malborough" (the nightingale perched in the song's verses).
 - 069.0570, 069.0575 (28 Mar 1877, Naples): she parodies it as «Monsieur le comte est mort», substituting Count Larderel for Marlborough, and complains that this "maudite chanson de Malborough que je me suis habituée de chanter" insists on being written down.
-- 071.0404 (21 May 1877) and 071.0535 (1 Jun 1877): she sings her own words to its tune ("Que mon cœur, que mon cœur a de peine ! (Malborough)"); the footnote there calls it a quotation from the folk song.
+- 071.0405 (21 May 1877) and 071.0536 (1 Jun 1877): she sings her own words to its tune ("Que mon cœur, que mon cœur a de peine ! (Malborough)"); the footnote there calls it a quotation from the folk song.
 
 Marie's spellings "Malborough" and "Marlborough" both mean this song, not the Duke.
 

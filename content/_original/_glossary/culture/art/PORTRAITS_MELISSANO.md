@@ -25,7 +25,7 @@ last_updated: 2026-10-10
 
 %% GLO_PORTRAITS_MELISSANO.0002 %%
 %% [#Melissano](../../people/mentioned/MELISSANO.md) [#Naples](../../places/cities/NAPLES.md) [#Art_practice](../themes/ART_PRACTICE.md) %%
-Between April and June 1877 Marie made at least three versions of the portrait of the young Neapolitan prince of Melissano, whom she calls a "singe" in her diary and who followed her around Naples that spring ([#Melissano](../../people/mentioned/MELISSANO.md)). **26 April 1877, Naples (071.0007)**: "J'ai croqué la tête de Melissano grandeur naturelle, en deux minutes. Porcinari tenait la toile ... La ressemblance est frappante." **27 April (071.0013-0014, 071.0021)**: Melissano poses and she does a colour portrait in an hour and a half, "le nez un peu allongé pour plus de cachet"; Doenhoff praises it, and Melissano takes it away to show the princess of Piedimonte. **23 May, Nice (071.0427)**: in a letter to Marcuard she says she has just finished Melissano, composed so far to the left that the right side is empty, and asks for a photograph of Marcuard's friend Alexandre (Count Alessandro de Larderel, [#Larderel](../../people/mentioned/LARDEREL.md)) from which to paint a *pendant* ("un pendant à ce cher prince"). **30 May (071.0491)**: she has made "une copie du portrait de Melissano en une heure et dix minutes". **31 May (071.0507)**: "Le nouveau Melissano est mieux réussi que le premier." **11 June (072.0006-0007)**: she shows her father "Alexandre et Melissano" (the pair of portraits, presumably) and he reads Melissano's character from the nose: "un être profondément voluptueux, son nez renferme toutes les passions".
+Between April and June 1877 Marie made at least three versions of the portrait of the young Neapolitan prince of Melissano, whom she calls a "singe" in her diary and who followed her around Naples that spring ([#Melissano](../../people/mentioned/MELISSANO.md)). **26 April 1877, Naples (071.0007)**: "J'ai croqué la tête de Melissano grandeur naturelle, en deux minutes. Porcinari tenait la toile ... La ressemblance est frappante." **27 April (071.0013-0014, 071.0021)**: Melissano poses and she does a colour portrait in an hour and a half, "le nez un peu allongé pour plus de cachet"; Doenhoff praises it, and Melissano takes it away to show the princess of Piedimonte. **23 May, Nice (071.0428)**: in a letter to Marcuard she says she has just finished Melissano, composed so far to the left that the right side is empty, and asks for a photograph of Marcuard's friend Alexandre (Count Alessandro de Larderel, [#Larderel](../../people/mentioned/LARDEREL.md)) from which to paint a *pendant* ("un pendant à ce cher prince"). **30 May (071.0492)**: she has made "une copie du portrait de Melissano en une heure et dix minutes". **31 May (071.0508)**: "Le nouveau Melissano est mieux réussi que le premier." **11 June (072.0006-0007)**: she shows her father "Alexandre et Melissano" (the pair of portraits, presumably) and he reads Melissano's character from the nose: "un être profondément voluptueux, son nez renferme toutes les passions".
 
 %% GLO_PORTRAITS_MELISSANO.0003 %%
 ## Marie and this work
@@ -38,7 +38,7 @@ They were made quickly, to be shown to others (Doenhoff's compliments, the princ
 ## References in Diary
 
 %% GLO_PORTRAITS_MELISSANO.0006 %%
-- 1877-04-26 (071.0007); 1877-04-27 (071.0013-0014, 071.0021); 1877-05-23 (071.0427); 1877-05-30 (071.0491); 1877-05-31 (071.0507); 1877-06-11 (072.0006-0007)
+- 1877-04-26 (071.0007); 1877-04-27 (071.0013-0014, 071.0021); 1877-05-23 (071.0428); 1877-05-30 (071.0492); 1877-05-31 (071.0508); 1877-06-11 (072.0006-0007)
 
 %% GLO_PORTRAITS_MELISSANO.0007 %%
 ## Related Entries
@@ -52,7 +52,7 @@ They were made quickly, to be shown to others (Doenhoff's compliments, the princ
 ## Sources
 
 %% GLO_PORTRAITS_MELISSANO.0010 %%
-- Diary paragraphs cited above in `content/_original/`. Alexandre = Larderel: see the footnote on 071.0427 and the glossary entry.
+- Diary paragraphs cited above in `content/_original/`. Alexandre = Larderel: see the footnote on 071.0428 and the glossary entry.
 
 %% GLO_PORTRAITS_MELISSANO.0011 %%
-%% 2026-10-10T21:00:00 RSR: Created in the works glossary wave (W478). Inventory listed 071.0007/0491/0507; further mentions found at 071.0013, 071.0021, 071.0427 and 072.0006-0007. %%
+%% 2026-10-10T21:00:00 RSR: Created in the works glossary wave (W478). Inventory listed 071.0007/0491/0507; further mentions found at 071.0013, 071.0021, 071.0428 and 072.0006-0007. %%

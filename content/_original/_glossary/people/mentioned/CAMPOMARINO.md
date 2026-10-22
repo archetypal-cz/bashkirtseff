@@ -21,7 +21,7 @@ An Italian nobleman bearing the marquisate of Campomarino, a town in Molise (Pro
 
 The marquisate was a feudal grant from the Bourbon Kingdom of the Two Sicilies over the Campomarino territory. After Italian Unification (1860–61), noble titles were recognized but feudal privileges abolished.
 
-The son of the duc de San Cesario, president of the Naples Cercle: «le marquis di Campomarino, fils du duc de Sanceso» (069.0527), «un tout petit renard blond à nez énorme et à monocle»; Marie also calls him «San Cesario, c'est-à-dire Campomarino» (069.0528, 069.0560). When his father dies in May 1877 he inherits the ducal title («vive le duc de San Cesario. Il n'y a plus Campomarino», 071.0519). See [Duc de San Cesario](DUC_DE_SAN_CESARIO.md). His family name has not been traced.
+The son of the duc de San Cesario, president of the Naples Cercle: «le marquis di Campomarino, fils du duc de Sanceso» (069.0527), «un tout petit renard blond à nez énorme et à monocle»; Marie also calls him «San Cesario, c'est-à-dire Campomarino» (069.0528, 069.0560). When his father dies in May 1877 he inherits the ducal title («vive le duc de San Cesario. Il n'y a plus Campomarino», 071.0520). See [Duc de San Cesario](DUC_DE_SAN_CESARIO.md). His family name has not been traced.
 
 ## References in Diary
 - 069.0535 (1877-03-26): His visiting card is left along with that of Comte Francesco Caracciolo dei principi di Torchiaroli. Marie and the Fabbricatore girls discuss the callers.

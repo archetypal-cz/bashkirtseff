@@ -38,7 +38,7 @@ Marie reads Gogol's Rome in Russian during her stay at Gavrontsi in the autumn o
 %% GLO_ROME_GOGOL.0005 %%
 - **9 November 1876 (067.0923-0924).** "Et d'abord citons Gogol notre étoile humoristique." Her note (067.0924) says that "sa description de Rome m'a fait et pleurer et gémir et on ne peut en avoir une idée qu'en lisant. Demain ce sera traduit." The existing footnote 067.0923 calls the text Gogol's "novella *Rome* (1842)". No translated passage follows in the transcription.
 - **10 November 1876 (067.0928).** "J'ai bien passé une heure à traduire Gogol, mais cette photographie vivante de Rome m'excite trop pour que je puisse m'y appliquer. Le Rome de Mme de Staël paraît affectée et presque faible." She compares it with [Corinne ou l'Italie](./CORINNE_OU_L_ITALIE.md).
-- **24 May 1877, Naples (071.0438).** Writing of the ecstasy Italy gives, which not even the wittiest mockery can touch, she says: "un de ces jours je vous donnerai une traduction de notre Gogol qui vous expliquera ce que je tâche de dire". The promised French translation of the passage is not otherwise preserved in the diary.
+- **24 May 1877, Naples (071.0439).** Writing of the ecstasy Italy gives, which not even the wittiest mockery can touch, she says: "un de ces jours je vous donnerai une traduction de notre Gogol qui vous expliquera ce que je tâche de dire". The promised French translation of the passage is not otherwise preserved in the diary.
 
 %% GLO_ROME_GOGOL.0006 %%
 ## Notes

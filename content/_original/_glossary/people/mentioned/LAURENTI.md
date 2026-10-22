@@ -24,7 +24,7 @@ Marie's picture: «ce comte si noir, si petit et si grave» (037.0348); «cet ê
 
 - Introduced on 16 July 1875 («le comte Laurenti qu'on vient de présenter», 037.0161); Danis calls him «mon ami intime» (037.0292), and the two sit together in a box as «les deux petits singes» (048.0158; with Andriot in the Nice «petit bataclan», 046.0150, 047.0027). On 21 July they talk of the Russian revolution and «nous sommes parfaitement d'accord» (037.0348). See [#Danis](DANIS.md).
 - 10 May 1876: they travel together from Nice to Monte-Carlo with the comte di Clavesana (060.0004). On 27 May he calls at the villa (061.0213): «Je veux bien être coquette avec lui mais pas autre chose» (061.0217). He dines with the family in June 1876 (062.0066, 062.0098), looks at Antonelli's portrait («il l'a connu il y a cinq ans chez les de Cessole») and criticizes it (062.0100), «me mange des yeux» (062.0102); Collignon detests him (062.0310).
-- Spring 1877: «le comte Laurenti ressuscité des morts. Il était très malade vraiment» (071.0341, 15 May 1877); he follows the family to the Skating and the house, borrows twenty francs (071.0482) and reads Caracciolo's comic letter with Marie (071.0486).
+- Spring 1877: «le comte Laurenti ressuscité des morts. Il était très malade vraiment» (071.0342, 15 May 1877); he follows the family to the Skating and the house, borrows twenty francs (071.0483) and reads Caracciolo's comic letter with Marie (071.0487).
 - Last: Carnival 1879, «Francia, Laurenti, Saëtone !» at the London House (084.0276).
 
 ## References in Diary

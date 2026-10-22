@@ -127,7 +127,7 @@ Walitsky was far more than a physician. He was a constant presence in family lif
 - **Household participant**: Joined roulette games, carnival outings, croquet matches, excursions
 - **Physical protector**: Slapped an Englishman at Monaco who insulted Paul: "Walitsky... lui donna des beaux coups dans la figure et partout" (018.0087)
 - **Verse-writer**: Composed humorous poems about the family's social circle at Spa, satirizing their suitors (022.0106: "Improvisation de Walitsky")
-- **Dog-fighter intervener**: Even timid in domestic crises -- "Walitsky n'osant intervenir" when the dogs fought (071.0539)
+- **Dog-fighter intervener**: Even timid in domestic crises -- "Walitsky n'osant intervenir" when the dogs fought (071.0540)
 - **Financial handler**: Managed practical matters the family disdained: "Walitsky pourvoira a tout. Je n'aime pas m'occuper de ces choses" (020.0083)
 
 %% GLO_WALITSKY.0019 %%
@@ -138,7 +138,7 @@ Walitsky was far more than a physician. He was a constant presence in family lif
 
 %% GLO_WALITSKY.0020 %%
 ### Object of Affectionate Mockery
-Mme Kondareff's famous quip captures his position in the all-female household: "un vrai serail avec Walitsky pour ennuque" ("a true harem with Walitsky for eunuch," 071.0541). Marie and the household treated him as a beloved fixture -- the butt of pranks (she once hid a dead rat and eggs in his bed, 072.0146) and the audience for domestic comedies ("Walitsky se pame" -- Walitsky swoons with laughter).
+Mme Kondareff's famous quip captures his position in the all-female household: "un vrai serail avec Walitsky pour ennuque" ("a true harem with Walitsky for eunuch," 071.0542). Marie and the household treated him as a beloved fixture -- the butt of pranks (she once hid a dead rat and eggs in his bed, 072.0146) and the audience for domestic comedies ("Walitsky se pame" -- Walitsky swoons with laughter).
 
 %% GLO_WALITSKY.0021 %%
 ## The Poisoning Scandal
@@ -379,7 +379,7 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 
 %% GLO_WALITSKY.0055 %%
 ### Books 71-73 (Nice, Paris 1877)
-- 071.0541 (Jun 2): "Un vrai serail avec Walitsky pour ennuque"
+- 071.0542 (Jun 2): "Un vrai serail avec Walitsky pour ennuque"
 - 072.0146 (Jun 11): Marie hides dead rat and eggs in his bed
 - 073.0235 (Jul 30): "Ce coquin de Walitsky est un habile homme" -- medical advice on Soden
 

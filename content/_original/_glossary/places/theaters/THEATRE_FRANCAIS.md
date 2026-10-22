@@ -26,7 +26,7 @@ The French-language theatre of Nice, which Marie calls «le Théâtre Français�
 Since 2026-10-22 this entry holds only the Nice theatre. The Paris references that used to be tagged here (020.0360, 063.0095, 073.0243 and the 1878–1883 Paris entries) were retagged to [Comédie-Française](COMEDIE_FRANCAISE.md).
 
 - 061.0218 — La Traviata in French (Nice, 1876).
-- 071.0541 — «raisonnent du Théâtre Français» (Nice, 2 June 1877): Larderel, Bernardaki and Grottaminarda talk about «the Théâtre Français» over champagne. Whether they mean the Nice house or the Paris Comédie-Française is not clear from the text (0.5).
+- 071.0542 — «raisonnent du Théâtre Français» (Nice, 2 June 1877): Larderel, Bernardaki and Grottaminarda talk about «the Théâtre Français» over champagne. Whether they mean the Nice house or the Paris Comédie-Française is not clear from the text (0.5).
 
 Untagged mentions that belong here (Nice entries): 001.0008, 002.0169, 004.0325, 009.0162, 016.0370, 028.0054, 048.0041, 049.0187, 054.0325, 068.0915, 084.0355.
 
