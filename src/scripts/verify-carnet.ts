@@ -259,7 +259,7 @@ for (const fname of entryFiles) {
     /^%% /.test(l) &&
     !/^%% (\d{3}|GLO_[A-Z0-9_]+)\.\d{4} %%\s*$/.test(l) &&
     !/^%% \[#/.test(l) &&
-    !/^%% \d{4}-\d\d-\d\dT[\d:.Z]+ [A-Z]+:/.test(l) &&
+    !/^%% \d{4}-\d\d-\d\d(T[\d:.Z]+)? [A-Z]+:/.test(l) &&
     !/^%% (kind|image|src):/i.test(l);
   for (let i = 0; i < lines.length; i++) {
     const raw = lines[i];
