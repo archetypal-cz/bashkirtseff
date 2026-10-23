@@ -11,7 +11,7 @@ last_updated: 2026-10-23
 ---
 # God
 
-Marie talks to God throughout the diary, from the childhood bedtime prayer of the preface to the last carnet. This entry is tagged where she **addresses God directly** (prayers, pleas, vows, thanks, reproaches) and where she **reflects at length on God and her faith**; the countless interjections («mon Dieu !», «Dieu sait», «Dieu merci») are not tagged (owner ruling 2026-10-23). Her prayers to the Virgin and to Christ are tagged only where they sit inside a prayer to God; see also [#Virgin_Mary](../mentioned/VIRGIN_MARY.md), [#Jesus](../mentioned/JESUS.md), [#Providence](../mentioned/PROVIDENCE.md) and the theme [#Religion](../../culture/themes/RELIGION.md).
+Marie talks to God throughout the diary, from the childhood bedtime prayer of the preface to the last carnet. This entry is tagged where she **addresses God directly** (prayers, pleas, vows, thanks, reproaches) and where she **reflects at length on God and her faith**; the countless interjections («mon Dieu !», «Dieu sait», «Dieu merci») are not tagged (owner ruling 2026-10-23). Her prayers to the Virgin and to Christ are tagged only where they sit inside a prayer to God; see also [#Virgin_Mary](VIRGIN_MARY.md), [#Jesus](JESUS.md), [#Providence](../mentioned/PROVIDENCE.md) and the theme [#Religion](../../culture/themes/RELIGION.md).
 
 ## How she prays
 

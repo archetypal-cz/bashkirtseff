@@ -4,7 +4,7 @@ name: Jesus
 aliases:
   - Jesus
 type: Person
-category: people/mentioned
+category: people/religious
 research_status: Basic
 last_updated: 2026-10-22
 ---

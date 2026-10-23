@@ -6,23 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-23
+status: retired
+replaced_by: VIRGIN_MARY
 ---
-# Sainte Marie
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_SAINTE_MARIE.0001 %%
+**Retired.** Merged into [#VIRGIN_MARY](../religious/VIRGIN_MARY.md) (`people/mentioned/VIRGIN_MARY.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-
-%% 2026-10-22T15:07:15 RSR: Merged VIRGIN_MARY (no content kept: empty stub) %%
+%% GLO_SAINTE_MARIE.0002 %%
+%% 2026-10-23T07:42:49 RSR: Retired by glossary-merge; content and links moved to VIRGIN_MARY. replaced_by: people/mentioned/VIRGIN_MARY.md. %%
