@@ -1,6 +1,6 @@
 # Carnet-to-Tome Reference
 
-Generated from `content/_original/_carnets/carnet-mapping.json` and actual file counts.
+Generated from `content/_original/_carnets/carnet-mapping.json` and actual file counts. Bibliographic data of the printed edition (ISBNs per tome): `docs/research/mon-journal-edition.md`.
 
 ## Tome Overview
 
