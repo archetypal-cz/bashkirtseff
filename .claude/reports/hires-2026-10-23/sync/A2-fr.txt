@@ -1,0 +1,1 @@
+[sync] WARN 1874-11-18.md: [^025.0268.r1] (paragraph 025.0268) looks missing, but the tree uses that label for another note "En russe dans le manuscrit ; traduction française …" — add it by hand under a new label
