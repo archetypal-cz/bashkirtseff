@@ -19,8 +19,8 @@ A singer in the circle of the art dealer Gambart at Spa in July 1874; the Tome 4
 
 ## Diary References
 
-- **1874-07-18** (021.0385): sings at Gambart's evening with Angèle and Godefroy.
-- **1874-07-23** (021.0541): «Gambart traîne après lui sa suite, Kirsh, la Godefroy, les Malézieux et le chanteur Bouhy.»
+- **1874-07-18** (021.0391): sings at Gambart's evening with Angèle and Godefroy.
+- **1874-07-23** (021.0547): «Gambart traîne après lui sa suite, Kirsh, la Godefroy, les Malézieux et le chanteur Bouhy.»
 
 ## Research Notes
 

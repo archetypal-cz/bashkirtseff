@@ -14,7 +14,7 @@ identity_uncertain: true
 ## Krohn
 
 %% GLO_KROHN.0002 %%
-A man, or his house or business, in Nice in spring 1875. The Mon Journal t.5 index has «Krohn (Henri), 46, 64, 72, 105». The mentions: «Allons chez Krohn !» (032.0224, 2 May); a lane «près de Krohn» which the coachman climbs to see the château (032.0466, 15 May); the carriage of Girofla stopping «devant Krohn» in front of a villa (033.0012, 17 May); on 6 June the company laughs «de Krohn qui s'est chargé de balayer la ville de Nice» (033.0528). The sense (a restaurant or villa on the castle hill, a street-cleaning contractor) can only be inferred from these four lines.
+A man, or his house or business, in Nice in spring 1875. The Mon Journal t.5 index has «Krohn (Henri), 46, 64, 72, 105». The mentions: «Allons chez Krohn !» (032.0224, 2 May); a lane «près de Krohn» which the coachman climbs to see the château (032.0475, 15 May); the carriage of Girofla stopping «devant Krohn» in front of a villa (033.0012, 17 May); on 6 June the company laughs «de Krohn qui s'est chargé de balayer la ville de Nice» (033.0528). The sense (a restaurant or villa on the castle hill, a street-cleaning contractor) can only be inferred from these four lines.
 
 %% GLO_KROHN.0003 %%
 ## Identity uncertain

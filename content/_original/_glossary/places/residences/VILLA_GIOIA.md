@@ -27,7 +27,7 @@ Villa Gioia is the house of Gioia, the Duke of Hamilton's mistress, on the Prome
 - **1873-11-04** (012.0063): someone speaks «en regardant [la] villa Gioia»; Marie guesses they have been talking of Hamilton and Gioia.
 - **1873-11-15** (012.0221): she dreams of the villa: «on la remeublait, puis comme si nous demeurions là avant».
 - **1874-10-02** (024.0187): «je vais regarder les villas Léon et Gioia, les fenêtres de cette dernière sont ouvertes.»
-- **1875-05-09** (032.0373): by moonlight she and two girls steal a tiny cactus from the terrace: «Nous passons la villa Gioia… j'enfonce ma fourchette et retire avec elle mon trophée, un tout petit cactus».
+- **1875-05-09** (032.0382): by moonlight she and two girls steal a tiny cactus from the terrace: «Nous passons la villa Gioia… j'enfonce ma fourchette et retire avec elle mon trophée, un tout petit cactus».
 - **1875-06-26** (035.0001): «Pour la dixième fois peut être que je rêve de la maison Gioia. Ce qui est curieux c'est que je n'ai jamais vu l'intérieur et c'est de l'intérieur que je rêve, et toujours du même.» The entry carries her sketched plan of the dreamt house with captions.
 - **1875-09-27** (045.0119): her aunt «a rencontré Girofla (Audiffret) dans la ruelle voisine de la villa Gioia».
 
@@ -35,4 +35,4 @@ Villa Gioia is the house of Gioia, the Duke of Hamilton's mistress, on the Prome
 - [#Gioia](../../people/recurring/GIOIA.md) - the owner
 - [#Nice](../cities/NICE.md) - the city
 
-%% 2026-10-21T22:16:56 RSR: It is Gioia's house: «En passant la villa de Gioia… C'est là que… je l'ai vu assis avec elle» (005.0186); «je n'ai jamais vu l'intérieur» (035.0001); on the Promenade next to the villa Léon (024.0187). Untagged paragraphs that name it (011.0300, 012.0063, 012.0221, 032.0373, 045.0119) are listed in tags-p3-a.tsv. %%
+%% 2026-10-21T22:16:56 RSR: It is Gioia's house: «En passant la villa de Gioia… C'est là que… je l'ai vu assis avec elle» (005.0186); «je n'ai jamais vu l'intérieur» (035.0001); on the Promenade next to the villa Léon (024.0187). Untagged paragraphs that name it (011.0300, 012.0063, 012.0221, 032.0382, 045.0119) are listed in tags-p3-a.tsv. %%

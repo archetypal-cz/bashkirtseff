@@ -39,7 +39,7 @@ Marie sees, sings and plays it from her first Nice winter (1873) onward, and its
 - **22 September 1873.** She is told that the Duke of Hamilton once hired a whole theatre for a performance (009.0300).
 - **30 October 1873.** She and Bête talk of "l'Orphée, Belle Hélène, grande-duchesse et Château à Toto" without a pause (011.0354).
 - **7 April 1874, Nice.** "Je raffole en ce moment de La Belle Hélène. Je la chante et je la joue. 'Au cabaret du labyrinthe etc.'" (018.0189). On 13 May 1874 she contrasts its supposed immorality with the true depravity of another play (019.0198).
-- **30 April 1875.** She sees it again with Marie, Olga, her aunt and Louba, badly dressed (032.0206). On 9-10 May she cites "la Fatalité" and "Si l'Olympe veut ma chute... comme dit la Belle Hélène" in her struggle over the Audiffret marriage plan (032.0357, 032.0393).
+- **30 April 1875.** She sees it again with Marie, Olga, her aunt and Louba, badly dressed (032.0206). On 9-10 May she cites "la Fatalité" and "Si l'Olympe veut ma chute... comme dit la Belle Hélène" in her struggle over the Audiffret marriage plan (032.0366, 032.0402).
 - **18 August 1875.** She feels she should be painted "en Belle Hélène" (039.0110); on 22 September Fiouloulou asks, "Avez-vous vu La Belle Hélène ?" (044.0069).
 - **8 November 1876, Gavrontsi.** At the piano she plays the "lecture de la lettre de Vénus" (067.0894), and on 18 November in Paris sees it with Judic (067.1058, footnote); on the 21st she tells her mother she is like the Belle Hélène who sings "Amour divin, ardente flamme" (067.1110, footnote).
 - **5 May 1881, Paris.** One of the operettas listed as "insipide" in the later style (091.0564).

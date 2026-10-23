@@ -14,7 +14,7 @@ last_updated: 2026-10-22
 
 ## Overview
 
-The country house near Spa of the art dealer Ernest Gambart (Wikipedia, «Ernest Gambart», per the RSR note at 023.0224; cf. 021.0385): gardens «très bien arrangées et beaux» with ornamental ponds, where Gambart receives the Spa summer colony.
+The country house near Spa of the art dealer Ernest Gambart (Wikipedia, «Ernest Gambart», per the RSR note at 023.0224; cf. 021.0391): gardens «très bien arrangées et beaux» with ornamental ponds, where Gambart receives the Spa summer colony.
 
 ## In Marie's diary
 

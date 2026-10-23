@@ -23,11 +23,11 @@ ISBNs and legal-deposit dates are read from the copyright page of each volume in
 | 15 | 2-9518398-4-7 | 978-2-9518398-4-7 | 2e trim. 2005 |
 | 16 | 2-9518398-5-5 | 978-2-9518398-5-4 | 4e trim. 2005 |
 
-## Pages we still need from the printed book (ledger E-13)
+## Pages once missing from our scans (ledger E-13, closed 2026-10-23)
 
-The scan page images are too blurred to read these with confidence. An interlibrary loan was requested by the owner on 2026-10-23.
+Our `content/_raw/scans/Tome3–5.pdf` carry downsampled page images (e.g. 412×603 px per page), too blurred to read in places. The owner's copy of the same scans is sharp. Two passages lost at page breaks were transcribed from the owner's page images on 2026-10-23:
 
-- **Tome IV** (ISBN 2-9509213-3-7), entry of 17 July 1874 (carnet 021, Spa): scan p. 34, the blurred bottom ~22 lines after «…la mienne. Il ne cherche», and p. 35 («ou Oshnar. Tout le monde est pris.»). Best-effort reading: `.claude/reports/scan-check-2026-10-09/thin-pages.json`.
-- **Tome V** (ISBN 2-9509213-4-5), entry of 2 May 1875 (carnet 032): scan p. 47, ~23 lines after «Allons chez Krohn !», and the top of p. 48 (paragraph 032.0225 «un banc, …» starts mid-sentence).
+- **Tome IV** (ISBN 2-9509213-3-7), 17 July 1874 (carnet 021, Spa), printed p. 34: now 021.0366 (tail) – 021.0372.
+- **Tome V** (ISBN 2-9509213-4-5), 2 May 1875 (carnet 032), printed p. 46: now 032.0225 – 032.0234.
 
-Scan page numbers may differ from the printed page numbers; the dates and quotations locate the passages.
+For any other illegible spot in tomes 3–5, ask the owner for the page from the sharp copy before ordering the printed book.

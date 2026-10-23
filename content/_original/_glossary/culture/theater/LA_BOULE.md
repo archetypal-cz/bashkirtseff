@@ -31,7 +31,7 @@ full_text:
 Marie met the play at the French theatre in Nice (Théâtre Français), a few months after the Paris premiere; the diary does not say who staged it.
 
 - **1875-03-19 (030.0260):** "Salle vide et stupide, mais on donne «La Boule» et ce que j'eus le temps d'en voir m'a paru amusant." She saw only part of it.
-- **1875-05-14 (032.0457):** "Le soir au Français on donne «La Boule» et Ravel joue." ("Ravel" is an actor of the Nice company, presumably; he is not in the Palais-Royal cast of 1874). She notes she is "en blanc et jolie, pourquoi ?"
+- **1875-05-14 (032.0466):** "Le soir au Français on donne «La Boule» et Ravel joue." ("Ravel" is an actor of the Nice company, presumably; he is not in the Palais-Royal cast of 1874). She notes she is "en blanc et jolie, pourquoi ?"
 - **1875-06-18 (034.0399):** she answers her family's repeated retelling of the story of her birth and childhood sayings "par la phrase que Tiste répète tant de fois dans La Boule" -- the quotation itself is missing from the text (paragraph 034.0400 reads only "La première fois que je l'ai rencontrée, etc.").
 
 ## Open question

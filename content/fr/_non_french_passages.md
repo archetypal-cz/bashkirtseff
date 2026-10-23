@@ -588,10 +588,10 @@ They need AI translation into French.
 - **021/1874-07-14.md** para 021.0293 [RUSSIAN]: %% 2026-01-30T13:03:06 LAN: RUSSIAN proverb - "On s'instruit a tout age" - One learns at any age; Marie's self-reproach for naivete %%
 - **021/1874-07-16.md** para 021.0318 [RUSSIAN]: %% 2026-01-30T13:10:15 LAN: RUSSIAN: "*si bon*" - Marie notes Russian expresses this better; code-switch marker %%
 - **021/1874-07-17.md** para 021.0363 [ENGLISH]: %% 2026-01-30T13:10:38 LAN: ENGLISH "roast-beef" - English term kept in French, fashionable anglicism %%
-- **021/1874-07-17.md** para 021.0369 [RUSSIAN]: %% 2026-01-30T13:10:47 LAN: RUSSIAN "Douchenka" - diminutive of "dusha" (soul), term of endearment meaning "little soul/darling" %%
-- **021/1874-07-22.md** para 021.0481 [RUSSIAN]: %% 2026-01-30T13:11:38 LAN: RUSSIAN "Douchenka" - little soul/darling; Gericke uses Marie's Russian nickname %%
-- **021/1874-07-22.md** para 021.0498 [RUSSIAN]: %% 2026-01-30T13:11:44 LAN: RUSSIAN "moujik" - peasant; mother's contemptuous comparison %%
-- **021/1874-07-23.md** para 021.0564 [ENGLISH]: %% 2026-01-30T13:12:10 LAN: ENGLISH "However" - code-switch to English for transition/emphasis %%
+- **021/1874-07-17.md** para 021.0375 [RUSSIAN]: %% 2026-01-30T13:10:47 LAN: RUSSIAN "Douchenka" - diminutive of "dusha" (soul), term of endearment meaning "little soul/darling" %%
+- **021/1874-07-22.md** para 021.0487 [RUSSIAN]: %% 2026-01-30T13:11:38 LAN: RUSSIAN "Douchenka" - little soul/darling; Gericke uses Marie's Russian nickname %%
+- **021/1874-07-22.md** para 021.0504 [RUSSIAN]: %% 2026-01-30T13:11:44 LAN: RUSSIAN "moujik" - peasant; mother's contemptuous comparison %%
+- **021/1874-07-23.md** para 021.0570 [ENGLISH]: %% 2026-01-30T13:12:10 LAN: ENGLISH "However" - code-switch to English for transition/emphasis %%
 - **021/1874-07-23.md** para withdrawn in the 2026-09 rebuild (old carnet 021 ¶0517; see content/_renumber/021-2026-09-28.json) [ENGLISH]: %% 2026-01-30T13:12:13 LAN: ENGLISH "H.G.t.D.o.H." - His Grace the Duke of Hamilton; Marie's secret code %%
 - **022/1874-07-26.md** para 022.0111 [ENGLISH]: %% 2026-01-30T13:12:41 LAN: ENGLISH "That is the question" - Shakespeare's Hamlet; literary code-switch %%
 - **022/1874-07-26.md** para 022.0111 [ITALIAN]: %% 2026-01-30T13:12:42 LAN: ITALIAN "crescendo" - musical term; growing, increasing intensity %%
@@ -857,12 +857,12 @@ They need AI translation into French.
 - **032/1875-04-24.md** para 032.0103 [RUSSIAN]: %% 2026-01-30T16:10:00 LAN: CODE-SWITCH RUSSIAN/LITURGICAL: "Ta resurrection Seigneur" - Orthodox Easter hymn "Voskreseniye Tvoye" (Your Resurrection, Lord) %%
 - **032/1875-04-24.md** para 032.0111 [ITALIAN]: %% 2026-01-30T16:10:00 LAN: CODE-SWITCH ITALIAN: "Cena" - the (Last) Supper; Marie uses Italian because she doesn't know the French term "la Cene" %%
 - **032/1875-04-25.md** para 032.0122 [LATIN]: %% 2026-01-30T16:10:00 LAN: CODE-SWITCH LATIN: "In nomine Patris et Filii et Spiritus sancti. Amen" - In the name of the Father, Son and Holy Spirit. Amen; liturgical formula used humorously to confirm her gluttony %%
-- **032/1875-05-05.md** para 032.0264 [RUSSIAN]: %% 2026-01-30T16:20:00 LAN: RUSSIAN: "botvinia" - cold Russian soup made from kvass with beet greens %%
-- **032/1875-05-05.md** para 032.0279 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "fast" - English word meaning bold, forward, of loose morals (for a woman) %%
-- **032/1875-05-05.md** para 032.0279 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "Take your fat carcase out of the way" - vulgar English insult; "carcase" is coarse for body %%
-- **032/1875-05-05.md** para 032.0289 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "the fat carcase" - Marie repeats the English insult, adopting it ironically %%
-- **032/1875-05-08.md** para 032.0341 [ENGLISH]: %% 2026-01-30T16:30:00 LAN: CODE-SWITCH ENGLISH: "he stared at me" - Marie switches to English for emphasis %%
-- **032/1875-05-13.md** para 032.0417 [ENGLISH]: %% 2026-01-30T16:30:00 LAN: CODE-SWITCH ENGLISH: "Pas love mais like" - Marie clarifies romantic vs. friendly feelings in English %%
+- **032/1875-05-05.md** para 032.0273 [RUSSIAN]: %% 2026-01-30T16:20:00 LAN: RUSSIAN: "botvinia" - cold Russian soup made from kvass with beet greens %%
+- **032/1875-05-05.md** para 032.0288 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "fast" - English word meaning bold, forward, of loose morals (for a woman) %%
+- **032/1875-05-05.md** para 032.0288 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "Take your fat carcase out of the way" - vulgar English insult; "carcase" is coarse for body %%
+- **032/1875-05-05.md** para 032.0298 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "the fat carcase" - Marie repeats the English insult, adopting it ironically %%
+- **032/1875-05-08.md** para 032.0350 [ENGLISH]: %% 2026-01-30T16:30:00 LAN: CODE-SWITCH ENGLISH: "he stared at me" - Marie switches to English for emphasis %%
+- **032/1875-05-13.md** para 032.0426 [ENGLISH]: %% 2026-01-30T16:30:00 LAN: CODE-SWITCH ENGLISH: "Pas love mais like" - Marie clarifies romantic vs. friendly feelings in English %%
 - **033/1875-05-17.md** para 033.0016 [ITALIAN]: %% 2026-01-30T16:30:00 LAN: CODE-SWITCH ITALIAN: "inammorati" - lovers (Italian word for romantic couple) %%
 - **033/1875-05-20.md** para 033.0081 [ITALIAN]: %% 2026-01-30T16:40:00 LAN: ITALIAN "a piu non posso" - to the utmost, as much as possible %%
 - **033/1875-05-20.md** para 033.0081 [ITALIAN]: %% 2026-01-30T16:40:00 LAN: ITALIAN "femmina celeberrima" - most famous woman (superlative) %%

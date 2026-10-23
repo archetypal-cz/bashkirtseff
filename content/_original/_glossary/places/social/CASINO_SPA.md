@@ -17,8 +17,8 @@ The casino of the Belgian spa town of Spa: ballroom, billiard room, reading room
 ## In Marie's diary
 
 - 1874-06-25 (020.0399): first impression; 06-28 (020.0419): billiards with Paul; 06-29 (020.0437, 020.0445): the evening dance with Basilévitch and Viviani.
-- 1874-07-04 (020.0541): the ball; 07-07 (021.0040): Paul introduces Miss Row, «une charmante petite Américaine»; 07-12 (021.0168): empty, so they hire a pianist and improvise a dance; 07-19 (021.0427): the Merjeewsky countess beside her mother.
-- 1874-07-22 (021.0514): her first gift, a fan, shown at the casino; 08-06 (022.0419) and 08-10 (023.0074): the last visits (on 10 August she dresses in the casino cloakroom and goes on to the theatre in travelling dress).
+- 1874-07-04 (020.0541): the ball; 07-07 (021.0040): Paul introduces Miss Row, «une charmante petite Américaine»; 07-12 (021.0168): empty, so they hire a pianist and improvise a dance; 07-19 (021.0433): the Merjeewsky countess beside her mother.
+- 1874-07-22 (021.0520): her first gift, a fan, shown at the casino; 08-06 (022.0419) and 08-10 (023.0074): the last visits (on 10 August she dresses in the casino cloakroom and goes on to the theatre in travelling dress).
 - 1874-08-17 (023.0186): Doenhoff said at Spa, seeing her enter the casino, «voilà une enfant comme il faut».
 
 See [Spa](../cities/SPA.md), [Pouhon](../landmarks/POUHON.md), [Kirch](../../people/mentioned/KIRCH.md).
