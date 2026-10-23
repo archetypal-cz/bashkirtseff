@@ -145,12 +145,7 @@ Berthe's trajectory illustrates the precariousness of women's social position in
 - [#Cassagnac](CASSAGNAC.md) - The masked visit episodes
 - [#Baden_Baden](../../places/travel/BADEN_BADEN.md) - Where Marie first met her
 
-%% 2025-06-30T21:30:00 RSR: Created entry for Berthe based on September 1873 references %%
 %% 2025-12-07T15:30:00 RSR: Updated with Book 00 information confirming identity as Berthe Boyd, adding Baden-Baden childhood encounter details, and establishing the painful social exclusion theme that would mark Marie's life %%
-%% 2026-05-24T10:00:00 RSR: Expanded to Comprehensive. Full diary arc traced across carnets 000-095 (1870-1882). Added: married name (Mme Lancaster-Johnstone, per Kernberger 2013); Boyd family members (Blanche, Yorke, Edith, Mme Boyd); six chronological phases from Baden-Baden childhood through scandal and rehabilitation; the Cassagnac masked adventures and "Georges" codename; Marie's assessment of their non-friendship; physical description; Hamilton racehorse named "Berthe"; elopement, marriage failure, and social rehabilitation. Sources: Kernberger (2013), diary entries across 49 carnets. %%
+%% 2026-05-24T10:00:00 RSR: Full diary arc traced across carnets 000-095 (1870-1882). Added: married name (Mme Lancaster-Johnstone, per Kernberger 2013); Boyd family members (Blanche, Yorke, Edith, Mme Boyd); six chronological phases from Baden-Baden childhood through scandal and rehabilitation; the Cassagnac masked adventures and "Georges" codename; Marie's assessment of their non-friendship; physical description; Hamilton racehorse named "Berthe"; elopement, marriage failure, and social rehabilitation. Sources: Kernberger (2013), diary entries across 49 carnets. %%
 
 %% 2026-10-22T13:05:00 RSR: (glossary-owner-questions: BERTHE alias «Georges») The identification is right: «Georges» is Berthe's name in the masked-tea game of January-February 1878, «La colonelle Dina, Georges Berthe, Yorke la novice et de Daillens…» (077.0446), «Toi… Georges, tu as ce qu'il te faut… tu as trouvé ton homme» (077.0473, 077.0475), the letter «Signé : Suzanne, Georges» (078.0124); all four paragraphs carry the Berthe tag. The bare alias «Georges» was removed from the frontmatter: it would auto-tag Berthe on every mention of Marie's uncle Georges Babanine (people/family/GEORGES). The nickname stays documented in the body. %%
-
-%% 2026-10-22T20:51:32 RSR: Merged BERTHE_LANCASTER (no content kept: empty stub) %%
-
-%% 2026-10-22T20:51:37 RSR: Merged MME_LANCASTER (no content kept: empty stub) %%

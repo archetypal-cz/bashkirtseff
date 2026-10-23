@@ -23,4 +23,4 @@ Théodore Rousseau (1812–1867), landscape painter, leading figure of the Barbi
 
 The entry is filed under culture/art but is a person (move to people/artists listed for the lead).
 
-%% 2026-10-22T14:33:33 RSR: B-67 (4): body written (Théodore Rousseau, 0.85 from the company he keeps in all three lists); 100.0161 and 103.0046 tagged. %%
+%% 2026-10-22T14:33:33 RSR: 100.0161 and 103.0046 tagged. %%

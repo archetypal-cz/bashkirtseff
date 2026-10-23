@@ -44,4 +44,4 @@ On **22 November 1883** she gives her verdict to a correspondent: « Je vous aba
 [Les Foins](./LES_FOINS.md), [Le Père Jacques](./LE_PERE_JACQUES.md), [Jeanne d'Arc (Bastien-Lepage)](./JEANNE_D_ARC_BASTIEN_LEPAGE.md).
 
 %% GLO_SAISON_D_OCTOBRE.9000 %%
-%% 2026-10-10T20:00:00 RSR: Created batch 07. NGV record gives 1878 (Felton Bequest 1928). Salon 1879 from the existing diary footnote 102.0310 (not re-verified). %%
+%% 2026-10-10T20:00:00 RSR: NGV record gives 1878 (Felton Bequest 1928). Salon 1879 from the existing diary footnote 102.0310 (not re-verified). %%

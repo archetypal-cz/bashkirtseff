@@ -15,6 +15,3 @@ replaced_by: DUGUE
 
 %% GLO_DUGUE_DE_LA_FAUCONNERIE.0001 %%
 **Retired.** Merged into [#DUGUE](DUGUE.md) (`people/mentioned/DUGUE.md`); use that entry instead.
-
-%% GLO_DUGUE_DE_LA_FAUCONNERIE.0002 %%
-%% 2026-10-21T21:18:57 RSR: Retired by glossary-merge; content and links moved to DUGUE. replaced_by: people/mentioned/DUGUE.md. %%

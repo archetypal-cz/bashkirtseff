@@ -20,4 +20,4 @@ Granada in Andalusia, which Marie calls «Grenade». She visits it on her Spanis
 
 - 1881-08-18 (092.0435, margin): «<u>il y a tableau à Grenade,</u> bohémienne assise avec enfants sur ses genoux, le nourrisson, d'autres debout, bref un de ces groupes *naturels* et merveilleux qu'on ne trouve que là.» (A note to self written some six weeks before the Spanish journey.)
 
-%% 2026-10-22T21:34:40 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One tagged paragraph plus the later list at 095.0192; Mon Journal t.14 also indexes Boabdil, last Arab king of Granada, p. 243. %%
+%% 2026-10-22T21:34:40 RSR: One tagged paragraph plus the later list at 095.0192; Mon Journal t.14 also indexes Boabdil, last Arab king of Granada, p. 243. %%

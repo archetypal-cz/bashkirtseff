@@ -23,4 +23,4 @@ Oceana Renz (dates unconfirmed) was a celebrated tightrope dancer associated wit
 
 Wikipedia: [Ernst Renz](https://en.wikipedia.org/wiki/Ernst_Renz); Alamy photo caption (Madame Oceana Renz, c. 1885).
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-06-05.md. "Océana" on the tightrope at the Paris circus, June 5, 1880 — identified as Oceana Renz, circus performer and wife of Ernst Renz Jr. (Zirkus Renz). The TR comment in the entry already identified her as "a famous tightrope performer at the circus." Source: Wikipedia (Ernst Renz article), Alamy photo caption. %%
+%% 2026-05-31T12:00:00 RSR: "Océana" on the tightrope at the Paris circus, June 5, 1880 — identified as Oceana Renz, circus performer and wife of Ernst Renz Jr. (Zirkus Renz). The TR comment in the entry already identified her as "a famous tightrope performer at the circus." Source: Wikipedia (Ernst Renz article), Alamy photo caption. %%

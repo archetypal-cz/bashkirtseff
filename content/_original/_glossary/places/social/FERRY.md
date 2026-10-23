@@ -50,5 +50,3 @@ Without further mentions in the diary, it's difficult to determine whether Ferry
 The possessive construction "bottines de Ferry" could indicate either that the boots were made by someone named Ferry or that they were purchased from a shop called Ferry.
 
 In the context of Nice in the 1870s, it's most likely that Ferry was either a local artisan bootmaker or a shop specializing in quality footwear, catering to the wealthy international clientele that frequented the French Riviera during this period.
-
-%% 2025-04-05T22:10:00 RSR: Created entry based on mention in September 18, 1873 diary entry %%

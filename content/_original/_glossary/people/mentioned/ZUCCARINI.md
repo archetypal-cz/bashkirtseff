@@ -24,4 +24,4 @@ The "late Duke of Parma" is almost certainly **Charles III, Duke of Parma** (182
 
 - 1884-07-10 (paras 105.0105-0113): dinner guest; detailed physical/biographical sketch by Marie
 
-%% 2026-07-06T21:00:00 RSR: Created per report-triage flag (2026-07-06 session) — diary-only figure; the paragraph text itself is the primary source, no external identification found beyond the general historical context of the exiled Parma ducal court in Nice. %%
+%% 2026-07-06T21:00:00 RSR: The paragraph text itself is the primary source, no external identification found beyond the general historical context of the exiled Parma ducal court in Nice. %%

@@ -21,5 +21,3 @@ He never appears in person; Marie knows him from his wife's family and shares th
 ## References in Diary
 
 094.0262 (tagged); also 062.0299, 067.1454, 068.0913, 085.0094-0095, 105.0262 (untagged).
-
-%% 2026-10-22T14:30:00 RSR: Stub replaced (phase 4, WYKERSLOOTH kept separate as the husband). %%

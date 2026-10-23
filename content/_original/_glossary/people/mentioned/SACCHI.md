@@ -11,7 +11,6 @@ last_updated: 2026-05-31
 ---
 # Sacchi
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (June 1873, Nice)
 
@@ -27,4 +26,4 @@ The owner of a villa adjacent to the Patton property in Nice who was attempting 
 
 Italian surname "Sacchi" is common in Nice, which had significant Italian population after annexation from Sardinia in 1860. His criminal legal trouble ("affaire criminelle") is not specified.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real person — villa owner in Nice attempting emergency sale due to criminal proceedings, June 1873. %%
+%% 2026-05-31T12:00:00 RSR: Real person — villa owner in Nice attempting emergency sale due to criminal proceedings, June 1873. %%

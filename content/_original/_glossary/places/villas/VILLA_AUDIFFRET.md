@@ -11,7 +11,6 @@ last_updated: 2026-05-31
 ---
 # Villa Audiffret
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnets 005, 011, later carnets (1873–, Nice)
 
@@ -32,4 +31,4 @@ In a later context (June 12, 1873, 005.0240), the Bashkirtseffs visit "villa Aud
 
 The Audiffret family was well established in Nice aristocratic circles. The villa was a regular destination during the Bashkirtseff family's villa-hunting season in 1873.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real villa — considered by the Bashkirtseff family for rental in Nice, 1873. Distinct from person EMILE_D_AUDIFFRET. %%
+%% 2026-05-31T12:00:00 RSR: Real villa — considered by the Bashkirtseff family for rental in Nice, 1873. Distinct from person EMILE_D_AUDIFFRET. %%

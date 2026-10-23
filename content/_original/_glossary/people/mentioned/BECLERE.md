@@ -31,4 +31,4 @@ This identification is **not confirmed** by any secondary source found; it rests
 
 Sources consulted: Wikipedia and French Wikipedia articles on Antoine Béclère; no primary-source confirmation of identity with Marie's "petit Béclère" found.
 
-%% 2026-07-06T21:00:00 RSR: Created per report-triage flag (2026-07-06 session). Identity flagged as unconfirmed — WebSearch found Antoine Béclère's career timeline plausible but no direct link to Bashkirtseff's diary in any source consulted. %%
+%% 2026-07-06T21:00:00 RSR: Identity flagged as unconfirmed — WebSearch found Antoine Béclère's career timeline plausible but no direct link to Bashkirtseff's diary in any source consulted. %%

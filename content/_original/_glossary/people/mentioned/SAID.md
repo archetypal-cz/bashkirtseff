@@ -43,5 +43,3 @@ Based on the limited information available, Saïd might have been:
 4. A household servant with duties that required him to be seen by visitors, thus necessitating a livery
 
 Without further mentions in the diary, it's difficult to determine Saïd's exact role in the household. However, the fact that Marie was ordering a livery for him indicates he had some visibility or public-facing role that required formal attire.
-
-%% 2025-04-05T22:05:00 RSR: Created entry based on mention in September 17, 1873 diary entry %%

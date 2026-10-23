@@ -21,6 +21,4 @@ A regular of her father's Poltava circle in September-October 1876: he spends a 
 - First mentioned: 1876-09-06 (066)
 - 1876-09-24, 1876-10-04, 1876-10-06 (066); 1876-10-13 (067.0018)
 
-%% 2026-10-21T09:31:34 RSR: Created for the husband because no person file existed: places/cities/VOLKOVITSKY.md is a misfiled entry for Mme Volkovitsky (1880 Paris dinner), a duplicate of people/mentioned/MME_VOLKOVITSKY.md; logged in the open-items ledger. %%
-
-%% 2026-10-23T09:50:43 RSR: Merged WOLKOWITSKY (no content kept: empty stub) %%
+%% 2026-10-21T09:31:34 RSR: Places/cities/VOLKOVITSKY.md is a misfiled entry for Mme Volkovitsky (1880 Paris dinner), a duplicate of people/mentioned/MME_VOLKOVITSKY.md; logged in the open-items ledger. %%

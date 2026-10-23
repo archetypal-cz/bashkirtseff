@@ -25,9 +25,8 @@ Sarah Purser (1848-1943), Irish painter, a pupil at the Académie Julian in 1878
 
 084.0605, 084.0606, 084.0674, 084.0678, 084.0679, 084.0692; 086.0477; 094.0091 (the 1879 paragraphs are tagged SARAH; to be merged here).
 
-%% 2026-10-22T15:30:00 RSR: Stub replaced (phase 4, SARAH / SARAH_PURSER); page matches checked on Tome12.pdf and Tome13.pdf. %%
+%% 2026-10-22T15:30:00 RSR: Page matches checked on Tome12.pdf and Tome13.pdf. %%
 
-%% 2026-10-22T12:31:15 RSR: Merged SARAH (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
 
 ## Not Sarah Bernhardt
 

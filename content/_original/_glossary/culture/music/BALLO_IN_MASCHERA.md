@@ -40,5 +40,5 @@ Rome and its carnival masked balls are the subject of the preceding months of he
 - Wikipedia, ["Un ballo in maschera"](https://en.wikipedia.org/wiki/Un_ballo_in_maschera).
 - IMSLP, [Un ballo in maschera (Verdi, Giuseppe)](https://imslp.org/wiki/Un_ballo_in_maschera_(Verdi,_Giuseppe)).
 
-%% 2026-02-10T18:00:00 RSR: Created entry. Verdi opera performed at Nice opera, December 1876. %%
-%% 2026-10-10T12:00:00 RSR: Enriched in place (works batch 02). The duplicate places/theaters/UN_BALLO_IN_MASCHERA.md (a Place-type file) covers the Jan 1873 performance and should be merged into this entry. 067.1403 (in the inventory) does not mention the opera in its visible text: it is a Nice return-to-the-city paragraph whose long comment is from the extraction; treat as a false hit. %%
+%% 2026-02-10T18:00:00 RSR: Verdi opera performed at Nice opera, December 1876. %%
+%% 2026-10-10T12:00:00 RSR: The duplicate places/theaters/UN_BALLO_IN_MASCHERA.md (a Place-type file) covers the Jan 1873 performance and should be merged into this entry. 067.1403 (in the inventory) does not mention the opera in its visible text: it is a Nice return-to-the-city paragraph whose long comment is from the extraction; treat as a false hit. %%

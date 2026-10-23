@@ -48,9 +48,8 @@ After the Duke of Hamilton's death in 1895 (from alcoholism-related illness), La
 - [#Duchess_of_Manchester](DUCHESS_OF_MANCHESTER.md) -- Possibly her mother
 
 %% GLO_LADY_MARY_MONTAGU.0011 %%
-%% 2026-02-10T12:00:00 RSR: Enriched from stub. Lady Mary Montagu married the Duke of Hamilton on 10 December 1873, becoming the woman who claimed the man Marie had fantasized about throughout early 1873. Historical details from thepeerage.com, NPG, and Wikipedia. %%
+%% 2026-02-10T12:00:00 RSR: Lady Mary Montagu married the Duke of Hamilton on 10 December 1873, becoming the woman who claimed the man Marie had fantasized about throughout early 1873. Historical details from thepeerage.com, NPG, and Wikipedia. %%
 
-%% 2026-10-22T12:28:15 RSR: Merged DUCHESS_OF_HAMILTON (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
 
 %% GLO_LADY_MARY_MONTAGU.0012 %%
 ## Not the dowager duchess

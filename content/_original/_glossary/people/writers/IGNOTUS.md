@@ -22,4 +22,4 @@ Two of his *Figaro* portraits of Cardinal Giacomo Antonelli, the uncle of Pietro
 - First mentioned: 1876-06-27 (062.0766, signature of the clipping)
 - 1876-12-11 (067.1602, 067.1611)
 
-%% 2026-10-21T11:48:22 RSR: Created from the restored clipping 062.0754–062.0766. In the June article Ignotus says he was twenty-four at his first audience with the cardinal (062.0754), which with a birth year of 1832 dates his Roman mission to about 1856. The exact issue dates of both articles were not checked on Gallica. %%
+%% 2026-10-21T11:48:22 RSR: In the June article Ignotus says he was twenty-four at his first audience with the cardinal (062.0754), which with a birth year of 1832 dates his Roman mission to about 1856. The exact issue dates of both articles were not checked on Gallica. %%

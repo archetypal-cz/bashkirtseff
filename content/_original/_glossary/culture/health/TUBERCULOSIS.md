@@ -80,4 +80,4 @@ TB had a peculiar cultural mystique in the 19th century. It was associated with 
 - Increasingly dominant theme through 1882-1884
 - Prefigured by family history: Mme Brenne died of "phtisie" in Crimea in 1868 (carnet 000)
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Marie's tuberculosis is the central medical and existential thread of the diary's later years. %%
+%% 2026-02-10T20:00:00 RSR: Marie's tuberculosis is the central medical and existential thread of the diary's later years. %%

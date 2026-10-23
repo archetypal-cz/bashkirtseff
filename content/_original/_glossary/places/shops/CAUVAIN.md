@@ -22,4 +22,4 @@ On 29 September 1874, among the day's shopping errands (a cup at Baccarat, a hor
 
 - 1874-09-29 (024.0160), the only tagged paragraph.
 
-%% 2026-10-22T20:42:00 RSR: Body written. NOT A PERSON; category/shop question for the lead. The trade (porcelain/glass) is inferred from «services de table», not stated. %%
+%% 2026-10-22T20:42:00 RSR: NOT A PERSON; category/shop question for the lead. The trade (porcelain/glass) is inferred from «services de table», not stated. %%

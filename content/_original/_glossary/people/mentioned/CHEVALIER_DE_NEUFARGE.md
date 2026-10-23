@@ -15,6 +15,3 @@ replaced_by: NEUFARGE
 
 %% GLO_CHEVALIER_DE_NEUFARGE.0001 %%
 **Retired.** Merged into [#NEUFARGE](NEUFARGE.md) (`people/mentioned/NEUFARGE.md`); use that entry instead.
-
-%% GLO_CHEVALIER_DE_NEUFARGE.0002 %%
-%% 2026-10-22T20:53:49 RSR: Retired by glossary-merge; content and links moved to NEUFARGE. replaced_by: people/mentioned/NEUFARGE.md. %%

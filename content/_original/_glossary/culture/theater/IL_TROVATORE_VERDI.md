@@ -44,4 +44,4 @@ full_text:
 - Wikipedia, ["Il trovatore"](https://en.wikipedia.org/wiki/Il_trovatore).
 - Libretto (Internet Archive), IMSLP.
 
-%% 2026-10-10T21:31:00 RSR: New entry (works batch 01). Supersedes the auto-stub people/mentioned/IL_TROVATORE.md. 028.0090 left out of the verified mentions (doubtful). %%
+%% 2026-10-10T21:31:00 RSR: 028.0090 left out of the verified mentions (doubtful). %%

@@ -47,4 +47,4 @@ Sources checked: the diary for 1882-83 (carnets 094-100); the Mon Journal t.14 a
 - 1882-04-23 (094.0437): brought from Nice to Paris.
 
 %% GLO_FELIX_SAID.0012 %%
-%% 2026-10-22T13:07:46 RSR: Empty stub replaced from 094.0437 and the t.14 index; links to Fortuné Saïd and to Louis left open (identity_uncertain). Only 094.0437 is tagged; 100.0078 names Louis and Fortuné Saïd and is tagged CHOCOLAT and LOUIS_THIBAUDIN, correctly. %%
+%% 2026-10-22T13:07:46 RSR: Only 094.0437 is tagged; 100.0078 names Louis and Fortuné Saïd and is tagged CHOCOLAT and LOUIS_THIBAUDIN, correctly. %%

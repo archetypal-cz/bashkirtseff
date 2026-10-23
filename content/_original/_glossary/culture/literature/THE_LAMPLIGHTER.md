@@ -33,4 +33,4 @@ Marie was reading *The Lamplighter* (or more precisely, a companion novel by the
 
 "Mabel Vaughan" (1857), the book Marie actually lost, is a later novel by Maria Cummins. Marie identifies it by reference to the more famous *The Lamplighter*, showing familiarity with the Cummins corpus. Both books were widely circulated in French and English reading circles in the 1870s.
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken UK link. Sources: Wikipedia "The Lamplighter"; Gutenberg text. %%
+%% 2026-05-31T12:00:00 RSR: Sources: Wikipedia "The Lamplighter"; Gutenberg text. %%

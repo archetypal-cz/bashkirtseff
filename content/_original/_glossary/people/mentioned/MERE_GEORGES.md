@@ -25,4 +25,4 @@ She plays an inadvertent matchmaking role, seating Marie and Audiffret next to e
 - Claims to have known Marie "depuis toute petite" (since she was very small)
 - Also claims to have known Audiffret ("M. Emile") since childhood
 
-%% 2026-02-10T17:30:00 RSR: Created stub. Minor character, appears only in 1875-07-09. %%
+%% 2026-02-10T17:30:00 RSR: Minor character, appears only in 1875-07-09. %%

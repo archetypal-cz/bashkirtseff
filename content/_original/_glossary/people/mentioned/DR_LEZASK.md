@@ -17,5 +17,3 @@ Dr Lezask (Marie also writes Lezaak), the physician called in when her mother fa
 - 1874-07-11 (021.0139): after a scene with her brother, her mother has a nervous attack: «On appela Lezaak mais dans une heure, comme par enchantement, elle était au bal avec la robe grise Worth.»
 
 No first name or address found.
-
-%% 2026-10-22T21:32:38 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

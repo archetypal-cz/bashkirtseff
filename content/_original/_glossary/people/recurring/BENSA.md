@@ -44,12 +44,9 @@ Marie's playful interactions with him suggest she felt comfortable enough to tea
 
 In the 1870s, young women of Marie's social class would typically receive education from private tutors rather than attending schools. Marie's educational program was unusually extensive for a young woman of her time, including multiple languages, sciences, music, and art. Teachers like Bensa would have been hired by wealthy families to provide this private education.
 
-%% 2025-04-05T21:40:00 RSR: Created entry based on mentions in September 1873 diary entries %%
 %% 2026-02-11T12:45:00 RSR: Per Kernberger (2013), François Bensa (1811-1885) was Marie's art teacher in Nice. This confirms he was an art instructor, not merely a tutor arranging other professors. %%
 
-%% 2026-10-22T22:10:19 RSR: Merged DUKE_OF_BENSA (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## «Le duc de Bensa»
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 The household jokingly called him «le duc»: the Mon Journal t.3 index has «Bensa (M.) [dit le duc], professeur de dessin, 94». In Marie's evening satire of 2 March 1874: «Le duc de Bensa, la marquise Samels et le comte d'Abrial sur le fauteuil rouge et les deux verts» (017.0119); and on 13 October 1877 she tells Robert-Fleury of her childish lessons four years earlier, «on me faisait copier des gravures (avec Bensa !!!)» (075.0250).

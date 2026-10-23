@@ -47,4 +47,4 @@ Russian colonies in Western Europe maintained their own Orthodox churches:
 - [#Nice](../cities/NICE.md) - Where the family worshipped
 - [#Paris](../cities/PARIS.md) - Another city with Russian Orthodox churches
 
-%% 2026-02-10T14:55:00 RSR: Expanded from one-line stub. Exact identification uncertain; may refer to different churches in different diary periods. %%
+%% 2026-02-10T14:55:00 RSR: Exact identification uncertain; may refer to different churches in different diary periods. %%

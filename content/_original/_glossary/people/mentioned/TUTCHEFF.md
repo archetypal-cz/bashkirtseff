@@ -12,7 +12,6 @@ last_updated: 2026-10-22
 
 The Tutcheffs of Nice: Sophie Grigorievna Tutcheff, née Bashkirtseff, and her husband. Marie calls Mme Tutcheff «la sœur de mon père» (068.0214), so she is Marie's **paternal** aunt; Kernberger (2013, glossary) calls her maternal, but this glossary follows Marie. Full entry: [Sophie Tutcheff](SOPHIE.md).
 
-%% 2026-10-21T22:56:43 RSR: Merged content from TUTSCHEFF %%
 
 **Research Status**: Basic
 **Last Updated**: 2025-12-07
@@ -40,7 +39,6 @@ Marie's mother's comment suggests she saw this as a real setback in their social
 
 ---
 
-%% 2026-02-04T06:46:49.496Z RSR: Merged content from TUTCHEFF %%
 
 # Les Tutcheff
 
@@ -63,7 +61,5 @@ Russian family that Marie's mother considers as an alternative living arrangemen
 - Symbol of retreat from Nice society when social pressures become unbearable
 - Mother's suggestion indicates level of desperation about their social isolation
 
-%% 2026-10-22T22:13:10 RSR: Merged TUTCHEFF_FAMILY (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 - 24 October 1874 (merged entry TUTCHEFF_FAMILY): on the family's isolation in Nice, «Les Tutcheff, mes chers parents, mon cher oncle, ma chère tante ont fait tout ce qu'ils ont pu pour nous faire regarder de travers» (024.0395).

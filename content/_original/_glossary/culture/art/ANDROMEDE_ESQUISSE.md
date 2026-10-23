@@ -53,4 +53,4 @@ Four days earlier, on 4 April, talking about [#Bastien_Lepage](../../people/recu
 - Diary paragraphs 103.0705, 103.0721, 103.0775 in `content/_original/`.
 
 %% GLO_ANDROMEDE_ESQUISSE.0011 %%
-%% 2026-10-10T21:33:00 RSR: Created in the works glossary wave (W598). Bastien-Lepage's own Andromède is a separate work (not in this batch). %%
+%% 2026-10-10T21:33:00 RSR: Bastien-Lepage's own Andromède is a separate work (not in this batch). %%

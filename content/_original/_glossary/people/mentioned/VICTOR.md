@@ -29,4 +29,4 @@ Her companion on walks along the Promenade, admired and feared by passers-by (02
 
 025.0013 (1874-10-28) to 082.0249 (1878-08-31); about 50 tagged paragraphs.
 
-%% 2026-10-22T16:00:00 RSR: Stub replaced (phase 4, VICTOR / VICTOR_DOMESTIQUE); every tagged paragraph read. A dog filed under people/; no animals category exists. %%
+%% 2026-10-22T16:00:00 RSR: A dog filed under people/; no animals category exists. %%

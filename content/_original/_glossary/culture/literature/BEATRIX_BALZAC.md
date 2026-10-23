@@ -48,4 +48,4 @@ The novel enters the diary twice as a gift and twice as a mirror.
 - French Wikisource, "Béatrix" (Œuvres complètes de H. de Balzac, tome III, Houssiaux, 1855).
 - Internet Archive, *Béatrix, ou Les amours forcés*, 1839.
 
-%% 2026-10-10T22:40:00 RSR: Works-glossary batch 05 (W094). Character models (Sand, Planche, d'Agoult, Liszt) are from Wikipedia and are literary-historical commonplaces, not project findings. %%
+%% 2026-10-10T22:40:00 RSR: Character models (Sand, Planche, d'Agoult, Liszt) are from Wikipedia and are literary-historical commonplaces, not project findings. %%

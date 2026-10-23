@@ -23,4 +23,4 @@ The casino of the Belgian spa town of Spa: ballroom, billiard room, reading room
 
 See [Spa](../cities/SPA.md), [Pouhon](../landmarks/POUHON.md), [Kirch](../../people/mentioned/KIRCH.md).
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Twenty-eight paragraphs scanned, about twenty read; the 1763 date was not accepted from a single source. %%
+%% 2026-10-22T21:39:42 RSR: Twenty-eight paragraphs scanned, about twenty read; the 1763 date was not accepted from a single source. %%

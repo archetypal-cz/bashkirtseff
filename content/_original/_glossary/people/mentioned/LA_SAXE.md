@@ -29,4 +29,4 @@ She measures the Saxe against Gioia, the other demi-mondaine she studies: a clas
 
 007/1873-08-03 (007.0326); 007/1873-08-09 (007.0373, 0381, 0382, 0383); 008/1873-08-14 (008.0025); 015/1874-01-17 (015.0228); 016/1874-02-01 (016.0060).
 
-%% 2026-10-21T23:28:00 RSR: Fix (OPEN-ITEMS B-61(5)): body corrected: she is first met at Vienna (Aug 1873), not only at the Nice theatre on 17 January 1874 ("Courtesan in Nice" removed as incomplete); identity stays "demi-mondaine, name unknown" per the t.1 index. All seven tagged paragraphs read. %%
+%% 2026-10-21T23:28:00 RSR: Body corrected: she is first met at Vienna (Aug 1873), not only at the Nice theatre on 17 January 1874 ("Courtesan in Nice" removed as incomplete); identity stays "demi-mondaine, name unknown" per the t.1 index. All seven tagged paragraphs read. %%

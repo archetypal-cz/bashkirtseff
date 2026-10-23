@@ -18,5 +18,3 @@ Saint Helena, the island in the South Atlantic where Napoleon I died in exile in
 - 1878-06-03 (080.0404)
 - 1883-08-31 (101.0299)
 - 1883-10-01 (101.0472)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

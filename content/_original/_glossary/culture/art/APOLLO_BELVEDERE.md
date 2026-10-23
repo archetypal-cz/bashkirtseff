@@ -42,4 +42,4 @@ For Marie the Apollo is first of all **a likeness of the Duke of Hamilton**. She
 [Duke of Hamilton](../../people/core/DUKE_OF_HAMILTON.md), [Venus de Milo](./VENUS_DE_MILO.md).
 
 %% GLO_APOLLO_BELVEDERE.9000 %%
-%% 2026-10-10T20:00:00 RSR: Enriched batch 07 (original stub by RSR 2026-05-31 kept: overview, sources). Added Marie's 9 mentions and image (Commons, PD, inv. 1015). 068.1486 context: masked ball of Feb 1877 (068.1484); who wore the costume is not stated in the paragraphs checked. %%
+%% 2026-10-10T20:00:00 RSR: Added Marie's 9 mentions and image (Commons, PD, inv. 1015). 068.1486 context: masked ball of Feb 1877 (068.1484); who wore the costume is not stated in the paragraphs checked. %%

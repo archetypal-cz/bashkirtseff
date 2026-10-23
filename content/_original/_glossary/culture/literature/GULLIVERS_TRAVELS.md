@@ -27,4 +27,4 @@ Her use of the book shows that she took the flappers as a ready joke about inatt
 
 - First mentioned: 1873-08-07 (007.0355). Also 027.0157 and 041.0150.
 
-%% 2026-10-22T16:02:00 RSR: Body written from the 3 tagged paragraphs; the Laputa details come from the existing footnote 041.0150.1 and from the book's Part III, not from a new source. %%
+%% 2026-10-22T16:02:00 RSR: The Laputa details come from the existing footnote 041.0150.1 and from the book's Part III, not from a new source. %%

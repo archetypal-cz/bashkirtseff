@@ -24,4 +24,4 @@ Amanda Carolina Vilhelmina Sidwall (Stockholm, 25 July 1844 – 11 January 1892)
 
 - 1881-08-08 (092.0365, 092.0366); 1881-08-12 (092.0397).
 
-%% 2026-10-22T17:20:00 RSR: Body written. Wikipedia's Julian dates (1874–77) precede Marie's attendance; the Mon Journal index describes her as an atelier pupil in 1881 (t.13 pp. 99–107 are of 1880, so she was there at least 1880–81). The index entry in t.14 spells «Sidval (Armanda)», pp. 183, 187. %%
+%% 2026-10-22T17:20:00 RSR: Wikipedia's Julian dates (1874–77) precede Marie's attendance; the Mon Journal index describes her as an atelier pupil in 1881 (t.13 pp. 99–107 are of 1880, so she was there at least 1880–81). The index entry in t.14 spells «Sidval (Armanda)», pp. 183, 187. %%

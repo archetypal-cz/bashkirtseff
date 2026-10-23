@@ -24,4 +24,4 @@ On 1 January 1883 Marie offers to paint Étincelle's daughter, partly for the pu
 
 097.0339; 098.0092; 098.0349; 098.0405.
 
-%% 2026-10-22T14:30:00 RSR: Created (PEYRONNEY vs ETINCELLE, phase 4): the daughter's paragraphs are split off PEYRONNEY before that file is merged into ETINCELLE. «Mimie» = Camille is likely (index «Etincelle (Mlle Mimi)»), not proved. %%
+%% 2026-10-22T14:30:00 RSR: The daughter's paragraphs are split off PEYRONNEY before that file is merged into ETINCELLE. «Mimie» = Camille is likely (index «Etincelle (Mlle Mimi)»), not proved. %%

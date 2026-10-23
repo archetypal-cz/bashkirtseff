@@ -30,4 +30,4 @@ One of the three elderly Bonapartist friends, with Denis Gavini and Saint-Amand,
 
 Split from GABRIEL_GERY on 2026-10-22 (OPEN-ITEMS B-67 (7)). Paragraphs where only the father is meant carry this tag; where both appear, both tags. A bare «Géry» whose referent is unclear (mostly 1880–1884 society lists, when the son was sometimes in Paris) was left on GABRIEL_GERY.
 
-%% 2026-10-22T14:36:43 RSR: B-67 (7): entry created from the indexes and the tagged paragraphs; father-only paragraphs retargeted from GABRIEL_GERY, both-men paragraphs given both tags (list in the sweep report). %%
+%% 2026-10-22T14:36:43 RSR: Father-only paragraphs retargeted from GABRIEL_GERY, both-men paragraphs given both tags (list in the sweep report). %%

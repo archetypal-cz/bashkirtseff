@@ -75,4 +75,4 @@ Her account of the evening is in 069.0521-0535. She arrived in fear that everyon
 - Wikipedia, "Giorgio Miceli": https://en.wikipedia.org/wiki/Giorgio_Miceli
 - IMSLP score pages (see `full_text`).
 
-%% 2026-10-10T22:10:00 RSR: Works-glossary batch 05 (W087). Supersedes nothing as a work; the institution stubs (SOCIETA_FILARMONICA, FILARMONICA in people/mentioned) are a separate matter. Easter date computed (1 April 1877). %%
+%% 2026-10-10T22:10:00 RSR: Easter date computed (1 April 1877). %%

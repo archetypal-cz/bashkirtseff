@@ -39,5 +39,3 @@ Tsarskoye Selo (literally "Tsar's Village," now Pushkin) was the principal summe
 - [#Petersburg](./PETERSBURG.md) - The capital
 - [#Peterhof](./PETERHOF.md) - Another imperial summer residence
 - [#Gadtchina](./GADTCHINA.md) - Alexander III's preferred residence
-
-%% 2026-02-10T16:45:00 RSR: Expanded from one-line stub %%

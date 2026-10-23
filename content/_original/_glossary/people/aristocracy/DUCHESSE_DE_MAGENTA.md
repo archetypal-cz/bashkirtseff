@@ -29,4 +29,4 @@ MacMahon's presidency (1873-1879) coincided directly with the early years of Mar
 - [#Cassagnac](../recurring/CASSAGNAC.md) -- Bonapartist journalist active during MacMahon's presidency
 
 %% GLO_DUCHESSE_DE_MAGENTA.0006 %%
-%% 2026-02-10T12:15:00 RSR: Enriched from stub. The Duchesse de Magenta was the wife of President MacMahon, making her France's first lady during 1873-1879. %%
+%% 2026-02-10T12:15:00 RSR: The Duchesse de Magenta was the wife of President MacMahon, making her France's first lady during 1873-1879. %%

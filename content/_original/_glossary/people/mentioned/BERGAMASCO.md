@@ -22,4 +22,4 @@ On 10 August 1876 (St Petersburg) Marie telegraphs to Nina, who arrives with her
 
 - 1876-08-10 (064.0515, 064.0520).
 
-%% 2026-10-22T19:30:00 RSR: Body written. That Bergamasco is the Charles Bergamasco of the sources is an inference from the name and the St Petersburg setting (Marie is in Russia in August 1876), confidence 0.9. %%
+%% 2026-10-22T19:30:00 RSR: That Bergamasco is the Charles Bergamasco of the sources is an inference from the name and the St Petersburg setting (Marie is in Russia in August 1876), confidence 0.9. %%

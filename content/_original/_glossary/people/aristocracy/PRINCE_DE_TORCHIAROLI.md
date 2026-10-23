@@ -32,6 +32,5 @@ Note: Marie writes "Torchiaroli" (French rendering); the Italian is "Torchiarolo
 - [CARACCIOLO](../mentioned/CARACCIOLO.md) — the individual Comte Francesco Caracciolo of this branch
 
 ## Research Notes
-- Created: 2026-01-06 (auto-generated stub)
 - Researched: 2026-04-10 — branch history identified via Italian genealogical sources
 - Note: This entry covers the branch/family. The individual is documented in CARACCIOLO.md

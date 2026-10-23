@@ -15,6 +15,3 @@ replaced_by: ASPREMONT
 
 %% GLO_COMTE_D_ASPREMONT.0001 %%
 **Retired.** Merged into [#ASPREMONT](../mentioned/ASPREMONT.md) (`people/mentioned/ASPREMONT.md`); use that entry instead.
-
-%% GLO_COMTE_D_ASPREMONT.0002 %%
-%% 2026-10-21T22:48:16 RSR: Retired by glossary-merge; content and links moved to ASPREMONT. replaced_by: people/mentioned/ASPREMONT.md. %%

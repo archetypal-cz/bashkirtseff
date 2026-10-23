@@ -39,7 +39,3 @@ America (the United States) appears in Marie Bashkirtseff's diary as a distant b
 ## Related Entries
 - [#Paris](../cities/PARIS.md) - Where American and European worlds intersected
 - [#Salon](../../culture/art/SALON.md) - Where American artists also exhibited
-
-%% 2026-02-10T14:20:00 RSR: Expanded from one-line stub with Gilded Age context %%
-
-%% 2026-10-22T12:29:45 RSR: Merged AMERIQUE (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%

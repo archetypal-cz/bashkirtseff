@@ -21,5 +21,3 @@ On 26 October 1876, straight from the station in Kharkov, Marie goes «chez Sade
 - 1876-11-01 (067.0485)
 
 See also [#Laferriere](../../culture/fashion/LAFERRIERE.md).
-
-%% 2026-10-21T09:42:00 RSR: Created during RSR research of the restored carnet 067 paragraphs (rsr-067b). %%

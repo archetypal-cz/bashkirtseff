@@ -14,7 +14,6 @@ last_updated: 2026-10-23
 ---
 # Mme de Ballore
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnets 005–051 (1873–1876)
 
@@ -35,6 +34,4 @@ She had daughters who appear in social settings: Jeanne, later baronne de Wykers
 
 The spelling "Ballote" and "Ballore" both appear in the diary; the variant may reflect Marie's inconsistent orthography. Likely a Vicomtesse (viscountess) title, hence "vicomtesse de Ballore."
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real person — French aristocratic woman in the Nice social circle, loyal friend of the Bashkirtseff family across multiple carnets. %%
-
-%% 2026-10-22T20:54:26 RSR: Merged BALLORRE (no content kept: empty stub) %%
+%% 2026-05-31T12:00:00 RSR: Real person — French aristocratic woman in the Nice social circle, loyal friend of the Bashkirtseff family across multiple carnets. %%

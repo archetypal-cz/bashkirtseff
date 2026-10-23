@@ -20,4 +20,4 @@ The Channel port. The only tagged mention is a relay in Bojidar's travels: on 21
 
 - 1883-08-21 (101.0221, Paris): the only mention.
 
-%% 2026-10-22T21:34:40 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph. %%
+%% 2026-10-22T21:34:40 RSR: One paragraph. %%

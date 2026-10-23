@@ -34,4 +34,4 @@ Marie attends a performance at the Nice theater on October 7, 1875 (046.0211). S
 
 - 1875-10-07 (046.0211): Attends performance in Nice, leaves after Act II
 
-%% 2026-02-09T21:00:00 RSR: Created entry. Note the parallel between the Grand Duchess's futile infatuation with Fritz and Marie's situation with Audiffret — both women of (self-perceived) superior station pursuing an unworthy man. %%
+%% 2026-02-09T21:00:00 RSR: Note the parallel between the Grand Duchess's futile infatuation with Fritz and Marie's situation with Audiffret — both women of (self-perceived) superior station pursuing an unworthy man. %%

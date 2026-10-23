@@ -41,4 +41,4 @@ Authorship was disputed: the piece was begun by the young Frédéric Gaillardet 
 - Wikipedia, ["La Tour de Nesle"](https://en.wikipedia.org/wiki/La_Tour_de_Nesle); ["Frédéric Gaillardet"](https://en.wikipedia.org/wiki/Frédéric_Gaillardet).
 - *La Tour de Nesle, drame en cinq actes et en neuf tableaux*, Paris, J. Didot l'aîné, 1832 (OCLC 14401227, per library catalogue records).
 
-%% 2026-10-10T12:00:00 RSR: New work entry (batch 02). Supersedes the auto-stub people/mentioned/TOUR_DE_NESLE.md. The full_text links are 19th-century Dumas editions (the 1838 edition and the collected Théâtre complet); the 1832 first edition with Gaillardet's name was not found online. %%
+%% 2026-10-10T12:00:00 RSR: The full_text links are 19th-century Dumas editions (the 1838 edition and the collected Théâtre complet); the 1832 first edition with Gaillardet's name was not found online. %%

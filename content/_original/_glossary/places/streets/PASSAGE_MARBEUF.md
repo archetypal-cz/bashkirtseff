@@ -17,4 +17,4 @@ A passage in the Marbeuf quarter of Paris (8th arrondissement, near the avenue M
 ## References in Diary
 - 1879-05-17 (085.0090): visiting Collignon, Marie is struck by «son intérieur pauvre, délabré. Ses parents ont une espèce d'hôtel meublé dans un passage Marbeuf, ce sont des gens tout simples et le père portait des sabots et balayait la cour.»
 
-%% 2026-10-22T20:26:03 RSR: Auto-stub body replaced (glossary orphan review); 085.0090 tagged. The exact passage is not identified (Marie writes «un passage Marbeuf»). Move candidate: places/streets. %%
+%% 2026-10-22T20:26:03 RSR: The exact passage is not identified (Marie writes «un passage Marbeuf»). Move candidate: places/streets. %%

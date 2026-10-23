@@ -41,8 +41,4 @@ Spring 1878 is the church's main moment in the diary: she goes to mass there (07
 - Not this entry: the Madeleine post office (077.0222, 0292, 0293, 0332, 0395: POSTE_MADELEINE; also 084.0506); Mary Magdalene in paintings (Titian's Madeleine 043.0164, 053.0378; Marie's own Madeleine in *Les Saintes Femmes* 096.0171, 096.0302, 101.0150); the Julian student Madeleine Delsarte (079.0215, 086.0427, [#Magdeleine Delsarte](../../people/mentioned/MAGDELEINE_DELSARTE.md)); Madeleine the couturière (025.0005); Madeleine Lemaire the watercolourist (096.0008, 103.0375, 104.0078).
 
 %% GLO_EGLISE_DE_LA_MADELEINE.0007 %%
-%% 2026-10-21T22:55:00 RSR: Created (OPEN-ITEMS B-59(3), B-52): the stubs people/mentioned/MADELEINE and LA_MADELEINE were used for the church, the post office, the painted Magdalene and a student; each tagged paragraph was read and sorted (see the tag rows). The church description is general knowledge (place de la Madeleine, rue Royale); no secondary source was opened for it. 104.0613 («Rosalie avait été à la Madeleine hier», in the Maupassant letters episode) may mean the post office or the church; left untagged. %%
-
-%% 2026-10-21T22:49:39 RSR: Merged MADELEINE (no content kept: empty stub) %%
-
-%% 2026-10-21T22:49:50 RSR: Merged LA_MADELEINE (no content kept: empty stub) %%
+%% 2026-10-21T22:55:00 RSR: The stubs people/mentioned/MADELEINE and LA_MADELEINE were used for the church, the post office, the painted Magdalene and a student; each tagged paragraph was read and sorted (see the tag rows). The church description is general knowledge (place de la Madeleine, rue Royale); no secondary source was opened for it. 104.0613 («Rosalie avait été à la Madeleine hier», in the Maupassant letters episode) may mean the post office or the church; left untagged. %%

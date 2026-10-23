@@ -25,4 +25,4 @@ Marie is introduced to him at Mme Hochon's soirée on 4 April 1883 («Francesqui
 - 103.0621 (30 March 1884): «Franceschi a dit médaille»; 103.0668 (1 April 1884).
 - 104.0078 (2 May 1884): «les Franceschi» at an evening where Carolus-Duran sings.
 
-%% 2026-10-22T14:30:37 RSR: B-67 (2): entry created to split the sculptor out of FRANCESCHI; the five 1884 tags retargeted here and 102.0671 tagged. %%
+%% 2026-10-22T14:30:37 RSR: The five 1884 tags retargeted here and 102.0671 tagged. %%

@@ -37,9 +37,8 @@ Stepa was one of the Babanine brothers who, along with Georges, caused various s
 - [#Maman](MAMAN.md) - His sister, Marie's mother
 - [#Georges](GEORGES.md) - His brother
 
-%% 2026-02-11T13:35:00 RSR: Per Kernberger (2013), Stepa Babanine married Machenka (Marie Kandiba), daughter of Domenica by first marriage. Estate at Chpatovska, Ukraine. Nickname: Stiopa. Enriched from stub. %%
+%% 2026-02-11T13:35:00 RSR: Per Kernberger (2013), Stepa Babanine married Machenka (Marie Kandiba), daughter of Domenica by first marriage. Estate at Chpatovska, Ukraine. Nickname: Stiopa. %%
 
-%% 2026-10-21T21:24:50 RSR: Merged content from STIOPA %%
 
 **Research Status**: Basic
 **Last Updated**: 2025-07-06

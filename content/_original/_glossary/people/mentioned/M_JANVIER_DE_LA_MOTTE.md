@@ -14,6 +14,3 @@ replaced_by: JANVIER_DE_LA_MOTTE
 
 %% GLO_M_JANVIER_DE_LA_MOTTE.0001 %%
 **Retired.** Merged into [#JANVIER_DE_LA_MOTTE](JANVIER_DE_LA_MOTTE.md) (`people/mentioned/JANVIER_DE_LA_MOTTE.md`); use that entry instead.
-
-%% GLO_M_JANVIER_DE_LA_MOTTE.0002 %%
-%% 2026-10-21T21:18:09 RSR: Retired by glossary-merge; content and links moved to JANVIER_DE_LA_MOTTE. replaced_by: people/mentioned/JANVIER_DE_LA_MOTTE.md. %%

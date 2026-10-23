@@ -47,5 +47,3 @@ For the political classes and fashionable society Marie observed:
 ## Related Entries
 - [#Paris](../cities/PARIS.md) - Where the political debate was centered
 - [#Nice](../cities/NICE.md) - Marie's primary residence during the early period
-
-%% 2026-02-10T13:30:00 RSR: Expanded from one-line stub with Franco-Prussian War context %%

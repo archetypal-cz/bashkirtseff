@@ -18,7 +18,3 @@ Miss Rice, an American woman staying at the Grand Hôtel in Paris in July 1876: 
 - 1876-07-07 to 1876-07-15 (063): Marie's confidante in the hotel salon, e.g. after the telegram to Antonelli (063.0189–063.0190) and on the balcony (063.0321)
 - 1876-07-21 (064): «Rice est partie ce soir pour Aix-les-Bains»
 - 1876-11-21 (067): «Rice est venue me voir»
-
-%% 2026-10-21T09:11:04 RSR: Identification added during RSR research of the restored carnet 063 paragraphs. %%
-
-%% 2026-10-22T20:58:48 RSR: Merged MLLE_RICE (no content kept: empty stub) %%

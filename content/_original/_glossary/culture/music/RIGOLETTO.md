@@ -40,4 +40,4 @@ full_text:
 - Wikipedia, ["Rigoletto"](https://en.wikipedia.org/wiki/Rigoletto).
 - IMSLP, [Rigoletto (Verdi, Giuseppe)](https://imslp.org/wiki/Rigoletto_(Verdi,_Giuseppe)).
 
-%% 2026-10-10T12:00:00 RSR: Enriched in place (works batch 02). 070.0610 "Rigoletto" is a racehorse in a newspaper clipping and is not the opera (correctly excluded). %%
+%% 2026-10-10T12:00:00 RSR: 070.0610 "Rigoletto" is a racehorse in a newspaper clipping and is not the opera (correctly excluded). %%

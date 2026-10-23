@@ -16,7 +16,7 @@ identity_uncertain: true
 # M. Tchernichoff
 
 ## Overview
-%% 2026-10-22T22:16:12 RSR: Body rewritten in the stub-pass apply (2026-10-22): the entry was split; the other referent is tagged elsewhere or carries an RSR note. %%
+%% 2026-10-22T22:16:12 RSR: The entry was split; the other referent is tagged elsewhere or carries an RSR note. %%
 M. Tchernichoff, an elderly Russian ladies' man met at Nice in April 1874 and seen in Paris and Nice that year and again in Paris in 1878–80 («le vieil irrésistible»). Mon Journal t.3 index «Tchernichoff (M.), 165–166». Marie keeps him apart from the Nice physician: «M. Tchernichoff, celui qui était dernièrement à Nice; celui qui a épousé Mme Ketly, qui dit-on, a empoisonné sa première femme, pas le docteur Tchernichoff enfin» (024.0122); the doctor is [#Dr Tchernichoff](../doctors/DR_TCHERNICHOFF.md).
 
 ## In Marie's diary
@@ -27,5 +27,3 @@ M. Tchernichoff, an elderly Russian ladies' man met at Nice in April 1874 and se
 
 ## Identity uncertain
 His first name is not given, and his two marriages («Mme Ketly») are Marie's report of gossip. If you can identify him, we would be glad to hear from you.
-
-%% 2026-10-22T22:36:32 RSR: Merged TCHERNICHEFF (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%

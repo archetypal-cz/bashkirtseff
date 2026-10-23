@@ -31,4 +31,4 @@ During the Fronde, Anne faced popular uprisings against the regency government a
 
 - First mentioned: 1875-08-17 (in a dream about the Fronde)
 
-%% 2026-02-10T18:00:00 RSR: Updated from stub. Anne d'Autriche appears in Marie's Fronde dream, likely inspired by Dumas novels. %%
+%% 2026-02-10T18:00:00 RSR: Anne d'Autriche appears in Marie's Fronde dream, likely inspired by Dumas novels. %%

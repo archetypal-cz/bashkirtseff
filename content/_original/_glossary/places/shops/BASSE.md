@@ -21,5 +21,3 @@ On Sunday 2 May 1875, skipping church, Marie, Dina, Marie Sapogenikoff and Olga 
 ## References in Diary
 
 - 1875-05-02 (032.0220), the only tagged paragraph.
-
-%% 2026-10-22T19:15:00 RSR: Body written. %%

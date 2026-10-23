@@ -23,4 +23,4 @@ Marie sees him once, in the crowd. On 28 October 1874 «Thiers après sa captivi
 
 - 1874-10-28 (025.0019–0021). The t.4 index lists pp. 71 and 188–189, t.8 p.329 and t.10 p.329–334 for other pages; those are not tagged here.
 
-%% 2026-10-22T16:30:00 RSR: Body written. I found no source for a Thiers visit to Nice in October 1874 beyond the diary; web search returned nothing, so the visit rests on the diary alone. %%
+%% 2026-10-22T16:30:00 RSR: I found no source for a Thiers visit to Nice in October 1874 beyond the diary; web search returned nothing, so the visit rests on the diary alone. %%

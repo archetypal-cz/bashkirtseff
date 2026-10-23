@@ -29,4 +29,4 @@ We are not sure which troupe this was. The Beni-Zoug-Zoug identification is the 
 
 - 1874-10-18 (024.0358, 024.0359).
 
-%% 2026-10-22T19:28:00 RSR: Body written; identity_uncertain set. The prejudiced remark in 024.0359 is Maman's (as Marie reports it); owner ruling 2026-10-22: prejudiced remarks get a footnote in the diary text, which this glossary note does not replace. %%
+%% 2026-10-22T19:28:00 RSR: The prejudiced remark in 024.0359 is Maman's (as Marie reports it); owner ruling 2026-10-22: prejudiced remarks get a footnote in the diary text, which this glossary note does not replace. %%

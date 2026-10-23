@@ -97,4 +97,4 @@ While specific details about Dr. Hactius's educational methods are not preserved
 
 The spelling varies between "Hactius" (as Marie wrote it) and "Haccius" (as appears in later historical records about Institut Haccius at Château de Lancy). Both likely refer to the same institution and director.
 
-%% 2025-12-07T17:10:00 RSR: Created entry based on Book 00, paragraph 00.46 and historical research. The Institut Haccius at Château de Lancy appears in later records as a respected institution whose former director went on to lead Institut Le Rosey. Source: [Swiss Boarding School History](https://info.brillantmont.ch/international-boarding-school-blog/swiss-boarding-school-history) %%
+%% 2025-12-07T17:10:00 RSR: The Institut Haccius at Château de Lancy appears in later records as a respected institution whose former director went on to lead Institut Le Rosey. Source: [Swiss Boarding School History](https://info.brillantmont.ch/international-boarding-school-blog/swiss-boarding-school-history) %%

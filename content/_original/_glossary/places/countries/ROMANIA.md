@@ -37,5 +37,3 @@ Romania, which gained full independence from the Ottoman Empire in 1877-1878, ap
 ## Related Entries
 - [#Turkey](./TURKEY.md) - The Ottoman Empire from which Romania gained independence
 - [#Ukraine](./UKRAINE.md) - Neighboring territory, also under imperial rule
-
-%% 2026-02-10T14:15:00 RSR: Expanded from one-line stub with independence context %%

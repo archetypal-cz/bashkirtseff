@@ -22,4 +22,4 @@ The Bourbonnais spa town. It appears three times, always as a cure someone else 
 - 1876-06-22 (062.0558, Nice): «Bibi part demain pour Vichy» ([Bihovetz](../../people/mentioned/BIHOVETZ.md); Marie is waiting for a letter foretold by the cards).
 - 1879-09-17 (086.0291, Paris): about Cassagnac: «Mme Paul est à Vichy (foie et estomac) et M. Paul au château de la Reine» (Mme Paul is Julia Cassagnac, per the RSR note).
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Three paragraphs read; the Bibi = Bihovetz link is from the tag on 062.0555. %%
+%% 2026-10-22T21:39:42 RSR: Three paragraphs read; the Bibi = Bihovetz link is from the tag on 062.0555. %%

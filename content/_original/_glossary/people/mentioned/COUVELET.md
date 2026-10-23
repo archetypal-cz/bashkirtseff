@@ -22,4 +22,4 @@ From 1879 «Couvelet» becomes Marie's sneering shorthand for Cassagnac's marria
 
 081.0093 (1878-06-28); 085.0231 (1879-06-06); 086.0058, 086.0069, 086.0096, 086.0109, 086.0409 (Aug–Oct 1879); 089.0008 (1880-06-21).
 
-%% 2026-10-22T14:06:40 RSR: B-46 (4): body written; referents sorted (husband; sneering name for the Cassagnac marriage; the Bojidar joke names, untagged). 086.0058 «la mère Couvelet» also tagged COMTESSE_ACARD. %%
+%% 2026-10-22T14:06:40 RSR: Referents sorted (husband; sneering name for the Cassagnac marriage; the Bojidar joke names, untagged). 086.0058 «la mère Couvelet» also tagged COMTESSE_ACARD. %%

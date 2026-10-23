@@ -35,4 +35,4 @@ Not linked as a full text for the same reason.
 
 - Diary paragraphs as cited; BNN catalogue record and UCSB DAHR as above.
 
-%% 2026-10-22T14:29:38 RSR: B-04 (Dormi pure, Bellini vs Scuderi): Bellini excluded (no such number in La sonnambula); Scuderi's 1872 serenata strengthened to 0.7 with the 1873 Schirmer edition. Sources: dl.bnnonline.it/handle/20.500.12113/1740; Levy Sheet Music Collection; ARSC list thread 2008-11 on Salvatore vs Gaspare Scuderi. %%
+%% 2026-10-22T14:29:38 RSR: Bellini excluded (no such number in La sonnambula); Scuderi's 1872 serenata strengthened to 0.7 with the 1873 Schirmer edition. Sources: dl.bnnonline.it/handle/20.500.12113/1740; Levy Sheet Music Collection; ARSC list thread 2008-11 on Salvatore vs Gaspare Scuderi. %%

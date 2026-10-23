@@ -36,4 +36,4 @@ The Zankovskys are the cause of family distress in August 1875. Paul Bashkirtsef
 - First mentioned: 1875-08-17 (letter from Russia about Paul)
 - Also: 1876-10-04 (Marie meets M. Zankovsky in person)
 
-%% 2026-02-10T18:00:00 RSR: Created entry. Ukrainian family preying on young men through gambling and seduction. %%
+%% 2026-02-10T18:00:00 RSR: Ukrainian family preying on young men through gambling and seduction. %%

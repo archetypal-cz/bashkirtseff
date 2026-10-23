@@ -13,6 +13,3 @@ replaced_by: OLGA
 
 %% GLO_EUPHROSINE.0001 %%
 **Retired.** Merged into [#OLGA](OLGA.md) (`people/mentioned/OLGA.md`); use that entry instead.
-
-%% GLO_EUPHROSINE.0002 %%
-%% 2026-10-22T22:08:42 RSR: Retired by glossary-merge; content and links moved to OLGA. replaced_by: people/mentioned/OLGA.md. %%

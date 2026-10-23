@@ -69,7 +69,3 @@ The book is part of the Dumas cycle that she reads and rereads through her teens
 
 %% GLO_LES_TROIS_MOUSQUETAIRES_DUMAS.0013 %%
 The `culture/history/BUCKINGHAM.md` is the historical duke, not the novel.
-
-
-%% GLO_LES_TROIS_MOUSQUETAIRES_DUMAS.0015 %%
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

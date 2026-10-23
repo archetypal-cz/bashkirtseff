@@ -24,6 +24,3 @@ In November 1880, a Capuchin monastery was located on this street. Marie visited
 - La Santé Prison (built 1867) is located on this street
 - The area was on the southern edge of developed Paris in the 1880s
 - Mix of religious institutions, hospitals, and working-class housing
-
-%% GLO_RUE_DE_LA_SANTE.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/RUE_DE_LA_SANTE.md (a place filed under people). Body copied unchanged. %%

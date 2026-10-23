@@ -53,4 +53,4 @@ The term "train omnibus" was also used for local stopping trains (as opposed to 
 - **Voiture** — private carriage
 - **Train omnibus** — local/stopping train
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Public transport, used literally and humorously. %%
+%% 2026-02-10T20:00:00 RSR: Public transport, used literally and humorously. %%

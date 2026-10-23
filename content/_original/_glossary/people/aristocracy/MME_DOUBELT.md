@@ -21,11 +21,6 @@ last_updated: 2026-10-21
 ## References in Diary
 [Multiple references found - needs research]
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-
 ## 1878 (carnet 081)
 
 Mon Journal t.12 index: «Doubelt (Mme), née Basilewsky : 27, 45, 48-49, 61, 79, 112». A Petersburg acquaintance. On 2 July 1878 Marie asks her to obtain a Russian cross, «une croix de Saint Stanislas au moins», for Paul de Cassagnac (081.0224–0227); Mme Doubelt answers from St Petersburg on 7 July that she has spoken to Grand Duke Konstantin, who referred her to Prince Orlov (081.0434). In the talk at Soden the comte Protassoff-Bachmétieff is said to have nearly married her (081.0459).

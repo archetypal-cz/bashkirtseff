@@ -30,4 +30,4 @@ During the Bashkirtseff family's brief visit to Geneva in late May 1873 (to reso
 
 - **May 25, 1873** (005.0042): "Après déjeuner, nous sommes allés à l'église... Il y avait beaucoup de monde, rien d'élégant." Marie encounters Mme Beketoff and Abramovitch.
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken UK link. Sources: Wikipedia "Russian Church, Geneva"; Sacred Destinations website. %%
+%% 2026-05-31T12:00:00 RSR: Sources: Wikipedia "Russian Church, Geneva"; Sacred Destinations website. %%

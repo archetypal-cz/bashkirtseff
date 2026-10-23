@@ -12,7 +12,6 @@ last_updated: 2026-10-22
 # Dr Tchernichoff
 
 ## Overview
-%% 2026-10-22T22:16:12 RSR: Created in the stub-pass apply (2026-10-22) from the paragraphs listed below. %%
 A Russian physician of the Nice colony in spring 1876, in the circle of Nina Sapogenikoff. He is not the M. Tchernichoff of 1874 ([Tchernichoff](../mentioned/TCHERNICHOFF.md)); Marie herself separates them: «M. Tchernichoff ... pas le docteur Tchernichoff enfin» (024.0122). Mon Journal t.7 index: «Tchernichoff (médecin) : 323, 343». His first name is not given.
 
 ## In Marie's diary

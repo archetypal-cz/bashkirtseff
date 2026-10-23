@@ -29,4 +29,4 @@ A small, slight young man of Nice, one of the "petit bataclan niçois" (046.0150
 Carnets 028–037 (the main run), 038–040, 046–048, 050, 052–054, 059, 061, 068, 072, 073: 78 tagged paragraphs, about 40 read in full for this entry, 2026-10-21. First 028.0120–0123; last 073.0390.
 
 %% 2026-10-21T09:05:00 RSR: Description written from carnets 028, 029 and 035 (restored paragraphs 035.0167-0168) and Kernberger (2013). %%
-%% 2026-10-21T22:55:00 RSR: Fix (OPEN-ITEMS B-20): auto-stub boilerplate replaced by a full overview and chronology, read from the tagged paragraphs of 1875–77 (quotes above); «Arthur» rests on 039.0170 and 054.0204; identification beyond the diary left open. %%
+%% 2026-10-21T22:55:00 RSR: Auto-stub boilerplate replaced by a full overview and chronology, read from the tagged paragraphs of 1875–77 (quotes above); «Arthur» rests on 039.0170 and 054.0204; identification beyond the diary left open. %%

@@ -33,5 +33,3 @@ The 19th century saw a major revival of interest in Bach's music, spurred by Men
 
 %% GLO_BACH.0008 %%
 - Referenced in musical contexts
-
-%% 2026-02-10T20:00:00 RSR: Enriched from stub. %%

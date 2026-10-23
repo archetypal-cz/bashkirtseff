@@ -23,4 +23,4 @@ Alexey Petrovich Bogolyubov (16 March 1824 – 1896), Russian landscape and seas
 
 - 1883-10-01 (101.0471); 1884-05-18 (104.0222).
 
-%% 2026-10-22T19:50:00 RSR: Body written. Identification as Alexey Bogolyubov rests on «peintre» (index and the struck-out word) and the Paris Russian setting, confidence 0.9. %%
+%% 2026-10-22T19:50:00 RSR: Identification as Alexey Bogolyubov rests on «peintre» (index and the struck-out word) and the Paris Russian setting, confidence 0.9. %%

@@ -69,5 +69,3 @@ Kursaals were essential features of 19th-century resort architecture, representi
 The Ostende Kursaal, in particular, was known for attracting an international clientele and maintaining high cultural standards, making it a perfect venue for Marie's social ambitions and observations.
 
 %% 2025-07-04T11:45:00 RSR: This glossary entry explains the Kursaal as both a specific venue in Ostende and a broader cultural institution of 19th-century European resort life. The entry draws from Marie's August 1874 diary entries to show how this venue functioned as a center of her social activities during her stay in Ostende. %%
-
-%% 2026-10-22T20:55:36 RSR: Merged KURSAAL_OSTENDE (no content kept: empty stub) %%

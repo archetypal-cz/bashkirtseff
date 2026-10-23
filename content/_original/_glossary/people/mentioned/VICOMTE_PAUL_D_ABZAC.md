@@ -28,5 +28,5 @@ The duel annual of the period confirms the title and initial: in the d'Infrevill
 
 090.0398 (1880-12-16); 090.0512 (1881-01-01).
 
-%% 2026-10-22T14:00:00 RSR: Created (B-45(3), glossary identity questions). Both paragraphs are untagged in the source; the tags are queued in gid decisions-a.tsv. %%
-%% 2026-10-22T14:01:58 RSR: B-45 (4): Ferréus duel annual citation added (vicomte P. d'Abzac). %%
+%% 2026-10-22T14:00:00 RSR: Both paragraphs are untagged in the source; the tags are queued in gid decisions-a.tsv. %%
+%% 2026-10-22T14:01:58 RSR: Ferréus duel annual citation added (vicomte P. d'Abzac). %%

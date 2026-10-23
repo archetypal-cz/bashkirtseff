@@ -22,7 +22,7 @@ last_updated: 2026-10-11
 An American lady in Paris, "très belle, très riche", who receives many artists in a mixed society and protects Louise Breslau; she knows Bastien-Lepage and Marie hopes to use her to reach him.
 
 %% GLO_MME_CARTWRIGHT.0003 %%
-%% 2026-10-02T12:00:00 RSR: 1881-04-18 (091): Marie knew her through Sarah (Breslau's circle); she greets and invites Marie. 1882-01-11 (094): la Bailleul knows Bastien through her; Mme Cartwright "dit partout qu'elle m'adore". 1882-01-13 (094): visit planned with "la Cartwright" and Georges Bertrand to the real Bastien. 1882-05-05 (095): Marie walks with "la susdite Cartwright" and is embarrassed. The stub Cartwright is retired into this entry. %%
+%% 2026-10-02T12:00:00 RSR: 1881-04-18 (091): Marie knew her through Sarah (Breslau's circle); she greets and invites Marie. 1882-01-11 (094): la Bailleul knows Bastien through her; Mme Cartwright "dit partout qu'elle m'adore". 1882-01-13 (094): visit planned with "la Cartwright" and Georges Bertrand to the real Bastien. 1882-05-05 (095): Marie walks with "la susdite Cartwright" and is embarrassed. %%
 
 %% GLO_MME_CARTWRIGHT.0004 %%
 ## Who she was
@@ -66,6 +66,4 @@ Marie never gives a first name. What she says is all that is known: an American 
 - Marie Bashkirtseff, *Journal*, carnets 091–106 (paragraphs cited above). No outside source identifying her has been found.
 
 %% GLO_MME_CARTWRIGHT.0017 %%
-%% 2026-10-11T12:00:00 RSR: Page expanded from the 2026-10-02 stub; the earlier summary and RSR are kept. Searches (English and French web, Kernberger text, Blind 1890) found no identification of a "Mme/Mrs Cartwright", American, in Paris 1881-84 with a daughter, a mother and a nephew. CORRECTION NEEDED in diary text: the footnote 5 in 102/1883-11-28 (paragraph 102.0381) identifies her as "Julia Cartwright (1851-1924), English art critic"; that does not fit (American, salon, daughter) and the footnote should be removed or replaced by "not identified". Also check that Marie's "Sarah" of 091.0491 is the Irish painter Sarah Purser (a fellow student at Julian's), unverified. %%
-
-%% 2026-10-22T20:57:28 RSR: Merged MME_CARTRIGHT (no content kept: empty stub) %%
+%% 2026-10-11T12:00:00 RSR: Searches (English and French web, Kernberger text, Blind 1890) found no identification of a "Mme/Mrs Cartwright", American, in Paris 1881-84 with a daughter, a mother and a nephew. CORRECTION NEEDED in diary text: the footnote 5 in 102/1883-11-28 (paragraph 102.0381) identifies her as "Julia Cartwright (1851-1924), English art critic"; that does not fit (American, salon, daughter) and the footnote should be removed or replaced by "not identified". Also check that Marie's "Sarah" of 091.0491 is the Irish painter Sarah Purser (a fellow student at Julian's), unverified. %%

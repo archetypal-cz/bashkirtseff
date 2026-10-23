@@ -58,4 +58,4 @@ How it reached Krasnoyarsk is not stated in the records consulted. The Surikov M
 - *Catalogue des œuvres de Mlle Bashkirtseff*, Paris: Ludovic Baschet, 9 February 1885, p. 24, no. 62 — [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)
 
 %% GLO_GRENADE_CATHEDRALE.0012 %%
-%% 2026-10-02T16:00:00 RSR: Created in the works-catalogue pass. Title, date, support and size come from the Artefact record (fetched 2026-10-02); holder confirmed by Kernberger's caption. Diary paragraph IDs verified in content/_original. No open image: the museum offers images to order ("Заказать изображение"). %%
+%% 2026-10-02T16:00:00 RSR: Title, date, support and size come from the Artefact record (fetched 2026-10-02); holder confirmed by Kernberger's caption. Diary paragraph IDs verified in content/_original. No open image: the museum offers images to order ("Заказать изображение"). %%

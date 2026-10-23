@@ -23,4 +23,4 @@ His real name comes a year later, back in Rome, from an English lady at the same
 ## In the diary
 051.0420, 051.0422 (as «sir Frédéric Johnstone», «Frédéric»); 052.0213; 053.0330-0332; 068.0335.
 
-%% 2026-10-22T12:50:00 RSR: Body written (glossary-owner-questions B-64(6)). The single tag left here (068.0335) is «Frederic (M. Oliver)», settled by the sentence itself and the t.9 index, 0.95. The Rome «Frédéric» of January-February 1876 is the same man by Marie's own correction (053.0330-0332) and by 068.0335 («des dames anglaises que je voyais souvent avec Frederic», «l'hiver passé»), 0.8: tag rows to add in the identity-decisions TSV. Recommend renaming the id to FREDERIC_OLIVER. %%
+%% 2026-10-22T12:50:00 RSR: The single tag left here (068.0335) is «Frederic (M. Oliver)», settled by the sentence itself and the t.9 index, 0.95. The Rome «Frédéric» of January-February 1876 is the same man by Marie's own correction (053.0330-0332) and by 068.0335 («des dames anglaises que je voyais souvent avec Frederic», «l'hiver passé»), 0.8: tag rows to add in the identity-decisions TSV. Recommend renaming the id to FREDERIC_OLIVER. %%

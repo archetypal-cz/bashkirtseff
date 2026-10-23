@@ -31,4 +31,4 @@ Wiesbaden had been part of the Duchy of Nassau until 1866 when it was annexed by
 - August 15-16, 1875: Excursions from Schlangenbad (carnet 039)
 - Key activities: Kursaal visit, Russian chapel, horse races, carriage shopping
 
-%% 2026-02-10T17:00:00 RSR: Created entry. Replaces miscategorized stub at places/cities/WIESBADEN.md. %%
+%% 2026-02-10T17:00:00 RSR: Replaces miscategorized stub at places/cities/WIESBADEN.md. %%

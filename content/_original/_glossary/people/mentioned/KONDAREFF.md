@@ -23,5 +23,4 @@ This file is the family and the girl Lise (Lisa) Kondareff. Her mother, «Mme Ko
 ## References in Diary
 - 1876-12-15 (068.0063), 1877-01-20 (068.0751); 1877-05-14 (071.0323), 05-16 (071.0366), 05-19 (071.0383), 05-26 (071.0460), 05-30 (071.0502), 06-01 (071.0527), 06-02 (071.0541–0542); Lise in Nice, June 1877: 06-11 (072.0002, 072.0006), 06-15 (072.0062), 06-17 (072.0144–0145), 06-21 (072.0279), these tags retargeted from LISE by rsr-1877 on 2026-10-21
 
-%% 2026-10-21T10:48:15 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 071 paragraphs (rsr-071); diary text and t.10 index. %%
-%% 2026-10-22T14:40:00 RSR: OPEN-ITEMS B-40(3): the remaining LISE tags of 071 (05-15, 05-18, 05-20, 05-28, 05-30, 06-01, 06-02) retargeted here; paragraphs naming only «Mme Kondareff» (071, 075) moved to MME_KONDAREFF. Evidence: t.10 index «Kondareff (Mlle Lise)» pages 174-231 = the printed pages of every Lise passage (scan text layer, printed page = PDF page - 1). %%
+%% 2026-10-22T14:40:00 RSR: The remaining LISE tags of 071 (05-15, 05-18, 05-20, 05-28, 05-30, 06-01, 06-02) retargeted here; paragraphs naming only «Mme Kondareff» (071, 075) moved to MME_KONDAREFF. Evidence: t.10 index «Kondareff (Mlle Lise)» pages 174-231 = the printed pages of every Lise passage (scan text layer, printed page = PDF page - 1). %%

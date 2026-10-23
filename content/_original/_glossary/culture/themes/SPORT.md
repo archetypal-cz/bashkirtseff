@@ -55,4 +55,4 @@ This thematic tag collects diary paragraphs about physical recreation and sport:
 - `022.0423` — the ride cancelled when Paul does not come
 - `010.0172` — croquet on the lawn, with a wager on a bat
 
-%% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%
+%% 2026-10-02T18:00:00 RSR: Applied per paragraph by AI judgement, not keyword match. %%

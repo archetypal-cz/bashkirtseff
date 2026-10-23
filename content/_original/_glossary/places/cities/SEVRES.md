@@ -25,4 +25,4 @@ The town on the Seine south-west of Paris. Marie knows it as the place where she
 
 The picture is [Le Printemps](../../culture/art/LE_PRINTEMPS.md) (RSR note at 104.0576).
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Fourteen paragraphs read; picture identification is the existing RSR note at 104.0576. %%
+%% 2026-10-22T21:39:42 RSR: Fourteen paragraphs read; picture identification is the existing RSR note at 104.0576. %%

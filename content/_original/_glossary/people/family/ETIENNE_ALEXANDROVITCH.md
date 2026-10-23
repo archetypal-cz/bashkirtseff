@@ -26,4 +26,4 @@ Marie's small cousin, the young son of her uncle [#Alexandre](../core/ALEXANDRE.
 - 1881-06-02 (092.0088): at the name-day party at Poltava: «Alexandre et le petit Etienne son fils».
 
 %% GLO_ETIENNE_ALEXANDROVITCH.0005 %%
-%% 2026-10-21T22:40:00 RSR: Created (OPEN-ITEMS B-33(3)): five dated passages read; identification per 066.0238 («le fils d'Alexandre») and 092.0088 («son fils») and the Mon Journal t.9 index (Etienne Alexandrovitch, cousin). His birth date and later fate are not given in the diary. %%
+%% 2026-10-21T22:40:00 RSR: Five dated passages read; identification per 066.0238 («le fils d'Alexandre») and 092.0088 («son fils») and the Mon Journal t.9 index (Etienne Alexandrovitch, cousin). His birth date and later fate are not given in the diary. %%

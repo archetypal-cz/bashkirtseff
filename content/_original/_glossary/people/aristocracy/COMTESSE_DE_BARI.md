@@ -24,4 +24,4 @@ Met through the comtesse de Bailleul's gaming salon (098.0243: «C'est chez elle
 
 Her husband was Prince Pasquale of Bourbon-Two Sicilies, Count of Bari (1852–1904), brother of Francis II of the Two Sicilies (en.wikipedia «Prince Pasquale, Count of Bari»), whose wife was Blanche de Marconnay, married in 1878 (same article; 0.7). The diary gives no first name.
 
-%% 2026-10-22T14:32:40 RSR: B-67 (4): entry created; tagged 094.0175, 098.0103, 098.0104, 098.0243, 101.0123. %%
+%% 2026-10-22T14:32:40 RSR: Tagged 094.0175, 098.0103, 098.0104, 098.0243, 101.0123. %%

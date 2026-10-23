@@ -47,4 +47,4 @@ full_text:
 - Folger Shakespeare Library catalogue, record 44624 (Houssaye, *Mademoiselle de La Vallière et Madame de Montespan*, Paris: Plon, 1860, 3rd ed.): https://catalog.folger.edu/record/44624
 - Internet Archive scans (see `full_text` above), preface and chapter on the "air d'être le roi".
 
-%% 2026-10-10T20:30:00 RSR: Works-glossary batch 05 (W063). Identification confirmed against the 1860 Plon text on Internet Archive: Houssaye's preface contains "n'aima pas le roi parce qu'il était le roi, mais parce qu'il avait l'air d'être le roi", paraphrased by Marie at 015.0260. %%
+%% 2026-10-10T20:30:00 RSR: Identification confirmed against the 1860 Plon text on Internet Archive: Houssaye's preface contains "n'aima pas le roi parce qu'il était le roi, mais parce qu'il avait l'air d'être le roi", paraphrased by Marie at 015.0260. %%

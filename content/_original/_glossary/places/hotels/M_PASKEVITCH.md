@@ -14,6 +14,3 @@ replaced_by: PASKEVITCH
 
 %% GLO_M_PASKEVITCH.0001 %%
 **Retired.** Merged into [#PASKEVITCH](../../people/mentioned/PASKEVITCH.md) (`people/mentioned/PASKEVITCH.md`); use that entry instead.
-
-%% GLO_M_PASKEVITCH.0002 %%
-%% 2026-10-22T20:58:18 RSR: Retired by glossary-merge; content and links moved to PASKEVITCH. replaced_by: people/mentioned/PASKEVITCH.md. %%

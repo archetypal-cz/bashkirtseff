@@ -20,4 +20,4 @@ The country (now Iran), under the Qajars in Marie's day. The only tagged mention
 
 - 1874-11-06 (025.0148, Nice): the only mention; see [Anitchkoff](../../people/recurring/ANITCHKOFF.md).
 
-%% 2026-10-22T21:37:47 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph read. %%
+%% 2026-10-22T21:37:47 RSR: One paragraph read. %%

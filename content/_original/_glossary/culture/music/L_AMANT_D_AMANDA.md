@@ -28,4 +28,4 @@ A song title: keep «L'amant d'Amanda» in French; the refrain Marie quotes may 
 - First mentioned: 1876-09-14 (066.0236)
 - 1876-10-11 (066.0759)
 
-%% 2026-10-21T10:27:05 RSR: Created during RSR research of the restored carnet 066 paragraphs (066a). Sources: Phonobase (phonobase.org, fiches 6357 and 6361); IMSLP pages «L'amant d'Amanda (Deransart, Édouard)» and «Amanda (Robillard, Victor)». No score or lyric sheet of the 1876 original was seen. 066.0759 tagged by rsr-066b the same day. %%
+%% 2026-10-21T10:27:05 RSR: Sources: Phonobase (phonobase.org, fiches 6357 and 6361); IMSLP pages «L'amant d'Amanda (Deransart, Édouard)» and «Amanda (Robillard, Victor)». No score or lyric sheet of the 1876 original was seen. 066.0759 tagged by rsr-066b the same day. %%

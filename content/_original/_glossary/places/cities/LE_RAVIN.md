@@ -60,4 +60,4 @@ The fact that Marie was reading the novel in French translation ("Le ravin") rat
 - **September 6, 1873**: Detailed discussion of the novel's characters, particularly enjoying Vikentieff's dream sequence
 - **September 7, 1873**: Mentions reading "Le ravin" again
 
-%% 2025-04-05T18:50:00 RSR: Created glossary entry for "Le ravin" (The Precipice) based on Marie's September 1873 diary entries. The novel appears to be Ivan Goncharov's "Обрыв" (The Precipice) published in 1869, which Marie was reading in French translation. %%
+%% 2025-04-05T18:50:00 RSR: The novel appears to be Ivan Goncharov's "Обрыв" (The Precipice) published in 1869, which Marie was reading in French translation. %%

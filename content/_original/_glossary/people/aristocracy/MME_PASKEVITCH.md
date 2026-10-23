@@ -22,4 +22,4 @@ The wife of [#M. Paskevitch](../mentioned/PASKEVITCH.md), a Russian diplomat (fi
 ## References in Diary
 003/1873-03-14; 004/1873-04-19; 007/1873-07-21, 07-22; 009/1873-09-06; 020/1874-06-01; 039/1875-08-15 (039.0070–0077); 040/1875-08-27-28; 072/1877-06-29; 092/1881-07-23.
 
-%% 2026-10-23T10:00:00 RSR: Body written from the diary text (B-87); the 039.0070–0077 tags moved here from PASKEVITCH, which is the husband. The Baden-era mentions 003/1873-03-14 and 004/1873-04-19 («Mme Paskevitch») and 072/1877-06-29 («Mme Paskevitch, celle qui a épousé Carlo») are listed from the text; their tag lines were not checked. %%
+%% 2026-10-23T10:00:00 RSR: The 039.0070–0077 tags moved here from PASKEVITCH, which is the husband. The Baden-era mentions 003/1873-03-14 and 004/1873-04-19 («Mme Paskevitch») and 072/1877-06-29 («Mme Paskevitch, celle qui a épousé Carlo») are listed from the text; their tag lines were not checked. %%

@@ -22,4 +22,4 @@ On 5 September 1883 (Paris), when she visits the ailing marshal: «J'ai vu prier
 
 - 1883-09-05 (101.0309), the only tagged paragraph.
 
-%% 2026-10-22T19:58:00 RSR: Body written.  «J'ai vu prier» is as printed; the sense is obscure and nothing was changed. %%
+%% 2026-10-22T19:58:00 RSR: «J'ai vu prier» is as printed; the sense is obscure and nothing was changed. %%

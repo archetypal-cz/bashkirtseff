@@ -59,4 +59,4 @@ The same evening's list that makes her dizzy (102.0352) is "Les Saintes femmes..
 - The diary: carnet 102, French originals in `/content/_original/`
 
 %% GLO_MEURTRE_DE_CESAR.0013 %%
-%% 2026-10-10T21:00:44 RSR: Created in the works-glossary wave (batch 10). The inventory called it painting/relief; 102.0348 says tableau, and the grand bas-relief in 102.0352 is the Printemps. 102.0413 and 102.0466 mention a different Jules, whose identity is not given. %%
+%% 2026-10-10T21:00:44 RSR: The inventory called it painting/relief; 102.0348 says tableau, and the grand bas-relief in 102.0352 is the Printemps. 102.0413 and 102.0466 mention a different Jules, whose identity is not given. %%

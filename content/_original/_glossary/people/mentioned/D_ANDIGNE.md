@@ -15,6 +15,3 @@ replaced_by: M_D_ANDIGNE
 
 %% GLO_D_ANDIGNE.0001 %%
 **Retired.** Merged into [#M_D_ANDIGNE](M_D_ANDIGNE.md) (`people/mentioned/M_D_ANDIGNE.md`); use that entry instead.
-
-%% GLO_D_ANDIGNE.0002 %%
-%% 2026-10-22T20:53:54 RSR: Retired by glossary-merge; content and links moved to M_D_ANDIGNE. replaced_by: people/mentioned/M_D_ANDIGNE.md. %%

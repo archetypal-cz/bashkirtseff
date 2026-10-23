@@ -33,6 +33,4 @@ On 16 April 1876 Marie, in Naples with her mother, Walitsky, Altamura and Chocol
 - Not this entry: 069.0033 (1877-02-26): «Les anciennes porcelaines de Capo-di-Monte» shown by monks in a monastery (the «fra Buonaventura» passage): the porcelain, not the palace. That paragraph carries the people/mentioned stub CAPO_DI_MONTE, which is a misfiled and empty entry.
 
 %% GLO_CAPODIMONTE.0007 %%
-%% 2026-10-21T22:25:00 RSR: Created (OPEN-ITEMS B-64(2)): two paragraphs read (058.0088, 058.0089); 069.0033 read and excluded (porcelain). History per Wikipedia «Museo di Capodimonte» (1738, Charles of Bourbon), not re-opened this session beyond a search summary. %%
-
-%% 2026-10-21T22:50:02 RSR: Merged CAPO_DI_MONTE (no content kept: empty stub) %%
+%% 2026-10-21T22:25:00 RSR: Two paragraphs read (058.0088, 058.0089); 069.0033 read and excluded (porcelain). History per Wikipedia «Museo di Capodimonte» (1738, Charles of Bourbon), not re-opened this session beyond a search summary. %%

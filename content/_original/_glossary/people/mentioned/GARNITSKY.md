@@ -31,4 +31,4 @@ Marie spells him "Garnitsky" everywhere except once, "Garnitski" (096.0451).
 - The diary, carnets 096-097 (French originals in `/content/_original/`)
 - Mon Journal, t.15, index of names
 
-%% 2026-10-21T13:55:00 RSR: Created in the no-LAN entries pass (096/1882-10-27); 11 mentions in 096-097, no earlier entry. Russian spelling not attested, so no original_script given. %%
+%% 2026-10-21T13:55:00 RSR: Russian spelling not attested, so no original_script given. %%

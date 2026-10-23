@@ -60,4 +60,4 @@ Marie's mother's mother, the family's "grand-maman", died suddenly in 1870 (see 
 - The diary: carnet 071, French originals in `/content/_original/`; the 1885 catalogue has no "grand-maman" portrait by that title: [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)
 
 %% GLO_PORTRAIT_GRAND_MAMAN.0013 %%
-%% 2026-10-10T20:59:13 RSR: Created in the works-glossary wave (batch 10). Posthumous reading inferred from GRAND_MAMAN (died 1870); flagged as inference. The prince and Alexandre left unexplained. Check 071.0571 against neighbouring days for the identity of the prince if time allows. %%
+%% 2026-10-10T20:59:13 RSR: Posthumous reading inferred from GRAND_MAMAN (died 1870); flagged as inference. The prince and Alexandre left unexplained. Check 071.0571 against neighbouring days for the identity of the prince if time allows. %%

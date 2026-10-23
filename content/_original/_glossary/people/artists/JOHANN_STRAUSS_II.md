@@ -22,4 +22,4 @@ Johann Strauss II (1825–1899), the Viennese composer and conductor, «the Walt
 - 1873-08-09 (007.0372, Vienna, during the World Exhibition): at an Exhibition concert «d'une façon inattendue Strauss (Johann) paraît. Il donne un autre caractère à l'orchestre et à l'ensemble. Chaque musicien a une face animée et riante».
 - His operetta *La Tzigane* (Paris, 1877) is footnoted at 077.0051.
 
-%% 2026-10-22T14:16:16 RSR: Created (ledger B-68 (4)): two mentions in 006 and 007 (the alias «Strauss» of EDOUARD_STRAUSS would mis-tag them). %%
+%% 2026-10-22T14:16:16 RSR: Two mentions in 006 and 007 (the alias «Strauss» of EDOUARD_STRAUSS would mis-tag them). %%

@@ -59,6 +59,4 @@ Mignon is Marie's favourite opera in 1876 and a personal emblem throughout the d
 - IMSLP, [Mignon (Thomas, Ambroise)](https://imslp.org/wiki/Mignon_(Thomas,_Ambroise)).
 - Diary footnotes in the source entries cited above.
 
-%% 2026-10-10T12:00:00 RSR: Enriched in place (works batch 02): the stub was verified to be the opera. 24 files carry the tag; they mix the opera, Mignon as a role/costume and the song. Balzac's Modeste Mignon (097.0220) is a different work and is not tagged here. %%
-%% GLO_MIGNON.9000 %%
-%% 2026-10-03T10:00:00 RSR: Moved from people/mentioned/MIGNON.md. Body copied unchanged. %%
+%% 2026-10-10T12:00:00 RSR: 24 files carry the tag; they mix the opera, Mignon as a role/costume and the song. Balzac's Modeste Mignon (097.0220) is a different work and is not tagged here. %%

@@ -20,4 +20,4 @@ The Adriatic port, then Austrian. The only mention is a piece of Russian gossip 
 
 - 1874-12-01 (027.0107, Nice): the only mention. See [Wittgenstein](../../people/aristocracy/WITTGENSTEIN.md).
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph. %%
+%% 2026-10-22T21:39:42 RSR: One paragraph. %%

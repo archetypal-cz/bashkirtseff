@@ -18,4 +18,4 @@ The islands of the Neva delta, the fashionable summer resort of Petersburg socie
 
 - 1876-08-07 (064.0447, Petersburg): the only mention. See [Gulf of Finland](FINLAND_GULF.md).
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph; identification is the project footnote. Category places/cities should be landmarks/districts; move optional. %%
+%% 2026-10-22T21:39:42 RSR: One paragraph; identification is the project footnote. Category places/cities should be landmarks/districts; move optional. %%

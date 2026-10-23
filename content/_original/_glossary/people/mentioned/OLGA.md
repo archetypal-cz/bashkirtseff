@@ -35,11 +35,9 @@ Related entries: [#Marie_Sapogenikoff](MARIE_SAPOGENIKOFF.md), [#Nina](NINA.md),
 
 458 tagged paragraphs; densest in 1875–76 (carnets 029–050: about 380; 059; 064), with single mentions in 005, 060, 067, 071, 072, 076, 077 and 102. First and last, the Graces' foundation, the 1876 St Petersburg run and the marriage notices were read 2026-10-21.
 
-%% 2026-10-21T22:30:00 RSR: Fix (OPEN-ITEMS B-20): the auto-stub boilerplate and the thin merged text (OLGA_SAPOGENIKOFF, 2026-10-21T21:23:18) are replaced by one coherent body written from the tagged paragraphs and the Mon Journal indexes t.5–t.10. The merged claim that Olga was «loud, unladylike» is kept in Marie Bashkirtseff's own words (034.0489, 035.0088), not as a general characterisation. Wrong tag: 072.0035 (the grand duchess Olga). 007.0119 «la fête d'Olga» (B-64) still unidentified. %%
+%% 2026-10-21T22:30:00 RSR: The auto-stub boilerplate and the thin merged text (OLGA_SAPOGENIKOFF, 2026-10-21T21:23:18) are replaced by one coherent body written from the tagged paragraphs and the Mon Journal indexes t.5–t.10. The merged claim that Olga was «loud, unladylike» is kept in Marie Bashkirtseff's own words (034.0489, 035.0088), not as a general characterisation. Wrong tag: 072.0035 (the grand duchess Olga). 007.0119 «la fête d'Olga» (B-64) still unidentified. %%
 
-%% 2026-10-22T22:08:42 RSR: Merged EUPHROSINE (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## Euphrosine
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 In the society A.T.E. founded on 9 May 1875 Olga is «Euphrosine»: «Moi - Thalie, Marie - Aglaé et Olga Euphrosine» (032.0518); the regulations of 3 May 1876 name «Olga Alexandrovna Sapogenikoff, Euphrosine» (059.0689). Marie uses the name in speech («Vois-tu Euphrosine», 044.0238) and on 30 May 1875 («ma tante, Aglaé et Euphrosine», 033.0358). The Mon Journal t.5 index agrees («Euphrosine: Sapogenikoff (Olga)»); t.7 swaps the sisters, against the text.

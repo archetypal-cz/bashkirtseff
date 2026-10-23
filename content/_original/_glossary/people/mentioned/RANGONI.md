@@ -23,5 +23,3 @@ He tells Marie that Angelini has come to Nice (068.0723), walks with Angelini (0
 
 ## Related
 - [OSCAR_ANGELINI](OSCAR_ANGELINI.md)
-
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%

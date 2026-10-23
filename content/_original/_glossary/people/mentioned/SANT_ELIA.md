@@ -14,6 +14,3 @@ replaced_by: SCHININA
 
 %% GLO_SANT_ELIA.0001 %%
 **Retired.** Merged into [#SCHININA](SCHININA.md) (`people/mentioned/SCHININA.md`); use that entry instead.
-
-%% GLO_SANT_ELIA.0002 %%
-%% 2026-10-21T21:14:44 RSR: Retired by glossary-merge; content and links moved to SCHININA. replaced_by: people/mentioned/SCHININA.md. %%

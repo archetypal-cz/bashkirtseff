@@ -41,4 +41,4 @@ full_text:
 - Bru Zane Médiabase (Palazzetto Bru Zane), ["La Périchole"](https://bruzanemediabase.com/en/node/7805).
 - IMSLP, [La Périchole (Offenbach, Jacques)](https://imslp.org/wiki/La_Périchole_(Offenbach,_Jacques)).
 
-%% 2026-10-10T12:00:00 RSR: New work entry (batch 02). Supersedes people/mentioned/LA_PERICHOLE.md (stub; id LA_PERICHOLE, "La Perichole"). Marie's "Lamor" in 066.0622 is her slip or a transcription slip for Lima; the "Variétés 1874" matches the 25 April 1874 revival. %%
+%% 2026-10-10T12:00:00 RSR: Supersedes people/mentioned/LA_PERICHOLE.md (stub; id LA_PERICHOLE, "La Perichole"). Marie's "Lamor" in 066.0622 is her slip or a transcription slip for Lima; the "Variétés 1874" matches the 25 April 1874 revival. %%

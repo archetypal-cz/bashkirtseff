@@ -53,4 +53,4 @@ The amazone also indicated active, physical participation in outdoor life — ri
 - **Tube** — top hat (worn with amazone)
 - **Robe** — dress (worn when not riding)
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Marie's riding habit, frequently noted in outfit descriptions. %%
+%% 2026-02-10T20:00:00 RSR: Marie's riding habit, frequently noted in outfit descriptions. %%

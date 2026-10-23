@@ -56,6 +56,5 @@ Research conducted using web sources: [Pierre-Alfred Ravel - Wikipedia](https://
 %% 2025-12-07T15:45:00 RSR: First mentioned in entry 1873-01-12. Ravel's presence in Nice confirms the high quality of theatrical entertainment available during the winter season %%
 
 %% GLO_PIERRE_ALFRED_RAVEL.9000 %%
-%% 2026-10-03T10:00:00 RSR: Moved from places/theaters/PIERRE_ALFRED_RAVEL.md. Body copied unchanged. %%
 
-%% 2026-10-22T13:07:46 RSR: Alias «Ravel» added and the 1874-75 mentions retagged here from the retired RAVEL (OPEN-ITEMS B-76(1)); alias «Actor» dropped (it is not a name). %%
+%% 2026-10-22T13:07:46 RSR: Alias «Actor» dropped (it is not a name). %%

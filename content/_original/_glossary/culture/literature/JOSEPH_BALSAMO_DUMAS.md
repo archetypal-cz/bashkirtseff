@@ -52,6 +52,3 @@ full_text:
 
 %% GLO_JOSEPH_BALSAMO_DUMAS.0010 %%
 The historical Cagliostro has no entry of his own.
-
-%% GLO_JOSEPH_BALSAMO_DUMAS.0011 %%
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

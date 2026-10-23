@@ -14,6 +14,3 @@ replaced_by: M_DE_VALON
 
 %% GLO_A_DE_VALON.0001 %%
 **Retired.** Merged into [#M_DE_VALON](M_DE_VALON.md) (`people/mentioned/M_DE_VALON.md`); use that entry instead.
-
-%% GLO_A_DE_VALON.0002 %%
-%% 2026-10-22T20:51:56 RSR: Retired by glossary-merge; content and links moved to M_DE_VALON. replaced_by: people/mentioned/M_DE_VALON.md. %%

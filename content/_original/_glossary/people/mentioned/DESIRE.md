@@ -13,6 +13,3 @@ replaced_by: GODARD
 
 %% GLO_DESIRE.0001 %%
 **Retired.** Merged into [#GODARD](GODARD.md) (`people/mentioned/GODARD.md`); use that entry instead.
-
-%% GLO_DESIRE.0002 %%
-%% 2026-10-22T20:58:37 RSR: Retired by glossary-merge; content and links moved to GODARD. replaced_by: people/mentioned/GODARD.md. %%

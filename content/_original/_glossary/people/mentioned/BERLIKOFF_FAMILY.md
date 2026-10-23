@@ -13,7 +13,6 @@ last_updated: 2026-05-31
 ---
 # Berlikoff Family
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (June 1873, Nice)
 
@@ -29,4 +28,4 @@ A Russian family in the Nice social circle of spring 1873, departing for Russia 
 
 No further information available. Russian family in the Nice expatriate community, 1873. Berlikoff (Берликов) is a Russian surname.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real family — Russian family departing Nice for Russia, June 1873, traveling with their doctor. %%
+%% 2026-05-31T12:00:00 RSR: Real family — Russian family departing Nice for Russia, June 1873, traveling with their doctor. %%

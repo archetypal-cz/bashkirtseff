@@ -54,4 +54,4 @@ On 23 September 1878 (082.0442) she lists Herodotus among the few Greek authors 
 - Wikipedia, "Histories (Herodotus)": https://en.wikipedia.org/wiki/Histories_(Herodotus)
 - French Wikisource, "Histoires (Hérodote)" and "Histoire (Hérodote)/Trad. Larcher, 1850".
 
-%% 2026-10-10T21:50:00 RSR: Works-glossary batch 05 (W083). No prior entry. Larcher is a likely, not a documented, translation. %%
+%% 2026-10-10T21:50:00 RSR: No prior entry. Larcher is a likely, not a documented, translation. %%

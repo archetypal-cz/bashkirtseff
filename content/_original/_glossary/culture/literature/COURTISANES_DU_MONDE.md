@@ -67,6 +67,3 @@ Paragraph 008.0116 ("le reste des *courtisanes*"): this uses the ordinary word f
 
 %% GLO_COURTISANES_DU_MONDE.0009 %%
 Enriched in place (the former entry held only the 1874-02-01 mention).
-
-%% GLO_COURTISANES_DU_MONDE.0010 %%
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); enriched. %%

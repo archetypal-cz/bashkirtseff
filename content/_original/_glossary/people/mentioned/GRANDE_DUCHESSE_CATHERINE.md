@@ -17,5 +17,3 @@ A grand duchess Catherine named once, on 1883-09-18 (101.0390), as one of the pe
 ## Identity uncertain
 
 We are not sure who this is. The grand duchess of that name in the Russian court of 1883 was most probably Catherine Mikhailovna (1827–1894), niece of Nicholas I and widow-duchess of Mecklenburg-Strelitz, who lived in Petersburg (en.wikipedia «Grand Duchess Catherine Mikhailovna of Russia»), but the diary gives no further detail, and neither the chamberlain nor his wife is named. If you can identify this person, we would be glad to hear from you.
-
-%% 2026-10-22T21:40:37 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

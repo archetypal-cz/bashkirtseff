@@ -55,4 +55,4 @@ They were made quickly, to be shown to others (Doenhoff's compliments, the princ
 - Diary paragraphs cited above in `content/_original/`. Alexandre = Larderel: see the footnote on 071.0428 and the glossary entry.
 
 %% GLO_PORTRAITS_MELISSANO.0011 %%
-%% 2026-10-10T21:00:00 RSR: Created in the works glossary wave (W478). Inventory listed 071.0007/0491/0507; further mentions found at 071.0013, 071.0021, 071.0428 and 072.0006-0007. %%
+%% 2026-10-10T21:00:00 RSR: Inventory listed 071.0007/0491/0507; further mentions found at 071.0013, 071.0021, 071.0428 and 072.0006-0007. %%

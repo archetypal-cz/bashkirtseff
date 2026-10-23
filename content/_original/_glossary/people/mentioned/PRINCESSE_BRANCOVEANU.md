@@ -23,5 +23,3 @@ We are not sure who this is. The princess most prominent in Paris society in 187
 ## References in Diary
 
 - 084.0029 (1879-01-15)
-
-%% 2026-10-22T14:12:04 RSR: B-49 (5): stub body written; identity uncertain (candidate Rachel Musurus, princesse de Brancovan, 0.5). %%

@@ -22,4 +22,4 @@ A Paris furniture dealer and decorator whom the Bashkirtseffs consult in May-Jun
 
 019.0222, 019.0294; 020.0094, 020.0226, 020.0294, 020.0300.
 
-%% 2026-10-22T15:00:00 RSR: Stub replaced (phase 4). A shop, filed under people/mentioned; a move to places/shops is recommended. %%
+%% 2026-10-22T15:00:00 RSR: A shop, filed under people/mentioned; a move to places/shops is recommended. %%

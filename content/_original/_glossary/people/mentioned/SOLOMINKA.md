@@ -82,5 +82,3 @@ Such figures occupied an ambiguous position:
 - Were they Russian or of another nationality?
 - Did they remain with the family in later years?
 - Gender identity (the name could apply to either gender)
-
-%% 2025-06-30T21:50:00 RSR: Created entry for Solominka based on frequent 1873 diary mentions %%

@@ -30,4 +30,4 @@ Not the Russian Orthodox priest whom Marie calls «le pope» in Paris in 1878-18
 - Marie Bashkirtseff, *Journal*, paragraphs cited; Mon Journal indexes (t.2, t.6-t.9).
 - Wikipedia, «Pope Pius IX».
 
-%% 2026-10-22T11:52:00 RSR: Body written (glossary-owner-questions B-63(2)). The stub had no content. All 99 tagged paragraphs read: the 82 in 009-067 are Pius IX; the 17 tags in 081 and 099-105 are «le pope», the Russian Orthodox archpriest of Paris, and are listed for retagging to PERE_VASSILIEFF in the identity-decisions TSV (deciding line 104.0513: «Celui qui vient toujours est archiprêtre ... et qui s'appelle Wassilieff»). %%
+%% 2026-10-22T11:52:00 RSR: The stub had no content. All 99 tagged paragraphs read: the 82 in 009-067 are Pius IX; the 17 tags in 081 and 099-105 are «le pope», the Russian Orthodox archpriest of Paris, and are listed for retagging to PERE_VASSILIEFF in the identity-decisions TSV (deciding line 104.0513: «Celui qui vient toujours est archiprêtre ... et qui s'appelle Wassilieff»). %%

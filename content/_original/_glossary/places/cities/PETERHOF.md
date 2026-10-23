@@ -37,5 +37,3 @@ Peterhof (now Petergof) is the imperial palace complex on the Gulf of Finland, a
 ## Related Entries
 - [#Petersburg](./PETERSBURG.md) - The nearby capital
 - [#Winter_Palace](../buildings/WINTER_PALACE.md) - The St. Petersburg imperial residence
-
-%% 2026-02-10T16:25:00 RSR: Expanded from one-line stub %%

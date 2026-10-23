@@ -35,6 +35,4 @@ Marie spent significant time in Italy (Rome, Naples, Florence) during 1877-1878,
 The famous pizza Margherita is named after her, created in her honor during a visit to Naples in 1889.
 
 %% GLO_MARGHERITA_DI_SAVOIA.0007 %%
-%% 2026-02-10T12:15:00 RSR: Enriched from stub. Queen Margherita was the Queen of Italy during Marie's Italian sojourns. %%
-
-%% 2026-10-22T20:56:51 RSR: Merged QUEEN_MARGHERITA (no content kept: empty stub) %%
+%% 2026-02-10T12:15:00 RSR: Queen Margherita was the Queen of Italy during Marie's Italian sojourns. %%

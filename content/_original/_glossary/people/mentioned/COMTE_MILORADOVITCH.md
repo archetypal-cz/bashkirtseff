@@ -20,4 +20,4 @@ At Poltava station on 22 October 1876 he looks after her and travels in her trai
 ## References in Diary
 - 1876-10-14 (067.0049); 1876-10-23 (067.0258, 067.0260); 1876-11-04 (067.0731)
 
-%% 2026-10-21T09:31:34 RSR: Created from the restored paragraphs of 067; the 067.0258 and 067.0260 tags were moved here from GRITZ_MILORADOVITCH. First name and exact kinship to Gritz not researched. "La comtesse Miloradovitch", Gritz's aunt (067.0007; index "Miloradovitch (comtesse), tante"), may be his wife (not established). %%
+%% 2026-10-21T09:31:34 RSR: The 067.0258 and 067.0260 tags were moved here from GRITZ_MILORADOVITCH. First name and exact kinship to Gritz not researched. "La comtesse Miloradovitch", Gritz's aunt (067.0007; index "Miloradovitch (comtesse), tante"), may be his wife (not established). %%

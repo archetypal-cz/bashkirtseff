@@ -54,4 +54,4 @@ She is in Paris that day (the entry is located at Paris), in a miserable mood ab
 - Diary paragraphs 038.0120-0124 in `content/_original/`. No secondary source discusses this work.
 
 %% GLO_EPITRE_A_MA_TANTE.0011 %%
-%% 2026-10-10T20:47:00 RSR: Created in the works glossary wave (W415). Which Marot epistle she means is not stated; no identification attempted. %%
+%% 2026-10-10T20:47:00 RSR: Which Marot epistle she means is not stated; no identification attempted. %%

@@ -38,4 +38,4 @@ Note: in 032.0386 («Mme Miloradovitch ça ne sonne pas trop bien») the name is
 
 See also [#Gritz_Miloradovitch](GRITZ_MILORADOVITCH.md), [#Comte_Miloradovitch](COMTE_MILORADOVITCH.md), [#Maman](../family/MAMAN.md).
 
-%% 2026-10-21T09:41:00 RSR: Created during RSR research of the restored carnet 067 paragraphs (rsr-067b). Identification with the philanthropist rests on name, maiden name, Poltava and the Ukrainophile activity Marie describes; Wikipedia does not list her children, so the link to Gritz comes from the diary only. %%
+%% 2026-10-21T09:41:00 RSR: Identification with the philanthropist rests on name, maiden name, Poltava and the Ukrainophile activity Marie describes; Wikipedia does not list her children, so the link to Gritz comes from the diary only. %%

@@ -58,4 +58,4 @@ Marie uses "calèche" frequently across the diary:
 - **Coupé** — enclosed two-person carriage
 - **Break** — open sporting carriage
 
-%% 2026-02-10T20:00:00 RSR: Created entry based on diary references across carnets 001-092+. One of Marie's most frequently mentioned carriage types. %%
+%% 2026-02-10T20:00:00 RSR: One of Marie's most frequently mentioned carriage types. %%

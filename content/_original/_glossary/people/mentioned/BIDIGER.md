@@ -22,5 +22,3 @@ We are not sure who this man was. The name is given once in the diary and once i
 ## References in Diary
 
 - 1874-05-23 (019.0323).
-
-%% 2026-10-22T19:35:00 RSR: Body written; identity_uncertain set. %%

@@ -30,4 +30,4 @@ A peasant valet in the household of Marie's father, Constantin Bashkirtseff, at 
 
 See also [#Kousma](KOUSMA.md), [#Papa](../family/PAPA.md).
 
-%% 2026-10-21T10:27:05 RSR: Created during RSR research of the restored carnet 066 paragraphs (066a, 1876-09-03 to 09-14). Only the 066.0129, 066.0131 and 066.0139 tags were added in this pass; the later mentions (066.0548, 066.0625, 066.0628, 066.0657) were tagged by rsr-066b the same day. %%
+%% 2026-10-21T10:27:05 RSR: Only the 066.0129, 066.0131 and 066.0139 tags were added in this pass; the later mentions (066.0548, 066.0625, 066.0628, 066.0657) were tagged by rsr-066b the same day. %%

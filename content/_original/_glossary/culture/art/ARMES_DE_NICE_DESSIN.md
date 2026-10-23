@@ -54,4 +54,4 @@ The Rosière joke is part of her campaign of anonymous letters and mockery again
 - Diary paragraphs 053.0408, 050.0063, 050.0065, 050.0202 in `content/_original/`.
 
 %% GLO_ARMES_DE_NICE_DESSIN.0011 %%
-%% 2026-10-10T20:55:00 RSR: Created in the works glossary wave (W419). Minor decorative item; kept as an entry because the inventory lists it. Doubt: the diary does not say whether the vignette was on the copy kept in the notebook or on the letter sent. %%
+%% 2026-10-10T20:55:00 RSR: Minor decorative item; kept as an entry because the inventory lists it. Doubt: the diary does not say whether the vignette was on the copy kept in the notebook or on the letter sent. %%

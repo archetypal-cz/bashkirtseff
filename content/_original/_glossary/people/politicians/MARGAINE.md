@@ -26,4 +26,4 @@ A questeur of the Chamber of Deputies in 1879–1880. Identification rests on th
 
 - First mentioned: 1879-06-16 (085.0332)
 - 1880-02-12 (087.0462)
-%% 2026-10-22T14:04:11 RSR: B-46 (2): constituency and dates added from the Sycomore and Sénat biographies. %%
+%% 2026-10-22T14:04:11 RSR: Constituency and dates added from the Sycomore and Sénat biographies. %%

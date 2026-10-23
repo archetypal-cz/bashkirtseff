@@ -53,4 +53,4 @@ It is a portrait made in the atelier in spring 1881; the sitter was brought by [
 - Diary paragraphs 092.0024-0025 and 092.0034 in `content/_original/`, with their footnotes (the note on Maurel at 092.0024 cites no source; his dates and roles should be re-checked against a standard reference).
 
 %% GLO_PORTRAIT_PETITE_MAUREL.0011 %%
-%% 2026-10-10T21:25:00 RSR: Created in the works glossary wave (W257). Correction to the inventory: date is May, not July, 1881. %%
+%% 2026-10-10T21:25:00 RSR: Correction to the inventory: date is May, not July, 1881. %%

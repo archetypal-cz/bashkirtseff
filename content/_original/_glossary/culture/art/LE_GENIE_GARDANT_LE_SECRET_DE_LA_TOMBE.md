@@ -39,4 +39,4 @@ Marie went to the Musée du Luxembourg on **1 July 1883** and brought back from 
 [L'Arlequin (Saint-Marceaux)](./L_ARLEQUIN_SAINT_MARCEAUX.md).
 
 %% GLO_LE_GENIE_GARDANT_LE_SECRET_DE_LA_TOMBE.9000 %%
-%% 2026-10-10T20:00:00 RSR: Created batch 07. Split from inventory W009. Orsay RF 300 / LUX 93, 168x95x119 per web-search summary of the Orsay record. 'Medal' status 1879 unresolved (first-class vs honour). %%
+%% 2026-10-10T20:00:00 RSR: Split from inventory W009. Orsay RF 300 / LUX 93, 168x95x119 per web-search summary of the Orsay record. 'Medal' status 1879 unresolved (first-class vs honour). %%

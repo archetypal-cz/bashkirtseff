@@ -13,6 +13,3 @@ replaced_by: TUTCHEFF
 
 %% GLO_TUTCHEFF_FAMILY.0001 %%
 **Retired.** Merged into [#TUTCHEFF](TUTCHEFF.md) (`people/mentioned/TUTCHEFF.md`); use that entry instead.
-
-%% GLO_TUTCHEFF_FAMILY.0002 %%
-%% 2026-10-22T22:13:10 RSR: Retired by glossary-merge; content and links moved to TUTCHEFF. replaced_by: people/mentioned/TUTCHEFF.md. %%

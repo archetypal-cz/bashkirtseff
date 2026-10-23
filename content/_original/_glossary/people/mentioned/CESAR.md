@@ -13,6 +13,3 @@ replaced_by: CAESAR
 
 %% GLO_CESAR.0001 %%
 **Retired.** Merged into [#CAESAR](../historical/CAESAR.md) (`people/mentioned/CAESAR.md`); use that entry instead.
-
-%% GLO_CESAR.0002 %%
-%% 2026-10-22T22:09:50 RSR: Retired by glossary-merge; content and links moved to CAESAR. replaced_by: people/mentioned/CAESAR.md. %%

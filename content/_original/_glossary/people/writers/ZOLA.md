@@ -43,4 +43,4 @@ Zola's depiction of women's lives, particularly in *Nana* (a courtesan) and *Au 
 - [#Victor_Hugo](../mentioned/VICTOR_HUGO.md) -- The other great literary figure of the era
 
 %% GLO_ZOLA.0009 %%
-%% 2026-02-10T11:30:00 RSR: Enriched from stub. Zola was the leading naturalist novelist during Marie's lifetime, and his literary movement paralleled the naturalist painting Marie practiced. %%
+%% 2026-02-10T11:30:00 RSR: Zola was the leading naturalist novelist during Marie's lifetime, and his literary movement paralleled the naturalist painting Marie practiced. %%

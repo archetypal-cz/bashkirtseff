@@ -14,6 +14,3 @@ replaced_by: TOLEDO
 
 %% GLO_TOLEDO_NAPLES.0001 %%
 **Retired.** Merged into [#TOLEDO](../../places/streets/TOLEDO.md) (`places/streets/TOLEDO.md`); use that entry instead.
-
-%% GLO_TOLEDO_NAPLES.0002 %%
-%% 2026-10-21T21:25:54 RSR: Retired by glossary-merge; content and links moved to TOLEDO. replaced_by: places/streets/TOLEDO.md. %%

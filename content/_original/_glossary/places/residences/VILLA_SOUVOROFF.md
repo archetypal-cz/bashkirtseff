@@ -30,5 +30,3 @@ Many villas in Nice bore Russian names, reflecting the large Russian colony:
 ## Related Entries
 - [#Nice](../cities/NICE.md) - The city
 - [#Villa_Bashkirtseff](./VILLA_BASHKIRTSEFF.md) - Another family property
-
-%% 2026-02-10T15:15:00 RSR: Expanded from one-line stub %%

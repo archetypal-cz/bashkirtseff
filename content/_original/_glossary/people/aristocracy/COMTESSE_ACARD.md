@@ -39,4 +39,4 @@ Marie's contempt for Cassagnac's marriage extends to his wife's family.
 - First mentioned: 1878-04-22 (079.0507, «la baronne Acard»)
 - 1879-06-06 (085.0229)
 - Key entries: 085.0231, 085.0424
-%% 2026-10-22T14:05:50 RSR: B-59 (4) / B-46 (4): name and title settled (Justine, comtesse; «baronne» once in 079.0507); sources added. The COUVELET stub (11 files) mixes the husband, the family and the 1879 Bojidar joke names; it needs splitting or a body (listed for the lead). %%
+%% 2026-10-22T14:05:50 RSR: Name and title settled (Justine, comtesse; «baronne» once in 079.0507); sources added. The COUVELET stub (11 files) mixes the husband, the family and the 1879 Bojidar joke names; it needs splitting or a body (listed for the lead). %%

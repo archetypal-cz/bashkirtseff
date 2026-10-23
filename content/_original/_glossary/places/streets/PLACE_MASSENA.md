@@ -41,6 +41,3 @@ Main square in Nice, center of social life and chance encounters. Named after Ma
 - Nice urban geography 1870s
 - Social spaces and promenades
 - Café society locations
-
-%% GLO_PLACE_MASSENA.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/PLACE_MASSENA.md (a place filed under people). Body copied unchanged. %%

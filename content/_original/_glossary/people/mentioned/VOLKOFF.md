@@ -23,4 +23,4 @@ We are not sure who this is. The only mention is 019.0128; the diary calls him Â
 
 - 1874-05-06 (019.0128, Nice): the only mention; see [BarrÃªme](BARREME.md) and [Tichkevitch](TICHKEVITCH.md) in the same paragraph.
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Written from the single tagged paragraph and the Mon Journal t.3 index (name index in content/_raw/tome03.docx); no outside source identifies the man. %%
+%% 2026-10-22T21:33:17 RSR: No outside source identifies the man. %%

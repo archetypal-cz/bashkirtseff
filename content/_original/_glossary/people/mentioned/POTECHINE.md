@@ -20,11 +20,6 @@ last_updated: 2026-10-21
 ## References in Diary
 [Multiple references found - needs research]
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-
 ## Identity
 
 Voldemar Potechine, «une très ancienne connaissance de Russie» (059.0434, Rome, April 1876); the Mon Journal t.8 index lists him as «Potechine (M.)».

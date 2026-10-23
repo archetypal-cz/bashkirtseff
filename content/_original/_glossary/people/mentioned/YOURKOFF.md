@@ -24,4 +24,4 @@ Heavily tagged (about 100 paragraphs). Key dates: 005/1873-05-24 (first appearan
 
 Nicolas Yourkoff (Mon Journal tome 4 index: "Yourkoff (Nicolas), [Paris], [Ménélas]"), the companion of Nina Sapogenikoff. Marie explains his nickname at 024.0414 (26 October 1874): "Pâris (Yourkoff) surnommé ainsi par les enfants de Nina qui le nommèrent Pâris", while at Geneva a M. and Mme Laloff called the pair "Ménélas et Hélène". In the 1875 Nice carnets he is usually "Pâris" (029.0016, 030.0152, 030.0204, 030.0215). He killed himself at Monaco in March 1876 (056.0073: "Hier, Yourkoff s'est tué à Monaco").
 
-%% 2026-10-21T12:12:19 RSR: Identity section added from the restored paragraphs of 029-030. Source: diary text; Mon Journal tome 4 index. %%
+%% 2026-10-21T12:12:19 RSR: Source: diary text; Mon Journal tome 4 index. %%

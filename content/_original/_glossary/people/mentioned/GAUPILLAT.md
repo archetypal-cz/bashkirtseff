@@ -21,4 +21,4 @@ A social acquaintance of Marie's in Paris, spring 1880. Visited Marie on 27 May 
 - 1880-05-27: Visits Marie.
 - 1880-06-12: Marie finishes her sketch.
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-27.md and 1880-06-12.md. Mme Gaupillat: minor social acquaintance; Marie painted a pochade of her, Paris spring 1880. No further identification. %%
+%% 2026-05-31T12:00:00 RSR: Mme Gaupillat: minor social acquaintance; Marie painted a pochade of her, Paris spring 1880. No further identification. %%

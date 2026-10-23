@@ -29,4 +29,4 @@ In a dialogue with Marie about the man she loves (speaker presumably Julian), th
 
 103.0356, 103.0357, 103.0358, 103.0360, 103.0363, 103.0364, 103.0365 (all opened 2026-10-21; 103.0359 and 103.0361 are untagged continuation lines of the same account); 103.0756 (probable).
 
-%% 2026-10-21T22:25:00 RSR: Split from MME_MACKAY (OPEN-ITEMS D-42). Basis: «Mme Mackay (pas la richissime) la Mackay Bastien» (098.0101) and «Mme Mackay (la richissime) va trouver Meissonnier» (103.0357). Paragraphs 103.0356–0365 and 103.0756 should be retagged MME_MACKAY → LOUISE_MACKAY (see worker report). %%
+%% 2026-10-21T22:25:00 RSR: Basis: «Mme Mackay (pas la richissime) la Mackay Bastien» (098.0101) and «Mme Mackay (la richissime) va trouver Meissonnier» (103.0357). Paragraphs 103.0356–0365 and 103.0756 should be retagged MME_MACKAY → LOUISE_MACKAY (see worker report). %%

@@ -23,5 +23,3 @@ Michele Gordigiani (1835–1909), Florentine portrait painter (en.wikipedia «Mi
 
 ## References in Diary
 - 1877-05-06 (071.0165), 05-09 (071.0214), 05-11 (071.0269), 07-11 (072.0478), 11-05 (076.0046), 1878-02-17 (078.0220)
-
-%% 2026-10-21T10:48:15 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 071 paragraphs (rsr-071). %%

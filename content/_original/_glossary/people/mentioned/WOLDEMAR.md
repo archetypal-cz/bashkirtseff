@@ -30,9 +30,8 @@ Woldemar is Marie's maternal uncle, Wladimir (Vladimir) Stepanovich Babanine, a 
 ## Crimean War
 On 7 October 1876 Marie wears a Cross of St George that, she writes, «a été donnée par le grand-duc Michel ou Nicolas à mon oncle Voldemar sur le Kourgan de Malakoff, où il restait seul avec quatre ou cinq soldats, sans perdre courage et chargeant lui-même les canons». Maman had put the cross away after the Crimean campaign, and Marie found it while going through things at Tchernakowka (066.0702–0703, 066/1876-10-07). This is family tradition as Marie reports it; no service record has been checked. That he is the same uncle as the 1880 «oncle Woldemar» rests on the name alone (0.8).
 
-%% 2026-10-21T10:30:27 RSR: Identity and Crimean War sections added during RSR research of the restored 066 paragraphs (rsr-066b). Source: the Mon Journal t.9 index. The older body text above is left as it was. Note also that 064/1876-08-04 tags this file for the Grand Prince «saint Woldemar» (Vladimir the Great), which is a mis-tag. %%
+%% 2026-10-21T10:30:27 RSR: Source: the Mon Journal t.9 index. The older body text above is left as it was. Note also that 064/1876-08-04 tags this file for the Grand Prince «saint Woldemar» (Vladimir the Great), which is a mis-tag. %%
 
-%% 2026-10-21T21:15:08 RSR: Merged content from ONCLE_WLADIMIR %%
 
 **Research Status**: Basic
 **Last Updated**: 2025-01-24
@@ -54,5 +53,3 @@ Uncle Wladimir (Vladimir) is one of Marie's uncles who visits Gavronzi during su
 - Full name and exact family relationship need confirmation
 - Possibly Pavel Bashkirtseff's brother
 - Further research needed into the Bashkirtseff family tree
-
-%% 2026-10-21T21:15:19 RSR: Merged UNCLE_WLADIMIR (no content kept: empty stub) %%

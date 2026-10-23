@@ -55,5 +55,3 @@ She meets it first as a book and later as a play.
 - Wikipedia, "La Dame de Monsoreau": https://en.wikipedia.org/wiki/La_Dame_de_Monsoreau
 - BnF data: https://data.bnf.fr/39684276/la_dame_de_monsoreau_spectacle_1860/ and https://data.bnf.fr/39458889/la_dame_de_monsoreau_spectacle_1868/
 - French Wikisource and Project Gutenberg texts (see `full_text`).
-
-%% 2026-10-10T21:40:00 RSR: Works-glossary batch 05 (W082). Enriched in place from the Stub; 1879 Porte-Saint-Martin performance unconfirmed outside the diary. %%

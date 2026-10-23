@@ -109,5 +109,3 @@ Walitsky's position indicates his qualifications and explains both his connectio
 - [Akhtyrka Uyezd - Wikipedia](https://en.wikipedia.org/wiki/Akhtyrka_Uyezd)
 - [Okhtyrka | Encyclopedia of Ukraine](https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CO%5CK%5COkhtyrka.htm)
 - [Akhtyrka (near Sumy) - Tchaikovsky Research](http://en.tchaikovsky-research.net/pages/Akhtyrka_(near_Sumy))
-
-%% 2025-12-07T14:55:00 RSR: Created comprehensive entry for Akhtyrka based on Book 00 reference to Walitsky's position as district physician and historical research %%

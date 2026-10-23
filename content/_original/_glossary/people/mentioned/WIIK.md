@@ -29,6 +29,4 @@ A fellow pupil in the women's studio at Julian's, one of the strongest of the gr
 - First mentioned: 1877-11-27 (076.0249)
 - Key entries: 1877-12-05, 1878-04-04, 1879-01-14, 1879-06-28, 1879-11-10
 
-%% 2026-10-21T12:06:04 RSR: Rewritten from the auto-generated stub during RSR research of the restored paragraphs of carnet 084 (t.12 index; Wikipedia; grep of «Wiik»/«Viik»). VIIK.md (079.0215) duplicates this entry; logged in OPEN-ITEMS. %%
-
-%% 2026-10-22T15:08:20 RSR: Merged VIIK (no content kept: empty stub) %%
+%% 2026-10-21T12:06:04 RSR: VIIK.md (079.0215) duplicates this entry; logged in OPEN-ITEMS. %%

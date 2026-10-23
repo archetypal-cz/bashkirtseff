@@ -18,4 +18,4 @@ A Paris linen shop («la Maison de Blanc», once «la Maison du Blanc») from wh
 
 - 1874-09-26 (024.0118, Paris); 1874-09-28 (024.0151).
 
-%% 2026-10-22T21:37:47 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Two paragraphs read. %%
+%% 2026-10-22T21:37:47 RSR: Two paragraphs read. %%

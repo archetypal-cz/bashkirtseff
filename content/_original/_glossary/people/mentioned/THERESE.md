@@ -13,7 +13,7 @@ identity_uncertain: true
 # Thérèse (Spa, 1874)
 
 ## Overview
-%% 2026-10-22T22:16:12 RSR: Body rewritten in the stub-pass apply (2026-10-22): the entry was split; the other referent is tagged elsewhere or carries an RSR note. %%
+%% 2026-10-22T22:16:12 RSR: The entry was split; the other referent is tagged elsewhere or carries an RSR note. %%
 Mlle Thérèse Witoslowsky (the surname from the Mon Journal t.4 index, with the editors' query: «Witoslowsky (Mlle Thérèse ?), 25–26, 42, 45, 62, 71–72»; «Thérèse, 71–72, 241»), a young woman of the Spa season of 1874. Count Merjeewsky has brought «la deuxième Thérèse» to Spa with him, to the distress of his wife (022.0255); there is also a sister and a father («le père Witoslowsky»). See [MERJEEWSKY](MERJEEWSKY.md).
 
 ## In Marie's diary

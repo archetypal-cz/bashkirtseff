@@ -31,4 +31,4 @@ In September 1883, at the Canroberts' country house, Marie, ill with a cold, mak
 - Not this entry: the servant Louis ([#Louis, Thibaudin](LOUIS_THIBAUDIN.md)) and Jeanne Suermondt's husband ([#Louis](LOUIS.md)).
 
 %% GLO_LOUIS_CANROBERT.0007 %%
-%% 2026-10-21T23:20:00 RSR: Created by split from LOUIS (OPEN-ITEMS D-42): content taken from the LOUIS entry's section 1 (RSR of 2026-10-11) and re-read in the diary; extra passages 102.0446, 102.0618, 104.0180, 105.0435, 105.0455 found by grep. %%
+%% 2026-10-21T23:20:00 RSR: Content taken from the LOUIS entry's section 1 (RSR of 2026-10-11) and re-read in the diary; extra passages 102.0446, 102.0618, 104.0180, 105.0435, 105.0455 found by grep. %%

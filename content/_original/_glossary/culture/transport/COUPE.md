@@ -54,4 +54,4 @@ The coupé was a respectable, practical carriage — more discreet than the open
 - **Landau** — larger, with folding hoods
 - **Calèche** — open carriage
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Coupé used both as carriage and train compartment across the diary. %%
+%% 2026-02-10T20:00:00 RSR: Coupé used both as carriage and train compartment across the diary. %%

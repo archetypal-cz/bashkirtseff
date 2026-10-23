@@ -78,4 +78,4 @@ On 11 February 1876 (053.0518) she tells the diary that the novel, "abandonné a
 - No secondary source consulted; the identification of the novel with a lost manuscript is not made by any source known to the project
 
 %% GLO_MARIE_FIRST_NOVEL.0017 %%
-%% 2026-10-10T20:46:20 RSR: Created in the works-glossary wave (batch 10, Marie own works). All facts from the diary paragraphs cited, verified against the French originals. The 046.0266 roman cerebral link left open on purpose. %%
+%% 2026-10-10T20:46:20 RSR: All facts from the diary paragraphs cited, verified against the French originals. The 046.0266 roman cerebral link left open on purpose. %%

@@ -37,4 +37,4 @@ Henri-Lucien Doucet was born in Paris on 23 August 1856 and died at Saint-Leu-d'
 - 1880-07-17 (089.0177); 1883-06-24 (100.0207, 100.0210, 100.0212); 1883-06-25 (100.0227).
 
 %% GLO_LUCIEN_DOUCET.0007 %%
-%% 2026-10-21T23:25:00 RSR: Created by split from DOUCET (OPEN-ITEMS D-42): text moved from the DOUCET entry's painter section (RSR of 2026-10-11, same sources); the five painter paragraphs re-read. Open: the title of Lucien Doucet's 1883 Rome envoi (Marie's "Ave Maria" is her description, not checked against INHA's Envois de Rome database). The photograph's identification as Lucien Doucet is Commons's. %%
+%% 2026-10-21T23:25:00 RSR: Text moved from the DOUCET entry's painter section (RSR of 2026-10-11, same sources); the five painter paragraphs re-read. Open: the title of Lucien Doucet's 1883 Rome envoi (Marie's "Ave Maria" is her description, not checked against INHA's Envois de Rome database). The photograph's identification as Lucien Doucet is Commons's. %%

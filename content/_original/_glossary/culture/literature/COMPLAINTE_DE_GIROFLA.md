@@ -65,4 +65,4 @@ She likes the verse for its ease: "Je ne finirai jamais cette complainte, j'ai e
 - The tune "Madame l'Archiduchesse" is named by Marie; no source was found for it
 
 %% GLO_COMPLAINTE_DE_GIROFLA.0013 %%
-%% 2026-10-10T20:48:06 RSR: Created in the works-glossary wave (batch 10). Text and paragraph IDs checked against content/_original/043/1875-09-21.md and 044/1875-09-21.md. The reading of 044.0012-0013 is paraphrased, not quoted verbatim. %%
+%% 2026-10-10T20:48:06 RSR: Text and paragraph IDs checked against content/_original/043/1875-09-21.md and 044/1875-09-21.md. The reading of 044.0012-0013 is paraphrased, not quoted verbatim. %%

@@ -24,4 +24,4 @@ Baas, a restaurant at the Belgian spa town of Spa where the Bashkirtseffs took m
 
 - First mentioned: 1874-06-25 (020.0395). 14 tagged paragraphs, carnets 020–022 (Spa, June–August 1874).
 
-%% 2026-10-22T18:25:00 RSR: Body written. NOT A PERSON: restaurant in Spa; belongs in places (restaurants), see list file. Spa location from the surrounding entries (Spa is named at 020.0395, «Spa est désert»). %%
+%% 2026-10-22T18:25:00 RSR: NOT A PERSON: restaurant in Spa; belongs in places (restaurants), see list file. Spa location from the surrounding entries (Spa is named at 020.0395, «Spa est désert»). %%

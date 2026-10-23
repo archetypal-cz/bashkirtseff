@@ -36,5 +36,3 @@ Seville, the capital of Andalusia in southern Spain, was a destination on the Ba
 ## Related Entries
 - [#Granada](./GRANADA.md) - Another Andalusian city
 - [#Cordoba](./CORDOBA.md) - Another city with Moorish heritage
-
-%% 2026-02-10T15:25:00 RSR: Expanded from one-line stub %%

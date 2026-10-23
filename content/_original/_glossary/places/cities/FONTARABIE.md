@@ -22,4 +22,4 @@ Fuenterrabía, now Hondarribia: the Spanish town on the French border at the mou
 
 See [Bayonne](BAYONNE.md).
 
-%% 2026-10-22T21:34:40 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph; spelling and place from the project footnote. %%
+%% 2026-10-22T21:34:40 RSR: One paragraph; spelling and place from the project footnote. %%

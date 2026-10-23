@@ -24,4 +24,4 @@ M. and Mme de Ballote (the Mon Journal indexes give «Ballote (vicomte de)», t.
 
 - 1875-10-05 (046.0139); 1882-02-14 (094.0261). Other mentions (the t.5–t.9 indexes) are not tagged here.
 
-%% 2026-10-22T18:45:00 RSR: Body written. The additional mentions (048, 052, 059, 061) were found by text search, not tagged. The 1875 and 1882 couples are assumed to be the same family. %%
+%% 2026-10-22T18:45:00 RSR: The additional mentions (048, 052, 059, 061) were found by text search, not tagged. The 1875 and 1882 couples are assumed to be the same family. %%

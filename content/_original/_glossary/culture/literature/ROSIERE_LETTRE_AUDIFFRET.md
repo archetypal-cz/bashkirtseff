@@ -61,4 +61,4 @@ The letter was written in the evening of 9 November, between a remark that the N
 - The *rosière* custom: see the footnote at 053.0408; no further secondary source consulted
 
 %% GLO_ROSIERE_LETTRE_AUDIFFRET.0013 %%
-%% 2026-10-10T20:49:13 RSR: Created in the works-glossary wave (batch 10). Quotations verified against 049.0186-0190 and 053.0408. Whether either copy was posted is not stated in the diary and is left open. %%
+%% 2026-10-10T20:49:13 RSR: Quotations verified against 049.0186-0190 and 053.0408. Whether either copy was posted is not stated in the diary and is left open. %%

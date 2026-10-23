@@ -22,7 +22,7 @@ last_updated: 2026-05-24
 
 Russian (русский язык) is Marie's native family language and a core marker of her identity. While she writes her diary entirely in French --- the prestige language of the Russian aristocracy and the language she was most comfortable composing in --- Russian permeates the text as code-switches, quoted speech, translated proverbs, cultural vocabulary, and metalinguistic commentary. Marie identifies as Russian throughout her life: "je puis dire que je *parle* le russe, le français, l'anglais et l'italien" (September 15, 1873). At the 1883 Salon, the painter Bouguereau identifies her simply as "une Russe" (March 31, 1883). Her Russian identity shapes her social world, her religious practice, her family dynamics, and her emotional vocabulary.
 
-%% 2026-05-24T12:00:00 RSR: Comprehensive expansion of RUSSIAN glossary entry. Sources: Mathilde Blind, "Introduction" to The Journal of Marie Bashkirtseff (London: Cassell, 1890); Katherine Kernberger, "I Am the Most Interesting Book of All" (Fonthill Press, 2013); Derek Offord et al., "French and Russian in Imperial Russia: Language Use among the Russian Elite" (Edinburgh University Press, 2015); Encyclopedia of Ukraine (encyclopediaofukraine.com); diary entries passim. %%
+%% 2026-05-24T12:00:00 RSR: Sources: Mathilde Blind, "Introduction" to The Journal of Marie Bashkirtseff (London: Cassell, 1890); Katherine Kernberger, "I Am the Most Interesting Book of All" (Fonthill Press, 2013); Derek Offord et al., "French and Russian in Imperial Russia: Language Use among the Russian Elite" (Edinburgh University Press, 2015); Encyclopedia of Ukraine (encyclopediaofukraine.com); diary entries passim. %%
 
 %% GLO_RUSSIAN.0002 %%
 ## Russia in Marie's Era (1858--1884)

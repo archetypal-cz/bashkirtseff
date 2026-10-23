@@ -18,4 +18,4 @@ A social acquaintance encountered at the Grand Prix at Longchamp on 30 May 1880,
 
 - 1880-05-30: Seen at the Grand Prix at Longchamp.
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-30.md. Dufour: social acquaintance at the Grand Prix, Paris May 1880. No further identification. %%
+%% 2026-05-31T12:00:00 RSR: Dufour: social acquaintance at the Grand Prix, Paris May 1880. No further identification. %%

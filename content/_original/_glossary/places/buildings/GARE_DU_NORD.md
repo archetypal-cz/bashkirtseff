@@ -22,6 +22,4 @@ Marie writes only «la gare»; the station is identified from the accounts of th
 
 - 1883-10-01 (101.0470, Paris): the farewell ceremony.
 
-%% 2026-10-22T21:34:40 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph; Turgenev ceremony from Wikipedia 'Ivan Turgenev' (Henry James tribute). Virouboff not verified. %%
-
-%% 2026-10-22T22:32:09 RSR: Renamed from GARE (stub-pass apply 2026-10-22); body carried over %%
+%% 2026-10-22T21:34:40 RSR: One paragraph; Turgenev ceremony from Wikipedia 'Ivan Turgenev' (Henry James tribute). Virouboff not verified. %%

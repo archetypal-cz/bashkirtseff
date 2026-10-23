@@ -44,6 +44,6 @@ Adolphe died on 31 January 1880, during the period of Marie's diary. His death l
 - [#Le_Pays](../../culture/newspapers/LE_PAYS.md) -- The Bonapartist newspaper both Cassagnacs edited
 
 %% GLO_CASSAGNAC_PERE.0009 %%
-%% 2026-02-10T10:45:00 RSR: Enriched from stub. Adolphe Granier de Cassagnac was the father of Paul de Cassagnac. Historical details from Britannica and Wikipedia. %%
-%% 2026-05-25T00:00:00 RSR: Merged duplicate entry PERE_CASSAGNAC (auto-generated stub from 2026-01-06) into this entry. Added alias "Pere Cassagnac". No new content — stub contained no additional information. %%
-%% 2026-05-25T00:00:00 RSR: Merged duplicate entry ADOLPHE_GRANIER_DE_CASSAGNAC (auto-generated stub from 2026-01-06) into this entry. No new content — stub contained no additional information beyond what was already researched. %%
+%% 2026-02-10T10:45:00 RSR: Adolphe Granier de Cassagnac was the father of Paul de Cassagnac. Historical details from Britannica and Wikipedia. %%
+%% 2026-05-25T00:00:00 RSR: Added alias "Pere Cassagnac". No new content — stub contained no additional information. %%
+%% 2026-05-25T00:00:00 RSR: No new content — stub contained no additional information beyond what was already researched. %%

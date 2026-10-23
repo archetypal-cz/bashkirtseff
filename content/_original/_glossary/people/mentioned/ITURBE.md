@@ -18,4 +18,4 @@ A wealthy man encountered in Marie's Paris social circle in May 1880. Marie desc
 
 - 1880-05-15: Among a small group of visitors; described as "the man with the twenty-seven million and the grimace."
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-15.md. Iturbe: wealthy man (27M francs), Basque/Spanish/Latin American origin, in Marie's Paris social circle May 1880. Marie's acid characterisation preserved. No further identification. %%
+%% 2026-05-31T12:00:00 RSR: Iturbe: wealthy man (27M francs), Basque/Spanish/Latin American origin, in Marie's Paris social circle May 1880. Marie's acid characterisation preserved. No further identification. %%

@@ -52,4 +52,4 @@ None identified. Marie drew herself often, and without a date for the sheet no p
 - Katherine Kernberger (trans.), *I Am the Most Interesting Book of All* / *Lust for Glory* (Fonthill Press, 2013), illustrated EPUB edition, image 187, captioned "Self-portrait, Marie Bashkirtseff, Musée du Petit Palais, Paris"
 
 %% GLO_PORTRAIT_DE_L_ARTISTE_FUSAIN.0011 %%
-%% 2026-10-02T15:40:00 RSR: Created in the works-catalogue pass. Medium and inventory number verified on the Paris Musées page 2026-10-02; dimensions and the 1916 gift are from its "informations détaillées" panel as read by a research subagent the same day. The record has no image and no CC0 mark. If Paris Musées publishes one later it will be CC0, like the other two Petit Palais works. %%
+%% 2026-10-02T15:40:00 RSR: Medium and inventory number verified on the Paris Musées page 2026-10-02; dimensions and the 1916 gift are from its "informations détaillées" panel as read by a research subagent the same day. The record has no image and no CC0 mark. If Paris Musées publishes one later it will be CC0, like the other two Petit Palais works. %%

@@ -36,5 +36,3 @@ Nice's grand hotels in Marie's era:
 ## Related Entries
 - [#Nice](../cities/NICE.md) - The city
 - [#Promenade_des_Anglais](../cities/PROMENADE_DES_ANGLAIS.md) - The seafront near the hotels
-
-%% 2026-02-10T15:10:00 RSR: Expanded from one-line stub %%

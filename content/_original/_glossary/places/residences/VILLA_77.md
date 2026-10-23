@@ -23,4 +23,4 @@ We are not sure which villa this is. Marie lists a «villa 57» next to Boreel's
 
 - 1874-10-03 (024.0200, Nice): the only mention.
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph; the street and occupant are not given. %%
+%% 2026-10-22T21:39:42 RSR: One paragraph; the street and occupant are not given. %%

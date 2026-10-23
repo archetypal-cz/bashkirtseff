@@ -21,4 +21,4 @@ The island in the Bay of Naples. Marie names it only as the site of the earthqua
 
 - 1883-08-26 (101.0241, 101.0242, Paris).
 
-%% 2026-10-22T21:35:45 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Two paragraphs; death toll range from Wikipedia (web search 2026-10-22). %%
+%% 2026-10-22T21:35:45 RSR: Two paragraphs; death toll range from Wikipedia (web search 2026-10-22). %%

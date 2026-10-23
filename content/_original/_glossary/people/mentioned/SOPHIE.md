@@ -66,10 +66,8 @@ An «Emile» came to Nice with a «Sophie» in February-March 1873 and left with
 
 %% 2026-10-22T13:07:46 RSR: Section corrected (OPEN-ITEMS B-81): the 1874 death is Emile Babanine's, not a Tutcheff's (t.5, t.9 indexes); the t.4 index «Tutcheff (Emile)» is a slip. %%
 
-%% 2025-06-28T13:05:00 RSR: Created basic entry. Originally conflated with Ma tante -- see correction below. %%
+%% 2025-06-28T13:05:00 RSR: Originally conflated with Ma tante -- see correction below. %%
 %% 2026-05-24T12:00:00 RSR: MAJOR CORRECTION. This entry was previously titled "Sophie (Ma tante)" -- WRONG. Sophie Tutcheff (nee Bashkirtseff) is Marie's PATERNAL aunt, a DIFFERENT person from "ma tante" (Nadine Romanoff, nee Babanine, Marie's MATERNAL aunt). The Apostolescu index in carnet 01 lists them separately: "Romanoff (Mme Nadine), nee Babanine, tante" vs "Tutscheff (Mme Sophie Grigorievna), nee Bashkirtseff." In the Feb 23 1873 entry, "maman, ma tante, Sophie, Emile, Dina, moi" lists them as distinct people. Sophie Tutcheff becomes a major antagonist from carnet 04 onward. Updated to Moderate. %%
-%% 2026-10-21T21:59:27 RSR: Fix (OPEN-ITEMS B-32): «Grigorievna» replaced by «Pavlovna» as the primary patronymic: «ce n'est pas Sophie Pavlovna Tutcheff» (067/1876-10-20, 067.0187) and Mon Journal t.9 index «Tutcheff (Mme), Sophie Pavlona Bashkirtseff»; her father is «le général Paul Grigorievitch Bashkirtseff» (t.1). Marie's 1873 «Sophie Grigorievna» and the t.1 index «Tutscheff (Mme Sophie Grigorievna)» keep the older form as alias. %%
+%% 2026-10-21T21:59:27 RSR: Marie's 1873 «Sophie Grigorievna» and the t.1 index «Tutscheff (Mme Sophie Grigorievna)» keep the older form as alias. %%
 
-%% 2026-10-22T15:00:00 RSR: Fix (glossary identity questions, 2026-10-22): «Sonitchka» and «Sophie Grigorievna» aliases removed (they are Mlle Kolokolzoff, 009.0146; t.2 index); «son Emile» corrected to «uncle» (023.0628). MME_TUTCHEFF to be merged here. Tags 014.0108, 014.0215, 014.0218, 014.0222 («ma tante», before the Tutcheffs arrived on 28 Dec 1873) are queued for removal. %%
-
-%% 2026-10-22T12:28:50 RSR: Merged MME_TUTCHEFF (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+%% 2026-10-22T15:00:00 RSR: «Sonitchka» and «Sophie Grigorievna» aliases removed (they are Mlle Kolokolzoff, 009.0146; t.2 index); «son Emile» corrected to «uncle» (023.0628). MME_TUTCHEFF to be merged here. Tags 014.0108, 014.0215, 014.0218, 014.0222 («ma tante», before the Tutcheffs arrived on 28 Dec 1873) are queued for removal. %%

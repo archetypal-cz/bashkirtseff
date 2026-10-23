@@ -23,5 +23,5 @@ A man of Roman society whom Marie calls «Bog». She gives his real name only on
 - First mentioned: 1876-09-13 (066.0196)
 - 1877-01-05 (068), recalling 1 January 1877
 
-%% 2026-10-21T10:27:05 RSR: Created during RSR research of the restored carnet 066 paragraphs (066a). Earlier Rome 1876 entries (carnets 052–057) were grepped for «Bog» and «Pominsky» with no hit; he may appear there under another name. The 068 mention is not yet tagged. %%
+%% 2026-10-21T10:27:05 RSR: Earlier Rome 1876 entries (carnets 052–057) were grepped for «Bog» and «Pominsky» with no hit; he may appear there under another name. The 068 mention is not yet tagged. %%
 %% 2026-10-21T13:02:08 RSR: The 068 mention is 068.0392 (5 January 1877, recalling the Pincio drive of 1 January in Rome during the eight days of 25 December 1876 – 1 January 1877); tagged POMINSKY there. %%

@@ -30,5 +30,3 @@ The 1877 Florence performance of Wagner's opera (071, 1877-05-01) is tagged unde
 - 1876-07-17 (063.0443)
 
 See also [#Bulwer](../../people/mentioned/BULWER.md).
-
-%% 2026-10-21T09:11:04 RSR: Created during RSR research of the restored carnet 063 paragraphs (2026-09-29 rebuild). %%

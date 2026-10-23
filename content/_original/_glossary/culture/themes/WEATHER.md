@@ -42,4 +42,4 @@ This thematic tag collects diary paragraphs where Marie notes the actual weather
 - Weather is often a mood barometer: grey days are paired with boredom and melancholy, radiant ones with hope; tag only when the weather itself is noted, not the mood alone.
 - Travel entries note weather for crossings, trains and arrivals, so WEATHER often co-occurs with [Travel](TRAVEL.md).
 
-%% 2026-09-28T10:40:00 RSR: Created thematic tag entry (theme-tags pilot, see .claude/reports/theme-tags-2026-09-28.md). Applied per paragraph by AI judgement, not keyword match: "temps" and "orage" are too often figurative for alias tagging. %%
+%% 2026-09-28T10:40:00 RSR: Applied per paragraph by AI judgement, not keyword match: "temps" and "orage" are too often figurative for alias tagging. %%

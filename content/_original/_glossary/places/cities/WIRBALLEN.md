@@ -23,4 +23,4 @@ The Russian frontier railway station across from Eydtkuhnen in Prussia, on the V
 
 See [Volotchisk](VOLOTCHISK.md), [Wilna](WILNA.md).
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Two paragraphs; station role from Wikipedia. %%
+%% 2026-10-22T21:39:42 RSR: Two paragraphs; station role from Wikipedia. %%

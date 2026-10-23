@@ -76,5 +76,4 @@ Marie also writes "Mme Mackay (la richissime)" for a different woman, the wife o
 - To investigate: the Bastien-Lepage family archive, 1884 Gallica press on his last illness, the "Ophélie" study for which Marie says Jules used "Stéphanie" as model (098.0381).
 - The "Mme Mackay" of 099.0333 and 100.0004 (via Mme Massalsky, wife of the Russian consul) is Bastien's friend.
 
-%% 2026-10-21T22:30:00 RSR: Fix (OPEN-ITEMS D-42): the heiress section moved to the new entry LOUISE_MACKAY; stale 2026-10-02/10-11 notes («identification with the Comstock heiress is plausible», «footnotes need fixing», «split recommended») removed. Footnotes at 102.0172 and 103.0121 now say «not Louise Mackay» (D-43). Main sense settled by «Mme Mackay (pas la richissime) la Mackay Bastien» (098.0101). Retag 103.0356–0365 and 103.0756 to LOUISE_MACKAY (see report). %%
-
+%% 2026-10-21T22:30:00 RSR: The heiress section moved to the new entry LOUISE_MACKAY; stale 2026-10-02/10-11 notes («identification with the Comstock heiress is plausible», «footnotes need fixing», «split recommended») removed. Footnotes at 102.0172 and 103.0121 now say «not Louise Mackay» (D-43). Main sense settled by «Mme Mackay (pas la richissime) la Mackay Bastien» (098.0101). Retag 103.0356–0365 and 103.0756 to LOUISE_MACKAY (see report). %%

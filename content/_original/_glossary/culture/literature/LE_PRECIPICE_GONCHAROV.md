@@ -60,4 +60,4 @@ She reads it with open pleasure despite declaring, in the same entry, her "mépr
 - Wikipedia, "The Precipice (Goncharov novel)": https://en.wikipedia.org/wiki/The_Precipice_(Goncharov_novel)
 - Russian Wikisource, *Обрыв*, for the original text and chapter list.
 
-%% 2026-10-10T20:40:00 RSR: Works-glossary batch 05 (W064). Identified by characters; Russian-language reading assumed (Maman reading aloud, 007.0028). %%
+%% 2026-10-10T20:40:00 RSR: Identified by characters; Russian-language reading assumed (Maman reading aloud, 007.0028). %%

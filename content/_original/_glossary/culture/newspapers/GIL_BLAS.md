@@ -19,5 +19,3 @@ last_updated: 2026-10-22
 - 1883-01-28 (098.0199)
 - 1883-02-03 (098.0271, 098.0276)
 - 1883-12-24 (102.0550)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

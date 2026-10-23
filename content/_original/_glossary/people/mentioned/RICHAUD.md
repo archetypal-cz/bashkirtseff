@@ -23,5 +23,3 @@ Mme Richaud, a lady of Nice society whom maman visits in February 1873 (002.0128
 - 1880-03-27 (087.0726)
 - 1880-04-08 (087.0808)
 - 1880-05-22 (088.0263, 088.0272)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

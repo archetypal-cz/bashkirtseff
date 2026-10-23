@@ -34,5 +34,3 @@ The Prix de Rome, the state prize of the Académie des Beaux-Arts that sent the 
 - 1883-07-25 (100.0428)
 - 1884-02-19 (103.0346)
 - 1884-04-04 (103.0702)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

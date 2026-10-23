@@ -19,5 +19,5 @@ A Poltava family. Mme Tregouboff is the daughter of Domenica (Georges Babanine's
 
 See also [#Domenica](DOMENICA.md), [#Lola](LOLA.md).
 
-%% 2026-10-21T09:45:00 RSR: Extended from the restored paragraph 067.0632 (rsr-067b). The 1881 «sœur de la petite tante» line is recorded, not reconciled. %%
-%% 2026-10-22T14:00:00 RSR: OPEN-ITEMS B-33(7) reconciled: «la fille du premier mariage de Domenica» (067.0632) and «la sœur de la petite tante, la femme à Etienne» (092/1881-06-11) agree, since Machenka née Kandiba is also a daughter of Domenica's first marriage (indexes t.8/t.11; Kernberger 2013 Glossary, as cited in DOMENICA.md). %%
+%% 2026-10-21T09:45:00 RSR: The 1881 «sœur de la petite tante» line is recorded, not reconciled. %%
+%% 2026-10-22T14:00:00 RSR: «la fille du premier mariage de Domenica» (067.0632) and «la sœur de la petite tante, la femme à Etienne» (092/1881-06-11) agree, since Machenka née Kandiba is also a daughter of Domenica's first marriage (indexes t.8/t.11; Kernberger 2013 Glossary, as cited in DOMENICA.md). %%

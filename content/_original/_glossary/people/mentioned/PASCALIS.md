@@ -19,4 +19,4 @@ A Parisian family who hosted a costume ball attended by Marie on 3 May 1880 — 
 
 - 1880-05-03: Costume ball at their home.
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-03.md. The Pascalis family: hosts of a costume ball in Paris May 1880. No further identification. %%
+%% 2026-05-31T12:00:00 RSR: The Pascalis family: hosts of a costume ball in Paris May 1880. No further identification. %%

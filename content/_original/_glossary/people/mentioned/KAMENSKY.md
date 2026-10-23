@@ -30,4 +30,4 @@ Marie writes «Kamesky» in 066.0726–0727 (so printed in Mon Journal t.9 p.113
 - First mentioned: 1876-09-24 (066.0390)
 - 1876-09-24 (066.0406); 1876-10-08 (066.0726, 066.0727)
 
-%% 2026-10-21T10:30:27 RSR: Created during RSR research of the restored 066 paragraphs (rsr-066b). «Kamesky» = Kamensky because the index lists p.113, the page of the mock trial, under «Kamensky (M.)». %%
+%% 2026-10-21T10:30:27 RSR: «Kamesky» = Kamensky because the index lists p.113, the page of the mock trial, under «Kamensky (M.)». %%

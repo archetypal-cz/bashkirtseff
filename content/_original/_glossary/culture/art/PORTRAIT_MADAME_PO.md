@@ -59,4 +59,4 @@ No "Madame Po" (or Pau, Pô) has been found in the diary text.
 - *Catalogue des œuvres de Mlle Bashkirtseff*, Paris: Ludovic Baschet, 9 February 1885, p. 24, no. 56 — [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)
 
 %% GLO_PORTRAIT_MADAME_PO.0012 %%
-%% 2026-10-02T16:05:00 RSR: Created in the works-catalogue pass. Museum page fetched 2026-10-02: title, 1880, 55 × 45,5 cm, description and provenance (Russian Museum, 1928 transfer) are from it. Artefact gives 55,5 × 46 cm. No open image; the museum offers images to order. %%
+%% 2026-10-02T16:05:00 RSR: Museum page fetched 2026-10-02: title, 1880, 55 × 45,5 cm, description and provenance (Russian Museum, 1928 transfer) are from it. Artefact gives 55,5 × 46 cm. No open image; the museum offers images to order. %%

@@ -73,5 +73,3 @@ The relationship appears professionally cordial but socially strained:
 ## Historical Context
 
 Private tutors and teachers were essential for the education of aristocratic children in the 19th century, especially for Russian families living abroad. These teachers often occupied an awkward social position - necessary for the family but not quite equals.
-
-%% 2025-06-30T20:20:00 RSR: Created entry for Makaroff based on diary references from September 1873 %%

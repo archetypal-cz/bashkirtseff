@@ -23,5 +23,3 @@ In January 1877 Marie tries to trace the gossip that followed her from Rome to N
 
 ## Related
 - [GENERAL_WOLF](GENERAL_WOLF.md)
-
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%

@@ -50,4 +50,4 @@ Four recurring uses:
 - Opening the Gospel at random on Christmas Eve is described in the footnote to 083.0556 as an old Russian Christmas Eve tradition.
 - Other occurrences of the Bible or of individual Gospels in the diary are covered by the general Bible entry and not listed here.
 
-%% 2026-10-10T21:10:00 RSR: Works-glossary batch 05 (W070). No secondary source needed beyond the diary paragraphs; the 1910 Segond and Synodal links verified to resolve. Supersedes people/mentioned/BIBLE.md for the NT paragraphs (BIBLE remains the general Bible stub). %%
+%% 2026-10-10T21:10:00 RSR: No secondary source needed beyond the diary paragraphs; the 1910 Segond and Synodal links verified to resolve. Supersedes people/mentioned/BIBLE.md for the NT paragraphs (BIBLE remains the general Bible stub). %%

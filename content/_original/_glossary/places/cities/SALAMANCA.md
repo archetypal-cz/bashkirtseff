@@ -23,4 +23,4 @@ We do not know why this paragraph carries a Salamanca tag. It may be a slip (Sal
 
 - 1881-10-20 (093.0264): tagged without a mention.
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Grep of carnet 093 for 'Salamanc' finds only the tag lines; tag proposed for removal. %%
+%% 2026-10-22T21:39:42 RSR: Grep of carnet 093 for 'Salamanc' finds only the tag lines; tag proposed for removal. %%

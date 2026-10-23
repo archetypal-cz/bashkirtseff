@@ -22,4 +22,4 @@ François Coppée (Paris, 1842–1908) was a poet and dramatist of the Parnassia
 - **1 June 1884.** «ce pauvre Coppée que je n'admire pas pour deux sous» (104.0489).
 - *Le Passant* is footnoted at 093.0035 and 105.0303.
 
-%% 2026-10-21T13:15:46 RSR: Created during RSR of the restored 104 paragraphs (rsr-1880): no entry existed (grep of the glossary for Coppée/COPPEE), and he is named in 7 entry files (087, 093, 104 ×4, 105). Not yet tagged outside 104.0453; a tag sweep is left to the tagger. %%
+%% 2026-10-21T13:15:46 RSR: Not yet tagged outside 104.0453; a tag sweep is left to the tagger. %%

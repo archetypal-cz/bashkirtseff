@@ -15,5 +15,3 @@ Camden Place, the house at Chislehurst, Kent, where Napoleon III lived in exile 
 
 ## References in Diary
 - 1879-07-20 (085.0570)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

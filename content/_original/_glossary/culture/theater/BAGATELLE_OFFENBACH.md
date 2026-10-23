@@ -42,4 +42,4 @@ Marie's pet dog Bagatelle appears in 027.0251, 042.0057, 043.0248 and 068.0712 a
 - Wikipedia, ["Bagatelle (opera)"](https://en.wikipedia.org/wiki/Bagatelle_(opera)).
 - BnF catalogue record cb30285716w (libretto, 1874); libretto on Wikisource; IMSLP.
 
-%% 2026-10-10T21:18:00 RSR: New entry (works batch 01). places/parks/BAGATELLE.md is the Parc de Bagatelle and does not cover the operetta; no supersession. The inventory mixed in the dog, whose mentions are listed above. %%
+%% 2026-10-10T21:18:00 RSR: The inventory mixed in the dog, whose mentions are listed above. %%

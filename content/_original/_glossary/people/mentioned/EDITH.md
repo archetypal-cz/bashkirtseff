@@ -13,6 +13,3 @@ replaced_by: EDITH_BOYD
 
 %% GLO_EDITH.0001 %%
 **Retired.** Merged into [#EDITH_BOYD](EDITH_BOYD.md) (`people/mentioned/EDITH_BOYD.md`); use that entry instead.
-
-%% GLO_EDITH.0002 %%
-%% 2026-10-22T20:52:11 RSR: Retired by glossary-merge; content and links moved to EDITH_BOYD. replaced_by: people/mentioned/EDITH_BOYD.md. %%

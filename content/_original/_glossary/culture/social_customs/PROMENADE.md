@@ -40,4 +40,4 @@ For a young woman of Marie's social position, the promenade was both opportunity
 - Hundreds of references across all years (1873-1884)
 - One of the most frequently described daily activities
 
-%% 2026-02-10T20:00:00 RSR: Created entry. The promenade is one of the diary's most recurring social rituals. %%
+%% 2026-02-10T20:00:00 RSR: The promenade is one of the diary's most recurring social rituals. %%

@@ -22,4 +22,4 @@ An English gentleman whom Marie meets at Spa in the summer of 1874 and who rides
 
 %% 2026-10-22T21:33:17 RSR: The printed Mon Journal t.4 spelling at 022.0353 was «Wheelwrigth», corrected to Wheelwright (owner ruling A-56, 2026-10-10); that note stays in the diary file. %%
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Five paragraphs read in _original; t.3 index. No outside identification attempted beyond that. %%
+%% 2026-10-22T21:33:17 RSR: Five paragraphs read in _original; t.3 index. No outside identification attempted beyond that. %%

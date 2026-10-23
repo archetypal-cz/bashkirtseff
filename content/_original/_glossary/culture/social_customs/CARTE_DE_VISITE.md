@@ -46,4 +46,4 @@ The photographic carte de visite â€” a small portrait photograph on card stock â
 - 1873-09-11 (carnet 009): Ordering 100 visiting cards for Maman
 - Referenced throughout as part of social protocol
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Social protocol essential to Marie's world. %%
+%% 2026-02-10T20:00:00 RSR: Social protocol essential to Marie's world. %%

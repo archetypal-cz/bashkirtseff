@@ -45,5 +45,3 @@ Capital of Egypt, part of Duke of Hamilton's Middle Eastern travels.
 - Victorian travel to Egypt
 - Grand Tour extensions to Middle East
 - British hotels in colonial cities
-
-%% 2026-10-22T20:57:46 RSR: Merged LE_CAIRE (no content kept: empty stub) %%

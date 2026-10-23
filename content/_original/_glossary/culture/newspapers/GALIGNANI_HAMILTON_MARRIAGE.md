@@ -38,4 +38,4 @@ Marie, in love from afar with [the Duke of Hamilton](../../people/core/DUKE_OF_H
 - The text of the clippings is already in the diary, with Marie's transcription (013.0263-0266, 014.0047-0052, 014.0058-0068, 014.0104-0109).
 - The bride's name and the date of the marriage come from the clipping texts in the notebook, not from an outside source.
 
-%% 2026-10-10T21:30:00 RSR: Works-glossary batch 05 (W080). Clipping sources taken from the paragraph markers (kind: clipping source=...) in 013 and 014; wedding date 10 Dec 1873 from Marie's 013.0122 quotation and the clipping "on Wednesday next". No free-to-read copy of the Galignani issue located. %%
+%% 2026-10-10T21:30:00 RSR: Clipping sources taken from the paragraph markers (kind: clipping source=...) in 013 and 014; wedding date 10 Dec 1873 from Marie's 013.0122 quotation and the clipping "on Wednesday next". No free-to-read copy of the Galignani issue located. %%

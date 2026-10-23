@@ -23,5 +23,3 @@ A young official in the republican circle of 1879. Marie: «Eugène Richtenberge
 
 ## Sources
 - Mon Journal t.13 (L'Âge d'Homme), index.
-
-%% 2026-10-21T11:03:22 RSR: Created during RSR research of the restored 086 paragraphs (rsr-086). %%

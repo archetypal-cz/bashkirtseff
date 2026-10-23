@@ -37,5 +37,3 @@ Cordoba, once the capital of the Moorish Caliphate of Cordoba (929-1031) and one
 ## Related Entries
 - [#Seville](./SEVILLE.md) - Another Andalusian city
 - [#Granada](./GRANADA.md) - Another city with Moorish heritage
-
-%% 2026-02-10T16:10:00 RSR: Expanded from one-line stub %%

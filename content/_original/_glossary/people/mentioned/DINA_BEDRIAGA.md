@@ -22,4 +22,4 @@ A figure of Poltava gossip in the autumn of 1876. She praises Marie at the theat
 - First mentioned: 1876-08-29 (065)
 - 1876-09-12 (066); 1876-10-24 (067.0300, 067.0302)
 
-%% 2026-10-21T09:31:34 RSR: Created from the restored paragraph 067.0300. Identity beyond the diary not researched. %%
+%% 2026-10-21T09:31:34 RSR: Identity beyond the diary not researched. %%

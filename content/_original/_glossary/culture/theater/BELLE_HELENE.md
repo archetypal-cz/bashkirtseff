@@ -49,4 +49,4 @@ Marie sees, sings and plays it from her first Nice winter (1873) onward, and its
 - Wikipedia, ["La belle Hélène"](https://en.wikipedia.org/wiki/La_belle_Hélène).
 - Libretto on Wikisource and scores on IMSLP, linked above.
 
-%% 2026-10-10T21:05:00 RSR: Enriched in place (works batch 01). 067.1040 and 067.1112 in the inventory are context (RSR notes), not mentions of the work. %%
+%% 2026-10-10T21:05:00 RSR: 067.1040 and 067.1112 in the inventory are context (RSR notes), not mentions of the work. %%

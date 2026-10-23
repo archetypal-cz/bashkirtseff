@@ -22,4 +22,4 @@ On 17 July 1875 she writes «Décidément il faut bien se marier et comme Agis o
 
 - 1875-07-17 (037.0221), the only mention.
 
-%% 2026-10-22T16:32:00 RSR: Body written from the paragraph and the existing footnote; type is a historical figure, so the entry might belong with people/historical (see list file). %%
+%% 2026-10-22T16:32:00 RSR: Type is a historical figure, so the entry might belong with people/historical (see list file). %%

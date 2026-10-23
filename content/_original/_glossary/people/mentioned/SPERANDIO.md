@@ -24,4 +24,4 @@ An Italian, «d'Ancone je crois», who married Marie's cousin Marie ("Lola") Gor
 
 068/1876-12-22 (068.0280); 068/1876-12-23 (068.0285); 092/1881-06-11, 06-13, 06-27, 07-02, 07-09, 07-10, 07-11, 07-15, 07-16 (092.0109, 0114, 0152, 0161, 0227, 0240, 0245, 0264, 0269).
 
-%% 2026-10-21T23:50:00 RSR: Fix (OPEN-ITEMS B-43(4)): «household member or servant at Gavronzi» removed. He is Pacha's brother-in-law: «Mon père et Sperandio le mari de la sœur de Pacha» (068.0285) and «M. Sperandio le mari de la sœur de Pacha est arrivé» (092.0109); t.9 index «Sperandio (M.) époux de Marie [Lola] Gorpinchencko». The wife is the "Lola" of 068.0280, not Lola Babanine (see LOLA). %%
+%% 2026-10-21T23:50:00 RSR: He is Pacha's brother-in-law: «Mon père et Sperandio le mari de la sœur de Pacha» (068.0285) and «M. Sperandio le mari de la sœur de Pacha est arrivé» (092.0109); t.9 index «Sperandio (M.) époux de Marie [Lola] Gorpinchencko». The wife is the "Lola" of 068.0280, not Lola Babanine (see LOLA). %%

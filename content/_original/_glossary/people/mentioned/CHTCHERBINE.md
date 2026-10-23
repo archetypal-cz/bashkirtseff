@@ -78,4 +78,4 @@ Young Chtcherbine's enrollment demonstrates:
 - [#Geneva](../../places/travel/GENEVA.md) - Location of the boarding school
 - [#Poltava](../../places/cities/POLTAVA.md) - Where Bachmakoff had served and likely knew the family
 
-%% 2025-12-07T16:55:00 RSR: Created entry based on Book 00, paragraph 00.46. Young Chtcherbine represents the Russian practice of sending sons to prestigious European schools. %%
+%% 2025-12-07T16:55:00 RSR: Young Chtcherbine represents the Russian practice of sending sons to prestigious European schools. %%

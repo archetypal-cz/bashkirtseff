@@ -26,4 +26,4 @@ A short stage piece (form and length unknown; Marie calls it only "une pièce"),
 
 - Marie's own plot summary, 009.0162-0166, is the only source; the setting evokes Elizabeth Petrovna (r. 1741-1762) and the Shuvalov family (Wikipedia, "Elizabeth of Russia"), but the play is fictional.
 
-%% 2026-10-10T12:00:00 RSR: New entry (batch 02), unidentified play. Marie's short form "Le changement" (009.0163) is too generic to be an alias. No image, no full text. %%
+%% 2026-10-10T12:00:00 RSR: Marie's short form "Le changement" (009.0163) is too generic to be an alias. No image, no full text. %%

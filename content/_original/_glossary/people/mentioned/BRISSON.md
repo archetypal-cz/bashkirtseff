@@ -23,4 +23,4 @@ Eugène Henri Brisson (1835–1912), French radical politician, President of the
 
 - 1881-11-07 (093.0352); 1883-01-04, 01-07 (097.0352, 097.0383, 097.0393); 1883-01-29 (098.0215).
 
-%% 2026-10-22T20:00:00 RSR: Body written. The 7 November 1881 paragraph names Brisson only in footnote 2; the context (the Chamber) was inferred from the footnote. %%
+%% 2026-10-22T20:00:00 RSR: The 7 November 1881 paragraph names Brisson only in footnote 2; the context (the Chamber) was inferred from the footnote. %%

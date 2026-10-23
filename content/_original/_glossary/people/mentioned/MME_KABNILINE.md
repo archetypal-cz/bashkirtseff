@@ -11,7 +11,6 @@ last_updated: 2026-05-31
 ---
 # Mme Kabniline
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (May 1873, Geneva)
 
@@ -27,4 +26,4 @@ A woman in Geneva from whom M. Yourkoff borrowed a riding habit (amazone) for Ma
 
 Only one mention. Kabniline (Кабнілина) appears to be a Russian surname. She lent Marie her riding costume for an afternoon excursion — a mark of social friendliness.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Brief mention — Russian woman in Geneva who lent a riding habit, May 1873. %%
+%% 2026-05-31T12:00:00 RSR: Brief mention — Russian woman in Geneva who lent a riding habit, May 1873. %%

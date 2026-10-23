@@ -17,5 +17,3 @@ A small pet dog (female: «la ressuscita», «la pauvre petite bête») of the B
 - 1874-11-15 (025.0246): while the family is at church «Dori tomba morte du lit»; sent to Walitsky, who «à force de compresses la ressuscita», but she remains very ill.
 
 Compare Marie's later dogs, [#Coco](../recurring/COCO_DOG.md) and [#Prater](PRATER.md). Not a person; dog entries are kept with the people (see Coco).
-
-%% 2026-10-22T21:32:38 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

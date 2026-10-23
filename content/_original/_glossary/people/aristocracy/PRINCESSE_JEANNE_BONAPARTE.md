@@ -29,4 +29,4 @@ A Bonapartist friend of the Gavini circle in 1883–1884:
 - 099.0101 (10 April 1883): «Dîner chez la princesse Jeanne qui est vraiment une très brave petite femme, franche, enthousiaste, vive»; 099.0124, 099.0185.
 - 103.0221 (1 February 1884): a call on her finds only her mother, «encore belle à cinquante deux ans»; 103.0226, 103.0337 (the Italiens with «la princesse Jeanne et son Villeneuve»), 104.0464 (30 May 1884).
 
-%% 2026-10-22T14:31:33 RSR: B-67 (4), B-77 (4): entry created; tagged the paragraphs listed. Identification from the diary («sa mère la princesse Pierre, une ancienne blanchisseuse», 098.0076) and Wikipedia (0.9). %%
+%% 2026-10-22T14:31:33 RSR: Tagged the paragraphs listed. Identification from the diary («sa mère la princesse Pierre, une ancienne blanchisseuse», 098.0076) and Wikipedia (0.9). %%

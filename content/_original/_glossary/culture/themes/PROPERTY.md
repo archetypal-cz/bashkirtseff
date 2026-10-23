@@ -53,5 +53,4 @@ In the site's filter, selecting the qualifier narrows Property to one side; sele
 - Grandfather Babanine's will and the uncles' claims recur in the early carnets; the sale of a Russian estate in 1881 is expected to give Marie her own capital.
 - Dowry and settlements tie Property to [Marriage](MARRIAGE.md).
 
-%% 2026-09-28T10:40:00 RSR: Created as OWNERSHIP (theme-tags pilot). %%
-%% 2026-09-28T12:30:00 RSR: Renamed OWNERSHIP → PROPERTY and redefined per KRR (investments, estates, land, houses, inheritance, dowry, shares); everyday possessions dropped from scope; added the whose-property qualifier tags. See .claude/reports/theme-tags-2026-09-28.md. %%
+%% 2026-09-28T12:30:00 RSR: Everyday possessions dropped from scope; added the whose-property qualifier tags. See .claude/reports/theme-tags-2026-09-28.md. %%

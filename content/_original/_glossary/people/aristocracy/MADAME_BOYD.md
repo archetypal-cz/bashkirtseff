@@ -14,6 +14,3 @@ replaced_by: MME_BOYD
 
 %% GLO_MADAME_BOYD.0001 %%
 **Retired.** Merged into [#MME_BOYD](MME_BOYD.md) (`people/aristocracy/MME_BOYD.md`); use that entry instead.
-
-%% GLO_MADAME_BOYD.0002 %%
-%% 2026-10-22T20:51:10 RSR: Retired by glossary-merge; content and links moved to MME_BOYD. replaced_by: people/aristocracy/MME_BOYD.md. %%

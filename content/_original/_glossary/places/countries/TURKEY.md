@@ -37,5 +37,3 @@ Turkey, more precisely the Ottoman Empire, appears in Marie Bashkirtseff's diary
 ## Related Entries
 - [#Paris](../cities/PARIS.md) - Where diplomatic discussions occurred
 - [#Greece](./GREECE.md) - Another state created from Ottoman territory
-
-%% 2026-02-10T13:55:00 RSR: Expanded from one-line stub with Ottoman context and Russo-Turkish War %%

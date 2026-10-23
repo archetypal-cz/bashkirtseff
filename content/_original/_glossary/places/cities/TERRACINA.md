@@ -23,5 +23,3 @@ Terracina is where the Antonelli family goes, in Marie's telling, when Pietro is
 - 1876-03-30 (056): «Pour Terracina, j'y resterai huit jours je pense.»
 - 1876-05-12, 1876-05-14 (060)
 - 1876-07-17 (063.0397)
-
-%% 2026-10-21T09:11:04 RSR: Created during RSR research of the restored carnet 063 paragraphs (2026-09-29 rebuild). %%

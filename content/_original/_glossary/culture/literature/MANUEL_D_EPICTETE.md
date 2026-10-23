@@ -58,4 +58,4 @@ Marie also lists Epictetus, with Aristophanes, Plutarch, Herodotus and a little 
 - Wikipedia, "Enchiridion of Epictetus": https://en.wikipedia.org/wiki/Enchiridion_of_Epictetus
 - French Wikisource, "Manuel d'Épictète" (translations Guyau, Thurot, Joly).
 
-%% 2026-10-10T21:20:00 RSR: Works-glossary batch 05 (W077). Supersedes the author-level stubs for Marie's book paragraphs only; EPICTETUS (culture/history) remains the author entry. Enchiridion sections 9 and 18 identified from content (Marie's quotations at 062.0313). %%
+%% 2026-10-10T21:20:00 RSR: Supersedes the author-level stubs for Marie's book paragraphs only; EPICTETUS (culture/history) remains the author entry. Enchiridion sections 9 and 18 identified from content (Marie's quotations at 062.0313). %%

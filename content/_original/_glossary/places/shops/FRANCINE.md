@@ -27,4 +27,4 @@ Mme Francine, a couturière (dressmaker) in Vienna: Mon Journal t.1 index, «Fra
 ## Related Entries
 - [#House_of_Worth](../../culture/fashion/HOUSE_OF_WORTH.md) - the Paris house Marie otherwise orders from
 
-%% 2026-10-21T22:16:49 RSR: Fix (OPEN-ITEMS B-61(5)): «likely in Paris» replaced. The shop is in Vienna: the visits of 1873-08-04 to 08-12 happen during the Vienna Exposition trip («Nous allâmes chez Francine…», 007.0334; the same hotel/Exposition days), and Mon Journal t.1 index lists «Francine (Mme), couturière». The green costume of 1874-03-26 is the dark-green wool-and-faille dress ordered there on 1873-08-04 (inference from «robe vert foncé» and «mon costume vert de chez Francine»). %%
+%% 2026-10-21T22:16:49 RSR: The shop is in Vienna: the visits of 1873-08-04 to 08-12 happen during the Vienna Exposition trip («Nous allâmes chez Francine…», 007.0334; the same hotel/Exposition days), and Mon Journal t.1 index lists «Francine (Mme), couturière». The green costume of 1874-03-26 is the dark-green wool-and-faille dress ordered there on 1873-08-04 (inference from «robe vert foncé» and «mon costume vert de chez Francine»). %%

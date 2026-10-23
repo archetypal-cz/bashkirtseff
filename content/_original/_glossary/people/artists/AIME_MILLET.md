@@ -21,4 +21,4 @@ Aimé Millet (1819–1891), French sculptor (the colossal *Vercingétorix* at Al
 
 The Mon Journal indexes file both pages under the painter («Millet (Jean François)», t.15 p.224, t.16 p.97), but in a list of sculptors the sculptor is meant (0.85).
 
-%% 2026-10-22T14:33:47 RSR: B-67 (4): entry created; 099.0156 and 102.0462 tagged. %%
+%% 2026-10-22T14:33:47 RSR: 099.0156 and 102.0462 tagged. %%

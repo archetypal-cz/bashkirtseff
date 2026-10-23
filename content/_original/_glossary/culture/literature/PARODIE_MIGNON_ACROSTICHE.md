@@ -70,4 +70,4 @@ Her version (028.0021-0026) keeps Mignon's question form but turns the land of o
 - [Wikipedia (fr), "Mignon (opéra)"](https://fr.wikipedia.org/wiki/Mignon_(op%C3%A9ra)) -- Ambroise Thomas, 1866, adapted from Goethe's *Wilhelm Meister*; the romance "Connais-tu le pays"
 
 %% GLO_PARODIE_MIGNON_ACROSTICHE.0014 %%
-%% 2026-10-10T20:49:13 RSR: Created in the works-glossary wave (batch 10). Acrostic and parody text transcribed from 027.0365-0369 and 028.0021-0026. The identification of Emile with Audiffret is an inference; the feminine adjectives point to Dina as the target. The Mignon opera facts are from Wikipedia and were not independently checked against a score. %%
+%% 2026-10-10T20:49:13 RSR: Acrostic and parody text transcribed from 027.0365-0369 and 028.0021-0026. The identification of Emile with Audiffret is an inference; the feminine adjectives point to Dina as the target. The Mignon opera facts are from Wikipedia and were not independently checked against a score. %%

@@ -12,7 +12,6 @@ last_updated: 2026-05-31
 ---
 # Villa Savelieff
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (June 1873, Nice)
 
@@ -29,4 +28,4 @@ The Villa Savelieff was the Nice residence of M. and Mme Savelieff, a Russian fa
 
 Savelieff (Савельєв) is a common Russian surname. The villa's exact location in Nice is unknown; it appears to have been in the vicinity of the Russian church and the Bashkirtseff residences of the period.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real villa — residence of the Savelieff family in Nice, 1873. %%
+%% 2026-05-31T12:00:00 RSR: Real villa — residence of the Savelieff family in Nice, 1873. %%

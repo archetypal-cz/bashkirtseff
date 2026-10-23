@@ -55,4 +55,4 @@ last_updated: 2026-10-10
 - Diary paragraphs 099.0246, 099.0339 and 089.0356-0357 in `content/_original/`.
 
 %% GLO_L_ENFANT_DE_CHOEUR.0011 %%
-%% 2026-10-10T21:20:00 RSR: Created in the works glossary wave (W256). Status: project, never executed. Link to INTERIEUR_BOUTIQUE_MONT_DORE is an inference, flagged as such in the text. %%
+%% 2026-10-10T21:20:00 RSR: Status: project, never executed. Link to INTERIEUR_BOUTIQUE_MONT_DORE is an inference, flagged as such in the text. %%

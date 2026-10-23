@@ -22,5 +22,3 @@ On 16 September 1874, staying with the Howards at Canterbury, Marie writes only:
 ## References in Diary
 
 - 1874-09-16 (023.0661), the only tagged paragraph.
-
-%% 2026-10-22T20:32:00 RSR: Body written. %%

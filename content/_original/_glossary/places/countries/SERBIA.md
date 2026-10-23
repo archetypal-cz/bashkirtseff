@@ -37,5 +37,3 @@ Serbia appears in Marie Bashkirtseff's diary in the context of Balkan politics a
 ## Related Entries
 - [#Turkey](./TURKEY.md) - The Ottoman Empire
 - [#Romania](./ROMANIA.md) - Another Balkan state gaining independence
-
-%% 2026-02-10T14:35:00 RSR: Expanded from one-line stub with Balkan context %%

@@ -45,5 +45,3 @@ After Charles Frederick Worth's death in 1895, his sons Gaston-Lucien (1853-1924
 - **August 1873**: Marie visits Worth multiple times during her stay in Paris
 - **August 27, 1873**: She makes a morning visit to Worth to order a dress before her departure
 - Marie mentions prices of 700 francs for a dress from Worth and 1,900 francs for her aunt's dress
-
-%% 2025-04-05T15:12:47 RSR: Created glossary entry for the House of Worth %%

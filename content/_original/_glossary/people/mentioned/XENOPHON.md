@@ -23,4 +23,4 @@ Xenophon, the Athenian soldier and writer, a pupil of Socrates and author of the
 
 Mon Journal indices: t.3 «Xénophon, historien grec, 257»; t.12 «Xénophon, philosophe grec : 124».
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Two paragraphs; Mon Journal indices t.3 and t.12. %%
+%% 2026-10-22T21:33:17 RSR: Two paragraphs; Mon Journal indices t.3 and t.12. %%

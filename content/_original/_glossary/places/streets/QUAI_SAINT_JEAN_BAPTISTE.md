@@ -15,6 +15,3 @@ replaced_by: QUAI_SAINT_JEAN
 
 %% GLO_QUAI_SAINT_JEAN_BAPTISTE.0001 %%
 **Retired.** Merged into [#QUAI_SAINT_JEAN](QUAI_SAINT_JEAN.md) (`places/streets/QUAI_SAINT_JEAN.md`); use that entry instead.
-
-%% GLO_QUAI_SAINT_JEAN_BAPTISTE.0002 %%
-%% 2026-10-22T12:30:21 RSR: Retired by glossary-merge; content and links moved to QUAI_SAINT_JEAN. replaced_by: places/streets/QUAI_SAINT_JEAN.md. %%

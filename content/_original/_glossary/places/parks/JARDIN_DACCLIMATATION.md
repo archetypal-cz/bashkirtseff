@@ -48,5 +48,3 @@ The Jardin d'Acclimatation was a respectable destination for families and fashio
 - [#Bois_de_Boulogne](../social/BOIS_DE_BOULOGNE.md) - The park containing the garden
 - [#Paris](../cities/PARIS.md) - The city
 - [#Jardin_des_Plantes](./JARDIN_DES_PLANTES.md) - Another Parisian garden
-
-%% 2026-02-10T13:05:00 RSR: Expanded from one-line stub with historical context %%

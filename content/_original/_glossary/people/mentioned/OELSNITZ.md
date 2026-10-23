@@ -31,10 +31,4 @@ What the diary gives: she had been governess at Mme Anitchkoff's, and is the dau
 - Mon Journal (Cercle des Amis de Marie Bashkirtseff), t.14 index; t.10 index as cited in 071/1877-05-14.
 - The diary, carnets 071, 082–093.
 
-%% 2026-10-21T13:05:00 RSR: Rewritten from stub during RSR of the restored 092–093 paragraphs (rsr-1880). The earlier stub said «3 mentions in Book 13»; grep finds her in 26 entry files, 071–093. NOTE: three stubs for the same woman exist, people/aristocracy/MLLE_OELSNITZ.md (tagged in 18 files), people/mentioned/MARIE_LEONTIEVNA.md (5 files) and people/aristocracy/MADEMOISELLE_OELSNITZ.md (0 files); this file is tagged in 8. The merge is already asked for in OPEN-ITEMS B-40 and B-48 (MLLE_OELSNITZ / MARIE_LEONTIEVNA); this entry is the only researched one and could be the target. Not merged here. %%
-
-%% 2026-10-21T21:15:30 RSR: Merged MLLE_OELSNITZ (no content kept: empty stub) %%
-
-%% 2026-10-21T21:15:42 RSR: Merged MARIE_LEONTIEVNA (no content kept: empty stub) %%
-
-%% 2026-10-21T21:15:55 RSR: Merged MADEMOISELLE_OELSNITZ (no content kept: empty stub) %%
+%% 2026-10-21T13:05:00 RSR: The earlier stub said «3 mentions in Book 13»; grep finds her in 26 entry files, 071–093. NOTE: three stubs for the same woman exist, people/aristocracy/MLLE_OELSNITZ.md (tagged in 18 files), people/mentioned/MARIE_LEONTIEVNA.md (5 files) and people/aristocracy/MADEMOISELLE_OELSNITZ.md (0 files); this file is tagged in 8. The merge is already asked for in OPEN-ITEMS B-40 and B-48 (MLLE_OELSNITZ / MARIE_LEONTIEVNA); this entry is the only researched one and could be the target. Not merged here. %%

@@ -27,4 +27,4 @@ Who he was: almost certainly a representative of the house of **A. Dusautoy, tai
 - 1874-05-22 (019.0314); 1874-06-12 (020.0228); 1874-06-13 (020.0238); 1874-06-20 (020.0367); 1874-06-22 (020.0376).
 
 %% GLO_DUSAUTOY_TAILLEUR.0006 %%
-%% 2026-10-21T23:27:00 RSR: Created by split from DUSAUTOY (OPEN-ITEMS D-42): text moved from the DUSAUTOY entry's tailor section (RSR of 2026-10-11, with the same sources); the five tailor paragraphs were re-read, and 020.0367 (Villemessant and Le Figaro) added to the account. %%
+%% 2026-10-21T23:27:00 RSR: Text moved from the DUSAUTOY entry's tailor section (RSR of 2026-10-11, with the same sources); the five tailor paragraphs were re-read, and 020.0367 (Villemessant and Le Figaro) added to the account. %%

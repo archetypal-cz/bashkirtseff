@@ -20,4 +20,4 @@ The father of «Kapitan» ([Kapitanenko](KAPITANENKO.md)), a well-known eccentri
 
 067.0054, 067.0056, 067.0656 (1876).
 
-%% 2026-10-22T16:00:00 RSR: Created (phase 2 note «KAPITAN père»); the three paragraphs carry only KAPITANENKO in the source; retags queued. %%
+%% 2026-10-22T16:00:00 RSR: The three paragraphs carry only KAPITANENKO in the source; retags queued. %%

@@ -14,6 +14,3 @@ replaced_by: JULIA_ACARD
 
 %% GLO_MLLE_ACARD.0001 %%
 **Retired.** Merged into [#JULIA_ACARD](JULIA_ACARD.md) (`people/mentioned/JULIA_ACARD.md`); use that entry instead.
-
-%% GLO_MLLE_ACARD.0002 %%
-%% 2026-10-21T22:55:09 RSR: Retired by glossary-merge; content and links moved to JULIA_ACARD. replaced_by: people/mentioned/JULIA_ACARD.md. %%

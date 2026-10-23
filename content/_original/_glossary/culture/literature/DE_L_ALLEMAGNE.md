@@ -47,4 +47,4 @@ The other Staël mentions of the diary (067.0928 and 074.0332) are to her novel 
 - Wikipedia, "On Germany": https://en.wikipedia.org/wiki/De_l%27Allemagne
 - *De l'Allemagne*, tome 1, Project Gutenberg ebook 66924, Part I, ch. IX.
 
-%% 2026-10-10T22:30:00 RSR: Works-glossary batch 05 (W090). Inventory item merged two works: 073.0015 and 074.0246 are De l'Allemagne I.IX (verified against Gutenberg 66924); 067.0928 and 074.0332 are Corinne (CORINNE_OU_L_ITALIE). There is no Madame de Staël author entry in the glossary yet; the alias 'Mme de Staël' sits here pending one. %%
+%% 2026-10-10T22:30:00 RSR: Inventory item merged two works: 073.0015 and 074.0246 are De l'Allemagne I.IX (verified against Gutenberg 66924); 067.0928 and 074.0332 are Corinne (CORINNE_OU_L_ITALIE). There is no Madame de Staël author entry in the glossary yet; the alias 'Mme de Staël' sits here pending one. %%

@@ -22,7 +22,3 @@ Marie first writes «Mme et Mlle Hotowsky, parents de Bikowsky» (19 March 1877,
 
 - First mentioned: 1877-03-19 (069.0451)
 - Key entries: 069/1877-03-19, 03-23, 03-25, 03-27; 070/1877-04-16, 04-23, 04-24
-
-%% 2026-10-21T13:02:08 RSR: Stub filled during RSR research of the restored carnet 069 paragraphs. %%
-
-%% 2026-10-21T21:21:57 RSR: Merged HOTOWSKY (no content kept: empty stub) %%

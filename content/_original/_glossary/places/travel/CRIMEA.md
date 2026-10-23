@@ -118,5 +118,5 @@ Anton Chekhov, himself suffering from tuberculosis, spent significant time in Ya
 - [Which diseases did Russian tsars suffer from? - Russia Beyond](https://www.rbth.com/history/331971-diseases-did-russian-tsars-suffer)
 - [An Excursion into the History of Health Tourism Through the Literary Works of Anton Chekhov - International Journal on Culture, History, and Religion](https://ijchr.net/journal/article/view/146)
 
-%% 2025-12-07T15:00:00 RSR: Created glossary entry for Crimea based on Book 00 reference to Madame Brenne's death in 1868. Research emphasizes role as tuberculosis treatment destination for Russian aristocracy. Sources confirm Crimea as "Russian Riviera" and premier health resort in 1860s-1870s. %%
+%% 2025-12-07T15:00:00 RSR: Research emphasizes role as tuberculosis treatment destination for Russian aristocracy. Sources confirm Crimea as "Russian Riviera" and premier health resort in 1860s-1870s. %%
 %% 2025-12-07T16:40:00 RSR: Updated with Marie's mother's visits to Crimean sea baths (paragraph 00.11), adding social context for separated noble women at resort destinations %%

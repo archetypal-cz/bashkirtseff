@@ -24,4 +24,4 @@ At the Opéra on 15 January 1879, the day after Marie's first medal at Julian's,
 
 - First mentioned: 1879-01-15 (084.0029)
 
-%% 2026-10-21T12:06:04 RSR: Rewritten from the auto-generated stub during RSR research of the restored paragraphs of carnet 084. The file sits in people/aristocracy; people/artists would fit better (logged in OPEN-ITEMS). %%
+%% 2026-10-21T12:06:04 RSR: The file sits in people/aristocracy; people/artists would fit better (logged in OPEN-ITEMS). %%

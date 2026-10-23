@@ -66,5 +66,3 @@ The war:
 - [Franco-German War - Britannica](https://www.britannica.com/event/Franco-German-War)
 - [Swiss History – Between France and Prussia](https://blog.nationalmuseum.ch/en/2021/03/swiss-nationals-between-the-lines/)
 - Marie Bashkirtseff's diary, Book 00 (retrospective preface, 1884)
-
-%% 2025-12-07T16:30:00 RSR: Created comprehensive entry for Franco-Prussian War based on Marie's Book 00 retrospective and historical research %%

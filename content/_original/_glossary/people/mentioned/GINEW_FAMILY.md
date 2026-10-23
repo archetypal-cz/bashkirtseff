@@ -12,7 +12,6 @@ last_updated: 2026-05-31
 ---
 # Ginew Family
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (June 1873, Nice)
 
@@ -28,4 +27,4 @@ A family (possibly English or Russian) encountered at the Howard household in Ni
 
 The surname "Ginew" is unusual; it may be a transliteration of an English or other European name. Only one mention in the diary.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real family — encountered briefly at the Howards' in Nice, June 1873. English-speaking daughter. %%
+%% 2026-05-31T12:00:00 RSR: Real family — encountered briefly at the Howards' in Nice, June 1873. English-speaking daughter. %%

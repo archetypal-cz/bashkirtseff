@@ -38,5 +38,3 @@ El Escorial is the massive royal palace-monastery complex built by King Philip I
 ## Related Entries
 - [#Seville](./SEVILLE.md) - Another Spanish destination
 - [#Granada](./GRANADA.md) - Another Spanish cultural site
-
-%% 2026-02-10T16:15:00 RSR: Expanded from one-line stub %%

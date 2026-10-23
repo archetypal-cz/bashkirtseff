@@ -16,5 +16,3 @@ Gaslina, a painter (Mon Journal t.1 index «Gaslina, peintre, 235»; t.5 «Gasli
 - 1875-09-11 (043.0081), at Ventimiglia: «Gaslina le peintre qui a manqué mon portrait l'hiver avant-dernier s'approche de nous, fait l'aimable et se met dans notre wagon.»
 
 No first name or other work of his was found.
-
-%% 2026-10-22T21:39:21 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

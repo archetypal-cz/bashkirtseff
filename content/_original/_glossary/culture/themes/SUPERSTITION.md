@@ -56,4 +56,4 @@ This thematic tag collects diary paragraphs where Marie reads a sign: a broken m
 - `055.1108` — counting the letters of Torlonia against Hamilton
 - `056.0399` — opening an encyclopaedia at random to learn whether Pietro thinks of her
 
-%% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%
+%% 2026-10-02T18:00:00 RSR: Applied per paragraph by AI judgement, not keyword match. %%

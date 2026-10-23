@@ -135,4 +135,4 @@ Marie's specific, affectionate memory of Madame Brenne - including the drawing l
 - Medical history of tuberculosis treatment in 19th-century Crimea
 - French Restoration period fashion history
 
-%% 2025-12-07T15:30:00 RSR: Created glossary entry for Madame Brenne based on Book 00, paragraph 00.36. Poignant figure - sad French governess with tuberculosis, teaching Marie to draw, died in Crimea 1868 seeking cure. Marie explicitly states she loved her ("Je l'aimais beaucoup"). %%
+%% 2025-12-07T15:30:00 RSR: Poignant figure - sad French governess with tuberculosis, teaching Marie to draw, died in Crimea 1868 seeking cure. Marie explicitly states she loved her ("Je l'aimais beaucoup"). %%

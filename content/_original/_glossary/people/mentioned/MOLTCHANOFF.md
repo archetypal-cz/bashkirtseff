@@ -16,7 +16,6 @@ transliteration: Molchanov
 ---
 # Moltchanoff
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (June 1873, Nice)
 
@@ -33,4 +32,4 @@ A Russian man who repeatedly appeared at the Bashkirtseff household in June 1873
 
 The Russian surname Молчанов (Molchanov) is common. Marie's suspicions of secret police or revolutionary connections cannot be verified. "Moltchanoff" is the French transliteration.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real person — suspicious Russian visitor to the Bashkirtseff household in Nice, June 1873. %%
+%% 2026-05-31T12:00:00 RSR: Real person — suspicious Russian visitor to the Bashkirtseff household in Nice, June 1873. %%

@@ -72,4 +72,4 @@ Despite its heavy censorship, this edition caused a literary sensation. It was t
 
 This tag appears across ~700 entries spanning 1873–1884, marking the ~2,700 paragraphs that were included in the published edition.
 
-%% 2026-02-11T12:00:00 RSR: Created glossary entry for the 1887 censored edition. OCR source from Internet Archive (1903 Fasquelle reprint). Matching performed via censored_matching.py script using substring probes and fuzzy matching (rapidfuzz). Lower match rates in early years due to aggressive name substitution and text rewriting in the censored edition. %%
+%% 2026-02-11T12:00:00 RSR: OCR source from Internet Archive (1903 Fasquelle reprint). Matching performed via censored_matching.py script using substring probes and fuzzy matching (rapidfuzz). Lower match rates in early years due to aggressive name substitution and text rewriting in the censored edition. %%

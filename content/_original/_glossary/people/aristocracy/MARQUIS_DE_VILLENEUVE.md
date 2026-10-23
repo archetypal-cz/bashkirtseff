@@ -25,4 +25,4 @@ Not the Nice youth Courson de la Villeneuve of 1875 ([COURSON_DE_LA_VILLENEUVE](
 - 099.0185 (23 April 1883): with his wife, «la princesse Jeanne et son mari».
 - 103.0337 (16 February 1884): «la princesse Jeanne et son Villeneuve».
 
-%% 2026-10-22T14:31:33 RSR: B-67 (4): entry created; tagged the four paragraphs above (0.9). %%
+%% 2026-10-22T14:31:33 RSR: Tagged the four paragraphs above (0.9). %%

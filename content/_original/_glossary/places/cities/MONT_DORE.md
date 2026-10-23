@@ -32,6 +32,3 @@ This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
 ## Related Entries
 
 [To be determined based on research]
-
-%% GLO_MONT_DORE.9000 %%
-%% 2026-10-03T10:00:00 RSR: Moved from people/mentioned/MONT_DORE.md. Body copied unchanged. %%

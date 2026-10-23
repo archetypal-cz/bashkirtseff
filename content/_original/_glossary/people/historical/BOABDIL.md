@@ -22,4 +22,4 @@ On 29 October 1881, on her Spanish trip, she writes of the Alhambra: «Je suis e
 
 - 1881-10-29 (093.0314).
 
-%% 2026-10-22T19:42:00 RSR: Body written from the paragraph and the existing footnote; dates as in the footnote, not re-checked. Listed as a historical figure for people/historical (list file). %%
+%% 2026-10-22T19:42:00 RSR: Dates as in the footnote, not re-checked. Listed as a historical figure for people/historical (list file). %%

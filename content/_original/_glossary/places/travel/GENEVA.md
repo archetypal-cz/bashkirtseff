@@ -136,6 +136,3 @@ During the Franco-Prussian War (1870-1871):
 - [#Paris](../cities/PARIS.md) - Ultimate destination
 - [#London](../cities/LONDON.md) - Other dream city
 - [#Maman](../../people/family/MAMAN.md) - Who managed the family's flight
-
-%% 2025-07-06T00:00:00 RSR: Created basic entry for Geneva %%
-%% 2025-12-07T15:45:00 RSR: Expanded with Book 00 information about Geneva as war refuge in 1870, adding historical context about Franco-Prussian War displacement and Geneva's role as neutral sanctuary for international aristocracy %%

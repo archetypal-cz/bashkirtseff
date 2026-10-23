@@ -45,7 +45,4 @@ On 10 June 1875 (034.0135) Emile d'Audiffret says that Walery «il y a cinq ou s
 - **September 4, 1873**: Marie receives her portrait photographs from Walery and critiques them, finding the poses "affected" and commenting that her hair arrangement gives "de la vulgarité" (vulgarity)
 - **July 13 and 21, 1876** (063.0204, 064.0032): spelled «Valery» in the print. Marie poses there in her capuchin costume: «J'ai posé chez Valery avec cette idée»; «je dois passer chez Valery avec mon costume d'avant-hier». Mon Journal t.8 index: «Valery, photographe : 273». Identified with Walery by name, city and date (the rue de Londres studio, c.1871–1878), about 0.85.
 
-%% 2025-04-05T15:13:06 RSR: Created glossary entry for Walery Studio %%
 %% 2025-04-05T18:35:00 RSR: Updated with September 4, 1873 mention of Marie receiving her photographs from Walery %%
-
-%% 2026-10-21T22:58:14 RSR: Merged WALERY (no content kept: empty stub) %%

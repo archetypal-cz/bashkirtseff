@@ -25,4 +25,4 @@ The village near Versailles where the Canroberts have their country house, and w
 - 1883-11-11 (102.0225): dines there, «je crois que j'aime vraiment ces gens-là»; 11-16, 11-17 (102.0251-0260): landscape painting in the rain; «Jouy, la campagne, fait très vivement sentir la beauté des tableaux de Bastien».
 - 1884-03-18 (103.0553): a day at Jouy looking for her blossoming orchard; 1884-07-12, 07-25, 07-28, 07-30 (105.0145-0359): the summer visits and the painting there; 1884-09-21 (106.0099): «Corvée suprême. Déjeuner à Jouy. La petite a copié le tableau, mal.»
 
-%% 2026-10-22T21:37:47 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Nineteen paragraphs; first-visit text, dates and location from the paragraphs and the 102.0225 footnote. %%
+%% 2026-10-22T21:37:47 RSR: Nineteen paragraphs; first-visit text, dates and location from the paragraphs and the 102.0225 footnote. %%

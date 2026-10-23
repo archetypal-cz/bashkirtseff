@@ -27,5 +27,3 @@ Whether «M. Howard du Swiss Times» belongs to the Howard family of Lise and H�
 - culture/newspapers/MR_HOWARD_SWISS_TIMES.md (024.0180) is a duplicate compound stub for the same man and paper.
 
 %% 2026-10-22T14:13:08 RSR: Rewritten (alias «Times» removed: The Times is another paper, 007.0119) from the diary and indexes (ledger B-58 (5), B-68 (3)). %%
-
-%% 2026-10-22T15:07:56 RSR: Merged MR_HOWARD_SWISS_TIMES (no content kept: empty stub) %%

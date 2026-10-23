@@ -27,4 +27,4 @@ Marie identified with historical figures of grandeur and tragic destiny. Mary St
 %% GLO_MARY_STUART.0006 %%
 - Referenced in literary/historical context
 
-%% 2026-02-10T20:00:00 RSR: Enriched from stub. Historical figure Marie identified with. %%
+%% 2026-02-10T20:00:00 RSR: Historical figure Marie identified with. %%

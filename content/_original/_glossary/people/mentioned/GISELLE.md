@@ -30,6 +30,4 @@ Giselle (in Naples «la Gisella») van Baeker, an Austrian girl, the fiancée an
 
 069.0113-0115, 069.0286-0287, 069.0496, 069.0524, 069.0536-0547, 071.0113, 071.0199, 075.0023-0024, 075.0094, 079.0511 (1877-03 to 1878-04).
 
-%% 2026-10-21T22:45:00 RSR: Body written (OPEN-ITEMS B-59 (3)); the empty auto-stub is replaced from the paragraphs listed above, all opened. Marriage "1877": 075.0023 (28 Sept 1877) with «mariés depuis un mois» in 075.0024, so about late August 1877. Names per Mon Journal t.10/t.11 indexes and Kernberger (2013), as already recorded in the 069.0496 and 079.0511 RSR notes. %%
-
-%% 2026-10-22T20:55:26 RSR: Merged GISELLA (no content kept: empty stub) %%
+%% 2026-10-21T22:45:00 RSR: The empty auto-stub is replaced from the paragraphs listed above, all opened. Marriage "1877": 075.0023 (28 Sept 1877) with «mariés depuis un mois» in 075.0024, so about late August 1877. Names per Mon Journal t.10/t.11 indexes and Kernberger (2013), as already recorded in the 069.0496 and 079.0511 RSR notes. %%

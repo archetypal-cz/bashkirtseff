@@ -24,5 +24,3 @@ The Trocadéro hill in Paris and, from 1878, the Palais du Trocadéro built for 
 - 1881-08-18 (092.0429)
 - 1883-04-28 (099.0232)
 - 1883-05-30 (100.0041)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

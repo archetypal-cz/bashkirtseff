@@ -33,4 +33,4 @@ The novel was Dumas's first attempt at historical fiction, before the success of
 - 1875-10-06 (046.0189): Marie reads it with Olga
 - 1875-10-08 (046.0265): Marie criticizes its poor writing
 
-%% 2026-02-09T21:00:00 RSR: Created entry. Marie's literary criticism of Dumas at age 16 is noteworthy — she dismisses his first novel while elsewhere calling him the greatest writer, which she treats as proof of her intellectual decline. %%
+%% 2026-02-09T21:00:00 RSR: Marie's literary criticism of Dumas at age 16 is noteworthy — she dismisses his first novel while elsewhere calling him the greatest writer, which she treats as proof of her intellectual decline. %%

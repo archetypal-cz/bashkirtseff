@@ -23,5 +23,5 @@ The Bashkirtseffs count him as an enemy. Marie: «La vieille vit pour le moment 
 ## Translation
 Keep the name as Marie writes it.
 
-%% 2026-10-21T10:30:27 RSR: Created during RSR research of the restored 066 paragraphs (rsr-066b). The 065 paragraphs above are not yet tagged with this file (they are outside 066). %%
+%% 2026-10-21T10:30:27 RSR: The 065 paragraphs above are not yet tagged with this file (they are outside 066). %%
 %% 2026-10-21T11:22:47 RSR: 065 now tagged (rsr-065): 065.0527, 065.0601, 065.0603, 065.0606, 065.0650, 065.0682. Add 065.0603 (29 Aug) to the references: «Lisaveta Ivanovna a eu ce bel amoureux par l'entremise de Mme Belli, une sale nihiliste, la maîtresse en titre du beau», «le beau» being Yonina; Mme Belli now has her own file, [Mme Belli](MME_BELLI.md). %%

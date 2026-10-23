@@ -42,6 +42,4 @@ full_text:
 - Wikipedia, ["Roles played by Sarah Bernhardt"](https://en.wikipedia.org/wiki/Roles_played_by_Sarah_Bernhardt); Princeton University Library Graphic Arts blog, "Sarah Bernhardt as The Sphinx" (cast).
 - Gutenberg 16403, English translation (*Led Astray and The Sphinx*).
 
-%% 2026-10-10T12:00:00 RSR: Enriched in place (works batch 02). The Calmann Lévy printing linked is of 1898; a contemporary 1874-75 Michel Lévy edition is listed on Wikisource's author page but its Internet Archive item was not opened. Duplicate people/mentioned/LE_SPHINX.md is already retired. Premiere day not firmly established (23 March 1874 per one bookseller note); please verify with the Comédie-Française register. %%
-%% GLO_LE_SPHINX.9000 %%
-%% 2026-10-03T10:00:00 RSR: Moved from people/mentioned/LE_SPHINX.md. Body copied unchanged. %%
+%% 2026-10-10T12:00:00 RSR: The Calmann Lévy printing linked is of 1898; a contemporary 1874-75 Michel Lévy edition is listed on Wikisource's author page but its Internet Archive item was not opened. Duplicate people/mentioned/LE_SPHINX.md is already retired. Premiere day not firmly established (23 March 1874 per one bookseller note); please verify with the Comédie-Française register. %%

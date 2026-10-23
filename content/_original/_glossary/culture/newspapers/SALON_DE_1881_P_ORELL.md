@@ -72,4 +72,4 @@ This entry's text is built entirely on the diary and general sources on the pape
 - Project notes: `docs/research/marie-bashkirtseff-research.md`
 
 %% GLO_SALON_DE_1881_P_ORELL.0014 %%
-%% 2026-10-10T21:00:44 RSR: Created in the works-glossary wave (batch 10). Supplements the stubs P_ORELL and PAULINE_ORELL (not moved or rewritten). Issue numbers and article titles unverified; an owner-visible follow-up is to find the May 1881 issues of La Citoyenne (Gallica/BnF) and add full_text. %%
+%% 2026-10-10T21:00:44 RSR: Supplements the stubs P_ORELL and PAULINE_ORELL (not moved or rewritten). Issue numbers and article titles unverified; an owner-visible follow-up is to find the May 1881 issues of La Citoyenne (Gallica/BnF) and add full_text. %%

@@ -27,4 +27,4 @@ Mentioned on 1875-08-17 as the Zankovskys' earlier mark: "Avant Paul, elles avai
 
 - First mentioned: 1875-08-17
 
-%% 2026-02-10T18:00:00 RSR: Created entry. Previous victim of the Zankovsky family scheme before Paul Bashkirtseff. %%
+%% 2026-02-10T18:00:00 RSR: Previous victim of the Zankovsky family scheme before Paul Bashkirtseff. %%

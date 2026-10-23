@@ -39,4 +39,4 @@ The canvas was therefore shown at Munkácsy's own house in January 1884, shortly
 - Wikimedia Commons, file record for "Munkácsy Golgota A.jpg" (Munkácsy Foundation; public domain, PD-old-100).
 - Diary: 103.0172, 103.0175, 103.0177.
 
-%% 2026-10-10T20:00:00 RSR: New work entry (batch 08). Supersedes nothing: the people/mentioned/MUNKACSY.md entry is the painter, keep it. Not verified: exact dates of the Paris showing at Munkácsy's house (January 1884 is Marie's visit). %%
+%% 2026-10-10T20:00:00 RSR: Not verified: exact dates of the Paris showing at Munkácsy's house (January 1884 is Marie's visit). %%

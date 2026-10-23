@@ -24,4 +24,4 @@ A spa town in the Isère, in the French Alps, with sulphurous waters prescribed 
 
 The 1881 plan was not carried out as stated: in the summer of 1881 she is in Paris and Russia, and in autumn at Biarritz.
 
-%% 2026-10-22T21:34:03 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Three paragraphs read; Wikipedia article and the existing footnote used for the identification. %%
+%% 2026-10-22T21:34:03 RSR: Three paragraphs read; Wikipedia article and the existing footnote used for the identification. %%

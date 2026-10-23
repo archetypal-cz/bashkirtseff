@@ -27,4 +27,4 @@ We are not sure who this is. «Bloudoff» would be the French spelling of the Ru
 - 1874-07-19 (021.0416), 1874-07-29 (022.0201) — Spa
 - 1876-01-14 (052.0153), 1876-03-22 (055.1025) — Rome
 
-%% 2026-10-22T14:08:13 RSR: Created (ledger B-57 (7)): four mentions; one entry for «Bloudoff» and «Blondoff» (0.7). Tagged in 021.0416 and 022.0201; 052.0153 and 055.1025 still to tag. %%
+%% 2026-10-22T14:08:13 RSR: Four mentions; one entry for «Bloudoff» and «Blondoff» (0.7). Tagged in 021.0416 and 022.0201; 052.0153 and 055.1025 still to tag. %%

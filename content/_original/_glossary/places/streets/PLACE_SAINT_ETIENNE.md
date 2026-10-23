@@ -23,4 +23,4 @@ We are not sure where this square is. The paragraph is written in Nice and the c
 
 - 1874-11-29 (027.0076, Nice): the only mention.
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph. Not located; nothing found beyond the diary line. %%
+%% 2026-10-22T21:39:42 RSR: One paragraph. Not located; nothing found beyond the diary line. %%

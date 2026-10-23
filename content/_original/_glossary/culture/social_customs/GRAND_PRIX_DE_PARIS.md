@@ -28,6 +28,4 @@ For Marie the Grand Prix is the high point of the Paris season and a measure of 
 
 - First mentioned: 1874-05-30 (020.0011). Also tagged in carnets 062, 080, 085 (1879-06-08, 1879-08-06), 088, 091, 095, 100, 104.
 
-%% 2026-10-22T16:00:00 RSR: Body written from the 25 tagged paragraphs and Wikipedia's race history and winners list. The 1879 entries (085, 1879-06-08 and 08-06) were not re-read for this entry. %%
-
-%% 2026-10-21T22:57:51 RSR: Merged GRAND_PRIX (no content kept: empty stub) %%
+%% 2026-10-22T16:00:00 RSR: The 1879 entries (085, 1879-06-08 and 08-06) were not re-read for this entry. %%

@@ -64,4 +64,4 @@ No passage has been matched to the drawing. The sitter is not identified.
 - *Catalogue des œuvres de Mlle Bashkirtseff*, Paris: Ludovic Baschet, 9 February 1885, p. 31, no. 117, and the plate *La Cigarette* — [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)
 
 %% GLO_FEMME_A_LA_CIGARETTE.0012 %%
-%% 2026-10-02T15:10:00 RSR: Created in the works-catalogue pass. Record data from the POP notice (fetched 2026-10-02) and the Orsay page. The match with 1885 no. 117 / plate *La Cigarette* comes from a side-by-side comparison of the POP thumbnail (identification only, not reused) with the Gallica plate; the compositions agree in every visible detail. No open-licence image exists. %%
+%% 2026-10-02T15:10:00 RSR: Record data from the POP notice (fetched 2026-10-02) and the Orsay page. The match with 1885 no. 117 / plate *La Cigarette* comes from a side-by-side comparison of the POP thumbnail (identification only, not reused) with the Gallica plate; the compositions agree in every visible detail. No open-licence image exists. %%

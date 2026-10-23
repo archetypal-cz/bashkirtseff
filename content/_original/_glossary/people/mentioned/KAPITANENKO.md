@@ -24,4 +24,4 @@ A retired officer of the Guard from Poltava, a friend of Marie's father and of t
 
 065.0273-066.0358 (1876); 067.0056, 067.0656 («Kapitan père et fils»); 083.0437, 083.0453 (1878); 092.0071, 092.0249 (1881); 096.0389-0473 (1882).
 
-%% 2026-10-22T16:00:00 RSR: Body rewritten (KAPITAN père question); 067.0054 is the father alone and moves to KAPITANENKO_PERE. %%
+%% 2026-10-22T16:00:00 RSR: 067.0054 is the father alone and moves to KAPITANENKO_PERE. %%

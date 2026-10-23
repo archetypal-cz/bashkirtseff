@@ -59,5 +59,4 @@ This thematic tag collects diary paragraphs where Marie mentions food, meals, di
 - **Verbs**: manger, engraisser, maigrir, jeûner, avoir faim
 - **False friends**: *dîner* and *déjeuner* (time of day varies); *souper* (late meal); *chocolat* as nickname
 
-%% 2026-02-10T20:00:00 RSR: Created thematic tag entry. Food references scattered throughout diary, primarily social rather than culinary in focus. %%
-%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%
+%% 2026-02-10T20:00:00 RSR: Food references scattered throughout diary, primarily social rather than culinary in focus. %%

@@ -33,4 +33,4 @@ Fresco by **Raphael**, painted 1509-1511 for Pope Julius II in the Stanza della 
 - Wikipedia, "The School of Athens".
 - Diary: 093.0205.
 
-%% 2026-10-10T20:00:00 RSR: New work entry (batch 08), split from the inventory's merged entry with La Vierge à la chaise (W143). One mention only. %%
+%% 2026-10-10T20:00:00 RSR: One mention only. %%

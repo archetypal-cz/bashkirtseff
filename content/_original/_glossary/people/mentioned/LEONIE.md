@@ -32,4 +32,4 @@ The tag `LEONIE` has also been put on two other women, which should move (see wo
 
 53 tagged paragraphs: 030.0052–0054 (21 Feb 1875), 031.0027–0048, 032, 033–034, 037, 043–046, 048–049, 053, 055, 057, 059 (the maid), then the two misplaced tags 087.0535 and 089.0139. Sample of about 30 paragraphs read 2026-10-21.
 
-%% 2026-10-21T23:35:00 RSR: Fix (OPEN-ITEMS B-20): stub written from the tagged paragraphs of 1875–76 and the Mon Journal t.5–t.7 indexes (Léonie, domestique). Two other Léonies found among the tags (087.0535 model Nana; 089.0139 Léonie Tchoumakoff); retag rows given in the report.  Places from the entries' frontmatter (031 Cannes, 055 Rome, 057 Naples, 053 and 059 Nice). %%
+%% 2026-10-21T23:35:00 RSR: Two other Léonies found among the tags (087.0535 model Nana; 089.0139 Léonie Tchoumakoff); retag rows given in the report.  Places from the entries' frontmatter (031 Cannes, 055 Rome, 057 Naples, 053 and 059 Nice). %%

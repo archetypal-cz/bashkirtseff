@@ -18,6 +18,3 @@ replaced_by: ETINCELLE
 
 %% GLO_PEYRONNEY.0001 %%
 **Retired.** Merged into [#ETINCELLE](../writers/ETINCELLE.md) (`people/writers/ETINCELLE.md`); use that entry instead.
-
-%% GLO_PEYRONNEY.0002 %%
-%% 2026-10-22T12:28:32 RSR: Retired by glossary-merge; content and links moved to ETINCELLE. replaced_by: people/writers/ETINCELLE.md. %%

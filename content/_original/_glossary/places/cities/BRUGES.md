@@ -37,5 +37,3 @@ Bruges, the medieval Flemish city in Belgium, was a popular destination for cult
 ## Related Entries
 - [#Brussels](./BRUSSELS.md) - The Belgian capital
 - [#Paris](./PARIS.md) - Marie's artistic base
-
-%% 2026-02-10T16:40:00 RSR: Expanded from one-line stub with Flemish art context %%

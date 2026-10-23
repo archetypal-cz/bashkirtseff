@@ -19,4 +19,4 @@ A bridge in Nice named as a landmark on the way to the Var. On 17 May 1875 Marie
 
 - 1875-05-17 (033.0016) and 1875-06-13 (034.0220), both in Nice. See [Rue de France](../streets/RUE_DE_FRANCE.md).
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Two paragraphs read; position inferred, not sourced. %%
+%% 2026-10-22T21:39:42 RSR: Two paragraphs read; position inferred, not sourced. %%

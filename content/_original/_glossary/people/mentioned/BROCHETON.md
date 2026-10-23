@@ -26,6 +26,6 @@ M. and Mme Brocheton, Paris bankers of the Spanish-speaking set whom Marie meets
 
 - First mentioned: 1880-04-17 (087.0865). Five tagged paragraphs, carnets 087–088.
 
-%% 2026-10-22T20:05:00 RSR: Body rewritten from the paragraphs; the 2026-05-31 stub text (Brocheton at the Grand Prix only) is replaced. Whether they are Spanish is not said; Marie classes them with the Spaniards at the Grand Prix. %%
+%% 2026-10-22T20:05:00 RSR: The 2026-05-31 stub text (Brocheton at the Grand Prix only) is replaced. Whether they are Spanish is not said; Marie classes them with the Spaniards at the Grand Prix. %%
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-30.md. Les Brocheton: likely Spanish social acquaintances at the Grand Prix, Paris May 1880. No further identification. %%
+%% 2026-05-31T12:00:00 RSR: Les Brocheton: likely Spanish social acquaintances at the Grand Prix, Paris May 1880. No further identification. %%

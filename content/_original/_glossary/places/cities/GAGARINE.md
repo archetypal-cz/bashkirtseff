@@ -73,5 +73,3 @@ The family produced many notable figures:
 - What was their relationship to the famous astronaut Yuri Gagarin's ancestral line?
 - Did they maintain property in Nice?
 - Were there young Gagarines who might have been Marie's peers?
-
-%% 2025-06-30T22:35:00 RSR: Created entry for Gagarine family based on 20 diary mentions %%

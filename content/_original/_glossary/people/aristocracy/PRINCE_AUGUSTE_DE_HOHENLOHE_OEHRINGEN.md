@@ -14,6 +14,3 @@ replaced_by: SCHWARZ
 
 %% GLO_PRINCE_AUGUSTE_DE_HOHENLOHE_OEHRINGEN.0001 %%
 **Retired.** Merged into [#SCHWARZ](../mentioned/SCHWARZ.md) (`people/mentioned/SCHWARZ.md`); use that entry instead.
-
-%% GLO_PRINCE_AUGUSTE_DE_HOHENLOHE_OEHRINGEN.0002 %%
-%% 2026-10-22T15:08:39 RSR: Retired by glossary-merge; content and links moved to SCHWARZ. replaced_by: people/mentioned/SCHWARZ.md. %%

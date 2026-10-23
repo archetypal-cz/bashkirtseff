@@ -27,9 +27,7 @@ Gaius Julius Caesar (100–44 BC), Roman general and dictator, whom Marie meets 
 
 - First mentioned: 1875-03-22 (030.0304). 14 tagged paragraphs, carnets 030–052.
 
-%% 2026-10-22T20:15:00 RSR: Body written. The Suetonius reference is the standard source for the Alexander-statue story, cited from general knowledge, not checked in the text. The «villa» story (044.0021) alludes to Suetonius too (the villa near Nemi) and is not explained by Marie. %%
+%% 2026-10-22T20:15:00 RSR: The Suetonius reference is the standard source for the Alexander-statue story, cited from general knowledge, not checked in the text. The «villa» story (044.0021) alludes to Suetonius too (the villa near Nemi) and is not explained by Marie. %%
 
-%% 2026-10-22T22:09:50 RSR: Merged CESAR (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 - 7 October 1883 (French spelling «César», merged entry CESAR): «Napoléon et César étaient superstitieux pour ne vous citer que ces deux plus illustres» (101.0522).

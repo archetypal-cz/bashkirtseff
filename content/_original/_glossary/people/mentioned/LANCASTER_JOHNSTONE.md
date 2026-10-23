@@ -14,6 +14,3 @@ replaced_by: JOHNSTONE
 
 %% GLO_LANCASTER_JOHNSTONE.0001 %%
 **Retired.** Merged into [#JOHNSTONE](JOHNSTONE.md) (`people/mentioned/JOHNSTONE.md`); use that entry instead.
-
-%% GLO_LANCASTER_JOHNSTONE.0002 %%
-%% 2026-10-22T20:51:47 RSR: Retired by glossary-merge; content and links moved to JOHNSTONE. replaced_by: people/mentioned/JOHNSTONE.md. %%

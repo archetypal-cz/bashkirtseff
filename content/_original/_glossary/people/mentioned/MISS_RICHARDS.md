@@ -26,5 +26,3 @@ An English-speaking student («Miss») in the women's atelier of the [Académie 
 
 ## Sources
 - Mon Journal t.14 (L'Âge d'Homme), index.
-
-%% 2026-10-21T11:32:08 RSR: Created during RSR research of the restored 090 paragraphs (rsr-090). %%

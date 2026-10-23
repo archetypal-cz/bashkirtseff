@@ -35,5 +35,4 @@ Villa Gioia is the house of Gioia, the Duke of Hamilton's mistress, on the Prome
 - [#Gioia](../../people/recurring/GIOIA.md) - the owner
 - [#Nice](../cities/NICE.md) - the city
 
-%% 2026-02-10T15:20:00 RSR: Expanded from one-line stub %%
-%% 2026-10-21T22:16:56 RSR: Fix (OPEN-ITEMS B-26): «may have been one of the Bashkirtseff family's residences» removed. It is Gioia's house: «En passant la villa de Gioia… C'est là que… je l'ai vu assis avec elle» (005.0186); «je n'ai jamais vu l'intérieur» (035.0001); on the Promenade next to the villa Léon (024.0187). Untagged paragraphs that name it (011.0300, 012.0063, 012.0221, 032.0373, 045.0119) are listed in tags-p3-a.tsv. %%
+%% 2026-10-21T22:16:56 RSR: It is Gioia's house: «En passant la villa de Gioia… C'est là que… je l'ai vu assis avec elle» (005.0186); «je n'ai jamais vu l'intérieur» (035.0001); on the Promenade next to the villa Léon (024.0187). Untagged paragraphs that name it (011.0300, 012.0063, 012.0221, 032.0373, 045.0119) are listed in tags-p3-a.tsv. %%

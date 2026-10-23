@@ -37,5 +37,3 @@ The Rue Ampere was part of Marie's Parisian neighborhood:
 ## Related Entries
 - [#Paris](../cities/PARIS.md) - The city
 - [#Bois_de_Boulogne](../social/BOIS_DE_BOULOGNE.md) - Nearby park
-
-%% 2026-02-10T13:15:00 RSR: Expanded from one-line stub with neighborhood context %%

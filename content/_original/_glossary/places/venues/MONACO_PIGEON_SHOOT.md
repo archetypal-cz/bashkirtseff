@@ -40,7 +40,6 @@ Elite sporting event held at Monte Carlo in the 1870s, attracting international 
 - Display of wealth and status
 - Marie critical of many participants as nouveau riche ("perruquiers travestis")
 
-%% 2026-10-21T21:22:20 RSR: Merged content from PIGEON_SHOOT_MONACO %%
 
 **Research Status**: Basic
 **Last Updated**: 2025-07-05

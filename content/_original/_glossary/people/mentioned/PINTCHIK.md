@@ -16,7 +16,7 @@ last_updated: 2026-10-22
 
 ## Overview
 %% 2026-10-03T10:30:00 RSR: A dog Marie fell for in Rome ("à Rome, je me suis toquée d'un autre chien", 104/1884-06-05), named Pincio and nicknamed Pintchik; it was stolen about six years before 1884 (the "Pincio" of that passage). 071/1877-05-20: "le pauvre petit Pincio dit Pintchik a été mordu et roulé" in a dog fight. Prater, the old dog, was taken in by her mother meanwhile ([#Prater](PRATER.md)). The place Pincio (Rome) is [#Pincio](../../places/landmarks/PINCIO.md); some carnets tag the dog with the stub PINTCHIK, which is right. %%
-%% 2026-10-22T22:16:12 RSR: Body written in the stub-pass apply (2026-10-22) from the 44 tagged paragraphs. The Rome park is [#PINCIO](../../places/landmarks/PINCIO.md); Marie's second dog, a bitch bought in 1878 to replace him, is [#PINCIA](PINCIA.md). %%
+%% 2026-10-22T22:16:12 RSR: The Rome park is [#PINCIO](../../places/landmarks/PINCIO.md); Marie's second dog, a bitch bought in 1878 to replace him, is [#PINCIA](PINCIA.md). %%
 Pincio, «blanc comme la neige» (067.1394), the small white dog Marie took a fancy to in Rome in 1876 and named after the Pincio gardens («à Rome, je me suis toquée d'un autre chien», 104.0518); «un petit chien romain, chien loup; blanc comme la neige, les oreilles droites, des yeux et un nez noirs comme de l'encre» (075.0441); the household also called him «Pintchik» («le pauvre petit Pincio dit Pintchik», 071.0392). He was stolen in Paris at the beginning of March 1878 and never found. Mon Journal indexes: t.8 p.171, t.10–t.13.
 
 ## In Marie's diary

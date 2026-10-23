@@ -49,19 +49,14 @@ Saetone occupies a specific and problematic role:
 - **Oct 7**: Encountered at theater, Marie says "bonsoir" in her characteristically assured voice
 - **Oct 12**: Formal reconciliation when Marie's mother arrives; Saetone approaches to "explain" himself
 
-%% 2026-10-21T22:08:00 RSR: Fix (OPEN-ITEMS B-17): «she ironically calls him mon oncle» removed. «d'Audiffret amène et présente son oncle Saëtone» (034/1875-06-15, 034.0290) makes him Audiffret's real uncle; Marie borrows the title («mon oncle Saëtone», 035/1875-06-28). The LAN notes at 034/1875-06-10 («ironic nickname… mock-familial») and 046/1875-10-03 («ironic use of "uncle"») rest on the old reading and should be corrected in a diary pass. %%
+%% 2026-10-21T22:08:00 RSR: «d'Audiffret amène et présente son oncle Saëtone» (034/1875-06-15, 034.0290) makes him Audiffret's real uncle; Marie borrows the title («mon oncle Saëtone», 035/1875-06-28). The LAN notes at 034/1875-06-10 («ironic nickname… mock-familial») and 046/1875-10-03 («ironic use of "uncle"») rest on the old reading and should be corrected in a diary pass. %%
 
-%% 2026-02-09T21:00:00 RSR: Created entry. Saetone is the social catalyst/meddler in the Audiffret affair. His first name Andriot is confirmed in carnet 046. Nina Sapogenikoff's denunciation of him as "entremetteur" (046.0049) is the key passage for understanding his function. %%
+%% 2026-02-09T21:00:00 RSR: Saetone is the social catalyst/meddler in the Audiffret affair. His first name Andriot is confirmed in carnet 046. Nina Sapogenikoff's denunciation of him as "entremetteur" (046.0049) is the key passage for understanding his function. %%
 
-%% 2026-10-21T22:48:05 RSR: Merged ANDRIOT (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 %% 2026-10-22T13:20:00 RSR: CORRECTION to the note of 2026-10-21 above (glossary-owner-questions: SAETONE «ironic oncle»). Saëtone is NOT Audiffret's real uncle: Marie says she invented the name («depuis que je lui ai dit que j'appelle Saëtone Enoteas et son oncle, parle de lui comme de son oncle», 034.0182), and the t.5 index files «[Oncle]» as one of his nicknames. The LAN notes at 034.0129 and 046/1875-10-03 («ironic nickname», «ironic use of "uncle"») are therefore right and stay. The RSR note at 035.0027 («Saëtone is Audiffret's real uncle») is wrong: fix in the identity-decisions TSV. %%
 
-%% 2026-10-22T20:50:47 RSR: Merged MARQUIS_DE_SAETONE (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
-
-%% 2026-10-22T22:10:31 RSR: Merged ENOTEAS (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## «Enoteas»
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 «Enoteas» is «Saëtone» spelled backwards: «j'appelle Saëtone Enoteas» (034.0182), one of the reversed code names with «Terffidua» for Audiffret (027.0274). The Mon Journal t.5 index gives «Saëtone (Andriot Alphonse), [Enoteas] [Oncle] [Mercure]». The paragraph of the merged entry ENOTEAS: «A la sortie je ne vois que Désiré et Enoteas» (050.0371, 1 December 1875).

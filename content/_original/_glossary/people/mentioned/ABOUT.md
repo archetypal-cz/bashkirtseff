@@ -25,4 +25,4 @@ Edmond About (born Dieuze, 14 February 1828; died Paris, 16 January 1885), Frenc
 
 %% 2026-10-22T16:20:00 RSR: Body extended with the 1883 Turgenev funeral paragraphs (101.0470–0471, also tagged to this entry). The earlier hit 014/1873-12-14 is the English «About a quarter-past 2» of the wedding clipping, not the author; 009/1873-09-14 has no «About» in the current text. %%
 
-%% 2026-10-21T09:41:16 RSR: Rewritten from the empty stub during RSR of the restored carnet 059 paragraphs. Earlier «About» hits (009/1873-09-14, 014/1873-12-14) not checked. %%
+%% 2026-10-21T09:41:16 RSR: Earlier «About» hits (009/1873-09-14, 014/1873-12-14) not checked. %%

@@ -57,6 +57,3 @@ full_text:
 
 %% GLO_LE_NABAB_DAUDET.0009 %%
 For the author see [Alphonse Daudet](./ALPHONSE_DAUDET.md) and, for Cassagnac, [Cassagnac](../../people/recurring/CASSAGNAC.md).
-
-%% GLO_LE_NABAB_DAUDET.0010 %%
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

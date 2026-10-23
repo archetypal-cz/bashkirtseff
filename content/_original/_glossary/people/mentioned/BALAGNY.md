@@ -27,6 +27,4 @@ A French lady of Nice society, «une vieille connaissance de Nice» (063.0611, 1
 
 017.0006, 017.0036; 063.0611; 082.0268 (tagged MME_BALAGNY); 087.0547.
 
-%% 2026-10-22T15:30:00 RSR: Body rewritten (phase 4, MME_BALAGNY / BALAGNY): one woman, «une vieille connaissance de Nice» (063.0611). The old body's reading that Marie calls her «Bête» (017.0006) is dropped: «Bête» there is ambiguous. %%
-
-%% 2026-10-22T12:29:02 RSR: Merged MME_BALAGNY (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+%% 2026-10-22T15:30:00 RSR: One woman, «une vieille connaissance de Nice» (063.0611). The old body's reading that Marie calls her «Bête» (017.0006) is dropped: «Bête» there is ambiguous. %%

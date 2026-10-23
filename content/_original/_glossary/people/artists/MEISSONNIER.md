@@ -53,4 +53,4 @@ On 11 July 1884 she records that she attacked him in conversation and the other 
 - James Gurney, "Meissonier's Portrait Fail": https://jamesgurney.substack.com/p/meissoniers-portrait-fail
 - Marie Bashkirtseff's diary, paragraphs cited above.
 
-%% 2026-10-11T12:00:00 RSR: Batch-10 pass, from the 7 tagged paragraphs (carnets 100-105). The stub had no content. Marie spells him Meissonnier. Mackay: Marie's footnote says the portrait was later destroyed; the Gurney page says it was burnt. Portrait: Charles Courtry etching 1884, MET DP884306, CC0. MME_MACKAY.md exists as a separate stub -- the lead may link it with the Mackay entry. %%
+%% 2026-10-11T12:00:00 RSR: The stub had no content. Marie spells him Meissonnier. Mackay: Marie's footnote says the portrait was later destroyed; the Gurney page says it was burnt. Portrait: Charles Courtry etching 1884, MET DP884306, CC0. MME_MACKAY.md exists as a separate stub -- the lead may link it with the Mackay entry. %%

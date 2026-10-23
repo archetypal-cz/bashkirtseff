@@ -36,5 +36,3 @@ Auteuil is a neighborhood in the 16th arrondissement of Paris, located near the 
 - [#Paris](./PARIS.md) - The city
 - [#Bois_de_Boulogne](../social/BOIS_DE_BOULOGNE.md) - The adjacent park
 - [#Longchamp](./LONGCHAMP.md) - Another racecourse in the area
-
-%% 2026-02-10T15:55:00 RSR: Expanded from one-line stub %%

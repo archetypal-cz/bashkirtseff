@@ -26,5 +26,3 @@ Part of Nice society circles who observe the Bashkirtseff family.
 
 ### 1874
 - **May 5**: Standing near fiacre with a lady, watching Marie say goodbye to the Filimonoffs
-
-%% 2025-07-07T08:00:00 RSR: Created basic entry for Blancho based on May 5, 1874 appearance %%

@@ -67,4 +67,4 @@ A neighbouring paragraph, 091.0130, (14 February 1881): "La tête de Brisbane (A
 - No catalogue match: the 1885 list has no portrait of Brisbane
 
 %% GLO_PORTRAIT_BRISBANE_RECAMIER.0014 %%
-%% 2026-10-10T20:59:13 RSR: Created in the works-glossary wave (batch 10). Start date moved from the inventory 1881 to April 1880 because 088.0016 and 088.0028 describe the first sitting; 091.0130 excluded for the apron. The identification of the 1880 American and the 1881 Brisbane as the same sitter rests on 088.0040 naming her Alice Brisbane and 090.0567 Alice - Recamier. %%
+%% 2026-10-10T20:59:13 RSR: Start date moved from the inventory 1881 to April 1880 because 088.0016 and 088.0028 describe the first sitting; 091.0130 excluded for the apron. The identification of the 1880 American and the 1881 Brisbane as the same sitter rests on 088.0040 naming her Alice Brisbane and 090.0567 Alice - Recamier. %%

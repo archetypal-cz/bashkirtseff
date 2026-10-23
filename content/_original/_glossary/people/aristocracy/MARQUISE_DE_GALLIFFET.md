@@ -24,4 +24,4 @@ Florence Georgina Laffitte, marquise de Galliffet, wife of General Gaston de Gal
 
 084.0159 (1879-02); 086.0125 (1879-08-22).
 
-%% 2026-10-22T14:12:32 RSR: B-49 (5), B-65 (4): entry created (two mentions); tagged 084.0159 and 086.0125. Maiden name from the t.12 index and Wikipedia; marriage year from Wikipedia. %%
+%% 2026-10-22T14:12:32 RSR: Tagged 084.0159 and 086.0125. Maiden name from the t.12 index and Wikipedia; marriage year from Wikipedia. %%

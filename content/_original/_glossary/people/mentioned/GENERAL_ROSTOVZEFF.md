@@ -31,5 +31,3 @@ Keep Marie's spellings «Rostovzeff», «Rostovtzeff».
 ## Sources
 - [Ростовцов, Александр Александрович](https://www.azbyka.ru/otechnik/Spravochniki/russkij-biograficheskij-slovar-tom-17/116), Russkij biografičeskij slovar', t.17.
 - Mon Journal t.8 (L'Âge d'Homme), index «Rostovzeff (général)».
-
-%% 2026-10-22T15:20:00 RSR: Stub replaced (OPEN-ITEMS B-61 (9)). %%

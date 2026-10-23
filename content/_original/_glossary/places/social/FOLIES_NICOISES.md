@@ -13,7 +13,6 @@ last_updated: 2026-05-31
 ---
 # Folies Niçoises
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (June 1873, Nice)
 
@@ -30,4 +29,4 @@ The venue's name — "Folies Niçoises" — follows the naming convention of Par
 - **June 8, 1873** (005.0208–0216): Family visits briefly, confirms it is unsuitable; described as a "café" with smoking and low-class company.
 - **June 14, 1873** (005.0267): The Bashkirtseffs' social circle goes to "les Folies niçoises" in the evening.
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken UK link. Real venue — a café-concert entertainment hall in Nice, 1873, described consistently as low-class by the Bashkirtseff circle. %%
+%% 2026-05-31T12:00:00 RSR: Real venue — a café-concert entertainment hall in Nice, 1873, described consistently as low-class by the Bashkirtseff circle. %%

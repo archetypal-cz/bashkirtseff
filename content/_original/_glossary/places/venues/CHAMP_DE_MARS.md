@@ -20,4 +20,4 @@ Campo di Marte is the plain below Capodichino, north of Naples, which Murat had 
 ## References in Diary
 - 1877-04-07 (070)
 
-%% 2026-10-21T21:37:58 RSR: Rewritten from an empty auto-stub before the move to places/venues. The 064/1876-08-12 tag (064.0548, the Champ-de-Mars of St Petersburg, one mention only) was removed in all trees; the bare alias «Champ» was dropped. %%
+%% 2026-10-21T21:37:58 RSR: The 064/1876-08-12 tag (064.0548, the Champ-de-Mars of St Petersburg, one mention only) was removed in all trees; the bare alias «Champ» was dropped. %%

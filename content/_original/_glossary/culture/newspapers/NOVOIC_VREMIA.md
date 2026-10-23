@@ -28,4 +28,4 @@ Marie writes the title in French at 100.0278 and in a transcription of the Russi
 
 - First mentioned: 1883-07-03 (100.0278); also 1883-10-02 (101.0485).
 
-%% 2026-10-22T16:05:00 RSR: Body written from the 2 tagged paragraphs and Wikipedia. Whether the July 1883 article is by Bagnitsky is not stated in the diary and is not claimed here. %%
+%% 2026-10-22T16:05:00 RSR: Whether the July 1883 article is by Bagnitsky is not stated in the diary and is not claimed here. %%

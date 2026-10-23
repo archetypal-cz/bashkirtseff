@@ -63,4 +63,4 @@ Thermal cures were both genuine medical practice and social institution. Before 
 - Multiple spa visits throughout the diary
 - Tension between medical necessity and artistic ambition
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Spa treatments central to Marie's medical care and social life. %%
+%% 2026-02-10T20:00:00 RSR: Spa treatments central to Marie's medical care and social life. %%

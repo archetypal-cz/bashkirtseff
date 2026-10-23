@@ -14,6 +14,3 @@ replaced_by: PARIS
 
 %% GLO_PARIS_1870S.0001 %%
 **Retired.** Merged into [#PARIS](PARIS.md) (`places/cities/PARIS.md`); use that entry instead.
-
-%% GLO_PARIS_1870S.0002 %%
-%% 2026-10-22T20:58:27 RSR: Retired by glossary-merge; content and links moved to PARIS. replaced_by: places/cities/PARIS.md. %%

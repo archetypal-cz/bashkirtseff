@@ -32,5 +32,3 @@ Probably the same young woman (0.7): «La princesse Mechtchersky qu'il a tant re
 
 ## Sources
 - Mon Journal t.7, index p.361
-
-%% 2026-10-22T15:07:38 RSR: Merged MESTCHERSKY (no content kept: empty stub) %%

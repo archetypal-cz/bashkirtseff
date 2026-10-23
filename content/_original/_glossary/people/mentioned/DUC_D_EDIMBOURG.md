@@ -15,6 +15,3 @@ replaced_by: DUKE_OF_EDINBURGH
 
 %% GLO_DUC_D_EDIMBOURG.0001 %%
 **Retired.** Merged into [#DUKE_OF_EDINBURGH](DUKE_OF_EDINBURGH.md) (`people/mentioned/DUKE_OF_EDINBURGH.md`); use that entry instead.
-
-%% GLO_DUC_D_EDIMBOURG.0002 %%
-%% 2026-10-21T22:55:57 RSR: Retired by glossary-merge; content and links moved to DUKE_OF_EDINBURGH. replaced_by: people/mentioned/DUKE_OF_EDINBURGH.md. %%

@@ -25,9 +25,7 @@ Marie describes her at 024.0362: «une dame russe âgée de trente-cinq ans, aya
 
 %% 2026-10-22T16:00:00 RSR: 019.0136 (6 May 1874; the first meeting is 019.0134, tagged ANGEL); 024.0361–024.0364 (19 October 1874); 024.0376, 024.0391, 024.0392, 024.0393, 024.0415; 025.0003–025.0252 (October–November 1874); 031.0335 (22 April 1875); 032.0026 (23 April); 033.0157 (23 May); 033.0375 (30 May 1875); more in the 28 tagged paragraphs. %%
 
-%% 2026-10-22T22:08:59 RSR: Merged ANGEL (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## Merged entry ANGEL
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 The entry ANGEL (surname only) held five paragraphs, now tagged here: the first meeting at the wedding of Mme Warvatzi's niece, «la princesse me présenta à Mme Angel» (019.0134, 6 May 1874); the call of 23 May 1874, when she leaves next day «avec Bidiger» and the Bashkirtseffs take her apartment in the hotel (019.0323); and three paragraphs of November 1874 that also concern her husband: «Le mari d'Ange est arrivé et ils nous firent une visite» (025.0171), «M. Angel» at the small tea of 11 November (025.0201), «Ange avec son mari» at lunch on 16 November (025.0252). The husband has his own entry, [#M. Angel](M_ANGEL.md).

@@ -42,4 +42,4 @@ All three are about her own hairstyle, not about looking at the statue; the diar
 - Wikipedia, "Capitoline Venus".
 - Diary: 055.0096, 060.0586, 062.0453.
 
-%% 2026-10-10T20:00:00 RSR: New work entry (batch 08). Distinct from the Agrippina statue on the Capitol footnoted at 062/1876-06-27 (not this work). %%
+%% 2026-10-10T20:00:00 RSR: Distinct from the Agrippina statue on the Capitol footnoted at 062/1876-06-27 (not this work). %%

@@ -28,8 +28,3 @@ The disguise allows Marie to explore transgressive spaces (the Folies-Bergère's
 
 ## Notes
 Further research needed to determine if "Pauline Orell" refers to a real person or is purely Marie's invention.
-
-%% GLO_PAULINE_ORELL.9000 %%
-%% 2026-10-03T10:00:00 RSR: Moved from places/theaters/PAULINE_ORELL.md. Body copied unchanged. %%
-
-%% 2026-10-22T20:58:43 RSR: Merged P_ORELL (no content kept: empty stub) %%

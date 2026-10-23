@@ -30,4 +30,4 @@ Ambroise is the household's source of gossip, especially about Audiffret, whom t
 
 - First mentioned: 1875-05-02 (032.0220). Ten tagged paragraphs in carnets 032–062.
 
-%% 2026-10-22T17:25:00 RSR: Body written from the 10 tagged paragraphs and the t.5/t.6/t.7/t.8 indexes. The RSR at 049.0017 reads Ambroise as «household servant or local informant»; the same man as the coachman of 053.0096 is assumed (the mother names him in both). The «Monsieur Emile» of 049.0017 is not identified here. %%
+%% 2026-10-22T17:25:00 RSR: The RSR at 049.0017 reads Ambroise as «household servant or local informant»; the same man as the coachman of 053.0096 is assumed (the mother names him in both). The «Monsieur Emile» of 049.0017 is not identified here. %%

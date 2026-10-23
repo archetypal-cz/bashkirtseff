@@ -27,4 +27,4 @@ Note: The entries LADY_FALKNER, LADY_FOLKNER, LORD_FALKNER, and LORD_FOLKNER lik
 - [#Lord_Falkner](LORD_FALKNER.md) -- Likely the same as Lord Falkner
 
 %% GLO_LADY_FALKNER.0005 %%
-%% 2026-02-10T12:00:00 RSR: Enriched from stub. Noted likely duplicates across Falkner/Folkner spelling variants. %%
+%% 2026-02-10T12:00:00 RSR: Noted likely duplicates across Falkner/Folkner spelling variants. %%

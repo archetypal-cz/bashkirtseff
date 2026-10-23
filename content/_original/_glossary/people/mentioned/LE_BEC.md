@@ -37,5 +37,3 @@ Marie's mocking nickname ("le Bec amoureux", the lovesick beak) for the daughter
 ## 11 February 1874
 
 At a wedding service: «A la fin du service le Bec vint, ce Bec amoureux !» (016.0242). The nickname first appears on 27 January 1874 (016.0018). The former entry BEC is merged here.
-
-%% 2026-10-22T20:58:52 RSR: Merged BEC; its diary facts were checked against the text and folded in by hand above. %%

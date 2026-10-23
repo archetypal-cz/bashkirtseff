@@ -38,6 +38,5 @@ Marie quotes the full text of his Italian visiting card: "comte Francesco Caracc
 - [PRINCE_DE_TORCHIAROLI](../aristocracy/PRINCE_DE_TORCHIAROLI.md) — branch designation (redirects here)
 
 ## Research Notes
-- Created: 2026-01-06 (auto-generated stub)
 - Researched: 2026-04-10 — family branch definitively identified; specific individual untraced
 - Sources: genmarenostrum.com, famiglienobilinapolitane.it, Archivio di Stato di Napoli records

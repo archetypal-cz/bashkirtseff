@@ -18,4 +18,4 @@ last_updated: 2026-10-22
 - 1874-01-17, Monaco (015.0219): «Je joue par maman au trente et quarante, un louis, je gagne».
 - 1874-11-04 (025.0110): «Walitsky joua pour moi au trente et quarante, je lui disais où il fallait jouer et j'ai gagné trois cents francs».
 
-%% 2026-10-22T20:26:03 RSR: Stub body written (glossary orphan review); both paragraphs tagged. Move candidate: culture/daily_life (just glossary-move TRENTE_ET_QUARANTE culture/daily_life). %%
+%% 2026-10-22T20:26:03 RSR: Move candidate: culture/daily_life (just glossary-move TRENTE_ET_QUARANTE culture/daily_life). %%

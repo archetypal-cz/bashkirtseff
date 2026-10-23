@@ -37,5 +37,3 @@ Granada, the last stronghold of Moorish Spain (falling to the Catholic Monarchs 
 ## Related Entries
 - [#Seville](./SEVILLE.md) - Another Andalusian city
 - [#Cordoba](./CORDOBA.md) - Another city with Moorish heritage
-
-%% 2026-02-10T15:30:00 RSR: Expanded from one-line stub %%

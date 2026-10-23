@@ -14,6 +14,3 @@ replaced_by: BENSA
 
 %% GLO_DUKE_OF_BENSA.0001 %%
 **Retired.** Merged into [#BENSA](../recurring/BENSA.md) (`people/recurring/BENSA.md`); use that entry instead.
-
-%% GLO_DUKE_OF_BENSA.0002 %%
-%% 2026-10-22T22:10:19 RSR: Retired by glossary-merge; content and links moved to BENSA. replaced_by: people/recurring/BENSA.md. %%

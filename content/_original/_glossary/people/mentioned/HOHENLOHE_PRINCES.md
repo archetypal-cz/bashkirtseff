@@ -23,6 +23,4 @@ The Soden comedy runs from 21 July to 16 August 1878: Marie and Mme Rembelinsky 
 
 081.0484 onward (Soden, from 1878-07-19) to 082.0159 (1878-08-20).
 
-%% 2026-10-22T14:00:00 RSR: Stub replaced (B-48(1)); identities from the t.12 index. %%
-
-%% 2026-10-22T12:29:51 RSR: Merged GANS (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+%% 2026-10-22T14:00:00 RSR: Identities from the t.12 index. %%

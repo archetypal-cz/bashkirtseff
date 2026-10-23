@@ -12,7 +12,6 @@ last_updated: 2026-05-31
 ---
 # Père Lavigne
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (May–June 1873, Nice)
 
@@ -33,4 +32,4 @@ The church on the Avenue de la Gare built through Père Lavigne's fundraising ef
 
 Full identification uncertain. The name "Lavigne" was common in French Catholic clergy. The description "ex-Jesuit expelled from his convent" but now preaching in Nice is consistent with the religious disruptions of the 1870s (expulsion of religious orders from France under the Third Republic, though the most severe expulsions came in 1880). Needs further archival research.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real person — Jesuit-trained priest in Nice 1873, built a church through charity, controversial preacher. %%
+%% 2026-05-31T12:00:00 RSR: Real person — Jesuit-trained priest in Nice 1873, built a church through charity, controversial preacher. %%

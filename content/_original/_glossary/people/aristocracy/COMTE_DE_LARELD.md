@@ -40,7 +40,6 @@ French count seriously courting Mlle Spang in Nice.
 
 ---
 
-%% 2026-02-04T06:46:52.912Z RSR: Merged content from COMTE_DE_LA_FELD %%
 
 # Comte de La Feld
 
@@ -53,8 +52,3 @@ French count seriously courting Mlle Spang in Nice.
 
 ## References in Diary
 [Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content

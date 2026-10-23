@@ -27,4 +27,4 @@ A paper Marie reads, writes to and is written about in:
 - 097.0382 (7 January 1883): on Gambetta's death, «"Le Voltaire" fait pleurer».
 - 098.0030 (14 January 1883), 103.0359 (22 February 1884), 104.0048 and 104.0050 (30 April 1884, the Salon varnishing-day issue).
 
-%% 2026-10-22T14:22:27 RSR: B-65 (4), B-69 (3), B-77 (4): entry created; tagged the eleven paragraphs above (all with «Voltaire» meaning the paper). %%
+%% 2026-10-22T14:22:27 RSR: Tagged the eleven paragraphs above (all with «Voltaire» meaning the paper). %%

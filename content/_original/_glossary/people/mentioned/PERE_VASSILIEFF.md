@@ -38,4 +38,4 @@ He is married and has a daughter of sixteen in 1884 (104.0732; «La femme et la 
 - Marie Bashkirtseff, *Journal*; Mon Journal indexes t.15 and t.16.
 - Lopukhin (ed.), *Pravoslavnaya bogoslovskaya entsiklopediya*, vol. 3, on Iosif Vasiliev (https://www.azbyka.ru/otechnik/Lopuhin/pravoslavnaja-bogoslovskaja-entsiklopedija-ili-bogoslovskij-entsiklopedicheskij-slovar-tom-tretij-vaal-vjacheslav/115).
 
-%% 2026-10-22T11:52:00 RSR: Body written (glossary-owner-questions B-63(2)). Identity of «le pope» 1882-84 settled by 104.0513 and the t.16 index («Vassilieff (pope)»), 0.95. 1878 «le Pope» (081.0369) 0.75. The «References» list includes untagged paragraphs (to be added by the lead from the TSV). Historical first name not traced; the Paris church's list of rectors after 1867 was not found online. %%
+%% 2026-10-22T11:52:00 RSR: Identity of «le pope» 1882-84 settled by 104.0513 and the t.16 index («Vassilieff (pope)»), 0.95. 1878 «le Pope» (081.0369) 0.75. The «References» list includes untagged paragraphs (to be added by the lead from the TSV). Historical first name not traced; the Paris church's list of rectors after 1867 was not found online. %%

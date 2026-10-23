@@ -26,5 +26,3 @@ The Larderel family palace at via de' Tornabuoni 19, Florence, formerly Palazzo 
 - 1877-04-29 (071.0066), 05-01 (071.0082), 05-02 (071.0110), 05-19 (071.0387)
 
 See also [Larderel](../../people/mentioned/LARDEREL.md), [Madame de Larderel](../../people/aristocracy/MADAME_DE_LARDEREL.md).
-
-%% 2026-10-21T10:48:15 RSR: Created during RSR of the restored carnet 071 paragraphs (rsr-071). %%

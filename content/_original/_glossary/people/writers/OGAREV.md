@@ -25,4 +25,4 @@ Nikolay Platonovich Ogarev (1813-1877), Russian poet and radical publicist, Herz
 
 024/1874-10-03 (024.0204); 024/1874-10-04 (024.0230, 024.0235).
 
-%% 2026-10-21T22:30:00 RSR: New entry created in the split of OGAREFF (OPEN-ITEMS B-39(4)): the earlier RSR note «Ogareff - Nikolai Ogarev, Russian revolutionary poet and exile, friend of Herzen» (024/1874-10-03) is kept as the identification; dates and role per Wikipedia, «Nikolay Ogarev» (general background, not checked against a second source). Quotes read in 024.0204, 024.0230, 024.0235. %%
+%% 2026-10-21T22:30:00 RSR: The earlier RSR note «Ogareff - Nikolai Ogarev, Russian revolutionary poet and exile, friend of Herzen» (024/1874-10-03) is kept as the identification; dates and role per Wikipedia, «Nikolay Ogarev» (general background, not checked against a second source). Quotes read in 024.0204, 024.0230, 024.0235. %%

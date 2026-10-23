@@ -17,4 +17,4 @@ A man Marie meets at the skating club in Paris on 21 December 1879: «Nous somme
 ## Identity uncertain
 We are not sure who this is. The diary names him once, beside Lafond, among the young men of Berthe's and Alexis's skating set in December 1879; no first name, title or occupation is given, and the Mon Journal t.13 index has only «Cherubini (M.) 143»; web searches for a Cherubini of the Paris skating club (Cercle des patineurs) in 1879–1880 found nothing. If you can identify this person, we would be glad to hear from you.
 
-%% 2026-10-22T20:26:03 RSR: Auto-stub body replaced (glossary orphan review); 086.0752 tagged. The entry belongs in people/mentioned: move candidate for the lead (just glossary-move CHERUBINI people/mentioned). %%
+%% 2026-10-22T20:26:03 RSR: The entry belongs in people/mentioned: move candidate for the lead (just glossary-move CHERUBINI people/mentioned). %%

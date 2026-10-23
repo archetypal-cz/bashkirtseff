@@ -59,4 +59,4 @@ Not the opera: 027.0073 and 050.0681 (M. Barbier, vice-president of the Cercle M
 - Wikipedia, ["The Barber of Seville"](https://en.wikipedia.org/wiki/The_Barber_of_Seville).
 - IMSLP, [Il barbiere di Siviglia (Rossini, Gioacchino)](https://imslp.org/wiki/Il_barbiere_di_Siviglia_(Rossini,_Gioacchino)).
 
-%% 2026-10-10T12:00:00 RSR: Enriched in place (works batch 02), renamed to the opera (the file was an auto-stub). Duplicate: culture/theater/BARBER_OF_SEVILLE.md (EN title; 1874-04-26 "Le Barbier de Séville" at the theatre, work not specified: opera or Beaumarchais comedy) should be merged here or into a separate entry for Beaumarchais's comedy. A Beaumarchais play entry may be needed for 054.0082. %%
+%% 2026-10-10T12:00:00 RSR: Duplicate: culture/theater/BARBER_OF_SEVILLE.md (EN title; 1874-04-26 "Le Barbier de Séville" at the theatre, work not specified: opera or Beaumarchais comedy) should be merged here or into a separate entry for Beaumarchais's comedy. A Beaumarchais play entry may be needed for 054.0082. %%

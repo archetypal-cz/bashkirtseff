@@ -20,4 +20,4 @@ Willy, the son of the Howard family of Nice, English friends of the Bashkirtseff
 - 1873-11-05 (012.0068): Marie, Dina, Paul and Hitchcock go to the station at 8.30 in the evening to meet the arriving Howards.
 - 1873-12-07 (013.0239): at the English church in Nice, «M. Howard avec Lise et Willy y étaient, nous nous sommes vus»; the Bashkirtseffs are to dine with them that day.
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Two tagged paragraphs + t.1/t.2 indices. Related untagged mentions of 'M. Willy' with 'M. et Mme Addy' (012/1873-11-04) not assigned. %%
+%% 2026-10-22T21:33:17 RSR: Two tagged paragraphs + t.1/t.2 indices. Related untagged mentions of 'M. Willy' with 'M. et Mme Addy' (012/1873-11-04) not assigned. %%

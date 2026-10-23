@@ -52,4 +52,4 @@ Marie describes balls with characteristic intensity — her dress, her partners,
 - Private balls in Parisian salons
 - German spa town entertainments
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Balls are major social events throughout the diary. %%
+%% 2026-02-10T20:00:00 RSR: Balls are major social events throughout the diary. %%

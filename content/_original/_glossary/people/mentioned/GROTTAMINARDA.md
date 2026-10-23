@@ -23,6 +23,4 @@ The Duke of Grottaminarda (Neapolitan nobility), a friend of Prince Melissano, m
 - 071/1877-04-27, 071.0014 (told of the chalk sketch at the Figliasi ball; Melissano and Doenhoff)
 - 071/1877-06-02, 071.0542 (with Larderel and Bernardaki)
 
-%% 2026-10-21T22:22:00 RSR: Body written from the auto-stub (OPEN-ITEMS B-37(7)) from the 070 RSR note «Grattaminarda (duc de) … (Marie writes Grottaminarda here and Grattaminarda at 070.0624)» and the paragraphs listed; t.10 index pp.118, 122, 144, 197. All cited IDs opened and checked. %%
-
-%% 2026-10-21T22:51:39 RSR: Merged GRATTAMINARDA (no content kept: empty stub) %%
+%% 2026-10-21T22:22:00 RSR: T.10 index pp.118, 122, 144, 197. All cited IDs opened and checked. %%

@@ -27,6 +27,3 @@ Bridge or location in Nice.
 - Convenient drop-off point in Nice
 - Near postal services
 - Marie uses it to rid herself of unwanted company
-
-%% GLO_PONT_NEUF.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/PONT_NEUF.md (a place filed under people). Body copied unchanged. %%

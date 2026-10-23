@@ -33,4 +33,4 @@ The brief mention illustrates:
 - The ongoing considerations of suitable marriages for young women in Marie's social circle
 - The international character of Nice society
 
-%% 2025-12-07T15:40:00 RSR: Created entry based on February 9, 1873 diary entry. Need to research specific identity - possibly Baron Karl Bach or another member of the Bach family. %%
+%% 2025-12-07T15:40:00 RSR: Need to research specific identity - possibly Baron Karl Bach or another member of the Bach family. %%

@@ -13,6 +13,3 @@ replaced_by: GATOWSKY
 
 %% GLO_HOTOWSKY.0001 %%
 **Retired.** Merged into [#GATOWSKY](GATOWSKY.md) (`people/mentioned/GATOWSKY.md`); use that entry instead.
-
-%% GLO_HOTOWSKY.0002 %%
-%% 2026-10-21T21:21:57 RSR: Retired by glossary-merge; content and links moved to GATOWSKY. replaced_by: people/mentioned/GATOWSKY.md. %%

@@ -31,10 +31,8 @@ We are not sure who this is. The tag covers the handsome young «lord Loftus» o
 - [#Audiffret](../recurring/EMILE_D_AUDIFFRET.md) -- also "Bibi-Girofla" in the universal «Bibi» of 19 October
 
 %% GLO_LORD_LOFTUS.0006 %%
-%% 2026-02-10T12:30:00 RSR: Enriched from stub. Lord Loftus was a British nobleman in Marie's Nice social circle whom Marie calls «Bibi» in October 1875 (a name she soon gives to everyone). %%
+%% 2026-02-10T12:30:00 RSR: Lord Loftus was a British nobleman in Marie's Nice social circle whom Marie calls «Bibi» in October 1875 (a name she soon gives to everyone). %%
 
-%% 2026-10-22T22:11:46 RSR: Merged LOFTUS (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 %% GLO_LORD_LOFTUS.0007 %%
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 - Merged entry LOFTUS: on 4 January 1874 «Loftus le frère de cette Loftus à laquelle Hamilton faisait la cour à Bade» is at the Bashkirtseff soirée (015.0028); on 26 December 1875 «Loftus ... manque de vigueur, et son profil fait trop un angle ... Il est très beau mais il n'est pas parfait» (051.0010).

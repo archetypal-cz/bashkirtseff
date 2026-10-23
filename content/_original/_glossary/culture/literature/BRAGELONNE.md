@@ -52,8 +52,3 @@ For Marie *Bragelonne* is the great novel of the series, and Raoul is the standa
 
 %% GLO_BRAGELONNE.0008 %%
 Enriched in place (the former entry held only the 1874-04-25 mention).
-
-%% GLO_BRAGELONNE.0009 %%
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); enriched. %%
-
-%% 2026-10-21T21:23:30 RSR: Merged LE_VICOMTE_DE_BRAGELONE (no content kept: empty stub) %%

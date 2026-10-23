@@ -31,4 +31,4 @@ Marie and her family stayed at Schlangenbad during August 1875 (carnet 039) for 
 - August 1875: Family stay during carnet 039
 - Key entries: 1875-08-15, 1875-08-16 (Wiesbaden excursions)
 
-%% 2026-02-10T17:00:00 RSR: Updated from stub. Schlangenbad spa context from 1911 EB and carnet 039 entries. %%
+%% 2026-02-10T17:00:00 RSR: Schlangenbad spa context from 1911 EB and carnet 039 entries. %%

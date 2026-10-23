@@ -44,4 +44,4 @@ Dikanka is the Kotchoubey family estate in the Poltava region, ten kilometres fr
 - [#Poltava](../cities/POLTAVA.md) — the regional capital
 - [#Russia](../countries/RUSSIA.md) — the 1876 and 1882 Russian journeys
 
-%% 2026-10-22T14:25:00 RSR: OPEN-ITEMS B-38 (2) / B-39 (6): the «owning family» links pointed at KOTCHOUBEY.md, which is the Princesse Kotchoubey met in Nice in December 1876 (067); retargeted to PRINCE_SERGE_KOTCHOUBEY (the 1876 host) and PRINCES_KOTCHOUBEY (the 1882 princes). The 1876 visit range «066.0577–0430» corrected to 066.0576–0587. %%
+%% 2026-10-22T14:25:00 RSR: The «owning family» links pointed at KOTCHOUBEY.md, which is the Princesse Kotchoubey met in Nice in December 1876 (067); retargeted to PRINCE_SERGE_KOTCHOUBEY (the 1876 host) and PRINCES_KOTCHOUBEY (the 1882 princes). The 1876 visit range «066.0577–0430» corrected to 066.0576–0587. %%

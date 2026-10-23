@@ -20,5 +20,3 @@ Concarneau, a fishing port in Finistère, Brittany, a favourite summer place of 
 - 1883-10-12 (101.0587)
 - 1884-01-14 (103.0026)
 - 1884-04-04 (103.0702)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

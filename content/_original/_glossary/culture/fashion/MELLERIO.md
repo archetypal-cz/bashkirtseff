@@ -19,5 +19,3 @@ In Paris in July 1876 Marie gives her diamonds to Mellerio to be reset: «J'ai d
 ## References in Diary
 - 1876-07-10 (063.0136)
 - 1876-07-13 (063.0205)
-
-%% 2026-10-21T09:11:04 RSR: Created during RSR research of the restored carnet 063 paragraphs (2026-09-29 rebuild). %%

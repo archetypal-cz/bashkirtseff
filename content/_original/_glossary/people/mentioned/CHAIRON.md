@@ -26,5 +26,3 @@ We are not sure who he was. No source consulted lists a Paris doctor Chairon of 
 ## References in Diary
 
 - 1881-05-15 (092.0003), the only tagged paragraph.
-
-%% 2026-10-22T20:57:00 RSR: Body written; identity_uncertain set. %%

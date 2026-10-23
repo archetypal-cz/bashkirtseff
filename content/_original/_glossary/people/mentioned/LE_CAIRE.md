@@ -14,6 +14,3 @@ replaced_by: CAIRO
 
 %% GLO_LE_CAIRE.0001 %%
 **Retired.** Merged into [#CAIRO](../../places/travel/CAIRO.md) (`places/travel/CAIRO.md`); use that entry instead.
-
-%% GLO_LE_CAIRE.0002 %%
-%% 2026-10-22T20:57:46 RSR: Retired by glossary-merge; content and links moved to CAIRO. replaced_by: places/travel/CAIRO.md. %%

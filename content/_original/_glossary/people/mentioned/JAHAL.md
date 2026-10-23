@@ -13,7 +13,6 @@ last_updated: 2026-10-21
 ---
 # Comte de Jahal
 
-**Research Status**: Stub
 **Last Updated**: 2026-10-21
 
 ## Identity

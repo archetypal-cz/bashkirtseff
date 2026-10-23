@@ -16,6 +16,3 @@ replaced_by: WOLDEMAR
 
 %% GLO_ONCLE_WLADIMIR.0001 %%
 **Retired.** Merged into [#WOLDEMAR](WOLDEMAR.md) (`people/mentioned/WOLDEMAR.md`); use that entry instead.
-
-%% GLO_ONCLE_WLADIMIR.0002 %%
-%% 2026-10-21T21:15:08 RSR: Retired by glossary-merge; content and links moved to WOLDEMAR. replaced_by: people/mentioned/WOLDEMAR.md. %%

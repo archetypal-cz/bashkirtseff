@@ -21,4 +21,4 @@ Prince Greuther, duke of Santa Severina, a Neapolitan nobleman presented to the 
 - 070/1877-04-15, 070.0620 (presented by Nasimoff; the only tagged paragraph)
 - 071/1877-05-13, 071.0304 (generic «prince de Santa Severina»; untagged)
 
-%% 2026-10-21T22:24:00 RSR: Body written from the auto-stub (OPEN-ITEMS B-37(7)) from the 070 RSR note «Greuther (prince, duc de Santa Severina)» (t.10 index p.118) and the quoted paragraphs; both IDs opened and checked. The 071.0304 allusion is probable, not certain. %%
+%% 2026-10-21T22:24:00 RSR: Both IDs opened and checked. The 071.0304 allusion is probable, not certain. %%

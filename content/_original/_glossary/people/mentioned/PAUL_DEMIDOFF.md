@@ -28,5 +28,3 @@ For Marie, Demidoff is the measure of enormous wealth in the Italian society she
 - 1877-05-10 (071.0226, his wife's race prize)
 
 Not to be confused with the «comtesse Orloff-Demidoff» of 1883 (102/1883-12-06) or the «Mme Demidoff» of 097/1882-11-07, who are other members or connections of the family.
-
-%% 2026-10-21T09:54:10 RSR: Created during RSR research of the restored carnet 070 paragraphs (rsr-070a). %%

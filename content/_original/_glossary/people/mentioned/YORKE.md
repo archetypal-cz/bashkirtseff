@@ -23,13 +23,9 @@ last_updated: 2026-10-03
 [Multiple references found - needs research]
 
 ## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
 
 ---
 
-%% 2026-02-04T06:46:51.431Z RSR: Merged content from MADAME_YORK %%
 
 # Madame York
 
@@ -42,11 +38,3 @@ last_updated: 2026-10-03
 
 ## References in Diary
 [Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-
-%% GLO_YORKE.9100 %%
-%% 2026-10-03T10:00:00 RSR: Body merged from MADAME_YORKE (richer duplicate). %%

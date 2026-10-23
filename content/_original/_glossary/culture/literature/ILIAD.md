@@ -71,5 +71,3 @@ Homer's *Iliad* is the Greek epic of the anger of Achilles in the tenth year of 
 
 %% GLO_ILIAD.0014 %%
 %% 2026-10-10T23:00:00 RSR: The diary footnote to 073.0487 says that in the Iliad Hecuba watches from the walls as her city burns; this is wrong (the Iliad ends before Troy falls; the sack is in Aeneid II). Footnote should be corrected; Marie's own statement stays as written. %%
-
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); enriched. %%

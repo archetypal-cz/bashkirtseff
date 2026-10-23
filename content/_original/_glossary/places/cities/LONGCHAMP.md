@@ -15,7 +15,6 @@ last_updated: 2026-03-06
 
 **Research Status**: Moderate
 **Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
 **Type**: Place - Racecourse
 
 ## Overview

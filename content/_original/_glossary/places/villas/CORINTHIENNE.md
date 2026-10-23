@@ -16,4 +16,4 @@ last_updated: 2026-10-22
 ## Link with the Boreels
 In a dream «J'assistais à l'enterrement de M. Boreel, nous étions dans la Corinthienne, dans une grande salle dont j'ai déjà rêvé (un dîner chez Boreel)» (004.0228, 29 April 1873), and on 26 September 1873 «La Corinthienne est ouverte, les rideaux aux fenêtres, les bougies préparées et au salon, allumées. Je crois que les Boreel sont arrivés» (010.0086). So the Boreel family probably took the Corinthienne for the 1873–74 season (0.7), although in spring 1873 Marie names a «villa Boreel» separately (006.0039, «les villas 57, Boreel, Canepa»).
 
-%% 2026-10-22T14:17:03 RSR: Written from the three mentions (ledger B-68 (4)); 006.0039 and 010.0086 tagged. Move to places/residences wanted (lead). %%
+%% 2026-10-22T14:17:03 RSR: 006.0039 and 010.0086 tagged. Move to places/residences wanted (lead). %%

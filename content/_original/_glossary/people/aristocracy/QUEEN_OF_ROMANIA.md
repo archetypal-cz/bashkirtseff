@@ -36,4 +36,4 @@ Queen Elisabeth/Carmen Sylva was notable as a woman who combined royal status wi
 - Corresponded with major cultural figures of the era
 
 %% GLO_QUEEN_OF_ROMANIA.0007 %%
-%% 2026-02-10T12:15:00 RSR: Enriched from stub. Queen Elisabeth of Romania (Carmen Sylva) was a writer-queen who would have interested Marie as a model of female achievement combining social position and artistic talent. %%
+%% 2026-02-10T12:15:00 RSR: Queen Elisabeth of Romania (Carmen Sylva) was a writer-queen who would have interested Marie as a model of female achievement combining social position and artistic talent. %%

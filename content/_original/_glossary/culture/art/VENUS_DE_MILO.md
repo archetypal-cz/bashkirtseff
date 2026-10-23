@@ -37,4 +37,4 @@ Marie uses the statue as her measure of the female body. On **21 September 1873*
 [Apollo Belvedere](./APOLLO_BELVEDERE.md); [Dina](../../people/core/DINA.md). For the goddess in general, see [Venus](../../people/mentioned/VENUS.md).
 
 %% GLO_VENUS_DE_MILO.9000 %%
-%% 2026-10-10T20:00:00 RSR: Created batch 07. 043.0191 is the Venus de' Medici (Uffizi, 'Venere Medicea'), a different statue; no entry made (flag: could use its own entry). Dating range of the Milo statue from general sources; Louvre page not fetched. %%
+%% 2026-10-10T20:00:00 RSR: 043.0191 is the Venus de' Medici (Uffizi, 'Venere Medicea'), a different statue; no entry made (flag: could use its own entry). Dating range of the Milo statue from general sources; Louvre page not fetched. %%

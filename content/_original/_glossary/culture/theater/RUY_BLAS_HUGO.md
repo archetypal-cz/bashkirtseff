@@ -19,4 +19,4 @@ last_updated: 2026-10-22
 - 095.0318 (July 1882) and 103.0416 (February 1884): the play invoked for a love across ranks (footnotes there).
 - 096.0257 (September 1882): among the books «auxquels on a recours dans les moments tristes ou de paresse»: «Des Balzac, des Dumas père, Paul et Virginie, Ruy Blas, Byron, Montaigne, Rabelais, Dante».
 
-%% 2026-10-22T14:43:27 RSR: B-77 (4): entry created (the play; the opera has its own file); 095.0318, 096.0257, 103.0416 tagged. %%
+%% 2026-10-22T14:43:27 RSR: 095.0318, 096.0257, 103.0416 tagged. %%

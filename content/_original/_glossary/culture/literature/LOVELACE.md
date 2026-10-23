@@ -15,4 +15,4 @@ Robert Lovelace, the aristocratic rake of Samuel Richardson's novel *Clarissa* (
 
 Per the tagging rules, a name used as a type gets no tag, so this entry has no tagged paragraphs; it serves as a reference for the footnotes.
 
-%% 2026-10-22T14:20:25 RSR: Body written (B-72(4)). A literary character, not a person of Marie's world: misfiled under people/mentioned; should move to culture/literature (lead: glossary-move). %%
+%% 2026-10-22T14:20:25 RSR: A literary character, not a person of Marie's world: misfiled under people/mentioned; should move to culture/literature (lead: glossary-move). %%

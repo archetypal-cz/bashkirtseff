@@ -24,4 +24,4 @@ The hotel on the Piazza di Spagna (Marie: «place d'Espagne») in Rome where the
 
 See [Rome](../cities/ROME.md).
 
-%% 2026-10-22T21:35:45 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Six paragraphs read. %%
+%% 2026-10-22T21:35:45 RSR: Six paragraphs read. %%

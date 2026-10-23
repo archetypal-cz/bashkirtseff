@@ -20,5 +20,3 @@ Chislehurst, in Kent, where the exiled Napoleon III lived at Camden Place and di
 - 1879-07-11 (085.0530)
 - 1879-07-20 (085.0569, 085.0570)
 - 1879-08-20 (086.0112)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

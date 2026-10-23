@@ -63,4 +63,4 @@ None identified. Dina sat for Marie repeatedly in 1880–82 (see *[Jeune femme l
 - *Catalogue des œuvres de Mlle Bashkirtseff*, Paris: Ludovic Baschet, 9 February 1885, no. 4 — [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)
 
 %% GLO_DIE_LESENDE.0012 %%
-%% 2026-10-02T16:20:00 RSR: Created in the works-catalogue pass. All object data come from the Commons file description, which cites the Dorotheum record; the sale result reported by search snippets (EUR 149,700, 7 June 2021) was not confirmed at source and is left out. Image: Commons original 3516 × 4289, resized to 1312 × 1600 q82 for the site. The comparison with At a Book was made by viewing the two images side by side. %%
+%% 2026-10-02T16:20:00 RSR: All object data come from the Commons file description, which cites the Dorotheum record; the sale result reported by search snippets (EUR 149,700, 7 June 2021) was not confirmed at source and is left out. Image: Commons original 3516 × 4289, resized to 1312 × 1600 q82 for the site. The comparison with At a Book was made by viewing the two images side by side. %%

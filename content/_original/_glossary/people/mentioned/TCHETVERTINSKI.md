@@ -34,9 +34,7 @@ Russian prince who reminds Marie strongly of someone named Chilovski in his mann
 - Present at charity events
 - Part of the younger generation at social events
 
-%% 2026-10-22T22:12:53 RSR: Merged PRINCE_TCHETVERTINSKY (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## Marriage to a Souvoroff daughter
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 On 15 August 1875 Marie hears that «la fille de la princesse Souvoroff épouse le prince Tchetvertinsky qui a cent mille roubles de rente. Magnifique parti !» (039.0066, merged entry PRINCE_TCHETVERTINSKY), and on 18 January 1877 at Nice «la princesse [Souvoroff] ... nous a présenté son gendre, le prince Tchetwertinsky» (068.0718). He is the prince of Nice in 1874 who was always with the Souvoroffs (017.0091 «la princesse Souvoroff avec sa fille ... le prince et le comte»), so the son-in-law is the same man (0.85). No first name or genealogy has been found (en.wikipedia «Czetwertyński family» for the surname only).

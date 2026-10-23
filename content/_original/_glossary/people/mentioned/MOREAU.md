@@ -30,4 +30,4 @@ We are not sure who this family is. The t.14 index calls them «famille du peint
 
 089.0197, 089.0202, 089.0239, 089.0255, 089.0343, 089.0354, 089.0396, 089.0401 (Mont-Dore, July–August 1880); 089.0469, 089.0486 (September 1880); 090.0198, 090.0309, 090.0515, 090.0516; 091.0018, 091.0621.
 
-%% 2026-10-22T14:15:25 RSR: B-60 (4): body written from the tagged paragraphs and the t.13/t.14 indexes; the painter is unidentified (identity_uncertain). %%
+%% 2026-10-22T14:15:25 RSR: The painter is unidentified (identity_uncertain). %%

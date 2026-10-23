@@ -14,7 +14,6 @@ last_updated: 2026-10-22
 # Pincia (Pincio II)
 
 ## Overview
-%% 2026-10-22T22:16:12 RSR: Body written in the stub-pass apply (2026-10-22) from the tagged paragraphs. %%
 Marie's second white dog, a bitch bought in 1878 to replace [Pincio](PINTCHIK.md), who had been stolen in Paris in March 1878: «on m'a acheté un autre pareil avec la différence que celui-ci est une femelle. Ce faux Pincio m'a fait presque oublier le premier» (082.0284). Marie calls her «Pincio II» and «la Pincia». (The LAN note at 084.0487: Pincia is the female form of the name.)
 
 ## In Marie's diary

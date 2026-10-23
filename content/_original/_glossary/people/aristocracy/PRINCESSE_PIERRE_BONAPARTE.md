@@ -21,4 +21,4 @@ last_updated: 2026-10-22
 
 The «blanchisseuse» is the diary's hearsay («à ce qu'on dit»).
 
-%% 2026-10-22T14:42:45 RSR: B-77 (3), B-67 (4): entry created (two mentions); 098.0076 and 103.0221 tagged. %%
+%% 2026-10-22T14:42:45 RSR: 098.0076 and 103.0221 tagged. %%

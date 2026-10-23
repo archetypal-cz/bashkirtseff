@@ -35,4 +35,4 @@ M. Brunet, Marie's private tutor in Nice: «professeur de littérature» in the 
 - 087/1880-01-24 «le baron Brunet» at a lunch with Gavini and Prince Napoleon is a different man (Mon Journal t.13 index lists «Brunet (baron)» separately); tag should be removed.
 - «Mme Brunet-Capdeville» (085/1879-06-21, «de chez les Lesseps») is a third person.
 
-%% 2026-10-21T22:05:00 RSR: Fix (OPEN-ITEMS B-15): «servant» and «not a teacher as initially assumed» removed. «Première leçon avec M. Brunet, de littérature, grammaire, rhétorique, histoire, mythologie» (009/1873-09-06) and «J'ai commencé le latin avec Brunet» (029/1875-02-16) show he is her tutor; Mon Journal t.3 index: «Brunet (M.), professeur de littérature». Coverage extended from 1874-03-12 to 1877-09-06. %%
+%% 2026-10-21T22:05:00 RSR: «Première leçon avec M. Brunet, de littérature, grammaire, rhétorique, histoire, mythologie» (009/1873-09-06) and «J'ai commencé le latin avec Brunet» (029/1875-02-16) show he is her tutor; Mon Journal t.3 index: «Brunet (M.), professeur de littérature». Coverage extended from 1874-03-12 to 1877-09-06. %%

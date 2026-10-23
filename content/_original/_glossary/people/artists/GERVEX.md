@@ -54,4 +54,4 @@ Marie never paints Gervex, and he never becomes a close friend; he belongs to th
 %% GLO_GERVEX.0009 %%
 Wikipédia FR, "Henri Gervex"; Wikimedia Commons, File:Henri Gervex.jpg (portrait by Pierre Petit, Revue illustrée 1902, public domain). Diary paragraphs as cited.
 
-%% 2026-10-11T12:00:00 RSR: Old page was a one-line stub. Gervex's Salon medal year and Rolla rejection per fr.wikipedia only (not cross-checked with Salon catalogues). The connection of Gervex with Valtesse de la Bigne (relevant to 100.0237) was not verified and is not stated. The English footnote at 095.0236 correctly gives 1852-1929. Misfiling: a painter, belongs under people/artists. %%
+%% 2026-10-11T12:00:00 RSR: Gervex's Salon medal year and Rolla rejection per fr.wikipedia only (not cross-checked with Salon catalogues). The connection of Gervex with Valtesse de la Bigne (relevant to 100.0237) was not verified and is not stated. The English footnote at 095.0236 correctly gives 1852-1929. Misfiling: a painter, belongs under people/artists. %%

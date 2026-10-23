@@ -52,5 +52,5 @@ Marie often records diagnoses with skepticism or dark humor:
 - [DEATH](DEATH.md) — Literal death events
 - [MORTALITY](MORTALITY.md) — Broader death obsession
 
-%% 2026-02-12T00:00:00 RSR: Created thematic tag for specific named diseases. Marie uses period medical terminology (phtisie, not tuberculose). %%
+%% 2026-02-12T00:00:00 RSR: Marie uses period medical terminology (phtisie, not tuberculose). %%
 %% 2026-10-02T18:00:00 RSR: Marked retired (status: retired) in favour of HEALTH under the 2026 tag-audit taxonomy; file kept only until the audit removes the remaining tags. %%

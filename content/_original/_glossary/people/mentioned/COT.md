@@ -25,5 +25,3 @@ Pierre-Auguste Cot (Bédarieux, 17 February 1837 – Paris, 1883), French academ
 ## Sources
 - en.wikipedia, "Pierre Auguste Cot"; Metropolitan Museum Journal 14 (1979), "Pierre Auguste Cot's *The Storm*"; data.bnf.fr record 14971968.
 - Mon Journal t.14 (L'Âge d'Homme), index «Cot (M.), peintre : 65, 67, 69, 131».
-
-%% 2026-10-21T11:42:00 RSR: Stub replaced with an identification and diary references during RSR research of the restored 090 paragraphs (rsr-090). %%

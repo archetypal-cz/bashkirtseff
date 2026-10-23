@@ -24,5 +24,5 @@ We are not sure who this is: the Galitzin (Golitsyn) family was very large, and 
 ## References in Diary
 - 1875-12-16 (050.0824); 1876-01-11 (052.0089)
 
-%% 2026-10-22T15:55:00 RSR: Created for OPEN-ITEMS B-66 (5) (Galitzine who died in 1875, not BETE). Tagged at 052.0089; 050.0824 is outside this sweep's range and still needs the tag. %%
+%% 2026-10-22T15:55:00 RSR: Tagged at 052.0089; 050.0824 is outside this sweep's range and still needs the tag. %%
 %% 2026-10-22T14:20:18 RSR: 050.0824 tagged too (B-sweep 028–050). %%

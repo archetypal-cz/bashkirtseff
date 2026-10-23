@@ -22,4 +22,4 @@ The northern French city. It enters the diary through three different threads.
 - **Sarah Bernhardt.** 1881-08-28 (093.0035): «Sarah étant à Lille et Bojidar n'allant la rejoindre que demain.»
 - **A painting for the museum.** 1881-11-15 (093.0373): Amélie Beaury-Saurel's picture, sent to the provinces, «a été acheté pour le musée de Lille» (see [Rodolphe Julian](../../people/recurring/RODOLPHE_JULIAN.md), whose influence Amélie is courting).
 
-%% 2026-10-22T21:37:47 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Five paragraphs read. %%
+%% 2026-10-22T21:37:47 RSR: Five paragraphs read. %%

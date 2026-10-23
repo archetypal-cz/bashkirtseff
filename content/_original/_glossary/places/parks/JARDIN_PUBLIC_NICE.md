@@ -29,7 +29,3 @@ Nice's green spaces in the 1870s served multiple purposes:
 ## Related Entries
 - [#Nice](../cities/NICE.md) - The city
 - [#Promenade_des_Anglais](../cities/PROMENADE_DES_ANGLAIS.md) - The main promenade
-
-%% 2026-02-10T15:45:00 RSR: Expanded from one-line stub %%
-
-%% 2026-10-22T20:55:13 RSR: Merged JARDINS_PUBLICS_NICE (no content kept: empty stub) %%

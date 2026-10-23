@@ -22,4 +22,4 @@ Beniamino Cesi (6 November 1845 – 19 January 1907), Neapolitan pianist, compos
 ## References in Diary
 - 1877-03-02 (069); 1877-04-18 (070.0694)
 
-%% 2026-10-21T10:24:00 RSR: Rewritten from the auto-generated stub during RSR research of the restored carnet 070 paragraphs (rsr-070b). Identification: both passages call him a celebrated Naples pianist/musician; confidence 0.9. %%
+%% 2026-10-21T10:24:00 RSR: Identification: both passages call him a celebrated Naples pianist/musician; confidence 0.9. %%

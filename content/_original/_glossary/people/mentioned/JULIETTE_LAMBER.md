@@ -14,6 +14,3 @@ replaced_by: MME_ADAM
 
 %% GLO_JULIETTE_LAMBER.0001 %%
 **Retired.** Merged into [#MME_ADAM](MME_ADAM.md) (`people/mentioned/MME_ADAM.md`); use that entry instead.
-
-%% GLO_JULIETTE_LAMBER.0002 %%
-%% 2026-10-21T22:55:35 RSR: Retired by glossary-merge; content and links moved to MME_ADAM. replaced_by: people/mentioned/MME_ADAM.md. %%

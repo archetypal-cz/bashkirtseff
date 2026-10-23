@@ -88,5 +88,3 @@ In 19th century Russia, wealthy bachelors like Romanoff were prized marriage pro
 - [#Akhtyrka](../../places/travel/AKHTYRKA.md) - Where the family gathered to entrap Romanoff
 - [#Kharkoff](../../places/cities/KHARKOFF.md) - Major city where the theatrical courtship unfolded
 - [#Yalta](../../places/cities/YALTA.md) - Crimean resort where Romanoff took the family
-
-%% 2025-12-07T18:30:00 RSR: Created based on Book 00 retrospective preface describing family marriage schemes %%

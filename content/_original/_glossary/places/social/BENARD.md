@@ -22,4 +22,4 @@ On 30 May 1874, a tiring day in Paris: «ayant déjeuné à la hâte chez Bénar
 
 - 1874-05-30 (020.0002), the only tagged paragraph.
 
-%% 2026-10-22T19:25:00 RSR: Body written. NOT A PERSON: a restaurant; belongs in places. The Mon Journal t.16 index also has «Benardaki (M.)/(Mme), 162», a different name (the Russian family Benardaki), not confused with it. %%
+%% 2026-10-22T19:25:00 RSR: NOT A PERSON: a restaurant; belongs in places. The Mon Journal t.16 index also has «Benardaki (M.)/(Mme), 162», a different name (the Russian family Benardaki), not confused with it. %%

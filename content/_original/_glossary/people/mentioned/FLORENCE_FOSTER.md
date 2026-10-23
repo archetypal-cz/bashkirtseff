@@ -16,5 +16,4 @@ replaced_by: FLORENCE_LACON
 **Retired.** Duplicate entry for the same referent. Use [#FLORENCE_LACON](FLORENCE_LACON.md) (`people/mentioned/FLORENCE_LACON.md`) for Florence herself; [#FOSTER](FOSTER.md) is her family. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
 %% GLO_FLORENCE_FOSTER.0002 %%
-%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/FOSTER.md. %%
 %% 2026-10-22T15:10:00 RSR: replaced_by corrected FOSTER → FLORENCE_LACON (B-65 (3): FLORENCE_LACON is Florence herself, FOSTER the family). %%

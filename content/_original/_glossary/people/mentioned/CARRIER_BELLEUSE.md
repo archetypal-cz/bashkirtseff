@@ -26,4 +26,4 @@ Marie's «Carrier-Belleuse» is «le fils du statuaire», the painter **Pierre C
 
 - First mentioned: 1881-11-21 (093.0385). 15 tagged paragraphs, carnets 093–095.
 
-%% 2026-10-22T20:35:00 RSR: Body written. CORRECTION LIST: reader footnote 095.0317.1 names Albert-Ernest Carrier-Belleuse (1824–1887, the sculptor), but the man in the paragraph is the son (all other paragraphs say «le fils du statuaire»); the footnote should name Pierre (or at least the son). The first sentence of the footnote at 093.0385.1 («probably Pierre Carrier-Belleuse») agrees with this entry. %%
+%% 2026-10-22T20:35:00 RSR: CORRECTION LIST: reader footnote 095.0317.1 names Albert-Ernest Carrier-Belleuse (1824–1887, the sculptor), but the man in the paragraph is the son (all other paragraphs say «le fils du statuaire»); the footnote should name Pierre (or at least the son). The first sentence of the footnote at 093.0385.1 («probably Pierre Carrier-Belleuse») agrees with this entry. %%

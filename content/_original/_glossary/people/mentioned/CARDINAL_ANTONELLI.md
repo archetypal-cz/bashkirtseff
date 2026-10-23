@@ -22,5 +22,3 @@ He is the uncle of Pietro Antonelli (see [#Antonelli](ANTONELLI.md)) and, in Mar
 
 ## References in Diary
 Tagged in carnets 009 and 051–085; key passages: 059.0601 (the family), 063.0350–063.0428 (the séance), 066.0093 (1876-09-07: «il vivra deux ans et six mois. Il sera pape»), 067.1026 (his death).
-
-%% 2026-10-21T09:11:04 RSR: Stub replaced during RSR research of the restored carnet 063 paragraphs (auto-generated stub of 2026-01-06, no content lost). %%

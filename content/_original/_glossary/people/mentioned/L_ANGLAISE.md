@@ -17,4 +17,4 @@ An Englishwoman at the spa of Soden in August 1878 who walks with the young men 
 ## Identity uncertain
 We are not sure who this woman is. Marie never names her; she guesses she is «une cocotte». The three paragraphs above (082.0013, 082.0076, 082.0084) are all we have, and her identity depends in part on that of «les Gans», which is itself an open question (glossary-owner-questions B-48(1)). Sources checked: carnet 082, 9-13 August 1878. If you can identify her, we would be glad to hear from you.
 
-%% 2026-10-22T13:10:00 RSR: Body written (glossary-owner-questions: ANGLAIS / FRANCAIS / L_ANGLAISE). Unlike the generic ANGLAIS and FRANCAIS stubs, this file holds one particular woman across a three-paragraph episode; keep it for hand tags. %%
+%% 2026-10-22T13:10:00 RSR: Unlike the generic ANGLAIS and FRANCAIS stubs, this file holds one particular woman across a three-paragraph episode; keep it for hand tags. %%

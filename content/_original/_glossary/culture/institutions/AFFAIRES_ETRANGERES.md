@@ -26,5 +26,3 @@ The French Ministry of Foreign Affairs, quai d'Orsay, Paris: its official recept
 - 1881-03-23 (091.0342)
 - 1881-11-15 (093.0368)
 - 1883-04-21 (099.0171)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

@@ -14,6 +14,3 @@ replaced_by: DA_COSTA_MOTTA
 
 %% GLO_DA_COSTA.0001 %%
 **Retired.** Merged into [#DA_COSTA_MOTTA](DA_COSTA_MOTTA.md) (`people/mentioned/DA_COSTA_MOTTA.md`); use that entry instead.
-
-%% GLO_DA_COSTA.0002 %%
-%% 2026-10-21T22:54:45 RSR: Retired by glossary-merge; content and links moved to DA_COSTA_MOTTA. replaced_by: people/mentioned/DA_COSTA_MOTTA.md. %%

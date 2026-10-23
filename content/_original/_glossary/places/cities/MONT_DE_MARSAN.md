@@ -20,5 +20,3 @@ Mont-de-Marsan, préfecture of the Landes, south-western France, from where Mult
 - 1878-07-24 (081.0532, 081.0533)
 - 1878-08-07 (081.0648)
 - 1878-08-20 (082.0161)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

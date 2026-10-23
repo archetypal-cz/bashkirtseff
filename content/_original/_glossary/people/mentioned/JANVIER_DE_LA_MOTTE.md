@@ -12,9 +12,7 @@ last_updated: 2026-03-06
 ---
 # Janvier de la Motte
 
-**Research Status**: Stub
 **Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 2 mentions
 **Type**: Person/Place
 
 ## Overview
@@ -31,16 +29,3 @@ The tag covers a father and son, both deputies, introduced to Marie as friends o
 - No tag split by person yet: the 067 tags point here for both men.
 
 %% 2026-10-21T13:48:33 RSR: Overview written during the no-LAN entries RSR round (067/1876-11-26). %%
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
-
-%% 2026-10-21T21:18:09 RSR: Merged M_JANVIER_DE_LA_MOTTE (no content kept: empty stub) %%

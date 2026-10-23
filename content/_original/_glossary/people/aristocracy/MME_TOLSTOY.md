@@ -27,5 +27,3 @@ A Russian lady in Nice with whom the Bashkirtseff household had a bitter feud in
 
 - First mentioned: 1873-04-24 (004.0155)
 - Key entries: 1873-05-17, 1873-06-21, 1879-02-27, 1879-03-01
-
-%% 2026-10-21T12:06:04 RSR: Rewritten from the auto-generated stub during RSR research of the restored paragraphs of carnet 084 (grep of «Tolstoy» in 004–006 and 084). %%

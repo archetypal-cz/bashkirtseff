@@ -41,7 +41,6 @@ Member of the Howard family, sister of Hélène.
 
 ---
 
-%% 2026-02-04T06:46:47.885Z RSR: Merged content from LISEN %%
 
 # Lisen
 
@@ -56,8 +55,5 @@ Member of the Howard family, sister of Hélène.
 [Multiple references found - needs research]
 
 ## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
 
 %% 2026-10-22T14:40:00 RSR: Not the «Lise» of Nice, May-June 1877 (071-072): that is the girl Lise Kondareff (t.10 index «Kondareff (Mlle Lise)»), tagged KONDAREFF (OPEN-ITEMS B-40(3)). %%

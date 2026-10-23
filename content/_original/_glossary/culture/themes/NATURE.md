@@ -55,4 +55,4 @@ This thematic tag collects diary paragraphs where Marie looks at nature for itse
 - `005.0076` — the colour of the land as Nice nears; "que la Suisse est belle"
 - `033.0117` — a moonlit view through the trees, "que c'est donc beau"
 
-%% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%
+%% 2026-10-02T18:00:00 RSR: Applied per paragraph by AI judgement, not keyword match. %%

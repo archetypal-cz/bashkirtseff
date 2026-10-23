@@ -61,5 +61,4 @@ These passages reveal Marie's fundamental paradox: the diary is simultaneously h
 - **Nouns**: les lecteurs, la postérité, l'éditeur
 - **False friends**: ordinary "vous" when talking to a person; "on" as a general pronoun
 
-%% 2026-02-11T12:00:00 RSR: Created thematic tag. Fourth-wall breaks are a defining feature of Marie's diary, distinguishing it from conventional 19th-century journals. %%
-%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%
+%% 2026-02-11T12:00:00 RSR: Fourth-wall breaks are a defining feature of Marie's diary, distinguishing it from conventional 19th-century journals. %%

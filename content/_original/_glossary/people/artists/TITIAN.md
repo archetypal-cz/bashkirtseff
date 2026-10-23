@@ -43,4 +43,4 @@ In the galleries of Florence and Rome in 1875–76 Titian is the painter she nam
 - Wikipedia, "Sacred and Profane Love" (the Borghese picture, c. 1514).
 
 %% GLO_TITIAN.0001 %%
-%% 2026-10-21T12:26:14 RSR: Created during the restored-paragraph research of carnet 061 (1876a batch). Only the 061 paragraphs are tagged so far; the 043, 053 and 093 mentions listed above are not yet tagged (outside this batch). %%
+%% 2026-10-21T12:26:14 RSR: Only the 061 paragraphs are tagged so far; the 043, 053 and 093 mentions listed above are not yet tagged (outside this batch). %%

@@ -29,6 +29,4 @@ The Gavinis' chanoinesse of 1878 is taken to be the same woman (0.8): in 084.003
 
 Her first name and family branch are not known to us. The duplicate stub [FAUDOAS](MLLE_DE_FODOAS.md) (085.0529) is the same woman.
 
-%% 2026-10-22T13:57:21 RSR: B-41 (6): body written; tagged 081.0133 and 083.0245 (0.8). Merge FAUDOAS into this entry (or rename both to a MLLE_DE_FAUDOAS file) is listed for the lead. %%
-
-%% 2026-10-22T15:07:32 RSR: Merged FAUDOAS (no content kept: empty stub) %%
+%% 2026-10-22T13:57:21 RSR: Tagged 081.0133 and 083.0245 (0.8). Merge FAUDOAS into this entry (or rename both to a MLLE_DE_FAUDOAS file) is listed for the lead. %%

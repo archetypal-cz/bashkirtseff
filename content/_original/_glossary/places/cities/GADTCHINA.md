@@ -37,5 +37,3 @@ Gatchina (French: Gatchina, Marie's spelling: Gadtchina) is a town about 45 km s
 - [#Petersburg](./PETERSBURG.md) - The capital
 - [#Tzarskoie_Selo](./TZARSKOIE_SELO.md) - Another imperial residence
 - [#Winter_Palace](../buildings/WINTER_PALACE.md) - The official St. Petersburg residence
-
-%% 2026-02-10T16:55:00 RSR: Expanded from one-line stub %%

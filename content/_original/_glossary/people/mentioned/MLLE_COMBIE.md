@@ -11,7 +11,6 @@ last_updated: 2026-05-31
 ---
 # Mlle Combie
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (May 1873)
 
@@ -27,4 +26,4 @@ A young woman known to the Bashkirtseff family, encountered at Nice station on M
 
 Only one mention. Identity unknown. "Combie" is a rare surname; French or possibly Scottish origin.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Brief mention — an acquaintance traveling from Nice, May 1873. %%
+%% 2026-05-31T12:00:00 RSR: Brief mention — an acquaintance traveling from Nice, May 1873. %%

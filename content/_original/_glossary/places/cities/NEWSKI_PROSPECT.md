@@ -39,5 +39,3 @@ The Nevsky Prospect (Prospekt) is the main avenue of St. Petersburg, stretching 
 - [#Petersburg](./PETERSBURG.md) - The city
 - [#Kazan_Cathedral](../churches/KAZAN_CATHEDRAL.md) - Located on the Nevsky Prospect
 - [#Lavra](../churches/LAVRA.md) - At the eastern end of the Prospect
-
-%% 2026-02-10T16:50:00 RSR: Expanded from one-line stub %%

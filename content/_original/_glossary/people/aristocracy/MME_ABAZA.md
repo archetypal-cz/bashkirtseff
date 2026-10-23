@@ -28,9 +28,6 @@ Marie meets her at Soden in July 1878: «Madame Abaza petite femme brune, élég
 [Multiple references found - needs research]
 
 ## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
 
 %% 2026-10-21T09:50:00 RSR: Poltava 1876 section added from the restored paragraphs 067.0618-0626 (rsr-067b). Possible two referents (Poltava 1876 / Soden-Riviera 1878-79): see OPEN-ITEMS. %%
-%% 2026-10-22T13:55:00 RSR: OPEN-ITEMS B-33(2): the Poltava Mme Abaza (née Dietrich, 067) split off to MME_ABAZA_POLTAVA; 067.0618, 0619, 0623 retagged. This file is the Soden/Riviera woman of 1878-79. The 097 (Poltava 1882) tag still points here and should move to MME_ABAZA_POLTAVA (0.7). %%
+%% 2026-10-22T13:55:00 RSR: The Poltava Mme Abaza (née Dietrich, 067) split off to MME_ABAZA_POLTAVA; 067.0618, 0619, 0623 retagged. This file is the Soden/Riviera woman of 1878-79. The 097 (Poltava 1882) tag still points here and should move to MME_ABAZA_POLTAVA (0.7). %%

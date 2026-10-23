@@ -32,4 +32,4 @@ In the diary «l'Apollo» is the Teatro Apollo, Rome's largest opera house in th
 - [Teatro Valle](TEATRO_VALLE.md), Rome's other theatre in the diary
 - [Veglione](../../culture/social_customs/VEGLIONE.md)
 
-%% 2026-10-21T09:41:16 RSR: Written from the empty stub during RSR of the restored carnet 059 paragraphs. The file is misfiled under people/mentioned (it is a theatre; places/theaters is the right home) and its one 1874 tag (020.0386, Hamilton's «légère majesté d'un dieu») points at the god Apollo, not the theatre; both reported in OPEN-ITEMS for a glossary-move by the lead. %%
+%% 2026-10-21T09:41:16 RSR: The file is misfiled under people/mentioned (it is a theatre; places/theaters is the right home) and its one 1874 tag (020.0386, Hamilton's «légère majesté d'un dieu») points at the god Apollo, not the theatre; both reported in OPEN-ITEMS for a glossary-move by the lead. %%

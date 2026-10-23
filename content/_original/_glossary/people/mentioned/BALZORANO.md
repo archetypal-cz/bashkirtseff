@@ -34,6 +34,4 @@ Count Francesco («Franz», once «François») de Balzorano, a rich young Neapo
 
 062.0814; 069.0113-0114, 069.0286-0287, 069.0496, 069.0524, 069.0536-0543; 070.0127; 071.0113; 075.0023-0024, 075.0094; 079.0511. Probably the same man (or a relative) is the «Conte F. Lefebvre di Balsorano» among the judges of the course in the printed Naples race programme of 14 April 1877 (070.0613).
 
-%% 2026-10-21T22:46:00 RSR: Body written (OPEN-ITEMS B-59 (3)); the empty auto-stub is replaced (aliases extended with the three merged stubs' forms). All cited paragraphs opened. 070.0613 is a printed race programme, so that identification is hedged and the paragraph is reported for tagging, not tagged. %%
-
-%% 2026-10-21T22:51:26 RSR: Merged BALSORANO (no content kept: empty stub) %%
+%% 2026-10-21T22:46:00 RSR: The empty auto-stub is replaced (aliases extended with the three merged stubs' forms). All cited paragraphs opened. 070.0613 is a printed race programme, so that identification is hedged and the paragraph is reported for tagging, not tagged. %%

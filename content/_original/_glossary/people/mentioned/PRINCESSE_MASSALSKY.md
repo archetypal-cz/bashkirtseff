@@ -26,5 +26,3 @@ The wife of the Russian consul in Paris in 1883: "la princesse Massalsky, femme 
 
 ## Related
 - [Mme Mackay](MME_MACKAY.md)
-
-%% 2026-10-21T14:45:00 RSR: Created in the no-LAN entries pass (100/1883-06-09); six mentions, 099-106. %%

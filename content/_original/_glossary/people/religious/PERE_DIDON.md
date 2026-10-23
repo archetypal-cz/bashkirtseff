@@ -31,4 +31,4 @@ Henri Didon (1840–1900), French Dominican preacher. His 1879 series of confere
 - Wikipedia EN, «Henri Didon».
 - Mon Journal t.13 (L'Âge d'Homme), index.
 
-%% 2026-10-21T11:03:22 RSR: Created during RSR research of the restored 086 paragraphs (rsr-086). The t.13 index pages 132-133 are 086/1879-12-09 and 12-10; p.206 (087) not checked. %%
+%% 2026-10-21T11:03:22 RSR: The t.13 index pages 132-133 are 086/1879-12-09 and 12-10; p.206 (087) not checked. %%

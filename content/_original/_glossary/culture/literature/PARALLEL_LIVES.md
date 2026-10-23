@@ -67,6 +67,3 @@ Plutarch is also the author of the *Moralia*, an essay collection; Marie's long 
 - Wikipedia, "Parallel Lives".
 - fr.wikisource, *Les Vies des hommes illustres* (trad. Ricard) and *Vies parallèles* (list of translations).
 - Diary paragraphs as cited above.
-
-%% GLO_PARALLEL_LIVES.0011 %%
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

@@ -18,4 +18,4 @@ The suburb south-west of Paris where the painter Amanda Sidval lives. On 12 Augu
 
 - 1881-08-12 (092.0397, Paris): the only mention.
 
-%% 2026-10-22T21:35:45 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph. %%
+%% 2026-10-22T21:35:45 RSR: One paragraph. %%

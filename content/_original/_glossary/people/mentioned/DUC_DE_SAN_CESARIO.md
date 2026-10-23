@@ -21,9 +21,5 @@ Marie twice calls the son by his father's title, «San Cesario, c'est-à-dire Ca
 - 1877-03-20 (069.0457); 03-25 (069.0521, 069.0527, 069.0530); 1877-04-24 (070.0920); 1877-05-31 (071.0518, 071.0520); 06-10 (071.0622)
 
 ## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
 
-%% 2026-10-21T22:54:20 RSR: Merged SAN_CESARIO (no content kept: empty stub) %%
-%% 2026-10-22T15:25:00 RSR: Body written (OPEN-ITEMS B-56(4), B-75(2)): the duke (father) and the marquis di Campomarino (son) are two men; «San Cesario, c'est-à-dire Campomarino» names the son by the father's title; after the father's death (May 1877) the son is the new duke. No merge with CAMPOMARINO. %%
+%% 2026-10-22T15:25:00 RSR: The duke (father) and the marquis di Campomarino (son) are two men; «San Cesario, c'est-à-dire Campomarino» names the son by the father's title; after the father's death (May 1877) the son is the new duke. No merge with CAMPOMARINO. %%

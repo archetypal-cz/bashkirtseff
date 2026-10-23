@@ -14,6 +14,3 @@ replaced_by: LES_SAINTES_FEMMES
 
 %% GLO_SAINTE_FEMMES.0001 %%
 **Retired.** Merged into [#LES_SAINTES_FEMMES](../../culture/art/LES_SAINTES_FEMMES.md) (`culture/art/LES_SAINTES_FEMMES.md`); use that entry instead.
-
-%% GLO_SAINTE_FEMMES.0002 %%
-%% 2026-10-22T20:55:51 RSR: Retired by glossary-merge; content and links moved to LES_SAINTES_FEMMES. replaced_by: culture/art/LES_SAINTES_FEMMES.md. %%

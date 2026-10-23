@@ -37,4 +37,4 @@ British newspapers circulated widely in the international resort towns of the Ri
 %% GLO_MORNING_POST.0009 %%
 - Referenced in the context of Nice's British community and society news
 
-%% 2026-02-10T20:00:00 RSR: Enriched from stub. British society newspaper read by Riviera expatriates. %%
+%% 2026-02-10T20:00:00 RSR: British society newspaper read by Riviera expatriates. %%

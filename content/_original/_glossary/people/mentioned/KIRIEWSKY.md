@@ -20,4 +20,4 @@ A Russian acquaintance of Marie's in Paris, spring 1880. Introduced to her along
 - 1880-05-04: Among the Russians at dinner.
 - 1880-05-10: Visits, but Marie leaves to see Queen Isabella.
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-03.md and 1880-05-04.md. Kiriewsky: Russian social acquaintance in Paris 1880; no further identification available from diary context. %%
+%% 2026-05-31T12:00:00 RSR: Kiriewsky: Russian social acquaintance in Paris 1880; no further identification available from diary context. %%

@@ -28,4 +28,4 @@ We are not sure who they were, nor whether Mme Chilowsky is the mother or wife o
 
 - 1875-09-20 (043.0285); 1876-01-11 (052.0089).
 
-%% 2026-10-22T21:05:00 RSR: Body written; identity_uncertain set. The Galitzine of 052.0089 and the death date (December 1875) rest on «toutes deux mortes il y a un mois» only; not cross-checked. %%
+%% 2026-10-22T21:05:00 RSR: The Galitzine of 052.0089 and the death date (December 1875) rest on «toutes deux mortes il y a un mois» only; not cross-checked. %%

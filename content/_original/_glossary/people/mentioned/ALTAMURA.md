@@ -26,5 +26,3 @@ In Naples in April 1876 he is the family's tireless host: he places them by the 
 ## Related
 
 - [Baron de Saint-Joseph](BARON_DE_SAINT_JOSEPH.md), [Torlonia](TORLONIA.md)
-
-%% 2026-10-21T09:41:16 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 059 paragraphs; sources as cited. %%

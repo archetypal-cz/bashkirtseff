@@ -20,4 +20,4 @@ The Russian frontier station on the line from Austria. Volochysk faced Podvoloch
 
 - 1876-07-30 (064.0316, Berlin): the only mention.
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph; border-station role from Wikipedia 'Volochysk' (web search 2026-10-22). %%
+%% 2026-10-22T21:39:42 RSR: One paragraph; border-station role from Wikipedia 'Volochysk' (web search 2026-10-22). %%

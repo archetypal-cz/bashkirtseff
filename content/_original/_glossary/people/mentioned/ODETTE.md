@@ -27,9 +27,7 @@ She belongs to the trio of Mme Gavini's friends, «Adeline, Odette et Valentine�
 
 %% 2026-10-22T16:00:00 RSR: 082.0551 (5 October 1878); 085.0251 (8 June 1879); 085.0583 (26 July 1879); 087.0436 (8 February 1880); 088.0113, 088.0209 (May 1880); 089.0010 (21 June 1880); 089.0470 (5 September 1880); 091.0408, 091.0453, 091.0522 (April 1881); 094.0437 (23 April 1882); 095.0027, 095.0048, 095.0132, 095.0144 (May–June 1882); 098.0259 (1 February 1883); 099.0149 (18 April 1883); 100.0140 (13 June 1883); 102.0507 (18 December 1883). %%
 
-%% 2026-10-22T22:12:36 RSR: Merged MME_RANDOUIN (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## Merged entry MME_RANDOUIN
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 The paragraphs that call her «Mme Randouin» are tagged here: in Nice under the Empire «régnèrent les Randouin» (075.0465); on 5 October 1878 at the Exposition, «Mme Randouin, qui était sous-préfète du temps où les Gavini faisaient si grandement les honneurs» introduces herself, «peut avoir trente-cinq ans tout au plus» and is «tout à fait belle» (082.0548–082.0552); and her presence in the Gavini circle from 1879 to 1883 (084.0068, 095.0044, 095.0075, 095.0139, 098.0210, 098.0242, 098.0351, 099.0123, 099.0200). Her mother is Mme Jide (095.0044, 103.0116). «Odette (Randouin !)» (091.0408) and «Adeline, Odette et Valentine» for «Mmes Gavini, Randouin et Pernety» (085.0583) settle the identity.

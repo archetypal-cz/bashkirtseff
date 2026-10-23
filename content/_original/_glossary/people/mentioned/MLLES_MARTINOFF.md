@@ -27,4 +27,4 @@ Nothing links them to the Poltava prefect Martinoff ([MARTINOFF](MARTINOFF.md)) 
 
 093/1881-09-17 (093.0086); 093/1881-09-19 (093.0096); 099/1883-05-23 (099.0556); 100/1883-06-06 (100.0074, 0075, 0077); 100/1883-08-05 (100.0493).
 
-%% 2026-10-21T22:36:00 RSR: New entry created in the split of MARTINOFF (OPEN-ITEMS B-39(4)): seven paragraphs, all opened; quotes above. Identification with a Naples family is Marie's own «(de Naples, vous vous rappelez)» (093.0086); no more precise identity available. %%
+%% 2026-10-21T22:36:00 RSR: Seven paragraphs, all opened; quotes above. Identification with a Naples family is Marie's own «(de Naples, vous vous rappelez)» (093.0086); no more precise identity available. %%

@@ -22,5 +22,4 @@ Opéra comique by Giacomo Meyerbeer, libretto by Jules Barbier and Michel Carré
 - 1875-02-28 (030.0104): "Dinorah" at the Nice Opéra
 - 1875-03-09 (030.0157): "Dinorah" again at the Nice Opéra
 
-%% 2026-10-21T12:30:00 RSR: Entry created from the restored paragraphs of 030; only 030.0157 is tagged so far. %%
 %% 2026-10-21T17:11:39 RSR: The 024/1874-09-17 tag (all trees) now points here; the duplicate people/mentioned/LE_PARDON_DE_PLOERMEL.md stub (empty, type Person) was removed. 030.0104 is still untagged. %%

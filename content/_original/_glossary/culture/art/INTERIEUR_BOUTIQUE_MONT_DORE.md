@@ -70,4 +70,4 @@ By 17 August she was painting at the carpenter's every day, her open-air picture
 - Katherine Kernberger (trans.), *I Am the Most Interesting Book of All* (Fonthill Press, 2013), illustrated EPUB, image 162: "Workshop Interior in Mont-Dore, Marie Bashkirtseff, 1880, location unknown"
 
 %% GLO_INTERIEUR_BOUTIQUE_MONT_DORE.0015 %%
-%% 2026-10-02T17:30:00 RSR: Created in the works-reproductions pass. The 1901 plate was found by a sweep of illustrated editions and checked against 089.0356 figure by figure. The plate is a process block of medium quality; whether it reproduces the painting or a drawing after it is not stated in the book. The "toile de 15" = 65 × 54 cm figure-size equivalence is the standard French canvas format, given as consistency, not proof. %%
+%% 2026-10-02T17:30:00 RSR: The 1901 plate was found by a sweep of illustrated editions and checked against 089.0356 figure by figure. The plate is a process block of medium quality; whether it reproduces the painting or a drawing after it is not stated in the book. The "toile de 15" = 65 × 54 cm figure-size equivalence is the standard French canvas format, given as consistency, not proof. %%

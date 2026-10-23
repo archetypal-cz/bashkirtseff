@@ -45,7 +45,6 @@ Part of the "Three Graces" society formed by the young ladies:
 
 Represents the type of adventurous young Russian women in Nice's expatriate society. Her willingness to participate in Marie's schemes shows the close bonds formed within this community.
 
-%% 2026-10-21T21:25:04 RSR: Merged content from M_SAPOGENIKOFF %%
 
 ## Basic Information
 
@@ -65,11 +64,9 @@ Mary, along with her sister Olga, was one of Marie's closest friends in Nice. To
 - [#OLGA](OLGA.md) - Her sister Olga
 - [#Three_Graces](../../culture/social_customs/THREE_GRACES.md) - Their secret society
 
-%% 2026-02-11T13:25:00 RSR: Per Kernberger (2013), Mary Sapogenikoff was the daughter of Nina Sapogenikoff. The Sapogenikoffs were a Russian family, close friends of Marie's family in Nice. Enriched from stub. %%
+%% 2026-02-11T13:25:00 RSR: Per Kernberger (2013), Mary Sapogenikoff was the daughter of Nina Sapogenikoff. The Sapogenikoffs were a Russian family, close friends of Marie's family in Nice. %%
 
-%% 2026-10-22T22:08:36 RSR: Merged AGLAE (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## Aglaé
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 In the secret society A.T.E. (Aglaé–Thalie–Euphrosine) that Marie founded with the two sisters at Nice on Sunday 9 May 1875, Marie Sapogenikoff is «Aglaé»: «Moi - Thalie, Marie - Aglaé et Olga Euphrosine. Voyez-vous cela, les trois Grâces» (032.0518), and the society's regulations name «Mlles Marie Alexandrovna Sapogenikoff, Aglaé, et Olga Alexandrovna Sapogenikoff, Euphrosine» (059.0689). On 30 May 1875 Marie goes «à la musique avec ma tante, Aglaé et Euphrosine» (033.0358; the printed text has «Agiaé et Eupnrosine»). The Mon Journal t.5 index agrees («Aglaé : Sapogenikoff (Marie)»); the t.7 index («Aglaé: Sapogenikoff Olga») is contradicted by the text. See [#THREE_GRACES](../../culture/social_customs/THREE_GRACES.md).

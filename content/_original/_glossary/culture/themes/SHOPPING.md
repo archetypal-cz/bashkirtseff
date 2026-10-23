@@ -42,4 +42,4 @@ This thematic tag collects diary paragraphs where Marie or her family buy things
 - Shops with their own glossary entries live under places/shops (for example [Spillmann](../../places/shops/SPILLMANN.md)); tag the place entry as well when the shop is named.
 - Shopping often co-occurs with [Money](MONEY.md) when Marie records what things cost.
 
-%% 2026-09-28T10:40:00 RSR: Created thematic tag entry (theme-tags pilot, see .claude/reports/theme-tags-2026-09-28.md). Applied per paragraph by AI judgement. %%
+%% 2026-09-28T10:40:00 RSR: Applied per paragraph by AI judgement. %%

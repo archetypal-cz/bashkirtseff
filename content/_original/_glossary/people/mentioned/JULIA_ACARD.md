@@ -13,27 +13,11 @@ last_updated: 2026-10-03
 ---
 # Julia Acard
 
-**Research Status**: Stub
 **Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
 **Type**: Person/Place
 
 ## Overview
 
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
 
 ## Identification (2026-10-21)
 
@@ -44,9 +28,3 @@ Marie's names for her in carnet 083 (Oct 1878 – Jan 1879): «Mlle Acard» (083
 The gossip Marie records makes Julia's mother a former mistress of Cardinal Antonelli (081.0172, 081.0237, 082.0310), hence the jokes of 083.0154–0157.
 
 KEEP APART: [MLLE_ACARD](JULIA_ACARD.md), [ACARD](ACARD.md), [STEPHANO_ACARD](STEPHANO_ACARD.md) and [COMTESSE_ACARD](../aristocracy/COMTESSE_ACARD.md) are stubs; per the tag-audit rulings Julia's own tags go here, «les Acard» to ACARD.
-
-%% 2026-10-21T22:55:09 RSR: Merged MLLE_ACARD (no content kept: empty stub) %%
-
-%% 2026-10-21T22:55:22 RSR: Merged MME_DE_CASSAGNAC (no content kept: empty stub) %%
-
-%% 2026-10-22T20:53:27 RSR: Merged MAM_ZELLE_ACARD (no content kept: empty stub) %%

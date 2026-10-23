@@ -36,4 +36,4 @@ Rousseau's *Confessions* is the most important literary precedent for Marie's ow
 Marie, as a voracious reader educated in the French literary tradition, would have been deeply familiar with Rousseau's works.
 
 %% GLO_JEAN_JACQUES_ROUSSEAU.0008 %%
-%% 2026-02-10T11:30:00 RSR: Enriched from stub. Rousseau's Confessions is the most important literary precedent for Marie's diary, establishing the genre of radically honest autobiographical writing. %%
+%% 2026-02-10T11:30:00 RSR: Rousseau's Confessions is the most important literary precedent for Marie's diary, establishing the genre of radically honest autobiographical writing. %%

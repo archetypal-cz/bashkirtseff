@@ -43,4 +43,4 @@ Marie sometimes specifies:
 - The single most common transport term
 - Used both for literal travel and as setting for social encounters
 
-%% 2026-02-10T20:00:00 RSR: Created entry. General carriage term, ubiquitous in the diary. %%
+%% 2026-02-10T20:00:00 RSR: General carriage term, ubiquitous in the diary. %%

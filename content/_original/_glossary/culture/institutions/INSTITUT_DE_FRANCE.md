@@ -29,5 +29,3 @@ For an ambitious woman artist like Marie, the Institut embodied both the highest
 
 %% GLO_INSTITUT_DE_FRANCE.0007 %%
 - Referenced in discussions of the art establishment and official recognition
-
-%% 2026-02-10T20:00:00 RSR: Enriched from stub. %%

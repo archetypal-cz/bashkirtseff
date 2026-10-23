@@ -41,4 +41,4 @@ Her view of Raphael in general is in [Raphael](../../people/artists/RAPHAEL.md),
 - Wikipedia, "Madonna della Seggiola".
 - Diary: 043.0163, 084.0440, 100.0548.
 
-%% 2026-10-10T20:00:00 RSR: New work entry (batch 08). Inventory merged this with L'École d'Athènes (a different work, split to SCHOOL_OF_ATHENS). Supersedes nothing: people/artists/RAPHAEL.md is the author entry and stays. 100.0548: the object of "Ce n'est pas divin cela !" is not identified (an earlier Madonna being discussed). %%
+%% 2026-10-10T20:00:00 RSR: Inventory merged this with L'École d'Athènes (a different work, split to SCHOOL_OF_ATHENS). 100.0548: the object of "Ce n'est pas divin cela !" is not identified (an earlier Madonna being discussed). %%

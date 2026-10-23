@@ -26,6 +26,4 @@ From late 1874 to the spring of 1876 she is the chaperone and hostess of Marie's
 ## References in Diary
 Tagged in about 170 paragraphs, mostly 024–052 (Oct 1874–Jan 1876), then 056–065 (1876) and a few later carnets.
 
-%% 2026-10-22T14:20:25 RSR: Body rewritten (B-sweep 028–050): the old text («a companion… part of the household or a close family friend») did not know who Nina was. Sources: Mon Journal t.4–t.6 indexes; Kernberger 2013 glossary; the diary lines quoted. %%
-
-%% 2026-10-21T22:58:03 RSR: Merged MME_SAPOGENIKOFF (no content kept: empty stub) %%
+%% 2026-10-22T14:20:25 RSR: The old text («a companion… part of the household or a close family friend») did not know who Nina was. Sources: Mon Journal t.4–t.6 indexes; Kernberger 2013 glossary; the diary lines quoted. %%

@@ -25,5 +25,3 @@ In December 1876 she recalls the day («comme le jour où je suis allée chez Wa
 - 1876-12-11 (067): reason to go to Paris
 
 See also [#Mouzay](../mentioned/MOUZAY.md), [#Music_theme](../../culture/themes/MUSIC_THEME.md).
-
-%% 2026-10-21T09:11:04 RSR: Created during RSR research of the restored carnet 063 paragraphs (2026-09-29 rebuild). %%

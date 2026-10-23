@@ -16,5 +16,4 @@ replaced_by: MICHKA_ERISTOFF
 **Retired.** Duplicate entry for the same referent. Use [#Michka_Eristoff](MICHKA_ERISTOFF.md) (`people/mentioned/MICHKA_ERISTOFF.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
 %% GLO_MICHEL_ERISTOFF.0002 %%
-%% 2026-10-03T10:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/MICHEL.md. %%
 %% 2026-10-22T12:40:00 RSR: replaced_by updated MICHEL → MICHKA_ERISTOFF (MICHEL merged into MICHKA_ERISTOFF, 2026-10-22). %%

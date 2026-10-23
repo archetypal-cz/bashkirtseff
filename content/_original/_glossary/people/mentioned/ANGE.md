@@ -22,4 +22,4 @@ On 24 May 1875 Marie, Nina and the others slip out of the house in disguise and 
 
 - 1875-05-24 (033.0169, 033.0172).
 
-%% 2026-10-22T17:28:00 RSR: Body written from the 2 tagged paragraphs and the t.5 index. Whether he is the same Ange as the family's driver in carnet 030 was not checked. %%
+%% 2026-10-22T17:28:00 RSR: Whether he is the same Ange as the family's driver in carnet 030 was not checked. %%

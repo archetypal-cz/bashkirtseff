@@ -23,4 +23,4 @@ We are not sure who this is. The two paragraphs put «Webb» among the painters 
 
 - 1882-01-14 (094.0175, Paris); 1882-04-30 (095.0001, Paris).
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Two paragraphs + t.15 index 'Webb (M.) : 5'; probable merge into MISS_WEBB listed for the lead (confidence 0.6). %%
+%% 2026-10-22T21:33:17 RSR: Two paragraphs + t.15 index 'Webb (M.) : 5'; probable merge into MISS_WEBB listed for the lead (confidence 0.6). %%

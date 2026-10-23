@@ -22,10 +22,5 @@ The Kharkov hotel-keeper of 1876 has his own entry: [#Andrieux_kharkov](ANDRIEUX
 [Multiple references found - needs research]
 
 ## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
 
-%% 2026-10-21T09:52:00 RSR: Description added from the restored paragraph 067.0315 (rsr-067b); the 1879-81 references were not each re-read. %%
-
-%% 2026-10-21T21:26:05 RSR: Merged M_ANDRIEUX (no content kept: empty stub) %%
+%% 2026-10-21T09:52:00 RSR: The 1879-81 references were not each re-read. %%

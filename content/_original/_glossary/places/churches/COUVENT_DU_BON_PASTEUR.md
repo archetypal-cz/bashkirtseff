@@ -38,4 +38,4 @@ In the winter of 1875-76 Marie is in touch with the nuns: Sister Thérèse leave
 - 1876-07-04/05 (063.0009, 063.0010): farewell visit and the dream.
 
 %% GLO_COUVENT_DU_BON_PASTEUR.0007 %%
-%% 2026-10-21T22:45:00 RSR: Created (OPEN-ITEMS B-52(4)): all passages cited were read. Only the diary footnotes and the congregation's general history (Our Lady of Charity of the Good Shepherd, Angers; general knowledge, not re-checked against a source this session) support the description; the convent's address and the Mother Superior's name are not in the diary. 053.0004/053.0006 and 050.1252 use the name in jest and are tagged for findability only. %%
+%% 2026-10-21T22:45:00 RSR: All passages cited were read. Only the diary footnotes and the congregation's general history (Our Lady of Charity of the Good Shepherd, Angers; general knowledge, not re-checked against a source this session) support the description; the convent's address and the Mother Superior's name are not in the diary. 053.0004/053.0006 and 050.1252 use the name in jest and are tagged for findability only. %%

@@ -25,4 +25,4 @@ Henri-Michel-Antoine Chapu (1833–1891), French sculptor, Prix de Rome 1855, me
 - Wikipedia EN, «Henri Chapu».
 - Mon Journal t.13 and t.15 (L'Âge d'Homme), indexes.
 
-%% 2026-10-21T11:03:22 RSR: Created during RSR research of the restored 086 paragraphs (rsr-086). Both printed indexes misdescribe him (model; painter). %%
+%% 2026-10-21T11:03:22 RSR: Both printed indexes misdescribe him (model; painter). %%

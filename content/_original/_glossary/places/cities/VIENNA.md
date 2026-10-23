@@ -80,6 +80,3 @@ Vienna represented:
 - [#Paris](./PARIS.md) - The rival European cultural capital
 - [#Nice](./NICE.md) - Where Marie encountered Austrian aristocrats
 - [#Baden_Baden](../travel/BADEN_BADEN.md) - Another Central European spa destination
-
-%% 2025-07-06T00:00:00 RSR: Initial basic entry created %%
-%% 2026-02-10T12:15:00 RSR: Expanded to moderate with Ringstrasse era context, cultural significance, and aristocratic connections %%

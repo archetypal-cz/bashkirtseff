@@ -24,4 +24,4 @@ A diplomat of the Ottoman embassy in Paris, a musician and amateur sculptor, reg
 
 We are not sure who this is. «Effendi» is an Ottoman courtesy title and «Missak» an Armenian first name; his family name and post at the embassy were not found (web search 2026-10-22). If you can identify him, we would be glad to hear from you.
 
-%% 2026-10-22T14:33:47 RSR: B-67 (4): entry created; the ten paragraphs above tagged. %%
+%% 2026-10-22T14:33:47 RSR: The ten paragraphs above tagged. %%

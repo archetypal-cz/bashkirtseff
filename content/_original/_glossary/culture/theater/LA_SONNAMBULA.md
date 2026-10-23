@@ -37,4 +37,4 @@ full_text:
 - Wikipedia, ["La sonnambula"](https://en.wikipedia.org/wiki/La_sonnambula).
 - IMSLP, [La sonnambula (Bellini, Vincenzo)](https://imslp.org/wiki/La_sonnambula_(Bellini,_Vincenzo)).
 
-%% 2026-10-10T12:00:00 RSR: New work entry (batch 02). No existing glossary file; the author is BELLINI (culture/music). 001.0096's footnote 01.112.2 already describes the opera. %%
+%% 2026-10-10T12:00:00 RSR: No existing glossary file; the author is BELLINI (culture/music). 001.0096's footnote 01.112.2 already describes the opera. %%

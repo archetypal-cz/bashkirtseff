@@ -49,4 +49,4 @@ The author entry is [Paul Veronese](../../people/mentioned/PAUL_VERONESE.md).
 - Wikipedia, "Doge's Palace", section on the Chamber of the Great Council.
 - Diary: 028.0180, 039.0109.
 
-%% 2026-10-10T20:00:00 RSR: New work entry (batch 08). Supersedes nothing; author stub remains people/mentioned/PAUL_VERONESE.md. Alias deliberately omits bare "Paul Véronèse" so the tagger does not hit every Veronese mention. 043.0167 (Veronese's wife) split off as unidentified. %%
+%% 2026-10-10T20:00:00 RSR: Alias deliberately omits bare "Paul Véronèse" so the tagger does not hit every Veronese mention. 043.0167 (Veronese's wife) split off as unidentified. %%

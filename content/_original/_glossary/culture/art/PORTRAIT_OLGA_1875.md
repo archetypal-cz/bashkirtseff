@@ -56,4 +56,4 @@ On Sunday 20 September (043.0247): "j'ai fait le portrait d'Olga à la couleur, 
 - The diary: carnets 030, 031 and 043, French originals in `/content/_original/`; the 1885 catalogue lists no portrait of Olga
 
 %% GLO_PORTRAIT_OLGA_1875.0012 %%
-%% 2026-10-10T20:55:59 RSR: Created in the works-glossary wave (batch 10). The inventory credited joint authorship (Marie and Marie Sapogenikoff); 030.0403 supports joint beginning only. Reading Nina as Olga's mother is from the entry context (NINA), not asserted by the paragraph. The pas un trait remark (076.0447) contradicts the 1875 entries; recorded, not corrected. %%
+%% 2026-10-10T20:55:59 RSR: The inventory credited joint authorship (Marie and Marie Sapogenikoff); 030.0403 supports joint beginning only. Reading Nina as Olga's mother is from the entry context (NINA), not asserted by the paragraph. The pas un trait remark (076.0447) contradicts the 1875 entries; recorded, not corrected. %%

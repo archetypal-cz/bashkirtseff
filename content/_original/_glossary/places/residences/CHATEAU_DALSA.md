@@ -24,4 +24,4 @@ The country house near Spa of the art dealer Ernest Gambart (Wikipedia, «Ernest
 
 See [Gambart](../../people/mentioned/GAMBART.md), [Wheelwright](../../people/mentioned/WHEELWRIGHT.md).
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Three paragraphs read. %%
+%% 2026-10-22T21:39:42 RSR: Three paragraphs read. %%

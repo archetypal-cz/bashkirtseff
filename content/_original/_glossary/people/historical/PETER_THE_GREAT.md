@@ -28,5 +28,3 @@ Peter is a recurring figure in her Russian imagination, and the Poltava region o
 
 ## Sources
 Britannica, «Battle of Poltava» (https://www.britannica.com/event/Battle-of-Poltava); en.wikipedia «Mary Hamilton (lady-in-waiting)», «Gamontov (Russian nobility)».
-
-%% 2026-10-21T22:52:14 RSR: Merged PIERRE_THE_GREAT (no content kept: empty stub) %%

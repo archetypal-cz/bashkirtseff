@@ -34,7 +34,4 @@ The Var is a river and region near Nice. Horse racing was a central activity of 
 
 For Marie, the races represented an opportunity to see and be seen by high society, particularly the Duke of Hamilton. The presence of "énormément de monde très élégant" indicates this was a premier social gathering.
 
-%% 2025-12-07T15:30:00 RSR: Created entry based on February 5, 1873 diary entry. Need to research specific location of race course and identify other regular attendees. %%
-
-%% GLO_VAR_RACES.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/VAR_RACES.md (a place filed under people). Body copied unchanged. %%
+%% 2025-12-07T15:30:00 RSR: Need to research specific location of race course and identify other regular attendees. %%

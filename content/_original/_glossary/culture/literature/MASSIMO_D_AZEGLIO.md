@@ -39,4 +39,4 @@ D'Azeglio was a quintessential figure of the Risorgimento: nobleman, artist, wri
 %% GLO_MASSIMO_D_AZEGLIO.0010 %%
 - 1875-10-01 (carnet 045) — Sabatini reads *Niccolò de' Lapi* to Marie
 
-%% 2026-02-10T20:00:00 RSR: Enriched from stub. Italian nationalist novelist read aloud to Marie. %%
+%% 2026-02-10T20:00:00 RSR: Italian nationalist novelist read aloud to Marie. %%

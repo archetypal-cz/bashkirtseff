@@ -46,5 +46,3 @@ The Hotel de Paris offered:
 - [#Monaco](../cities/MONACO.md) - The principality
 - [#Nice](../cities/NICE.md) - Marie's base for Monaco visits
 - [#Monaco_Casino](./MONACO_CASINO.md) - The casino opposite the hotel
-
-%% 2026-02-10T13:45:00 RSR: Expanded from one-line stub with historical context %%

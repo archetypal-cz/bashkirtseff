@@ -38,5 +38,3 @@ Greece appears in Marie Bashkirtseff's diary through cultural references to clas
 ## Related Entries
 - [#Rome](../cities/ROME.md) - The other great classical civilization
 - [#Turkey](./TURKEY.md) - The Ottoman Empire from which Greece gained independence
-
-%% 2026-02-10T14:05:00 RSR: Expanded from one-line stub with classical and political context %%

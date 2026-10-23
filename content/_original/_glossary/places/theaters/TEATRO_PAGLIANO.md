@@ -23,4 +23,4 @@ Florentine theatre built for Girolamo Pagliano on the site of the old Stinche pr
 ## References in Diary
 - 1875-09-15 (043.0198, 043.0206), 1877-05-01 (071.0083)
 
-%% 2026-10-21T10:48:15 RSR: Created during RSR of the restored carnet 071 paragraphs (rsr-071). The 1875 mentions are not tagged yet. %%
+%% 2026-10-21T10:48:15 RSR: The 1875 mentions are not tagged yet. %%

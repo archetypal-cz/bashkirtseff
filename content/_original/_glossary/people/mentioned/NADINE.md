@@ -95,7 +95,4 @@ The story illustrates how gratitude and loyalty could be displaced by self-inter
 
 By including this story in her retrospective preface, Marie demonstrates her sharp eye for family hypocrisy and mercenary relationships. The tale of Nadine Martinoff serves as an example of how self-interest and greed operated within aristocratic families, with the young and vulnerable sometimes being as calculating as their predators.
 
-%% 2025-12-07T18:50:00 RSR: Created based on Book 00 retrospective preface. Nadine's story exemplifies youth, opportunism, and the complex morality of survival in aristocratic society %%
-
-%% GLO_NADINE.9100 %%
-%% 2026-10-03T10:00:00 RSR: Body merged from NADINE_MARTINOFF (richer duplicate). %%
+%% 2025-12-07T18:50:00 RSR: Nadine's story exemplifies youth, opportunism, and the complex morality of survival in aristocratic society %%

@@ -45,7 +45,6 @@ Ivan Aivazovsky (1817-1900), famous Russian-Armenian marine painter renowned for
 
 ---
 
-%% 2026-02-04T06:46:53.483Z RSR: Merged content from AIVAZOVSKY %%
 
 # Aivazovsky (Ivan Konstantinovich Aivazovsky)
 

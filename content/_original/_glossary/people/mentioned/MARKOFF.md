@@ -27,5 +27,3 @@ Russian count in Nice society.
 - Part of the Russian aristocratic community
 - Appropriate for Marie to stop and converse with
 - Represents the higher social connections the family maintains
-
-%% 2026-10-22T20:55:41 RSR: Merged COUNT_MARKOFF (no content kept: empty stub) %%

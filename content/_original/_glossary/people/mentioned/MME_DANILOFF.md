@@ -14,6 +14,3 @@ replaced_by: DANILOFF
 
 %% GLO_MME_DANILOFF.0001 %%
 **Retired.** Merged into [#DANILOFF](DANILOFF.md) (`people/mentioned/DANILOFF.md`); use that entry instead.
-
-%% GLO_MME_DANILOFF.0002 %%
-%% 2026-10-22T22:12:14 RSR: Retired by glossary-merge; content and links moved to DANILOFF. replaced_by: people/mentioned/DANILOFF.md. %%

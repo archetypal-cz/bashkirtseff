@@ -75,8 +75,3 @@ Marie traveled to or through London during her European journeys, though Paris r
 - [#Paris](./PARIS.md) - Marie's primary artistic and social base
 - [#Nice](./NICE.md) - Where Marie encountered British society
 - [#London_House](./LONDON_HOUSE.md) - The English-style cafe in Nice
-
-%% 2026-01-06T00:00:00 RSR: Auto-generated stub from broken link detection %%
-%% 2026-02-10T11:45:00 RSR: Expanded from stub with Victorian London context, social significance, and Marie's British connections %%
-
-%% 2026-10-22T20:58:32 RSR: Merged LONDON_1870S (no content kept: empty stub) %%

@@ -31,6 +31,4 @@ Marie sees her at the Théâtre-Français on 18 June 1874 in a double bill, «Le
 - 1878-03-25 (079.0083): «Une femme qui ressemble un peu à Croizette.» The paragraph was tagged with places/streets/CROIZETTE, an empty auto-stub; the reading as the actress is probable, not certain (the paragraph gives no first name).
 
 %% GLO_SOPHIE_CROIZETTE.0007 %%
-%% 2026-10-21T22:30:00 RSR: Created (OPEN-ITEMS B-64(3)): two mentions (020.0360, 079.0083) read. Biographical sketch from web search summaries (Wikipedia-type sources); the role she played in *Le Sphinx* (Blanche vs Berthe de Savigny) is given differently by different sources and is deliberately not stated here; see LE_SPHINX for the play. %%
-
-%% 2026-10-22T20:58:22 RSR: Merged CROIZETTE (no content kept: empty stub) %%
+%% 2026-10-21T22:30:00 RSR: Two mentions (020.0360, 079.0083) read. Biographical sketch from web search summaries (Wikipedia-type sources); the role she played in *Le Sphinx* (Blanche vs Berthe de Savigny) is given differently by different sources and is deliberately not stated here; see LE_SPHINX for the play. %%

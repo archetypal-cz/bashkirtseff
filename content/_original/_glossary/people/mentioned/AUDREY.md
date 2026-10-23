@@ -27,4 +27,4 @@ We are not sure who Audrey was. Only the surname appears, and the three mentions
 
 - 1881-08-18 (092.0429).
 
-%% 2026-10-22T18:20:00 RSR: Body written; identity_uncertain set. «Breslau» is Louise Breslau (entry LOUISE_BRESLAU exists; not checked which BRESLAU entry the tag uses). %%
+%% 2026-10-22T18:20:00 RSR: «Breslau» is Louise Breslau (entry LOUISE_BRESLAU exists; not checked which BRESLAU entry the tag uses). %%

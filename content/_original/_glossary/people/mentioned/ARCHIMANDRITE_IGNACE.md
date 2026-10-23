@@ -24,4 +24,4 @@ We are not sure who this is. The monastery could be the St Sergius Hermitage (Se
 
 - 1883-09-18 (101.0386).
 
-%% 2026-10-22T18:10:00 RSR: Body written; identity_uncertain set. Related place entry SAINT_SERGE is a church in Paris/Nice and does not cover this monastery. %%
+%% 2026-10-22T18:10:00 RSR: Related place entry SAINT_SERGE is a church in Paris/Nice and does not cover this monastery. %%

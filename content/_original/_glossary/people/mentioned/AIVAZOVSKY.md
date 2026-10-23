@@ -23,4 +23,4 @@ Ivan Konstantinovich Aivazovsky (born Hovhannes Aivazian, Feodosia 1817 – 1900
 
 - First mentioned: 1874-03-01 (017.0090); also 1882-11-08 (097.0054).
 
-%% 2026-10-22T16:40:00 RSR: Body written from the 2 tagged paragraphs and Wikipedia. The earlier RSR claim that he exhibited in Nice in 1872 and painted about 6,000 pictures is not repeated: not checked against a source. %%
+%% 2026-10-22T16:40:00 RSR: The earlier RSR claim that he exhibited in Nice in 1872 and painted about 6,000 pictures is not repeated: not checked against a source. %%

@@ -93,5 +93,3 @@ Marie owned it in more than one form: a "tout petit Dante" travelled with her in
 
 %% GLO_LA_DIVINE_COMEDIE.0016 %%
 %% 2026-10-10T23:00:00 RSR: The diary footnote at 071.0616 (fn 36) cites Inferno V 'll. 35-36'; the lines are 50-51 (checked against it.wikisource, Divina Commedia/Inferno/Canto V). The footnote at 073.0155 correctly gives II.52. %%
-
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

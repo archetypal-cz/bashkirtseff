@@ -24,5 +24,3 @@ Italian nobles of the Somaglia name whom Marie meets on her travels: the Mon Jou
 
 ## Sources
 Diary as quoted; Mon Journal t.4, t.5 and t.9 indexes.
-
-%% 2026-10-22T20:50:29 RSR: Merged COMTESSE_SOMAGLIA (no content kept: empty stub) %%

@@ -39,7 +39,3 @@ Algiers (French: Alger), the capital of French Algeria, was a Mediterranean port
 - [#Algeria](../countries/ALGERIA.md) - The country
 - [#Nice](./NICE.md) - Another Mediterranean city
 - [#Algiers](ALGIERS.md) - Possible duplicate entry (French name)
-
-%% 2026-02-10T16:00:00 RSR: Expanded from one-line stub %%
-
-%% 2026-10-21T22:50:14 RSR: Merged ALGER (no content kept: empty stub) %%

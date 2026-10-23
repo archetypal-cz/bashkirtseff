@@ -43,4 +43,4 @@ Marie never meets him. He matters to her as the prince who turns "Kechko", a gir
 - Wikipedia, ["Milan I of Serbia"](https://en.wikipedia.org/wiki/Milan_I_of_Serbia).
 - Wikipedia, ["Natalie of Serbia"](https://en.wikipedia.org/wiki/Natalie_of_Serbia).
 
-%% 2026-10-21T08:54:18 RSR: New entry (restored paragraphs of carnet 041). Corpus mentions grepped: 040.0143, 041.0144, 048.0051, 098.0505. %%
+%% 2026-10-21T08:54:18 RSR: Corpus mentions grepped: 040.0143, 041.0144, 048.0051, 098.0505. %%

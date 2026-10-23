@@ -31,4 +31,4 @@ At the Salon of 1882 [Louise Breslau](../../people/artists/LOUISE_BRESLAU.md) sh
 - *Explication des ouvrages de peinture... Salon de 1882* (Internet Archive, text layer; entry under "Breslau"): https://archive.org/details/explicationdesou1882soci
 - Diary: 094.0087, 094.0448, 095.0061.
 
-%% 2026-10-10T20:00:00 RSR: New work entry (batch 08). Title and Mont-Saint-Michel subject from the 1882 livret; the catalogue number is inferred from the sequence (Brest follows at no. 380) because the OCR is garbled. "n° 2" in 094.0448 is Marie's own phrase, meaning not established here. %%
+%% 2026-10-10T20:00:00 RSR: Title and Mont-Saint-Michel subject from the 1882 livret; the catalogue number is inferred from the sequence (Brest follows at no. 380) because the OCR is garbled. "n° 2" in 094.0448 is Marie's own phrase, meaning not established here. %%

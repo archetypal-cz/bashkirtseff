@@ -29,5 +29,3 @@ Very probably Baron Karl Petrovich Ikskul von Hildenbandt (1817–1894), diploma
 - [Лутковский (znanierussia.ru, Большая российская энциклопедия online)](https://znanierussia.ru/articles/%D0%9B%D1%83%D1%82%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9): Varvara Ivanovna Lutkovskaya (1850–1928), «в первом браке Глинка-Маврина», better known as Ikskul von Hildenbandt, daughter of General Ivan Sergeyevich Lutkovsky.
 - M. G. Salman, «"Не делать не в ее характере": новые материалы к биографии В. И. Икскуль фон Гилленбанд», *Slavica Revalensia* (Tallinn University): her first marriage (1868) to the diplomat Nikolai Dmitrievich Glinka-Mavrin (1838–1884).
 - [Икскуль-Гильденбандты (ruwiki)](https://ru.ruwiki.ru/wiki/%D0%98%D0%BA%D1%81%D0%BA%D1%83%D0%BB%D1%8C-%D0%93%D0%B8%D0%BB%D1%8C%D0%B4%D0%B5%D0%BD%D0%B1%D0%B0%D0%BD%D0%B4%D1%82%D1%8B): Karl Petrovich Ikskul von Hildenbandt (1817–1894), diplomat, wife Varvara Ivanovna.
-
-%% 2026-10-22T14:55:00 RSR: Created with BARONNE_YXKULL (OPEN-ITEMS B-51 (6)). %%

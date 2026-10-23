@@ -22,4 +22,4 @@ On 1 October 1876, in white and a black-feathered hat, Marie visits the prince's
 
 - 1876-10-01 (066.0577, 066.0584).
 
-%% 2026-10-22T19:08:00 RSR: Body written. The hosts are the Kochubey family of the present (see also PRINCE_SERGE_KOTCHOUBEY). The relic is as Marie and the footnote report it. %%
+%% 2026-10-22T19:08:00 RSR: The hosts are the Kochubey family of the present (see also PRINCE_SERGE_KOTCHOUBEY). The relic is as Marie and the footnote report it. %%

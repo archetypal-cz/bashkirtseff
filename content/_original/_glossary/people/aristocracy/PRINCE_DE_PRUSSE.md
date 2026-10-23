@@ -32,4 +32,4 @@ Every reference so far is to this prince and to the Hôtel du Louvre in Naples, 
 - 1877-04-06 (070.0134, 070.0149, 070.0152); 1877-04-07; 1877-04-08 (070.0266, 070.0276); 1877-04-20 (070.0736)
 - 1877-07-13 (072.0515); 1877-07-14 (072.0523)
 
-%% 2026-10-21T09:54:10 RSR: Stub replaced during RSR research of the restored carnet 070 paragraphs (rsr-070a). All tagged references checked (057, 058, 070, 072): each is Prince Carl. %%
+%% 2026-10-21T09:54:10 RSR: All tagged references checked (057, 058, 070, 072): each is Prince Carl. %%

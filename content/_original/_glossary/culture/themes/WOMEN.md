@@ -55,4 +55,4 @@ This thematic tag collects diary paragraphs where Marie writes about what women 
 - `020.0113` — "Si j'étais homme et non femme, je le suivrais"
 - `080.0169` — political talk with the men; "avec nos femmes il ne faut pas y songer"
 
-%% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%
+%% 2026-10-02T18:00:00 RSR: Applied per paragraph by AI judgement, not keyword match. %%

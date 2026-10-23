@@ -32,13 +32,7 @@ Marie's picture: «ce comte si noir, si petit et si grave» (037.0348); «cet ê
 
 47 tagged paragraphs, 037.0161 (first) to 084.0276 (last); most in carnets 037, 047–048, 060–062, 071 (all read 2026-10-21).
 
-%% 2026-10-21T23:05:00 RSR: Fix (OPEN-ITEMS B-20): auto-stub replaced from the tagged paragraphs and the Mon Journal indexes (t.5, t.6, t.8, t.10, t.12; the t.12 form «Laurenti-Roubauddi (Charles, comte)» is the only source for «Charles»). %%
-
-%% 2026-10-22T22:09:56 RSR: Merged COMTE_DE_LAURENTI (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
-
-%% 2026-10-22T22:10:02 RSR: Merged COMTE_LAURENTI (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## Merged entries (COMTE_DE_LAURENTI, COMTE_LAURENTI)
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 A four-line verse portrait written at Schlangenbad on 21 August 1875: «Le comte de Laurenti / Royaliste et gentilhomme / Noir, maigre, sec, petit / Et ridé comme une vieille pomme» (039.0177), matching «si noir, si petit» (037.0348) and «cet être noir, sec, petit» (060.0004). On 2 August 1878 «disait encore Laurenti»: «Vous avez l'air d'être arrivée là, de vous être appuyée, vos yeux fixés sur l'avenir et moitié effrayée de vous dire : c'est là la vie ?» (081.0594, with 081.0593). The Mon Journal t.5 index has one line «Laurenti (comte)».

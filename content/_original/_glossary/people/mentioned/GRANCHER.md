@@ -30,5 +30,3 @@ By 1884 Grancher, still relatively early in his career (he would meet Pasteur th
 - 1884-07-07 (para 105.0093): Marie consults him; he predicts a two-year recovery
 
 Sources: Wikipedia ([Jacques-Joseph Grancher](https://en.wikipedia.org/wiki/Jacques-Joseph_Grancher)); Institut Pasteur historical notes.
-
-%% 2026-07-06T21:00:00 RSR: Created per report-triage flag (2026-07-06 session) — Marie's 1884 physicians were previously untagged/unresearched. %%

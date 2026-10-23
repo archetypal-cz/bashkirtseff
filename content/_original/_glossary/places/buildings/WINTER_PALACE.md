@@ -39,5 +39,3 @@ The Winter Palace (Zimniy Dvorets) in St. Petersburg was the official residence 
 - [#Petersburg](../cities/PETERSBURG.md) - The imperial capital
 - [#Moscow](../cities/MOSCOW.md) - The old capital
 - [#Nice](../cities/NICE.md) - Where the Russian colony gathered far from the palace
-
-%% 2026-02-10T13:20:00 RSR: Expanded from one-line stub with imperial context %%

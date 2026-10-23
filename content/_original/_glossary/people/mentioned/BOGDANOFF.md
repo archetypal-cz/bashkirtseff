@@ -25,4 +25,4 @@ Mme Bogdanoff and her daughter, Russians of the Paris colony in 1883–1884 who 
 
 - First mentioned: 1883-07-13 (100.0327). Six tagged paragraphs, carnets 100–104.
 
-%% 2026-10-22T19:48:00 RSR: Body written from the 6 tagged paragraphs and the t.15–16 indexes. Nothing found on who they were. %%
+%% 2026-10-22T19:48:00 RSR: Nothing found on who they were. %%

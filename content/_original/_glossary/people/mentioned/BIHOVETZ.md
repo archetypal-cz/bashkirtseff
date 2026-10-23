@@ -20,7 +20,4 @@ First sighting 27 October 1874: «elle nous a présenté le général de l'état
 ## References in Diary
 174 paragraphs tagged, from 025.0003 (27 Oct 1874) to 089.0228 (24 July 1880, where he and Barnola are «deux musiciens… ravis de ma voix»); densest in carnets 062 (June 1876, the cards and the prediction), 068 (winter 1876–77, Skating, Courses, dinners) and 071–072 (May–June 1877, Nice). Other facts from the tagged paragraphs: he is godfather to a black child of a Russian woman, with Marie as godmother (067.1455, 7 Dec 1876); he is 'amoureux… Il ne peut pas vivre sans amour… pur, l'impur, il le trouve à Monaco' (071.0365); on 15 June 1877 Marie, disguised, overhears how he remembers having met her at the Rostowzeffs' in Petersburg (072.0059); in 1879 he advises on the Tutcheff affair (084.0350–0355) and sends dispatches on news of a death (077.0181). Which paragraphs in 086.0227/089.0228 are him: both name him explicitly.
 
-%% 2026-10-21T23:25:00 RSR: Extended (OPEN-ITEMS B-20): first sighting (025.0003), nickname «Bibi» (086.0227), godfather scene and dense runs added from the tagged paragraphs; no old fact changed. «Polish general» rests on 025.0003 («un Polonais») and the t.10 index. %%
-%% 2026-10-21T10:26:00 RSR: Rewritten from the auto-generated stub during RSR research of the restored carnet 070 paragraphs (rsr-070b), from the diary text and the t.10 index only. %%
-
-%% 2026-10-22T20:53:45 RSR: Merged GENERAL_BIHOVETZ (no content kept: empty stub) %%
+%% 2026-10-21T23:25:00 RSR: First sighting (025.0003), nickname «Bibi» (086.0227), godfather scene and dense runs added from the tagged paragraphs; no old fact changed. «Polish general» rests on 025.0003 («un Polonais») and the t.10 index. %%

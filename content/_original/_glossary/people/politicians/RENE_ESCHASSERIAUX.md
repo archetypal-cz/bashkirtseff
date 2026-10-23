@@ -25,4 +25,4 @@ René-Pierre Eschassériaux, Bonapartist deputy for the arrondissement of Jonzac
 
 083.0096 (1878-11-03); 084.0029, 084.0032–0036, 084.0038 (1879-01-15).
 
-%% 2026-10-22T14:10:44 RSR: B-49 (5): entry created to split the son out of ESCHASSERIAUX (identification 0.85); his paragraphs retagged here; ESCHASSERIAUX keeps the baron (083.0139). %%
+%% 2026-10-22T14:10:44 RSR: His paragraphs retagged here; ESCHASSERIAUX keeps the baron (083.0139). %%

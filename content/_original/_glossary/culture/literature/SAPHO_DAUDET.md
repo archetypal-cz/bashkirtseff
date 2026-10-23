@@ -19,4 +19,4 @@ last_updated: 2026-10-22
 - 104.0626 (June 1884): «le nouveau livre de Daudet dont Paris raffole. Ça s'appelle Sapho, mais on n'y parle point de ce que promet le titre. C'est l'histoire d'un *collage*.»
 - 104.0736 (June 1884): «J'ai lu Sapho et je sais ce que c'est qu'un collage...»
 
-%% 2026-10-22T14:43:27 RSR: B-77 (4): entry created; 104.0626 and 104.0736 tagged. %%
+%% 2026-10-22T14:43:27 RSR: 104.0626 and 104.0736 tagged. %%

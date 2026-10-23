@@ -37,4 +37,4 @@ full_text:
 - François Coppée, *La Bataille d'Hernani*, Lemerre, 1880 (Internet Archive, "labatailledherna00copp").
 - Wien Museum, print "Le cinquantenaire d'Hernani à la Comédie-Française", object 390527.
 
-%% 2026-10-10T12:00:00 RSR: Enriched in place (works batch 02). 016.0107-0269: performance by Vicomtesse Vigier at (probably) the Cercle de la Méditerranée, Feb 1874. %%
+%% 2026-10-10T12:00:00 RSR: 016.0107-0269: performance by Vicomtesse Vigier at (probably) the Cercle de la Méditerranée, Feb 1874. %%

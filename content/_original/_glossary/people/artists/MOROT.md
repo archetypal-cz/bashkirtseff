@@ -28,4 +28,4 @@ Marie was deeply moved by *Le Bon Samaritain* at the Salon of 1880. She wrote on
 
 Wikipedia: [Aimé Morot](https://en.wikipedia.org/wiki/Aim%C3%A9_Morot); Wikipedia: [The Good Samaritan (Morot)](https://en.wikipedia.org/wiki/The_Good_Samaritan_(Morot))
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-05.md and 1880-05-16.md. Aimé Morot (1850-1913), French academic painter; his Good Samaritan (1880) won the Medal of Honour at the Salon that year and received Marie's most effusive praise of any painting she saw. Source: Wikipedia. %%
+%% 2026-05-31T12:00:00 RSR: Aimé Morot (1850-1913), French academic painter; his Good Samaritan (1880) won the Medal of Honour at the Salon that year and received Marie's most effusive praise of any painting she saw. Source: Wikipedia. %%

@@ -22,4 +22,4 @@ On 4 October 1874, in Nice, she listens to the Russian Makaroff on a letter from
 
 - 1874-10-04 (024.0235), the only mention. A related earlier passage on Ogareff's letter is at the end of carnet 024's preceding days (not tagged).
 
-%% 2026-10-22T18:40:00 RSR: Body written; Bakunin's dates are from Wikipedia and are not repeated in the diary. Marie's «de Londres» is her account of where the piece will come from; Bakunin lived in Switzerland in 1874 and the source was not checked. %%
+%% 2026-10-22T18:40:00 RSR: Bakunin's dates are from Wikipedia and are not repeated in the diary. Marie's «de Londres» is her account of where the piece will come from; Bakunin lived in Switzerland in 1874 and the source was not checked. %%

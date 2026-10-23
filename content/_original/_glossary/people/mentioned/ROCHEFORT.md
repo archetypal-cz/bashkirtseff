@@ -21,10 +21,7 @@ Henri Rochefort (Victor Henri de Rochefort-Luçay, 1831–1913), the radical jou
 [Multiple references found - needs research]
 
 ## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
 
 Not to be confused with the young diplomat «M. de Rochefort (pas Henri)» of 1883–1884, [M_DE_ROCHEFORT](M_DE_ROCHEFORT.md).
 
-%% 2026-10-22T14:30:07 RSR: B-67 (1): the diplomat split out; 103.0227 retargeted to M_DE_ROCHEFORT. %%
+%% 2026-10-22T14:30:07 RSR: The diplomat split out; 103.0227 retargeted to M_DE_ROCHEFORT. %%

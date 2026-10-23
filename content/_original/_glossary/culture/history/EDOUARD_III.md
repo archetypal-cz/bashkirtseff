@@ -27,5 +27,3 @@ Marie's wide reading included historical subjects. References to medieval monarc
 
 %% GLO_EDOUARD_III.0006 %%
 - Referenced in historical/literary context
-
-%% 2026-02-10T20:00:00 RSR: Enriched from stub. %%

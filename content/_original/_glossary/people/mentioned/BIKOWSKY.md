@@ -64,17 +64,7 @@ Marie tolerates Bikowsky but doesn't particularly enjoy his company:
 
 See also: [#Paris](../../places/cities/PARIS.md), [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md)
 
-%% 2026-10-22T22:11:00 RSR: Merged JACQUA_DE_BIKOWSKY (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
-
-%% 2026-10-22T22:11:06 RSR: Merged JAXA (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
-
-%% 2026-10-22T22:11:12 RSR: Merged JAXA_BIKOWSKY (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
-
-%% 2026-10-22T22:11:17 RSR: Merged JAKA_GRIFF (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
-
-%% 2026-10-22T22:11:23 RSR: Merged PRINCE_JAXA (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## «Prince Jacqua de Bikowsky», «Jaxa» (1874)
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 The little Paris Bikowsky of 1873 calls himself prince: on 14 May 1874 the deacon presents «M. le prince Jacqua de Bikowsky, le tenant par le collet. Ce misérable petit fou est devenu presque idiot à force d'être fat» (019.0216); he has spent all he had and his aunt has turned him out (019.0217). As «Jaxa» he goes with them to the Auteuil races (019.0353), dines with them («après tout, il ne fait de mal à personne», 019.0365) and behaves «si bêtement, sottement» (019.0391); on 30 May he bursts into her room (020.0006). In September 1874 «Jaka Griff» appears at the Russian restaurant Renard with the deacon (024.0057; a garbling of «Jaxa Gryf», probable), «le prince Jaxa dîne chez nous et me fatigue» (024.0120), and «Jaxa Bikowsky, ce misérable bouffon» comes to dinner at Renard's (024.0151). Mon Journal t.3 index: «Bikowsky (prince Jacqua de), 190, 209», «Jaxa, 204, 206»; t.4 «Jaxa (prince), 158». «Jaxa» is the alternative name of the Gryf coat of arms (en.wikipedia «Gryf coat of arms»); the princely title is his own claim. The paragraphs of 1878 and 1880 that speak of «M. Bikowsky (celui de Naples)» and «le grand Bikowsky» (083.0160, 087.0159) belong to the cousin, [#GRYF_JAXA_BIKOWSKY](GRYF_JAXA_BIKOWSKY.md), and are tagged there.

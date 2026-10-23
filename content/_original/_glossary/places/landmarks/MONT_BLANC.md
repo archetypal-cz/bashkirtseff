@@ -75,4 +75,4 @@ For 19th-century travelers and expatriates in Geneva, Mont Blanc represented:
 
 Historical documentation confirms Mont Blanc's prominence in Geneva's landscape during the 1870s. Getty Images archives include views of "Geneva with Mont Blanc in the distance, 1870s, 19th Century."
 
-%% 2025-12-07T16:00:00 RSR: Created entry based on Marie's Book 00 reference to drawing Mont Blanc from Pension Huberkoller in Geneva (1870). Sources: [French Moments](https://frenchmoments.eu/10-photos-of-mont-blanc-viewed-from-afar/), [Getty Museum](https://www.getty.edu/art/collection/objects/72607/) %%
+%% 2025-12-07T16:00:00 RSR: Sources: [French Moments](https://frenchmoments.eu/10-photos-of-mont-blanc-viewed-from-afar/), [Getty Museum](https://www.getty.edu/art/collection/objects/72607/) %%

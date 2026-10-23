@@ -63,4 +63,4 @@ Yet she goes back to it: 3 April (103.0697) "Je reprends Jacques et il ne pose p
 - Union des femmes peintres et sculpteurs: [Wikipedia (fr)](https://fr.wikipedia.org/wiki/Union_des_femmes_peintres_et_sculpteurs) (founded by Hélène Bertaux; not re-checked against the 1884 exhibition catalogue)
 
 %% GLO_PORTRAIT_JACQUES.0013 %%
-%% 2026-10-10T20:59:13 RSR: Created in the works-glossary wave (batch 10). Wording of the painting being the Union exhibit: 103.0437 says Jacques a lhuile was given to Mme Bertaux, the exhibition itself is not named in the paragraph (the Union reading is mine, from Mme Bertaux being its president per 100.0103). Catalogue no. 42 (Rendouin) is a candidate only. Is the March picture the same as the April-June one? Open. %%
+%% 2026-10-10T20:59:13 RSR: Wording of the painting being the Union exhibit: 103.0437 says Jacques a lhuile was given to Mme Bertaux, the exhibition itself is not named in the paragraph (the Union reading is mine, from Mme Bertaux being its president per 100.0103). Catalogue no. 42 (Rendouin) is a candidate only. Is the March picture the same as the April-June one? Open. %%

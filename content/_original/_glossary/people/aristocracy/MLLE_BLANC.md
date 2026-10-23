@@ -23,5 +23,3 @@ Marie-Félix Blanc (1859–1882), daughter of François Blanc (1806–1877), who
 - Probably also 080.0141 (14 May 1878): the prince de Bourbon swears to Marie's aunt «qu'il n'avait pas demandé Mlle Blanc en mariage» — a Monte Carlo heiress fits the gossip, but the diary does not say which Mlle Blanc (0.7).
 
 Not Marie's friend Antoine Blanc ([BLANC](../mentioned/BLANC.md)).
-
-%% 2026-10-22T14:42:23 RSR: B-77 (6), B-62 (7): stub body written; 090.0234, 090.0239, 097.0349 tagged; 080.0141 kept as probable. %%

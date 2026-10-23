@@ -45,4 +45,4 @@ The sitter is not named. No diary passage has been matched to the picture, and i
 - Katherine Kernberger (trans.), *I Am the Most Interesting Book of All* / *Lust for Glory* (Fonthill Press, 2013), illustrated EPUB edition, image 189, captioned "Portrait of a Lady, Marie Bashkirtseff, Pinacothèque nationale d'Athènes - Musée Alexandre Soutzos, Athens"
 
 %% GLO_PORTRAIT_DAME_ATHENES.0009 %%
-%% 2026-10-02T16:15:00 RSR: Created in the works-catalogue pass. Museum record fetched 2026-10-02 (title, date, medium, size, donor, inventory). The image is CC BY-NC-ND 4.0 on Europeana (921 × 1100); that licence forbids derivatives, and resizing for the site may count as one, so it is not used. Request candidate: the National Gallery's contact page. %%
+%% 2026-10-02T16:15:00 RSR: Museum record fetched 2026-10-02 (title, date, medium, size, donor, inventory). The image is CC BY-NC-ND 4.0 on Europeana (921 × 1100); that licence forbids derivatives, and resizing for the site may count as one, so it is not used. Request candidate: the National Gallery's contact page. %%

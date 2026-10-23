@@ -26,4 +26,4 @@ On 14 April 1877 Marie lists the reasons Larderel cannot settle anywhere: «à N
 
 See also [#Larderel](LARDEREL.md).
 
-%% 2026-10-21T10:20:00 RSR: Created during RSR research of the restored carnet 070 paragraphs (rsr-070b). The identification of the programme's «Od. Ginistrelli» with the Derby winner's owner rests on the Naples stud and the name; confidence 0.85. %%
+%% 2026-10-21T10:20:00 RSR: The identification of the programme's «Od. Ginistrelli» with the Derby winner's owner rests on the Naples stud and the name; confidence 0.85. %%

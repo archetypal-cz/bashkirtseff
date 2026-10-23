@@ -66,4 +66,4 @@ Whether the «Emile» who stayed with the family in Nice in February-March 1873 
 - Kernberger (2013), Appendix I (glossary), «Émile: Uncle Babanine». The genealogy chart in Appendix II (`content/_raw/images/kernberger/kernberger_209_00208.jpeg`) is too low in resolution to read his box; no birth date was found. A web search for «Эмилий Степанович Бабанин» found nothing.
 
 %% GLO_ONCLE_EMILE.0013 %%
-%% 2026-10-22T13:07:46 RSR: Stub replaced (OPEN-ITEMS B-81). The uncle who died in 1874 is Emile Stépanovitch Babanine, Maman's brother (t.5 and t.9 indexes, 067.0481, 042.0003, 023.0678), 0.9. The t.4 index «Tutcheff (Emile), 183-184, 220» is read as a slip. EMILE_TUTCHEFF corrected; 027.0278 tagged here. Not merged: the 1873 Nice «Emile» (EMILE_TUTCHEFF) may or may not be him. %%
+%% 2026-10-22T13:07:46 RSR: The uncle who died in 1874 is Emile Stépanovitch Babanine, Maman's brother (t.5 and t.9 indexes, 067.0481, 042.0003, 023.0678), 0.9. The t.4 index «Tutcheff (Emile), 183-184, 220» is read as a slip. EMILE_TUTCHEFF corrected; 027.0278 tagged here. Not merged: the 1873 Nice «Emile» (EMILE_TUTCHEFF) may or may not be him. %%

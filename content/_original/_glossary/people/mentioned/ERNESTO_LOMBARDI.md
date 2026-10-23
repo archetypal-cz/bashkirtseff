@@ -17,5 +17,3 @@ Ernesto Lombardi, an Italian in the Nice circle of the Gambarts (Mon Journal t.4
 - 1874-10-11 (024.0288): the family calls at [#Gambart](GAMBART.md)'s «nouveau palais de marbre» (the villa Gambart at Nice); Gambart is out, but «nous trouvons Ernesto de retour de Venise, il nous fait entrer et cause de cette façon saccadée et extraordinaire qui lui est commune. Ces manières pourraient bien scandaliser ceux qui ne le connaissent pas, je n'y suis pas encore tout à fait faite, mais il est très aimable.»
 
 His relationship to Gambart (relative, secretary or protégé) is not stated. No other detail was found.
-
-%% 2026-10-22T21:36:31 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

@@ -30,4 +30,4 @@ Marie meets the couple in the republican and artistic circle around the deputy G
 - Papers Past (Auckland Star, 1885): https://paperspast.natlib.govt.nz/newspapers/AS18850207.2.54
 - Mary Evans Picture Library, "Hugues Morin murder": https://www.maryevans.com/history/hugues-morin-murder-10189508
 
-%% 2026-10-21T16:55:00 RSR: Created in the no-LAN entries pass (104/1884-05-16, 05-17); about 15 mentions 098-104. Exact date of the shooting (late November 1884) not verified in a primary source. %%
+%% 2026-10-21T16:55:00 RSR: Exact date of the shooting (late November 1884) not verified in a primary source. %%

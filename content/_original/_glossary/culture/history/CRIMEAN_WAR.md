@@ -54,5 +54,3 @@ Marie's paternal grandfather, General Paul Grigorievitch Bashkirtseff, was promo
 - [#Paul_Grigorievitch_Bashkirtseff](../../people/family/PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md) - Promoted to general after the war
 - [#Russia](../../places/countries/RUSSIA.md)
 - [#Poltava](../../places/cities/POLTAVA.md) - Where he settled after the war
-
-%% 2025-12-07T12:05:00 RSR: Created entry for historical context of Marie's grandfather's military career %%

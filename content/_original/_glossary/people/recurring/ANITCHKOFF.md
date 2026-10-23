@@ -70,5 +70,3 @@ Russian noble families like the Anitchkoffs commonly:
 - Were they permanent residents or seasonal visitors to Nice?
 - What was their relationship to the St. Petersburg Anitchkovs?
 - Did Olga remain friends with Marie in later years?
-
-%% 2025-06-30T21:40:00 RSR: Created entry for Anitchkoff family based on 1873 diary references %%

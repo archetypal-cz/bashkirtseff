@@ -25,4 +25,4 @@ Marie reviews her as a singer. On 9 January 1875 (028.0209-0213) she finds her h
 - 1875-01-26 (029.0053): "demain les Courses, demain Belona"
 - 1875-01-27 (029.0079): "Il Barbiere di Seviglia" avec la Belona
 
-%% 2026-10-21T12:10:00 RSR: Entry created from the restored paragraphs of 028 (1875-01-09). Source: Mon Journal tome 4 name index; diary text. %%
+%% 2026-10-21T12:10:00 RSR: Source: Mon Journal tome 4 name index; diary text. %%

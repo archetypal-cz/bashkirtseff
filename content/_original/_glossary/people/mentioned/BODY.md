@@ -25,4 +25,4 @@ Albin Body is the young man «du pays» of the Spa season of 1874 who dances and
 
 - First mentioned: 1874-06-28 (020.0420). 27 tagged paragraphs, carnets 020–021.
 
-%% 2026-10-22T19:45:00 RSR: Body rewritten; the 2026-10-21 identity paragraph is folded in. The Albin Body of the sources is a candidate, not a settled identity; his brother (t.3 index) is not identified. %%
+%% 2026-10-22T19:45:00 RSR: The 2026-10-21 identity paragraph is folded in. The Albin Body of the sources is a candidate, not a settled identity; his brother (t.3 index) is not identified. %%

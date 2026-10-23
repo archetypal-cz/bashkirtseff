@@ -10,7 +10,6 @@ last_updated: 2026-05-31
 ---
 # Grand Duchess (Nice, 1873)
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (June 1873, Nice)
 
@@ -26,4 +25,4 @@ An unidentified Russian Grand Duchess attending the Russian Orthodox church in N
 
 Identity unconfirmed. Several Russian Grand Duchesses wintered on the Côte d'Azur in the 1870s, including members of the Romanov family connected to the Monaco court (the Prince of Monaco's son married a Hamilton — a family with Russian imperial connections). The specific Grand Duchess at the Nice Russian church in June 1873 requires further archival research.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real person — unidentified Russian Grand Duchess at the Nice Russian Orthodox church, June 1, 1873. %%
+%% 2026-05-31T12:00:00 RSR: Real person — unidentified Russian Grand Duchess at the Nice Russian Orthodox church, June 1, 1873. %%

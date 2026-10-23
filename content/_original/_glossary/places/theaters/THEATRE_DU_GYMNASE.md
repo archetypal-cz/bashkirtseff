@@ -38,4 +38,4 @@ One of the Paris theatres she goes to for contemporary plays, from her stay at t
 
 - Wikipedia, ["Théâtre du Gymnase Marie Bell"](https://fr.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_du_Gymnase_Marie_Bell).
 
-%% 2026-10-21T08:54:18 RSR: New entry (restored paragraphs of carnet 041). Mentions found by grepping «Gymnase» across _original: 041, 050, 074, 097, 102. %%
+%% 2026-10-21T08:54:18 RSR: Mentions found by grepping «Gymnase» across _original: 041, 050, 074, 097, 102. %%

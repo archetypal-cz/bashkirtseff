@@ -38,5 +38,3 @@ Karlsbad (now Karlovy Vary in the Czech Republic) was one of Europe's most prest
 ## Related Entries
 - [#Baden_Baden](../travel/BADEN_BADEN.md) - Another fashionable spa town
 - [#Vienna](./VIENNA.md) - The capital of the empire containing Karlsbad
-
-%% 2026-02-10T15:40:00 RSR: Expanded from one-line stub with spa culture context %%

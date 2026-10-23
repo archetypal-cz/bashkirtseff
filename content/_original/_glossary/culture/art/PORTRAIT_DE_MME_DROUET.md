@@ -38,4 +38,4 @@ Marie sees it in Bastien-Lepage's studio and later in his exhibition, and it is 
 - Wikipedia, "Juliette Drouet".
 - Diary: 098.0500, 103.0153, 103.0702.
 
-%% 2026-10-10T20:00:00 RSR: New work entry (batch 08). Inventory said 1883, Bastien-Lepage; confirmed by Paris Musées record. Image is the museum's CC0 photograph. %%
+%% 2026-10-10T20:00:00 RSR: Inventory said 1883, Bastien-Lepage; confirmed by Paris Musées record. Image is the museum's CC0 photograph. %%

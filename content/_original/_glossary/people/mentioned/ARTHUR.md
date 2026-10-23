@@ -18,4 +18,4 @@ The family's maître d'hôtel in Nice, 1874-75. Marie names him so herself: "Art
 
 Not the same person as Prince Arthur of England (030.0374), Arthur Danis (039, 047), John Arthur (073) or Arthur Foster (080).
 
-%% 2026-10-21T12:10:06 RSR: Identity section added from carnets 024-034 (restored paragraph 028.0072). Source: diary text; Mon Journal tome 4 index. %%
+%% 2026-10-21T12:10:06 RSR: Source: diary text; Mon Journal tome 4 index. %%

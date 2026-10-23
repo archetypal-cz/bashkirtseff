@@ -30,4 +30,4 @@ As the sovereign of Monaco during the period Marie frequented Nice and Monte Car
 - [#Monte_Carlo](../../places/theaters/MONTE_CARLO.md) -- Named after Prince Charles III
 
 %% GLO_PRINCE_CHARLES_III.0006 %%
-%% 2026-02-10T12:15:00 RSR: Enriched from stub. Prince Charles III ruled Monaco during the entire period of Marie's diary and presided over its transformation into a gambling resort. Monte Carlo was named after him. %%
+%% 2026-02-10T12:15:00 RSR: Prince Charles III ruled Monaco during the entire period of Marie's diary and presided over its transformation into a gambling resort. Monte Carlo was named after him. %%

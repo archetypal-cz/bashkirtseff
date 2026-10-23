@@ -25,4 +25,4 @@ Canterbury, the cathedral city of Kent, England, on the Stour, where the Howard 
 
 - First mentioned: 1873-09-14 (009.0182). Seven tagged paragraphs, carnets 009, 023, 024.
 
-%% 2026-10-22T20:30:00 RSR: Body written. Proposed category change to places (list file). The identification of «Canterbury» in 009.0182 with the Howards is the editors'; the paragraph has only «lettres à Canterbury». %%
+%% 2026-10-22T20:30:00 RSR: Proposed category change to places (list file). The identification of «Canterbury» in 009.0182 with the Howards is the editors'; the paragraph has only «lettres à Canterbury». %%

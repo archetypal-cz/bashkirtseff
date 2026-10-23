@@ -27,6 +27,3 @@ Marie notes she had been working for three years by November 1880, and this new 
 
 **Historical note:**
 Rue Vivienne was close to the Palais Brongniart and the commercial heart of Paris, making it a convenient location for an art studio accessible to bourgeois women students.
-
-%% GLO_RUE_VIVIENNE.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/RUE_VIVIENNE.md (a place filed under people). Body copied unchanged. %%

@@ -18,5 +18,3 @@ Mme de Bargemsat, named in a margin note Marie added to the diary of 1874-03-14 
 ## Identity uncertain
 
 We are not sure who this is. The name appears only here. No first name, husband or address was found. If you can identify this person, we would be glad to hear from you.
-
-%% 2026-10-22T21:32:13 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

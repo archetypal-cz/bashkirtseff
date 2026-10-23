@@ -13,6 +13,3 @@ replaced_by: MOUZAY
 
 %% GLO_MADAME_DE_MOUZAY.0001 %%
 **Retired.** Duplicate of [#MOUZAY](../mentioned/MOUZAY.md) (`people/mentioned/MOUZAY.md`); use that entry instead.
-
-%% GLO_MADAME_DE_MOUZAY.0002 %%
-%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): redirect stub with no inbound diary links; replaced_by: people/mentioned/MOUZAY.md. %%

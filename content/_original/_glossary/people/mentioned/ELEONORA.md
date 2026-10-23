@@ -20,5 +20,3 @@ Not a person's name but a role: Marie's «Eleonora» is the soprano singing Leon
 ## Identity uncertain
 
 We are not sure who this is. The singer's real name is not in the diary, and no Nice cast list for the winter of 1874–75 was found. If you can identify this person, we would be glad to hear from you.
-
-%% 2026-10-22T21:34:22 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

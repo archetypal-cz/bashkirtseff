@@ -34,4 +34,4 @@ Vogüé's criticism was instrumental in building the French reading public's app
 
 Sources: Wikipedia and secondary bibliographic sources on Vogüé's 1884 *Revue des Deux Mondes* essay on Tolstoy.
 
-%% 2026-07-06T21:00:00 RSR: Created per report-triage flag (2026-07-06 session). Confirmed via WebSearch that Marie's description matches Vogüé's actual 1884 Revue des Deux Mondes essay on Tolstoy exactly. %%
+%% 2026-07-06T21:00:00 RSR: Confirmed via WebSearch that Marie's description matches Vogüé's actual 1884 Revue des Deux Mondes essay on Tolstoy exactly. %%

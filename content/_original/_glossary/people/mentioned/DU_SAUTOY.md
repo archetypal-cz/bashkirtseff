@@ -15,6 +15,3 @@ replaced_by: DUSAUTOY
 
 %% GLO_DU_SAUTOY.0001 %%
 **Retired.** Merged into [#DUSAUTOY](DUSAUTOY.md) (`people/mentioned/DUSAUTOY.md`); use that entry instead.
-
-%% GLO_DU_SAUTOY.0002 %%
-%% 2026-10-21T22:50:25 RSR: Retired by glossary-merge; content and links moved to DUSAUTOY. replaced_by: people/mentioned/DUSAUTOY.md. %%

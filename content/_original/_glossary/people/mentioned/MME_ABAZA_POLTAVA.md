@@ -29,4 +29,4 @@ This woman is kept apart from [Mme Abaza](../aristocracy/MME_ABAZA.md), the sing
 - 1876-11-02 (067.0618, 067.0619, 067.0623)
 - 1882-11-08 (097.0054, probable)
 
-%% 2026-10-22T13:55:00 RSR: Entry created for OPEN-ITEMS B-33(2): the Poltava Mme Abaza née Dietrich split from MME_ABAZA (the Soden singer of 1878-79). 067.0618, 0619, 0623 retagged here; 097.0054 / 097 «Mme Abaza» tag left for the 091-106 range (reported to the lead). %%
+%% 2026-10-22T13:55:00 RSR: The Poltava Mme Abaza née Dietrich split from MME_ABAZA (the Soden singer of 1878-79). 067.0618, 0619, 0623 retagged here; 097.0054 / 097 «Mme Abaza» tag left for the 091-106 range (reported to the lead). %%

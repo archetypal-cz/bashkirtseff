@@ -50,7 +50,5 @@ Russian Grand Duke Vladimir Alexandrovich (1847-1909), son of Emperor Alexander 
 - Russian imperial presence abroad
 - 1870s aristocratic networks
 
-%% 2026-10-22T22:10:42 RSR: Merged GRAND_DUKE_WLADIMIR (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 - 10 August 1876, Petersburg (spelled «Wladimir», merged entry GRAND_DUKE_WLADIMIR): «J'ai vu chez Bergamasco un portrait du grand-duc Wladimir, il y a huit ans. Je ne pus m'arracher de ce portrait» (064.0520); she and Giro end by kissing the portrait, and that evening she stops thinking of the Duke of Hamilton as her «ombre chérie».

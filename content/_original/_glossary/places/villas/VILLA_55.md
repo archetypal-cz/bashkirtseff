@@ -33,6 +33,3 @@ A villa property owned by the Bashkirtseff family in Nice, serving as a private 
 - Nice villa numbering system
 - Expatriate social venues 1870s
 - Russian colony gathering places
-
-%% GLO_VILLA_55.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/VILLA_55.md (a place filed under people). Body copied unchanged. %%

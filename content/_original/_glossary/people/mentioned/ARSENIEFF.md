@@ -22,4 +22,4 @@ On 17 May 1874, after church, Marie meets him at the deacon's (the family's prie
 
 - 1874-05-17 (019.0251), the only mention.
 
-%% 2026-10-22T18:18:00 RSR: Body written. Identity beyond the surname not found (several Arsenyevs in the Russian colony; none matched in sources checked). %%
+%% 2026-10-22T18:18:00 RSR: Identity beyond the surname not found (several Arsenyevs in the Russian colony; none matched in sources checked). %%

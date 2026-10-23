@@ -28,9 +28,3 @@ The Mon Journal t.10 index has «Larderei (Blanche, comtesse de), épouse de Gas
 
 ## References in Diary
 - 1876-04-21 (059.0110, «Sa soeur»), 1877-04-29 (071.0066, 0071, 0073), 05-02 (071.0109), 05-05 (071.0152), 05-09 (071.0218, 0219, 0222), 05-11 (071.0267), 05-12 (071.0274), 1877-07-14 (072.0525)
-
-%% 2026-10-21T10:48:15 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 071 paragraphs (rsr-071); diary text, t.10 index and thepeerage.com as cited. %%
-
-%% 2026-10-22T12:29:09 RSR: Merged MADAME_DE_MIRAFIORE (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
-
-%% 2026-10-22T20:51:01 RSR: Merged COMTESSE_DE_MIRAFIORE (no content kept: empty stub) %%

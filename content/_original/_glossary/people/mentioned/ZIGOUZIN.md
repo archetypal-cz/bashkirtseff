@@ -13,6 +13,3 @@ replaced_by: ROSALIE_LEON
 
 %% GLO_ZIGOUZIN.0001 %%
 **Retired.** Merged into [#ROSALIE_LEON](ROSALIE_LEON.md) (`people/mentioned/ROSALIE_LEON.md`); use that entry instead.
-
-%% GLO_ZIGOUZIN.0002 %%
-%% 2026-10-22T22:13:21 RSR: Retired by glossary-merge; content and links moved to ROSALIE_LEON. replaced_by: people/mentioned/ROSALIE_LEON.md. %%

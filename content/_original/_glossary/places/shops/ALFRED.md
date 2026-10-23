@@ -23,4 +23,4 @@ last_updated: 2026-10-22
 
 Filing: a business, not a person; kept in places/shops.
 
-%% 2026-10-22T21:34:03 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Four paragraphs + Mon Journal t.3 and t.4 indices. 021.0035's Alfred is read as the same house (the dress sent off), not certain. %%
+%% 2026-10-22T21:34:03 RSR: Four paragraphs + Mon Journal t.3 and t.4 indices. 021.0035's Alfred is read as the same house (the dress sent off), not certain. %%

@@ -14,6 +14,3 @@ replaced_by: NICOLAS
 
 %% GLO_ONCLE_NICOLAS.0001 %%
 **Retired.** Merged into [#NICOLAS](NICOLAS.md) (`people/mentioned/NICOLAS.md`); use that entry instead.
-
-%% GLO_ONCLE_NICOLAS.0002 %%
-%% 2026-10-21T21:14:56 RSR: Retired by glossary-merge; content and links moved to NICOLAS. replaced_by: people/mentioned/NICOLAS.md. %%

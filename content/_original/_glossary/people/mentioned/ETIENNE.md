@@ -44,5 +44,4 @@ The age differs: fifteen in the Russian newspaper (015.0334), sixteen in the pre
 
 096.0431 and 096.0438 (October 1882, Tcherniakovka) tag this file for uncle Alexandre's son Etienne, who is alive and fourteen; those tags are wrong referents (no file for that boy).
 
-%% 2025-12-07T15:30:00 RSR: Created based on Book 00.35. %%
-%% 2026-10-22T14:00:30 RSR: Rewritten from the diary: the death is told in 015.0334, 017.0038–0039, 017.0295, 018.0094 and recalled in 042.0003, 053.0297–0298, 094.0313; the speculative «possible causes» and «missing story» sections were removed (the story is in the diary). %%
+%% 2026-10-22T14:00:30 RSR: The death is told in 015.0334, 017.0038–0039, 017.0295, 018.0094 and recalled in 042.0003, 053.0297–0298, 094.0313; the speculative «possible causes» and «missing story» sections were removed (the story is in the diary). %%

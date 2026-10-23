@@ -28,5 +28,3 @@ The École nationale des Beaux-Arts, rue Bonaparte, Paris, the state art school 
 - 1883-07-28 (100.0449, 100.0450)
 - 1884-01-05 (102.0649)
 - 1884-06-03 (104.0502)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

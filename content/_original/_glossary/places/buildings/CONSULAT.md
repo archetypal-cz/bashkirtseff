@@ -21,5 +21,3 @@ The Russian consulate, mostly the consulate general in Paris, where Marie has pa
 - 1883-09-24 (101.0430)
 - 1883-09-26 (101.0440)
 - 1883-09-27 (101.0457)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

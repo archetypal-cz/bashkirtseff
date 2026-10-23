@@ -14,6 +14,3 @@ replaced_by: TURQUAN
 
 %% GLO_M_TURQUAN.0001 %%
 **Retired.** Merged into [#TURQUAN](TURQUAN.md) (`people/mentioned/TURQUAN.md`); use that entry instead.
-
-%% GLO_M_TURQUAN.0002 %%
-%% 2026-10-22T15:08:26 RSR: Retired by glossary-merge; content and links moved to TURQUAN. replaced_by: people/mentioned/TURQUAN.md. %%

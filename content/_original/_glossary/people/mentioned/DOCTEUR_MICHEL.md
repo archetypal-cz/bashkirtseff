@@ -25,6 +25,4 @@ A Paris physician who attends Marie's mother in 1878, during her grandfather's l
 ## Not to be confused with
 Prince Michel ("Michka") Eristoff, [Michka Eristoff](MICHKA_ERISTOFF.md), whose «Michel» tags are on the file MICHEL.
 
-%% 2026-10-22T12:05:00 RSR: Body written (glossary-owner-questions, MICHEL split). DR_MICHEL (081.0236, 081.0539) is the same doctor (same months, same Cassagnac gossip; t.12 index «Michel (docteur) : 28, 61, 113», pp.28 and 61 = 081.0236 and 081.0539): merge DR_MICHEL into this entry; retag 082.0301 MICHEL -> DOCTEUR_MICHEL (identity-decisions TSV). %%
-
-%% 2026-10-22T12:29:20 RSR: Merged DR_MICHEL (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+%% 2026-10-22T12:05:00 RSR: DR_MICHEL (081.0236, 081.0539) is the same doctor (same months, same Cassagnac gossip; t.12 index «Michel (docteur) : 28, 61, 113», pp.28 and 61 = 081.0236 and 081.0539): merge DR_MICHEL into this entry; retag 082.0301 MICHEL -> DOCTEUR_MICHEL (identity-decisions TSV). %%

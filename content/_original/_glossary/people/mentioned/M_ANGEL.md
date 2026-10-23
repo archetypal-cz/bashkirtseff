@@ -13,7 +13,6 @@ last_updated: 2026-10-22
 # M. Angel
 
 ## Overview
-%% 2026-10-22T22:16:12 RSR: Created in the stub-pass apply (2026-10-22) from the paragraphs listed below. %%
 The husband of [Mme Angel](MME_ANGEL.md), «Ange», the Russian lady of Marie's Nice circle in 1874. He arrives in Nice in November 1874, some weeks after his wife. Mon Journal t.4 index: «Angel (M.), 202, 204, 209». Nothing more is known of him.
 
 ## In Marie's diary

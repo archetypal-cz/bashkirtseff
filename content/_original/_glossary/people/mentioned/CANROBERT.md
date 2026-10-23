@@ -52,4 +52,4 @@ This page is the collective one: use it where Marie writes "les Canrobert" and w
 - Marie Bashkirtseff, *Journal*, carnets 098–105.
 
 %% GLO_CANROBERT.0011 %%
-%% 2026-10-11T12:00:00 RSR: Rewritten as the family page; the stub previously stood for "the Marshal" and "the Canroberts" without distinction. 41 tagged files; their classification is in the batch report. %%
+%% 2026-10-11T12:00:00 RSR: The stub previously stood for "the Marshal" and "the Canroberts" without distinction. 41 tagged files; their classification is in the batch report. %%

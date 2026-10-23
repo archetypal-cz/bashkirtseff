@@ -91,5 +91,3 @@ The movement emphasized:
 - Influence of heredity and environment on character
 - Unflinching portrayal of all aspects of life, including the sordid
 - Literature as social documentation
-
-%% 2025-12-07T14:30:00 RSR: Created comprehensive entry for Edmond de Goncourt based on Marie's preface citation and research into the Goncourt brothers' role in founding literary naturalism and the "document humain" concept %%

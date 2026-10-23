@@ -26,4 +26,4 @@ Catherine II (1729–1796), Empress of Russia from 9 July 1762 until her death, 
 
 - First mentioned: 1875-12-14 (050.0753). Eight tagged paragraphs, carnets 050, 064, 067, 068, 102.
 
-%% 2026-10-22T20:40:00 RSR: Body written. Possible wrong tag: 064.0475 (may be Catherine I). The «arc de triomphe de Catherine II» (064.0536) and the factual aspects of the Nevsky statue are as given in the paragraphs and the existing footnote, not independently checked. %%
+%% 2026-10-22T20:40:00 RSR: Possible wrong tag: 064.0475 (may be Catherine I). The «arc de triomphe de Catherine II» (064.0536) and the factual aspects of the Nevsky statue are as given in the paragraphs and the existing footnote, not independently checked. %%

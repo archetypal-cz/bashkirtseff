@@ -14,6 +14,3 @@ replaced_by: BLANC
 
 %% GLO_ANTOINE_BLANC.0001 %%
 **Retired.** Merged into [#BLANC](BLANC.md) (`people/mentioned/BLANC.md`); use that entry instead.
-
-%% GLO_ANTOINE_BLANC.0002 %%
-%% 2026-10-22T20:56:28 RSR: Retired by glossary-merge; content and links moved to BLANC. replaced_by: people/mentioned/BLANC.md. %%

@@ -109,4 +109,4 @@ For young Marie (around 11 years old in 1870), Pension Huberkoller represented:
 - [#Franco_Prussian_War](../../culture/history/FRANCO_PRUSSIAN_WAR.md) - Reason for the family's extended Geneva stay
 - [#Baden_Baden](../travel/BADEN_BADEN.md) - Where the family fled from
 
-%% 2025-12-07T17:30:00 RSR: Created entry based on Book 00, paragraph 00.44. The pension's Mont Blanc view inspired Marie's first attempt at drawing from nature rather than copying stylized models. %%
+%% 2025-12-07T17:30:00 RSR: The pension's Mont Blanc view inspired Marie's first attempt at drawing from nature rather than copying stylized models. %%

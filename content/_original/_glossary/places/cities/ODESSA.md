@@ -79,5 +79,3 @@ Odessa served as:
 - [Odesa - Wikipedia](https://en.wikipedia.org/wiki/Odesa)
 - [Odesa | Encyclopedia of Ukraine](https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CO%5CD%5COdesa.htm)
 - [Odesa | Facts, History, Map, & Points of Interest | Britannica](https://www.britannica.com/place/Odessa-Ukraine)
-
-%% 2025-12-07T14:45:00 RSR: Created comprehensive entry for Odessa based on Book 00 reference and historical research about 1870s context %%

@@ -24,4 +24,4 @@ We are not sure who this man was. His real name is not given; the diary says onl
 
 - 1881-10-28 (093.0304–093.0308); the tag is on 093.0308 only.
 
-%% 2026-10-22T17:55:00 RSR: Body written; identity_uncertain set. Not a real person's name in Marie's own account. %%
+%% 2026-10-22T17:55:00 RSR: Not a real person's name in Marie's own account. %%

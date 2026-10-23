@@ -19,4 +19,4 @@ A Russian general «très aimé de l'Empereur», father of Mme Martinoff, the pr
 
 066/1876-09-15 (066.0242). See also [MARTINOFF](MARTINOFF.md).
 
-%% 2026-10-21T22:32:00 RSR: Fix (OPEN-ITEMS B-39(4)): the old stub covered two people; the 024 paragraphs (the socialist poet) moved to the new OGAREV; this entry keeps only the general of 066.0242 («Fille du général Ogareff, très aimé de l'Empereur»), one mention only (t.9 index p.76). Retag rows for 024.0204, 024.0230, 024.0235 are in the worker report. %%
+%% 2026-10-21T22:32:00 RSR: The old stub covered two people; the 024 paragraphs (the socialist poet) moved to the new OGAREV; this entry keeps only the general of 066.0242 («Fille du général Ogareff, très aimé de l'Empereur»), one mention only (t.9 index p.76). Retag rows for 024.0204, 024.0230, 024.0235 are in the worker report. %%

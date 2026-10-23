@@ -34,5 +34,4 @@ Untagged mentions that belong here (Nice entries): 001.0008, 002.0169, 004.0325,
 
 Address, building and management of the Nice Théâtre-Français in the 1870s (the *Nice historique* volumes and the Archives municipales de Nice are the likely sources; a web search on 2026-10-22 found nothing). If you know this theatre's history, we would be glad to hear from you.
 
-%% 2026-10-22T12:30:27 RSR: Merged FRANCAIS (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
-%% 2026-10-22T13:25:29 RSR: B-82: entry rewritten as the Nice theatre; Paris tags moved to COMEDIE_FRANCAISE (18 paragraphs, list in OPEN-ITEMS B-82). %%
+%% 2026-10-22T13:25:29 RSR: Entry rewritten as the Nice theatre; Paris tags moved to COMEDIE_FRANCAISE (18 paragraphs, list in OPEN-ITEMS B-82). %%

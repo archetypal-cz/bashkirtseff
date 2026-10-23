@@ -38,5 +38,3 @@ Poland did not exist as an independent state during Marie Bashkirtseff's lifetim
 ## Related Entries
 - [#Paris](../cities/PARIS.md) - Center of Polish émigré culture
 - [#Warsaw](../cities/VARSOVIE.md) - The historic Polish capital, under Russian control
-
-%% 2026-02-10T14:10:00 RSR: Expanded from one-line stub with partition context %%

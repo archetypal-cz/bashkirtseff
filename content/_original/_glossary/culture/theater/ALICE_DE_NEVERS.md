@@ -40,5 +40,5 @@ The Nice premiere comes six months after Paris and is the social centrepiece of 
 - IMSLP, [Alice de Nevers (Hervé)](https://imslp.org/wiki/Alice_de_Nevers_(Hervé)); Wikipedia, ["Hervé"](https://en.wikipedia.org/wiki/Hervé).
 - Pascal Blanchet, "Hervé", Palazzetto Bru Zane Médiabase (PDF "Blanchet Hervé").
 
-%% 2026-02-09T22:00:00 RSR: Created entry. Alice de Nevers premiered Paris April 1875, Nice October 1875. The operetta itself is secondary to the social encounter in Marie's diary. %%
-%% 2026-10-10T12:00:00 RSR: Enriched (works batch 02). ATTRIBUTION CONFLICT RESOLVED: Hervé is both composer and librettist (IMSLP; the printed libretto "Paroles et musique de Hervé"; Marie herself writes "opéra-bouffe d'Hervé"). The RSR note at 048.0059 that credits Marius Boulard (with Prével and Liorat) is wrong and should be corrected; I did not edit the diary file. %%
+%% 2026-02-09T22:00:00 RSR: Alice de Nevers premiered Paris April 1875, Nice October 1875. The operetta itself is secondary to the social encounter in Marie's diary. %%
+%% 2026-10-10T12:00:00 RSR: ATTRIBUTION CONFLICT RESOLVED: Hervé is both composer and librettist (IMSLP; the printed libretto "Paroles et musique de Hervé"; Marie herself writes "opéra-bouffe d'Hervé"). The RSR note at 048.0059 that credits Marius Boulard (with Prével and Liorat) is wrong and should be corrected; I did not edit the diary file. %%

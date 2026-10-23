@@ -49,4 +49,4 @@ The break was associated with sporting life, informality, and group excursions �
 - **Landau** — formal carriage with folding hoods
 - **Omnibus** — public horse-drawn transport
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Break appears in sporting and carnival contexts. %%
+%% 2026-02-10T20:00:00 RSR: Break appears in sporting and carnival contexts. %%

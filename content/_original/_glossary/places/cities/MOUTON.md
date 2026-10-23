@@ -59,5 +59,4 @@ For a young woman of Marie's social class, horseback riding was both a leisure a
 
 Marie's frustration with the poorly fitting saddle that "recule" (slips back) during her rides suggests that the equipment provided by Mouton may not have been of the highest quality, or perhaps was not properly adjusted for a female rider.
 
-%% 2025-04-05T22:00:00 RSR: Created entry based on mentions in September 15 and 19, 1873 diary entries %%
 %% 2025-04-05T18:14:29 RSR: Updated to include January 11, 1873 reference %%

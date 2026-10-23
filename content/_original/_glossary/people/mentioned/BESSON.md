@@ -21,5 +21,3 @@ On 6 November 1874, after a call on a «puissant seigneur» who proves to be awa
 ## References in Diary
 
 - 1874-11-06 (025.0127), the only tagged paragraph.
-
-%% 2026-10-22T19:33:00 RSR: Body written. %%

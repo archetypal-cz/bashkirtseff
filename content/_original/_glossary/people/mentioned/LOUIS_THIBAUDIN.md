@@ -26,4 +26,4 @@ A Black boy of about fifteen, in the Bashkirtseff household for nearly a year by
 - Not this entry: [#Louis Canrobert](LOUIS_CANROBERT.md) and Jeanne Suermondt's husband ([#Louis](LOUIS.md)). Compare the earlier servant [#Chocolat](CHOCOLAT.md) (Fortuné Saïd), whom Marie names in 100.0078.
 
 %% GLO_LOUIS_THIBAUDIN.0005 %%
-%% 2026-10-21T23:22:00 RSR: Created by split from LOUIS (OPEN-ITEMS D-42): content from the LOUIS entry's section 2 (RSR of 2026-10-11), the five paragraphs re-read. The minister meant by «Thibaudin» is named only as «le ministre» in the diary and was not checked further here. %%
+%% 2026-10-21T23:22:00 RSR: Content from the LOUIS entry's section 2 (RSR of 2026-10-11), the five paragraphs re-read. The minister meant by «Thibaudin» is named only as «le ministre» in the diary and was not checked further here. %%

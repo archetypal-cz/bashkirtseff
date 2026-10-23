@@ -20,4 +20,4 @@ A member of the household of Marshal MacMahon, President of the Republic, at the
 
 077.0550 (named only); 081.0320 (newspaper cutting).
 
-%% 2026-10-22T14:00:00 RSR: Stub replaced (B-45(3)). A separate man from the comte (077.0550). %%
+%% 2026-10-22T14:00:00 RSR: A separate man from the comte (077.0550). %%

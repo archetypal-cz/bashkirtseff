@@ -16,4 +16,4 @@ An antique and bric-à-brac dealer in Paris where Marie and her mother buy two m
 ## Not to be confused with
 [Arnaud de l'Ariège](../../people/recurring/ARNAUD_DE_L_ARIEGE.md) («Arnaud», «Joseph», 1879-1882), Marie's later admirer.
 
-%% 2026-10-22T13:00:00 RSR: Body written (glossary-owner-questions, ARNAUD). The entry holds one tag, 024.0157, which is in Paris (024/1874-09-29, location Paris; t.4 index «Arnaud, magasin d'antiquités, 161»), not Nice as the owner-questions line says. Recommend moving it to places/shops (glossary-move) and keeping only this narrow alias, so that the bare «Arnaud» of 1879-82 is never auto-tagged here. %%
+%% 2026-10-22T13:00:00 RSR: The entry holds one tag, 024.0157, which is in Paris (024/1874-09-29, location Paris; t.4 index «Arnaud, magasin d'antiquités, 161»), not Nice as the owner-questions line says. Recommend moving it to places/shops (glossary-move) and keeping only this narrow alias, so that the bare «Arnaud» of 1879-82 is never auto-tagged here. %%

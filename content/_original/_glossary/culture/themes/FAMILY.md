@@ -56,4 +56,4 @@ This thematic tag collects diary paragraphs about relations inside the household
 - `069.0263` — maman's "art merveilleux et inimitable" of enraging her
 - `047.0053` — a tearful scene at maman's
 
-%% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%
+%% 2026-10-02T18:00:00 RSR: Applied per paragraph by AI judgement, not keyword match. %%

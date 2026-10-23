@@ -35,4 +35,4 @@ The Vicomtesse Vigier, a former opera singer herself (Sophie Cruvelli), hosted t
 
 Bellini's operas were central to 19th-century European cultural life, particularly among the aristocracy. Knowledge of and attendance at opera performances was an essential marker of social sophistication.
 
-%% 2025-12-07T15:45:00 RSR: Created entry based on February 7, 1873 diary entry. The parallel between La Sonnambula's themes and Marie's diary concerns is worth noting for translators. %%
+%% 2025-12-07T15:45:00 RSR: The parallel between La Sonnambula's themes and Marie's diary concerns is worth noting for translators. %%

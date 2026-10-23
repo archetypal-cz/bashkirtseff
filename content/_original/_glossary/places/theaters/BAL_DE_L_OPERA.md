@@ -36,4 +36,4 @@ The masked balls held at the Paris Opéra in the carnival season, which Marie at
 
 077.0273, 0400, 0416, 0442, 0468, 0510; 078.0045, 0059, 0168-0169, 0172, 0187, 0191-0192, 0238, 0338, 0460; 079.0252, 0260, 0458, 0481; 081.0515; 083.0424; 084.0506; 087.0096, 0253, 0258, 0310, 0567; 091.0185, 0591, 0595; 093.0117.
 
-%% 2026-10-21T22:55:00 RSR: Body written (OPEN-ITEMS B-59 (3)), empty auto-stub replaced. Every paragraph cited was opened; the tag set (25 paragraphs) was checked, see the tag rows reported for the literal mentions that are untagged (079.0252, 079.0260, 084.0506, 087.0096, 087.0253, 087.0258, 091.0185, 093.0117). Only what the diary says is stated; the 19th-century history of the Opéra balls is not researched here. %%
+%% 2026-10-21T22:55:00 RSR: Every paragraph cited was opened; the tag set (25 paragraphs) was checked, see the tag rows reported for the literal mentions that are untagged (079.0252, 079.0260, 084.0506, 087.0096, 087.0253, 087.0258, 091.0185, 093.0117). Only what the diary says is stated; the 19th-century history of the Opéra balls is not researched here. %%

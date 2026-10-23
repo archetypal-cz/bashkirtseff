@@ -52,4 +52,4 @@ Marie first read it in English a few years before 1882 and it affected her deepl
 - Internet Archive scans of the 1877 edition (see `full_text`), vol. 1 pp. 263-265 and vol. 2, p. 53 ("Have you seen the Nausicaa?" ... "The last work of Maryx").
 - Wikipedia, "Ouida": https://en.wikipedia.org/wiki/Ouida
 
-%% 2026-10-10T23:10:00 RSR: Works-glossary batch 05 (W097). Key finding: 098.0555 is Ariadnê vol. 1 ch. X pp. 264-265 ('strangle Penelope in her own web, and wed Ulysses to the sweet Phaeacian maid') — adjacent to Maryx's marble Nausicaa; relevant to DOULEUR_DE_NAUSICAA. Supersedes people/mentioned/ARIADNE.md for the book. %%
+%% 2026-10-10T23:10:00 RSR: Key finding: 098.0555 is Ariadnê vol. 1 ch. X pp. 264-265 ('strangle Penelope in her own web, and wed Ulysses to the sweet Phaeacian maid') — adjacent to Maryx's marble Nausicaa; relevant to DOULEUR_DE_NAUSICAA. Supersedes people/mentioned/ARIADNE.md for the book. %%

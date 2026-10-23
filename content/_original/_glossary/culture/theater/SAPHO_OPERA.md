@@ -59,4 +59,4 @@ The programme of the Nice theatre in December 1875, in a local newspaper such as
 - Wikipedia, ["Sapho (Gounod)"](https://en.wikipedia.org/wiki/Sapho_(Gounod)); ["Saffo (Pacini)"](https://en.wikipedia.org/wiki/Saffo_(Pacini)).
 - Libretti (Internet Archive) and scores (IMSLP), linked above.
 
-%% 2026-10-10T21:40:00 RSR: New entry (works batch 01). UNRESOLVED identification (Gounod or Pacini); see "Which opera?". Supersedes the auto-stub people/mentioned/SAPHO.md for the opera; that file carries the tag [#SAPHO_OPERA] in 051.0280. Needs the Nice newspaper programme to settle. %%
+%% 2026-10-10T21:40:00 RSR: UNRESOLVED identification (Gounod or Pacini); see "Which opera?". Supersedes the auto-stub people/mentioned/SAPHO.md for the opera; that file carries the tag [#SAPHO_OPERA] in 051.0280. Needs the Nice newspaper programme to settle. %%

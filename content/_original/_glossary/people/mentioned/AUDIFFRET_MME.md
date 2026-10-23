@@ -29,4 +29,4 @@ The tag is also used for «Mme d'Audiffret» of the Nice winters 1873–1876 (ca
 
 087.0833 (1880-04-11); 088.0051–0410 (May 1880); 089.0038–0450 (June–August 1880).
 
-%% 2026-10-22T14:25:14 RSR: B-65 (4): body written; «les Audiffret» of 1880 (the mother and daughters) tagged here, the daughter Marie split out to MARIE_D_AUDIFFRET; EMILE_D_AUDIFFRET tags removed where only the women are meant (088.0258, 088.0264, 088.0303, 088.0407, 088.0410). %%
+%% 2026-10-22T14:25:14 RSR: «les Audiffret» of 1880 (the mother and daughters) tagged here, the daughter Marie split out to MARIE_D_AUDIFFRET; EMILE_D_AUDIFFRET tags removed where only the women are meant (088.0258, 088.0264, 088.0303, 088.0407, 088.0410). %%

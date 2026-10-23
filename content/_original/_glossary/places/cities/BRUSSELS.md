@@ -69,5 +69,3 @@ Brussels served as a waypoint on Marie's European journeys:
 - [#Paris](./PARIS.md) - The cultural center of the francophone world
 - [#London](./LONDON.md) - Another European capital
 - [#Bruges](./BRUGES.md) - Another Belgian city
-
-%% 2026-02-10T12:00:00 RSR: Expanded from one-line stub with historical context and cultural significance %%

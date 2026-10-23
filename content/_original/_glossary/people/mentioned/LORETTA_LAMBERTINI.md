@@ -31,5 +31,3 @@ The rumour reaches Marie before the cardinal's death: Rossi says «le cardinal a
 ## Related
 
 - [Lambertini](LAMBERTINI.md), [Cardinal Antonelli](CARDINAL_ANTONELLI.md)
-
-%% 2026-10-21T09:41:16 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 059 paragraphs; sources as cited. %%

@@ -17,7 +17,7 @@ identity_uncertain: true
 # Count Arnim (Nice, 1874–75)
 
 ## Overview
-%% 2026-10-22T22:16:12 RSR: Body rewritten in the stub-pass apply (2026-10-22) with the Nice paragraphs of the entry ARNIM; the older text took him for the ambassador Harry von Arnim, which the dates make unlikely. %%
+%% 2026-10-22T22:16:12 RSR: The older text took him for the ambassador Harry von Arnim, which the dates make unlikely. %%
 A Prussian count of the Nice winter society of 1874 and 1875: «un comte Arnim, Prussien», said by «les méchantes langues» to be the good friend of Princess Souvoroff (017.0091, 1 March 1874). In November 1874 Marie calls him «le comte Arnim celui de l'année passée» (026.0030) and on 6 December «le comte A. d'Arnim» (027.0181), so the two seasons concern one man. She notices him for his complexion, «frais et capable de plaire» (027.0181), «un homme qui n'est qu'à cause de son teint» (027.0354).
 
 ## In Marie's diary

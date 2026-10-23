@@ -21,4 +21,4 @@ last_updated: 2026-10-22
 
 See also [#San_Carlo](../../places/theaters/SAN_CARLO.md).
 
-%% 2026-10-22T20:26:03 RSR: Auto-stub body replaced (glossary orphan review); 068.1317 tagged; 069.0070 left untagged (type use). Move candidate: culture/music (just glossary-move GUARANY culture/music). %%
+%% 2026-10-22T20:26:03 RSR: Move candidate: culture/music (just glossary-move GUARANY culture/music). %%

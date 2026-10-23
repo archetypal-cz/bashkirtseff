@@ -28,5 +28,3 @@ Marie occasionally encounters Spanish speakers in the cosmopolitan social circle
 
 %% GLO_SPANISH.0006 %%
 - Occasional references to Spanish speakers and phrases
-
-%% 2026-02-10T20:00:00 RSR: Enriched from stub. %%

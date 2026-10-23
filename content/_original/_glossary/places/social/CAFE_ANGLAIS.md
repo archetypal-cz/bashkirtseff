@@ -21,6 +21,3 @@ Fashionable Paris restaurant at the corner of the boulevard des Italiens (no. 13
 
 ## References in Diary
 - First mentioned: 1878-02-17
-
-%% GLO_CAFE_ANGLAIS.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/CAFE_ANGLAIS.md (a place filed under people). Body copied unchanged. %%

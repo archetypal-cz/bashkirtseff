@@ -23,4 +23,4 @@ The ledger counted 0 references; the body tag exists only at 085.0094, while the
 
 067.1454 (untagged); 085.0094 (tagged); 094.0262 (untagged).
 
-%% 2026-10-21T22:54:00 RSR: Fix (OPEN-ITEMS B-56(3)): stub turned into a real entry: the person is the princesse de la Tremoille/Tremolile of 067.1454, 085.0094 and 094.0262, mother-in-law of Jeanne de Ballore; keep (do not retire). Retag rows for 067.1454 and 094.0262 are in the worker report. Specific La Trémoille princess not identified. %%
+%% 2026-10-21T22:54:00 RSR: Stub turned into a real entry: the person is the princesse de la Tremoille/Tremolile of 067.1454, 085.0094 and 094.0262, mother-in-law of Jeanne de Ballore; keep (do not retire). Retag rows for 067.1454 and 094.0262 are in the worker report. Specific La Trémoille princess not identified. %%

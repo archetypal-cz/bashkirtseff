@@ -25,4 +25,4 @@ Louis Énault (1824, Isigny-sur-Mer – 28 March 1900) was a French journalist, 
 
 Wikipedia: [Louis Énault](https://en.wikipedia.org/wiki/Louis_%C3%89nault)
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-26.md. Louis Énault (1824-1900), French journalist and art critic, regular Salon critic for Le Figaro and L'Illustration. Encountered by Marie at the Mouzay soiree May 1880. Source: Wikipedia. %%
+%% 2026-05-31T12:00:00 RSR: Louis Énault (1824-1900), French journalist and art critic, regular Salon critic for Le Figaro and L'Illustration. Encountered by Marie at the Mouzay soiree May 1880. Source: Wikipedia. %%

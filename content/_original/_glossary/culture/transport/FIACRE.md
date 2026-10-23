@@ -55,4 +55,4 @@ In one revealing passage (1874-06-04), she observes Fedus "en phaéton, pas en f
 - **Coupé** — enclosed carriage (also a train compartment type)
 - **Omnibus** — public horse-drawn bus, even less prestigious
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Fiacre = hired cab, frequent across diary, socially revealing usage. %%
+%% 2026-02-10T20:00:00 RSR: Fiacre = hired cab, frequent across diary, socially revealing usage. %%

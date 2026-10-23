@@ -56,4 +56,4 @@ This thematic tag collects diary paragraphs where Marie writes about her hunger 
 - `052.0098` — she studies singing as "un de mes moyens pour devenir célèbre"
 - `002.0244` — "avoir un talent" as the road to being admired and honoured
 
-%% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%
+%% 2026-10-02T18:00:00 RSR: Applied per paragraph by AI judgement, not keyword match. %%

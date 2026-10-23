@@ -24,4 +24,4 @@ We are not sure who she was. Delvig (Delwig) is a Baltic-German and Russian nobl
 
 - 1875-09-14 (043.0140).
 
-%% 2026-10-22T18:58:00 RSR: Body written; identity_uncertain set. The Schlangenbad date is inferred from the carnets that mention the spa. %%
+%% 2026-10-22T18:58:00 RSR: The Schlangenbad date is inferred from the carnets that mention the spa. %%

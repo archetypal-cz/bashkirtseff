@@ -33,6 +33,3 @@ This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
 ## Related Entries
 
 [To be determined based on research]
-
-%% GLO_PLACE_DE_LA_CONCORDE.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/PLACE_DE_LA_CONCORDE.md (a place filed under people). Body copied unchanged. %%

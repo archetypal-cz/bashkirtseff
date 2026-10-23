@@ -57,6 +57,4 @@ Tcherniakovka carries dual significance for Marie:
 - [#Villa_Bashkirtseff](./VILLA_BASHKIRTSEFF.md) - The Nice property
 - [#Russia](../../places/countries/RUSSIA.md) - Location context
 
-%% 2026-02-10T17:00:00 RSR: Expanded from one-line stub %%
-%% 2026-02-12T00:00:00 RSR: Merged content from TCHERNAKOWKA (alternate transliteration) %%
-%% 2026-10-21T22:12:00 RSR: Fix (OPEN-ITEMS B-32): first line «Former Bashkirtseff family estate» replaced: Tcherniakovka is grand-papa Babanine's house: «Tcherniakovka où il y avait plus de distractions» with «chez grand-papa» (000/000-04), «la sœur de grand-papa … est venue vivre ici» (Vassilissa Babanine, 066/1876-10-06), «notre ancien nid» (066/1876-10-06). Management and "lost estate" sentences recast accordingly. %%
+%% 2026-10-21T22:12:00 RSR: First line «Former Bashkirtseff family estate» replaced: Tcherniakovka is grand-papa Babanine's house: «Tcherniakovka où il y avait plus de distractions» with «chez grand-papa» (000/000-04), «la sœur de grand-papa … est venue vivre ici» (Vassilissa Babanine, 066/1876-10-06), «notre ancien nid» (066/1876-10-06). Management and "lost estate" sentences recast accordingly. %%

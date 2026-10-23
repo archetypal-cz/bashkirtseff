@@ -34,4 +34,4 @@ The Fronde was the last major rebellion against the French crown before the Revo
 
 - First mentioned: 1875-08-17 (dream sequence)
 
-%% 2026-02-10T18:00:00 RSR: Created entry. Marie's Fronde dream at Schlangenbad, likely inspired by Dumas reading. %%
+%% 2026-02-10T18:00:00 RSR: Marie's Fronde dream at Schlangenbad, likely inspired by Dumas reading. %%

@@ -24,4 +24,4 @@ A man of the family's Nice circle in 1875-76; not identified. The Mon Journal t.
 - First mentioned: 1875-12-27 (051)
 - Key entries: 1876-04-28, 1876-05-02 (059)
 
-%% 2026-10-21T09:41:16 RSR: Created during RSR of the restored carnet 059 paragraphs (4 mentions, no entry). Tagged only in the restored paragraph 059.0574; 051/1875-12-27 and 059/1876-05-02 still need the tag (reported to the lead). %%
+%% 2026-10-21T09:41:16 RSR: Tagged only in the restored paragraph 059.0574; 051/1875-12-27 and 059/1876-05-02 still need the tag (reported to the lead). %%

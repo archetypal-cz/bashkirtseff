@@ -16,6 +16,3 @@ replaced_by: GISELLE
 
 %% GLO_GISELLE_VAN_BAEKER.0001 %%
 **Retired.** Merged into [#GISELLE](GISELLE.md) (`people/mentioned/GISELLE.md`); use that entry instead.
-
-%% GLO_GISELLE_VAN_BAEKER.0002 %%
-%% 2026-10-21T21:22:08 RSR: Retired by glossary-merge; content and links moved to GISELLE. replaced_by: people/mentioned/GISELLE.md. %%

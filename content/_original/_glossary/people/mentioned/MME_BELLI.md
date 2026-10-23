@@ -30,5 +30,3 @@ Marie's family counts her among the enemies around Gritz:
 
 ## Translation
 Keep the name as Marie writes it.
-
-%% 2026-10-21T11:18:21 RSR: Created during RSR research of the restored 065 paragraphs (rsr-065). %%

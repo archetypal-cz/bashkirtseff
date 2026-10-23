@@ -24,4 +24,4 @@ At Spa he keeps company with Marie's mother at the band concerts and at table d'
 - 1875-07-03 (035.0153)
 - 1877-01-21, 01-29 (068)
 
-%% 2026-10-21T09:05:00 RSR: Created from the restored paragraph 035.0153; only 035 is tagged so far. First name and family not researched. %%
+%% 2026-10-21T09:05:00 RSR: First name and family not researched. %%

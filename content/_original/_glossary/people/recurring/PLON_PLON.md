@@ -29,6 +29,4 @@ As a Bonapartist, Plon-Plon was part of the political world Marie followed close
 
 - [#Cassagnac](CASSAGNAC.md) - Bonapartist deputy Marie followed
 
-%% 2026-02-11T13:30:00 RSR: Per Kernberger (2013), "Plon-Plon" was the nickname for Prince Napoleon, Joseph Charles Paul (1821-1891). Enriched from stub. %%
-
-%% 2026-10-22T20:54:03 RSR: Merged JEROME (no content kept: empty stub) %%
+%% 2026-02-11T13:30:00 RSR: Per Kernberger (2013), "Plon-Plon" was the nickname for Prince Napoleon, Joseph Charles Paul (1821-1891). %%

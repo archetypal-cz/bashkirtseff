@@ -11,7 +11,6 @@ last_updated: 2026-05-31
 ---
 # Comte Grimau
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (May–June 1873, Geneva and Nice)
 
@@ -28,4 +27,4 @@ A count known to M. Yourkoff, encountered at the circus in Geneva in May 1873. M
 
 Identity unconfirmed. The name "Grimau" may be a French rendering of a Spanish or Italian surname. He was apparently a regular presence in the Nice–Geneva Russian social circuit in the early 1870s.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link (3 mentions in carnet 005). Real person — count known to the Russian social circle in Geneva and Nice, 1873. %%
+%% 2026-05-31T12:00:00 RSR: Real person — count known to the Russian social circle in Geneva and Nice, 1873. %%

@@ -14,6 +14,3 @@ replaced_by: STARZINSKI
 
 %% GLO_COUNT_STARZINSKY.0001 %%
 **Retired.** Merged into [#STARZINSKI](STARZINSKI.md) (`people/mentioned/STARZINSKI.md`); use that entry instead.
-
-%% GLO_COUNT_STARZINSKY.0002 %%
-%% 2026-10-22T22:10:08 RSR: Retired by glossary-merge; content and links moved to STARZINSKI. replaced_by: people/mentioned/STARZINSKI.md. %%

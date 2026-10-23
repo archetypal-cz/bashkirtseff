@@ -13,6 +13,3 @@ replaced_by: MACAINNE
 
 %% GLO_MACAINNE_FAMILY.0001 %%
 **Retired.** Merged into [#MACAINNE](MACAINNE.md) (`people/mentioned/MACAINNE.md`); use that entry instead.
-
-%% GLO_MACAINNE_FAMILY.0002 %%
-%% 2026-10-22T22:12:02 RSR: Retired by glossary-merge; content and links moved to MACAINNE. replaced_by: people/mentioned/MACAINNE.md. %%

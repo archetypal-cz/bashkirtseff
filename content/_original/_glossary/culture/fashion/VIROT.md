@@ -33,4 +33,4 @@ The 1870s-1880s were the golden age of Parisian millinery. Hats grew increasingl
 %% GLO_VIROT.0008 %%
 - Referenced among Marie's fashionable purchases in Paris
 
-%% 2026-02-10T20:00:00 RSR: Enriched from stub. Parisian millinery house. %%
+%% 2026-02-10T20:00:00 RSR: Parisian millinery house. %%

@@ -29,5 +29,3 @@ Wolf belongs to the circle of elderly Russians around the Anitchkoffs that Marie
 ## Related
 - [ANITCHKOFF](../recurring/ANITCHKOFF.md)
 - [GUSTAVE_PIERRET](GUSTAVE_PIERRET.md)
-
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%

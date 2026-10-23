@@ -24,5 +24,3 @@ Old Pelikan is infatuated with her, and Nice already gossips about it (068.0594)
 
 ## Related
 - [PELIKAN](PELIKAN.md)
-
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%

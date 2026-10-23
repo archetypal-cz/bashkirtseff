@@ -30,4 +30,4 @@ Adelaide Ristori (1822–1906), the Italian tragic actress, celebrated in Paris 
 ## Sources
 - Wikipedia EN, «Adelaide Ristori».
 
-%% 2026-10-21T11:03:22 RSR: Created during RSR research of the restored 086 paragraphs (rsr-086). Only 086.0321 is tagged here so far; the 1876 mentions still need the tag. %%
+%% 2026-10-21T11:03:22 RSR: Only 086.0321 is tagged here so far; the 1876 mentions still need the tag. %%

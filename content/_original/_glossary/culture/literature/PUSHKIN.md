@@ -69,5 +69,3 @@ This cultural context was important to Marie's understanding of her family herit
 - [#Lord_Byron](../../people/aristocracy/LORD_BYRON.md) - Influence on Russian Romantics
 - [#Grand_papa](../../people/family/GRAND_PAPA.md) - Marie's grandfather, Pushkin's contemporary
 - [#Russia](../../places/countries/RUSSIA.md)
-
-%% 2025-12-07T12:15:00 RSR: Created entry for cultural context of Marie's grandfather's generation %%

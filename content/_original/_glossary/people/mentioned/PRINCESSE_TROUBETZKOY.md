@@ -17,7 +17,6 @@ last_updated: 2026-10-22
 # Princess Lise Troubetzkoy
 
 ## Overview
-%% 2026-10-22T22:16:12 RSR: Body written from the tagged paragraphs and the merged entry PRINCESSE_TROUBETSKOY (stub pass 2026-10-22). %%
 Princess Elisabeth («Lise») Troubetzkoy (Troubetskoy), the Paris salon hostess of the 1870s and 1880s, friend of Thiers and of Gambetta; Marie calls her «l'ineffable Lise». The Mon Journal indexes list «Troubetskoy (princesse Lise)» (t.9), «Troubetzkoy (Elisabeth, princesse)» (t.11), «Troubeskoy (princesse Elisabeth)» (t.13) and «Troubeskoy (Mme Lise)» (t.14). Her daughter and the family are in [#Troubetzkoy](TROUBETZKOY.md).
 
 ## In Marie's diary
@@ -25,7 +24,3 @@ Princess Elisabeth («Lise») Troubetzkoy (Troubetskoy), the Paris salon hostess
 - 18 April 1878: «La princesse Troubetzkoy est bête, mais c'est la princesse Troubetzkoy, on dit aussi qu'à défaut d'esprit elle a plus d'intrigues que deux» (079.0454); 11 May 1878: «M. Thiers à la bonne heure, il a créé Mme Troubetzkoy» (080.0110).
 - 1878: Cassagnac «ne serait pas fâché de présider un salon convenable, de jouer M. Thiers chez la princesse Troubetzkoy» (080.0162); «Si cette princesse Troubetzkoy revenait je pourrais la connaître par les Boyd» (080.0509); Princess Eristoff, «une amie de la princesse Troubetzkoy», writes to Gambetta for tickets (083.0111).
 - 4 August 1882: «Faire une chasse à la Lise Troubetskoy» (096.0015).
-
-%% 2026-10-21T21:16:32 RSR: Merged MME_TROUBETZKOY (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
-
-%% 2026-10-22T22:13:32 RSR: Merged PRINCESSE_TROUBETSKOY (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%

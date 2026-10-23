@@ -58,6 +58,3 @@ Marie does not say in which language or translation she reads. The LAN note at 0
 
 %% GLO_AB_URBE_CONDITA.0009 %%
 For the historian himself, see [Tite-Live](../../people/writers/TITE_LIVE.md).
-
-%% GLO_AB_URBE_CONDITA.0010 %%
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

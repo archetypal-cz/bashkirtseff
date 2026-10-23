@@ -16,9 +16,3 @@ The *carricolo* was the light two-wheeled, one-horse cart of Naples, proverbial 
 ## References in Diary
 - 1877-04-07, Naples (070.0211): with the Fabbricatore girls in the carriage and the gentlemen climbing on, «nous avons l'air d'un Carricolo; il y avait du monde partout, sur les roues, presque sur les chevaux».
 - 1877-04-29 (071.0037): «— En carricolo !», in the dialogue of friends arriving from Naples.
-
-%% GLO_CARRICOLO.9000 %%
-%% 2026-10-03T16:00:00 RSR: Moved from people/mentioned/CARRICOLO.md. Body copied unchanged. %%
-
-%% GLO_CARRICOLO.9400 %%
-%% 2026-10-22T20:26:03 RSR: Auto-stub body replaced from the two diary mentions and the 070.0211 footnote; both paragraphs tagged (glossary orphan review). %%

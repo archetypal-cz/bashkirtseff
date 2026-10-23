@@ -50,4 +50,4 @@ For Marie, *Ruy Blas* is "l'opéra d'Antonelli": the music she associates with P
 - Wikipédia fr, ["Ruy Blas (Marchetti)"](https://fr.wikipedia.org/wiki/Ruy_Blas_(Marchetti)).
 - Libretto (Internet Archive), IMSLP.
 
-%% 2026-10-10T21:36:00 RSR: New entry (works batch 01). Supersedes the auto-stub people/mentioned/RUY_BLAS.md. 002.0135 and 029.0271 are the Nice seasons of 1873 and 1875 (presumed this opera, not named); the "Nelly" of 002.0135 is unidentified. %%
+%% 2026-10-10T21:36:00 RSR: 002.0135 and 029.0271 are the Nice seasons of 1873 and 1875 (presumed this opera, not named); the "Nelly" of 002.0135 is unidentified. %%

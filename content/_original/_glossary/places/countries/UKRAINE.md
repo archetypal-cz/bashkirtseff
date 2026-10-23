@@ -54,5 +54,3 @@ The Ukrainian provinces in Marie's time:
 - [#Poltava](../cities/POLTAVA.md) - The regional capital near the family estates
 - [#Nice](../cities/NICE.md) - Where the family settled after leaving Ukraine
 - [#Paris](../cities/PARIS.md) - Marie's adopted home
-
-%% 2026-02-10T14:00:00 RSR: Expanded from one-line stub with family and historical context %%

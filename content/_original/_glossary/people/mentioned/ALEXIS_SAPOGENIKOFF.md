@@ -11,7 +11,6 @@ last_updated: 2026-05-31
 ---
 # Alexis (at the Sapogenikoffs)
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnets 005 (May–June 1873, Geneva)
 
@@ -28,7 +27,7 @@ A young man referred to as "Alexis" or "Aliocha" (Russian diminutive of Alexis) 
 
 Identity uncertain; no surname confirmed. The diminutive "Aliocha" (Альоша) confirms Russian given name Alexei/Alexis.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real person — young man living with the Sapogenikoffs in Geneva, 1873. %%
+%% 2026-05-31T12:00:00 RSR: Real person — young man living with the Sapogenikoffs in Geneva, 1873. %%
 
 ## Related Entries
 - [Sapogenikoff Family](SAPOGENIKOFF.md)

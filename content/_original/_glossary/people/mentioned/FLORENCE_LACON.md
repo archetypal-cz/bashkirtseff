@@ -28,4 +28,4 @@ Florence Foster, an English girl Marie has known since the summer of 1874 at Ost
 
 Which Lacon she married (the family of the Lacon baronets of Great Yarmouth is the obvious candidate, given «Lady Lacon» at 080.0322) was not established (0.5). Before her marriage Marie calls her simply «Foster»; those 1874–1877 paragraphs were checked one by one on 2026-10-22 and the ones meaning her retagged here (see FOSTER), since FOSTER also covers her family.
 
-%% 2026-10-22T14:26:58 RSR: B-65 (3): body written. Decision: FLORENCE_LACON is Florence herself (from 1878); FOSTER is the Foster family (Ostend 1874, Arthur Foster); retired FLORENCE_FOSTER should be re-pointed here, not to FOSTER. Tagged 080.0305, 080.0321, 080.0322. %%
+%% 2026-10-22T14:26:58 RSR: Decision: FLORENCE_LACON is Florence herself (from 1878); FOSTER is the Foster family (Ostend 1874, Arthur Foster); retired FLORENCE_FOSTER should be re-pointed here, not to FOSTER. Tagged 080.0305, 080.0321, 080.0322. %%

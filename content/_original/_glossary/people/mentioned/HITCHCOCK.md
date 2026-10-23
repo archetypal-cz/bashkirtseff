@@ -37,5 +37,3 @@ Foreign language teachers for wealthy families in Nice during this period often 
 The fact that Marie specifically mentions "conversation lessons" suggests that Hitchcock's teaching approach was focused on practical speaking skills rather than formal grammar instruction. This would have involved dialogue practice, pronunciation correction, and possibly discussion of current events or literature to build vocabulary and fluency.
 
 Marie's educational program was unusually comprehensive for a young woman of her time, including multiple languages (Russian, French, English, Italian, German, and Latin), as well as music, art, and sciences. Her English lessons with Hitchcock were part of this ambitious educational agenda.
-
-%% 2025-04-05T21:45:00 RSR: Created entry based on mention in September 15, 1873 diary entry %%

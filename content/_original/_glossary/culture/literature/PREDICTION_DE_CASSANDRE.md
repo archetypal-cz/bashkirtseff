@@ -72,4 +72,4 @@ The poem is the best surviving example of the mock-letters and verses she aimed 
 - No printed edition; the poem exists only inside the diary
 
 %% GLO_PREDICTION_DE_CASSANDRE.0015 %%
-%% 2026-10-10T20:48:06 RSR: Created in the works-glossary wave (batch 10). Stanza counts from the numbered stanzas in 046.0156-0181 (26) and 050.0381-0417 (38, stated by Marie in 050.0418). LEON_D_AUDIFFRET kinship left unresolved per the owner ruling in that entry. %%
+%% 2026-10-10T20:48:06 RSR: Stanza counts from the numbered stanzas in 046.0156-0181 (26) and 050.0381-0417 (38, stated by Marie in 050.0418). LEON_D_AUDIFFRET kinship left unresolved per the owner ruling in that entry. %%

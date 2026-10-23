@@ -29,4 +29,4 @@ Mount Vesuvius (French *le Vésuve*), the volcano above the Bay of Naples. It is
 
 See [Naples](../cities/NAPLES.md).
 
-%% 2026-10-22T21:40:14 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Eight of the nine tagged paragraphs read (068.1139 is a verse); existing opening sentence kept. %%
+%% 2026-10-22T21:40:14 RSR: Eight of the nine tagged paragraphs read (068.1139 is a verse); existing opening sentence kept. %%

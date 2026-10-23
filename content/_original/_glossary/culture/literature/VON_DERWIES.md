@@ -13,6 +13,3 @@ replaced_by: DERWIES
 
 %% GLO_VON_DERWIES.0001 %%
 **Retired.** Merged into [#DERWIES](../../people/recurring/DERWIES.md) (`people/recurring/DERWIES.md`); use that entry instead.
-
-%% GLO_VON_DERWIES.0002 %%
-%% 2026-10-22T20:58:57 RSR: Retired by glossary-merge; content and links moved to DERWIES. replaced_by: people/recurring/DERWIES.md. %%

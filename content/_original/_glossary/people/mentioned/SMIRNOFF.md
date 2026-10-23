@@ -46,6 +46,3 @@ Described as someone who would not be received at any hotel without proper attir
 - Monte Carlo (where he was brought from)
 - Sapogenikoff house (where he stays)
 - Nice social circle (regular participant)
-
-%% GLO_SMIRNOFF.9000 %%
-%% 2026-10-03T10:00:00 RSR: Moved from places/hotels/SMIRNOFF.md. Body copied unchanged. %%

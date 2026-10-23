@@ -17,5 +17,3 @@ He appears in the diary as one of the circle of [#Paul de Cassagnac](../recurrin
 - 1878-11-05 (083.0115), visiting Cassagnac's young wife and her mother: «Le père Cassagnac, Robert Mitchell et Cunéo d'Ornano sont venus voir la comtesse Stéphano Cassagnac et sa jeune mère.»
 - 1879-03-20 (084.0511): at the railway station for Versailles, where Cassagnac's election is to be validated, he is among «R. Mitchell, Cunéo, Loqueyssie, ses intimes».
 - 1879-06-16 (085.0344): «Dugué» and «Cuneo» with Gavini on the station platform after the Chamber scene in which Cassagnac, Rouher and Gambetta clashed.
-
-%% 2026-10-22T21:29:21 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

@@ -96,6 +96,3 @@ Key areas within the Bois that Marie would have known:
 - [#Champs_Elysees](../travel/CHAMPS_ELYSEES.md) - Another fashionable promenade
 - [#Longchamp](../cities/LONGCHAMP.md) - Racecourse within the Bois
 - [#Jardin_dAcclimatation](../parks/JARDIN_DACCLIMATATION.md) - Zoo and garden within the Bois
-
-%% 2025-07-06T00:00:00 RSR: Initial basic entry created %%
-%% 2026-02-10T10:15:00 RSR: Expanded to comprehensive with historical development, social significance, and Marie's relationship to the park %%

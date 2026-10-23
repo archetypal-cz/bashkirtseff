@@ -18,4 +18,4 @@ A villa in Nice that Marie walks to look at. On 2 October 1874, rising «bien po
 
 - 1874-10-02 (024.0187, Nice): the only mention.
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph; position on the Promenade is the older RSR note, not the diary. %%
+%% 2026-10-22T21:39:42 RSR: One paragraph; position on the Promenade is the older RSR note, not the diary. %%

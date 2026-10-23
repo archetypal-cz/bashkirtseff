@@ -24,4 +24,4 @@ Prince Pierre-Napoléon Bonaparte (1815–1881), son of Lucien Bonaparte and nep
 
 Not Prince Pierre Karageorgevitch ([PRINCE_PIERRE_KARAGEORGEVITCH](PRINCE_PIERRE_KARAGEORGEVITCH.md)).
 
-%% 2026-10-22T14:42:45 RSR: B-77 (6): unused auto-stub given its referent (the two diary mentions of «le prince Pierre» Bonaparte, both tagged now). %%
+%% 2026-10-22T14:42:45 RSR: Unused auto-stub given its referent (the two diary mentions of «le prince Pierre» Bonaparte, both tagged now). %%

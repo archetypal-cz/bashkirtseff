@@ -21,6 +21,4 @@ Streets in Paris, on the way to the Trocadéro, where Marie goes for a drive: on
 
 - 1881-08-18 (092.0429, Paris): the only mention.
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph. %%
-
-%% 2026-10-22T22:32:15 RSR: Renamed from TOURVILLE (stub-pass apply 2026-10-22); body carried over %%
+%% 2026-10-22T21:39:42 RSR: One paragraph. %%

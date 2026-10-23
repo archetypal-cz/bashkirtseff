@@ -89,4 +89,4 @@ The story also shows Marie's ironic distance—even in describing this impressiv
 - Life of Alexander II - [Britannica](https://www.britannica.com/summary/Alexander-II-emperor-of-Russia)
 - Marie Bashkirtseff's diary, Book 00, paragraph 00.19
 
-%% 2025-12-07T15:00:00 RSR: Created comprehensive entry for Alexander II based on Marie's 1884 preface and historical research. The encounter with Marie's mother circa 1870 illustrates both imperial accessibility and social dynamics of Russian aristocracy. %%
+%% 2025-12-07T15:00:00 RSR: The encounter with Marie's mother circa 1870 illustrates both imperial accessibility and social dynamics of Russian aristocracy. %%

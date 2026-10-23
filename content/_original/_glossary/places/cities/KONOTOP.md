@@ -17,5 +17,3 @@ Konotop, a town in the Chernigov province of the Russian Empire (now Sumy oblast
 - 1876-08-02 (064.0388)
 - 1876-08-08 (064.0457)
 - 1878-10-27 (083.0058)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

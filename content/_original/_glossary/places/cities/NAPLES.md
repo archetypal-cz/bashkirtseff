@@ -219,6 +219,4 @@ The city's dual nature -- magnificent and degraded, aristocratic and wretched, l
 - [Grand Tour - Wikipedia](https://en.wikipedia.org/wiki/Grand_Tour)
 - [Camorra - Wikipedia](https://en.wikipedia.org/wiki/Camorra)
 
-%% 2025-07-06T00:00:00 RSR: Initial basic entry created %%
-%% 2026-02-10T11:15:00 RSR: Expanded to comprehensive with 1877 Carnival visit, historical context, and key sites %%
 %% 2026-05-24T12:00:00 RSR: Substantially expanded with paragraph IDs (GLO_NAPLES.0001-0033), extensive diary quotes with paragraph references, Wikipedia links throughout, corrected Victor Emmanuel II claim (admiration from afar, no documented personal encounter), added 1876 visit details (first impressions, Pompeii excursion, races), 1877 Carnival detail (San Carlo veglione, Larderei, Sorrento excursion, psychological collapse), lazzaroni, Neapolitan music/serenades, Bourbons de Naples marriage scheme, nostalgia passages through 1883. Sources: diary entries across ~20 carnets, Wikipedia, web research on post-unification Naples, Teatro di San Carlo, Grand Tour tradition, canzone napoletana. %%

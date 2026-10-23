@@ -22,5 +22,4 @@ The abbey church in London, coronation church and burial place of English monarc
 - 1874-09-09 (023.0614, London): the only mention; part of the London stay of 6-14 September 1874 (see [Hyde Park](../parks/HYDE_PARK.md)).
 
 
-
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Single mention. Category people/mentioned is wrong: place; move proposed. %%
+%% 2026-10-22T21:33:17 RSR: Single mention. Category people/mentioned is wrong: place; move proposed. %%

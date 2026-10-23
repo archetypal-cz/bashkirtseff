@@ -29,4 +29,4 @@ Villemessant was a significant figure in French media and society:
 - [#Nice](../cities/NICE.md) - The city
 - [#Paris](../cities/PARIS.md) - Where Le Figaro was published
 
-%% 2026-02-10T15:50:00 RSR: Expanded from one-line stub. Connection to Villemessant/Le Figaro needs further research. %%
+%% 2026-02-10T15:50:00 RSR: Connection to Villemessant/Le Figaro needs further research. %%

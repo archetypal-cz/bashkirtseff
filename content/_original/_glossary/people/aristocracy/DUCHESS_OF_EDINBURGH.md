@@ -28,4 +28,4 @@ As a Russian grand duchess who married into the British royal family, Maria Alex
 - [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) -- Part of the same British aristocratic world
 
 %% GLO_DUCHESS_OF_EDINBURGH.0006 %%
-%% 2026-02-10T12:15:00 RSR: Enriched from stub. The Duchess of Edinburgh was a Russian grand duchess who married Queen Victoria's son in 1874. %%
+%% 2026-02-10T12:15:00 RSR: The Duchess of Edinburgh was a Russian grand duchess who married Queen Victoria's son in 1874. %%

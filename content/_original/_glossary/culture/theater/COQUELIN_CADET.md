@@ -28,4 +28,4 @@ Marie attended performances at the Comédie-Française and other Parisian theate
 %% GLO_COQUELIN_CADET.0006 %%
 - Referenced in theater attendance entries
 
-%% 2026-02-10T20:00:00 RSR: Enriched from stub. Comic actor at Comédie-Française. %%
+%% 2026-02-10T20:00:00 RSR: Comic actor at Comédie-Française. %%

@@ -38,5 +38,3 @@ Brittany (Bretagne), the westernmost region of France, appears in Marie Bashkirt
 ## Related Entries
 - [#Paris](../cities/PARIS.md) - The capital from which travel to Brittany departed
 - [#Dieppe](../travel/DIEPPE.md) - Another northern French coastal destination
-
-%% 2026-02-10T15:00:00 RSR: Expanded from one-line stub with regional context %%

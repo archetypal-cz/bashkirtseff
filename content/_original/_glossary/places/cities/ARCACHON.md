@@ -24,4 +24,4 @@ The seaside and winter resort on the Bassin d'Arcachon in the Gironde (Wikipedia
 
 See [Les Saintes Femmes](../../culture/art/LES_SAINTES_FEMMES.md).
 
-%% 2026-10-22T21:34:03 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Four paragraphs read; resort identified from Wikipedia. %%
+%% 2026-10-22T21:34:03 RSR: Four paragraphs read; resort identified from Wikipedia. %%

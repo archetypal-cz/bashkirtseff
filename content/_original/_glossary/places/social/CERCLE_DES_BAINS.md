@@ -23,4 +23,4 @@ The club is the centre of the Ostend social round: an evening after the Kursaal 
 
 - 1874-08-15 to 1874-09-05 (023.0125 – 023.0524). Eleven tagged paragraphs.
 
-%% 2026-10-22T20:46:00 RSR: Body written. «Ostend» as the setting is from the carnet (023) and the other tags, e.g. BARON_LEISS. %%
+%% 2026-10-22T20:46:00 RSR: «Ostend» as the setting is from the carnet (023) and the other tags, e.g. BARON_LEISS. %%

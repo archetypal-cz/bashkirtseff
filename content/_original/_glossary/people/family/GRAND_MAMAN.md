@@ -141,13 +141,11 @@ The grandmother played a protective role in the family. When Marie's father kidn
 - Marie's 1884 preface (Book 00, paragraphs 00.11-00.14, 00.29, 00.41-00.42)
 - Historical research on Babanin family dynamics
 
-%% 2025-12-07T14:30:00 RSR: Created based on Book 00 preface and historical research on Babanina family. Grand-maman died before 1870, prompting family's departure from Russia. %%
+%% 2025-12-07T14:30:00 RSR: Grand-maman died before 1870, prompting family's departure from Russia. %%
 %% 2025-12-07T16:00:00 RSR: Updated with details from paragraphs 00.11-00.13 about her role raising Marie and the Gavronzi custody battle. %%
 %% 2026-02-11T14:15:00 RSR: Per Kernberger (2013), Grand-maman was Julie Babanine, née Cornelius (died 1867). Kernberger's chronology states: "Soon after the wedding [of Nadine to Romanoff in 1866], Marie's grandmother Julie Babanine dies." The family then departed for Europe in 1870. Husband: Stepan Babanine (1807-1878), Marie's grandfather. Note: Our existing entry incorrectly states she "died suddenly in 1870" — Kernberger places her death in 1866/1867, soon after the Romanoff wedding. %%
 
-%% 2026-10-22T22:10:48 RSR: Merged GRAND_MERE (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## «Ma grand-mère» (1874)
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 25 November 1874 (merged entry GRAND_MERE): in the dinner scene where her grandfather quarrels with the guests, he «évoqua le souvenir de ma grand-mère, cette femme qu'il a outragée et maltraitée toute sa vie, et voilà qu'il dit qu'après sa mort on le maltraite» (027.0015). «Papa» in the Nice pages of 1873–75 is her grandfather Babanine, so «ma grand-mère» is his late wife, Grand-maman.

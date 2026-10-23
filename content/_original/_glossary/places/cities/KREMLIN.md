@@ -46,5 +46,3 @@ The Kremlin was most spectacularly used for imperial coronations:
 ## Related Entries
 - [#Moscow](./MOSCOW.md) - The city containing the Kremlin
 - [#Winter_Palace](../buildings/WINTER_PALACE.md) - The imperial residence in St. Petersburg
-
-%% 2026-02-10T13:25:00 RSR: Expanded from one-line stub with historical context %%

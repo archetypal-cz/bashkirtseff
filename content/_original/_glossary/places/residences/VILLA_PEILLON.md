@@ -18,4 +18,4 @@ A villa with a garden in Nice where Marie goes to pick out plants. On 7 April 18
 
 - 1875-04-07 (031.0114, Nice): the only mention.
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph. %%
+%% 2026-10-22T21:39:42 RSR: One paragraph. %%

@@ -43,4 +43,4 @@ This thematic tag marks diary paragraphs where Marie, or her family with her, ac
 - Church is also a social venue: Marie notes who was there, who looked at her, and what she wore, so Church often co-occurs with [Fashion](FASHION.md) and [Love](LOVE.md).
 - Orthodox feast days follow the Julian calendar, twelve days behind the dates Marie writes at the head of her entries.
 
-%% 2026-09-28T10:40:00 RSR: Created thematic tag entry (theme-tags pilot, see .claude/reports/theme-tags-2026-09-28.md). Attendance only; general religious content stays under RELIGION. %%
+%% 2026-09-28T10:40:00 RSR: Attendance only; general religious content stays under RELIGION. %%

@@ -44,4 +44,4 @@ The pseudonym belongs to the feminist outing of December 1880. At the Droit des 
 
 %% 2026-10-02T10:00:00 RSR: Identity resolved from the printed indexes of Mon Journal t.8, t.13 and t.14 (checked in content/_raw/tome08/13/14.docx) plus the diary text at 090.0293 and 090.0319. The LAN note at 090.0319 (1880-12-08) that reads "Marie as Norscott, de Daillens as Orell" is the reverse of the text and of the t.14 index; the footnote there is correct. No Kernberger passage consulted. %%
 
-%% 2026-07-06T21:00:00 RSR: Rewrote merged entry with real research after the 3-way merge (DAILLENS + MME_DE_DAILLENS → DE_DAILLENS) executed by the team lead. Identity resolved from direct diary evidence: 072/1877-06-25 RSR note ("Mme de Daillens is Mme de Mouzay's daughter") plus the 034/1875-06-07 "sa fille" match plus consistent feminine pronouns across a decade of mentions. %%
+%% 2026-07-06T21:00:00 RSR: Identity resolved from direct diary evidence: 072/1877-06-25 RSR note ("Mme de Daillens is Mme de Mouzay's daughter") plus the 034/1875-06-07 "sa fille" match plus consistent feminine pronouns across a decade of mentions. %%

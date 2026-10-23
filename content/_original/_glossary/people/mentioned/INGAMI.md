@@ -27,5 +27,4 @@ First seen in April 1876, spelled «Yngami»: «un certain Yngami [sic] je crois
 - [ANTONELLI](ANTONELLI.md)
 - [PIZZARDI](PIZZARDI.md)
 
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%
 %% 2026-10-21T09:41:16 RSR: 1876 «Yngami» passage added during RSR of the restored carnet 059 paragraphs. %%

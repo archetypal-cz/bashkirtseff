@@ -39,7 +39,6 @@ For a young woman like Marie, knowing which hotel a gentleman of interest was st
 
 ---
 
-%% 2026-02-04T06:46:52.572Z RSR: Merged content from HOTEL_D_ANGLETERRE %%
 
 # Hotel d Angleterre
 
@@ -52,8 +51,3 @@ For a young woman like Marie, knowing which hotel a gentleman of interest was st
 
 ## References in Diary
 [Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content

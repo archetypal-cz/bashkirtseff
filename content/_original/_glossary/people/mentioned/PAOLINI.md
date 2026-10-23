@@ -25,5 +25,3 @@ Marie names him («Ah ! oui cet homme a nom *Cavaliere Paolini*», 070.0245) and
 - 1877-04-07 (070.0240, 070.0245, 070.0259, 070.0262)
 
 See also [#Victor_Emmanuel_II](VICTOR_EMMANUEL_II.md).
-
-%% 2026-10-21T09:54:10 RSR: Created during RSR research of the restored carnet 070 paragraphs (rsr-070a). %%

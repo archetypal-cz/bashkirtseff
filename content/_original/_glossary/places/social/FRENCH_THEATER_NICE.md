@@ -47,5 +47,3 @@ The theater served multiple social functions beyond entertainment:
 
 - **September 13, 1873**: Marie attends the opening night of the French Theater season, watching "Le changement de mains" and part of "Les jocrisses de l'amour"
 - **September 14, 1873**: Marie expresses indignation about Lefèvre's behavior at the theater the previous night
-
-%% 2025-04-05T18:40:00 RSR: Created glossary entry for the French Theater in Nice based on Marie's September 13-14, 1873 entries %%

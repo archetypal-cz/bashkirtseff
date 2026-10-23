@@ -23,4 +23,4 @@ last_updated: 2026-10-22
 ## Do not confuse with
 Marie's own projected statue *Ariane* (1879–1883), [#Ariane_statue](ARIANE_STATUE.md), which comes later and has a different subject (Ariadne abandoned on Naxos).
 
-%% 2026-10-22T20:26:03 RSR: Auto-stub body replaced (glossary orphan review). 081.0457 and 081.0566 were tagged ARIANE_STATUE (Marie's 1879–1883 project) although both paragraphs are about Dannecker's statue; both retagged here. Bare alias «Ariane» dropped (it belongs to ARIANE_STATUE / ARIADNE). Move candidate: culture/art. Frontmatter entities of 081/1878-07-15 and 081/1878-07-31 still list ARIANE_STATUE (entities-sync). %%
+%% 2026-10-22T20:26:03 RSR: 081.0457 and 081.0566 were tagged ARIANE_STATUE (Marie's 1879–1883 project) although both paragraphs are about Dannecker's statue; both retagged here. Bare alias «Ariane» dropped (it belongs to ARIANE_STATUE / ARIADNE). Move candidate: culture/art. Frontmatter entities of 081/1878-07-15 and 081/1878-07-31 still list ARIANE_STATUE (entities-sync). %%

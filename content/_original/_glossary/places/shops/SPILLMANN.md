@@ -23,5 +23,4 @@ A meeting point during her Roman stays: on 26 December 1876 «Chez Spillman ce f
 ## References in Diary
 - 1876-12-26 (068.0301), 1877-02-08 (068.0991), 1877-04-10 (070.0490)
 
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%
 %% 2026-10-21T09:54:10 RSR: 070.0490 reference added (rsr-070a). %%

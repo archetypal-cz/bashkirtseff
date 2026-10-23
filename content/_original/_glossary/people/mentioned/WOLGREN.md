@@ -26,4 +26,4 @@ Mon Journal indices: t.15 «Wolgren (M.), sculpteur : 187, 209»; t.16 «Wolgren
 
 %% 2026-10-22T21:33:17 RSR: Identification Wolgren = Ville Vallgren proposed on the evidence above (Finnish sculptor, Paris from 1877, young artist couple); no source states that he taught Marie. %%
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Identification proposed with confidence 0.8 (web search 2026-10-22: en.wikipedia Ville_Vallgren; data.nationallibrary.fi). %%
+%% 2026-10-22T21:33:17 RSR: Identification proposed with confidence 0.8 (web search 2026-10-22: en.wikipedia Ville_Vallgren; data.nationallibrary.fi). %%

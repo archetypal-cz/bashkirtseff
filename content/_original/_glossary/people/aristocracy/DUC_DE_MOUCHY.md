@@ -23,4 +23,4 @@ A figure of the Nice season of 1874, usually seen with his wife and their circle
 
 016.0274, 016.0276; 017.0176, 017.0366; 019.0077; 024.0092.
 
-%% 2026-10-22T14:30:00 RSR: Stub replaced (A-40). 016.0276 and 017.0176 are tagged MME_DE_MOUCHY in the source; retags queued. %%
+%% 2026-10-22T14:30:00 RSR: 016.0276 and 017.0176 are tagged MME_DE_MOUCHY in the source; retags queued. %%

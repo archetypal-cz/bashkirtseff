@@ -14,6 +14,3 @@ replaced_by: LA_FAVORITE_DONIZETTI
 
 %% GLO_LA_FAVORITA.0001 %%
 **Retired.** Merged into [#LA_FAVORITE_DONIZETTI](../../culture/theater/LA_FAVORITE_DONIZETTI.md) (`culture/theater/LA_FAVORITE_DONIZETTI.md`); use that entry instead.
-
-%% GLO_LA_FAVORITA.0002 %%
-%% 2026-10-22T20:52:49 RSR: Retired by glossary-merge; content and links moved to LA_FAVORITE_DONIZETTI. replaced_by: culture/theater/LA_FAVORITE_DONIZETTI.md. %%

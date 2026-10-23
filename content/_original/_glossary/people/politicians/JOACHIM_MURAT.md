@@ -29,5 +29,5 @@ Not the same person as King Joachim Murat (glossary ROI_MURAT) or Prince Lucien 
 - Wikipedia EN, «Joachim Joseph André Murat».
 - Mon Journal t.13 (L'Âge d'Homme), index.
 
-%% 2026-10-21T11:03:22 RSR: Created during RSR research of the restored 086 paragraphs (rsr-086). Only 086.0628 is tagged here so far; 087.0440 and 089.0030 still need the tag. %%
-%% 2026-10-22T13:58:39 RSR: B-42 (4): 087.0440 (already tagged) and 089.0030 (tag added) now carry this entry. %%
+%% 2026-10-21T11:03:22 RSR: Only 086.0628 is tagged here so far; 087.0440 and 089.0030 still need the tag. %%
+%% 2026-10-22T13:58:39 RSR: 087.0440 (already tagged) and 089.0030 (tag added) now carry this entry. %%

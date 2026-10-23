@@ -42,7 +42,6 @@ Pigeon shooting event in Nice/Monte Carlo area, popular aristocratic sport.
 
 ---
 
-%% 2026-02-04T06:46:52.228Z RSR: Merged content from TIR_AU_PIGEONS %%
 
 # Tir au Pigeons
 
@@ -55,8 +54,3 @@ Pigeon shooting event in Nice/Monte Carlo area, popular aristocratic sport.
 
 ## References in Diary
 [Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content

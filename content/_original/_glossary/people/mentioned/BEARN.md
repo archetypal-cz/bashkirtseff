@@ -28,4 +28,4 @@ We are not sure who this count was. The diary says only that he marries «Mlle W
 
 - 1880-02-08 (087.0436); 1880-05-29 (088.0415: fiancé of Mlle Waléry); 1882-06-07 and 06-08 (095.0137, 095.0139); 1882-06-10 (095.0160: «la petite comtesse de Béarn très sympathique et gentille» at Mme de Janzé's).
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-29.md. Comte de Béarn: mentioned only as Mlle Walery's fiancé; specific identity unclear. %%
+%% 2026-05-31T12:00:00 RSR: Comte de Béarn: mentioned only as Mlle Walery's fiancé; specific identity unclear. %%

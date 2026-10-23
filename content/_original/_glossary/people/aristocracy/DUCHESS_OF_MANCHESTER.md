@@ -30,4 +30,4 @@ As the mother-in-law of the Duke of Hamilton -- the man Marie obsessed over -- t
 - [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) -- Her son-in-law
 
 %% GLO_DUCHESS_OF_MANCHESTER.0006 %%
-%% 2026-02-10T12:15:00 RSR: Enriched from stub. The Duchess of Manchester was the mother of Lady Mary Montagu (later Duchess of Hamilton). %%
+%% 2026-02-10T12:15:00 RSR: The Duchess of Manchester was the mother of Lady Mary Montagu (later Duchess of Hamilton). %%

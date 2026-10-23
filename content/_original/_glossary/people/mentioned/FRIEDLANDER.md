@@ -18,5 +18,3 @@ The Friedlanders, friends of the Howards in Nice: Dr Friedlander, who entertains
 - 1874-12-08 (027.0200): «J'ai parlé à Friedlander» on a morning ride.
 
 First names not found. See [#Howard family](../recurring/HOWARD_FAMILY.md).
-
-%% 2026-10-22T21:39:05 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

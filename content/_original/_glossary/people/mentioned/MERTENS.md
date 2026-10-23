@@ -31,9 +31,4 @@ We have not traced the couple outside the diary: the Belgian baronial family Mer
 - BARON_DE_MERTENS (retired, replaced_by MERTENS); DE_MERTENS (086/1879-11-05, one tag) is the same name and should be merged here (reported to the lead).
 
 ## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-%% 2026-10-22T15:05:00 RSR: Body written for OPEN-ITEMS B-53(4): «Adolphe» per Marie (075.0116) and the t.11 index; t.10 «Alphonse» recorded as a probable slip. Quotes checked in 063.0206, 064.0021, 064.0074, 067.1231, 072.0289, 072.0360, 073.0456, 075.0109, 075.0116, 091.0342, 092.0350. %%
-
-%% 2026-10-22T15:06:52 RSR: Merged DE_MERTENS (no content kept: empty stub) %%
+%% 2026-10-22T15:05:00 RSR: «Adolphe» per Marie (075.0116) and the t.11 index; t.10 «Alphonse» recorded as a probable slip. Quotes checked in 063.0206, 064.0021, 064.0074, 067.1231, 072.0289, 072.0360, 073.0456, 075.0109, 075.0116, 091.0342, 092.0350. %%

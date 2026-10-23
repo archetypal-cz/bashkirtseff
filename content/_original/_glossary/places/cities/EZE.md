@@ -27,5 +27,3 @@ Eze is a medieval hilltop village perched dramatically on a rocky peak 427 meter
 ## Related Entries
 - [#Nice](./NICE.md) - The nearby city
 - [#Monaco](./MONACO.md) - Further along the coast
-
-%% 2026-02-10T16:05:00 RSR: Expanded from one-line stub %%

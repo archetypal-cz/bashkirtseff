@@ -49,5 +49,3 @@ The Palais de l'Industrie was intimately connected to Marie's artistic career:
 - [#Salon](../../culture/art/SALON.md) - The art exhibition held here
 - [#Champs_Elysees](../travel/CHAMPS_ELYSEES.md) - The avenue where the Palais stood
 - [#Paris](../cities/PARIS.md) - The city
-
-%% 2026-02-10T12:45:00 RSR: Expanded from one-line stub with construction history and Salon connection %%

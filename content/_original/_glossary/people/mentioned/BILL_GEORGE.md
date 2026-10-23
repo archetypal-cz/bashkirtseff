@@ -23,4 +23,4 @@ On 11 September 1874 Foster «nous conduit chez Bill George. J'ai choisi un mast
 
 - 1874-09-11 (023.0638), the only tagged paragraph.
 
-%% 2026-10-22T19:40:00 RSR: Body written. NOT A PERSON of her world: a trader; the setting (London, Foster as guide) is inferred from «de Paris j'écrirai à Foster», not stated. %%
+%% 2026-10-22T19:40:00 RSR: NOT A PERSON of her world: a trader; the setting (London, Foster as guide) is inferred from «de Paris j'écrirai à Foster», not stated. %%

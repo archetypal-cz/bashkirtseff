@@ -20,4 +20,4 @@ Vyatka (now Kirov), in the Ural foothills, a common place of administrative exil
 
 - 1881-04-22 (091.0505, Paris): of Georges: «cette vie de proscrit, de criminel, a eu pour origine quelques taquineries aux fonctionnaires de Poltava ... Puis d'autres scandales, l'ivrognerie, la déportation à Vatka, mais pas un fait grave.» Footnote: Georges, her mother's brother, was exiled there as a result of his provincial troubles.
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph + the project footnote. %%
+%% 2026-10-22T21:39:42 RSR: One paragraph + the project footnote. %%

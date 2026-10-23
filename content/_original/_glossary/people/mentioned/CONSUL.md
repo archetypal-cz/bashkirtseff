@@ -12,6 +12,3 @@ status: retired
 
 %% GLO_CONSUL.0001 %%
 **Retired.** «le Consul» (067.1511, 068.0903, 094.0243) is a title; the man is not named in these paragraphs.
-
-%% GLO_CONSUL.0002 %%
-%% 2026-10-22T22:16:12 RSR: Retired in the stub-pass apply (2026-10-22, owner rule: common nouns and descriptive labels are not tagged); its diary tags were removed. %%

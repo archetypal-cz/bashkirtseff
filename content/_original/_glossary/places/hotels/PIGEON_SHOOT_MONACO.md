@@ -16,6 +16,3 @@ replaced_by: MONACO_PIGEON_SHOOT
 
 %% GLO_PIGEON_SHOOT_MONACO.0001 %%
 **Retired.** Merged into [#MONACO_PIGEON_SHOOT](../venues/MONACO_PIGEON_SHOOT.md) (`places/hotels/MONACO_PIGEON_SHOOT.md`); use that entry instead.
-
-%% GLO_PIGEON_SHOOT_MONACO.0002 %%
-%% 2026-10-21T21:22:20 RSR: Retired by glossary-merge; content and links moved to MONACO_PIGEON_SHOOT. replaced_by: places/hotels/MONACO_PIGEON_SHOOT.md. %%

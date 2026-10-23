@@ -28,4 +28,4 @@ Marie encountered General Jeanningros at the Mouzay soiree on 26 May 1880. She w
 
 Wikipedia: [Pierre Joseph Jeanningros](https://en.wikipedia.org/wiki/Pierre_Joseph_Jeanningros)
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-26.md. Général Jeanningros (1816-1902), French general, Foreign Legion commander in Mexico 1863-64. Marie encountered him at the Mouzay soiree and was struck by his military bearing. Source: Wikipedia. %%
+%% 2026-05-31T12:00:00 RSR: Général Jeanningros (1816-1902), French general, Foreign Legion commander in Mexico 1863-64. Marie encountered him at the Mouzay soiree and was struck by his military bearing. Source: Wikipedia. %%

@@ -18,5 +18,5 @@ The Raynaud family of 1877 (Françoise the laundress, her mother and sister, 071
 ## References in Diary
 - 1875-10-17 (047.0117)
 
-%% 2026-10-22T14:33:38 RSR: Body written (ledger B-68 (3)): split needed (lead). %%
-%% 2026-10-22T15:12:00 RSR: Split done: 071.0548–0549 retagged RAYNAUD_FAMILY; this file keeps the 1875 suspect. %%
+%% 2026-10-22T14:33:38 RSR: Split needed (lead). %%
+%% 2026-10-22T15:12:00 RSR: 071.0548–0549 retagged RAYNAUD_FAMILY; this file keeps the 1875 suspect. %%

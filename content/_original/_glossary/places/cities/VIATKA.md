@@ -109,5 +109,3 @@ The Vyatka exile system reflected Russian autocratic power:
 - [Kirov (formerly Vyatka) - Wikipedia](https://en.wikipedia.org/wiki/Kirov,_Kirov_Oblast)
 - [Vyatka Governorate - Wikipedia](https://en.wikipedia.org/wiki/Vyatka_Governorate)
 - [The Russian Revolutionary Emigres, 1825-1870 | Project MUSE](https://muse.jhu.edu/pub/1/oa_monograph/chapter/2412474)
-
-%% 2025-12-07T12:40:00 RSR: Created entry to explain Georges' 1865 exile and Russian administrative exile system %%

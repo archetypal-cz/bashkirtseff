@@ -16,5 +16,3 @@ The British Embassy in Paris, rue du Faubourg-Saint-Honoré. Its ball of the 187
 
 ## References in Diary
 - 1878-05-20 (080.0193)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

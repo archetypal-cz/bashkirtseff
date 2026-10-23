@@ -14,6 +14,3 @@ replaced_by: RICE
 
 %% GLO_MLLE_RICE.0001 %%
 **Retired.** Merged into [#RICE](RICE.md) (`people/mentioned/RICE.md`); use that entry instead.
-
-%% GLO_MLLE_RICE.0002 %%
-%% 2026-10-22T20:58:48 RSR: Retired by glossary-merge; content and links moved to RICE. replaced_by: people/mentioned/RICE.md. %%

@@ -26,7 +26,5 @@ On 8 October 1874 Marie and Dina meet him coming back from the villa, and the mo
 
 %% 2026-10-22T16:00:00 RSR: 024.0266 (8 October 1874); 082.0269 (2 September 1878). %%
 
-%% 2026-10-22T22:12:25 RSR: Merged ORGESKI (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 - 9 January 1874 (merged entry ORGESKI): at the Christmas-tree party in Nice, «Les Orgeski, Anitchkoff, les petites Prodgers» (015.0096). Same Nice family (t.3 index «Orgeski, 14»; t.4 «Orgesko (M.)»); Orgesko is again beside Anitchkoff among the witnesses of the will (082.0269).

@@ -11,7 +11,7 @@ last_updated: 2026-05-24
 # Italian
 
 %% GLO_ITALIAN.0001 %%
-%% 2026-05-24T12:00:00 RSR: Comprehensive expansion of the Italian language glossary entry. Research based on diary entries across carnets 001-106, with particular focus on the Rome period (carnets 054-057, 068), Nice Italian-theater entries (carnets 001-005), and Marie's language-study references. Historical context from Wikipedia and scholarly sources on Nice's Italian heritage, the Risorgimento, and Italian cultural life in the 1870s-80s. %%
+%% 2026-05-24T12:00:00 RSR: Research based on diary entries across carnets 001-106, with particular focus on the Rome period (carnets 054-057, 068), Nice Italian-theater entries (carnets 001-005), and Marie's language-study references. Historical context from Wikipedia and scholarly sources on Nice's Italian heritage, the Risorgimento, and Italian cultural life in the 1870s-80s. %%
 
 ## Overview
 

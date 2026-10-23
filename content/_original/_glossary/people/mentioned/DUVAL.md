@@ -19,5 +19,3 @@ Duval, the Paris furniture dealer and decorator (Mon Journal indexes «Duval, ma
 - 1874-10-03 (024.0210): in despair she wants to cancel the order. 1874-12-24 (027.0394): the deacon writes that Duval has put the Nice furniture in an exhibition in his shop («Tout Paris les admire ... pour une princesse autrichienne»).
 - January 1875 (028.0231–028.0267): the payment dispute begins: Duval, who had said the aunt could pay as she saw fit, «évite les pourparlers»; «Cinquante mille francs payés pendant dix ans sont raisonnables ... mais cinquante mille francs tout de suite c'est folie.» By 1875-06-25 (034.0570) he demands payment in cash and the matter goes to the lawyers.
 - November 1875 (050.0071–0205): Marie, «la tête forte de la maison», negotiates with him; «Avec Duval c'est arrangé, nous partons demain» (1875-11-26, 050.0205).
-
-%% 2026-10-22T21:34:01 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

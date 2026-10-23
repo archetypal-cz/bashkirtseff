@@ -28,4 +28,4 @@ One of the fashionable young men she watches and lists: «Les Doria, Odescalchi,
 
 - [Zucchini](ZUCCHINI.md), [Belmonte](BELMONTE.md), [Torlonia](TORLONIA.md)
 
-%% 2026-10-21T09:41:16 RSR: Created during RSR of the restored carnet 059 paragraphs (15 mentions, no entry). The tag is added only in the restored paragraph 059.0196; the other mentions listed above still need it (reported to the lead). %%
+%% 2026-10-21T09:41:16 RSR: The tag is added only in the restored paragraph 059.0196; the other mentions listed above still need it (reported to the lead). %%

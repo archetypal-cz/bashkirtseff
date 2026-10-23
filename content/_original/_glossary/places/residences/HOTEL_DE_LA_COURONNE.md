@@ -92,4 +92,4 @@ The Hôtel de la Couronne represents:
 - [#Pension_Huberkoller](PENSION_HUBERKOLLER.md) - Where they moved after the hotel
 - [#Mont_Blanc](../landmarks/MONT_BLANC.md) - Visible from the later residence
 
-%% 2025-12-07T17:20:00 RSR: Created entry based on Book 00, paragraphs 00.43-00.44. The hotel was the family's first refuge in Geneva during the Franco-Prussian War. %%
+%% 2025-12-07T17:20:00 RSR: The hotel was the family's first refuge in Geneva during the Franco-Prussian War. %%

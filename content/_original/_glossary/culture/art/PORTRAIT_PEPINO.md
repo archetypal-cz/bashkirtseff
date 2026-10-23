@@ -51,4 +51,4 @@ Pepino was then paying court to her in the loge and the salon (048.0080-0112, 04
 - Diary paragraph 048.0166 and the context paragraphs above. Identification of Pepino with Albert Gautier: see the entry [#Albert_Gautier](../../people/mentioned/ALBERT_GAUTIER.md) (citing Kernberger 2013).
 
 %% GLO_PORTRAIT_PEPINO.0011 %%
-%% 2026-10-10T20:52:00 RSR: Created in the works glossary wave (W417). Inventory said "portrait ... on blue background"; the diary says only "un Pépino immense, sur fond bleu", so medium and genre are left open. %%
+%% 2026-10-10T20:52:00 RSR: Inventory said "portrait ... on blue background"; the diary says only "un Pépino immense, sur fond bleu", so medium and genre are left open. %%

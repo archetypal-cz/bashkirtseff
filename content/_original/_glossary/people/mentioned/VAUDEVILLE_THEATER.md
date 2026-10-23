@@ -14,6 +14,3 @@ replaced_by: VAUDEVILLE
 
 %% GLO_VAUDEVILLE_THEATER.0001 %%
 **Retired.** Merged into [#VAUDEVILLE](../../places/theaters/VAUDEVILLE.md) (`places/theaters/VAUDEVILLE.md`); use that entry instead.
-
-%% GLO_VAUDEVILLE_THEATER.0002 %%
-%% 2026-10-22T22:12:59 RSR: Retired by glossary-merge; content and links moved to VAUDEVILLE. replaced_by: places/theaters/VAUDEVILLE.md. %%

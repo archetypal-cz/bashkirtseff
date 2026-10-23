@@ -20,12 +20,3 @@ last_updated: 2026-03-06
 
 ## References in Diary
 [Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-
-%% 2026-10-21T22:52:50 RSR: Merged M_DE_VALLON (no content kept: empty stub) %%
-
-%% 2026-10-22T20:51:56 RSR: Merged A_DE_VALON (no content kept: empty stub) %%

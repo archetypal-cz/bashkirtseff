@@ -14,6 +14,3 @@ replaced_by: DOMENICA
 
 %% GLO_DOMINICA_PAVLOVNA.0001 %%
 **Retired.** Merged into [#DOMENICA](DOMENICA.md) (`people/mentioned/DOMENICA.md`); use that entry instead.
-
-%% GLO_DOMINICA_PAVLOVNA.0002 %%
-%% 2026-10-21T22:55:46 RSR: Retired by glossary-merge; content and links moved to DOMENICA. replaced_by: people/mentioned/DOMENICA.md. %%

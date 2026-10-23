@@ -22,4 +22,4 @@ On 25 March 1881 Marie lists the young men now at the Gavinis': «Nous avons enc
 
 - 1881-03-25 (091.0355); 1881-03-27 (091.0374).
 
-%% 2026-10-22T19:10:00 RSR: Body written. Nothing found beyond the two paragraphs and the index. %%
+%% 2026-10-22T19:10:00 RSR: Nothing found beyond the two paragraphs and the index. %%

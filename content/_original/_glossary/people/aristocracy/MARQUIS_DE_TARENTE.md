@@ -33,7 +33,3 @@ This entry was mentioned 2 times in Book 13 of Marie's diary (1879).
 ## Related Entries
 
 [To be determined based on research]
-
-%% 2026-10-22T20:55:17 RSR: Merged TARENTE (no content kept: empty stub) %%
-
-%% 2026-10-22T20:55:22 RSR: Merged M_DE_TARENTE (no content kept: empty stub) %%

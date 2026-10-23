@@ -10,7 +10,6 @@ last_updated: 2026-10-22
 ---
 # Rubioni
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (May–June 1873, Nice)
 
@@ -27,4 +26,4 @@ last_updated: 2026-10-22
 
 The name "Rubioni" appears to be Italian in origin, possibly the name of a property owner in Nice. Nice in the 1870s had many Italian-named landowners and villas given its recent (1860) annexation from the Kingdom of Sardinia. Whether this is a villa, a hotel, or a building complex is unclear from the diary; context suggests a larger property.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Appears to be a villa or residential property in Nice, 1873. %%
+%% 2026-05-31T12:00:00 RSR: Appears to be a villa or residential property in Nice, 1873. %%

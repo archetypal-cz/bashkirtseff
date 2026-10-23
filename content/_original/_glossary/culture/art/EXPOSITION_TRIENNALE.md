@@ -51,4 +51,4 @@ In these weeks Marie writes «le Salon» and «l'Exposition» for this exhibitio
 - University of Pennsylvania Libraries catalogue, «Exposition nationale des beaux-arts (1883, Paris)» (https://find.library.upenn.edu/catalog/993465813503681).
 
 %% GLO_EXPOSITION_TRIENNALE.0011 %%
-%% 2026-10-22T13:07:46 RSR: Stub replaced (OPEN-ITEMS B-83); 101.0406 tagged (0.8); also tagged 101.0133 («1°- L'exposition triennale») and the September-October «Salon» visits 101.0361, 101.0430, 101.0473, 101.0619 (0.85-0.9: the annual Salon was closed then). The other paragraphs listed already carried the tag. %%
+%% 2026-10-22T13:07:46 RSR: 101.0406 tagged (0.8); also tagged 101.0133 («1°- L'exposition triennale») and the September-October «Salon» visits 101.0361, 101.0430, 101.0473, 101.0619 (0.85-0.9: the annual Salon was closed then). The other paragraphs listed already carried the tag. %%

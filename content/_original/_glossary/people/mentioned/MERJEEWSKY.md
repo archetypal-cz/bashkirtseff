@@ -19,16 +19,6 @@ Comte Mechlav Merjeewsky, a Polish count (*Mon Journal* t.9 index: «Merjeewsky 
 
 In January 1877 he is in Nice; his mother lives at Monaco, where maman dines with her (068.0742). He takes leave on 20 January 1877 and is in Rome for the Veglione of 8 February, where Marie walks «traînant Merjeewsky au bras» (068.1039, 068.1078). A duplicate stub, COUNT_MERJEEWSKY, has no references (see OPEN-ITEMS).
 
-%% 2026-10-21T13:02:08 RSR: Description added during RSR research of the restored carnet 068–069 paragraphs. %%
 
 ## References in Diary
 [Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-
-%% 2026-10-21T21:16:07 RSR: Merged MERGEJEWSKY (no content kept: empty stub) %%
-
-%% 2026-10-21T21:16:20 RSR: Merged COUNT_MERJEEWSKY (no content kept: empty stub) %%

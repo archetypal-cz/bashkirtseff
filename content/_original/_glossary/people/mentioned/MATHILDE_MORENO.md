@@ -18,6 +18,4 @@ The daughter of the Argentine [M. de Gonzalès Moreno](GONZALES.md) and sister o
 ## Note on the index
 The Mon Journal indexes list «Gonzalès Moreno (Mme Matildita de)» (t.3 pp.74, 220, 234; t.5; t.10) and «Gonzalès Moreno (Mme Mathilde de)» (t.1, t.4), and separately «Gonzalès Moreno (Mlle de)» (t.6, t.8, t.10). The pages of «Mme Matildita» include 016.0312 and 020.0145, where «Matildita» is the girl, not «Madame»; the index's «Mme» is very probably an error (0.85).
 
-%% 2026-10-22T12:15:00 RSR: Body written (glossary-owner-questions B-23). MATILDITA (016.0312, 020.0145, 073.0077) is the same girl: merge MATILDITA into this entry; the «Mlle de Gonzalès» paragraphs of 050 are to be retagged here from GONZALES (identity-decisions TSV). %%
-
-%% 2026-10-22T12:29:26 RSR: Merged MATILDITA (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+%% 2026-10-22T12:15:00 RSR: MATILDITA (016.0312, 020.0145, 073.0077) is the same girl: merge MATILDITA into this entry; the «Mlle de Gonzalès» paragraphs of 050 are to be retagged here from GONZALES (identity-decisions TSV). %%

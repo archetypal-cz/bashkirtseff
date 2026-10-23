@@ -23,4 +23,4 @@ We are not sure which shop this is. The diary names it only as one of the places
 
 - 1874-06-10 (020.0200, Paris): the only mention.
 
-%% 2026-10-22T21:34:40 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph; Mon Journal indices searched without result. %%
+%% 2026-10-22T21:34:40 RSR: One paragraph; Mon Journal indices searched without result. %%

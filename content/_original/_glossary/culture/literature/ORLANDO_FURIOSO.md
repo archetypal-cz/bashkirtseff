@@ -64,6 +64,3 @@ Marie reads it in the original Italian, in 1876, in the months between Nice and 
 - Wikipedia, "Orlando Furioso".
 - it.wikisource, *Orlando furioso (1928)*, Canto 1 (stanza 42).
 - Diary paragraphs as cited above.
-
-%% GLO_ORLANDO_FURIOSO.0010 %%
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

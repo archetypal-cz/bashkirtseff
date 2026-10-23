@@ -71,5 +71,4 @@ Such estates were common among Russian nobility in the Poltava Governorate.
 - [#Maman](../../people/family/MAMAN.md) - The target of the pressure campaign
 - [#Poltava](../cities/POLTAVA.md) - The region where Gavronzi was located
 
-%% 2025-11-20T00:00:00 RSR: Created stub entry %%
 %% 2025-12-07T16:10:00 RSR: Comprehensive update based on Book 00 paragraph 00.13 describing the custody battle and yellow pavilion confrontation %%

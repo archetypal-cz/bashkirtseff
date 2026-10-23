@@ -16,4 +16,4 @@ A family of the Nice winter colony in 1873 (nationality not stated; the name is 
 
 «Stokes Boyd» in 010.0051 is a third lady (t.2 index «Stokes Boyd (Mme), 81»), not the Mme Boyd of Berthe and Blanche.
 
-%% 2026-10-22T14:19:15 RSR: Created (ledger B-68 (1)): three mentions, 010.0051, 010.0088, 014.0128. %%
+%% 2026-10-22T14:19:15 RSR: Three mentions, 010.0051, 010.0088, 014.0128. %%

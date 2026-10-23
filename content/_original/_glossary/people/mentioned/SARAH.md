@@ -13,6 +13,3 @@ replaced_by: SARAH_PURSER
 
 %% GLO_SARAH.0001 %%
 **Retired.** Merged into [#SARAH_PURSER](SARAH_PURSER.md) (`people/mentioned/SARAH_PURSER.md`); use that entry instead.
-
-%% GLO_SARAH.0002 %%
-%% 2026-10-22T12:31:15 RSR: Retired by glossary-merge; content and links moved to SARAH_PURSER. replaced_by: people/mentioned/SARAH_PURSER.md. %%

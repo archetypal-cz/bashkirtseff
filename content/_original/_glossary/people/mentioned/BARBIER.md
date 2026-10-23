@@ -23,4 +23,4 @@ M. Barbier, «un bon vieux monsieur du cercle Masséna, qui nous est connu depui
 
 - 1874-11-29 (027.0073); 1875-12-12 (050.0681).
 
-%% 2026-10-22T18:50:00 RSR: Body written. That «le cercle» of 027.0073 is the Cercle Masséna is inferred from 050.0681. %%
+%% 2026-10-22T18:50:00 RSR: That «le cercle» of 027.0073 is the Cercle Masséna is inferred from 050.0681. %%

@@ -25,4 +25,4 @@ last_updated: 2026-05-31
 
 Full biographical identification not yet established. The name "Simonidès" may be a Hellenised pseudonym; unrelated to the ancient Greek lyric poet Simonides of Ceos.
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-04-29.md and 1880-04-26.md. The Simonides couple: artists in Paris 1880, known from Académie Julian, producing Renaissance-style work, living in seclusion. Identity unconfirmed; full research needed. %%
+%% 2026-05-31T12:00:00 RSR: The Simonides couple: artists in Paris 1880, known from Académie Julian, producing Renaissance-style work, living in seclusion. Identity unconfirmed; full research needed. %%

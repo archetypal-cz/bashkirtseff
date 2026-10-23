@@ -38,4 +38,4 @@ For Marie « en Récamier » means the white, high-waisted, Directoire dress. On
 For Juliette Récamier herself, see [Récamier](../../people/mentioned/RECAMIER.md); this entry covers only the portrait and the costume.
 
 %% GLO_PORTRAIT_MADAME_RECAMIER_DAVID.9000 %%
-%% 2026-10-10T20:00:00 RSR: Created batch 07. Marie specifies 'le portrait de David' (099.0167), so not Gerard's portrait. Identification of the 1880 American sitter with Alice Brisbane is the inventory's, not verified. %%
+%% 2026-10-10T20:00:00 RSR: Marie specifies 'le portrait de David' (099.0167), so not Gerard's portrait. Identification of the 1880 American sitter with Alice Brisbane is the inventory's, not verified. %%

@@ -34,4 +34,4 @@ Princess Nadine (Nadezhda) Elimiévna Eristoff, a young orphaned princess of the
 
 Her brother is named in 084.0277 («Constantin Eristoff … sa bécasse de sœur»; 0.85). Her patronymic Elimiévna points to a father named Elim; the t.9 index calls Constantin «fils du prince Emile Eristoff», and «Emile» may render Elim, but the same index gives that father to Michel Andryevitch Eristoff ([MICHKA_ERISTOFF](../mentioned/MICHKA_ERISTOFF.md)) as well, whose patronymic does not fit, so the index line is no firm evidence of the family tree (0.5). Both parents were dead by February 1879 (084.0346 «orpheline»; 082.0202 «la mère … était»). Her later life is not known to us.
 
-%% 2026-10-22T13:55:02 RSR: B-41 (5), B-49 (5), B-69 (1): entry created; tagged 082.0202, 083.0476, 084.0277, 084.0305, 084.0344, 084.0346. Sources: Mon Journal t.12 index (scan p.271) and the pages it cites (scan pp.100, 183, 221). %%
+%% 2026-10-22T13:55:02 RSR: Tagged 082.0202, 083.0476, 084.0277, 084.0305, 084.0344, 084.0346. Sources: Mon Journal t.12 index (scan p.271) and the pages it cites (scan pp.100, 183, 221). %%

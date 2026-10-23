@@ -86,5 +86,3 @@ The presence of Tolstoys in Nice represents:
 ## Note on Spelling
 
 Marie uses the French spelling "Tolstoï" which was common in French-speaking circles. This confirms she was writing for a French-reading audience and saw herself as part of international rather than purely Russian society.
-
-%% 2025-06-30T22:45:00 RSR: Created entry for Tolstoy family members based on 19 diary mentions %%

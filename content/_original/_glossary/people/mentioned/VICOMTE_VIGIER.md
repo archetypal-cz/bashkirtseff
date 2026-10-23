@@ -18,5 +18,3 @@ Husband of the soprano Sophie Cruvelli (1826–1907), who left the stage when sh
 - 1876-07-10 (063.0137–063.0139): at the Grand Hôtel in Paris he always sits facing Marie; «il est vieux et marié»
 - 1876-07-11 (063.0159): watches the family step into their new carriage «avec des yeux de bon père satisfait»
 - 1876-07-15 (063.0321): listens to the story of the Wartel audition
-
-%% 2026-10-21T09:11:04 RSR: Identification added during RSR research of the restored carnet 063 paragraphs. %%

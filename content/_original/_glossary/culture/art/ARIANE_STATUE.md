@@ -70,6 +70,6 @@ Ouida's novel *Ariadne* (1877), which Marie rereads in English on 28 August 1882
 - The 1885 posthumous catalogue lists five sculptures (Nausicaa, Femme appuyée, Le Bras, Petit Garçon, Une Femme) and no Ariadne: [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)
 
 %% GLO_ARIANE_STATUE.0014 %%
-%% 2026-10-10T20:54:04 RSR: Created in the works-glossary wave (batch 10). Supersedes the stub people/mentioned/ARIANE_SCULPTURE.md (not moved or deleted). Bare alias Ariadne deliberately omitted because people/mentioned/ARIADNE.md exists and the Ouida novel Ariadne is also in the diary. Ouida paragraphs verified at 096.0141-0156 (28 August 1882). %%
+%% 2026-10-10T20:54:04 RSR: Supersedes the stub people/mentioned/ARIANE_SCULPTURE.md (not moved or deleted). Bare alias Ariadne deliberately omitted because people/mentioned/ARIADNE.md exists and the Ouida novel Ariadne is also in the diary. Ouida paragraphs verified at 096.0141-0156 (28 August 1882). %%
 
-%% 2026-10-21T13:42:33 RSR: Extended with 096.0160 (29 August 1882): the subject dates from an October 1879 Julian sketch, and the pose is described there; the 'first mention 1883' and 'no description of the pose' statements were corrected accordingly. The 091/1881-01-23 'Aradnié' reading is hedged (probably). %%
+%% 2026-10-21T13:42:33 RSR: The subject dates from an October 1879 Julian sketch, and the pose is described there; the 'first mention 1883' and 'no description of the pose' statements were corrected accordingly. The 091/1881-01-23 'Aradnié' reading is hedged (probably). %%

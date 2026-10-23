@@ -13,6 +13,3 @@ replaced_by: LORD_HENRY_PAGET
 
 %% GLO_ANGLESEY.0001 %%
 **Retired.** Merged into [#LORD_HENRY_PAGET](../aristocracy/LORD_HENRY_PAGET.md) (`people/aristocracy/LORD_HENRY_PAGET.md`); use that entry instead.
-
-%% GLO_ANGLESEY.0002 %%
-%% 2026-10-22T22:09:11 RSR: Retired by glossary-merge; content and links moved to LORD_HENRY_PAGET. replaced_by: people/aristocracy/LORD_HENRY_PAGET.md. %%

@@ -26,10 +26,4 @@ In July 1884 she is one of the guests at a small dinner in Paris: «Petit dîner
 ## Sources
 Seward Project, «Person Information» 80379 (https://sewardproject.org/person-public-fields/80379); en.wikipedia «Georges-Eugène Haussmann»; Mon Journal t.12–16 name indexes (content/_raw/tome12–16.docx).
 
-%% 2026-07-06T21:00:00 RSR: Created per report-triage flag (2026-07-06 session). 2026-10-22: identification now settled from the Mon Journal indexes and the diary's own «née Haussmann» (see body). %%
-
-%% 2026-10-21T22:57:06 RSR: Merged PERNETY (no content kept: empty stub) %%
-
-%% 2026-10-21T22:57:17 RSR: Merged VICOMTESSE_PERNETY (no content kept: empty stub) %%
-
-%% 2026-10-21T22:57:29 RSR: Merged VALENTINE (no content kept: empty stub) %%
+%% 2026-07-06T21:00:00 RSR: 2026-10-22: identification now settled from the Mon Journal indexes and the diary's own «née Haussmann» (see body). %%

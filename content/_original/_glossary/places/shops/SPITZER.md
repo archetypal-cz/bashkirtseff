@@ -22,5 +22,4 @@ During the August 1873 stay in Vienna the family has dresses made there. Marie f
 - 1873-08-28 (008.0239)
 
 ## Research Notes
-- Created: 2026-01-06 (auto-generated stub from broken link detection).
-- 2026-10-21 RSR: identified from the tome02 name index; the house itself not yet traced in Viennese sources.
+- Identified from the tome02 name index; the house itself not yet traced in Viennese sources.

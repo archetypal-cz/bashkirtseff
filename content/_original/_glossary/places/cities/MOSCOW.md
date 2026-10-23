@@ -64,5 +64,3 @@ Moscow represented:
 - [#Petersburg](./PETERSBURG.md) - The political capital
 - [#Nice](./NICE.md) - Where the Russian colony gathered
 - [#Paris](./PARIS.md) - Marie's chosen home
-
-%% 2026-02-10T12:30:00 RSR: Expanded from one-line stub with historical context and significance %%

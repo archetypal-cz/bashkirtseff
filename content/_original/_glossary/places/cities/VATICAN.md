@@ -45,5 +45,3 @@ The Vatican held some of the world's greatest art:
 ## Related Entries
 - [#Rome](./ROME.md) - The city
 - [#Salon](../../culture/art/SALON.md) - Where Marie would exhibit art informed by her study of the masters
-
-%% 2026-02-10T15:35:00 RSR: Expanded from one-line stub with papal crisis and art collections %%

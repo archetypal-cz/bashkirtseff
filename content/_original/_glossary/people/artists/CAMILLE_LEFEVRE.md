@@ -26,4 +26,4 @@ The Mon Journal t.13 index files him as «Lefèvre (Camille), peintre : 245, 295
 - 089.0022 (23 June 1880): the first lesson.
 - 089/1880-06-24: the lessons continue («modelage», «ronde-bosse», «carcasse en fer»).
 
-%% 2026-10-23T14:30:00 RSR: B-85: entry created; 089/1880-06-23 and 06-24 retargeted from LEFEVRE. %%
+%% 2026-10-23T14:30:00 RSR: 089/1880-06-23 and 06-24 retargeted from LEFEVRE. %%

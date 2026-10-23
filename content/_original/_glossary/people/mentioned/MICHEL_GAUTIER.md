@@ -28,5 +28,3 @@ In December 1876 Marie adds him, crosswise, to her list of the men who could mak
 ## Related
 - [ALBERT_GAUTIER](ALBERT_GAUTIER.md) (brother, «Pepino»)
 - [EMILE_D_AUDIFFRET](../recurring/EMILE_D_AUDIFFRET.md)
-
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%

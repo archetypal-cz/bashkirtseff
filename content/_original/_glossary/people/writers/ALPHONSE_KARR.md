@@ -21,4 +21,4 @@ Mme Tutcheff claims that the scandal around Marie's family began when Karr told 
 - First mentioned: 1876-10-23 (067.0283)
 - 1877-04-17 (070)
 
-%% 2026-10-21T09:31:34 RSR: Created from the restored paragraph 067.0283. Karr's piece on the Romanoff case has not been traced; by the BnF dates the periodical Les Guêpes had ceased long before Romanoff's death in 1871 (index t.9: "Romanoff (Thadée Serguéevitch) ... mort en 1871"), so Mme Tutcheff may mean a later column of his. %%
+%% 2026-10-21T09:31:34 RSR: Karr's piece on the Romanoff case has not been traced; by the BnF dates the periodical Les Guêpes had ceased long before Romanoff's death in 1871 (index t.9: "Romanoff (Thadée Serguéevitch) ... mort en 1871"), so Mme Tutcheff may mean a later column of his. %%

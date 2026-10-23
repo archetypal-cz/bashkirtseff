@@ -27,4 +27,4 @@ This death caused Marie to miss the Tir aux Pigeons (pigeon shooting) that day, 
 
 Marie's reaction is revealing - while she acknowledges the tragedy as "affreux pour cet enfant," she focuses more on missing the opportunity to see the Duke at the pigeon shooting. She cried "comme une bête" throughout the day, but admits: "c'est surtout l'occasion manquée de voir le duc qui m'ennuie."
 
-%% 2025-12-07T15:55:00 RSR: Created entry based on February 10, 1873 diary entry. Need to identify the specific family and research if this death is documented in Nice society records from February 1873. %%
+%% 2025-12-07T15:55:00 RSR: Need to identify the specific family and research if this death is documented in Nice society records from February 1873. %%

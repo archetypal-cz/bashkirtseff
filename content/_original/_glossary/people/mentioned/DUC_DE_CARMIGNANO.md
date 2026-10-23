@@ -14,6 +14,3 @@ replaced_by: CARMIGNANO
 
 %% GLO_DUC_DE_CARMIGNANO.0001 %%
 **Retired.** Merged into [#CARMIGNANO](CARMIGNANO.md) (`people/mentioned/CARMIGNANO.md`); use that entry instead.
-
-%% GLO_DUC_DE_CARMIGNANO.0002 %%
-%% 2026-10-22T20:56:00 RSR: Retired by glossary-merge; content and links moved to CARMIGNANO. replaced_by: people/mentioned/CARMIGNANO.md. %%

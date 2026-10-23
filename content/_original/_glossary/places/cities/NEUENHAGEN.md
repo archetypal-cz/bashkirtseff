@@ -23,4 +23,4 @@ We are not sure what Neuenhagen is here. It reads as the name of an estate, an i
 
 - 1876-07-29 (064.0307, Berlin): the only mention.
 
-%% 2026-10-22T21:37:47 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph; t.9 index searched for Neuenhagen/Bellevue without result. %%
+%% 2026-10-22T21:37:47 RSR: One paragraph; t.9 index searched for Neuenhagen/Bellevue without result. %%

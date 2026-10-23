@@ -48,5 +48,3 @@ This reference suggests that Marie had previously visited Baden-Baden, likely du
 The Franco-Prussian War (1870-71) and the 1872 ban on gambling in the newly unified German Empire led to a decline in Baden-Baden's fortunes. The city subsequently shifted focus back to its roots as a balneological (therapeutic bathing) center.
 
 For Russian aristocrats like the Bashkirtseff family, Baden-Baden represented one of several Western European destinations where Russian nobility established seasonal residences and participated in international high society. The town was particularly popular with Russian visitors, who were attracted by its elegant atmosphere, gambling opportunities, and health facilities.
-
-%% 2025-04-05T18:43:47 RSR: Created glossary entry for Baden-Baden based on historical research %%

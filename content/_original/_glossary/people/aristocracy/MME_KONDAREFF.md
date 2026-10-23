@@ -26,7 +26,4 @@ In May 1877 she stays in the Bashkirtseff household «depuis quinze jours en ami
 - 1876-12-15 (068.0063); 1877-05-13 to 06-09 (071); 1877-06-11 to 06-21 (072); 1877-10-01, 10-11 (075.0118-0119, 075.0224)
 
 ## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-%% 2026-10-22T14:40:00 RSR: Written for OPEN-ITEMS B-40(3) (mother vs daughter): this file = the mother; KONDAREFF = the family and Lise. Tags in 068-075 sorted accordingly. The alias «Kondareff» stays on KONDAREFF. %%
+%% 2026-10-22T14:40:00 RSR: This file = the mother; KONDAREFF = the family and Lise. Tags in 068-075 sorted accordingly. The alias «Kondareff» stays on KONDAREFF. %%

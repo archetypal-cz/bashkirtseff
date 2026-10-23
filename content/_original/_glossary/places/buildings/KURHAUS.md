@@ -20,5 +20,3 @@ The Kurhaus (spa house: assembly rooms, reading room, restaurant and lodgings) o
 - 1878-08-12 (082.0057)
 - 1878-08-13 (082.0078)
 - 1878-08-15 (082.0118, 082.0121)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

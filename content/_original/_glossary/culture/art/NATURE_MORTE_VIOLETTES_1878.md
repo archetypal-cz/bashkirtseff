@@ -55,4 +55,4 @@ Per the project catalogue (`docs/research/marie-bashkirtseff-works-catalogue.md`
 - Katherine Kernberger, *I Am the Most Interesting Book of All*, Vol. I (Fonthill Press, 2013), caption "Still Life (May 1878)" -- as recorded in the project catalogue, not rechecked in the book.
 
 %% GLO_NATURE_MORTE_VIOLETTES_1878.0011 %%
-%% 2026-10-10T21:14:00 RSR: Created in the works glossary wave (W484). The "attributed" status rests on a single caption; ask the Nice museum. %%
+%% 2026-10-10T21:14:00 RSR: The "attributed" status rests on a single caption; ask the Nice museum. %%

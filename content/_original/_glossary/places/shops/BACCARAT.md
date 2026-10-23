@@ -24,4 +24,4 @@ Baccarat, the French crystal manufacturer, founded in 1764 in the Lorraine town 
 
 - 1874-05-28 (019.0377); 1874-09-23 (024.0070); 1874-09-29 (024.0164).
 
-%% 2026-10-22T18:28:00 RSR: Body written. NOT A PERSON: a company/shop; belongs in places (shops) or culture, see list file. %%
+%% 2026-10-22T18:28:00 RSR: NOT A PERSON: a company/shop; belongs in places (shops) or culture, see list file. %%

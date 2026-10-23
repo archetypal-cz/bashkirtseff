@@ -20,5 +20,3 @@ Marie slips away when they are announced on 23 January 1877 («Je n'ai à faire 
 
 ## References in Diary
 - 1877-01-23, 1877-02-03, 1877-02-05 (carnet 068)
-
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%

@@ -20,4 +20,4 @@ Gaston Alexandre Auguste, marquis de Galliffet (1830-1909), French cavalry gener
 
 His wife, the marquise de Galliffet (née Florence Georgina Laffitte), appears in a Nice society column of 1879 (084.0159: «Mme la marquise de Gallifet») and at Dieppe in August 1879 (086.0125); she has her own entry, [MARQUISE_DE_GALLIFFET](../aristocracy/MARQUISE_DE_GALLIFFET.md) (2026-10-22).
 
-%% 2026-10-22T13:00:00 RSR: Body written (glossary-owner-questions: GALLIFFET not retired). Both tags (089.0148, 104.0158) are the general; the LAN note at 089.0148 agrees. Dates and career: Wikipedia. The wife's maiden name is from the same article and was not checked against the 084 clipping, which gives only the title. %%
+%% 2026-10-22T13:00:00 RSR: Both tags (089.0148, 104.0158) are the general; the LAN note at 089.0148 agrees. Dates and career: Wikipedia. The wife's maiden name is from the same article and was not checked against the 084 clipping, which gives only the title. %%

@@ -14,6 +14,3 @@ replaced_by: SKATING
 
 %% GLO_SKATING_NAPLES.0001 %%
 **Retired.** Merged into [#SKATING](../../places/venues/SKATING.md) (`places/venues/SKATING.md`); use that entry instead.
-
-%% GLO_SKATING_NAPLES.0002 %%
-%% 2026-10-22T20:54:08 RSR: Retired by glossary-merge; content and links moved to SKATING. replaced_by: places/venues/SKATING.md. %%

@@ -32,5 +32,3 @@ This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
 ## Related Entries
 
 [To be determined based on research]
-
-%% 2026-10-21T21:17:10 RSR: Merged REVUE_NOUVELLE (no content kept: empty stub) %%

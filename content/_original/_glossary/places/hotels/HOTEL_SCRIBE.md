@@ -26,5 +26,3 @@ The Hotel Scribe is a luxury hotel located at 1 Rue Scribe in the 9th arrondisse
 
 ## Related Entries
 - [#Paris](../cities/PARIS.md) - The city
-
-%% 2026-02-10T15:05:00 RSR: Expanded from one-line stub %%

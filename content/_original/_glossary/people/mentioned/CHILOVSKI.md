@@ -27,4 +27,4 @@ We are not sure who this is. Chilovski may be the same man as the «petit Chilow
 
 - 1874-01-12 (015.0135); 1874-02-22 (017.0009); 1874-03-01 (017.0088); 1874-07-01 (020.0490).
 
-%% 2026-10-22T21:02:00 RSR: Body written; identity_uncertain set. Possible merge with CHILOWSKY, low confidence (0.4): not proposed. Paragraph 015.0135 is the one where the name is written in Russian; the tag marks the editor's rendering. %%
+%% 2026-10-22T21:02:00 RSR: Possible merge with CHILOWSKY, low confidence (0.4): not proposed. Paragraph 015.0135 is the one where the name is written in Russian; the tag marks the editor's rendering. %%

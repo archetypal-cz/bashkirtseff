@@ -40,5 +40,3 @@ The Austro-Hungarian Empire (officially Austria-Hungary from 1867) was one of th
 - [#Vienna](../cities/VIENNA.md) - The imperial capital
 - [#Karlsbad](../cities/KARLSBAD.md) - Austrian spa town
 - [#Baden_Baden](../travel/BADEN_BADEN.md) - German spa (often confused with Austrian Baden)
-
-%% 2026-02-10T13:50:00 RSR: Expanded from one-line stub with Dual Monarchy context %%

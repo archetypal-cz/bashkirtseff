@@ -19,4 +19,4 @@ The hotel (Demut, Demouth) in St Petersburg where Marie stays on her arrival in 
 - 1876-08-04 (064.0405, Petersburg): arrival.
 - 1876-08-12 (064.0533, Moscow): the comparison with the Bazar Slave.
 
-%% 2026-10-22T21:35:45 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Two paragraphs; the location and standing rest on the unsourced footnote at 064.0405. %%
+%% 2026-10-22T21:35:45 RSR: Two paragraphs; the location and standing rest on the unsourced footnote at 064.0405. %%

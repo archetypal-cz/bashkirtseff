@@ -52,4 +52,4 @@ full_text:
 - Wikipedia, ["La Fille de Madame Angot"](https://en.wikipedia.org/wiki/La_fille_de_Madame_Angot).
 - Libretto (Internet Archive) and scores (IMSLP), linked above.
 
-%% 2026-10-10T21:15:00 RSR: New entry (works batch 01). Supersedes the one-line stub people/mentioned/ANGOT.md (verified: it is this operetta). 029.0113 states no venue. %%
+%% 2026-10-10T21:15:00 RSR: Supersedes the one-line stub people/mentioned/ANGOT.md (verified: it is this operetta). 029.0113 states no venue. %%

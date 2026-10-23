@@ -35,4 +35,4 @@ Marie mentions it from September 1882. On **14 September 1882** Rodolphe Julian,
 Beware of the name: Jacques is also the boy of Marie's own [Jean et Jacques](./JEAN_ET_JACQUES.md).
 
 %% GLO_LE_PERE_JACQUES.9000 %%
-%% 2026-10-10T20:00:00 RSR: Created batch 07. Milwaukee data from web search (L102, 77 1/2 x 71 1/2 in; Salon 1882). Dimensions rounded. %%
+%% 2026-10-10T20:00:00 RSR: Milwaukee data from web search (L102, 77 1/2 x 71 1/2 in; Salon 1882). Dimensions rounded. %%

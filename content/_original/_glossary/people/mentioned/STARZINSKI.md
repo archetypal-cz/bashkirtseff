@@ -25,7 +25,5 @@ On 5 December 1874 at the Rumpelmayer café of the Cercle, the ladies' café: «
 ## Sources
 Diary as quoted; Mon Journal t.2 and t.4 indexes.
 
-%% 2026-10-22T22:10:08 RSR: Merged COUNT_STARZINSKY (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 - 15 October 1874 (merged entry COUNT_STARZINSKY): with the architect Biasini Marie visits «la nouvelle maison du comte Starzinsky», not quite finished: «C'est grand, c'est clair, c'est vaste. Toutes les chambres de réception communiquent», and she wishes her own villa had such salons (024.0347). Same Nice family as the Starzinski of December 1874 (t.4 index «Starzinsky (comte), 179, 235»).

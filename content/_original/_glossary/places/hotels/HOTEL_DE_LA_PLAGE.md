@@ -22,4 +22,4 @@ The hotel on the beach front at Ostend where Marie and her aunt take their meals
 
 See [Ostende](../cities/OSTENDE.md), [Kursaal](../cities/KURSAAL.md).
 
-%% 2026-10-22T21:35:45 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Nine paragraphs read (five dinners/lunches, one verse, the departure). %%
+%% 2026-10-22T21:35:45 RSR: Nine paragraphs read (five dinners/lunches, one verse, the departure). %%

@@ -22,5 +22,3 @@ At the Naples races Maman regrets not having spent the winter there, since Nasim
 
 - First mentioned: 1876-04-15 (058)
 - Key entries: 1876-04-20 (059); 1877-02-28, 03-04, 03-12, 03-14 (069)
-
-%% 2026-10-21T09:41:16 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 059 paragraphs; sources as cited. %%

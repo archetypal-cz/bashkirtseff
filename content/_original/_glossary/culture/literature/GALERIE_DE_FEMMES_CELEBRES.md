@@ -53,6 +53,3 @@ Paragraphs 030.0368 and 039.0115 are not about the book: they use "femmes célè
 
 %% GLO_GALERIE_DE_FEMMES_CELEBRES.0010 %%
 The companion book ordered with it, Larcher's *La Femme* (016.0338), is a separate work; [Sainte-Beuve](../../people/writers/SAINTE_BEUVE.md) is the author entry.
-
-%% GLO_GALERIE_DE_FEMMES_CELEBRES.0011 %%
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

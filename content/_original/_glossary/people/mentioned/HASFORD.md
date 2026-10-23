@@ -11,7 +11,6 @@ last_updated: 2026-10-21
 ---
 # M. Hasford
 
-**Research Status**: Stub
 **Last Updated**: 2026-10-21
 
 ## Identity

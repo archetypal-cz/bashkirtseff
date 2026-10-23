@@ -28,9 +28,7 @@ A Paris hotel, in the diary «l'hôtel Splendide» (once «Splendid»), known as
 
 037.0338, 037.0466, 038.0008, 045.0044, 045.0432, 049.0508, 064.0394 (all 7 tagged paragraphs read 2026-10-21). See [#Emile_d_Audiffret](../../people/recurring/EMILE_D_AUDIFFRET.md).
 
-%% 2026-10-21T22:12:00 RSR: Fix (OPEN-ITEMS B-20): stub written from the seven tagged paragraphs; address left as the earlier RSR comment (rue de Rivoli, unverified). %%
+%% 2026-10-21T22:12:00 RSR: Address left as the earlier RSR comment (rue de Rivoli, unverified). %%
 
-%% 2026-10-22T22:13:27 RSR: Merged SPLENDIDE_HOTEL (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 - 19 May 1874 (merged entry SPLENDIDE_HOTEL): Paul and Striker, «nous les avons rencontré le jour où nous arrivâmes, dans l'ascenseur du Splendide Hôtel» (019.0288). The Splendide Hôtel was the large hotel on the place de l'Opéra; the same house (0.8).

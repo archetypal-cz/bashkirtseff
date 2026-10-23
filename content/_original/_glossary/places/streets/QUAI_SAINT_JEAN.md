@@ -11,7 +11,6 @@ last_updated: 2026-05-31
 ---
 # Quai Saint-Jean
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (June 1873, Nice)
 
@@ -27,6 +26,4 @@ The Quai Saint-Jean (or Quai Saint-Jean-Baptiste) was a street or quayside in Ni
 
 Also referenced as "Quai Saint-Jean-Baptiste" in an earlier carnet 004 entry (April 1873), suggesting this is the same quayside. The Quai Saint-Jean-Baptiste was a known address in old Nice near the port area.
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken UK link. Real street/quayside in Nice, 1873. %%
-
-%% 2026-10-22T12:30:21 RSR: Merged QUAI_SAINT_JEAN_BAPTISTE (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+%% 2026-05-31T12:00:00 RSR: Real street/quayside in Nice, 1873. %%

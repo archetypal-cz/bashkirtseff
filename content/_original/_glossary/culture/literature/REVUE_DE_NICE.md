@@ -59,4 +59,4 @@ Whether the *Revue* was ever circulated, sung or read aloud in Nice is not state
 - Diary paragraphs 039.0165-0185 and 043.0366 in `content/_original/`. No secondary source discusses this work.
 
 %% GLO_REVUE_DE_NICE.0012 %%
-%% 2026-10-10T20:45:00 RSR: Created in the works glossary wave (W414). The "phil. Tryphodore" pen name: the existing LAN note reads it as a mock-classical persona (the Greek epic poet Tryphiodorus); not verified further. %%
+%% 2026-10-10T20:45:00 RSR: The "phil. Tryphodore" pen name: the existing LAN note reads it as a mock-classical persona (the Greek epic poet Tryphiodorus); not verified further. %%

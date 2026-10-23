@@ -23,4 +23,4 @@ At Ostend: he leaves the Kursaal while Marie stays with Merjeewsky (23 August, 0
 
 - First mentioned: 1874-08-21 (023.0255). Nine tagged paragraphs, carnets 023 and 028.
 
-%% 2026-10-22T19:02:00 RSR: Body written. Spelling Leiss/Leiser: the two are distinct men in the diary (023.0128 lists «comte Noël de Leiser»); not further identified. %%
+%% 2026-10-22T19:02:00 RSR: Spelling Leiss/Leiser: the two are distinct men in the diary (023.0128 lists «comte Noël de Leiser»); not further identified. %%

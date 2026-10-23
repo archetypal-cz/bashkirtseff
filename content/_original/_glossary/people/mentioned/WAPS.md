@@ -22,4 +22,4 @@ Victor (see [Victor](VICTOR.md)) is named with him as her «seuls amis». Waps i
 
 %% 2026-10-22T21:33:17 RSR: Filing note: this is an animal, not a person; Marie's other dogs are in people/ too (Prater, Coco), so left in place. %%
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Three paragraphs + t.5 index (the dog is identified there). %%
+%% 2026-10-22T21:33:17 RSR: Three paragraphs + t.5 index (the dog is identified there). %%

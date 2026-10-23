@@ -38,5 +38,3 @@ The Kazan Cathedral (Kazansky Sobor) is one of the most prominent churches in St
 - [#Petersburg](../cities/PETERSBURG.md) - The city
 - [#Issakie_Cathedral](./ISSAKIE_CATHEDRAL.md) - Another major St. Petersburg cathedral
 - [#Lavra](./LAVRA.md) - The Alexander Nevsky Monastery
-
-%% 2026-02-10T14:45:00 RSR: Expanded from one-line stub %%

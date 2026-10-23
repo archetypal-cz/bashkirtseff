@@ -51,4 +51,4 @@ This is her first documented painting from the live model, a few months before s
 - Diary paragraphs cited above in `content/_original/`.
 
 %% GLO_CIOCIARE_ROSA_STELLA.0011 %%
-%% 2026-10-10T21:10:00 RSR: Created in the works glossary wave (W482). Grouped as one entry because the models alternate in the same paragraph. Frontmatter of 053/1876-01-31 gives Nice; the context shows Rome. %%
+%% 2026-10-10T21:10:00 RSR: Grouped as one entry because the models alternate in the same paragraph. Frontmatter of 053/1876-01-31 gives Nice; the context shows Rome. %%

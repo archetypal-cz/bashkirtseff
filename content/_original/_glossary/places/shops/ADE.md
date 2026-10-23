@@ -20,4 +20,4 @@ On 9 October 1874 Marie and her aunt «courir Nice, chez Adé des ruches, chez p
 
 - 1874-10-09 (024.0274), the only tagged paragraph. The t.6 index page (271) refers to a later mention not tagged here.
 
-%% 2026-10-22T16:25:00 RSR: Body written. NOT A PERSON: a shop; listed for the lead as a category/placement question (see list file). The reading of «ruches» as dressmaking trimmings is the editors' inference. %%
+%% 2026-10-22T16:25:00 RSR: NOT A PERSON: a shop; listed for the lead as a category/placement question (see list file). The reading of «ruches» as dressmaking trimmings is the editors' inference. %%

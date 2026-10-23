@@ -28,4 +28,4 @@ Marie calls him «le comte Gurowski (beau-frère de la Reine Isabelle)» (086.06
 - Wikipedia EN, «Ignacy Gurowski».
 - Mon Journal t.13 (L'Âge d'Homme), index.
 
-%% 2026-10-21T11:03:22 RSR: Created during RSR research of the restored 086 paragraphs (rsr-086). Dates and marriage taken from Wikipedia only. %%
+%% 2026-10-21T11:03:22 RSR: Dates and marriage taken from Wikipedia only. %%

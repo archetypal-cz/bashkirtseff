@@ -58,4 +58,4 @@ More than a year later, on 29 August 1877 (074.0127), Marie walks into a wood wi
 - Diary paragraphs 062.0325-0328 and 074.0127 in `content/_original/`. No secondary source discusses this poem; no full text beyond the diary exists, and the poem is quoted there in full.
 
 %% GLO_POEME_SCHLANGENBAD.0012 %%
-%% 2026-10-10T20:40:00 RSR: Created in the works glossary wave (W218). Inventory said "062.0325, 074.0127": confirmed. Note the Schlangenbad setting is imagined; Marie is at Nice on 11 June 1876 (entry location Nice, "la mer était calme"). %%
+%% 2026-10-10T20:40:00 RSR: Inventory said "062.0325, 074.0127": confirmed. Note the Schlangenbad setting is imagined; Marie is at Nice on 11 June 1876 (entry location Nice, "la mer était calme"). %%

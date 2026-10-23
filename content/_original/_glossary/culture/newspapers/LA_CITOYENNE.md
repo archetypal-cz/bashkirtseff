@@ -41,5 +41,3 @@ For an aristocratic young woman to invest in and write for a radical feminist ne
 - French feminist press history
 - Hubertine Auclert biographical studies
 - Studies of 19th-century women's rights movements
-
-%% 2026-10-21T11:42:00 RSR: January 1881 board meetings added from the restored 090 paragraphs (rsr-090). %%

@@ -22,4 +22,4 @@ On 5 June 1874, going out alone with her mother for the first time in several da
 
 - 1874-06-05 (020.0132), the only tagged paragraph.
 
-%% 2026-10-22T20:44:00 RSR: Body written from the paragraph and the t.3 index. The Worth quarrel is from the earlier RSR note on 020.0132. NOT A PERSON; shop/dressmaker. %%
+%% 2026-10-22T20:44:00 RSR: The Worth quarrel is from the earlier RSR note on 020.0132. NOT A PERSON; shop/dressmaker. %%

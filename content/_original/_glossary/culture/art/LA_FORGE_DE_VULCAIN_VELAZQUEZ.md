@@ -42,4 +42,4 @@ In Madrid in October 1881 Marie made a **copy** of it. On **10 October 1881** sh
 - The portrait of a sculptor with the hand: [Martínez Montañés](./MARTINEZ_MONTANES_VELAZQUEZ.md).
 
 %% GLO_LA_FORGE_DE_VULCAIN_VELAZQUEZ.9000 %%
-%% 2026-10-10T20:00:00 RSR: Created batch 07. Split from inventory W042 (Montanes portrait) because 093.0205/0214 is the Forge copy. 'Las Hilanderas' and 'Cristo crucificado' not given separate entries (flag). Prado 1630 data from the Commons/Prado file description. %%
+%% 2026-10-10T20:00:00 RSR: Split from inventory W042 (Montanes portrait) because 093.0205/0214 is the Forge copy. 'Las Hilanderas' and 'Cristo crucificado' not given separate entries (flag). Prado 1630 data from the Commons/Prado file description. %%

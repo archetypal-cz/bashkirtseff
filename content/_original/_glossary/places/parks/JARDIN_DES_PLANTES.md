@@ -46,5 +46,3 @@ The Jardin des Plantes in the 1870s-1880s offered:
 - [#Paris](../cities/PARIS.md) - The city
 - [#Jardin_dAcclimatation](./JARDIN_DACCLIMATATION.md) - Another Parisian garden
 - [#Bois_de_Boulogne](../social/BOIS_DE_BOULOGNE.md) - Another major green space
-
-%% 2026-02-10T13:10:00 RSR: Expanded from one-line stub with historical context %%

@@ -14,6 +14,3 @@ replaced_by: ANDRIEUX
 
 %% GLO_M_ANDRIEUX.0001 %%
 **Retired.** Merged into [#ANDRIEUX](ANDRIEUX.md) (`people/mentioned/ANDRIEUX.md`); use that entry instead.
-
-%% GLO_M_ANDRIEUX.0002 %%
-%% 2026-10-21T21:26:05 RSR: Retired by glossary-merge; content and links moved to ANDRIEUX. replaced_by: people/mentioned/ANDRIEUX.md. %%

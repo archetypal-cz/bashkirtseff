@@ -15,6 +15,3 @@ replaced_by: DOENHOFF
 
 %% GLO_GERHARDT_VON_DOENHOFF.0001 %%
 **Retired.** Merged into [#DOENHOFF](DOENHOFF.md) (`people/mentioned/DOENHOFF.md`); use that entry instead.
-
-%% GLO_GERHARDT_VON_DOENHOFF.0002 %%
-%% 2026-10-21T21:20:20 RSR: Retired by glossary-merge; content and links moved to DOENHOFF. replaced_by: people/mentioned/DOENHOFF.md. %%

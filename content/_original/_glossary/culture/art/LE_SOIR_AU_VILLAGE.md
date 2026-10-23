@@ -33,4 +33,4 @@ On **15 June 1883** she judges it, though « une impression de petite dimension 
 [Les Bergers à Bethléem](./LES_BERGERS_A_BETHLEEM.md), [Jeanne d'Arc (Bastien-Lepage)](./JEANNE_D_ARC_BASTIEN_LEPAGE.md).
 
 %% GLO_LE_SOIR_AU_VILLAGE.9000 %%
-%% 2026-10-10T20:00:00 RSR: Created batch 07. Identification of the museum picture UNCONFIRMED (candidate: Evening at Damvillers, Philadelphia Museum of Art, 1882, 66.4x80.3). Marie calls it 'impression de petite dimension' (100.0165) which fits a ~66x80 cm canvas. Recommend checking Aubrun catalogue raisonne / Philadelphia record before adding an image. %%
+%% 2026-10-10T20:00:00 RSR: Identification of the museum picture UNCONFIRMED (candidate: Evening at Damvillers, Philadelphia Museum of Art, 1882, 66.4x80.3). Marie calls it 'impression de petite dimension' (100.0165) which fits a ~66x80 cm canvas. Recommend checking Aubrun catalogue raisonne / Philadelphia record before adding an image. %%

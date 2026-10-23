@@ -14,6 +14,3 @@ replaced_by: PASCAROLA
 
 %% GLO_MARQUIS_PASCAROLA.0001 %%
 **Retired.** Merged into [#PASCAROLA](PASCAROLA.md) (`people/mentioned/PASCAROLA.md`); use that entry instead.
-
-%% GLO_MARQUIS_PASCAROLA.0002 %%
-%% 2026-10-22T20:54:54 RSR: Retired by glossary-merge; content and links moved to PASCAROLA. replaced_by: people/mentioned/PASCAROLA.md. %%

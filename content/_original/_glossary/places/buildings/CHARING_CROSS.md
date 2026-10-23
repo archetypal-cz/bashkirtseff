@@ -22,5 +22,3 @@ On 6 September 1874, arriving in London from the Channel: «Je suis parfaitement
 ## References in Diary
 
 - 1874-09-06 (023.0573), the only tagged paragraph.
-
-%% 2026-10-22T21:00:00 RSR: Body written. %%

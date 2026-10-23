@@ -20,5 +20,3 @@ Nina Durocher, French actress, mistress of Marie's father Constantin Bashkirtsef
 - October–December 1876: a quarrel with his mistress (067.0106); on a night alarm the steward and Pacha go to sleep at her house (067.0739: «la Durocher prit peur d'un rôdeur nocturne»); Marie writes in the margin that since he has an actress at home he «s'est rangé» (067.0317). On 1876-12-15 (068.0100): «la Tutcheff était avec la Durocher à Monaco et que maman lui a donné une chiquenaude au nez.»
 
 Kernberger (2013) glossary calls her Mlle Durocher, an actress and mistress of Marie's father. See [#Papa](../family/PAPA.md) and [#Tutcheff](TUTCHEFF.md).
-
-%% 2026-10-22T21:33:41 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

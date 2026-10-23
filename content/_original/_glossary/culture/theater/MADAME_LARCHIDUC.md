@@ -54,4 +54,4 @@ Spring 1875: the operetta's tunes are in her head, and she names a dress after i
 - Wikipedia, ["Madame l'archiduc"](https://en.wikipedia.org/wiki/Madame_l'archiduc); IMSLP.
 - Libretto on Wikisource, linked above.
 
-%% 2026-10-10T21:08:00 RSR: Enriched in place (works batch 01). Duplicate stub at people/aristocracy/MADAME_LARCHIDUC.md (supersede). The previous entry mistook the work for "a popular song"; the 10 April 1875 Cannes scene is correct. %%
+%% 2026-10-10T21:08:00 RSR: Duplicate stub at people/aristocracy/MADAME_LARCHIDUC.md (supersede). The previous entry mistook the work for "a popular song"; the 10 April 1875 Cannes scene is correct. %%

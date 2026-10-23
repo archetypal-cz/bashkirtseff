@@ -34,5 +34,3 @@ Valentin Magnan (1835–1916), psychiatrist, was attached to the admissions serv
 ## Sources
 - Mon Journal t.14 (L'Âge d'Homme), index.
 - Encyclopædia Universalis, "MAGNAN JACQUES JOSEPH VALENTIN (1835-1916)"; en.wikipedia, "Valentin Magnan".
-
-%% 2026-10-21T11:32:08 RSR: Created during RSR research of the restored 090 paragraphs (rsr-090). %%

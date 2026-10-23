@@ -34,4 +34,4 @@ full_text:
 - Wikipedia, ["Les Huguenots (opera)"](https://en.wikipedia.org/wiki/Les_Huguenots_(opera)).
 - IMSLP, [Les Huguenots (Meyerbeer, Giacomo)](https://imslp.org/wiki/Les_Huguenots_(Meyerbeer,_Giacomo)).
 
-%% 2026-10-10T12:00:00 RSR: New work entry (batch 02). Supersedes people/mentioned/LES_HUGUENOTS.md (stub; its alias "Huguenots" is also the religious group, culture/history/HUGUENOTS.md, so the bare alias is not claimed here). 049.0109 is a chorus sung at a reception, not a performance. %%
+%% 2026-10-10T12:00:00 RSR: Supersedes people/mentioned/LES_HUGUENOTS.md (stub; its alias "Huguenots" is also the religious group, culture/history/HUGUENOTS.md, so the bare alias is not claimed here). 049.0109 is a chorus sung at a reception, not a performance. %%

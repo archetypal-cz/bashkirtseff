@@ -15,6 +15,3 @@ replaced_by: QUEEN_ISABELLA_II
 
 %% GLO_LA_REINE.0001 %%
 **Retired.** Merged into [#QUEEN_ISABELLA_II](../../people/royalty/QUEEN_ISABELLA_II.md) (`people/royalty/QUEEN_ISABELLA_II.md`); use that entry instead.
-
-%% GLO_LA_REINE.0002 %%
-%% 2026-10-22T20:56:46 RSR: Retired by glossary-merge; content and links moved to QUEEN_ISABELLA_II. replaced_by: people/royalty/QUEEN_ISABELLA_II.md. %%

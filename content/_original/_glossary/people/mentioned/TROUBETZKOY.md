@@ -26,11 +26,7 @@ In March 1882 the Troubetzkoy women are in Nice: Princess Lise (Elisabeth) Troub
 ## Sources
 Diary as quoted; Mon Journal t.9–14 indexes.
 
-%% 2026-10-22T22:13:38 RSR: Merged TROUBESTKOY (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
-
-%% 2026-10-22T22:13:44 RSR: Merged TROUBETSKOY (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## Merged entries (TROUBETSKOY, TROUBESTKOY)
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 Earlier and later mentions of the family under other spellings: on 28 November 1876 Berthe «ne parle que de la fille de la princesse Lise Troubetskoy dont le salon est bien connu à Paris» (067.1333); 27 May 1877, a Mme Yakovleff «qui a des parents parmi les Troubetskoy» (071.0478); 7 and 24 May 1882, when Marie meets «Aurore» at Etincelle's «en l'absence de l'inéffable Lise» (095.0027: «l'incomparable Aurore ... Mlle Troubetskoy qu'Etincelle glorifie», «sa maman, l'excentrique Lise court après les partis pour cette Aurore de vingt-quatre ans au moins»; 095.0088); in February 1878 «la jeune princesse Troubetskoy» (078.0292); and Orthodox Easter night 1881, «Mme de Peyronney était là avec les Troubestkoy» (091.0520), probably Princess Lise and her daughters (a guess). The princess herself is [#Princess Lise Troubetzkoy](PRINCESSE_TROUBETZKOY.md).

@@ -26,6 +26,6 @@ Marie's «Horace de Caillas» is the Paris painter **Horace de Callias** (Paris,
 
 - First mentioned: 1880-03-21 (087.0653). 17 tagged paragraphs, carnets 087–098.
 
-%% 2026-10-22T20:25:00 RSR: Body written from the 17 tagged paragraphs; identification as Horace de Callias from French Wikipedia (name and profession), 0.85. Suggested alias «Callias». %%
+%% 2026-10-22T20:25:00 RSR: Identification as Horace de Callias from French Wikipedia (name and profession), 0.85. Suggested alias «Callias». %%
 
-%% 2026-10-22T20:18:00 RSR: Body written from the tagged paragraphs and the indexes; the 17 tagged paragraphs were read to 088.0105 (the rest, up to 17, are within the same weeks). No work of his identified. %%
+%% 2026-10-22T20:18:00 RSR: The 17 tagged paragraphs were read to 088.0105 (the rest, up to 17, are within the same weeks). No work of his identified. %%

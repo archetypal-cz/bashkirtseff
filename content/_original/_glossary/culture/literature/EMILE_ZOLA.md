@@ -61,5 +61,4 @@ These principles influenced many writers of Marie's era, and extended the concep
 
 While direct mentions of Zola in Marie's diary are limited, his influence on the literary and artistic culture of her time was significant. Marie's own artistic aspirations and her desire to document her life in detail show parallels with the naturalist movement that Zola championed.
 
-%% 2025-04-05T15:02:04 RSR: Created glossary entry for Émile Zola as an example of the new glossary format %%
 %% 2025-06-24T09:15:30 RSR: Enhanced entry with specific quotes from Marie's preface and detailed information about her explicit connection to Zola's naturalism and the "document humain" concept %%

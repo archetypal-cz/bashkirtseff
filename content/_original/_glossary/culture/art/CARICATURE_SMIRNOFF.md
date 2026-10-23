@@ -54,4 +54,4 @@ The smaller Smirnoff entry in the glossary records only that he was a Russian in
 - The diary: carnets 037 and 044, French originals in `/content/_original/`; no secondary source
 
 %% GLO_CARICATURE_SMIRNOFF.0012 %%
-%% 2026-10-10T21:00:44 RSR: Created in the works-glossary wave (batch 10). Support (canvas) taken from "la toile" in 044.0056. Note the Smirnoff caricature is also named at 044.0056 in the GRANDE_CARICATURE_1875 entry as a context paragraph; the two entries are cross-linked and not merged. %%
+%% 2026-10-10T21:00:44 RSR: Support (canvas) taken from "la toile" in 044.0056. Note the Smirnoff caricature is also named at 044.0056 in the GRANDE_CARICATURE_1875 entry as a context paragraph; the two entries are cross-linked and not merged. %%

@@ -24,4 +24,4 @@ Mon Journal t.3 index: «Woldmann (Mme), cantatrice, 225».
 
 %% 2026-10-22T21:33:17 RSR: Identification by name and context (the two soloists named together with Verdi); the Paris dates of the performances were not verified (the sources found give the Milan premiere of 22 May 1874 and later Paris performances). %%
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Rewritten from the single mention + t.3 index; Wikipedia pages 'Maria Waldmann' and 'Requiem (Verdi)' via web search 2026-10-22. %%
+%% 2026-10-22T21:33:17 RSR: Wikipedia pages 'Maria Waldmann' and 'Requiem (Verdi)' via web search 2026-10-22. %%

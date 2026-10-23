@@ -51,4 +51,4 @@ In May-June 1876 Marie discovers him and finds her own thoughts already printed.
 - Project Gutenberg ebook 14913, maxim 276.
 - Wikipedia, "François de La Rochefoucauld (writer)".
 
-%% 2026-10-10T22:20:00 RSR: Works-glossary batch 05 (W089). Maxim 276 verified in Gutenberg 14913 (L'absence diminue les médiocres passions, et augmente les grandes, comme le vent éteint les bougies et allume le feu). Supersedes people/mentioned/LA_ROCHEFOUCAULD.md for the book; the princely-family mentions at 073.0342/0347 stay outside this entry. %%
+%% 2026-10-10T22:20:00 RSR: Maxim 276 verified in Gutenberg 14913 (L'absence diminue les médiocres passions, et augmente les grandes, comme le vent éteint les bougies et allume le feu). Supersedes people/mentioned/LA_ROCHEFOUCAULD.md for the book; the princely-family mentions at 073.0342/0347 stay outside this entry. %%

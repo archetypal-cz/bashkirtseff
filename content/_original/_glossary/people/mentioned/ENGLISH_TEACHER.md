@@ -15,6 +15,3 @@ status: retired
 
 %% GLO_ENGLISH_TEACHER.0001 %%
 **Retired.** «Le professeur d'anglais» (017.0198) is not named.
-
-%% GLO_ENGLISH_TEACHER.0002 %%
-%% 2026-10-22T22:16:12 RSR: Retired in the stub-pass apply (2026-10-22, owner rule: common nouns and descriptive labels are not tagged); its diary tags were removed. %%

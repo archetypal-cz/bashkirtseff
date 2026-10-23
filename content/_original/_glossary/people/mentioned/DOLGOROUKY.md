@@ -19,5 +19,3 @@ The Dolgorouky (Dolgorukov) princely family of Russia. The diary names no indivi
 - 23 July 1881, Warsaw: Albedinsky «doit sa fortune à son mariage avec une princesse Dolgorouky dont l'Empereur a été longtemps le protecteur» (092/1881-07-23).
 
 The former entry PRINCE_DOLGOROUKY (the 1874 prince) is merged here.
-
-%% 2026-10-22T20:51:23 RSR: Merged PRINCE_DOLGOROUKY; its diary facts were checked against the text and folded in by hand above. %%

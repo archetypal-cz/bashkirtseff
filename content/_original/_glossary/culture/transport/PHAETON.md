@@ -48,4 +48,4 @@ The phaéton occupied an ambiguous social position. While it could be fashionabl
 - **Fiacre** — hired cab
 - **Calèche** — more formal open carriage
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Light carriage used by Marie as social status indicator. %%
+%% 2026-02-10T20:00:00 RSR: Light carriage used by Marie as social status indicator. %%

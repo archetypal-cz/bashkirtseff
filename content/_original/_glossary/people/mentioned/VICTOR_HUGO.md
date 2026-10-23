@@ -39,4 +39,4 @@ Marie references Hugo as part of the literary and cultural landscape of her time
 - [#Cassagnac](../recurring/CASSAGNAC.md) -- Politically opposed to Hugo's republicanism
 
 %% GLO_VICTOR_HUGO.0008 %%
-%% 2026-02-10T11:30:00 RSR: Enriched from stub. Victor Hugo was the dominant literary figure of Marie's era. %%
+%% 2026-02-10T11:30:00 RSR: Victor Hugo was the dominant literary figure of Marie's era. %%

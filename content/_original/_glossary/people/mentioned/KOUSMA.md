@@ -28,5 +28,3 @@ Valet of Marie's father, Constantin Bashkirtseff, at Gavronzi and Poltava in 187
 - 1876-10-30 (067.0388, 067.0391); 1876-11-15 (067.0983, 067.1010, 067.1021); 1876-11-28 (067.1348)
 
 See also [#Papa](../family/PAPA.md), [#Chocolat](CHOCOLAT.md).
-
-%% 2026-10-21T09:38:57 RSR: Created during RSR research of the restored carnet 067 paragraphs (rsr-067b). %%

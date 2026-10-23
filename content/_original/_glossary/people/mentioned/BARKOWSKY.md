@@ -24,4 +24,4 @@ A Russian count, «le comte Dounine-Barkovsky» (023.0128), whom Marie met at Os
 
 - First mentioned: 1874-08-15 (023.0128). Eight tagged paragraphs, carnets 023 and 050.
 
-%% 2026-10-22T18:55:00 RSR: Body written. «Le comte Domino Barkowsky» in 023.0383 is read as the same man (Marie's wordplay). %%
+%% 2026-10-22T18:55:00 RSR: «Le comte Domino Barkowsky» in 023.0383 is read as the same man (Marie's wordplay). %%

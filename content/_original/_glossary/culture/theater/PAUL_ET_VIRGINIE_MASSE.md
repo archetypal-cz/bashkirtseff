@@ -47,4 +47,4 @@ The references to rereading the novel (090.0099, 090.0162, 093.0286, 099.0461), 
 
 - IMSLP, [Paul et Virginie (Massé, Victor)](https://imslp.org/wiki/Paul_et_Virginie_(Massé,_Victor)); BnF catalogue (creation at the Théâtre Lyrique de la Gaîté); Wikipedia, ["Victor Massé"](https://en.wikipedia.org/wiki/Victor_Massé).
 
-%% 2026-10-10T21:22:00 RSR: New entry (works batch 01), split from the shared stub; the novel stays in literature/PAUL_ET_VIRGINIE.md. FLAG: footnote 091.0142 (and the older entry text) say the premiere was at the Opéra-Comique; IMSLP and the BnF say the Théâtre Lyrique (Gaîté). The footnote needs correction in every tree. %%
+%% 2026-10-10T21:22:00 RSR: FLAG: footnote 091.0142 (and the older entry text) say the premiere was at the Opéra-Comique; IMSLP and the BnF say the Théâtre Lyrique (Gaîté). The footnote needs correction in every tree. %%

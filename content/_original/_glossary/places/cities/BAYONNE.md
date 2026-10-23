@@ -21,4 +21,4 @@ The city of the French Basque coast beside Biarritz. Marie passes through it twi
 - 1881-09-16 (093.0079): leaving Biarritz for Paris: «il fallait passer la nuit à Bayonne, nous avons préféré Bordeaux où Sarah donnait une représentation»; Marie saw *La Dame aux camélias* with Bernhardt there.
 - 1881-09-27 (093.0141): «Hier à Bayonne en famille, aujourd'hui à Fontarabie et la famille aussi» (see [Fontarabie](FONTARABIE.md)).
 
-%% 2026-10-22T21:34:03 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Two paragraphs read; no outside source needed beyond the Wikipedia article. %%
+%% 2026-10-22T21:34:03 RSR: Two paragraphs read; no outside source needed beyond the Wikipedia article. %%

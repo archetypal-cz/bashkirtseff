@@ -34,8 +34,3 @@ Older RSR notes in 008 (1873-08-21) and 028 (1875-01-14) call her the milliner C
 - 1878-08-31 (082.0249): «Caroline m'a envoyée la même essayeuse qui est allée chez Mlle Acard pour sa robe de noce». Mon Journal t.11 index: «Caroline, (Essayeuse chez le couturier Laferrière)»; t.15: «Laferrière (Caroline, couturière)».
 
 See also [#Laferriere](../../culture/fashion/LAFERRIERE.md).
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content

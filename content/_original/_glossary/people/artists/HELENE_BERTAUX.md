@@ -28,4 +28,4 @@ Hélène Bertaux, née Pilate, known professionally as Mme Léon Bertaux (Paris 
 - Mon Journal t.15 and t.16, index of names ("Berteaux (Mme)")
 - Ministère de la Culture: https://www.culture.gouv.fr/fr/thematiques/musees/Les-musees-en-France/les-collections-des-musees-de-france/decouvrir-les-collections/helene-bertaux-1825-1909
 
-%% 2026-10-21T14:40:00 RSR: Created in the no-LAN entries pass (100/1883-06-09); named in 098.0306, 100.0103 and 102.0406 (as Berteaux); the Union also at 103.0436 and 103.0600. Mon Journal indexes: t.15 "Berteaux (Mme), scultpeur : 183, 279"; t.16 "Berteaux (Mme), sculpteur : 92, 108, 153-154". %%
+%% 2026-10-21T14:40:00 RSR: Named in 098.0306, 100.0103 and 102.0406 (as Berteaux); the Union also at 103.0436 and 103.0600. Mon Journal indexes: t.15 "Berteaux (Mme), scultpeur : 183, 279"; t.16 "Berteaux (Mme), sculpteur : 92, 108, 153-154". %%

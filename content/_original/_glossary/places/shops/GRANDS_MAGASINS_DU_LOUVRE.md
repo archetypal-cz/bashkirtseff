@@ -37,4 +37,4 @@ Marie uses «le Louvre» (or «le magasin du Louvre») for the store in contrast
 - Not this entry: 043.0115 («Pas le Louvre, le Louvre est incritiquable»: reads as the palace/museum), 003.0072 and 094.0389 (the Hôtel du Louvre, Naples).
 
 %% GLO_GRANDS_MAGASINS_DU_LOUVRE.0007 %%
-%% 2026-10-21T22:20:00 RSR: Created (OPEN-ITEMS B-64(2)); six paragraphs read and cited above. 019.0229/0318 identification rests on the surrounding shop-list and «le paradis de Dina»; 087.0103 explicitly «magasin». Sources: Wikipedia «Louvre Saint-Honoré» (history of the Grands Magasins du Louvre) and French guide pages (Chauchard, Hériot); founding dates differ between sources. %%
+%% 2026-10-21T22:20:00 RSR: Six paragraphs read and cited above. 019.0229/0318 identification rests on the surrounding shop-list and «le paradis de Dina»; 087.0103 explicitly «magasin». Sources: Wikipedia «Louvre Saint-Honoré» (history of the Grands Magasins du Louvre) and French guide pages (Chauchard, Hériot); founding dates differ between sources. %%

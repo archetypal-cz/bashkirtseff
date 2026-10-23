@@ -35,7 +35,6 @@ This entry was mentioned 6 times in Book 13 of Marie's diary (1879).
 
 ---
 
-%% 2026-02-04T06:46:46.735Z RSR: Merged content from GOLDSMIDH %%
 
 # Goldsmidh
 
@@ -48,8 +47,3 @@ This entry was mentioned 6 times in Book 13 of Marie's diary (1879).
 
 ## References in Diary
 [Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content

@@ -22,4 +22,4 @@ The wife's father is the [General Ogareff](OGAREFF.md). Not to be confused with 
 
 065/1876-08-25 (065.0457); 066/1876-09-15 (066.0242, 066.0243, 066.0254).
 
-%% 2026-10-21T22:34:00 RSR: Fix (OPEN-ITEMS B-39(4)): body written for the Poltava couple (the earlier stub also carried the 093-100 Mlles Martinoff, now MLLES_MARTINOFF). Evidence: «Veux-tu que je te mène chez Mme Martinoff (la préfète)» (065.0457); «un M. Martinoff auquel on donna une préfecture» (066.0242); t.9 index «Martinoff (M.), préfet : 76, 78, 81». %%
+%% 2026-10-21T22:34:00 RSR: Evidence: «Veux-tu que je te mène chez Mme Martinoff (la préfète)» (065.0457); «un M. Martinoff auquel on donna une préfecture» (066.0242); t.9 index «Martinoff (M.), préfet : 76, 78, 81». %%

@@ -25,5 +25,3 @@ The Bible. Marie reads it seriously for the first time in 1883, together with Re
 - 1884-02-03 (103.0269)
 - 1884-02-23 (103.0388, 103.0391)
 - 1884-02-24 (103.0399)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

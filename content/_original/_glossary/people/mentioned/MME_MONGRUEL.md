@@ -24,5 +24,3 @@ The séance predicts that Cardinal Antonelli will become «presque roi», that M
 - 1876-07-18 (063): recalled, compared with Alexis
 - 1876-07-31 (064.0366–064.0367): the «ville près de la mer» read as Petersburg
 - 1876-11-15 (067.1026): the prophecy abandoned
-
-%% 2026-10-21T09:11:04 RSR: Identification added during RSR research of the restored carnet 063 paragraphs. %%

@@ -52,4 +52,4 @@ Marie's note shows how she worked at Naples: whenever she could not go out, she 
 - Diary paragraph 070.0866 in `content/_original/`.
 
 %% GLO_CARICATURES_NAPLES_1877.0011 %%
-%% 2026-10-10T21:02:00 RSR: Created in the works glossary wave (W479). "Oil on canvas" is an inference from "toile"; the diary does not name the medium. %%
+%% 2026-10-10T21:02:00 RSR: "Oil on canvas" is an inference from "toile"; the diary does not name the medium. %%

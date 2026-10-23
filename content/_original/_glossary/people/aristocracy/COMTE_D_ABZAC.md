@@ -28,4 +28,4 @@ The «vicomte d'Abzac» of December 1880 (090.0398) and «Paul d'Abzac», a duel
 
 077.0550; 078.0058, 078.0062, 078.0092, 078.0191, 078.0231, 078.0293 (all read 2026-10-22).
 
-%% 2026-10-22T14:00:00 RSR: Stub replaced (glossary identity questions, B-45(3)). Comte ≠ marquis from the diary itself (077.0550 «cousin du marquis d'Abzac de l'Elysée») and the t.11 index («Abzac (marquis d'), cousin du précédent»). %%
+%% 2026-10-22T14:00:00 RSR: Comte ≠ marquis from the diary itself (077.0550 «cousin du marquis d'Abzac de l'Elysée») and the t.11 index («Abzac (marquis d'), cousin du précédent»). %%

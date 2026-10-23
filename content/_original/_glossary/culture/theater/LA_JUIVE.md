@@ -37,4 +37,4 @@ full_text:
 - Wikipedia, ["La Juive"](https://en.wikipedia.org/wiki/La_Juive); ["Gabrielle Krauss"](https://en.wikipedia.org/wiki/Gabrielle_Krauss).
 - IMSLP, [La Juive (Halévy, Fromental)](https://imslp.org/wiki/La_Juive_(Halévy,_Fromental)).
 
-%% 2026-10-10T12:00:00 RSR: New work entry (batch 02). The alias is limited to the full title: the bare word "Juive" would mis-tag "robe juive" and any reference to a Jewish woman. %%
+%% 2026-10-10T12:00:00 RSR: The alias is limited to the full title: the bare word "Juive" would mis-tag "robe juive" and any reference to a Jewish woman. %%

@@ -15,6 +15,3 @@ replaced_by: ONCLE_LAUTREC
 
 %% GLO_LAUTREC.0001 %%
 **Retired.** Merged into [#ONCLE_LAUTREC](../../people/mentioned/ONCLE_LAUTREC.md) (`people/mentioned/ONCLE_LAUTREC.md`); use that entry instead.
-
-%% GLO_LAUTREC.0002 %%
-%% 2026-10-21T21:17:21 RSR: Retired by glossary-merge; content and links moved to ONCLE_LAUTREC. replaced_by: people/mentioned/ONCLE_LAUTREC.md. %%

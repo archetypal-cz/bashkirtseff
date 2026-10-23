@@ -37,4 +37,4 @@ Not to be confused with the Arson de Saint-Joseph family of Nice (see [Arson](AR
 
 - [Torlonia](TORLONIA.md), [Antonelli](ANTONELLI.md), [Altamura](ALTAMURA.md)
 
-%% 2026-10-21T09:41:16 RSR: Created during RSR of the restored carnet 059 paragraphs (≥2 mentions, no entry; checked by grep of «Saint-Joseph» and «San Giuseppe» in content/_original). Tags added only in the restored 059 paragraphs; the other paragraphs naming him (056/1876-03-31, 056/1876-04-01, 059.0010, 0011, 0012, 0032, 0033, 0054, 0080, 0129, 060/1876-05-10, 05-13, 05-18, 068/1877-02-08) still need the tag (reported to the lead). %%
+%% 2026-10-21T09:41:16 RSR: Tags added only in the restored 059 paragraphs; the other paragraphs naming him (056/1876-03-31, 056/1876-04-01, 059.0010, 0011, 0012, 0032, 0033, 0054, 0080, 0129, 060/1876-05-10, 05-13, 05-18, 068/1877-02-08) still need the tag (reported to the lead). %%

@@ -24,4 +24,4 @@ In Paris in May 1880 she is Marie's rival for Soutzo's attention: «Il vient d'a
 
 087.0833 (1880-04-11); 088.0235, 088.0251, 088.0265, 088.0270, 088.0307, 088.0311 (May 1880).
 
-%% 2026-10-22T14:25:14 RSR: B-65 (4): entry created (seven mentions); tagged the paragraphs above. «la petite Audiffret» in the Soutzo passages of May 1880 is taken to be Marie, the one he names (088.0251) (0.8). %%
+%% 2026-10-22T14:25:14 RSR: Tagged the paragraphs above. «la petite Audiffret» in the Soutzo passages of May 1880 is taken to be Marie, the one he names (088.0251) (0.8). %%

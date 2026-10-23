@@ -52,4 +52,4 @@ full_text:
 - Wikipedia, ["Aida"](https://en.wikipedia.org/wiki/Aida).
 - La Scala libretto (Internet Archive) and IMSLP, linked above.
 
-%% 2026-10-10T21:26:00 RSR: New entry (works batch 01). Supersedes the auto-stub people/mentioned/AIDA.md. The Naples "première" of 069.0224 is Marie's wording for a first night of the season, not the opera's première. 068.0408's frontmatter location (Nice) should be checked against the remark about Rome-made shoes. %%
+%% 2026-10-10T21:26:00 RSR: The Naples "première" of 069.0224 is Marie's wording for a first night of the season, not the opera's première. 068.0408's frontmatter location (Nice) should be checked against the remark about Rome-made shoes. %%

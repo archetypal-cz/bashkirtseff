@@ -66,5 +66,4 @@ Journeys mark major transitions in the diary. Marie describes the practical deta
 - **Verbs**: partir, arriver, voyager, traverser, s'embarquer
 - **False friends**: *départ* (also as a start); *course* (a ride or a race); *station* (a resort)
 
-%% 2026-02-10T20:00:00 RSR: Created thematic tag. Marie's extensive travel is a defining feature of the diary. %%
-%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%
+%% 2026-02-10T20:00:00 RSR: Marie's extensive travel is a defining feature of the diary. %%

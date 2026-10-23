@@ -53,4 +53,4 @@ No passage has been tied to this picture.
 - *Catalogue des œuvres de Mlle Bashkirtseff*, Paris: Ludovic Baschet, 9 February 1885, p. 19, no. 10 (*Profil*, 0,40 × 0,32 m) — [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)
 
 %% GLO_UNE_LARME.0012 %%
-%% 2026-10-02T15:20:00 RSR: Created in the works-catalogue pass from the POP notice (fetched 2026-10-02). The notice's bibliography field begins "Debrabandère-Deschamps, B." and is truncated in the API; that reference was not traced. The page number for 1885 no. 10 is the page that carries nos. 6–11 (the page before printed p. 20). No open-licence image exists (POP copy 832×1014, © SMF). %%
+%% 2026-10-02T15:20:00 RSR: The notice's bibliography field begins "Debrabandère-Deschamps, B." and is truncated in the API; that reference was not traced. The page number for 1885 no. 10 is the page that carries nos. 6–11 (the page before printed p. 20). No open-licence image exists (POP copy 832×1014, © SMF). %%

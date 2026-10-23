@@ -13,6 +13,3 @@ replaced_by: PLON_PLON
 
 %% GLO_JEROME.0001 %%
 **Retired.** Merged into [#PLON_PLON](../recurring/PLON_PLON.md) (`people/recurring/PLON_PLON.md`); use that entry instead.
-
-%% GLO_JEROME.0002 %%
-%% 2026-10-22T20:54:03 RSR: Retired by glossary-merge; content and links moved to PLON_PLON. replaced_by: people/recurring/PLON_PLON.md. %%

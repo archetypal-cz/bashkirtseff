@@ -26,5 +26,3 @@ Earlier, in Rome, «Fosti» is her singing teacher: «Enfin Antonelli a amené F
 - 1876-03-21, 1876-03-24, 1876-03-25 (055): lessons in Rome (untagged at the time of writing)
 - 1876-07-14 (063.0241): «je me souvins avec indignation de Facciotti, de Fosti, de Cresci»
 - 1877-02-08 (068.1005)
-
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%

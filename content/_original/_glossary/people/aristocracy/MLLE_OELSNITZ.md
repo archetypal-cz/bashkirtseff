@@ -14,6 +14,3 @@ replaced_by: OELSNITZ
 
 %% GLO_MLLE_OELSNITZ.0001 %%
 **Retired.** Merged into [#OELSNITZ](../mentioned/OELSNITZ.md) (`people/mentioned/OELSNITZ.md`); use that entry instead.
-
-%% GLO_MLLE_OELSNITZ.0002 %%
-%% 2026-10-21T21:15:30 RSR: Retired by glossary-merge; content and links moved to OELSNITZ. replaced_by: people/mentioned/OELSNITZ.md. %%

@@ -87,5 +87,3 @@ Lermontov's generation represented Russian Romanticism at its height:
 - [Mikhail Lermontov - Wikipedia](https://en.wikipedia.org/wiki/Mikhail_Lermontov)
 - [Mikhail Lermontov | Britannica](https://www.britannica.com/biography/Mikhail-Yuryevich-Lermontov)
 - [Mikhail Lermontov | Poetry Foundation](https://www.poetryfoundation.org/poets/mikhail-lermontov)
-
-%% 2025-12-07T12:10:00 RSR: Created entry based on Marie's reference to her grandfather's generation and cultural context %%

@@ -30,4 +30,4 @@ Appears as one of the social acquaintances present during the morning of the Sal
 - Key entry: 1883-04-30 (099.0254, Salon vernissage)
 - Possible related entry: c. early October 1883 (twin "MM. de la Tour" visit, raw carnet Book 16)
 
-%% 2026-08-13T23:00:00 RSR: Created to resolve missing glossary tag on 099.0254 (Salon vernissage, 1883-04-30). Per Apostolescu's index to raw carnet Book 15 (pages 8, 14, 233), "La Tour (M. de)" was a minor recurring social acquaintance. A later entry (Book 16, c. October 1883) mentions "les deux MM. de la Tour, ils sont jumeaux" (twin brothers) -- possibly the same family, though not confirmed. No further identity established; treated as a minimal "mentioned" entry per project convention. %%
+%% 2026-08-13T23:00:00 RSR: Per Apostolescu's index to raw carnet Book 15 (pages 8, 14, 233), "La Tour (M. de)" was a minor recurring social acquaintance. A later entry (Book 16, c. October 1883) mentions "les deux MM. de la Tour, ils sont jumeaux" (twin brothers) -- possibly the same family, though not confirmed. No further identity established; treated as a minimal "mentioned" entry per project convention. %%

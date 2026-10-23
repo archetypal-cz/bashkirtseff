@@ -23,4 +23,4 @@ We are not sure which Baltazzi this is. The Baltazzi brothers were a Greek banki
 
 - 1874-06-01 (020.0034), the only tagged paragraph.
 
-%% 2026-10-22T18:48:00 RSR: Body written; identity_uncertain set. Family details from an auction-house description found by web search (not Wikipedia), so the names and Aristide's dates are provisional. %%
+%% 2026-10-22T18:48:00 RSR: Family details from an auction-house description found by web search (not Wikipedia), so the names and Aristide's dates are provisional. %%

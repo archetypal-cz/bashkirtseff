@@ -27,7 +27,6 @@ The son of the duc de San Cesario, president of the Naples Cercle: «le marquis 
 - 069.0535 (1877-03-26): His visiting card is left along with that of Comte Francesco Caracciolo dei principi di Torchiaroli. Marie and the Fabbricatore girls discuss the callers.
 
 ## Research Notes
-- Created: 2026-01-06 (auto-generated stub)
 - Researched: 2026-04-10 — territorial title identified; individual bearer untraced
 - Would require Italian genealogical archives (Libro d'Oro or Archivio di Stato di Napoli) to identify
-%% 2026-10-22T15:25:00 RSR: Identity as the duke's son added (OPEN-ITEMS B-75(2)); kept apart from DUC_DE_SAN_CESARIO (the father). %%
+%% 2026-10-22T15:25:00 RSR: Kept apart from DUC_DE_SAN_CESARIO (the father). %%

@@ -54,4 +54,4 @@ The same day she also prepares the charcoal cartoon of a second composition ([#M
 - Katherine Kernberger, *I Am the Most Interesting Book of All*, Vol. I (Fonthill Press, 2013), illustration caption "The Card Game" -- as recorded in the project catalogue; the caption has not been rechecked in the book for this entry.
 
 %% GLO_JOUEURS_DE_CARTES_1877.0011 %%
-%% 2026-10-10T21:05:00 RSR: Created in the works glossary wave (W480). Identification with the Nice-held "Partie de cartes" is a lead for the lead/owner to verify with the Musée Jules Chéret; do not treat as fact. %%
+%% 2026-10-10T21:05:00 RSR: Identification with the Nice-held "Partie de cartes" is a lead for the lead/owner to verify with the Musée Jules Chéret; do not treat as fact. %%

@@ -17,5 +17,3 @@ Alexandre Falguière (1831–1900), French sculptor (and painter), professor at 
 - 1883-04-18 (099.0156): lists him among sculptors who can model a figure («Chapu, Dubois, Falguière, Barrias, Millet»), but only Saint-Marceaux gives a soul to the clay.
 - 1883-12-10 (102.0462): sculptors who now paint too, «Millet, Mercier, Falguière, Dubois».
 - 1884-07-05 (105.0036): Tony says her wrestlers subject «Falguière l'a fait il y a huit ans»: Falguière's *Lutteurs* (Salon of 1875) is meant (Wikipedia, «Alexandre Falguière», list of works).
-
-%% 2026-10-22T21:36:31 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

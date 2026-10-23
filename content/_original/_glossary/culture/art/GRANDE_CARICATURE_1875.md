@@ -53,4 +53,4 @@ The picture is most likely one of the group of caricatures she made in autumn 18
 - Diary paragraphs cited above in `content/_original/`. The work is not in the 1885 memorial catalogue under this title (see the project catalogue, `docs/research/marie-bashkirtseff-works-catalogue.md`).
 
 %% GLO_GRANDE_CARICATURE_1875.0011 %%
-%% 2026-10-10T20:50:00 RSR: Created in the works glossary wave (W416). Lost/untraced; no image. Doubt: which five figures, and whether this is the same canvas as the "caricature de Smirnoff" of 044.0056; not resolved. %%
+%% 2026-10-10T20:50:00 RSR: Lost/untraced; no image. Doubt: which five figures, and whether this is the same canvas as the "caricature de Smirnoff" of 044.0056; not resolved. %%

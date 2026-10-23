@@ -46,4 +46,4 @@ On **23 March 1878**, in Paris, Marie writes that [#Robert_Fleury](../../people/
 - Diary paragraphs cited above in `content/_original/`.
 
 %% GLO_TETE_DE_SQUELETTE.0009 %%
-%% 2026-10-10T21:12:00 RSR: Created in the works glossary wave (W483). Inventory typed it as a painting of 1878; diary only shows a plan. %%
+%% 2026-10-10T21:12:00 RSR: Inventory typed it as a painting of 1878; diary only shows a plan. %%

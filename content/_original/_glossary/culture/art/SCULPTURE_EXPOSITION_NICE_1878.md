@@ -68,4 +68,4 @@ On Christmas Day 1877 (077.0022): "Julian est monté et nous avons arrêté les 
 - *Catalogue des œuvres de Mlle Bashkirtseff*, Paris: Ludovic Baschet, 1885, [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image), sculpture section
 
 %% GLO_SCULPTURE_EXPOSITION_NICE_1878.0014 %%
-%% 2026-10-10T20:55:59 RSR: Created in the works-glossary wave (batch 10). Everything is from the four diary passages; the inference about shared authorship is flagged as an inference and not asserted. Needs a check against Nice newspapers of January 1878 (the Exposition d'arts) if a researcher has access. %%
+%% 2026-10-10T20:55:59 RSR: Everything is from the four diary passages; the inference about shared authorship is flagged as an inference and not asserted. Needs a check against Nice newspapers of January 1878 (the Exposition d'arts) if a researcher has access. %%

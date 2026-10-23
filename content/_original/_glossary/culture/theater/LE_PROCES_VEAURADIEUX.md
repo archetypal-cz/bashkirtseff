@@ -39,4 +39,4 @@ In Marie's diary the play is chiefly a source of catchphrases for her campaign a
 
 - Wikipedia, ["Le Procès Veauradieux"](https://en.wikipedia.org/wiki/Le_Procès_Veauradieux).
 
-%% 2026-10-10T21:02:00 RSR: Enriched in place (works batch 01). The earlier note that Marie first saw the play in Nice in autumn 1875 is superseded: 040.0150 shows she saw it in Paris on 29 August 1875 (and see 048.0086 for her later claim that she was forbidden to see it; 041.0135 of 4 September also asks whether she may, so the 29 August visit is not certain); the Nice performance is 3 November 1875 (048.0490). No free full text found. %%
+%% 2026-10-10T21:02:00 RSR: The earlier note that Marie first saw the play in Nice in autumn 1875 is superseded: 040.0150 shows she saw it in Paris on 29 August 1875 (and see 048.0086 for her later claim that she was forbidden to see it; 041.0135 of 4 September also asks whether she may, so the 29 August visit is not certain); the Nice performance is 3 November 1875 (048.0490). No free full text found. %%

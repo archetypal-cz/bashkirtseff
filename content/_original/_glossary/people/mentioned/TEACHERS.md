@@ -91,5 +91,3 @@ This educational arrangement was typical for:
 - International education in multiple languages
 - Preparation for cosmopolitan social life
 - Balance between academic and social training
-
-%% 2025-06-30T21:55:00 RSR: Created collective entry for teachers mentioned in 1873 diary %%

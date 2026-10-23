@@ -22,4 +22,4 @@ On 26 September 1874, shopping for horses in Paris: «allons à l'avenue Montaig
 
 - 1874-09-26 (024.0119), the only tagged paragraph.
 
-%% 2026-10-22T19:32:00 RSR: Body written. Nothing more found. %%
+%% 2026-10-22T19:32:00 RSR: Nothing more found. %%

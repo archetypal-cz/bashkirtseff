@@ -96,4 +96,4 @@ Marie uses "romanesque" (romanticized, novel-like) repeatedly to describe both M
 - Marie's 1884 preface (Book 00, paragraph 00.29)
 - Historical context about Russian governesses in noble households
 
-%% 2025-12-07T14:45:00 RSR: Created based on Book 00 preface. Marie's sophisticated adult analysis (1884) of childhood governess reveals both personal and cultural insights. Note linguistic analysis: "romanesque" as cultural critique. %%
+%% 2025-12-07T14:45:00 RSR: Marie's sophisticated adult analysis (1884) of childhood governess reveals both personal and cultural insights. Note linguistic analysis: "romanesque" as cultural critique. %%

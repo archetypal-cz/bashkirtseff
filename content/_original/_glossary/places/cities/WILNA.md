@@ -20,4 +20,4 @@ The city (Wilno) of the Russian north-west, on the rail line to Petersburg. Paul
 
 - 1876-08-04 (064.0413, Petersburg): the only mention. See [Wirballen](WIRBALLEN.md).
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph + t.8 index. %%
+%% 2026-10-22T21:39:42 RSR: One paragraph + t.8 index. %%

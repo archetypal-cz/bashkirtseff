@@ -54,4 +54,4 @@ Marie subscribed to the instalments. "La grande histoire de Duruy qui paraît pa
 - Catawiki, Gazette Drouot and Canadian Centre for Architecture library records for the Hachette *Histoire des Romains* (7 vols, 1879-1885, illustrated edition), as returned by a web search on 2026-10-10.
 - Internet Archive scans listed under `full_text`.
 
-%% 2026-10-10T21:00:00 RSR: Works-glossary batch 05 (W069). Edition identified as Hachette's illustrated Histoire des Romains (1879-1885) from the livraison reading pattern; details from dealer and catalogue listings, not verified in hand. %%
+%% 2026-10-10T21:00:00 RSR: Edition identified as Hachette's illustrated Histoire des Romains (1879-1885) from the livraison reading pattern; details from dealer and catalogue listings, not verified in hand. %%

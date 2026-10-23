@@ -44,5 +44,3 @@ The Forest of Fontainebleau (20,000 hectares) was artistically significant:
 ## Related Entries
 - [#Paris](./PARIS.md) - The city from which excursions departed
 - [#Bois_de_Boulogne](../social/BOIS_DE_BOULOGNE.md) - Another Parisian green space
-
-%% 2026-02-10T12:35:00 RSR: Expanded from one-line stub with palace and forest context %%

@@ -21,4 +21,4 @@ A family «les Michel» named twice in Nice in the spring of 1873. The Mon Journ
 ## Identity uncertain
 We are not sure who these people are. The diary gives only the surname, in two short mentions (004.0352, 005.0212); the t.1 index confirms they are a family called Michel and adds nothing. They are not Prince Michel Eristoff, whom Marie first meets in 1876. Sources checked: the two paragraphs and their neighbours, the t.1 index. If you can identify this family, we would be glad to hear from you.
 
-%% 2026-10-22T12:05:00 RSR: Created (glossary-owner-questions, MICHEL split): the two «les Michel» tags of 1873, written as #Michel_Family but pointing at MICHEL.md (Prince Michel Eristoff), are to be retagged here (identity-decisions TSV). %%
+%% 2026-10-22T12:05:00 RSR: The two «les Michel» tags of 1873, written as #Michel_Family but pointing at MICHEL.md (Prince Michel Eristoff), are to be retagged here (identity-decisions TSV). %%

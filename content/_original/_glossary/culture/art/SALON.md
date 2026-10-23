@@ -73,5 +73,3 @@ Marie's entries from April 30-May 1, 1882 describe:
 - [#Bastien_Lepage](../../people/recurring/BASTIEN_LEPAGE.md) - Fellow exhibitor
 - [#Carolus_Duran](../../people/artists/CAROLUS_DURAN.md) - Society portrait painter
 - [#Paris](../../places/cities/PARIS.md) - Location
-
-%% 2025-12-06T00:00:00 RSR: Expanded from stub with historical and diary context %%

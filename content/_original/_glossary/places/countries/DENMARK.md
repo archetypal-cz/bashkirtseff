@@ -35,5 +35,3 @@ Denmark appears in Marie Bashkirtseff's diary in connection with the Danish roya
 
 ## Related Entries
 - [#Nice](../cities/NICE.md) - Where European royals gathered
-
-%% 2026-02-10T14:30:00 RSR: Expanded from one-line stub %%

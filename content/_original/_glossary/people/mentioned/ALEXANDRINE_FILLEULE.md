@@ -24,4 +24,4 @@ Not to be confused with [Alexandrine, La Righi's daughter](ALEXANDRINE.md), the 
 - 073/1877-08-19, 073.0495 (christening by proxy)
 - 084/1879-03-03, 084.0377 («ma filleule Alexandrine», eighteen months)
 
-%% 2026-10-21T22:58:00 RSR: New entry created in the split of ALEXANDRINE (OPEN-ITEMS B-37(7)/B-53(3)) from the four paragraphs above, all opened; indexes t.10 p.198 and t.12 pp.138, 229 per the printed Mon Journal. %%
+%% 2026-10-21T22:58:00 RSR: Indexes t.10 p.198 and t.12 pp.138, 229 per the printed Mon Journal. %%

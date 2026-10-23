@@ -73,5 +73,3 @@ This anecdote serves a literary function in the diary:
 - Creates dramatic irony
 - Establishes the theme of failed relationships
 - Parallels Marie's own romantic concerns
-
-%% 2025-06-30T22:00:00 RSR: Created entry for Marie Ivanovna Perlik based on September 1, 1873 warning story %%

@@ -53,12 +53,6 @@ By autumn 1875 (carnet 045), Fiouloulou occupies a specific social role:
 - **Oct 7**: "Fidèle Fiouloulou! Pourquoi?"
 - **Oct 12**: First to arrive at the theater; helps Marie into her carriage
 
-%% 2025-07-06T00:00:00 RSR: Created entry for Fiouloulou based on diary references %%
-%% 2026-02-09T19:20:00 RSR: Expanded with carnet 045 context. Real name Detriaz, aspiring notary, Audiffret's follower. %%
+%% 2026-02-09T19:20:00 RSR: Real name Detriaz, aspiring notary, Audiffret's follower. %%
 %% 2026-02-09T21:15:00 RSR: Added carnet 046 references (Oct 4-12, 1875). %%
 %% 2026-09-28T10:00:00 RSR: Identification changed to Galula per Kernberger (2013, glossary), KRR decision 2026-09-28; the earlier Detriaz reading (Marie's own "Fiouloulou-Detriaz", 045) is kept in Identity. GALULA and GALULA_DECHIAR look like duplicate entries for the same person - merge candidate. %%
-
-%% GLO_GALULA.9100 %%
-%% 2026-10-03T10:00:00 RSR: Body merged from FIOULOULOU (richer duplicate). %%
-
-%% 2026-10-22T20:55:04 RSR: Merged GALUTA (no content kept: empty stub) %%

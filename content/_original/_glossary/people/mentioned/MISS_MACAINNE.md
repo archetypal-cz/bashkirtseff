@@ -13,7 +13,6 @@ last_updated: 2026-10-22
 # Miss Macainne
 
 ## Overview
-%% 2026-10-22T22:16:12 RSR: Created in the stub-pass apply (2026-10-22) from the paragraphs listed below. %%
 The tall sister of the English officer [Macainne](MACAINNE.md), met with her family at Spa in the summer of 1874 (020.0419) and seen again at Nice that winter. The Mon Journal indexes list the sisters separately from the brother (t.4 pp.79, 241; t.6 pp.159, 339). Her first name is not given.
 
 ## In Marie's diary

@@ -18,4 +18,4 @@ last_updated: 2026-10-22
 
 - 1874-05-06 (019.0134, Nice): the wedding of her niece; see [Mme Angel](MME_ANGEL.md) in the same paragraph.
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Single mention; t.3 index. %%
+%% 2026-10-22T21:33:17 RSR: Single mention; t.3 index. %%

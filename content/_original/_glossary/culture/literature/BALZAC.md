@@ -33,4 +33,4 @@ This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
 [To be determined based on research]
 
 %% GLO_BALZAC.0001 %%
-%% 2026-10-02T12:00:00 RSR: Honoré de Balzac (1799-1850), author of La Comédie humaine. Marie reads and cites him constantly (e.g. 1880-10-09, 090: "Balzac, les deux Dumas, Zola, Daudet, Musset ne m'ennuient jamais"). The earlier stub text above ("1 mention in Book 13") is wrong; this is the canonical entry for every Balzac reference. The person-stub Honoré de Balzac (retired stub HONORE_DE_BALZAC) is retired into this entry. %%
+%% 2026-10-02T12:00:00 RSR: Honoré de Balzac (1799-1850), author of La Comédie humaine. Marie reads and cites him constantly (e.g. 1880-10-09, 090: "Balzac, les deux Dumas, Zola, Daudet, Musset ne m'ennuient jamais"). The earlier stub text above ("1 mention in Book 13") is wrong; this is the canonical entry for every Balzac reference. %%

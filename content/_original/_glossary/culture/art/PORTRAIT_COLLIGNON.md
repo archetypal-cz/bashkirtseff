@@ -68,4 +68,4 @@ The 1885 memorial catalogue has a *Portrait de Mlle C.* (no. 75, 0.50 x 0.42 m).
 - Karl Bryullov (Bruloff): see the footnote at 062.0292
 
 %% GLO_PORTRAIT_COLLIGNON.0014 %%
-%% 2026-10-10T20:54:04 RSR: Created in the works-glossary wave (batch 10). Sitting numbers from 062.0163 (7th) and 062.0329 (9th). Medium assumed oil only from the context (satin background, hair, hand); the diary does not say oil. No image found on Commons or elsewhere. Possible 1885 catalogue match no. 75 is flagged, not asserted. %%
+%% 2026-10-10T20:54:04 RSR: Sitting numbers from 062.0163 (7th) and 062.0329 (9th). Medium assumed oil only from the context (satin background, hair, hand); the diary does not say oil. No image found on Commons or elsewhere. Possible 1885 catalogue match no. 75 is flagged, not asserted. %%

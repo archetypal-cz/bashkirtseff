@@ -21,4 +21,4 @@ The hotel on the Lungarno where the Bashkirtseffs stayed in Florence from 29 Apr
 ## References in Diary
 - 1877-04-29 (071.0061), 05-07 (071.0170), 05-13 (071.0279)
 
-%% 2026-10-21T10:48:15 RSR: Created during RSR of the restored carnet 071 paragraphs (rsr-071). 071.0279 still tags the Nice file (ledger). %%
+%% 2026-10-21T10:48:15 RSR: 071.0279 still tags the Nice file (ledger). %%

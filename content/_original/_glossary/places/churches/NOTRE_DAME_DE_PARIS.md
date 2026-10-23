@@ -20,5 +20,3 @@ The cathedral of Notre-Dame in Paris. Marie climbs to the top in October 1878 (0
 - 1878-10-20 (083.0007)
 - 1879-03-16 (084.0489)
 - 1879-06-11 (085.0296)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

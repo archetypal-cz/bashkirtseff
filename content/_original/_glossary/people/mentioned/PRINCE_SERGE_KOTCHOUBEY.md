@@ -41,4 +41,4 @@ Marie's two age estimates (45 on 27 September, 50–55 on 1 October) disagree; k
 - Mon Journal t.9 (L'Âge d'Homme), index «Kotchoubey».
 - Wikipedia EN, [Maria Vasilyevna Kochubey](https://en.wikipedia.org/wiki/Maria_Vasilyevna_Kochubey) (list of children).
 
-%% 2026-10-21T10:30:27 RSR: Created during RSR research of the restored 066 paragraphs (rsr-066b). Before this file existed, the 1876 Poltava passages about the prince were tagged with KOTCHOUBEY.md (the Nice princess). They were retagged here in 066/1876-09-15, 09-24, 09-27, 10-01 and 10-02. 066/1876-09-06 was left to rsr-066a. Birth and death dates have not been checked. %%
+%% 2026-10-21T10:30:27 RSR: Before this file existed, the 1876 Poltava passages about the prince were tagged with KOTCHOUBEY.md (the Nice princess). They were retagged here in 066/1876-09-15, 09-24, 09-27, 10-01 and 10-02. 066/1876-09-06 was left to rsr-066a. Birth and death dates have not been checked. %%

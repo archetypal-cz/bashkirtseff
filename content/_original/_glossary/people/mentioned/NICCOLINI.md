@@ -19,12 +19,6 @@ The marquis Niccolini of Florence, Larderel's adversary in a sabre duel at Flore
 
 Marie learns his name on 18 March from her mandolin teacher (069.0429); «le marquis Niccolini a été légèrement blessé, lui aussi, mais il est le premier tireur de sabre de Florence» (069.0462). On 1 April she reports Larderel's revenge: while Niccolini was ill, Larderel spent the night with La Righi and left her a thousand francs «pour ton amant» (069.0687). Not to be confused with the tenor Ernest Nicolini, Adelina Patti's partner (Kernberger lists both).
 
-%% 2026-10-21T13:02:08 RSR: Description added during RSR research of the restored carnet 068–069 paragraphs. %%
 
 ## References in Diary
 [Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content

@@ -64,13 +64,9 @@ In November she writes that her days pass in "battre Michka", to whom she gave a
 
 %% 2026-10-22T12:00:00 RSR: Identity settled from the Mon Journal indexes t.9, t.10, t.13, t.14, t.15 (quoted in the Identification paragraph), 0.95; 097.0421 and the 1883 Paris «Michka» are him (t.15 index). Of the 200 MICHEL tags, three are other people: 004.0352 and 005.0212 «les Michel» (Nice 1873; t.1 index «Michel (famille), 144, 176»), 082.0301 «Michel» = the doctor (t.12 index «Michel (docteur) : 28, 61, 113», p.113 = 082.0301). 033.0331 «le jeune prince Eristoff» (1875) is probably he (t.5 index only «Eristoff (prince), 93»), 0.7. Merge recommended: MICHEL into this entry once those three tags are moved (identity-decisions TSV). %%
 
-%% 2026-10-22T12:29:14 RSR: Merged MICHEL (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
-
-%% 2026-10-22T22:12:19 RSR: Merged MICHA (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 %% GLO_MICHKA_ERISTOFF.0014 %%
 ## «Micha» (1881)
 
 %% GLO_MICHKA_ERISTOFF.0015 %%
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 In the summer of 1881 Marie calls him «Micha» (merged entry MICHA; Mon Journal t.14 index «Eristoff (Michel, Micha, prince)»). At Gavronzi and Poltava he is always about the house: «Micha est toujours fourré dans nos jupes, il a vingt-trois ans mais c'est comme s'il en avait seize» (092.0241); she dresses him in her cloak and hat to gallop past the windows (092.0160); he breaks a tooth lifting Sperandio and Paul in a home-made circus (092.0240), dances the quadrille with her at Paul's wedding (092.0245), and goes ahead with Lihopoy to Kharkov (092.0264).

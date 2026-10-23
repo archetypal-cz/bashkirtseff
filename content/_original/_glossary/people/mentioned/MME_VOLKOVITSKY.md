@@ -13,7 +13,6 @@ last_updated: 2026-10-23
 
 Stub entry — needs research.
 
-%% 2026-10-21T21:14:22 RSR: Merged content from VOLKOVITSKY %%
 
 **Research Status**: Basic
 **Last Updated**: 2025-11-23

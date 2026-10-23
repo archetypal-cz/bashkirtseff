@@ -27,9 +27,7 @@ The lawsuit itself is the family property dispute; the diary does not describe i
 ## Sources
 prlib.ru (https://www.prlib.ru/en/collection_Plevako); en.wikipedia «Fyodor Plevako»; Mon Journal t.5, t.7, t.8 indexes.
 
-%% 2026-10-22T22:12:42 RSR: Merged PLEVASKO (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 ## «Plevasko» (1875)
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 In August 1875 Marie spells him «Plevasko» (merged entry PLEVASKO; Mon Journal t.5 index «Plevasko (M.), avocat», «Plevasko (Mme)»): her aunt is called to Paris because «l'avocat Plevasko l'attend» (039.0266, 040.0005); «ce célèbre avocat me paraît aussi honnête qu'on peut l'être dans son état» (040.0144); he stays until half past three (040.0161), and he and «sa femme, grasse et fraîche personne» are taken to the Bois (040.0163). In May 1876 the family has engaged «Plevako, celui que j'ai vu à Paris après Schlangenbad» (059.0654).

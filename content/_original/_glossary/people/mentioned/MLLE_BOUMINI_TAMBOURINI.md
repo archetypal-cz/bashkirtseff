@@ -12,7 +12,6 @@ last_updated: 2026-05-31
 ---
 # Mlle Boumini (daughter of Tamburini)
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (June 1873, Nice)
 
@@ -32,4 +31,4 @@ Her father, **Antonio Tamburini** (1800–1876), was one of the most celebrated 
 
 The translator's note confirms: "Boumini la fille de Tambourini — daughter of Tamburini, famous Italian opera singer." Her first name is not given. "Boumini" is likely a married surname. Antonio Tamburini married mezzo-soprano Marietta Goja (1801–1866); this woman may be their daughter.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real person — daughter of the famous Italian baritone Antonio Tamburini (1800–1876), who died in Nice; she frequented the Mouzay salon in Nice 1873. Sources: Wikipedia "Antonio Tamburini"; Archivio digitale Cini (confirms "Nizza, 1876"). %%
+%% 2026-05-31T12:00:00 RSR: Real person — daughter of the famous Italian baritone Antonio Tamburini (1800–1876), who died in Nice; she frequented the Mouzay salon in Nice 1873. Sources: Wikipedia "Antonio Tamburini"; Archivio digitale Cini (confirms "Nizza, 1876"). %%

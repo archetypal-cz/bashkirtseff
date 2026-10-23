@@ -28,5 +28,3 @@ Within days he is «plus ou moins de la famille» (068.0801): he escorts the fam
 ## Related
 - [NINA](NINA.md)
 - [MEISSNER](MEISSNER.md)
-
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%

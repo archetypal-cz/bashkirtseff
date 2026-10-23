@@ -29,4 +29,4 @@ Frédéric Chopin (1810–1849), Polish pianist and composer, the composer Marie
 
 - First mentioned: 1874-11-26 (027.0038). 13 tagged paragraphs.
 
-%% 2026-10-22T21:08:00 RSR: Body written. Dates: Wikipedia, «Frédéric Chopin». Opus numbers as in the existing footnote and RSR notes. %%
+%% 2026-10-22T21:08:00 RSR: Dates: Wikipedia, «Frédéric Chopin». Opus numbers as in the existing footnote and RSR notes. %%

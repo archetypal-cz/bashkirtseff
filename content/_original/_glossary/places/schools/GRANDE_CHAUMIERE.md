@@ -40,4 +40,4 @@ Paris offered multiple options for art training:
 - [#Paris](../cities/PARIS.md) - The city
 - [#Salon](../../culture/art/SALON.md) - The exhibition venue for trained artists
 
-%% 2026-02-10T13:40:00 RSR: Expanded from one-line stub. Note: The formal Academie de la Grande Chaumiere postdates Marie; this likely refers to the area or a predecessor institution. %%
+%% 2026-02-10T13:40:00 RSR: Note: The formal Academie de la Grande Chaumiere postdates Marie; this likely refers to the area or a predecessor institution. %%

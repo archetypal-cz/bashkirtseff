@@ -51,5 +51,4 @@ Marie kept horses and dogs throughout her life and wrote about them with the sam
 - [Love](LOVE.md)
 - [Health](HEALTH.md)
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/055/1876-03-13.md (paragraph 055.0645, tag [#Animals] pointing to this path). The paragraph concerns the horse "Chocolat" at Villa Doria Pamphilj, Rome, March 1876. A real thematic pattern exists across the diary (horses, dogs, pets); ANIMALS is a valid companion theme to existing entries like LOVE, FOOD, TRAVEL. %%
-%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%
+%% 2026-05-31T12:00:00 RSR: The paragraph concerns the horse "Chocolat" at Villa Doria Pamphilj, Rome, March 1876. A real thematic pattern exists across the diary (horses, dogs, pets); ANIMALS is a valid companion theme to existing entries like LOVE, FOOD, TRAVEL. %%

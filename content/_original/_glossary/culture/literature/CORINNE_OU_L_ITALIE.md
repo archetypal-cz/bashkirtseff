@@ -57,6 +57,3 @@ full_text:
 - Wikipedia, "Corinne, or Italy".
 - fr.wikisource, *Corinne ou l'Italie* (Livre I, chap. II for the "tristes plaisirs" sentence); Project Gutenberg 60810.
 - Diary paragraphs as cited above.
-
-%% GLO_CORINNE_OU_L_ITALIE.0011 %%
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

@@ -27,4 +27,4 @@ Jerusalem is never visited in the diary. It appears as a vow, a relic and above 
 
 See [Les Saintes Femmes](../../culture/art/LES_SAINTES_FEMMES.md).
 
-%% 2026-10-22T21:37:47 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Eleven tagged paragraphs read; footnotes at 052.0342 and 088.0397 are the existing project notes. %%
+%% 2026-10-22T21:37:47 RSR: Eleven tagged paragraphs read; footnotes at 052.0342 and 088.0397 are the existing project notes. %%

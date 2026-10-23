@@ -50,5 +50,3 @@ Doris Langley Moore, *Marie & the Duke of H.* (1966), documents Marie's habitual
 - [#Gavronzi](../../places/residences/GAVRONZI.md) - Birth estate
 - [#Maman](../../people/family/MAMAN.md) - Edited the published diary
 - [#Censored_1887](../../culture/literature/CENSORED_1887.md) - Published edition context
-
-%% 2026-03-17T12:00:00 RSR: Created from footnote [^00.05.1] to share birth date context across all translations. %%

@@ -25,4 +25,4 @@ The family hosted a dinner that Marie's family attended while Marie herself went
 
 The casual mention indicates regular social contact and an established relationship with the Bashkirtseff family in Nice society.
 
-%% 2025-12-07T15:50:00 RSR: Created entry based on February 11, 1873 diary entry. Need to identify the specific family - possibly surnames starting with S in Nice society 1873. %%
+%% 2025-12-07T15:50:00 RSR: Need to identify the specific family - possibly surnames starting with S in Nice society 1873. %%

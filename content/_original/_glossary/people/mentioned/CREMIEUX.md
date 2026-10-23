@@ -4,7 +4,6 @@ name: Adolphe Crémieux
 aliases:
   - Crémieux
   - Cremieux
-  - Mme Crémieux
 type: Person
 category: people/mentioned
 research_status: Stub
@@ -14,18 +13,14 @@ last_updated: 2026-05-31
 
 ## Overview
 
-Isaac Adolphe Crémieux (1796–10 February 1880) was a prominent French Jewish lawyer, statesman, and president of the Alliance Israélite Universelle (1863–1880). He served twice as Minister of Justice — under the Second Republic (1848) and the Government of National Defence (1870–1871) — and is best known for the Crémieux Decree (1870), which granted French citizenship to Algerian Jews. He died in Paris on 10 February 1880, just weeks before the diary entry in which "Mme Crémieux" is mentioned (26 May 1880). The reference to "Mme Crémieux" almost certainly denotes his widow, who continued to appear in Parisian society after his death. The "radical deputy" mentioned alongside her in the same passage suggests the Crémieux family's continued connection to the Republican Left.
+Isaac Adolphe Crémieux (1796–10 February 1880) was a prominent French Jewish lawyer, statesman, and president of the Alliance Israélite Universelle (1863–1880). He served twice as Minister of Justice — under the Second Republic (1848) and the Government of National Defence (1870–1871) — and is best known for the Crémieux Decree (1870), which granted French citizenship to Algerian Jews. He died in Paris on 10 February 1880. Marie does not mention him by name in the diary; the «Crémieux (il est ton tailleur)» of 084/1879-01-15 is a tailor, not him (unproven jibe, no tag).
 
-## Historical Context
+## Mme Crémieux
 
-At the Mouzay soiree of 26 May 1880, Marie notes: "Mme Crémieux et le député radical avec sa famille." This was a few months after Adolphe's death; Mme Crémieux (née Amélie Silny, 1810–1882) was a known philanthropist in her own right. The "radical deputy" may be a relative or associate of the family. Note: aliases include "Mme Crémieux" since in context the entry functions as a reference to his widow.
-
-## References in Diary
-
-- 1880-05-26: "Mme Crémieux et le député radical avec sa famille." (Mme Cremieux and the Radical deputy with his family, at a soiree at Mme Mouzay's.)
+The «Mme Crémieux» of Mme de Mouzay's soirées (088/1880-04-26 and 1880-05-26) is filed apart as [Mme Crémieux](MME_CREMIEUX.md): the diary does not say that she is Adolphe's widow (née Amélie Silny, 1810–1882 per Wikipedia-type sources), and the identification is only about 0.5. CORRECTION to the earlier text of this entry, which took the reference to his widow as certain.
 
 ## Sources
 
 Wikipedia: [Adolphe Crémieux](https://en.wikipedia.org/wiki/Adolphe_Cr%C3%A9mieux); Britannica: [Adolphe Crémieux](https://www.britannica.com/biography/Adolphe-Cremieux)
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-26.md. Context mentions "Mme Crémieux et le député radical avec sa famille." Adolphe Crémieux (1796-1880) died 10 February 1880; the reference is to his widow. Entry filed under the family name as the glossary tag is for the person-entity (family name CREMIEUX). Source: Wikipedia. %%
+%% 2026-10-23T12:00:00 RSR: CORRECTION: the 1880 «Mme Crémieux» tags (088/1880-04-26, 05-26) moved to MME_CREMIEUX; this entry is Adolphe Crémieux (1796-1880) only and has no diary tags. Source: Wikipedia. %%

@@ -31,4 +31,4 @@ Part of the Audiffret set at the Nice Skating-rink and opera in 1876-1877. Marie
 - [EMILE_D_AUDIFFRET](../recurring/EMILE_D_AUDIFFRET.md)
 - [BIHOVETZ](BIHOVETZ.md)
 
-%% 2026-09-27T22:18:57 RSR: Replaced auto-generated stub: Belle-de-jour = George Bergerault; «inspecteur des chiens» nickname (Kernberger 2013; carnet 068). %%
+%% 2026-09-27T22:18:57 RSR: Belle-de-jour = George Bergerault; «inspecteur des chiens» nickname (Kernberger 2013; carnet 068). %%

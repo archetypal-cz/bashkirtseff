@@ -20,5 +20,3 @@ The marquis del Puente, a Spanish gentleman Marie meets at Spa in the summer of 
 - Paris, 1874-09-24 (024.0090): on a drive in the Bois, «une revue de nos Spadois, Ostendais et Niçois. Le célèbre del Puente !»
 
 His first name and his connection with the Spanish nobility were not found. Mon Journal's Spa passages show the group as young Spaniards who dance and run the Spanish cotillions at the Casino.
-
-%% 2026-10-22T21:31:51 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

@@ -89,5 +89,5 @@ This story exemplifies several recurring themes in Marie's preface:
 - Marie's 1884 preface (Book 00, paragraph 00.36)
 - Historical context about governesses in Russian aristocratic households
 
-%% 2025-12-07T15:15:00 RSR: Created glossary entry for Sophie Dolgikoff based on Book 00, paragraph 00.36. Only 16 years old, treated as child of house, nearly married to man with bad reputation - story breaks off dramatically. Characteristic of Marie's incomplete but vivid childhood memories. %%
+%% 2025-12-07T15:15:00 RSR: Only 16 years old, treated as child of house, nearly married to man with bad reputation - story breaks off dramatically. Characteristic of Marie's incomplete but vivid childhood memories. %%
 %% 2026-07-06T16:32:00 RSR: Added the NOT-to-be-confused disambiguation vs SOPHIE.md (Sophie Tutcheff, paternal aunt) and repointed the §000.0037 tag in _original/uk from [#Sophie] to [#Sophie_Dolgikoff] — no merge, the old merge suggestion was based on a since-corrected identification. The story's resolution (the 17th failed engagement, "je ne puis pas m'habituer à sa figure") is in §000.0037, not broken off: per Kernberger (2013), "One hour later he buckled his trunk, watering it with his tears, and left. It was his seventeenth failed courtship." %%

@@ -49,7 +49,6 @@ Young man from Baden-Baden who attempted romantic advances with Marie three year
 - Aristocratic education patterns
 - French-Spanish noble families
 
-%% 2026-10-21T21:13:44 RSR: Merged content from REMY_DE_GONZALES_MORENO %%
 
 **Research Status**: Moderate
 **Last Updated**: 2025-12-07
@@ -150,9 +149,8 @@ The Gonzalès family episode teaches young Marie several lessons:
 - [#Baden_Baden](../../places/travel/BADEN_BADEN.md) - Where this all took place
 - [#Maman](../family/MAMAN.md) - Marie's naïve mother
 
-%% 2025-12-07T14:45:00 RSR: Created entry for Rémy de Gonzalès Moreno based on Book 00 retrospective. The spelling "Gonzalès" (with accent) appears in Marie's text, though "Gonzales" (without accent) is more common in Spanish. This represents one of Marie's first observations of romantic rivalry and social manipulation. %%
+%% 2025-12-07T14:45:00 RSR: The spelling "Gonzalès" (with accent) appears in Marie's text, though "Gonzales" (without accent) is more common in Spanish. This represents one of Marie's first observations of romantic rivalry and social manipulation. %%
 
-%% 2026-10-21T21:13:56 RSR: Merged content from REMY_MORENO_DE_GONZALES %%
 
 **Research Status**: Basic
 **Last Updated**: 2025-07-05
@@ -177,5 +175,3 @@ Spanish or Hispanic name suggesting aristocratic background - "de Gonzalès" ind
 - Current status in 1874
 - Connection to Georges (same surname Gonzalès?)
 - Age and occupation
-
-%% 2026-10-21T21:14:09 RSR: Merged REMY_MORENO (no content kept: empty stub) %%

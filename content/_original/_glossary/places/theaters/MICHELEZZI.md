@@ -35,5 +35,3 @@ For a young woman of Marie's social class and artistic aspirations, knowledge of
 Based on Marie's description of suddenly speaking Italian for the first time, it appears that Michelezzi's teaching approach may have initially emphasized passive knowledge (reading, grammar) before active production (speaking). This was a common language teaching methodology in the 19th century.
 
 Marie's pride in her linguistic accomplishments is evident in this entry, as she lists the four languages she can now speak (Russian, French, English, and Italian) and mentions two more she is studying (German and Latin). This ambitious language program reflects both her intellectual capabilities and the expectations for educated young women in aristocratic European society.
-
-%% 2025-04-05T21:50:00 RSR: Created entry based on mention in September 15, 1873 diary entry %%

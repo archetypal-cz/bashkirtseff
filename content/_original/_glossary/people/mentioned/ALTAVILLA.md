@@ -29,4 +29,4 @@ We are not sure who this is. The diary calls her a lady-in-waiting (*dame d'honn
 
 - 1880-05-10 (088.0143); 1880-06-10 (088.0699); 1881-03-28 (091.0383, 091.0384); 1881-04-16 (091.0479).
 
-%% 2026-10-22T17:15:00 RSR: Body written; identity_uncertain set. Candidate husband from Wikipedia; her own name not found. %%
+%% 2026-10-22T17:15:00 RSR: Candidate husband from Wikipedia; her own name not found. %%

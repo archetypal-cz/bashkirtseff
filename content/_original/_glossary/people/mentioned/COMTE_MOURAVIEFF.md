@@ -17,5 +17,3 @@ A friend of Paul Yssayevitch (see [#Paul Yssayevitch](../recurring/PAUL_YSSAYEVI
 ## Identity uncertain
 
 We are not sure who this is. The Muravyov family were prominent in the north-western provinces (the former governor-general of Vilna, Count Mikhail Muravyov-Vilensky, died in 1866 and cannot be meant; en.wikipedia «Mikhail Nikolayevich Muravyov-Vilensky»), but the diary gives no first name and he appears nowhere else. If you can identify this person, we would be glad to hear from you.
-
-%% 2026-10-22T21:28:10 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

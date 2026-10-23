@@ -50,4 +50,4 @@ full_text:
 - Wikipedia, ["La traviata"](https://en.wikipedia.org/wiki/La_traviata).
 - Libretto (Internet Archive), IMSLP.
 
-%% 2026-10-10T21:29:00 RSR: New entry (works batch 01). Supersedes the auto-stub people/mentioned/LA_TRAVIATA.md. The inventory said she heard it first in Rome; the carnet 059 date (20 April 1876) places the performance in Naples (the Rome score purchase is 18 May). %%
+%% 2026-10-10T21:29:00 RSR: The inventory said she heard it first in Rome; the carnet 059 date (20 April 1876) places the performance in Naples (the Rome score purchase is 18 May). %%

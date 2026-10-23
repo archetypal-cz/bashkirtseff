@@ -23,4 +23,4 @@ During her stay in Madrid in October 1881 Escobar is her attentive guide, introd
 
 - First mentioned: 1881-10-04 (093.0184); also 093.0186, 0187, 0196, 0216, 0237, 0243 (to 16 October 1881).
 
-%% 2026-10-22T17:10:00 RSR: Body written from the 8 tagged paragraphs and Spanish Wikipedia. The Wikipedia birth year (1854) makes him 27 in 1881. %%
+%% 2026-10-22T17:10:00 RSR: The Wikipedia birth year (1854) makes him 27 in 1881. %%

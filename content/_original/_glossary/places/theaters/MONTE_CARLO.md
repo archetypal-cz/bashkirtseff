@@ -49,5 +49,3 @@ Monte-Carlo served several important social functions for the expatriate communi
 - **September 3, 1873**: Reference to her aunt, the princess, and Walitsky being at Monaco
 - **September 7, 1873**: Detailed account of a visit to Monte-Carlo, including gambling, missing the train, and seeing Gioia
 - **September 11, 1873**: Mention of her mother being at Monaco and returning in M. Chaussade's coupé
-
-%% 2025-04-05T18:45:00 RSR: Created glossary entry for Monte-Carlo based on multiple mentions in Marie's September 1873 diary entries %%

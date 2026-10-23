@@ -113,6 +113,4 @@ Marie writes "Gonzales" (with grave accent on the 'e'), though "Gonzales" (witho
 - [#Maman](../family/MAMAN.md) - The innocent party in the triangle
 - [#Baden_Baden](../../places/travel/BADEN_BADEN.md) - Where they met
 
-%% 2025-12-07T15:00:00 RSR: Created comprehensive entry for Gonzales Family based on Book 00 retrospective. This episode showcases Marie's early ability to read social situations and her awareness of the gap between surface politeness and underlying tensions - skills that would serve her throughout her life as a diarist and social observer. %%
-
-%% 2026-10-22T12:29:57 RSR: Merged MORENO (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+%% 2025-12-07T15:00:00 RSR: This episode showcases Marie's early ability to read social situations and her awareness of the gap between surface politeness and underlying tensions - skills that would serve her throughout her life as a diarist and social observer. %%

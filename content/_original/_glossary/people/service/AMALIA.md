@@ -24,4 +24,4 @@ Marie's Italian femme de chambre from June 1876, called «Amélie» or, in Itali
 - First mentioned: 1876-06-15 (062.0354; that paragraph is tagged GIOIA only)
 - Tagged in 062–067 (1876)
 
-%% 2026-10-21T11:52:00 RSR: Rewritten from the stub during the RSR pass on the restored paragraphs of 062. Not the same person as Mme Amélie Gioia (GIOIA) or the later Amélie Beaury-Saurel of the Julian atelier (AMELIE_BEAURY_SAUREL); AMELIE.md (1879) is a separate stub. %%
+%% 2026-10-21T11:52:00 RSR: Not the same person as Mme Amélie Gioia (GIOIA) or the later Amélie Beaury-Saurel of the Julian atelier (AMELIE_BEAURY_SAUREL); AMELIE.md (1879) is a separate stub. %%

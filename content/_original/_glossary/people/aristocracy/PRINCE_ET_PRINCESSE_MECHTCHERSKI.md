@@ -21,4 +21,4 @@ We are not sure who this is: Marie gives no first name. If you can identify her,
 ## References in Diary
 - 1876-03-26 (055.1205); 1878-08-25 (082.0181)
 
-%% 2026-10-22T15:05:00 RSR: Body written for OPEN-ITEMS B-51 (6). The file name says «prince et princesse»; it is used for the princess (055.1205) and the couple (082.0181). %%
+%% 2026-10-22T15:05:00 RSR: The file name says «prince et princesse»; it is used for the princess (055.1205) and the couple (082.0181). %%

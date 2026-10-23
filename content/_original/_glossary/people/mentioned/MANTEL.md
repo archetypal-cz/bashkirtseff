@@ -38,5 +38,5 @@ Milliner who sends hats to Marie.
 
 ## «Mantel et Thérèse»
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass apply 2026-10-22: THERESE tags removed from 008.0266 and 014.0173. %%
+%% 2026-10-22T22:16:12 RSR: THERESE tags removed from 008.0266 and 014.0173. %%
 The house traded as «Thérèse et Mantel»: on 30 August 1873 «J'ai écrit à Mantel et Thérèse qu'elles envoient un chapeau foulard à maman» (008.0266), and on 22 December 1873 a lady at the Nice station wears «un chapeau fille Angot de chez Thérèse et Mantel, en velours» (014.0173). Marie first goes «chez Mantel, recommandé par Worth» in Paris on 23 August 1873 (008.0136). Both paragraphs were also tagged THERESE, which is now the Spa Thérèse of 1874.

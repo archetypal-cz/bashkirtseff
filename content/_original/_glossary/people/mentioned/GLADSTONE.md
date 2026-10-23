@@ -20,4 +20,4 @@ William Ewart Gladstone (1809–1898), Liberal prime minister of the United King
 ## Miss Gladstone (015.0032)
 On 4 January 1874 Marie tells papa about English wedding customs and «les cadeaux qu'avait reçus Miss Gladstone» (015.0032; t.3 index «Gladstone (Miss), 8-9»). This is the prime minister's elder daughter Agnes Gladstone (1842–1931), who married the Rev. Edward Charles Wickham on 27 December 1873 (thepeerage.com p21686; Wikipedia, «Edward Wickham (priest)»), a week before. The paragraph is tagged here for want of a file of her own (one mention).
 
-%% 2026-10-22T14:14:47 RSR: Written from the diary and indexes (ledger B-68 (3)); the earlier stub said «1 mention in Book 13». %%
+%% 2026-10-22T14:14:47 RSR: The earlier stub said «1 mention in Book 13». %%

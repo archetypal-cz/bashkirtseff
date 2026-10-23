@@ -53,5 +53,3 @@ Her diary would later be celebrated precisely for its quality as a "document hum
 As Marie later developed her artistic ambitions, this concept would have resonated with her approach to painting as well. The naturalist emphasis on observing and documenting reality without idealization parallels many of the developments in late 19th century painting, particularly in the realist and naturalist movements.
 
 Marie's diary, with its emphasis on psychological truth and detailed observation, foreshadows her later artistic sensibilities and her desire to capture authentic human experiences in her art.
-
-%% 2025-04-05T18:13:40 RSR: Created glossary entry for Document_Humain based on its usage in Marie's diary entries %%

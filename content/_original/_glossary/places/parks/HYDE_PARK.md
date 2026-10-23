@@ -21,4 +21,4 @@ The great London park. Marie visits it on 8 September 1874, during her London st
 
 - 1874-09-08 (023.0601, London): the only mention.
 
-%% 2026-10-22T21:35:45 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph. %%
+%% 2026-10-22T21:35:45 RSR: One paragraph. %%

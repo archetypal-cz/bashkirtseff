@@ -16,5 +16,3 @@ The battle of Gravelotte (Gravelotte–Saint-Privat), 18 August 1870, in the Fra
 ## References in Diary
 - 1878-06-28 (081.0094)
 - 1883-05-22 (099.0516)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

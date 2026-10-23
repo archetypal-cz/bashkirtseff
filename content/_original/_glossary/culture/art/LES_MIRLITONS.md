@@ -27,5 +27,3 @@ An art gallery or exhibition space in Paris where contemporary art was displayed
 
 ## Notes
 Further research needed on the exact location and nature of this gallery.
-
-%% 2026-10-21T22:58:49 RSR: Merged EXPOSITION_AUX_MIRLITONS (no content kept: empty stub) %%

@@ -20,5 +20,3 @@ For Marie the name stands for vulgar sensational fiction. In Russia in 1876 she 
 ## References in Diary
 - First mentioned: 1876-08-16 (064)
 - 1876-10-13 (067.0021); 1876-10-23 (067.0265); 1876-11-15 (067)
-
-%% 2026-10-21T09:31:34 RSR: Created from the restored paragraphs 067.0021 and 067.0265. %%

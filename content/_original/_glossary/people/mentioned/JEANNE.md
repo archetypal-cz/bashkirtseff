@@ -20,4 +20,4 @@ One tagged paragraph is not Jeanne de Ballore: 080.0025 (080/1878-05-06), «Mme 
 
 080/1878-05-06 (080.0025). The other tagged paragraphs (067.1454, 068.0049, 068.0052, 068.0913, 068.0917, 094.0262) belong to JEANNE_DE_BALLORE.
 
-%% 2026-10-21T22:52:00 RSR: Fix (OPEN-ITEMS B-56(3)): generic stub rewritten as a disambiguation page after Jeanne de Ballore was split off; 080.0025 «la mère de Jeanne» is Mme Baudouin's daughter, unidentified. %%
+%% 2026-10-21T22:52:00 RSR: Generic stub rewritten as a disambiguation page after Jeanne de Ballore was split off; 080.0025 «la mère de Jeanne» is Mme Baudouin's daughter, unidentified. %%

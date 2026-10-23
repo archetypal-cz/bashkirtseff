@@ -21,8 +21,5 @@ He is therefore **not Karl Marx**, whom the Mon Journal t.8 index names («Marx 
 We are not sure who this is beyond «cet Américain de toujours»: Marie gives no first name, and his calling is not stated. A man of the international spa and Riviera set, 1876–1878. Sources checked: 063.0341, 068.0762, 074.0323, 080/1878-05-12, the t.8 and t.10 indexes. If you can identify this person, we would be glad to hear from you.
 
 ## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
 
-%% 2026-10-22T14:10:00 RSR: OPEN-ITEMS B-31 (2) settled: the t.8 index «Marx (Karl)» is an index slip (0.95); Marie's «cet Américain de toujours» (074.0323) and the t.10 index «Marx (M.) Américain» identify him as an American. His own name stays unknown. %%
+%% 2026-10-22T14:10:00 RSR: The t.8 index «Marx (Karl)» is an index slip (0.95); Marie's «cet Américain de toujours» (074.0323) and the t.10 index «Marx (M.) Américain» identify him as an American. His own name stays unknown. %%

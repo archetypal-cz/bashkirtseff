@@ -14,6 +14,3 @@ replaced_by: MELITO
 
 %% GLO_DUC_DE_MELITO.0001 %%
 **Retired.** Merged into [#MELITO](MELITO.md) (`people/mentioned/MELITO.md`); use that entry instead.
-
-%% GLO_DUC_DE_MELITO.0002 %%
-%% 2026-10-22T20:58:13 RSR: Retired by glossary-merge; content and links moved to MELITO. replaced_by: people/mentioned/MELITO.md. %%

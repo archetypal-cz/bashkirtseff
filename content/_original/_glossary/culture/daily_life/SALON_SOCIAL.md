@@ -53,4 +53,4 @@ The salon was the engine of Parisian social life and one of the few institutions
 - **Jour de réception** — fixed receiving day
 - **Tenir salon** — to hold a salon
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Salons are a major social setting throughout the Parisian diary entries. %%
+%% 2026-02-10T20:00:00 RSR: Salons are a major social setting throughout the Parisian diary entries. %%

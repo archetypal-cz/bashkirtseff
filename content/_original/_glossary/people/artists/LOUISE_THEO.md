@@ -30,4 +30,4 @@ A byword for a pretty, coquettish pose. On 16 March 1875 Marie, posing before th
 - 1876-08-24 (065): the album of actresses
 - 1882-06-03 (095): "ressemblais à Théo"
 
-%% 2026-10-21T12:30:00 RSR: Entry created from the restored paragraphs of 030. The 065 and 095 paragraphs are not yet tagged (outside this batch). %%
+%% 2026-10-21T12:30:00 RSR: The 065 and 095 paragraphs are not yet tagged (outside this batch). %%

@@ -21,4 +21,4 @@ last_updated: 2026-10-22
 
 Not the country (FRANCE).
 
-%% 2026-10-22T14:41:27 RSR: B-69 (4): auto-stub body replaced from the tagged paragraphs; the bare alias «France» removed (it would tag the country). %%
+%% 2026-10-22T14:41:27 RSR: The bare alias «France» removed (it would tag the country). %%

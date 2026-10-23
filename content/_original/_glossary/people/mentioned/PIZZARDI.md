@@ -19,12 +19,6 @@ A Roman, «le premier lion de Rome depuis qu'il a tué un homme en duel» by rep
 
 At the Veglione at the Teatro Apollo in Rome on 8 February 1877 Marie, masked, sends Ingami to fetch him and spends the night teasing him (068.1014ff.); she suspects a trick («Ingami s'est moqué de moi», 068.1027; «Le soi-disant Pizzardi», 068.1028) but goes on calling him Pizzardi. In this scene the nickname «leur Girofla» (068.1096) refers to him, not to Audiffret (tag-audit calibration).
 
-%% 2026-10-21T13:02:08 RSR: Description added during RSR research of the restored carnet 068–069 paragraphs. %%
 
 ## References in Diary
 [Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content

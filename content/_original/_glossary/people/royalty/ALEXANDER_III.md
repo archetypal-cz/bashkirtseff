@@ -25,5 +25,3 @@ Alexander Alexandrovich (1845–1894), heir to the Russian throne from 1865, Emp
 - The 1883 coronation is mentioned without his name (099.0120, 101.0589).
 
 The heir of 1873 («l'héritier de Russie», 011.0112) is the same man. The t.11 index entry «Alexandre III, Empereur de Russie : 15, 22» is a slip: those pages (075.0007, 075.0121, 1877) concern Alexander II.
-
-%% 2026-10-23T09:50:37 RSR: Merged HERITIER_DE_RUSSIE (no content kept: empty stub) %%

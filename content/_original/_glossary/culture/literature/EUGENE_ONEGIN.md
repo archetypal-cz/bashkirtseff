@@ -26,4 +26,4 @@ Alexander Pushkin's novel in verse, published in full in 1833. The young Tatiana
 ## References in Diary
 - 1873-09-16 (009.0208), 1877-05-31 (071.0525)
 
-%% 2026-10-21T10:48:15 RSR: Created during RSR of the restored carnet 071 paragraphs (rsr-071). 009.0208 is not tagged yet. %%
+%% 2026-10-21T10:48:15 RSR: 009.0208 is not tagged yet. %%

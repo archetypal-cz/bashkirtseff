@@ -38,4 +38,4 @@ The drochki marks a shift in the diary's transportation vocabulary from the Fren
 - 1876-08-20 (065.0029): on the road to Gavronzi, Michel Hamsley rides ahead «sur un drochki de course» with a lantern
 - 1876-08-20 (065.0070, 065.0073): the family procession with «un drochki à capote, attelé d'une troïka»; Marie rides half the way in it
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Russian carriage type appearing only in Russia entries. %%
+%% 2026-02-10T20:00:00 RSR: Russian carriage type appearing only in Russia entries. %%

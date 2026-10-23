@@ -51,5 +51,4 @@ In the site's filter, selecting the qualifier narrows Money to one side; selecti
 - Money ties into [Marriage](MARRIAGE.md) through a suitor's income, and into the long family disputes over the Babanine and Bashkirtseff estates (see [Property](PROPERTY.md)).
 - Marie's outfit and shopping notes sometimes give the price, so Money co-occurs with [Fashion](FASHION.md) and [Shopping](SHOPPING.md).
 
-%% 2026-09-28T10:40:00 RSR: Created thematic tag entry (theme-tags pilot, see .claude/reports/theme-tags-2026-09-28.md). %%
 %% 2026-09-28T12:30:00 RSR: Definition aligned with KRR (cash, prices, spending, debts, allowances, gambling); capital and inheritance moved to PROPERTY; added the whose-money qualifier tags. %%

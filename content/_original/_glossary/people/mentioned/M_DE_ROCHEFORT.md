@@ -25,4 +25,4 @@ A young French diplomat in the Bashkirtseffs' Paris circle in 1883–1884: «un 
 
 We are not sure who this is: the diary never gives his first name, and no list of the French legation at Rio de Janeiro in 1884 was found (web search 2026-10-22; the *Annuaire diplomatique et consulaire* of 1884–1885 would settle it). If you can identify him, we would be glad to hear from you.
 
-%% 2026-10-22T14:29:28 RSR: B-67 (1): entry created; 103.0227 retargeted from ROCHEFORT; 099.0171, 099.0267, 103.0079, 103.0180, 103.0229 tagged. %%
+%% 2026-10-22T14:29:28 RSR: 103.0227 retargeted from ROCHEFORT; 099.0171, 099.0267, 103.0079, 103.0180, 103.0229 tagged. %%

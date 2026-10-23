@@ -29,5 +29,3 @@ A Naples society woman whom Count Alexandre de Larderel courted in April 1877. M
 - 1877-04-05 (070.0127), 04-06 (070.0186), 04-07 (070.0201), 04-10 (070.0504, 070.0521), 04-11 (070.0527), 04-20 (070.0741), 04-21 (070.0767, 0774–0789), 04-22
 
 See also [#Larderel](LARDEREL.md), [#Righi](RIGHI.md).
-
-%% 2026-10-21T10:40:00 RSR: Rewritten from the auto-generated stub during RSR research of the restored carnet 070 paragraphs (rsr-070b), with references from rsr-070a; diary text and t.10 index only. %%

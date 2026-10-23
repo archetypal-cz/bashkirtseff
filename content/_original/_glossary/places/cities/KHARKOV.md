@@ -38,4 +38,4 @@ Kharkov (now Kharkiv, Ukraine) was one of the major cities of the Russian Empire
 - [#Ukraine](../countries/UKRAINE.md) - The broader region
 - [#Poltava](./POLTAVA.md) - Closer to the family estates
 
-%% 2026-02-10T16:20:00 RSR: Expanded from one-line stub. Note: Multiple variant spellings exist (Kharkoff, Karkoff) in the glossary. %%
+%% 2026-02-10T16:20:00 RSR: Note: Multiple variant spellings exist (Kharkoff, Karkoff) in the glossary. %%

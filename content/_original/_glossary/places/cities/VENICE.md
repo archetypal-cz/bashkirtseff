@@ -72,5 +72,3 @@ Venice's unique atmosphere of beauty and melancholy resonated with Marie's sensi
 - [#Rome](./ROME.md) - Capital and artistic rival
 - [#Naples](./NAPLES.md) - Southern Italian destination
 - [#Paris](./PARIS.md) - Marie's artistic home base
-
-%% 2026-02-10T11:30:00 RSR: Expanded from one-line stub with historical context, artistic significance, and key sites %%

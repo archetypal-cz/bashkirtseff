@@ -26,4 +26,4 @@ A Russian parvenu in Nice in 1875–1876, as Marie tells it from his own account
 
 - First mentioned: 1875-10-24 (048.0009). 44 tagged paragraphs in carnets 048–050, 059, 062, 068.
 
-%% 2026-10-22T18:00:00 RSR: Body written from the tagged paragraphs (048–050, 059, 062, 068) and the t.6–t.9 indexes. The second marriage implied by «Mme Antonoff» in 068.0010 is not established; 068.0010 may be another Antonoff. %%
+%% 2026-10-22T18:00:00 RSR: The second marriage implied by «Mme Antonoff» in 068.0010 is not established; 068.0010 may be another Antonoff. %%

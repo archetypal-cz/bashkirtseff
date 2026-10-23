@@ -26,5 +26,3 @@ She appears only in the concours results:
 
 - First mentioned: 1877-11-27 (076.0251)
 - Key entries: 1878-04-04, 1879-01-14
-
-%% 2026-10-21T12:06:04 RSR: Rewritten from the auto-generated stub during RSR research of the restored paragraphs of carnet 084 (t.12 index; grep of «Bang»). %%

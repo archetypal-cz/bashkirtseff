@@ -24,5 +24,3 @@ Comte de Courtès, a young provincial nobleman (from Angoulême, «son Angolème
 - 1880-07-27 (089.0235): «Courtès se marie, je lui envoie une dépêche de félicitations. Il épouse la fille d'un ancien agent de change Dubois, il doit y avoir de l'argent. Tant mieux. Ce pauvre diable le désirait si naïvement qu'on ne peut que se réjouir de la fin de ses peines.» On 1880-09-14 (089.0516) she remembers that «Courtès a bien trouvé une femme riche».
 
 No first name was found.
-
-%% 2026-10-22T21:28:59 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

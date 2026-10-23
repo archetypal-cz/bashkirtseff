@@ -22,5 +22,3 @@ Fauvel's diagnosis was concerning: while earlier doctors had found problems only
 Marie notes that three years earlier in Germany, a doctor at a spa had found something wrong with her right lung, under the shoulder blade - something she had laughed off at the time. By October 1880, she was feeling pain in that same location when coughing or breathing deeply, making her fear there might be something seriously wrong.
 
 Dr. Fauvel appears to have been one of several doctors Marie consulted about her chronic throat and lung problems, which she initially sought to treat in hopes of recovering her singing voice.
-
-%% 2026-10-22T11:01:54 RSR: Merged DR_FAUVEL (no content kept: empty stub) %%

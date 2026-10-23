@@ -20,4 +20,4 @@ The hotel where Marie and her aunt lodge in London in September 1874. Arriving a
 
 - 1874-09-06 (023.0573, arrival from Charing Cross): the only tagged mention.
 
-%% 2026-10-22T21:34:03 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph; hotel identified from Wikipedia 'Alexandra Hotel, Knightsbridge' (web search 2026-10-22), identification inferred. %%
+%% 2026-10-22T21:34:03 RSR: One paragraph; hotel identified from Wikipedia 'Alexandra Hotel, Knightsbridge' (web search 2026-10-22), identification inferred. %%

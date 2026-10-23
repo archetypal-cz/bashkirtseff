@@ -51,4 +51,4 @@ It is an allegorical caricature of the household in exile at Nice, longing for I
 - Diary paragraphs 072.0002-0003 in `content/_original/`. No secondary source.
 
 %% GLO_MIRAGE_PROJET_1877.0011 %%
-%% 2026-10-10T21:07:00 RSR: Created in the works glossary wave (W481). The inventory dated it 1877 as a "drawing"; the diary says charcoal preparation for a "tableau", hence "project". %%
+%% 2026-10-10T21:07:00 RSR: The inventory dated it 1877 as a "drawing"; the diary says charcoal preparation for a "tableau", hence "project". %%

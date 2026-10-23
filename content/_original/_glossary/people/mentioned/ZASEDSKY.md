@@ -23,4 +23,4 @@ We are not sure who this is. He appears once, as a type, in a satirical list of 
 
 - 1874-10-09 (024.0277, Nice): the only mention.
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Single mention; t.4 index. %%
+%% 2026-10-22T21:33:17 RSR: Single mention; t.4 index. %%

@@ -35,4 +35,4 @@ The Mordaunt scandal would have been well known to Marie and her circle. As a ca
 - [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) -- Part of the same British aristocratic world
 
 %% GLO_LADY_MORDAUNT.0008 %%
-%% 2026-02-10T12:30:00 RSR: Enriched from stub. The Mordaunt divorce case of 1870 was one of the great Victorian scandals, involving the Prince of Wales. Historical details from Wikipedia. %%
+%% 2026-02-10T12:30:00 RSR: The Mordaunt divorce case of 1870 was one of the great Victorian scandals, involving the Prince of Wales. Historical details from Wikipedia. %%

@@ -20,5 +20,3 @@ Once, on 1881-08-20 (093.0006). Marie has gone alone to the sculptor [#Falguièr
 
 - Wikipedia, «Filippo Colarossi» (https://en.wikipedia.org/wiki/Filippo_Colarossi) and «Académie Colarossi» (https://en.wikipedia.org/wiki/Acad%C3%A9mie_Colarossi): dates 1841–1906; the school stood at 10 rue de la Grande-Chaumière, Montparnasse; the sources differ on the year Colarossi took it over (1870 or 1879).
 - Mon Journal t.14, index, p.194.
-
-%% 2026-10-22T21:25:48 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

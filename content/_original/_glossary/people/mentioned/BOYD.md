@@ -93,8 +93,5 @@ Berthe (possibly Berthe Boyd) appears again in Marie's diary in September 1873 a
 - [#Remy_de_Gonzales](REMY_DE_GONZALES.md) - Berthe's young admirer
 - [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) - Later romantic rival context
 
-%% 2025-12-07T14:30:00 RSR: Created comprehensive entry for Boyd Family based on Book 00 retrospective narrative. The Boyd family represents Marie's first conscious experience of social exclusion and class anxiety, a theme that would dominate her life. %%
+%% 2025-12-07T14:30:00 RSR: The Boyd family represents Marie's first conscious experience of social exclusion and class anxiety, a theme that would dominate her life. %%
 %% 2026-02-11T12:55:00 RSR: Per Kernberger (2013), Bertha Boyd was an English girl Marie met in Baden in 1870; she married Robert Lancaster-Johnstone (eloped) in 1878. Bertha's sister Blanche Boyd married Lord Paget (Marquis of Anglesea/Anglesey). Another sister was identified as Mme Yorke. These marriage details answer the research question about the Boyd sisters' marriages. %%
-
-%% GLO_BOYD.9100 %%
-%% 2026-10-03T10:00:00 RSR: Body merged from BOYD_FAMILY (richer duplicate). %%

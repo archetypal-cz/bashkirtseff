@@ -13,7 +13,6 @@ last_updated: 2026-03-06
 
 Stub entry — needs research.
 
-%% 2026-10-21T21:16:45 RSR: Merged content from MADELEINE_DELSARTE %%
 
 **Research Status**: Basic
 **Last Updated**: 2025-01-23
@@ -31,5 +30,3 @@ The informal nature of their model-hunting expedition (eating pastries in the ca
 - Collaborates with Marie on practical matters like finding models
 - Part of Marie's circle of female art students
 - Likely from the Delsarte family known for contributions to performance and aesthetics
-
-%% 2026-10-21T21:16:58 RSR: Merged DELSARTE (no content kept: empty stub) %%

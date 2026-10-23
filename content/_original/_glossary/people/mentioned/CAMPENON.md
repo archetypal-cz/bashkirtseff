@@ -22,4 +22,4 @@ On 17 November 1881, three days after the «grand ministère» was formed, a fev
 
 - 1881-11-17 (093.0379), the only tagged paragraph.
 
-%% 2026-10-22T20:22:00 RSR: Body written; ministry dates from Wikipedia. «Three days after» is arithmetic from 14 November. %%
+%% 2026-10-22T20:22:00 RSR: Ministry dates from Wikipedia. «Three days after» is arithmetic from 14 November. %%

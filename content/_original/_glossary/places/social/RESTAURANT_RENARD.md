@@ -16,4 +16,4 @@ last_updated: 2026-10-22
 
 Not papa's dog Renard ([#Renard](../../people/mentioned/RENARD.md); t.4 index «Renard, chien», 024.0404–0407).
 
-%% 2026-10-22T14:30:09 RSR: Created (ledger B-77 (5), «Renard restaurant (Paris 1874)»): four mentions in 024. %%
+%% 2026-10-22T14:30:09 RSR: Four mentions in 024. %%

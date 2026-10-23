@@ -13,6 +13,3 @@ replaced_by: VIRGIN_MARY
 
 %% GLO_SAINTE_MARIE.0001 %%
 **Retired.** Merged into [#VIRGIN_MARY](../religious/VIRGIN_MARY.md) (`people/mentioned/VIRGIN_MARY.md`); use that entry instead.
-
-%% GLO_SAINTE_MARIE.0002 %%
-%% 2026-10-23T07:42:49 RSR: Retired by glossary-merge; content and links moved to VIRGIN_MARY. replaced_by: people/mentioned/VIRGIN_MARY.md. %%

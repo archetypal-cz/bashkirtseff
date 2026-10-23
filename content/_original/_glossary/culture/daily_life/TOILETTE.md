@@ -45,4 +45,4 @@ Marie describes her father wanting to watch her "faire sa toilette" to admire he
 - "Voiture et toilette" — carriage and outfit (two essentials for social display)
 - Outfit notes: "(robe bleue et or Worth, nouvelle, bien)" — systematic fashion documentation
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Toilette as both process and product, central to Marie's daily life. %%
+%% 2026-02-10T20:00:00 RSR: Toilette as both process and product, central to Marie's daily life. %%

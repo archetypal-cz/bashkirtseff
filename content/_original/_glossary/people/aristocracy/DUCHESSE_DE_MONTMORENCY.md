@@ -17,5 +17,3 @@ A lady «en blanc, le cou couvert de perles extraordinaires, qu'on disait la duc
 ## Identity uncertain
 
 We are not sure who this is. Marie reports hearsay («qu'on disait»), the paragraph gives no first name, and no duchess de Montmorency was matched to the sale. If you can identify this person, we would be glad to hear from you.
-
-%% 2026-10-22T21:33:08 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

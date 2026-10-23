@@ -43,11 +43,8 @@ On 3 May 1883 she plans to have him play at a coming dinner for the architect É
 - Marie Bashkirtseff, *Journal*, carnets 091–102 (paragraphs cited).
 
 %% 2026-10-11T12:00:00 RSR: TWO REFERENTS in one file: tailor (carnets 019-020, 1874; 5 tags) vs pianist (091-102; ~24 tags). Recommend the lead split the 1874 tags into e.g. DUSAUTOY_TAILLEUR (or retarget to a tailors entry); not done here (no file moves). The pianist is probably not the tailor's family; no link. "Sautoy" 091.0574 (1881-05-07: "Morgan, Sautoy, Bojidar") and "Dautoy" 091.0215 read as the same pianist; The 1883-12-04 mention is in 102.0431. %%
-%% 2026-10-21T23:34:00 RSR: Split done (OPEN-ITEMS D-42): the 1874 tailor section moved to DUSAUTOY_TAILLEUR (people/mentioned); this file (id kept) now describes the pianist only. Tags to retarget DUSAUTOY to DUSAUTOY_TAILLEUR: 019.0314, 020.0228, 020.0238, 020.0367, 020.0376. Pianist paragraphs still tagged elsewhere (not done here): 091.0215 (DAUTOY), 091.0520 and 091.0523 (DU_SAUTOY), and untagged 091.0563 («du Sautoy») and 091.0574 («Sautoy»). %%
+%% 2026-10-21T23:34:00 RSR: The 1874 tailor section moved to DUSAUTOY_TAILLEUR (people/mentioned); this file (id kept) now describes the pianist only. Tags to retarget DUSAUTOY to DUSAUTOY_TAILLEUR: 019.0314, 020.0228, 020.0238, 020.0367, 020.0376. Pianist paragraphs still tagged elsewhere (not done here): 091.0215 (DAUTOY), 091.0520 and 091.0523 (DU_SAUTOY), and untagged 091.0563 («du Sautoy») and 091.0574 («Sautoy»). %%
 
-%% 2026-10-21T22:50:25 RSR: Merged DU_SAUTOY (no content kept: empty stub) %%
-
-%% 2026-10-21T22:50:37 RSR: Merged content from DAUTOY %%
 
 **Research Status**: Basic
 **Last Updated**: 2025-01-23

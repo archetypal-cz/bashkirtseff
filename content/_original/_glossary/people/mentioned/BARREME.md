@@ -27,4 +27,4 @@ The comte de Barrême, an elderly gentleman of Nice, president of the cercle of 
 
 - First mentioned: 1874-05-06 (019.0128). 14 tagged paragraphs, carnets 019, 027–029, 050.
 
-%% 2026-10-22T19:05:00 RSR: Body written. First name unknown; Barrême is also the name of a Marseille-area family (not claimed). %%
+%% 2026-10-22T19:05:00 RSR: First name unknown; Barrême is also the name of a Marseille-area family (not claimed). %%

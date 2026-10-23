@@ -57,6 +57,3 @@ Marie reads Gogol's Rome in Russian during her stay at Gavrontsi in the autumn o
 
 %% GLO_ROME_GOGOL.0010 %%
 The glossary has no earlier entry for this text.
-
-%% GLO_ROME_GOGOL.0011 %%
-%% 2026-10-10T21:00:00 RSR: Work entry researched and written in the works-glossary stage 2 (batch 04, literature); new. %%

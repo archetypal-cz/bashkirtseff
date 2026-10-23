@@ -24,4 +24,4 @@ The Paris museum of contemporary art, housed beside the Palais du Luxembourg (6t
 
 Not the Luxembourg gardens or the Senate (the palace), and not the hôtel du Luxembourg at Nice ([HOTEL_DE_LUXEMBOURG](../residences/HOTEL_DE_LUXEMBOURG.md), 1875–1877).
 
-%% 2026-10-22T14:21:32 RSR: B-65 (4), B-69 (1), B-77 (6): entry created (three sure mentions); tagged 079.0238, 089.0006, 100.0270. 075.0236 is outside this sweep's range (tag it there too); 086.0308 left untagged (0.7). %%
+%% 2026-10-22T14:21:32 RSR: Tagged 079.0238, 089.0006, 100.0270. 075.0236 is outside this sweep's range (tag it there too); 086.0308 left untagged (0.7). %%

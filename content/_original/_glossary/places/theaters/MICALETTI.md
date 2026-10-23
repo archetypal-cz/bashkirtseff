@@ -28,4 +28,4 @@ Italian was an important language for:
 
 The fact that Marie began Italian lessons in March 1872, just two months after beginning English, suggests a structured educational program supervised by her family.
 
-%% 2025-12-07T16:10:00 RSR: Created entry based on February 12, 1873 diary entry. "Micaletti" is likely an Italian woman, possibly from the local Nice/Italian community. Need to research further. %%
+%% 2025-12-07T16:10:00 RSR: "Micaletti" is likely an Italian woman, possibly from the local Nice/Italian community. Need to research further. %%

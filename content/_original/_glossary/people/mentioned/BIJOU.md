@@ -21,4 +21,4 @@ The indexes also give «Bijou» as a nickname of Nadia Galitzine («Bijou : Gali
 
 On 5 April 1874 a struck line calls Prince Wittgenstein's «petite chienne» «ce Bijou vilain», and Marie then writes «Ils sont heureux de marcher par un si beau temps, *Mordog* et Bijou … elle me regarde méchamment» (018.0129, t.3 p. 146): that Bijou is Wittgenstein's party (his little dog, or as a joke his companion Rosalie Léon), not the Galitzine dog. Unresolved.
 
-%% 2026-10-22T14:11:36 RSR: Rewritten (ledger B-68 (3)): earlier body («someone known for a curled hairstyle») misread 016.0338. Pages checked on the t.2/t.3 scans. %%
+%% 2026-10-22T14:11:36 RSR: Earlier body («someone known for a curled hairstyle») misread 016.0338. Pages checked on the t.2/t.3 scans. %%

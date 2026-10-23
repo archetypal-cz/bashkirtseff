@@ -182,6 +182,4 @@ Several diary references to "Florence" refer to people, not the city:
 - [#Larderel](../../people/mentioned/LARDEREL.md) -- The Florentine obsession
 - [#Salon](../../culture/art/SALON.md) -- The exhibition where Marie would later display her own work
 
-%% 2026-01-06T00:00:00 RSR: Auto-generated stub from broken link detection %%
-%% 2026-02-10T10:45:00 RSR: Expanded to comprehensive with art history context, Marie's Italian journey, and key sites %%
-%% 2026-05-25T03:00:00 RSR: Major expansion to Comprehensive with full diary coverage. Added: all three Florence visits with paragraph IDs from carnets 004, 043, 068, 071, 077-078, 094. Historical context expanded with risanamento, foreign colonies (Russian/Demidov, Anglo-American), Michelangelo 1875 centenary. Marie's specific art judgments documented (Venus de' Medici, Raphael, Titian, Gherardo delle Notti). Gordigiani connection. "Ma famille de Florence" theme traced through 1882. Disambiguation of Florence-as-person references. Key venues documented with Wikipedia links. %%
+%% 2026-05-25T03:00:00 RSR: Added: all three Florence visits with paragraph IDs from carnets 004, 043, 068, 071, 077-078, 094. Historical context expanded with risanamento, foreign colonies (Russian/Demidov, Anglo-American), Michelangelo 1875 centenary. Marie's specific art judgments documented (Venus de' Medici, Raphael, Titian, Gherardo delle Notti). Gordigiani connection. "Ma famille de Florence" theme traced through 1882. Disambiguation of Florence-as-person references. Key venues documented with Wikipedia links. %%

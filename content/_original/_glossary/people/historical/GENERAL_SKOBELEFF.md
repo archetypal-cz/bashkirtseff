@@ -25,4 +25,4 @@ On Gambetta's death (January 1883) Marie mourns the lost hope of a Franco-Russia
 
 Not the «Mlle Skobeleff» of the 1874 Nice gossip, his sister ([SKOBELEFF](../mentioned/SKOBELEFF.md)).
 
-%% 2026-10-22T14:39:06 RSR: B-77 (6): entry created; 097.0389 and 097.0390 tagged. %%
+%% 2026-10-22T14:39:06 RSR: 097.0389 and 097.0390 tagged. %%

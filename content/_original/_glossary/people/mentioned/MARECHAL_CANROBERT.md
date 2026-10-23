@@ -73,4 +73,4 @@ On 4 August 1884, at Versailles, Marie takes a seat beside the Maréchale and Cl
 - Marie Bashkirtseff, *Journal*, carnets 081–105 (paragraphs cited above).
 
 %% GLO_MARECHAL_CANROBERT.0016 %%
-%% 2026-10-11T12:00:00 RSR: Page rewritten from a stub in the people-glossary research wave. Facts outside the diary are from napoleon.org (dates, career, marriage), fr.wikipedia (Senate seats, 1878 and 1893 duties, burial) and the Jouy-en-Josas history site (L'Églantine bought 1882). Portrait: Nadar albumen print, Gallica btv1b53151553p, Commons "Maréchal Canrobert by Nadar.jpg", PD-old. The 1878 funeral mission (Victor-Emmanuel II) is Wikipedia's; it is not in the diary. %%
+%% 2026-10-11T12:00:00 RSR: Facts outside the diary are from napoleon.org (dates, career, marriage), fr.wikipedia (Senate seats, 1878 and 1893 duties, burial) and the Jouy-en-Josas history site (L'Églantine bought 1882). Portrait: Nadar albumen print, Gallica btv1b53151553p, Commons "Maréchal Canrobert by Nadar.jpg", PD-old. The 1878 funeral mission (Victor-Emmanuel II) is Wikipedia's; it is not in the diary. %%

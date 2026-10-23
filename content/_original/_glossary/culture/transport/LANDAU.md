@@ -51,4 +51,4 @@ The landau was associated with wealth, formality, and social prestige. Its versa
 - **Victoria** — lighter, two-person carriage
 - **Coupé** — enclosed two-person carriage
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Landau appears across multiple carnets as a prestige carriage. %%
+%% 2026-02-10T20:00:00 RSR: Landau appears across multiple carnets as a prestige carriage. %%

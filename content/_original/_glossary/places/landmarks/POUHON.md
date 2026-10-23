@@ -25,4 +25,4 @@ The Bashkirtseffs lived opposite it in July 1874: «Vis-à-vis le Pouhon, la plu
 
 See [Spa](../cities/SPA.md), [Casino](../social/CASINO_SPA.md).
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Existing identity paragraph corrected from the Belgian heritage sources found 2026-10-22 (greatspatownsofeurope.eu Spa volume; historicthermaltowns.eu). %%
+%% 2026-10-22T21:39:42 RSR: Existing identity paragraph corrected from the Belgian heritage sources found 2026-10-22 (greatspatownsofeurope.eu Spa volume; historicthermaltowns.eu). %%

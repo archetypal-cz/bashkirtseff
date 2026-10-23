@@ -22,4 +22,4 @@ In autumn 1874 he buys and ships animals for her: on 29 September she will entru
 
 - 1874-09-29 to 1874-10-17 (024.0163, 024.0166, 024.0240, 024.0252, 024.0253, 024.0355).
 
-%% 2026-10-22T19:55:00 RSR: Body written from the 6 tagged paragraphs and the t.4 index. His real name is unknown. %%
+%% 2026-10-22T19:55:00 RSR: His real name is unknown. %%

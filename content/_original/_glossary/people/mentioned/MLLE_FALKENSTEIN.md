@@ -14,6 +14,3 @@ replaced_by: FALKENSTEIN
 
 %% GLO_MLLE_FALKENSTEIN.0001 %%
 **Retired.** Merged into [#FALKENSTEIN](../aristocracy/FALKENSTEIN.md) (`people/aristocracy/FALKENSTEIN.md`); use that entry instead.
-
-%% GLO_MLLE_FALKENSTEIN.0002 %%
-%% 2026-10-22T22:12:08 RSR: Retired by glossary-merge; content and links moved to FALKENSTEIN. replaced_by: people/aristocracy/FALKENSTEIN.md. %%

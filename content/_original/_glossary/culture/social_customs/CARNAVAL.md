@@ -57,4 +57,4 @@ Carnival offered a temporary relaxation of social norms. Behind masks, one could
 - 1882-02-16 (carnet 094): "Premier jour de Carnaval" — Nice carnival
 - 1882-02-18 (carnet 094): "Grande bataille de confettis"
 
-%% 2026-02-10T20:00:00 RSR: Created entry. Carnival is a recurring highlight in Nice and Rome entries. %%
+%% 2026-02-10T20:00:00 RSR: Carnival is a recurring highlight in Nice and Rome entries. %%

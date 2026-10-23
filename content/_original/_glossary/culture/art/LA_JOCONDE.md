@@ -40,4 +40,4 @@ Leonardo da Vinci's half-length portrait of (traditionally) **Lisa del Giocondo*
 - Wikipedia, "Mona Lisa".
 - Diary: 091.0090, 096.0107, 096.0257 (099.0191 as a metaphor).
 
-%% 2026-10-10T20:00:00 RSR: New work entry (batch 08). 099.0191 is a figurative use, flagged; the tagger will still hit it via the alias. The identity of the woman insulted there is not established (Stéphanie is only a guess from the paragraph's surroundings). %%
+%% 2026-10-10T20:00:00 RSR: 099.0191 is a figurative use, flagged; the tagger will still hit it via the alias. The identity of the woman insulted there is not established (Stéphanie is only a guess from the paragraph's surroundings). %%

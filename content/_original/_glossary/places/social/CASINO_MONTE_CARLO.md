@@ -21,13 +21,3 @@ last_updated: 2026-10-02
 
 ## References in Diary
 [Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-
-%% GLO_CASINO_MONTE_CARLO.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/CASINO_MONTE_CARLO.md (a place filed under people). Body copied unchanged. %%
-
-%% 2026-10-22T20:52:06 RSR: Merged MONTE_CARLO_CASINO (no content kept: empty stub) %%

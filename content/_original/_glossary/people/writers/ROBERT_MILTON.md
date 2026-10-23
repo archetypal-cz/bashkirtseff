@@ -26,5 +26,3 @@ His report on the Nice races in Le Sport, read by Marie on 27 January 1877, desc
 - [LE_SPORT](../../culture/newspapers/LE_SPORT.md)
 - [VILLEMESSANT](../mentioned/VILLEMESSANT.md)
 - [MALAUSSENA](../mentioned/MALAUSSENA.md)
-
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%

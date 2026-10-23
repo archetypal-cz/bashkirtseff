@@ -20,4 +20,4 @@ Madrid's open-air Sunday flea market, which Marie spells «Rasteo» (source foot
 
 - 1881-10-16 (093.0240, Madrid): the description above. (093.0256): «Au Rasteo on m'a présenté Madrazo qui m'a fait des compliments sur ma copie.»
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Two paragraphs; footnote supplies the identification. Category places/cities is wrong (market); move proposed. %%
+%% 2026-10-22T21:39:42 RSR: Two paragraphs; footnote supplies the identification. Category places/cities is wrong (market); move proposed. %%

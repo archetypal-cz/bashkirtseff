@@ -27,4 +27,4 @@ We are not sure who this is. Pierre Prosper Chabrol (born Limoges 1 February 181
 
 - 1881-09-01 (093.0043), the only tagged paragraph.
 
-%% 2026-10-22T20:55:00 RSR: Body written; identity_uncertain set. Candidate identification only; do not tag as Wilbrod Chabrol without a source linking him to the Théâtre-Français. %%
+%% 2026-10-22T20:55:00 RSR: Candidate identification only; do not tag as Wilbrod Chabrol without a source linking him to the Théâtre-Français. %%

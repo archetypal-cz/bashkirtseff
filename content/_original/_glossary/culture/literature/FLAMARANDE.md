@@ -32,5 +32,3 @@ Keep the titles as published (*Flamarande*; *Les Deux Frères*); there is no est
 ## Sources
 - Calmann Lévy editions: *Flamarande*, 7e éd., 1877; *Les Deux Frères*, 1878 (Internet Archive scans, found via search, 2026-10-21).
 - Plot outline: critiqueslibres.com, "Flamarande — Sand, George".
-
-%% 2026-10-21T11:32:08 RSR: Created during RSR research of the restored 090 paragraphs (rsr-090). %%

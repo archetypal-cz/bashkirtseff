@@ -29,4 +29,4 @@ We are not sure who this is. The diary gives only a painter called Beaumetz, «a
 
 087.0653, 087.0667, 088.0371, 092.0036, 095.0076 (all five tagged paragraphs opened 2026-10-21).
 
-%% 2026-10-21T22:05:00 RSR: Fix (OPEN-ITEMS D-58): stub written. Source footnote 092.0036 offers «probably the painter Étienne Dujardin-Beaumetz (1852–1913)»; the diary shows only a painter friend of Caillas in Tony's circle, so the identification stays hedged. The earlier «Charles-Aimé Beaumetz (1845–1888)» note was rejected on 2026-10-21. %%
+%% 2026-10-21T22:05:00 RSR: Source footnote 092.0036 offers «probably the painter Étienne Dujardin-Beaumetz (1852–1913)»; the diary shows only a painter friend of Caillas in Tony's circle, so the identification stays hedged. The earlier «Charles-Aimé Beaumetz (1845–1888)» note was rejected on 2026-10-21. %%

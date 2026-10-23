@@ -23,5 +23,3 @@ Russian city on the Oka, south of Moscow, capital of the province (gouvernement)
 - 1873-08-22 (008.0113): «les revenus du petit bien Orel», a small family property whose revenue Marie wants as her allowance. Whether the estate lay in Orel province or was merely called so is not stated.
 - 1876-07-13 (063.0221): «Mon père télégraphie qu'il est à Orel mais qu'à mon arrivée il sera chez lui.»
 - 1876-09-23 (066): Marie asks her father to take her «dans le gouvernement d'Orel où se trouvent les meilleurs haras de Russie» (the carnet's footnote there covers the horse breeding).
-
-%% 2026-10-21T09:11:04 RSR: Created during RSR research of the restored carnet 063 paragraphs (2026-09-29 rebuild). %%

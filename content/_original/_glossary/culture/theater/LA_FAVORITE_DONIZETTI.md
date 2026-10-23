@@ -42,6 +42,4 @@ The title is in the repertoire of the Nice opera seasons Marie attends, and she 
 - IMSLP, [La favorite (Donizetti, Gaetano)](https://imslp.org/wiki/La_favorite_(Donizetti,_Gaetano)).
 - Kernberger (2013), cited via the footnote at 068.0840.
 
-%% 2026-10-10T12:00:00 RSR: New work entry (batch 02). Supersedes the auto-stub people/mentioned/LA_FAVORITE.md (misfiled under people). Aliases deliberately omit the bare word "Favorite" (too generic: "ma favorite" appears elsewhere, e.g. 048.0059 where Marie says Alice de Nevers will become "ma favorite"). %%
-
-%% 2026-10-22T20:52:49 RSR: Merged LA_FAVORITA (no content kept: empty stub) %%
+%% 2026-10-10T12:00:00 RSR: Aliases deliberately omit the bare word "Favorite" (too generic: "ma favorite" appears elsewhere, e.g. 048.0059 where Marie says Alice de Nevers will become "ma favorite"). %%

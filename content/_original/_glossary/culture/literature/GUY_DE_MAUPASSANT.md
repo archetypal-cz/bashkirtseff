@@ -83,5 +83,5 @@ When Marie wrote her preface in May 1884, Maupassant was 33 years old and one of
 
 Marie would die later that year (October 1884), just months after writing this preface. Maupassant himself would die tragically young in 1893 at age 42, succumbing to syphilis-related mental illness.
 
-%% 2025-12-07T14:35:00 RSR: Created comprehensive glossary entry for Guy de Maupassant based on Marie's direct citation in Book 00 preface. Research sources: Encyclopedia Britannica, Wikipedia, Encyclopedia.com. %%
+%% 2025-12-07T14:35:00 RSR: Research sources: Encyclopedia Britannica, Wikipedia, Encyclopedia.com. %%
 %% 2025-12-07T15:00:00 RSR: Enhanced with details of March 1884 correspondence under pseudonym "Miss Hastings" - critical context for understanding the preface citation written weeks later %%

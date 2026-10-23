@@ -36,5 +36,3 @@ The Alexander Nevsky Lavra (Monastery) is one of the most important religious si
 ## Related Entries
 - [#Petersburg](../cities/PETERSBURG.md) - The city containing the Lavra
 - [#Kazan_Cathedral](./KAZAN_CATHEDRAL.md) - Another St. Petersburg church
-
-%% 2026-02-10T14:40:00 RSR: Expanded from one-line stub %%

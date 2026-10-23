@@ -22,4 +22,4 @@ Madeleine Lemaire (1845–1928), French watercolourist famous for her flower pai
 - 103.0375 (23 February 1884): she comes with the maréchale Canrobert and Claire to see Marie's picture: «Cette dame est une célèbre aquarelliste et femme du monde aussi mais elle vend ses tableaux très chers».
 - 104.0078 (2 May 1884): among the guests at an evening where Carolus-Duran sings.
 
-%% 2026-10-22T14:34:34 RSR: B-67 (4), B-77 (4), B-77 (6): entry created; four paragraphs tagged. %%
+%% 2026-10-22T14:34:34 RSR: Four paragraphs tagged. %%

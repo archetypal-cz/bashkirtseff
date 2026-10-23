@@ -49,4 +49,4 @@ full_text:
 - Wikipedia, ["Lucia di Lammermoor"](https://en.wikipedia.org/wiki/Lucia_di_Lammermoor).
 - Libretti (Internet Archive), IMSLP.
 
-%% 2026-10-10T21:33:00 RSR: New entry (works batch 01); the inventory had no entry. Supersedes the auto-stub people/mentioned/LUCIE_DE_LAMMERMOOR.md (also check people/mentioned/LUCIE.md, which was not examined). Premiere year/venue from general knowledge, consistent with Wikipedia; not independently cited here. %%
+%% 2026-10-10T21:33:00 RSR: Premiere year/venue from general knowledge, consistent with Wikipedia; not independently cited here. %%

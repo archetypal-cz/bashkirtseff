@@ -27,7 +27,4 @@ Mrs (Mme) E. Prodgers, the English hostess of Nice's foreign colony, who lived a
 118 tagged paragraphs, from 002.0015 (Feb 1873) to 080.0246 (20 May 1878); densest in carnets 027–030, 034, 043, 048–053. The diary is the only source; the previous stub's «Diary Coverage: up to 1874-04-23» was out of date.
 
 %% GLO_PRODGERS.9000 %%
-%% 2026-10-03T10:00:00 RSR: Moved from places/theaters/PRODGERS.md. Body copied unchanged. %%
-%% 2026-10-21T22:45:00 RSR: Fix (OPEN-ITEMS B-20): coverage extended from April 1874 to the last mention (080.0246) from the 118 tagged paragraphs; the old guess «gender ambiguity» removed — Marie writes «la Prodgers», «Mme Prodgers», «elle» throughout, and «M. Prodgers» is her husband. %%
-
-%% 2026-10-21T22:56:20 RSR: Merged MME_PRODGERS (no content kept: empty stub) %%
+%% 2026-10-21T22:45:00 RSR: Coverage extended from April 1874 to the last mention (080.0246) from the 118 tagged paragraphs; the old guess «gender ambiguity» removed — Marie writes «la Prodgers», «Mme Prodgers», «elle» throughout, and «M. Prodgers» is her husband. %%

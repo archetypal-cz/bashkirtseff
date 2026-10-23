@@ -66,5 +66,3 @@ Yalta in the 1870s served as:
 - [Livadia Palace - Wikipedia](https://en.wikipedia.org/wiki/Livadia_Palace)
 - [Yalta - Wikipedia](https://en.wikipedia.org/wiki/Yalta)
 - [The last Romanov residence: 9 facts about Livadia Palace - Russia Beyond](https://www.rbth.com/arts/2017/05/23/the-last-romanov-residence-9-facts-about-livadia-palace_768344)
-
-%% 2025-12-07T14:35:00 RSR: Created comprehensive entry for Yalta based on Book 00 reference and historical research %%

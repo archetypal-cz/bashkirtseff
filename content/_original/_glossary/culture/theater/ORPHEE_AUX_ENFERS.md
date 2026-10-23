@@ -45,4 +45,4 @@ full_text:
 - Wikipedia, ["Orpheus in the Underworld"](https://en.wikipedia.org/wiki/Orpheus_in_the_Underworld).
 - Libretto on Wikisource and scores on IMSLP, linked above.
 
-%% 2026-10-10T21:10:00 RSR: Enriched in place (works batch 01); the stub was empty. 021.0278 (14 July 1874) is Dina's "chapeau Orphée" at Spa, an Orpheus-style hat, not a reference to the operetta. %%
+%% 2026-10-10T21:10:00 RSR: 021.0278 (14 July 1874) is Dina's "chapeau Orphée" at Spa, an Orpheus-style hat, not a reference to the operetta. %%

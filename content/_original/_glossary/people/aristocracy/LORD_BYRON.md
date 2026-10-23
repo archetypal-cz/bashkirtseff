@@ -81,5 +81,3 @@ This context was part of Marie's family heritage and cultural background.
 - [#Pushkin](../../culture/literature/PUSHKIN.md) - Also influenced by Byron
 - [#Grand_papa](../family/GRAND_PAPA.md) - Marie's Byronic grandfather
 - [#Caucasus](../../places/travel/CAUCASUS.md) - Russian Romantic setting like Byron's Orient
-
-%% 2025-12-07T12:20:00 RSR: Created entry to explain cultural context of Marie's grandfather as "byronien" %%

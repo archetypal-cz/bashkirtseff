@@ -15,6 +15,3 @@ replaced_by: BRAGELONNE
 
 %% GLO_LE_VICOMTE_DE_BRAGELONE.0001 %%
 **Retired.** Merged into [#BRAGELONNE](../../culture/literature/BRAGELONNE.md) (`culture/literature/BRAGELONNE.md`); use that entry instead.
-
-%% GLO_LE_VICOMTE_DE_BRAGELONE.0002 %%
-%% 2026-10-21T21:23:30 RSR: Retired by glossary-merge; content and links moved to BRAGELONNE. replaced_by: culture/literature/BRAGELONNE.md. %%

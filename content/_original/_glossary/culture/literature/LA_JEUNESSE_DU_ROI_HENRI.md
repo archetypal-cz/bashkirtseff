@@ -55,4 +55,4 @@ The book matters in the diary less as reading than as a key to a man. In autumn 
 - The Online Books Page, "Ponson du Terrail, 1829-1871": https://onlinebooks.library.upenn.edu/webbin/who/Ponson%20du%20Terrail%2c%201829%2d1871
 - Internet Archive records for the volumes listed under `full_text`.
 
-%% 2026-10-10T20:50:00 RSR: Works-glossary batch 05 (W068). Date corrected from the inventory's 1854 to 1864 (French Wikisource author page; Internet Archive volumes 1865-1868). %%
+%% 2026-10-10T20:50:00 RSR: Date corrected from the inventory's 1854 to 1864 (French Wikisource author page; Internet Archive volumes 1865-1868). %%

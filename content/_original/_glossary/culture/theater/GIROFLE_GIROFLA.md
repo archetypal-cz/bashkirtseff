@@ -58,4 +58,4 @@ The Paris production at the Renaissance ran for some 220 performances and was on
 - Wikipedia, ["Giroflé-Girofla"](https://en.wikipedia.org/wiki/Giroflé-Girofla); IMSLP work page (first performance, librettists).
 - Libretto: Internet Archive, Tresse & Brandus edition, 1874 (linked above).
 
-%% 2026-10-10T20:55:00 RSR: Enriched in place (works batch 01). Original premiere venue and date corrected/sourced; Nice performance dates from carnets 029, 045-048 and 067. %%
+%% 2026-10-10T20:55:00 RSR: Original premiere venue and date corrected/sourced; Nice performance dates from carnets 029, 045-048 and 067. %%

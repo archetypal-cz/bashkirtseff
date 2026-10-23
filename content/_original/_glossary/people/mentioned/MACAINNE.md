@@ -20,10 +20,8 @@ His sister, «la grande Macainne», who re-appears in Nice in December 1874 and 
 
 %% GLO_MACAINNE.0004 %%
 %% 2026-10-22T21:00:00 RSR: Tags on 027.0230 and 029.0218 refer to Miss Macainne, the sister, not the officer. %%
-%% 2026-10-22T22:16:12 RSR: Stub-pass apply: those two paragraphs moved to MISS_MACAINNE. %%
+%% 2026-10-22T22:16:12 RSR: Those two paragraphs moved to MISS_MACAINNE. %%
 
-%% 2026-10-22T22:12:02 RSR: Merged MACAINNE_FAMILY (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
 %% GLO_MACAINNE.0005 %%
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 - Merged entry MACAINNE_FAMILY: at Spa on 28 June 1874 «cette famille anglaise Macainne, le frère fait l'admiration de Mme Basilévitch. C'est un homme grand, mais ordinaire» (020.0419). The tall sister has her own entry, [#Miss Macainne](MISS_MACAINNE.md).

@@ -27,4 +27,4 @@ Visconti's bookshop and reading room (librairie, «salon de lecture») in Nice, 
 - **1875-11-06** (048.0640): «On conduit Marie chez Visconti» (probably the shop).
 - **1876-06-28** (062.0775): «un commis de la librairie Visconti qui travaille en ce moment à un catalogue de mes livres.»
 
-%% 2026-10-21T22:17:02 RSR: Created (OPEN-ITEMS B-34(1)) when the VISCONTI entry, whose body described this shop, was rewritten as the Roman baron. Twelve paragraphs checked by reading; the tag rows to move from VISCONTI to this entry are in tags-p3-a.tsv. Sources: the diary lines above and the Mon Journal indexes. Whether the shop's owner is related to the baron is unknown. %%
+%% 2026-10-21T22:17:02 RSR: Twelve paragraphs checked by reading; the tag rows to move from VISCONTI to this entry are in tags-p3-a.tsv. Sources: the diary lines above and the Mon Journal indexes. Whether the shop's owner is related to the baron is unknown. %%

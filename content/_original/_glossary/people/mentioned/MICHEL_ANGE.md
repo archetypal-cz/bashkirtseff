@@ -39,4 +39,4 @@ Michelangelo's major works referenced or implied in the diary include the *Moses
 
 This entry consolidates two prior duplicate stubs that both referred to the same historical figure: `MICHEL_ANGE` (French form, used in 083 and 105) and `MICHELANGELO` (English/Italian form, used in 101). Merged 2026-07-06 during glossary dedupe follow-up from the 2026-07-06 report-triage session.
 
-%% 2026-07-06T21:00:00 RSR: Entry expanded and merged from MICHELANGELO.md stub — same historical figure (Michelangelo Buonarroti), referenced across 083/1878-11-25, 101/1883-08-16, and 105/1884-07-15. All three diary references confirmed as the Renaissance artist via direct textual context (Belvedere Torso, Stendhal's biography, the Moses and Medici tomb figures). %%
+%% 2026-07-06T21:00:00 RSR: All three diary references confirmed as the Renaissance artist via direct textual context (Belvedere Torso, Stendhal's biography, the Moses and Medici tomb figures). %%

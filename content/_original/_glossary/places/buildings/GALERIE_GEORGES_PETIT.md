@@ -22,5 +22,3 @@ On 27 August 1883 the prizes of the Ischia charity lottery are on show there: «
 
 ## Sources
 Diary 101.0266; en.wikipedia «Georges Petit»; Metropolitan Museum of Art, Modern Art Index Project (https://www.metmuseum.org/research-centers/leonard-a-lauder-research-center/research-resources/modern-art-index-project/galerie-georges-petit); Mon Journal t.16 index.
-
-%% 2026-10-22T22:32:20 RSR: Renamed from PETIT (stub-pass apply 2026-10-22); body carried over %%

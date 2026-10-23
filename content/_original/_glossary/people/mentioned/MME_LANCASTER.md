@@ -14,6 +14,3 @@ replaced_by: BERTHE
 
 %% GLO_MME_LANCASTER.0001 %%
 **Retired.** Merged into [#BERTHE](../recurring/BERTHE.md) (`people/recurring/BERTHE.md`); use that entry instead.
-
-%% GLO_MME_LANCASTER.0002 %%
-%% 2026-10-22T20:51:37 RSR: Retired by glossary-merge; content and links moved to BERTHE. replaced_by: people/recurring/BERTHE.md. %%

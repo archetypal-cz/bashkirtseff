@@ -14,6 +14,3 @@ replaced_by: GRAND_MAMAN
 
 %% GLO_GRAND_MERE.0001 %%
 **Retired.** Merged into [#GRAND_MAMAN](../family/GRAND_MAMAN.md) (`people/family/GRAND_MAMAN.md`); use that entry instead.
-
-%% GLO_GRAND_MERE.0002 %%
-%% 2026-10-22T22:10:48 RSR: Retired by glossary-merge; content and links moved to GRAND_MAMAN. replaced_by: people/family/GRAND_MAMAN.md. %%

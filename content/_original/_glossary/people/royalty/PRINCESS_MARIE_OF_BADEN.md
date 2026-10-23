@@ -42,4 +42,4 @@ She is the duke's mother, and she kept a household in Baden-Baden, where Marie, 
 - Wikipedia, ["Princess Marie Amelie of Baden"](https://en.wikipedia.org/wiki/Princess_Marie_Amelie_of_Baden).
 - Wikipedia, ["William Hamilton, 11th Duke of Hamilton"](https://en.wikipedia.org/wiki/William_Hamilton,_11th_Duke_of_Hamilton).
 
-%% 2026-10-21T08:54:18 RSR: New entry (restored paragraphs of carnet 041). The exact Baden-Baden residence Marie calls "le palais" was not identified (a search found no reliable source for a "Palais Hamilton"); left unnamed. %%
+%% 2026-10-21T08:54:18 RSR: The exact Baden-Baden residence Marie calls "le palais" was not identified (a search found no reliable source for a "Palais Hamilton"); left unnamed. %%

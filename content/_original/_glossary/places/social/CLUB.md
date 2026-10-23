@@ -18,5 +18,3 @@ In 1879 the skating club in the Bois de Boulogne («le Club, où je patine, au B
 - 1879-12-15 (086.0665)
 - 1879-12-21 (086.0752)
 - 1879-12-26 (087.0036)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

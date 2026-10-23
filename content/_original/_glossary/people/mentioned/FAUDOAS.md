@@ -13,6 +13,3 @@ replaced_by: MLLE_DE_FODOAS
 
 %% GLO_FAUDOAS.0001 %%
 **Retired.** Merged into [#MLLE_DE_FODOAS](../aristocracy/MLLE_DE_FODOAS.md) (`people/aristocracy/MLLE_DE_FODOAS.md`); use that entry instead.
-
-%% GLO_FAUDOAS.0002 %%
-%% 2026-10-22T15:07:32 RSR: Retired by glossary-merge; content and links moved to MLLE_DE_FODOAS. replaced_by: people/aristocracy/MLLE_DE_FODOAS.md. %%

@@ -32,6 +32,3 @@ Villa Carlone represents a significant real estate investment by the Bashkirtsef
 Located on rue de la Préfecture, the villa would have been in a prestigious area of Nice, suitable for wealthy Russian expatriates who formed a significant part of Nice's winter colony during this period.
 
 %% 2025-07-05T10:20:00 RSR: Research needed on rue de la Préfecture location in 1870s Nice and typical villa prices of the era %%
-
-%% GLO_VILLA_CARLONE.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/VILLA_CARLONE.md (a place filed under people). Body copied unchanged. %%

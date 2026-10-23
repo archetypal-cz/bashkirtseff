@@ -14,6 +14,3 @@ replaced_by: MME_ARNAUD_DE_L_ARIEGE
 
 %% GLO_MME_ARNAUD_DE_ARIEGE.0001 %%
 **Retired.** Merged into [#MME_ARNAUD_DE_L_ARIEGE](MME_ARNAUD_DE_L_ARIEGE.md) (`people/mentioned/MME_ARNAUD_DE_L_ARIEGE.md`); use that entry instead.
-
-%% GLO_MME_ARNAUD_DE_ARIEGE.0002 %%
-%% 2026-10-22T20:57:00 RSR: Retired by glossary-merge; content and links moved to MME_ARNAUD_DE_L_ARIEGE. replaced_by: people/mentioned/MME_ARNAUD_DE_L_ARIEGE.md. %%

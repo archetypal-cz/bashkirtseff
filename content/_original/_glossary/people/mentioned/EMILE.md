@@ -13,6 +13,3 @@ replaced_by: LEON_D_AUDIFFRET
 
 %% GLO_EMILE.0001 %%
 **Retired.** Merged into [#LEON_D_AUDIFFRET](LEON_D_AUDIFFRET.md) (`people/mentioned/LEON_D_AUDIFFRET.md`); use that entry instead.
-
-%% GLO_EMILE.0002 %%
-%% 2026-10-22T15:07:26 RSR: Retired by glossary-merge; content and links moved to LEON_D_AUDIFFRET. replaced_by: people/mentioned/LEON_D_AUDIFFRET.md. %%

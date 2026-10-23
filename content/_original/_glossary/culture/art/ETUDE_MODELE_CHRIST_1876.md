@@ -63,4 +63,4 @@ The study is sometimes called her "first life painting". That is Marie's own con
 - The diary: carnets 052 and 076, French originals in `/content/_original/`; the footnote at 052.0146 explains the model's Christ-like physiognomy
 
 %% GLO_ETUDE_MODELE_CHRIST_1876.0014 %%
-%% 2026-10-10T20:55:59 RSR: Created in the works-glossary wave (batch 10). Quotations verified in 052.0080, 052.0146, 052.0150, 076.0447-0449. The 1885 catalogue contains many untitled heads; no match is attempted. %%
+%% 2026-10-10T20:55:59 RSR: Quotations verified in 052.0080, 052.0146, 052.0150, 076.0447-0449. The 1885 catalogue contains many untitled heads; no match is attempted. %%

@@ -57,5 +57,3 @@ As an aspiring artist and cultured young woman, Pompeii offered Marie:
 - [#Naples](./NAPLES.md) - The nearby city and base for visits
 - [#Rome](./ROME.md) - The ancient capital
 - [#Florence](./FLORENCE.md) - Another Italian art destination
-
-%% 2026-02-10T12:40:00 RSR: Expanded from one-line stub with archaeological context and significance for Marie %%

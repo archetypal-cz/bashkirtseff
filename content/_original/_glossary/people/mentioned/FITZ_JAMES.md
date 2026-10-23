@@ -21,5 +21,3 @@ The ducal family of Fitz-James, as a group or by birth name. In the diary the mo
 ## References in Diary
 
 073.0342; 100.0076; 103.0379. (088.0761 and 088.0839, «la princesse de Fitz-James» and «cette charmante vieille femme», are the dowager duchess; retag queued.)
-
-%% 2026-10-22T14:30:00 RSR: Stub replaced (D-42, glossary identity questions). %%

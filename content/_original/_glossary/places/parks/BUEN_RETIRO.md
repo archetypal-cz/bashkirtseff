@@ -24,4 +24,4 @@ The Retiro, the great public park of Madrid. Marie, who spells it «Bueno Retiro
 
 Tagged paragraph 093.0154 also carries a tag for Rome (the villas it is compared to), which is not a mention of Rome as a visit.
 
-%% 2026-10-22T21:34:03 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Four paragraphs read. Category places/cities is wrong (park): move listed. %%
+%% 2026-10-22T21:34:03 RSR: Four paragraphs read. Category places/cities is wrong (park): move listed. %%

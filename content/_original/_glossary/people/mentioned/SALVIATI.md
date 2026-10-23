@@ -29,4 +29,4 @@ The Mon Journal t.10 index calls her «Blanche, comtesse de Larderei, épouse de
 
 See also [Gaston de Larderel](GASTON_DE_LARDEREL.md), [Larderel](LARDEREL.md).
 
-%% 2026-10-21T10:48:15 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 071 paragraphs (rsr-071). Other uses of this tag (069/1877-03-26, 072/1877-06-15) were not checked. %%
+%% 2026-10-21T10:48:15 RSR: Other uses of this tag (069/1877-03-26, 072/1877-06-15) were not checked. %%

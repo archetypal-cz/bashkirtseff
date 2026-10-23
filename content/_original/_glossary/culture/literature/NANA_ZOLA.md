@@ -50,4 +50,4 @@ The book was the scandal of her first winter in the Paris art world, and she rea
 - Wikipedia, "Nana (novel)": https://en.wikipedia.org/wiki/Nana_(novel)
 - French Wikisource, "Nana"; Project Gutenberg ebook 5250.
 
-%% 2026-10-10T22:50:00 RSR: Works-glossary batch 05 (W095). Publication dates from Wikipedia; Marie's Julian paragraph (087.0585) read as a reference to Nana's stage entrance as Venus in La Blonde Vénus. %%
+%% 2026-10-10T22:50:00 RSR: Publication dates from Wikipedia; Marie's Julian paragraph (087.0585) read as a reference to Nana's stage entrance as Venus in La Blonde Vénus. %%

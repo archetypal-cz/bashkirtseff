@@ -17,5 +17,3 @@ M. Dubel, architect in Paris, who works for both Rodolphe Julian and Marie (Mon 
 - 1882-06-02 (095.0125): she keeps Julian and «Dubel son architecte qui est aussi le nôtre et qui était venu pour affaire» to lunch.
 
 No first name was found. For the studio see [#Julian](../../places/schools/JULIAN.md) and [#Rodolphe Julian](../recurring/RODOLPHE_JULIAN.md).
-
-%% 2026-10-22T21:33:08 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

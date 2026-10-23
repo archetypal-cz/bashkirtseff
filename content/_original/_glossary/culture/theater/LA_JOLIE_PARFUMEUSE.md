@@ -38,4 +38,4 @@ full_text:
 - Wikipedia, ["La jolie parfumeuse"](https://en.wikipedia.org/wiki/La_jolie_parfumeuse).
 - Internet Archive libretto (Tresse, 1873) and IMSLP, linked above.
 
-%% 2026-10-10T12:00:00 RSR: New work entry (batch 02). The 016.0370 RSR note ("premiered 29 November 1873") agrees with Wikipedia. The Nice performance was a touring or local production; the troupe is not known. %%
+%% 2026-10-10T12:00:00 RSR: The 016.0370 RSR note ("premiered 29 November 1873") agrees with Wikipedia. The Nice performance was a touring or local production; the troupe is not known. %%

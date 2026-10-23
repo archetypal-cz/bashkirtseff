@@ -54,5 +54,3 @@ The fact that Marie refers to her as "la Soubise" (with the definite article) mi
 In the social hierarchy of Nice in the 1870s, women associated with aristocratic men as mistresses or companions often formed their own social circles. Soubise may have been part of this demi-monde - women who were not accepted in respectable society but who moved in wealthy circles due to their relationships with aristocratic or wealthy men.
 
 Marie's comment about Soubise and Gioia using a hired cab suggesting reduced circumstances reflects the importance of maintaining appearances in this social milieu. The type of transportation one used was a significant marker of social status and financial means.
-
-%% 2025-04-05T21:55:00 RSR: Created entry based on mentions in September 15 and 19, 1873 diary entries %%

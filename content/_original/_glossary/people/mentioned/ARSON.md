@@ -42,4 +42,4 @@ Pierre-Joseph Arson (1778–1851), a merchant from L'Isle-sur-la-Sorgue, bought 
 - Wikipedia (en), "Villa Arson": https://en.wikipedia.org/wiki/Villa_Arson
 
 %% GLO_ARSON.0008 %%
-%% 2026-10-11T10:00:00 RSR: Rewritten after a reader report (2026-10-11): the earlier text called Arson "possibly a servant or employee", which the diary contradicts (Paul's friend, dines at table, family with a theatre box). Reader names him Victor Arson de Saint-Joseph, grandson of Pierre-Joseph; not found in fr.wikipedia (which names only the children Palmyre, Gédéon, Zélie, Gonzague) or the Nice sources — first name to confirm (genealogy / état civil Nice; whose son, given the mother's death on 17 Jan 1874). %%
+%% 2026-10-11T10:00:00 RSR: The earlier text called Arson "possibly a servant or employee", which the diary contradicts (Paul's friend, dines at table, family with a theatre box). Reader names him Victor Arson de Saint-Joseph, grandson of Pierre-Joseph; not found in fr.wikipedia (which names only the children Palmyre, Gédéon, Zélie, Gonzague) or the Nice sources — first name to confirm (genealogy / état civil Nice; whose son, given the mother's death on 17 Jan 1874). %%

@@ -33,4 +33,4 @@ Not the satirical weekly of the same name (founded 1863), which Marie mentions i
 
 - Wikipedia, ["La Vie parisienne (operetta)"](https://en.wikipedia.org/wiki/La_Vie_parisienne_(operetta)).
 
-%% 2026-10-21T08:54:18 RSR: New work entry (restored paragraphs of carnet 041). Rémy's "bientôt on donnera" implies a new Variétés run was announced for autumn 1875; not verified here, so not stated as fact. %%
+%% 2026-10-21T08:54:18 RSR: Rémy's "bientôt on donnera" implies a new Variétés run was announced for autumn 1875; not verified here, so not stated as fact. %%

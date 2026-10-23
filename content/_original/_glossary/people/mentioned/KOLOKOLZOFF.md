@@ -27,6 +27,4 @@ A gossipy, sociable older woman, a regular of the Bashkirtseffs' house and outin
 
 002.0071, 002.0073 (as Sonitchka); 003.0177; 004.0375; 009.0146, 009.0170; 012.0229-0237; 014.0164, 014.0165; 015.0316; 018.0022; 019.0025; 020.0066; 032.0116; 063.0177.
 
-%% 2026-10-22T15:00:00 RSR: Body rewritten (phase 4); SONITCHKA to be merged here. %%
-
-%% 2026-10-22T12:28:44 RSR: Merged SONITCHKA (stub or redirect body; nothing to keep — any content was folded into this entry before the merge, 2026-10-22) %%
+%% 2026-10-22T15:00:00 RSR: SONITCHKA to be merged here. %%

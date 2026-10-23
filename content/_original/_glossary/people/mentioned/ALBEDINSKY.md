@@ -24,6 +24,4 @@ Pyotr Pavlovich Albedinsky (Moscow 1826 – Warsaw 19 May 1883), Russian cavalry
 
 - 1876-08-04 (064.0413); 1881-07-23 (092.0324).
 
-%% 2026-10-22T16:50:00 RSR: Body written from the two paragraphs and Wikipedia. Marie's «favorite de l'Empereur» matches Wikipedia's marriage to Alexandra Sergeyevna Dolgorukova (arranged, per Paléologue, by Alexander II). Footnote 092.0324.5 names Princess Catherine Dolgorukova (1847–1922), the Emperor's later morganatic wife, which is a different woman; the footnote does not explain Albedinsky's wife and could be reworded. %%
-
-%% 2026-10-22T20:53:41 RSR: Merged GENERAL_ALBEDINSKY (no content kept: empty stub) %%
+%% 2026-10-22T16:50:00 RSR: Marie's «favorite de l'Empereur» matches Wikipedia's marriage to Alexandra Sergeyevna Dolgorukova (arranged, per Paléologue, by Alexander II). Footnote 092.0324.5 names Princess Catherine Dolgorukova (1847–1922), the Emperor's later morganatic wife, which is a different woman; the footnote does not explain Albedinsky's wife and could be reworded. %%

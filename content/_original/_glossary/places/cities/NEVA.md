@@ -38,5 +38,3 @@ The Neva is the major river flowing through St. Petersburg, Russia. Though only 
 ## Related Entries
 - [#Petersburg](./PETERSBURG.md) - The city built on the Neva
 - [#Newski_Prospect](./NEWSKI_PROSPECT.md) - St. Petersburg's main avenue, named for the monastery at the Neva's end
-
-%% 2026-02-10T16:30:00 RSR: Expanded from one-line stub %%

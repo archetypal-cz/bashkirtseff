@@ -19,5 +19,3 @@ The one tagged paragraph is from Biarritz (1881-09-17, 093.0088): «Deux connais
 ## Identity uncertain
 
 We are not sure who this is. «Duque de la Conquista» is a Spanish dukedom (with grandeza) created in 1735 for Pedro de Castro y Figueroa (en.wikipedia «Pedro de Castro, 1st Duke of la Conquista»; Real Academia de la Historia, DBE), but the sources found do not list the holder in 1873–81; the diary gives no name, and the Nice years in question (1873–74) are the time of «maman allait dans le monde». If you can identify this person, we would be glad to hear from you.
-
-%% 2026-10-22T21:33:08 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

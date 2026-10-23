@@ -20,4 +20,4 @@ A young man in the Parisian social circle around Mme de Bailleul and the Mouzay 
 - 1880-05-18: At a social evening with Soutzo.
 - 1880-05-24: Discussed as a matrimonial prospect.
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-18.md and 1880-05-24.md. Rouzat: young man in the Bailleul/Mouzay social circle, Paris 1880; Marie's sharply observed comment that he "will only marry a dowry." No fuller identification. %%
+%% 2026-05-31T12:00:00 RSR: Rouzat: young man in the Bailleul/Mouzay social circle, Paris 1880; Marie's sharply observed comment that he "will only marry a dowry." No fuller identification. %%

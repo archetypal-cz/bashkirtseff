@@ -44,5 +44,3 @@ Marie questions whether her family does this through "cowardly hypocrisy or stup
 
 - Family tensions (no glossary entry)
 - Social reputation (no glossary entry)
-
-%% 2026-10-21T22:59:12 RSR: Merged WODZINSKY (no content kept: empty stub) %%

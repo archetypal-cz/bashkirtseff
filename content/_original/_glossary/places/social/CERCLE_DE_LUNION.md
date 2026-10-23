@@ -23,4 +23,4 @@ On 24 September 1874, at the furniture dealer Duval's (DUVAL), Duval says quietl
 
 - 1874-09-24 (024.0094), the only tagged paragraph.
 
-%% 2026-10-22T20:50:00 RSR: Body written. NOT A PERSON: a club; belongs in places. Blackprince is not identified here (several 1874 paragraphs use the name). %%
+%% 2026-10-22T20:50:00 RSR: NOT A PERSON: a club; belongs in places. Blackprince is not identified here (several 1874 paragraphs use the name). %%

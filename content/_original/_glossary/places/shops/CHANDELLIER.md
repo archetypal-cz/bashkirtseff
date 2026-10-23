@@ -22,4 +22,4 @@ On 29 September 1874, buying furnishings for the Nice villa: after Worth («je m
 
 - 1874-09-29 (024.0159), the only tagged paragraph.
 
-%% 2026-10-22T20:58:00 RSR: Body written from the paragraph and the t.4 index. NOT A PERSON; shop. %%
+%% 2026-10-22T20:58:00 RSR: NOT A PERSON; shop. %%

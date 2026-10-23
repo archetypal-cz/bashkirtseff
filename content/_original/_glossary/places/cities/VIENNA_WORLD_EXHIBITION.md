@@ -34,5 +34,3 @@ The exhibition aimed to elevate Austria-Hungary's status among major European po
 - **August 11-15, 1873**: Marie makes multiple visits to the exhibition
 - **August 13, 1873**: She specifically mentions visiting the Agricultural Hall and seeing her father's tobacco and Lefèvre's wine on display
 - **August 14, 1873**: Marie falls ill, and her aunt fears it might be cholera, which was affecting Vienna during the exhibition
-
-%% 2025-04-05T15:12:06 RSR: Created glossary entry for Vienna World Exhibition of 1873 %%

@@ -52,4 +52,4 @@ So the canvas is largely Marie's work, passed off as Claire's, and Marie feels i
 - Diary paragraphs cited above in `content/_original/`.
 
 %% GLO_TABLEAU_DE_CLAIRE_FLEURS.0011 %%
-%% 2026-10-10T21:30:00 RSR: Created in the works glossary wave (W597). The inventory listed this as Marie's life-size project; it is Claire's picture executed mostly by Marie. Whether this is the "faux" of 103.0333 is a reading, not certain (the paragraph says "ces odieuses fleurs"). Claire's surname/relationship to the Canrobert household is not established here; the CLAIRE entry is still a stub. %%
+%% 2026-10-10T21:30:00 RSR: The inventory listed this as Marie's life-size project; it is Claire's picture executed mostly by Marie. Whether this is the "faux" of 103.0333 is a reading, not certain (the paragraph says "ces odieuses fleurs"). Claire's surname/relationship to the Canrobert household is not established here; the CLAIRE entry is still a stub. %%

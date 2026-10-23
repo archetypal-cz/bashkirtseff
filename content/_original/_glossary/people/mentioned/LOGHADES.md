@@ -25,5 +25,3 @@ Keep the spelling Loghadès.
 
 ## Sources
 - Mon Journal t.14 (L'Âge d'Homme), index. No outside source checked.
-
-%% 2026-10-21T11:32:08 RSR: Created during RSR research of the restored 090 paragraphs (rsr-090). %%

@@ -18,4 +18,4 @@ The Paris district of the Ternes, in the north-west. In December 1881 Marie, in 
 
 - 1881-12-18 (094.0095, Paris): the only mention.
 
-%% 2026-10-22T21:39:42 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). One paragraph read, with the preceding one for the referent. Category places/cities is a district; accepted. %%
+%% 2026-10-22T21:39:42 RSR: One paragraph read, with the preceding one for the referent. Category places/cities is a district; accepted. %%

@@ -27,4 +27,4 @@ The Bachasson de Montalivet family was one of the prominent Orléanist noble fam
 
 Wikipedia: [Marthe Camille Bachasson, Count of Montalivet](https://en.wikipedia.org/wiki/Marthe_Camille_Bachasson,_Count_of_Montalivet)
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken link in content/en/088/1880-05-28.md. The 3rd Comte de Montalivet died January 1880; the person encountered in May 1880 may be the heir or a younger member of the family. Full identification requires further research. Source: Wikipedia. %%
+%% 2026-05-31T12:00:00 RSR: The 3rd Comte de Montalivet died January 1880; the person encountered in May 1880 may be the heir or a younger member of the family. Full identification requires further research. Source: Wikipedia. %%

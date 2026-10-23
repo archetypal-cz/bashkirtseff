@@ -25,7 +25,5 @@ Paul is Marie's persistent suitor in 1876. He arrives in Rome on 7 April 1876: s
 
 %% 2026-10-22T16:00:00 RSR: 056.0483–056.0541 (7–8 April 1876, Rome); 057.0099–057.0156 (10–11 April); 064.0061 (22 July 1876); 064.0268, 064.0411–064.0526 (4–12 August 1876); 064.0617 (16 August); 072.0422 (8 July 1877); 082.0173, 082.0174 (23 August 1878); 42 tagged paragraphs in all. %%
 
-%% 2026-10-22T22:12:31 RSR: Merged YSSAYEVITCH (stub-pass findings 2026-10-22); its diary evidence folded in by hand %%
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass merge 2026-10-22: facts of the merged entries folded in by hand. %%
 - Merged entry YSSAYEVITCH (surname only): 25 May 1876, she answers his letter, spacing the words so that it looks longer (061.0112); 30 May 1876, «Combien Yssayevitch avait raison de dire qu'en Russie nous occuperions toujours la position qui est la nôtre» (062.0030); 11 August 1877, in a margin note among her suitors: «Et Yssayevitch ? Qu'est-ce que je fais de lui ? Il vient d'être nommé maréchal de noblesse et gentilhomme de la chambre. Et Michel Hamsley ?» (073.0391). The suitor context makes the maréchal de noblesse of 1877 Paul himself (0.8), so the t.10 index «Yssayevitch, maréchal de noblesse» is probably the same man.

@@ -14,6 +14,3 @@ replaced_by: COUBE
 
 %% GLO_M_ET_MME_COUBE.0001 %%
 **Retired.** Merged into [#COUBE](../mentioned/COUBE.md) (`people/mentioned/COUBE.md`); use that entry instead.
-
-%% GLO_M_ET_MME_COUBE.0002 %%
-%% 2026-10-22T20:50:42 RSR: Retired by glossary-merge; content and links moved to COUBE. replaced_by: people/mentioned/COUBE.md. %%

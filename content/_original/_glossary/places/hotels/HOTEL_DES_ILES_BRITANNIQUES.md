@@ -24,6 +24,6 @@ The small hotel at 22 rue de la Paix, Paris, where the Bashkirtseffs lodge on th
 
 - 1875-02-21 (030.0051, Nice): at the theatre the music of *Bagatelle* carries her back «dans notre petit salon de l'hôtel des Iles Britanniques» in Paris.
 
-%% 2026-10-22T22:16:12 RSR: Stub-pass apply (2026-10-22): 030.0051 does name the Paris hotel (the earlier wrong-tag note was mistaken); 050.0546 (Nice) untagged. %%
+%% 2026-10-22T22:16:12 RSR: 030.0051 does name the Paris hotel (the earlier wrong-tag note was mistaken); 050.0546 (Nice) untagged. %%
 
-%% 2026-10-22T21:35:45 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Eight paragraphs read. Wrong-tag candidate 030.0051; the Nice hotel (050.0546) is probably a separate entity. %%
+%% 2026-10-22T21:35:45 RSR: Eight paragraphs read. Wrong-tag candidate 030.0051; the Nice hotel (050.0546) is probably a separate entity. %%

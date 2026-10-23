@@ -57,4 +57,4 @@ This thematic tag collects diary paragraphs where Marie looks at her own face, f
 - `076.0466` — she shows her arms and torso; the verdict on her hips
 - `084.0082` — "je suis laide et fanée"
 
-%% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%
+%% 2026-10-02T18:00:00 RSR: Applied per paragraph by AI judgement, not keyword match. %%

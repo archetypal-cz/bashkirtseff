@@ -14,6 +14,3 @@ replaced_by: DECRAIS
 
 %% GLO_NICE_PREFET.0001 %%
 **Retired.** Merged into [#DECRAIS](DECRAIS.md) (`people/mentioned/DECRAIS.md`); use that entry instead.
-
-%% GLO_NICE_PREFET.0002 %%
-%% 2026-10-21T22:47:53 RSR: Retired by glossary-merge; content and links moved to DECRAIS. replaced_by: people/mentioned/DECRAIS.md. %%

@@ -13,6 +13,3 @@ replaced_by: ARCANGELO
 
 %% GLO_ARCANGIOLO.0001 %%
 **Retired.** Merged into [#ARCANGELO](ARCANGELO.md) (`people/mentioned/ARCANGELO.md`); use that entry instead.
-
-%% GLO_ARCANGIOLO.0002 %%
-%% 2026-10-22T22:09:16 RSR: Retired by glossary-merge; content and links moved to ARCANGELO. replaced_by: people/mentioned/ARCANGELO.md. %%

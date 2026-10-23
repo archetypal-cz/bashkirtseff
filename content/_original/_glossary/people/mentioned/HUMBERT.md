@@ -31,8 +31,4 @@ In the diary Marie mostly sees him from a distance, with salutes exchanged: Rome
 
 Duplicates in the glossary: PRINCE_HUMBERT (people/aristocracy, untagged stub) and KING_HUMBERT (people/mentioned, 1 tag) describe the same man; merge candidates for the lead.
 
-%% 2026-10-21T22:40:00 RSR: Body written from the auto-stub (OPEN-ITEMS B-37(7)) from the t.10 index («Humberto (prince), fils du roi Victor-Emmanuel») and the 22 tagged paragraphs, each opened; the Wikipedia dates (Umberto I, 1844-1900, king from 1878) are general background, not verified in this pass. All tagged paragraphs are the crown prince, none another Humbert. %%
-
-%% 2026-10-21T22:48:53 RSR: Merged PRINCE_HUMBERT (no content kept: empty stub) %%
-
-%% 2026-10-21T22:49:04 RSR: Merged KING_HUMBERT (no content kept: empty stub) %%
+%% 2026-10-21T22:40:00 RSR: The Wikipedia dates (Umberto I, 1844-1900, king from 1878) are general background, not verified in this pass. All tagged paragraphs are the crown prince, none another Humbert. %%

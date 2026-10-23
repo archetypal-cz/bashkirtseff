@@ -29,4 +29,4 @@ last_updated: 2026-10-21
 - Musée d'Orsay, *L'Apparition* (provenance): https://www.musee-orsay.fr/en/artworks/lapparition-203510
 - Further reading (not consulted): Benjamin Foudral, "Charles Hayem (1839-1902), un collectionneur-mécène à la recherche d'une légitimation sociale", *Les Cahiers d'histoire de l'art* 12 (2014), pp. 99-109.
 
-%% 2026-10-21T16:40:00 RSR: Created in the no-LAN entries pass (104/1884-05-15); about 20 mentions in carnet 104. Identification probable (0.9), resting on the Simon Hayem portrait. %%
+%% 2026-10-21T16:40:00 RSR: Identification probable (0.9), resting on the Simon Hayem portrait. %%

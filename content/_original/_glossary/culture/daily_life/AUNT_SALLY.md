@@ -18,4 +18,4 @@ Aunt Sally, an English throwing game of fairs, racecourses and garden parties fr
 - 1874-08-01 (022/1874-08-01): a garden party at Spa: «Elle a pris part au jeu de Aunt Sally et avec un brin de tricherie remporta le premier prix, Dina eut le deuxième…»; «Entre Aunt Sally et les autres jeux on était entré aux salons».
 - 1874-11-10 (025.0198): «J'ai écrit à Foster pour Aunt Sally et Archery» — Marie orders the game (and archery sets) through her English friend Foster; the archery sets arrive in September 1875 (043/1875-09-10, Foster's letter).
 
-%% 2026-10-22T14:20:25 RSR: Body written (B-72(4)). A game, not a person: misfiled under people/mentioned (type Person); should move to culture/ (e.g. culture/history or a games/sport category) — lead: glossary-move. %%
+%% 2026-10-22T14:20:25 RSR: A game, not a person: misfiled under people/mentioned (type Person); should move to culture/ (e.g. culture/history or a games/sport category) — lead: glossary-move. %%

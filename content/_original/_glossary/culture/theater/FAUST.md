@@ -60,4 +60,4 @@ This entry is for Gounod's opera. Goethe's drama has its own entry ([Faust, Goet
 - Wikipedia, ["Faust (opera)"](https://en.wikipedia.org/wiki/Faust_(opera)).
 - Libretto, vocal score and IMSLP page, linked above.
 
-%% 2026-10-10T20:58:00 RSR: Enriched in place (works batch 01); the stub had no content. A duplicate stub exists at people/mentioned/FAUST.md (supersede). 053.0408, 059.0065 are context; 068.0701 and 074.0186 are non-opera uses. %%
+%% 2026-10-10T20:58:00 RSR: A duplicate stub exists at people/mentioned/FAUST.md (supersede). 053.0408, 059.0065 are context; 068.0701 and 074.0186 are non-opera uses. %%

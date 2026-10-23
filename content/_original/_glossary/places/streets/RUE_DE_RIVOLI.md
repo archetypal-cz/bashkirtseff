@@ -17,5 +17,3 @@ The rue de Rivoli in Paris, along the Tuileries and the Louvre. Marie drives out
 ## References in Diary
 - 1879-05-07 (085.0054)
 - 1883-01-06 (097.0362)
-
-%% 2026-10-22T15:30:00 RSR: Body written over the auto-generated stub after the move out of people/ (OPEN-ITEMS B-67 (3), B-69 (3)); references from the current tags. %%

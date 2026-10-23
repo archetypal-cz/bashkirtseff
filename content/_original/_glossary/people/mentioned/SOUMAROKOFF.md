@@ -33,5 +33,4 @@ We are not sure who this is. Marie calls him «le comte Soumarokoff» / «Elston
 
 See also [#Grand_Duchess_Marie](../aristocracy/GRAND_DUCHESS_MARIE.md).
 
-%% 2026-10-21T09:47:00 RSR: Extended from the restored paragraphs 067.0396, 067.0488, 067.0643-0644 (rsr-067b). %%
-%% 2026-10-22T14:08:00 RSR: OPEN-ITEMS B-33(9): searched (ru/en Wikipedia on the Sumarokov-Elstons); Felix Felixovich was not in the Guard in 1876 (Odessa Uhlans, Chevalier Guards from 1879), the officer stays unidentified; Identity uncertain section added. %%
+%% 2026-10-22T14:08:00 RSR: Searched (ru/en Wikipedia on the Sumarokov-Elstons); Felix Felixovich was not in the Guard in 1876 (Odessa Uhlans, Chevalier Guards from 1879), the officer stays unidentified; Identity uncertain section added. %%

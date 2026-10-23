@@ -11,7 +11,6 @@ last_updated: 2026-05-31
 ---
 # M. Tchernikoff
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (June 1873, Nice)
 
@@ -29,4 +28,4 @@ A Russian man referred to as "M. Tchernikoff" in the Nice social circle of June 
 
 Spelling "Tchernikoff" (as opposed to "Tchernichoff") used consistently across multiple entries. May be the same person as M. Tchernichoff (see that entry), or a different individual. Doctor by profession; part of the Russian expatriate community in Nice.
 
-%% 2026-05-31T12:00:00 RSR: Stub created to resolve broken UK link. Real person — Russian doctor in Nice 1873, traveling physician for the Berlikoff family. %%
+%% 2026-05-31T12:00:00 RSR: Real person — Russian doctor in Nice 1873, traveling physician for the Berlikoff family. %%

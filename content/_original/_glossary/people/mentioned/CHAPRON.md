@@ -26,5 +26,3 @@ We are not sure who Chapron was. The paragraph has him add commentaries to a let
 ## References in Diary
 
 - 1881-08-18 (092.0422), the only tagged paragraph.
-
-%% 2026-10-22T20:59:00 RSR: Body written; identity_uncertain set. %%

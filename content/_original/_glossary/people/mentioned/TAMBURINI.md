@@ -38,4 +38,4 @@ His daughter Mme Bonnin organized a requiem mass for him about a month after his
 
 - First mentioned: 1876-12-10 (requiem mass, carnet 067)
 
-%% 2026-02-10T18:00:00 RSR: Created entry. Tamburini died in Nice Nov 8, 1876. His daughter Mme Bonnin arranged the requiem mass Marie attended on Dec 10. %%
+%% 2026-02-10T18:00:00 RSR: Tamburini died in Nice Nov 8, 1876. His daughter Mme Bonnin arranged the requiem mass Marie attended on Dec 10. %%

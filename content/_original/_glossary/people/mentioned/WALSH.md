@@ -20,4 +20,4 @@ No further mention in the diary; his family and given name are not stated, and n
 
 - 1874-12-08 (027.0201, Nice): the only mention; see [Galula](../recurring/GALULA.md), [Barrême](BARREME.md).
 
-%% 2026-10-22T21:33:17 RSR: Stub written out (ledger: glossary stub write-out, owner ruling 2026-10-22). Single mention, t.4 index only; nothing found beyond the title. %%
+%% 2026-10-22T21:33:17 RSR: Single mention, t.4 index only; nothing found beyond the title. %%

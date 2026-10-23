@@ -14,6 +14,3 @@ replaced_by: OPERA
 
 %% GLO_GRAND_OPERA.0001 %%
 **Retired.** Merged into [#OPERA](../../places/theaters/OPERA.md) (`places/theaters/OPERA.md`); use that entry instead.
-
-%% GLO_GRAND_OPERA.0002 %%
-%% 2026-10-22T22:10:54 RSR: Retired by glossary-merge; content and links moved to OPERA. replaced_by: places/theaters/OPERA.md. %%

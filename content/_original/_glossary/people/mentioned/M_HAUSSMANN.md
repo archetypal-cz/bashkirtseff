@@ -14,6 +14,3 @@ replaced_by: HAUSSMANN
 
 %% GLO_M_HAUSSMANN.0001 %%
 **Retired.** Merged into [#HAUSSMANN](HAUSSMANN.md) (`people/mentioned/HAUSSMANN.md`); use that entry instead.
-
-%% GLO_M_HAUSSMANN.0002 %%
-%% 2026-10-21T21:18:43 RSR: Retired by glossary-merge; content and links moved to HAUSSMANN. replaced_by: people/mentioned/HAUSSMANN.md. %%

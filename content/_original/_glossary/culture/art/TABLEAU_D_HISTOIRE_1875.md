@@ -59,4 +59,4 @@ Cupid shooting arrows on a sky of clouds is the classical subject of a "tableau 
 - The diary: carnet 037, French originals in `/content/_original/`; no secondary source
 
 %% GLO_TABLEAU_D_HISTOIRE_1875.0013 %%
-%% 2026-10-10T21:00:44 RSR: Created in the works-glossary wave (batch 10). Quotations verified against 037.0383-0386. The Tour Audiffret reading is flagged as a guess. Medium: 043.0021 says "caricatures à l'huile" in September; whether the July picture is among them is not stated. %%
+%% 2026-10-10T21:00:44 RSR: Quotations verified against 037.0383-0386. The Tour Audiffret reading is flagged as a guess. Medium: 043.0021 says "caricatures à l'huile" in September; whether the July picture is among them is not stated. %%

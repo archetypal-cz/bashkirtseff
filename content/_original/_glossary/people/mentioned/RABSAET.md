@@ -22,5 +22,3 @@ He comes with Soria to the Bashkirtseffs' evening of 3 February 1877 and pays Ma
 
 ## Related
 - [DIAZ_DE_SORIA](DIAZ_DE_SORIA.md)
-
-%% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%

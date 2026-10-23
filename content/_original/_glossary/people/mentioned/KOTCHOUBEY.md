@@ -33,4 +33,4 @@ Marie shows herself off to the princess at the skating rink. The princess is the
 
 - First mentioned: 1876-12-11 (carnet 067) — skating rink encounter
 
-%% 2026-02-10T18:00:00 RSR: Created stub. Part of Russian aristocratic network in Nice. %%
+%% 2026-02-10T18:00:00 RSR: Part of Russian aristocratic network in Nice. %%

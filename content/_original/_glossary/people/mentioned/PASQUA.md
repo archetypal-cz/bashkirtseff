@@ -27,5 +27,3 @@ identity_uncertain: true
 ## Identity uncertain
 
 We are not sure who this is. The likeliest candidate is the Italian singer Giuseppina Pasqua (1851–1930), later Verdi's first Mistress Quickly, who began as a soprano and retrained as a mezzo-soprano in the 1870s (Wikipedia, "Giuseppina Pasqua"): Mignon and Léonor in *La Favorite*, the roles Marie hears in Nice, are both mezzo parts. But no source found places her in Nice in 1875–76 (0.5). Sources checked: Mon Journal t.6 index; Wikipedia; web searches (2026-10-21, 2026-10-22). If you can identify her, we would be glad to hear from you.
-
-%% 2026-10-21T12:40:44 RSR: Stub expanded from the tome 6 index and the diary text (carnets 049–051). %%

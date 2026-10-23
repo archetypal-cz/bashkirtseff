@@ -39,4 +39,4 @@ On **5 May 1880** Marie goes to the Salon: « Le bon Samaritain de Morot est un 
 [Jeanne d'Arc (Bastien-Lepage)](./JEANNE_D_ARC_BASTIEN_LEPAGE.md); the painter's person entry is [Morot](../../people/artists/MOROT.md), which this work entry complements (the person entry already summarises the 1880 diary passages).
 
 %% GLO_LE_BON_SAMARITAIN_MOROT.9000 %%
-%% 2026-10-10T20:00:00 RSR: Created batch 07; the diary frontmatter in carnet 088 already tags Le_Bon_Samaritain (check that the tag resolves to this file after the lead re-links). Petit Palais ownership and 1880 medal of honour per Petit Palais page (web search summary). The 1995 donation date reported by Wikipedia not verified, omitted. %%
+%% 2026-10-10T20:00:00 RSR: Petit Palais ownership and 1880 medal of honour per Petit Palais page (web search summary). The 1995 donation date reported by Wikipedia not verified, omitted. %%

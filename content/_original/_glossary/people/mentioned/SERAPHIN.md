@@ -27,5 +27,3 @@ Not the «Séraphine» of the 1873–74 Nice entries (carnets 012–014), a diff
 - 1877-04-07, 04-09, 04-21 (070); 1877-04-29 (071); 1877-06-15 to 06-19 (072); 1878-09-10 (082)
 
 See also [#Larderel](LARDEREL.md).
-
-%% 2026-10-21T10:24:00 RSR: Rewritten from the auto-generated stub during RSR research of the restored carnet 070 paragraphs (rsr-070b); the files listed are those that tag this entry. %%

@@ -24,4 +24,4 @@ Keep Marie's spelling «Appletcheieff».
 ## References in Diary
 - 1876-04-02 (056.0322); 1876-04-19 (058.0252); 1881-02-05 (091.0080); 1881-03-28 (091.0384); 1881-04-02 (091.0411); 1881-04-16 (091.0479)
 
-%% 2026-10-22T15:00:00 RSR: Body written from its tagged paragraphs (OPEN-ITEMS B-51 (6), «APPLETCHEIEFF empty stub»). The auto-stub text was removed. %%
+%% 2026-10-22T15:00:00 RSR: Body written from its tagged paragraphs (OPEN-ITEMS B-51 (6), «APPLETCHEIEFF empty stub»). %%

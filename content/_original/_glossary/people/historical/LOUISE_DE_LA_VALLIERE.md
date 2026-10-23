@@ -24,4 +24,4 @@ Marie knows her mainly through Arsène Houssaye's *Mlle de La Vallière et Mme d
 - 1881-03-25: 091
 - 1882-08-18: 096
 
-%% 2026-10-21T09:05:00 RSR: Created from the restored paragraph 035.0188. Other paragraphs naming her (015, 016, 019, 062, 091, 096) are not yet tagged with this entry. The bare aliases "La Vallière" / "Mlle de La Vallière" are left to the Houssaye book entry, which already claims them; whether a use means the woman or the book is decided per paragraph. %%
+%% 2026-10-21T09:05:00 RSR: Other paragraphs naming her (015, 016, 019, 062, 091, 096) are not yet tagged with this entry. The bare aliases "La Vallière" / "Mlle de La Vallière" are left to the Houssaye book entry, which already claims them; whether a use means the woman or the book is decided per paragraph. %%

@@ -14,6 +14,3 @@ replaced_by: MACHENKA
 
 %% GLO_PETITE_TANTE.0001 %%
 **Retired.** Merged into [#MACHENKA](MACHENKA.md) (`people/mentioned/MACHENKA.md`); use that entry instead.
-
-%% GLO_PETITE_TANTE.0002 %%
-%% 2026-10-22T20:54:36 RSR: Retired by glossary-merge; content and links moved to MACHENKA. replaced_by: people/mentioned/MACHENKA.md. %%

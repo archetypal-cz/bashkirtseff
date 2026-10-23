@@ -22,5 +22,3 @@ last_updated: 2026-10-22
 - 1881-10-06, Spain (093.0189): «le demi-monde comme en France n'existe pas».
 
 See also the theme [#Society](../themes/SOCIETY.md).
-
-%% 2026-10-22T20:26:03 RSR: Auto-stub body replaced (glossary orphan review); the five paragraphs that use the word tagged. %%

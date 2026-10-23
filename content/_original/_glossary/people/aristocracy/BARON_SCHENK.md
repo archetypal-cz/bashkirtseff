@@ -14,6 +14,3 @@ replaced_by: BARON_SCHENCK
 
 %% GLO_BARON_SCHENK.0001 %%
 **Retired.** Merged into [#BARON_SCHENCK](BARON_SCHENCK.md) (`people/aristocracy/BARON_SCHENCK.md`); use that entry instead.
-
-%% GLO_BARON_SCHENK.0002 %%
-%% 2026-10-21T21:19:55 RSR: Retired by glossary-merge; content and links moved to BARON_SCHENCK. replaced_by: people/aristocracy/BARON_SCHENCK.md. %%

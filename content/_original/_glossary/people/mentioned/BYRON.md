@@ -26,4 +26,4 @@ Byron is one of the English poets she reads and quotes as a measure.
 
 - 1874-10-09 (024.0274); 1876-01-05 (051.0409); 1883-05-19 (099.0486).
 
-%% 2026-10-22T20:08:00 RSR: Body written. The sense of 051.0409 (she has just read or quoted Byron) is from the one-line paragraph only; the context was not re-read. %%
+%% 2026-10-22T20:08:00 RSR: The sense of 051.0409 (she has just read or quoted Byron) is from the one-line paragraph only; the context was not re-read. %%

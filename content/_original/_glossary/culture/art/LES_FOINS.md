@@ -41,4 +41,4 @@ On **15 September 1883** she goes to see « les Bastien au Salon » (101.0361) a
 Companion entries: [Saison d'octobre](./SAISON_D_OCTOBRE.md), [Jeanne d'Arc (Bastien-Lepage)](./JEANNE_D_ARC_BASTIEN_LEPAGE.md), [Le Père Jacques](./LE_PERE_JACQUES.md).
 
 %% GLO_LES_FOINS.9000 %%
-%% 2026-10-10T20:00:00 RSR: Created batch 07. Orsay provenance per Orsay record 9174 via web search summary (Salon 1878 no. 119; acquired 1885; Louvre 1929; Orsay 1980). RF 2748 is from the Google Art Project metadata on Commons, not verified on Orsay page: check. Where Marie saw it on 15 Sep 1883 ('au Salon') is not clear: the Salon of 1883 had closed; do not assert a venue. %%
+%% 2026-10-10T20:00:00 RSR: Orsay provenance per Orsay record 9174 via web search summary (Salon 1878 no. 119; acquired 1885; Louvre 1929; Orsay 1980). RF 2748 is from the Google Art Project metadata on Commons, not verified on Orsay page: check. Where Marie saw it on 15 Sep 1883 ('au Salon') is not clear: the Salon of 1883 had closed; do not assert a venue. %%

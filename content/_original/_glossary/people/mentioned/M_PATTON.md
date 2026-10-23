@@ -23,4 +23,4 @@ Tagged in 34 entries from 002 (February 1873) to 084 (February 1879).
 - 050.0674-0675 (1875-12-11): consul Patton and his daughters at the Opéra.
 
 ## Research Notes
-- Created: 2026-01-06 (auto-generated stub); identity paragraph added 2026-10-21 from the Mon Journal t.6 index.
+- Identity from the Mon Journal t.6 index.

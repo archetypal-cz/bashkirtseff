@@ -14,7 +14,6 @@ languages:
 ---
 # Le Phare du Littoral
 
-**Research Status**: Stub
 **Last Updated**: 2026-05-31
 **Diary Coverage**: Carnet 005 (May 1873)
 
@@ -30,4 +29,4 @@ Marie mentions *Le Phare du Littoral* in the context of a legal dispute involvin
 
 - **May 31, 1873** (005.0128): "les Tolstoy vont publier un article *affreux*... dans 'Le Phare du Littoral'." Marie's mother goes to the procureur (prosecutor) to stop it; Lefèvre also intervenes.
 
-%% 2026-05-31T12:00:00 RSR: Created to resolve broken UK link. Source: BNF Presse locale ancienne database. %%
+%% 2026-05-31T12:00:00 RSR: Source: BNF Presse locale ancienne database. %%

@@ -22,7 +22,3 @@ M. Cima, a young man («the boy who lives with them», Marie's English of 1873) 
 - 1876-04-10 (057): he appears in one of Marie's dreams.
 
 Kernberger (2013, glossary) has «Cima: boy who lives with the Sapogenikoffs».
-
-%% 2026-10-21T12:12:19 RSR: Identity section added from the restored paragraphs of 029-030. %%
-
-%% 2026-10-22T21:30:13 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

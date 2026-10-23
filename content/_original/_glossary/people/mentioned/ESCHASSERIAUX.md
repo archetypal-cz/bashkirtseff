@@ -27,5 +27,5 @@ His son, the deputy «René» Eschassériaux whom Marie meets in 1878–1879, ha
 
 - 083.0139 (1878-11-08)
 
-%% 2026-10-21T12:06:04 RSR: Rewritten from the auto-generated stub during RSR research of the restored paragraphs of carnet 084 (t.12 index; Wikipedia; grep of «Eschass»). One file for two men; split only if the son is identified. %%
-%% 2026-10-22T14:11:31 RSR: B-49 (5): the son identified (René-Pierre, deputy for Jonzac) and split into RENE_ESCHASSERIAUX; this entry now holds the baron only. %%
+%% 2026-10-21T12:06:04 RSR: One file for two men; split only if the son is identified. %%
+%% 2026-10-22T14:11:31 RSR: The son identified (René-Pierre, deputy for Jonzac) and split into RENE_ESCHASSERIAUX; this entry now holds the baron only. %%

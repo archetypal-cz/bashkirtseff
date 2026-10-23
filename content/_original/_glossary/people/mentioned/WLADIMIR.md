@@ -12,6 +12,3 @@ status: retired
 
 %% GLO_WLADIMIR.0001 %%
 **Retired.** Empty stub, ambiguous between Grand Duke Wladimir ([#Grand_Duke_Vladimir](../aristocracy/GRAND_DUKE_VLADIMIR.md)) and Marie's uncle Wladimir. No replacement entry.
-
-%% GLO_WLADIMIR.0002 %%
-%% 2026-10-22T21:45:00 RSR: Retired (glossary orphan hygiene 2026-10-22): no inbound links; no replaced_by because there is no single referent. %%

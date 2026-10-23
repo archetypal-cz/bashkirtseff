@@ -16,5 +16,3 @@ The marquis de Graves, a Paris society man of 1880–81, with a seat in the Oper
 - 1881-03-25 (091.0355): at the Gavinis', «le marquis de Graves qui était dans la loge du duc de Nemours et de la comtesse d'Eu, future impératrice» (see [#Eu](EU.md)).
 
 No first name was found.
-
-%% 2026-10-22T21:40:37 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

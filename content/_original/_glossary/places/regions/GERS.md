@@ -21,4 +21,4 @@ The département of the Gers in Gascony (chief town Auch), Paul de Cassagnac's p
 - 083.0340 (1 December 1878): Cassagnac leaves for the Gers; 083.0357 (6 December 1878): a clipping «On télégraphie de Plaisance, du Gers».
 - 083.0566 (6 January 1879): of the Senate elections, «Le Gers seul s'est mal conduit».
 
-%% 2026-10-22T14:41:27 RSR: B-69 (4): auto-stub body («Type: people - mentioned») replaced from the tagged paragraphs. %%
+%% 2026-10-22T14:41:27 RSR: Auto-stub body («Type: people - mentioned») replaced from the tagged paragraphs. %%

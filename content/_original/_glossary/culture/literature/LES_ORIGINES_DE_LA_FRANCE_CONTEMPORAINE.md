@@ -50,4 +50,4 @@ She reads him as part of her self-education in 1879-1884, with her programme of 
 - French Wikisource, "Les Origines de la France contemporaine" (volume list).
 - Internet Archive, *L'Ancien Régime* (Hachette).
 
-%% 2026-10-10T23:00:00 RSR: Works-glossary batch 05 (W096). Volume dates from the Online Library of Liberty and French Wikisource; the date of La Révolution vol. III varies by source (1883-1885) and is left open. %%
+%% 2026-10-10T23:00:00 RSR: Volume dates from the Online Library of Liberty and French Wikisource; the date of La Révolution vol. III varies by source (1883-1885) and is left open. %%

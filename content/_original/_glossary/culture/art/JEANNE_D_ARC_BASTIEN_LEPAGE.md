@@ -47,4 +47,4 @@ In January 1884 she declares that *L'Amour au village* is « inférieur, bien in
 Not to be confused with the saint herself, whom Marie mentions elsewhere (e.g. 096.0152, 096.0173). Companion entries: [L'Amour au village](./L_AMOUR_AU_VILLAGE.md), [Les Foins](./LES_FOINS.md), [Le Père Jacques](./LE_PERE_JACQUES.md), [Saison d'octobre](./SAISON_D_OCTOBRE.md), [Pas mèche](./PAS_MECHE.md).
 
 %% GLO_JEANNE_D_ARC_BASTIEN_LEPAGE.9000 %%
-%% 2026-10-10T20:00:00 RSR: Created in the works-glossary pass (batch 07). Identification certain (088.0046 describes the apple tree and the arm). Image: Met open-access file via Commons, CC0. The alias bare "Jeanne d'Arc" is ambiguous with the saint (096.0152, 096.0173 are the saint): tagger should check the context. %%
+%% 2026-10-10T20:00:00 RSR: Identification certain (088.0046 describes the apple tree and the arm). Image: Met open-access file via Commons, CC0. The alias bare "Jeanne d'Arc" is ambiguous with the saint (096.0152, 096.0173 are the saint): tagger should check the context. %%

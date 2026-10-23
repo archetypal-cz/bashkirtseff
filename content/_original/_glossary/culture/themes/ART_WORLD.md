@@ -56,4 +56,4 @@ This thematic tag collects diary paragraphs about other people's art and the art
 - `064.0292` — the Berlin museum owes its richness to Greece, Egypt and Rome
 - `096.0079` — the Exposition des Arts décoratifs, visited with the Gavini
 
-%% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%
+%% 2026-10-02T18:00:00 RSR: Applied per paragraph by AI judgement, not keyword match. %%

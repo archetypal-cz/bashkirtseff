@@ -22,4 +22,4 @@ On 22 September 1874: «Le diacre a fait de nouvelles démarches, et Bauvais, Ba
 
 - 1874-09-22 (024.0059); 1874-09-25 (024.0114).
 
-%% 2026-10-22T19:20:00 RSR: Body written. Nothing found beyond the two paragraphs and the index. %%
+%% 2026-10-22T19:20:00 RSR: Nothing found beyond the two paragraphs and the index. %%

@@ -21,4 +21,4 @@ One of the Poltava men who call at Gavronzi and at the hotel in Poltava (067.001
 - First mentioned: 1876-09-06 (066)
 - 1876-09-24, 1876-10-08 (066); 1876-10-13 (067.0018); 1876-10-23 (067.0265); 1876-11-02 (067)
 
-%% 2026-10-21T09:31:34 RSR: Created from the restored paragraphs 067.0018 and 067.0265. First name not known. %%
+%% 2026-10-21T09:31:34 RSR: First name not known. %%

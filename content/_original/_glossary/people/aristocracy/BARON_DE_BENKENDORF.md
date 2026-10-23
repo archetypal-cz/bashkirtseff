@@ -23,4 +23,4 @@ On 22 April 1875 Marie hears at Nice of the engagement of the young Julie, whom 
 
 - 1875-04-22 (031.0323, 031.0331). Later references to the couple are tagged to JULIE_DE_BENKENDORFF (Mon Journal t.7 p.257, t.8 p.336, t.10 pp.287–294, t.12 p.61).
 
-%% 2026-10-22T19:00:00 RSR: Body written from the two paragraphs and the t.5 index. Which Benckendorff he is (several brothers served in the diplomatic service) was not established; no source consulted names his first name and wife in the same place. «Le prince» (031.0331) is not identified (the Prince of Wales is named only for the London ball). %%
+%% 2026-10-22T19:00:00 RSR: Which Benckendorff he is (several brothers served in the diplomatic service) was not established; no source consulted names his first name and wife in the same place. «Le prince» (031.0331) is not identified (the Prince of Wales is named only for the London ball). %%

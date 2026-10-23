@@ -39,4 +39,4 @@ The portrait of Marie painted by her Julian-atelier master [#Tony Robert-Fleury]
 - Not this entry: 097.0176 (Tony sees Marie's own unfinished portrait in the old atelier), 096.0107 (her plans for a portrait of Dina).
 
 %% GLO_PORTRAIT_DE_MARIE_ROBERT_FLEURY.0007 %%
-%% 2026-10-21T23:10:00 RSR: Created (OPEN-ITEMS B-63(3)): every cited paragraph read. Marie's first sitting may predate 2 August 1882 (096.0003 says «Je pose pour mon portrait chez Tony» as if it were already under way); the 14 December finish (097.0241) and the delivery (097.0412) are the diary's dates. Whether a catalogue or museum record of the painting exists was not searched; no image is attached. %%
+%% 2026-10-21T23:10:00 RSR: Every cited paragraph read. Marie's first sitting may predate 2 August 1882 (096.0003 says «Je pose pour mon portrait chez Tony» as if it were already under way); the 14 December finish (097.0241) and the delivery (097.0412) are the diary's dates. Whether a catalogue or museum record of the painting exists was not searched; no image is attached. %%

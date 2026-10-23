@@ -26,6 +26,4 @@ Armand Léon de Baudry d'Asson (Rocheservière, 15 June 1836 – 12 May 1915), L
 
 - 1879-12-03 (086.0618); 1880-11-14 (090.0219).
 
-%% 2026-10-22T19:18:00 RSR: Body written from the two paragraphs and Wikipedia; the exclusion details beyond the article-124 reference are not confirmed. %%
-
-%% 2026-10-22T20:56:23 RSR: Merged M_DE_BAUDRY_D_ASSON (no content kept: empty stub) %%
+%% 2026-10-22T19:18:00 RSR: The exclusion details beyond the article-124 reference are not confirmed. %%

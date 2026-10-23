@@ -23,5 +23,3 @@ Vicomte Desmanet de Biesme, the elegant stranger Marie notices at Spa in August 
 - 08-20 (023.0238): Kirsh writes that a cotillon was organised by Haristoff, de Biesme and others.
 
 The Mon Journal t.4 index lists «Biesme (Desmanet vicomte de)», «voir Rousselière (baron de La)», and likewise for his supposed wife; that cross-reference is the index's confusion of the two men and the baronne, not Marie's meaning (022.0363 separates them).
-
-%% 2026-10-22T21:32:13 RSR: Stub written out (glossary stub write-out, owner ruling 2026-10-22). %%

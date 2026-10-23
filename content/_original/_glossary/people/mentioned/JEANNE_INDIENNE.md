@@ -25,4 +25,4 @@ A young woman who reminds Marie of Baden-Baden («elle m'a rappelé Bade»), met
 
 We are not sure who this is. Mon Journal t.3 indexes her only as «Jeanne l'Indienne, 205-206, 228», with no surname, and no Jeanne appears in the diary before May 1874 (carnets 001–018 checked). If you can identify her, we would be glad to hear from you.
 
-%% 2026-10-22T13:32:26 RSR: B-76(2): stub written from the three tagged paragraphs; alias «Indienne» removed (it matches «indienne», the cotton print, in 018/1874-04-03 and «divinité indienne» elsewhere). %%
+%% 2026-10-22T13:32:26 RSR: Alias «Indienne» removed (it matches «indienne», the cotton print, in 018/1874-04-03 and «divinité indienne» elsewhere). %%

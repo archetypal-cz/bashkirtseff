@@ -36,4 +36,4 @@ A Bikowsky whom Marie meets in Nice in February 1877 and sees daily in Naples in
 - *Mon Journal* t.9 and t.10, index.
 - Wikipedia, «Gryf coat of arms»: https://en.wikipedia.org/wiki/Gryf_coat_of_arms
 
-%% 2026-10-21T13:02:08 RSR: Created during RSR research of the restored carnet 068–069 paragraphs. Split from BIKOWSKY on Marie's own distinction (069.0430). The 1879–80 mentions («Bikowski», 084/1879-02-23, 02-24; «Le grand Bikowsky», 087/1880-01-09) were not assigned to either cousin. %%
+%% 2026-10-21T13:02:08 RSR: Split from BIKOWSKY on Marie's own distinction (069.0430). The 1879–80 mentions («Bikowski», 084/1879-02-23, 02-24; «Le grand Bikowsky», 087/1880-01-09) were not assigned to either cousin. %%

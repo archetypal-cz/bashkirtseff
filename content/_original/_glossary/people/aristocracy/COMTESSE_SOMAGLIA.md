@@ -14,6 +14,3 @@ replaced_by: SOMAGLIA
 
 %% GLO_COMTESSE_SOMAGLIA.0001 %%
 **Retired.** Merged into [#SOMAGLIA](../mentioned/SOMAGLIA.md) (`people/mentioned/SOMAGLIA.md`); use that entry instead.
-
-%% GLO_COMTESSE_SOMAGLIA.0002 %%
-%% 2026-10-22T20:50:29 RSR: Retired by glossary-merge; content and links moved to SOMAGLIA. replaced_by: people/mentioned/SOMAGLIA.md. %%

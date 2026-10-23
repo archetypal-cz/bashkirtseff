@@ -15,6 +15,3 @@ replaced_by: MICHKA_ERISTOFF
 
 %% GLO_MICHEL.0001 %%
 **Retired.** Merged into [#MICHKA_ERISTOFF](MICHKA_ERISTOFF.md) (`people/mentioned/MICHKA_ERISTOFF.md`); use that entry instead.
-
-%% GLO_MICHEL.0002 %%
-%% 2026-10-22T12:29:14 RSR: Retired by glossary-merge; content and links moved to MICHKA_ERISTOFF. replaced_by: people/mentioned/MICHKA_ERISTOFF.md. %%

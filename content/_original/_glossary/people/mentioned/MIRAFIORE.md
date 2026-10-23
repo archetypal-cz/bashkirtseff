@@ -26,5 +26,3 @@ Marie hears of his entanglement with Fanny Lear, whom the King had expelled from
 ## Related
 
 - [Blanche](BLANCHE.md), [Larderel](LARDEREL.md), [Victor Emmanuel II](VICTOR_EMMANUEL_II.md)
-
-%% 2026-10-21T09:41:16 RSR: Rewritten from the auto-generated stub during RSR of the restored carnet 059 paragraphs; sources as cited. %%

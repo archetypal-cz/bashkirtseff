@@ -37,5 +37,3 @@ Saint Isaac's Cathedral (Isaakievskiy Sobor), referred to by Marie as "Issakie,"
 ## Related Entries
 - [#Petersburg](../cities/PETERSBURG.md) - The city
 - [#Kazan_Cathedral](./KAZAN_CATHEDRAL.md) - Another major St. Petersburg cathedral
-
-%% 2026-02-10T14:50:00 RSR: Expanded from one-line stub %%

@@ -16,7 +16,7 @@ last_updated: 2026-05-24
 # German
 
 %% GLO_GERMAN.0001 %%
-%% 2026-05-24T14:00:00 RSR: Comprehensive expansion of the German language glossary entry. Research based on diary entries across carnets 001-106, with focus on the Vienna World Exhibition (carnet 007-008), Berlin visit (carnet 064), German spa stays at Schlangenbad (carnets 038-040), Wiesbaden (carnet 074), and Soden (carnet 082). Historical context from Wikipedia articles on the Franco-Prussian War, German Empire, French revanchism, Vienna World Exhibition 1873, Baden-Baden, and Wagner controversies. Marie's German acquaintances (Count Doenhoff, various spa contacts) traced across multiple carnets. %%
+%% 2026-05-24T14:00:00 RSR: Research based on diary entries across carnets 001-106, with focus on the Vienna World Exhibition (carnet 007-008), Berlin visit (carnet 064), German spa stays at Schlangenbad (carnets 038-040), Wiesbaden (carnet 074), and Soden (carnet 082). Historical context from Wikipedia articles on the Franco-Prussian War, German Empire, French revanchism, Vienna World Exhibition 1873, Baden-Baden, and Wagner controversies. Marie's German acquaintances (Count Doenhoff, various spa contacts) traced across multiple carnets. %%
 
 ## Overview
 

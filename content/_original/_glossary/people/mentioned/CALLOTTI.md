@@ -26,4 +26,4 @@ Marie talks with him at the ball and finds him, with Carmignano and the pianist 
 
 See also [#Gettatura](../../culture/social_customs/GETTATURA.md).
 
-%% 2026-10-21T10:20:00 RSR: Created during RSR research of the restored carnet 070 paragraphs (rsr-070b). The alias «Gallotti» is the probable real spelling, not a form Marie uses. %%
+%% 2026-10-21T10:20:00 RSR: The alias «Gallotti» is the probable real spelling, not a form Marie uses. %%

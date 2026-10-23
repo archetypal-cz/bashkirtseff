@@ -140,4 +140,4 @@ Marie's description of the Kharkoff courtship is sardonic and knowing. She prese
 
 Her observation that both Romanoff and Georges were "foreign to the ways of society" suggests contempt for their naiveté, even as she acknowledges her family's ruthless social manipulation.
 
-%% 2025-12-07T19:15:00 RSR: Created comprehensive entry based on Book 00 preface and historical research. Kharkoff was the theatrical stage for family marriage schemes %%
+%% 2025-12-07T19:15:00 RSR: Kharkoff was the theatrical stage for family marriage schemes %%

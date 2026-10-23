@@ -22,5 +22,3 @@ The letter would have opened Florentine society to her: «Cela flatte ma manie»
 ## References in Diary
 
 073.0265 (1877-08-02); 073.0351, 073.0355 (1877-08-08). These three are tagged SMITH in the source; retag queued.
-
-%% 2026-10-22T15:00:00 RSR: Stub replaced (phase 4). %%

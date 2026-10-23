@@ -45,4 +45,4 @@ This is one of her longest discussions of an opera, and the clearest record of h
 - Wikipedia, ["Hérodiade"](https://en.wikipedia.org/wiki/Hérodiade).
 - IMSLP, [Hérodiade (Massenet, Jules)](https://imslp.org/wiki/Hérodiade_(Massenet,_Jules)).
 
-%% 2026-10-10T12:00:00 RSR: New entry (works batch 02). The inventory placed the Italian-language Paris premiere in "Feb 1884" at the Salle Ventadour; the date (1 Feb 1884) is from Wikipedia; the venue (Théâtre-Italien) is sourced, the Salle Ventadour location is general knowledge and not cited, so it is not stated in the text. %%
+%% 2026-10-10T12:00:00 RSR: The inventory placed the Italian-language Paris premiere in "Feb 1884" at the Salle Ventadour; the date (1 Feb 1884) is from Wikipedia; the venue (Théâtre-Italien) is sourced, the Salle Ventadour location is general knowledge and not cited, so it is not stated in the text. %%

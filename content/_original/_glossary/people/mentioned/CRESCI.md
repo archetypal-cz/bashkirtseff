@@ -19,5 +19,3 @@ Italian impresario and singing teacher in Nice. Marie calls him «Cresci le dire
 - 1876-06-08 to 1876-06-27 (062): lessons in Nice
 - 1876-07-14 (063.0241): after hearing Wartel's pupil, Marie remembers «avec indignation» her teachers «Facciotti, Fosti, Cresci»
 - 1876-12-10 (067), 1877-01-05 (068)
-
-%% 2026-10-21T09:11:04 RSR: Identification added during RSR research of the restored carnet 063 paragraphs. %%
