@@ -4,28 +4,13 @@ name: Dieu
 type: Culture
 category: culture/history
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-23
+status: retired
+replaced_by: GOD
 ---
-# Dieu
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Concept/Term
+%% GLO_DIEU.0001 %%
+**Retired.** Merged into [#GOD](../../people/religious/GOD.md); use that entry instead.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_DIEU.0002 %%
+%% 2026-10-23T04:48:28 RSR: Retired by glossary-merge; content and links moved to GOD. replaced_by: people/mentioned/GOD.md. %%

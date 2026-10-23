@@ -11,8 +11,7 @@ content/
 │   ├── 001/-106/        # Carnets 001-106 (diary entries)
 │   ├── _glossary/       # Entity definitions
 │   ├── _carnets/        # Carnet metadata
-│   ├── _summary/        # Book summaries
-│   └── _workflow/       # Machine state (JSON)
+│   └── _summary/        # Book summaries
 │
 ├── cz/                  # Czech translations
 │   ├── CLAUDE.md        # Czech-specific guidance

@@ -21,9 +21,7 @@ _original/
 │   └── culture/         # Cultural references (incl. culture/languages/)
 │
 ├── _carnets/            # Carnet metadata (YAML)
-├── _summary/            # Book summaries
-├── _workflow/           # Machine state (JSON from workflow runs)
-└── _archive/            # Historical versions
+└── _summary/            # Book summaries
 ```
 
 ## Source Preparation Phases
