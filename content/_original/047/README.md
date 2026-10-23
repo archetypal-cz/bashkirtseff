@@ -23,7 +23,7 @@ State as of 2026-10-10, counted from the `workflow:` flags in entry frontmatter 
 
 ## Key Themes
 
-- **"Bibi" system**: Originally Lord Loftus's nickname, becomes universal term applied to everyone; Marie writes extended passages in third person as "Bibi"
+- **"Bibi" system**: «Bibi» (popular French for «me») first names the man Marie longs to see (read from context as Lord Loftus, 0.8; the printed index gives Loftus no such alias), then becomes a universal term applied to everyone, herself included; Marie writes extended passages in third person as "Bibi"
 - **Anagrams**: "Emile Audiffret" = "Fou frit d'Amelie"; "L'Andriot Saetone" = "Triton dans l'eau"; etc.
 - **Neologism verbs**: "terffiduer," "enoteasser," "pepiner," "hamiltonner" — invented words replacing "aimer"
 - **Gioia returns**: Encounters on the Promenade; complex love-hate ("je l'aime tout en la voulant etrangler")

@@ -20,8 +20,8 @@ Dr Lefèvre, an elderly doctor of Nice and a friend of the Bashkirtseff-Babanine
 - The 1873 «Lefèvre» is the same man (0.85): a dinner guest and house friend («ce gros hippopotame», 009/1873-09-13; «cette vieille carcasse… ce Lefèvre», who hopes to marry Dina to his nephew, 010/1873-10-11), present at Georges's trial on 21 June 1873 («il a encore insulté Lefevre, pauvre gros, il a fait ce qu'il a pu, il a bavardé surtout», 006/1873-06-21).
 - Kernberger (2013, glossary) calls him «lawyer in Nice, defends George against Tolstoys' suit». The diary does not support this: Georges's advocate that day is M. Malausséna («M. Malausséna a parlé splendidement», 006/1873-06-21), and both edition indexes call Lefèvre a doctor.
 
-## Other people sharing the tag
-In the Paris years (1880–84) the same file has been used for two artists who are not this man: the sculptor Camille Lefèvre, who gives Marie her first sculpture lesson (089/1880-06-23), and the painter Jules Lefebvre of the Académie Julian, whom Marie spells «Lefèvre» (099, 101, 102, 104; his own file is people/artists/LEFEBVRE). Those tags need checking per paragraph.
+## Not to be confused with
+In the Paris years (1880–84) Marie also writes «Lefèvre» for two artists, each with his own file: the sculptor Camille Lefèvre, her first sculpture teacher in June 1880 ([CAMILLE_LEFEVRE](../artists/CAMILLE_LEFEVRE.md)), and the painter Jules Lefebvre of the Académie Julian ([LEFEBVRE](../artists/LEFEBVRE.md)).
 
 ## References in Diary
 - 1873: 002/1873-02-19, 004/1873-05-03, 005/1873-05-20, 05-31, 06-01, 006/1873-06-21, 009/1873-09-13, 09-14, 010/1873-09-29, 10-11, 014/1873-12-17, 12-21, 015/1874-01-08

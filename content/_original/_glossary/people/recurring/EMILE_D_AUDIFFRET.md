@@ -119,7 +119,7 @@ The code name system is established (October 1875, carnet 046): "Feu" (Fire) = A
 ### Phase 4: Obsessive Return (October -- December 1875)
 
 %% GLO_AUDIFFRET.0017 %%
-Carnet 047 (October 1875): Audiffret returns to Nice (his windows open October 17). Marie's emotional oscillation intensifies. She develops the "Bibi" nickname system -- Audiffret becomes "Bibi-Girofla" (originally Lord Loftus's nickname, applied universally). She discovers the anagram "Emile Audiffret" = "Fou frit d'Amélie" and invents neologism verbs to replace the forbidden word "aimer": "terffiduer" (from Terffidua), "hamiltonner" (from Hamilton), "pépiner," "enoteasser" (from Enoteas = Saëtone reversed). Extended third-person "Bibi" narration (October 19) serves as a distancing technique. She fabricates a "couronne du martyr" (crown of thorns from rose branches) to wear until "rehabilitated." Final resolve: "Je ne veux plus aimer cet homme" (October 23).
+Carnet 047 (October 1875): Audiffret returns to Nice (his windows open October 17). Marie's emotional oscillation intensifies. She develops the "Bibi" nickname system -- Audiffret becomes "Bibi-Girofla" («Bibi», popular French for «me», which Marie applies universally from 19 October). She discovers the anagram "Emile Audiffret" = "Fou frit d'Amélie" and invents neologism verbs to replace the forbidden word "aimer": "terffiduer" (from Terffidua), "hamiltonner" (from Hamilton), "pépiner," "enoteasser" (from Enoteas = Saëtone reversed). Extended third-person "Bibi" narration (October 19) serves as a distancing technique. She fabricates a "couronne du martyr" (crown of thorns from rose branches) to wear until "rehabilitated." Final resolve: "Je ne veux plus aimer cet homme" (October 23).
 
 %% GLO_AUDIFFRET.0018 %%
 Carnets 048--052 (November 1875 -- January 1876): The obsession continues despite Marie's resolutions. At the opera, hearing "Connais-tu le pays" from *Mignon* -- the romance she once sang in front of Audiffret -- she stands up involuntarily. "Le Surprenant ne m'a même pas regardée, au fait je ne sais pas, je vois si mal." The "Soroka" nickname emerges: "tout le monde chez nous... donne un nom affreux à ce pauvre garçon, on le nomme britaya soroka [shaved magpie] et par abréviation on dit soroka simplement" (carnet 053). Marie learns he wept at the Opera all evening -- "pleurer pour de vrai" -- supposedly after being expelled by "l'Anglaise" (Gioia). She and Olga compose anonymous letters to the monks at Cimiez, who deliver them in person to the Tour Audiffret. The humiliation of the Cercle de la Méditerranée invitation refusal (December 1875) cuts deepest: "J'ai demandé une invitation, lui l'a refusée, voilà toute l'histoire en neuf mots" (carnet 051).
@@ -159,7 +159,7 @@ Marie's proliferating nicknames for Audiffret constitute one of the diary's most
 | **Terffidua** | "Audiffret" reversed; basis for the invented verb "terffiduer" |
 | **Hector** | Mock-heroic classical reference to the Trojan prince |
 | **Audiffer** | Truncated/affectionate diminutive |
-| **Bibi / Bibi-Girofla** | Originally Lord Loftus's nickname, applied universally; "Bibi" for extended third-person narration |
+| **Bibi / Bibi-Girofla** | «Bibi», popular French for «me», applied by Marie to everyone from 19 October; "Bibi" for extended third-person narration |
 | **Bébé** | "Baby" -- diminutive |
 | **Antiochus** | Seleucid king -- connotation of oriental excess |
 | **Epiphane** | Antiochus IV Epiphanes -- "the Manifest/Illustrious," ironic |

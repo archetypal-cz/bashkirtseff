@@ -12,7 +12,7 @@ last_updated: 2026-10-22
 
 # M. Paskevitch
 
-The first husband of [#Mme_Paskevitch](../aristocracy/MME_PASKEVITCH.md), who divorced him to marry Carlo Hamilton ([#Carlo_Hamilton](../aristocracy/CARLO_HAMILTON.md)). The earlier mentions concern the couple and the divorce: 020/1874-06-01, 032/1875-05-08, 039/1875-08-15 («Pauvre Paskevitch, c'est affreux !»), 072/1877-06-29.
+The first husband of [#Mme_Paskevitch](../aristocracy/MME_PASKEVITCH.md), who divorced him to marry Carlo Hamilton ([#Carlo_Hamilton](../aristocracy/CARLO_HAMILTON.md)). Mentions of the wife, who divorced him for Carlo, are filed under [#Mme_Paskevitch](../aristocracy/MME_PASKEVITCH.md) (including «Pauvre Paskevitch, c'est affreux !» of 039/1875-08-15, where she is meant). The husband himself appears at 032/1875-05-08 (confused with Basilevitch), 040/1875-08-27-28 and 092/1881-07-23.
 
 On 23 July 1881 at the Hôtel d'Europe in Warsaw Marie's father introduces him (092.0320): «Il a habité Paris vingt ans, premier secrétaire d'ambassade, millionnaire, mari d'une femme ravissante, ami de l'Empereur et de l'impératrice Eugénie... Tout est parti en fumée, il reste quinze cent mille francs de dettes, trente mille francs de pension faits par lady Hamilton, cinquante cinq ans, plus de jambes et un fanatisme sans bornes pour tout ce qui touche Paris.» His first name is not given. The former entry M_PASKEVITCH (misfiled under places/hotels) is merged here.
 

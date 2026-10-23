@@ -9,7 +9,8 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-23
+identity_uncertain: true
 ---
 # L'Obélisque (The Obelisk)
 
@@ -20,11 +21,15 @@ last_updated: 2026-03-06
 ## Identity
 A remarkably tall and beautiful woman who attends the concert with the Duchess de Mouchy. Marie is captivated by her beauty and imagined goodness. Has become a beauty standard Marie uses for comparison.
 
+## Identity uncertain
+
+We are not sure who this is. The Tome 3 name index of *Mon Journal* files her as «Mouchy (Mlle de), leur fille» and says «Obélisque (l'), surnom de Mlle de Mouchy», but the duc de Mouchy married Anna Murat only in 1865, so a daughter of theirs could not be a marriageable beauty in March 1874; she may be a young relative or protégée of the duchess. Marie's tall «Obélisque» goes about with the duchess (Grand Hôtel concerts, 017.0366 and following) and Marie believes she is to marry Lambertye («Fedus»). Readers who know the Mouchy household of 1874 are invited to share what they know.
+
 ## Diary References
 
 ### 1874
 - **March 14**: At Grand Hotel concert with Duchess de Mouchy. Marie describes: "l'Obélisque qui est de toute beauté. Il n'y a rien à critiquer dans sa personne et avec sa beauté elle doit aussi être si bonne, si douce, si franche que je l'aime simplement, je l'aime."
-- **April 21**: Mme de Mouchy's daughter described as "Une Obélisque future" - suggesting l'Obélisque represents pinnacle of beauty.
+- **April 21**: «la petite fille de Mme de Mouchy … Une Obélisque future» is a different, small girl (t.3 index: «Mouchy (petite-fille du duc de Mouchy), 168»), called a future obelisk, not the Obélisque herself.
 
 ## Context
 - Nickname "Obélisque" (Obelisk) refers to exceptional height
@@ -46,3 +51,5 @@ A remarkably tall and beautiful woman who attends the concert with the Duchess d
 - Nickname shows 19th century practice of descriptive sobriquets
 - Marie's romantic idealization of beautiful women
 - Beauty as predictive category
+
+%% 2026-10-23T11:30:00 RSR: the 21 April 1874 «Obélisque future» is the duchess's small daughter, not l'Obélisque (t.3 index p. 168 lists her separately). %%

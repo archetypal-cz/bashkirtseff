@@ -1,209 +1,58 @@
-# Glossary Category Definitions
-# This file defines the categorization system for glossary entries
-# to improve context management and loading efficiency
+# Glossary categories — the folders under content/_original/_glossary/ (updated 2026-10-23, ledger D-74).
+# An entry's frontmatter `category:` is its folder path (people/aristocracy …); `type:` follows the top level
+# (Person / Place / Culture). The folders are authoritative: `just glossary-move ID category` creates the path
+# without checking this list, so add a line here when you open a new folder.
+# (The old load_priority / auto-archive / deprecation rules were never implemented and are dropped.)
 
 categories:
   people:
-    core:
-      description: "Central figures in Marie's life - always relevant"
-      load_priority: 1  # Always load these
-      examples:
-        - Duke_of_Hamilton
-        - Mme_Bashkirtseff
-        - Paul_de_Cassagnac
-        - Dina_Bashkirtseff
-      criteria:
-        - Family members
-        - Major romantic interests (50+ mentions)
-        - Daily companions
-
-    recurring:
-      description: "People who appear regularly but aren't central"
-      load_priority: 2  # Load when mentioned or in recent context
-      auto_promote: 50  # Promote to core after 50 mentions
-      examples:
-        - Tolstoy_Paul
-        - Mme_de_Raoulx
-        - Boreel
-      criteria:
-        - Appears in 10+ entries
-        - Social acquaintances
-        - Recurring visitors
-
-    mentioned:
-      description: "People who appear occasionally"
-      load_priority: 3  # Load only when directly mentioned
-      auto_deprecate: 180  # Archive if not mentioned in 180 days
-      examples:
-        - Random ball attendees
-        - Single-encounter people
-        - Distant relatives mentioned once
-      criteria:
-        - Appears in 1-9 entries
-        - No significant relationship to Marie
+    core: "Central figures: Marie and those with hundreds of mentions"
+    family: "Marie's family (Maman, Papa, Paul, Dina, ma tante, grandparents…)"
+    recurring: "People who appear in many entries over a long stretch"
+    mentioned: "Everyone else, including one-off and unidentified people (the default)"
+    aristocracy: "Titled society — princes, counts, barons and their families"
+    royalty: "Reigning or royal persons"
+    politicians: "Statesmen, deputies, officials"
+    artists: "Painters, sculptors, musicians, singers, actors"
+    writers: "Authors, journalists, critics"
+    doctors: "Physicians who treat Marie or her family"
+    service: "Servants, governesses, coachmen, maids"
+    religious: "God, the Virgin, Christ, saints, clergy"
+    historical: "Historical figures Marie reads or thinks about"
+    society: "Society figures without a better folder"
 
   places:
-    residences:
-      description: "Where Marie lives or stays"
-      load_priority: 1  # Always need to know where she lives
-      examples:
-        - Villa_Baquis
-        - Hotel_de_la_Grande_Bretagne
-        - Rue_de_Chaillot
-      criteria:
-        - Current residence
-        - Frequent temporary residences
-        - Family properties
-
-    social:
-      description: "Venues for social activities"
-      load_priority: 2
-      examples:
-        - Promenade_des_Anglais
-        - Opera_de_Nice
-        - Casino_Municipal
-      criteria:
-        - Regular social venues
-        - Concert halls, theaters
-        - Promenades, parks
-
-    travel:
-      description: "Cities and regions Marie visits"
-      load_priority: 2
-      examples:
-        - Nice
-        - Paris
-        - Rome
-        - Baden_Baden
-      criteria:
-        - Cities visited
-        - Travel destinations
-        - Geographic regions
+    cities: "Cities and towns"
+    travel: "Towns and resorts visited on journeys"
+    countries: "Countries"
+    regions: "Regions, provinces, coasts"
+    neighborhoods: "Quarters and districts"
+    streets: "Streets, squares, boulevards, promenades"
+    residences: "Where Marie and her family live or stay"
+    villas: "Villas (Nice, Rome…)"
+    hotels: "Hotels"
+    buildings: "Public and private buildings"
+    landmarks: "Monuments and sights"
+    churches: "Churches, cathedrals, chapels"
+    parks: "Parks and gardens"
+    theaters: "Theatres and opera houses"
+    venues: "Other venues — baths, rinks, markets, shooting grounds"
+    social: "Clubs, cafés, restaurants, salons"
+    shops: "Shops, couturiers, dealers"
+    schools: "Schools, academies, ateliers as places"
 
   culture:
-    literature:
-      description: "Books, authors, literary references"
-      load_priority: 3
-      examples:
-        - Victor_Hugo
-        - Les_Miserables
-        - Alexandre_Dumas
-      criteria:
-        - Authors mentioned
-        - Books read or discussed
-        - Literary movements
-
-    theater:
-      description: "Plays, operas, performances"
-      load_priority: 3
-      examples:
-        - La_Traviata
-        - Sarah_Bernhardt
-        - Comedie_Francaise
-      criteria:
-        - Operas attended
-        - Plays seen
-        - Performers mentioned
-
-    history:
-      description: "Historical figures and events"
-      load_priority: 3
-      examples:
-        - Napoleon_Bonaparte
-        - Revolution_1789
-        - War_1870
-      criteria:
-        - Historical figures referenced
-        - Past events mentioned
-        - Political figures
-
-    languages:
-      description: "Languages used by Marie in her writing"
-      load_priority: 2
-      examples:
-        - FRENCH
-        - ENGLISH
-        - ITALIAN
-        - RUSSIAN
-        - GERMAN
-        - LATIN
-      criteria:
-        - Languages Marie writes in besides French
-        - Used for paragraph-level language tagging
-        - French is implicit (default), only tagged when mixed with others
-
-  society:
-    aristocracy:
-      description: "Nobility and high society"
-      load_priority: 2
-      examples:
-        - Prince_Napoleon
-        - Duchess_of_Hamilton
-        - Baron_de_Rothschild
-      criteria:
-        - Titled individuals
-        - High society figures
-        - Court connections
-
-    artists:
-      description: "Painters, musicians, creative figures"
-      load_priority: 2
-      examples:
-        - Tony_Robert_Fleury
-        - Julian_Academy
-        - Carolus_Duran
-      criteria:
-        - Artists and teachers
-        - Musicians and composers
-        - Creative contemporaries
-
-# Loading Rules
-loading_rules:
-  context_budget: 50  # Maximum glossary entries per session
-
-  always_load:
-    - Current location (from previous entry)
-    - Core people (max 10)
-    - Current residence
-
-  conditional_load:
-    - People mentioned in entry
-    - Places referenced
-    - Cultural references if discussed at length
-
-  never_load:
-    - Entries marked as deprecated
-    - Single mentions over 365 days old
-    - Generic terms without specific relevance
-
-# Deprecation Rules
-deprecation_rules:
-  auto_archive:
-    condition: "Not mentioned in 365 days"
-    action: "Move to _archive/ subdirectory"
-
-  stale_flag:
-    condition: "Not mentioned in 180 days"
-    action: "Add stale: true to metadata"
-
-  single_mention:
-    condition: "Only 1 mention AND 90+ days old"
-    action: "Move to _archive/ subdirectory"
-
-# Usage Statistics Tracking
-tracking:
-  fields_to_track:
-    - mention_count
-    - last_mentioned
-    - first_mentioned
-    - sentiment (positive/negative/neutral)
-    - relationship_type
-
-  update_frequency: "After each research session"
-
-# Implementation Notes
-# 1. Start by categorizing existing 400+ entries
-# 2. Create subdirectories for major categories
-# 3. Update researcher to check categories before loading
-# 4. Implement mention counting in research workflow
-# 5. Run monthly cleanup based on deprecation rules
+    art: "Artworks, exhibitions, ateliers, art movements (Marie's own works included)"
+    literature: "Books, poems, literary works and references"
+    theater: "Plays, operas, ballets, performances"
+    music: "Musical works and songs"
+    newspapers: "Newspapers and periodicals"
+    history: "Historical events, eras, concepts"
+    institutions: "Institutions and organisations"
+    social_customs: "Customs and events — balls, races, carnival, feast days"
+    fashion: "Clothing and fashion terms"
+    daily_life: "Games, pastimes and household life"
+    health: "Illness and cures"
+    transport: "Carriages, trains, boats"
+    languages: "Languages Marie writes or speaks"
+    themes: "The theme tags (see docs/research/theme-taxonomy.md)"
