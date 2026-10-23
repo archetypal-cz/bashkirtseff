@@ -7,7 +7,7 @@ aliases:
   - Alexander
   - Russia
 type: Person
-category: people/aristocracy
+category: people/royalty
 research_status: Basic
 last_updated: 2026-03-06
 ---

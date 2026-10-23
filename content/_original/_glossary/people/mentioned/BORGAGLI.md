@@ -8,7 +8,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Stub
-last_updated: 2026-10-21
+last_updated: 2026-10-23
 languages:
   - it
 pronunciation: "https://translate.google.com/?sl=it&tl=en&text=Borgagli"
@@ -26,7 +26,8 @@ An Italian marquis whom Marie knew from Nice and meets again in Rome in March 18
 - Key entries: 1876-03-21 (055.0961, 055.0962, 055.0965, 055.0970); 1876-03-27 (056.0004)
 
 ## Research notes
-The uncle «vingt ans ministre» in papal Rome is not identified; a web search for a marchese Borgagli as papal minister found nothing (2026-10-21). The «Sorgagli» spelling in 055/1876-03-21 and 056/1876-03-27 is a B/S OCR slip in tome07.docx and its text layer; the printed page has «Borgagli».
+The uncle «vingt ans ministre ici» is probably Scipione Bargagli (Siena 1798 – Rome 1868), made a marquis by Pius IX in 1848, Tuscany's minister resident to the Holy See from 24 September 1846 (plenipotentiary from April 1859), who kept the legation at Palazzo Firenze until 1866 (Treccani, Dizionario Biografico, «Bargagli, Scipione»): twenty years as a minister in Rome, a Sienese family settled in Rome («il est presque romain»). The marquis would then be a Bargagli of Siena, the town Marie forgets, and «Borgagli» the edition's (or Marie's) spelling of Bargagli (0.7). Which Bargagli he is (Scipione had a son, Celso, a diplomat; his brother Luigi lived 1801–1885) is not established. The «Sorgagli» spelling in 055/1876-03-21 and 056/1876-03-27 is a B/S OCR slip in tome07.docx and its text layer; the printed page has «Borgagli».
 
 ## Sources
 - Mon Journal t.7, pp.160-161, 181 and index p.357 (scan content/_raw/scans/Tome7.pdf)
+- Treccani, Dizionario Biografico degli Italiani, «Bargagli, Scipione»

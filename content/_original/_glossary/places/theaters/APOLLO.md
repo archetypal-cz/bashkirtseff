@@ -19,7 +19,7 @@ In the diary «l'Apollo» is the Teatro Apollo, Rome's largest opera house in th
 ## Relevance to Marie
 
 - Carnival 1876: the family's evenings at the Apollo with Pietro Antonelli and the young men of the Caccia-Club in the stage box (*barcaccia*): «A douze [heures] nous allons à l'Apollo, dans une loge en bas» (054/1876-02-25); «je suis allé chaque soir à l'Apollo» (Antonelli, 054/1876-02-28); «Petit-Paul» introduced himself to Marie there (059/1876-05-05).
-- 23 April 1876: back from Naples, Marie hears «Roméo et Juliette», «la dernière soirée musicale de l'Apollo», with the subscriptions suspended and the barcaccia let to strangers (059.0193, 059.0196).
+- 23 April 1876: back from Naples, Marie hears «Roméo et Juliette», «la dernière soirée musicale de l'Apollo», with the subscriptions suspended and the barcaccia let to strangers (059.0193, 059.0196). The opera was Filippo Marchetti's «Romeo e Giulietta», whose libretto was printed for the Apollo's Lent season of 1876 (archive.org «romeoegiuliettad00marc»).
 - 27 December 1876: Verdi's *Aida* (068/1876-12-27); 7 February 1877: the masked ball (*veglione*) at the Apollo (068/1877-02-08).
 
 ## References in Diary

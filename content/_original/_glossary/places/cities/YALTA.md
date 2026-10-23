@@ -54,7 +54,7 @@ Yalta in the 1870s served as:
 - **Social stage**: Public places where one could see and be seen
 
 ## Related Entries
-- [#Alexander_II](../../people/aristocracy/ALEXANDER_II.md) - Emperor who frequented Yalta
+- [#Alexander_II](../../people/royalty/ALEXANDER_II.md) - Emperor who frequented Yalta
 - Livadia Palace - Imperial residence near Yalta (no glossary entry; see the Wikipedia link under Sources)
 %% 2026-09-07T12:00:00 RSR: delinked Livadia_Palace — no glossary target; kept as plain text. %%
 - [#Maman](../../people/family/MAMAN.md) - Marie's mother who pursued social connections there

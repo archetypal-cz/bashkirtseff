@@ -19,3 +19,6 @@ Elena Pavlovna Gorpintchenko, mother of [#Pacha](PACHA.md) (Paul Gorpintchenko) 
 
 %% GLO_MME_GORPINTCHENKO.0003 %%
 %% 2026-10-21T09:31:34 RSR: Née Bashkirtseff, a sister of Marie's father: the Mon Journal t.9 index has "Gorpinchenko (Mme Hélène Pavlovna, née Bashkirtseff) (tante de Marie Bashkirtseff)" and her husband "Gorpinchenko (M.), époux de Hélène Pavllona, née Bashkirtseff". Marie calls her "Hélène" throughout 067; she and the Princess Eristoff weep at the family vault when leaving their father's house ("les larmes des deux sœurs à la vue du caveau de famille ... à l'heure de quitter le toit paternel", 067.0214). Pacha is therefore Marie's first cousin ("Non, cousins", 067.0248). %%
+
+%% GLO_MME_GORPINTCHENKO.0004 %%
+She died about 25 December 1883: «Ma tante Hélène, la sœur de mon père est morte il y a huit jours, Paul nous avait télégraphié cette nouvelle» (102.0634, 2 January 1884; Mon Journal t.16 index «Bashkirtseff (Hélène Pavlovna), tante de Marie : 113»).

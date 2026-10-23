@@ -10,7 +10,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Stub
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 # Mme de Ballore
 
@@ -22,7 +22,7 @@ last_updated: 2026-10-22
 
 A French aristocratic woman in the Nice social circle, part of the Bashkirtseff family's regular social network alongside Mme de Mouzay and Mme de Daillens. Marie refers to her also as "Vicomtesse de Ballore" and "de Ballote" (variant spelling). She is listed among the loyal friends who did not turn against the Bashkirtseff family during their period of social difficulty (carnet 052, 1876-01-19: "de Mouzay, de Daillens, de Ballote et ses filles, Barnola..." — those who "ne nous ont pas craché dessus").
 
-She had daughters who appear in social settings. In Nice, she is a regular guest at Mme de Mouzay's salon and the Bashkirtseffs' social gatherings. On 1 January 1876, still in Nice, Marie finds "la vicomtesse de Ballore" at Mme de Mouzay's (051.0268).
+She had daughters who appear in social settings: Jeanne, later baronne de Wykerslooth ([JEANNE_DE_BALLORE](JEANNE_DE_BALLORE.md)), and Louise, the widowed comtesse de Quincy who married Jules Gaillard in 1880–81 ([MME_GAILLARD](MME_GAILLARD.md)); Marie names the mother «Mme de Motessus de Ballore» (098.0544) and has her visit with Jeanne in July 1884, «sa sœur Mme Gaillard» (105.0260). In Nice, she is a regular guest at Mme de Mouzay's salon and the Bashkirtseffs' social gatherings. On 1 January 1876, still in Nice, Marie finds "la vicomtesse de Ballore" at Mme de Mouzay's (051.0268).
 
 ## Diary References
 

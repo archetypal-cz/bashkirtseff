@@ -11,7 +11,7 @@ last_updated: 2026-10-22
 # The Russian Empress (Maria Alexandrovna)
 
 ## Overview
-Maria Alexandrovna (born Princess Marie of Hesse and by Rhine, 1824–1880), wife of Alexander II, Empress of Russia from 1855. She spent the winter of 1874–75 in San Remo for her health and died on 3 June 1880 in the Winter Palace (en.wikipedia «Maria Alexandrovna (Marie of Hesse)»; Russian Academy of Arts report on her San Remo monument). The Mon Journal t.4 index reads «Impératrice de Russie (Marie Alexandrovna, née princesse de Hesse)». See also [ALEXANDER_II](../aristocracy/ALEXANDER_II.md).
+Maria Alexandrovna (born Princess Marie of Hesse and by Rhine, 1824–1880), wife of Alexander II, Empress of Russia from 1855. She spent the winter of 1874–75 in San Remo for her health and died on 3 June 1880 in the Winter Palace (en.wikipedia «Maria Alexandrovna (Marie of Hesse)»; Russian Academy of Arts report on her San Remo monument). The Mon Journal t.4 index reads «Impératrice de Russie (Marie Alexandrovna, née princesse de Hesse)». See also [ALEXANDER_II](../royalty/ALEXANDER_II.md).
 
 ## Relevance to Marie
 - **Winter 1874–75.** On 30 November 1874 Marie notes that the Empress «passe demain par Nice se rendant à San Remo où elle restera jusqu'à Pâques» (027.0098); on 1 December the crowd waits at the station, and Walitsky sees her (027.0106; see [RANGOULI](RANGOULI.md)). On 1 March 1875 the Russian baker brought «pour l'impératrice» saves the family from hunger (030.0112).

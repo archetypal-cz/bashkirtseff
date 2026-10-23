@@ -8,28 +8,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-23
+status: retired
+replaced_by: ALEXANDER_III
 ---
-# Heritier de Russie
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
+%% GLO_HERITIER_DE_RUSSIE.0001 %%
+**Retired.** Merged into [#ALEXANDER_III](../royalty/ALEXANDER_III.md) (`people/royalty/ALEXANDER_III.md`); use that entry instead.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_HERITIER_DE_RUSSIE.0002 %%
+%% 2026-10-23T09:50:37 RSR: Retired by glossary-merge; content and links moved to ALEXANDER_III. replaced_by: people/royalty/ALEXANDER_III.md. %%
