@@ -534,7 +534,13 @@ drawings:
     source: "Tome 9, p. 123"
     paragraph: "068.0456"      # optional: shown right after this paragraph
     alt: "…"                   # optional; defaults to the caption
+    kind: clipping             # optional: newspaper clipping, not Marie's drawing (default: drawing)
+    source_url: https://…      # optional: http(s) link; makes the `source` line a link (new tab)
 ```
+
+- `kind: clipping` only changes the default label / alt text (`diary.clipping`,
+  e.g. «Press clipping» instead of «Drawing in the notebook»); clippings cut from
+  Gallica go in `public/images/marie/clippings/<carnet>/`.
 
 - Files: `src/frontend/public/images/marie/drawings/<carnet>/`, WebP, at most
   1600 px on the long side, aim for under 300 KB, named

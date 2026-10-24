@@ -300,16 +300,17 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         contentLangAttr={lang.contentLangAttr}
         uiLocale={lang.uiLocale}
         drawingLabel={t('diary.drawing')}
+        clippingLabel={t('diary.clipping')}
       />
       {drawingPlacement.atEnd.length > 0 && (
         <section class="entry-drawings" aria-label={t('diary.drawings')}>
           {drawingPlacement.atEnd.map(d => (
             <figure class="entry-drawing">
-              <img src={d.src} alt={d.alt ?? d.caption ?? t('diary.drawing')} loading="lazy" decoding="async" />
+              <img src={d.src} alt={d.alt ?? d.caption ?? t(d.kind === 'clipping' ? 'diary.clipping' : 'diary.drawing')} loading="lazy" decoding="async" />
               {(d.caption || d.source) && (
                 <figcaption>
                   {d.caption}
-                  {d.source && <span class="entry-drawing-source">{d.source}</span>}
+                  {d.source && <span class="entry-drawing-source">{d.source_url ? <a href={d.source_url} target="_blank" rel="noopener">{d.source}</a> : d.source}</span>}
                 </figcaption>
               )}
             </figure>

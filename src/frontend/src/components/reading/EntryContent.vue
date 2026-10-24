@@ -47,6 +47,7 @@ const props = defineProps<{
   contentLangAttr: string;
   uiLocale?: SupportedLocale; // page UI locale, forwarded so SSR labels match it
   drawingLabel?: string;      // fallback alt text for a drawing without caption
+  clippingLabel?: string;     // same for items with kind: clipping
 }>();
 
 const parsedParagraphs = computed<ProcessedParagraph[]>(() => {
@@ -187,10 +188,10 @@ const renderItems = computed<RenderItem[]>(() => {
         />
       </div>
       <figure v-for="d in item.paragraph.drawings ?? []" :key="d.src" class="entry-drawing">
-        <img :src="d.src" :alt="d.alt ?? d.caption ?? drawingLabel ?? ''" loading="lazy" decoding="async" />
+        <img :src="d.src" :alt="d.alt ?? d.caption ?? (d.kind === 'clipping' ? clippingLabel : drawingLabel) ?? ''" loading="lazy" decoding="async" />
         <figcaption v-if="d.caption || d.source">
           {{ d.caption }}
-          <span v-if="d.source" class="entry-drawing-source">{{ d.source }}</span>
+          <span v-if="d.source" class="entry-drawing-source"><a v-if="d.source_url" :href="d.source_url" target="_blank" rel="noopener">{{ d.source }}</a><template v-else>{{ d.source }}</template></span>
         </figcaption>
       </figure>
     </template>
@@ -230,10 +231,10 @@ const renderItems = computed<RenderItem[]>(() => {
           />
         </div>
         <figure v-for="d in p.drawings ?? []" :key="d.src" class="entry-drawing">
-          <img :src="d.src" :alt="d.alt ?? d.caption ?? drawingLabel ?? ''" loading="lazy" decoding="async" />
+          <img :src="d.src" :alt="d.alt ?? d.caption ?? (d.kind === 'clipping' ? clippingLabel : drawingLabel) ?? ''" loading="lazy" decoding="async" />
           <figcaption v-if="d.caption || d.source">
             {{ d.caption }}
-            <span v-if="d.source" class="entry-drawing-source">{{ d.source }}</span>
+            <span v-if="d.source" class="entry-drawing-source"><a v-if="d.source_url" :href="d.source_url" target="_blank" rel="noopener">{{ d.source }}</a><template v-else>{{ d.source }}</template></span>
           </figcaption>
         </figure>
       </template>

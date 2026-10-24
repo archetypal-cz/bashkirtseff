@@ -188,6 +188,13 @@ describe('content.ts', () => {
     expect(placed.atEnd.map(d => d.src)).toEqual(['/images/marie/drawings/901/fixture-p0001-2.webp']);
     expect(placeDrawings([{ src: '/x.webp', paragraph: '901.0099' }], ['901.0001']).atEnd).toHaveLength(1);
     expect(normalizeDrawings('nope')).toBeUndefined();
+    expect(normalizeDrawings([
+      { src: '/a.webp', kind: 'clipping', source: 'Gallica', source_url: 'https://gallica.bnf.fr/x' },
+      { src: '/b.webp', kind: 'bogus', source_url: 'javascript:alert(1)' },
+    ])).toEqual([
+      { src: '/a.webp', source: 'Gallica', kind: 'clipping', source_url: 'https://gallica.bnf.fr/x' },
+      { src: '/b.webp' },
+    ]);
   });
 });
 

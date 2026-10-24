@@ -15,6 +15,9 @@
  * aim < 300 KB; the raw scans stay in the gitignored `content/_raw/scans/`).
  * `paragraph` places the drawing right after that paragraph; without it (or
  * when the entry has no such paragraph) the drawing goes to the end of the entry.
+ * Optional `kind: clipping` marks a newspaper clipping instead of a drawing of
+ * Marie's (label `diary.clipping`, default `drawing`); optional `source_url`
+ * (http/https) turns the `source` line into a link.
  * Same shape as glossary `images:` (lib/content.ts GlossaryImage) plus
  * `paragraph`, with `source` for the manuscript reference.
  */
@@ -25,6 +28,15 @@ export interface EntryDrawing {
   alt?: string;       // Alt text override
   source?: string;    // Manuscript reference (tome, folio/page of the scan)
   paragraph?: string; // Paragraph ID ("068.0456") the drawing belongs next to
+  kind?: DrawingKind; // 'clipping' = newspaper clipping; absent = Marie's drawing
+  source_url?: string; // http(s) link for the `source` line (e.g. Gallica issue)
+}
+
+export type DrawingKind = 'drawing' | 'clipping';
+
+/** i18n key of the default label / alt text for an item. */
+export function drawingLabelKey(d: EntryDrawing): 'diary.clipping' | 'diary.drawing' {
+  return d.kind === 'clipping' ? 'diary.clipping' : 'diary.drawing';
 }
 
 /** Validate the frontmatter value; drops malformed items rather than failing the build. */
@@ -42,6 +54,8 @@ export function normalizeDrawings(value: unknown): EntryDrawing[] | undefined {
     }
     const para = r.paragraph;
     if (typeof para === 'string' && /^\d{3}\.\d{4}$/.test(para.trim())) d.paragraph = para.trim();
+    if (r.kind === 'clipping') d.kind = 'clipping';
+    if (typeof r.source_url === 'string' && /^https?:\/\//.test(r.source_url.trim())) d.source_url = r.source_url.trim();
     out.push(d);
   }
   return out.length ? out : undefined;
