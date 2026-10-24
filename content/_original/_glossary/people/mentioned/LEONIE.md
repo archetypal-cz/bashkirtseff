@@ -17,7 +17,7 @@ Marie's maid and the household's femme de chambre in 1875–76, in Nice, Cannes 
 
 What the diary shows:
 - She accompanies Marie on errands: «Appelle Léonie, elle m'accompagnera» (031.0027), fetches the letters, carries bathing things (037.0313), leads Marie and her friends to a fortune-teller («Léonie nous conduisait… la sorcière», 037.0431), and undresses her (049.0446, 059.0963).
-- She reads cards for Marie («Hier elle m'a fait les cartes. Encore des bonheurs inouïs…», 034.0548) and gossips: «Léonie m'a dit un jour qu'elle avait servi les Audiffret et que le vieux était très bon» (034.0545); «Tous les voisins de la rue de France prévenus par l'indiscrète Léonie» (045.0004); she studies the Niçois dialect with Marie (046.0066).
+- She reads cards for Marie («Hier elle m'a fait les cartes. Encore des bonheurs inouïs…», 034.0549) and gossips: «Léonie m'a dit un jour qu'elle avait servi les Audiffret et que le vieux était très bon» (034.0546); «Tous les voisins de la rue de France prévenus par l'indiscrète Léonie» (045.0004); she studies the Niçois dialect with Marie (046.0066).
 - Marie uses her as a go-between. Marie plans to get a message through her (034.0431), and in Rome in March 1876 Léonie, «qui n'est pas à ma solde» (055.0541), carries Bruschetti's letter (055.0513) and is suspected of being bribed («C'est par Léonie qu'il fait ses affaires !», 055.0688); she also tells Maman what the hotel servants say of Count Antonelli (057.0193–0197, Naples).
 - She and the Black page Fortuné «sont arrivés» on 30 January 1876 (053.0208).
 

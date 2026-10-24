@@ -14,11 +14,11 @@ identity_uncertain: true
 
 ## Overview
 %% 2026-10-22T22:16:12 RSR: The entry was split; the other referent is tagged elsewhere or carries an RSR note. %%
-Mlle Thérèse Witoslowsky (the surname from the Mon Journal t.4 index, with the editors' query: «Witoslowsky (Mlle Thérèse ?), 25–26, 42, 45, 62, 71–72»; «Thérèse, 71–72, 241»), a young woman of the Spa season of 1874. Count Merjeewsky has brought «la deuxième Thérèse» to Spa with him, to the distress of his wife (022.0255); there is also a sister and a father («le père Witoslowsky»). See [MERJEEWSKY](MERJEEWSKY.md).
+Mlle Thérèse Witoslowsky (the surname from the Mon Journal t.4 index, with the editors' query: «Witoslowsky (Mlle Thérèse ?), 25–26, 42, 45, 62, 71–72»; «Thérèse, 71–72, 241»), a young woman of the Spa season of 1874. Count Merjeewsky has brought «la deuxième Thérèse» to Spa with him, to the distress of his wife (022.0266); there is also a sister and a father («le père Witoslowsky»). See [MERJEEWSKY](MERJEEWSKY.md).
 
 ## In Marie's diary
-- 1874-07-30 (022.0226): «la sœur de Thérèse qui est je crois sa bonne amie ou à peu près».
-- 1874-07-31 (022.0255, 022.0263, 022.0264): «Les Thérèse que je ne peux supporter me détestent et me mirent cent fois à bout par des méchancetés aimables».
+- 1874-07-30 (022.0237): «la sœur de Thérèse qui est je crois sa bonne amie ou à peu près».
+- 1874-07-31 (022.0266, 022.0274, 022.0275): «Les Thérèse que je ne peux supporter me détestent et me mirent cent fois à bout par des méchancetés aimables».
 - 1874-12-11 (027.0231): at Nice she dreams of «Thérèse, la mater dolorosa comme la nomme le comte Merjeewsky».
 
 ## Identity uncertain

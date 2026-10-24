@@ -593,19 +593,19 @@ They need AI translation into French.
 - **021/1874-07-22.md** para 021.0504 [RUSSIAN]: %% 2026-01-30T13:11:44 LAN: RUSSIAN "moujik" - peasant; mother's contemptuous comparison %%
 - **021/1874-07-23.md** para 021.0570 [ENGLISH]: %% 2026-01-30T13:12:10 LAN: ENGLISH "However" - code-switch to English for transition/emphasis %%
 - **021/1874-07-23.md** para withdrawn in the 2026-09 rebuild (old carnet 021 ¶0517; see content/_renumber/021-2026-09-28.json) [ENGLISH]: %% 2026-01-30T13:12:13 LAN: ENGLISH "H.G.t.D.o.H." - His Grace the Duke of Hamilton; Marie's secret code %%
-- **022/1874-07-26.md** para 022.0111 [ENGLISH]: %% 2026-01-30T13:12:41 LAN: ENGLISH "That is the question" - Shakespeare's Hamlet; literary code-switch %%
-- **022/1874-07-26.md** para 022.0111 [ITALIAN]: %% 2026-01-30T13:12:42 LAN: ITALIAN "crescendo" - musical term; growing, increasing intensity %%
-- **022/1874-07-27.md** para 022.0164 [ITALIAN]: %% 2026-01-30T13:12:54 LAN: ITALIAN "illustrissima marchesa duchessa" - most illustrious marchioness duchess; mock formality %%
-- **022/1874-07-28.md** para 022.0178 [ENGLISH]: %% 2026-01-30T13:12:59 LAN: ENGLISH "fast" - fast, loose; English term for improper behavior in women %%
-- **022/1874-07-29.md** para 022.0203 [ENGLISH]: %% 2026-01-30T13:13:08 LAN: ENGLISH "Blackprince" - Marie's secret codename for Duke of Hamilton %%
-- **022/1874-07-30.md** para 022.0247 [ENGLISH]: %% 2026-01-30T13:13:20 LAN: ENGLISH "self-contentment" - self-satisfaction; English term for psychological concept %%
-- **022/1874-08-01.md** para 022.0274 [ENGLISH]: %% 2026-01-30T13:20:14 LAN: ENGLISH "Aunt Sally" - Victorian fairground game throwing sticks at wooden head %%
-- **022/1874-08-01.md** para 022.0284 [ITALIAN]: %% 2026-01-30T13:20:15 LAN: ITALIAN "e tutto" - and everything, used as fashionable flourish %%
-- **022/1874-08-03.md** para 022.0364 [ENGLISH]: %% 2026-01-30T13:20:38 LAN: ENGLISH "gentlemen riders" - amateur jockeys of aristocratic class %%
-- **022/1874-08-03.md** para 022.0365 [ENGLISH]: %% 2026-01-30T13:20:39 LAN: ENGLISH "foggy" - used as fashionable English word for misty weather %%
-- **022/1874-08-03.md** para 022.0374 [ENGLISH]: %% 2026-01-30T13:20:45 LAN: ENGLISH "London House" - Marie's comparison term for favorite establishments %%
-- **022/1874-08-04.md** para 022.0395 [ENGLISH]: %% 2026-01-30T13:20:52 LAN: ENGLISH "make haste" - to hurry, fashionable English expression %%
-- **022/1874-08-07.md** para 022.0441 [ENGLISH]: %% 2026-01-30T13:21:23 LAN: ENGLISH "How do you do?" - formal English greeting in invented story %%
+- **022/1874-07-26.md** para 022.0122 [ENGLISH]: %% 2026-01-30T13:12:41 LAN: ENGLISH "That is the question" - Shakespeare's Hamlet; literary code-switch %%
+- **022/1874-07-26.md** para 022.0122 [ITALIAN]: %% 2026-01-30T13:12:42 LAN: ITALIAN "crescendo" - musical term; growing, increasing intensity %%
+- **022/1874-07-27.md** para 022.0175 [ITALIAN]: %% 2026-01-30T13:12:54 LAN: ITALIAN "illustrissima marchesa duchessa" - most illustrious marchioness duchess; mock formality %%
+- **022/1874-07-28.md** para 022.0189 [ENGLISH]: %% 2026-01-30T13:12:59 LAN: ENGLISH "fast" - fast, loose; English term for improper behavior in women %%
+- **022/1874-07-29.md** para 022.0214 [ENGLISH]: %% 2026-01-30T13:13:08 LAN: ENGLISH "Blackprince" - Marie's secret codename for Duke of Hamilton %%
+- **022/1874-07-30.md** para 022.0258 [ENGLISH]: %% 2026-01-30T13:13:20 LAN: ENGLISH "self-contentment" - self-satisfaction; English term for psychological concept %%
+- **022/1874-08-01.md** para 022.0285 [ENGLISH]: %% 2026-01-30T13:20:14 LAN: ENGLISH "Aunt Sally" - Victorian fairground game throwing sticks at wooden head %%
+- **022/1874-08-01.md** para 022.0295 [ITALIAN]: %% 2026-01-30T13:20:15 LAN: ITALIAN "e tutto" - and everything, used as fashionable flourish %%
+- **022/1874-08-03.md** para 022.0375 [ENGLISH]: %% 2026-01-30T13:20:38 LAN: ENGLISH "gentlemen riders" - amateur jockeys of aristocratic class %%
+- **022/1874-08-03.md** para 022.0376 [ENGLISH]: %% 2026-01-30T13:20:39 LAN: ENGLISH "foggy" - used as fashionable English word for misty weather %%
+- **022/1874-08-03.md** para 022.0385 [ENGLISH]: %% 2026-01-30T13:20:45 LAN: ENGLISH "London House" - Marie's comparison term for favorite establishments %%
+- **022/1874-08-04.md** para 022.0406 [ENGLISH]: %% 2026-01-30T13:20:52 LAN: ENGLISH "make haste" - to hurry, fashionable English expression %%
+- **022/1874-08-07.md** para 022.0452 [ENGLISH]: %% 2026-01-30T13:21:23 LAN: ENGLISH "How do you do?" - formal English greeting in invented story %%
 - **022/1874-08-08.md** para 023.0016 [LATIN]: %% 2026-01-30T13:21:33 LAN: LATIN "Requiem eterno" - eternal rest, likely acrostic or cipher verse %%
 - **023/1874-08-10.md** para 023.0069 [ENGLISH]: %% 2026-01-30T13:21:43 LAN: ENGLISH "weather" - used as fashionable English word for rainy conditions %%
 - **023/1874-08-10.md** para 023.0074 [ENGLISH]: %% 2026-01-30T13:21:45 LAN: ENGLISH "London House" - Marie's term for favorite establishment %%
@@ -857,12 +857,12 @@ They need AI translation into French.
 - **032/1875-04-24.md** para 032.0103 [RUSSIAN]: %% 2026-01-30T16:10:00 LAN: CODE-SWITCH RUSSIAN/LITURGICAL: "Ta resurrection Seigneur" - Orthodox Easter hymn "Voskreseniye Tvoye" (Your Resurrection, Lord) %%
 - **032/1875-04-24.md** para 032.0111 [ITALIAN]: %% 2026-01-30T16:10:00 LAN: CODE-SWITCH ITALIAN: "Cena" - the (Last) Supper; Marie uses Italian because she doesn't know the French term "la Cene" %%
 - **032/1875-04-25.md** para 032.0122 [LATIN]: %% 2026-01-30T16:10:00 LAN: CODE-SWITCH LATIN: "In nomine Patris et Filii et Spiritus sancti. Amen" - In the name of the Father, Son and Holy Spirit. Amen; liturgical formula used humorously to confirm her gluttony %%
-- **032/1875-05-05.md** para 032.0273 [RUSSIAN]: %% 2026-01-30T16:20:00 LAN: RUSSIAN: "botvinia" - cold Russian soup made from kvass with beet greens %%
-- **032/1875-05-05.md** para 032.0288 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "fast" - English word meaning bold, forward, of loose morals (for a woman) %%
-- **032/1875-05-05.md** para 032.0288 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "Take your fat carcase out of the way" - vulgar English insult; "carcase" is coarse for body %%
-- **032/1875-05-05.md** para 032.0298 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "the fat carcase" - Marie repeats the English insult, adopting it ironically %%
-- **032/1875-05-08.md** para 032.0350 [ENGLISH]: %% 2026-01-30T16:30:00 LAN: CODE-SWITCH ENGLISH: "he stared at me" - Marie switches to English for emphasis %%
-- **032/1875-05-13.md** para 032.0426 [ENGLISH]: %% 2026-01-30T16:30:00 LAN: CODE-SWITCH ENGLISH: "Pas love mais like" - Marie clarifies romantic vs. friendly feelings in English %%
+- **032/1875-05-05.md** para 032.0274 [RUSSIAN]: %% 2026-01-30T16:20:00 LAN: RUSSIAN: "botvinia" - cold Russian soup made from kvass with beet greens %%
+- **032/1875-05-05.md** para 032.0289 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "fast" - English word meaning bold, forward, of loose morals (for a woman) %%
+- **032/1875-05-05.md** para 032.0289 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "Take your fat carcase out of the way" - vulgar English insult; "carcase" is coarse for body %%
+- **032/1875-05-05.md** para 032.0299 [ENGLISH]: %% 2026-01-30T16:20:00 LAN: ENGLISH: "the fat carcase" - Marie repeats the English insult, adopting it ironically %%
+- **032/1875-05-08.md** para 032.0351 [ENGLISH]: %% 2026-01-30T16:30:00 LAN: CODE-SWITCH ENGLISH: "he stared at me" - Marie switches to English for emphasis %%
+- **032/1875-05-13.md** para 032.0427 [ENGLISH]: %% 2026-01-30T16:30:00 LAN: CODE-SWITCH ENGLISH: "Pas love mais like" - Marie clarifies romantic vs. friendly feelings in English %%
 - **033/1875-05-17.md** para 033.0016 [ITALIAN]: %% 2026-01-30T16:30:00 LAN: CODE-SWITCH ITALIAN: "inammorati" - lovers (Italian word for romantic couple) %%
 - **033/1875-05-20.md** para 033.0081 [ITALIAN]: %% 2026-01-30T16:40:00 LAN: ITALIAN "a piu non posso" - to the utmost, as much as possible %%
 - **033/1875-05-20.md** para 033.0081 [ITALIAN]: %% 2026-01-30T16:40:00 LAN: ITALIAN "femmina celeberrima" - most famous woman (superlative) %%
@@ -895,8 +895,8 @@ They need AI translation into French.
 - **034/1875-06-12.md** para 034.0205 [LATIN]: %% 2026-01-30T16:50:00 LAN: LATIN: "Deo juvante" - "with God's help" (common pious expression) %%
 - **034/1875-06-19.md** para 034.0406 [ENGLISH]: %% 2026-01-30T17:00:00 LAN: ENGLISH "Much ado about nothing" - Shakespeare reference, used for comic deflation %%
 - **034/1875-06-19.md** para 034.0448 [LATIN]: %% 2026-01-30T17:00:00 LAN: LATIN "Deo juvante" - "with God's help"; Marie writes "Dco" (likely transcription error for Deo) %%
-- **034/1875-06-25.md** para 034.0582 [LATIN]: %% 2026-01-30T17:00:00 LAN: LATIN "confiteor" - "I confess" (Catholic confession prayer), triple repetition for emphasis %%
-- **034/1875-06-25.md** para 034.0586 [LATIN]: %% 2026-01-30T17:00:00 LAN: LATIN "Miserere" - "Have mercy" (Psalm 51), expression of despair %%
+- **034/1875-06-25.md** para 034.0583 [LATIN]: %% 2026-01-30T17:00:00 LAN: LATIN "confiteor" - "I confess" (Catholic confession prayer), triple repetition for emphasis %%
+- **034/1875-06-25.md** para 034.0587 [LATIN]: %% 2026-01-30T17:00:00 LAN: LATIN "Miserere" - "Have mercy" (Psalm 51), expression of despair %%
 - **034/1875-06-25.md** para withdrawn in the 2026-09 rebuild (old carnet 034 ¶0447; see content/_renumber/034-2026-09-29.json) [ENGLISH]: %% 2026-01-30T17:00:00 LAN: ENGLISH abbreviation "H.G. the D. of H." - His Grace the Duke of Hamilton; Marie's obsessive code %%
 - **035/1875-07-01.md** para 035.0085 [ITALIAN]: %% 2026-01-30T17:00:00 LAN: ITALIAN "jettatore" - one who casts the evil eye, bringer of bad luck %%
 - **035/1875-07-01.md** para 035.0108 [RUSSIAN]: %% 2026-01-30T17:00:00 LAN: RUSSIAN "douraque" (durak) - fool, idiot; Marie's code-switching for comic rhyme %%

@@ -18,7 +18,7 @@ Ambroise, the Bashkirtseffs' coachman (*cocher*) in Nice in 1875–1876, a membe
 
 Ambroise is the household's source of gossip, especially about Audiffret, whom the women of the house are watching.
 
-- **2 May 1875.** The family eats a pound of cheese in the landau at Basse's shop and «Ambroise, le cocher, nous voyant à l'œuvre» looks on (032.0220).
+- **2 May 1875.** The family eats a pound of cheese in the landau at Basse's shop and «Ambroise, le cocher, nous voyant à l'œuvre» looks on (032.0221).
 - **14 June 1875.** He tells Dina (who repeats it to Marie) that Mme d'Audiffret arrived at the château «une ravissante petite poupée», taken from the convent at fourteen to marry M. d'Audiffret (034.0283–0284).
 - **8 July 1875.** The dog Mops, after Trifon killed it by grandfather's order, had been given to Ambroise to look after (035.0293).
 - **3 August 1875; 6 November 1875.** «Même notre cocher Ambroise» says it is the habit of «cet homme» (Audiffret) to «faire la cour et puis planter là» (038.0069); Marie's mother quotes «Ambroise m'a dit: Madame, Monsieur Emile fait la cour à toutes les demoiselles» (049.0017).
@@ -28,6 +28,6 @@ Ambroise is the household's source of gossip, especially about Audiffret, whom t
 
 ## References in Diary
 
-- First mentioned: 1875-05-02 (032.0220). Ten tagged paragraphs in carnets 032–062.
+- First mentioned: 1875-05-02 (032.0221). Ten tagged paragraphs in carnets 032–062.
 
 %% 2026-10-22T17:25:00 RSR: The RSR at 049.0017 reads Ambroise as «household servant or local informant»; the same man as the coachman of 053.0096 is assumed (the mother names him in both). The «Monsieur Emile» of 049.0017 is not identified here. %%

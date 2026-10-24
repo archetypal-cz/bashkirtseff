@@ -52,7 +52,7 @@ This thematic tag collects diary paragraphs about physical recreation and sport:
 
 %% GLO_SPORT.0011 %%
 - `068.0345` — "J'étais ravissante au rink et je patinais le mieux"
-- `022.0423` — the ride cancelled when Paul does not come
+- `022.0434` — the ride cancelled when Paul does not come
 - `010.0172` — croquet on the lawn, with a wager on a bat
 
 %% 2026-10-02T18:00:00 RSR: Applied per paragraph by AI judgement, not keyword match. %%

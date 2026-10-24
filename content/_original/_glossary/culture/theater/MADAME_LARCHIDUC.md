@@ -41,7 +41,7 @@ Spring 1875: the operetta's tunes are in her head, and she names a dress after i
 - **31 March 1875, Nice.** The Prince of Wales, who is in Nice, has asked for *Madame l'archiduc* at the theatre; she takes a box at the Français (030.0425).
 - **4 April 1875, Nice.** In her anonymous letter to the Prince of Wales asking for his signed portrait: "Ce que je fais est plus original que l'archiduc Ernest d'Offenbach" (031.0018). Archduke Ernest is the operetta's archduke; the LAN note on that paragraph, which names *La Grande-Duchesse de Gérolstein*, is mistaken.
 - **10 April 1875, Cannes.** "Je raffole de Madame l'Archiduc, je ne fais que la chanter. En arrivant à sept heures à Cannes au lieu de parler je chante l'Archiduc et me conduis comme une folle" (031.0179).
-- **14 April - 3 June 1875.** Her straw-coloured dress, first the "robe prince de Galles", is renamed "robe Archiduc" and noted in her outfit parentheses (031.0230, 031.0253, 032.0121, 032.0152, 032.0425, 033.0467). On 25 May she calls a family affair "la grande affaire du château de Castellardo, comme dans Madame l'Archiduc" (033.0209).
+- **14 April - 3 June 1875.** Her straw-coloured dress, first the "robe prince de Galles", is renamed "robe Archiduc" and noted in her outfit parentheses (031.0230, 031.0253, 032.0121, 032.0152, 032.0426, 033.0467). On 25 May she calls a family affair "la grande affaire du château de Castellardo, comme dans Madame l'Archiduc" (033.0209).
 - **21 September 1875.** A complaint of her own is sung "sur l'air de Madame l'Archi-duchesse" (043.0378).
 - **10 April 1876, Rome.** She goes to the Teatro Valle, where it is given for the benefit of the prima donna Preziosi (057.0102).
 

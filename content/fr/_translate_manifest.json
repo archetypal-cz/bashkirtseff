@@ -5345,7 +5345,7 @@
   "022": [
     {
       "file": "1874-07-26.md",
-      "para_id": "022.0111",
+      "para_id": "022.0122",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T13:12:41 LAN: ENGLISH \"That is the question\" - Shakespeare's Hamlet; literary code-switch %%",
       "fr_file": "content/fr/022/1874-07-26.md",
@@ -5354,7 +5354,7 @@
     },
     {
       "file": "1874-07-26.md",
-      "para_id": "022.0111",
+      "para_id": "022.0122",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-30T13:12:42 LAN: ITALIAN \"crescendo\" - musical term; growing, increasing intensity %%",
       "fr_file": "content/fr/022/1874-07-26.md",
@@ -5363,7 +5363,7 @@
     },
     {
       "file": "1874-07-27.md",
-      "para_id": "022.0164",
+      "para_id": "022.0175",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-30T13:12:54 LAN: ITALIAN \"illustrissima marchesa duchessa\" - most illustrious marchioness duchess; mock formality %%",
       "fr_file": "content/fr/022/1874-07-27.md",
@@ -5372,7 +5372,7 @@
     },
     {
       "file": "1874-07-28.md",
-      "para_id": "022.0178",
+      "para_id": "022.0189",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T13:12:59 LAN: ENGLISH \"fast\" - fast, loose; English term for improper behavior in women %%",
       "fr_file": "content/fr/022/1874-07-28.md",
@@ -5381,7 +5381,7 @@
     },
     {
       "file": "1874-07-29.md",
-      "para_id": "022.0203",
+      "para_id": "022.0214",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T13:13:08 LAN: ENGLISH \"Blackprince\" - Marie's secret codename for Duke of Hamilton %%",
       "fr_file": "content/fr/022/1874-07-29.md",
@@ -5390,7 +5390,7 @@
     },
     {
       "file": "1874-07-30.md",
-      "para_id": "022.0247",
+      "para_id": "022.0258",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T13:13:20 LAN: ENGLISH \"self-contentment\" - self-satisfaction; English term for psychological concept %%",
       "fr_file": "content/fr/022/1874-07-30.md",
@@ -5399,7 +5399,7 @@
     },
     {
       "file": "1874-08-01.md",
-      "para_id": "022.0274",
+      "para_id": "022.0285",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T13:20:14 LAN: ENGLISH \"Aunt Sally\" - Victorian fairground game throwing sticks at wooden head %%",
       "fr_file": "content/fr/022/1874-08-01.md",
@@ -5408,7 +5408,7 @@
     },
     {
       "file": "1874-08-01.md",
-      "para_id": "022.0284",
+      "para_id": "022.0295",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-30T13:20:15 LAN: ITALIAN \"e tutto\" - and everything, used as fashionable flourish %%",
       "fr_file": "content/fr/022/1874-08-01.md",
@@ -5417,7 +5417,7 @@
     },
     {
       "file": "1874-08-03.md",
-      "para_id": "022.0364",
+      "para_id": "022.0375",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T13:20:38 LAN: ENGLISH \"gentlemen riders\" - amateur jockeys of aristocratic class %%",
       "fr_file": "content/fr/022/1874-08-03.md",
@@ -5426,7 +5426,7 @@
     },
     {
       "file": "1874-08-03.md",
-      "para_id": "022.0365",
+      "para_id": "022.0376",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T13:20:39 LAN: ENGLISH \"foggy\" - used as fashionable English word for misty weather %%",
       "fr_file": "content/fr/022/1874-08-03.md",
@@ -5435,7 +5435,7 @@
     },
     {
       "file": "1874-08-03.md",
-      "para_id": "022.0374",
+      "para_id": "022.0385",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T13:20:45 LAN: ENGLISH \"London House\" - Marie's comparison term for favorite establishments %%",
       "fr_file": "content/fr/022/1874-08-03.md",
@@ -5444,7 +5444,7 @@
     },
     {
       "file": "1874-08-04.md",
-      "para_id": "022.0395",
+      "para_id": "022.0406",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T13:20:52 LAN: ENGLISH \"make haste\" - to hurry, fashionable English expression %%",
       "fr_file": "content/fr/022/1874-08-04.md",
@@ -5453,7 +5453,7 @@
     },
     {
       "file": "1874-08-07.md",
-      "para_id": "022.0441",
+      "para_id": "022.0452",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T13:21:23 LAN: ENGLISH \"How do you do?\" - formal English greeting in invented story %%",
       "fr_file": "content/fr/022/1874-08-07.md",
@@ -7742,7 +7742,7 @@
     },
     {
       "file": "1875-05-05.md",
-      "para_id": "032.0273",
+      "para_id": "032.0274",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-30T16:20:00 LAN: RUSSIAN: \"botvinia\" - cold Russian soup made from kvass with beet greens %%",
       "fr_file": "content/fr/032/1875-05-05.md",
@@ -7751,7 +7751,7 @@
     },
     {
       "file": "1875-05-05.md",
-      "para_id": "032.0288",
+      "para_id": "032.0289",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T16:20:00 LAN: ENGLISH: \"fast\" - English word meaning bold, forward, of loose morals (for a woman) %%",
       "fr_file": "content/fr/032/1875-05-05.md",
@@ -7760,7 +7760,7 @@
     },
     {
       "file": "1875-05-05.md",
-      "para_id": "032.0288",
+      "para_id": "032.0289",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T16:20:00 LAN: ENGLISH: \"Take your fat carcase out of the way\" - vulgar English insult; \"carcase\" is coarse for body %%",
       "fr_file": "content/fr/032/1875-05-05.md",
@@ -7769,7 +7769,7 @@
     },
     {
       "file": "1875-05-05.md",
-      "para_id": "032.0298",
+      "para_id": "032.0299",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T16:20:00 LAN: ENGLISH: \"the fat carcase\" - Marie repeats the English insult, adopting it ironically %%",
       "fr_file": "content/fr/032/1875-05-05.md",
@@ -7778,7 +7778,7 @@
     },
     {
       "file": "1875-05-08.md",
-      "para_id": "032.0350",
+      "para_id": "032.0351",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T16:30:00 LAN: CODE-SWITCH ENGLISH: \"he stared at me\" - Marie switches to English for emphasis %%",
       "fr_file": "content/fr/032/1875-05-08.md",
@@ -7787,7 +7787,7 @@
     },
     {
       "file": "1875-05-13.md",
-      "para_id": "032.0426",
+      "para_id": "032.0427",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T16:30:00 LAN: CODE-SWITCH ENGLISH: \"Pas love mais like\" - Marie clarifies romantic vs. friendly feelings in English %%",
       "fr_file": "content/fr/032/1875-05-13.md",
@@ -8089,7 +8089,7 @@
     },
     {
       "file": "1875-06-25.md",
-      "para_id": "034.0582",
+      "para_id": "034.0583",
       "language": "LATIN",
       "lan_context": "%% 2026-01-30T17:00:00 LAN: LATIN \"confiteor\" - \"I confess\" (Catholic confession prayer), triple repetition for emphasis %%",
       "fr_file": "content/fr/034/1875-06-25.md",
@@ -8098,7 +8098,7 @@
     },
     {
       "file": "1875-06-25.md",
-      "para_id": "034.0586",
+      "para_id": "034.0587",
       "language": "LATIN",
       "lan_context": "%% 2026-01-30T17:00:00 LAN: LATIN \"Miserere\" - \"Have mercy\" (Psalm 51), expression of despair %%",
       "fr_file": "content/fr/034/1875-06-25.md",

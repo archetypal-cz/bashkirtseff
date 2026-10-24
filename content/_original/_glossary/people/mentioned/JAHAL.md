@@ -24,8 +24,8 @@ A gentleman of the Spa season of 1874, introduced to the family at the Gambarts'
 - **1874-07-18** (021.0394): introduced at Gambart's.
 - **1874-07-19** (021.0419, 021.0424): met at the Pouhon («un charmant homme»), at the evening music.
 - **1874-07-25** (022.0070): Marie wins fifteen kopecks from him on a bet that she would not go to the ball.
-- **1874-07-26 – 08-05** (022.0119, 022.0177, 022.0243, 022.0287, 022.0378): walks, music, dances; one of the family's «cavaliers» at the ball.
-- **1874-08-06** (022.0415): «M. de Jahal est parti.»
+- **1874-07-26 – 08-05** (022.0130, 022.0188, 022.0254, 022.0298, 022.0389): walks, music, dances; one of the family's «cavaliers» at the ball.
+- **1874-08-06** (022.0426): «M. de Jahal est parti.»
 
 ## Research Notes
 

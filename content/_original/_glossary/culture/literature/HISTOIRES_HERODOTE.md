@@ -38,8 +38,8 @@ The *Histories* (Greek *Historíai*, "inquiries") of Herodotus of Halicarnassus 
 Marie reads Herodotus in French in the summer of 1875, as part of her self-set classical programme.
 
 - **13 June 1875** (034.0211): someone looking at the book in her hands exclaims "Oh ! ho ! ho !" on seeing that it is "l'Histoire d'Hérodote": the title she uses, which matches Larcher's.
-- **22 June 1875** (034.0538): "Je lis Hérodote et on comprendra qu'il faut des distractions pendant cette lecture. C'est intéressant, mais ne peut s'avaler en un jour comme un roman. On doit lire avec [...] attention, se rappeler des faits précédents et penser à ce qu'on lit."
-- **24 June 1875** (034.0561): "Hérodote commence à m'amuser sérieusement, je trouve dans lui des naïvetés incomparables. Il comprend une multitude de choses, c'est un charme."
+- **22 June 1875** (034.0539): "Je lis Hérodote et on comprendra qu'il faut des distractions pendant cette lecture. C'est intéressant, mais ne peut s'avaler en un jour comme un roman. On doit lire avec [...] attention, se rappeler des faits précédents et penser à ce qu'on lit."
+- **24 June 1875** (034.0562): "Hérodote commence à m'amuser sérieusement, je trouve dans lui des naïvetés incomparables. Il comprend une multitude de choses, c'est un charme."
 - **9 September 1875** (042.0027): a novel bought at a railway station is thrown out of the window ("de peur de gâter mon style déjà si mauvais") and she returns to Herodotus.
 
 On 23 September 1878 (082.0442) she lists Herodotus among the few Greek authors she knows, with Aristophanes, Plutarch, a little Xenophon and Plato, and Epictetus.

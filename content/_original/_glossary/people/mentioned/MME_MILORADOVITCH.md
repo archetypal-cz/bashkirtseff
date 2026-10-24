@@ -31,10 +31,10 @@ She is very probably the Ukrainian philanthropist Yelyzaveta Ivanivna Myloradovy
 
 ## References in Diary
 - First mentioned: 1873-07-10 (006.0216)
-- 1873-08-10 (007.0390); 1875-05-10 (032.0395, Marie trying the name «Mme Miloradovitch» on herself)
+- 1873-08-10 (007.0390); 1875-05-10 (032.0396, Marie trying the name «Mme Miloradovitch» on herself)
 - 1876-08-17 (065.0007–0011), 08-21 (065.0152), 08-26 (065.0526), 08-29 (065.0603), 08-30 (065.0650, 065.0682), 09-05 (066.0037), 09-15 (066.0250), 10-29 (067.0363–0364), 10-30 (067.0376), 11-04 (067.0675, 067.0731)
 
-Note: in 032.0395 («Mme Miloradovitch ça ne sonne pas trop bien») the name is Marie's own, imagined as Gritz's wife; tag this entry only where Gritz's mother is meant. In 007.0390 (Vienna, August 1873) a caller's eagerness makes Marie think «c'est Mme Miloradovitch» he is after, presumably the mother, then in Vienna (006.0216).
+Note: in 032.0396 («Mme Miloradovitch ça ne sonne pas trop bien») the name is Marie's own, imagined as Gritz's wife; tag this entry only where Gritz's mother is meant. In 007.0390 (Vienna, August 1873) a caller's eagerness makes Marie think «c'est Mme Miloradovitch» he is after, presumably the mother, then in Vienna (006.0216).
 
 See also [#Gritz_Miloradovitch](GRITZ_MILORADOVITCH.md), [#Comte_Miloradovitch](COMTE_MILORADOVITCH.md), [#Maman](../family/MAMAN.md).
 

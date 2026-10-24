@@ -82,7 +82,7 @@ Despite (or because of) her own romantic disappointment, Collignon served as Mar
 - **Duke of Hamilton**: Called him "un gros boucher" who socializes with workers (004.0028, 004.0039: Apr 17, 1873), yet teased Marie about "les montagnes de l'Ecosse" (004.0254: May 1).
 - **Lambertye**: Dismissed him as "ce petit vilain" (017.0393: Mar 20, 1874).
 - **Audiffret**: Noticed his interest in Marie and reported it to the aunt (033.0327).
-- **Girofla**: Called him "le beau zero" (032.0553).
+- **Girofla**: Called him "le beau zero" (032.0554).
 - **Pietro Antonelli**: Worried Collignon warned Marie he was "un Lovelace" (034.0117), but also said "S'il ne vous aimait pas, il ne vous ecrirait pas des lettres comme ca" (062.0771).
 - **Soutzo**: Openly called him "bete et mechant" and "un ane bate" and said she would weep if Marie married him (088.0711: June 12, 1880).
 - **General maxim**: "Quand une femme veut un homme, elle l'a toujours" (004.0007: April 15, 1873).

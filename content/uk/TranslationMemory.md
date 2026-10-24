@@ -684,7 +684,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 - "==Сіті==" — London financial district; English → footnote
 - "==грубуватий==" (blunt, 021: Macainne) — Marie's English word, also in 021.0058 where she praises the word itself; Ukrainian in the text, English → footnote (CON 2026-10-03)
 - "Original turkey with note paper" (021.0113) — label printed on her writing paper (Turkey = probably the Turkey Mill paper brand, not the country): ==Оригінальний папір «Turkey» для нотаток.== (CON 2026-10-03)
-- London House (Nice restaurant): Latin script «London House» in 022–023 too (CON 2026-10-03, per the rows above; «Лондон-Гаус»/«Лондон Гаус» removed in 022.0374, 023.0074, 023.0453)
+- London House (Nice restaurant): Latin script «London House» in 022–023 too (CON 2026-10-03, per the rows above; «Лондон-Гаус»/«Лондон Гаус» removed in 022.0385, 023.0074, 023.0453)
 - "==усе гаразд!==" / "==усе гаразд==" (it is all right) — Marie's emphatic English code-switch; Ukrainian in the text, English → footnote
 - "==він нічого не значить==" (he is of no consequence) — English → footnote
 - "==вона дуже норовлива==" (she is very wild; wild = unruly, not violent) — English → footnote
@@ -2683,8 +2683,8 @@ The owner ruled that one-off printed variants are typesetting slips (A-56): the 
 |---|---|---|
 | Audiffer (113× in the source, Marie's own shorthand, systematic) | **Одіффер** (decl. Одіффера, Одіфферові, Одіффером) | kept wherever the source has it; Audiffret stays **Одіффре** (see the Girofla/Audiffer row above) |
 | Blondoff (6×, recurring) | **Блондов** (decl. Блондова) | kept |
-| Pougan (022.0104, rhymes with Chakmagan) | **у Пуґана** | kept for the rhyme in the verses |
-| Papari poulous grec (022.0087, a pun) | **Папарі Пулус, грек** | kept for the pun; Paparigopoulos elsewhere stays **Папаріґопулос** |
+| Pougan (022.0115, rhymes with Chakmagan) | **у Пуґана** | kept for the rhyme in the verses |
+| Papari poulous grec (022.0099, a pun) | **Папарі Пулус, грек** | kept for the pun; Paparigopoulos elsewhere stays **Папаріґопулос** |
 
 Tree drift «Одіфре» swept to «Одіффре» 2026-10-10 (RED, D-33: 32 visible hits in 23 files; old form survives only inside older comments).
 
@@ -2716,7 +2716,7 @@ Counted over the visible text of content/uk (every case form; comments and link 
 
 - **le Skating** (A-02): a venue name. Text «Skating» / «Skating-rink» (Marie's form per occurrence; her «Skating-ring» slip → «Skating-rink», the slip in the footnote), Latin script in guillemets, indeclinable, masculine agreement (неаполітанський «Skating», «Skating» майже порожній), like «London House». Footnote on the first use per file: «Skating» (англ.) — роликова ковзанка, модний світський заклад 1870-х років. Not a venue (stays ==ковзанка== + «В оригіналі англійською» footnote): *un beau skating à Wiesbaden* (074.0145), the frozen-Seine *skating* at the Vert-Galant (087.0010), and Marie's bare *rink* (068.0332, 0345, 0348, 0449, 0972). Applied 067–079: 91 occurrences, 64 footnotes rewritten, 1 added (078.0384).
 - **Marginal labels** (A-09): *[En travers:]* → **[Навскоси:]** only (*de la page* → [Навскоси сторінки:]); Поперек / Упоперек / Впоперек retired (51 replaced). *[Dans la marge:]* → [На полях:].
-- **Niçois oaths** (A-03): translated in ==…== + footnote «В оригіналі ніццькою говіркою: …». *Cap de Biou* → **==Хай йому грець!==** everywhere (033.0400, 037.0255, 037.0390, 054.0308); *Cap de Diou* ==Боже праведний!==, *San Diou de Diou* ==Святий Боже, Боже!==, *Buon Diou dé Diou* ==Добрий Боже, Боже!== unchanged. The oaths Marie herself flags as Nice speech («comme disent les Niçois»: 010.0122, 032.0050, 032.0403) and the *coquine de Biou* pun (050.1310) keep the Niçois form in italics with the explanatory footnote, as in cz.
+- **Niçois oaths** (A-03): translated in ==…== + footnote «В оригіналі ніццькою говіркою: …». *Cap de Biou* → **==Хай йому грець!==** everywhere (033.0400, 037.0255, 037.0390, 054.0308); *Cap de Diou* ==Боже праведний!==, *San Diou de Diou* ==Святий Боже, Боже!==, *Buon Diou dé Diou* ==Добрий Боже, Боже!== unchanged. The oaths Marie herself flags as Nice speech («comme disent les Niçois»: 010.0122, 032.0050, 032.0404) and the *coquine de Biou* pun (050.1310) keep the Niçois form in italics with the explanatory footnote, as in cz.
 - **"Original title" footnotes** (A-04): a footnote that only gives the original title of a work with an established Ukrainian title is dropped (30 dropped, 019–090). Kept: footnotes that also say something else (author, genre, Marie's slip); doubtful titles with no established Ukrainian form (020.0016.t1 «Юність Людовіка XIV», 090.0153.1, 090.0306.1 «Жан Бодрі»); prayers/hymns covered by the foreign-passage rule (009.0291 Pater noster, 060.0185 Te Deum).
 - **Garter-type mottoes** (A-01): original, italic, translation in the footnote — *Honni soit qui mal y pense* (026.0034, 059.0080, 077.0296, 079.0037), *ich dieu* [sic for *ich dien*] (024.0065). Latin maxims keep their current treatment.
 - **Empty-day stub** (A-08): one form **[Запису за цю дату немає]** (36 variants unified in 086, 091–093).

@@ -35,7 +35,7 @@ full_text:
 
 - **30 October 1873, Nice.** She and Bête talk of "l'Orphée, Belle Hélène, grande-duchesse et Château à Toto" (011.0354).
 - **18 May 1874, Paris.** At the Gaîté for "Orphée aux enfers qui vient d'être transformé en opéra bouffe-féerie" (019.0275); the theatre is pretty, but she has only a balcony seat (019.0275).
-- **8 July - 1 August 1874, Spa.** She wants a hated Englishman to fall in love with her so that she can ask him to dance "le galop comme Mercure dans Orphée à Paris, dans l'Orphée réformé" (021.0060, 022.0335).
+- **8 July - 1 August 1874, Spa.** She wants a hated Englishman to fall in love with her so that she can ask him to dance "le galop comme Mercure dans Orphée à Paris, dans l'Orphée réformé" (021.0060, 022.0346).
 - **20-21 September 1874, Paris.** She sees it again (024.0039, 024.0042).
 - **27 October 1874, Nice.** It is given in Nice with a new singer, Nina Laffite; she goes for Audiffret and the singer (025.0003).
 - **5 May 1881, Paris.** Named among the operettas that precede the "insipid" new ones (091.0564).
