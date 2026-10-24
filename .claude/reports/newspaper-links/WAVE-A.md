@@ -54,3 +54,27 @@ Nothing was fetched or written for these, so their `source=` strings, footnotes 
 - `/home/krr/bashkirtseff/content/_original/067/1876-12-11.md`
 - three new WebP files in `/home/krr/bashkirtseff/src/frontend/public/images/marie/clippings/067/`
 - this report
+
+# Part 2 — resumed after cool-down (2026-10-24/25): BLOCKED, no group done
+
+Per the coordinator's rules: 60-minute cool-down, then a probe, with another 60 minutes after each failure and a stop after 3 failed probes.
+
+| probe | call | result |
+|---|---|---|
+| 1 | date URL `cb34355551z/date18760626` (Figaro, for 062.0754) | challenge page «Okamžik…» |
+| 2 | same, after 60 min | challenge page |
+| 3 | same, after another 60 min | challenge page |
+
+Stopped after the third failed probe. I did not click or bypass anything and made no other scraper calls (IIIF or otherwise).
+
+**Groups done in Part 2: none.** All 11 remaining groups are untouched: 062.0754, 078.0351, 079.0120, 079.0277, 080.0422, 081.0093, 081.0315, 067.1569–1601, and Le Sport 068.0842/0895 (its title ark is still unchecked). Only 067.1603–1618 from Part 1 is done.
+
+Gates: no carnet touched in Part 2, so no gate was run.
+
+Notes for the next attempt:
+- The block has now lasted more than 3 hours on `scrape_url` date pages. A longer cool-down (a day), or a different egress for the scraper, is probably needed.
+- The 062.0754 clipping is a June 1876 Ignotus portrait of Antonelli, the «ancien portrait» that the Nov 1876 article quotes. Date guess: Figaro 26 Jun 1876 (Monday), with 25 and 27 Jun as neighbours. This guess is unverified, so no link was written.
+- The date URL is only needed to find the issue ark. The page images of known arks, e.g. Le Pays 1878-04-11 `bpt6k4670061v`, can be requested directly, so 079.0277 is the cheapest first group once calls pass.
+
+## Translation impact (Part 2)
+None: no carnet changed in Part 2.
