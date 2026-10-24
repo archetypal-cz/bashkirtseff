@@ -16,7 +16,7 @@ The comte de Barrême, an elderly gentleman of Nice, president of the cercle of 
 
 ## Relevance to Marie
 
-- **6 May 1874 (Paris).** «Ce vieux Barrême partait» from the gathering round her mother with Tichkevitch and «Inemployé», now named Galula (019.0128–0129).
+- **6 May 1874 (Paris).** «Ce vieux Barrême partait» from the gathering round her mother with Tichkevitch and «l'*employé*» (the clerk), who «désormais a un nom: Galula» (019.0128–0129).
 - **29 November 1874.** President of the club, one of the escorts at the Italiens (027.0073).
 - **6 December 1874.** In the waiting room as they leave, he introduces his nephew to the family (027.0186), and Marie hears the street compliment «Oh che bella angiolina !».
 - **8 and 14 December 1874.** He stays long at the visit (027.0201), calls with the comte Albert d'Olivier (027.0251), and on 25 December calls again at the pavilion; Marie, buttoning her boots, calls out from the balcony and presents «le vieux de Barrême» to her aunt (028.0014–0018).
