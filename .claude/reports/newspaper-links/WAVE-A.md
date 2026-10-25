@@ -78,3 +78,26 @@ Notes for the next attempt:
 
 ## Translation impact (Part 2)
 None: no carnet changed in Part 2.
+
+# Part 3 — resumed 2026-10-25 (about 18 h after the block): BLOCKED, no group done
+
+Probe as instructed: Le Pays 1878-04-11, ark `bpt6k4670061v`, f1, IIIF page image directly (no date URL), `/full/1600,/`.
+
+| probe | time | result |
+|---|---|---|
+| 1 | 09:19 | page screenshot is a dark frame with a broken-image icon (16.8 KB), no challenge page |
+| 2 | 09:38 (after 17 min) | same broken image (16.8 KB) |
+| 3 | ~10:45 (after 60 min) | job error `blocked URL: scheme 'about' not allowed`: Chrome tab left on `about:blank`, i.e. the image request failed again |
+
+No challenge page appeared in Part 3 (unlike Part 2, where every date-URL probe returned «Okamžik…»), but the IIIF image is not delivered, which is the same soft failure seen on 24 Oct before the first region tile worked. I stopped after 3 failed probes, as agreed. Nothing was bypassed; 3 scraper calls in total.
+
+Possible causes, not distinguishable from here: Gallica or Cloudflare still throttling uncached IIIF derivatives for this egress; or this ark/folio not serving IIIF (the ark was only verified through its page title on 24 Oct, never through an image).
+
+**Groups done in Part 3: none.** Remaining groups unchanged: 062.0754, 078.0351, 079.0120, 079.0277, 080.0422, 081.0093, 081.0315, 067.1569–1601, Le Sport 068.0842/0895. Only 067.1603–1618 (Part 1) is done.
+
+Gates: no carnet touched in Part 3, no gate run.
+
+Suggestion for the lead: a human (or a different egress) should first check in a browser that `https://gallica.bnf.fr/iiif/ark:/12148/bpt6k4670061v/f1/full/1600,/0/native.jpg` and the Figaro date pages open; if they do, the remaining groups can be done from a normal browser session with the crop method in Part 1.
+
+## Translation impact (Part 3)
+None: no carnet changed in Part 3.
