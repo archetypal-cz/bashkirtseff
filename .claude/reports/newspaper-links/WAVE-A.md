@@ -101,3 +101,36 @@ Suggestion for the lead: a human (or a different egress) should first check in a
 
 ## Translation impact (Part 3)
 None: no carnet changed in Part 3.
+
+# Part 4 — resumed 2026-10-26 on `"method":"chrome"`: 2 groups done, then a CHALLENGE (stopped)
+
+Method as instructed by the coordinator: `f/scraper/screenshot` and `scrape_url` with `"method":"chrome"`, one call at a time, 120 s before each, 15 min pause after 8 calls. IIIF pages and region tiles worked (about 10 calls); one `about:blank` error on a full-page request cleared on the very next try. The calls up to the second pause: 1 full page, 3 tiles for p. 1 (Pays 1878-04-11), 1 full page + 1 tile for p. 2, 1 date page (Pays 27 Mar), 1 full page, 1 tile. The first call after the 15-minute pause was the Figaro date page `cb34355551z/date18780302` (for 078.0351) and returned the Cloudflare page «Okamžik…». Stopped there, nothing retried or bypassed. (The Le Pays date URL had worked, the Figaro one now does not: the Figaro title may be flagged separately.)
+
+## Done in Part 4
+
+### 079.0277–0299 (Cassagnac article on the Gent election, in `content/_original/079/1878-04-10.md`) — DONE
+- Issue: Le Pays, Thursday 11 April 1878, ark `bpt6k4670061v`, p. 1 col. 6 (from «Je n'étais pas à Paris hier») continued at the top of p. 2 col. 1 to the signature «P. de C.».
+- Images (`src/frontend/public/images/marie/clippings/079/`): `pays-1878-04-11-p1-cassagnac-1.webp` (760x1151, 107 KB), `…-p1-cassagnac-2.webp` (760x935, 96 KB), `pays-1878-04-11-p2-cassagnac-3.webp` (640x1068, 89 KB). All three on paragraph 079.0277. The signature and handwritten stamp below the article on p. 1 are cut off.
+- Footnote `[^079.0277.1]` (issue and pp. 1–2 link), RSR NOTE 2026-10-26T09:12:00, `source=` of all 23 clipping paragraphs → «Le Pays, 11 avril 1878, article de Paul de Cassagnac», `drawings:` 3 items.
+- **Finding:** this block is not a clipping pasted by Marie. It is the printed edition's footnote 5 (Mon Journal t.11 p.196), and our text follows the edition (verified against `tome11.docx`). Compared with the newspaper the edition has transcription or typesetting differences: 079.0277 «moi-même» missing; 079.0278 «Bilioni» for Biliotti, «2.000»; 079.0289 «impudence» for «imprudence»; 079.0290 the words «la persistance des injures dont son directeur a refusé réparation par les armes expose» are missing (the sentence is incomplete); 079.0292 «On a insisté, le Pays a insisté.» replaced by «On a insisté !»; 079.0295 «!» for «?»; 079.0298 punctuation; 079.0299 «défence» and the signature «P.de G» (print: «défense», «P. de C.»). **Text not changed** (the edition is the reference; these are the edition's, not Marie's, but the owner should decide whether to correct them); all listed in the RSR note.
+- Print note: the right edge of the scan trims a few words («M. Gen[t]», «son e[ncontre]») in 079.0285; the transcription has them complete.
+
+### 079.0120–0122 («Prospérité républicaine», in `content/_original/079/1878-03-27.md`) — DONE
+- Issue: Le Pays, Wednesday 27 March 1878 (Paris bulletin headed 26 March; evening paper dated next day), ark `bpt6k46700465`, p. 1 col. 6, unsigned column «Prospérité républicaine», found by reading the page image.
+- Image: `pays-1878-03-27-p1-prosperite-republicaine.webp` (672x1224, 117 KB), on 079.0120.
+- Footnote `[^079.0120.1]`, RSR NOTE 2026-10-26T09:24:00, `source=` of 079.0120–0122 → «Le Pays, 27 mars 1878 (lignes non signées, attribuées par Marie à Cassagnac)», `drawings:` 1 item.
+- Same finding: a quoted block from the edition (not a pasted clipping). Differences vs the print, text NOT changed: 079.0120 «elle [est] intraitable»; 079.0121 «(?), qui»; 079.0122 «espagnols» (edition «espagnoles») and «…le marasme, les grèves ont reparu.» (edition: «marasme. Les grèves…»).
+
+Gates: `just splicescan _original 079` prints nothing; `just verify-carnet _original 079` PASS. Carnet 079 is finished for the Le Pays groups (079.0120, 079.0277), nothing else pending in it. Not touched: 062, 078, 080, 081, 067.1569–1601, 068.
+
+## Not done (still pending)
+062.0754 (Ignotus portrait, Figaro ~26 Jun 1876), 078.0351 (Figaro; text suggests 2 or 3 Mar 1878, letter to Périvier), 080.0422 (Figaro ~5 Jun 1878: session of 4 June, date to confirm), 081.0093 (Figaro 28 Jun 1878), 081.0315 (Figaro 5 Jul 1878; the service was «hier», 4 July), 067.1569–1601 (Figaro 5 Dec 1876), 068.0842/0895 (Le Sport). All are Le Figaro (title ark `cb34355551z`) except Le Sport. Date pages of that title challenge, so all remaining groups wait on the Figaro date pages; the Figaro issue ark for 7 Nov 1876 (`bpt6k276148f`) and the date form that worked for it earlier suggest trying again after a longer pause, or taking the issue arks from a browser.
+
+## Translation impact (Part 4)
+
+Carnet **079** (finished for these two groups; entries `1878-03-27`, `1878-04-10`):
+- **New footnotes to localize** (cz, uk, en identical to `_original`, fr): `079.0120.1` and `079.0277.1`, per PLAN §4, wording as in `_original`.
+- **Changed clipping `source=`** strings: 3 kind lines in 1878-03-27 (079.0120–0122) and 23 in 1878-04-10 (079.0277–0299). `sync` follows kind markers.
+- **New RSR notes**: 079.0120 (2026-10-26T09:24:00) and 079.0277 (2026-10-26T09:12:00); `--notes-since 2026-10-26`.
+- **`drawings:` captions and alt to translate** (cz/uk/en own lists; fr inherits): 1878-03-27: 1 item (079.0120); 1878-04-10: 3 items (079.0277). Captions in French: «Le Pays, 27 mars 1878, p. 1 — « Prospérité républicaine »»; «Le Pays, 11 avril 1878, p. 1 — article de Paul de Cassagnac (début)» / «(suite)» / «p. 2 — fin de l'article de Paul de Cassagnac, signé P. de C.», each with an alt.
+- **Changed clipping text: none** (the edition's differences are listed in the RSR notes only; an owner decision on correcting them would then change the text in all trees).
