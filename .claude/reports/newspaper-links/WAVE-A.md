@@ -194,3 +194,21 @@ For every carnet: kind-line `source=` changes follow `sync`; new RSR notes via `
 - No visible text change. `source=` of 081.0093 and 081.0094 → «Le Figaro, 28 juin 1878, mariage de Paul de Cassagnac».
 - New footnote `081.0093.1`, new RSR note on 081.0093; `drawings:` 1 item: «Le Figaro, 28 juin 1878, p. 1 — le mariage de Paul de Cassagnac et de Mlle Julia Acard».
 - Carnet 081: the 28 June group is finished, the 5 July group is waiting for the 6 July issue.
+
+# Part 6 — 081.0315–0326 (Queen Mercedes service at the Madeleine): DONE
+
+- Issue: Le Figaro no. 187, Saturday 6 July 1878 (owner's ark `bpt6k276783s`), p. 1, col. 3, the item «À travers Paris» (found at once on p. 1; pp. 2–3 not needed). The service took place on Friday 5 July, the day of Marie's entry, and the paper of the 6th says «Hier»; the 5 July issue (`bpt6k276782d`, pp. 1–2) has nothing, as found in Part 5. One call (full page p. 1), then local crops; no challenge.
+- Image: `src/frontend/public/images/marie/clippings/081/figaro-1878-07-06-p1-service-reine-mercedes.webp` (1186×935, 207 KB, two panels side by side), on 081.0315.
+- Text status: Marie's own copy (italics, abridgements, her own lapses), so KEPT; the variants (about a dozen: «Cérémonie funèbre» for «Cette cérémonie funèbre», «colonie résidant» for «colonie espagnole résidant», «Biadra»/«Buadra», «le gouvernement de Paris» for «le gouverneur de Paris», «l'ambasade», commas, etc.) are listed in the RSR note.
+- `source=` of 081.0315–0326 (12 paragraphs) → «Le Figaro, 6 juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)». Footnote `081.0315.1` with the issue link, RSR NOTE 2026-10-26T14:10:00, `drawings:` 1 item.
+- Gates: `just splicescan _original 081` prints nothing; `just verify-carnet _original 081` PASS. Carnet 081 is now finished for wave A (081.0093 and 081.0315).
+- Still open in wave A: Le Sport 068.0842/0895 only (title ark unverified; needs a date URL or an ark from the owner).
+
+## Translation impact (Part 6), carnet 081, file `1878-07-05.md`
+- **Visible text changed: none** except the footnote marker below.
+- **New marker line (list explicitly, plain sync will not carry a marker-only change):** the line of 081.0315 that begins `> *Hier à onze heures, a été célébré à l'église de la Madeleine, …` now ends `…composée de :*[^081.0315.1]` (same French, marker appended at the end of the line).
+- New footnote definition `[^081.0315.1]` (localize: «Le Figaro, no. 187, Saturday 6 July 1878, p. 1 — [read the issue on Gallica (BnF)](link). The item «À travers Paris» reports the memorial service for Queen Mercedes held at the Madeleine on 5 July 1878.»).
+- `source=` change on the 12 kind lines of 081.0315–0326 (sync follows kind markers).
+- New RSR note on 081.0315 (`--notes-since 2026-10-26`).
+- `drawings:` 1 new item for cz/uk/en own lists, caption «Le Figaro, 6 juillet 1878, p. 1 — le service funèbre de la reine Mercedes à la Madeleine» with its alt.
+- Same marker-only caveat for Part 5 marker lines, for the lead's sync: `062.0754.1` (end of `> LE CARDINAL ANTONELLI`), `062.0758.1` (after «ramené d'exil Pie IX» inside a text line, so that one is a text-line change), `067.1569.1` (end of `> Gazette de la Chambre`), `078.0351.2` (after `…huis-clos[^078.0351.1]`) and the correction markers `078.0xxx.1`, `080.0422.1` (end of `> M. Paul de Cassagnac prend la parole … de vouloir`), `081.0093.1` (end of the first quoted line of 081.0093).
