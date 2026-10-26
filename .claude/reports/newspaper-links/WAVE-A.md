@@ -134,3 +134,63 @@ Carnet **079** (finished for these two groups; entries `1878-03-27`, `1878-04-10
 - **New RSR notes**: 079.0120 (2026-10-26T09:24:00) and 079.0277 (2026-10-26T09:12:00); `--notes-since 2026-10-26`.
 - **`drawings:` captions and alt to translate** (cz/uk/en own lists; fr inherits): 1878-03-27: 1 item (079.0120); 1878-04-10: 3 items (079.0277). Captions in French: «Le Pays, 27 mars 1878, p. 1 — « Prospérité républicaine »»; «Le Pays, 11 avril 1878, p. 1 — article de Paul de Cassagnac (début)» / «(suite)» / «p. 2 — fin de l'article de Paul de Cassagnac, signé P. de C.», each with an alt.
 - **Changed clipping text:** at first none; owner decision 2026-10-26 («1 yes»): the edition's copying errors were corrected to Le Pays in 15 paragraphs (079.0120–0122, 0277–0299) with a footnote each, carried into cz/uk/en/fr (0290 clause newly translated; RED should check; en CON note «Bilioni kept» is superseded).
+
+# Part 5 — 2026-10-26, owner's Figaro arks, IIIF only (`method:"chrome"`): 5 groups done, 081.0315 and Le Sport open
+
+No challenge page in Part 5 (about 12 scraper calls, ≥120 s apart, with pauses). Region tiles failed (broken 16×16 images) for the entire first half of the session, so, as the lead suggested, every clipping was cut LOCALLY from a 1600-px `/full/1600,/` page image (grayscale WebP, two-panel mosaics where the article spans columns). The 1600-px page is readable at column width but sharper than that is not possible; images are about 280–520 KB for the long ones. If sharper tiles are wanted later, the exact regions are in the report text below.
+
+Owner rule 2026-10-26 applied: where `_original` holds the printed edition's quotation of a newspaper, its copying errors were corrected to the newspaper (one RSR «CORRECTED» note + one footnote per paragraph with the edition's reading); where the text is Marie's own copy, it is kept and the variants only noted. Both 079 groups (done in Part 4) were corrected by the lead before this run, as were their footnotes.
+
+## Done
+
+| group | issue (ark) | page | image(s) in `src/frontend/public/images/marie/clippings/…` | transcription | footnote | status |
+|---|---|---|---|---|---|---|
+| 062.0754–0766 «Le cardinal Antonelli», Ignotus | Le Figaro no. 178, Mon 26 Jun 1876 (`bpt6k2760102`) | p. 1, cols 1–3 | `062/figaro-1876-06-26-p1-antonelli-ignotus-1/-2/-3.webp` (314/277/159 KB) | read whole article; 1 edition error corrected: 062.0758 «Quant la République» → «Quand» | `062.0754.1` (issue link), `062.0758.1` (edition reading) | DONE |
+| 067.1569–1601 Gazette de la Chambre, séance du 4 déc. | Le Figaro no. 340, Tue 5 Dec 1876 (`bpt6k2761773`) | p. 1, cols 5–6 | `067/figaro-1876-12-05-p1-gazette-chambre-1.webp` (183 KB), `…-2.webp` (271 KB) (two-panel mosaics) | no differences (also «Guyot-Montparoux/-Montpayroux» is the newspaper's) | `067.1569.1` | DONE |
+| 078.0351–0377 «Pourquoi M. de Cassagnac avait demandé le huis-clos» | Le Figaro no. 62, Sun 3 Mar 1878 (`bpt6k276649c`) | p. 1, «Figaro Pic-nic», foot of col. 3 to col. 4 | `078/figaro-1878-03-03-p1-huis-clos-1.webp` (203 KB), `…-2.webp` (138 KB) | 15 paragraphs corrected to the print (see below) | `078.0351.2` link + one correction footnote in each corrected paragraph | DONE (the 2 Mar issue `bpt6k2766480` was not needed) |
+| 080.0422–0424 note on Cassagnac's election | Le Figaro no. 156, Wed 5 Jun 1878 (`bpt6k276749p`) | p. 2, col. 2, «Gazette de la Chambre» of 4 June (Albert Millaud) | `080/figaro-1878-06-05-p2-seance-cassagnac.webp` (90 KB) | same words; print «la chambre» lower case and ends «à mort.» (Marie's copy: kept, noted) | `080.0422.1` | DONE |
+| 081.0093–0094 wedding of Cassagnac | Le Figaro no. 179, Fri 28 Jun 1878 (`bpt6k2767756`) | p. 1, foot of col. 3 and top of col. 4 | `081/figaro-1878-06-28-p1-mariage-cassagnac.webp` (138 KB) | Marie's own copy: kept; variants listed in the RSR note («ave», «Monsieur»/«M.», «officier ,», «dans le villes», …) | `081.0093.1` | DONE |
+
+`source=` exact dates written for all of these; `drawings:` items added (kind clipping, source «gallica.bnf.fr / BnF», source_url = the page link, paragraph = first pid of the group). 078.0351: the earlier RSR/LAN notes of 2026-10-21 said the clipping's own spelling wavers («Billioti/Biliotti», «Talendier», «lieutenant-général», «gémissement»); the new RSR note says this was the edition's copying, not the newspaper, and the old notes are superseded.
+
+078 corrections (all in `1878-03-03.md`, each with RSR «CORRECTED» note and footnote `078.0xxx.1` = edition's reading): 0351 «huis clos»→«huis-clos»; 0354 «A props»→«A propos», «M. Billioti»→«M. de Billiotti», comma after «tribune», comma after «153»; 0360 commas, «Épousa, en Provence»; 0361 «maitresse»→«maîtresse», «bientôt,», «tendresses»→«tendresse» (the print's own «Poussés pas» is kept); 0363 «lieutenant-général»→«lieutenant-colonel», comma; 0365 «se déposer»→«se disposer», commas; 0366 «les deux pistolets»→«ses», «s"avança», «été flagrant»→«était», comma; 0367 comma, «gémissement»→«gémissements»; 0369 «Talendier»→«Talandier»; 0370 «l'accusation, emporterait… peine ; mais»; 0371 «à dû»→«a dû»; 0372 «acquité»→«acquitté»; 0374 «les fait»→«les faits»; 0376 «dans l'arrondissement»→«dans un arrondissement»; 0377 «Du reste, quant». (Left alone as number/layout style: «46^e^» etc.)
+
+Gates (`_original`): `just splicescan` prints nothing and `just verify-carnet` PASS for 062, 067, 078, 079, 080, 081.
+
+## Not done
+
+- **081.0315–0326 (Mercedes service at the Madeleine):** the owner's two arks were read at p. 1–2 of the 5 Jul 1878 issue (`bpt6k276782d`, no. 186); the article is not on pp. 1–2 (p. 3–4 not opened; the other ark `bpt6k2767811` was not opened). The clipping says «Hier à onze heures a été célébré…», and Marie's entry is Friday 5 July, in which she attended the service: the service was on 5 July and the report is in the issue of **Saturday 6 July 1878**. Needed: the ark of the 6 July Figaro (one more owner lookup), then the same method (pp. 1–3 first).
+- **068.0842 / 068.0895 (Le Sport):** not started; the Le Sport title ark is still unverified and a date URL would be needed, which triggered the Cloudflare challenge before. Skipped on purpose.
+
+## Translation impact (Part 5)
+
+For every carnet: kind-line `source=` changes follow `sync`; new RSR notes via `--notes-since 2026-10-26`; footnotes are listed per paragraph; `drawings:` captions and alts are in French in `_original` (cz/uk/en own lists need localized copies, fr inherits).
+
+**062** (`1876-06-27.md`)
+- Visible text changed: 062.0758 «Quant la République française» → «Quand la République française».
+- `source=` of 062.0754–0766 (13 paragraphs) → «Le Figaro, 26 juin 1876, Le cardinal Antonelli par Ignotus».
+- New footnotes: `062.0754.1` (issue link), `062.0758.1` (edition's reading «Quant …»; to be localized in each tree as a «corrected from the newspaper» note, carrying the edition's French wording).
+- New RSR notes: 062.0754 (12:24) and 062.0758 (12:25).
+- `drawings:` 3 items (captions: «Le Figaro, 26 juin 1876, p. 1 — « Le cardinal Antonelli » par Ignotus (début, colonnes 1 à 3)» / «(suite et fin, signature Ignotus)» / «(bas des colonnes 1 et 2)», each with an alt).
+
+**067** (`1876-12-11.md`)
+- No visible text change.
+- `source=` of 067.1569–1601 (33 paragraphs) → «Le Figaro, 5 décembre 1876, Gazette de la Chambre par Albert Millaud, séance du 4 décembre 1876».
+- New footnote: `067.1569.1`; new RSR note on 067.1569.
+- `drawings:` 2 items (paragraph 067.1569): «Le Figaro, 5 décembre 1876, p. 1 — « Gazette de la Chambre » par Albert Millaud (début, colonne 5)» and «(suite et fin, colonne 6)». The tree lists that carry the 067.1602/1603/1612 items get these two appended.
+
+**078** (`1878-03-03.md`)
+- **Visible text changed in 15 paragraphs** (078.0351, 0354, 0360, 0361, 0363, 0365, 0366, 0367, 0369, 0370, 0371, 0372, 0374, 0376, 0377): the corrections listed above. Each gets a localized footnote of the form «Corrected from *Le Figaro* …; the edition reads …» (`078.0351.1`, `0354.1`, `0360.1`, `0361.1`, `0363.1`, `0365.1`, `0366.1`, `0367.1`, `0369.1`, `0370.1`, `0371.1`, `0372.1`, `0374.1`, `0376.1`, `0377.1`) and a new RSR «CORRECTED» note. The translated text changes only where the corrected word matters: «lieutenant-général» → «lieutenant-colonel» (0363), «Talendier» → «Talandier» (0369), «M. Billioti» → «M. de Billiotti» (0354), «dans l'arrondissement» → «dans un arrondissement» (0376), «les deux pistolets» → «ses deux pistolets» (0366), «se déposer» → «se disposer» (0365).
+- Plus `078.0351.2` (issue link), and the `source=` of all 27 clipping paragraphs → «Le Figaro, 3 mars 1878, « Pourquoi M. de Cassagnac avait demandé le huis-clos » (Figaro Pic-nic)».
+- `drawings:` 2 items (paragraph 078.0351): «Le Figaro, 3 mars 1878, p. 1 — « Figaro Pic-nic » : « Pourquoi M. de Cassagnac avait demandé le huis-clos » (lettre de Paul de Cassagnac)» and «… le compte rendu de 1836 (colonne 4)». The 2026-10-21 RSR and LAN notes on 078.0351 are now superseded by the NOTE of 2026-10-26T13:12 (the sync of notes does not delete the old ones; the new note says so).
+
+**079** (finished in Part 4; the lead has already corrected its text) — nothing new in Part 5.
+
+**080** (`1878-06-05.md`)
+- No visible text change. `source=` of 080.0422–0424 → «Le Figaro, 5 juin 1878, « Gazette de la Chambre » (séance du 4 juin)».
+- New footnote `080.0422.1`, new RSR note on 080.0422; `drawings:` 1 item: «Le Figaro, 5 juin 1878, p. 2 — « Gazette de la Chambre » (Albert Millaud), la demande de Paul de Cassagnac».
+
+**081** (`1878-06-28.md`; 081.0315 in `1878-07-05.md` still pending)
+- No visible text change. `source=` of 081.0093 and 081.0094 → «Le Figaro, 28 juin 1878, mariage de Paul de Cassagnac».
+- New footnote `081.0093.1`, new RSR note on 081.0093; `drawings:` 1 item: «Le Figaro, 28 juin 1878, p. 1 — le mariage de Paul de Cassagnac et de Mlle Julia Acard».
+- Carnet 081: the 28 June group is finished, the 5 July group is waiting for the 6 July issue.
