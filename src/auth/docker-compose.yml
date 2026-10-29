@@ -62,7 +62,7 @@ services:
       - "com.centurylinklabs.watchtower.enable=false"
 
   postgrest:
-    image: postgrest/postgrest:v12.2.8
+    image: postgrest/postgrest:v12.2.12
     container_name: postgrest
     restart: unless-stopped
     depends_on:
