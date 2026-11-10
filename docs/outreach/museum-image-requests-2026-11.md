@@ -1,6 +1,6 @@
 # Museum image-permission requests (A-51), November 2026
 
-Templates for the owner to send from his own e-mail. Fill the placeholders `[NAME]`, `[EMAIL]`, `[ROLE]` before sending. Contacts and priorities come from `works-catalogue.md` (section "Image-permission requests"); inventory data from `docs/research/marie-bashkirtseff-works-catalogue.md`. Check each museum's current contact page before sending, because addresses change.
+**DRAFT — nothing here has been sent or published anywhere outside this repository (status column blank = not sent).** Templates for the owner to send from his own e-mail. Fill the placeholders `[NAME]`, `[EMAIL]`, `[ROLE]` before sending. Contacts and priorities come from `works-catalogue.md` (section "Image-permission requests"); inventory data from `docs/research/marie-bashkirtseff-works-catalogue.md`. Check each museum's current contact page before sending, because addresses change.
 
 | Museum | Works (inventory) | Contact route | Status |
 |---|---|---|---|
