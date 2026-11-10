@@ -53,7 +53,7 @@ State as of 2026-10-10, counted from entry frontmatter flags.
 - "faire la cour" = to court
 - "canaille" = scoundrel
 - Maman, Grand-papa kept in French
-- "the Beast" for "Bete" (family nickname)
+- "Bête" kept as a name (Marie's nickname for Princess Galitzine; owner ruling A-58 (5c), 2026-11-10 — replaced "the Beast")
 
 ### Foreign Language Handling
 - English code-switches: marked with ==highlight== and footnote "*In English in the original*"
