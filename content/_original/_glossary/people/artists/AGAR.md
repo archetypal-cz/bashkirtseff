@@ -21,5 +21,5 @@ On 1 February 1877 Marie hears her at the Théâtre français in Nice in «Les H
 - 1877-02-01 (068.0915)
 
 ## Related
-- [HORACES](../mentioned/HORACES.md)
+- [HORACES](../../culture/theater/HORACE_CORNEILLE.md)
 - [FRENCH_THEATER_NICE](../../places/social/FRENCH_THEATER_NICE.md)

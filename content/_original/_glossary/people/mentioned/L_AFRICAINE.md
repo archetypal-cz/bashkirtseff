@@ -8,16 +8,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-11-10
+status: retired
+replaced_by: L_AFRICAINE_MEYERBEER
 ---
-# L Africaine
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_L_AFRICAINE.0001 %%
+**Retired.** Merged into [#L_AFRICAINE_MEYERBEER](../../culture/theater/L_AFRICAINE_MEYERBEER.md) (`culture/theater/L_AFRICAINE_MEYERBEER.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
+%% GLO_L_AFRICAINE.0002 %%
+%% 2026-11-10T11:53:02 RSR: Retired by glossary-merge; content and links moved to L_AFRICAINE_MEYERBEER. replaced_by: culture/theater/L_AFRICAINE_MEYERBEER.md. %%

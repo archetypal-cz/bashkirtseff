@@ -7,28 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-11-10
+status: retired
+replaced_by: LA_MUETTE_DE_PORTICI_AUBER
 ---
-# La Muette de Portici
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
+%% GLO_LA_MUETTE_DE_PORTICI.0001 %%
+**Retired.** Merged into [#LA_MUETTE_DE_PORTICI_AUBER](../../culture/theater/LA_MUETTE_DE_PORTICI_AUBER.md) (`culture/theater/LA_MUETTE_DE_PORTICI_AUBER.md`); use that entry instead.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_LA_MUETTE_DE_PORTICI.0002 %%
+%% 2026-11-10T11:53:07 RSR: Retired by glossary-merge; content and links moved to LA_MUETTE_DE_PORTICI_AUBER. replaced_by: culture/theater/LA_MUETTE_DE_PORTICI_AUBER.md. %%

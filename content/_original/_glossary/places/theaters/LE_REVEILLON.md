@@ -7,28 +7,13 @@ aliases:
 type: Place
 category: places/theaters
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-11-10
+status: retired
+replaced_by: LE_REVEILLON_MEILHAC_HALEVY
 ---
-# "Le Réveillon"
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-01-17
+%% GLO_LE_REVEILLON.0001 %%
+**Retired.** Merged into [#LE_REVEILLON_MEILHAC_HALEVY](../../culture/theater/LE_REVEILLON_MEILHAC_HALEVY.md) (`culture/theater/LE_REVEILLON_MEILHAC_HALEVY.md`); use that entry instead.
 
-## Play Details
-French theatrical work performed in Nice, 1874. Attributed to "Ravel" by Marie.
-
-## Diary References
-
-### 1874
-- **January 17**: Marie goes to the theater specifically to see this play but has to sit through "Lo Specchio Infernale" first. She enjoys "Le Réveillon."
-
-## Context
-- "Réveillon" refers to festive meals at Christmas or New Year
-- Popular theatrical theme in 19th century
-- Likely a comedy given the title and Marie's enjoyment
-- Performed at the French Theater in Nice
-
-## Note
-- Marie attributes it to "Ravel" - possibly confusion with composer or different author
-- May be related to Meilhac and Halévy's operetta that became basis for "Die Fledermaus"
+%% GLO_LE_REVEILLON.0002 %%
+%% 2026-11-10T11:52:22 RSR: Retired by glossary-merge; content and links moved to LE_REVEILLON_MEILHAC_HALEVY. replaced_by: culture/theater/LE_REVEILLON_MEILHAC_HALEVY.md. %%

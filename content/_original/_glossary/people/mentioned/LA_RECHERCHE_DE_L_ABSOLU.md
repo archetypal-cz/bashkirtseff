@@ -8,16 +8,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-11-10
+status: retired
+replaced_by: LA_RECHERCHE_DE_L_ABSOLU_BALZAC
 ---
-# La Recherche de l Absolu
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_LA_RECHERCHE_DE_L_ABSOLU.0001 %%
+**Retired.** Merged into [#LA_RECHERCHE_DE_L_ABSOLU_BALZAC](../../culture/literature/LA_RECHERCHE_DE_L_ABSOLU_BALZAC.md) (`culture/literature/LA_RECHERCHE_DE_L_ABSOLU_BALZAC.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
+%% GLO_LA_RECHERCHE_DE_L_ABSOLU.0002 %%
+%% 2026-11-10T11:53:25 RSR: Retired by glossary-merge; content and links moved to LA_RECHERCHE_DE_L_ABSOLU_BALZAC. replaced_by: culture/literature/LA_RECHERCHE_DE_L_ABSOLU_BALZAC.md. %%

@@ -7,28 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-11-10
+status: retired
+replaced_by: SON_EXCELLENCE_EUGENE_ROUGON
 ---
-# Eugene Rougon
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
+%% GLO_EUGENE_ROUGON.0001 %%
+**Retired.** Merged into [#SON_EXCELLENCE_EUGENE_ROUGON](../../culture/literature/SON_EXCELLENCE_EUGENE_ROUGON.md) (`culture/literature/SON_EXCELLENCE_EUGENE_ROUGON.md`); use that entry instead.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_EUGENE_ROUGON.0002 %%
+%% 2026-11-10T11:53:33 RSR: Retired by glossary-merge; content and links moved to SON_EXCELLENCE_EUGENE_ROUGON. replaced_by: culture/literature/SON_EXCELLENCE_EUGENE_ROUGON.md. %%

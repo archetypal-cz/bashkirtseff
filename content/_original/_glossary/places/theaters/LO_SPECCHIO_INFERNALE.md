@@ -7,29 +7,13 @@ aliases:
 type: Place
 category: places/theaters
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-11-10
+status: retired
+replaced_by: LO_SPECCHIO_INFERNALE_BALLET
 ---
-# "Lo Specchio Infernale"
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-01-17
+%% GLO_LO_SPECCHIO_INFERNALE.0001 %%
+**Retired.** Merged into [#LO_SPECCHIO_INFERNALE_BALLET](../../culture/theater/LO_SPECCHIO_INFERNALE_BALLET.md) (`culture/theater/LO_SPECCHIO_INFERNALE_BALLET.md`); use that entry instead.
 
-## Play Details
-Italian theatrical work performed at the French Theater in Nice.
-
-## Diary References
-
-### 1874
-- **January 17**: Performed before "Le Réveillon." Marie complains they were "maltreated" by having to sit through this piece first.
-
-## Context
-- Title means "The Infernal Mirror" in Italian
-- Mixed-language programming common in cosmopolitan Nice
-- Marie's impatience shows her specific theatrical tastes
-- Likely a melodrama or fantasy piece given the title
-
-## Notes
-- Marie's verb "maltraité" (maltreated) shows strong dislike
-- Contrast with her enjoyment of "Le Réveillon"
-- Reflects sophisticated theatrical preferences at 15
+%% GLO_LO_SPECCHIO_INFERNALE.0002 %%
+%% 2026-11-10T11:52:17 RSR: Retired by glossary-merge; content and links moved to LO_SPECCHIO_INFERNALE_BALLET. replaced_by: culture/theater/LO_SPECCHIO_INFERNALE_BALLET.md. %%
