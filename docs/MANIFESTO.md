@@ -1,16 +1,18 @@
 # Bashkirtseff
 
-> _"On ne lit que ce qui existe, et moi je veux exister."_
+> _"Oui, il est évident que j'ai le désir sinon l'espoir de rester sur cette terre, par quelque moyen que ce soit."_
 >
-> (One only reads what exists, and I want to exist.)
+> (Yes, it is obvious that I have the desire, if not the hope, to remain on this earth, by whatever means.)
 >
-> — Marie Bashkirtseff, 1884
+> — Marie Bashkirtseff, Préface, May 1884 (000.0003)
+
+_Quotation policy: every quotation in this document is verbatim from the French manuscript text in `content/_original`, cited by paragraph ID (carnet.paragraph). Checked against the source on 2026-11-10; an earlier version carried paraphrases presented as quotations._
 
 ---
 
 ## Who Was Marie?
 
-Marie Bashkirtseff (1858–1884) was a Ukrainian-born Russian aristocrat who kept one of the most extraordinary diaries ever written. From age 13 until her death from tuberculosis at 25, she filled over 100 volumes with her thoughts, dreams, frustrations, and observations.
+Marie Bashkirtseff (1858–1884) was a Ukrainian-born Russian aristocrat who kept one of the most extraordinary diaries ever written. From age 14 until her death from tuberculosis at 25, she filled over 100 volumes with her thoughts, dreams, frustrations, and observations.
 
 She was a talented painter who studied at the Académie Julian in Paris, one of the few institutions that admitted women. She exhibited at the Salon. Her painting _Un meeting_ hangs in the Musée d'Orsay.
 
@@ -20,9 +22,11 @@ She was vain, ambitious, brilliant, insecure, dramatic, and searingly honest abo
 
 She wanted, desperately, to be known and remembered.
 
-> _"Si je ne meurs pas jeune, j'espère rester comme un grand artiste; mais si je meurs jeune, je veux laisser publier mon journal, qui ne peut manquer d'être intéressant."_
+> _"Si je ne meurs pas jeune, j'espère rester comme une grande artiste, mais si je meurs jeune je veux laisser publier mon journal qui ne peut pas être autre chose qu'intéressant."_
 >
-> (If I do not die young, I hope to remain as a great artist; but if I die young, I want to have my journal published, which cannot fail to be interesting.)
+> (If I do not die young, I hope to remain as a great artist; but if I die young, I want my journal published, which cannot be anything other than interesting.)
+>
+> — Préface, May 1884 (000.0003)
 
 She _did_ die young. Her mother published the diary, but censored it heavily, removing Marie's romantic obsessions, harsh opinions, illness details, and anything deemed improper for a young lady.
 
@@ -42,9 +46,11 @@ No one has yet made Marie's _complete_ diary available, not to mention in multip
 
 Marie wanted above all for the world to know her from her diary — as complete as she could capture.
 
-> _"Que l'on ne change rien."_
+> _"C'est justement parce que j'espère être lue que je suis absolument sincère."_
 >
-> (Let nothing be changed.)
+> (It is precisely because I hope to be read that I am absolutely sincere.)
+>
+> — Préface, May 1884 (000.0003)
 
 For over a century, we failed her. But today, we have unprecedented tools to change that. AI-assisted translation makes it possible to offer _everything_ and let readers decide whether to delve or skim. The devoted can follow every entry; others can discover the highlights that resonate most.
 
@@ -67,9 +73,11 @@ The vision:
 
 If this grows into something larger, a revival of interest in Marie, a community, perhaps an organization, so be it. She would approve.
 
-> _"Je veux tout, et tout de suite."_
+> _"Je veux tout et je n'ai rien. Je sacrifierais tout à l'ambition, tout, je m'entends, tout excepté ma mère et ma tante."_
 >
-> (I want everything, and I want it now.)
+> (I want everything and I have nothing. I would sacrifice everything to ambition, everything, I mean, everything except my mother and my aunt.)
+>
+> — 6 March 1875 (030.0149)
 
 ---
 
@@ -79,7 +87,7 @@ These principles are derived from Marie's own words and values:
 
 ### 1. Completeness
 
-> _"Que l'on ne change rien."_
+> _"C'est justement parce que j'espère être lue que je suis absolument sincère."_ (000.0003)
 
 We publish the full, uncensored text. Her contradictions, her vanity, her flaws, her brilliance — all of it. No sanitizing for modern sensibilities. Marie wanted to be known as she was.
 
@@ -94,9 +102,11 @@ Marie wanted the _world_ to know her, not just French aristocrats or academic sp
 
 ### 3. Seriousness
 
-> _"Si j'avais été un homme, j'aurais conquis l'Europe."_
+> _"Homme j'aurais conquis l'Europe."_
 >
-> (If I had been a man, I would have conquered Europe.)
+> (As a man, I would have conquered Europe.)
+>
+> — 25 June 1884 (104.0647)
 
 Marie wanted to be taken seriously — as a thinker, artist, and writer. We provide scholarly context: who were these people she mentions? What was happening in 1879? What does this French idiom mean?
 
@@ -106,9 +116,11 @@ The glossary, the research, the careful translation — these honor her demand t
 
 Marie's diary is a feminist document, whether she would have used that word or not. She insisted that a woman's inner life was as rich, complex, and worthy of attention as any man's.
 
-> _"Je suis mon propre héros."_
+> _"Les gens qui écrivent décrivent toujours leur héroïne, or je suis mon héroïne à moi."_
 >
-> (I am my own hero.)
+> (People who write always describe their heroine; well, I am my own heroine.)
+>
+> — 19 July 1875 (037.0310)
 
 We frame her work as an important piece of women's history — a young woman's intellectual and emotional life, preserved in extraordinary detail, from an era that dismissed such things as trivial.
 
@@ -137,7 +149,7 @@ Instead, Marie speaks through:
 
 **Her actual words** — epigraphs, quotes, excerpts woven throughout. She wrote beautifully; we let her writing carry the weight.
 
-**The editorial framework** — decisions are grounded in her stated wishes. "Marie asked that nothing be altered. We honor that by..."
+**The editorial framework** — decisions are grounded in her stated wishes. "Marie wrote that she was absolutely sincere precisely because she hoped to be read. We honor that by..."
 
 **Thematic collections** — her thoughts on ambition, love, art, mortality, being a woman — organized so modern readers can engage with her ideas.
 
@@ -206,13 +218,15 @@ Working name: **Bashkirtseff**
 Possible final names:
 
 - **The Bashkirtseff Project** — clear, searchable, serious
-- **Je Veux Exister** — her own words: "I want to exist"
+- **Je Voudrais Être Quelqu'un** — her own words: "I would like to be somebody" (030.0141)
 
 For now, we simply use her name. It's what she would have wanted.
 
-> _"La plus grande crainte que j'aie, c'est de ne point laisser de traces de mon existence."_
+> _"Je voudrais être quelque chose, je voudrais être quelqu'un. Mais comment ? Mais par quoi ?"_
 >
-> (The greatest fear I have is to leave no trace of my existence.)
+> (I would like to be something, I would like to be somebody. But how? But by what means?)
+>
+> — 6 March 1875 (030.0141)
 
 She left traces. 100 volumes of them. Our job is to make sure the world can read them.
 
@@ -227,8 +241,10 @@ _Contact: [email]_
 
 ---
 
-> _"Je veux vivre, et vivre avec éclat."_
+> _"Je veux être célèbre, par quoi ? Par tout !"_
 >
-> (I want to live, and live brilliantly.)
+> (I want to be famous. By what means? By everything!)
+>
+> — 5 April 1876 (056.0435)
 
 She did. Now let's make sure people know.
