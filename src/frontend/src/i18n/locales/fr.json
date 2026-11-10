@@ -2,8 +2,8 @@
   "home": {
     "pageTitle": "Marie Bashkirtseff — Journal complet et intégral",
     "pageDescription": "Lisez le journal complet et intégral de Marie Bashkirtseff (1858-1884). Un document remarquable sur la vie, l'art et l'ambition féminine au XIXe siècle. Gratuit et accessible en plusieurs langues.",
-    "heroQuote": "Je serai célèbre ou je mourrai.",
-    "heroQuoteTranslation": "Je serai célèbre ou je mourrai.",
+    "heroQuote": "Je serai célèbre, je serai grande ou je mourrai.",
+    "heroQuoteTranslation": "Je serai célèbre, je serai grande ou je mourrai.",
     "startReading": "Commencer à lire",
     "aboutMarie": "À propos du projet",
     "thisDay": "Ce jour dans la vie de Marie",
@@ -30,8 +30,8 @@
     "researchAnnotationsDesc": "Contexte historique, glossaire des personnes et des lieux, notes linguistiques sur le texte.",
     "translationInfra": "En quatre langues",
     "translationInfraDesc": "Ukrainien, tchèque, anglais et une édition française moderne — désormais affinés paragraphe par paragraphe pour se lire comme de la littérature.",
-    "ctaQuote": "Je veux vivre, et vivre avec éclat.",
-    "ctaQuoteTranslation": "Je veux vivre, et vivre avec éclat.",
+    "ctaQuote": "Je veux tout et je n'ai rien.",
+    "ctaQuoteTranslation": "Je veux tout et je n'ai rien.",
     "startReadingDiary": "Commencer à lire le journal"
   },
   "common": {
@@ -177,7 +177,7 @@
     "diaryText2": "Après sa mort, sa mère a publié une version fortement censurée (1887). Ce n'est qu'en 1995–2005 que le texte complet a été publié en 16 volumes par le Cercle des Amis de Marie Bashkirtseff.",
     "feminism": "Féminisme",
     "feminismText1": "Marie a écrit des articles pour le journal féministe La Citoyenne sous le pseudonyme « Pauline Orrel ». Elle critiquait l'exclusion des femmes de l'École des Beaux-Arts et l'impossibilité de visiter librement les musées.",
-    "feminismQuote": "« Je sais que je devrais devenir quelqu'un ; mais avec des jupes — que peut-on faire ? »",
+    "feminismQuote": "« …je sais que je pourrai devenir quelqu'un mais avec des jupes où voulez-vous qu'on aille ? »",
     "legacy": "Héritage",
     "legacyText1": "Son journal a influencé des générations d'écrivaines — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir s'en est inspirée pour Le Deuxième Sexe.",
     "legacyText2": "Le Premier ministre britannique William Gladstone l'a qualifié de « livre sans pareil ». George Bernard Shaw était un admirateur.",
@@ -232,13 +232,13 @@
     "originalMultilingual": "Original (multilingue)"
   },
   "quotes": {
-    "existence": "Je serai célèbre ou je mourrai.",
+    "existence": "Je serai célèbre, je serai grande ou je mourrai.",
     "existenceOriginal": "",
-    "interestingBook": "Je suis le livre le plus intéressant de tous.",
+    "interestingBook": "Je vais écrire au lieu de lire, car je suis le plus intéressant des livres.",
     "interestingBookOriginal": "",
-    "live": "Je veux vivre, et vivre avec éclat.",
+    "live": "Je veux tout et je n'ai rien.",
     "liveOriginal": "",
-    "skirts": "Je sais que je devrais devenir quelqu'un ; mais avec des jupes — que peut-on faire ?"
+    "skirts": "…je sais que je pourrai devenir quelqu'un mais avec des jupes où voulez-vous qu'on aille ?"
   },
   "offline": {
     "download": "Télécharger pour hors ligne",

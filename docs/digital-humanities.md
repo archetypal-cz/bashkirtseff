@@ -144,6 +144,6 @@ As AI becomes more capable, the humanities need working models—successful or n
 ---
 
 _"What do I want? Oh, you know well. I want glory!"_
-— Marie Bashkirtseff, 1884
+— Marie Bashkirtseff, 3 July 1876 (062.0876–062.0877)
 
 _(«Mais qu'est-ce que je veux ? Oh ! vous le savez bien. Je veux la gloire !»)_

@@ -2,8 +2,8 @@
   "home": {
     "pageTitle": "Marie Bashkirtseff — Diario completo e íntegro",
     "pageDescription": "Lee el diario completo e íntegro de Marie Bashkirtseff (1858-1884). Un documento extraordinario sobre la vida, el arte y la ambición femenina en el siglo XIX. Gratuito y accesible en varios idiomas.",
-    "heroQuote": "Je serai célèbre ou je mourrai.",
-    "heroQuoteTranslation": "Seré célebre o moriré.",
+    "heroQuote": "Je serai célèbre, je serai grande ou je mourrai.",
+    "heroQuoteTranslation": "Seré célebre, seré grande o moriré.",
     "startReading": "Empezar a leer",
     "aboutMarie": "Sobre el proyecto",
     "thisDay": "Un día en la vida de Marie",
@@ -30,8 +30,8 @@
     "researchAnnotationsDesc": "Contexto histórico, glosario de personas y lugares, notas lingüísticas sobre el texto.",
     "translationInfra": "En cuatro idiomas",
     "translationInfraDesc": "Ucraniano, checo, inglés y una edición en francés moderno, que ahora se pulen párrafo a párrafo para que se lean como literatura.",
-    "ctaQuote": "Je veux vivre, et vivre avec éclat.",
-    "ctaQuoteTranslation": "Quiero vivir, y vivir con esplendor.",
+    "ctaQuote": "Je veux tout et je n'ai rien.",
+    "ctaQuoteTranslation": "Lo quiero todo y no tengo nada.",
     "startReadingDiary": "Empezar a leer el diario"
   },
   "common": {
@@ -177,7 +177,7 @@
     "diaryText2": "Tras su muerte, su madre publicó una versión fuertemente censurada (1887). Solo entre 1995 y 2005 se publicó el texto completo, en 16 volúmenes, a cargo del Cercle des Amis de Marie Bashkirtseff.",
     "feminism": "Feminismo",
     "feminismText1": "Marie escribió artículos para el periódico feminista La Citoyenne bajo el seudónimo de «Pauline Orrel». Criticó la exclusión de las mujeres de la École des Beaux-Arts y la imposibilidad de visitar libremente los museos.",
-    "feminismQuote": "«Sé que debería llegar a ser alguien; pero con faldas, ¿qué se puede hacer?»",
+    "feminismQuote": "«…sé que podría llegar a ser alguien, pero con faldas, ¿adónde quieren que vaya una?»",
     "legacy": "Legado",
     "legacyText1": "Su diario influyó en generaciones de escritoras: Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir se apoyó en él para El segundo sexo.",
     "legacyText2": "El primer ministro británico William Gladstone lo llamó «un libro sin parangón». George Bernard Shaw era uno de sus admiradores.",
@@ -232,13 +232,13 @@
     "originalMultilingual": "Original (multilingüe)"
   },
   "quotes": {
-    "existence": "Seré célebre o moriré.",
-    "existenceOriginal": "Je serai célèbre ou je mourrai.",
-    "interestingBook": "Soy el libro más interesante de todos.",
-    "interestingBookOriginal": "Je suis le livre le plus intéressant de tous.",
-    "live": "Quiero vivir, y vivir con esplendor.",
-    "liveOriginal": "Je veux vivre, et vivre avec éclat.",
-    "skirts": "Sé que debería llegar a ser alguien; pero con faldas, ¿qué se puede hacer?"
+    "existence": "Seré célebre, seré grande o moriré.",
+    "existenceOriginal": "Je serai célèbre, je serai grande ou je mourrai.",
+    "interestingBook": "Voy a escribir en lugar de leer, porque soy el más interesante de los libros.",
+    "interestingBookOriginal": "Je vais écrire au lieu de lire, car je suis le plus intéressant des livres.",
+    "live": "Lo quiero todo y no tengo nada.",
+    "liveOriginal": "Je veux tout et je n'ai rien.",
+    "skirts": "…sé que podría llegar a ser alguien, pero con faldas, ¿adónde quieren que vaya una?"
   },
   "offline": {
     "download": "Descargar para leer sin conexión",

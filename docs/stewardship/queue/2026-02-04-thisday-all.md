@@ -28,7 +28,7 @@ A packed social week in Nice: visits, a wedding, opera, comedy. Marie transforms
 
 But the day ends with her body betraying her. At dinner, her father casually mentions the Duke of Hamilton, and Marie turns crimson. Worse, her mother notices. That watchful maternal gaze only makes the blushing worse.
 
-A year after first seeing him, Hamilton still has this effect on her. And she knows it. That final line—"Non, je n'ai pas cessé de rougir!"—is pure Marie: defiant, self-aware, and unwilling to pretend otherwise.
+A year after first seeing him, Hamilton still has this effect on her. And she knows it. That final line—"Non, je n'ai pas cessé de rougir !"—is pure Marie: defiant, self-aware, and unwilling to pretend otherwise.
 
 ---
 *From Carnet 016, Entry 1874-02-04*
@@ -104,7 +104,7 @@ Follow for more from Marie's uncensored diary.
 ---
 
 notes_for_scheduler: |
-  - Best quote for emphasis: "Non, je n'ai pas cessé de rougir!"
+  - Best quote for emphasis: "Non, je n'ai pas cessé de rougir !"
   - Visual suggestion: Period painting of blushing woman, or soft-focus Nice Riviera
   - TikTok could use dramatic reading with period music underneath
   - This entry shows Marie's self-awareness AND the Hamilton obsession - good hook

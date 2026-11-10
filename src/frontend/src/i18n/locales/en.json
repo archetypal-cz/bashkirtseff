@@ -2,8 +2,8 @@
   "home": {
     "pageTitle": "Marie Bashkirtseff — Complete Unabridged Diary",
     "pageDescription": "Read the complete, unabridged diary of Marie Bashkirtseff (1858-1884). A remarkable document of 19th century life, art, and female ambition. Free and accessible in multiple languages.",
-    "heroQuote": "Je serai célèbre ou je mourrai.",
-    "heroQuoteTranslation": "I will be famous or I will die.",
+    "heroQuote": "Je serai célèbre, je serai grande ou je mourrai.",
+    "heroQuoteTranslation": "I shall be famous, I shall be great — or I shall die.",
     "startReading": "Start reading",
     "aboutMarie": "About the project",
     "thisDay": "This Day in Marie's Life",
@@ -30,8 +30,8 @@
     "researchAnnotationsDesc": "Historical context, glossary of people and places, linguistic notes on the text.",
     "translationInfra": "In four languages",
     "translationInfraDesc": "Ukrainian, Czech, English, and a modern French edition — now being refined paragraph by paragraph to read as literature.",
-    "ctaQuote": "Je veux vivre, et vivre avec éclat.",
-    "ctaQuoteTranslation": "I want to live, and live brilliantly.",
+    "ctaQuote": "Je veux tout et je n'ai rien.",
+    "ctaQuoteTranslation": "I want everything and I have nothing.",
     "startReadingDiary": "Start reading the diary"
   },
   "common": {
@@ -177,7 +177,7 @@
     "diaryText2": "After her death, her mother published a heavily censored version (1887). Only in 1995–2005 was the complete text published in 16 volumes by Cercle des Amis de Marie Bashkirtseff.",
     "feminism": "Feminism",
     "feminismText1": "Marie wrote articles for the feminist newspaper La Citoyenne under the pseudonym 'Pauline Orrel'. She criticized the exclusion of women from the École des Beaux-Arts and the inability to freely visit museums.",
-    "feminismQuote": "'I know that I should become somebody; but with skirts — what can one do?'",
+    "feminismQuote": "'…I know I could become someone, but with skirts — where is one to go?'",
     "legacy": "Legacy",
     "legacyText1": "Her diary influenced generations of writers — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir drew on it for The Second Sex.",
     "legacyText2": "British Prime Minister William Gladstone called it 'a book without a parallel'. George Bernard Shaw was an admirer.",
@@ -232,13 +232,13 @@
     "originalMultilingual": "Original (multilingual)"
   },
   "quotes": {
-    "existence": "I will be famous or I will die.",
-    "existenceOriginal": "Je serai célèbre ou je mourrai.",
-    "interestingBook": "I am the most interesting book of all.",
-    "interestingBookOriginal": "Je suis le livre le plus intéressant de tous.",
-    "live": "I want to live, and live brilliantly.",
-    "liveOriginal": "Je veux vivre, et vivre avec éclat.",
-    "skirts": "I know that I should become somebody; but with skirts — what can one do?"
+    "existence": "I shall be famous, I shall be great — or I shall die.",
+    "existenceOriginal": "Je serai célèbre, je serai grande ou je mourrai.",
+    "interestingBook": "I am going to write instead of read, for I am the most interesting of books.",
+    "interestingBookOriginal": "Je vais écrire au lieu de lire, car je suis le plus intéressant des livres.",
+    "live": "I want everything and I have nothing.",
+    "liveOriginal": "Je veux tout et je n'ai rien.",
+    "skirts": "…I know I could become someone, but with skirts — where is one to go?"
   },
   "offline": {
     "download": "Download for offline",

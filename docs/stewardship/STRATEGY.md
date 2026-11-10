@@ -90,12 +90,12 @@ Every research note, every glossary entry, every translation challenge is potent
 - Can run perpetually with 3,300 entries
 
 **Example**:
-> **February 4, 1873** (Marie is 14)
+> **March 6, 1875** — Nice (030.0149)
 >
-> "Je veux tout, et tout de suite."
-> (I want everything, and I want it now.)
+> "Je veux tout et je n'ai rien."
+> (I want everything and I have nothing.)
 >
-> Marie writes from Nice, frustrated that the Duke of Hamilton hasn't appeared at the Promenade des Anglais...
+> Back from the Promenade and an evening reading *Les femmes célèbres*, Marie has just done her hair like Mme de Longueville in an old engraving. What follows is a frank inventory of herself: vast ambition, great pride, immense desires, a firm will.
 
 **AI Role**: Automated content generation from entry data. Claude Code skill extracts date-matched entries, selects quotable passages, generates context.
 
@@ -424,7 +424,8 @@ A Claude Code skill that supports the stewardship work:
 
 ---
 
-> *"La plus grande crainte que j'aie, c'est de ne point laisser de traces de mon existence."*
-> (The greatest fear I have is to leave no trace of my existence.)
+> *"Si je ne meurs pas jeune, j'espère rester comme une grande artiste, mais si je meurs jeune je veux laisser publier mon journal qui ne peut pas être autre chose qu'intéressant."*
+> (If I do not die young, I hope to endure as a great artist; but if I die young, I wish to have my journal published, which cannot be anything other than interesting.)
+> — Préface, May 1884 (000.0003)
 
-She left traces. Our job is to make sure the world can read them.
+She left her journal. Our job is to make sure the world can read it.

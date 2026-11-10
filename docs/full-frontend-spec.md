@@ -149,7 +149,7 @@ The home page (`/home/{locale}`) is a marketing/landing page with six distinct s
 
 - Gradient background (sepia to parchment tones).
 - Large title: "Diary" (localized) in bold, followed by "Marie Bashkirtseff" in normal weight.
-- An italicized quote from Marie about her diary being "the most interesting book."
+- An italicized quote from Marie: "Je vais écrire au lieu de lire, car je suis le plus intéressant des livres." (3 May 1874, 019.0083).
 - If the current locale is not French, a smaller line shows the original French quote.
 - Two call-to-action buttons:
   - **"Start Reading"**: Links to the preface (carnet 000) in the appropriate content path.

@@ -184,7 +184,8 @@ Marie Bashkirtseff wanted to exist. She wrote 20,000 pages to ensure it. Using A
 
 ---
 
-> *"Je suis mon propre héros."*
-> (I am my own hero.)
+> *"Mais les gens qui écrivent décrivent toujours leur héroïne, or je suis mon héroïne à moi."*
+> (But people who write always describe their heroine, and I am my own heroine.)
+> — 19 July 1875 (037.0310)
 
-Marie Bashkirtseff was her own hero. AI won't change that. It will just help more people discover it.
+Marie Bashkirtseff was her own heroine. AI won't change that. It will just help more people discover it.

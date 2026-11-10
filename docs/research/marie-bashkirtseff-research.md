@@ -142,7 +142,7 @@ Marie produced approximately 230 works of art between 1877 and 1884, primarily p
 #### Feminist Art and Writing
 
 - Her 1880 painting *Jeune femme lisant la Question du Divorce d'Alexandre Dumas* (Young woman reading) carried a feminist message about intelligent women
-- Famous lament from her diary: "I know that I should become somebody; but with skirts - what can one do?"
+- Famous lament from her diary, usually quoted in English as "I know that I should become somebody; but with skirts - what can one do?" The manuscript reads: "je sais que je pourrai devenir quelqu'un mais avec des jupes où voulez-vous qu'on aille ?" (30 September 1878, 082.0509)
 - Chafed at being barred from the Ecole des Beaux-Arts
 - Outraged at her inability to go unaccompanied to visit the Louvre
 

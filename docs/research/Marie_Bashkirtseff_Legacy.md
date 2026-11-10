@@ -132,6 +132,8 @@ Her famous lament:
 
 > **"I know that I should become somebody; but with skirts—what can one do?"** ([Clark Art Institute](https://www.clarkart.edu/microsites/women-artists-in-paris/about-the-artists/marie-bashkirtseff))
 
+That English wording is the Clark Art Institute's, not the manuscript's. The diary itself reads: *"je sais que je pourrai devenir quelqu'un mais avec des jupes où voulez-vous qu'on aille ?"* ("I know I could become someone, but with skirts — where is one to go?"), 30 September 1878 (082.0509).
+
 ### Scholarly Recognition
 
 In their introduction to the 1985 edition of her diary, feminist art historians **Roszika Parker and Griselda Pollock** wrote:

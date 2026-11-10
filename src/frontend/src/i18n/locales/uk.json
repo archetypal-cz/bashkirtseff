@@ -2,8 +2,8 @@
   "home": {
     "pageTitle": "Марія Башкирцева — Повний нескорочений щоденник",
     "pageDescription": "Читайте повний, нескорочений щоденник Марії Башкирцевої (1858-1884). Унікальний документ життя, мистецтва та жіночих амбіцій XIX століття. Безкоштовний і доступний кількома мовами.",
-    "heroQuote": "Je serai célèbre ou je mourrai.",
-    "heroQuoteTranslation": "Я буду знаменитою, або помру.",
+    "heroQuote": "Je serai célèbre, je serai grande ou je mourrai.",
+    "heroQuoteTranslation": "Я буду славетна, я буду велична — або помру.",
     "startReading": "Почати читати",
     "aboutMarie": "Про проєкт",
     "thisDay": "Цей день у житті Марії",
@@ -30,8 +30,8 @@
     "researchAnnotationsDesc": "Історичний контекст, глосарій осіб і місць, мовні примітки до тексту.",
     "translationInfra": "Чотирма мовами",
     "translationInfraDesc": "Українською, чеською, англійською та в сучасній французькій редакції — тепер їх шліфуємо абзац за абзацом, щоб читалися як література.",
-    "ctaQuote": "Je veux vivre, et vivre avec éclat.",
-    "ctaQuoteTranslation": "Я хочу жити, і жити яскраво.",
+    "ctaQuote": "Je veux tout et je n'ai rien.",
+    "ctaQuoteTranslation": "Я хочу всього — і не маю нічого.",
     "startReadingDiary": "Почати читати щоденник"
   },
   "common": {
@@ -178,7 +178,7 @@
     "diaryText2": "Після її смерті мати видала сильно цензурований варіант (1887). Лише у 1995–2005 роках повний текст вийшов у 16 томах завдяки Cercle des Amis de Marie Bashkirtseff.",
     "feminism": "Фемінізм",
     "feminismText1": "Марія писала статті для феміністичної газети La Citoyenne під псевдонімом «Полін Оррель». Критикувала виключення жінок зі Школи витончених мистецтв та неможливість вільно відвідувати музеї.",
-    "feminismQuote": "«Я знаю, що мала б стати кимось; але у спідницях — що можна зробити?»",
+    "feminismQuote": "«…я знаю, що могла б стати кимось, але зі спідницями — куди ж піти?»",
     "legacy": "Спадщина",
     "legacyText1": "Її щоденник вплинув на покоління письменниць — Анаїс Нін, Кетрін Менсфілд, Мері Маклейн. Сімона де Бовуар черпала з нього для «Другої статі».",
     "legacyText2": "Британський прем'єр-міністр Вільям Гладстон назвав його «книгою без аналогів». Джордж Бернард Шоу був її шанувальником.",
@@ -233,13 +233,13 @@
     "originalMultilingual": "Оригінал (багатомовний)"
   },
   "quotes": {
-    "existence": "Я буду знаменитою, або помру.",
-    "existenceOriginal": "Je serai célèbre ou je mourrai.",
-    "interestingBook": "Я — найцікавіша книга з усіх.",
-    "interestingBookOriginal": "Je suis le livre le plus intéressant de tous.",
-    "live": "Я хочу жити, і жити яскраво.",
-    "liveOriginal": "Je veux vivre, et vivre avec éclat.",
-    "skirts": "Я знаю, що мала б стати кимось; але у спідницях — що можна зробити?"
+    "existence": "Я буду славетна, я буду велична — або помру.",
+    "existenceOriginal": "Je serai célèbre, je serai grande ou je mourrai.",
+    "interestingBook": "Буду писати замість того, щоб читати — бо я найцікавіша з книжок.",
+    "interestingBookOriginal": "Je vais écrire au lieu de lire, car je suis le plus intéressant des livres.",
+    "live": "Я хочу всього — і не маю нічого.",
+    "liveOriginal": "Je veux tout et je n'ai rien.",
+    "skirts": "…я знаю, що могла б стати кимось, але зі спідницями — куди ж піти?"
   },
   "offline": {
     "download": "Завантажити для офлайн",

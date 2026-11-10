@@ -2,8 +2,8 @@
   "home": {
     "pageTitle": "Marie Bashkirtseff — Kompletní nekrácený deník",
     "pageDescription": "Čtěte kompletní, nekrácený deník Marie Bashkirtseff (1858-1884). Pozoruhodný dokument života, umění a ženských ambicí v 19. století. Zdarma a přístupný ve více jazycích.",
-    "heroQuote": "Je serai célèbre ou je mourrai.",
-    "heroQuoteTranslation": "Budu slavná, nebo zemřu.",
+    "heroQuote": "Je serai célèbre, je serai grande ou je mourrai.",
+    "heroQuoteTranslation": "Budu slavná, budu veliká, nebo zemřu.",
     "startReading": "Začít číst",
     "aboutMarie": "O projektu",
     "thisDay": "Tento den v životě Marie",
@@ -30,8 +30,8 @@
     "researchAnnotationsDesc": "Historický kontext, glosář osob a míst, jazykové poznámky k textu.",
     "translationInfra": "Překlady ve čtyřech jazycích",
     "translationInfraDesc": "Ukrajinsky, česky, anglicky a v moderní francouzské edici — teď je ladíme odstavec po odstavci, aby četly jako literatura.",
-    "ctaQuote": "Je veux vivre, et vivre avec éclat.",
-    "ctaQuoteTranslation": "Chci žít, a žít skvěle.",
+    "ctaQuote": "Je veux tout et je n'ai rien.",
+    "ctaQuoteTranslation": "Chci vše a nemám nic.",
     "startReadingDiary": "Začít číst deník"
   },
   "common": {
@@ -178,7 +178,7 @@
     "diaryText2": "Po její smrti vydala matka deník silně cenzurovaný (1887). Teprve v letech 1995–2005 vyšlo kompletní znění v 16 svazcích díky spolku Cercle des Amis de Marie Bashkirtseff.",
     "feminism": "Feminismus",
     "feminismText1": "Marie psala články pro feministický časopis La Citoyenne pod pseudonymem «Pauline Orrel». Kritizovala vyloučení žen ze Školy krásných umění a nemožnost volně navštěvovat muzea.",
-    "feminismQuote": "«Vím, že bych se měla stát někým; ale se sukněmi — co člověk zmůže?»",
+    "feminismQuote": "«…vím, že bych se mohla stát někým — ale v sukních, kam se člověk dostane?»",
     "legacy": "Odkaz",
     "legacyText1": "Její deník ovlivnil generace spisovatelek — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir z něj čerpala pro Druhé pohlaví.",
     "legacyText2": "Britský premiér William Gladstone jej nazval «knihou bez paralely». George Bernard Shaw byl jejím obdivovatelem.",
@@ -233,13 +233,13 @@
     "originalMultilingual": "Originál (vícejazyčný)"
   },
   "quotes": {
-    "existence": "Budu slavná, nebo zemřu.",
-    "existenceOriginal": "Je serai célèbre ou je mourrai.",
-    "interestingBook": "Jsem tou nejzajímavější knihou ze všech.",
-    "interestingBookOriginal": "Je suis le livre le plus intéressant de tous.",
-    "live": "Chci žít, a žít skvěle.",
-    "liveOriginal": "Je veux vivre, et vivre avec éclat.",
-    "skirts": "Vím, že bych se měla stát někým; ale se sukněmi — co člověk zmůže?"
+    "existence": "Budu slavná, budu veliká, nebo zemřu.",
+    "existenceOriginal": "Je serai célèbre, je serai grande ou je mourrai.",
+    "interestingBook": "Budu psát místo čtení, protože jsem nejzajímavější ze všech knih.",
+    "interestingBookOriginal": "Je vais écrire au lieu de lire, car je suis le plus intéressant des livres.",
+    "live": "Chci vše a nemám nic.",
+    "liveOriginal": "Je veux tout et je n'ai rien.",
+    "skirts": "…vím, že bych se mohla stát někým — ale v sukních, kam se člověk dostane?"
   },
   "offline": {
     "download": "Stáhnout pro offline",

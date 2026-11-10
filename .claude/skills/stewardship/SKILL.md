@@ -309,30 +309,30 @@ notes_for_scheduler: [any special instructions]
 ### Reddit
 
 ```markdown
-## This Day in Marie's Life: February 4
+## This Day in Marie's Life: March 6
 
-**February 4, 1873** — Nice | Marie is 14
+**March 6, 1875** — Nice
 
-> "Je veux tout, et tout de suite."
-> (I want everything, and I want it now.)
+> "Je veux tout et je n'ai rien."
+> (I want everything and I have nothing.)
 
-Marie is on the hunt. The Duke of Hamilton has been spotted in Nice, and she's been walking the Promenade des Anglais daily, hoping for an encounter. Today, frustration boils over into one of her most famous declarations of impatience.
+Back from the Promenade and an evening reading *Les femmes célèbres*, Marie has just done her hair like Mme de Longueville in an old engraving. What follows is a frank inventory of herself: vast ambition, great pride, immense desires, a firm will.
 
-She's been keeping this diary for barely a month, and already her voice is unmistakable: ambitious, dramatic, self-aware, and utterly unwilling to wait.
+She is sixteen, and already her voice is unmistakable: ambitious, dramatic, self-aware, and utterly unwilling to wait.
 
 ---
-*From Carnet 001 — Full entry: bashkirtseff.org/cz/001/1873-02-04*
+*From Carnet 030 — Full entry: bashkirtseff.org/cz/030/1875-03-06*
 ```
 
 ### Instagram
 
 ```
-February 4, 1873 — Nice
+March 6, 1875 — Nice
 
-"Je veux tout, et tout de suite."
-(I want everything, and I want it now.)
+"Je veux tout et je n'ai rien."
+(I want everything and I have nothing.)
 
-Marie Bashkirtseff, age 14, declaring what we've all felt.
+Marie Bashkirtseff, sixteen, declaring what we've all felt.
 
 #MarieBashkirtseff #DiaryOfMarie #19thCentury #WomensHistory #NiceRiviera #Ambition
 ```
@@ -341,11 +341,11 @@ Marie Bashkirtseff, age 14, declaring what we've all felt.
 
 ```
 [HOOK]
-A 14-year-old girl in 1873 wrote this in her diary:
+A 16-year-old girl in 1875 wrote this in her diary:
 
 [DRAMATIC READING]
-"Je veux tout, et tout de suite."
-"I want everything, and I want it now."
+"Je veux tout et je n'ai rien."
+"I want everything and I have nothing."
 
 [CONTEXT]
 Marie Bashkirtseff. Ukrainian aristocrat. Painter. Died at 25.

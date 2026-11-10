@@ -76,10 +76,10 @@ created: 2026-02-04T09:00:00Z
 
 # Reddit Version
 
-**February 4, 1873** — Nice | Marie is 14
+**March 6, 1875** — Nice (030.0149)
 
-> "Je veux tout, et tout de suite."
-> (I want everything, and I want it now.)
+> "Je veux tout et je n'ai rien."
+> (I want everything and I have nothing.)
 
 [Full Reddit content...]
 
@@ -136,7 +136,7 @@ Your Reddit scripts handle posting to /r/bashkirtseff. The stewardship skill out
 platform: reddit
 subreddit: bashkirtseff
 flair: This Day
-title: "February 4, 1873 — \"I want everything, and I want it now.\""
+title: "March 6, 1875 — \"I want everything and I have nothing.\""
 scheduled_for: 2026-02-04T09:00:00Z
 ---
 

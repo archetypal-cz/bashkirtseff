@@ -13,7 +13,10 @@ Marie Bashkirtseff was extraordinary by any measure:
 
 She was ambitious, brilliant, vain, insecure, passionate, and utterly honest about all of it. She wanted glory. She wanted to be remembered. She wrote:
 
-> *"If I do not die young, I hope to remain in history as a great artist; but if I die young, I want my diary to be published."*
+> *"Si je ne meurs pas jeune, j'espère rester comme une grande artiste, mais si je meurs jeune je veux laisser publier mon journal qui ne peut pas être autre chose qu'intéressant."*
+>
+> *"If I do not die young, I hope to endure as a great artist; but if I die young, I wish to have my journal published, which cannot be anything other than interesting."*
+> — Préface, May 1884 (000.0003)
 
 She died of tuberculosis at 25. The diary was published—but heavily censored, with thousands of pages suppressed. The full Marie was hidden for over a century.
 
@@ -73,6 +76,6 @@ This is one person's project with AI assistance. If you'd like to accelerate the
 ---
 
 *"What do I want? Oh, you know well. I want glory!"*
-— Marie Bashkirtseff, 1884
+— Marie Bashkirtseff, 3 July 1876 (062.0876–062.0877)
 
 *(«Mais qu'est-ce que je veux ? Oh ! vous le savez bien. Je veux la gloire !»)*
