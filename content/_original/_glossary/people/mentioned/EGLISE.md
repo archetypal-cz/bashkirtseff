@@ -1,33 +1,15 @@
 ---
 id: EGLISE
 name: Eglise
-aliases:
-  - Eglise
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-11-10
+status: retired
+replaced_by: CHURCH
 ---
-# Eglise
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 2 mentions
-**Type**: Person/Place
+%% GLO_EGLISE.0001 %%
+**Retired.** Merged into [#Church](../../culture/themes/CHURCH.md); use that entry instead.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 2 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% 2026-11-10T08:08:56 RSR: User report fix. «Eglise» is not a person. Its two uses (086.0349, 086.0507) are Marie going to church, and both paragraphs already carry the Church theme in every tree, so the redundant link was removed there and this stub retired. %%
