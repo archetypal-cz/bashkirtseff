@@ -101,7 +101,7 @@ All in `.claude/skills/{name}/SKILL.md`. Translation pipeline: `researcher`, `li
 just verify-carnet {lang} {carnet}   # The mechanical gate (docs/VERIFY_CARNET_GATE.md)
 just splicescan {lang} {carnet}      # Stranded-text scan (src/scripts/splicescan.awk)
 just check-comments [trees]          # %%-structure check across trees
-just sync {carnet} {lang} --dry-run  # Preview a source→translation sync (lang is required in practice: defaults to cz)
+just sync {carnet} {lang} --dry-run  # Preview a source→translation sync (lang required; no default)
 just sync-verify {carnet} {lang}     # After a sync: visible text vs HEAD, splicescan, stray README
 just status {lang} [carnet]          # Progress (src/scripts/project-status.ts)
 just check-links-repo                # Link health across all trees

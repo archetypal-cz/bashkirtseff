@@ -26,6 +26,15 @@ Deployment is automatic via GitHub Actions on push to `main`.
 
 ## Technical Stack
 
+> **Astro is pinned to an exact 7.4.1** (frontend `package.json` and the root
+> `overrides` for `@vite-pwa/astro`): it is the newest release outside the
+> 2026 advisory range (`astro <=7.3.1`) that runs on the workspace's Node
+> 22.22; astro ≥7.4.2 and `@astrojs/vue` ≥7.1.2 need Node ≥22.23.4. Move both
+> pins together once every build host has that Node. Install with
+> `--legacy-peer-deps` (as the Dockerfile does): `@vite-pwa/astro` 1.x still
+> declares astro ≤5 as its peer, and its 2.x major is the fix for the remaining
+> advisories (workbox-build, fast-uri, serialize-javascript).
+
 | Component | Technology |
 |-----------|------------|
 | Framework | **Astro 7** (static output) |
@@ -146,6 +155,22 @@ match the current language context. Bare `/glossary/<id>` URLs are redirected to
 `/original/glossary/<id>` by a **301 in `nginx.conf`** (not by a build-generated
 redirect page). The bare `/glossary` → `/original/glossary` redirect lives in
 `astro.config.mjs` `redirects`.
+
+### Retired glossary stubs
+
+About 500 glossary files carry `status: retired` (most with `replaced_by: ID`):
+merged or emptied entries kept so old links and tags still resolve. They never
+appear in a listing: `getGlossaryEntries()` / `getMergedGlossaryEntries()` drop
+them unless called with `{ includeRetired: true }` (only the `[id]` route does),
+so the index, letter pages, search data, category tree, `/api/glossary/*` and
+the filter index leave them out, and the sitemap filter in `astro.config.mjs`
+skips their URLs. `/{lang}/glossary/{RETIRED}/` is an `Astro.redirect` to the
+replacement (static build: meta-refresh page with canonical + noindex); a stub
+without a replacement keeps its page, marked noindex. Diary, summary and
+glossary-paragraph tags, in-prose glossary links and usage counts resolve a
+retired id to its replacement through `resolveGlossaryId()`; chains collapse and
+dead ends stay put (`lib/glossary-retirement.ts`, tested in
+`glossary-retirement.test.ts`).
 
 ---
 

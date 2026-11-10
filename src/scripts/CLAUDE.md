@@ -115,7 +115,7 @@ Default is recall-preserving: an id that would be removed is KEPT (and listed in
 just help                       # Show all commands
 just glossary-stats             # Glossary usage statistics
 just glossary-find ID           # Find references to entry
-just scaffold 001               # Scaffold translation files
+just scaffold 001 cz            # Scaffold translation files (language required)
 just round-trip-test            # Parser/renderer fidelity test (exit 1 on parse errors; --strict also on DIFF — 324/376 sampled files currently DIFF, known baseline)
 ```
 

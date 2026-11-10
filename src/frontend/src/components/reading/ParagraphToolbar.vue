@@ -4,6 +4,7 @@ import { useI18n, type SupportedLocale } from '../../i18n';
 import { trackEvent } from '../../lib/analytics';
 import { useAuthStore } from '../../stores/auth';
 import ReportDialog from './ReportDialog.vue';
+import SignInWhy from '../auth/SignInWhy.vue';
 import { languageTitle } from '../../lib/language-labels';
 import { useStarItem } from '../../composables/useStarItem';
 
@@ -360,6 +361,7 @@ const hasOriginal = computed(() => !!props.originalHtml);
                 </svg>
                 <span>{{ t('auth.signInToReport') }}</span>
               </button>
+              <SignInWhy v-if="!auth.isAuthenticated && !auth.loading && !auth.offline" :page-locale="pageLocale" />
             </div>
 
             <!-- Glossary tags section -->

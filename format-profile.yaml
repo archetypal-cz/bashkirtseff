@@ -12,7 +12,14 @@ authors:
   vocabulary: [RSR, LAN, TR, OPS, RED, CON, ED, FAB, VOX, FRE, REV, PA, KRR]
   retired: [GEM, PPX]
 footnotes:
-  pattern: '\d+|\d{2}\.\d{2}\.\d+'
+  # Canonical for new notes (owner A-45, 2026-11-10): [^CCC.PPPP.N] — carnet,
+  # paragraph, running number — with an optional letter before N for the
+  # note's origin (.rN restored text, .tN/.fN/.cN/.sN translator/footnote
+  # variants). Older forms stay valid and are not renumbered: plain [^N] (also
+  # [^1b]), [^CC.PP.N] and other 2–3/1–4-digit splits, [^CCC.PPa.N], the
+  # preface's [^00.pa.N], and word labels ([^acrostiche]).
+  canonical: '\d{3}\.\d{4}\.[a-z]?\d+'
+  pattern: '\d+[a-z]*|\d{2,3}\.(?:\d{1,4}[a-z]?|pa)\.[a-z]?\d+|[A-Za-z][A-Za-z0-9_]*'
   uniqueness: per-file
 scene_break: "---"
 features:

@@ -222,8 +222,8 @@ Body per paragraph: `%% NNN.PPPP %%`, glossary tags, RSR/LAN comments, verbatim 
 ## 3.3 Scaffold, sync, verify
 
 ```bash
-just scaffold 001 -l es --dry-run   # preview: files, TODO paragraph counts, no writes
-just scaffold 001 -l es             # create content/es/001/*.md (TODO_PLACEHOLDER bodies)
+just scaffold 001 es --dry-run      # preview: files, TODO paragraph counts, no writes
+just scaffold 001 es                # create content/es/001/*.md (TODO_PLACEHOLDER bodies)
 just sync 001 es                    # carry _original changes: new paragraphs, kind, embedded French (--tags/--notes/--footnotes opt-in)
 just verify-carnet es 001           # IDs, %% balance, frontmatter (exits 2 if dir missing)
 just check-comments es              # comment structure (tree NAME, not a path)
@@ -280,7 +280,7 @@ None of these fail loudly for an unknown code; they simply skip it. Extend every
 | `glossary-migrate-flat.ts:189` | `langDirs` — already lists `es` (`glossary-dedup.ts` no longer carries its own list) |
 | `verify-carnet.ts` (`CYRILLIC_LANGS`, ~line 72) | only for Cyrillic targets |
 
-**Justfile** — `default_lang := "cz"` (line 8) and the `translate/review/conduct/pipeline` recipes default `lang="cz"`; the comment "ALL five trees" near `check-links-repo` and the help examples (~758-761) enumerate languages. No validation of the `lang` argument.
+**Justfile** — `default_lang := "cz"` (line ~10) is still the default of the read-only recipes (`search-lang`, `check-links`, `verify-carnet-all`). The writing recipes `sync`, `sync-all` and `scaffold` take the language as a required argument and check it (`_require-lang`: a well-formed code, and for sync an existing `content/{lang}` tree). The comment "ALL five trees" near `check-links-repo` and the `help` examples enumerate languages.
 
 **Skills and agents (`.claude/`)**
 
@@ -309,7 +309,7 @@ Do not schedule a wave on a fresh language. Pick one small early carnet with RSR
 
 - [ ] `content/{lang}/CLAUDE.md` with `## Editor / review traps ({Language})`, style guide, review prompts
 - [ ] `content/{lang}/PROGRESS.md` (all zeros + pilot plan) and `content/{lang}/TranslationMemory.md` (policy seed rows)
-- [ ] `just scaffold NNN -l {lang} --dry-run` shows the expected file count, no errors
+- [ ] `just scaffold NNN {lang} --dry-run` shows the expected file count, no errors
 - [ ] Shared: `TRANSLATION_DIRS`, `detectLanguage()`, `LANGUAGE_DIRS`
 - [ ] Scripts: `project-status.ts`, the three Python `TREES`, `propagate_glossary_tag.py`, `glossary-dedup.ts`, `glossary-migrate-flat.ts`
 - [ ] Justfile comments/help examples; decide whether `default_lang` stays `cz`

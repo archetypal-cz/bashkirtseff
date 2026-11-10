@@ -7,6 +7,7 @@ import { useI18n, type SupportedLocale } from '../../i18n';
 import { useAuthStore } from '../../stores/auth';
 import { trackEvent } from '../../lib/analytics';
 import ReportDialog from '../reading/ReportDialog.vue';
+import SignInWhy from '../auth/SignInWhy.vue';
 import { GLOSSARY_REPORT_REASONS } from '../../lib/reports';
 
 const props = defineProps<{
@@ -60,6 +61,7 @@ onMounted(() => {
       </svg>
       {{ t('report.signInToReportPage') }}
     </button>
+    <SignInWhy v-if="!auth.isAuthenticated" :page-locale="props.pageLocale" class="glossary-report__why" />
   </div>
 </template>
 
@@ -92,5 +94,8 @@ onMounted(() => {
   width: 1rem;
   height: 1rem;
   flex-shrink: 0;
+}
+.glossary-report__why {
+  margin: 0.375rem 0 0;
 }
 </style>

@@ -28,11 +28,12 @@ import {
   MARIE_BIRTH_MONTH,
   MARIE_BIRTH_DAY,
   MARIE_DEATH_DATE,
-  extractLanguagesFromTags,
   parseFrontmatter,
 } from '@bashkirtseff/shared';
 
 import { THEME_SUBCATEGORIES } from './glossary-categories';
+import { buildGlossaryRedirectMap, readRetirementInfo, type GlossaryRetirementInfo } from './glossary-retirement';
+export { buildGlossaryRedirectMap, readRetirementInfo, type GlossaryRetirementInfo };
 import { escapeHtml, renderOriginalHtml } from './original-html';
 import {
   findKind, inlineNoteLanguages, inlineNotes, isQuotedKind, kindBodyHtml, kindKey, kindLabelInnerHtml, kindLabelText, kindRuns,
@@ -147,6 +148,8 @@ export interface GlossaryEntry {
   work?: MarieWork;            // Set only on Marie's own works (`marie_work: true`)
   worksGallery?: boolean;      // Hub entry: render the gallery of Marie's works
   worksGalleryAfter?: string;  // Paragraph ID the gallery follows (default: end)
+  retired?: boolean;           // frontmatter `status: retired` — hidden from every listing
+  replacedBy?: string;         // frontmatter `replaced_by:` — the entry a retired stub merged into
 }
 
 /**
@@ -829,9 +832,9 @@ function runLanguage(
   if (first && perParagraph.every(langs => langs.size === 1 && langs.has(first))) {
     return { lang: first, fromNotes: true, noteIds, trimmedNotes };
   }
-  // By tag name ("English"): `languages` looks tags up by file id (ENGLISH),
-  // which LANGUAGE_TAGS does not list, so it is always ['fr'].
-  const tagged = new Set(run.flatMap(p => extractLanguagesFromTags(tagsOf(p))).filter(l => l !== 'fr'));
+  // By tag (name or id, any case): every paragraph of the run tagged with the
+  // same single other language.
+  const tagged = new Set(run.flatMap(p => tagsOf(p).map(tagLanguage)).filter((l): l is string => !!l && l !== 'fr'));
   const none = { noteIds: new Set<string>(), trimmedNotes: new Map<string, string>() };
   return tagged.size === 1 ? { lang: [...tagged][0], ...none } : none;
 }
@@ -951,15 +954,32 @@ function extractGlossaryTags(text: string): GlossaryTag[] {
     }
   }
 
-  return tags;
+  // Tags at a retired stub point at the entry it was merged into.
+  return resolveGlossaryTags(tags);
+}
+
+/** LANGUAGE_TAGS keyed case-insensitively: tag file ids are ENGLISH, the map's keys English. */
+const LANGUAGE_BY_TAG = new Map(Object.entries(LANGUAGE_TAGS).map(([tag, code]) => [tag.toLowerCase(), code]));
+
+/** ISO code of a language glossary tag (id or name, any case), else undefined. */
+export function tagLanguage(idOrName: string): string | undefined {
+  return LANGUAGE_BY_TAG.get(idOrName.toLowerCase());
 }
 
 /**
- * Extract languages from glossary tags using shared utility
+ * The languages of a paragraph from its language tags (culture/languages/…).
+ * French stays first: a tag marks a passage in another language inside
+ * Marie's French text, and `languages[0]` becomes the flip panel's lang=, so a
+ * French paragraph with one Italian phrase must not become lang="it". (Runs a
+ * note says are wholly in another language are handled by applyNotedLanguages.)
  */
-function extractLanguages(glossaryTags: GlossaryTag[]): string[] {
-  const tagIds = glossaryTags.map(t => t.id);
-  return extractLanguagesFromTags(tagIds);
+export function extractLanguages(glossaryTags: Pick<GlossaryTag, 'id' | 'name'>[]): string[] {
+  const languages = ['fr'];
+  for (const tag of glossaryTags) {
+    const code = tagLanguage(tag.id) ?? tagLanguage(tag.name);
+    if (code && !languages.includes(code)) languages.push(code);
+  }
+  return languages;
 }
 
 /**
@@ -1026,7 +1046,8 @@ function processTextToHtml(text: string, lang: string = 'original'): { html: str
     .replace(/\[([^\]]+)\]\(((?:[^()]*|\([^()]*\))*)\)/g, (_, linkText, url) => {
       if (url.endsWith('.md')) {
         // Internal glossary link — extract the glossary ID from the path
-        const glossaryId = url.match(/([^/]+)\.md$/)?.[1];
+        const linkedId = url.match(/([^/]+)\.md$/)?.[1];
+        const glossaryId = linkedId && resolveGlossaryId(linkedId);
         if (glossaryId) {
           // Absolute, lang-prefixed glossary URL (audit issue L4). A relative
           // `../glossary/{id}` resolves wrong under directory-format entry URLs
@@ -1825,7 +1846,7 @@ function parseSingleSummaryParagraph(id: string, content: string, language: stri
     originalText,
     isHeader,
     headerLevel,
-    glossaryTags: glossaryTags.length > 0 ? glossaryTags : undefined,
+    glossaryTags: glossaryTags.length > 0 ? resolveGlossaryTags(glossaryTags) : undefined,
   };
 }
 
@@ -2251,6 +2272,50 @@ const _glossaryEntryByPathCache = new Map<string, GlossaryEntry | null>();
 const _glossaryEntriesCache = new Map<string, GlossaryEntry[]>();
 
 let _glossaryNames: Map<string, string> | undefined;
+let _glossaryRedirects: Map<string, string> | undefined;
+let _glossaryRetired: Set<string> | undefined;
+
+function loadGlossaryRetirement(): void {
+  if (_glossaryRedirects && _glossaryRetired) return;
+  const infos: GlossaryRetirementInfo[] = [];
+  for (const file of findGlossaryFiles(getGlossaryPath('original'))) {
+    try {
+      infos.push(readRetirementInfo(file.id, fs.readFileSync(file.path, 'utf-8')));
+    } catch { /* unreadable file: treat as live */ }
+  }
+  _glossaryRetired = new Set(infos.filter(i => i.retired).map(i => i.id));
+  _glossaryRedirects = buildGlossaryRedirectMap(infos);
+}
+
+/**
+ * The id a glossary reference should point at: the live replacement of a
+ * retired stub (`status: retired` + `replaced_by:`), else the id itself.
+ * Diary tags written before a merge thus link to, filter by and count toward
+ * the entry they were merged into. Cached for the whole process, like names.
+ */
+export function resolveGlossaryId(id: string): string {
+  loadGlossaryRetirement();
+  return _glossaryRedirects!.get(id) ?? id;
+}
+
+/** Whether a glossary id is a retired stub (`status: retired`). */
+export function isRetiredGlossaryId(id: string): boolean {
+  loadGlossaryRetirement();
+  return _glossaryRetired!.has(id);
+}
+
+/** Map tags to their live ids (see resolveGlossaryId), dropping duplicates that merge. */
+function resolveGlossaryTags<T extends { id: string }>(tags: T[]): T[] {
+  const seen = new Set<string>();
+  const out: T[] = [];
+  for (const tag of tags) {
+    const id = resolveGlossaryId(tag.id);
+    if (seen.has(id)) continue;
+    seen.add(id);
+    out.push(id === tag.id ? tag : { ...tag, id });
+  }
+  return out;
+}
 
 /**
  * A glossary entry's display name by file id ("Duke of Hamilton" for
@@ -2339,7 +2404,13 @@ function computeGlossaryFiles(dirPath: string): { id: string; path: string; cate
 /**
  * Get all glossary entries (sorted alphabetically)
  */
-export function getGlossaryEntries(language: string = 'original'): GlossaryEntry[] {
+export function getGlossaryEntries(language: string = 'original', options: { includeRetired?: boolean } = {}): GlossaryEntry[] {
+  const all = getAllGlossaryEntries(language);
+  return options.includeRetired ? all : all.filter(e => !e.retired);
+}
+
+/** Every glossary entry, retired stubs included (cached per language in PROD). */
+function getAllGlossaryEntries(language: string): GlossaryEntry[] {
   const cacheKey = isOriginalLanguage(language) ? '_original' : language;
   if (CACHE_PARSED) {
     const cached = _glossaryEntriesCache.get(cacheKey);
@@ -2418,13 +2489,13 @@ export function getGlossaryEntryWithFallback(id: string, language: string): Glos
  * Get all glossary entries merged across a language and original.
  * Translated entries override originals (matched by ID).
  */
-export function getMergedGlossaryEntries(language: string): GlossaryEntry[] {
-  const originalEntries = getGlossaryEntries('original');
+export function getMergedGlossaryEntries(language: string, options: { includeRetired?: boolean } = {}): GlossaryEntry[] {
+  const originalEntries = getGlossaryEntries('original', options);
   if (isOriginalLanguage(language)) {
     return originalEntries;
   }
 
-  const translatedEntries = getGlossaryEntries(language);
+  const translatedEntries = getGlossaryEntries(language, options);
   if (translatedEntries.length === 0) {
     return originalEntries;
   }
@@ -2534,6 +2605,8 @@ function parseGlossaryEntryFromPath(filePath: string, category: string, language
     work: metadata.marie_work === true ? normalizeMarieWork(metadata.work) : undefined,
     worksGallery: metadata.works_gallery === true || undefined,
     worksGalleryAfter: typeof metadata.works_gallery_after === 'string' ? metadata.works_gallery_after : undefined,
+    retired: metadata.status === 'retired' || undefined,
+    replacedBy: typeof metadata.replaced_by === 'string' && metadata.replaced_by.trim() ? metadata.replaced_by.trim() : undefined,
   };
 
   // Parse paragraph clusters if present
@@ -2871,7 +2944,7 @@ function parseGlossaryParagraph(id: string, content: string, language: string = 
     html,
     isHeader,
     headerLevel,
-    glossaryTags: glossaryTags.length > 0 ? glossaryTags : undefined,
+    glossaryTags: glossaryTags.length > 0 ? resolveGlossaryTags(glossaryTags) : undefined,
     isBlock: isBlock || undefined,
   };
 }
@@ -3052,7 +3125,7 @@ export function buildGlossaryUsageCounts(): Record<string, number> {
         const content = fs.readFileSync(fullPath, 'utf-8');
         let match;
         while ((match = glossaryPattern.exec(content)) !== null) {
-          const id = match[1];
+          const id = resolveGlossaryId(match[1]);
           counts[id] = (counts[id] || 0) + 1;
         }
         glossaryPattern.lastIndex = 0;

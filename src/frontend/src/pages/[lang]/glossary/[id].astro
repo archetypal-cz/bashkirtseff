@@ -5,7 +5,7 @@ import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
 import GlossaryFigure from '../../../components/glossary/GlossaryFigure.astro';
 import MarieWorksGallery from '../../../components/glossary/MarieWorksGallery.astro';
 import GlossaryReportButton from '../../../components/glossary/GlossaryReportButton.vue';
-import { getMergedGlossaryEntries, getGlossaryEntry, getGlossaryEntryWithFallback, buildGlossaryUsageCounts, stripGlossaryComments, renderGlossaryBlocks } from '../../../lib/content';
+import { getMergedGlossaryEntries, getGlossaryEntry, getGlossaryEntryWithFallback, buildGlossaryUsageCounts, stripGlossaryComments, renderGlossaryBlocks, resolveGlossaryId } from '../../../lib/content';
 import { linkifyParagraphRefs } from '../../../lib/paragraph-refs';
 import { DIARY_LANGUAGES, diarySeoLinks, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
@@ -16,7 +16,9 @@ export function getStaticPaths() {
   const paths: { params: { lang: string; id: string }; props: { lang: DiaryLanguageConfig; entryId: string } }[] = [];
 
   for (const lang of DIARY_LANGUAGES) {
-    const entries = getMergedGlossaryEntries(lang.contentPath);
+    // Retired stubs keep their URL (old links, bookmarks): the page below
+    // redirects to the replacement, or shows the stub when there is none.
+    const entries = getMergedGlossaryEntries(lang.contentPath, { includeRetired: true });
     for (const entry of entries) {
       paths.push({
         params: { lang: lang.urlPath, id: entry.id },
@@ -42,6 +44,14 @@ const entry = getGlossaryEntryWithFallback(entryId, lang.contentPath);
 
 if (!entry) {
   return Astro.redirect(basePath);
+}
+
+// A retired stub merged into another entry (`status: retired` + `replaced_by:`)
+// redirects there. In the static build Astro writes this as a meta-refresh page
+// with rel=canonical on the target and robots noindex.
+const replacementId = entry.retired ? resolveGlossaryId(entry.id) : entry.id;
+if (replacementId !== entry.id) {
+  return Astro.redirect(`${basePath}/${replacementId}/`, 301);
 }
 
 // Glossary entries are written in English; a page in another UI language that
@@ -176,7 +186,7 @@ const description = descSource.length > 160
   : descSource || undefined;
 ---
 
-<ReadingLayout title={`${displayName} — ${t('glossary.title')}`} description={description} lang={lang.urlPath} alternates={glossaryAlternates} canonicalUrl={canonicalUrl} image={leadImage?.src} sourcePath={glossarySourcePath}>
+<ReadingLayout title={`${displayName} — ${t('glossary.title')}`} description={description} lang={lang.urlPath} alternates={glossaryAlternates} canonicalUrl={canonicalUrl} image={leadImage?.src} sourcePath={glossarySourcePath} noindex={entry.retired}>
   <article class="max-w-3xl mx-auto">
     <nav class="mb-6 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
       <a href={withTrailingSlash(`/${lang.urlPath}`)} class="hover:text-accent">{diaryLabel}</a>

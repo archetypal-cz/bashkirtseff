@@ -18,6 +18,7 @@
  */
 
 import { RETIRED_THEMES } from './theme-names.ts';
+import { buildGlossaryRedirectMap, readRetirementInfo, type GlossaryRetirementInfo } from './glossary-retirement.ts';
 import fs from 'node:fs';
 import path from 'node:path';
 import { parseFrontmatter } from '@bashkirtseff/shared';
@@ -55,9 +56,15 @@ function readGlossaryName(filePath: string): string | undefined {
 
 /**
  * Build a map of glossary ID → subcategory by scanning _glossary directory
- * structure; `names` collects each file's display name on the way.
+ * structure; `names` collects each file's display name on the way and
+ * `retirement` each file's `status: retired` / `replaced_by:`.
  */
-function buildSubcategoryMap(glossaryBase: string, categoryDir: string, names?: Map<string, string>): Map<string, string> {
+function buildSubcategoryMap(
+  glossaryBase: string,
+  categoryDir: string,
+  names?: Map<string, string>,
+  retirement?: GlossaryRetirementInfo[],
+): Map<string, string> {
   const map = new Map<string, string>();
   const categoryPath = path.join(glossaryBase, categoryDir);
 
@@ -75,18 +82,30 @@ function buildSubcategoryMap(glossaryBase: string, categoryDir: string, names?: 
       map.set(id, subdir.name);
       const name = names && readGlossaryName(path.join(subPath, file));
       if (name) names.set(id, name);
+      if (retirement) {
+        try {
+          retirement.push(readRetirementInfo(id, fs.readFileSync(path.join(subPath, file), 'utf-8')));
+        } catch { /* unreadable: treat as live */ }
+      }
     }
   }
 
   return map;
 }
 
+/**
+ * The live id for a glossary file id: a retired stub's replacement, `null`
+ * for a retired stub without one (dropped from the index), else the id.
+ */
+type LiveId = (id: string) => string | null;
+
 /** Ids mapped to their glossary file id when there is one, deduped case-insensitively */
-function canonicalIds(raw: string[] | undefined, fileIds: Map<string, string>): string[] {
+function canonicalIds(raw: string[] | undefined, fileIds: Map<string, string>, live: LiveId = id => id): string[] {
   const seen = new Set<string>();
   const out: string[] = [];
   for (const rawId of raw?.filter(Boolean) ?? []) {
-    const id = fileIds.get(rawId.toLowerCase()) ?? rawId;
+    const id = live(fileIds.get(rawId.toLowerCase()) ?? rawId);
+    if (!id) continue;
     if (seen.has(id.toLowerCase())) continue;
     seen.add(id.toLowerCase());
     out.push(id);
@@ -139,9 +158,22 @@ export function buildFilterIndex(contentRoot: string = defaultContentRoot()): Fi
   // Subcategory maps
   // Glossary display names ("Émile d'Audiffret", not "Emile D Audiffret")
   const names = new Map<string, string>();
-  const peopleSubcats = buildSubcategoryMap(glossaryBase, 'people', names);
-  const placesSubcats = buildSubcategoryMap(glossaryBase, 'places', names);
-  const cultureSubcats = buildSubcategoryMap(glossaryBase, 'culture', names);
+  const retirement: GlossaryRetirementInfo[] = [];
+  const peopleSubcats = buildSubcategoryMap(glossaryBase, 'people', names, retirement);
+  const placesSubcats = buildSubcategoryMap(glossaryBase, 'places', names, retirement);
+  const cultureSubcats = buildSubcategoryMap(glossaryBase, 'culture', names, retirement);
+
+  // Retired stubs never appear as filter tags: an id merged into another entry
+  // counts toward its replacement; one without a replacement is dropped.
+  const redirects = buildGlossaryRedirectMap(retirement);
+  const retiredIds = new Set(retirement.filter(r => r.retired).map(r => r.id));
+  const live: LiveId = id => redirects.get(id) ?? (retiredIds.has(id) ? null : id);
+
+  // glossary file id → its top-level category
+  const topCategory = new Map<string, 'people' | 'places' | 'culture'>();
+  for (const id of peopleSubcats.keys()) topCategory.set(id, 'people');
+  for (const id of placesSubcats.keys()) topCategory.set(id, 'places');
+  for (const id of cultureSubcats.keys()) topCategory.set(id, 'culture');
 
   // Theme IDs (entries in culture/themes/), lowercased for case-insensitive matching
   const themeIdsLower = new Set<string>();
@@ -218,8 +250,8 @@ export function buildFilterIndex(contentRoot: string = defaultContentRoot()): Fi
       // Frontmatter ids arrive in mixed case ("Paris", "Emile_d_Audiffret") next
       // to file ids (PARIS): canonicalize to the file id like the cultural ids
       // below, so one place is one tag with one count, a name and a subcategory.
-      const people = canonicalIds(entities.people, peopleIds);
-      const places = canonicalIds(entities.places, placesIds);
+      const peopleRaw = canonicalIds(entities.people, peopleIds, live);
+      const placesRaw = canonicalIds(entities.places, placesIds, live);
 
       // Cultural refs (from frontmatter entities + inline tags)
       const allCultural = entities.cultural?.filter(Boolean) || [];
@@ -245,17 +277,35 @@ export function buildFilterIndex(contentRoot: string = defaultContentRoot()): Fi
       const seenCultural = new Set<string>();
       const canonicalCultural: string[] = [];
       for (const rawId of allCultural) {
-        const canonical = canonicalCultureIds.get(rawId.toLowerCase()) ?? rawId;
+        const canonical = live(canonicalCultureIds.get(rawId.toLowerCase()) ?? rawId);
+        if (!canonical) continue;
         const key = canonical.toLowerCase();
         if (seenCultural.has(key)) continue;
         seenCultural.add(key);
         canonicalCultural.push(canonical);
       }
 
+      // A retired stub's replacement can sit in another category (the stub
+      // places/hotels/MOUCHY → people/…/MME_DE_MOUCHY): file each id under the
+      // category its live entry belongs to, deduped across the three lists.
+      const people: string[] = [];
+      const places: string[] = [];
+      const culturalIds: string[] = [];
+      const filed = new Set<string>();
+      const buckets = { people, places, culture: culturalIds };
+      const fileUnder = (id: string, fallback: keyof typeof buckets) => {
+        if (filed.has(id.toLowerCase())) return;
+        filed.add(id.toLowerCase());
+        buckets[topCategory.get(id) ?? fallback].push(id);
+      };
+      for (const id of peopleRaw) fileUnder(id, 'people');
+      for (const id of placesRaw) fileUnder(id, 'places');
+      for (const id of canonicalCultural) fileUnder(id, 'culture');
+
       // Split into themes (from culture/themes/) and culture (everything else)
       const themes: string[] = [];
       const cultural: string[] = [];
-      for (const id of canonicalCultural) {
+      for (const id of culturalIds) {
         if (themeIdsLower.has(id.toLowerCase())) themes.push(id);
         else cultural.push(id);
       }

@@ -111,7 +111,7 @@ const { alternates: indexAlternates, canonicalUrl } = diarySeoLinks(lang.urlPath
 <ReadingLayout title={pageTitle} lang={lang.urlPath} alternates={indexAlternates} canonicalUrl={canonicalUrl}>
   <div class="max-w-4xl mx-auto">
     {lang.isTranslation ? (
-      <!-- Translation page: intro + language tabs + year grid -->
+      /* Translation page: intro + language tabs + year grid */
       <header class="mb-10 summary-card p-6 rounded-lg">
         <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-display);" data-t="translation.heading">
           {t('translation.heading')}
@@ -213,7 +213,7 @@ const { alternates: indexAlternates, canonicalUrl } = diarySeoLinks(lang.urlPath
         )}
       </header>
     ) : (
-      <!-- Original page: classic header -->
+      /* Original page: classic header */
       <header class="mb-12 text-center summary-card p-6 rounded-lg">
         <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-display);" data-t="diary.heading">
           {t('diary.heading')}

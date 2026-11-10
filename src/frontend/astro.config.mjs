@@ -33,6 +33,28 @@ const FR_EDITION_COMPLETE = (() => {
   return set;
 })();
 
+// Glossary ids of retired stubs (frontmatter `status: retired`), for the
+// sitemap filter below: their pages redirect to the replacement entry or are
+// noindex stubs, so they are not sitemap URLs.
+const RETIRED_GLOSSARY = (() => {
+  const set = new Set();
+  const root = fileURLToPath(new URL('../../content/_original/_glossary/', import.meta.url));
+  const walk = (dir) => {
+    if (!fs.existsSync(dir)) return;
+    for (const item of fs.readdirSync(dir, { withFileTypes: true })) {
+      if (item.name.startsWith('_')) continue;
+      const full = path.join(dir, item.name);
+      if (item.isDirectory()) walk(full);
+      else if (item.name.endsWith('.md')) {
+        const head = fs.readFileSync(full, 'utf8').slice(0, 2000);
+        const fm = head.startsWith('---') ? head.split('\n---')[0] : '';
+        if (/^status:\s*["']?retired["']?\s*$/m.test(fm)) set.add(item.name.slice(0, -3));
+      }
+    }
+  };
+  walk(root);
+  return set;
+})();
 
 // https://astro.build/config
 // Get git commit hash for version display
@@ -141,6 +163,10 @@ export default defineConfig({
     // Redirect bare /glossary/ to /original/glossary/
     '/glossary': '/original/glossary/',
     ...renumberRedirects(),
+    // Overrides of content/_renumber/redirects.json (written by rebuild-carnet;
+    // kept here so a regenerated file cannot drop them). The range stub
+    // 1876-10-09-11 went to the carnet page; its text now opens 1876-10-09.
+    ...Object.fromEntries(['cz', 'en', 'fr', 'original', 'uk'].map(l => [`/${l}/066/1876-10-09-11`, `/${l}/066/1876-10-09/`])),
   },
 
   build: {
@@ -188,6 +214,8 @@ export default defineConfig({
         // entry's edition text is finished (diarySeoLinks), so only its finished
         // entries are sitemap URLs.
         if (path === '/fr' || path.startsWith('/fr/')) return FR_EDITION_COMPLETE.has(path.slice(4));
+        const glossaryId = path.match(/\/glossary\/([^/]+)$/)?.[1];
+        if (glossaryId && RETIRED_GLOSSARY.has(glossaryId)) return false;
         const excluded = ['', '/about', '/marie', '/privacy', '/offline', '/404', '/admin'];
         // private "My stars" page (noindex): /{cs|en|fr|uk|es}/stars
         if (/^\/(cs|en|fr|uk|es)\/stars$/.test(path)) return false;

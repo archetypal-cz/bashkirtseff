@@ -88,7 +88,7 @@ For each carnet {X} with {N} entries:
 
 When a translator finishes, assign them the next carnet immediately — create a new task and message them.
 
-**Pre-create placeholder files before spawning translators.** A harness bug permanently blocks the `Write` tool for any path the agent first tried to `Read` while it didn't exist — for the entire agent session (confirmed in 3 reports: en-065-070, en-093-106, en-091-103). Standard practice: `mkdir -p content/{lang}/{carnet} && touch content/{lang}/{carnet}/{date}.md` for every entry (or scaffold with `just scaffold {carnet} --lang {lang}` — without `--lang` the script scaffolds Czech) before the translator starts.
+**Pre-create placeholder files before spawning translators.** A harness bug permanently blocks the `Write` tool for any path the agent first tried to `Read` while it didn't exist — for the entire agent session (confirmed in 3 reports: en-065-070, en-093-106, en-091-103). Standard practice: `mkdir -p content/{lang}/{carnet} && touch content/{lang}/{carnet}/{date}.md` for every entry (or scaffold with `just scaffold {carnet} {lang}` — the language is required) before the translator starts.
 
 ### Agent Lifecycle: Fresh Context Per Carnet
 
@@ -383,7 +383,7 @@ Report ≤500 words: findings with file:line, counts, and what you did not check
 
 ### Syncing a tree with the source
 
-When `content/_original` changed (restored text, new LAN/RSR notes), run `just sync {carnet} {lang}` — always with the language, since it defaults to cz — then `just sync-verify {carnet} {lang}` (visible text unchanged vs HEAD, splicescan empty, stray README.md reported) and `just verify-carnet {lang} {carnet}` before committing. Full rule: `_shared/editing_rules.md` §6.
+When `content/_original` changed (restored text, new LAN/RSR notes), run `just sync {carnet} {lang}` (the language is required) — then `just sync-verify {carnet} {lang}` (visible text unchanged vs HEAD, splicescan empty, stray README.md reported) and `just verify-carnet {lang} {carnet}` before committing. Full rule: `_shared/editing_rules.md` §6.
 
 ### Carnets that need a full re-review
 
@@ -397,7 +397,7 @@ Early-wave carnets were CON-approved before editor tracking existed: find them w
 
 ### New or pilot language
 
-Read `docs/ADDING_LANGUAGES.md` (tree files, closed language lists to extend, scaffold/sync/verify) and `docs/LANGUAGE_EXPANSION_PLAN.md` first. Work in small CON-gated slices; decide the language's policies (address, name tiers, labels, exonyms) with the owner before the first wave and record them in `content/{lang}/CLAUDE.md` (see es). Scaffold with `just scaffold {carnet} --lang {lang}`; untranslated entries keep `status: translation_pending` and their `TODO` lines.
+Read `docs/ADDING_LANGUAGES.md` (tree files, closed language lists to extend, scaffold/sync/verify) and `docs/LANGUAGE_EXPANSION_PLAN.md` first. Work in small CON-gated slices; decide the language's policies (address, name tiers, labels, exonyms) with the owner before the first wave and record them in `content/{lang}/CLAUDE.md` (see es). Scaffold with `just scaffold {carnet} {lang}`; untranslated entries keep `status: translation_pending` and their `TODO` lines.
 
 After writing the report, the human can run `/teamcouch` to analyze patterns across reports and facilitate skill evolution.
 

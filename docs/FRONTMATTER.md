@@ -237,8 +237,8 @@ Sync does not overwrite a footnote definition the target already holds (a correc
 Create empty translation files pre-populated with paragraph IDs, glossary tags, and the French text in comments — ready for a translator to fill in:
 
 ```bash
-just scaffold 001 --lang cz              # Czech scaffold for carnet 001 (without --lang it defaults to cz)
-just scaffold 001 --lang es --dry-run    # Preview
+just scaffold 001 cz                     # Czech scaffold for carnet 001 (the language is required)
+just scaffold 001 es --dry-run           # Preview
 ```
 
 ## Notes for Developers

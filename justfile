@@ -5,6 +5,8 @@
 set shell := ["bash", "-c"]
 
 # Default variables
+# (`sync`, `sync-all` and `scaffold` take no default language: they write into
+# a tree, and a silent cz default was a trap with five trees — owner A-45, 2026-11-10.)
 default_lang := "cz"
 default_carnet := "001"
 
@@ -344,9 +346,25 @@ clean-ts:
     rm -rf src/shared/dist
     @echo "Cleaned TypeScript build artifacts"
 
-# Scaffold empty translation files for a carnet (use --dry-run to preview, --overwrite to replace)
-scaffold carnet *FLAGS:
-    npx tsx src/scripts/scaffold-translation.ts {{carnet}} {{FLAGS}}
+# Scaffold empty translation files for a carnet into the given language tree (language required: `just scaffold 001 es --dry-run`; --overwrite to replace)
+scaffold carnet lang *FLAGS: (_require-lang "scaffold" "<carnet> <lang> [--dry-run] [--overwrite]" lang "new-ok")
+    npx tsx src/scripts/scaffold-translation.ts {{carnet}} --lang {{lang}} {{FLAGS}}
+
+# Fail unless `lang` is a language code (a tree under content/, or with "new-ok" any well-formed code), so a missing language is an error rather than a silent cz default or a flag read as the language.
+[private]
+_require-lang recipe usage lang mode="existing":
+    #!/usr/bin/env bash
+    lang='{{lang}}'
+    if [[ ! "$lang" =~ ^[a-z]{2,3}(-[a-z]{2,4})?$ ]] || [[ "$lang" == "original" ]]; then
+        echo "error: just {{recipe}} needs the target language (cz, uk, en, fr, es) — got '$lang'." >&2
+        echo "usage: just {{recipe}} {{usage}}" >&2
+        exit 1
+    fi
+    if [[ "{{mode}}" != "new-ok" && ! -d "content/$lang" ]]; then
+        echo "error: just {{recipe}}: no language tree content/$lang." >&2
+        echo "usage: just {{recipe}} {{usage}}" >&2
+        exit 1
+    fi
 
 # Rebuild + renumber a carnet from a PLAN json (paragraphs into their correct date files, missing French inserted, CCC.0001..N in reading order, every reference rewritten). Dry run unless --write; --emit DIR writes the would-be files. Spec: docs/REBUILD_CARNET.md
 rebuild-carnet carnet plan *FLAGS:
@@ -441,16 +459,16 @@ docx-verify *ARGS:
 extract-czech *ARGS:
     bash src/scripts/extract_czech_text.sh {{ARGS}}
 
-# Carry _original changes into a translation carnet, patching only changed lines: new paragraphs (TODO stubs), kind markers, embedded French that differs. Opt-in: --tags, --notes, --notes-since DATE, --footnotes, --all. --dry-run to preview; then `just sync-verify`
-sync carnet lang=default_lang *FLAGS:
+# Carry _original changes into a translation carnet, patching only changed lines: new paragraphs (TODO stubs), kind markers, embedded French that differs. Language required (`just sync 015 cz --dry-run`). Opt-in: --tags, --notes, --notes-since DATE, --footnotes, --all. --dry-run to preview; then `just sync-verify`
+sync carnet lang *FLAGS: (_require-lang "sync" "<carnet> <lang> [--dry-run] [--tags] [--notes] [--footnotes] …" lang)
     npx tsx src/scripts/sync-translation.ts {{carnet}} --lang {{lang}} {{FLAGS}}
 
 # Rebuild `entities:` frontmatter (people/places/cultural) of _original entries from inline glossary tags. Dry run unless --apply. Flags: --carnet 034,037  --exclude 012  --report FILE  --root DIR
 entities-sync *FLAGS:
     npx tsx src/scripts/entities-sync.ts {{FLAGS}}
 
-# Sync annotations for ALL carnets in a language
-sync-all lang=default_lang:
+# Sync ALL carnets of a language tree (language required: `just sync-all uk`)
+sync-all lang: (_require-lang "sync-all" "<lang>" lang)
     #!/usr/bin/env bash
     echo "Syncing all carnets for language: {{lang}}"
     if [ ! -d "content/{{lang}}" ]; then
@@ -889,8 +907,8 @@ help:
     @echo "  just update-frontmatter-lang cz 001     # Update translation metrics"
     @echo ""
     @echo "TRANSLATION SCAFFOLDING:"
-    @echo "  just scaffold 001              # Scaffold Czech translation files"
-    @echo "  just scaffold 001 --lang en    # Scaffold for English"
+    @echo "  just scaffold 001 cz           # Scaffold Czech translation files (language required)"
+    @echo "  just scaffold 001 en --dry-run # Preview an English scaffold"
     @echo "  just scaffold 001 --dry-run    # Preview changes"
     @echo ""
     @echo "DEVELOPMENT & TESTING:"

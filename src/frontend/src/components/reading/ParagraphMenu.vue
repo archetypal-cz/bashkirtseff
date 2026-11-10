@@ -7,6 +7,7 @@ import { trackEvent } from '../../lib/analytics';
 import { useAuthStore } from '../../stores/auth';
 import { themeName } from '../../lib/theme-names';
 import ReportDialog from './ReportDialog.vue';
+import SignInWhy from '../auth/SignInWhy.vue';
 import { useStarItem } from '../../composables/useStarItem';
 
 const auth = useAuthStore();
@@ -235,6 +236,7 @@ onMounted(() => {
                 </svg>
                 <span>{{ t('auth.signInToReport') }}</span>
               </button>
+              <SignInWhy v-if="reportable && !auth.isAuthenticated && !auth.loading && !auth.offline" :page-locale="pageLocale" />
             </div>
 
             <!-- Glossary tags -->
