@@ -80,7 +80,7 @@ Supprimer de la sortie fr/ :
 
 - **Paragraph IDs** (`%% XXX.YYYY %%`) — conserver tels quels
 - **Liens glossaire** (`%% [#...] %%`) — conserver en corrigeant le chemin (voir ci-dessus)
-- **Notes de bas de page** (`[^XX.YY.Z]`) — traduire en français si elles sont en anglais
+- **Notes de bas de page** (`[^CCC.PPPP.N]`) — traduire en français si elles sont en anglais
 - **Texte français** — copier VERBATIM, ne rien modifier
 - **Frontmatter** : garder date, entry_id, carnet, location, entities, para_start, para_end. Ajouter `edition_complete: true`.
 
@@ -105,7 +105,7 @@ Quand un passage non-français est identifié :
 - Identifier et traduire les passages non-français (en se basant sur les commentaires LAN)
 - Traduire les notes de bas de page anglaises en français
 - Corriger les erreurs de transcription manifestes (avec commentaire FRE)
-- Supprimer les commentaires RSR/LAN
+- Conserver les commentaires RSR/LAN (synchronisés depuis `_original/`, voir plus haut)
 
 **Flag frontmatter** : `edition_complete: true`
 
@@ -128,7 +128,7 @@ Quand un passage non-français est identifié :
 
 ## Notes de bas de page
 
-Format : `[^CC.PP.N]` où CC = carnet, PP = paragraphe, N = numéro de note.
+Format : `[^CCC.PPPP.N]` où CCC = carnet, PPPP = paragraphe (comme l'ID `CCC.PPPP`), N = numéro de note ; `[^CCC.PPPP.rN]` pour les passages écrits en russe dans le manuscrit.
 
 Types de notes :
 - **Contexte historique** : Explications pour le lecteur moderne
@@ -147,6 +147,16 @@ Marie utilise régulièrement :
 - **Italien** : termes musicaux, expressions — culture artistique
 
 **Approche** : Traduire directement en français dans le texte. Le lecteur peut toujours cliquer sur un paragraphe pour voir l'original — inutile donc de conserver le mot étranger. On traduit tout, y compris les anglicismes courants comme « gentleman » → « ce monsieur » ou équivalent contextuel. Une note de bas de page peut signaler que l'original était dans une autre langue si c'est pertinent pour le sens.
+
+### Exception : jurons niçois et occitans (décision du propriétaire A-57, 2026-11-10)
+
+Les jurons du Midi (*Cap de Biou !*, *Sacrediou*, *San Biou de Biou !*, *Cap de Diou !*…) **restent dans le texte**, tels que Marie les écrit : ils appartiennent à son registre méridional comme « sacrebleu », et elle les signale parfois elle-même (« comme disent les Niçois »). On ne les remplace pas par un équivalent français ; on ajoute un appel de note :
+
+- `[^CCC.PPPP.N]: En niçois dans l'original : …` (sens, sans glose non sourcée ; pour *Cap de Biou*, reprendre la note de 037.0255) ;
+- quand _original n'attribue le juron à Nice que par déduction, écrire « Juron occitan dans l'original : … » (063.0333) ;
+- quand le mot joue aussi sur un surnom (*Biou*, Audiffret : 050.1120, 050.1310), la note donne les deux lectures.
+
+Rendre visible la ligne du paragraphe (texte de Marie inchangé = _original) pour pouvoir y placer l'appel de note.
 
 ## Tâches courantes
 
