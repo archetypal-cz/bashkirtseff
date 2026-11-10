@@ -1,0 +1,377 @@
+[
+ {
+  "wid": "W250",
+  "title": "Andromaque (Rochegrosse)",
+  "marie_forms": [
+   "la grande toile du jeune Rochegrosse"
+  ],
+  "creator": "Georges Rochegrosse",
+  "year": "1883",
+  "type": "painting",
+  "mentions": [
+   "099.0367",
+   "100.0122"
+  ],
+  "mention_files": {
+   "099.0367": {
+    "file": "099/1883-05-06.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/ART_WORLD.md",
+     "people/mentioned/ROCHEGROSSE.md",
+     "people/recurring/ALEXIS.md",
+     "people/mentioned/PERE_VASSILIEFF.md"
+    ]
+   },
+   "100.0122": {
+    "file": "100/1883-06-10.md",
+    "tags": [
+     "culture/themes/ART_WORLD.md",
+     "people/mentioned/ROCHEGROSSE.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/ROCHEGROSSE.md",
+  "glossary_hits": [
+   "people/mentioned/ROCHEGROSSE.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Salon 1883 (Andromaque et Astyanax; medal debate). [tag count in carnets 081-106: 5]"
+ },
+ {
+  "wid": "W251",
+  "title": "Portrait de François Ier (Titien) / Titien et François Ier",
+  "marie_forms": [
+   "le portrait de François 1er"
+  ],
+  "creator": "Titian",
+  "year": "c.1539",
+  "type": "painting",
+  "mentions": [
+   "093.0211",
+   "093.0309"
+  ],
+  "mention_files": {
+   "093.0211": {
+    "file": "093/1881-10-11.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/LOVE.md",
+     "people/mentioned/GUILLAUME_TELL.md",
+     "people/mentioned/POLLACK.md",
+     "people/mentioned/PANDOLINI.md",
+     "places/cities/PARIS.md",
+     "places/theaters/THEATRE_DES_ITALIENS.md",
+     "people/artists/TITIAN.md"
+    ]
+   },
+   "093.0309": {
+    "file": "093/1881-10-28.md",
+    "tags": [
+     "culture/themes/ANIMALS.md",
+     "people/recurring/COCO_DOG.md",
+     "people/artists/TITIAN.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "093.0211 'un Titien, la désinvolture du portrait de François 1er' (Louvre). 093.0309 is the anecdote of François I stooping to pick up Titian's brush (footnote)."
+ },
+ {
+  "wid": "W252",
+  "title": "Le Penseur (Il Pensieroso)",
+  "marie_forms": [
+   "le Moïse de Michel-Ange",
+   "le penseur de Michel-Ange"
+  ],
+  "creator": "Michelangelo",
+  "year": "1526-31",
+  "type": "sculpture",
+  "mentions": [
+   "105.0197",
+   "105.0199"
+  ],
+  "mention_files": {
+   "105.0197": {
+    "file": "105/1884-07-15.md",
+    "tags": [
+     "people/mentioned/MICHEL_ANGE.md",
+     "culture/themes/ART_WORLD.md"
+    ]
+   },
+   "105.0199": {
+    "file": "105/1884-07-15.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "people/mentioned/MICHEL_ANGE.md",
+     "culture/themes/ART_WORLD.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/MICHEL_ANGE.md",
+  "glossary_hits": [
+   "people/mentioned/MICHEL_ANGE.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Medici Chapel (Lorenzo de' Medici). [tag count in carnets 081-106: 14] | ALSO: Moïse (Michel-Ange) —  [tag count in carnets 081-106: 14]"
+ },
+ {
+  "wid": "W253",
+  "title": "Ariane sur la panthère",
+  "marie_forms": [
+   "Ariane de Danneker à Francfort"
+  ],
+  "creator": "Johann Heinrich Dannecker",
+  "year": "1814",
+  "type": "sculpture",
+  "mentions": [
+   "081.0457",
+   "081.0566"
+  ],
+  "mention_files": {
+   "081.0457": {
+    "file": "081/1878-07-15.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/mentioned/EDOUARD_STRAUSS.md",
+     "culture/art/ARIANE_DE_DANNEKER.md",
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/ART_WORLD.md",
+     "places/cities/FRANCFORT.md"
+    ]
+   },
+   "081.0566": {
+    "file": "081/1878-07-31.md",
+    "tags": [
+     "culture/themes/APPEARANCE.md",
+     "culture/themes/ART_WORLD.md",
+     "culture/art/ARIANE_DE_DANNEKER.md",
+     "places/cities/FRANCFORT.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/ARIANE_DE_DANNEKER.md",
+  "glossary_hits": [
+   "people/mentioned/ARIANE_DE_DANNEKER.md (MISSING)"
+  ],
+  "public_domain_likely": true,
+  "notes": "Bethmann Museum, Frankfurt (Liebieghaus now). Marie poses like the statue, 081.0566. [tag count in carnets 081-106: 0]"
+ },
+ {
+  "wid": "W254",
+  "title": "La Cruche cassée",
+  "marie_forms": [
+   "cruche cassée de Greuze"
+  ],
+  "creator": "Jean-Baptiste Greuze",
+  "year": "1777",
+  "type": "painting",
+  "mentions": [
+   "087.0101",
+   "094.0167"
+  ],
+  "mention_files": {
+   "087.0101": {
+    "file": "087/1879-12-30.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/mentioned/GABRIEL_GERY.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md",
+     "people/family/PAUL.md",
+     "culture/history/GREUZE.md",
+     "places/theaters/COMEDIE_FRANCAISE.md"
+    ]
+   },
+   "094.0167": {
+    "file": "094/1882-01-13.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/FASHION.md",
+     "people/mentioned/DOUCET.md",
+     "culture/history/GREUZE.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/culture/history/GREUZE.md",
+  "glossary_hits": [
+   "culture/history/GREUZE.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Costume reference (087.0101) and a model's pose (094.0167). [tag count in carnets 081-106: 6]"
+ },
+ {
+  "wid": "W255",
+  "title": "Portrait de Mgr Viard (Breslau)",
+  "marie_forms": [
+   "le portrait de Mgr. Viard"
+  ],
+  "creator": "Louise Breslau",
+  "year": "1881",
+  "type": "painting",
+  "mentions": [
+   "087.0300",
+   "088.0043"
+  ],
+  "mention_files": {
+   "087.0300": {
+    "file": "087/1880-01-23.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "places/schools/JULIAN.md",
+     "culture/themes/HEALTH.md",
+     "culture/themes/ART_PRACTICE.md",
+     "people/artists/ROBERT_FLEURY.md",
+     "people/artists/LOUISE_BRESLAU.md"
+    ]
+   },
+   "088.0043": {
+    "file": "088/1880-04-30.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/ART_WORLD.md",
+     "people/artists/LOUISE_BRESLAU.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Salon 1881."
+ },
+ {
+  "wid": "W260",
+  "title": "Portrait of don Carlos (Bonnat)",
+  "marie_forms": [
+   "le portrait de Victor Hugo par Bonnat",
+   "portrait de don Carlos par Bonnat"
+  ],
+  "creator": "Léon Bonnat",
+  "year": "1878",
+  "type": "painting",
+  "mentions": [
+   "080.0011",
+   "085.0071"
+  ],
+  "mention_files": {
+   "080.0011": {
+    "file": "080/1878-05-05.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/mentioned/DON_CARLOS.md",
+     "people/mentioned/BONNAT.md",
+     "culture/themes/ART_WORLD.md"
+    ]
+   },
+   "085.0071": {
+    "file": "085/1879-05-12.md",
+    "tags": [
+     "culture/themes/ART_WORLD.md",
+     "people/mentioned/BONNAT.md",
+     "people/artists/LOUISE_BRESLAU.md",
+     "people/mentioned/VICTOR_HUGO.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/BONNAT.md",
+  "glossary_hits": [
+   "people/mentioned/BONNAT.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "080.0011 (Exposition Universelle 1878). [Existing entry category: people/mentioned; tag count is repo-wide, all carnets] [auto-stub filed under people/mentioned; should be recategorised] | ALSO: Portrait de Victor Hugo (Bonnat) — Salon 1879. [tag count in carnets 081-106: 10]"
+ },
+ {
+  "wid": "W262",
+  "title": "Printemps qui passe",
+  "marie_forms": [
+   "\"Le drapeau\"",
+   "Printemps qui passe"
+  ],
+  "creator": "Georges Bertrand",
+  "year": "1883",
+  "type": "painting",
+  "mentions": [
+   "094.0164",
+   "099.0491"
+  ],
+  "mention_files": {
+   "094.0164": {
+    "file": "094/1882-01-13.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "people/recurring/BASTIEN_LEPAGE.md",
+     "people/mentioned/MME_CARTWRIGHT.md",
+     "people/mentioned/GEORGES_BERTRAND.md",
+     "people/mentioned/POLLACK.md",
+     "people/mentioned/CARRIER_BELLEUSE.md",
+     "culture/languages/LATIN.md",
+     "culture/themes/ART_WORLD.md",
+     "culture/themes/AMBITION.md",
+     "people/recurring/EMILE_BASTIEN_LEPAGE.md",
+     "people/core/DINA.md",
+     "culture/newspapers/SALON_DE_1881_P_ORELL.md",
+     "places/hotels/GLORIAE_CUPIDITAS.md"
+    ]
+   },
+   "099.0491": {
+    "file": "099/1883-05-19.md",
+    "tags": [
+     "culture/themes/ART_WORLD.md",
+     "people/mentioned/GEORGES_BERTRAND.md",
+     "culture/art/SALON.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/GEORGES_BERTRAND.md",
+  "glossary_hits": [
+   "people/mentioned/GEORGES_BERTRAND.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Salon 1883, five nude women on white horses. [tag count in carnets 081-106: 2] | ALSO: Le Drapeau — Marie praised it in her chronicle (P. Orell) - the painter is 'Georges Bertrand' (verify). [tag count in carnets 081-106: 2]"
+ },
+ {
+  "wid": "W263",
+  "title": "Portrait de jeune fille (Sargent)",
+  "marie_forms": [
+   "le portrait de jeune fille par Sargent"
+  ],
+  "creator": "John Singer Sargent",
+  "year": "c.1881",
+  "type": "painting",
+  "mentions": [
+   "095.0036",
+   "103.0551"
+  ],
+  "mention_files": {
+   "095.0036": {
+    "file": "095/1882-05-09.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/ART_WORLD.md",
+     "people/artists/JOHN_SINGER_SARGENT.md",
+     "people/mentioned/VELASQUEZ.md"
+    ]
+   },
+   "103.0551": {
+    "file": "103/1884-03-16.md",
+    "tags": [
+     "culture/themes/ART_PRACTICE.md",
+     "culture/themes/APPEARANCE.md",
+     "people/mentioned/IMPERATRICE_EUGENIE.md",
+     "people/mentioned/MME_DE_POURTALES.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/artists/JOHN_SINGER_SARGENT.md",
+  "glossary_hits": [
+   "people/artists/JOHN_SINGER_SARGENT.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Salon 1882 (probably Lady with the Rose / Miss Burckhardt); identification unverified. [tag count in carnets 081-106: 4] | ALSO: Madame X (Portrait de Mme Gautreau) — Footnote only; Marie names only Virginie Gautreau as a beauty. [tag count in carnets 081-106: 4]"
+ }
+]

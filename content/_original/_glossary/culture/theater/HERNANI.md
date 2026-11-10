@@ -7,13 +7,17 @@ aliases:
 type: Culture
 category: culture/theater
 research_status: Moderate
-last_updated: 2026-10-10
+last_updated: 2026-11-10
 languages:
   - fr
 full_text:
   - url: https://fr.wikisource.org/wiki/Hernani
     label: "Hernani, ou l'Honneur castillan (1830), drame en cinq actes en vers"
     source: Wikisource
+    language: fr
+  - url: https://archive.org/details/hernanidrameenci00hugouoft
+    label: "Hernani, drame en cinq actes (1870 school edition, with notes by Gustave Masson)"
+    source: Internet Archive
     language: fr
 ---
 # Hernani
@@ -25,6 +29,8 @@ full_text:
 ## Marie and this work
 
 - **February 1874, Nice.** Marie notes on 4 February that on Saturday there is "Hernani par la Vigier" (016.0107). On 7 February she writes "Ce soir nous avons Hernani que j'attendais tant" (016.0153); on 11 February she recalls the blue dress she wore "à la représentation d'Hernani" (016.0215), and on 15 February the Cercle de la Méditerranée concert is full "pas autant que le soir d'Hernani" (016.0269). The performer is the Vicomtesse Vigier, the former opera star Sophie Cruvelli; the venue is evidently the Cercle de la Méditerranée, which is inferred from 016.0269 and not stated outright.
+- **20 September 1875, Nice (043.0260).** "Ce soir on donne «Hernani» de Hugo, ce poète si antipathique, mais malgré cela je vais au théâtre, robe rose; coiffure Empire, je ne me sens pas fière, comme lorsque je sors d'habitude je me sens petite." Her dislike of Hugo does not keep her from the theatre; the entry goes on to tell of d'Audiffret's appearance there.
+- **3 October 1875, Nice (046.0024).** Marie records a reproach that she turned away from someone who greeted her, and adds in passing: "Le soir d'«Hernani» nous sortions avec Galula et d'Audiffret." That is presumably the performance of 20 September.
 - **25 February 1880, Paris.** The fiftieth anniversary of the first performance was marked at the Comédie-Française, with Sarah Bernhardt reciting François Coppée's poem *La Bataille d'Hernani* before a bust of Hugo (Coppée's printed text, Lemerre 1880; Wien Museum print from *Le Monde illustré*). Marie splits her evening between the Opéra and the Théâtre-Français (087.0539).
 - **22 April 1880.** Saint-Amand recites scenes of *Hernani* and *Ruy Blas* at her studio (087.0893).
 - **25 October 1880.** Marie evokes the last act "lorsque Doña Sol supplie le vieillard" (090.0171).

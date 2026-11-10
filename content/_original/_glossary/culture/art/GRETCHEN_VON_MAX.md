@@ -9,8 +9,8 @@ aliases:
   - Gretchen
 type: Culture
 category: culture/art
-research_status: Stub
-last_updated: 2026-10-22
+research_status: Basic
+last_updated: 2026-11-10
 ---
 
 %% GLO_GRETCHEN_VON_MAX.0001 %%
@@ -34,6 +34,12 @@ It is her touchstone for a work that tells the whole story through expression: �
 - 1877-10-14 (075.0305): «la Gretchen de Max».
 
 %% GLO_GRETCHEN_VON_MAX.0007 %%
+## Notes and doubts
+
+%% GLO_GRETCHEN_VON_MAX.0008 %%
+Gabriel von Max painted several Gretchen subjects; a German Wikipedia mirror's list of works names *Gretchen in der Walpurgisnacht* (1873) and *Die Kindesmörderin* (1877), and he also made a series of *Faust* illustrations (a ten-woodcut edition appeared in 1880; Kay Ehling, «Zu den Faust-Illustrationen des Münchner Malers Gabriel von Max», Goethe-Jahrbuch 129, 2012, pp. 186-200). Neither painting is confirmed as the one Marie saw. The text gives no title, so no image is attached.
+
+%% GLO_GRETCHEN_VON_MAX.0009 %%
 %% 2026-10-21T23:15:00 RSR: Three paragraphs read; they were tagged with the empty stubs M_MARX, GRETCHEN and MAX. Marx/Max identification and the Faust-illustration fact come from a web search summary of Wikipedia «Gabriel von Max» and museum listings, not verified against a catalogue; the specific painting is open (a catalogue of Max's Gretchen subjects, and the Cologne museum's holdings in 1877, should be checked). %%
 
 %% 2026-10-22T16:00:00 RSR: Hedge reviewed (glossary identity questions): painter = Gabriel von Max (t.11 index «Max (Michael), peintre allemand»); which picture, and where Marie saw it, remain open. %%

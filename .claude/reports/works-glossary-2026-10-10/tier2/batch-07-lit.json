@@ -1,0 +1,480 @@
+[
+ {
+  "wid": "W181",
+  "title": "Noctes Atticae (Aulu-Gelle)",
+  "marie_forms": [
+   "Aulu-Gelle"
+  ],
+  "creator": "Aulus Gellius",
+  "year": "c.170 AD",
+  "type": "book",
+  "mentions": [
+   "034.0363",
+   "037.0009"
+  ],
+  "mention_files": {
+   "034.0363": {
+    "file": "034/1875-06-17.md",
+    "tags": [
+     "culture/literature/AULU_GELLE.md"
+    ]
+   },
+   "037.0009": {
+    "file": "037/1875-07-15.md",
+    "tags": [
+     "culture/themes/LOVE.md",
+     "people/recurring/EMILE_D_AUDIFFRET.md",
+     "people/family/MA_TANTE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/literature/AULU_GELLE.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "037.0009 only in LAN note; text mention uncertain."
+ },
+ {
+  "wid": "W182",
+  "title": "La Divina Commedia (Dante, quotations)",
+  "marie_forms": [
+   "Ed ha natura",
+   "comme dit Dante",
+   "lauza leggierci"
+  ],
+  "creator": "Dante Alighieri",
+  "year": "c.1320",
+  "type": "poem",
+  "mentions": [
+   "043.0210",
+   "050.1150"
+  ],
+  "mention_files": {
+   "043.0210": {
+    "file": "043/1875-09-16.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/languages/ITALIAN.md",
+     "culture/themes/TRAVEL.md",
+     "places/cities/FLORENCE.md",
+     "people/writers/DANTE.md"
+    ]
+   },
+   "050.1150": {
+    "file": "050/1875-12-22.md",
+    "tags": [
+     "culture/languages/ITALIAN.md",
+     "people/writers/DANTE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "050.1150 quotes Inferno I.97 ('Ed ha natura sì malvagia e ria'); 043.0210 corrupted quote; 21 mentions incl. the place 'Dante'. Verify per paragraph."
+ },
+ {
+  "wid": "W183",
+  "title": "La Captive",
+  "marie_forms": [
+   "La Captive"
+  ],
+  "creator": "André Chénier",
+  "year": "1819 (written 1794)",
+  "type": "poem",
+  "mentions": [
+   "053.0202",
+   "053.0207"
+  ],
+  "mention_files": {
+   "053.0202": {
+    "file": "053/1876-01-29.md",
+    "tags": []
+   },
+   "053.0207": {
+    "file": "053/1876-01-29.md",
+    "tags": [
+     "culture/themes/LOVE.md",
+     "people/mentioned/MERJEEWSKY.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "053.0202."
+ },
+ {
+  "wid": "W184",
+  "title": "English satirical novel about Nice ('Mrs Bodgers')",
+  "marie_forms": [
+   "Fair in the",
+   "Mrs Bodgers",
+   "livre angla"
+  ],
+  "creator": "unidentified",
+  "year": "?",
+  "type": "novel",
+  "mentions": [
+   "051.0222",
+   "053.0264"
+  ],
+  "mention_files": {
+   "051.0222": {
+    "file": "051/1875-12-31.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/languages/ENGLISH.md",
+     "culture/themes/SOCIETY.md",
+     "places/cities/NICE.md",
+     "people/mentioned/PRODGERS.md"
+    ]
+   },
+   "053.0264": {
+    "file": "053/1876-01-31.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/languages/ENGLISH.md",
+     "culture/themes/LOVE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "051.0222."
+ },
+ {
+  "wid": "W204",
+  "title": "Impressions de voyage (Dumas travel books)",
+  "marie_forms": [
+   "voyages d'Alexandre Dumas"
+  ],
+  "creator": "Alexandre Dumas père",
+  "year": "1841-",
+  "type": "book",
+  "mentions": [
+   "066.0422",
+   "071.0485"
+  ],
+  "mention_files": {
+   "066.0422": {
+    "file": "066/1876-09-24.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/literature/ALEXANDRE_DUMAS.md",
+     "places/cities/ROME.md",
+     "people/core/DUKE_OF_HAMILTON.md",
+     "places/cities/POMPEII.md",
+     "places/cities/NAPLES.md"
+    ]
+   },
+   "071.0485": {
+    "file": "071/1877-05-28.md",
+    "tags": [
+     "culture/themes/LOVE.md",
+     "people/mentioned/LARDEREL.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "071.0485 (Medici Venus passage). Also 'Je vais retrouver Rome par Dumas' 066.0422 (probably Le Corricolo / Impressions)."
+ },
+ {
+  "wid": "W205",
+  "title": "Rienzi, the Last of the Roman Tribunes (novel)",
+  "marie_forms": [
+   "Rienzi"
+  ],
+  "creator": "Edward Bulwer-Lytton",
+  "year": "1835",
+  "type": "novel",
+  "mentions": [
+   "063.0332",
+   "063.0443"
+  ],
+  "mention_files": {
+   "063.0332": {
+    "file": "063/1876-07-15.md",
+    "tags": [
+     "culture/themes/PHILOSOPHY.md",
+     "culture/themes/READING.md",
+     "people/mentioned/BULWER.md",
+     "culture/languages/ENGLISH.md",
+     "culture/literature/RIENZI_BULWER_LYTTON.md"
+    ]
+   },
+   "063.0443": {
+    "file": "063/1876-07-17.md",
+    "tags": [
+     "culture/themes/SUPERSTITION.md",
+     "culture/themes/MARRIAGE.md",
+     "people/mentioned/MOUZAY.md",
+     "people/mentioned/ANTONELLI.md",
+     "places/cities/ROME.md",
+     "people/mentioned/CARDINAL_ANTONELLI.md",
+     "culture/literature/RIENZI_BULWER_LYTTON.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/literature/RIENZI_BULWER_LYTTON.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "063.0332 (Marie copies a passage in English); distinct from Wagner's opera."
+ },
+ {
+  "wid": "W206",
+  "title": "Poltava (Les Amours de Mazeppa et Marie Kotchoubey)",
+  "marie_forms": [
+   "Mazeppa"
+  ],
+  "creator": "Alexander Pushkin",
+  "year": "1829",
+  "type": "poem",
+  "mentions": [
+   "066.0577",
+   "066.0584"
+  ],
+  "mention_files": {
+   "066.0577": {
+    "file": "066/1876-10-01.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/historical/BASILE.md",
+     "places/cities/NAPLES.md",
+     "people/mentioned/PRINCE_SERGE_KOTCHOUBEY.md",
+     "places/residences/GAVRONZI.md",
+     "culture/themes/FASHION.md",
+     "places/residences/DIKANKA.md",
+     "culture/literature/PUSHKIN.md"
+    ]
+   },
+   "066.0584": {
+    "file": "066/1876-10-01.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/historical/BASILE.md",
+     "culture/themes/ART_WORLD.md",
+     "culture/themes/HEALTH.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "066.0577."
+ },
+ {
+  "wid": "W208",
+  "title": "Le lys dans la vallée",
+  "marie_forms": [
+   "lys dans la vallée"
+  ],
+  "creator": "Honoré de Balzac",
+  "year": "1836",
+  "type": "novel",
+  "mentions": [
+   "079.0263",
+   "079.0272"
+  ],
+  "mention_files": {
+   "079.0263": {
+    "file": "079/1878-04-08.md",
+    "tags": [
+     "people/mentioned/MULTEDO.md",
+     "people/mentioned/LE_LYS_DANS_LA_VALLEE.md",
+     "people/aristocracy/MME_DE_MORTSAUF.md",
+     "culture/themes/READING.md"
+    ]
+   },
+   "079.0272": {
+    "file": "079/1878-04-09.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/BALZAC.md",
+     "people/mentioned/LE_LYS_DANS_LA_VALLEE.md",
+     "people/mentioned/NATHALIE_DE_MANERVILLE.md",
+     "culture/themes/READING.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/LE_LYS_DANS_LA_VALLEE.md",
+  "glossary_hits": [
+   "people/mentioned/LE_LYS_DANS_LA_VALLEE.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "079.0263, 079.0272. [Existing entry category: people/mentioned; tag count is repo-wide, all carnets] [auto-stub filed under people/mentioned; should be recategorised]"
+ },
+ {
+  "wid": "W209",
+  "title": "La Recherche de l'absolu",
+  "marie_forms": [
+   "Recherche de l'Absolu"
+  ],
+  "creator": "Honoré de Balzac",
+  "year": "1834",
+  "type": "novel",
+  "mentions": [
+   "079.0338",
+   "079.0395"
+  ],
+  "mention_files": {
+   "079.0338": {
+    "file": "079/1878-04-12.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/mentioned/LA_RECHERCHE_DE_L_ABSOLU.md",
+     "culture/themes/READING.md",
+     "culture/themes/EMOTIONS.md"
+    ]
+   },
+   "079.0395": {
+    "file": "079/1878-04-15.md",
+    "tags": [
+     "culture/literature/BALZAC.md",
+     "people/mentioned/LA_RECHERCHE_DE_L_ABSOLU.md",
+     "culture/themes/READING.md",
+     "culture/themes/POLITICS.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/LA_RECHERCHE_DE_L_ABSOLU.md",
+  "glossary_hits": [
+   "people/mentioned/LA_RECHERCHE_DE_L_ABSOLU.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "079.0395. [Existing entry category: people/mentioned; tag count is repo-wide, all carnets] [auto-stub filed under people/mentioned; should be recategorised]"
+ },
+ {
+  "wid": "W210",
+  "title": "Stendhal? passage copied in extenso (shy women)",
+  "marie_forms": [
+   "copie in extenso"
+  ],
+  "creator": "unidentified (Stendhal, De l'amour?)",
+  "year": null,
+  "type": "book",
+  "mentions": [
+   "080.0609",
+   "080.0610"
+  ],
+  "mention_files": {
+   "080.0609": {
+    "file": "080/1878-06-14.md",
+    "tags": [
+     "culture/themes/READING.md"
+    ]
+   },
+   "080.0610": {
+    "file": "080/1878-06-14.md",
+    "tags": [
+     "culture/themes/LOVE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": false,
+  "notes": "080.0609-0610 ('Je trouve cela dans un livre'); verify the source."
+ },
+ {
+  "wid": "W232",
+  "title": "L'Homme-femme",
+  "marie_forms": [
+   "\"l'Homme-femme\""
+  ],
+  "creator": "Alexandre Dumas fils",
+  "year": "1872",
+  "type": "book",
+  "mentions": [
+   "084.0043",
+   "085.0096"
+  ],
+  "mention_files": {
+   "084.0043": {
+    "file": "084/1879-01-16.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "people/mentioned/LHOMME_FEMME.md",
+     "people/mentioned/BETTINA.md",
+     "people/mentioned/GOETHE.md",
+     "culture/themes/READING.md",
+     "culture/themes/LOVE.md",
+     "people/mentioned/ALEXANDRE_DUMAS_FILS.md",
+     "places/cities/NAPLES.md",
+     "people/mentioned/VICTOR_EMMANUEL_II.md"
+    ]
+   },
+   "085.0096": {
+    "file": "085/1879-05-18.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/LOVE.md",
+     "culture/themes/MARRIAGE.md",
+     "people/mentioned/JEANNE_DE_BALLORE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Pamphlet on women and marriage; strong effect on Marie (Mar 1879). Frontmatter tag LHomme_Femme."
+ },
+ {
+  "wid": "W233",
+  "title": "Voyage en Espagne (Tras los montes)",
+  "marie_forms": [
+   "\"Tra las Montes\""
+  ],
+  "creator": "Théophile Gautier",
+  "year": "1843",
+  "type": "book",
+  "mentions": [
+   "095.0192",
+   "096.0378"
+  ],
+  "mention_files": {
+   "095.0192": {
+    "file": "095/1882-06-20.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/READING.md",
+     "places/countries/ESPAGNE.md",
+     "people/writers/THEOPHILE_GAUTIER.md",
+     "places/cities/BURGOS.md",
+     "places/cities/CORDOBA.md",
+     "places/cities/GRANADA.md",
+     "places/cities/SEVILLE.md"
+    ]
+   },
+   "096.0378": {
+    "file": "096/1882-10-14.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/READING.md",
+     "culture/themes/TRAVEL.md",
+     "culture/themes/ART_PRACTICE.md",
+     "people/family/MA_TANTE.md",
+     "people/family/PAUL.md",
+     "people/mentioned/ALBERT_GAUTIER.md",
+     "places/countries/ESPAGNE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "096.0378 Marie reads it on the train (Sept 1882)."
+ }
+]

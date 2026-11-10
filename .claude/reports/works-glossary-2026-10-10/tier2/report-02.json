@@ -1,0 +1,165 @@
+[
+ {
+  "wid": "W148",
+  "title": "Les Brigands / Barbe-Bleue",
+  "entry": "content/_original/_glossary/culture/theater/LES_BRIGANDS.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 2,
+  "extra_mentions": [
+   "021.0483"
+  ],
+  "doubts": "Two works: LES_BRIGANDS enriched (poster image, IA + IMSLP, all five mentions); BARBE_BLEUE_OFFENBACH.md enriched with the 026.0023 mention (it already had full texts). 015.0185 is a bare line 'Les brigands...' with no context; least certain mention. Inventory ids 015.0185/026.0023 are current."
+ },
+ {
+  "wid": "W149",
+  "title": "Nelly (ballet)",
+  "entry": "content/_original/_glossary/culture/theater/NELLY_BALLET.md",
+  "action": "new",
+  "supersedes": "people/mentioned/NELLY.md (empty person stub, wrongly tagged on 002.0135 and 002.0303)",
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Ballet at the Nice Opéra, March 1873; author/composer unidentified; no source found. Possibly a spelling variant of an existing ballet (Nella, Pilati) but unproven. Stub entry."
+ },
+ {
+  "wid": "W150",
+  "title": "Lo Specchio Infernale (ballet)",
+  "entry": "content/_original/_glossary/culture/theater/LO_SPECCHIO_INFERNALE_BALLET.md",
+  "action": "new",
+  "supersedes": "places/theaters/LO_SPECCHIO_INFERNALE.md",
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Unidentified Italian-titled ballet; nothing found online. The old stub calls it a play at the French Theater; Marie calls it a ballet (014.0185). Stub entry."
+ },
+ {
+  "wid": "W151",
+  "title": "Le Réveillon",
+  "entry": "content/_original/_glossary/culture/theater/LE_REVEILLON_MEILHAC_HALEVY.md",
+  "action": "new",
+  "supersedes": "places/theaters/LE_REVEILLON.md",
+  "images": 1,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Identification rests on title, date and Ravel (Palais-Royal actor); Nice theatre not named. Image: Edmond Morin watercolour 1872 (BnF via Commons). Premiere 10 Sept 1872 per Wikipedia 'Henri Meilhac'. 051.0463 and 014.0284 'réveillon' are suppers, not the play. Inventory ids 015.0224/0225 are current."
+ },
+ {
+  "wid": "W152",
+  "title": "Les Domestiques",
+  "entry": "content/_original/_glossary/culture/theater/LES_DOMESTIQUES_GRANGE_DESLANDES.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Probable (not certain) identification with Grangé and Deslandes, Variétés 18 June 1861, comédie en trois actes mêlée de chant. 007.0335 is not the play (waiters at the Russian restaurant, Vienna); only 002.0064 is a mention; other 'les domestiques' occurrences are servants."
+ },
+ {
+  "wid": "W153",
+  "title": "Le Martyre / Le Martyr",
+  "entry": "content/_original/_glossary/culture/theater/LE_MARTYR_NICE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "UNRESOLVED. Play/opera seen at Nice by Bête with Hamilton, 'Joanita' mocked. Candidates checked, none shown: d'Ennery and Brésil Le Martyr, Donizetti Les Martyrs, Duprez opera Joanita (1852). Stub entry, identification open."
+ },
+ {
+  "wid": "W154",
+  "title": "Les Pattes de mouche",
+  "entry": "content/_original/_glossary/culture/theater/LES_PATTES_DE_MOUCHE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Inventory ids 022.0418/0447 are stale (post-rebuild renumbering); real mentions are 022.0429 and 022.0458 (Spa, 6-7 Aug 1874). 013.0130 'pattes de mouche' is the idiom for scrawl. Image is a cropped BnF press engraving, 1860."
+ },
+ {
+  "wid": "W171",
+  "title": "Les Brigands",
+  "entry": "content/_original/_glossary/culture/theater/LES_BRIGANDS.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 2,
+  "extra_mentions": [
+   "021.0483"
+  ],
+  "doubts": "Same entry as W148 (people/mentioned/LES_BRIGANDS.md does not exist; nothing to supersede). 034.0047-0052: 'Girofla' (nickname for d'Audiffret) sings the couplet; 050.1162: Mlle Aimée is the creator of Fiorella per the 1869 poster, may be the same actress."
+ },
+ {
+  "wid": "W172",
+  "title": "La Vie parisienne",
+  "entry": "content/_original/_glossary/culture/theater/LA_VIE_PARISIENNE_OFFENBACH.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "Existing entry kept; added two Internet Archive texts (1867 play, 1870 piano-vocal score) beside IMSLP. people/mentioned/LA_VIE_PARISIENNE.md and VIE_PARISIENNE.md are the magazine / stub, untouched. No image found."
+ },
+ {
+  "wid": "W173",
+  "title": "Le Tour du monde en quatre-vingts jours (stage adaptation)",
+  "entry": "content/_original/_glossary/culture/theater/LE_TOUR_DU_MONDE_EN_QUATRE_VINGTS_JOURS_PIECE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Only 028.0238 is a sure mention. 045.0045 is a joking reply, link to the play unconfirmed (stated in entry, not counted). Full-text links are the novel (Wikisource, IA), no stage text found. Exact first night not verified (1874, Porte-Saint-Martin). No glossary entry for the novel exists. Other 'tour du monde' hits (005.0059, 007.0072, 083, 085, 087) not examined."
+ },
+ {
+  "wid": "W174",
+  "title": "Hernani (play)",
+  "entry": "content/_original/_glossary/culture/theater/HERNANI.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Existing entry enriched with 043.0260 (20 Sept 1875, Nice; inventory said Florence, it is Nice) and 046.0024 (3 Oct 1875) and an IA text. No image added (none sought beyond Commons search)."
+ },
+ {
+  "wid": "W175",
+  "title": "Ferréol",
+  "entry": "content/_original/_glossary/culture/theater/FERREOL_SARDOU.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [
+   "050.0093"
+  ],
+  "doubts": "Inventory ids 050.0087/0090 correct. First night 17 Nov 1875 from the project's earlier RSR note (Théâtre complet), not independently verified. No free full text and no image located."
+ },
+ {
+  "wid": "W176",
+  "title": "Le Panache",
+  "entry": "content/_original/_glossary/culture/theater/LE_PANACHE_GONDINET.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Author Edmond Gondinet; Palais-Royal 12 Oct 1875 (fr Wikipedia, Gondinet). Marie sees it at Nice (049.0370, location Nice) and Rome (055.0503). 098.0259 'panache rouge' is a plume, not the play. No free full text found. Image: Trichon engraving, Act II (BnF via Commons)."
+ },
+ {
+  "wid": "W207",
+  "title": "Much Ado about Nothing / Shakespeare comedy",
+  "entry": "content/_original/_glossary/culture/theater/MUCH_ADO_ABOUT_NOTHING_SHAKESPEARE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [
+   "086.0762",
+   "059.0686"
+  ],
+  "doubts": "034.0406 and 067.0374 use the title as a proverbial phrase (English); neither proves she read the play. 086.0762 (21 Dec 1879) clearly describes Beatrice and Benedick but does not name the play; 059.0686 'une comédie de Shakespeare' is unnamed and may be another play. A Dicksee 'Beatrice' painting was considered and dropped (no proof it depicts the Much Ado character). Inventory ids current."
+ }
+]

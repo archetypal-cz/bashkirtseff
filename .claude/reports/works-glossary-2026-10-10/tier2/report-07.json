@@ -1,0 +1,137 @@
+[
+ {
+  "wid": "W181",
+  "title": "Noctes Atticae (Aulu-Gelle)",
+  "entry": "content/_original/_glossary/culture/literature/NOCTES_ATTICAE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 4,
+  "extra_mentions": [],
+  "doubts": "Passages unidentified; the diary names no chapter. AULU_GELLE (author entry) left untouched."
+ },
+ {
+  "wid": "W182",
+  "title": "La Divina Commedia (Dante, quotations)",
+  "entry": "content/_original/_glossary/culture/literature/LA_DIVINE_COMEDIE.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "Work entry already existed and was the right target. Added 043.0210 (Inf. I.31-33, the lonza) and 050.1150 (Inf. I.97, the lupa) with aliases; both were missing from it. Why the leopard stands for Florence in 043.0210 is not explained by Marie. 043.0210 is dated 16 Sept 1875, location Genes in frontmatter. The place-name 'Dante' mentions are not this work."
+ },
+ {
+  "wid": "W183",
+  "title": "La Captive",
+  "entry": "content/_original/_glossary/culture/literature/LA_JEUNE_CAPTIVE_CHENIER.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Identified as Chenier's 'La Jeune Captive' via 'ma coupe est encore pleine' (stanza 'Au banquet de la vie... la coupe en mes mains encor pleine'). 053.0207 is not a further mention of the poem (inventory error, it only carries the day's RSR summary). First printing per Moland note: Decade philosophique 30 nivose an III; written 1794."
+ },
+ {
+  "wid": "W184",
+  "title": "English satirical novel about Nice ('Mrs Bodgers')",
+  "entry": "content/_original/_glossary/culture/literature/MRS_BODGERS_NICE_NOVEL.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Unidentified. Catalogue, IA and web searches found nothing. 'Bodgers' may echo Prodgers (tagged on 051.0222) but no source confirms. 053.0264 (Kate quotation) may be a different book. Entry says so plainly. A HathiTrust/Google Books full-text search could settle it; Google Books quota was exhausted."
+ },
+ {
+  "wid": "W204",
+  "title": "Impressions de voyage (Dumas travel books)",
+  "entry": "content/_original/_glossary/culture/literature/IMPRESSIONS_DE_VOYAGE_DUMAS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 5,
+  "extra_mentions": [
+   "008.0224",
+   "071.0181"
+  ],
+  "doubts": "Inventory 071.0485 is wrong: the Medici Venus / Villa Palmieri paragraph is 071.0486 (verified against La Villa Palmieri ch. VII on Wikisource). 066.0422 'Rome par Dumas' remains an unidentified volume. 008.0224 is Impressions de voyage en Russie (location Paris_to_Nice, 27 Aug 1873). 071.0181 'causer avec Dumas' is generic. Existing paragraphs there are tagged to ALEXANDRE_DUMAS."
+ },
+ {
+  "wid": "W205",
+  "title": "Rienzi (Bulwer-Lytton)",
+  "entry": "content/_original/_glossary/culture/literature/RIENZI_BULWER_LYTTON.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Already a complete entry. Added aliases, a second full-text link (IA, A. L. Burt ed.), last_updated; checked Gutenberg #1396 resolves."
+ },
+ {
+  "wid": "W206",
+  "title": "Poltava (Pushkin)",
+  "entry": "content/_original/_glossary/culture/literature/POLTAVA_PUSHKIN.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Marie's 'Les amours de Mazeppa et de Marie Kotchoubey' is not Pushkin's title; entry says so. 066.0584 is the relic/portrait paragraph, no poem mention. Whether Pushkin's text names Dikanka not checked (only a tourist cliche per diary footnote). Only Russian text linked (no French/English translation on Wikisource found). PUSHKIN.md is the author entry, untouched."
+ },
+ {
+  "wid": "W208",
+  "title": "Le lys dans la vallée",
+  "entry": "content/_original/_glossary/culture/literature/LE_LYS_DANS_LA_VALLEE_BALZAC.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LE_LYS_DANS_LA_VALLEE.md",
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "Stub supersedes; paragraphs 079.0263/0272 currently tag the stub. Date: Wikipedia 1835; book form 1836 stated without separate citation. No new mentions found."
+ },
+ {
+  "wid": "W209",
+  "title": "La Recherche de l'absolu",
+  "entry": "content/_original/_glossary/culture/literature/LA_RECHERCHE_DE_L_ABSOLU_BALZAC.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LA_RECHERCHE_DE_L_ABSOLU.md",
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Stub supersedes. 079.0395 quote verified verbatim in Houssiaux text (Marguerite Claes). Reading of 'imperialistes' as Bonapartists / 1851 coup is flagged as inference in the entry."
+ },
+ {
+  "wid": "W210",
+  "title": "Stendhal passage copied in extenso",
+  "entry": "content/_original/_glossary/culture/literature/DE_L_AMOUR_STENDHAL.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Confirmed: Stendhal, De l'amour (1822) ch. XXVI 'De la pudeur', checked line by line against Gutenberg #60882; Marie's variants listed. Paragraphs 080.0609-0612 (0611-0612 also belong to the copy). Existing STENDHAL.md (people/mentioned) is the author entry and was left untouched."
+ },
+ {
+  "wid": "W232",
+  "title": "L'Homme-femme",
+  "entry": "content/_original/_glossary/culture/literature/L_HOMME_FEMME_DUMAS_FILS.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LHOMME_FEMME.md",
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Stub supersedes. Full text read on IA (Michel Levy 1872): open letter to Henri d'Ideville answering Le Soir article; femmes de temple/foyer/rue; 'tue-la'. Marie's 085.0096 'femme du Temple' matches Dumas's definition. Tag LHomme_Femme in 084/ frontmatter points to the stub."
+ },
+ {
+  "wid": "W233",
+  "title": "Voyage en Espagne (Tras los montes)",
+  "entry": "content/_original/_glossary/culture/literature/VOYAGE_EN_ESPAGNE_GAUTIER.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "096.0378 is dated 14 Oct 1882 (train to Russia), not Sept as in the inventory. Marie's own Spain trip was autumn 1881 (carnet 093). 1843 first publication as Tra los montes per diary footnote and fr.wikisource category; no independent source checked for the 1840 journey, so the entry does not state it. THEOPHILE_GAUTIER.md untouched."
+ }
+]

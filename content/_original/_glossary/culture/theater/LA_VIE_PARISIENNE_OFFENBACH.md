@@ -7,13 +7,21 @@ aliases:
 type: Culture
 category: culture/theater
 research_status: Moderate
-last_updated: 2026-10-21
+last_updated: 2026-11-10
 languages:
   - fr
 full_text:
   - url: https://imslp.org/wiki/La_vie_parisienne_(Offenbach,_Jacques)
     label: "La Vie parisienne (1866), opéra-bouffe de Jacques Offenbach: scores"
     source: IMSLP
+    language: fr
+  - url: https://archive.org/details/bub_gb_5lg7fmqPM04C
+    label: "La Vie parisienne, pièce en cinq actes de Henri Meilhac et Ludovic Halévy (1867 edition)"
+    source: Internet Archive
+    language: fr
+  - url: https://archive.org/details/lavieparisienneo00offe
+    label: "La Vie parisienne: opéra-bouffe en cinq actes, piano-vocal score (1870 edition)"
+    source: Internet Archive
     language: fr
 ---
 

@@ -11,7 +11,7 @@ aliases:
 type: Culture
 category: culture/literature
 research_status: Basic
-last_updated: 2026-10-10
+last_updated: 2026-11-10
 languages:
   - fr
 full_text:
@@ -31,9 +31,12 @@ A *clef des songes* is a popular dream-interpretation handbook: an alphabetical 
 ## Marie and this work
 
 %% GLO_CLEF_DES_SONGES.0004 %%
-She uses it from late 1874 to mid-1875 as a half-serious oracle, and each time interprets the results in her own favour.
+She uses it from August 1874 to mid-1875 as a half-serious oracle, and each time interprets the results in her own favour.
 
 %% GLO_CLEF_DES_SONGES.0005 %%
+- **21 August 1874 (023.0249).** With a violent wind blowing, she sits by the balcony «avec La clef des songes contenant une chiromancie à la fin»: her copy therefore also had a palmistry section, and the RSR note on the day records her reading her own palm in it.
+- **23 August 1874 (023.0289).** After eating *varenikis* and seeing a kitchen of «extraordinaire propreté», she says: «J'ai tout de suite consulté la clef.»
+- **28 August 1874 (023.0378).** She uses the book as a bibliomancy oracle about Merjeewsky, opening it at random and taking the third word on the right: «Attachement profond et inaltérable. C'est charmant.»
 - **5 December 1874 (027.0162).** She dreams of a fine garden and high mountains, which "par la clef des songes" means a marriage of money that will become a marriage of love.
 - **11 December 1874 (027.0232).** A dream means "mépris public, honte dans la famille si l'on en croit *La vraie clef des songes*."
 - **13 April 1875 (031.0210).** Brunet (a member of the household) brings her a *Clef des songes*, in which she reads that to see falling stars means death. "Je crois aux rêves, mais aux explications pas toujours." (Per the RSR note on the paragraph she then reinterprets the omen as meaning that she will be widowed four times and become very famous.)
@@ -41,10 +44,13 @@ She uses it from late 1874 to mid-1875 as a half-serious oracle, and each time i
 - **18 June 1875 (034.0369).** Playing with her fan in a dream: "rivalité d'amour, combat si l'on en croit ma Clef des songes."
 - **22 July 1875 (037.0366).** In a dream, Girofla offers her gherkins: "cornichons - vous épouserez un imbécile, dit ma clef des songes. C'est rassurant, je n'épouserai donc pas le Niçois."
 
+%% GLO_CLEF_DES_SONGES.0008 %%
+- **18 December 1874 (027.0283).** The one clue to authorship: looking up a dream of filth she quotes «Ordure : mépris public, honte dans la famille - dit la véritable clef des songes par Lucimius.» «Lucimius» is not a name the project could trace in a library catalogue, so it may be a pseudonym (many dream books carried invented authors); the title she gives here, *la véritable clef des songes*, matches the *La vraie clef des songes* of 027.0232.
+
 %% GLO_CLEF_DES_SONGES.0006 %%
 ## Sources
 
 %% GLO_CLEF_DES_SONGES.0007 %%
 - Jacqueline Carroy, *Nuits savantes. Une histoire des rêves (1800-1945)* (as summarized in a web search; not read directly).
 - Internet Archive record for the 1867 *La clef des songes* (example of the genre).
-- Diary paragraphs as cited above.
+- Diary paragraphs as cited above, with their RSR notes.

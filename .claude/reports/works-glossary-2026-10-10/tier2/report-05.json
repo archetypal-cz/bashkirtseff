@@ -1,0 +1,164 @@
+[
+ {
+  "wid": "W196",
+  "title": "Don Pasquale (sérénade)",
+  "entry": "content/_original/_glossary/culture/theater/DON_PASQUALE_DONIZETTI.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Serenade taken to be Ernesto's 'Com'è gentil' (Act III), inferred; 071.0225 listed in the batch is not the opera (racehorse in the 10 May 1877 race card, 071.0226-0231); bare alias 'Don Pasquale' avoided."
+ },
+ {
+  "wid": "W197",
+  "title": "Les Noces de Jeannette",
+  "entry": "content/_original/_glossary/culture/theater/LES_NOCES_DE_JEANNETTE_MASSE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "Venue of 069.0286 (13 Mar 1877) not stated in the paragraph; plausibly the Neapolitan Philharmonic, hedged. 069.0527 is Melito's remark at the 25 Mar Philharmonic concert."
+ },
+ {
+  "wid": "W198",
+  "title": "L'Africaine",
+  "entry": "content/_original/_glossary/culture/theater/L_AFRICAINE_MEYERBEER.md",
+  "action": "new",
+  "supersedes": "people/mentioned/L_AFRICAINE.md",
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "068.1105 'ne fais pas l'Africaine' is a figure of speech, not the opera; only 077.0140 (9 Jan 1878, Opéra) is the work. No free libretto found beyond IMSLP."
+ },
+ {
+  "wid": "W199",
+  "title": "Rienzi (Wagner)",
+  "entry": "content/_original/_glossary/culture/theater/RIENZI_WAGNER.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "063.0443 (17 Jul 1876) is Bulwer-Lytton's Rienzi (existing RIENZI_BULWER_LYTTON tag correct), not Wagner; only 071.0083 (Florence, Pagliano, 1 May 1877) is the opera. Language of the Florence performance not stated."
+ },
+ {
+  "wid": "W200",
+  "title": "Roméo et Juliette (opera)",
+  "entry": "content/_original/_glossary/culture/theater/ROMEO_E_GIULIETTA_MARCHETTI.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "059.0193 = Marchetti's Romeo e Giulietta (Apollo, Rome, Lent 1876; libretto printed for that season; confidence ~0.85, per existing RSR). 064.0141 is Cassagnac speaking of Shakespeare's lovers, not the opera. Entry has no bare 'Roméo et Juliette' alias, so 059.0193 needs a manual tag. Not Gounod, not Bellini."
+ },
+ {
+  "wid": "W201",
+  "title": "Le Rossignol che vola",
+  "entry": "content/_original/_glossary/culture/music/LE_ROSSIGNOL_CHE_VOLA.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [
+   "055.0685",
+   "055.0686"
+  ],
+  "doubts": "Real Niçois traditional song (BnF recording 1939 'Lou roussignol qué vola', ronde de mai; Bozza op.43/4 listed on LiederNet). In 054.0030, 055.0685-0686 the title is also used as a nickname/prize name for Audiffret. No free full text found; none linked. Merged by the lead into LE_ROSSIGNOL_CHE_VOLA (batch 04 wrote the same song)."
+ },
+ {
+  "wid": "W202",
+  "title": "Vivre seul ici-bas",
+  "entry": "content/_original/_glossary/culture/music/VIVRE_SEUL_ICI_BAS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Composer/poet not identified despite web search; entry rests on Marie's paraphrase (078.0061, 078.0084). Title also appears as 'seule'."
+ },
+ {
+  "wid": "W203",
+  "title": "Si j'étais reine (mélodie de Caen)",
+  "entry": "content/_original/_glossary/culture/music/MELODIE_DE_CAEN.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Existing proper entry under culture/music enriched in place (id kept; name changed to the song title; bare alias 'Caen' removed because it would mis-tag). Author/title unidentified; no full text. 080.0526-0548 is the copied text."
+ },
+ {
+  "wid": "W220",
+  "title": "Simon Boccanegra",
+  "entry": "content/_original/_glossary/culture/theater/SIMON_BOCCANEGRA_VERDI.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "Theatre of the Paris performance not stated in the diary; revised 1881 version, first Paris performance 27 Nov 1883 per the source footnote."
+ },
+ {
+  "wid": "W221",
+  "title": "La Muette de Portici",
+  "entry": "content/_original/_glossary/culture/theater/LA_MUETTE_DE_PORTICI_AUBER.md",
+  "action": "new",
+  "supersedes": "people/mentioned/LA_MUETTE_DE_PORTICI.md",
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "086.0224 = Opéra, 8 Sep 1879, 'la première' read as first night of the revival (hedged); 087.0684 recalls its Neapolitan sets."
+ },
+ {
+  "wid": "W222",
+  "title": "Le Roi de Lahore",
+  "entry": "content/_original/_glossary/culture/theater/LE_ROI_DE_LAHORE_MASSENET.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "Opera identification probable, not stated in the print; 'Incantation' (083.0580) not identified with a number of the opera. Image: Vierge/Gillot 1877 drawing of Act III, public domain via Commons."
+ },
+ {
+  "wid": "W223",
+  "title": "L'oiseau s'envole",
+  "entry": "content/_original/_glossary/culture/music/L_OISEAU_S_ENVOLE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [
+   "068.0215",
+   "068.0216",
+   "071.0206",
+   "071.0207"
+  ],
+  "doubts": "Identified: refrain of a number from Massé's Paul et Virginie (1876); entry cross-links PAUL_ET_VIRGINIE_MASSE. Dates: 082.0068/0080 are 13 Aug 1878 (Soden), not Sept. Street song 'Quand les canards vont tous en tas' (082.0081) remains unidentified."
+ },
+ {
+  "wid": "W224",
+  "title": "Hymne russe",
+  "entry": "content/_original/_glossary/culture/music/HYMNE_RUSSE_LVOV.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Identification as Lvov's God Save the Tsar! (1833) is certain for the period. Alias 'hymne russe' could in principle mis-tag a generic mention."
+ },
+ {
+  "wid": "W258",
+  "title": "Faust: Ah je ris de me voir si belle",
+  "entry": "content/_original/_glossary/culture/music/AIR_DES_BIJOUX_FAUST.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Jewel Song entry created for 024.0102. 011.0153 ('la légende de Faust') is the Thulé ballad: added to IL_ETAIT_UN_ROI_DE_THULE (new bullet, alias 'légende de Faust', last_updated), not the Jewel Song. Existing FAUST.md left unedited."
+ }
+]

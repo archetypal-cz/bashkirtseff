@@ -1,0 +1,117 @@
+[
+ {
+  "wid": "W250",
+  "title": "Andromaque (Rochegrosse)",
+  "entry": "content/_original/_glossary/culture/art/ANDROMAQUE_ROCHEGROSSE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "None on identification (Salon 1883, Rouen). The person entry ROCHEGROSSE (people/mentioned) was left as is; it already describes the picture."
+ },
+ {
+  "wid": "W251",
+  "title": "Portrait de François Ier (Titien)",
+  "entry": "content/_original/_glossary/culture/art/PORTRAIT_FRANCOIS_I_TITIEN.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "093.0309 is not the portrait but the anecdote of the brush (usually told of Charles V); both mentions are covered in the entry. Date 1538 vs 1539 varies by source. Louvre inventory INV 753 from the Commons category title; the Louvre notice itself was not opened."
+ },
+ {
+  "wid": "W252",
+  "title": "Le Penseur (Il Pensieroso)",
+  "entry": "content/_original/_glossary/culture/art/IL_PENSIEROSO_MICHEL_ANGE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Inventory merged two works: the Moses (105.0199, 'le Moïse de Michel-Ange') now has its own small entry culture/art/MOISE_MICHEL_ANGE.md (new, no image: the only Commons photo found is CC BY-SA 4.0, not allowed by the brief). The Pensieroso identification is firm (~0.9) but not stated by Marie. Pensieroso image is CC BY 2.0 (Richard Mortel, Flickr)."
+ },
+ {
+  "wid": "W253",
+  "title": "Ariane sur la panthère (Dannecker)",
+  "entry": "content/_original/_glossary/culture/art/ARIANE_DE_DANNEKER.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "The entry already existed under culture/art (the inventory path people/mentioned/ was stale). Corrected a detail: Ariadneum 1856, Odeon 1816 (Liebieghaus). Image: Commons photo marked public domain by the uploader (Liebieghaus marble)."
+ },
+ {
+  "wid": "W254",
+  "title": "La Cruche cassée (Greuze)",
+  "entry": "content/_original/_glossary/culture/art/LA_CRUCHE_CASSEE_GREUZE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [
+   "094.0177"
+  ],
+  "doubts": "Inventory year 1777 is the Salon date; painting c.1771-1773 (sources differ). GREUZE (culture/history) is the artist entry, left untouched. 094.0177 (15 Jan 1882): a press article compares her to the Cruche cassée."
+ },
+ {
+  "wid": "W255",
+  "title": "Portrait de Mgr Viard (Breslau)",
+  "entry": "content/_original/_glossary/culture/art/PORTRAIT_MGR_VIARD_BRESLAU.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Inventory said Salon 1881; the diary (087.0300 Jan 1880, 088.0043 30 Apr 1880) and the Breslau entry date it to the Salon of 1880. Sitter 'Mgr Viard' not identified; painting not traced, no image found."
+ },
+ {
+  "wid": "W260a",
+  "title": "Portrait de don Carlos (Bonnat)",
+  "entry": "content/_original/_glossary/culture/art/PORTRAIT_DON_CARLOS_BONNAT.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Inventory merged two Bonnat works; split. Painting known only from Marie (Exposition Universelle 1878); searches found no catalogue entry, image or location. Entry says so plainly. BONNAT (people/mentioned) is an empty template stub, untouched."
+ },
+ {
+  "wid": "W260b",
+  "title": "Portrait de Victor Hugo (Bonnat)",
+  "entry": "content/_original/_glossary/culture/art/PORTRAIT_VICTOR_HUGO_BONNAT.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Salon 1879 per Rajon etching lettered 'Salon de 1879' (pubhist). No image added: the only Commons hit for the painting is a Carnavalet postcard reproduction (CC0), not the canvas; a proper Orsay/Versailles file was not found."
+ },
+ {
+  "wid": "W262",
+  "title": "Printemps qui passe (Georges Bertrand)",
+  "entry": "content/_original/_glossary/culture/art/PRINTEMPS_QUI_PASSE_BERTRAND.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [
+   "099.0492",
+   "099.0493"
+  ],
+  "doubts": "Le Drapeau (094.0164, Salon 1881) is a separate work mentioned once; covered in a short section, no own entry. Painter probably Georges-Jules Bertrand (1849-1929), unconfirmed; painting untraced, no image. 099.0492-0493 continue the description of the same painting."
+ },
+ {
+  "wid": "W263",
+  "title": "Portrait de jeune fille (Sargent)",
+  "entry": "content/_original/_glossary/culture/art/PORTRAIT_DE_JEUNE_FILLE_SARGENT.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Identification with Lady with the Rose (Met 32.154, Salon 1882) probable, not certain. The inventory's second mention 103.0551 is NOT this work: it lists beauties incl. Mme Gautreau; Madame X (104.0070, 104.0542) is a different work. Also: JOHN_SINGER_SARGENT.md links Madame X to PORTRAIT_MME_X, which is Marie's own pastel, not Sargent's painting (needs fixing by the lead). Image is the Met CC0 file of Lady with the Rose; it illustrates the probable identification only."
+ }
+]

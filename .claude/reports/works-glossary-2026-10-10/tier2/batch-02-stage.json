@@ -1,0 +1,574 @@
+[
+ {
+  "wid": "W148",
+  "title": "Les Brigands / Barbe-Bleue",
+  "marie_forms": [
+   "Barbe Bleue",
+   "Les brigands"
+  ],
+  "creator": "Jacques Offenbach",
+  "year": "1869 / 1866",
+  "type": "operetta",
+  "mentions": [
+   "015.0185",
+   "026.0023"
+  ],
+  "mention_files": {
+   "015.0185": {
+    "file": "015/1874-01-14.md",
+    "tags": []
+   },
+   "026.0023": {
+    "file": "026/1874-11-21.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md",
+     "culture/theater/LES_BRIGANDS.md",
+     "culture/theater/BARBE_BLEUE_OFFENBACH.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/theater/BARBE_BLEUE_OFFENBACH.md",
+   "culture/theater/LES_BRIGANDS.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "026.0023: Les Brigands announced, Barbe-Bleue played instead; two works"
+ },
+ {
+  "wid": "W149",
+  "title": "Nelly (ballet)",
+  "marie_forms": [
+   "\"Nelly\""
+  ],
+  "creator": "unknown",
+  "year": null,
+  "type": "ballet",
+  "mentions": [
+   "002.0135",
+   "002.0303"
+  ],
+  "mention_files": {
+   "002.0135": {
+    "file": "002/1873-03-01.md",
+    "tags": [
+     "places/theaters/OPERA_NICE.md",
+     "culture/theater/RUY_BLAS_MARCHETTI.md",
+     "people/mentioned/NELLY.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md"
+    ]
+   },
+   "002.0303": {
+    "file": "002/1873-03-12.md",
+    "tags": [
+     "people/aristocracy/MME_BRAVURA.md",
+     "people/mentioned/NELLY.md",
+     "people/family/MA_TANTE.md",
+     "people/mentioned/UN_BAL_DU_GRAND_MONDE.md",
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/aristocracy/MLLE_FRANCHINO.md",
+     "places/social/FRENCH_THEATER_NICE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": null,
+  "notes": "002.0135 given with Ruy Blas, 002.0303 after Lucia"
+ },
+ {
+  "wid": "W150",
+  "title": "Lo Specchio Infernale (ballet)",
+  "marie_forms": [
+   "Lo Specchio Infernale",
+   "Lospecchio infernale"
+  ],
+  "creator": "unknown",
+  "year": null,
+  "type": "ballet",
+  "mentions": [
+   "014.0185",
+   "015.0224"
+  ],
+  "mention_files": {
+   "014.0185": {
+    "file": "014/1873-12-23.md",
+    "tags": [
+     "people/core/DINA.md",
+     "people/recurring/WALITSKY.md",
+     "people/family/PAUL.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/languages/ENGLISH.md",
+     "culture/languages/ITALIAN.md",
+     "culture/languages/FRENCH.md",
+     "culture/themes/FASHION.md",
+     "places/cities/NICE.md",
+     "people/mentioned/GALVE.md",
+     "places/theaters/THEATER.md",
+     "people/recurring/HOWARD_FAMILY.md",
+     "people/recurring/HELENE_HOWARD.md",
+     "people/mentioned/LISE.md"
+    ]
+   },
+   "015.0224": {
+    "file": "015/1874-01-17.md",
+    "tags": [
+     "places/theaters/LE_REVEILLON.md",
+     "people/artists/PIERRE_ALFRED_RAVEL.md",
+     "places/theaters/LO_SPECCHIO_INFERNALE.md",
+     "culture/languages/ITALIAN.md",
+     "culture/themes/THEATER_THEME.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "places/theaters/LO_SPECCHIO_INFERNALE.md"
+  ],
+  "public_domain_likely": null,
+  "notes": "Nice theatre; also 'Lospecchio infernale' (014.0185)"
+ },
+ {
+  "wid": "W151",
+  "title": "Le Réveillon",
+  "marie_forms": [
+   "Le Réveillon"
+  ],
+  "creator": "Henri Meilhac & Ludovic Halévy",
+  "year": "1872",
+  "type": "play",
+  "mentions": [
+   "015.0224",
+   "015.0225"
+  ],
+  "mention_files": {
+   "015.0224": {
+    "file": "015/1874-01-17.md",
+    "tags": [
+     "places/theaters/LE_REVEILLON.md",
+     "people/artists/PIERRE_ALFRED_RAVEL.md",
+     "places/theaters/LO_SPECCHIO_INFERNALE.md",
+     "culture/languages/ITALIAN.md",
+     "culture/themes/THEATER_THEME.md"
+    ]
+   },
+   "015.0225": {
+    "file": "015/1874-01-17.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/recurring/GIOIA.md",
+     "places/cities/MONACO.md",
+     "people/family/MAMAN.md",
+     "people/core/DUKE_OF_HAMILTON.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/APPEARANCE.md",
+     "places/theaters/LE_REVEILLON.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "places/theaters/LE_REVEILLON.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "With Ravel, Nice 1874"
+ },
+ {
+  "wid": "W152",
+  "title": "Les Domestiques",
+  "marie_forms": [
+   "Les domestiques"
+  ],
+  "creator": "unknown",
+  "year": null,
+  "type": "play",
+  "mentions": [
+   "002.0064",
+   "007.0335"
+  ],
+  "mention_files": {
+   "002.0064": {
+    "file": "002/1873-02-22.md",
+    "tags": [
+     "people/mentioned/COLLIGNON.md",
+     "places/social/FRENCH_THEATER_NICE.md",
+     "people/mentioned/BRAVURA_FAMILY.md",
+     "people/core/DUKE_OF_HAMILTON.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/LOVE.md",
+     "culture/themes/FASHION.md",
+     "people/family/MAMAN.md"
+    ]
+   },
+   "007.0335": {
+    "file": "007/1873-08-04.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/ART_WORLD.md",
+     "culture/themes/EMOTIONS.md",
+     "places/cities/VIENNA_WORLD_EXHIBITION.md",
+     "culture/languages/ITALIAN.md",
+     "people/writers/DANTE.md",
+     "culture/literature/LA_DIVINE_COMEDIE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": null,
+  "notes": "002.0064 three-act play"
+ },
+ {
+  "wid": "W153",
+  "title": "Le Martyre / Le Martyr",
+  "marie_forms": [
+   "Le Martyr\"",
+   "Le Martyre\""
+  ],
+  "creator": "unknown",
+  "year": null,
+  "type": "play",
+  "mentions": [
+   "010.0101",
+   "011.0368"
+  ],
+  "mention_files": {
+   "010.0101": {
+    "file": "010/1873-09-28.md",
+    "tags": [
+     "people/mentioned/BETE.md",
+     "people/core/DUKE_OF_HAMILTON.md",
+     "culture/themes/THEATER_THEME.md"
+    ]
+   },
+   "011.0368": {
+    "file": "011/1873-10-30.md",
+    "tags": [
+     "people/mentioned/BETE.md",
+     "culture/themes/LOVE.md",
+     "people/core/DUKE_OF_HAMILTON.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": null,
+  "notes": "010.0101, 011.0368: play in which Hamilton was seen at the theatre"
+ },
+ {
+  "wid": "W154",
+  "title": "Les Pattes de mouche",
+  "marie_forms": [
+   "Les pattes de mouche"
+  ],
+  "creator": "Victorien Sardou",
+  "year": "1860",
+  "type": "play",
+  "mentions": [
+   "022.0418",
+   "022.0447"
+  ],
+  "mention_files": {
+   "022.0418": {
+    "file": "022/1874-08-05.md",
+    "tags": [
+     "people/aristocracy/MARGHERITA_DI_SAVOIA.md",
+     "people/mentioned/DORIA.md"
+    ]
+   },
+   "022.0447": {
+    "file": "022/1874-08-07.md",
+    "tags": [
+     "culture/themes/LOVE.md",
+     "people/mentioned/MERJEEWSKY.md",
+     "people/family/MAMAN.md",
+     "people/mentioned/DORIA.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Spa 1874; Sardou attribution probable"
+ },
+ {
+  "wid": "W171",
+  "title": "Les Brigands",
+  "marie_forms": [
+   "Brigands"
+  ],
+  "creator": "Jacques Offenbach",
+  "year": "1869",
+  "type": "operetta",
+  "mentions": [
+   "034.0047",
+   "050.1162"
+  ],
+  "mention_files": {
+   "034.0047": {
+    "file": "034/1875-06-07.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/recurring/EMILE_D_AUDIFFRET.md"
+    ]
+   },
+   "050.1162": {
+    "file": "050/1875-12-23.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/theater/LES_BRIGANDS.md",
+     "people/mentioned/MARIE_SAPOGENIKOFF.md",
+     "people/mentioned/OLGA.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/LES_BRIGANDS.md",
+  "glossary_hits": [
+   "culture/theater/LES_BRIGANDS.md",
+   "people/mentioned/LES_BRIGANDS.md (MISSING)"
+  ],
+  "public_domain_likely": true,
+  "notes": "034.0047 couplet 'des Brigands' sung; 050.1162 Nice with actress Mlle Aimée. [existing entry sits outside culture/ -- misfiled stub?]"
+ },
+ {
+  "wid": "W172",
+  "title": "La Vie parisienne",
+  "marie_forms": [
+   "Vie parisienne"
+  ],
+  "creator": "Jacques Offenbach",
+  "year": "1866",
+  "type": "operetta",
+  "mentions": [
+   "041.0137",
+   "041.0141"
+  ],
+  "mention_files": {
+   "041.0137": {
+    "file": "041/1875-09-04.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/theater/LA_VIE_PARISIENNE_OFFENBACH.md"
+    ]
+   },
+   "041.0141": {
+    "file": "041/1875-09-04.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "people/mentioned/REMY_DE_GONZALES.md",
+     "culture/theater/LA_VIE_PARISIENNE_OFFENBACH.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/LA_VIE_PARISIENNE.md",
+  "glossary_hits": [
+   "culture/newspapers/LA_VIE_PARISIENNE.md",
+   "culture/theater/LA_VIE_PARISIENNE_OFFENBACH.md",
+   "people/mentioned/LA_VIE_PARISIENNE.md (MISSING)",
+   "people/mentioned/VIE_PARISIENNE.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "041.0137/0141 Marie says she saw it ten times. Additional/duplicate glossary entries: content/_original/_glossary/people/mentioned/VIE_PARISIENNE.md (0). [existing entry sits outside culture/ -- misfiled stub?]"
+ },
+ {
+  "wid": "W173",
+  "title": "Le Tour du monde en quatre-vingts jours (stage adaptation)",
+  "marie_forms": [
+   "Le tour du monde en quatre-vingts jours",
+   "Le tour du monde, dis-je"
+  ],
+  "creator": "Jules Verne & Adolphe d'Ennery",
+  "year": "1874",
+  "type": "play",
+  "mentions": [
+   "028.0238",
+   "045.0045"
+  ],
+  "mention_files": {
+   "028.0238": {
+    "file": "028/1875-01-14.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/SHOPPING.md",
+     "places/theaters/THEATRE_DE_LA_PORTE_SAINT_MARTIN.md"
+    ]
+   },
+   "045.0045": {
+    "file": "045/1875-09-26.md",
+    "tags": []
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "028.0238 Porte Saint-Martin, Paris 1875-01; 045.0045 flirtatious banter using the title."
+ },
+ {
+  "wid": "W174",
+  "title": "Hernani (play)",
+  "marie_forms": [
+   "Hernani"
+  ],
+  "creator": "Victor Hugo",
+  "year": "1830",
+  "type": "play",
+  "mentions": [
+   "043.0260",
+   "046.0024"
+  ],
+  "mention_files": {
+   "043.0260": {
+    "file": "043/1875-09-20.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md",
+     "people/mentioned/VICTOR_HUGO.md",
+     "culture/theater/HERNANI.md"
+    ]
+   },
+   "046.0024": {
+    "file": "046/1875-10-03.md",
+    "tags": [
+     "culture/themes/SOCIETY.md",
+     "people/recurring/GALULA.md",
+     "people/mentioned/CHEVALIER.md",
+     "people/recurring/SAETONE.md",
+     "people/recurring/EMILE_D_AUDIFFRET.md",
+     "people/mentioned/OLGA.md",
+     "people/mentioned/MARIE_SAPOGENIKOFF.md",
+     "culture/theater/HERNANI.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/culture/theater/HERNANI.md",
+  "glossary_hits": [
+   "culture/theater/HERNANI.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "043.0260 Florence/Italian-company performance; 046.0024 'le soir d'Hernani'."
+ },
+ {
+  "wid": "W175",
+  "title": "Ferréol",
+  "marie_forms": [
+   "Ferréol"
+  ],
+  "creator": "Victorien Sardou",
+  "year": "1875",
+  "type": "play",
+  "mentions": [
+   "050.0087",
+   "050.0090"
+  ],
+  "mention_files": {
+   "050.0087": {
+    "file": "050/1875-11-20.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/theater/FROU_FROU.md",
+     "places/theaters/THEATRE_DU_GYMNASE.md"
+    ]
+   },
+   "050.0090": {
+    "file": "050/1875-11-20.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "050.0087-0090 Gymnase, Paris 1875-11-20."
+ },
+ {
+  "wid": "W176",
+  "title": "Le Panache",
+  "marie_forms": [
+   "\"Le Panache\"",
+   "Le Panache"
+  ],
+  "creator": "unidentified (Palais-Royal comedy)",
+  "year": "1875?",
+  "type": "play",
+  "mentions": [
+   "049.0370",
+   "055.0503"
+  ],
+  "mention_files": {
+   "049.0370": {
+    "file": "049/1875-11-13.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "places/cities/PARIS.md",
+     "places/cities/PALAIS_ROYAL.md"
+    ]
+   },
+   "055.0503": {
+    "file": "055/1876-03-10.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "people/mentioned/TORLONIA.md",
+     "people/mentioned/PRATER.md",
+     "places/theaters/TEATRO_VALLE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "049.0370; premiere at Palais-Royal. | Teatro Valle, French company, 055.0503, 055.0065."
+ },
+ {
+  "wid": "W207",
+  "title": "Much Ado about Nothing / Shakespeare comedy",
+  "marie_forms": [
+   "Much ado about nothing"
+  ],
+  "creator": "William Shakespeare",
+  "year": "c.1599",
+  "type": "play",
+  "mentions": [
+   "059.0686",
+   "067.0374"
+  ],
+  "mention_files": {
+   "059.0686": {
+    "file": "059/1876-05-03.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/READING.md",
+     "culture/themes/LOVE.md",
+     "culture/themes/WEATHER.md",
+     "people/mentioned/ANTONELLI.md",
+     "places/cities/NICE.md",
+     "places/countries/RUSSIA.md",
+     "places/cities/ROME.md",
+     "culture/literature/ALEXANDRE_DUMAS.md",
+     "people/mentioned/SHAKESPEARE.md",
+     "people/writers/PLUTARQUE.md",
+     "culture/literature/LA_DAME_AUX_CAMELIAS.md",
+     "culture/literature/PARALLEL_LIVES.md"
+    ]
+   },
+   "067.0374": {
+    "file": "067/1876-10-29.md",
+    "tags": [
+     "culture/themes/SOCIETY.md",
+     "culture/themes/PROPERTY.md",
+     "culture/themes/PROPERTY_FAMILY.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "067.0374 (phrase); 059.0686 'une comédie de Shakespeare' unnamed."
+ }
+]

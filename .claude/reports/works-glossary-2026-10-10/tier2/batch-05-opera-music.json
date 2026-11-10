@@ -1,0 +1,550 @@
+[
+ {
+  "wid": "W196",
+  "title": "Don Pasquale (sérénade)",
+  "marie_forms": [
+   "Don Pasquale"
+  ],
+  "creator": "Gaetano Donizetti",
+  "year": "1843",
+  "type": "song",
+  "mentions": [
+   "062.0512",
+   "071.0225"
+  ],
+  "mention_files": {
+   "062.0512": {
+    "file": "062/1876-06-20.md",
+    "tags": [
+     "culture/themes/MUSIC_THEME.md"
+    ]
+   },
+   "071.0225": {
+    "file": "071/1877-05-10.md",
+    "tags": [
+     "culture/themes/WEATHER.md",
+     "culture/themes/SPORT.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "062.0512 only (071.0059 'Don Pasquale' is a racehorse in a clipping)."
+ },
+ {
+  "wid": "W197",
+  "title": "Les Noces de Jeannette",
+  "marie_forms": [
+   "Noces de Jeannette",
+   "noces de Jeannette"
+  ],
+  "creator": "Victor Massé",
+  "year": "1853",
+  "type": "opera",
+  "mentions": [
+   "069.0286",
+   "069.0527"
+  ],
+  "mention_files": {
+   "069.0286": {
+    "file": "069/1877-03-13.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/mentioned/BALZORANO.md",
+     "people/mentioned/GISELLE.md",
+     "culture/themes/FASHION.md",
+     "culture/themes/SOCIETY.md",
+     "culture/themes/APPEARANCE.md"
+    ]
+   },
+   "069.0527": {
+    "file": "069/1877-03-25.md",
+    "tags": [
+     "culture/themes/SOCIETY.md",
+     "culture/themes/APPEARANCE.md",
+     "people/family/MAMAN.md",
+     "people/mentioned/PASCAROLA.md",
+     "people/mentioned/CAMPOMARINO.md",
+     "people/mentioned/CARACCIOLO.md",
+     "people/mentioned/MELITO.md",
+     "people/mentioned/BRUSCHETTI.md",
+     "culture/music/STABAT_MATER_PERGOLESI.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Naples Cercle Philharmonique 069.0286, 069.0527."
+ },
+ {
+  "wid": "W198",
+  "title": "L'Africaine",
+  "marie_forms": [
+   "Africaine"
+  ],
+  "creator": "Giacomo Meyerbeer",
+  "year": "1865",
+  "type": "opera",
+  "mentions": [
+   "068.1105",
+   "077.0140"
+  ],
+  "mention_files": {
+   "068.1105": {
+    "file": "068/1877-02-08.md",
+    "tags": []
+   },
+   "077.0140": {
+    "file": "077/1878-01-09.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "places/theaters/OPERA.md",
+     "people/mentioned/BLANC.md",
+     "people/mentioned/ZURLO.md",
+     "people/mentioned/L_AFRICAINE.md",
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/family/PAUL.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/L_AFRICAINE.md",
+  "glossary_hits": [
+   "people/mentioned/L_AFRICAINE.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "077.0140 (Paris Opéra, Jan 1878); 068.1105 'ne fais pas l'Africaine' is a figure of speech. [Existing entry category: people/mentioned; tag count is repo-wide, all carnets] [auto-stub filed under people/mentioned; should be recategorised]"
+ },
+ {
+  "wid": "W199",
+  "title": "Rienzi (Wagner)",
+  "marie_forms": [
+   "Rienzi"
+  ],
+  "creator": "Richard Wagner",
+  "year": "1842",
+  "type": "opera",
+  "mentions": [
+   "063.0443",
+   "071.0083"
+  ],
+  "mention_files": {
+   "063.0443": {
+    "file": "063/1876-07-17.md",
+    "tags": [
+     "culture/themes/SUPERSTITION.md",
+     "culture/themes/MARRIAGE.md",
+     "people/mentioned/MOUZAY.md",
+     "people/mentioned/ANTONELLI.md",
+     "places/cities/ROME.md",
+     "people/mentioned/CARDINAL_ANTONELLI.md",
+     "culture/literature/RIENZI_BULWER_LYTTON.md"
+    ]
+   },
+   "071.0083": {
+    "file": "071/1877-05-01.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/MUSIC_THEME.md",
+     "people/mentioned/MARCUARD.md",
+     "places/theaters/PERGOLA.md",
+     "people/artists/WAGNER.md",
+     "places/theaters/TEATRO_PAGLIANO.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/literature/RIENZI_BULWER_LYTTON.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Florence, Teatro Pagliano, 071.0083. Bulwer's novel Rienzi (063.0332) is a separate entry."
+ },
+ {
+  "wid": "W200",
+  "title": "Roméo et Juliette (opera)",
+  "marie_forms": [
+   "Roméo et Juliette"
+  ],
+  "creator": "Charles Gounod? (or Bellini)",
+  "year": "1867",
+  "type": "opera",
+  "mentions": [
+   "059.0193",
+   "064.0141"
+  ],
+  "mention_files": {
+   "059.0193": {
+    "file": "059/1876-04-23.md",
+    "tags": [
+     "culture/themes/WEATHER.md",
+     "culture/themes/LOVE.md",
+     "people/mentioned/ANTONELLI.md",
+     "places/theaters/APOLLO.md"
+    ]
+   },
+   "064.0141": {
+    "file": "064/1876-07-24.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/LOVE.md",
+     "people/recurring/CASSAGNAC.md",
+     "culture/themes/MARRIAGE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "059.0193 Apollo Rome, last musical evening; composer not named by Marie (likely Gounod)."
+ },
+ {
+  "wid": "W201",
+  "title": "Le Rossignol che vola (chanson niçoise)",
+  "marie_forms": [
+   "Rossignol che",
+   "Rossignou"
+  ],
+  "creator": "traditional (Nice)",
+  "year": null,
+  "type": "song",
+  "mentions": [
+   "054.0030",
+   "059.0826"
+  ],
+  "mention_files": {
+   "054.0030": {
+    "file": "054/1876-02-13.md",
+    "tags": [
+     "people/recurring/EMILE_D_AUDIFFRET.md",
+     "people/recurring/WALITSKY.md",
+     "culture/languages/ITALIAN.md",
+     "people/mentioned/DANIS.md",
+     "people/mentioned/ASPREMONT.md",
+     "places/cities/NICE.md"
+    ]
+   },
+   "059.0826": {
+    "file": "059/1876-05-06.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "places/cities/NICE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "054.0030 (prize named after it), 055.0685, 059.0826 ('la plus populaire et la plus jolie chanson de Nice')."
+ },
+ {
+  "wid": "W202",
+  "title": "Vivre seul ici-bas (romance)",
+  "marie_forms": [
+   "Vivre seul"
+  ],
+  "creator": "unidentified",
+  "year": null,
+  "type": "song",
+  "mentions": [
+   "078.0061",
+   "078.0084"
+  ],
+  "mention_files": {
+   "078.0061": {
+    "file": "078/1878-02-05.md",
+    "tags": [
+     "culture/themes/MUSIC_THEME.md",
+     "people/aristocracy/MME_DE_FAYET.md"
+    ]
+   },
+   "078.0084": {
+    "file": "078/1878-02-08.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/aristocracy/MME_DE_FAYET.md",
+     "culture/themes/ART_PRACTICE.md",
+     "people/recurring/CASSAGNAC.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": false,
+  "notes": "Mme de Fayet's romance 078.0061, 078.0084."
+ },
+ {
+  "wid": "W203",
+  "title": "Si j'étais reine (mélodie 'de Caen')",
+  "marie_forms": [
+   "Si j'étais reine"
+  ],
+  "creator": "traditional / folk-song",
+  "year": null,
+  "type": "song",
+  "mentions": [
+   "080.0525",
+   "080.0526"
+  ],
+  "mention_files": {
+   "080.0525": {
+    "file": "080/1878-06-09.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/music/MELODIE_DE_CAEN.md",
+     "culture/themes/MUSIC_THEME.md"
+    ]
+   },
+   "080.0526": {
+    "file": "080/1878-06-09.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "080.0525."
+ },
+ {
+  "wid": "W220",
+  "title": "Simon Boccanegra",
+  "marie_forms": [
+   "Simon Boccanegra",
+   "Simon Boceanegra"
+  ],
+  "creator": "Giuseppe Verdi",
+  "year": "1857/1881",
+  "type": "opera",
+  "mentions": [
+   "102.0604",
+   "103.0281"
+  ],
+  "mention_files": {
+   "102.0604": {
+    "file": "102/1883-12-29.md",
+    "tags": [
+     "culture/themes/SOCIETY.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/artists/CABANEL.md",
+     "people/mentioned/VERDI.md"
+    ]
+   },
+   "103.0281": {
+    "file": "103/1884-02-03.md",
+    "tags": [
+     "culture/themes/MUSIC_THEME.md",
+     "people/mentioned/VERDI.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Revised version, Italiens, Dec 1883-Feb 1884 ('ennuyeux', 'assommant et stupide')."
+ },
+ {
+  "wid": "W221",
+  "title": "La Muette de Portici",
+  "marie_forms": [
+   "\"la Muette\"",
+   "les décors de la Muette"
+  ],
+  "creator": "Daniel Auber",
+  "year": "1828",
+  "type": "opera",
+  "mentions": [
+   "086.0224",
+   "087.0684"
+  ],
+  "mention_files": {
+   "086.0224": {
+    "file": "086/1879-09-08.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "places/cities/PARIS.md",
+     "places/theaters/OPERA.md",
+     "people/mentioned/HECHT.md",
+     "people/politicians/GAMBETTA.md",
+     "people/mentioned/LA_MUETTE_DE_PORTICI.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md",
+     "culture/themes/LOVE.md",
+     "people/recurring/ARNAUD_DE_L_ARIEGE.md"
+    ]
+   },
+   "087.0684": {
+    "file": "087/1880-03-22.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/EMOTIONS.md",
+     "places/cities/NAPLES.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/LA_MUETTE_DE_PORTICI.md",
+  "glossary_hits": [
+   "people/mentioned/LA_MUETTE_DE_PORTICI.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Opéra, early Sept 1879 (first night of the season?) and décors recalled in March 1880. [tag count in carnets 081-106: 1]"
+ },
+ {
+  "wid": "W222",
+  "title": "Le Roi de Lahore",
+  "marie_forms": [
+   "Le Roi de Latore"
+  ],
+  "creator": "Jules Massenet",
+  "year": "1877",
+  "type": "opera",
+  "mentions": [
+   "083.0576",
+   "083.0580"
+  ],
+  "mention_files": {
+   "083.0576": {
+    "file": "083/1879-01-09.md",
+    "tags": [
+     "culture/themes/MUSIC_THEME.md",
+     "people/mentioned/GAVINI.md",
+     "people/mentioned/DE_DAILLENS.md",
+     "people/artists/MASSENET.md",
+     "places/theaters/OPERA.md"
+    ]
+   },
+   "083.0580": {
+    "file": "083/1879-01-10.md",
+    "tags": [
+     "culture/themes/POLITICS.md",
+     "people/artists/MASSENET.md",
+     "culture/newspapers/LE_PAYS.md",
+     "places/social/CAFE_ANGLAIS.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Opéra, Dec 1878: Massenet ovation after the third act; his 'Incantation' encored (083.0580). Marie's 'Latore' is a miscopy of Lahore."
+ },
+ {
+  "wid": "W223",
+  "title": "L'oiseau s'envole",
+  "marie_forms": [
+   "\"l'oiseau s'envole\""
+  ],
+  "creator": "unidentified",
+  "year": null,
+  "type": "song",
+  "mentions": [
+   "082.0068",
+   "082.0080"
+  ],
+  "mention_files": {
+   "082.0068": {
+    "file": "082/1878-08-13.md",
+    "tags": [
+     "culture/themes/MUSIC_THEME.md"
+    ]
+   },
+   "082.0080": {
+    "file": "082/1878-08-13.md",
+    "tags": [
+     "culture/themes/MUSIC_THEME.md",
+     "people/mentioned/HOHENLOHE_PRINCES.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Sung by Marie at Soden, Sept 1878; composer not identified."
+ },
+ {
+  "wid": "W224",
+  "title": "Hymne russe (Bozhe, Tsarya khrani)",
+  "marie_forms": [
+   "l'hymme russe"
+  ],
+  "creator": "Alexei Lvov",
+  "year": "1833",
+  "type": "music",
+  "mentions": [
+   "081.0605",
+   "081.0624"
+  ],
+  "mention_files": {
+   "081.0605": {
+    "file": "081/1878-08-03.md",
+    "tags": [
+     "culture/themes/SOCIETY.md",
+     "culture/themes/FASHION.md",
+     "people/mentioned/M_MUHLE.md",
+     "people/aristocracy/MME_MUHLE.md",
+     "people/mentioned/DR_TOMACHEWSKY.md"
+    ]
+   },
+   "081.0624": {
+    "file": "081/1878-08-05.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/FASHION.md",
+     "people/mentioned/HOHENLOHE_PRINCES.md",
+     "culture/music/LA_MARSEILLAISE.md",
+     "places/cities/HOMBOURG.md",
+     "culture/music/ON_DIT_QUE_L_ON_TE_MARIE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Russian national anthem."
+ },
+ {
+  "wid": "W258",
+  "title": "Faust: 'Ah je ris de me voir si belle' (Jewel Song)",
+  "marie_forms": [
+   "Ah je ris de me voir si belle",
+   "légende de Faust"
+  ],
+  "creator": "Charles Gounod",
+  "year": "1859",
+  "type": "song",
+  "mentions": [
+   "011.0153",
+   "024.0102"
+  ],
+  "mention_files": {
+   "011.0153": {
+    "file": "011/1873-10-21.md",
+    "tags": [
+     "culture/themes/MUSIC_THEME.md",
+     "culture/theater/FAUST.md"
+    ]
+   },
+   "024.0102": {
+    "file": "024/1874-09-25.md",
+    "tags": [
+     "culture/themes/APPEARANCE.md",
+     "culture/themes/FASHION.md",
+     "culture/themes/META_DIARY.md",
+     "places/cities/LONDON.md",
+     "culture/theater/FAUST.md"
+    ]
+   }
+  },
+  "existing_glossary": "_glossary/culture/theater/FAUST.md",
+  "glossary_hits": [
+   "culture/theater/FAUST.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "024.0102; FAUST glossary exists | ALSO: Il était un roi de Thulé (Légende de Faust) — 011.0153-155: Marie sings the legend; identification probable"
+ }
+]

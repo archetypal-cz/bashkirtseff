@@ -1,0 +1,143 @@
+[
+ {
+  "wid": "W156",
+  "title": "The Odyssey",
+  "entry": "content/_original/_glossary/culture/literature/HOMER_ODYSSEY.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "Added 023.0676 and 024.0025 (Vulcan's net, Odyssey VIII) and a Butler English link; Marie's edition unknown."
+ },
+ {
+  "wid": "W157",
+  "title": "Louis XIV et son siècle / Louis XIV et ses femmes",
+  "entry": "content/_original/_glossary/culture/literature/LOUIS_XIV_ET_SON_SIECLE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LOUIS_XIV_ET_SES_FEMMES.md",
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "016.0087 = Dumas, Louis XIV et son siècle (1844), secure. 015.0209 'Louis XIV et ses femmes': no book of that title found on IA/Wikisource; treated as probably the same Dumas book (alias kept, flagged uncertain); old stub's attribution to Houssaye is unsupported. 016.0087 is tagged LOUIS_XIV and 015.0209 tagged to the people/ stub; both should point to the new entry."
+ },
+ {
+  "wid": "W158",
+  "title": "Mabel Vaughan",
+  "entry": "content/_original/_glossary/culture/literature/MABEL_VAUGHAN.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Paragraphs 005.0023 and 006.0245 currently carry THE_LAMPLIGHTER tag, which should be added/replaced with MABEL_VAUGHAN. Plot not summarised (book not read)."
+ },
+ {
+  "wid": "W159",
+  "title": "Mrs Haliburton's Troubles",
+  "entry": "content/_original/_glossary/culture/literature/MRS_HALLIBURTONS_TROUBLES_WOOD.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/MRS_HALIBURTONS_TROUBLES.md",
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Real title spells Halliburton (two l); id suffixed _WOOD because old stub has the id MRS_HALIBURTONS_TROUBLES. People stub MRS_HENRY_WOOD is an author stub, linked not changed."
+ },
+ {
+  "wid": "W160",
+  "title": "The Select Works of Oliver Goldsmith",
+  "entry": "content/_original/_glossary/culture/literature/SELECT_WORKS_OF_GOLDSMITH.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "Edition unknown; links are example editions. 006.0070 and 006.0245 have no Goldsmith tag today."
+ },
+ {
+  "wid": "W161",
+  "title": "Gulliver's Travels",
+  "entry": "content/_original/_glossary/culture/literature/GULLIVERS_TRAVELS.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [
+   "027.0157",
+   "041.0150"
+  ],
+  "doubts": "016.0274 (Lambertye as a pygmee beside the giantess, Brobdingnag) is untagged; 027.0157 and 041.0150 were already in the entry."
+ },
+ {
+  "wid": "W162",
+  "title": "L'Apocalypse",
+  "entry": "content/_original/_glossary/culture/literature/APOCALYPSE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [
+   "014.0291"
+  ],
+  "doubts": "Figurative uses (033.0146, 034.0363, 056.0305, 084.0489) are described in the entry, not offered as mentions. 014.0240 and 014.0259 are untagged for the book."
+ },
+ {
+  "wid": "W163",
+  "title": "La Clef des songes",
+  "entry": "content/_original/_glossary/culture/literature/CLEF_DES_SONGES.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [
+   "023.0289",
+   "027.0283",
+   "034.0289"
+  ],
+  "doubts": "027.0283 names the author 'Lucimius' (untraceable, possibly pseudonym). 034.0289 (15 June 1875) consults the book (tagged already). 023.0289 'consulté la clef' added."
+ },
+ {
+  "wid": "W177",
+  "title": "Napoléon (Dumas)",
+  "entry": "content/_original/_glossary/culture/literature/NAPOLEON_BY_DUMAS.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "031.0131 is tagged GRAND_PAPA though Marie writes 'papa'. 031.0240 'Napoléon' bare title inferred to be the Dumas volume."
+ },
+ {
+  "wid": "W178",
+  "title": "Isabelle de Bavière",
+  "entry": "content/_original/_glossary/culture/literature/ISABELLE_DE_BAVIERE.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Removed the bare alias 'Dumas' (mis-tag trap). 031.0240's 'un roman de Dumas' is not necessarily this novel."
+ },
+ {
+  "wid": "W179",
+  "title": "Mémoires du maréchal duc de Richelieu",
+  "entry": "content/_original/_glossary/culture/literature/MEMOIRES_DU_MARECHAL_DE_RICHELIEU.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "044.0059 and 044.0182 have no work tag; 073/1877-07-18 mention is of the marshal, not the book. Owner of the cupboard in 044.0059 unstated."
+ },
+ {
+  "wid": "W180",
+  "title": "La Bible (Sainte Bible)",
+  "entry": "content/_original/_glossary/culture/literature/BIBLE.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Fixed overview date: the first 'never read it' remark is Feb 1884 (103), not 1883. 034.0144 is a figurative/sedative reading. Edition unknown."
+ }
+]

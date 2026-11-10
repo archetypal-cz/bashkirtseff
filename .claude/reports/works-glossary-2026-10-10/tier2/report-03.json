@@ -1,0 +1,168 @@
+[
+ {
+  "wid": "W211",
+  "title": "Judith (Ristori)",
+  "entry": "content/_original/_glossary/culture/theater/GIUDITTA_GIACOMETTI.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Identification as Giacometti's Giuditta is inferred (Marie names no author; Ristori's memoirs call it the biblical tragedy written for her). First-performance date not established; 1857 is the earliest edition found. Bare alias 'Judith' withheld: 099.0163 is Cazin's painting of Judith."
+ },
+ {
+  "wid": "W212",
+  "title": "Marie Stuart (Ristori at the Apollo)",
+  "entry": "content/_original/_glossary/culture/theater/MARIA_STUARDA_SCHILLER.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [
+   "086.0321"
+  ],
+  "doubts": "Only 059.0244 is the play; 068.0408 is a 'bonnet Marie Stuart' (fashion) and is wrongly counted. 086.0321 (Paris, 27 Sept 1879, an act played by Ristori) is a further clear mention. Bare alias 'Marie Stuart' withheld (fashion, the queen). No image added: Commons returned HTTP 429 for upload.wikimedia.org throughout the session; candidate is File:Adelaide Ristori in Friedrich Schiller's Maria Stuart.jpg (public domain, 375x496)."
+ },
+ {
+  "wid": "W213",
+  "title": "Les Horaces (Agar, Nice)",
+  "entry": "content/_original/_glossary/culture/theater/HORACE_CORNEILLE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/HORACES.md",
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [
+   "051.0179"
+  ],
+  "doubts": "Only 068.0915 is Corneille's play. 073.0154 ('Les Horaces, le Serment de Grutli') most probably means David's Oath of the Horatii, as a pact between friends (letter to Marcuard, drawing of three friends as William Tell); it is currently tagged to the HORACES stub and should be untagged or re-pointed to a painting entry (none exists). 051.0179 parodies Camille's imprecation in Horace IV.5."
+ },
+ {
+  "wid": "W219",
+  "title": "Hamlet (Shakespeare)",
+  "entry": "content/_original/_glossary/culture/theater/HAMLET_SHAKESPEARE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 2,
+  "extra_mentions": [
+   "057.0212",
+   "063.0327"
+  ],
+  "doubts": "HAMLET_THOMAS carries the alias 'Hamlet' and is the tag on 098.0386, where Marie reads the play in English; 086.0629 is tagged to the person SHAKESPEARE. Both paragraphs should point to HAMLET_SHAKESPEARE (098.0386 can carry both). 057.0212 and 063.0327 only quote 'That is the question' in English. Other 'Hamlet' hits (054.0298, 054.0303 costume; 066.0731, 073.0010 character) are not the play."
+ },
+ {
+  "wid": "W225",
+  "title": "Le Roi s'amuse",
+  "entry": "content/_original/_glossary/culture/theater/LE_ROI_S_AMUSE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Marie calls both 22 Nov and 24 Nov 1882 'la 2ème'; left as written. 097.0128 is tagged to RIGOLETTO and 097.0141 to COQUELIN, neither to the play. Cast Mounet-Sully/Got/Bartet taken from English Wikipedia."
+ },
+ {
+  "wid": "W226",
+  "title": "L'Impromptu de Versailles",
+  "entry": "content/_original/_glossary/culture/theater/IMPROMPTU_DE_VERSAILLES_MOLIERE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/places/theaters/IMPROMPTU_DE_VERSAILLES.md",
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Old file is a substantive entry filed as a place; its facts about 27 Oct 1880 are reproduced where the diary supports them."
+ },
+ {
+  "wid": "W227",
+  "title": "Le Monde où l'on s'ennuie",
+  "entry": "content/_original/_glossary/culture/theater/LE_MONDE_OU_L_ON_S_ENNUIE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "PAILLERON.md is the author entry; linked, not converted. 094.0169 is a passing comparison in blackened text; the scene meant is not recoverable."
+ },
+ {
+  "wid": "W228",
+  "title": "L'Étincelle",
+  "entry": "content/_original/_glossary/culture/theater/L_ETINCELLE_PAILLERON.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "'Etincelle' without article elsewhere in 091-097 is the Figaro columnist (ETINCELLE.md), not the play; aliases use the article form only. No evidence the Krishaber performance (087.0198) took place."
+ },
+ {
+  "wid": "W229",
+  "title": "Macbeth (translation by Jean Richepin)",
+  "entry": "content/_original/_glossary/culture/theater/MACBETH_SHAKESPEARE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Premiere 21 May 1884 (Wikipedia 'Roles played by Sarah Bernhardt'); Marie's visit is 16 June 1884, not May. Richepin's translation not found as a free full text; English Gutenberg link given for the play. The actor Marais is not further identified. No image added (Commons HTTP 429); candidate File:Sarah Bernhardt Macbeth.jpg, Nadar 1884, public domain, linked in the text."
+ },
+ {
+  "wid": "W230",
+  "title": "Le Passant",
+  "entry": "content/_original/_glossary/culture/theater/LE_PASSANT_COPPEE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Marie does not say she saw the play; it is the setting of Bojidar's possibly invented story. 015/1874-01-20 'Passant' is the ordinary word."
+ },
+ {
+  "wid": "W231",
+  "title": "La Pluie et le beau temps",
+  "entry": "content/_original/_glossary/culture/theater/LA_PLUIE_ET_LE_BEAU_TEMPS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Inventory date 1846 is wrong: first performed at the Théâtre-Français in October 1861 (title page of the Calmann Lévy 1892 edition). Performed at Marie's party on 12 Jan 1880 (087.0188, in the entry of that date)."
+ },
+ {
+  "wid": "W259",
+  "title": "Othello (Ernesto Rossi's performance)",
+  "entry": "content/_original/_glossary/culture/theater/OTHELLO_SHAKESPEARE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/OTHELLO.md",
+  "images": 1,
+  "full_text": 1,
+  "extra_mentions": [
+   "066.0498"
+  ],
+  "doubts": "One entry covers both evenings: Rossi (Nice, 19 Apr 1875, 031.0297) and Salvini (Paris, 3 Dec 1877, 076.0311). 066.0498 is a footnote on Ira Aldridge as Othello, probably not a mention of the play itself. The image shows Salvini."
+ },
+ {
+  "wid": "W261",
+  "title": "Les Mirabeau (play)",
+  "entry": "content/_original/_glossary/culture/theater/LES_MIRABEAU_CLARETIE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LES_MIRABEAU.md",
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Identified as Jules Claretie's drame, premiered 31 Oct 1879 at the Théâtre des Nations; the identification rests on title and date, no playbill confirms Marie's visit (086.0473, 4 Nov 1879). Inventory had no creator. 085.0362 and 085.0363 ('four de Mirabeau', 'mon Mirabeau') mean Cassagnac, not the play."
+ },
+ {
+  "wid": "W261b",
+  "title": "Les Mirabeau (Loménie volume I)",
+  "entry": "content/_original/_glossary/culture/literature/LES_MIRABEAU_LOMENIE.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LES_MIRABEAU.md",
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [
+   "085.0311",
+   "085.0315"
+  ],
+  "doubts": "The inventory merged two works under W261; split into a play and a book. The stub LES_MIRABEAU.md is tagged on neither paragraph today, so it can be merged into the book entry or dropped."
+ }
+]

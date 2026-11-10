@@ -1,0 +1,175 @@
+[
+ {
+  "wid": "W144",
+  "title": "Lucrezia Borgia",
+  "entry": "content/_original/_glossary/culture/theater/LUCREZIA_BORGIA_DONIZETTI.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LUCREZIA_BORGIA.md",
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Both paragraphs (003.0203, 007.0385) are tagged to the people stub; 069.0725 mentions Alexander VI Borgia, unrelated. Singer in Vienna is Marie Wilt (Wikipedia)."
+ },
+ {
+  "wid": "W145",
+  "title": "La forza del destino",
+  "entry": "content/_original/_glossary/culture/theater/LA_FORZA_DEL_DESTINO_VERDI.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/LA_FORZA_DEL_DESTINO.md",
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "002.0235 is a first performance by the Nice Théâtre Italien company, not the world première. \"il\" in \"on dit qu'il s'y trouvait\" is unstated (probably Verdi). Merisano in 069.0014 not identified."
+ },
+ {
+  "wid": "W146",
+  "title": "Zampa",
+  "entry": "content/_original/_glossary/culture/theater/ZAMPA_HEROLD.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/ZAMPA.md",
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "The 475th-performance count is Marie's, not checked."
+ },
+ {
+  "wid": "W147",
+  "title": "L'Italiana in Algeri",
+  "entry": "content/_original/_glossary/culture/music/L_ITALIANA_IN_ALGERIA.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Bare alias \"Algeria\" removed from the existing entry (it would mis-tag the country); the \"muso\" claim in 029.0100 is Marie's, libretto unchecked."
+ },
+ {
+  "wid": "W155",
+  "title": "Je ne suis qu'une herbagère",
+  "entry": "content/_original/_glossary/culture/music/JE_NE_SUIS_QU_UNE_HERBAGERE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Song not identified; searches found no song of this title. Possibly a variant of a bergère song (guess only). No full text."
+ },
+ {
+  "wid": "W165",
+  "title": "Il conte Ory",
+  "entry": "content/_original/_glossary/culture/theater/IL_CONTE_ORY.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Language of the Nice performance not stated."
+ },
+ {
+  "wid": "W166",
+  "title": "Stabat Mater",
+  "entry": "content/_original/_glossary/culture/music/STABAT_MATER_ROSSINI.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Composer not named by Marie in 030.0341 or 049.0187; Rossini probable for 049.0187, open for 030.0341. The diary tags 030.0341 to STABAT_MATER_PERGOLESI, which is uncertain and probably wrong. Bare aliases \"Stabat\" / \"Stabat Mater\" belong to the Pergolesi entry and were NOT added to Rossini, so the tagger will not distinguish the two."
+ },
+ {
+  "wid": "W167",
+  "title": "La figlia del reggimento",
+  "entry": "content/_original/_glossary/culture/theater/LA_FIGLIA_DEL_REGGIMENTO.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "IMSLP page is the French original (La fille du régiment); no separate Italian-version page."
+ },
+ {
+  "wid": "W168",
+  "title": "Dinorah (Le Pardon de Ploërmel)",
+  "entry": "content/_original/_glossary/culture/theater/LE_PARDON_DE_PLOERMEL.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "030.0104 may still lack the glossary tag per its older note; 024.0007 (Paris 1874) is already covered in the entry."
+ },
+ {
+  "wid": "W169",
+  "title": "La Vestale",
+  "entry": "content/_original/_glossary/culture/theater/LA_VESTALE_SPONTINI.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "Other \"vestale\" hits (055.0778, 063.0007, 067.0083, 068.0958) are generic, not the opera. Bare alias \"Vestale\" not used. 058.0096 recalls the Rome night while describing another performance."
+ },
+ {
+  "wid": "W170",
+  "title": "Dolorès (new opera)",
+  "entry": "content/_original/_glossary/culture/theater/DOLORES_AUTERI_MANZOCCHI.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "IDENTIFIED (inference, strong): Salvatore Auteri-Manzocchi, Dolores (Florence, Pergola, 23 Feb 1875), written for the soprano Isabella Galletti-Gianoli; Rome Teatro Apollo carnival-Lent 1875-76. \"Gaietti\" = Galletti. Exact Rome première date not confirmed. 087.0833 Dolorès is Audiffret's step-sister, unrelated. Alias kept to the quoted form only. No free score/libretto found."
+ },
+ {
+  "wid": "W185",
+  "title": "Le long de notre petite mère la Volga",
+  "entry": "content/_original/_glossary/culture/music/LE_LONG_DE_NOTRE_PETITE_MERE_LA_VOLGA.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Origin and 1875 text not established; no free full text found that is tied to the song (Wikisource ru has a different song \"Вниз по Волге реке\")."
+ },
+ {
+  "wid": "W186",
+  "title": "Le Rossignol che vola",
+  "entry": "content/_original/_glossary/culture/music/LE_ROSSIGNOL_CHE_VOLA.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [
+   "047.0012 (Dina uses \"rossignol\")",
+   "054.0030",
+   "055.0686",
+   "059.0826"
+  ],
+  "doubts": "Identified as Niçois \"Lo rossignou que vola\" (BnF 1939 recording; Bozza op. 43 no. 4). Nickname for Audiffret; 054.0030 may also refer to the caricature, per Marie."
+ },
+ {
+  "wid": "W187",
+  "title": "Chansons niçoises",
+  "entry": "content/_original/_glossary/culture/music/CHANSONS_NICOISES.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [
+   "059.0826",
+   "062.0430"
+  ],
+  "doubts": "Inventory ID 034.0556 is wrong: the mention is in 034.0557 (034.0556 is the Louis XIV paragraph). Generic category of songs, not a single work. Only Niçois collection found on IMSLP is under copyright, so no full text."
+ },
+ {
+  "wid": "W195",
+  "title": "Poliuto",
+  "entry": "content/_original/_glossary/culture/theater/POLIUTO_DONIZETTI.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/POLIUTO.md",
+  "images": 0,
+  "full_text": 1,
+  "extra_mentions": [],
+  "doubts": "City of 068.0586 not stated (file lists Nice and Rome). San Carlo 1848 date and the 1838 ban are from general knowledge, not re-checked."
+ }
+]

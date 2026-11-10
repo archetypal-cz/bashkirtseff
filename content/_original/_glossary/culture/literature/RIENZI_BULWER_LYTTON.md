@@ -3,16 +3,22 @@ id: RIENZI_BULWER_LYTTON
 name: "Rienzi, the Last of the Roman Tribunes (Bulwer-Lytton)"
 aliases:
   - Rienzi
+  - Rienzi, the Last of the Roman Tribunes
+  - Rienzi, the last of the Roman tribunes
 type: Culture
 category: culture/literature
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-11-10
 languages:
   - en
 full_text:
   - url: https://www.gutenberg.org/ebooks/1396
     label: "Rienzi, the Last of the Roman Tribunes (1835)"
     source: Project Gutenberg
+    language: en
+  - url: https://archive.org/details/rienzilastofroma00lyttuoft
+    label: "Rienzi, the last of the Roman tribunes (New York, A. L. Burt edition)"
+    source: Internet Archive
     language: en
 ---
 # Rienzi, the Last of the Roman Tribunes

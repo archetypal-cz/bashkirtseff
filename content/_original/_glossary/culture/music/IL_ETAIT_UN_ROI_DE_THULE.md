@@ -5,12 +5,13 @@ aliases:
   - Il était un roi de Thulé
   - roi de Thulé
   - roi de Thule
+  - légende de Faust
   - l'air du roi de Thulé
   - ballade du roi de Thulé
 type: Culture
 category: culture/music
 research_status: Moderate
-last_updated: 2026-10-10
+last_updated: 2026-11-10
 languages:
   - fr
 full_text:
@@ -28,6 +29,7 @@ The ballad Marguerite sings at her spinning wheel in Act III of Charles Gounod's
 
 ## Marie and this work
 
+- 011.0153-0155 (21 Oct 1873, Nice): "Je chantais la légende de Faust : — Il y eut un jour un roi qui jusqu'à la tombe fidèle…"; [Bête](../../people/mentioned/BETE.md) interrupts: "il n'y a personne qui soit fidèle jusqu'à la tombe", and Wittgenstein is named as the exception (011.0156). Marie's "légende de Faust" is the Thulé ballad (identification probable).
 - 068.0928 (2 Feb 1877, Nice): at a performance of *Faust* she describes a Marguerite who "ne chantait pas"; when she "entama l'air du roi de Thulé" Marie trembled for her and hid at the back of the box "comme si c'était moi la chanteuse".
 - 069.0634 (30 Mar 1877, Naples): she sings the air "d'une voix fraîche et forte et avec une délicieuse expression", then a Russian romance.
 - 070.0001, 070.0023 (3 Apr 1877, Sorrento): she sings the ballad to Count Larderel, then asks what *his* belle left him; the stanza is quoted in 070.0023. The conversation moves to Faust and Marguerite: "Faust trompé n'est que souverainement ridicule, tandis que Marguerite trompée n'a pas autre chose à faire… que mourir."

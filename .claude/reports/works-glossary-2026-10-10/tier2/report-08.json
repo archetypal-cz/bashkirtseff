@@ -1,0 +1,177 @@
+[
+ {
+  "wid": "W234",
+  "title": "Valentine",
+  "entry": "content/_original/_glossary/culture/literature/VALENTINE_SAND.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "Marie's 'Valentine et Bénédict' (090.0079): Bénédict is the hero of Valentine itself (fr.wikipedia; Gutenberg text), so the inventory's separate 'Bénédict (Sand, 1837)' work probably does not exist; no separate Sand novel Bénédict found. 'Le Dernier Amour' (090.0082) is a further Sand title with no entry yet. people/mentioned/VALENTINE.md is a retired redirect to PERNETTI, not a stub to merge; aliases use the full form to avoid the bare-name trap."
+ },
+ {
+  "wid": "W235",
+  "title": "Flamarande",
+  "entry": "content/_original/_glossary/culture/literature/FLAMARANDE.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [
+   "090.0526",
+   "090.0527"
+  ],
+  "doubts": "Date now fixed to 1875 from the Wikisource title page (Michel Lévy frères); Les Deux Frères (1875, Calmann Lévy 1878) is the sequel and is covered in the same entry (090.0526-0527 already described there, not yet tagged to it if the tagger misses the quoted form). Old bare aliases 'Les deux frères' replaced by quoted forms because 'les deux frères' occurs elsewhere (099.0329)."
+ },
+ {
+  "wid": "W236",
+  "title": "Honorine",
+  "entry": "content/_original/_glossary/culture/literature/HONORINE_BALZAC.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [],
+  "doubts": "culture/theater/HONORINE.md is an actress at the Nice theatre (March 1874), not the novella; it is not a stub of this work and was left untouched, but its bare alias 'Honorine' will collide with this novella's mentions (097.0191, 097.0221), which currently carry no Honorine tag. 097.0221 should be tagged HONORINE_BALZAC (and 097.0191 likewise)."
+ },
+ {
+  "wid": "W237",
+  "title": "Modeste Mignon",
+  "entry": "content/_original/_glossary/culture/literature/MODESTE_MIGNON_BALZAC.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [
+   "097.0221"
+  ],
+  "doubts": "097.0221 continues the Modeste Mignon passage ('Mais c'est moi, ...') but is tagged only Balzac."
+ },
+ {
+  "wid": "W238",
+  "title": "Madame Bovary",
+  "entry": "content/_original/_glossary/culture/literature/MADAME_BOVARY.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [
+   "103.0567"
+  ],
+  "doubts": "The cab allusion (089.0156) was checked against the fiacre scene of Part III (Gutenberg 14155). Her first, lukewarm reading 'il y a quelques années' is not recorded elsewhere. Neither mention carries a Bovary tag yet."
+ },
+ {
+  "wid": "W239",
+  "title": "L'Assommoir (roman)",
+  "entry": "content/_original/_glossary/culture/literature/L_ASSOMMOIR.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 2,
+  "extra_mentions": [
+   "091.0057"
+  ],
+  "doubts": "The existing entry (created 2026-10-21) covers both novel and Ambigu play (084.0165 is the play); kept as one entry, rewritten in clusters with full_text added. Consider splitting the play later if the owner wants."
+ },
+ {
+  "wid": "W240",
+  "title": "Son Excellence Eugène Rougon",
+  "entry": "content/_original/_glossary/culture/literature/SON_EXCELLENCE_EUGENE_ROUGON.md",
+  "action": "new",
+  "supersedes": "content/_original/_glossary/people/mentioned/EUGENE_ROUGON.md",
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "086.0534 and 086.0559 are tagged to the empty people stub EUGENE_ROUGON (the title character), which should be merged into this entry and the tags re-pointed. Marie's sentence in 086.0559 breaks off ('et... même sans cela')."
+ },
+ {
+  "wid": "W241",
+  "title": "Les Rois en exil",
+  "entry": "content/_original/_glossary/culture/literature/LES_ROIS_EN_EXIL.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 3,
+  "extra_mentions": [],
+  "doubts": "ALPHONSE_DAUDET.md is the author entry and was not touched. 096.0038-0039 carry no tag for the novel yet. No Wikipedia article was found for the novel, so the overview rests on Wikisource (dedication, table of contents, chapters I-II) and Internet Archive records; the later plot and the Méraut-queen love story were not checked."
+ },
+ {
+  "wid": "W242",
+  "title": "De l'amour",
+  "entry": "content/_original/_glossary/culture/literature/DE_L_AMOUR_STENDHAL.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 4,
+  "extra_mentions": [
+   "100.0333",
+   "100.0335",
+   "100.0349",
+   "100.0351",
+   "100.0353",
+   "100.0354",
+   "100.0356",
+   "100.0358",
+   "100.0359",
+   "100.0361",
+   "100.0362",
+   "100.0365",
+   "100.0366",
+   "100.0372",
+   "100.0373",
+   "100.0378",
+   "100.0382",
+   "100.0438",
+   "101.0018",
+   "101.0041",
+   "101.0051",
+   "101.0071",
+   "101.0333",
+   "102.0055"
+  ],
+  "doubts": "Another agent had created this entry earlier today for the 1878 passage (080.0609-0612); I added the 1883 mentions in place, re-numbered its clusters and replaced its bare aliases 'De l'amour' / 'De l'Amour' (common French phrase, mis-tag trap) with specific forms. The July 1883 start of reading is 14 July (100.0330), not June as the inventory note says. Marie's 102.0408 quotation is from chapter XXII 'De l'engouement' (Gutenberg 60882). Wikisource's work page 'De l'Amour' redirects to a preface, so the chapter I page is linked instead."
+ },
+ {
+  "wid": "W243",
+  "title": "Les Douze Césars",
+  "entry": "content/_original/_glossary/culture/literature/LES_DOUZE_CESARS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 4,
+  "extra_mentions": [],
+  "doubts": "Marie names only 'Suétone'; the identification rests on the murder of Caesar (Divus Iulius LXXXII). No French full text of the Caesar life found on Wikisource or Internet Archive (only La Harpe vol. 2), so French links go to the Wikisource author page; English via Gutenberg. Gallica not tried (403). Her remark on Montesquieu was not traced. 102.0345 is also tagged PARALLEL_LIVES and PLUTARQUE; Suétone is not tagged yet."
+ },
+ {
+  "wid": "W244",
+  "title": "La Bible",
+  "entry": "content/_original/_glossary/culture/literature/BIBLE.md",
+  "action": "enriched",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 4,
+  "extra_mentions": [
+   "031.0240",
+   "034.0144",
+   "037.0469",
+   "060.0592",
+   "062.0165",
+   "062.0842",
+   "064.0597",
+   "103.0391"
+  ],
+  "doubts": "The inventory's people/mentioned/BIBLE.md does not exist; the proper entry is culture/literature/BIBLE.md, enriched in place. Marie's 'je ne l'avais jamais lue' (103.0399, Feb 1884) conflicts with her Bible readings of 1875-76 (incl. in Italian, 064.0597): recorded as a doubt, not resolved. 062.0128 (robe of Bible women) and 103.0269 (opera) are not readings of the book. Translation she used is unknown."
+ },
+ {
+  "wid": "W245",
+  "title": "Roman de Tourguenieff (non nommé)",
+  "entry": null,
+  "action": "skipped",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Not an identifiable work: Marie never names the novel (101.0509, read at one sitting in French on 6 October 1883; 101.0539 the next day). Her remarks (the Russian peasant painted with truth, 101.0517; abroad he is known for his studies of society, 101.0518) are insufficient to choose between Turgenev's novels, so no entry was written to avoid inventing one. The mentions are already covered by TOURGUENIEFF.md. If the owner wants it, candidates would be a guess."
+ }
+]

@@ -1,0 +1,127 @@
+[
+ {
+  "wid": "W164",
+  "title": "Marine paintings exhibited in Nice (Aivazovsky)",
+  "entry": "content/_original/_glossary/culture/art/AIVAZOVSKY_MARINES_NICE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [
+   "097.0054 (a different single picture, «un tableau d'Ayvosonsky» at the Abazas' house in Poltava)"
+  ],
+  "doubts": "Exhibition-level entry; no catalogue or press notice found for the Hôtel Chauvain show, pictures unidentified, so no image. Wikipedia dates his Nice trip 1872, Marie's visit is 1 March 1874. 018.0244 is a comparison, not a visit. Mention 017.0090 is tagged with people/mentioned/AIVAZOVSKY, 018.0244 with culture/history/AIVAZOWSKY (two artist pages exist, unmerged)."
+ },
+ {
+  "wid": "W188",
+  "title": "Mary Magdalene (Pitti)",
+  "entry": "content/_original/_glossary/culture/art/PENITENT_MAGDALENE_TITIAN.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "043.0164 = Pitti Penitent Magdalene (image added). 053.0378 (Doria, Rome) not confirmed as Titian: the Doria Pamphilj has a copy after Titian (Commons) and Caravaggio's Magdalene; no free image of it. Dating c.1531-35 varies by source."
+ },
+ {
+  "wid": "W189",
+  "title": "Venus de' Medici",
+  "entry": "content/_original/_glossary/culture/art/VENUS_DE_MEDICIS.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Image is an Alinari albumen photograph c.1875-1900 (Rijksmuseum, CC0). 043.0191 is tagged culture/art/VENUS_DE_MILO (wrong: the Medici Venus) and could be re-tagged; 043.0200 reason for her pride is not stated. VENUS_DE_MILO.md still carries an RSR note saying the Medici Venus has no entry; it now has one."
+ },
+ {
+  "wid": "W214",
+  "title": "Samson Fountain (Peterhof)",
+  "entry": "content/_original/_glossary/culture/art/SAMSON_FOUNTAIN_PETERHOF.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Marie saw Kozlovsky's 1802 bronze (lost in WWII, replaced 1947), not the 1735 lead original nor today's copy. The only free pre-1941 photo found shows the central jet from above, statue hidden; no photo of the Kozlovsky statue itself. Marie says tiger, it is a lion. Footnote 064.0475.5 gives 1735, which is Rastrelli's original."
+ },
+ {
+  "wid": "W215",
+  "title": "Gretchen (Gabriel von Max)",
+  "entry": "content/_original/_glossary/culture/art/GRETCHEN_VON_MAX.md",
+  "action": "enriched",
+  "supersedes": "content/_original/_glossary/people/mentioned/GRETCHEN.md",
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [
+   "074.0379 (already listed in the entry)"
+  ],
+  "doubts": "Specific painting still unidentified; candidates (Gretchen in der Walpurgisnacht 1873, Die Kindesmörderin 1877) come from a Wikipedia mirror and are not confirmed. No image. Existing process-style RSR notes at the foot of the entry were left in place."
+ },
+ {
+  "wid": "W216",
+  "title": "Beatrice Cenci (portrait attributed to Guido Reni)",
+  "entry": "content/_original/_glossary/culture/art/PORTRAIT_BEATRICE_CENCI.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [
+   "052.0377 (turban like Beatrice Cenci, 22 Jan 1876)",
+   "053.0357 (the head of the Cenci, 3 Feb 1876)"
+  ],
+  "doubts": "Portrait now attributed to Ginevra Cantofoli (c.1650) by Barberini Corsini per the Commons description; diary footnotes still say Reni. Sitter identification is traditional. 057.0214 and 059.0849 are self-comparisons; 059.0849 carries no glossary tags."
+ },
+ {
+  "wid": "W246",
+  "title": "Le Mendiant",
+  "entry": "content/_original/_glossary/culture/art/LE_MENDIANT_BASTIEN_LEPAGE.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [],
+  "doubts": "Canvas signed Damvillers 1880 (Copenhagen Glyptotek); biographies and footnote 091.0548 say 1881. Salon-1881 exhibition inferred from Marie placing it beside the Wolff portrait. 099.0228 «le mendiant» probable but untitled."
+ },
+ {
+  "wid": "W247",
+  "title": "Petits paysages de nuit (Cazin)",
+  "entry": "content/_original/_glossary/culture/art/CAZIN_PAYSAGES_DE_NUIT.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [
+   "097.0322 (first sight of Cazin, rue de Sèze, 31 Dec 1882)",
+   "100.0551 (simples petites toiles de Cazin)"
+  ],
+  "doubts": "No title identified; not a single work, so no image. Possibly the same canvas in 098.0189 and 103.0240."
+ },
+ {
+  "wid": "W248",
+  "title": "Phèdre (Cabanel)",
+  "entry": "content/_original/_glossary/culture/art/PHEDRE_CABANEL.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 1,
+  "full_text": 0,
+  "extra_mentions": [
+   "103.0058 (une Aurore de Bouguereau ou un tableau historique de Cabanel)"
+  ],
+  "doubts": "Phèdre = Cabanel, Salon 1880, Musée Fabre (gift of the artist). The Aurore is Bouguereau's (103.0058), not Cabanel's: the LAN note at 103.0046 and 103.0178 attributes both to Cabanel. 103.0046 is tagged culture/literature/COROT (a wrong category for Corot, outside this batch). Dimensions differ between the Musée Fabre file (194 x 286) and a dealer listing."
+ },
+ {
+  "wid": "W249",
+  "title": "Peinture de Bouguereau « volant » Raphaël",
+  "entry": "content/_original/_glossary/culture/art/BOUGUEREAU_EMPRUNT_A_RAPHAEL.md",
+  "action": "new",
+  "supersedes": null,
+  "images": 0,
+  "full_text": 0,
+  "extra_mentions": [
+   "103.0068",
+   "103.0069"
+  ],
+  "doubts": "The picture is unidentified: no title or subject in the diary and no clue in the preceding paragraphs. Entry says so plainly; no image."
+ }
+]

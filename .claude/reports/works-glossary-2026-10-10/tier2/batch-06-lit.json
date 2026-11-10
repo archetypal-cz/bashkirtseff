@@ -1,0 +1,483 @@
+[
+ {
+  "wid": "W156",
+  "title": "The Odyssey",
+  "marie_forms": [
+   "Odyssée"
+  ],
+  "creator": "Homer",
+  "year": "c. 8th c. BC",
+  "type": "poem",
+  "mentions": [
+   "023.0676",
+   "024.0025"
+  ],
+  "mention_files": {
+   "023.0676": {
+    "file": "023/1874-09-16.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "places/travel/FRANCE.md",
+     "places/travel/ENGLAND.md",
+     "culture/literature/HOMER_ODYSSEY.md"
+    ]
+   },
+   "024.0025": {
+    "file": "024/1874-09-18.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/literature/HOMER_ODYSSEY.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/literature/HOMER_ODYSSEY.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "023.0676, 024.0025 (Mars and Venus in Vulcan's net)"
+ },
+ {
+  "wid": "W157",
+  "title": "Louis XIV et son siècle / Louis XIV et ses femmes",
+  "marie_forms": [
+   "Louis XIV et ses femmes",
+   "Louis XIV et son siècle"
+  ],
+  "creator": "unknown",
+  "year": null,
+  "type": "book",
+  "mentions": [
+   "015.0209",
+   "016.0087"
+  ],
+  "mention_files": {
+   "015.0209": {
+    "file": "015/1874-01-16.md",
+    "tags": [
+     "people/family/MAMAN.md",
+     "people/mentioned/LOUIS_XIV_ET_SES_FEMMES.md",
+     "people/mentioned/LES_COURTISANES_DU_MONDE.md",
+     "culture/themes/READING.md",
+     "culture/literature/COURTISANES_DU_MONDE.md"
+    ]
+   },
+   "016.0087": {
+    "file": "016/1874-02-02.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/family/MAMAN.md",
+     "people/mentioned/LOUIS_XIV.md",
+     "culture/history/BUCKINGHAM.md",
+     "people/core/DUKE_OF_HAMILTON.md",
+     "people/mentioned/NERO.md",
+     "culture/themes/READING.md",
+     "culture/themes/LOVE.md",
+     "people/aristocracy/LADY_MARY_MONTAGU.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "people/mentioned/LOUIS_XIV_ET_SES_FEMMES.md"
+  ],
+  "public_domain_likely": null,
+  "notes": "015.0209 and 016.0087: possibly two works; Houssaye's name appears nearby but not attributed"
+ },
+ {
+  "wid": "W158",
+  "title": "Mabel Vaughan",
+  "marie_forms": [
+   "Mabel Vaughan",
+   "Mabel Waughan"
+  ],
+  "creator": "Maria Susanna Cummins",
+  "year": "1857",
+  "type": "novel",
+  "mentions": [
+   "005.0023",
+   "006.0245"
+  ],
+  "mention_files": {
+   "005.0023": {
+    "file": "005/1873-05-22.md",
+    "tags": [
+     "culture/literature/THE_LAMPLIGHTER.md",
+     "culture/themes/READING.md",
+     "culture/languages/ENGLISH.md",
+     "culture/themes/TRAVEL.md",
+     "people/family/MAMAN.md",
+     "people/mentioned/KRUMLING.md",
+     "people/mentioned/RICE.md",
+     "places/cities/LYON.md"
+    ]
+   },
+   "006.0245": {
+    "file": "006/1873-07-12.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/languages/ENGLISH.md",
+     "people/mentioned/BULWER.md",
+     "people/mentioned/MRS_HENRY_WOOD.md",
+     "people/mentioned/MRS_HALIBURTONS_TROUBLES.md",
+     "culture/literature/THE_LAMPLIGHTER.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Cummins is 'the author of The Lamplighter'"
+ },
+ {
+  "wid": "W159",
+  "title": "Mrs Haliburton's Troubles",
+  "marie_forms": [
+   "Haliburton"
+  ],
+  "creator": "Ellen (Mrs Henry) Wood",
+  "year": "1862",
+  "type": "novel",
+  "mentions": [
+   "004.0100",
+   "006.0245"
+  ],
+  "mention_files": {
+   "004.0100": {
+    "file": "004/1873-04-20.md",
+    "tags": [
+     "people/mentioned/MRS_HENRY_WOOD.md",
+     "people/mentioned/MRS_HALIBURTONS_TROUBLES.md",
+     "culture/themes/READING.md",
+     "culture/languages/ENGLISH.md"
+    ]
+   },
+   "006.0245": {
+    "file": "006/1873-07-12.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/languages/ENGLISH.md",
+     "people/mentioned/BULWER.md",
+     "people/mentioned/MRS_HENRY_WOOD.md",
+     "people/mentioned/MRS_HALIBURTONS_TROUBLES.md",
+     "culture/literature/THE_LAMPLIGHTER.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": ""
+ },
+ {
+  "wid": "W160",
+  "title": "The Select Works of Oliver Goldsmith",
+  "marie_forms": [
+   "Goldsmith"
+  ],
+  "creator": "Oliver Goldsmith",
+  "year": null,
+  "type": "book",
+  "mentions": [
+   "006.0070",
+   "006.0245"
+  ],
+  "mention_files": {
+   "006.0070": {
+    "file": "006/1873-06-22.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/READING.md",
+     "people/core/DINA.md"
+    ]
+   },
+   "006.0245": {
+    "file": "006/1873-07-12.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/languages/ENGLISH.md",
+     "people/mentioned/BULWER.md",
+     "people/mentioned/MRS_HENRY_WOOD.md",
+     "people/mentioned/MRS_HALIBURTONS_TROUBLES.md",
+     "culture/literature/THE_LAMPLIGHTER.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": ""
+ },
+ {
+  "wid": "W161",
+  "title": "Gulliver's Travels",
+  "marie_forms": [
+   "Gulliver"
+  ],
+  "creator": "Jonathan Swift",
+  "year": "1726",
+  "type": "novel",
+  "mentions": [
+   "007.0355",
+   "016.0274"
+  ],
+  "mention_files": {
+   "007.0355": {
+    "file": "007/1873-08-07.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/READING.md",
+     "culture/languages/ENGLISH.md",
+     "culture/themes/SHOPPING.md",
+     "culture/themes/FASHION.md",
+     "culture/literature/GULLIVERS_TRAVELS.md",
+     "places/shops/FRANCINE.md",
+     "places/cities/VIENNA_WORLD_EXHIBITION.md",
+     "people/recurring/HELENE_HOWARD.md"
+    ]
+   },
+   "016.0274": {
+    "file": "016/1874-02-15.md",
+    "tags": [
+     "people/family/MA_TANTE.md",
+     "people/mentioned/OBELISQUE.md",
+     "people/mentioned/LAMBERTYE.md",
+     "culture/languages/ENGLISH.md",
+     "culture/themes/SOCIETY.md",
+     "culture/themes/APPEARANCE.md",
+     "people/aristocracy/DUCHESSE_DE_MOUCHY.md",
+     "people/aristocracy/DUC_DE_MOUCHY.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": ""
+ },
+ {
+  "wid": "W162",
+  "title": "L'Apocalypse",
+  "marie_forms": [
+   "L'Apocalypse"
+  ],
+  "creator": "Bible / St John",
+  "year": null,
+  "type": "book",
+  "mentions": [
+   "014.0240",
+   "014.0259"
+  ],
+  "mention_files": {
+   "014.0240": {
+    "file": "014/1873-12-27.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/READING.md"
+    ]
+   },
+   "014.0259": {
+    "file": "014/1873-12-27.md",
+    "tags": [
+     "people/recurring/WALITSKY.md",
+     "people/mentioned/MAKAROFF.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": ""
+ },
+ {
+  "wid": "W163",
+  "title": "La Clef des songes",
+  "marie_forms": [
+   "clef des songes"
+  ],
+  "creator": "unknown",
+  "year": null,
+  "type": "book",
+  "mentions": [
+   "023.0249",
+   "023.0378"
+  ],
+  "mention_files": {
+   "023.0249": {
+    "file": "023/1874-08-21.md",
+    "tags": [
+     "culture/themes/WEATHER.md",
+     "culture/themes/SUPERSTITION.md"
+    ]
+   },
+   "023.0378": {
+    "file": "023/1874-08-28.md",
+    "tags": [
+     "culture/themes/SUPERSTITION.md",
+     "culture/themes/LOVE.md",
+     "people/mentioned/MERJEEWSKY.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/literature/CLEF_DES_SONGES.md"
+  ],
+  "public_domain_likely": null,
+  "notes": "023.0249 with chiromancy section"
+ },
+ {
+  "wid": "W177",
+  "title": "Napoléon (Dumas)",
+  "marie_forms": [
+   "Napoléon de Dumas",
+   "la Sainte Bible, Napoléon"
+  ],
+  "creator": "Alexandre Dumas père",
+  "year": "1840",
+  "type": "book",
+  "mentions": [
+   "031.0131",
+   "031.0240"
+  ],
+  "mention_files": {
+   "031.0131": {
+    "file": "031/1875-04-08.md",
+    "tags": [
+     "culture/literature/NAPOLEON_BY_DUMAS.md",
+     "people/family/GRAND_PAPA.md",
+     "culture/themes/READING.md"
+    ]
+   },
+   "031.0240": {
+    "file": "031/1875-04-15.md",
+    "tags": [
+     "culture/literature/BIBLE.md",
+     "culture/literature/HISTOIRE_DE_MONACO.md",
+     "culture/literature/ALEXANDRE_DUMAS.md",
+     "culture/themes/READING.md",
+     "culture/literature/NAPOLEON_BY_DUMAS.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/culture/literature/NAPOLEON_BY_DUMAS.md",
+  "glossary_hits": [
+   "culture/literature/NAPOLEON_BY_DUMAS.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "031.0131 reads to father; 031.0240 among five books."
+ },
+ {
+  "wid": "W178",
+  "title": "Isabelle de Bavière",
+  "marie_forms": [
+   "Isabelle de Bavière"
+  ],
+  "creator": "Alexandre Dumas père",
+  "year": "1835",
+  "type": "novel",
+  "mentions": [
+   "046.0189",
+   "046.0265"
+  ],
+  "mention_files": {
+   "046.0189": {
+    "file": "046/1875-10-06.md",
+    "tags": [
+     "culture/literature/ISABELLE_DE_BAVIERE.md",
+     "culture/themes/READING.md",
+     "people/mentioned/OLGA.md"
+    ]
+   },
+   "046.0265": {
+    "file": "046/1875-10-08.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/literature/ISABELLE_DE_BAVIERE.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/culture/literature/ISABELLE_DE_BAVIERE.md",
+  "glossary_hits": [
+   "culture/literature/ISABELLE_DE_BAVIERE.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "046.0189 reads it in the evenings with Olga."
+ },
+ {
+  "wid": "W179",
+  "title": "Mémoires du maréchal duc de Richelieu",
+  "marie_forms": [
+   "Mémoires du maréchal duc de Richelieu",
+   "mémoires du maréchal duc de Richelieu"
+  ],
+  "creator": "attributed to the Duc de Richelieu (Soulavie)",
+  "year": "1790",
+  "type": "book",
+  "mentions": [
+   "044.0059",
+   "044.0182"
+  ],
+  "mention_files": {
+   "044.0059": {
+    "file": "044/1875-09-22.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/READING.md",
+     "people/recurring/EMILE_D_AUDIFFRET.md"
+    ]
+   },
+   "044.0182": {
+    "file": "044/1875-09-24.md",
+    "tags": [
+     "culture/themes/LOVE.md",
+     "people/recurring/EMILE_D_AUDIFFRET.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "044.0059/0182 Audiffret's bedside reading."
+ },
+ {
+  "wid": "W180",
+  "title": "La Bible (Sainte Bible)",
+  "marie_forms": [
+   "Sainte Bible",
+   "lire la Bible"
+  ],
+  "creator": "-",
+  "year": "-",
+  "type": "book",
+  "mentions": [
+   "031.0240",
+   "034.0144"
+  ],
+  "mention_files": {
+   "031.0240": {
+    "file": "031/1875-04-15.md",
+    "tags": [
+     "culture/literature/BIBLE.md",
+     "culture/literature/HISTOIRE_DE_MONACO.md",
+     "culture/literature/ALEXANDRE_DUMAS.md",
+     "culture/themes/READING.md",
+     "culture/literature/NAPOLEON_BY_DUMAS.md"
+    ]
+   },
+   "034.0144": {
+    "file": "034/1875-06-10.md",
+    "tags": [
+     "culture/themes/LOVE.md",
+     "culture/themes/EMOTIONS.md",
+     "people/recurring/EMILE_D_AUDIFFRET.md",
+     "culture/literature/BIBLE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "031.0240, 034.0144."
+ }
+]

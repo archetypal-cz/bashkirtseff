@@ -1,0 +1,619 @@
+[
+ {
+  "wid": "W144",
+  "title": "Lucrezia Borgia",
+  "marie_forms": [
+   "Lucrezia Borgia"
+  ],
+  "creator": "Gaetano Donizetti",
+  "year": "1833",
+  "type": "opera",
+  "mentions": [
+   "003.0203",
+   "007.0385"
+  ],
+  "mention_files": {
+   "003.0203": {
+    "file": "003/1873-04-05.md",
+    "tags": [
+     "places/theaters/OPERA_NICE.md",
+     "people/mentioned/LUCREZIA_BORGIA.md",
+     "people/mentioned/SCARATI.md",
+     "people/core/DUKE_OF_HAMILTON.md",
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/LOVE.md"
+    ]
+   },
+   "007.0385": {
+    "file": "007/1873-08-09.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/mentioned/LUCREZIA_BORGIA.md",
+     "people/mentioned/GUTMAN.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "people/mentioned/LUCREZIA_BORGIA.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Nice 1873 (003.0203, Scarati) and Vienna 1873 (007.0385)"
+ },
+ {
+  "wid": "W145",
+  "title": "La forza del destino",
+  "marie_forms": [
+   "Forza del destino"
+  ],
+  "creator": "Giuseppe Verdi",
+  "year": "1862",
+  "type": "opera",
+  "mentions": [
+   "002.0235",
+   "069.0014"
+  ],
+  "mention_files": {
+   "002.0235": {
+    "file": "002/1873-03-08.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/mentioned/THEATRE_ITALIEN_NICE.md",
+     "people/mentioned/LA_FORZA_DEL_DESTINO.md",
+     "people/mentioned/VERDI.md",
+     "culture/languages/ITALIAN.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md"
+    ]
+   },
+   "069.0014": {
+    "file": "069/1877-02-25.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "places/streets/CHIAJA.md",
+     "people/aristocracy/PRINCESS_MULITERNO.md",
+     "places/theaters/SAN_CARLO.md",
+     "people/mentioned/MERISANO.md",
+     "culture/languages/ITALIAN.md",
+     "people/mentioned/LA_FORZA_DEL_DESTINO.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/LA_FORZA_DEL_DESTINO.md",
+  "glossary_hits": [
+   "people/mentioned/LA_FORZA_DEL_DESTINO.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Théâtre Italien, Nice? first performance there per Marie, 1873 | San Carlo, Naples, 069.0014. [Existing entry category: people/mentioned; tag count is repo-wide, all carnets] [auto-stub filed under people/mentioned; should be recategorised]"
+ },
+ {
+  "wid": "W146",
+  "title": "Zampa",
+  "marie_forms": [
+   "Zampa"
+  ],
+  "creator": "Ferdinand Hérold",
+  "year": "1831",
+  "type": "opera",
+  "mentions": [
+   "008.0104",
+   "008.0105"
+  ],
+  "mention_files": {
+   "008.0104": {
+    "file": "008/1873-08-21.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/core/DINA.md",
+     "culture/themes/WEATHER.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/mentioned/ZAMPA.md",
+     "places/theaters/OPERA_COMIQUE.md",
+     "culture/newspapers/LE_DERBY.md"
+    ]
+   },
+   "008.0105": {
+    "file": "008/1873-08-21.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "people/mentioned/ZAMPA.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "people/mentioned/ZAMPA.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Opéra-Comique, '475e représentation'"
+ },
+ {
+  "wid": "W147",
+  "title": "L'Italiana in Algeri",
+  "marie_forms": [
+   "L'Italiana in Algeria",
+   "L'Italiano in Algeri"
+  ],
+  "creator": "Gioachino Rossini",
+  "year": "1813",
+  "type": "opera",
+  "mentions": [
+   "026.0030",
+   "029.0100"
+  ],
+  "mention_files": {
+   "026.0030": {
+    "file": "026/1874-11-22.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md",
+     "culture/music/L_ITALIANA_IN_ALGERIA.md",
+     "people/aristocracy/COUNT_ARNIM.md",
+     "people/recurring/GALULA.md",
+     "people/core/DINA.md",
+     "places/theaters/OPERA_NICE.md",
+     "people/mentioned/GONZALES.md"
+    ]
+   },
+   "029.0100": {
+    "file": "029/1875-01-28.md",
+    "tags": [
+     "people/mentioned/LAMBERTYE.md",
+     "people/mentioned/GALVE.md",
+     "culture/languages/ITALIAN.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/music/L_ITALIANA_IN_ALGERIA.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Marie writes 'L'Italiano in Algeri' (029.0100)."
+ },
+ {
+  "wid": "W155",
+  "title": "Je ne suis qu'une herbagère",
+  "marie_forms": [
+   "Je ne suis qu'une herbagère"
+  ],
+  "creator": "unknown",
+  "year": null,
+  "type": "song",
+  "mentions": [
+   "002.0240",
+   "012.0140"
+  ],
+  "mention_files": {
+   "002.0240": {
+    "file": "002/1873-03-09.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/mentioned/SANTA_LUCIA.md",
+     "culture/themes/MUSIC_THEME.md",
+     "people/family/MAMAN.md",
+     "people/aristocracy/MME_HOWARD.md",
+     "people/mentioned/M_PATTON.md"
+    ]
+   },
+   "012.0140": {
+    "file": "012/1873-11-09.md",
+    "tags": [
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/APPEARANCE.md",
+     "people/recurring/HELENE_HOWARD.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": null,
+  "notes": "Sung by Marie 012.0140 and 002.0240"
+ },
+ {
+  "wid": "W165",
+  "title": "Il conte Ory",
+  "marie_forms": [
+   "Il conte Ory"
+  ],
+  "creator": "Gioachino Rossini",
+  "year": "1828",
+  "type": "opera",
+  "mentions": [
+   "030.0232",
+   "030.0338"
+  ],
+  "mention_files": {
+   "030.0232": {
+    "file": "030/1875-03-16.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "places/theaters/OPERA_NICE.md"
+    ]
+   },
+   "030.0338": {
+    "file": "030/1875-03-23.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md",
+     "places/theaters/OPERA_NICE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Nice, March 1875."
+ },
+ {
+  "wid": "W166",
+  "title": "Stabat Mater",
+  "marie_forms": [
+   "Stabat"
+  ],
+  "creator": "Gioachino Rossini",
+  "year": "1832/1841",
+  "type": "music",
+  "mentions": [
+   "030.0341",
+   "049.0187"
+  ],
+  "mention_files": {
+   "030.0341": {
+    "file": "030/1875-03-24.md",
+    "tags": [
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/FASHION.md",
+     "people/mentioned/NADINE.md",
+     "culture/fashion/HOUSE_OF_WORTH.md",
+     "culture/music/STABAT_MATER_PERGOLESI.md"
+    ]
+   },
+   "049.0187": {
+    "file": "049/1875-11-09.md",
+    "tags": [
+     "people/recurring/EMILE_D_AUDIFFRET.md",
+     "people/recurring/SAETONE.md",
+     "people/recurring/GIOIA.md",
+     "culture/themes/SOCIETY.md",
+     "people/mentioned/CRESCI.md",
+     "people/mentioned/LIMOUSIN.md",
+     "places/social/CERCLE_DE_LA_MEDITERRANEE.md",
+     "places/social/CERCLE_MASSENA.md",
+     "places/cities/LONDON_HOUSE.md",
+     "places/cities/NICE.md",
+     "people/mentioned/DESFORGES.md",
+     "culture/literature/ROSIERE_LETTRE_AUDIFFRET.md",
+     "places/social/AVENUE_DE_LA_GARE.md",
+     "places/social/FRENCH_THEATER_NICE.md",
+     "places/theaters/OPERA_NICE.md",
+     "places/social/CAFE_DE_LA_VICTOIRE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/music/STABAT_MATER_PERGOLESI.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "030.0341 performed at Nice opera house; 049.0187 mock-announcement for Audiffret's 'Rosière' letter lists choirs singing pieces of the Stabat Mater (satirical)."
+ },
+ {
+  "wid": "W167",
+  "title": "La figlia del reggimento",
+  "marie_forms": [
+   "La figlia del Regimento",
+   "La figlia del regimento"
+  ],
+  "creator": "Gaetano Donizetti",
+  "year": "1840",
+  "type": "opera",
+  "mentions": [
+   "050.0817",
+   "050.0929"
+  ],
+  "mention_files": {
+   "050.0817": {
+    "file": "050/1875-12-16.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/languages/ITALIAN.md",
+     "culture/themes/THEATER_THEME.md"
+    ]
+   },
+   "050.0929": {
+    "file": "050/1875-12-18.md",
+    "tags": [
+     "culture/themes/LOVE.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/SOCIETY.md",
+     "people/mentioned/COLLIGNON.md",
+     "people/mentioned/FRANCIA.md",
+     "people/mentioned/ROBENSON.md",
+     "people/recurring/EMILE_D_AUDIFFRET.md",
+     "people/core/DINA.md",
+     "people/mentioned/MARIE_SAPOGENIKOFF.md",
+     "people/mentioned/ANTONOFF.md",
+     "places/theaters/OPERA_NICE.md",
+     "people/family/MAMAN.md",
+     "people/mentioned/OLGA.md",
+     "people/mentioned/PRODGERS.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Nice, 1875-12-16."
+ },
+ {
+  "wid": "W168",
+  "title": "Dinorah (Le Pardon de Ploërmel)",
+  "marie_forms": [
+   "Dinorah"
+  ],
+  "creator": "Giacomo Meyerbeer",
+  "year": "1859",
+  "type": "opera",
+  "mentions": [
+   "030.0104",
+   "030.0157"
+  ],
+  "mention_files": {
+   "030.0104": {
+    "file": "030/1875-02-28.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md",
+     "people/mentioned/MARIE_SAPOGENIKOFF.md",
+     "people/mentioned/NADINE.md",
+     "places/theaters/OPERA_NICE.md",
+     "people/mentioned/STIOPA_ENFANT.md",
+     "people/mentioned/JULIE_ENFANT.md",
+     "culture/theater/LE_PARDON_DE_PLOERMEL.md"
+    ]
+   },
+   "030.0157": {
+    "file": "030/1875-03-09.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md",
+     "places/theaters/OPERA_NICE.md",
+     "culture/theater/LE_PARDON_DE_PLOERMEL.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/theater/LE_PARDON_DE_PLOERMEL.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Nice, 1875-02-28 and again."
+ },
+ {
+  "wid": "W169",
+  "title": "La Vestale",
+  "marie_forms": [
+   "La Vestale",
+   "Vestale"
+  ],
+  "creator": "Gaspare Spontini",
+  "year": "1807",
+  "type": "opera",
+  "mentions": [
+   "052.0401",
+   "058.0096"
+  ],
+  "mention_files": {
+   "052.0401": {
+    "file": "052/1876-01-23.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "places/theaters/APOLLO.md"
+    ]
+   },
+   "058.0096": {
+    "file": "058/1876-04-16.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "places/cities/ROME.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Rome, Teatro Apollo 1876-01-23. | 058.0096 (footnote): Rome performance where a cat was thrown on stage; other 'vestale' hits in 055.0778/063.0007/068.0958 are generic."
+ },
+ {
+  "wid": "W170",
+  "title": "Dolorès (new opera)",
+  "marie_forms": [
+   "Dolorès"
+  ],
+  "creator": "unidentified young maestro, promoted by the singer Gaietti",
+  "year": "1876",
+  "type": "opera",
+  "mentions": [
+   "053.0124",
+   "053.0214"
+  ],
+  "mention_files": {
+   "053.0124": {
+    "file": "053/1876-01-27.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/THEATER_THEME.md"
+    ]
+   },
+   "053.0214": {
+    "file": "053/1876-01-30.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "053.0124/0214 premiere at Rome Jan-Feb 1876; composer and work not identified. Marie writes only 'Dolorès'."
+ },
+ {
+  "wid": "W185",
+  "title": "Le long de notre petite mère la Volga (Вниз по матушке по Волге)",
+  "marie_forms": [
+   "Le long de notre petite mère"
+  ],
+  "creator": "Russian folk song",
+  "year": "trad.",
+  "type": "song",
+  "mentions": [
+   "034.0021",
+   "034.0114"
+  ],
+  "mention_files": {
+   "034.0021": {
+    "file": "034/1875-06-07.md",
+    "tags": [
+     "culture/themes/MUSIC_THEME.md",
+     "people/mentioned/YOURKOFF.md",
+     "places/landmarks/VOLGA.md"
+    ]
+   },
+   "034.0114": {
+    "file": "034/1875-06-09.md",
+    "tags": [
+     "people/recurring/EMILE_D_AUDIFFRET.md",
+     "people/family/MA_TANTE.md",
+     "culture/music/DORMI_PURE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "034.0021, 034.0114."
+ },
+ {
+  "wid": "W186",
+  "title": "Le Rossignol che vola (Niçois/Italian song)",
+  "marie_forms": [
+   "Rossignol che vola",
+   "rossignol che vola"
+  ],
+  "creator": "trad.",
+  "year": "?",
+  "type": "song",
+  "mentions": [
+   "047.0064",
+   "047.0151"
+  ],
+  "mention_files": {
+   "047.0064": {
+    "file": "047/1875-10-15.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/languages/ITALIAN.md",
+     "people/recurring/EMILE_D_AUDIFFRET.md",
+     "culture/themes/MUSIC_THEME.md",
+     "people/family/MA_TANTE.md",
+     "places/cities/NICE.md"
+    ]
+   },
+   "047.0151": {
+    "file": "047/1875-10-18.md",
+    "tags": [
+     "culture/languages/ITALIAN.md",
+     "people/recurring/EMILE_D_AUDIFFRET.md",
+     "people/recurring/GIOIA.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "047.0064, 0151; nickname for Audiffret."
+ },
+ {
+  "wid": "W187",
+  "title": "Chansons niçoises",
+  "marie_forms": [
+   "chansons niçoises"
+  ],
+  "creator": "trad.",
+  "year": "-",
+  "type": "song",
+  "mentions": [
+   "034.0556",
+   "042.0043"
+  ],
+  "mention_files": {
+   "034.0556": {
+    "file": "034/1875-06-24.md",
+    "tags": [
+     "culture/themes/AMBITION.md",
+     "people/mentioned/LOUIS_XIV.md",
+     "people/royalty/LOUIS_II_OF_BAVARIA.md"
+    ]
+   },
+   "042.0043": {
+    "file": "042/1875-09-09.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/EMOTIONS.md",
+     "places/cities/NICE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "034.0556, 042.0043."
+ },
+ {
+  "wid": "W195",
+  "title": "Poliuto",
+  "marie_forms": [
+   "Poliuto"
+  ],
+  "creator": "Gaetano Donizetti",
+  "year": "1848",
+  "type": "opera",
+  "mentions": [
+   "068.0586",
+   "076.0018"
+  ],
+  "mention_files": {
+   "068.0586": {
+    "file": "068/1877-01-10.md",
+    "tags": [
+     "people/mentioned/POLIUTO.md",
+     "culture/themes/THEATER_THEME.md"
+    ]
+   },
+   "076.0018": {
+    "file": "076/1877-11-03.md",
+    "tags": [
+     "people/mentioned/POLIUTO.md",
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/mentioned/BLANC.md",
+     "places/theaters/THEATRE_DES_ITALIENS.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/POLIUTO.md",
+  "glossary_hits": [
+   "people/mentioned/POLIUTO.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Nice 068.0586 (footnote); Théâtre-Italien Paris 076.0018. [Existing entry category: people/mentioned; tag count is repo-wide, all carnets] [auto-stub filed under people/mentioned; should be recategorised]"
+ }
+]

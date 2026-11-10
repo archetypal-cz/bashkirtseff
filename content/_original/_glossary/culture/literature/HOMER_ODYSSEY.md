@@ -11,12 +11,16 @@ category: culture/literature
 languages:
 - el
 research_status: Moderate
-last_updated: 2026-10-10
+last_updated: 2026-11-10
 full_text:
 - url: https://fr.wikisource.org/wiki/L%E2%80%99Odyss%C3%A9e
   label: L’Odyssée — French translations (Bareste 1842, Leconte de Lisle 1893, …)
   source: Wikisource
   language: fr
+- url: https://www.gutenberg.org/ebooks/1727
+  label: The Odyssey, translated by Samuel Butler (English prose)
+  source: Project Gutenberg
+  language: en
 - url: https://el.wikisource.org/wiki/%CE%9F%CE%B4%CF%8D%CF%83%CF%83%CE%B5%CE%B9%CE%B1
   label: Ὀδύσσεια (Greek text)
   source: Wikisource
@@ -49,6 +53,10 @@ In 082.0442 (1878-09-23) she lists Homer among the Greeks: "Homère, je le conna
 %% [#Homere](../../people/mentioned/HOMERE.md) [#Nausicaa](../art/DOULEUR_DE_NAUSICAA.md) %%
 22-28 March 1883 (098.0554-0555, 098.0594, 098.0609): while modelling her *Douleur de Nausicaa* she retells the parting of Nausicaa and Odysseus (Odyssey VI-VIII) and, on 22 March, sides with Ouida, who "voudrait étrangler la vieille Pénélope et marier Ulysse avec cette idéale jeune fille appuyée à la colonne de marbre rose du palais de son père". The line is from Ouida's novel *Ariadnê* (1877), vol. 1, ch. X, p. 265: "For me, I always wish, sinfully perhaps, to strangle Penelope in her own web, and wed Ulysses to the sweet Phaeacian maid" (see [Ariadnê](ARIADNE_OUIDA.md)). On 27 March she goes back to the poem itself: "Mais je viens de chercher dans l'Odyssée, Homère ne donne pas la scène que j'ai imaginée", though Ulysses's speech of praise on meeting Nausicaa "a dû inévitablement monter à la tête de celle-ci"; on 28 March "J'en reviens à Homère."
 
+%% GLO_HOMER_ODYSSEY.0014 %%
+%% [#Homere](../../people/mentioned/HOMERE.md) [#Reading](../themes/READING.md) %%
+September 1874, returning from England to France (023.0676, in the entry filed under 16 September, whose heading reads Sunday 13 September): "Pour ne pas regarder la France si laide après l'Angleterre je lis l'Odyssée et y trouve un passage qui me fait rire, lorsque Vulcain a pris dans un filet Mars et Vénus et que tous les dieux accourent et rient." This is the song of Demodocus in Book VIII, where Hephaestus (Vulcan) traps Ares and Aphrodite (Mars and Venus) in a net and the gods gather to laugh. Later that week: "Le soir je lis l'Odyssée" (024.0025, 18 September 1874). This is the earliest reading of the poem in the diary, seven months before the quarrel of April 1875.
+
 %% GLO_HOMER_ODYSSEY.0006 %%
 ## Identification note
 
@@ -59,6 +67,7 @@ Which translation Marie read is not recorded. The Wikisource page for the French
 ## References in Diary
 
 %% GLO_HOMER_ODYSSEY.0009 %%
+- 023.0676 (1874-09-16), 024.0025 (1874-09-18)
 - 031.0142, 031.0143 (1875-04-09)
 - 082.0442 (1878-09-23, Homer in general)
 - 087.0471 (1880-02-12, a Greek Homer)

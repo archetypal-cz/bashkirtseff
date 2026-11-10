@@ -9,7 +9,7 @@ aliases:
 type: Culture
 category: culture/theater
 research_status: Moderate
-last_updated: 2026-10-10
+last_updated: 2026-11-10
 languages:
   - fr
 pronunciation: "https://translate.google.com/?sl=fr&tl=en&text=Barbe-bleue"
@@ -36,8 +36,9 @@ full_text:
 
 ## Marie and this work
 
-Marie never describes the piece; she mentions it three times, always in passing.
+Marie never describes the piece; she mentions it four times, always in passing.
 
+- **1874-11-21 (026.0023):** at Nice she dresses in white and silver for *Les Brigands* ([Les Brigands](LES_BRIGANDS.md)), but "par indisposition de je ne sais quel diable c'est «Barbe Bleue»"; she is taken home at once, undresses and sits down to write. This is the one time the diary shows *Barbe-bleue* replacing the announced piece.
 - **1875-11-05 (048.0592):** "On donne «Barbe bleue», il est au théâtre." Audiffret goes to the theatre; Marie stays at home, absorbed in card-reading and prayer. The work is not named beyond the title; Offenbach's operetta is the obvious candidate (identification by the researcher, not stated by Marie).
 - **1876-11-08 (067.0894):** her father comes to sing "des airs de Barbe-Bleue" while she plays the piano; she turns to the "Lettre de Vénus" from *La Belle Hélène* instead and remarks that *La Belle Hélène* is delightful, from the time when Offenbach "commençait" and had not yet cheapened himself with "opérettes à deux sous".
 - **1881-05-05 (091.0564):** "je n'aime pas l'opérette ... tout ce qu'on a fait depuis «Barbe Bleue, la Belle Hélène, Orphée, Giroflé-Girofla» est insipide." Here the title heads her list of the operettas she accepts as classics of her childhood (see the footnote in 091: *Giroflé-Girofla* is by Lecocq, not Offenbach, and dates from 1874).

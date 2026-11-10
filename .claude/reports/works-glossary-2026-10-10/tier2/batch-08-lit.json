@@ -1,0 +1,483 @@
+[
+ {
+  "wid": "W234",
+  "title": "Valentine",
+  "marie_forms": [
+   "\"Valentine\""
+  ],
+  "creator": "George Sand",
+  "year": "1832",
+  "type": "novel",
+  "mentions": [
+   "090.0079",
+   "090.0082"
+  ],
+  "mention_files": {
+   "090.0079": {
+    "file": "090/1880-10-09.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/BALZAC.md",
+     "culture/literature/ALEXANDRE_DUMAS.md",
+     "people/mentioned/VICTOR_HUGO.md",
+     "culture/themes/READING.md",
+     "culture/literature/GEORGE_SAND.md",
+     "culture/literature/EMILE_ZOLA.md",
+     "culture/literature/ALPHONSE_DAUDET.md",
+     "people/mentioned/MUSSET.md",
+     "people/mentioned/ALEXANDRE_DUMAS_FILS.md"
+    ]
+   },
+   "090.0082": {
+    "file": "090/1880-10-09.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/READING.md",
+     "culture/literature/GEORGE_SAND.md",
+     "culture/theater/LE_MARQUIS_DE_VILLEMER.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "people/mentioned/VALENTINE.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Same passage mentions 'Bénédict' (Sand, 1837) and 'Le Dernier Amour' (1866)."
+ },
+ {
+  "wid": "W235",
+  "title": "Flamarande",
+  "marie_forms": [
+   "\"Flamarande\""
+  ],
+  "creator": "George Sand",
+  "year": "1875",
+  "type": "novel",
+  "mentions": [
+   "090.0519",
+   "090.0524"
+  ],
+  "mention_files": {
+   "090.0519": {
+    "file": "090/1881-01-02.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/literature/GEORGE_SAND.md",
+     "culture/literature/FLAMARANDE.md"
+    ]
+   },
+   "090.0524": {
+    "file": "090/1881-01-02.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/themes/EMOTIONS.md",
+     "people/recurring/CASSAGNAC.md",
+     "culture/literature/FLAMARANDE.md",
+     "culture/literature/GEORGE_SAND.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/literature/FLAMARANDE.md"
+  ],
+  "public_domain_likely": true,
+  "notes": ""
+ },
+ {
+  "wid": "W236",
+  "title": "Honorine",
+  "marie_forms": [
+   "\"Honorine\""
+  ],
+  "creator": "Honoré de Balzac",
+  "year": "1843",
+  "type": "novel",
+  "mentions": [
+   "097.0191",
+   "097.0221"
+  ],
+  "mention_files": {
+   "097.0191": {
+    "file": "097/1882-12-05.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/META_DIARY.md",
+     "culture/themes/AMBITION.md",
+     "culture/themes/READING.md"
+    ]
+   },
+   "097.0221": {
+    "file": "097/1882-12-09.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/themes/LOVE.md",
+     "culture/themes/EMOTIONS.md",
+     "culture/literature/BALZAC.md",
+     "places/cities/PARIS.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/culture/theater/HONORINE.md",
+  "glossary_hits": [
+   "culture/theater/HONORINE.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Existing glossary file is under culture/theater - check it covers the novella. [tag count in carnets 081-106: 0]"
+ },
+ {
+  "wid": "W237",
+  "title": "Modeste Mignon",
+  "marie_forms": [
+   "Modeste Mignon",
+   "la modeste Mignon"
+  ],
+  "creator": "Honoré de Balzac",
+  "year": "1844",
+  "type": "novel",
+  "mentions": [
+   "097.0220",
+   "100.0255"
+  ],
+  "mention_files": {
+   "097.0220": {
+    "file": "097/1882-12-09.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/literature/MODESTE_MIGNON_BALZAC.md",
+     "culture/literature/BALZAC.md"
+    ]
+   },
+   "100.0255": {
+    "file": "100/1883-06-28.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/literature/MODESTE_MIGNON_BALZAC.md",
+     "culture/literature/BALZAC.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/literature/MODESTE_MIGNON_BALZAC.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Do not confuse with the opera Mignon."
+ },
+ {
+  "wid": "W238",
+  "title": "Madame Bovary",
+  "marie_forms": [
+   "\"Mme Bovary\""
+  ],
+  "creator": "Gustave Flaubert",
+  "year": "1857",
+  "type": "novel",
+  "mentions": [
+   "089.0156",
+   "103.0566"
+  ],
+  "mention_files": {
+   "089.0156": {
+    "file": "089/1880-07-14.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/literature/FLAUBERT.md"
+    ]
+   },
+   "103.0566": {
+    "file": "103/1884-03-24.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/READING.md",
+     "culture/themes/EMOTIONS.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": ""
+ },
+ {
+  "wid": "W239",
+  "title": "L'Assommoir (roman)",
+  "marie_forms": [
+   "\"l'Assommoir\""
+  ],
+  "creator": "Émile Zola",
+  "year": "1877",
+  "type": "novel",
+  "mentions": [
+   "086.0660",
+   "091.0056"
+  ],
+  "mention_files": {
+   "086.0660": {
+    "file": "086/1879-12-14.md",
+    "tags": [
+     "people/recurring/BERTHE.md",
+     "people/recurring/ARNAUD_DE_L_ARIEGE.md",
+     "culture/literature/L_ASSOMMOIR.md"
+    ]
+   },
+   "091.0056": {
+    "file": "091/1881-02-03.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "people/writers/ZOLA.md",
+     "culture/themes/READING.md",
+     "culture/literature/L_ASSOMMOIR.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Finished Feb 1881; she had a copy bound (086.0660)."
+ },
+ {
+  "wid": "W240",
+  "title": "Son Excellence Eugène Rougon",
+  "marie_forms": [
+   "\"Eugène Rougon\""
+  ],
+  "creator": "Émile Zola",
+  "year": "1876",
+  "type": "novel",
+  "mentions": [
+   "086.0534",
+   "086.0559"
+  ],
+  "mention_files": {
+   "086.0534": {
+    "file": "086/1879-11-15.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/mentioned/GAVINI.md",
+     "people/mentioned/M_DE_MORGAN.md",
+     "people/mentioned/CHAUDORDY.md",
+     "people/recurring/BOJIDAR.md",
+     "people/recurring/BERTHE.md",
+     "people/writers/EMILE_DE_GIRARDIN.md",
+     "people/mentioned/EUGENE_ROUGON.md",
+     "people/writers/ZOLA.md",
+     "people/mentioned/CHARLES_GERY.md",
+     "culture/themes/READING.md",
+     "culture/themes/POLITICS.md",
+     "culture/themes/SOCIETY.md",
+     "people/mentioned/PRINCESS_KARAGEORGEVITCH.md"
+    ]
+   },
+   "086.0559": {
+    "file": "086/1879-11-21.md",
+    "tags": [
+     "culture/themes/SOCIETY.md",
+     "culture/themes/READING.md",
+     "people/mentioned/OELSNITZ.md",
+     "people/recurring/ARNAUD_DE_L_ARIEGE.md",
+     "culture/theater/COQUELIN.md",
+     "people/politicians/GAMBETTA.md",
+     "people/writers/ZOLA.md",
+     "people/mentioned/EUGENE_ROUGON.md",
+     "people/mentioned/REPUBLIQUE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": ""
+ },
+ {
+  "wid": "W241",
+  "title": "Les Rois en exil",
+  "marie_forms": [
+   "\"Les rois en exil\""
+  ],
+  "creator": "Alphonse Daudet",
+  "year": "1879",
+  "type": "novel",
+  "mentions": [
+   "096.0038",
+   "096.0039"
+  ],
+  "mention_files": {
+   "096.0038": {
+    "file": "096/1882-08-08.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/READING.md",
+     "culture/themes/MARRIAGE.md",
+     "people/family/MA_TANTE.md",
+     "people/artists/ROBERT_FLEURY.md",
+     "culture/literature/ALPHONSE_DAUDET.md"
+    ]
+   },
+   "096.0039": {
+    "file": "096/1882-08-08.md",
+    "tags": [
+     "culture/themes/LOVE.md",
+     "culture/themes/READING.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/culture/literature/ALPHONSE_DAUDET.md",
+  "glossary_hits": [
+   "culture/literature/ALPHONSE_DAUDET.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Existing file is the author. [tag count in carnets 081-106: 3]"
+ },
+ {
+  "wid": "W242",
+  "title": "De l'amour",
+  "marie_forms": [
+   "\"L'amour\" de Stendhal"
+  ],
+  "creator": "Stendhal",
+  "year": "1822",
+  "type": "book",
+  "mentions": [
+   "100.0330",
+   "102.0408"
+  ],
+  "mention_files": {
+   "100.0330": {
+    "file": "100/1883-07-14.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/themes/FOURTH_WALL.md",
+     "people/mentioned/STENDHAL.md"
+    ]
+   },
+   "102.0408": {
+    "file": "102/1883-12-02.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/themes/LOVE.md",
+     "people/mentioned/STENDHAL.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Marie reads it June 1883 and uses 'cristallisation'; also 101.0018, 101.0051, 101.0071, 101.0333, 102.0055."
+ },
+ {
+  "wid": "W243",
+  "title": "Les Douze Césars",
+  "marie_forms": [
+   "Suétone"
+  ],
+  "creator": "Suetonius",
+  "year": null,
+  "type": "book",
+  "mentions": [
+   "102.0345",
+   "102.0346"
+  ],
+  "mention_files": {
+   "102.0345": {
+    "file": "102/1883-11-28.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "people/writers/PLUTARQUE.md",
+     "culture/art/MEURTRE_DE_CESAR.md",
+     "culture/literature/PARALLEL_LIVES.md"
+    ]
+   },
+   "102.0346": {
+    "file": "102/1883-11-28.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "culture/art/MEURTRE_DE_CESAR.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Death of Caesar read in Suetonius and Plutarch (Nov 1883)."
+ },
+ {
+  "wid": "W244",
+  "title": "La Bible",
+  "marie_forms": [
+   "la Bible"
+  ],
+  "creator": "(Bible)",
+  "year": null,
+  "type": "other",
+  "mentions": [
+   "103.0388",
+   "103.0399"
+  ],
+  "mention_files": {
+   "103.0388": {
+    "file": "103/1884-02-23.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/RELIGION.md",
+     "culture/literature/BIBLE.md"
+    ]
+   },
+   "103.0399": {
+    "file": "103/1884-02-24.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/READING.md",
+     "people/mentioned/RENAN.md",
+     "culture/literature/BIBLE.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/BIBLE.md",
+  "glossary_hits": [
+   "people/mentioned/BIBLE.md (MISSING)"
+  ],
+  "public_domain_likely": true,
+  "notes": "Marie 'had never read' it before Renan (Mar 1884). [tag count in carnets 081-106: 0]"
+ },
+ {
+  "wid": "W245",
+  "title": "Roman de Tourgueniev (non nommé)",
+  "marie_forms": [
+   "un roman de notre illustre Tourguenieff"
+  ],
+  "creator": "Ivan Turgenev",
+  "year": null,
+  "type": "novel",
+  "mentions": [
+   "101.0509",
+   "101.0539"
+  ],
+  "mention_files": {
+   "101.0509": {
+    "file": "101/1883-10-06.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/READING.md",
+     "people/mentioned/TOURGUENIEFF.md"
+    ]
+   },
+   "101.0539": {
+    "file": "101/1883-10-07.md",
+    "tags": [
+     "culture/themes/LOVE.md",
+     "people/mentioned/TOURGUENIEFF.md",
+     "people/recurring/BASTIEN_LEPAGE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Read in one sitting in French, Sept 1883 (just after Turgenev's funeral, 101.0470); title not given."
+ }
+]

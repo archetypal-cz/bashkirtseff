@@ -1,0 +1,383 @@
+[
+ {
+  "wid": "W164",
+  "title": "Marine paintings exhibited in Nice (Aivazovsky)",
+  "marie_forms": [
+   "Aïvazowsky"
+  ],
+  "creator": "Ivan Aivazovsky",
+  "year": "1873-74",
+  "type": "painting",
+  "mentions": [
+   "017.0090",
+   "018.0244"
+  ],
+  "mention_files": {
+   "017.0090": {
+    "file": "017/1874-03-01.md",
+    "tags": [
+     "people/mentioned/AIVAZOVSKY.md",
+     "culture/themes/ART_WORLD.md",
+     "places/social/HOTEL_CHAUVAIN.md"
+    ]
+   },
+   "018.0244": {
+    "file": "018/1874-04-12.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/history/AIVAZOWSKY.md",
+     "places/cities/NICE.md",
+     "culture/themes/WEATHER.md",
+     "culture/themes/NATURE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/history/AIVAZOWSKY.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "017.0090 Hôtel Chauvain exhibition; glossary culture/history/AIVAZOWSKY.md for the artist"
+ },
+ {
+  "wid": "W188",
+  "title": "Mary Magdalene (Pitti)",
+  "marie_forms": [
+   "Madeleine du Titien"
+  ],
+  "creator": "Titian",
+  "year": "c.1533",
+  "type": "painting",
+  "mentions": [
+   "043.0164",
+   "053.0378"
+  ],
+  "mention_files": {
+   "043.0164": {
+    "file": "043/1875-09-14.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/ART_WORLD.md",
+     "people/artists/TITIAN.md"
+    ]
+   },
+   "053.0378": {
+    "file": "053/1876-02-04.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/ART_WORLD.md",
+     "people/mentioned/VELASQUEZ.md",
+     "people/recurring/SAETONE.md",
+     "people/mentioned/ROBENSON.md",
+     "people/artists/TITIAN.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "043.0164 Pitti; again Doria in Rome (053.0378). Possibly two different versions."
+ },
+ {
+  "wid": "W189",
+  "title": "Venus de' Medici",
+  "marie_forms": [
+   "Venere Medicea",
+   "Vénus de Médicis"
+  ],
+  "creator": "Greek (copy), Uffizi",
+  "year": "1st c. BC",
+  "type": "sculpture",
+  "mentions": [
+   "043.0191",
+   "043.0200"
+  ],
+  "mention_files": {
+   "043.0191": {
+    "file": "043/1875-09-15.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/languages/ITALIAN.md",
+     "culture/themes/ART_WORLD.md",
+     "culture/art/VENUS_DE_MILO.md"
+    ]
+   },
+   "043.0200": {
+    "file": "043/1875-09-15.md",
+    "tags": [
+     "culture/themes/APPEARANCE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "043.0191, 043.0200: disappointed in the Venus de Milo comparison, later proud."
+ },
+ {
+  "wid": "W214",
+  "title": "Samson Fountain (Peterhof)",
+  "marie_forms": [
+   "Samson"
+  ],
+  "creator": "Mikhail Kozlovsky (original; current copy 1947)",
+  "year": "1802",
+  "type": "sculpture",
+  "mentions": [
+   "064.0473",
+   "064.0475"
+  ],
+  "mention_files": {
+   "064.0473": {
+    "file": "064/1876-08-09.md",
+    "tags": [
+     "places/cities/PETERHOF.md"
+    ]
+   },
+   "064.0475": {
+    "file": "064/1876-08-09.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/POLITICS.md",
+     "places/cities/PETERHOF.md",
+     "people/historical/PETER_THE_GREAT.md",
+     "people/historical/CATHERINE_THE_GREAT.md",
+     "people/royalty/ALEXANDER_II.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "064.0473, 064.0475."
+ },
+ {
+  "wid": "W215",
+  "title": "Gretchen (Gabriel von Max)",
+  "marie_forms": [
+   "Gretchen de Max",
+   "gretchen de Marx"
+  ],
+  "creator": "Gabriel von Max",
+  "year": "1860s?",
+  "type": "painting",
+  "mentions": [
+   "074.0370",
+   "075.0305"
+  ],
+  "mention_files": {
+   "074.0370": {
+    "file": "074/1877-09-17.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/READING.md",
+     "people/mentioned/GOETHE.md",
+     "culture/themes/ART_WORLD.md",
+     "culture/themes/FOURTH_WALL.md",
+     "culture/theater/FAUST_GOETHE.md",
+     "culture/art/GRETCHEN_VON_MAX.md"
+    ]
+   },
+   "075.0305": {
+    "file": "075/1877-10-14.md",
+    "tags": [
+     "culture/themes/MUSIC_THEME.md",
+     "culture/theater/AIDA_VERDI.md",
+     "culture/theater/FAUST_GOETHE.md",
+     "culture/art/GRETCHEN_VON_MAX.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/GRETCHEN.md",
+  "glossary_hits": [
+   "culture/art/GRETCHEN_VON_MAX.md",
+   "people/mentioned/GRETCHEN.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "074.0370 (Cologne?), 075.0305 'la Gretchen de Max'. Painter spelled 'Marx'/'Max' by Marie. [Existing entry category: people/mentioned; tag count is repo-wide, all carnets] [auto-stub filed under people/mentioned; should be recategorised]"
+ },
+ {
+  "wid": "W216",
+  "title": "Beatrice Cenci (portrait attributed to Guido Reni)",
+  "marie_forms": [
+   "Béatrice Cenci"
+  ],
+  "creator": "Guido Reni (attrib.)",
+  "year": "c.1600",
+  "type": "painting",
+  "mentions": [
+   "057.0214",
+   "059.0849"
+  ],
+  "mention_files": {
+   "057.0214": {
+    "file": "057/1876-04-13.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/APPEARANCE.md",
+     "culture/themes/FASHION.md",
+     "people/mentioned/ANTONELLI.md"
+    ]
+   },
+   "059.0849": {
+    "file": "059/1876-05-06.md",
+    "tags": []
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "059.0235 (Marie 'en Béatrice Cenci'); also 053.* (out of range)."
+ },
+ {
+  "wid": "W246",
+  "title": "Le Mendiant",
+  "marie_forms": [
+   "le mendiant de Bastien-Lepage"
+  ],
+  "creator": "Jules Bastien-Lepage",
+  "year": "1881",
+  "type": "painting",
+  "mentions": [
+   "091.0548",
+   "099.0228"
+  ],
+  "mention_files": {
+   "091.0548": {
+    "file": "091/1881-05-01.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/ART_WORLD.md",
+     "people/recurring/BASTIEN_LEPAGE.md",
+     "people/artists/LOUISE_BRESLAU.md",
+     "people/writers/WOLFF.md"
+    ]
+   },
+   "099.0228": {
+    "file": "099/1883-04-27.md",
+    "tags": [
+     "culture/themes/ART_WORLD.md",
+     "culture/art/SAISON_D_OCTOBRE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Salon 1881 (footnote 091.0548); 099.0228 'les pommes de terre et le mendiant'."
+ },
+ {
+  "wid": "W247",
+  "title": "Petits paysages de nuit (Cazin)",
+  "marie_forms": [
+   "ce tout petit tableau de nuit bleue avec une barque se détachant en noir"
+  ],
+  "creator": "Jean-Charles Cazin",
+  "year": null,
+  "type": "painting",
+  "mentions": [
+   "098.0189",
+   "103.0240"
+  ],
+  "mention_files": {
+   "098.0189": {
+    "file": "098/1883-01-27.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/ART_WORLD.md",
+     "people/recurring/BASTIEN_LEPAGE.md",
+     "people/artists/CAZIN.md"
+    ]
+   },
+   "103.0240": {
+    "file": "103/1884-02-02.md",
+    "tags": [
+     "culture/themes/ART_WORLD.md",
+     "people/artists/CAZIN.md",
+     "places/cities/NICE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Titles not given. Cazin is also at 097.0322, 100.0165."
+ },
+ {
+  "wid": "W248",
+  "title": "Phèdre (Cabanel)",
+  "marie_forms": [
+   "le Phèdre ... de Cabanel"
+  ],
+  "creator": "Alexandre Cabanel",
+  "year": "1880",
+  "type": "painting",
+  "mentions": [
+   "103.0046",
+   "103.0178"
+  ],
+  "mention_files": {
+   "103.0046": {
+    "file": "103/1884-01-16.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/ART_WORLD.md",
+     "people/artists/CABANEL.md",
+     "people/artists/BOUGUEREAU.md",
+     "culture/literature/COROT.md",
+     "people/artists/LEFEBVRE.md",
+     "people/mentioned/MILLET.md",
+     "people/artists/ROUSSEAU_PAINTER.md"
+    ]
+   },
+   "103.0178": {
+    "file": "103/1884-01-29.md",
+    "tags": [
+     "culture/themes/ART_WORLD.md",
+     "people/mentioned/MUNKACSY.md",
+     "places/travel/FRANCE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "'le succès aille au Phèdre et au Aurore de Cabanel, Bouguereau, Lefèbvre'. 'Aurore' possibly by Lefebvre/Bouguereau; verify."
+ },
+ {
+  "wid": "W249",
+  "title": "Peinture de Bouguereau « volant » Raphaël",
+  "marie_forms": [
+   "un vol audacieux fait par Bouguereau, au préjudice de Raphaël"
+  ],
+  "creator": "William Bouguereau",
+  "year": "c.1883",
+  "type": "painting",
+  "mentions": [
+   "103.0067",
+   "103.0069"
+  ],
+  "mention_files": {
+   "103.0067": {
+    "file": "103/1884-01-18.md",
+    "tags": [
+     "culture/themes/ART_WORLD.md",
+     "people/artists/BOUGUEREAU.md",
+     "people/artists/RAPHAEL.md"
+    ]
+   },
+   "103.0069": {
+    "file": "103/1884-01-18.md",
+    "tags": [
+     "culture/themes/ART_WORLD.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Unspecified Madonna by Bouguereau; Marie accuses him of copying Raphael's composition (Jan 1884)."
+ }
+]

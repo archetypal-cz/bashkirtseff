@@ -23,10 +23,14 @@ aliases:
   - j'ai appris l'italien dans le Dante
   - la langue de Dante
   - un damné de Dante
+  - comme dit Dante
+  - comme dit le Dante
+  - Ed ha natura
+  - lauza leggierci
 type: Culture
 category: culture/literature
 research_status: Moderate
-last_updated: 2026-10-10
+last_updated: 2026-11-10
 languages:
   - it
 pronunciation: "https://translate.google.com/?sl=it&tl=en&text=Divina%20Commedia"
@@ -59,6 +63,9 @@ Marie owned it in more than one form: a "tout petit Dante" travelled with her in
 
 %% GLO_LA_DIVINE_COMEDIE.0005 %%
 **1873-1874: first allusions.** On 2 June 1873, a free evening at the salon piano, "J'ai récité un chant de Dante" for the family (005.0143; the canto is not named). On 19 June 1873, waiting for the carriage that is to fetch her paintings, she has been "comme les sospesi de Dante" for a week (006.0027): the souls of Limbo, *Inferno* II.52, "Io era tra color che son sospesi". On 8 May 1874, weeping and grumbling over the family's travel preparations, she writes "Ora incomincian le dolenti note a tarmisi sentire" (019.0146), *Inferno* V.25-26 ("Or incomincian le dolenti note / a farmisi sentire"), in a corrupted form.
+
+%% GLO_LA_DIVINE_COMEDIE.0017 %%
+**1875: two quotations from *Inferno* I.** On 16 September 1875, leaving Florence, Marie writes a garbled line about "cette lauza leggierci a pusta molto, che di [illisible] maculato era coperta, comme dit le Dante au long nez pendant" (043.0210). It is *Inferno* I.31-33, "Ed ecco, quasi al cominciar de l'erta, / una lonza leggera e presta molto, / che di pel macolato era coverta": the nimble spotted leopard that is the first beast to bar Dante's way (it.wikisource, *Divina Commedia/Inferno/Canto I*). Why the leopard stands for Florence is not stated; the next paragraph begins "Voilà encore un laid !". Her "au long nez pendant" is a joke on the profile of Dante's portraits. On 22 December 1875 in Nice, after imagining how jealous she would be if she saw Audiffret with Mlle de Gonzalès-Moreno, she cites "Ed ha natura sì malvaggia e ria" "comme dit Dante" (050.1150). This is *Inferno* I.97, Virgil's words about the she-wolf of avarice, "e ha natura sì malvagia e ria, / che mai non empie la bramosa voglia" (it.wikisource, same canto); Marie applies it to jealousy.
 
 %% GLO_LA_DIVINE_COMEDIE.0006 %%
 **1876: Dante as a companion.** She packs "Dante, Ariosto, Shakespeare" for the journey to Russia (062.0852, 3 July 1876), and a first allusion is the "robe de Béatrice" with a bare neck she praises on 26 June 1876 (062.0714). On 17 October 1876 (067.0134) a cousin's "ideally vast thoughts" are such that "Dante could have borrowed from him his divine love for Beatrice", and on 25 October (067.0314) she writes: "J'adore ma mère et la Divine comédie de Dante." In Poltava station she scolds her maid in "la langue de Dante" for the crowd's amusement (067.0986, 15 November 1876).

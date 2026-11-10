@@ -29,7 +29,6 @@ last_updated: 2026-09-07
 - **May 1883** (099.0308): reviewing the Salon painter by painter, she dismisses him in two words: "Sargent est médiocre."
 
 %% GLO_JOHN_SINGER_SARGENT.0006 %%
-%% [#Portrait_de_Mme_X](../../culture/art/PORTRAIT_MME_X.md) %%
 - **May–June 1884** (104.0070, 104.0542): the portrait of Mme Gautreau, the future *Madame X*, is the succès de curiosité of the Salon and generally found atrocious. Marie disagrees: for her it is perfect, masterly, true painting; Sargent simply painted what he saw, and the sitter's heavy make-up is what looks horrible in daylight. A month later she still lists it among the few good things in the show, "tant décrié et pourtant très bon".
 
 %% GLO_JOHN_SINGER_SARGENT.0007 %%
@@ -37,5 +36,5 @@ last_updated: 2026-09-07
 
 %% GLO_JOHN_SINGER_SARGENT.0008 %%
 - [#Carolus_Duran](./CAROLUS_DURAN.md) — his teacher, whom Marie also studied under
-- [#Portrait_de_Mme_X](../../culture/art/PORTRAIT_MME_X.md) — the 1884 Gautreau portrait
+- *Madame X* (Portrait of Madame Pierre Gautreau, 1883–84, Metropolitan Museum of Art) has no entry of its own; Marie's pastel [Portrait de Mme X](../../culture/art/PORTRAIT_MME_X.md) is a different work.
 - [#Salon](../../culture/art/SALON.md) — where Marie saw his work

@@ -1,0 +1,560 @@
+[
+ {
+  "wid": "W211",
+  "title": "Judith (Ristori)",
+  "marie_forms": [
+   "Judith"
+  ],
+  "creator": "Adelaide Ristori (Giacometti's Giuditta, probably)",
+  "year": "1857",
+  "type": "play",
+  "mentions": [
+   "056.0424",
+   "056.0425"
+  ],
+  "mention_files": {
+   "056.0424": {
+    "file": "056/1876-04-05.md",
+    "tags": [
+     "culture/themes/HEALTH.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/family/MAMAN.md",
+     "places/villas/VILLA_BORGHESE.md",
+     "people/artists/ADELAIDE_RISTORI.md"
+    ]
+   },
+   "056.0425": {
+    "file": "056/1876-04-05.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "people/artists/ADELAIDE_RISTORI.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "056.0424-0425. Marie writes 'La célèbre Ristori jouait Judith'; author not named."
+ },
+ {
+  "wid": "W212",
+  "title": "Marie Stuart (Ristori at the Apollo)",
+  "marie_forms": [
+   "Marie Stuart"
+  ],
+  "creator": "Schiller (Ristori's Maria Stuarda)",
+  "year": "1800",
+  "type": "play",
+  "mentions": [
+   "059.0244",
+   "068.0408"
+  ],
+  "mention_files": {
+   "059.0244": {
+    "file": "059/1876-04-24.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/LOVE.md",
+     "people/mentioned/ANTONELLI.md",
+     "people/family/MAMAN.md",
+     "places/cities/CORSO.md",
+     "places/theaters/APOLLO.md",
+     "people/artists/ADELAIDE_RISTORI.md"
+    ]
+   },
+   "068.0408": {
+    "file": "068/1877-01-05.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/aristocracy/MME_ANITCHKOFF.md",
+     "people/recurring/ANITCHKOFF.md",
+     "people/mentioned/COLLIGNON.md",
+     "people/recurring/WALITSKY.md",
+     "people/core/DINA.md",
+     "culture/theater/AIDA_VERDI.md",
+     "culture/themes/FASHION.md",
+     "people/mentioned/BIHOVETZ.md",
+     "people/family/MA_TANTE.md",
+     "people/family/MAMAN.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "059.0244; other 'Marie Stuart' hits may be the queen (052.0321 bonnet)."
+ },
+ {
+  "wid": "W213",
+  "title": "Les Horaces (Agar, Nice)",
+  "marie_forms": [
+   "Horaces"
+  ],
+  "creator": "Pierre Corneille",
+  "year": "1640",
+  "type": "play",
+  "mentions": [
+   "068.0915",
+   "073.0154"
+  ],
+  "mention_files": {
+   "068.0915": {
+    "file": "068/1877-02-01.md",
+    "tags": [
+     "places/social/FRENCH_THEATER_NICE.md",
+     "people/artists/AGAR.md",
+     "people/mentioned/HORACES.md",
+     "people/writers/TITE_LIVE.md",
+     "places/cities/ROME.md",
+     "culture/themes/READING.md",
+     "culture/themes/THEATER_THEME.md",
+     "places/landmarks/PINCIO.md",
+     "places/landmarks/CAPITOLE.md",
+     "culture/literature/AB_URBE_CONDITA.md"
+    ]
+   },
+   "073.0154": {
+    "file": "073/1877-07-25.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/mentioned/HORACES.md",
+     "people/mentioned/GRUTLI.md",
+     "culture/themes/ART_PRACTICE.md",
+     "culture/themes/HEALTH.md",
+     "people/mentioned/ENGHIEN.md",
+     "places/cities/PARIS.md",
+     "people/mentioned/MANARA.md",
+     "people/mentioned/MARCUARD.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/HORACES.md",
+  "glossary_hits": [
+   "people/mentioned/HORACES.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "068.0915 (Agar at the Théâtre français de Nice). 073.0154 'Les Horaces, le Serment de Grutli' is a different allusion (probably David's Oath of the Horatii; Marie's friends tied together on her caricature) — verify. [Existing entry category: people/mentioned; tag count is repo-wide, all carnets] [auto-stub filed under people/mentioned; should be recategorised]"
+ },
+ {
+  "wid": "W219",
+  "title": "Hamlet (Shakespeare)",
+  "marie_forms": [
+   "Hamlet"
+  ],
+  "creator": "William Shakespeare",
+  "year": "c.1600",
+  "type": "play",
+  "mentions": [
+   "086.0629",
+   "098.0386"
+  ],
+  "mention_files": {
+   "086.0629": {
+    "file": "086/1879-12-07.md",
+    "tags": [
+     "culture/themes/SOCIETY.md",
+     "people/mentioned/MOUZAY.md",
+     "people/mentioned/BLANC.md",
+     "people/recurring/BOJIDAR.md",
+     "people/recurring/ALEXIS.md",
+     "people/mentioned/PRINCESS_KARAGEORGEVITCH.md",
+     "people/family/MAMAN.md",
+     "people/family/MA_TANTE.md",
+     "people/mentioned/SHAKESPEARE.md"
+    ]
+   },
+   "098.0386": {
+    "file": "098/1883-02-22.md",
+    "tags": [
+     "culture/literature/CENSORED_1887.md",
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/MUSIC_THEME.md",
+     "culture/themes/READING.md",
+     "culture/theater/HAMLET_THOMAS.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [
+   "culture/theater/HAMLET_THOMAS.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "086.0629: someone recites fragments of Hamlet in Marie's salon; 098.0386 she reads it in English."
+ },
+ {
+  "wid": "W225",
+  "title": "Le Roi s'amuse",
+  "marie_forms": [
+   "\"Roi s'amuse\""
+  ],
+  "creator": "Victor Hugo",
+  "year": "1832",
+  "type": "play",
+  "mentions": [
+   "097.0128",
+   "097.0141"
+  ],
+  "mention_files": {
+   "097.0128": {
+    "file": "097/1882-11-23.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/music/RIGOLETTO.md"
+    ]
+   },
+   "097.0141": {
+    "file": "097/1882-11-24.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/theater/COQUELIN.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "1882 revival at the Théâtre-Français; Got as Triboulet."
+ },
+ {
+  "wid": "W226",
+  "title": "L'Impromptu de Versailles",
+  "marie_forms": [
+   "\"L'impromptu de Versailles\"",
+   "\"L'impromptu\""
+  ],
+  "creator": "Molière",
+  "year": "1663",
+  "type": "play",
+  "mentions": [
+   "090.0174",
+   "090.0175"
+  ],
+  "mention_files": {
+   "090.0174": {
+    "file": "090/1880-10-27.md",
+    "tags": [
+     "people/mentioned/GAVINI.md",
+     "places/theaters/COMEDIE_FRANCAISE.md",
+     "people/mentioned/CASA_RIERA.md",
+     "people/mentioned/GABRIEL_GERY.md",
+     "places/cities/ROME.md",
+     "places/travel/BERLIN.md",
+     "people/politicians/GAMBETTA.md",
+     "people/recurring/ARNAUD_DE_L_ARIEGE.md",
+     "culture/theater/COQUELIN.md",
+     "culture/theater/MOLIERE.md",
+     "places/theaters/IMPROMPTU_DE_VERSAILLES.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/mentioned/CHARLES_GERY.md"
+    ]
+   },
+   "090.0175": {
+    "file": "090/1880-10-27.md",
+    "tags": [
+     "people/mentioned/HECHT.md",
+     "culture/themes/HEALTH.md",
+     "people/politicians/GAMBETTA.md",
+     "people/recurring/ARNAUD_DE_L_ARIEGE.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/places/theaters/IMPROMPTU_DE_VERSAILLES.md",
+  "glossary_hits": [
+   "places/theaters/IMPROMPTU_DE_VERSAILLES.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Comédie-Française bicentenary performance, Coquelin as Molière, 1881. Existing file lives under places/theaters. [tag count in carnets 081-106: 1]"
+ },
+ {
+  "wid": "W227",
+  "title": "Le Monde où l'on s'ennuie",
+  "marie_forms": [
+   "Le monde où l'on s'ennuie",
+   "le \"Pailleron\""
+  ],
+  "creator": "Édouard Pailleron",
+  "year": "1881",
+  "type": "play",
+  "mentions": [
+   "091.0553",
+   "094.0169"
+  ],
+  "mention_files": {
+   "091.0553": {
+    "file": "091/1881-05-02.md",
+    "tags": [
+     "places/theaters/COMEDIE_FRANCAISE.md",
+     "people/mentioned/PAILLERON.md",
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md",
+     "culture/themes/APPEARANCE.md"
+    ]
+   },
+   "094.0169": {
+    "file": "094/1882-01-13.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/LOVE.md",
+     "people/mentioned/GABRIEL_GERY.md",
+     "people/mentioned/PAILLERON.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/PAILLERON.md",
+  "glossary_hits": [
+   "people/mentioned/PAILLERON.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "Comédie-Française. The file PAILLERON.md is the author. [tag count in carnets 081-106: 2]"
+ },
+ {
+  "wid": "W228",
+  "title": "L'Étincelle",
+  "marie_forms": [
+   "\"l'Etincelle\""
+  ],
+  "creator": "Édouard Pailleron",
+  "year": "1879",
+  "type": "play",
+  "mentions": [
+   "086.0591",
+   "087.0198"
+  ],
+  "mention_files": {
+   "086.0591": {
+    "file": "086/1879-11-27.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "places/theaters/COMEDIE_FRANCAISE.md",
+     "people/recurring/ALEXIS.md",
+     "people/recurring/BOJIDAR.md",
+     "people/mentioned/MME_ADAM.md",
+     "people/artists/SAMARY.md",
+     "places/social/CHAMBRE_DES_DEPUTES.md",
+     "places/cities/PARIS.md"
+    ]
+   },
+   "087.0198": {
+    "file": "087/1880-01-12.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/themes/LOVE.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/mentioned/KRISHABER.md",
+     "people/mentioned/GABRIEL_GERY.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "086.0591 not played (Mlle Samary indisposed); 087.0198 Marie to play it in the Krishabers' salon. Note 'Etincelle' is also the pen-name of the Le Figaro columnist."
+ },
+ {
+  "wid": "W229",
+  "title": "Macbeth (translation by Jean Richepin)",
+  "marie_forms": [
+   "\"Macbeth\""
+  ],
+  "creator": "William Shakespeare",
+  "year": "c.1606",
+  "type": "play",
+  "mentions": [
+   "104.0591",
+   "104.0593"
+  ],
+  "mention_files": {
+   "104.0591": {
+    "file": "104/1884-06-16.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/artists/SARAH_BERNHARDT.md",
+     "people/mentioned/GAVINI.md"
+    ]
+   },
+   "104.0593": {
+    "file": "104/1884-06-16.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "culture/literature/CENSORED_1887.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/artists/SARAH_BERNHARDT.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Théâtre de la Porte-Saint-Martin, 1884, Sarah Bernhardt as Lady Macbeth, Marais as Macbeth."
+ },
+ {
+  "wid": "W230",
+  "title": "Le Passant",
+  "marie_forms": [
+   "\"Le passant\""
+  ],
+  "creator": "François Coppée",
+  "year": "1869",
+  "type": "play",
+  "mentions": [
+   "093.0035",
+   "105.0303"
+  ],
+  "mention_files": {
+   "093.0035": {
+    "file": "093/1881-08-28.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/recurring/BOJIDAR.md",
+     "people/artists/SARAH_BERNHARDT.md",
+     "places/cities/LILLE.md",
+     "culture/themes/THEATER_THEME.md",
+     "places/social/BOIS_DE_BOULOGNE.md"
+    ]
+   },
+   "105.0303": {
+    "file": "105/1884-07-24.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/recurring/BOJIDAR.md",
+     "people/recurring/BASTIEN_LEPAGE.md",
+     "people/artists/SARAH_BERNHARDT.md",
+     "places/theaters/ODEON_THEATRE.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Odéon; Bojidar fainted as a child when he heard Sarah Bernhardt in it."
+ },
+ {
+  "wid": "W231",
+  "title": "La Pluie et le beau temps",
+  "marie_forms": [
+   "\"la Pluie et le beau temps\""
+  ],
+  "creator": "Léon Gozlan",
+  "year": "1846",
+  "type": "play",
+  "mentions": [
+   "087.0158",
+   "087.0188"
+  ],
+  "mention_files": {
+   "087.0158": {
+    "file": "087/1880-01-09.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/core/DINA.md",
+     "people/mentioned/GABRIEL_GERY.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/mentioned/SOUTZO.md",
+     "people/mentioned/COURTES.md",
+     "people/aristocracy/MARQUIS_DE_TARENTE.md"
+    ]
+   },
+   "087.0188": {
+    "file": "087/1880-01-12.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "people/mentioned/SOUTZO.md"
+    ]
+   }
+  },
+  "existing_glossary": null,
+  "glossary_hits": [],
+  "public_domain_likely": true,
+  "notes": "Proverb comedy performed by Marie (baronne de Gontran) at the amateur evening, Feb 1880."
+ },
+ {
+  "wid": "W259",
+  "title": "Othello (Ernesto Rossi's performance)",
+  "marie_forms": [
+   "\"Othello\"",
+   "Othello"
+  ],
+  "creator": "William Shakespeare",
+  "year": "c.1603",
+  "type": "play",
+  "mentions": [
+   "031.0297",
+   "076.0311"
+  ],
+  "mention_files": {
+   "031.0297": {
+    "file": "031/1875-04-19.md",
+    "tags": [
+     "culture/themes/THEATER_THEME.md",
+     "culture/themes/FASHION.md",
+     "people/mentioned/COLLIGNON.md",
+     "people/artists/ERNESTO_ROSSI.md",
+     "people/mentioned/OTHELLO.md",
+     "places/theaters/OPERA_NICE.md"
+    ]
+   },
+   "076.0311": {
+    "file": "076/1877-12-03.md",
+    "tags": [
+     "culture/literature/KATHERINE_KERNBERGER.md",
+     "people/mentioned/SALVINI.md",
+     "people/mentioned/OTHELLO.md",
+     "places/countries/ITALY.md",
+     "culture/themes/THEATER_THEME.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/OTHELLO.md",
+  "glossary_hits": [
+   "people/mentioned/OTHELLO.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "031.0297 Théâtre Italien, Paris; Rossi in the role. [existing entry sits outside culture/ -- misfiled stub?] | ALSO: Othello (Salvini) — 076.0311, with Tommaso Salvini. [Existing entry category: people/mentioned; tag count is repo-wide, all carnets] [auto-stub filed under people/mentioned; should be recategorised]"
+ },
+ {
+  "wid": "W261",
+  "title": "Les Mirabeau",
+  "marie_forms": [
+   "\"Les Mirabeau\"",
+   "le premier volume de M. de Loménie sur les Mirabeau"
+  ],
+  "creator": "unidentified",
+  "year": null,
+  "type": "play",
+  "mentions": [
+   "085.0310",
+   "086.0473"
+  ],
+  "mention_files": {
+   "085.0310": {
+    "file": "085/1879-06-15.md",
+    "tags": [
+     "culture/themes/READING.md",
+     "people/mentioned/ANNA_NORDGREN.md",
+     "people/mentioned/LES_MIRABEAU.md"
+    ]
+   },
+   "086.0473": {
+    "file": "086/1879-11-04.md",
+    "tags": [
+     "people/mentioned/LES_MIRABEAU.md",
+     "people/mentioned/THEATRE.md",
+     "people/mentioned/CHAUDORDY.md",
+     "people/mentioned/M_DE_MORGAN.md",
+     "people/mentioned/GABRIEL_GERY.md",
+     "culture/themes/THEATER_THEME.md",
+     "people/mentioned/GAVINI.md"
+    ]
+   }
+  },
+  "existing_glossary": "content/_original/_glossary/people/mentioned/LES_MIRABEAU.md",
+  "glossary_hits": [
+   "people/mentioned/LES_MIRABEAU.md"
+  ],
+  "public_domain_likely": true,
+  "notes": "New play, Oct-Nov 1879. 085.0310 (volume on 'les Mirabeau' by Loménie) is a different reference: Louis de Loménie's Les Mirabeau (1879). [tag count in carnets 081-106: 1] | ALSO: Les Mirabeau (Loménie) — Volume I read while posing (Aug 1879). Probably the existing LES_MIRABEAU.md covers one of these two. [tag count in carnets 081-106: 1]"
+ }
+]

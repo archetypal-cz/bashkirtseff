@@ -1,25 +1,48 @@
 ---
 id: LE_PARDON_DE_PLOERMEL
-name: Le Pardon de Ploërmel (Dinorah)
+name: "Le Pardon de Ploërmel (Dinorah)"
 aliases:
-  - Le Pardon de Ploërmel
-  - Le pardon de Ploërmel
-  - Dinorah
+  - "Le Pardon de Ploërmel"
+  - "Le pardon de Ploërmel"
+  - "Dinorah"
+  - "\"Dinorah\""
 type: Culture
 category: culture/theater
-research_status: Stub
-last_updated: 2026-10-21
+research_status: Moderate
+last_updated: 2026-11-10
+languages:
+  - fr
+  - it
+full_text:
+  - url: https://imslp.org/wiki/Le_pardon_de_Plo%C3%ABrmel_%28Meyerbeer%2C_Giacomo%29
+    label: "Le pardon de Ploërmel (1859): vocal scores and full score"
+    source: IMSLP
+    language: fr
 ---
+
+%% GLO_LE_PARDON_DE_PLOERMEL.0001 %%
 # Le Pardon de Ploërmel (Dinorah)
 
+%% GLO_LE_PARDON_DE_PLOERMEL.0002 %%
 ## Overview
 
-Opéra comique by Giacomo Meyerbeer, libretto by Jules Barbier and Michel Carré, first performed at the Opéra-Comique, Paris, in 1859; in Italian it is given as Dinorah (Wikipedia, "Dinorah").
+%% GLO_LE_PARDON_DE_PLOERMEL.0003 %%
+*Le Pardon de Ploërmel* is an opéra comique in three acts by Giacomo Meyerbeer, with a libretto by Jules Barbier and Michel Carré, first performed at the Opéra-Comique, Paris, on 4 April 1859. It is given in Italian as *Dinorah* (Wikipedia, «Dinorah»). Set in Brittany, it tells of Dinorah, driven out of her mind when her wedding is ruined by a storm and her bridegroom Hoël leaves, who wanders with her goat; the shadow-dance aria "Ombre légère" is its best-known number.
 
-## References in Diary
+%% GLO_LE_PARDON_DE_PLOERMEL.0004 %%
+## Marie and Le Pardon de Ploërmel
 
-- 1874-09-17 (024): at the Opéra-Comique, Paris, "Le pardon de Ploërmel", which Marie finds disjointed and unnatural
-- 1875-02-28 (030.0104): "Dinorah" at the Nice Opéra
-- 1875-03-09 (030.0157): "Dinorah" again at the Nice Opéra
+%% GLO_LE_PARDON_DE_PLOERMEL.0005 %%
+**17 September 1874, Paris.** At the Opéra-Comique: ""Le pardon de Ploërmel" opéra tout décollé, par morceaux et manquant de naturel à chaque instant" (024.0007).
 
-%% 2026-10-21T17:11:39 RSR: The 024/1874-09-17 tag (all trees) now points here; the duplicate people/mentioned/LE_PARDON_DE_PLOERMEL.md stub (empty, type Person) was removed. 030.0104 is still untagged. %%
+%% GLO_LE_PARDON_DE_PLOERMEL.0006 %%
+**28 February 1875, Nice.** She takes the children to the opera "voir "Dinorah" qui, dit-on, est bien montée ici", with Stiopa, Julie and Liouba; Marie is in a white dress and her hair in curls, and "tout le monde nous regardait quand nous entrâmes" (030.0104). Nadinka sits at the back in black. See the [Nice Opéra](../../places/theaters/OPERA_NICE.md).
+
+%% GLO_LE_PARDON_DE_PLOERMEL.0007 %%
+**9 March 1875, Nice.** "A l'Opéra "Dinorah" (robe blanche, bien) ma coiffure tient encore et m'embellit" (030.0157).
+
+%% GLO_LE_PARDON_DE_PLOERMEL.0008 %%
+## Sources
+
+%% GLO_LE_PARDON_DE_PLOERMEL.0009 %%
+Wikipedia, «Dinorah»; IMSLP.
