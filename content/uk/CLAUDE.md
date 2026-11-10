@@ -139,7 +139,7 @@ Concrete Ukrainian traps for RED and OPS to catch (the language-agnostic frame i
 | Category | Example |
 |----------|---------|
 | **Galicisms** | "взяти жінку" (= одружитися), "дати зрозуміти" — literal French constructions |
-| **Russianisms** | "потому що" → "тому що", "тоже" → "також", "нічого собі" → "жарт сказати" (see full checklist above) |
+| **Russianisms** | "потому що" → "тому що", "тоже" → "також" (see full checklist above). «нічого собі» is standard Ukrainian and stays (TM *excusez du peu*); «жарт сказати» is itself a calque of Russian *шутка ли сказать* — avoid it (owner ruling A-22 (1), 2026-11-10) |
 | **Case errors** | Wrong відмінок governance |
 | **Aspect** | Imperfective/perfective confusion |
 | **Calques** | Literal French constructions forced into Ukrainian word order |

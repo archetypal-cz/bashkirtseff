@@ -4,7 +4,7 @@ Established terminology for consistent translation across carnets.
 
 ## NOTE 2026-10-03 (KRR): foreign-language passages are translated, original → footnote
 
-Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passages: everything translated"; `content/uk/CLAUDE.md`, last section). Every passage Marie wrote in another language (English, Italian, Latin, Spanish, German, Russian) and every French tic/phrase left in French (*Bigre*, *Pardi*, *comme il faut*, *Ventre Saint-Gris*, *Mort de ma vie*, *je ne sais quoi*, *coup de foudre*) is **translated into Ukrainian in the running text**, marked `==…==`; her original wording goes into the footnote (marker right after the closing `==`; «В оригіналі англійською/латиною/італійською/французькою: «…».»). A repeated tic: footnote its first occurrence per entry only. Whole foreign paragraphs: Ukrainian + run note, no copy. Exceptions: metalinguistic runs (puns, her own mistakes), titles of works, proper names and name-like code names (Блекпринс, Муся, Обезіана), ciphers/abbreviations (H.G.t.D.o.H., Notlimah), naturalised words (курзал, флірт, конфетті, лаццароні). **Every older row or bullet below saying "keep in English/Latin/Italian/French", "==highlight== + footnote", "kept French" or "*Bigre!* kept in French" is superseded by this rule**; the rows that were rewritten on 2026-10-03 carry the Ukrainian rendering and the mark "KRR 2026-10-03" — renderings marked UNSURE are proposals awaiting the owner. Default renderings for the recurring French tics (coined 2026-10-03, one per tree — owner may veto): *Bigre!* → «Ну й ну!» / «Ого!», *Pardi!* → «Ну звісно!», *Mort de ma vie!* → «Хай мене грім поб'є!», *Ventre Saint-Gris!* → «Хай йому грець!», *comme il faut* → «пристойний», *Deo juvante* → «з Божою поміччю», *Libera nos a Collignon* style Latin prayers → Ukrainian liturgical phrase («Від адвокатів визволи нас, Господи!»). Pilot (034) choices: That is the question → «Ось у чім питання», Much ado about nothing → «Багато галасу даремно».
+Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passages: everything translated"; `content/uk/CLAUDE.md`, last section). Every passage Marie wrote in another language (English, Italian, Latin, Spanish, German, Russian) and every French tic/phrase left in French (*Bigre*, *Pardi*, *comme il faut*, *Ventre Saint-Gris*, *Mort de ma vie*, *je ne sais quoi*, *coup de foudre*) is **translated into Ukrainian in the running text**, marked `==…==`; her original wording goes into the footnote (marker right after the closing `==`; «В оригіналі англійською/латиною/італійською/французькою: «…».»). A repeated tic: footnote its first occurrence per entry only. Whole foreign paragraphs: Ukrainian + run note, no copy. Exceptions: metalinguistic runs (puns, her own mistakes), titles of works, proper names and name-like code names (Блекпринс, Муся, Обезіана), ciphers/abbreviations (H.G.t.D.o.H., Notlimah), naturalised words (курзал, флірт, конфетті, лаццароні). **Every older row or bullet below saying "keep in English/Latin/Italian/French", "==highlight== + footnote", "kept French" or "*Bigre!* kept in French" is superseded by this rule**; the rows that were rewritten on 2026-10-03 carry the Ukrainian rendering and the mark "KRR 2026-10-03" — the renderings once marked UNSURE were all settled by the owner on 2026-11-10 (A-23). Default renderings for the recurring French tics (coined 2026-10-03, one per tree; confirmed by the owner, A-23 (g) 2026-11-10): *Bigre!* → «Ну й ну!» / «Ого!», *Pardi!* → «Ну звісно!», *Mort de ma vie!* → «Хай мене грім поб'є!», *Ventre Saint-Gris!* → «Хай йому грець!», *comme il faut* → «пристойний», *Deo juvante* → «з Божою поміччю», *Libera nos a Collignon* style Latin prayers → Ukrainian liturgical phrase («Від адвокатів визволи нас, Господи!»). Pilot (034) choices: That is the question → «Ось у чім питання», Much ado about nothing → «Багато галасу даремно».
 
 ## Titles & Forms of Address
 | French | Ukrainian | Notes |
@@ -289,7 +289,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Gericke | Жерікке | Young man Marie disdains at Spa (locked 2026-09-29 wave-uk; NOT Жерике) |
 | Walitsky (also Walitzky) | Валіцький | Family doctor/friend (established from earlier) |
 | Paparigopoulos (le Grec) | Папаріґопулос (Грек) | Greek acquaintance at Spa |
-| comte de Tanlay | граф де Тансле | Same man as the de Tanlay row below (one glossary entry, people/mentioned/TANLAY.md); unified on «Тансле» 2026-10-10 (RED, D-33) |
+| comte de Tanlay | граф де Танле | Same man as the de Tanlay row below (one glossary entry, people/mentioned/TANLAY.md); unified on «Тансле» 2026-10-10 (RED, D-33), changed to **«Танле»** by owner ruling A-58 (1), 2026-11-10 (Marie always writes *Tanlay*; phonetic [tɑ̃lɛ], indeclinable; 93 occurrences swept) |
 | Wheelwright | Вілрайт | American at Spa, wins horse race |
 | prince Doria | принц Дорія | Admired from afar at Spa |
 | vicomte de Biesme | віконт де Б'єм | Admired stranger at Spa |
@@ -322,9 +322,9 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | fast (English, period) | ==вільних звичаїв== (of a woman; context: ==легковажна==) | Victorian English "loose, improper"; original → footnote (KRR 2026-10-03). Rendering coined 2026-10-03 |
 
 ### Multilingual Conventions (Carnet 022)
-- English code-switches (fast, foggy, gentlemen riders, London House, make haste, How do you do?, Blackprince): translate into Ukrainian in `==…==`, English → footnote (KRR 2026-10-03). Indicative: foggy → ==туманний==, make haste → ==поспішай==, How do you do? → ==Як ся маєте?==, London House → name of an establishment (name of an establishment: kept as a name, UNSURE), gentlemen riders → ==джентльмени-наїзники== (UNSURE; was kept English as a term)
+- English code-switches (fast, foggy, gentlemen riders, London House, make haste, How do you do?, Blackprince): translate into Ukrainian in `==…==`, English → footnote (KRR 2026-10-03). Indicative: foggy → ==туманний==, make haste → ==поспішай==, How do you do? → ==Як ся маєте?==, London House → plain «London House», an establishment name (see the London House rows), gentlemen riders → ==джентльмени-наїзники== (confirmed, owner A-23, 2026-11-10)
 - Gericke's farewell verse (acrostic Requiem eterno...): Ukrainian rendering in the text, Latin/French original + explanation of the acrostic in the footnote (original → footnote (KRR 2026-10-03)); the acrostic itself cannot be reproduced
-- Italian mock-titles (illustrissima marchesa duchessa di Matera, cuisinière-a): ==наймилостивіша маркіза-герцогиня ді Матера==, ==кухарка-а== (UNSURE) — Ukrainian in the text, Italian → footnote
+- Italian mock-titles (illustrissima marchesa duchessa di Matera, cuisinière-a): ==ясновельможна маркіза-герцогиня ді Матера==, ==ясновельможна кухарка-а== (the CON-passed text form, 022.0175 «у ==ясновельможної маркізи-герцогині ді Матера==»; owner A-23, 2026-11-10 (c)) — Ukrainian in the text, Italian → footnote
 - "Notlimah" (Hamilton reversed): preserve exactly as cipher, no translation
 - Private countdown codes (Wittgenstein 11 10 98765432 1): keep as-is in brackets, RSR explains
 
@@ -337,7 +337,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Paparigopoulos (le Grec) | Папаріґопулос (Грек) | Greek man, Basilévitch's admirer |
 | Mme Basilévitch | Базілевич | Russian socialite at Spa, "diva, mangeuse de cœurs" |
 | M. Basilévitch | пан Базілевич | Her husband, cuckolded like Menelaus |
-| de Tanlay (baron/comte) | де Тансле | MacMahon's aide; in love with Basilévitch |
+| de Tanlay (baron/comte) | де Танле | MacMahon's aide; in love with Basilévitch. Owner ruling A-58 (1), 2026-11-10 (was «Тансле») |
 | Gambart | Ґамбар | Belgian host, takes excursions |
 | Koukourikan | Кукурікан | Unclear; part of Basilévitch circle |
 | baron de Bauche | барон де Бош | Real gentleman; good manners |
@@ -358,7 +358,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Douchenka / Душенька | Душенька | Russian endearment: Ukrainian «Душенько» in the text; Russian original → footnote (KRR 2026-10-03; was: keep Russian in italics) |
 | la cascade de Caux | каскад де Ко | Waterfall near Spa |
 | grotte de Romanchy | грот Романші | Cave complex near Spa |
-| H.G.t.D.o.H. | H.G.t.D.o.H. | Marie's code: "His Grace the Duke of Hamilton" — abbreviation/cipher kept as a code (exception, UNSURE); when spelled out: ==Його Світлість герцог Гамільтон== with the English → footnote (KRR 2026-10-03) |
+| H.G.t.D.o.H. (also H[is] G[race] t[he] D[uke] o[f] H[amilton], H.G.t.D.of.H.) | H.G.t.D.o.H. | Marie's cipher «His Grace the Duke of Hamilton» — kept in Latin script as a code (cipher exception of the 2026-10-03 rule; confirmed, owner A-23, 2026-11-10 (a)); where Marie spells it out: ==Його Світлість герцог Гамільтон==, English → footnote. One row for every occurrence (020.0423, 047.0002, carnet-close signatures); five duplicate rows merged here on 2026-11-10 |
 | la Dame blanche | «Біла дама» | Boieldieu's opera (1825); title of a work: Ukrainian title in the text, French title in the footnote on first use |
 | Paul et Virginie | «Поль і Вірджинія» | Saint-Pierre's novel (1788); use standard Ukrainian translation of title |
 | Norma (La Norma) | «Норма» | Bellini's opera (1831); use Italian opera name |
@@ -474,7 +474,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | faire du grand jeu | пускати пилюку в очі | To put on airs, make a grand display |
 | rôder par les boulevards | блукати бульварами | Wander the boulevards aimlessly |
 | coup de foudre | ==кохання з першого погляду== | Love at first sight; Ukrainian in `==…==`, French → footnote (KRR 2026-10-03; rendering coined) |
-| alla crescendo | alla crescendo | Musical term, internationally naturalised — exception, kept (Marie uses it naturally); UNSURE whether the owner wants ==дедалі гучніше== |
+| alla crescendo | alla crescendo | Musical term, internationally naturalised — exception, kept in italics with a footnote (019.0332); confirmed, owner A-23, 2026-11-10 (e) |
 | Miserere | ==Змилуйся!== / ==Помилуй!== | Latin psalm exclamation (Psalm 51); Ukrainian in `==…==`, Latin → footnote (KRR 2026-10-03; rendering coined) |
 | découcher | ночувати деінде | Stay out all night/sleep away from home |
 | je porte la queue basse | іду з опущеним хвостом | Tail between legs; humiliated, dejected |
@@ -542,7 +542,6 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 |----------------|-----------|-------|
 | jouk [bourdon] | жук [джміль] | Russian word "жук" (beetle) + French "bourdon" (bumblebee) — family joke for eligible men at Spa |
 | poussière | порох | Marie's term for insignificant people/nobodies |
-| H.G.t.D.o.H. | H.G.t.D.o.H. | Cipher: "His Grace the Duke of Hamilton" — abbreviation kept as a code (exception, UNSURE); spelled out → translated (see 357 row) |
 | Notlimah | Нотлімах | Hamilton reversed — cipher transliterated (established 022) |
 | puppy / puppies | ==цуценя== / ==цуценята== | Marie's dismissive term for young suitors; Ukrainian in `==…==`, *puppy* → footnote (first occurrence per entry) — KRR 2026-10-03 |
 
@@ -604,15 +603,13 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 |--------|-----------|-------|
 | charogne | падло | Extremely vulgar: carrion/carcass as insult — equivalent register |
 | salaud | свиня | Bastard/swine — strong insult; "свиня" is closest natural equivalent |
-| mferdje | ==мфердже== | Russian vulgar term, phonetically transcribed (UNSURE: Ukrainian in the text is a transliteration); Russian → footnote (KRR 2026-10-03) |
 
 ### Multilingual Conventions (Carnet 025)
 - "Ventre-Saint-Gris!" — Henri IV's oath → ==Хай йому грець!== (coined 2026-10-03; one rendering per tree), French → footnote (first occurrence per entry)
-- "Audifferus" — mock-Latin form of Audiffret → ==Одіффер-ус== / ==Одіффрус== (mock-Latin ending kept; Marie's joke on the name — name-play, treat as metalinguistic: keep the form + footnote explaining the Latin ending; UNSURE)
-- "vertueux youth" — mock-English → ==чеснотлива юність== (UNSURE, joke is the French/English hybrid), English → footnote
+- "Audifferus" — mock-Latin form of Audiffret → «Одіфферус» (025.0178 «героя Одіфферуса»): Marie's name-play, mock-Latin ending kept, footnote explains; CON-passed text confirmed, owner A-23, 2026-11-10 (c)
+- "vertueux youth" — mock-English → «цього ==доброчесного== ==юнака==» (025.0268, CON-passed text; owner A-23, 2026-11-10 (c)), English → footnote
 - "nonsenses" — English word in original → ==дурниці== / ==нісенітниці==, English → footnote
 - "plobsters" — Marie's garbled English code word for admirers (lobsters): metalinguistic/coinage — Ukrainian coinage ==плобстери== in the text (transliterated, keeps the garbling), English *plobsters* → footnote on first use per carnet (KRR 2026-10-03; was kept as ==plobsters==)
-- "H.G.t.D.o.H." — Hamilton cipher; kept as code abbreviation (exception, UNSURE); spelled out → translated
 - Crossed-out text: [Викреслено:] — confirmed convention
 - Marginal notes "[Dans la marge:]" → [На полях:]
 - Diagonal inscription "[En travers:]" → [Навскоси:]
@@ -666,7 +663,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | hetman | гетьман | Ukrainian military-political commander; capitalize as title |
-| maréchal de noblesse | ватажок дворянства | Marshal/head of provincial gentry; translates naturally |
+| maréchal de noblesse | предводитель дворянства | Head of the provincial/district gentry — the historical Ukrainian term. Owner ruling A-19 (4), 2026-11-10 (replaces «ватажок дворянства», which sounds like a band leader; «маршал дворянства/шляхти» also retired; 12 places swept). «маршальша» (= *la maréchale* Canrobert) is a different word and stays |
 | bonne maison | добрий рід | Good family/good house (social standing) |
 | fille naturelle | незаконнонароджена донька | Illegitimate daughter (period term) |
 | bonne race | добра кров | Good stock/breeding |
@@ -691,7 +688,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 - "==я насолоджуюся купанням==" (I enjoy my bath) — English → footnote. Ruling (2026-10-03, CON): corrected from «ванною» — the only occurrence (023.0356) is sea bathing at Ostend.
 - "==здригнулися==" (started) — English word used in French sentence; Ukrainian in the text, English → footnote. Ruling (2026-10-03, CON): corrected from «вирушила» — the only occurrence in 023 (023.0313.3, 08-25: «les deux messieurs … started, se poussèrent») means *startled*, not *set off*.
 - "==Його Світлість герцог Гамільтон==" ("His Grace the Duke of Hamilton" and "His Grace etc.") — translated, English → footnote; the abbreviation H.G.t.D.o.H. is kept as a code (see row)
-- "==ніжнішого==" / ==найніжніші== (tenerissimi) — Italian farewell; Ukrainian in the text, Italian → footnote (UNSURE: pick by grammatical context)
+- tenerissimi → ==найніжніших== (023.0313 «після поцілунків і прощань ==найніжніших==»); Italian → footnote (owner A-23, 2026-11-10 (d))
 - "==Бідолашна тварина!==" (Povera bestia!), "==Бридко==" (Brutto) — Italian → footnote. Ruling (2026-10-03, CON): corrected from «Бридке створіння» — in 023.0242 *Brutto* comments on a prediction («C'est laid. Brutto.»), not on a creature; other occurrences (e.g. 056) by context.
 - "==звісно==" (of course) — English inserted in French; Ukrainian in the text, English → footnote
 - German verse (Walitsky's): Ukrainian rendering in the text (==…==), German original in the footnote (KRR 2026-10-03; replaces "preserve in German")
@@ -836,8 +833,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Apollo Belvedere | Аполлон Бельведерський | Classical ideal of male beauty (Vatican sculpture) |
 
 #### Multilingual Conventions (Carnet 028)
-- "H[is] G[race] t[he] D[uke] o[f] H[amilton]" — Hamilton cipher signature: kept as a code (exception, UNSURE); decoded form ==Його Світлість герцог Гамільтон== if spelled out
-- "Juventus Nicæa!" — Latin exclamation → ==Юнь Ніцци!== (UNSURE; coined), Latin → footnote
+- "Juventus Nicæa!" — Latin exclamation → ==Молодь Ніцци!== (028.0031, CON-passed text; owner A-23, 2026-11-10 (c)), Latin → footnote
 - "finita la commedia" → ==комедія скінчена==, Italian → footnote
 - "a giorno" → ==як удень== (lit. lit up like day), Italian → footnote
 - "Quid est?" → ==Що це?==, Latin → footnote
@@ -919,7 +915,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Eccola / Oh che bella angiolina! | ==Ось вона== / ==О, яка гарна янголятка!== (original → footnote (KRR 2026-10-03)) | street compliment; footnote notes Italian street custom |
 | mi [corrono?] per la mente | ==[пробігають?] мені в думці== (original → footnote (KRR 2026-10-03)) | uncertain reading; preserve [?] |
 | basta! | ==доволі!== / ==годі!== (original → footnote (KRR 2026-10-03)) | "Enough!" — footnote only on first use per entry |
-| mio eterno d'ailleurs | ==мій вічний, до речі== (original → footnote (KRR 2026-10-03)) | mixed Italian-French meta-commentary; mixture explained in the footnote (UNSURE) |
+| mio eterno d'ailleurs | ==мій вічний „втім“== (027.0391; original → footnote) | mixed Italian-French meta-commentary; mixture explained in the footnote (owner A-23, 2026-11-10 (d)) |
 
 #### English Passages (Carnets 026–027)
 | English | Convention | Notes |
@@ -949,8 +945,8 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 #### Literary & Cultural References (Carnets 026–027)
 | Reference | Notes |
 |-----------|-------|
-| "Saprelotte je grelotte" | Rhyming phrase from Malézieux song; Ukrainian rendering that keeps the rhyme (rendering to be coined in the wave; UNSURE), French → footnote on the rhyme |
-| Gulliver's Travels "flapper" | ==хлопавка== (CON 2026-10-03, 027.0157: Marie uses *un flapper* for the instrument — «за допомогою хлопавки» — so the device noun, not the servant; replaces the coined UNSURE «служник-ляпальник»; no established Ukrainian Swift form verified); English *flapper* → footnote explaining Swift's Laputa servants |
+| "Saprelotte je grelotte" | «Хай йому грець — змерзла вкінець!» | Rhyming phrase from the Malézieux song (027.0095): the rhyme is kept, French → footnote. Owner ruling A-23 (f), 2026-11-10 (was «Сапрелот, я дрижу від холоду»); RED 2026-11-10: «змерзла» (present state, *je grelotte*) rather than the future «змерзну» |
+| Gulliver's Travels "flapper" | ==хлопавка== (CON 2026-10-03, 027.0157: Marie uses *un flapper* for the instrument — «за допомогою хлопавки» — so the device noun, not the servant; replaces the coined «служник-ляпальник»; no established Ukrainian Swift form verified); English *flapper* → footnote explaining Swift's Laputa servants |
 | Dante, Inferno III "Quivi sospire lamenti…" | Ukrainian rendering in the text (==Там зітхання, плач і голосіння…==), Italian original + attribution (Inf. III) in the footnote (KRR 2026-10-03) |
 | EMILE acrostic | Dina's acrostic poem about Émile d'Audiffret; explain acrostic in footnote |
 | Henri IV humiliation parallel | Marie identifies with Henri IV before Navarre; footnote on historical event |
@@ -1112,7 +1108,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 
 #### Multilingual Conventions (Carnet 035)
 - ==жахливий настрій== (frightful spirits) — Marie's English for a terrible mood; Ukrainian in the text, English → footnote
-- London House — fashionable Nice restaurant-hotel: name of an establishment, plain «London House» (no ==…==), footnote on first use (CON 2026-10-03, settles the UNSURE)
+- London House — fashionable Nice restaurant-hotel: name of an establishment, plain «London House» (no ==…==), footnote on first use (CON 2026-10-03; confirmed, owner A-23, 2026-11-10 (b))
 - ==Хай йому грець!== (Ventre Saint-Gris!, French oath) — French → footnote
 - *Bigre!* → ==Ну й ну!== per the tree-wide tic rendering (034 uses it throughout); the 2026-09-29 RED notes in 035 aligning Bigre to «Хай йому грець» are superseded (CON 2026-10-03)
 - *Ecco !* (Italian) → ==Ну от!==; *Misera !* (Italian, of herself) → ==Бідолашна!==; *Vanitas vanitatum !* (Latin, Eccl. 1:2) → ==Суєта суєт!== (biblical Ukrainian form); original → footnote, first occurrence per entry (CON 2026-10-03)
@@ -1202,11 +1198,11 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 - Latin motto *Audacter et amanter* in 032/1875-05-09: METALINGUISTIC — stays Latin in italics, no ==…==, footnote, because Marie translates it herself in the next sentence («Що означає: сміливо й ніжно») (CON 2026-10-03). Where she does not gloss it (036/1875-07-11) → ==Сміливо й любовно== (row below)
 - *Le duc uscite degli medici* (030/1875-02-23, garbled Italian): read as *le due uscite dei medici* → ==У лікарів два виходи== (: груди або нерви), footnote quotes the transcription «так у тексті; мабуть, *le due uscite dei medici*» (CON 2026-10-03, aligned with en "the doctors' two ways out")
 - English code-switches (fast → ==вільних звичаїв==, he stared at me → ==він витріщався на мене==, Pas love mais like → «Не ==кохання==, а ==симпатія==» (CON 2026-10-03; was ==кохаю/люблю==, unclear contrast), Blackprince → «Блекпринс» (name), Take your fat carcase out of the way → ==Забери з дороги свою товсту тушу==, the fat carcase → ==товста туша==): Ukrainian in the text, English → footnote (KRR 2026-10-03; renderings coined)
-- London House (Nice restaurant-hotel): name of an establishment, plain «London House», never ==…== (CON 2026-10-03, settles the UNSURE)
+- London House (Nice restaurant-hotel): name of an establishment, plain «London House», never ==…== (CON 2026-10-03; confirmed, owner A-23, 2026-11-10 (b))
 - Spanish *novio* (suitor): ==наречений== / ==залицяльник== by context, Spanish → footnote
 - French oath Ventre-Saint-Gris! (Henri IV): ==Хай йому грець!==, French → footnote (first occurrence per entry)
 - ==Pardi!== → ==Ну звісно!== (then «— як каже наш кучер»); French → footnote (first occurrence per entry)
-- **Ruling (2026-10-03, CON uk 030–032): Niçois oaths Marie flags as Nice speech** ("comme disent les Niçois": *Sacrediou* 010/1873-09-29, *San Biou de Biou !* 032/1875-04-23, *Coquine de Biou* 032/1875-05-10, also 050/1875-12-25) **stay in their Niçois form, plain italics, no ==…==**, meaning in the footnote (*Biou* «бик» = softened *Diou* «Бог»; San Biou de Biou ≈ «Бий його грім!», Coquine de Biou ≈ «Хай йому біс!» — an oath, not a self-address). Reason: consistency with uk *Sacrediou* (kept by CON 2026-10-03, the point is the local form); replaces the coined UNSURE ==Ах ти ж бестіє!== and the worker's ==Бий його грім!==. Grep (uk tree, visible text, before sweep): Sacrediou ×1, San Biou ×1 (was ==Бий його грім!==), Coquine de Biou ×1 (032, was ==Ах ти ж бестіє!==); 050/1875-12-25 already has *coquine de Biou* (outside this batch, check in its wave) — applied in the uk 049–051 review (the worker's ==Ах ти ж бестіє!== reverted to plain italic *coquine de Biou*, self-address footnote rewritten). Divergence for the owner: en translates these ("Great heavens!"), and the locked *Cap de Biou* row renders ==Кап-де-Біу!== (Cyrillic, highlighted) — owner may want one treatment for all Niçois oaths.
+- **Niçois oaths (owner A-03, 2026-10-05, and A-58 (3), 2026-11-10; row rewritten per A-23 (b)):** the rule is A-03 — translate in ==…== and footnote «В оригіналі ніццькою говіркою: …» (*Cap de Biou* → ==Хай йому грець!==, see the A-03 section at the end). **Exception (A-58 (3)): oaths Marie herself flags as Nice speech** ("comme disent les Niçois": *Sacrediou* 010.0122, *San Biou de Biou !* 032.0050, *Coquine de Biou* 032.0404, 050.1310) **stay in their Niçois form, plain italics, no ==…==**, meaning in the footnote (*Biou* «бик» = softened *Diou* «Бог»; San Biou de Biou ≈ «Бий його грім!», Coquine de Biou ≈ «Хай йому біс!» — an oath, not a self-address): a translated oath followed by «as the Niçois say» would be false. The uk text already follows this; the older coinages ==Ах ти ж бестіє!== and ==Бий його грім!== stay retired.
 - Niçois oath NOT flagged by Marie as Nice speech: translated, ==…==, Niçois → footnote. *San Diou de Diou !* (060/1876-05-10, letter) → ==Святий Боже, Боже!== (cf. *Buon Diou dé Diou* → ==Добрий Боже, Боже!==) (CON uk 058–060, 2026-10-03)
 - Italian oaths (CON uk 058–060, 2026-10-03): *Carpo* [sic] *di Bacco !* → ==Клянуся Вакхом!==; *Corpo di Dio* → ==Клянуся тілом Божим==; *via !* → ==Годі!== (*Ohimè* → ==Ой лишенько!== per the 049–051 ruling; 059/1876-04-21 aligned)
 - Nicknames/epithets used as names (*signor cardinalino*, *Signor zio*, *Mercurio* as go-between) are plain Ukrainian + footnote with the original, never ==…== (CON uk 058–060, 2026-10-03)
@@ -1383,7 +1379,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Reference | Notes |
 |-----------|-------|
 | Aulu-Gelle (Aulus Gellius, Noctes Atticae) | Авл Геллій / «Аттічні ночі»; Marie translates Latin for self-education |
-| centenaire de Michel-Ange (Florence, Sept 1875) | 400th anniversary (Michelangelo b. 1475) → "чотиристаліття"; footnote |
+| centenaire de Michel-Ange (Florence, Sept 1875) | «ювілей Мікеланджело» | Owner ruling A-19 (7), 2026-11-10: one form everywhere (was чотиристаліття / чотиривікові роковини / сторіччя); the 400th anniversary (b. 1475) is explained in the footnote |
 | Pallas (Athena) | Паллада; goddess of wisdom; Marie's self-comparison |
 | mémoires de Mademoiselle (la Grande Mademoiselle) | Мемуари Мадемуазель (de Montpensier, 1627–1693) |
 | Agis (IV, roi de Sparte) | Агіс; Spartan reformer-king |
@@ -1573,7 +1569,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 - *Prix de Rome* / *être prix de Rome* → «Римська премія» (plain, a name — no ==…==), French in an explanatory footnote. Ruling (2026-10-03, CON uk 073–075): the established uk rendering in 13 carnets (075/10-13, 076–103); 075 was the only holdout (4 body hits in 10-03, 10-06, 10-22 — aligned). *les prix de Rome exposés* → «конкурсні роботи на Римську премію».
 - steeple-chase → plain «стипль-чез» (naturalised; a French loan in Marie's text too), explanatory footnote, no ==…== (CON 2026-10-03; matches 029.0034, 043.0065).
 - *Dixi* (Latin) → ==Я все сказала.== + «В оригіналі латиною: «Dixi».» Ruling (2026-10-03, CON uk 046–048): grep before ruling: uk Dixi runs 2 (041/1875-09-06 «Я все сказала», 047/1875-10-21 worker «Я сказала.» → aligned); one form per tree.
-- *Rossignol che vola* (Marie's half-French, half-Italian nickname for Audiffret, from the Nice song): nickname = name → capitalised «Соловей, що летить», no ==…==, original in the footnote (047/1875-10-18). The song itself (*le rossignol che vola*, 047/1875-10-15; *Rossignou che vola*, 059) is a title → original in italics, gloss «Соловей, що летить» in the footnote. Ruling (2026-10-03, CON uk 046–048), matches en and uk/059. Distinct from the Rossignol street festival row (UNSURE). Audiffret's carnival prize named after it (054/1876-02-13, «le prix du *Rossignol che vola*») = name → приз «Соловей, що летить», no ==…==, original in the footnote (CON uk 052–054).
+- *Rossignol che vola* (Marie's half-French, half-Italian nickname for Audiffret, from the Nice song): nickname = name → capitalised «Соловей, що летить», no ==…==, original in the footnote (047/1875-10-18). The song itself (*le rossignol che vola*, 047/1875-10-15; *Rossignou che vola*, 059) is a title → original in italics, gloss «Соловей, що летить» in the footnote. Ruling (2026-10-03, CON uk 046–048), matches en and uk/059. Distinct from the Rossignol street festival row («Соловей»). Audiffret's carnival prize named after it (054/1876-02-13, «le prix du *Rossignol che vola*») = name → приз «Соловей, що летить», no ==…==, original in the footnote (CON uk 052–054).
 - *bigre de bigre* → ==Ну й ну, от тобі й на!== (034 pattern: Bigre → «Ну й ну», each further «de bigre» → «от тобі й на»); 052/01-15, 053/01-24 (×4) (CON uk 052–054); 055/03-09, 03-19, 03-25, 057/04-09 aligned from the worker's «Ну й ну, ну й ну» (CON uk 055–057). Plain *Bigre, bigre* (no «de») → «Ну й ну, ну й ну» (056/03-29).
 - *rossignoù che vaia* / *rossignoù che vola* (055/1876-03-13, Ricardo's letter; *vaia* is a slip in the text) = the same Audiffret nickname → «Соловей, що летить» in guillemets, no ==…==, both source spellings in the footnote; the worker's «Соловейко, що відлітає» aligned (CON uk 055–057)
 - *trattoria* → naturalised «траторія» (2019 orthography, single т), plain, explanatory footnote with *Trattoria*; corpus: 1 occurrence, 056/1876-03-27 (worker's ==харчевні== replaced) (Ruling 2026-10-03, CON uk 055–057)
@@ -1585,7 +1581,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 - *omnisapiente* (053/02-11): latinising coinage → ==всезнаюча==, footnote «В оригіналі: *omnisapiente*» (no language label) (CON uk 052–054)
 - *Dormi pure* (song Marie sang, 048/1875-11-01): title → italic *Dormi pure*, gloss «Спи собі» in the footnote; no composer named (LAN's Bellini attribution doubtful — RSR check pending).
 - Russian (Marie's diminutive "Moussia"/"Muся"): a nickname = name, kept «Муся» (cf. Муся, 023); Russian original → footnote on first use
-- Latin (Miserere → ==Змилуйся==, Nec plus → ==понад це — нічого== (Ruling 2026-10-03, CON: replaces the UNSURE «Ні кроку далі»; the worker's «Далі нікуди» rejected — in Ukrainian it means "it can't get any worse"; corpus: 1 occurrence, 038/1875-08-10; second one 050/1875-12-01 aligned from «ні кроку далі» in the uk 049–051 review), Requiem delectabile [sic] → ==Приємний спочинок== [sic] → footnote with the mock-Latin original): Ukrainian in the text, Latin → footnote
+- Latin (Miserere → ==Змилуйся==, Nec plus → ==понад це — нічого== (Ruling 2026-10-03, CON: replaces the earlier «Ні кроку далі»; the worker's «Далі нікуди» rejected — in Ukrainian it means "it can't get any worse"; corpus: 1 occurrence, 038/1875-08-10; second one 050/1875-12-01 aligned from «ні кроку далі» in the uk 049–051 review), Requiem delectabile [sic] → ==Приємний спочинок== [sic] → footnote with the mock-Latin original): Ukrainian in the text, Latin → footnote
 - **Italian interjections and short phrases (Ruling 2026-10-03, CON uk 049–051)** — one rendering per tree, `==…==`, Italian → footnote: *Ohimè!* (Marie's own exclamation) → ==Ой лишенько!== (grep before ruling: «Ой лишенько» 3 — 028/1874-12-31, 053/1876-01-27 ×2; «Леле» 1 — 050/1875-12-08, aligned; «На жаль» 1 — 055/1876-03-05; «Горе мені» 1 — 059/1876-04-21; 055 and 059 to align in their batch reviews — done: 059 (CON uk 058–060), 055/03-05 and 057/04-09 «На жаль» → ==Ой лишенько== (CON uk 055–057)); inside a sung/quoted lyric (*Ohimè! potessi io ritornare…*, 050/1875-12-24) the lyric may keep «Леле». *Misera me!* → ==Бідолашна я!== (as *Misera!* → «Бідолашна!»); *Heu! misera!* (Latin) → ==Леле, бідолашна!==; *Ecco* → ==Ну от== (as above); *Capite?* → ==Розумієте?==; *Vedete!* → ==Бачите!==; *Orsù* → ==Ну що ж==; *Dio lo sa* → ==Бог знає==; *Che differenza!* → ==Яка різниця!==; *mille grazie* → ==тисячу подяк==; *a mezza voce* → ==упівголоса==; *Delectabile tempus* → ==Солодка пора==; *i.e.* → ==тобто==. Miserere stays ==Змилуйся== (the worker's «Помилуй» in 051/1875-12-28 and 12-30 aligned). Naturalised, plain, original in a footnote: «ростбіф» (*roastbeef*), «фліртуємо» (*flirtons*), «палаццо» (*palazzo*).
 - Italian Dante-style (A moi veniva la creatura bella. Di bianco vestita): Ukrainian rendering in the text (==…==), Italian → footnote; later in-text echo "di bianco vestita" → Ukrainian ==вбрана в біле==, no second footnote
 - French song/opera titles: titles of works — Ukrainian title in the text with French title in the footnote: "Ma belle Girofla" (Lecocq operetta), «Річард Левине Серце» (Grétry, *Richard Cœur de Lion*)
@@ -1676,7 +1672,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 - English code-switches (Audiffret cares for me only as much as 1 care for him → ==Одіффре любить мене рівно настільки, наскільки я люблю його==; what is the matter? → ==що сталося?==): Ukrainian in the text, English → footnote; the footnote quotes the source "1 care" as printed, with «так у тексті» (CON 2026-10-03; no silent restoration)
 - Latin tags as used in 036/1875-07-11 (CON 2026-10-03, replaces the coined proposals): scd fidcs deficit → ==але довіри бракує== (footnote: «scd fidcs deficit» (так у тексті; мабуть, «sed fides deficit»)); Quid melior ? → ==Що може бути ліпше?==; Audacter et amanter → ==Сміливо й любовно== (but kept Latin where Marie glosses it herself, 032/1875-05-09 — see the 032 rows). SUPERSEDED for mottoes 2026-10-03 (CON uk 052–054, lead ruling): motto stays Latin in italics, «Сміливо й любовно» in the footnote; 053/01-25 spells it *Audacer* (footnote: так у тексті; мабуть, *Audacter*)
 - Audiffret's cut-off "une déclar... [sic]" → «деклар…» in the text; the [sic] moved into a footnote quoting her French (part D, CON 2026-10-03)
-- London House (Nice restaurant-hotel): establishment name, plain «London House» in Latin script and guillemets, never ==…== (names are not highlighted runs; CON 2026-10-03, settles the UNSURE)
+- London House (Nice restaurant-hotel): establishment name, plain «London House» in Latin script and guillemets, never ==…== (names are not highlighted runs; CON 2026-10-03; confirmed, owner A-23, 2026-11-10 (b))
 - comme il faut → ==пристойний==, French → footnote (KRR 2026-10-03)
 - "déclar... [sic]": Audiffret's cut-off "déclaration" → "деклар… [sic]"; the [sic] attaches to the French slip
 - Manuscript footnote marker "^1^" (content unknown): preserve as superscript ¹ in the Ukrainian text
@@ -1704,7 +1700,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 #### Period Vocabulary & Idioms (Carnet 040)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| marechal de noblesse | ватажок дворянства | Marshal of nobility (reconfirmed) |
+| marechal de noblesse | предводитель дворянства | Marshal of nobility (owner A-19 (4), 2026-11-10; was «ватажок дворянства») |
 | ispravnik | справник | District police chief (Imperial Russia) |
 | particule | дворянська частка «de» | The nobiliary particle |
 | pays de saucissons | ковбасний край | "Sausage country" — Marie's derisive epithet for Germany |
@@ -1755,8 +1751,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 #### Multilingual Conventions (Carnet 061)
 - "hamiltonnement" → "гамільтоново" (coined adverb; do NOT translate literally as "по-гамільтонськи" which is clumsier)
 - Latin epigraph (Publius Syrus): Ukrainian in the text; Latin + attribution in the footnote (KRR 2026-10-03)
-- Marie's English cipher at carnet close: H[is] G[race] t[he] D[uke] of[f] H[amilton] — code abbreviation kept (see cipher row; UNSURE); if spelled out: ==Його Світлість герцог Гамільтон==
-- Word-list "Mari, femme, duc, amour, Gioia *" — Ukrainian in the text (==Марі, дружина, герцог, любов, Радість *==), footnote explains "Gioia" = радість (іт.) and the cryptic mnemonic; was: "preserve as French/Italian without translation" (UNSURE: the word-list is cryptic, owner may want Gioia kept as the name)
+- Word-list "Mari, femme, duc, amour, Gioia *" (061.0294) → «Чоловік, дружина, герцог, кохання, Джоя *.»: *Gioia* is the name (TM Gioia = Джоя, as in 063.0126/0140); the meaning «радість» (іт.) and the edition's asterisk (index of nicknames, *Mon Journal* t. 8) are explained in the footnote. Owner ruling A-23 (e), 2026-11-10
 - Cagliostro reference: keep name + footnote on first occurrence per carnet
 - "le Surprenant*" asterisk: always include the asterisk (it's Marie's own code-name marker)
 - "les prêtres" (referring to Antonelli clerical family): translate as «священики»/«ці священики» — NOT as «єзуїти»
@@ -1796,7 +1791,6 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 ### Carnet 063 Multilingual Conventions
 - "Caccia-Club" — Italian club name; keep as-is (no translation)
 - "Gloriae cupiditate" (Livre 64 title page, withdrawn in the 2026-09 rebuild) — ==З жадоби слави==, Latin → footnote. STALE (CON uk 061–063, 2026-10-03): no such paragraph in uk/063 after the rebuild (grep: 0 hits); the motto row (Latin italics + footnote) governs.
-- "[His] Grace [the] D[uke] of H[amilton]" (Livre 64 title page, withdrawn in the 2026-09 rebuild) — abbreviated English cipher; code abbreviation kept (UNSURE), full form explained in the footnote
 - "[mots rayés]" / "[deux mots rayés]" — manuscript crossed-out words: render as "[слова закреслено]" / "[два слова закреслено]"
 - Manuscript "Pietro*" asterisk — Marie's own code-marker; always preserve
 - "Santa Fé" — Marie's pseudonym for herself in Pietro correspondence; keep in Spanish (established carnet 062)
@@ -1852,7 +1846,7 @@ Marie travels from the Tarnovsky estate to her father's estate at Gavronci and t
 ### Key Terms & Idioms (Carnet 065)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| gommeux / la gomme | ==фертик== / ==фертики== (collective *la gomme*) | 1870s slang fop/dandy. **Ruling (2026-10-03, CON)**: gommeux → «фертик» (same word as gandin → фертик, row in Key Terms), `==…==` where the French was still in the text, French in a footnote at the first occurrence per entry; already-translated «фертик» (066, 071, 084, 092…) stays unhighlighted per the ED default. Corpus grep of visible uk text: «фертик» in 20 files (004–105); French *gommeux* left visible only in the 065/1876-08-20 pun block. **Exception, metalinguistic**: where Marie discusses the word itself (065.0090 «повторює слово», 065.0093–0096 gommeux←gomme, transparency pun) *gommeux*/*gomme* stay French in italics, no highlight, the pun explained in footnote 065.93.1 (which also points back to «фертик»). Supersedes the "UNSURE, 065 pilot form stands" note. |
+| gommeux / la gomme | ==фертик== / ==фертики== (collective *la gomme*) | 1870s slang fop/dandy. **Ruling (2026-10-03, CON)**: gommeux → «фертик» (same word as gandin → фертик, row in Key Terms), `==…==` where the French was still in the text, French in a footnote at the first occurrence per entry; already-translated «фертик» (066, 071, 084, 092…) stays unhighlighted per the ED default. Corpus grep of visible uk text: «фертик» in 20 files (004–105); French *gommeux* left visible only in the 065/1876-08-20 pun block. **Exception, metalinguistic**: where Marie discusses the word itself (065.0090 «повторює слово», 065.0093–0096 gommeux←gomme, transparency pun) *gommeux*/*gomme* stay French in italics, no highlight, the pun explained in footnote 065.93.1 (which also points back to «фертик»). Supersedes the earlier "065 pilot form stands" note. |
 | Petite-Russie / petit-russien | Малоросія / малоросійською | Period imperial term for Ukraine; footnote on first use |
 | hetman / sceptre du hetman | гетьман / гетьманська булава | Cossack ruler; "sceptre"→«булава» |
 | Troisième Section | Третій відділ | Tsarist secret police; footnote |
@@ -1861,7 +1855,7 @@ Marie travels from the Tarnovsky estate to her father's estate at Gavronci and t
 | Lady Mary Montagu (Hamilton's bride) | леді Мері Монтегю | Ruling (2026-10-03, CON): grep before ruling: Монтегю 13, Монтаґю/Монтаґ'ю 3 (014 ×2 fixed; 015/1874-01-04 ×1 remains, outside the 012–014 batch). |
 | drochki-de course | бігові дрожки | Racing droshky; footnote |
 | chevaux isabelle | коні масті ізабела | Pale-cream horse colour; footnote |
-| maréchal de noblesse | ватажок дворянства | (per TM 023) |
+| maréchal de noblesse | предводитель дворянства | (per TM 023; owner A-19 (4), 2026-11-10) |
 | jeunesse dorée | золота молодь | Gilded youth |
 | philoslave | філослов'янин | Pan-Slavist; footnote |
 | se tenait à quatre | зі шкури пнувся, аби | Idiom: restrained himself with effort |
@@ -1928,10 +1922,10 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 | comme le naufragé s'accroche à un brin de paille | як потопельник хапається за соломинку | Idiom of desperate attachment |
 | faire de trou dans l'eau | бити повітря | Idiom: to strive in vain |
 | vieux style | старого стилю | Julian calendar; footnote |
-| Skating / Skating-rink / rink (English) | ==ковзанка== / ==роликова ковзанка== | English code-switch throughout; Ukrainian in the text, English → footnote on first use per file (KRR 2026-10-03) |
+| Skating / Skating-rink / rink (English) | «Skating» / «Skating-rink» (venue name, Latin script, guillemets) | Owner A-02 (2026-10-05) and A-58 (2) (2026-11-10): a venue name like «London House», not translated; supersedes ==ковзанка== / ==роликова ковзанка== of 2026-10-03 |
 
 ### Conventions (Carnet 068)
-- "II" / "I!" — Marie's double-bar emphasis punctuation: preserved as-is.
+- "I!" / "II" in the source are OCR slips for «!!» → render «!!» (owner A-19 (8), 2026-11-10; the source is corrected under C-18).
 - "fichu-" prefix («fichu-père», «fichu-coquin») → «осоружний-/клятий-» (per TM 065 «клятий-»).
 - French acrostic on "ÉMILE" (068.0396-0157) + Girofla Serbia song (068.0403-0163): the acrostic is metalinguistic — Ukrainian gloss in the text, French acrostic kept in the footnote (first-letters untranslatable); the comic song rendered as Ukrainian verse (Marie's own French joke, not a code-switch).
 - Italian code-switches (Pietro reproaches, train-station, fake telegram) and Latin («Culpa mea» → ==Моя вина==, «Dubium…» → ==Сумнів, ілюзія, обман, утиск==) → Ukrainian in `==…==`, original → footnote (KRR 2026-10-03).
@@ -1974,7 +1968,7 @@ Continuation of the father-reunion stay at Gavronci, Poltava social rounds, the 
 | Gritz/Grof homophone ruse | Гриць / Ґроф | «Ґроф» = рос. граф; footnote explains the homophonic deception (09-16) |
 
 ### Multilingual / Manuscript (Carnet 066)
-- Latin tags (Lacrymosa → ==День сліз==, O rus → ==О село==, Audaces fortuna juvat → ==Сміливцям доля помагає==, Et lacryma et riou [corrupted], al paterno tetto [Italian] → ==до батьківської домівки==, expectation [English] → ==очікування==): Ukrainian in `==…==`, original → footnote (UNSURE on the corrupted tag).
+- Latin tags (Lacrymosa → ==День сліз==, O rus → ==О село==, Audaces fortuna juvat → ==Сміливцям доля помагає==, Et lacryma et riou [corrupted] → ==І сльози, і сміх== (066.0427), al paterno tetto [Italian] → ==до батьківської домівки==, expectation [English] → ==очікування==): Ukrainian in `==…==`, original → footnote (confirmed, owner A-23, 2026-11-10 (d)).
 - CON 2026-10-03 (reading-conventions review 064–066): *Audaces fortuna juvat* (066.0653) is a classical proverb, not a heraldic motto whose point is its wording, so it is translated (==Сміливцям доля помагає==, Latin → footnote) like the other Latin mottoes in this TM (Gloriae cupiditate, mulier habuit); only Garter-type mottoes (*Honni soit*, *ich dien*) wait for the owner. Requiem/Mass movement names (*Lacrymosa* 065.0317, *Agnus Dei* 064.0022, cf. 069) are titles without an established Ukrainian form: Latin in italics, gloss in the footnote («Лакримоза» is the Russian spelling, not used). *Quel miser !* (064.0649): kept as written in italics with an explanatory footnote, as in en; Latin "wretch" and English "miser" both fit and translating would force one reading. Translated titles with no established Ukrainian form reverted to the original + gloss: *Un mariage dans le monde* (064.0327), *Le Ruisseau* (065.0337), *Le secret du chevalier de Medrane* (066.0573).
 - Manuscript `<u>…</u>` HTML underline straddling a word boundary (source `<u>Vierge porte ma</u>lheur`) → preserved verbatim as `<u>Богородиця приносить не</u>щастя` (09-27). Triggers a benign latin-in-cyr WARN; source-faithful, leave it.
 - Markers [замазано:]/[Викреслено:]/[На полях:]/[Навскоси:]/[Угорі сторінки:]/[sic] all preserved.
@@ -2009,7 +2003,7 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 ### Period Vocabulary & Idioms (Carnet 067)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Skating-rink / Skating (Cercle de la Méditerranée) | ковзанка / ролердром | English code-switch → Ukrainian in the text, English → footnote on first use (067.1490); roller-skating 1870s craze. «Середземноморський клуб» for the Cercle |
+| Skating-rink / Skating (Cercle de la Méditerranée) | «Skating-rink» / «Skating» | Venue name in Latin script (owner A-02, A-58 (2) 2026-11-10; supersedes ковзанка / ролердром) (067.1490); roller-skating 1870s craze. «Середземноморський клуб» for the Cercle |
 | fichus-ignorants (Marie's coinage) | кляті-невігласи | per «fichu-»→«клятий-» convention (065/066) |
 | le Goloss (Russian newspaper) | «Голос» | St. Petersburg liberal paper; Russ. голос = voice |
 | Golova / Douma (Russian) | голова / дума | mayor / city-hall; Marie's linguistic aside, gloss kept |
@@ -2030,7 +2024,7 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 | Tite-Live | Тіт Лівій | Livy; Marie compares him to «Александр Дюма» (the NOVELIST — Russified-form Dumas is CORRECT here, NOT the uncle «Олександр») |
 
 ### Code-Switches / Manuscript (Carnet 067)
-- Latin/Italian tags (Via e al diavolo → ==Геть, до біса!==, Chi lo sa? → ==Хто зна?==, Est socia mortis homini vita ingloria → ==Життя без слави — супутниця смерті для людини== (UNSURE), Tu quoque? → ==І ти?==, Agnus Dei → ==Агнче Божий==) → Ukrainian in `==…==`, original → footnote (KRR 2026-10-03).
+- Latin/Italian tags (Via e al diavolo → ==Геть, до біса!==, Chi lo sa? → ==Хто зна?==, Est socia mortis homini vita ingloria → ==Життя без слави — супутниця смерті для людини== (owner A-23, 2026-11-10 (d)), Tu quoque? → ==І ти?==, Agnus Dei → ==Агнче Божий==) → Ukrainian in `==…==`, original → footnote (KRR 2026-10-03).
 - Marie's own FRENCH verses (the "veux savoir l'amour" quatrain 067.1106, the "Partant pour la Serbie" parody 067.1213, the Offenbach Belle-Hélène refrain) → rendered as Ukrainian VERSE (her own jokes, not foreign code-switches).
 - Markers [зачорнені слова:] (Mots noircis), [викреслено:]/[Викреслені слова], [На полях:], [Навскоси:] all preserved.
 - Marie's own misdated double headings on merged entries (e.g. 067.1229 «# Неділя»/«## Субота», 067.1267 «# Понеділок»/«## Неділя») — source-faithful, preserve both.
@@ -2075,7 +2069,7 @@ Continuation of Book 10 from carnet 068: Marie, ~18, stranded in Naples in Lent,
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | cocotte | кокотка | (per 018) kept woman/courtesan; central social-terror motif this carnet |
-| Skating / Veglione | ==ковзанка== / ==бал-маскарад== | English/Italian code-switches → Ukrainian in the text, original → footnote (per 068, KRR 2026-10-03) |
+| Skating / Veglione | «Skating» / ==бал-маскарад== | *Skating* = venue name in Latin script (owner A-02, A-58 (2) 2026-11-10); Italian *Veglione* → Ukrainian in the text, original → footnote (per 068, KRR 2026-10-03) |
 | charcutiers (Germans) | ковбасники | Marie's pejorative for Germans/Prussians (Doenhoff's party) |
 | table d'hôte | за загальним столом | (per 022/068) |
 | s'encanaille | братається з наволоччю | debases himself with low company |
@@ -2085,7 +2079,7 @@ Continuation of Book 10 from carnet 068: Marie, ~18, stranded in Naples in Lent,
 | brûler ses vaisseaux | спалити свої кораблі | idiom: commit irrevocably |
 | la Fatalité / fataliste | Фатум / фаталістка | Romantic "Fate" capitalized |
 | gettatura | ==наврочення== | Neapolitan evil-eye; Ukrainian in the text, Italian → footnote |
-| rara avis | ==рідкісний птах== | Latin "rare bird" (Juvenal) — Ukrainian in the text, Latin → footnote (UNSURE: *rara avis* is also naturalised) |
+| rara avis | ==рідкісний птах== (in the text: ==рідкісного птаха==, 053.0241, 069.0199) | Latin "rare bird" (Juvenal) — Ukrainian in the text, Latin → footnote (owner A-23, 2026-11-10 (d)) |
 | fichu docteur | клятий доктор | per «fichu-»→«клятий-» convention (065/066) |
 | trente-six (mots/morceaux) | безліч / сила | idiom "thirty-six" = "very many" (per 067), NOT literal |
 | par excellence | понад усе | (per 023) |
@@ -2107,10 +2101,10 @@ Continuation of Book 10 from carnet 068: Marie, ~18, stranded in Naples in Lent,
 ### Conventions (Carnet 069)
 - Italian dialogue/quotes (the mandoline-teacher exchange 0315–0323, the invented poster 0170, Melissano's "Per grazia…" 0480, the invitation 0283-0284, name-cards 0466) → Ukrainian in `==…==`, Italian → footnote each (KRR 2026-10-03; whole paragraphs: run note «Італійською в оригіналі»).
 - Latin tags (rara avis → ==рідкісний птах==, Dubium…Oppresio → ==Сумнів, ілюзія, обман, утиск==, Gloriae Cupiditate → ==З жадоби слави==) → Ukrainian in `==…==`, Latin → footnote.
-- English code-switches (Skating → ==ковзанка==, comfortable → ==зручно==) → Ukrainian in `==…==`, English → footnote. **Ruling (2026-10-03, CON uk 067–069): *riding-hot* → ==верховий капелюх==** (069/02-26, «з моїм ==верховим капелюхом==»), Marie's spelling «riding-hot» + *riding hat* in the footnote; replaces the UNSURE coinage ==райдинг-гарячий== (it read a «hot» pun into a spelling slip). Grep before ruling: _original *riding-hot* 1 occurrence (069.0047, + its footnote); uk 1 (==райдинг-гарячим==), 0 left after. «верховий» as in «верховий костюм» (habit de cheval). *skatinant* [sic] (Dina's French verb built on English *skating*, 069/03-29): not a code-switch — italic Ukrainian coinage *скейтуючи*, French form + [sic] in the footnote (cf. uk 077 *skatiner*). *principino* (069/03-28 «Mon *principino*», of Melissano) → ==княжич== + Italian in the footnote (same as uk 066; a mocking common noun, not a name). *Violet* (069/03-24 «ce détestable Violet», Larderel): code name — Latin script as in 072, italics + explanatory footnote, never ==…== (CON uk 067–069). Titles in 068: *Rigoletto* → «Ріголетто», *La fille de Madame Angot* → «Дочка мадам Анго» (tree forms), *La Créole* and *Les Guaranis* kept in italics with gloss («Креолка», «Гуарані») (CON uk 067–069).
+- English code-switches (comfortable → ==зручно==; *Skating* is a venue name in Latin script, see the «Skating / Skating-rink» row, owner A-02 / A-58 (2)) → Ukrainian in `==…==`, English → footnote. **Ruling (2026-10-03, CON uk 067–069): *riding-hot* → ==верховий капелюх==** (069/02-26, «з моїм ==верховим капелюхом==»), Marie's spelling «riding-hot» + *riding hat* in the footnote; replaces the coinage ==райдинг-гарячий== (it read a «hot» pun into a spelling slip). Grep before ruling: _original *riding-hot* 1 occurrence (069.0047, + its footnote); uk 1 (==райдинг-гарячим==), 0 left after. «верховий» as in «верховий костюм» (habit de cheval). *skatinant* [sic] (Dina's French verb built on English *skating*, 069/03-29): not a code-switch — italic Ukrainian coinage *скейтуючи*, French form + [sic] in the footnote (cf. uk 077 *skatiner*). *principino* (069/03-28 «Mon *principino*», of Melissano) → ==княжич== + Italian in the footnote (same as uk 066; a mocking common noun, not a name). *Violet* (069/03-24 «ce détestable Violet», Larderel): code name — Latin script as in 072, italics + explanatory footnote, never ==…== (CON uk 067–069). Titles in 068: *Rigoletto* → «Ріголетто», *La fille de Madame Angot* → «Дочка мадам Анго» (tree forms), *La Créole* and *Les Guaranis* kept in italics with gloss («Креолка», «Гуарані») (CON uk 067–069).
 - Markers [Викреслено:]/[Закреслено:]/[Слова зачорнено:]/[На полях:]/[Навскоси:]/[sic] all preserved per established conventions.
 - HTML `<u>…</u>` underline straddling a word boundary (0513 source `<u>et retombée dix</u>`) preserved verbatim as `<u>й знову падала десять</u>` (per 066 precedent).
-- Marie's «II»/«I!» double-bar emphasis punctuation and «!!»/«!!!»/«?!!!» runs preserved as-is.
+- «II»/«I!» in the source = OCR for «!!» → render «!!» (owner A-19 (8), 2026-11-10); Marie's own «!!»/«!!!»/«?!!!» runs preserved as-is.
 - Mme Bashkirtseff's later marginal annotation («Elle était… poitrinaire», 0448) → «…сухотна» (Рукою пані Башкирцевої); source-faithful editorial note.
 - Source-internal repeats (0145/0181, 0174/0182, 0439/0450, 0464/0495, 0157 date-heading) are Marie's own repetitions — kept, not deduplicated.
 
@@ -2243,7 +2237,7 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | sérail / ennuque | сераль / євнух | harem joke (071.0542) |
 | la queue basse | з опущеним хвостом | per TM 019 |
 | poteau d'infamie | ганебний стовп | idiom of humiliation |
-| Buon Diou dé Diou | ==Добрий Боже, Боже!== (UNSURE; coined) | Niçois dialect oath (071.0582); Ukrainian in the text, Niçois → footnote |
+| Buon Diou dé Diou | ==Добрий Боже, Боже!== | Niçois dialect oath (071.0582); Ukrainian in the text, Niçois → footnote (owner A-23, 2026-11-10 (d); the optional smoothing ==Боже ж мій, Боже!== was not applied) |
 | Rossignol (Nice festival) | «Соловей» (no ==) | Nice lantern street-festival — a festival NAME → names rule: translated name in quotes, no highlight, *Rossignol* + gloss in the footnote. **Ruling (2026-10-03, CON uk 070–072)**, consistent with the *Rossignol che vola* nickname/prize ruling (CON uk 046–048, 052–054); applied 071/1877-06-03 (only occurrence of the fête in uk visible text). |
 | Directoire (style) | у стилі Директорії | 1795–99 neoclassical fashion; footnote |
 | en bédouin | у бедуїнці | hooded informal robe; footnote |
@@ -2611,7 +2605,7 @@ rastaquouère→«вискочень»; faire une fin→«влаштувати �
 ### Works (Carnet 103)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Nausicaa / Un Meeting (les gamins) / Le Soir | Навсікая / «Збори» / «Вечір» | Marie's planned/Salon paintings |
+| Nausicaa / Un Meeting (les gamins) / Le Soir | Навсікая / «Мітинг» / «Вечір» | Marie's planned/Salon paintings. *Un Meeting* → «Мітинг» (owner A-19 (5), 2026-11-10; was «Збори», once «Зустріч»), masculine, declined («Мітингу»); generic «збори» (meetings, 084, 102) unaffected |
 | Jeanne d'Arc / Les blés / Bergers de Bethléem | «Жанна д'Арк» / «Жнива» / «Пастухи у Вифлеємі» | Bastien-Lepage |
 ### Period vocabulary & idioms (Carnet 103)
 | French | Ukrainian | Notes |
@@ -2642,7 +2636,7 @@ Surfaced by the consolidation pass; **decided canon** + which committed carnets 
 | **bouillir / fournaise** vs **rager/rage** | bouillir/fournaise → «вирувати / казан-горнило» (energy); rager/rage → «лютувати/лють» (anger) | two false friends; keep separate |
 | **le père X / le vieux X** (familiar) | «батечко X» (ironic-affectionate) / «старий X» | NOT «отець» (priest) unless clergy |
 | **mention (honorable)** (Salon award, 1883) | **«(почесна) відзнака»**; *les mentionnés* → «ті, хто дістав відзнаку» | **Ruling (2026-10-03, CON)**, split wave 2. Grep 098–106 non-comment lines: «відзнак-» ~28× (099 ×23, 102/104 ×5) vs «згадк-» in the award sense 9×. «згадка» reads as "a reference/remark", a calque of *mention*. Fixed: 100/05-28 (0024), 100/06-18 (0177). **Swept 2026-10-03 (wave-uk, Opus) — done:** 100/05-30 «вітають мене зі згадкою», 100/06-17 ×2, 100/06-22 «дістав згадку», 100/07-17 «жалюгідну згадку», 102/11-22 «почесну згадку», 098/01-30 footnote 098.0218.1 «почесною згадкою». |
-| **amour-pur** (100.0350, Marie's Stendhal quote) | «укол чистої любові» — rendered as the source reads | **Ruling (2026-10-03, owner via lead)**: rendered as written pending a scan check by fix-source (likely OCR/transcription slip for *amour-propre*). The earlier «самолюбство» reading (CON, same day) is withdrawn: we never silently emend the source. 100.0354, where the French really has *amour-propre*, keeps «укол самолюбства». |
+| **amour-pur** (100.0350, Marie's Stendhal quote) | «уколом чистої любові» — as Marie wrote it, with footnote [^100.0350.1] | **Owner ruling A-20 (3), 2026-11-10** (supersedes the 2026-10-03 "pending scan check"): keep the literal rendering and say in the footnote that Stendhal (*De l'amour*, ch. X) has *amour-propre*, which Marie writes herself in 100.0354 («укол самолюбства»). cz and en emend; uk does not. |
 
 ### Updated
 - 2026-06-14: UK frontier wave 084–103 consolidated (15 carnets, UK corpus now 100% complete). See `.claude/reports/2026-06-14-uk-084-103.md`.
@@ -2722,3 +2716,20 @@ Counted over the visible text of content/uk (every case form; comments and link 
 - **Empty-day stub** (A-08): one form **[Запису за цю дату немає]** (36 variants unified in 086, 091–093).
 - **Straight quotes** (A-14): fixed in the files — «…», nested „…“.
 
+
+
+## OWNER rulings 2026-11-10 (OPEN-ITEMS A-19…A-23, A-58, A-62) — LOCKED
+
+Owner accepted every recommendation in `.claude/reports/A-decisions-2026-11-10.md` (block "A-recs-uk") and ruled the taste items. Rows rewritten in place above: Tanlay (A-58 (1)), Skating (A-58 (2)), maréchal de noblesse (A-19 (4)), Un Meeting (A-19 (5)), centenaire (A-19 (7)), «!!» (A-19 (8)), amour-pur (A-20 (3)), all former UNSURE rows (A-23).
+
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| au premier (étage) | **на другому поверсі** | A-19 (1): Ukrainian floor count — «перший поверх» is the ground floor. 4 places fixed (017.0034, 020.0532, 023.0231, 089.0469); RED 2026-11-10 fixed 10 more the count had missed (016.0346, 023.0085, 044.0058, 044.0141, 060.0679, 064.0533, 069.0106, 075.0096, 078.0391, 095.0214). Higher floors (*au second*, *troisième*, *cinquième*) are still mixed in the tree, French count in most places: open item, not swept. Theatre «premier rang / premières loges» keeps «перший ярус». cz keeps its own count (Czech = French). |
+| déjeuner / dîner / souper | «сніданок» / «обід» / «вечеря» | A-19 (2): rule recorded; no mechanical sweep; only collisions get fixed — still open: 012.0207 (both meals read «обідати») and the 103 case named in A-19 (2). |
+| messe | «меса» only for Catholic services; Orthodox → «служба» / «літургія» / «відправа»; memorial → «панахида» | A-19 (3): judged per context. 2026-11-10: 039, 059, 079 (×3), 098 (×2), 104, plus 019.0340, 056.0321, 056.0592, 058.0079, 082.0262. RED review 2026-11-10 added the Orthodox places the sweep missed: 018.0225, 018.0229, 019.0304, 024.0033 («на Службу Божу»), 030.0122, 032.0002, 033.0024 and 045.0464 («замовити службу», as 098.0178), 056.0454, 058.0080 («літургія»), 082.0313 («панахида»), 103.0542. Left as «меса» because the context is Catholic or unclear: 082.0141 (15 August, Soden), 082.0328 (8 September), 076.0421 («Grande messe», Paris Sunday), 079/1878-03-24 (La Madeleine); figurative «співати похоронну месу» (009.0257, 010.0278) and Requiem music stay. Titles («Меса» Верді) unaffected. |
+| Novoïé Vrémia (newspaper) | «Новое время» (declined: «Нового времени») | A-19 (6): Russian periodical titles stay in the original. |
+| sapristi / sacristi | «Хай йому грець!» / «Чорт забирай!» / «Сто чортів!» — by context | A-22 (2): register kept, no lock; «Сто чортів!» (079–105) stays where it stands. |
+| babouche (orientale) | «(східна) пантофля» | A-22 (4): 105/1884-09-05; not «бабуша» (misread as «бабуся»). |
+| excusez du peu | нічого собі | A-22 (1): the row above stands; «жарт сказати» (a calque of Russian *шутка ли сказать*) was dropped from uk/CLAUDE.md. |
+| sale Juif (098.0356) | «брудний жид» + the existing note | A-20 (2): owner keeps the register split of the 2435 row (insult = «жид», neutral = «єврей»). |
+| Tchernitsky / Tchernisky | Черницька / Черниська — per occurrence | A-62: as Marie writes it (row in the A-18 section stands). |
