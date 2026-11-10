@@ -257,12 +257,10 @@ The remaining scripts below are run by hand, not by the harness.
 
 ```
 src/scripts/hooks/
-├── pre-session.ts        # Show work status — NOT registered; run manually
 ├── guard-git.ts          # Block working-tree-destroying git (PreToolUse/Bash)
 ├── post-edit.ts          # Update README and detect source changes after edits
 ├── validate-write.ts     # Warn on malformed diary files (PostToolUse)
 ├── session-end.ts        # End-of-session cleanup (Stop)
-├── bootstrap-readmes.ts  # Create missing README/PROGRESS files (manual)
 ├── init-source-hashes.ts # Initialize source hashes for sync (manual)
 └── lib/
     ├── readme-parser.ts  # Parse/update README.md files

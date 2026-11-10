@@ -4,6 +4,8 @@
 
 **Hard invariants** (the parser and the gate depend on them): the paragraph ID is the first line of the cluster; no blank lines inside a cluster; one blank line between clusters; every `%% … %%` comment on its own line with nothing outside it; visible text never inside a comment line.
 
+**Canonical cluster order (owner decision A-45, 2026-11-10):** for new tools (scaffolders, sync, importers) the order is ID → French (comment in translation trees, visible in `_original`) → glossary tags and RSR/LAN/other notes → translation prose, i.e. the `just scaffold` order the corpus actually uses. `docs/FORMAT.md` §3 is the external profile's nominal order and is a read-only mirror of the `tmd` spec; Bashkirtseff-specific rules live here, not there. Never reorder existing clusters to match either order. Footnote IDs: `[^CCC.PPPP.N]` is canonical for new footnotes (cz ≈ 5,900 dotted vs 260 plain); old plain `[^1]` IDs stay.
+
 **Order tolerance:** between the ID and the visible text, the parser accepts tags, annotations and the embedded French in any order. Hand-written clusters use the order shown below; `just scaffold` emits ID → French → tags/notes → `TODO`, which is also valid. **Do not reorder existing clusters to "fix" the order** — it churns thousands of files for no reader-visible gain. Which order is canonical for new tooling is an open owner decision.
 
 ## Paragraph ID Format

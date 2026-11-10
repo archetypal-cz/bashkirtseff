@@ -103,7 +103,7 @@ Definition right after the paragraph that references it, separated by a blank li
 
 Multiple footnotes in the same paragraph increment the last number: `[^015.0119.1]`, `[^015.0119.2]`.
 
-Older carnets carry a legacy unpadded form (`[^15.119.1]`, or EN's `[^fn047-034]`); leave existing IDs alone — an entry's references and definitions just need to match each other — but write NEW footnotes in the padded form above. (The ID scheme is still an open WATCHLIST item — the corpus mostly uses plain `[^1]`, and `format-profile.yaml` does not yet admit the padded form; what the gate requires is that every ID is unique in its file and has exactly one definition and at least one reference.)
+Older carnets carry a legacy unpadded form (`[^15.119.1]`, or EN's `[^fn047-034]`); leave existing IDs alone — an entry's references and definitions just need to match each other — but write NEW footnotes in the padded form above. `[^CCC.PPPP.N]` is the canonical scheme for new footnotes (decision A-45); the corpus already mostly uses it (cz about 5,900 dotted vs 260 plain `[^1]`; `_original` about 1,800 dotted vs 1,915 plain), and old IDs stay as they are. `format-profile.yaml` still does not admit the padded form (its regex fix is tracked separately); what the gate requires is that every ID is unique in its file and has exactly one definition and at least one reference.)
 
 <!-- Teamcouch update 2026-09-07: source-fact corrections propagate to every tree in the same commit.
      Evidence: 2026-05-31-glossary-link-cleanup (tags needed a separate propagation pass), 2026-06-17

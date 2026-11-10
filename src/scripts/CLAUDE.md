@@ -9,11 +9,9 @@ scripts/
 ├── CLAUDE.md                        # This file
 │
 ├── hooks/                           # Claude Code hooks
-│   ├── pre-session.ts               # Session start
 │   ├── post-edit.ts                 # After file edits
 │   ├── session-end.ts               # Session end
 │   ├── validate-write.ts            # Write validation
-│   ├── bootstrap-readmes.ts         # Bootstrap README files
 │   ├── init-source-hashes.ts        # Initialize source hashes
 │   └── lib/                         # Shared hook utilities
 │       ├── config.ts
@@ -79,7 +77,7 @@ Gates and checks (run via `just`, see the justfile):
 
 Fixers and sync helpers:
 
-- `fix_marker_shapes.py`, `fix-inline-comments.py`, `fix-midline-paragraph-ids.ts` — repair `%%` marker shapes / mid-line comments and IDs
+- `fix_marker_shapes.py` — repair `%%` marker shapes (the older `fix-inline-comments.py` and `fix-midline-paragraph-ids.ts` are in `_archive/`)
 - `resync-embedded-french.ts` — restore the embedded French copy in translations from `_original`
 - `normalize_uk_frontmatter.py`, `backfill_fr_frontmatter.py` — frontmatter normalisation
 - `harvest_footnotes.py` — harvest reader footnotes from a translation into `_original` (`just harvest-footnotes`)
@@ -90,7 +88,7 @@ Glossary tags:
 - `dump_tag_audit.py` / `apply_tag_audit.py` — per-paragraph tag audit (`just tag-audit-dump` / `tag-audit-apply`)
 - `tag_lib.py`, `tag_reconcile.py`, `tag_sync.py`, `propagate_glossary_tag.py` — make translation tag sets match `_original`
 - `glossary_resolve.py`, `remap_broken_glossary_links.py` — repair broken glossary links
-- `merges.txt` — batch file for `glossary-merge.ts batch-merge`
+- `_archive/` — retired scripts, hooks, `experiments/` and `merges.txt`; see its README
 
 Site and misc:
 

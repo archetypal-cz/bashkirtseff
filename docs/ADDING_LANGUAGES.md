@@ -275,11 +275,9 @@ None of these fail loudly for an unknown code; they simply skip it. Extend every
 | File | What |
 |------|------|
 | `project-status.ts:217` | `['cz','en','uk','fr']` |
-| `fix-midline-paragraph-ids.ts:35` | `TRANSLATION_DIRS` |
-| `check_links_repo.py` (`TREES`, ~line 51), `check_comment_structure.py` (`TREES`, ~line 44), `fix-inline-comments.py:29` | `TREES` — all three already list `es` |
+| `check_links_repo.py` (`TREES`, ~line 51), `check_comment_structure.py` (`TREES`, ~line 44) | `TREES` — all three already list `es` |
 | `propagate_glossary_tag.py:32` | `--langs` default — already `cz,uk,en,fr,es` |
 | `glossary-migrate-flat.ts:189` | `langDirs` — already lists `es` (`glossary-dedup.ts` no longer carries its own list) |
-| `hooks/bootstrap-readmes.ts:129` | language-name map — cz/uk/en/fr/es present |
 | `verify-carnet.ts` (`CYRILLIC_LANGS`, ~line 72) | only for Cyrillic targets |
 
 **Justfile** — `default_lang := "cz"` (line 8) and the `translate/review/conduct/pipeline` recipes default `lang="cz"`; the comment "ALL five trees" near `check-links-repo` and the help examples (~758-761) enumerate languages. No validation of the `lang` argument.
@@ -313,7 +311,7 @@ Do not schedule a wave on a fresh language. Pick one small early carnet with RSR
 - [ ] `content/{lang}/PROGRESS.md` (all zeros + pilot plan) and `content/{lang}/TranslationMemory.md` (policy seed rows)
 - [ ] `just scaffold NNN -l {lang} --dry-run` shows the expected file count, no errors
 - [ ] Shared: `TRANSLATION_DIRS`, `detectLanguage()`, `LANGUAGE_DIRS`
-- [ ] Scripts: `project-status.ts`, `fix-midline-paragraph-ids.ts`, the three Python `TREES`, `propagate_glossary_tag.py`, `glossary-dedup.ts`, `glossary-migrate-flat.ts`, `hooks/bootstrap-readmes.ts`
+- [ ] Scripts: `project-status.ts`, the three Python `TREES`, `propagate_glossary_tag.py`, `glossary-dedup.ts`, `glossary-migrate-flat.ts`
 - [ ] Justfile comments/help examples; decide whether `default_lang` stays `cz`
 - [ ] Skills: `opus-editor`, `report-triage`, `glossary`, `workflow-architect`, `executive-director` plateaus, `frontend-dev`; legacy `.claude/agents/*.md`
 - [ ] Docs: root `CLAUDE.md`, `README.md`, `content/CLAUDE.md`, `content/Style.md`, `src/frontend/CLAUDE.md`

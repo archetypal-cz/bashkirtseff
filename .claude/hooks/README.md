@@ -112,7 +112,6 @@ src/scripts/hooks/
 ├── validate-write.ts      # File validation
 ├── post-edit.ts           # Progress tracking after edits
 ├── session-end.ts         # Session cleanup + report generation
-├── pre-session.ts         # Session start, records timestamp
 └── lib/
     ├── types.ts           # Type definitions
     ├── config.ts          # Configuration utilities
