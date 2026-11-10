@@ -31,3 +31,7 @@ Our `content/_raw/scans/Tome3–5.pdf` carry downsampled page images (e.g. 412×
 - **Tome V** (ISBN 2-9509213-4-5), 2 May 1875 (carnet 032), printed p. 46: now 032.0225 – 032.0234.
 
 For any other illegible spot in tomes 3–5, ask the owner for the page from the sharp copy before ordering the printed book.
+
+### Pages to request from the owner's sharp copy (open)
+
+- **Tome IX**, printed p. 226 (PDF p. 228): a pasted newspaper clipping reproduced as a facsimile too faint to read, just before the Livre 68 title page. It is now the placeholder paragraph 067.1619 (067/1876-12-11, «[Coupure de presse collée, illisible sur le fac-similé]»). Added 2026-11-10 (A-36 (7)); the decision list calls it «t.10 PDF p.228», but the page is in tome 9.
