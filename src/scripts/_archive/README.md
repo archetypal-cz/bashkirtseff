@@ -8,3 +8,4 @@ Not run by the justfile, skills or hooks. Kept for history; relative imports ins
 - `hooks/pre-session.ts`: session-start hook showing work status; never registered in `.claude/settings.json`, last touched 2026-09-05.
 - `hooks/bootstrap-readmes.ts`: created missing README/PROGRESS files; manual only, last touched 2026-09-05.
 - `experiments/`: editorial-experiment harness (eval prompts, `analyze.ts`, `evaluate.ts`, `prepare-inputs.ts`); last touched 2026-09-05.
+- normalize_uk_frontmatter.py — rewrote uk frontmatter to six keys (would drop location/entities/redaction_passes); superseded by the 2026-11-10 A-wave flattening script; archived 2026-11-10

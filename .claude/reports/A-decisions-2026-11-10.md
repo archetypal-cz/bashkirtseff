@@ -1,5 +1,7 @@
 # Sekce A — doporučení k rozhodnutí (2026-11-10)
 
+_Stav 2026-11-10 večer: koš I a II provedeny, koš III rozhodnut a proveden (viz WORKPLAN-2026-11-10-A-wave.md a OPEN-ITEMS §A). Zbývá: A-43 (owner), A-44 remote větve (owner), A-49 (1), A-51 odeslání (owner), A-60 vlna děl._
+
 Pro KRR. Všech 41 otevřených položek A z `OPEN-ITEMS.md` prošlo sedm Opus agentů jen čtením repa (počty ve viditelném textu, TM řádky, skeny, git log). Každá položka a podpoložka má níže jednořádkové doporučení s důvodem a dopadem. Tato hlavička je přehled; plné sekce jsou dál v souboru.
 
 Jak odpovídat: stačí napsat „koš I a II beru“ a k položkám z koše III jednu volbu. Vše ostatní (sweepy, TM řádky, odškrtnutí v ledgeru) provedou agenti.
@@ -240,7 +242,7 @@ Stav: všech 9 odstavců je ve fr dosud bez viditelného textu, web tedy ukazuje
 <!-- A-recs-source.md -->
 # Doporučení: A-31 až A-37 (_original, zdroj/rebuild) — stav k 2026-11-10
 
-Pozn.: řada ID v ledgeru je po rebuildech 10/2026 zastaralá; uvádím aktuální ID tam, kde se posunula. „S" = malá ruční úprava bez přečíslování; „M" = jen při `just rebuild-carnet` dané knihy (přečísluje a přesyncuje všech 5 stromů). Vložit nový odstavec lze i bez rebuildu pod pod-ID (vzor 000.0023.1, commit 138c67990d).
+Pozn.: řada ID v ledgeru je po rebuildech 10/2026 zastaralá; uvádím aktuální ID tam, kde se posunula. „S" = malá ruční úprava bez přečíslování; „M" = jen při `just rebuild-carnet` dané knihy (přečísluje a přesyncuje všech 5 stromů). ~~Vložit nový odstavec lze i bez rebuildu pod pod-ID (vzor 000.0023.1, commit 138c67990d).~~ OPRAVA 2026-11-10: 000.0023.1 je štítek poznámky pod čarou, ne ID odstavce; parser, sync, entities-sync i renumber-audit přijímají jen CCC.NNNN — nový odstavec vyžaduje rebuild carnetu.
 
 ### A-31 Poznámky z titulních stran (vše zatím VYŇATO)
 - **(1) Motta *Volo omnia* (048, 049) a *Dubium, illusio…* (068–071)** — Doporučení: nechat vyňaté (default), ale do první položky každého carnetu dát RSR poznámku s přesným zněním motta. — Proč: jsou to formule titulní strany jako vyňaté «Gloriae Cupiditas»; *Dubium* je navíc v deníku 2., 5. a 10. 1. 1877. — Dopad: S, rebuild ne, RSR.
