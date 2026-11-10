@@ -1,5 +1,5 @@
 ---
-marie_age: 13
+marie_age: 14
 carnet: "001"
 title: Nice, janvier-fevrier 1873
 date_range:
