@@ -1708,6 +1708,7 @@ These override older per-carnet entries below where they conflict.
 - COLLISION: "Joseph" = Joseph Arnaud (new crush), but Hecht jokingly signs himself "Joseph" too — disambiguate per occurrence.
 - First appearance: 086
 - Notes: A genuine referent trap; verify which "Joseph" each time.
+- Czech form (owner ruling A-59 (3), 2026-11-10): „Josef“ in the visible text for both referents (Arnaud and Hecht's mock signature); the referent check still applies to footnotes and tags.
 
 ### Society / misc — carnet 086
 - "femme du monde" → dáma ze společnosti; "soufflet" → políček; "conducteur de cotillons" → tanečmistr kotilonů.
@@ -2122,9 +2123,21 @@ These override older per-carnet entries below where they conflict.
 - **«les gamins»** (Marie's working name for the six-boys canvas, later *Un Meeting* → *Schůzka*): „kluci“ (kluků, klucích…). Visible cz before alignment: 099 „gamini“ ×10, 100–101 „kluci“ ×10, 102 „uličníci“ ×4; aligned 099 and 102 to „kluci“. The generic „gamin(e)“ in other senses is translated by context (uličník, kluk, holčička).
 - **Saint-Marceaux's *Arlequin*** (statue): „Harlekýn“ (Harlekýna, Harlekýnovi). 099 had „Arlekýn“ (non-standard; SSČ/IJP list only „harlekýn“), aligned. cz/088 still has one „Arlekýn“ (not reviewed).
 - **«coup de massue»**: „rána palicí“ (101.0139, echoed in 102.0152); not „rána kyjem“.
-- Open: the Czech declension of *Saint-Marceaux* is split in 090–106 (Saint-Marceaua 14, Saint-Marceauxe 10, Saint-Marceauovi 3 vs Saint-Marceauxovi 5, Saint-Marceauxem 3, Saint-Marceauxa 1); not aligned here.
+- ~~Open~~ RESOLVED by the owner ruling of 2026-11-10 (A-59 (5), below): the Czech declension of *Saint-Marceaux* is split in 090–106 (Saint-Marceaua 14, Saint-Marceauxe 10, Saint-Marceauovi 3 vs Saint-Marceauxovi 5, Saint-Marceauxem 3, Saint-Marceauxa 1); not aligned here.
 
 ## OWNER rulings 2026-10-11 (OPEN-ITEMS A-59, items 1–2) — LOCKED
 
 - **«un âne bâté»** (088.0711 and elsewhere): „osel osedlaný“ stays — the lock holds against FAB's «korunovaný osel» proposal.
 - **«fille majeure»** (104.0620, 105.0372): „plnoletá dívka“ is fine — no change to „stará panna“.
+
+## OWNER rulings 2026-11-10 (A-decisions, cz package) — LOCKED
+
+- **Joseph Arnaud → „Josef“** (A-59 (3)): Josef, Josefa, Josefovi, Josefem, Josefe, Josefův/Josefova/Josefovo; also Hecht's mock signature „Josef“ (086/1879-09-13). Visible cz before the sweep: 085 Josef 3, 086 Joseph-forms 62, 087 Josef 32 + Joseph 1 (Robert-Fleury footnote, a different man, kept), 088 Joseph 3, 089 Joseph 2; swept 67 → „Josef“. Matches the biblical allegory (row „citoyen Joseph“, the Annunciation mapping) and the Markéta precedent for first names. Other Josephs (Joseph Balsamo, Saint-Joseph, Joseph Reinach, Jules Joseph Lefebvre…) keep their own forms.
+- **Thérèse (the child model and the painting, 094–097) → „Tereza“** (A-59 (4)): Terezu, Terezy; no diminutive (Marie writes *Thérèse*). 094 Terezka ×3 and 095 Thérèse ×1 aligned. The Merjeewsky ladies, Sister Thérèse and Dumas's novel *Thérèse* keep their existing forms.
+- **Saint-Marceaux declined on the -x stem** (A-59 (5)): Saint-Marceauxe (gen./acc.), Saint-Marceauxovi, Saint-Marceauxem, Saint-Marceauxův; as ÚJČ for a mute final consonant (Delacroixe). Swept 2026-11-10: Saint-Marceaua 14, Saint-Marceauovi 3, Saint-Marceauxa 1 → 18 fixes. Mme de Saint-Marceaux stays undeclined.
+- **096.0262 «un orgue» → „harmonium“** stays (A-59 (6)), consistent with 095.
+- **«le Bois» (Bois de Boulogne) → „Bois“, indeclinable neuter proper name** (A-61): do Bois, v Bois, z Bois, po Bois (route: „projížďka po Bois“, not „Boisem“), „Bois bylo plné“, „Bois je rozkošné“. Never „Les/Lesa/Lese“ (capitalised calque) nor declined „Boisu/Boisem“. Swept 2026-11-10: capitalised Les-forms 24 (083 ×4, 085 ×7, 090 ×4, 091 ×9) and Boisu/Boisem 17 (019–020). Lower-case „les“ (forêt, a generic wood) is untouched. Footnote at the first occurrence per carnet where it is needed: „Pozn. překl.: Bois — Bois de Boulogne, rozlehlý park na západním okraji Paříže, oblíbené místo vyjížděk pařížské společnosti.“ (added in 083, 085, 090; 091 reworded).
+- **Bashkirtseff** (A-72): the lock in the 2026-09-30 block stands (never Baškircev-). One footnote at the first visible occurrence in 000 (000.0006) gives the Czech forms Baškircev / Baškirceva / Baškircevová. Feminine where Czech needs it: 059 „Marie Konstantinovny Bashkirtseffové“. Hybrid patronymic + her surname for men („Pavla Grigorjeviče Bashkirtseffa“) stays.
+- **Oaths Marie herself flags as Niçois** («comme disent les Niçois», A-58 (3)): stay in Niçois, italic, with a meaning note (row Cap de Biou / TM exception); A-03 does not apply to them. Footnote wording „nadávka v nicejském nářečí“, never „jižní francouzská nadávka“. 010.0120/0122 „Niciany/Niciani“ → „Nicejce/Nicejci“ (Niçois ruling 2026-09-30).
+- **Bastien-Lepage painting titles in italics** (A-58 (4)), in the text and in footnotes, never „…“ or plain: *Láska na vesnici* (not „ve vesnici“), *Johanka z Arku*, *Senoseč*, *Večer na vesnici*, *Le père Jacques*, *Brambory* (Marie's casual *les pommes de terre*, 102), *Sběrači brambor* (101, where Marie writes «les Ramasseurs de pommes de terre» — kept as her title, not normalised to *Brambory*), *Říjnová sklizeň* (102 «Saisons d'octobre»), *Bratrův portrét* (100's numbered list). Joan of Arc the saint stays plain („krajan Johanky z Arku“). Swept 099–105 2026-11-10 (36 changes). The project title *Pastýři* (103, an unpainted plan) was left as it is.
+- **Date headings follow the print** (A-32): the translated `#` heading gives Marie's printed weekday and day number; the file stays on the calendar date; no correction in the heading. Applied 2026-11-10 to 015/1874-01-20, 018/1874-04-23, 020/1874-06-27, 028/1875-01-05, 090/1880-12-21 („Středa“), 096/1882-08-08, 097/1883-01-08, 098/1883-03-18, 098/1883-03-19, 105/1884-08-25.
