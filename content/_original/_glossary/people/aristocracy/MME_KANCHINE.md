@@ -10,7 +10,7 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Moderate
-last_updated: 2026-10-11
+last_updated: 2026-11-10
 ---
 
 %% GLO_MME_KANCHINE.0001 %%
@@ -44,7 +44,7 @@ A Russian lady in Paris in the early 1880s, with two daughters, who received on 
 ## Related entries
 
 %% GLO_MME_KANCHINE.0006 %%
-[Wodzinski](../mentioned/WODZINSKI.md); [Engelhardt](../mentioned/ENGELHARDT.md); [Gavini](../mentioned/GAVINI.md).
+[Wodzinski](../mentioned/WODZINSKI.md); [Mme Dimitri Kanschine](MME_DIMITRI_KANSCHINE.md) (Paris 1877–78, known to Marie's mother from Geneva; probably the same family, not confirmed); [Engelhardt](../mentioned/ENGELHARDT.md); [Gavini](../mentioned/GAVINI.md).
 
 %% GLO_MME_KANCHINE.0007 %%
 ## Sources
@@ -54,3 +54,4 @@ Diary paragraphs as cited; no outside source identifying the family was found.
 
 %% 2026-10-02T12:00:00 RSR: 1883-01-28 (098): evening at the Kanchines', 11 rue Murillo, where she meets Molinari and Texier. 1883-06-06 (100): "Une chez les Kanchine... la seule soirée dansante où j'ai été". 1883-08-15 (101): a small Spaniard of the embassy was assiduous at Mme Kanchine's. NOT the "petit Kanchine" of 1873-05-25 (005, Nice excursion), who is a child of another household. Only one Kanchine file exists; no duplicate was found. %%
 %% 2026-10-11T12:00:00 RSR: Unidentified despite web searches (Kanchine/Kantchine/Kanchin + rue Murillo). Mentions at 091.0490, 100.0011, 100.0076, 103.0552 and 104.0022 are not tagged to this entry (found by text search). The 2026-10-02 comment says the 1873 'petit Kanchine' belongs to another household, but 005.0036 (tagged to this entry) shows 'Mme Kanchine's daughters' at Geneva; the 'Nice excursion' also looks wrong (both 005/1873-05-24 and 05-25 are located at Geneva). Left unresolved. %%
+%% 2026-11-10T10:46:00 RSR: A-40 (owner 2026-11-10): the 1877–78 «Kanschine» stubs are now one entry, MME_DIMITRI_KANSCHINE. Probably the same family as this one (077/1878-01-01: the mother knows her «de Genève»; cf. 005.0036), but kept apart until the Mon Journal indexes t.7/8 and t.12/13 confirm it. %%

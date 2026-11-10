@@ -7,7 +7,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-10-21
+last_updated: 2026-11-10
 ---
 # Princesse Eristoff
 
@@ -36,3 +36,6 @@ KEEP APART from PRINCESS_ERISTOFF (the Princess Eristoff of Spa, July 1874, carn
 
 %% GLO_PRINCESSE_ERISTOFF.9400 %%
 %% 2026-10-21T22:05:00 RSR: The note 9200 said "the sons"; the sons are stepsons: «Il mourut au bout de six mois laissant à sa princesse deux fils et une fille de son premier mariage» (065/1876-08-20, 065.0064), and «un procès à sa belle-mère» (067.0217). 077/1878-01-02 «la petite princesse Eristoff, sœur des deux misérables» flagged as a different (young) Princess Eristoff, not the aunt. %%
+
+%% GLO_PRINCESSE_ERISTOFF.9500 %%
+%% 2026-11-10T10:36:00 RSR: A-40 (owner 2026-11-10): also tagged here are 094.0278 (Nice, 19 February 1882, «Bojidar et Mme Eristoff et moi» at the family dinner) and 101.0413 (21 September 1883, «la vieille Eristoff l'aidera à payer les intérêts des dettes» of Paul's estate), retagged from ERISTOFF in _original and all trees. The stub MME_ERISTOFF is retired. %%

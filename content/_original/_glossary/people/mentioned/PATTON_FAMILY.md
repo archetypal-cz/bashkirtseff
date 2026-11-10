@@ -11,7 +11,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-10-21
+last_updated: 2026-11-10
 ---
 # Patton Family
 
@@ -20,7 +20,7 @@ last_updated: 2026-10-21
 
 ## Overview
 
-The household of Oscar Patton, Russian consul at Nice (Mon Journal t.2 and t.6 indexes: «Patton (Oscar), consul de Russie»), a leading figure of the Russian colony and, to Marie, its chief gossip. His wife is «Patton (Mme), née Savelieff» (t.1, t.2, t.6 indexes), the daughter of the dying Mme Savelieff in spring 1873. The family is Russian-colony Nice, not American. The family includes:
+The household of Oscar Patton, Russian consul at Nice (Mon Journal t.2 and t.6 indexes: «Patton (Oscar), consul de Russie»), a leading figure of the Russian colony and, to Marie, its chief gossip. His wife is «Patton (Mme), née Savelieff» (t.1, t.2, t.6 indexes), the daughter of the dying Mme Savelieff in spring 1873. The family includes:
 - **M. (de) Patton**, the consul. Marie calls him «cet animal-brute Patton» (011/1873-10-25), «le sévère Patton» (015/1874-01-04), but also «Malgré quelque rudesse j'aime assez Patton; il est fort galant» (016/1874-02-09); from 1874 she blames his talk for the family's social exclusion («Patton… ce colporteur de nouvelles, ce bavard», 024/1874-10-13; 027/1874-12-02).
 - **Mme Patton**, née Savelieff, deeply distressed by her mother's death in May 1873 («Mme Patton (sa fille) a eu le hysterics après la pannychide», 004/1873-05-14). Marie wonders how she can live in the house where the groans were (005/1873-06-08, 005.0217).
 - **The daughters**: Nathalie (t.1 index: «Patton (Mlle Nathalie)»), Catherine and the youngest, nicknamed Bébé (t.1 index: «Patton (Mlle) [Bébé]»). Marie finds them «très gentilles» (006/1873-07-10) but in 1875 «ses laides filles» (050.0674).
@@ -39,5 +39,6 @@ The household of Oscar Patton, Russian consul at Nice (Mon Journal t.2 and t.6 i
 ## Related Entries
 - [#M_Patton](./M_PATTON.md) - the consul himself (separate stub)
 - [#Nathalie_Patton](./NATHALIE_PATTON.md) - the eldest daughter
+- [#Mme_Patton](../aristocracy/MME_PATTON.md) - the consul's wife, née Savelieff
 
 %% 2026-10-21T22:16:55 RSR: No diary line calls the Pattons American (grep of every Patton passage); the Mon Journal indexes give «Patton (Oscar), consul de Russie» (t.2 p.33 etc., t.6 p.161) and «Patton (Mme), née Savelieff». The earlier version attributed «an American family» to Kernberger (2013) without a page; that could not be checked here and is contradicted by the indexes, so it was dropped. The «brute» line now rests on 011/1873-10-25 («cet animal-brute Patton»); the earlier reading «brute for making his wife live in the house where her mother died» was Marie's reaction at 005.0217 and not a safe paraphrase. %%

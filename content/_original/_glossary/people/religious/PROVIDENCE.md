@@ -4,7 +4,7 @@ name: Providence
 aliases:
   - Providence
   - la Providence
-type: Person
+type: Concept
 category: people/religious
 research_status: Basic
 last_updated: 2026-11-10
@@ -12,6 +12,7 @@ last_updated: 2026-11-10
 # Providence
 
 %% 2026-11-10T08:08:56 RSR: User report fix. Was filed under people/mentioned as if a person; it is the theological concept of divine Providence, moved next to God in people/religious (the folder for God, the Virgin, Christ and saints). %%
+%% 2026-11-10T11:10:00 RSR: A-73 (owner 2026-11-10): kept as its own entry beside GOD, with type Concept so it is not shown as a person. Tagged only where Marie means divine Providence: 004.0292, 082.0212, 098.0170. Not tagged where «providence» means a human benefactor («comme une providence», 008.0267, 101.0629). %%
 
 ## Overview
 

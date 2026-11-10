@@ -7,16 +7,13 @@ aliases:
 type: Person
 category: people/aristocracy
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-11-10
+status: retired
+replaced_by: MME_DIMITRI_KANSCHINE
 ---
-# Madame Kanschine
 
-## Basic Information
-- Type: people - aristocracy
-- Status: Stub entry (automatically generated)
+%% GLO_MADAME_KANSCHINE.0001 %%
+**Retired.** Merged into [#MME_DIMITRI_KANSCHINE](MME_DIMITRI_KANSCHINE.md) (`people/aristocracy/MME_DIMITRI_KANSCHINE.md`); use that entry instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
+%% GLO_MADAME_KANSCHINE.0002 %%
+%% 2026-11-10T10:19:53 RSR: Retired by glossary-merge; content and links moved to MME_DIMITRI_KANSCHINE. replaced_by: people/aristocracy/MME_DIMITRI_KANSCHINE.md. %%
