@@ -1,0 +1,523 @@
+{
+ "decisions": [
+  {
+   "pid": "014.0240",
+   "target": "culture/literature/APOCALYPSE.md",
+   "display": "The_Apocalypse_(Book_of_Revelation)",
+   "decision": "tag",
+   "note": "Marie reads the Apocalypse and dozes."
+  },
+  {
+   "pid": "014.0259",
+   "target": "culture/literature/APOCALYPSE.md",
+   "display": "The_Apocalypse_(Book_of_Revelation)",
+   "decision": "tag",
+   "note": "Marginal note: the Apocalypse recalled by Walitsky letter."
+  },
+  {
+   "pid": "014.0291",
+   "target": "culture/literature/APOCALYPSE.md",
+   "display": "The_Apocalypse_(Book_of_Revelation)",
+   "decision": "tag",
+   "note": "Marginal: read the Apocalypse."
+  },
+  {
+   "pid": "033.0146",
+   "target": "culture/literature/APOCALYPSE.md",
+   "display": "The_Apocalypse_(Book_of_Revelation)",
+   "decision": "tag",
+   "note": "Seven-headed hydra of the Apocalypse; allusion to Revelation."
+  },
+  {
+   "pid": "034.0363",
+   "target": "culture/literature/APOCALYPSE.md",
+   "display": "The_Apocalypse_(Book_of_Revelation)",
+   "decision": "tag",
+   "note": "Apocalypse as proverb of incomprehensibility; named as text."
+  },
+  {
+   "pid": "056.0305",
+   "target": "culture/literature/APOCALYPSE.md",
+   "display": "The_Apocalypse_(Book_of_Revelation)",
+   "decision": "tag",
+   "note": "Quotes Revelation 22:13, Alpha and Omega."
+  },
+  {
+   "pid": "084.0489",
+   "target": "culture/literature/APOCALYPSE.md",
+   "display": "The_Apocalypse_(Book_of_Revelation)",
+   "decision": "tag",
+   "note": "Animal de l'Apocalypse; allusion to Revelation beast imagery."
+  },
+  {
+   "pid": "010.0101",
+   "target": "culture/theater/LE_MARTYR_NICE.md",
+   "display": "Le_Martyr_/_Le_Martyre_(play_seen_at_Nice)",
+   "decision": "tag",
+   "note": "Duke seen at theatre during \"Le Martyre\"; play title."
+  },
+  {
+   "pid": "011.0368",
+   "target": "culture/theater/LE_MARTYR_NICE.md",
+   "display": "Le_Martyr_/_Le_Martyre_(play_seen_at_Nice)",
+   "decision": "tag",
+   "note": "\"Le Martyr\" given at theatre; Bete saw the Duke there."
+  },
+  {
+   "pid": "014.0164",
+   "target": "culture/theater/LE_MARTYR_NICE.md",
+   "display": "Le_Martyr_/_Le_Martyre_(play_seen_at_Nice)",
+   "decision": "skip",
+   "note": "Idiom souffrir le martyre, not the play."
+  },
+  {
+   "pid": "053.0357",
+   "target": "culture/theater/LE_MARTYR_NICE.md",
+   "display": "Le_Martyr_/_Le_Martyre_(play_seen_at_Nice)",
+   "decision": "skip",
+   "note": "Martyrdom of St Sebastian painting, not the play."
+  },
+  {
+   "pid": "053.0369",
+   "target": "culture/theater/LE_MARTYR_NICE.md",
+   "display": "Le_Martyr_/_Le_Martyre_(play_seen_at_Nice)",
+   "decision": "skip",
+   "note": "Poussin painting of St Erasmus, not the play."
+  },
+  {
+   "pid": "066.0090",
+   "target": "culture/theater/LE_MARTYR_NICE.md",
+   "display": "Le_Martyr_/_Le_Martyre_(play_seen_at_Nice)",
+   "decision": "skip",
+   "note": "Napoleon \"le martyr\" in Lermontov poem; not the play."
+  },
+  {
+   "pid": "096.0280",
+   "target": "culture/theater/LE_MARTYR_NICE.md",
+   "display": "Le_Martyr_/_Le_Martyre_(play_seen_at_Nice)",
+   "decision": "skip",
+   "note": "Figure of speech: subir le martyre."
+  },
+  {
+   "pid": "008.0224",
+   "target": "culture/literature/IMPRESSIONS_DE_VOYAGE_DUMAS.md",
+   "display": "Impressions_de_voyage_(Alexandre_Dumas_père)",
+   "decision": "tag",
+   "note": "Reads Dumas's Impression de voyage en Russie; named title."
+  },
+  {
+   "pid": "066.0422",
+   "target": "culture/literature/IMPRESSIONS_DE_VOYAGE_DUMAS.md",
+   "display": "Impressions_de_voyage_(Alexandre_Dumas_père)",
+   "decision": "unsure",
+   "note": "\"Rome par Dumas\": unnamed Dumas Italian travel book; RSR gives 0.4 for Impressions de voyage."
+  },
+  {
+   "pid": "071.0181",
+   "target": "culture/literature/IMPRESSIONS_DE_VOYAGE_DUMAS.md",
+   "display": "Impressions_de_voyage_(Alexandre_Dumas_père)",
+   "decision": "skip",
+   "note": "Reads Dumas generally; no travel book named."
+  },
+  {
+   "pid": "071.0485",
+   "target": "culture/literature/IMPRESSIONS_DE_VOYAGE_DUMAS.md",
+   "display": "Impressions_de_voyage_(Alexandre_Dumas_père)",
+   "decision": "skip",
+   "note": "Alexandre is a person; no work."
+  },
+  {
+   "pid": "071.0486",
+   "target": "culture/literature/IMPRESSIONS_DE_VOYAGE_DUMAS.md",
+   "display": "Impressions_de_voyage_(Alexandre_Dumas_père)",
+   "decision": "tag",
+   "note": "Reads Dumas's voyages and names \"Villa Palmieri\"."
+  },
+  {
+   "pid": "055.0537",
+   "target": "culture/theater/LA_VIE_PARISIENNE_OFFENBACH.md",
+   "display": "La_Vie_parisienne_(Offenbach)",
+   "decision": "tag",
+   "note": "Offenbach operetta at the Valle, first performance."
+  },
+  {
+   "pid": "073.0233",
+   "target": "culture/theater/LA_VIE_PARISIENNE_OFFENBACH.md",
+   "display": "La_Vie_parisienne_(Offenbach)",
+   "decision": "skip",
+   "note": "The weekly magazine, already tagged LA_VIE_PARISIENNE."
+  },
+  {
+   "pid": "082.0555",
+   "target": "culture/theater/LA_VIE_PARISIENNE_OFFENBACH.md",
+   "display": "La_Vie_parisienne_(Offenbach)",
+   "decision": "skip",
+   "note": "Magazine read in the evening, not the operetta."
+  },
+  {
+   "pid": "087.0414",
+   "target": "culture/theater/LA_VIE_PARISIENNE_OFFENBACH.md",
+   "display": "La_Vie_parisienne_(Offenbach)",
+   "decision": "skip",
+   "note": "Magazine, already tagged."
+  },
+  {
+   "pid": "102.0287",
+   "target": "culture/theater/LA_VIE_PARISIENNE_OFFENBACH.md",
+   "display": "La_Vie_parisienne_(Offenbach)",
+   "decision": "skip",
+   "note": "Magazine, already tagged."
+  },
+  {
+   "pid": "052.0377",
+   "target": "culture/art/PORTRAIT_BEATRICE_CENCI.md",
+   "display": "Portrait_of_Beatrice_Cenci_(Palazzo_Barberini)",
+   "decision": "tag",
+   "note": "Wants a turban like Beatrice Cenci; portrait allusion."
+  },
+  {
+   "pid": "053.0357",
+   "target": "culture/art/PORTRAIT_BEATRICE_CENCI.md",
+   "display": "Portrait_of_Beatrice_Cenci_(Palazzo_Barberini)",
+   "decision": "tag",
+   "note": "Cenci head named; portrait."
+  },
+  {
+   "pid": "057.0214",
+   "target": "culture/art/PORTRAIT_BEATRICE_CENCI.md",
+   "display": "Portrait_of_Beatrice_Cenci_(Palazzo_Barberini)",
+   "decision": "tag",
+   "note": "Looks like Beatrice Cenci minus the turban; portrait."
+  },
+  {
+   "pid": "059.0849",
+   "target": "culture/art/PORTRAIT_BEATRICE_CENCI.md",
+   "display": "Portrait_of_Beatrice_Cenci_(Palazzo_Barberini)",
+   "decision": "tag",
+   "note": "Dressed as Beatrice Cenci minus the turban; portrait."
+  },
+  {
+   "pid": "085.0185",
+   "target": "culture/literature/LES_MIRABEAU_LOMENIE.md",
+   "display": "Les_Mirabeau_(Louis_de_Loménie)",
+   "decision": "skip",
+   "note": "Compares Cassagnac to historical Mirabeau, not Loménie's book."
+  },
+  {
+   "pid": "085.0310",
+   "target": "culture/literature/LES_MIRABEAU_LOMENIE.md",
+   "display": "Les_Mirabeau_(Louis_de_Loménie)",
+   "decision": "tag",
+   "note": "Finishes first volume of Loménie on the Mirabeau."
+  },
+  {
+   "pid": "085.0311",
+   "target": "culture/literature/LES_MIRABEAU_LOMENIE.md",
+   "display": "Les_Mirabeau_(Louis_de_Loménie)",
+   "decision": "skip",
+   "note": "Mirabeau as nickname for Cassagnac; hotel name; no book."
+  },
+  {
+   "pid": "085.0315",
+   "target": "culture/literature/LES_MIRABEAU_LOMENIE.md",
+   "display": "Les_Mirabeau_(Louis_de_Loménie)",
+   "decision": "skip",
+   "note": "Historical Mirabeau and Popaul; book not mentioned."
+  },
+  {
+   "pid": "078.0221",
+   "target": "culture/theater/LA_PLUIE_ET_LE_BEAU_TEMPS.md",
+   "display": "La_Pluie_et_le_beau_temps_(Léon_Gozlan)",
+   "decision": "skip",
+   "note": "Idiom \"fait la pluie et le beau temps\" in Marcuard letter."
+  },
+  {
+   "pid": "084.0420",
+   "target": "culture/theater/LA_PLUIE_ET_LE_BEAU_TEMPS.md",
+   "display": "La_Pluie_et_le_beau_temps_(Léon_Gozlan)",
+   "decision": "skip",
+   "note": "Idiom, Marcuard's letter recalled."
+  },
+  {
+   "pid": "087.0158",
+   "target": "culture/theater/LA_PLUIE_ET_LE_BEAU_TEMPS.md",
+   "display": "La_Pluie_et_le_beau_temps_(Léon_Gozlan)",
+   "decision": "tag",
+   "note": "Cast list for the Gozlan comedy; title named."
+  },
+  {
+   "pid": "087.0188",
+   "target": "culture/theater/LA_PLUIE_ET_LE_BEAU_TEMPS.md",
+   "display": "La_Pluie_et_le_beau_temps_(Léon_Gozlan)",
+   "decision": "tag",
+   "note": "The comedy performed that evening; no title but same play."
+  },
+  {
+   "pid": "087.0101",
+   "target": "culture/art/LA_CRUCHE_CASSEE_GREUZE.md",
+   "display": "La_Cruche_cassée_(Greuze)",
+   "decision": "tag",
+   "note": "Dresses as Greuze's cruche cassée."
+  },
+  {
+   "pid": "094.0167",
+   "target": "culture/art/LA_CRUCHE_CASSEE_GREUZE.md",
+   "display": "La_Cruche_cassée_(Greuze)",
+   "decision": "tag",
+   "note": "Dress a faithful copy of Greuze's Cruche cassée."
+  },
+  {
+   "pid": "094.0177",
+   "target": "culture/art/LA_CRUCHE_CASSEE_GREUZE.md",
+   "display": "La_Cruche_cassée_(Greuze)",
+   "decision": "tag",
+   "note": "Article compares her to the Cruche cassée."
+  },
+  {
+   "pid": "062.0343",
+   "target": "culture/literature/HOMER_ODYSSEY.md",
+   "display": "Homer's_Odyssey_(L'Odyssée)",
+   "decision": "tag",
+   "note": "Cyclops of Ulysses allusion: \"personne\"; Odyssey episode."
+  },
+  {
+   "pid": "102.0158",
+   "target": "culture/literature/HOMER_ODYSSEY.md",
+   "display": "Homer's_Odyssey_(L'Odyssée)",
+   "decision": "unsure",
+   "note": "Nausicaa statue; character of the Odyssey but Marie does not name the work."
+  },
+  {
+   "pid": "103.0157",
+   "target": "culture/literature/HOMER_ODYSSEY.md",
+   "display": "Homer's_Odyssey_(L'Odyssée)",
+   "decision": "unsure",
+   "note": "Nausicaa model; character only, Odyssey in footnote not text."
+  },
+  {
+   "pid": "052.0401",
+   "target": "culture/theater/LA_VESTALE_SPONTINI.md",
+   "display": "La_Vestale_(Spontini)",
+   "decision": "tag",
+   "note": "Attends La Vestale at the Apollo, Rome."
+  },
+  {
+   "pid": "055.0778",
+   "target": "culture/theater/LA_VESTALE_SPONTINI.md",
+   "display": "La_Vestale_(Spontini)",
+   "decision": "tag",
+   "note": "Pietro recalls first evening at La Vestale."
+  },
+  {
+   "pid": "058.0096",
+   "target": "culture/theater/LA_VESTALE_SPONTINI.md",
+   "display": "La_Vestale_(Spontini)",
+   "decision": "tag",
+   "note": "Compares riot with La Vestale performance in Rome."
+  },
+  {
+   "pid": "017.0090",
+   "target": "culture/art/AIVAZOVSKY_MARINES_NICE.md",
+   "display": "Aivazovsky's_pictures_at_the_Hôtel_Chauvain,_Nice_(1874)",
+   "decision": "tag",
+   "note": "Visits Aivazovsky's paintings at Hôtel Chauvain."
+  },
+  {
+   "pid": "018.0244",
+   "target": "culture/art/AIVAZOVSKY_MARINES_NICE.md",
+   "display": "Aivazovsky's_pictures_at_the_Hôtel_Chauvain,_Nice_(1874)",
+   "decision": "skip",
+   "note": "Sea compared to Aivazovsky's style; not the Nice exhibition."
+  },
+  {
+   "pid": "034.0274",
+   "target": "culture/art/GRETCHEN_VON_MAX.md",
+   "display": "Gretchen_(Gabriel_von_Max)",
+   "decision": "skip",
+   "note": "Marguerite braids; Goethe's character, not von Max painting."
+  },
+  {
+   "pid": "064.0536",
+   "target": "culture/art/GRETCHEN_VON_MAX.md",
+   "display": "Gretchen_(Gabriel_von_Max)",
+   "decision": "skip",
+   "note": "Mephistopheles and Marguerite as Faust analogy; not the painting."
+  },
+  {
+   "pid": "095.0036",
+   "target": "culture/art/PORTRAIT_DE_JEUNE_FILLE_SARGENT.md",
+   "display": "Portrait_de_jeune_fille_(Sargent,_Salon_1882)",
+   "decision": "tag",
+   "note": "Sargent's portrait of a young girl haunts her."
+  },
+  {
+   "pid": "103.0551",
+   "target": "culture/art/PORTRAIT_DE_JEUNE_FILLE_SARGENT.md",
+   "display": "Portrait_de_jeune_fille_(Sargent,_Salon_1882)",
+   "decision": "skip",
+   "note": "Mme Benardaki beauty; Gautreau footnote only; no Sargent work in text."
+  },
+  {
+   "pid": "080.0012",
+   "target": "culture/art/PORTRAIT_VICTOR_HUGO_BONNAT.md",
+   "display": "Portrait_de_Victor_Hugo_(Bonnat)",
+   "decision": "skip",
+   "note": "Bonnat praised generally; Thiers portrait, not Hugo."
+  },
+  {
+   "pid": "085.0071",
+   "target": "culture/art/PORTRAIT_VICTOR_HUGO_BONNAT.md",
+   "display": "Portrait_de_Victor_Hugo_(Bonnat)",
+   "decision": "tag",
+   "note": "Only good work: Bonnat's portrait of Victor Hugo."
+  },
+  {
+   "pid": "096.0038",
+   "target": "culture/literature/LES_ROIS_EN_EXIL.md",
+   "display": "Les_Rois_en_exil_(Alphonse_Daudet)",
+   "decision": "tag",
+   "note": "Rereads Daudet's Les rois en exil."
+  },
+  {
+   "pid": "096.0039",
+   "target": "culture/literature/LES_ROIS_EN_EXIL.md",
+   "display": "Les_Rois_en_exil_(Alphonse_Daudet)",
+   "decision": "tag",
+   "note": "Méraut's love for the queen; Les rois en exil."
+  },
+  {
+   "pid": "051.0222",
+   "target": "culture/literature/MRS_BODGERS_NICE_NOVEL.md",
+   "display": "English_novel_on_Nice_society_(\"Mrs_Bodgers\")",
+   "decision": "tag",
+   "note": "English book on Nice society, Mrs Bodgers; quoted."
+  },
+  {
+   "pid": "053.0264",
+   "target": "culture/literature/MRS_BODGERS_NICE_NOVEL.md",
+   "display": "English_novel_on_Nice_society_(\"Mrs_Bodgers\")",
+   "decision": "unsure",
+   "note": "English book quote with Kate; entry itself says possibly a different book."
+  },
+  {
+   "pid": "090.0079",
+   "target": "culture/literature/VALENTINE_SAND.md",
+   "display": "Valentine_(George_Sand)",
+   "decision": "tag",
+   "note": "Names Valentine among Sand novels she finds boring."
+  },
+  {
+   "pid": "090.0082",
+   "target": "culture/literature/VALENTINE_SAND.md",
+   "display": "Valentine_(George_Sand)",
+   "decision": "tag",
+   "note": "Is reading Valentine now; judges it Sand's best."
+  },
+  {
+   "pid": "030.0341",
+   "target": "culture/music/STABAT_MATER_ROSSINI.md",
+   "display": "Stabat_Mater_(Rossini)",
+   "decision": "unsure",
+   "note": "Stabat Mater sung; composer not stated (Rossini, Pergolesi or other)."
+  },
+  {
+   "pid": "049.0187",
+   "target": "culture/music/STABAT_MATER_ROSSINI.md",
+   "display": "Stabat_Mater_(Rossini)",
+   "decision": "unsure",
+   "note": "Choruses sing Stabat Mater pieces; RSR says probably Rossini 0.7, composer unnamed."
+  },
+  {
+   "pid": "056.0424",
+   "target": "culture/theater/GIUDITTA_GIACOMETTI.md",
+   "display": "Giuditta_(Paolo_Giacometti)",
+   "decision": "tag",
+   "note": "Ristori plays Judith for Trastevere schools."
+  },
+  {
+   "pid": "056.0425",
+   "target": "culture/theater/GIUDITTA_GIACOMETTI.md",
+   "display": "Giuditta_(Paolo_Giacometti)",
+   "decision": "tag",
+   "note": "Praises Ristori in \"Judith\"."
+  },
+  {
+   "pid": "069.0286",
+   "target": "culture/theater/LES_NOCES_DE_JEANNETTE_MASSE.md",
+   "display": "Les_Noces_de_Jeannette_(Victor_Massé)",
+   "decision": "tag",
+   "note": "\"Les noces de Jeannette\" given in Italian."
+  },
+  {
+   "pid": "069.0527",
+   "target": "culture/theater/LES_NOCES_DE_JEANNETTE_MASSE.md",
+   "display": "Les_Noces_de_Jeannette_(Victor_Massé)",
+   "decision": "skip",
+   "note": "Text has no mention of the opera; only RSR cross-reference."
+  },
+  {
+   "pid": "097.0128",
+   "target": "culture/theater/LE_ROI_S_AMUSE.md",
+   "display": "Le_Roi_s'amuse_(Victor_Hugo)",
+   "decision": "tag",
+   "note": "Second performance of Le Roi s'amuse, fiftieth anniversary."
+  },
+  {
+   "pid": "097.0141",
+   "target": "culture/theater/LE_ROI_S_AMUSE.md",
+   "display": "Le_Roi_s'amuse_(Victor_Hugo)",
+   "decision": "tag",
+   "note": "Reviews Got as Triboulet in Le Roi s'amuse."
+  },
+  {
+   "pid": "059.0193",
+   "target": "culture/theater/ROMEO_E_GIULIETTA_MARCHETTI.md",
+   "display": "Romeo_e_Giulietta_(Filippo_Marchetti)",
+   "decision": "tag",
+   "note": "Roméo et Juliette at the Apollo; RSR identifies Marchetti."
+  },
+  {
+   "pid": "064.0141",
+   "target": "culture/theater/ROMEO_E_GIULIETTA_MARCHETTI.md",
+   "display": "Romeo_e_Giulietta_(Filippo_Marchetti)",
+   "decision": "skip",
+   "note": "Cassagnac cites Romeo and Juliet as lovers, not the opera."
+  },
+  {
+   "pid": "071.0083",
+   "target": "culture/literature/RIENZI_BULWER_LYTTON.md",
+   "display": "Rienzi,_the_Last_of_the_Roman_Tribunes_(Bulwer-Lytton)",
+   "decision": "skip",
+   "note": "Rienzi here is Wagner's opera, not Bulwer-Lytton's novel."
+  },
+  {
+   "pid": "090.0175",
+   "target": "culture/theater/IMPROMPTU_DE_VERSAILLES_MOLIERE.md",
+   "display": "L'Impromptu_de_Versailles_(Molière)",
+   "decision": "tag",
+   "note": "\"Cet Impromptu\" seen at Comédie-Française; Molière play."
+  },
+  {
+   "pid": "068.1105",
+   "target": "culture/theater/L_AFRICAINE_MEYERBEER.md",
+   "display": "L'Africaine_(Meyerbeer)",
+   "decision": "skip",
+   "note": "\"Ne fais pas l'Africaine\": figure of speech, not the opera."
+  }
+ ],
+ "retag": [],
+ "rsr_notes": [
+  {
+   "pid": "071.0083",
+   "note": "«Rienzi» here is Wagner's opera at the Teatro Pagliano, not Bulwer-Lytton's novel."
+  },
+  {
+   "pid": "053.0264",
+   "note": "The English book quoted here is not identified and may not be the Nice novel (Mrs Bodgers) of 051.0222."
+  },
+  {
+   "pid": "102.0158",
+   "note": "Nausicaa is the Odyssey princess; Marie does not name the epic here."
+  }
+ ]
+}

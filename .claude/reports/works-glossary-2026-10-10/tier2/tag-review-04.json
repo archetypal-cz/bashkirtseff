@@ -1,0 +1,1437 @@
+{
+ "works": [
+  {
+   "wid": "W162",
+   "title": "L'Apocalypse",
+   "entry": "content/_original/_glossary/culture/literature/APOCALYPSE.md",
+   "target": "culture/literature/APOCALYPSE.md",
+   "display": "The_Apocalypse_(Book_of_Revelation)",
+   "aliases": [
+    "L'Apocalypse",
+    "l'Apocalypse",
+    "Apocalypse of John",
+    "Book of Revelation"
+   ],
+   "candidates": [
+    {
+     "pid": "014.0240",
+     "file": "014/1873-12-27.md",
+     "why": [
+      "alias:L'Apocalypse",
+      "alias:l'Apocalypse",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/READING.md"
+     ],
+     "french": "Je viens de lire \"L'Apocalypse\", et je n'y comprends pas plus que les autres. Je ==somnolais==[^014.0240.r1] plusieurs fois, et je me suis surprise le nez penché sur le livre, mais aussitôt que je regardais ailleurs je n'avais pas sommeil, il est dix heures et demie du soir.  [^014.0240.r1]: Written in Russian in the manuscript; French translation by the editor. "
+    },
+    {
+     "pid": "014.0259",
+     "file": "014/1873-12-27.md",
+     "why": [
+      "alias:L'Apocalypse",
+      "alias:l'Apocalypse",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/recurring/WALITSKY.md",
+      "people/mentioned/MAKAROFF.md"
+     ],
+     "french": "[Dans la marge: L'Apocalypse me rappelle la lettre que Walitsky écrivit à Makaroff. Un cheval sans queue et des rails sans remblai ne sont pas un oiseau etc. etc. etc.]  "
+    },
+    {
+     "pid": "014.0291",
+     "file": "014/1873-12-30.md",
+     "why": [
+      "alias:L'Apocalypse",
+      "alias:l'Apocalypse",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/core/DUKE_OF_HAMILTON.md",
+      "places/travel/BADEN_BADEN.md",
+      "culture/themes/READING.md",
+      "culture/languages/ITALIAN.md",
+      "culture/languages/FRENCH.md",
+      "culture/themes/LOVE.md"
+     ],
+     "french": "[Dans la marge: J'ai lu l'Apocalypse, je n'ai pas dormi cette fois.] J'ai pensé au duc de Hamilton en voyant cette voiture, j'ai pensé à sa voiture à Baden-Baden. "
+    },
+    {
+     "pid": "033.0146",
+     "file": "033/1875-05-23.md",
+     "why": [
+      "alias:L'Apocalypse",
+      "alias:l'Apocalypse"
+     ],
+     "existing_tags": [],
+     "french": "Je voudrais avoir les sept têtes de l'hydre de l'Apocalypse pour pouvoir crier par sept bouches, et lancer des regards furieux par quatorze yeux. "
+    },
+    {
+     "pid": "034.0363",
+     "file": "034/1875-06-17.md",
+     "why": [
+      "alias:L'Apocalypse",
+      "alias:l'Apocalypse"
+     ],
+     "existing_tags": [
+      "culture/literature/AULU_GELLE.md"
+     ],
+     "french": "Mystère plus incompréhensible que l'Apocalypse, plus incompréhensible que cette pièce d'Aulu-Gelle[^034.0363.1] -qu'on n'a jamais pu comprendre.  [^034.0363.1]: Aulus Gellius (2nd century AD), Roman author of the *Noctes Atticae* (*Attic Nights*), a miscellany of grammar, philosophy and antiquarian lore; Marie translated him in her Latin lessons (037/1875-07-15). "
+    },
+    {
+     "pid": "056.0305",
+     "file": "056/1876-04-01.md",
+     "why": [
+      "alias:L'Apocalypse",
+      "alias:l'Apocalypse"
+     ],
+     "existing_tags": [
+      "people/mentioned/ZUCCHINI.md"
+     ],
+     "french": "z.. Zucchini se nomme Antonio. Il peut dire comme dans l'Apocalypse: \"Je suis l'alpha et l'omega, le commencement et la fin\"[^2b]. C'est-à-dire je suis l'A et le Z. N'importe. Je suis triste.  [^2b]: *Revelation 22:13: \"I am the Alpha and the Omega, the first and the last, the beginning and the end.\"* "
+    },
+    {
+     "pid": "084.0489",
+     "file": "084/1879-03-16.md",
+     "why": [
+      "alias:L'Apocalypse",
+      "alias:l'Apocalypse"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/ANIMALS.md",
+      "people/recurring/COCO_DOG.md",
+      "places/churches/NOTRE_DAME.md",
+      "places/churches/NOTRE_DAME_DE_PARIS.md"
+     ],
+     "french": "Il ressemblait à un animal de l'Apocalypse ou à un monstre sculpté sur les toits de Notre-Dame. "
+    }
+   ]
+  },
+  {
+   "wid": "W153",
+   "title": "Le Martyre / Le Martyr",
+   "entry": "content/_original/_glossary/culture/theater/LE_MARTYR_NICE.md",
+   "target": "culture/theater/LE_MARTYR_NICE.md",
+   "display": "Le_Martyr_/_Le_Martyre_(play_seen_at_Nice)",
+   "aliases": [
+    "Le Martyre",
+    "\"Le Martyre\"",
+    "Le Martyr",
+    "\"Le Martyr\""
+   ],
+   "candidates": [
+    {
+     "pid": "010.0101",
+     "file": "010/1873-09-28.md",
+     "why": [
+      "alias:\"Le Martyre\"",
+      "alias:Le Martyre",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/BETE.md",
+      "people/core/DUKE_OF_HAMILTON.md",
+      "culture/themes/THEATER_THEME.md"
+     ],
+     "french": "— Alors c'est le duc que j'ai vu l'autre jour au théâtre quand on donnait \"Le Martyre\". Il était dans la première loge à gauche et moi à droite. Il se moquait de *Joanita* tout le temps. "
+    },
+    {
+     "pid": "011.0368",
+     "file": "011/1873-10-30.md",
+     "why": [
+      "alias:\"Le Martyr\"",
+      "alias:Le Martyr",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/BETE.md",
+      "culture/themes/LOVE.md",
+      "people/core/DUKE_OF_HAMILTON.md"
+     ],
+     "french": "Bête m'a dit l'autre jour qu'elle l'a vu au théâtre quand on donnait \"Le Martyr\", eh bien il me semble comme si je l'ai vu moi-même et je me représente tout comme si j'y étais, je me rappelle de cela comme si je l'ai vu moi-même et je me souviens de chaque détail de sa pose surtout; comme il parlait avec Mlle White, je crois la voir aussi, mais tout à fait comme si j'ai vu tout cela moi-même. "
+    },
+    {
+     "pid": "014.0164",
+     "file": "014/1873-12-22.md",
+     "why": [
+      "alias:Le Martyre"
+     ],
+     "existing_tags": [
+      "culture/themes/FASHION.md",
+      "people/mentioned/KOLOKOLZOFF.md",
+      "people/family/MAMAN.md",
+      "people/family/MA_TANTE.md"
+     ],
+     "french": "Maman est malade et ma tante ne va pas, je voulais déjà *pour me venger* souffrir le martyre et me résigner à rester, mais Mlle Kolokolzoff vient, entraîne ma tante (robe bleue, chapeau noir, bien). Ce n'est pas que je serais chagrinée de manquer le Tir car le Tir n'a aucun attrait, mais j'aurais été enragée de ne pas y aller, lorsque Mlle Kolokolzoff a dit qu'il y a le Tir, je sortis avec précipitation, car mes yeux étaient pleins de larmes. "
+    },
+    {
+     "pid": "053.0357",
+     "file": "053/1876-02-03.md",
+     "why": [
+      "alias:Le Martyr"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/ART_PRACTICE.md",
+      "culture/themes/ART_WORLD.md"
+     ],
+     "french": "Et il y a des crétins qui admirent ces affreux barbouillages, des vierges sans sourcils, de vrais masques au lieu des figures humaines. Le martyr de saint Sébastien abonde, il m'agace comme la tète de la Cenci[^5]. Dans un coin je trouve un gentil tableau, l'enlèvement d'Europe[^6], toile de 30 c. Europe est sur le dos d'un taureau qui traverse la mer à la nage. Il faut que je copie cela.  [^5]: The portrait of Beatrice Cenci (1577–1599), long attributed to Guido Reni, showing the young woman executed for parricide; it became a famous icon of suffering innocence.  [^6]: Classical mythological subject: Zeus, disguised as a bull, abducts Europa by swimming with her across the sea to Crete. "
+    },
+    {
+     "pid": "053.0369",
+     "file": "053/1876-02-03.md",
+     "why": [
+      "alias:Le Martyr"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md",
+      "people/artists/RAPHAEL.md"
+     ],
+     "french": "Ah ! le martyr de saint Erasme par Poussin. Quelle horreur. J'ai aussi vu les Raphaël, mais vous ne vous attendez pas, n'est-ce pas à un *guide Diamant[^10].*  [^10]: *Guide Diamant*: a popular series of cheap travel guides; Marie means she is not going to give a systematic tourist's description. "
+    },
+    {
+     "pid": "066.0090",
+     "file": "066/1876-09-07.md",
+     "why": [
+      "alias:Le Martyr"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "people/historical/NAPOLEON_I.md",
+      "culture/literature/PUSHKIN.md",
+      "culture/literature/LERMONTOV.md",
+      "culture/history/ALEXANDER_THE_GREAT.md"
+     ],
+     "french": "Alexandre de Macédoine, Napoléon premier, l'architecture et les ornements intérieurs, sont des *choses* qui me donnent des frissons et m'enthousiasment jusqu'aux larmes. C'est pour vous dire qu'enthousiasmée par la lecture d'une poésie sur Napoléon, le grand et le martyr, par notre poète Lermontoff, je lus aussi celles de Pouchkine, et me voilà avec l'idée d'en faire des traductions. "
+    },
+    {
+     "pid": "096.0280",
+     "file": "096/1882-09-22.md",
+     "why": [
+      "alias:Le Martyre"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/ART_PRACTICE.md"
+     ],
+     "french": "Voilà bientôt cinq ans que je travaille. Et voilà un an que je subis le martyre. Des souffrances cruelles je vous assure, perdre la bonne opinion qu'on avait de soi, confiance, courage, espoir. Ne travailler qu'avec l'horrible conviction que cela ne mène à rien. Et voilà qui paralyse. Et rien ne peut me relever, sinon une bonne toile... Et c'est impossible dans ce désastre moral... "
+    }
+   ]
+  },
+  {
+   "wid": "W204",
+   "title": "Impressions de voyage (Dumas travel books)",
+   "entry": "content/_original/_glossary/culture/literature/IMPRESSIONS_DE_VOYAGE_DUMAS.md",
+   "target": "culture/literature/IMPRESSIONS_DE_VOYAGE_DUMAS.md",
+   "display": "Impressions_de_voyage_(Alexandre_Dumas_père)",
+   "aliases": [
+    "Impressions de voyage",
+    "Impression de voyage en Russie",
+    "Impressions de voyage en Russie",
+    "voyages d'Alexandre Dumas",
+    "voyages de Dumas",
+    "La Villa Palmieri",
+    "la \"Villa Palmieri\""
+   ],
+   "candidates": [
+    {
+     "pid": "008.0224",
+     "file": "008/1873-08-27.md",
+     "why": [
+      "alias:Impression de voyage en Russie",
+      "alias:Impressions de voyage",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "places/countries/RUSSIA.md",
+      "culture/themes/READING.md",
+      "culture/literature/ALEXANDRE_DUMAS.md",
+      "people/historical/PETER_THE_GREAT.md"
+     ],
+     "french": "Je lis, n'ayant rien d'autre, \"Impression de voyage en Russie\" par Dumas[^008.0224.1]. Il y a des absurdités ! Il décrit Pierre le Grand comme un demi-dieu. Voilà un homme dont j'ai été amoureuse ! Et s'il m'aimait, quel triomphe !!!!  [^008.0224.1]: *Impression de voyage en Russie* (so Marie): Alexandre Dumas père's account of his journey through Russia in 1858–59 (*Impressions de voyage. En Russie*). "
+    },
+    {
+     "pid": "066.0422",
+     "file": "066/1876-09-24.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/literature/ALEXANDRE_DUMAS.md",
+      "places/cities/ROME.md",
+      "people/core/DUKE_OF_HAMILTON.md",
+      "places/cities/POMPEII.md",
+      "places/cities/NAPLES.md"
+     ],
+     "french": "Je vais retrouver Rome par Dumas, je n'ai pas lu avant d'avoir écrit ces pages aussi inutiles que peu intéressantes, car le nom seul de Rome m'émotionne comme jadis le duc de Hamilton. A présent allons nous affoler, je le suis déjà à moitié par Pompeï et Naples. "
+    },
+    {
+     "pid": "071.0181",
+     "file": "071/1877-05-08.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/themes/HEALTH.md",
+      "culture/literature/ALEXANDRE_DUMAS.md"
+     ],
+     "french": "Je suis souffrante, le soir seulement, je joue de la mandoline après avoir passé la journée à causer avec Dumas. Seulement il y a une foule de livres qui ne sont que signés Alex.[andre] Dumas, je les reconnais à la troisième page et les rejette avec mépris. "
+    },
+    {
+     "pid": "071.0485",
+     "file": "071/1877-05-28.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/mentioned/LARDEREL.md"
+     ],
+     "french": "Je suis contente que je puis ce soir penser avec amour à Alexandre; tout en jouant je me suis représentée sa figure le soir qu'il a dîné à la table d'hôte, après l'explication et... en vain je cherche à la décrire, seulement j'en suis enivrée et j'aime être ainsi. "
+    },
+    {
+     "pid": "071.0486",
+     "file": "071/1877-05-29.md",
+     "why": [
+      "alias:La Villa Palmieri",
+      "alias:voyages d'Alexandre Dumas"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md",
+      "culture/themes/READING.md",
+      "culture/themes/META_DIARY.md",
+      "culture/literature/ALEXANDRE_DUMAS.md"
+     ],
+     "french": "# Mardi 29 mai 1877 De temps en temps j'avais envie d'effacer mon appréciation d'il y a deux ans sur la Vénus de Médicis. J'avais un peu oublié la statue et j'étais un peu honteuse de mon jugement barbare, lorsqu'en lisant les voyages d'Alexandre Dumas j'ai trouvé que cet homme d'esprit était du même avis que moi. Je suis très flattée d'avoir dit la même chose deux ans avant de lire la “Villa Palmieri”. J'ai horreur d'usurper et si mes registres n'étaient pas en si bel ordre on pourrait dire que je débite en détestable français des idées volées dans toutes sortes de livres. "
+    }
+   ]
+  },
+  {
+   "wid": "W172",
+   "title": "La Vie parisienne",
+   "entry": "content/_original/_glossary/culture/theater/LA_VIE_PARISIENNE_OFFENBACH.md",
+   "target": "culture/theater/LA_VIE_PARISIENNE_OFFENBACH.md",
+   "display": "La_Vie_parisienne_(Offenbach)",
+   "aliases": [
+    "La Vie parisienne",
+    "La Vie parisienne"
+   ],
+   "candidates": [
+    {
+     "pid": "055.0537",
+     "file": "055/1876-03-11.md",
+     "why": [
+      "alias:La Vie parisienne"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/core/DINA.md",
+      "people/family/MAMAN.md",
+      "people/mentioned/VISCONTI.md",
+      "places/theaters/TEATRO_VALLE.md"
+     ],
+     "french": "Ce soir au Valle, on donne pour la première fois \"La vie parisienne\"[^vieparisienne], nous n'attendons donc personne. Visconti vient et pendant que je m'habille s'en va, n'ayant vu que Dina, car maman est toujours au lit. Je me suis donc mise à écrire et j'ai entendu sonner dix heures non sans une petite déception.  [^vieparisienne]: *La Vie parisienne*: Offenbach's opéra-bouffe (1866). "
+    },
+    {
+     "pid": "073.0233",
+     "file": "073/1877-07-30.md",
+     "why": [
+      "alias:La Vie parisienne"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/newspapers/LA_VIE_PARISIENNE.md",
+      "culture/themes/META_DIARY.md"
+     ],
+     "french": "# Lundi 30 juillet 1877 On dit que bien des jeunes filles écrivent leurs impressions et cette stupide \"Vie Parisienne\"[^1] le dit d'une manière assez dédaigneuse. J'espère bien que je ne suis pas cet être neutre, envieux, ignorant, aspirant les mystères et les dépravations par tous les pores; [Plusieurs lignes cancellées]  [^1]: *La Vie Parisienne*: a popular Parisian satirical and society weekly, founded in 1863; known for its mockery of bourgeois pretensions and fashionable affectations. "
+    },
+    {
+     "pid": "082.0555",
+     "file": "082/1878-10-06.md",
+     "why": [
+      "alias:La Vie parisienne"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/BALZAC.md",
+      "people/mentioned/DURUY.md",
+      "culture/newspapers/LA_VIE_PARISIENNE.md",
+      "culture/newspapers/LE_PAYS.md",
+      "culture/themes/READING.md",
+      "culture/themes/MUSIC_THEME.md",
+      "culture/literature/HISTOIRE_DES_ROMAINS_DURUY.md"
+     ],
+     "french": "A huit heures j'ai cru qu'il en était déjà onze. Alors je me mis à jouer des gammes sur la mandoline tout en lisant Balzac. Pourquoi dit-on que Balzac est désillusionnant ? Ayant lu trois livraisons de \"L'Histoire Romaine\" de Duruy, j'ai lu \"La vie Parisienne\" et \"Le Pays\" où on continue à fulminer... "
+    },
+    {
+     "pid": "087.0414",
+     "file": "087/1880-02-03.md",
+     "why": [
+      "alias:La Vie parisienne"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/SOCIETY.md",
+      "culture/themes/CHURCH.md",
+      "people/mentioned/MULTEDO.md",
+      "people/royalty/QUEEN_ISABELLA_II.md",
+      "people/recurring/BERTHE.md",
+      "people/mentioned/GAVINI.md",
+      "people/mentioned/HAUSSMANN.md",
+      "people/mentioned/MARECHAL_CANROBERT.md",
+      "culture/newspapers/LA_VIE_PARISIENNE.md",
+      "people/mentioned/FILIPPINI.md"
+     ],
+     "french": "Le mariage de Multedo-Satena. Cela se passe à ravir, tout y est, évêque, reine Isabelle, etc. etc. à l'église de la Trinité. Berthe ayant demandé de venir la prendre nous l'emmenons. Ni elle ni nous n'avons été conviées à la soirée de Contrat, mais seulement à la messe. De suite Mme Gavini me prend à son côté avec Haussmann, le maréchal Canrobert et le frère de Filippini. Cette femme est ravissante parfois, notre conversation pendant les une heure et demie [Rayé: et plus] qu'a duré la cérémonie ferait un charmant article pour \"La Vie Parisienne\". "
+    },
+    {
+     "pid": "102.0287",
+     "file": "102/1883-11-20.md",
+     "why": [
+      "alias:La Vie parisienne"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/mentioned/GABRIEL_GERY.md",
+      "culture/newspapers/LA_VIE_PARISIENNE.md"
+     ],
+     "french": "Il m'inspire des conversations comme en tiennent les jeunes filles de la Vie Parisienne[^4], j'ai envie de me montrer écervelée, vicieuse même à ce jeune prétendant.  [^4]: *La Vie Parisienne*: satirical illustrated magazine known for its risqué humour and depictions of Parisian social life. "
+    }
+   ]
+  },
+  {
+   "wid": "W216",
+   "title": "Beatrice Cenci (portrait attributed to Guido Reni)",
+   "entry": "content/_original/_glossary/culture/art/PORTRAIT_BEATRICE_CENCI.md",
+   "target": "culture/art/PORTRAIT_BEATRICE_CENCI.md",
+   "display": "Portrait_of_Beatrice_Cenci_(Palazzo_Barberini)",
+   "aliases": [
+    "Béatrice Cenci",
+    "la Cenci",
+    "portrait de Béatrice Cenci",
+    "Portrait of Beatrice Cenci",
+    "Beatrice Cenci portrait",
+    "Beatrice Cenci by Guido Reni"
+   ],
+   "candidates": [
+    {
+     "pid": "052.0377",
+     "file": "052/1876-01-22.md",
+     "why": [
+      "alias:Béatrice Cenci"
+     ],
+     "existing_tags": [
+      "culture/themes/FASHION.md",
+      "people/writers/DANTE.md"
+     ],
+     "french": "Puis je rentre, me décoiffe, me change de robe et me mets à confectionner un vêtement comme celui de la Béatrice de Dante et un turban comme chez Béatrice Cenci[^10]. Les coiffures Marie Stuart et Marie-Antoinette sont prêtes. Lundi je poserai.  [^10]: Beatrice Cenci (1577–1599): Roman noblewoman executed for the murder of her tyrannical father; immortalised in a portrait attributed to Guido Reni, showing her in a white turban, which Marie would have seen in the Galleria Barberini. "
+    },
+    {
+     "pid": "053.0357",
+     "file": "053/1876-02-03.md",
+     "why": [
+      "alias:Béatrice Cenci",
+      "alias:Portrait of Beatrice Cenci",
+      "alias:la Cenci"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/ART_PRACTICE.md",
+      "culture/themes/ART_WORLD.md"
+     ],
+     "french": "Et il y a des crétins qui admirent ces affreux barbouillages, des vierges sans sourcils, de vrais masques au lieu des figures humaines. Le martyr de saint Sébastien abonde, il m'agace comme la tète de la Cenci[^5]. Dans un coin je trouve un gentil tableau, l'enlèvement d'Europe[^6], toile de 30 c. Europe est sur le dos d'un taureau qui traverse la mer à la nage. Il faut que je copie cela.  [^5]: The portrait of Beatrice Cenci (1577–1599), long attributed to Guido Reni, showing the young woman executed for parricide; it became a famous icon of suffering innocence.  [^6]: Classical mythological subject: Zeus, disguised as a bull, abducts Europa by swimming with her across the sea to Crete. "
+    },
+    {
+     "pid": "057.0214",
+     "file": "057/1876-04-13.md",
+     "why": [
+      "alias:Béatrice Cenci",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/APPEARANCE.md",
+      "culture/themes/FASHION.md",
+      "people/mentioned/ANTONELLI.md"
+     ],
+     "french": "J'écris en face d'une grande glace, j'ai l'air de Béatrice[^8] Cenci moins le turban. C'est beau, une robe blanche et les cheveux épars. Je mets des faux cheveux pour monter à cheval et au théâtre. C'est-à-dire, au théâtre et le soir je ne mets qu'un toupet frisé devant, simplement pour ne pas avoir à me couper les cheveux et à les boucler chaque soir, et il faudrait cela pour obtenir le même effet devant. Je me coiffe \"à la pompéienne[^9]\", comme disait Pietro.  [^8]: ==Béatrice Cenci== (1577–1599) — the Roman noblewoman executed for parricide, whose portrait attributed to Guido Reni (Palazzo Barberini, Rome) shows her in a white turban.  [^9]: *À la pompéienne*: in the manner of the hairst"
+    },
+    {
+     "pid": "059.0849",
+     "file": "059/1876-05-06.md",
+     "why": [
+      "alias:Béatrice Cenci",
+      "inventory"
+     ],
+     "existing_tags": [],
+     "french": "Et me voilà seule chez moi, en Béatrice Cenci[^9], moins le turban.  [^9]: Beatrice Cenci (1577–1599): Roman noblewoman executed for parricide, subject of Guido Reni's celebrated portrait showing her in a white turban; a Romantic emblem of tragic beauty. "
+    }
+   ]
+  },
+  {
+   "wid": "split",
+   "title": "Les Mirabeau (Louis de Loménie)",
+   "entry": "content/_original/_glossary/culture/literature/LES_MIRABEAU_LOMENIE.md",
+   "target": "culture/literature/LES_MIRABEAU_LOMENIE.md",
+   "display": "Les_Mirabeau_(Louis_de_Loménie)",
+   "aliases": [
+    "Les Mirabeau (Loménie)",
+    "Les Mirabeau, nouvelles études sur la société française au XVIIIe siècle",
+    "le premier volume de M. de Loménie sur les Mirabeau",
+    "volume de Loménie sur les Mirabeau"
+   ],
+   "candidates": [
+    {
+     "pid": "085.0185",
+     "file": null,
+     "why": [
+      "cited in entry"
+     ],
+     "existing_tags": [],
+     "french": ""
+    },
+    {
+     "pid": "085.0310",
+     "file": null,
+     "why": [
+      "cited in entry"
+     ],
+     "existing_tags": [],
+     "french": ""
+    },
+    {
+     "pid": "085.0311",
+     "file": null,
+     "why": [
+      "cited in entry"
+     ],
+     "existing_tags": [],
+     "french": ""
+    },
+    {
+     "pid": "085.0315",
+     "file": null,
+     "why": [
+      "cited in entry"
+     ],
+     "existing_tags": [],
+     "french": ""
+    }
+   ]
+  },
+  {
+   "wid": "W231",
+   "title": "La Pluie et le beau temps",
+   "entry": "content/_original/_glossary/culture/theater/LA_PLUIE_ET_LE_BEAU_TEMPS.md",
+   "target": "culture/theater/LA_PLUIE_ET_LE_BEAU_TEMPS.md",
+   "display": "La_Pluie_et_le_beau_temps_(Léon_Gozlan)",
+   "aliases": [
+    "La Pluie et le beau temps",
+    "la Pluie et le beau temps",
+    "Pluie et le beau temps (Gozlan)"
+   ],
+   "candidates": [
+    {
+     "pid": "078.0221",
+     "file": "078/1878-02-17.md",
+     "why": [
+      "alias:La Pluie et le beau temps",
+      "alias:la Pluie et le beau temps"
+     ],
+     "existing_tags": [
+      "people/mentioned/ALTAMURA.md",
+      "people/core/DINA.md",
+      "people/aristocracy/MLLE_TANSKA.md",
+      "people/aristocracy/MME_NEEDHAM.md",
+      "people/aristocracy/PRINCE_STROZZI.md",
+      "culture/themes/ART_WORLD.md",
+      "culture/themes/SOCIETY.md",
+      "places/cities/FLORENCE.md",
+      "places/cities/ROME.md",
+      "people/mentioned/GORDIGIANI.md"
+     ],
+     "french": "> enthousiastes de vous et sera enchanté de faire votre portrait à votre retour. Il avait 6 photographies, il en a gardé deux, j'en sollicite deux pour moi, et vous renverrai les deux restantes, si tel est votre désir. J'ai aussi aperçu à Rome (de loin) le Signor Altamura -\"Mademoiselle Dinaa\" C'est un être qui me donne sur les nerfs. En fait de demoiselles il y a à Florence une polonaise, Mlle Tanskà qui fait la pluie et le beau temps. Elle a 16 ans et s'occupe de sculpture. C'est à peu près la seule jolie personne. Puis Mme Needham, une anglaise extraordinaire qui a ensorcelé le jeune prince Strozzi. Pas le moindre scandale, pas le moindre racontar calme plat. Venez jeter un rayon de solei"
+    },
+    {
+     "pid": "084.0420",
+     "file": "084/1879-03-06.md",
+     "why": [
+      "alias:La Pluie et le beau temps",
+      "alias:la Pluie et le beau temps"
+     ],
+     "existing_tags": [
+      "people/mentioned/MARCUARD.md",
+      "people/aristocracy/MLLE_TANSKA.md",
+      "culture/themes/ART_PRACTICE.md"
+     ],
+     "french": "Eh bien, je fais une nature morte. Mais les idées d'hier. Je me rappelle d'une lettre de Marcuard où il me disait: Nous avons cet hiver ici une jeune fille polonaise qui fait la pluie et le beau temps, Mlle Tanskà, elle s'occupe de sculpture. "
+    },
+    {
+     "pid": "087.0158",
+     "file": "087/1880-01-09.md",
+     "why": [
+      "alias:La Pluie et le beau temps",
+      "alias:la Pluie et le beau temps",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/core/DINA.md",
+      "people/mentioned/GABRIEL_GERY.md",
+      "culture/themes/THEATER_THEME.md",
+      "people/mentioned/SOUTZO.md",
+      "people/mentioned/COURTES.md",
+      "people/aristocracy/MARQUIS_DE_TARENTE.md"
+     ],
+     "french": "Nous jouons \"la Pluie et le beau temps\" de L. Gazlan. La baronne de Gontran - moi. Un inconnu - le prince Soutzo. Victorine - Dina. Anselme - le comte de Courtes. Souffleur - Gabriel. Régisseur - le marquis de Tarente. "
+    },
+    {
+     "pid": "087.0188",
+     "file": "087/1880-01-12.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "people/mentioned/SOUTZO.md"
+     ],
+     "french": "La comédie a été vraiment bien jouée pour avoir distribué les rôles mercredi et avoir eu quatre représentations. En répétant je ne jouais presque pas, aussi si ça été une sorte de révélation ce soir. Ce qu’il faut dire à ma louange c’est que je n’ai jamais eu moins peur de ma vie,je ne craignais qu’une chose, c’est qu’il n’y eu pas assez de monde. Je vois du reste que plus il y a de public moins on s’intimide, donc pour l’aplomb j’en ai eu à revendre, oh mais là, vous savez, je me fichais de mon public, je jouais pour moi, aussi en ai-je été récompensée à certains mots, gestes, inflexions, par de ces murmures et de ces applaudissements qu’on sent sincères. On a ri aux choses drôles. Et Soutz"
+    }
+   ]
+  },
+  {
+   "wid": "W254",
+   "title": "La Cruche cassée",
+   "entry": "content/_original/_glossary/culture/art/LA_CRUCHE_CASSEE_GREUZE.md",
+   "target": "culture/art/LA_CRUCHE_CASSEE_GREUZE.md",
+   "display": "La_Cruche_cassée_(Greuze)",
+   "aliases": [
+    "la cruche cassée de Greuze",
+    "la Cruche cassée de Greuze",
+    "La Cruche cassée",
+    "The Broken Pitcher",
+    "The Broken Jug"
+   ],
+   "candidates": [
+    {
+     "pid": "087.0101",
+     "file": "087/1879-12-30.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/mentioned/GABRIEL_GERY.md",
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/FASHION.md",
+      "people/family/PAUL.md",
+      "culture/history/GREUZE.md",
+      "places/theaters/COMEDIE_FRANCAISE.md"
+     ],
+     "french": "Paul devait partir, mais n'est pas parti; nous allons au théâtre Français. Je m'arrange en cruche cassée de Greuze, ce qui me va bien malgré tous ces tourments des derniers jours. Gabriel dînant en ville vient fort tard et ne nous voit qu'à la sortie s'étonnant que nous ayons pu avoir une loge un mardi. Moi, je dis que j'ai toujours tout ce que je veux, je pose pour la femme heureuse et comme je suis assez aimable avec ce grand garçon à la politesse républicaine, je pense qu'il ne me croira pas trop folle de l'autre. Du reste... "
+    },
+    {
+     "pid": "094.0167",
+     "file": "094/1882-01-13.md",
+     "why": [
+      "alias:La Cruche cassée",
+      "alias:The Broken Pitcher",
+      "alias:la Cruche cassée de Greuze",
+      "alias:la cruche cassée de Greuze",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/FASHION.md",
+      "people/mentioned/DOUCET.md",
+      "culture/history/GREUZE.md"
+     ],
+     "french": "Je portais une robe faite par Doucet et moi de compagnie, la reproduction presque fidèle de la Cruche cassée de Greuze[^094.0167.1]. Des cheveux qui s'envolent tordus en un petit chignon assez haut sur la nuque. Un grand cordon de roses du Bengale allant se perdre dans la jupe en s'effeuillant. Jupe toute plissée et courte en mousseline de soie. Corsage de satin merveilleux, lacé devant, très large, faisant des plis sur la taille, sans pointe, fichu noué de travers. Seconde jupe de mouseline doublée de satin, ouverte devant et retroussée en revers formant paniers, dont l'un rempli de roses, cette seconde jupe faisant une petite traine [Mots noircis: brodée] de roses intérieurement. J'avais u"
+    },
+    {
+     "pid": "094.0177",
+     "file": "094/1882-01-15.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "people/mentioned/GAVINI.md",
+      "people/writers/ETINCELLE.md",
+      "culture/themes/SOCIETY.md",
+      "culture/history/GREUZE.md",
+      "places/cities/POLTAVA.md"
+     ],
+     "french": "Chez les Gavini et chez Etincelle qui est charmante. Il y a un grand article sur notre soiree mais comme on s'y attendait on n'est pas content, elle me compare à la *Cruche casse*e et on craint qu'à Poltava cela ne passe pour une injure... On est trop bête, l'article est très bien seulement comme elle avait dit il y a deux jours que je suis une des plus jolies femmes de l'Empire Russe elle s'est contentée cette fois de décrire ma robe. De là, désillusion. "
+    }
+   ]
+  },
+  {
+   "wid": "W156",
+   "title": "The Odyssey",
+   "entry": "content/_original/_glossary/culture/literature/HOMER_ODYSSEY.md",
+   "target": "culture/literature/HOMER_ODYSSEY.md",
+   "display": "Homer's_Odyssey_(L'Odyssée)",
+   "aliases": [
+    "l'Odyssée",
+    "un livre de Homère en grec",
+    "Odyssée",
+    "Odyssey"
+   ],
+   "candidates": [
+    {
+     "pid": "062.0343",
+     "file": "062/1876-06-13.md",
+     "why": [
+      "alias:Odyssey"
+     ],
+     "existing_tags": [
+      "culture/themes/SOCIETY.md",
+      "culture/themes/MARRIAGE.md",
+      "people/family/MA_TANTE.md"
+     ],
+     "french": "— Non, non, je ne demande rien d'extraordinaire, vous le voyez bien. C'est vous qui vous imaginez qu'avec un genre de vie et, par conséquent, avec une réputation pareille et une robe blanche on peut tout. Je me montre de deux à quatre heures à la promenade, de huit à douze heures au théâtre, un roi tombe amoureux et vient m'offrir au bout de sa canne sa couronne et son cœur. Attendez !... Vous avez cru que quatre ou cinq jeunes gens étaient la gloire suprême. Mais chaque jolie femme a cela, fût-elle reine, actrice, portière ou poissarde, quand elle est jolie ! Vous attendez un prince charmant, c'est bon. Il s'en trouve, s'en doute, il est charmé, il demande qui je suis et on lui répond : *pe"
+    },
+    {
+     "pid": "102.0158",
+     "file": "102/1883-11-06.md",
+     "why": [
+      "alias:Odyssey"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_PRACTICE.md",
+      "culture/art/DOULEUR_DE_NAUSICAA.md"
+     ],
+     "french": "Cette statue de la Nausicaa[^6], ce sera mon incarnation, j'y mettrai toutes mes petites misères.  [^6]: Nausicaa: princess in Homer's *Odyssey* who discovers the shipwrecked Odysseus — Marie's subject for her planned sculpture. "
+    },
+    {
+     "pid": "103.0157",
+     "file": "103/1884-01-28.md",
+     "why": [
+      "alias:Odyssey"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_PRACTICE.md",
+      "culture/art/DOULEUR_DE_NAUSICAA.md",
+      "people/mentioned/IRMA.md"
+     ],
+     "french": "A cinq heures j'essaye d'un nouveau modèle pour Nausicaa[^2]. Irma a vingt-trois et quoique très belle vingt-trois ans ne sont pas quinze.  [^2]: Nausicaa: the young princess in Homer's *Odyssey* who discovers the shipwrecked Odysseus on the shore; a subject requiring a young, innocent model. "
+    }
+   ]
+  },
+  {
+   "wid": "W169",
+   "title": "La Vestale",
+   "entry": "content/_original/_glossary/culture/theater/LA_VESTALE_SPONTINI.md",
+   "target": "culture/theater/LA_VESTALE_SPONTINI.md",
+   "display": "La_Vestale_(Spontini)",
+   "aliases": [
+    "La Vestale",
+    "\"La Vestale\"",
+    "La vestale",
+    "La Vestale de Spontini"
+   ],
+   "candidates": [
+    {
+     "pid": "052.0401",
+     "file": "052/1876-01-23.md",
+     "why": [
+      "alias:La Vestale",
+      "alias:La vestale",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "places/theaters/APOLLO.md"
+     ],
+     "french": "Le soir nous allons au teatro Apollo[^4], on donne \"La Vestale[^5]\" et un ballet.  [^4]: The Teatro Apollo: the principal opera house in Rome, built in 1795 on the site of the Castel Sant'Angelo's ramparts; it was demolished in 1889 to make way for the embankment of the Tiber.  [^5]: ==*La Vestale*==: opera by Gaspare Spontini (1807); a tragedy set in ancient Rome featuring a Vestal Virgin who breaks her vow of chastity for love; one of the great works of early 19th-century opera. "
+    },
+    {
+     "pid": "055.0778",
+     "file": "055/1876-03-16.md",
+     "why": [
+      "alias:\"La Vestale\"",
+      "alias:La Vestale",
+      "alias:La vestale"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/MUSIC_THEME.md",
+      "culture/themes/LOVE.md",
+      "people/mentioned/ANTONELLI.md",
+      "culture/music/MENDELSSOHN.md",
+      "culture/music/SONGS_WITHOUT_WORDS_MENDELSSOHN.md"
+     ],
+     "french": "Je me mis à jouer doucement sans paroles de Mendelssohn[^9], et Pietro se mit à me chanter sa romance à lui. Plus il y mettait de sérieux et de chaleur plus je riais et plus j'étais froide. Il m'est impossible de me figurer Antonelli sérieux. Tout ce que dit celle qu'on aime paraît adorable, je suis amusante quelquefois pour des indifférents, à plus forte raison pour ceux qui ne le sont pas. Au milieu d'une phrase toute de tendresse et d'amour je disais quelque chose d'irrésistiblement drôle, pour lui, et il se mettait à rire, alors je lui reprochai ce rire disant que je ne pouvais pas croire à un enfant qui n'était jamais sérieux, qui riait comme un fou de tout. Et comme *cela* plusieurs fo"
+    },
+    {
+     "pid": "058.0096",
+     "file": "058/1876-04-16.md",
+     "why": [
+      "alias:La Vestale",
+      "alias:La vestale",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "places/cities/ROME.md"
+     ],
+     "french": "Cette représentation me rappelle celle de \"La Vestale[^6]\" à Rome, on a sifflé, hurlé, et pour finir on a lancé un chat sur la scène qui après avoir vainement essayé de sauter sur la tête chauve d'un musicien et dans l'avant-scène de *ces messieurs,* s'enfuit fou de terreur aux délices du public.  [^6]: *La Vestale* — opera by Gaspare Spontini (1807), a staple of the Italian repertoire. The chaotic reception describes the volatile atmosphere of Italian opera audiences in the 1870s, for whom throwing objects was a standard form of critique. "
+    }
+   ]
+  },
+  {
+   "wid": "W164",
+   "title": "Marine paintings exhibited in Nice (Aivazovsky)",
+   "entry": "content/_original/_glossary/culture/art/AIVAZOVSKY_MARINES_NICE.md",
+   "target": "culture/art/AIVAZOVSKY_MARINES_NICE.md",
+   "display": "Aivazovsky's_pictures_at_the_Hôtel_Chauvain,_Nice_(1874)",
+   "aliases": [
+    "les tableaux d'Aïvazowsky",
+    "tableaux d'Aïvazowsky",
+    "exposition Aïvazowsky",
+    "Aivazovsky exhibition in Nice"
+   ],
+   "candidates": [
+    {
+     "pid": "017.0090",
+     "file": "017/1874-03-01.md",
+     "why": [
+      "alias:les tableaux d'Aïvazowsky",
+      "alias:tableaux d'Aïvazowsky",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/AIVAZOVSKY.md",
+      "culture/themes/ART_WORLD.md",
+      "places/social/HOTEL_CHAUVAIN.md"
+     ],
+     "french": "Nous allons à l'hôtel Chauvain voir les tableaux d'Aïvazowsky, l'entrée un franc au profit des pauvres. Les effets de la lumière, l'eau, les vagues, les brouillards sont d'une finesse, d'un naturel, d'une transparence surprenants. "
+    },
+    {
+     "pid": "018.0244",
+     "file": "018/1874-04-12.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/history/AIVAZOWSKY.md",
+      "places/cities/NICE.md",
+      "culture/themes/WEATHER.md",
+      "culture/themes/NATURE.md"
+     ],
+     "french": "Nous sortons, il pleut à verse, mais la mer est admirablement furieuse. Pour la mieux voir nous allons à *enlève-chapeau* où les vagues montent sur le chemin et l'écume à dix mètres au-dessus de la voiture. L'eau est transparente, verte, claire, vaporeuse comme chez Aïvazowsky. En ce moment je m'étais réconciliée avec Nice, tant cette mer enragée me parut stupéfiante et belle. "
+    }
+   ]
+  },
+  {
+   "wid": "W215",
+   "title": "Gretchen (Gabriel von Max)",
+   "entry": "content/_original/_glossary/culture/art/GRETCHEN_VON_MAX.md",
+   "target": "culture/art/GRETCHEN_VON_MAX.md",
+   "display": "Gretchen_(Gabriel_von_Max)",
+   "aliases": [
+    "la Gretchen de Marx",
+    "la Gretchen de Max",
+    "Gretchen de Max",
+    "Gretchen by Gabriel von Max",
+    "Gretchen"
+   ],
+   "candidates": [
+    {
+     "pid": "034.0274",
+     "file": "034/1875-06-14.md",
+     "why": [
+      "alias:Gretchen"
+     ],
+     "existing_tags": [
+      "culture/themes/APPEARANCE.md",
+      "people/core/DINA.md"
+     ],
+     "french": "Elle n'a de beau que ses superbes cheveux blond cendré (blond que je n'estime pas du tout mais tout le monde n'a pas mon goût et je tiens à être juste), longs et soyeux, véritables tresses de Marguerite[^034.0274.1].  [^034.0274.1]: *Marguerite*: Gretchen of Goethe's *Faust* (and of Gounod's opera, 1859), conventionally shown with long fair braids. "
+    },
+    {
+     "pid": "064.0536",
+     "file": "064/1876-08-12.md",
+     "why": [
+      "alias:Gretchen"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/POLITICS.md",
+      "people/historical/CATHERINE_THE_GREAT.md",
+      "culture/theater/FAUST_GOETHE.md"
+     ],
+     "french": "L'arc de triomphe de Catherine II est peint en rouge avec des colonnes vertes et des ornements jaunes. Malgré l'extravagance des couleurs, vous ne sauriez croire combien c'est joli, d'ailleurs c'est en harmonie avec les toits des maisons et des églises qui sont presque tous en feuilles de fer vertes ou rouge foncé. Cette naïveté des ornements extérieurs vous remplit de bien-aise en vous faisant sentir la bonne simplicité du peuple russe. Et les nihilistes le sapent déjà ! Méphistophélès pervertit Marguerite[^4]. La propagande fait son œuvre infâme, et le jour que ce bon peuple excité, trompé par des Gambettas[^5] insensés, se soulèvera..., ce sera terrible car si, en temps de paix et de calm"
+    }
+   ]
+  },
+  {
+   "wid": "W263",
+   "title": "Portrait de jeune fille (Sargent)",
+   "entry": "content/_original/_glossary/culture/art/PORTRAIT_DE_JEUNE_FILLE_SARGENT.md",
+   "target": "culture/art/PORTRAIT_DE_JEUNE_FILLE_SARGENT.md",
+   "display": "Portrait_de_jeune_fille_(Sargent,_Salon_1882)",
+   "aliases": [
+    "le portrait de jeune fille par Sargent",
+    "portrait de jeune fille par Sargent",
+    "Lady with the Rose (Charlotte Louise Burckhardt)",
+    "Lady with the Rose",
+    "Portrait of Mlle Burckhardt"
+   ],
+   "candidates": [
+    {
+     "pid": "095.0036",
+     "file": "095/1882-05-09.md",
+     "why": [
+      "alias:le portrait de jeune fille par Sargent",
+      "alias:portrait de jeune fille par Sargent",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/ART_WORLD.md",
+      "people/artists/JOHN_SINGER_SARGENT.md",
+      "people/mentioned/VELASQUEZ.md"
+     ],
+     "french": "C'est le portrait de jeune fille par Sargent, qui me hante, il est ravissant, c'est une œuvre exquise qu'on placerait volontiers dans un musée avec des van Dyck et des Vélasquez. "
+    },
+    {
+     "pid": "103.0551",
+     "file": "103/1884-03-16.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_PRACTICE.md",
+      "culture/themes/APPEARANCE.md",
+      "people/mentioned/IMPERATRICE_EUGENIE.md",
+      "people/mentioned/MME_DE_POURTALES.md"
+     ],
+     "french": "Il y a des beautés, comme toutes celles qui ont brillé et brillent, l'impératrice Eugénie, la comtesse de Pourtalès, Mme A. de La Rochefoucauld, Mme Potasca, d'Hervey et de Saint-Denis etc. etc. Mme Gautereau[^2] mais elles ont toutes des défauts ou des côtés humains. Celle-là est stupéfiante. Il y a des nez délicats, des nez fiers, des nez expressifs, des nez ravissants, des nez adorables, des nez à l'antique comme Mme Gautereau, mais le nez de Mme Benardaki est d'une simplicité, d'une beauté, d'une pureté surhumaines. Les narines sont sublimes. Et la bouche est fraîche comme celle d'un enfant mais d'une forme imposante. Je voudrais bien savoir si une tête comme ça peut se peindre ? Cette b"
+    }
+   ]
+  },
+  {
+   "wid": "split",
+   "title": "Portrait de Victor Hugo (Bonnat)",
+   "entry": "content/_original/_glossary/culture/art/PORTRAIT_VICTOR_HUGO_BONNAT.md",
+   "target": "culture/art/PORTRAIT_VICTOR_HUGO_BONNAT.md",
+   "display": "Portrait_de_Victor_Hugo_(Bonnat)",
+   "aliases": [
+    "le portrait de Victor Hugo par Bonnat",
+    "portrait de Victor Hugo par Bonnat",
+    "Bonnat's portrait of Victor Hugo"
+   ],
+   "candidates": [
+    {
+     "pid": "080.0012",
+     "file": null,
+     "why": [
+      "cited in entry"
+     ],
+     "existing_tags": [],
+     "french": ""
+    },
+    {
+     "pid": "085.0071",
+     "file": null,
+     "why": [
+      "cited in entry"
+     ],
+     "existing_tags": [],
+     "french": ""
+    }
+   ]
+  },
+  {
+   "wid": "W241",
+   "title": "Les Rois en exil",
+   "entry": "content/_original/_glossary/culture/literature/LES_ROIS_EN_EXIL.md",
+   "target": "culture/literature/LES_ROIS_EN_EXIL.md",
+   "display": "Les_Rois_en_exil_(Alphonse_Daudet)",
+   "aliases": [
+    "Les Rois en exil",
+    "Les rois en exil",
+    "Rois en exil",
+    "“Les rois en exil”",
+    "\"Les rois en exil\"",
+    "Les Rois en exil de Daudet"
+   ],
+   "candidates": [
+    {
+     "pid": "096.0038",
+     "file": "096/1882-08-08.md",
+     "why": [
+      "alias:\"Les rois en exil\"",
+      "alias:Les Rois en exil",
+      "alias:Les rois en exil",
+      "alias:Rois en exil",
+      "alias:“Les rois en exil”",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/READING.md",
+      "culture/themes/MARRIAGE.md",
+      "people/family/MA_TANTE.md",
+      "people/artists/ROBERT_FLEURY.md",
+      "culture/literature/ALPHONSE_DAUDET.md"
+     ],
+     "french": "J'ai encore posé, ma tante m'amène, va faire des courses et revient comme tous les jours. Mais j'ai la tête un peu troublée par \"Les rois en exil\" de Daudet, je l'avais déjà lu mais ça se recommence, il y a là de si ravissantes pages, une finesse d'analyse, une netteté d'expression qui me ravit, des choses qui font pleurer. Des choses de sentiment... C'est Tony aussi qui m'y fait penser ce soir. Il est triste, son père est âgé de quatre-vingt-six ans et sa mère de soixante-quinze, son beau-frère est mourant, il ne lui restera que sa sœur qui a ses enfants. Le voilà tout seul, il passe ses soirées dans la solitude, il s'ennuie et s'en plaint. Je vous l'ai dit c'est un être sentimental, alors "
+    },
+    {
+     "pid": "096.0039",
+     "file": "096/1882-08-08.md",
+     "why": [
+      "alias:\"Les rois en exil\"",
+      "alias:Les Rois en exil",
+      "alias:Les rois en exil",
+      "alias:Rois en exil",
+      "alias:“Les rois en exil”",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "culture/themes/READING.md"
+     ],
+     "french": "On entre presque dans la peau des gens et on pense avec ou pour eux, c'est une course en dehors de soi qui peut passionner, et puis... \"Les rois en exil\". Ah ! les ravissantes et attendrissantes choses. L'amour de Méraut pour la reine. C'est beau l'amour. Mais où vais-je trouver cet homme extraordinaire, ce héros... Car ce doit être un héros, le mot tourné en ridicule est juste. "
+    }
+   ]
+  },
+  {
+   "wid": "W184",
+   "title": "English satirical novel about Nice ('Mrs Bodgers')",
+   "entry": "content/_original/_glossary/culture/literature/MRS_BODGERS_NICE_NOVEL.md",
+   "target": "culture/literature/MRS_BODGERS_NICE_NOVEL.md",
+   "display": "English_novel_on_Nice_society_(\"Mrs_Bodgers\")",
+   "aliases": [
+    "Mrs Bodgers",
+    "Bodgers",
+    "Fair in the fearless old fashion"
+   ],
+   "candidates": [
+    {
+     "pid": "051.0222",
+     "file": "051/1875-12-31.md",
+     "why": [
+      "alias:Bodgers",
+      "alias:Fair in the fearless old fashion",
+      "alias:Mrs Bodgers",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/languages/ENGLISH.md",
+      "culture/themes/SOCIETY.md",
+      "places/cities/NICE.md",
+      "people/mentioned/PRODGERS.md"
+     ],
+     "french": "Il y a un livre angla*is Fair in the fearless old fashion[^en6], o*u on passe en revue le monde de Nice, ou on decrit l'origine de Mrs Bodgers fille d'un gentilhomme, mariee a Bodgers, fils d'un jardinier et humble et miserable pretre lui-meme. Toute sa vie elle a reve de devenir quelqu'un, et apres toutes les humiliations, et les tourments imaginables, \"Mrs Bodgers attained the summit of her ambition in Nice\"[^en7]  [^en6]: In English in the original.  [^en7]: In English in the original. "
+    },
+    {
+     "pid": "053.0264",
+     "file": "053/1876-01-31.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/languages/ENGLISH.md",
+      "culture/themes/LOVE.md"
+     ],
+     "french": "Une phrase que j'ai lue dans un livre anglais m'a été comme un poignant reproche, c'est un père qui parle à sa fille: \"Bless my heart, Kate, are you mad ? What, you, of all girls in the world, confess your love for a fellow who has not first said he loves you ?\"[^4]  [^4]: In English in the original. "
+    }
+   ]
+  },
+  {
+   "wid": "W234",
+   "title": "Valentine",
+   "entry": "content/_original/_glossary/culture/literature/VALENTINE_SAND.md",
+   "target": "culture/literature/VALENTINE_SAND.md",
+   "display": "Valentine_(George_Sand)",
+   "aliases": [
+    "Valentine (George Sand)",
+    "Valentine (Sand)",
+    "Valentine de George Sand",
+    "Valentine de Georges Sand"
+   ],
+   "candidates": [
+    {
+     "pid": "090.0079",
+     "file": "090/1880-10-09.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/BALZAC.md",
+      "culture/literature/ALEXANDRE_DUMAS.md",
+      "people/mentioned/VICTOR_HUGO.md",
+      "culture/themes/READING.md",
+      "culture/literature/GEORGE_SAND.md",
+      "culture/literature/EMILE_ZOLA.md",
+      "culture/literature/ALPHONSE_DAUDET.md",
+      "people/mentioned/MUSSET.md",
+      "people/mentioned/ALEXANDRE_DUMAS_FILS.md"
+     ],
+     "french": "Mais que voit-on dans Georges Sand ? Un roman joliment écrit ? Oui, après ? Eh bien ses romans m'ennuient. Tandis que Balzac, les deux Dumas, Zola, Daudet, Musset ne m'ennuient jamais. Victor Hugo dans sa prose la plus romantiquement folle dans \"Han d'Islande\" n'est jamais fatigant. On sent le génie. Mais Georges Sand ! Comment peut-on lire trois cents pages de \"Valentine\" et de \"Bénédict\" accompagnés d'un oncle, d'un jardinier, que sais-je ! "
+    },
+    {
+     "pid": "090.0082",
+     "file": "090/1880-10-09.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/READING.md",
+      "culture/literature/GEORGE_SAND.md",
+      "culture/theater/LE_MARQUIS_DE_VILLEMER.md"
+     ],
+     "french": "Eh bien \"*Valentine\",* je la lis en ce moment et cela m'agace parce que le livre m'intéresse assez pour que je le finisse et en même temps je sais qu'il ne m'en restera rien que peut-être une vague impression désagréable, il me semble que cette lecture me rabaisse, je me révolte et je continue car il faut que ce soit aussi assommant que \"le Dernier Amour\", du même auteur, pour que je n'aille pas jusqu'au bout... Pourtant \"Valentine\" est ce que j'ai lu de mieux de Georges Sand. \"Le marquis de Villemer\" que je ne connais qu'au théâtre doit être bien aussi, je crois qu'il n'y a pas de palefrenier, amant de la comtesse. "
+    }
+   ]
+  },
+  {
+   "wid": "W166",
+   "title": "Stabat Mater",
+   "entry": "content/_original/_glossary/culture/music/STABAT_MATER_ROSSINI.md",
+   "target": "culture/music/STABAT_MATER_ROSSINI.md",
+   "display": "Stabat_Mater_(Rossini)",
+   "aliases": [
+    "Stabat Mater de Rossini",
+    "Stabat de Rossini",
+    "Rossini's Stabat Mater",
+    "Stabat Mater, de Rossini"
+   ],
+   "candidates": [
+    {
+     "pid": "030.0341",
+     "file": "030/1875-03-24.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/MUSIC_THEME.md",
+      "culture/themes/FASHION.md",
+      "people/mentioned/NADINE.md",
+      "culture/fashion/HOUSE_OF_WORTH.md",
+      "culture/music/STABAT_MATER_PERGOLESI.md"
+     ],
+     "french": "Ce soir on chante le Stabat Mater, éclairage a giorno, (robe blanche, Worth, coiffure avec faux cheveux, très bien) Nadia et les enfants sont avec moi. "
+    },
+    {
+     "pid": "049.0187",
+     "file": "049/1875-11-09.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "people/recurring/SAETONE.md",
+      "people/recurring/GIOIA.md",
+      "culture/themes/SOCIETY.md",
+      "people/mentioned/CRESCI.md",
+      "people/mentioned/LIMOUSIN.md",
+      "places/social/CERCLE_DE_LA_MEDITERRANEE.md",
+      "places/social/CERCLE_MASSENA.md",
+      "places/cities/LONDON_HOUSE.md",
+      "places/cities/NICE.md",
+      "people/mentioned/DESFORGES.md",
+      "culture/literature/ROSIERE_LETTRE_AUDIFFRET.md",
+      "places/social/AVENUE_DE_LA_GARE.md",
+      "places/social/FRENCH_THEATER_NICE.md",
+      "places/theaters/OPERA_NICE.md",
+      "places/social/CAFE_DE_LA_VICTOIRE.md"
+     ],
+     "french": "Ton fichu fils, pour sa vertu, va être couronné *Rosière* par M. le souffleur du Théâtre Français en présence de M. Cresci, des chœurs masculins et féminins du Théâtre Italien, qui chanteront plusieurs morceaux du \"Stabat Mater\", des M.M. Piano, sieurs, Avette, Pipon et Ricci de la Maison Dorée, Gagery et Antoine du London House, Defly, architecte de la Tour, Ardigo de l'hôtel des Dames; du premier garçon de café de La Victoire, des premiers garçons du Cercle de la Méditerranée, du suisse du Cercle Masséna, d'Andriot, Saëtone, de la demoiselle du comptoir du Café Américain, de Courba, premier clerc chez maître Desforges notaire; de Desforges lui-même, de Balestro concierge de Mme Gioia, de L"
+    }
+   ]
+  },
+  {
+   "wid": "W211",
+   "title": "Judith (Ristori)",
+   "entry": "content/_original/_glossary/culture/theater/GIUDITTA_GIACOMETTI.md",
+   "target": "culture/theater/GIUDITTA_GIACOMETTI.md",
+   "display": "Giuditta_(Paolo_Giacometti)",
+   "aliases": [
+    "Giuditta",
+    "Judith (Ristori)",
+    "Giuditta de Giacometti",
+    "Judith de Giacometti",
+    "la Ristori jouait Judith"
+   ],
+   "candidates": [
+    {
+     "pid": "056.0424",
+     "file": "056/1876-04-05.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/HEALTH.md",
+      "culture/themes/THEATER_THEME.md",
+      "people/family/MAMAN.md",
+      "places/villas/VILLA_BORGHESE.md",
+      "people/artists/ADELAIDE_RISTORI.md"
+     ],
+     "french": "La célèbre Ristori jouait Judith au profit de l'instruction publique du quartier de Trastevere. Il y avait une telle foule que je n'ai vu personne, excepté les Russes de la course à Borghése. Maman était malade et la baronne s'est offerte pour nous chaperonner. "
+    },
+    {
+     "pid": "056.0425",
+     "file": "056/1876-04-05.md",
+     "why": [
+      "alias:Giuditta",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "people/artists/ADELAIDE_RISTORI.md"
+     ],
+     "french": "On dit que la Ristori a soixante ans[^ristori]. Si c'est vrai, c'est un prodige. Elle joue divinement. Le sujet de \"Judith\" son rôle, l'époque même, sont si loin de nous que nous ne pouvons plus comprendre les situations, mais même dans ce cas incompréhensible, affecté, enthousiaste et inspiré, Ristori a su garder tant de naturel, tant de grâce et tant de sentiment qu'on est émerveillé. Il n'y a rien dans elle du guindage ridicule et empesé des tragédiennes qu'on entend partout. C'est la première tragédienne qui ait l'air d'une femme et non d'un mannequin affublé d'un costume et ne bougeant et ne parlant que par ordre.  [^ristori]: Adelaide Ristori (1822–1906), the most celebrated Italian tr"
+    }
+   ]
+  },
+  {
+   "wid": "W197",
+   "title": "Les Noces de Jeannette",
+   "entry": "content/_original/_glossary/culture/theater/LES_NOCES_DE_JEANNETTE_MASSE.md",
+   "target": "culture/theater/LES_NOCES_DE_JEANNETTE_MASSE.md",
+   "display": "Les_Noces_de_Jeannette_(Victor_Massé)",
+   "aliases": [
+    "Les Noces de Jeannette",
+    "Les noces de Jeannette",
+    "Noces de Jeannette",
+    "noces de Jeannette"
+   ],
+   "candidates": [
+    {
+     "pid": "069.0286",
+     "file": "069/1877-03-13.md",
+     "why": [
+      "alias:Les Noces de Jeannette",
+      "alias:Les noces de Jeannette",
+      "alias:Noces de Jeannette",
+      "alias:noces de Jeannette",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/mentioned/BALZORANO.md",
+      "people/mentioned/GISELLE.md",
+      "culture/themes/FASHION.md",
+      "culture/themes/SOCIETY.md",
+      "culture/themes/APPEARANCE.md"
+     ],
+     "french": "Ma robe Virginie[^1], antique, suave, s'est trouvée singulièrement défraîchie lorsqu'il a fallu la mettre, ceci ajouté à ma toux m'a rendue tout à fait désagréable, timide, honteuse, surtout lorsqu'en entrant dans la salle, je me suis aperçue de l'élégance qui y régnait. Pour être de deux années en retard de la mode les robes n'en étaient pas moins gracieuses et riches accompagnées de beaucoup de diamants. Pour la première fois de ma vie j'ai été [Rayé: agacée] humiliée dans ma toilette. Ma figure brûlait, j'aurais voulu être ailleurs, je pliais sous les regards de ceux qui étaient assez bons pour me regarder. Bref, je souffrais de moi et de tout. On jouait \"Les noces de Jeannette[^2]\" en it"
+    },
+    {
+     "pid": "069.0527",
+     "file": "069/1877-03-25.md",
+     "why": [
+      "alias:Les Noces de Jeannette",
+      "alias:Les noces de Jeannette",
+      "alias:Noces de Jeannette",
+      "alias:noces de Jeannette",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/SOCIETY.md",
+      "culture/themes/APPEARANCE.md",
+      "people/family/MAMAN.md",
+      "people/mentioned/PASCAROLA.md",
+      "people/mentioned/CAMPOMARINO.md",
+      "people/mentioned/CARACCIOLO.md",
+      "people/mentioned/MELITO.md",
+      "people/mentioned/BRUSCHETTI.md",
+      "culture/music/STABAT_MATER_PERGOLESI.md"
+     ],
+     "french": "De temps en temps je me tournais vers maman, elle me semblait mécontente et je souffrais de l'humilier par ma laideur. Pascarola se mit près de moi et bientôt me présenta le marquis di Campomarino, fils du duc de Sanceso et le comte Caracciolo. Le premier est un tout petit renard blond à nez énorme et à monocle, le second est un peu grand, un peu gras, un peu chauve, un peu laid, un peu ressemblant à Bruschetti. Le duc de Melito se joignit à ces messieurs et bientôt je devins le centre d'un groupe d'hommes au milieu duquel j'étais loin d'être mal à l'aise. Melito dit qu'il préferait “Les noces de Jeannette” à “cette musique de Pergolèse et Mozart\". "
+    }
+   ]
+  },
+  {
+   "wid": "W225",
+   "title": "Le Roi s'amuse",
+   "entry": "content/_original/_glossary/culture/theater/LE_ROI_S_AMUSE.md",
+   "target": "culture/theater/LE_ROI_S_AMUSE.md",
+   "display": "Le_Roi_s'amuse_(Victor_Hugo)",
+   "aliases": [
+    "Le Roi s'amuse",
+    "Roi s'amuse",
+    "Le roi s'amuse",
+    "Le Roi s’amuse"
+   ],
+   "candidates": [
+    {
+     "pid": "097.0128",
+     "file": "097/1882-11-23.md",
+     "why": [
+      "alias:Le Roi s'amuse",
+      "alias:Le roi s'amuse",
+      "alias:Roi s'amuse",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "culture/music/RIGOLETTO.md"
+     ],
+     "french": "C'était hier la 2ème représentation du \"Roi s'amuse\"[^1] et en même temps le cinquantenaire. Naturellement on n'a pas pu trouver de loges.  [^1]: *Le Roi s'amuse* (1832): Victor Hugo's verse drama, suppressed by the government after its first performance in 1832 and not performed again for fifty years. Its revival in 1882, for its fiftieth anniversary, was a major theatrical event in Paris. The plot — a court jester whose daughter is seduced by the king — supplied the libretto for Verdi's *Rigoletto* (1851). "
+    },
+    {
+     "pid": "097.0141",
+     "file": "097/1882-11-24.md",
+     "why": [
+      "alias:Roi s'amuse",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "culture/theater/COQUELIN.md"
+     ],
+     "french": "Je sors du Théâtre français, la 2ème du \"Roi s'amuse\". Ce n'est pas bien joué, c'est même étonnant que ce soit si mal joué dans un tel théâtre. Got-Triboulet[^1] n'est pas tragique, ni drôle, ni méchant. Au premier acte ses plaisanteries [Mots noircis: tombent à plat C'est que ce] n'est pas la faute de l'acteur. Et je dis que si... Les mêmes plaisanteries sont drôles à la lecture et à la troisième aussi bien qu'à la première, enfin pas drôles, drôles, mais assez. Et je crois que Coquelin[^2] aurait été un Triboulet parfait. Et dans le second acte, cette exclamation: Ah ! la malédiction, ce devrait être d'un effet saisissant, profond; comme quelque chose de fatal, de superstitieux; cette puni"
+    }
+   ]
+  },
+  {
+   "wid": "W200",
+   "title": "Roméo et Juliette (opera)",
+   "entry": "content/_original/_glossary/culture/theater/ROMEO_E_GIULIETTA_MARCHETTI.md",
+   "target": "culture/theater/ROMEO_E_GIULIETTA_MARCHETTI.md",
+   "display": "Romeo_e_Giulietta_(Filippo_Marchetti)",
+   "aliases": [
+    "Romeo e Giulietta (Marchetti)",
+    "Romeo e Giulietta",
+    "Roméo et Juliette (Marchetti)"
+   ],
+   "candidates": [
+    {
+     "pid": "059.0193",
+     "file": "059/1876-04-23.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/WEATHER.md",
+      "culture/themes/LOVE.md",
+      "people/mentioned/ANTONELLI.md",
+      "places/theaters/APOLLO.md"
+     ],
+     "french": "Me voilà donc au moment de l’explication de la conduite de Pietro. Il pleut, nous ne sortirons pas mais le soir il faudra aller au théâtre, d’autant plus qu’on donne “Roméo et Juliette” et que ce sera la dernière soirée musicale de l’Apollo. "
+    },
+    {
+     "pid": "064.0141",
+     "file": "064/1876-07-24.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/LOVE.md",
+      "people/recurring/CASSAGNAC.md",
+      "culture/themes/MARRIAGE.md"
+     ],
+     "french": "— Je comprends le mariage comme Roméo et Juliette, dit Cassagnac, autrement c'est une saleté. D'ailleurs l'homme amoureux est un homme à la mer. "
+    }
+   ]
+  },
+  {
+   "wid": "W205",
+   "title": "Rienzi, the Last of the Roman Tribunes (novel)",
+   "entry": "content/_original/_glossary/culture/literature/RIENZI_BULWER_LYTTON.md",
+   "target": "culture/literature/RIENZI_BULWER_LYTTON.md",
+   "display": "Rienzi,_the_Last_of_the_Roman_Tribunes_(Bulwer-Lytton)",
+   "aliases": [
+    "Rienzi",
+    "Rienzi, the Last of the Roman Tribunes",
+    "Rienzi, the last of the Roman tribunes"
+   ],
+   "candidates": [
+    {
+     "pid": "071.0083",
+     "file": "071/1877-05-01.md",
+     "why": [
+      "alias:Rienzi"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/MUSIC_THEME.md",
+      "people/mentioned/MARCUARD.md",
+      "places/theaters/PERGOLA.md",
+      "people/artists/WAGNER.md",
+      "places/theaters/TEATRO_PAGLIANO.md"
+     ],
+     "french": "Marcuard a passé une heure chez nous, et le soir on le revoit au théâtre Pagliano, la Pergola est fermée ! On donne “Rienzi” de Wagner. Je n'ai rien compris à cette musique. "
+    }
+   ]
+  },
+  {
+   "wid": "W226",
+   "title": "L'Impromptu de Versailles",
+   "entry": "content/_original/_glossary/culture/theater/IMPROMPTU_DE_VERSAILLES_MOLIERE.md",
+   "target": "culture/theater/IMPROMPTU_DE_VERSAILLES_MOLIERE.md",
+   "display": "L'Impromptu_de_Versailles_(Molière)",
+   "aliases": [
+    "L'Impromptu de Versailles",
+    "L'impromptu de Versailles",
+    "Impromptu de Versailles",
+    "L'impromptu",
+    "L’Impromptu de Versailles"
+   ],
+   "candidates": [
+    {
+     "pid": "090.0175",
+     "file": "090/1880-10-27.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/HECHT.md",
+      "culture/themes/HEALTH.md",
+      "people/politicians/GAMBETTA.md",
+      "people/recurring/ARNAUD_DE_L_ARIEGE.md"
+     ],
+     "french": "Cet \"Impromptu\"... une actualité d'il y a deux siècles. Il faut renoncer à toute idée de connaître Gambetta et de faire son portrait, entouré qu'il [est] de Hecht et d'Arnaud... et puis, et puis mes oreilles sont mon unique préoccupation... Je [suis] bien éprouvée je vous assure... Et quelle horrible chose ! "
+    }
+   ]
+  },
+  {
+   "wid": "W198",
+   "title": "L'Africaine",
+   "entry": "content/_original/_glossary/culture/theater/L_AFRICAINE_MEYERBEER.md",
+   "target": "culture/theater/L_AFRICAINE_MEYERBEER.md",
+   "display": "L'Africaine_(Meyerbeer)",
+   "aliases": [
+    "L'Africaine (Meyerbeer)",
+    "L'Africaine",
+    "l'Africaine",
+    "opéra de l'Africaine"
+   ],
+   "candidates": [
+    {
+     "pid": "068.1105",
+     "file": "068/1877-02-08.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [],
+     "french": "- Oh ! je t'en prie ne fais pas l’Africaine. "
+    }
+   ]
+  }
+ ],
+ "flags": []
+}

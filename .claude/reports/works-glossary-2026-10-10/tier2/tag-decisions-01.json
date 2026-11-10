@@ -1,0 +1,807 @@
+{
+ "decisions": [
+  {
+   "pid": "080.0609",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Marie copies a passage of De l'amour (ch. XXVI), per RSR"
+  },
+  {
+   "pid": "080.0610",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Marie copies a passage of De l'amour (ch. XXVI), per RSR"
+  },
+  {
+   "pid": "100.0330",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Names L'amour de Stendhal as her reading"
+  },
+  {
+   "pid": "102.0408",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Names L'amour de Stendhal as her reading"
+  },
+  {
+   "pid": "100.0333",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Cristallisation, Stendhal's term in De l'amour, with footnote"
+  },
+  {
+   "pid": "100.0335",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Discusses or cites Stendhal's book and its theory of love"
+  },
+  {
+   "pid": "100.0349",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Discusses or cites Stendhal's book and its theory of love"
+  },
+  {
+   "pid": "100.0351",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Discusses or cites Stendhal's book and its theory of love"
+  },
+  {
+   "pid": "100.0353",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Applies De l'amour's cristallisation theory or cites its passages"
+  },
+  {
+   "pid": "100.0354",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Discusses or cites Stendhal's book and its theory of love"
+  },
+  {
+   "pid": "100.0356",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Discusses or cites Stendhal's book and its theory of love"
+  },
+  {
+   "pid": "100.0358",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Applies De l'amour's cristallisation theory or cites its passages"
+  },
+  {
+   "pid": "100.0359",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Applies De l'amour's cristallisation theory or cites its passages"
+  },
+  {
+   "pid": "100.0361",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Applies De l'amour's cristallisation theory or cites its passages"
+  },
+  {
+   "pid": "100.0362",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Applies De l'amour's cristallisation theory or cites its passages"
+  },
+  {
+   "pid": "100.0365",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Applies De l'amour's cristallisation theory or cites its passages"
+  },
+  {
+   "pid": "100.0366",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Applies De l'amour's cristallisation theory or cites its passages"
+  },
+  {
+   "pid": "100.0372",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Applies De l'amour's cristallisation theory or cites its passages"
+  },
+  {
+   "pid": "100.0373",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Applies De l'amour's cristallisation theory or cites its passages"
+  },
+  {
+   "pid": "100.0378",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Discusses or cites Stendhal's book and its theory of love"
+  },
+  {
+   "pid": "100.0382",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Discusses or cites Stendhal's book and its theory of love"
+  },
+  {
+   "pid": "100.0438",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Brief allusion: Stendhal's battements du coeur and cristallisations; weak but recognisable"
+  },
+  {
+   "pid": "101.0018",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Refers to Stendhal's theory or reading of De l'amour"
+  },
+  {
+   "pid": "101.0041",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Refers to Stendhal's theory or reading of De l'amour"
+  },
+  {
+   "pid": "101.0051",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Refers to Stendhal's theory or reading of De l'amour"
+  },
+  {
+   "pid": "101.0071",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "unsure",
+   "note": "Bare 'Stendhal y a aidé'; likely De l'amour but no work or concept named"
+  },
+  {
+   "pid": "101.0333",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Refers to Stendhal's theory or reading of De l'amour"
+  },
+  {
+   "pid": "102.0055",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "decision": "tag",
+   "note": "Refers to Stendhal's theory or reading of De l'amour"
+  },
+  {
+   "pid": "023.0249",
+   "target": "culture/literature/CLEF_DES_SONGES.md",
+   "display": "La_vraie_clef_des_songes_(dream_book)",
+   "decision": "tag",
+   "note": "Consults or names the dream book (clef des songes)"
+  },
+  {
+   "pid": "023.0289",
+   "target": "culture/literature/CLEF_DES_SONGES.md",
+   "display": "La_vraie_clef_des_songes_(dream_book)",
+   "decision": "tag",
+   "note": "Consults or names the dream book (clef des songes)"
+  },
+  {
+   "pid": "023.0378",
+   "target": "culture/literature/CLEF_DES_SONGES.md",
+   "display": "La_vraie_clef_des_songes_(dream_book)",
+   "decision": "tag",
+   "note": "Consults or names the dream book (clef des songes)"
+  },
+  {
+   "pid": "060.0462",
+   "target": "culture/literature/CLEF_DES_SONGES.md",
+   "display": "La_vraie_clef_des_songes_(dream_book)",
+   "decision": "tag",
+   "note": "Consults or names the dream book (clef des songes)"
+  },
+  {
+   "pid": "012.0093",
+   "target": "culture/music/HYMNE_RUSSE_LVOV.md",
+   "display": "\"God_Save_the_Tsar!\"_(Russian_imperial_anthem)",
+   "decision": "tag",
+   "note": "Names the Russian anthem (hymne russe)"
+  },
+  {
+   "pid": "066.0222",
+   "target": "culture/music/HYMNE_RUSSE_LVOV.md",
+   "display": "\"God_Save_the_Tsar!\"_(Russian_imperial_anthem)",
+   "decision": "tag",
+   "note": "Names the Russian anthem (hymne russe)"
+  },
+  {
+   "pid": "081.0605",
+   "target": "culture/music/HYMNE_RUSSE_LVOV.md",
+   "display": "\"God_Save_the_Tsar!\"_(Russian_imperial_anthem)",
+   "decision": "tag",
+   "note": "Names the Russian anthem (hymne russe)"
+  },
+  {
+   "pid": "081.0624",
+   "target": "culture/music/HYMNE_RUSSE_LVOV.md",
+   "display": "\"God_Save_the_Tsar!\"_(Russian_imperial_anthem)",
+   "decision": "tag",
+   "note": "Names the Russian anthem (hymne russe)"
+  },
+  {
+   "pid": "001.0018",
+   "target": "culture/theater/POLIUTO_DONIZETTI.md",
+   "display": "Poliuto_(Donizetti)",
+   "decision": "skip",
+   "note": "Les Martyrs de l'inquisition drama or figurative martyrs, not Donizetti's Poliuto"
+  },
+  {
+   "pid": "056.0292",
+   "target": "culture/theater/POLIUTO_DONIZETTI.md",
+   "display": "Poliuto_(Donizetti)",
+   "decision": "skip",
+   "note": "Les Martyrs de l'inquisition drama or figurative martyrs, not Donizetti's Poliuto"
+  },
+  {
+   "pid": "070.0859",
+   "target": "culture/theater/POLIUTO_DONIZETTI.md",
+   "display": "Poliuto_(Donizetti)",
+   "decision": "skip",
+   "note": "Les Martyrs de l'inquisition drama or figurative martyrs, not Donizetti's Poliuto"
+  },
+  {
+   "pid": "090.0065",
+   "target": "culture/theater/POLIUTO_DONIZETTI.md",
+   "display": "Poliuto_(Donizetti)",
+   "decision": "skip",
+   "note": "Les Martyrs de l'inquisition drama or figurative martyrs, not Donizetti's Poliuto"
+  },
+  {
+   "pid": "052.0105",
+   "target": "culture/literature/LES_DOUZE_CESARS.md",
+   "display": "Les_Douze_Césars_(Suétone)",
+   "decision": "skip",
+   "note": "'Suetonius' is a nickname for a person at Nice, not the book"
+  },
+  {
+   "pid": "102.0345",
+   "target": "culture/literature/LES_DOUZE_CESARS.md",
+   "display": "Les_Douze_Césars_(Suétone)",
+   "decision": "tag",
+   "note": "Reads Suétone's account of Caesar's murder"
+  },
+  {
+   "pid": "102.0346",
+   "target": "culture/literature/LES_DOUZE_CESARS.md",
+   "display": "Les_Douze_Césars_(Suétone)",
+   "decision": "tag",
+   "note": "Reads Suétone's account of Caesar's murder"
+  },
+  {
+   "pid": "049.0370",
+   "target": "culture/theater/LE_PANACHE_GONDINET.md",
+   "display": "Le_Panache_(Gondinet)",
+   "decision": "tag",
+   "note": "Attends Gondinet's Le Panache"
+  },
+  {
+   "pid": "055.0503",
+   "target": "culture/theater/LE_PANACHE_GONDINET.md",
+   "display": "Le_Panache_(Gondinet)",
+   "decision": "tag",
+   "note": "Attends Gondinet's Le Panache"
+  },
+  {
+   "pid": "098.0259",
+   "target": "culture/theater/LE_PANACHE_GONDINET.md",
+   "display": "Le_Panache_(Gondinet)",
+   "decision": "skip",
+   "note": "Odette's red plume (panache), not the play"
+  },
+  {
+   "pid": "099.0367",
+   "target": "culture/art/ANDROMAQUE_ROCHEGROSSE.md",
+   "display": "Andromaque_(Rochegrosse)",
+   "decision": "tag",
+   "note": "Rochegrosse's Andromaque at the Salon"
+  },
+  {
+   "pid": "100.0122",
+   "target": "culture/art/ANDROMAQUE_ROCHEGROSSE.md",
+   "display": "Andromaque_(Rochegrosse)",
+   "decision": "tag",
+   "note": "Rochegrosse's Andromaque at the Salon"
+  },
+  {
+   "pid": "105.0197",
+   "target": "culture/art/IL_PENSIEROSO_MICHEL_ANGE.md",
+   "display": "Il_Pensieroso_(Michelangelo)",
+   "decision": "tag",
+   "note": "Michelangelo's Penseur (Il Pensieroso) compared and discussed"
+  },
+  {
+   "pid": "105.0199",
+   "target": "culture/art/IL_PENSIEROSO_MICHEL_ANGE.md",
+   "display": "Il_Pensieroso_(Michelangelo)",
+   "decision": "tag",
+   "note": "Michelangelo's Penseur (Il Pensieroso) compared and discussed"
+  },
+  {
+   "pid": "080.0011",
+   "target": "culture/art/PORTRAIT_DON_CARLOS_BONNAT.md",
+   "display": "Portrait_de_don_Carlos_(Bonnat)",
+   "decision": "tag",
+   "note": "Bonnat's portrait of don Carlos"
+  },
+  {
+   "pid": "085.0071",
+   "target": "culture/art/PORTRAIT_DON_CARLOS_BONNAT.md",
+   "display": "Portrait_de_don_Carlos_(Bonnat)",
+   "decision": "skip",
+   "note": "Bonnat's portrait of Victor Hugo, not don Carlos"
+  },
+  {
+   "pid": "064.0473",
+   "target": "culture/art/SAMSON_FOUNTAIN_PETERHOF.md",
+   "display": "Samson_Fountain_(Peterhof)",
+   "decision": "skip",
+   "note": "General fountains of Peterhof; the Samson comes in next paragraph"
+  },
+  {
+   "pid": "064.0475",
+   "target": "culture/art/SAMSON_FOUNTAIN_PETERHOF.md",
+   "display": "Samson_Fountain_(Peterhof)",
+   "decision": "tag",
+   "note": "Describes the Samson fountain and canal"
+  },
+  {
+   "pid": "066.0171",
+   "target": "culture/literature/L_HOMME_FEMME_DUMAS_FILS.md",
+   "display": "L'Homme-femme_(Alexandre_Dumas_fils)",
+   "decision": "skip",
+   "note": "'L'homme-femme' is a nickname for Mlle Bediagra, not Dumas's pamphlet"
+  },
+  {
+   "pid": "085.0096",
+   "target": "culture/literature/L_HOMME_FEMME_DUMAS_FILS.md",
+   "display": "L'Homme-femme_(Alexandre_Dumas_fils)",
+   "decision": "tag",
+   "note": "Cites 'femme du Temple' from L'Homme-Femme"
+  },
+  {
+   "pid": "034.0363",
+   "target": "culture/literature/NOCTES_ATTICAE.md",
+   "display": "Noctes_Atticae_(Aulus_Gellius,_\"Attic_Nights\")",
+   "decision": "tag",
+   "note": "Aulu-Gelle's text (Noctes Atticae) as her Latin passage; author named, work footnoted"
+  },
+  {
+   "pid": "037.0009",
+   "target": "culture/literature/NOCTES_ATTICAE.md",
+   "display": "Noctes_Atticae_(Aulus_Gellius,_\"Attic_Nights\")",
+   "decision": "tag",
+   "note": "Aulu-Gelle's text (Noctes Atticae) as her Latin passage; author named, work footnoted"
+  },
+  {
+   "pid": "011.0153",
+   "target": "culture/music/AIR_DES_BIJOUX_FAUST.md",
+   "display": "\"Ah_!_je_ris_de_me_voir_si_belle\"_(Faust,_Jewel_Song)",
+   "decision": "skip",
+   "note": "Sings the King of Thule legend, not the Jewel Song"
+  },
+  {
+   "pid": "024.0102",
+   "target": "culture/music/AIR_DES_BIJOUX_FAUST.md",
+   "display": "\"Ah_!_je_ris_de_me_voir_si_belle\"_(Faust,_Jewel_Song)",
+   "decision": "tag",
+   "note": "Sings the Jewel Song, quoting a line"
+  },
+  {
+   "pid": "078.0061",
+   "target": "culture/music/VIVRE_SEUL_ICI_BAS.md",
+   "display": "\"Vivre_seul_ici-bas\"_(romance)",
+   "decision": "tag",
+   "note": "Names and describes the romance 'Vivre seul ici-bas'"
+  },
+  {
+   "pid": "078.0084",
+   "target": "culture/music/VIVRE_SEUL_ICI_BAS.md",
+   "display": "\"Vivre_seul_ici-bas\"_(romance)",
+   "decision": "tag",
+   "note": "Names and describes the romance 'Vivre seul ici-bas'"
+  },
+  {
+   "pid": "030.0232",
+   "target": "culture/theater/IL_CONTE_ORY.md",
+   "display": "Le_comte_Ory_(Rossini)",
+   "decision": "tag",
+   "note": "Attends Il conte Ory"
+  },
+  {
+   "pid": "030.0338",
+   "target": "culture/theater/IL_CONTE_ORY.md",
+   "display": "Le_comte_Ory_(Rossini)",
+   "decision": "tag",
+   "note": "Attends Il conte Ory"
+  },
+  {
+   "pid": "091.0553",
+   "target": "culture/theater/LE_MONDE_OU_L_ON_S_ENNUIE.md",
+   "display": "Le_Monde_où_l'on_s'ennuie_(Édouard_Pailleron)",
+   "decision": "tag",
+   "note": "Names Pailleron's Le Monde où l'on s'ennuie"
+  },
+  {
+   "pid": "094.0169",
+   "target": "culture/theater/LE_MONDE_OU_L_ON_S_ENNUIE.md",
+   "display": "Le_Monde_où_l'on_s'ennuie_(Édouard_Pailleron)",
+   "decision": "tag",
+   "note": "Names Pailleron's Le Monde où l'on s'ennuie"
+  },
+  {
+   "pid": "028.0238",
+   "target": "culture/theater/LE_TOUR_DU_MONDE_EN_QUATRE_VINGTS_JOURS_PIECE.md",
+   "display": "Le_Tour_du_monde_en_quatre-vingts_jours_(stage_adaptation,_Verne_and_d'Ennery)",
+   "decision": "tag",
+   "note": "Sees the stage Tour du monde en 80 jours"
+  },
+  {
+   "pid": "045.0045",
+   "target": "culture/theater/LE_TOUR_DU_MONDE_EN_QUATRE_VINGTS_JOURS_PIECE.md",
+   "display": "Le_Tour_du_monde_en_quatre-vingts_jours_(stage_adaptation,_Verne_and_d'Ennery)",
+   "decision": "unsure",
+   "note": "'Le tour du monde' may be a joke, not the play; RSR says unconfirmed"
+  },
+  {
+   "pid": "102.0604",
+   "target": "culture/theater/SIMON_BOCCANEGRA_VERDI.md",
+   "display": "Simon_Boccanegra_(Verdi)",
+   "decision": "tag",
+   "note": "Hears or judges Verdi's Simon Boccanegra"
+  },
+  {
+   "pid": "103.0281",
+   "target": "culture/theater/SIMON_BOCCANEGRA_VERDI.md",
+   "display": "Simon_Boccanegra_(Verdi)",
+   "decision": "tag",
+   "note": "Hears or judges Verdi's Simon Boccanegra"
+  },
+  {
+   "pid": "029.0100",
+   "target": "culture/music/L_ITALIANA_IN_ALGERIA.md",
+   "display": "L_Italiana_in_Algeria",
+   "decision": "tag",
+   "note": "Muso taken from L'Italiano in Algeri, per Marie"
+  },
+  {
+   "pid": "087.0684",
+   "target": "culture/theater/LA_MUETTE_DE_PORTICI_AUBER.md",
+   "display": "La_Muette_de_Portici_(Auber)",
+   "decision": "tag",
+   "note": "Décors de la Muette (Auber's opera) evoke Naples"
+  },
+  {
+   "pid": "066.0498",
+   "target": "culture/theater/OTHELLO_SHAKESPEARE.md",
+   "display": "Othello_(Shakespeare)",
+   "decision": "skip",
+   "note": "Only Ira Aldridge as Othello in a footnote; Marie names no Othello"
+  },
+  {
+   "pid": "005.0023",
+   "target": "culture/literature/MABEL_VAUGHAN.md",
+   "display": "Mabel Vaughan",
+   "decision": "tag",
+   "note": "Marie names Mabel Waughan as the book she wants to buy"
+  },
+  {
+   "pid": "005.0023",
+   "target": "culture/literature/THE_LAMPLIGHTER.md",
+   "display": "The Lamplighter",
+   "decision": "skip",
+   "note": "Named only as the author's earlier book; not read"
+  },
+  {
+   "pid": "006.0245",
+   "target": "culture/literature/MABEL_VAUGHAN.md",
+   "display": "Mabel Vaughan",
+   "decision": "tag",
+   "note": "Listed in her reading list"
+  },
+  {
+   "pid": "006.0245",
+   "target": "culture/literature/SELECT_WORKS_OF_GOLDSMITH.md",
+   "display": "Select Works of Oliver Goldsmith",
+   "decision": "tag",
+   "note": "Listed in her reading list"
+  },
+  {
+   "pid": "006.0245",
+   "target": "culture/literature/MRS_HALLIBURTONS_TROUBLES_WOOD.md",
+   "display": "Mrs Halliburton's Troubles",
+   "decision": "tag",
+   "note": "Listed; already tagged, keep"
+  },
+  {
+   "pid": "006.0245",
+   "target": "culture/literature/THE_LAMPLIGHTER.md",
+   "display": "The Lamplighter",
+   "decision": "skip",
+   "note": "Only the author's earlier book in the attribution"
+  },
+  {
+   "pid": "043.0191",
+   "target": "culture/art/VENUS_DE_MEDICIS.md",
+   "display": "Venus de' Medici",
+   "decision": "tag",
+   "note": "Statue seen is the Venere Medicea"
+  },
+  {
+   "pid": "043.0191",
+   "target": "culture/art/VENUS_DE_MILO.md",
+   "display": "Venus de Milo",
+   "decision": "tag",
+   "note": "Marie compares it at the end; keep"
+  },
+  {
+   "pid": "086.0629",
+   "target": "culture/theater/HAMLET_SHAKESPEARE.md",
+   "display": "Hamlet (Shakespeare)",
+   "decision": "tag",
+   "note": "Blanc recites fragments of the play"
+  },
+  {
+   "pid": "098.0386",
+   "target": "culture/theater/HAMLET_SHAKESPEARE.md",
+   "display": "Hamlet (Shakespeare)",
+   "decision": "tag",
+   "note": "Reads Hamlet in English"
+  },
+  {
+   "pid": "098.0386",
+   "target": "culture/theater/HAMLET_THOMAS.md",
+   "display": "Hamlet (Thomas)",
+   "decision": "tag",
+   "note": "Also lulled by Ambroise Thomas's music; keep opera"
+  },
+  {
+   "pid": "030.0341",
+   "target": "culture/music/STABAT_MATER_PERGOLESI.md",
+   "display": "Stabat Mater (Pergolesi)",
+   "decision": "skip",
+   "note": "Composer not named; entry covers 1877 only"
+  },
+  {
+   "pid": "030.0341",
+   "target": "culture/music/STABAT_MATER_ROSSINI.md",
+   "display": "Stabat Mater (Rossini)",
+   "decision": "skip",
+   "note": "Composer not named; do not guess"
+  },
+  {
+   "pid": "049.0187",
+   "target": "culture/music/STABAT_MATER_ROSSINI.md",
+   "display": "Stabat Mater (Rossini)",
+   "decision": "skip",
+   "note": "Composer not named; RSR B-66 already says no tag"
+  },
+  {
+   "pid": "031.0131",
+   "target": "people/family/GRAND_PAPA.md",
+   "display": "Grand-papa",
+   "decision": "tag",
+   "note": "Bare 'papa' 1873-75 = grandfather per GRAND_PAPA alias note; keep"
+  },
+  {
+   "pid": "073.0154",
+   "target": "culture/theater/HORACE_CORNEILLE.md",
+   "display": "Horace (Corneille)",
+   "decision": "skip",
+   "note": "Horaces oath plus Grutli oath points to David's painting"
+  },
+  {
+   "pid": "085.0185",
+   "target": "culture/theater/LES_MIRABEAU_CLARETIE.md",
+   "display": "Les Mirabeau (Claretie)",
+   "decision": "skip",
+   "note": "Only the historical Mirabeau compared to Cassagnac; no work named"
+  },
+  {
+   "pid": "085.0310",
+   "target": "culture/literature/LES_MIRABEAU_LOMENIE.md",
+   "display": "Les Mirabeau (Loménie)",
+   "decision": "tag",
+   "note": "Reads Loménie's first volume"
+  },
+  {
+   "pid": "085.0310",
+   "target": "culture/theater/LES_MIRABEAU_CLARETIE.md",
+   "display": "Les Mirabeau (Claretie)",
+   "decision": "skip",
+   "note": "Book, not the play"
+  },
+  {
+   "pid": "085.0311",
+   "target": "culture/literature/LES_MIRABEAU_LOMENIE.md",
+   "display": "Les Mirabeau (Loménie)",
+   "decision": "skip",
+   "note": "Only the hôtel Mirabeau name; no book mentioned here"
+  },
+  {
+   "pid": "085.0315",
+   "target": "culture/literature/LES_MIRABEAU_LOMENIE.md",
+   "display": "Les Mirabeau (Loménie)",
+   "decision": "skip",
+   "note": "Historical Mirabeau's vices; no work named"
+  },
+  {
+   "pid": "063.0443",
+   "target": "culture/literature/RIENZI_BULWER_LYTTON.md",
+   "display": "Rienzi (Bulwer-Lytton)",
+   "decision": "tag",
+   "note": "Rienzi as known from the novel; do not add Wagner"
+  },
+  {
+   "pid": "063.0443",
+   "target": "culture/theater/RIENZI_WAGNER.md",
+   "display": "Rienzi (Wagner)",
+   "decision": "skip",
+   "note": "Novel/history reference, not the opera"
+  },
+  {
+   "pid": "071.0083",
+   "target": "culture/theater/RIENZI_WAGNER.md",
+   "display": "Rienzi (Wagner)",
+   "decision": "tag",
+   "note": "Attends Wagner's Rienzi at Pagliano"
+  },
+  {
+   "pid": "064.0141",
+   "target": "culture/theater/ROMEO_E_GIULIETTA_MARCHETTI.md",
+   "display": "Romeo e Giulietta (Marchetti)",
+   "decision": "skip",
+   "note": "Cassagnac means the lovers, not the opera"
+  },
+  {
+   "pid": "068.1105",
+   "target": "culture/theater/L_AFRICAINE_MEYERBEER.md",
+   "display": "L'Africaine (Meyerbeer)",
+   "decision": "skip",
+   "note": "Figure of speech"
+  },
+  {
+   "pid": "068.0408",
+   "target": "culture/literature/MARY_STUART.md",
+   "display": "Marie Stuart",
+   "decision": "skip",
+   "note": "Bonnet Marie Stuart is a fashion item"
+  }
+ ],
+ "retag": [
+  {
+   "pid": "005.0023",
+   "remove": "culture/literature/THE_LAMPLIGHTER.md",
+   "add": "culture/literature/MABEL_VAUGHAN.md",
+   "display": "Mabel Vaughan",
+   "note": "Book is Mabel Vaughan; Lamplighter only names its author's earlier novel"
+  },
+  {
+   "pid": "006.0245",
+   "remove": "culture/literature/THE_LAMPLIGHTER.md",
+   "add": "culture/literature/MABEL_VAUGHAN.md",
+   "display": "Mabel Vaughan",
+   "note": "Also add SELECT_WORKS_OF_GOLDSMITH; keep Mrs Halliburton; Last Days of Pompeii has no entry"
+  },
+  {
+   "pid": "043.0191",
+   "remove": null,
+   "add": "culture/art/VENUS_DE_MEDICIS.md",
+   "display": "Venus de' Medici",
+   "note": "Add Medici; keep Milo, she compares it at the end"
+  },
+  {
+   "pid": "086.0629",
+   "remove": "culture/theater/HAMLET_THOMAS.md",
+   "add": "culture/theater/HAMLET_SHAKESPEARE.md",
+   "display": "Hamlet (Shakespeare)",
+   "note": "Blanc recites the play; no HAMLET_THOMAS tag currently in this paragraph, so only add"
+  },
+  {
+   "pid": "098.0386",
+   "remove": null,
+   "add": "culture/theater/HAMLET_SHAKESPEARE.md",
+   "display": "Hamlet (Shakespeare)",
+   "note": "Reads the play in English; keep HAMLET_THOMAS for Thomas's music in the same sentence"
+  },
+  {
+   "pid": "030.0341",
+   "remove": "culture/music/STABAT_MATER_PERGOLESI.md",
+   "add": null,
+   "display": null,
+   "note": "Composer not named; Pergolesi entry covers Naples 1877 only; RSR already says so"
+  },
+  {
+   "pid": "073.0154",
+   "remove": "culture/theater/HORACE_CORNEILLE.md",
+   "add": null,
+   "display": null,
+   "note": "David's painting is meant, no entry; RSR note proposed"
+  },
+  {
+   "pid": "085.0310",
+   "remove": "culture/theater/LES_MIRABEAU_CLARETIE.md",
+   "add": "culture/literature/LES_MIRABEAU_LOMENIE.md",
+   "display": "Les Mirabeau (Loménie)",
+   "note": "Reads Loménie's volume, not Claretie's play; Claretie tag may be right at 086/1879-11-04"
+  },
+  {
+   "pid": "103.0046",
+   "remove": "culture/literature/COROT.md",
+   "add": null,
+   "display": null,
+   "note": "Corot is a painter, entry sits in culture/literature; no painter-category entry exists, so lead decides (move entry to people/artists and retag)"
+  }
+ ],
+ "rsr_notes": [
+  {
+   "pid": "103.0046",
+   "note": "«Aurore» is Bouguereau's painting (Marie says «une Aurore de Bouguereau» in 103.0058) and «Phèdre» is Cabanel's; the LAN note giving both to Cabanel is wrong."
+  },
+  {
+   "pid": "103.0178",
+   "note": "«Aurore» is Bouguereau's painting, not Cabanel's, and «Phèdre» is Cabanel's; the LAN note crediting both to Cabanel should be corrected."
+  },
+  {
+   "pid": "073.0154",
+   "note": "«Les Horaces, le Serment de Grutli» most likely means David's painting Le Serment des Horaces (the oath, with the Grutli oath as a pendant joke), not Corneille's Horace."
+  },
+  {
+   "pid": "030.0341",
+   "note": "The Stabat Mater sung is not identified by composer (Rossini's is probable but unproved); no work tag."
+  },
+  {
+   "pid": "049.0187",
+   "note": "The Stabat Mater is not attributed to a composer by Marie; Rossini's is probable (chorus) but unproved, so no tag."
+  },
+  {
+   "pid": "006.0245",
+   "note": "Marie's reading list also names Bulwer's The Last Days of Pompeii, which has no glossary entry yet."
+  },
+  {
+   "pid": "005.0023",
+   "note": "«Mabel Waughan» is Maria Cummins's Mabel Vaughan (1857); The Lamplighter is only named as its author's earlier book."
+  },
+  {
+   "pid": "098.0386",
+   "note": "Hamlet read in English is Shakespeare's play; the music is Ambroise Thomas's opera Hamlet."
+  },
+  {
+   "pid": "066.0498",
+   "note": "Ira Aldridge is footnoted as Othello; Marie does not name the play or any performance here."
+  }
+ ]
+}

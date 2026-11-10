@@ -1,0 +1,527 @@
+{
+ "decisions": [
+  {
+   "pid": "050.0876",
+   "target": "culture/art/LE_MENDIANT_BASTIEN_LEPAGE.md",
+   "display": "Le_Mendiant_(Jules_Bastien-Lepage)",
+   "decision": "skip",
+   "note": "Ordinary beggar boy, not the painting."
+  },
+  {
+   "pid": "050.1015",
+   "target": "culture/art/LE_MENDIANT_BASTIEN_LEPAGE.md",
+   "display": "Le_Mendiant_(Jules_Bastien-Lepage)",
+   "decision": "skip",
+   "note": "Generic beggar in an argument about envy."
+  },
+  {
+   "pid": "056.0329",
+   "target": "culture/art/LE_MENDIANT_BASTIEN_LEPAGE.md",
+   "display": "Le_Mendiant_(Jules_Bastien-Lepage)",
+   "decision": "skip",
+   "note": "Beggar seen in Terracina street."
+  },
+  {
+   "pid": "068.1422",
+   "target": "culture/art/LE_MENDIANT_BASTIEN_LEPAGE.md",
+   "display": "Le_Mendiant_(Jules_Bastien-Lepage)",
+   "decision": "skip",
+   "note": "Real beggar greeted by Larderel."
+  },
+  {
+   "pid": "080.0206",
+   "target": "culture/art/LE_MENDIANT_BASTIEN_LEPAGE.md",
+   "display": "Le_Mendiant_(Jules_Bastien-Lepage)",
+   "decision": "skip",
+   "note": "Generic \"a beggar\" in a complaint about relatives."
+  },
+  {
+   "pid": "091.0548",
+   "target": "culture/art/LE_MENDIANT_BASTIEN_LEPAGE.md",
+   "display": "Le_Mendiant_(Jules_Bastien-Lepage)",
+   "decision": "tag",
+   "note": "Bastien-Lepage hanging: portrait of Wolff and the mendiant; footnote names Le Mendiant."
+  },
+  {
+   "pid": "099.0228",
+   "target": "culture/art/LE_MENDIANT_BASTIEN_LEPAGE.md",
+   "display": "Le_Mendiant_(Jules_Bastien-Lepage)",
+   "decision": "tag",
+   "note": "\"les pommes de terre et le mendiant\": Bastien-Lepage works at the Salon."
+  },
+  {
+   "pid": "024.0274",
+   "target": "culture/literature/BIBLE.md",
+   "display": "Bible",
+   "decision": "skip",
+   "note": "Buys \"Les Femmes de la Bible\", a book, not the Bible itself."
+  },
+  {
+   "pid": "032.0202",
+   "target": "culture/literature/BIBLE.md",
+   "display": "Bible",
+   "decision": "skip",
+   "note": "\"la bible des profanes\" is the cookery book."
+  },
+  {
+   "pid": "037.0237",
+   "target": "culture/literature/BIBLE.md",
+   "display": "Bible",
+   "decision": "skip",
+   "note": "Figure of speech: looks like a woman of the Bible."
+  },
+  {
+   "pid": "043.0208",
+   "target": "culture/literature/BIBLE.md",
+   "display": "Bible",
+   "decision": "skip",
+   "note": "Opera characters called \"de la Bible\"; costume remark, not the book."
+  },
+  {
+   "pid": "059.0032",
+   "target": "culture/literature/BIBLE.md",
+   "display": "Bible",
+   "decision": "unsure",
+   "note": "Saint-Joseph name famous in Old and New Testament; passing reference to the Testaments."
+  },
+  {
+   "pid": "062.0190",
+   "target": "culture/literature/BIBLE.md",
+   "display": "Bible",
+   "decision": "tag",
+   "note": "Reads the Old and New Testament; also tagged NOUVEAU_TESTAMENT."
+  },
+  {
+   "pid": "091.0230",
+   "target": "culture/literature/BIBLE.md",
+   "display": "Bible",
+   "decision": "unsure",
+   "note": "Opens the \"Nouveau Testament\"; already tagged NOUVEAU_TESTAMENT, lead decides whether BIBLE too."
+  },
+  {
+   "pid": "068.0215",
+   "target": "culture/music/L_OISEAU_S_ENVOLE.md",
+   "display": "\"L'oiseau_s'envole\"_(Paul_et_Virginie)",
+   "decision": "skip",
+   "note": "Mentions Paul et Virginie opera song only, refrain not quoted here."
+  },
+  {
+   "pid": "068.0216",
+   "target": "culture/music/L_OISEAU_S_ENVOLE.md",
+   "display": "\"L'oiseau_s'envole\"_(Paul_et_Virginie)",
+   "decision": "tag",
+   "note": "Quotes the full song lyrics."
+  },
+  {
+   "pid": "071.0206",
+   "target": "culture/music/L_OISEAU_S_ENVOLE.md",
+   "display": "\"L'oiseau_s'envole\"_(Paul_et_Virginie)",
+   "decision": "tag",
+   "note": "Introduces the verses of the song; announces the bird flying away."
+  },
+  {
+   "pid": "071.0207",
+   "target": "culture/music/L_OISEAU_S_ENVOLE.md",
+   "display": "\"L'oiseau_s'envole\"_(Paul_et_Virginie)",
+   "decision": "tag",
+   "note": "Quotes the refrain."
+  },
+  {
+   "pid": "082.0068",
+   "target": "culture/music/L_OISEAU_S_ENVOLE.md",
+   "display": "\"L'oiseau_s'envole\"_(Paul_et_Virginie)",
+   "decision": "tag",
+   "note": "Marie sings \"l'oiseau s'envole\"."
+  },
+  {
+   "pid": "082.0080",
+   "target": "culture/music/L_OISEAU_S_ENVOLE.md",
+   "display": "\"L'oiseau_s'envole\"_(Paul_et_Virginie)",
+   "decision": "tag",
+   "note": "Sings \"l'oiseau s'envole\" again."
+  },
+  {
+   "pid": "015.0185",
+   "target": "culture/theater/LES_BRIGANDS.md",
+   "display": "Les_Brigands_(Offenbach)",
+   "decision": "skip",
+   "note": "Exclamation \"Les brigands...\" about men, no operetta."
+  },
+  {
+   "pid": "021.0483",
+   "target": "culture/theater/LES_BRIGANDS.md",
+   "display": "Les_Brigands_(Offenbach)",
+   "decision": "tag",
+   "note": "\"nous sommes les carabiniers\": Offenbach Brigands allusion; footnote names the work."
+  },
+  {
+   "pid": "080.0226",
+   "target": "culture/theater/LES_BRIGANDS.md",
+   "display": "Les_Brigands_(Offenbach)",
+   "decision": "skip",
+   "note": "Real brigands as insult."
+  },
+  {
+   "pid": "083.0169",
+   "target": "culture/theater/LES_BRIGANDS.md",
+   "display": "Les_Brigands_(Offenbach)",
+   "decision": "skip",
+   "note": "\"les brigands\" as a political insult."
+  },
+  {
+   "pid": "034.0047",
+   "target": "culture/theater/LES_BRIGANDS.md",
+   "display": "Les_Brigands_(Offenbach)",
+   "decision": "tag",
+   "note": "Girofla sings \"celui des Brigands\" (the couplet)."
+  },
+  {
+   "pid": "094.0164",
+   "target": "culture/art/PRINTEMPS_QUI_PASSE_BERTRAND.md",
+   "display": "Printemps_qui_passe_(Georges_Bertrand,_Salon_1883)",
+   "decision": "skip",
+   "note": "Bertrand's \"Le drapeau\", a different painting."
+  },
+  {
+   "pid": "099.0491",
+   "target": "culture/art/PRINTEMPS_QUI_PASSE_BERTRAND.md",
+   "display": "Printemps_qui_passe_(Georges_Bertrand,_Salon_1883)",
+   "decision": "tag",
+   "note": "Names and describes Printemps qui passe."
+  },
+  {
+   "pid": "099.0492",
+   "target": "culture/art/PRINTEMPS_QUI_PASSE_BERTRAND.md",
+   "display": "Printemps_qui_passe_(Georges_Bertrand,_Salon_1883)",
+   "decision": "tag",
+   "note": "Continues criticism of the same painting."
+  },
+  {
+   "pid": "099.0493",
+   "target": "culture/art/PRINTEMPS_QUI_PASSE_BERTRAND.md",
+   "display": "Printemps_qui_passe_(Georges_Bertrand,_Salon_1883)",
+   "decision": "tag",
+   "note": "Verdict on \"le Georges Bertrand\", the same painting."
+  },
+  {
+   "pid": "072.0413",
+   "target": "culture/literature/VOYAGE_EN_ESPAGNE_GAUTIER.md",
+   "display": "Voyage_en_Espagne_/_Tra_los_montes_(Théophile_Gautier)",
+   "decision": "skip",
+   "note": "Her own planned trip to Spain."
+  },
+  {
+   "pid": "093.0323",
+   "target": "culture/literature/VOYAGE_EN_ESPAGNE_GAUTIER.md",
+   "display": "Voyage_en_Espagne_/_Tra_los_montes_(Théophile_Gautier)",
+   "decision": "skip",
+   "note": "Her own trip to Spain."
+  },
+  {
+   "pid": "095.0192",
+   "target": "culture/literature/VOYAGE_EN_ESPAGNE_GAUTIER.md",
+   "display": "Voyage_en_Espagne_/_Tra_los_montes_(Théophile_Gautier)",
+   "decision": "tag",
+   "note": "\"un volume de Th. Gautier\" about Spain; footnote names Voyage en Espagne."
+  },
+  {
+   "pid": "096.0378",
+   "target": "culture/literature/VOYAGE_EN_ESPAGNE_GAUTIER.md",
+   "display": "Voyage_en_Espagne_/_Tra_los_montes_(Théophile_Gautier)",
+   "decision": "tag",
+   "note": "Reads \"Tra las Montes\" by Gautier on the train."
+  },
+  {
+   "pid": "034.0406",
+   "target": "culture/theater/MUCH_ADO_ABOUT_NOTHING_SHAKESPEARE.md",
+   "display": "Much_Ado_About_Nothing_(Shakespeare)",
+   "decision": "tag",
+   "note": "Title used as phrase, Shakespeare title in English; glossary entry cites it."
+  },
+  {
+   "pid": "059.0686",
+   "target": "culture/theater/MUCH_ADO_ABOUT_NOTHING_SHAKESPEARE.md",
+   "display": "Much_Ado_About_Nothing_(Shakespeare)",
+   "decision": "unsure",
+   "note": "\"une comédie de Shakespeare\" unnamed; Much Ado only a guess."
+  },
+  {
+   "pid": "067.0374",
+   "target": "culture/theater/MUCH_ADO_ABOUT_NOTHING_SHAKESPEARE.md",
+   "display": "Much_Ado_About_Nothing_(Shakespeare)",
+   "decision": "tag",
+   "note": "Quotes the title in English."
+  },
+  {
+   "pid": "086.0762",
+   "target": "culture/theater/MUCH_ADO_ABOUT_NOTHING_SHAKESPEARE.md",
+   "display": "Much_Ado_About_Nothing_(Shakespeare)",
+   "decision": "tag",
+   "note": "Describes the plot without naming; LAN and entry identify Much Ado, plausible not certain."
+  },
+  {
+   "pid": "043.0191",
+   "target": "culture/art/VENUS_DE_MEDICIS.md",
+   "display": "Venus_de'_Medici",
+   "decision": "tag",
+   "note": "Before the \"Venere Medicea\" statue in the Uffizi."
+  },
+  {
+   "pid": "043.0200",
+   "target": "culture/art/VENUS_DE_MEDICIS.md",
+   "display": "Venus_de'_Medici",
+   "decision": "tag",
+   "note": "\"La Vénus de Médicis m'a rendue fière\"."
+  },
+  {
+   "pid": "071.0486",
+   "target": "culture/art/VENUS_DE_MEDICIS.md",
+   "display": "Venus_de'_Medici",
+   "decision": "tag",
+   "note": "Recalls her judgement of the Venus de Médicis."
+  },
+  {
+   "pid": "089.0156",
+   "target": "culture/literature/MADAME_BOVARY.md",
+   "display": "Madame_Bovary_(Gustave_Flaubert)",
+   "decision": "tag",
+   "note": "Cab recalls the one in Mme Bovary."
+  },
+  {
+   "pid": "103.0566",
+   "target": "culture/literature/MADAME_BOVARY.md",
+   "display": "Madame_Bovary_(Gustave_Flaubert)",
+   "decision": "tag",
+   "note": "Rereads Mme Bovary."
+  },
+  {
+   "pid": "103.0567",
+   "target": "culture/literature/MADAME_BOVARY.md",
+   "display": "Madame_Bovary_(Gustave_Flaubert)",
+   "decision": "tag",
+   "note": "Comment on the book's style continues the previous paragraph."
+  },
+  {
+   "pid": "086.0591",
+   "target": "culture/theater/L_ETINCELLE_PAILLERON.md",
+   "display": "L'Étincelle_(Édouard_Pailleron)",
+   "decision": "tag",
+   "note": "Wanted to see \"l'Etincelle\" at the Français."
+  },
+  {
+   "pid": "087.0198",
+   "target": "culture/theater/L_ETINCELLE_PAILLERON.md",
+   "display": "L'Étincelle_(Édouard_Pailleron)",
+   "decision": "tag",
+   "note": "Krishabers want her to play \"l'Etincelle\"."
+  },
+  {
+   "pid": "101.0275",
+   "target": "culture/theater/L_ETINCELLE_PAILLERON.md",
+   "display": "L'Étincelle_(Édouard_Pailleron)",
+   "decision": "skip",
+   "note": "\"l'étincelle\" = spark of genius, not the play."
+  },
+  {
+   "pid": "098.0189",
+   "target": "culture/art/CAZIN_PAYSAGES_DE_NUIT.md",
+   "display": "Cazin's_small_night_landscapes",
+   "decision": "tag",
+   "note": "Cazin's small blue night picture with a black boat."
+  },
+  {
+   "pid": "103.0240",
+   "target": "culture/art/CAZIN_PAYSAGES_DE_NUIT.md",
+   "display": "Cazin's_small_night_landscapes",
+   "decision": "tag",
+   "note": "Cazin's small canvas with a black boat on a starry sky."
+  },
+  {
+   "pid": "103.0046",
+   "target": "culture/art/PHEDRE_CABANEL.md",
+   "display": "Phèdre_(Alexandre_Cabanel)",
+   "decision": "tag",
+   "note": "Success of Cabanel's Phèdre at the Salon."
+  },
+  {
+   "pid": "103.0178",
+   "target": "culture/art/PHEDRE_CABANEL.md",
+   "display": "Phèdre_(Alexandre_Cabanel)",
+   "decision": "unsure",
+   "note": "\"fabricant d'Aurore et de Phèdre\": generic dig at academic painters, Cabanel's Phèdre only implied."
+  },
+  {
+   "pid": "087.0300",
+   "target": "culture/art/PORTRAIT_MGR_VIARD_BRESLAU.md",
+   "display": "Portrait_de_Mgr_Viard_(Breslau,_Salon_1880)",
+   "decision": "tag",
+   "note": "Breslau painting the portrait of Mgr. Viard."
+  },
+  {
+   "pid": "088.0043",
+   "target": "culture/art/PORTRAIT_MGR_VIARD_BRESLAU.md",
+   "display": "Portrait_de_Mgr_Viard_(Breslau,_Salon_1880)",
+   "decision": "tag",
+   "note": "Criticises Breslau's portrait of Mgr. Viard."
+  },
+  {
+   "pid": "053.0202",
+   "target": "culture/literature/LA_JEUNE_CAPTIVE_CHENIER.md",
+   "display": "La_Jeune_Captive_(André_Chénier)",
+   "decision": "tag",
+   "note": "Quotes \"ma coupe est encore pleine\" from La Captive."
+  },
+  {
+   "pid": "053.0207",
+   "target": "culture/literature/LA_JEUNE_CAPTIVE_CHENIER.md",
+   "display": "La_Jeune_Captive_(André_Chénier)",
+   "decision": "skip",
+   "note": "Paragraph does not mention the poem; only the RSR summary does."
+  },
+  {
+   "pid": "044.0059",
+   "target": "culture/literature/MEMOIRES_DU_MARECHAL_DE_RICHELIEU.md",
+   "display": "Mémoires_du_maréchal_duc_de_Richelieu",
+   "decision": "tag",
+   "note": "Reads the title of the Mémoires."
+  },
+  {
+   "pid": "044.0182",
+   "target": "culture/literature/MEMOIRES_DU_MARECHAL_DE_RICHELIEU.md",
+   "display": "Mémoires_du_maréchal_duc_de_Richelieu",
+   "decision": "tag",
+   "note": "Audiffret has read the Mémoires."
+  },
+  {
+   "pid": "006.0070",
+   "target": "culture/literature/SELECT_WORKS_OF_GOLDSMITH.md",
+   "display": "The_Select_Works_of_Oliver_Goldsmith",
+   "decision": "tag",
+   "note": "Reads Oliver Goldsmith's works, probably this edition."
+  },
+  {
+   "pid": "006.0245",
+   "target": "culture/literature/SELECT_WORKS_OF_GOLDSMITH.md",
+   "display": "The_Select_Works_of_Oliver_Goldsmith",
+   "decision": "tag",
+   "note": "Reading list names the Select Works of Goldsmith."
+  },
+  {
+   "pid": "034.0021",
+   "target": "culture/music/LE_LONG_DE_NOTRE_PETITE_MERE_LA_VOLGA.md",
+   "display": "Le_long_de_notre_petite_mère_la_Volga",
+   "decision": "tag",
+   "note": "Yourkoff sings the song."
+  },
+  {
+   "pid": "034.0114",
+   "target": "culture/music/LE_LONG_DE_NOTRE_PETITE_MERE_LA_VOLGA.md",
+   "display": "Le_long_de_notre_petite_mère_la_Volga",
+   "decision": "tag",
+   "note": "Words of the song recalled."
+  },
+  {
+   "pid": "062.0512",
+   "target": "culture/theater/DON_PASQUALE_DONIZETTI.md",
+   "display": "Don_Pasquale_(Donizetti)",
+   "decision": "tag",
+   "note": "Sang the Don Pasquale serenade."
+  },
+  {
+   "pid": "071.0225",
+   "target": "culture/theater/DON_PASQUALE_DONIZETTI.md",
+   "display": "Don_Pasquale_(Donizetti)",
+   "decision": "skip",
+   "note": "Race programme, no Don Pasquale text; inventory hit unfounded."
+  },
+  {
+   "pid": "002.0064",
+   "target": "culture/theater/LES_DOMESTIQUES_GRANGE_DESLANDES.md",
+   "display": "Les_Domestiques_(Grangé_and_Deslandes)",
+   "decision": "tag",
+   "note": "Saw \"Les domestiques\" in three acts at the Français."
+  },
+  {
+   "pid": "007.0335",
+   "target": "culture/theater/LES_DOMESTIQUES_GRANGE_DESLANDES.md",
+   "display": "Les_Domestiques_(Grangé_and_Deslandes)",
+   "decision": "skip",
+   "note": "Servants at the Russian restaurant."
+  },
+  {
+   "pid": "083.0576",
+   "target": "culture/theater/LE_ROI_DE_LAHORE_MASSENET.md",
+   "display": "Le_Roi_de_Lahore_(Massenet)",
+   "decision": "tag",
+   "note": "Massenet's \"Roi de Latore\" at the Opéra."
+  },
+  {
+   "pid": "083.0580",
+   "target": "culture/theater/LE_ROI_DE_LAHORE_MASSENET.md",
+   "display": "Le_Roi_de_Lahore_(Massenet)",
+   "decision": "unsure",
+   "note": "Massenet's Incantation encored; opera not stated, likely but unproven Roi de Lahore."
+  },
+  {
+   "pid": "063.0443",
+   "target": "culture/theater/RIENZI_WAGNER.md",
+   "display": "Rienzi_(Wagner)",
+   "decision": "skip",
+   "note": "Rienzi the tribune (Bulwer novel), not Wagner's opera."
+  },
+  {
+   "pid": "071.0083",
+   "target": "culture/theater/RIENZI_WAGNER.md",
+   "display": "Rienzi_(Wagner)",
+   "decision": "tag",
+   "note": "Rienzi by Wagner performed at the Pagliano."
+  },
+  {
+   "pid": "016.0087",
+   "target": "culture/literature/LOUIS_XIV_ET_SON_SIECLE.md",
+   "display": "Louis_XIV_et_son_siècle_(Alexandre_Dumas)",
+   "decision": "tag",
+   "note": "Reads Louis XIV et son siècle (adores Buckingham)."
+  },
+  {
+   "pid": "097.0221",
+   "target": "culture/literature/MODESTE_MIGNON_BALZAC.md",
+   "display": "Modeste_Mignon_(Honoré_de_Balzac)",
+   "decision": "tag",
+   "note": "Continues discussion of Modeste Mignon, \"c'est moi\"."
+  },
+  {
+   "pid": "051.0179",
+   "target": "culture/theater/HORACE_CORNEILLE.md",
+   "display": "Horace_(Corneille)",
+   "decision": "tag",
+   "note": "Parody couplet of Camille's curse in Corneille's Horace."
+  },
+  {
+   "pid": "014.0185",
+   "target": "culture/theater/LO_SPECCHIO_INFERNALE_BALLET.md",
+   "display": "Lo_Specchio_Infernale_(ballet)",
+   "decision": "tag",
+   "note": "Goes to the ballet \"Lo specchio infernale\"."
+  }
+ ],
+ "retag": [],
+ "rsr_notes": [
+  {
+   "pid": "063.0443",
+   "note": "Rienzi here is Cola di Rienzo the tribune (as in Bulwer-Lytton's novel), not Wagner's opera."
+  },
+  {
+   "pid": "024.0274",
+   "note": "«Les Femmes de la Bible» is a separate book she buys, not the Bible itself."
+  },
+  {
+   "pid": "094.0164",
+   "note": "«Le drapeau» is another painting by Georges Bertrand, not Printemps qui passe."
+  },
+  {
+   "pid": "101.0275",
+   "note": "«l'étincelle» here means the spark of genius, not Pailleron's play."
+  }
+ ]
+}

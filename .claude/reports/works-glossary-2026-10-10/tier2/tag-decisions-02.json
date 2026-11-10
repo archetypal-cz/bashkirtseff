@@ -1,0 +1,515 @@
+{
+ "decisions": [
+  {
+   "pid": "004.0357",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "tag",
+   "note": "Quotes Inferno III.22-24."
+  },
+  {
+   "pid": "006.0067",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "tag",
+   "note": "Quotes Inferno III.49-51."
+  },
+  {
+   "pid": "026.0011",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "tag",
+   "note": "Half-remembered Inferno I.48 line."
+  },
+  {
+   "pid": "027.0046",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "tag",
+   "note": "Heads twisted like the damned of Dante: allusion to Inferno XX."
+  },
+  {
+   "pid": "027.0306",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "tag",
+   "note": "Quotes Inferno III.22-24."
+  },
+  {
+   "pid": "033.0164",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "tag",
+   "note": "Quotes Inferno II.7-8."
+  },
+  {
+   "pid": "033.0165",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "tag",
+   "note": "Completes the Inferno II tercet."
+  },
+  {
+   "pid": "043.0210",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "tag",
+   "note": "Garbled Inferno I.32-33, the leopard."
+  },
+  {
+   "pid": "050.1150",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "tag",
+   "note": "Inferno I line, the she-wolf."
+  },
+  {
+   "pid": "052.0350",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "unsure",
+   "note": "Beatrice's dress: Vita Nuova/Commedia figure, no title or line; leans skip."
+  },
+  {
+   "pid": "053.0211",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "tag",
+   "note": "\"Comme les damnés du Dante\": Inferno allusion."
+  },
+  {
+   "pid": "067.0986",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "decision": "skip",
+   "note": "\"Langue de Dante\" only means Italian."
+  },
+  {
+   "pid": "047.0064",
+   "target": "culture/music/LE_ROSSIGNOL_CHE_VOLA.md",
+   "display": "Le_rossignol_che_vola",
+   "decision": "tag",
+   "note": "Marie sings the song in Nice old town."
+  },
+  {
+   "pid": "047.0151",
+   "target": "culture/music/LE_ROSSIGNOL_CHE_VOLA.md",
+   "display": "Le_rossignol_che_vola",
+   "decision": "tag",
+   "note": "Rossignol che vola as Audiffret's name, the song title."
+  },
+  {
+   "pid": "054.0030",
+   "target": "culture/music/LE_ROSSIGNOL_CHE_VOLA.md",
+   "display": "Le_rossignol_che_vola",
+   "decision": "tag",
+   "note": "Carnival prize named after the song."
+  },
+  {
+   "pid": "055.0685",
+   "target": "culture/music/LE_ROSSIGNOL_CHE_VOLA.md",
+   "display": "Le_rossignol_che_vola",
+   "decision": "tag",
+   "note": "Nickname for Audiffret from the song title."
+  },
+  {
+   "pid": "055.0686",
+   "target": "culture/music/LE_ROSSIGNOL_CHE_VOLA.md",
+   "display": "Le_rossignol_che_vola",
+   "decision": "tag",
+   "note": "Same nickname, song title."
+  },
+  {
+   "pid": "059.0826",
+   "target": "culture/music/LE_ROSSIGNOL_CHE_VOLA.md",
+   "display": "Le_rossignol_che_vola",
+   "decision": "tag",
+   "note": "Marie explains the title as Nice's most popular song."
+  },
+  {
+   "pid": "034.0556",
+   "target": "culture/music/CHANSONS_NICOISES.md",
+   "display": "Chansons_niçoises",
+   "decision": "skip",
+   "note": "About Louis II and Louis XIV; no songs mentioned."
+  },
+  {
+   "pid": "034.0557",
+   "target": "culture/music/CHANSONS_NICOISES.md",
+   "display": "Chansons_niçoises",
+   "decision": "tag",
+   "note": "She has learned Niçois songs."
+  },
+  {
+   "pid": "042.0043",
+   "target": "culture/music/CHANSONS_NICOISES.md",
+   "display": "Chansons_niçoises",
+   "decision": "tag",
+   "note": "Sings Niçois songs from Antibes."
+  },
+  {
+   "pid": "059.0826",
+   "target": "culture/music/CHANSONS_NICOISES.md",
+   "display": "Chansons_niçoises",
+   "decision": "skip",
+   "note": "Names one specific song, Rossignol che vola, not the genre."
+  },
+  {
+   "pid": "062.0430",
+   "target": "culture/music/CHANSONS_NICOISES.md",
+   "display": "Chansons_niçoises",
+   "decision": "tag",
+   "note": "Audiffret made her sing the Niçois songs."
+  },
+  {
+   "pid": "013.0130",
+   "target": "culture/theater/LES_PATTES_DE_MOUCHE.md",
+   "display": "Les_Pattes_de_mouche_(Sardou)",
+   "decision": "skip",
+   "note": "\"Pattes de mouche\" means scrawled handwriting."
+  },
+  {
+   "pid": "022.0418",
+   "target": "culture/theater/LES_PATTES_DE_MOUCHE.md",
+   "display": "Les_Pattes_de_mouche_(Sardou)",
+   "decision": "skip",
+   "note": "Russian line about Doria; no play named."
+  },
+  {
+   "pid": "022.0429",
+   "target": "culture/theater/LES_PATTES_DE_MOUCHE.md",
+   "display": "Les_Pattes_de_mouche_(Sardou)",
+   "decision": "tag",
+   "note": "Goes to the theatre to see Les Pattes de mouche."
+  },
+  {
+   "pid": "022.0447",
+   "target": "culture/theater/LES_PATTES_DE_MOUCHE.md",
+   "display": "Les_Pattes_de_mouche_(Sardou)",
+   "decision": "skip",
+   "note": "Doria with a bouquet; no play named."
+  },
+  {
+   "pid": "022.0458",
+   "target": "culture/theater/LES_PATTES_DE_MOUCHE.md",
+   "display": "Les_Pattes_de_mouche_(Sardou)",
+   "decision": "tag",
+   "note": "Remembers a line heard in the play."
+  },
+  {
+   "pid": "097.0364",
+   "target": "culture/literature/FLAMARANDE.md",
+   "display": "Flamarande_(George_Sand)",
+   "decision": "skip",
+   "note": "\"Les deux frères\" here are the Bastien-Lepage brothers, not Sand's novel."
+  },
+  {
+   "pid": "099.0258",
+   "target": "culture/literature/FLAMARANDE.md",
+   "display": "Flamarande_(George_Sand)",
+   "decision": "skip",
+   "note": "\"Les deux frères\" here are the Bastien-Lepage brothers, not Sand's novel."
+  },
+  {
+   "pid": "099.0299",
+   "target": "culture/literature/FLAMARANDE.md",
+   "display": "Flamarande_(George_Sand)",
+   "decision": "skip",
+   "note": "\"Les deux frères\" here are the Bastien-Lepage brothers, not Sand's novel."
+  },
+  {
+   "pid": "099.0329",
+   "target": "culture/literature/FLAMARANDE.md",
+   "display": "Flamarande_(George_Sand)",
+   "decision": "skip",
+   "note": "\"Les deux frères\" here are the Bastien-Lepage brothers, not Sand's novel."
+  },
+  {
+   "pid": "057.0212",
+   "target": "culture/theater/HAMLET_SHAKESPEARE.md",
+   "display": "Hamlet_(Shakespeare)",
+   "decision": "tag",
+   "note": "\"That is the question\" quotes Hamlet."
+  },
+  {
+   "pid": "063.0327",
+   "target": "culture/theater/HAMLET_SHAKESPEARE.md",
+   "display": "Hamlet_(Shakespeare)",
+   "decision": "tag",
+   "note": "\"That is the question\" quotes Hamlet."
+  },
+  {
+   "pid": "086.0629",
+   "target": "culture/theater/HAMLET_SHAKESPEARE.md",
+   "display": "Hamlet_(Shakespeare)",
+   "decision": "tag",
+   "note": "Blanc recites fragments of Hamlet."
+  },
+  {
+   "pid": "098.0386",
+   "target": "culture/theater/HAMLET_SHAKESPEARE.md",
+   "display": "Hamlet_(Shakespeare)",
+   "decision": "tag",
+   "note": "She has just read Hamlet in English; Thomas tag also stays."
+  },
+  {
+   "pid": "103.0067",
+   "target": "culture/art/BOUGUEREAU_EMPRUNT_A_RAPHAEL.md",
+   "display": "Bouguereau's_«theft»_from_Raphael",
+   "decision": "tag",
+   "note": "Bouguereau's theft from Raphaël, named."
+  },
+  {
+   "pid": "103.0068",
+   "target": "culture/art/BOUGUEREAU_EMPRUNT_A_RAPHAEL.md",
+   "display": "Bouguereau's_«theft»_from_Raphael",
+   "decision": "unsure",
+   "note": "Continues the outburst on borrowings; general, leans tag as continuation."
+  },
+  {
+   "pid": "103.0069",
+   "target": "culture/art/BOUGUEREAU_EMPRUNT_A_RAPHAEL.md",
+   "display": "Bouguereau's_«theft»_from_Raphael",
+   "decision": "skip",
+   "note": "General attack on academic painters, no Bouguereau or Raphaël."
+  },
+  {
+   "pid": "016.0274",
+   "target": "culture/literature/GULLIVERS_TRAVELS.md",
+   "display": "Gulliver's_Travels",
+   "decision": "tag",
+   "note": "Lambertye a pygmy beside a giantess \"dans les Gulliver's travels\"."
+  },
+  {
+   "pid": "060.0490",
+   "target": "culture/literature/GULLIVERS_TRAVELS.md",
+   "display": "Gulliver's_Travels",
+   "decision": "skip",
+   "note": "\"Travels\" here is ordinary travelling with Collignon."
+  },
+  {
+   "pid": "071.0506",
+   "target": "culture/literature/GULLIVERS_TRAVELS.md",
+   "display": "Gulliver's_Travels",
+   "decision": "tag",
+   "note": "She watches herself as Gulliver his Lilliputians."
+  },
+  {
+   "pid": "050.0087",
+   "target": "culture/theater/FERREOL_SARDOU.md",
+   "display": "Ferréol_(Sardou)",
+   "decision": "tag",
+   "note": "Going to the Gymnase to see Ferréol."
+  },
+  {
+   "pid": "050.0090",
+   "target": "culture/theater/FERREOL_SARDOU.md",
+   "display": "Ferréol_(Sardou)",
+   "decision": "tag",
+   "note": "Ferréol named; acting and wings."
+  },
+  {
+   "pid": "050.0093",
+   "target": "culture/theater/FERREOL_SARDOU.md",
+   "display": "Ferréol_(Sardou)",
+   "decision": "skip",
+   "note": "Only \"hier du théâtre\"; play not named here."
+  },
+  {
+   "pid": "059.0244",
+   "target": "culture/theater/MARIA_STUARDA_SCHILLER.md",
+   "display": "Maria_Stuart_(Schiller),_as_played_by_Ristori",
+   "decision": "tag",
+   "note": "Ristori plays Marie Stuart at the Apollo."
+  },
+  {
+   "pid": "068.0408",
+   "target": "culture/theater/MARIA_STUARDA_SCHILLER.md",
+   "display": "Maria_Stuart_(Schiller),_as_played_by_Ristori",
+   "decision": "skip",
+   "note": "A Marie Stuart cap, not the play."
+  },
+  {
+   "pid": "086.0321",
+   "target": "culture/theater/MARIA_STUARDA_SCHILLER.md",
+   "display": "Maria_Stuart_(Schiller),_as_played_by_Ristori",
+   "decision": "tag",
+   "note": "Act of Marie Stuart played by Ristori."
+  },
+  {
+   "pid": "043.0164",
+   "target": "culture/art/PENITENT_MAGDALENE_TITIAN.md",
+   "display": "Penitent_Magdalene_(Titian)",
+   "decision": "tag",
+   "note": "Titian Magdalene at the Pitti."
+  },
+  {
+   "pid": "053.0378",
+   "target": "culture/art/PENITENT_MAGDALENE_TITIAN.md",
+   "display": "Penitent_Magdalene_(Titian)",
+   "decision": "tag",
+   "note": "Titian Magdalene at the Doria, probably a different picture; entry covers both."
+  },
+  {
+   "pid": "093.0211",
+   "target": "culture/art/PORTRAIT_FRANCOIS_I_TITIEN.md",
+   "display": "Portrait_de_François_Ier_(Titian)",
+   "decision": "tag",
+   "note": "Pandolfini has the bearing of Titian's Francis I portrait."
+  },
+  {
+   "pid": "093.0309",
+   "target": "culture/art/PORTRAIT_FRANCOIS_I_TITIEN.md",
+   "display": "Portrait_de_François_Ier_(Titian)",
+   "decision": "tag",
+   "note": "Anecdote Francis I and Titian; entry keeps it though it is not the portrait."
+  },
+  {
+   "pid": "097.0191",
+   "target": "culture/literature/HONORINE_BALZAC.md",
+   "display": "Honorine_(Honoré_de_Balzac)",
+   "decision": "tag",
+   "note": "Has just read Honorine."
+  },
+  {
+   "pid": "097.0221",
+   "target": "culture/literature/HONORINE_BALZAC.md",
+   "display": "Honorine_(Honoré_de_Balzac)",
+   "decision": "tag",
+   "note": "Cites the opening pages of Honorine."
+  },
+  {
+   "pid": "005.0023",
+   "target": "culture/literature/MABEL_VAUGHAN.md",
+   "display": "Mabel_Vaughan_(Maria_Susanna_Cummins)",
+   "decision": "tag",
+   "note": "Wants to buy Mabel Waughan to finish it."
+  },
+  {
+   "pid": "006.0245",
+   "target": "culture/literature/MABEL_VAUGHAN.md",
+   "display": "Mabel_Vaughan_(Maria_Susanna_Cummins)",
+   "decision": "tag",
+   "note": "Listed among books to read."
+  },
+  {
+   "pid": "066.0577",
+   "target": "culture/literature/POLTAVA_PUSHKIN.md",
+   "display": "Poltava_(Alexander_Pushkin)",
+   "decision": "tag",
+   "note": "Names Pushkin's Mazeppa and Kotchoubey story."
+  },
+  {
+   "pid": "066.0584",
+   "target": "culture/literature/POLTAVA_PUSHKIN.md",
+   "display": "Poltava_(Alexander_Pushkin)",
+   "decision": "unsure",
+   "note": "Kochubey portrait and shirt; the work is not named. Leans skip."
+  },
+  {
+   "pid": "002.0240",
+   "target": "culture/music/JE_NE_SUIS_QU_UNE_HERBAGERE.md",
+   "display": "Je_ne_suis_qu'une_herbagère",
+   "decision": "tag",
+   "note": "She sings the song."
+  },
+  {
+   "pid": "012.0140",
+   "target": "culture/music/JE_NE_SUIS_QU_UNE_HERBAGERE.md",
+   "display": "Je_ne_suis_qu'une_herbagère",
+   "decision": "tag",
+   "note": "She sings the song."
+  },
+  {
+   "pid": "053.0124",
+   "target": "culture/theater/DOLORES_AUTERI_MANZOCCHI.md",
+   "display": "Dolores_(Auteri-Manzocchi)",
+   "decision": "tag",
+   "note": "First night of Dolorès."
+  },
+  {
+   "pid": "053.0214",
+   "target": "culture/theater/DOLORES_AUTERI_MANZOCCHI.md",
+   "display": "Dolores_(Auteri-Manzocchi)",
+   "decision": "tag",
+   "note": "Talk of the Dolorès performance."
+  },
+  {
+   "pid": "050.0817",
+   "target": "culture/theater/LA_FIGLIA_DEL_REGGIMENTO.md",
+   "display": "La_figlia_del_reggimento_(Donizetti)",
+   "decision": "tag",
+   "note": "First night of the opera."
+  },
+  {
+   "pid": "050.0929",
+   "target": "culture/theater/LA_FIGLIA_DEL_REGGIMENTO.md",
+   "display": "La_figlia_del_reggimento_(Donizetti)",
+   "decision": "tag",
+   "note": "Goes to the opera, which is given that night."
+  },
+  {
+   "pid": "093.0035",
+   "target": "culture/theater/LE_PASSANT_COPPEE.md",
+   "display": "Le_Passant_(François_Coppée)",
+   "decision": "tag",
+   "note": "Bojidar faints at Le Passant, per his tale."
+  },
+  {
+   "pid": "105.0303",
+   "target": "culture/theater/LE_PASSANT_COPPEE.md",
+   "display": "Le_Passant_(François_Coppée)",
+   "decision": "tag",
+   "note": "Same story, Le Passant at the Odéon."
+  },
+  {
+   "pid": "104.0591",
+   "target": "culture/theater/MACBETH_SHAKESPEARE.md",
+   "display": "Macbeth_(Shakespeare,_translated_by_Jean_Richepin)",
+   "decision": "tag",
+   "note": "Goes to Macbeth, Richepin version."
+  },
+  {
+   "pid": "104.0593",
+   "target": "culture/theater/MACBETH_SHAKESPEARE.md",
+   "display": "Macbeth_(Shakespeare,_translated_by_Jean_Richepin)",
+   "decision": "tag",
+   "note": "Reacts to the Macbeth performance."
+  },
+  {
+   "pid": "105.0199",
+   "target": "culture/art/MOISE_MICHEL_ANGE.md",
+   "display": "Moïse_(Michelangelo)",
+   "decision": "tag",
+   "note": "\"Voyez le Moïse de Michel-Ange.\""
+  },
+  {
+   "pid": "091.0057",
+   "target": "culture/literature/L_ASSOMMOIR.md",
+   "display": "L'Assommoir_(Zola)",
+   "decision": "tag",
+   "note": "Reaction continuing her reading of L'Assommoir."
+  },
+  {
+   "pid": "080.0526",
+   "target": "culture/music/MELODIE_DE_CAEN.md",
+   "display": "\"Si_j'étais_reine\"_(la_mélodie_de_Caen)",
+   "decision": "tag",
+   "note": "First line of the copied song."
+  },
+  {
+   "pid": "014.0284",
+   "target": "culture/theater/LE_REVEILLON_MEILHAC_HALEVY.md",
+   "display": "Le_Réveillon_(Meilhac_and_Halévy)",
+   "decision": "skip",
+   "note": "\"Réveillon\" is a New Year party at Gioia's, not the play."
+  }
+ ],
+ "retag": [],
+ "rsr_notes": [
+  {
+   "pid": "098.0386",
+   "note": "Hamlet read here in English is Shakespeare's play; the Ambroise Thomas opera is the music she hums."
+  }
+ ]
+}

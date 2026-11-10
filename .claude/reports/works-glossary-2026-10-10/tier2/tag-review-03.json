@@ -1,0 +1,1484 @@
+{
+ "works": [
+  {
+   "wid": "W246",
+   "title": "Le Mendiant",
+   "entry": "content/_original/_glossary/culture/art/LE_MENDIANT_BASTIEN_LEPAGE.md",
+   "target": "culture/art/LE_MENDIANT_BASTIEN_LEPAGE.md",
+   "display": "Le_Mendiant_(Jules_Bastien-Lepage)",
+   "aliases": [
+    "Le Mendiant",
+    "le mendiant de Bastien-Lepage",
+    "le mendiant",
+    "The Beggar (Bastien-Lepage)",
+    "Un mendiant"
+   ],
+   "candidates": [
+    {
+     "pid": "050.0876",
+     "file": "050/1875-12-16.md",
+     "why": [
+      "alias:Un mendiant"
+     ],
+     "existing_tags": [
+      "people/mentioned/NINA.md"
+     ],
+     "french": "C’est la folie de la famille, folie qui va jusqu’au grotesque le plus énorme. Hier, un mendiant âgé de quatorze à quinze ans s’est approché de Nina et lui demanda un sou. "
+    },
+    {
+     "pid": "050.1015",
+     "file": "050/1875-12-19.md",
+     "why": [
+      "alias:Un mendiant"
+     ],
+     "existing_tags": [
+      "culture/themes/EMOTIONS.md",
+      "culture/themes/FAMILY.md"
+     ],
+     "french": "— Non, ce n’est pas de l’envie, non, ce n’est pas de l’envie ! Quand un mendiant qui n’a pas mangé depuis vingt-quatre heures, et qui n’a pas un sou pour s’acheter un morceau de pain, quand un tel mendiant voit à travers une vitre de restaurant, un monsieur confortablement installé devant une table bien servie et qu’il désire manger en regardant ce monsieur, il n’envie pas ! Non ce n’est pas de l’envie, de même que ce n’est pas un vol lorsqu’on dérobe un pain pour ne pas crever de faim ! "
+    },
+    {
+     "pid": "056.0329",
+     "file": "056/1876-04-02.md",
+     "why": [
+      "alias:Un mendiant"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/languages/LATIN.md",
+      "people/mentioned/ANTONELLI.md",
+      "places/cities/TERRACINA.md"
+     ],
+     "french": "Je voyais la villa Mattei en face mais je ne me suis pas hasardée toute seule et habillée de blanc, au surplus je n'avais pas un sou avec moi. Deux femmes couchées au soleil, un mendiant, un enfant, de temps en temps des moines de différentes couleurs, des prêtres et des ruines assez amusantes furent tout ce que je vis. Pour ne pas avoir l'air d'une folle j'ai visité deux églises quelconques et je suis rentrée. Il n'a sans doute pas pu se montrer, mais à sa sortie je lui ferai un crime de cela. Je ne doute plus. Pourquoi me ferait-il ce conte ? Pourquoi ne dirait-il pas simplement qu'il va à Terracina ? Il faut être incrédule, mais il faut aussi se rendre à l'évidence. Malheureux ! *Requiesc"
+    },
+    {
+     "pid": "068.1422",
+     "file": "068/1877-02-12.md",
+     "why": [
+      "alias:Un mendiant"
+     ],
+     "existing_tags": [
+      "people/mentioned/LARDEREL.md"
+     ],
+     "french": "- Beau vieillard ! je te salue, fit Larderel à un mendiant qui tendait la main. "
+    },
+    {
+     "pid": "080.0206",
+     "file": "080/1878-05-20.md",
+     "why": [
+      "alias:Un mendiant"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/FAMILY.md",
+      "people/family/MA_TANTE.md",
+      "culture/history/EXPOSITION_UNIVERSELLE.md"
+     ],
+     "french": "Pour une fois que je pleure pour des choses de mon âge... Je... Ils se cachent tous ma parole d'honneur et la tante qui m'adore est allée à l'Exposition, quel bon cœur. Ils savent bien ce que je veux mais ils sont paresseux et préfèrent que cela se passe, les sans-cœur. Jamais ils ne donneront à un mendiant, jamais et on les dit bons ! "
+    },
+    {
+     "pid": "091.0548",
+     "file": "091/1881-05-01.md",
+     "why": [
+      "alias:Le Mendiant",
+      "alias:le mendiant",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/ART_WORLD.md",
+      "people/recurring/BASTIEN_LEPAGE.md",
+      "people/artists/LOUISE_BRESLAU.md",
+      "people/writers/WOLFF.md"
+     ],
+     "french": "Où avez-vous jamais vu de ces barbouillages et de ces reliefs dans la nature ? Mais c'est égal il y a du bon et on regarde ces trois têtes placées, c'est entre le portrait de Wolff et le mendiant[^6] de Bastien-Lepage.  [^6]: Albert Wolff (1835–1891), art critic of *Le Figaro*. Both pictures are by Jules Bastien-Lepage, who painted the portrait of Wolff and *Le Mendiant* (The Beggar) in 1881 (en.wikipedia «Jules Bastien-Lepage»). "
+    },
+    {
+     "pid": "099.0228",
+     "file": "099/1883-04-27.md",
+     "why": [
+      "alias:Le Mendiant",
+      "alias:le mendiant",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md",
+      "culture/art/SAISON_D_OCTOBRE.md"
+     ],
+     "french": "Sauf peut-être les pommes de terre et le mendiant... Et encore... "
+    }
+   ]
+  },
+  {
+   "wid": "W180+W244",
+   "title": "La Bible (Sainte Bible)",
+   "entry": "content/_original/_glossary/culture/literature/BIBLE.md",
+   "target": "culture/literature/BIBLE.md",
+   "display": "Bible",
+   "aliases": [
+    "Bible",
+    "la Bible",
+    "la Sainte Bible",
+    "Sainte Bible",
+    "Nouveau Testament",
+    "Cantique des Cantiques"
+   ],
+   "candidates": [
+    {
+     "pid": "024.0274",
+     "file": "024/1874-10-09.md",
+     "why": [
+      "alias:la Bible"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/READING.md",
+      "culture/themes/SHOPPING.md",
+      "people/family/MA_TANTE.md",
+      "places/cities/NICE.md",
+      "places/shops/ADE.md",
+      "people/core/DINA.md",
+      "culture/newspapers/MORNING_POST.md",
+      "people/core/DUKE_OF_HAMILTON.md",
+      "people/mentioned/BYRON.md",
+      "people/mentioned/SHAKESPEARE.md",
+      "culture/literature/DON_QUICHOTTE.md",
+      "culture/music/LAUSSEL.md",
+      "places/shops/VISCONTI_LIBRAIRIE.md"
+     ],
+     "french": "Je monte avec ma tante en voiture et nous allons courir Nice, chez Adé des ruches, chez plusieurs tapissiers chercher de la cretonne pour la chambre de Dina, chez Visconti où je me suis abonnée pour Le Morning Post[^024.0274.1] car voilà dix mois que le duc de Hamilton est marié et cette gazette s'occupe de tout. J'ai acheté \"Les Femmes de la Bible\", et les œuvres de Byron et de Shakespeare, et \"Don Quichotte\" que je n'ai pas encore lu. Après nous étions chez Laussel qui me donne les mêmes heures que l'année dernière.  [^024.0274.1]: *The Morning Post*: London daily paper, much read for its reports of fashionable society; Marie wants news of the Duke of Hamilton. "
+    },
+    {
+     "pid": "032.0202",
+     "file": "032/1875-04-30.md",
+     "why": [
+      "alias:la Bible"
+     ],
+     "existing_tags": [
+      "people/recurring/WALITSKY.md",
+      "people/mentioned/YOURKOFF.md"
+     ],
+     "french": "Walitsky n'est pas un grand prince mais il avait son bouffon, Nikonor Nikolevitch Popoff, employé du gouvernement et fils d'un prêtre. Il raconte ainsi jusqu'à quatre heures du matin puis se retire chez Yourkoff, et le lendemain on reprend encore le livre, la bible des profanes et on recommence comme la veille. "
+    },
+    {
+     "pid": "037.0237",
+     "file": "037/1875-07-17.md",
+     "why": [
+      "alias:la Bible"
+     ],
+     "existing_tags": [
+      "culture/themes/FASHION.md",
+      "culture/themes/READING.md",
+      "people/mentioned/MARIE_SAPOGENIKOFF.md",
+      "culture/literature/VINGT_ANS_APRES_DUMAS.md"
+     ],
+     "french": "Je ne puis calmement me mettre cette idée dans la tête. Marie lit \"Vingt ans après\"[^037.0237.1] et je reste à demi couchée sur le canapé, les pieds nus, et ayant pour toute toilette une simple robe de laine blanche. J'ai l'air d'une femme de la Bible avec ce vêtement et mes pieds nus.  [^037.0237.1]: *Vingt ans après* (*Twenty Years After*, 1845), Alexandre Dumas's sequel to *The Three Musketeers*. "
+    },
+    {
+     "pid": "043.0208",
+     "file": "043/1875-09-15.md",
+     "why": [
+      "alias:la Bible"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/MUSIC_THEME.md"
+     ],
+     "french": "Jamais je n'ai écouté un opéra plus comme musique et comme tout. Les costumes sont d'une absurdité étonnante. Ces personnages de la Bible sont habillés de vert, de bleu, de jaune et brodés d'or et d'argent.  "
+    },
+    {
+     "pid": "059.0032",
+     "file": "059/1876-04-20.md",
+     "why": [
+      "alias:Nouveau Testament"
+     ],
+     "existing_tags": [
+      "people/mentioned/BARON_DE_SAINT_JOSEPH.md"
+     ],
+     "french": "Ce Saint-Joseph, nom également célèbre dans l'ancien et le nouveau testament, ce Saint-Joseph, dis-je, me paraît un ami de dix ans et je l'ai accueilli par un sourire et un signe de tête très gentils. "
+    },
+    {
+     "pid": "062.0190",
+     "file": "062/1876-06-04.md",
+     "why": [
+      "alias:Nouveau Testament"
+     ],
+     "existing_tags": [
+      "culture/themes/RELIGION.md",
+      "culture/literature/NOUVEAU_TESTAMENT.md"
+     ],
+     "french": "Je ne sais de ma religion que ce que tout le monde sait, on ne m'a jamais rien enseigné de sérieux. Je lis l'Ancien et le Nouveau Testament et je veux croire en ce qu'ils me disent. La religion la plus simple et la plus vraie, la seule vraie, n'est-elle pas dans les paroles du Christ ? Les religions de nos jours sont faussées, à force d'être raisonnées et arrangées selon les caprices des hommes, comme un récit sortant de la dixième bouche ne ressemble en rien à celui de la première bouche. "
+    },
+    {
+     "pid": "091.0230",
+     "file": "091/1881-03-03.md",
+     "why": [
+      "alias:Nouveau Testament"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/RELIGION.md",
+      "culture/themes/SUPERSTITION.md",
+      "culture/literature/NOUVEAU_TESTAMENT.md",
+      "people/religious/VIRGIN_MARY.md"
+     ],
+     "french": "J'ai ouvert le \"Nouveau Testament\" abandonné depuis quelque temps et à deux reprises dans l'espace de quelques jours j'ai été saisie par le propos avec lequel la ligne indiquée au hasard répondait à ma pensée. Je suis revenue à prier le Christ, je suis revenue à la Vierge, aux miracles, après avoir été déiste avec des jours d'athéisme absolu. Mais la Religion du Christ *d'après ses paroles,* ressemble peu à votre catholicisme ou à notre orthodoxie que je m'abstiens de suivre, me bornant à suivre les préceptes du Christ et ne m'embarrassant pas des allégories prises pour tout de bon, des superstitions, de diverses absurdités introduites dans la religion plus tard, par de simples hommes, pour "
+    }
+   ]
+  },
+  {
+   "wid": "W223",
+   "title": "L'oiseau s'envole",
+   "entry": "content/_original/_glossary/culture/music/L_OISEAU_S_ENVOLE.md",
+   "target": "culture/music/L_OISEAU_S_ENVOLE.md",
+   "display": "\"L'oiseau_s'envole\"_(Paul_et_Virginie)",
+   "aliases": [
+    "L'oiseau s'envole",
+    "l'oiseau s'envole",
+    "\"l'oiseau s'envole\"",
+    "chanson de l'oiseau s'envole"
+   ],
+   "candidates": [
+    {
+     "pid": "068.0215",
+     "file": "068/1876-12-18.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "places/cities/NICE.md",
+      "culture/literature/PAUL_ET_VIRGINIE.md",
+      "culture/themes/MUSIC_THEME.md",
+      "culture/theater/PAUL_ET_VIRGINIE_MASSE.md"
+     ],
+     "french": "Alors ce sera donc à Nice ? Seulement pour faire oublier le passé, pour triompher et puis partir... partir... Ah ! si on pouvait écrire la mélodie avec les paroles, vous comprendriez comme l'âme est *empoignée* et comme le cœur se serre à cette chanson de vieux nègre dans Paul et Virginie[^068.0215.1].  [^068.0215.1]: The song comes from Victor Massé's opera *Paul et Virginie*, after Bernardin de Saint-Pierre's novel, which had its premiere in Paris on 15 November 1876, a month before this entry. "
+    },
+    {
+     "pid": "068.0216",
+     "file": "068/1876-12-18.md",
+     "why": [
+      "alias:L'oiseau s'envole",
+      "alias:l'oiseau s'envole",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/PAUL_ET_VIRGINIE.md",
+      "culture/themes/MUSIC_THEME.md"
+     ],
+     "french": "L'oiseau s'envole Là-bas, là-bas. Et ne revient pas. Ah ! pauvre folle Reste à la maison Crois à ma chanson L'oiseau s'envole Là-bas, là-bas l’oiseau s'envole Et ne revient pas. Oiseau fidèle Que Dieu bénit Oiseau fidèle Reste en ton doux nid Ferme ton aile Tu dormiras mieux Que sous d'autres cieux Oiseau fidèle Que Dieu bénit Oiseau fidèle Reste en ton doux nid. "
+    },
+    {
+     "pid": "071.0206",
+     "file": "071/1877-05-09.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/mentioned/LARDEREL.md",
+      "culture/literature/PAUL_ET_VIRGINIE.md"
+     ],
+     "french": "# Mercredi 9 mai 1877 Vous vous souvenez que Larderel avait porté pendant deux jours mon petit peigne ? Eh bien c'est cela qui a tout brouillé. D'ailleurs, nous ne sommes pas brouillés parce que je lui ai donné ce peigne, mais je lui ai donné ce peigne parce que nous devions nous brouiller... tout de même... voyez ce que c'est... Sur le premier papier sur lequel je lui avais donné mon adresse était peint... un oiseau bleu très pâle s'envolant dans les nuages et laissant derrière lui un cœur plus pâle encore à moitié effacé, avec ces vers de “Paul et Virginie”: "
+    },
+    {
+     "pid": "071.0207",
+     "file": "071/1877-05-09.md",
+     "why": [
+      "alias:L'oiseau s'envole",
+      "alias:l'oiseau s'envole",
+      "inventory"
+     ],
+     "existing_tags": [],
+     "french": "“L'oiseau s'envole Là-bas, là-bas, L'oiseau s'envole Et ne revient pas.” "
+    },
+    {
+     "pid": "082.0068",
+     "file": "082/1878-08-13.md",
+     "why": [
+      "alias:\"l'oiseau s'envole\"",
+      "alias:L'oiseau s'envole",
+      "alias:l'oiseau s'envole",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/MUSIC_THEME.md"
+     ],
+     "french": "Je chante depuis deux jours \"l'oiseau s'envole\" parce qu'il n'y a pas jusqu'aux laveuses de vaisselle qui ne chantent. On dit que l'on se marie. "
+    },
+    {
+     "pid": "082.0080",
+     "file": "082/1878-08-13.md",
+     "why": [
+      "alias:\"l'oiseau s'envole\"",
+      "alias:L'oiseau s'envole",
+      "alias:l'oiseau s'envole",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/MUSIC_THEME.md",
+      "people/mentioned/HOHENLOHE_PRINCES.md"
+     ],
+     "french": "Je chante *\"l'oiseau s'envole\"* et on profane cette céleste musique par une plaisanterie... bien, je ne sais pas de chanson sur les vies mais lorsque ce soir les Gans passèrent devant nous, je me mis à fredonner cet air distingué : "
+    }
+   ]
+  },
+  {
+   "wid": "W148+W171",
+   "title": "Les Brigands / Barbe-Bleue",
+   "entry": "content/_original/_glossary/culture/theater/LES_BRIGANDS.md",
+   "target": "culture/theater/LES_BRIGANDS.md",
+   "display": "Les_Brigands_(Offenbach)",
+   "aliases": [
+    "Les brigands",
+    "Les Brigands",
+    "Les Brigands (Offenbach)",
+    "couplet des Brigands",
+    "les carabiniers d'Offenbach"
+   ],
+   "candidates": [
+    {
+     "pid": "015.0185",
+     "file": "015/1874-01-14.md",
+     "why": [
+      "alias:Les Brigands",
+      "alias:Les brigands",
+      "inventory"
+     ],
+     "existing_tags": [],
+     "french": "Les brigands... "
+    },
+    {
+     "pid": "021.0483",
+     "file": "021/1874-07-22.md",
+     "why": [
+      "alias:Les Brigands",
+      "alias:Les brigands",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/FASHION.md",
+      "people/mentioned/BASILEVITCH.md",
+      "people/mentioned/PAPARIGOPOULOS.md",
+      "people/mentioned/GERICKE.md",
+      "people/mentioned/MERJEEWSKY.md",
+      "people/mentioned/VIVIANI.md"
+     ],
+     "french": "Nous allons à la gare reconduire Basilévitch (robe grise) au milieu de la montée nous rencontrons le marquis, le comte, Papa et Gericke. Elle est partie, nous sommes les carabiniers.[^021.0483.1]  [^021.0483.1]: Allusion to Offenbach's *Les Brigands* (1869), whose carabinieri sing that by an unlucky chance they always arrive too late. "
+    },
+    {
+     "pid": "080.0226",
+     "file": "080/1878-05-20.md",
+     "why": [
+      "alias:Les Brigands",
+      "alias:Les brigands"
+     ],
+     "existing_tags": [
+      "people/family/GEORGES.md",
+      "culture/themes/FAMILY.md"
+     ],
+     "french": "Les Misérables, les brigands, s'il s'agissait de leur Georges ils auraient déjà tout fait les scélérats ! "
+    },
+    {
+     "pid": "083.0169",
+     "file": "083/1878-11-10.md",
+     "why": [
+      "alias:Les Brigands",
+      "alias:Les brigands"
+     ],
+     "existing_tags": [
+      "culture/languages/LATIN.md",
+      "culture/themes/POLITICS.md",
+      "people/mentioned/ROUHER.md",
+      "people/recurring/CASSAGNAC.md",
+      "people/mentioned/JULIA_ACARD.md",
+      "people/mentioned/REPUBLIQUE.md"
+     ],
+     "french": "C'est un misérable saltimbanque sans consistance ! Un salarié ! Ça se peut. M. Rouher n'est pas populaire et le jeune époux de la belle Julia, surtout dernièrement, a pris un ton d'autorité qui lui en donnera; ça paraît bête mais c'est souvent ainsi pourtant. Quel qu'il soit, il est le chef, en attendant in partibus, du parti qui seul compte en face de la République, et quoi que nous disions nous autres étrangers, petites gens, gens du monde, nous ne sommes rien et il est quelque chose. Je connais des gens qui me répondraient par ces mots souverainement bêtes, les brigands et autres sont aussi plus que nous. "
+    },
+    {
+     "pid": "034.0047",
+     "file": "034/1875-06-07.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md"
+     ],
+     "french": "Girofla en chantant tous les couplets du monde a chanté celui des Brigands et qui commence ainsi: "
+    }
+   ]
+  },
+  {
+   "wid": "W262",
+   "title": "Printemps qui passe",
+   "entry": "content/_original/_glossary/culture/art/PRINTEMPS_QUI_PASSE_BERTRAND.md",
+   "target": "culture/art/PRINTEMPS_QUI_PASSE_BERTRAND.md",
+   "display": "Printemps_qui_passe_(Georges_Bertrand,_Salon_1883)",
+   "aliases": [
+    "Printemps qui passe",
+    "le Printemps qui passe de Georges Bertrand",
+    "Printemps qui passe de Georges Bertrand"
+   ],
+   "candidates": [
+    {
+     "pid": "094.0164",
+     "file": "094/1882-01-13.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "people/recurring/BASTIEN_LEPAGE.md",
+      "people/mentioned/MME_CARTWRIGHT.md",
+      "people/mentioned/GEORGES_BERTRAND.md",
+      "people/mentioned/POLLACK.md",
+      "people/mentioned/CARRIER_BELLEUSE.md",
+      "culture/languages/LATIN.md",
+      "culture/themes/ART_WORLD.md",
+      "culture/themes/AMBITION.md",
+      "people/recurring/EMILE_BASTIEN_LEPAGE.md",
+      "people/core/DINA.md",
+      "culture/newspapers/SALON_DE_1881_P_ORELL.md",
+      "places/hotels/GLORIAE_CUPIDITAS.md"
+     ],
+     "french": "Ah ! Et puis comme artiste, le frère de Bastien encore absent. Le frère c'est toujours ça et jeudi nous allons chez le vrai avec la Cartwright et Georges Bertrand... L'année dernière il a fait un admirable, un émouvant tableau intitulé \"Le drapeau\". Je l'ai apprécié dans ma chronique et il m'a envoyé quelques mots très aimables. Je lui ai envoyé une invitation \"de la part de P. Orell\". C'est Pollack qui me le présente. C'est amusant, il me fait de grands compliments car bien que je les eusse cachées Dina a montré certaines études à qui de droit. Carrier-Belleuse fondait sous mes yeux et en me regardant vers la fin il était tout ramolli et sentimental en insistant sur la cruauté de la devise "
+    },
+    {
+     "pid": "099.0491",
+     "file": "099/1883-05-19.md",
+     "why": [
+      "alias:Printemps qui passe",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md",
+      "people/mentioned/GEORGES_BERTRAND.md",
+      "culture/art/SALON.md"
+     ],
+     "french": "Il y a au Salon un immense tableau de Georges Bertrand intitulé: Printemps qui passe. Cinq femmes nues sur des chevaux blancs, qui arrivent sur le spectateur à fond de train en plein soleil. Ça aurait pu être très beau ! Ce n'est qu'un succès d'estime, honneur au courage et au talent malheureux. Les femmes ont des corps avachis, l'effet de soleil est sec et trop décoratif, le paysage est hors nature, tout dans des tons lilas, jaunes, rosés. L'aspect général est blafard. "
+    },
+    {
+     "pid": "099.0492",
+     "file": "099/1883-05-19.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md"
+     ],
+     "french": "Néanmoins c'est une tentative formidable... Si seulement ce n'était pas si sec, s'il y avait eu là des tons plus vrais et des corps de femmes plus printaniers ça aurait été magnifique. Je demande au printemps des tons qui chantent et *vont à l'âme,* j'exige des verts tendres ravissants et des roses pâles enchanteurs et non pas des blafarderies jaunâtres. "
+    },
+    {
+     "pid": "099.0493",
+     "file": "099/1883-05-19.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md",
+      "people/mentioned/GEORGES_BERTRAND.md"
+     ],
+     "french": "Enfin, tel qu'il est le Georges Bertrand est une chose hardie qui plaît à ceux qui raisonnent et sont indulgents et tiennent compte des tentations et du talent dépensé. "
+    }
+   ]
+  },
+  {
+   "wid": "W233",
+   "title": "Voyage en Espagne (Tras los montes)",
+   "entry": "content/_original/_glossary/culture/literature/VOYAGE_EN_ESPAGNE_GAUTIER.md",
+   "target": "culture/literature/VOYAGE_EN_ESPAGNE_GAUTIER.md",
+   "display": "Voyage_en_Espagne_/_Tra_los_montes_(Théophile_Gautier)",
+   "aliases": [
+    "Voyage en Espagne",
+    "Tra los montes",
+    "Tra las Montes",
+    "Tras los montes",
+    "Tra los Montes",
+    "un volume de Th. Gautier"
+   ],
+   "candidates": [
+    {
+     "pid": "072.0413",
+     "file": "072/1877-07-07.md",
+     "why": [
+      "alias:Voyage en Espagne"
+     ],
+     "existing_tags": [
+      "places/cities/NICE.md",
+      "people/mentioned/BOYD.md",
+      "people/recurring/ANITCHKOFF.md",
+      "people/mentioned/PAGET.md",
+      "people/recurring/BERTHE.md",
+      "places/countries/ESPAGNE.md",
+      "people/aristocracy/MME_ANITCHKOFF.md",
+      "people/mentioned/FOSTER.md",
+      "places/cities/PARIS.md",
+      "people/aristocracy/MME_BOYD.md",
+      "culture/themes/SOCIETY.md",
+      "places/cities/LONDON.md"
+     ],
+     "french": "Je me montrerai fort peu à Paris, il s'y trouve trop de monde de Nice, d'ailleurs... Paris est grand... mais... malheureusement ce monde-là se retrouve toujours et tout le reste importe peu. Je ne pense pas que les Boyd soient un appui sérieux. Et puis ce qui nous fera beaucoup de tort c'est qu'on nous a vus à Nice dans une position assez malheureuse. Nous verrons cet hiver. J'ai l'esprit en repos en songeant à mon suprême refuge, les Arts. Et ensuite une saison à Londres me paraît comme une perspective très riante entre les Foster, un ami de Mme Anitchkoff à l'ambassade et lady Paget, sœur aînée de Berthe. Et puis toujours et puis un voyage en Espagne, pays nouveau et détaché de toutes les "
+    },
+    {
+     "pid": "093.0323",
+     "file": "093/1881-10-31.md",
+     "why": [
+      "alias:Voyage en Espagne"
+     ],
+     "existing_tags": [
+      "culture/themes/FOOD.md",
+      "places/countries/ESPAGNE.md"
+     ],
+     "french": "Mon voyage en Espagne m'aura servi à m'ôter l'habitude de manger pour manger, ce qui prend du temps et alourdit l'intelligence; je suis devenue d'une sobriété arabe et ne prends que le strict nécessaire, juste assez pour vivre. "
+    },
+    {
+     "pid": "095.0192",
+     "file": "095/1882-06-20.md",
+     "why": [
+      "alias:Voyage en Espagne",
+      "alias:un volume de Th. Gautier",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/READING.md",
+      "places/countries/ESPAGNE.md",
+      "people/writers/THEOPHILE_GAUTIER.md",
+      "places/cities/BURGOS.md",
+      "places/cities/CORDOBA.md",
+      "places/cities/GRANADA.md",
+      "places/cities/SEVILLE.md"
+     ],
+     "french": "Ah ! l'Espagne, c'est un volume de Th. Gautier[^1] qui est cause de cela... Est-ce possible ! Comment j'ai passé à Tolède, Burgos, Cordoue, Séville, Grenade ! Grenade ! Comment ! j'ai parcouru ces pays dont les noms seuls sont une noblesse à prononcer. Eh bien c'est de la fièvre. Y retourner !!!  [^1]: Théophile Gautier (1811-1872), *Voyage en Espagne* (1843), the celebrated Romantic travel account. "
+    },
+    {
+     "pid": "096.0378",
+     "file": "096/1882-10-14.md",
+     "why": [
+      "alias:Tra las Montes",
+      "alias:Tra los Montes",
+      "alias:Tra los montes",
+      "alias:Voyage en Espagne",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/READING.md",
+      "culture/themes/TRAVEL.md",
+      "culture/themes/ART_PRACTICE.md",
+      "people/family/MA_TANTE.md",
+      "people/family/PAUL.md",
+      "people/mentioned/ALBERT_GAUTIER.md",
+      "places/countries/ESPAGNE.md"
+     ],
+     "french": "En somme ma tante m'a lâchée à la frontière et c'est avec Paul que je voyage. Je fais des croquis aux stations et en chemin je lis \"Tra las Montes\"[^096.0378.1] de cette façon je revois l'Espagne car c'est une photographie coloriée que le voyage de Gautier. Qu'est-ce que c'est donc qui m'arrête pour aimer tout à fait Th. Gautier ?  [^096.0378.1]: Théophile Gautier's account of his journey through Spain, first published as *Tra los montes* (1843) and later as *Voyage en Espagne*; Marie writes «Tra las Montes». "
+    }
+   ]
+  },
+  {
+   "wid": "W207",
+   "title": "Much Ado about Nothing / Shakespeare comedy",
+   "entry": "content/_original/_glossary/culture/theater/MUCH_ADO_ABOUT_NOTHING_SHAKESPEARE.md",
+   "target": "culture/theater/MUCH_ADO_ABOUT_NOTHING_SHAKESPEARE.md",
+   "display": "Much_Ado_About_Nothing_(Shakespeare)",
+   "aliases": [
+    "Much ado about nothing",
+    "Much Ado About Nothing",
+    "Beaucoup de bruit pour rien"
+   ],
+   "candidates": [
+    {
+     "pid": "034.0406",
+     "file": "034/1875-06-19.md",
+     "why": [
+      "alias:Much Ado About Nothing",
+      "alias:Much ado about nothing"
+     ],
+     "existing_tags": [
+      "people/mentioned/COLLIGNON.md",
+      "culture/languages/ENGLISH.md"
+     ],
+     "french": "J'ai emprunté hier au bain, une longue-vue. Et avec Collignon nous étudions la figure blanche. Much ado about nothing. C'est une porte dans un des créneaux de la tour gauche qui depuis douze jusqu'à quatre heures paraît blanche parce que les rayons du soleil tombant d'en haut de la tour l'éclairent. Voilà tout. "
+    },
+    {
+     "pid": "059.0686",
+     "file": "059/1876-05-03.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/READING.md",
+      "culture/themes/LOVE.md",
+      "culture/themes/WEATHER.md",
+      "people/mentioned/ANTONELLI.md",
+      "places/cities/NICE.md",
+      "places/countries/RUSSIA.md",
+      "places/cities/ROME.md",
+      "culture/literature/ALEXANDRE_DUMAS.md",
+      "people/mentioned/SHAKESPEARE.md",
+      "people/writers/PLUTARQUE.md",
+      "culture/literature/LA_DAME_AUX_CAMELIAS.md",
+      "culture/literature/PARALLEL_LIVES.md"
+     ],
+     "french": "Voilà qu'il fait si froid que je m'en vais fermer la fenêtre. Je n'ai pas fait cette fois comme les autres fois, ma promenade matinale en arrivant à Nice. Mes pensées amoureuses sont ailleurs et mes tristes préoccupations me font rester chez moi et attendre impatiemment l'heure du départ pour la Russie mais avant ? je voudrais retourner à Rome. Pietro doit télégraphier quarante-huit heures avant les courses. Il ferait bien mieux s'il venait lui-même. S'il était libre et surtout s'il m'aimait il le ferait sans doute. Cette idée m'est venue hier avant de m'endormir. J'ai lu \"La dame aux camélias\" hier après déjeuner. Je m'attendais à mieux après tout ce qu'on en a dit. J'ai lu une comédie de S"
+    },
+    {
+     "pid": "067.0374",
+     "file": "067/1876-10-29.md",
+     "why": [
+      "alias:Much Ado About Nothing",
+      "alias:Much ado about nothing",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/SOCIETY.md",
+      "culture/themes/PROPERTY.md",
+      "culture/themes/PROPERTY_FAMILY.md"
+     ],
+     "french": "Alors vint le tour du procès. J'écoutai tous les détails: \"Much ado about nothing\" et c'est tout. J'aurai préféré un péril réel et pas de scandale. Pour le moment les bruits ont cessé, on a presque oublié, mais nos noms provoquent des remarques, des reminiscences, et puis le dénouement amènera un tonnerre de bavardage. "
+    },
+    {
+     "pid": "086.0762",
+     "file": "086/1879-12-21.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/SHAKESPEARE.md",
+      "people/mentioned/MLLE_DE_SAMPIERI.md",
+      "people/mentioned/RENARD_BLEU.md",
+      "people/mentioned/GAVINI.md",
+      "culture/social_customs/MURCIE.md",
+      "culture/themes/LOVE.md",
+      "people/core/DUKE_OF_HAMILTON.md",
+      "people/recurring/ARNAUD_DE_L_ARIEGE.md",
+      "people/recurring/ALEXIS.md",
+      "places/social/CHAMBRE_DES_DEPUTES.md"
+     ],
+     "french": "Comment s'appelle déjà la comédie de Shakespeare dans laquelle deux jeunes gens s'aiment parce qu'on leur monte réciproquement la tête de cette manière ? Du reste ce jeune Serbe a eu une passion sérieuse commencée à dix-sept ans , pour Mlle de Sampieri qu'on a mariée il y a un an, mariage qui est la cause d'un violent désespoir de part et d'autre. Jusqu'à présent le garçon en parle en tremblant et prétend qu'il n'aura pas d'autre amour dans la vie. Ô duc de Hamilton ! Pourtant non, ce n'est pas *le même prix* comme on dit, chez moi il n'y avait rien et ici on s'était juré un amour éternel... Mais tout cela n'est pas la cause de mon ennui. Joseph n'est pas venu et la robe de renard bleu non p"
+    }
+   ]
+  },
+  {
+   "wid": "W189",
+   "title": "Venus de' Medici",
+   "entry": "content/_original/_glossary/culture/art/VENUS_DE_MEDICIS.md",
+   "target": "culture/art/VENUS_DE_MEDICIS.md",
+   "display": "Venus_de'_Medici",
+   "aliases": [
+    "Venere Medicea",
+    "Vénus de Médicis",
+    "La Vénus de Médicis",
+    "Vénus de Medicis",
+    "Venus de' Medici",
+    "Medici Venus"
+   ],
+   "candidates": [
+    {
+     "pid": "043.0191",
+     "file": "043/1875-09-15.md",
+     "why": [
+      "alias:Venere Medicea",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/languages/ITALIAN.md",
+      "culture/themes/ART_WORLD.md",
+      "culture/art/VENUS_DE_MILO.md"
+     ],
+     "french": "Enfin me voilà devant la fameuse *Venere Medicea* ! Cette petite poupée est une déception nouvelle. Ces chevilles ressortantes n'excitent pas mon admiration et la tête est trop petite et les traits communs à toutes les statues grecques. Non, ce n'est pas la Vénus, la déesse charmante, la mère de l'amour. La bouche est froide, les yeux sans expression. Certes les proportions sont admirablement gardées mais que lui resterait donc, si les proportions étaient moins parfaites. Qu'on me nomme barbare, ignorante, arrogante, stupide, mais c'est mon avis. La Vénus de Milo est beaucoup plus Vénus. "
+    },
+    {
+     "pid": "043.0200",
+     "file": "043/1875-09-15.md",
+     "why": [
+      "alias:La Vénus de Médicis",
+      "alias:Vénus de Medicis",
+      "alias:Vénus de Médicis",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/APPEARANCE.md"
+     ],
+     "french": "La Vénus de Médicis m'a rendue joliment fière ! "
+    },
+    {
+     "pid": "071.0486",
+     "file": "071/1877-05-29.md",
+     "why": [
+      "alias:La Vénus de Médicis",
+      "alias:Vénus de Medicis",
+      "alias:Vénus de Médicis"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md",
+      "culture/themes/READING.md",
+      "culture/themes/META_DIARY.md",
+      "culture/literature/ALEXANDRE_DUMAS.md"
+     ],
+     "french": "# Mardi 29 mai 1877 De temps en temps j'avais envie d'effacer mon appréciation d'il y a deux ans sur la Vénus de Médicis. J'avais un peu oublié la statue et j'étais un peu honteuse de mon jugement barbare, lorsqu'en lisant les voyages d'Alexandre Dumas j'ai trouvé que cet homme d'esprit était du même avis que moi. Je suis très flattée d'avoir dit la même chose deux ans avant de lire la “Villa Palmieri”. J'ai horreur d'usurper et si mes registres n'étaient pas en si bel ordre on pourrait dire que je débite en détestable français des idées volées dans toutes sortes de livres. "
+    }
+   ]
+  },
+  {
+   "wid": "W238",
+   "title": "Madame Bovary",
+   "entry": "content/_original/_glossary/culture/literature/MADAME_BOVARY.md",
+   "target": "culture/literature/MADAME_BOVARY.md",
+   "display": "Madame_Bovary_(Gustave_Flaubert)",
+   "aliases": [
+    "Madame Bovary",
+    "Mme Bovary",
+    "“Mme Bovary”",
+    "Madame Bovary de Flaubert"
+   ],
+   "candidates": [
+    {
+     "pid": "089.0156",
+     "file": "089/1880-07-14.md",
+     "why": [
+      "alias:Mme Bovary",
+      "alias:“Mme Bovary”",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/FLAUBERT.md"
+     ],
+     "french": "Je crois qu'à cette heure-ci il n’y a pas eu beaucoup plus d’une voiture dans les rues, notre fiacre me faisait songer à celui de “Mme Bovary” (de Flaubert). "
+    },
+    {
+     "pid": "103.0566",
+     "file": "103/1884-03-24.md",
+     "why": [
+      "alias:Madame Bovary",
+      "alias:Mme Bovary",
+      "alias:“Mme Bovary”",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/READING.md",
+      "culture/themes/EMOTIONS.md"
+     ],
+     "french": "# Lundi 24 mars 1884 Depuis quelques jours il y a je ne sais quel brouillard autour de moi... qui m'isole de l'univers et qui me fait voir des réalités au fond de moi-même. Ainsi... Non tout est trop triste pour que je me plaigne... C'est un abêtissement lourd... Je viens de relire un livre que j'avais peu admiré il y a quelques années et qui est admirable: Mme Bovary.[^1]  [^1]: Gustave Flaubert's *Madame Bovary* (1857): the novel of provincial boredom, romantic disillusionment, and wasted aspiration that scandalised France on publication and became a cornerstone of French realism. "
+    },
+    {
+     "pid": "103.0567",
+     "file": "103/1884-03-24.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/READING.md"
+     ],
+     "french": "La forme littéraire... le style... oui... en somme ce n'est que de l'exécution. "
+    }
+   ]
+  },
+  {
+   "wid": "W228",
+   "title": "L'Étincelle",
+   "entry": "content/_original/_glossary/culture/theater/L_ETINCELLE_PAILLERON.md",
+   "target": "culture/theater/L_ETINCELLE_PAILLERON.md",
+   "display": "L'Étincelle_(Édouard_Pailleron)",
+   "aliases": [
+    "L'Étincelle",
+    "l'Etincelle",
+    "l'Étincelle",
+    "L’Étincelle (Pailleron)"
+   ],
+   "candidates": [
+    {
+     "pid": "086.0591",
+     "file": "086/1879-11-27.md",
+     "why": [
+      "alias:L'Étincelle",
+      "alias:l'Etincelle",
+      "alias:l'Étincelle",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "places/theaters/COMEDIE_FRANCAISE.md",
+      "people/recurring/ALEXIS.md",
+      "people/recurring/BOJIDAR.md",
+      "people/mentioned/MME_ADAM.md",
+      "people/artists/SAMARY.md",
+      "places/social/CHAMBRE_DES_DEPUTES.md",
+      "places/cities/PARIS.md"
+     ],
+     "french": "Une suite de déceptions. Ouverture de la Chambre à Paris et je n'ai pas eu de billets puis le soir au Français, par indisposition de Mlle Samary on ne donne pas \"l'Etincelle\" que je voulais voir. Nous avons une jolie loge et sommes absolument en famille avec Alexis et Bojidar pour cavaliers. C'est une petite première, il y a un nouveau drame en un acte. Cela se passe sous la Terreur, en Vendée. Il y a eu des passages à souligner et nous échangeons des regards avec Mme Adam que je ne connais bien entendu pas mais je suis sûre qu'elle me devine un peu, aussi nous sommes-nous plusieurs fois regardées en souriant. "
+    },
+    {
+     "pid": "087.0198",
+     "file": "087/1880-01-12.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/LOVE.md",
+      "culture/themes/THEATER_THEME.md",
+      "people/mentioned/KRISHABER.md",
+      "people/mentioned/GABRIEL_GERY.md"
+     ],
+     "french": "Tout cela m'a changé l'impression. Attendez les Krishaber voulaient absolument que je joue 'TEtincelle\" chez eux. Vous comprenez cela me flatte. Donc je disais oui jusqu'à trois heures, imaginez-vous cela, à la fin on voulait se changer et aller aux Halles et puis Gabriel me propose d'aller l'aider à lui faire ses malles. Qu'est-ce qui ? oui, oui, tout cela m'avait effacé l'impression qui peut se résumer en quelques mots et un soupir à travers des sourires. Quel dommage qu'on n'en puisse rien faire ! "
+    },
+    {
+     "pid": "101.0275",
+     "file": "101/1883-08-29.md",
+     "why": [
+      "alias:L'Étincelle",
+      "alias:l'Etincelle",
+      "alias:l'Étincelle"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/RELIGION.md"
+     ],
+     "french": "Les natures vulgaires même très intelligentes et très savantes peuvent s'en passer. Mais ceux qui ont l'étincelle même s'ils sont aussi savants que toute la science et même s'ils doutent par raison, ceux-là croient par passion au moins par moments ! "
+    }
+   ]
+  },
+  {
+   "wid": "W247",
+   "title": "Petits paysages de nuit (Cazin)",
+   "entry": "content/_original/_glossary/culture/art/CAZIN_PAYSAGES_DE_NUIT.md",
+   "target": "culture/art/CAZIN_PAYSAGES_DE_NUIT.md",
+   "display": "Cazin's_small_night_landscapes",
+   "aliases": [
+    "petit tableau de nuit bleue avec une barque",
+    "petits paysages de nuit de Cazin",
+    "une petite toile de Cazin avec une barque noire",
+    "petite toile de Cazin"
+   ],
+   "candidates": [
+    {
+     "pid": "098.0189",
+     "file": "098/1883-01-27.md",
+     "why": [
+      "alias:petit tableau de nuit bleue avec une barque",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/ART_WORLD.md",
+      "people/recurring/BASTIEN_LEPAGE.md",
+      "people/artists/CAZIN.md"
+     ],
+     "french": "Bastien-Lepage est le plus grand des modernes, Cazin rend la nature dans ses paysages et dans aucun musée je n'ai vu de paysagiste comparable à lui, il vous transporte dans la nuit, il vous fait respirer l'air de la mer dans ce tout petit tableau de nuit bleue avec une barque se détachant en noir. Il fait sentir l'odeur du foin après une pluie d'orage, ils vous rend rêveur devant son ciel tout étoilé, et la petite maison à la fenêtre éclairée... c'est un magicien, un créateur, un merveilleux artiste. Bastien-Lepage est pour les êtres vivants ce que Cazin est pour [Mots noircis: la figure], le ciel, la pluie, le vent... *Ces figures vivent* dans le sens le plus complet, le plus absolu. "
+    },
+    {
+     "pid": "103.0240",
+     "file": "103/1884-02-02.md",
+     "why": [
+      "alias:petite toile de Cazin",
+      "alias:une petite toile de Cazin avec une barque noire",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md",
+      "people/artists/CAZIN.md",
+      "places/cities/NICE.md"
+     ],
+     "french": "Cazin[^4] a réusi des petits paysages de nuit dans ce genre très bien. Suis-je insensée ou bien ai-je raison, voyez et jugez. Mais je préfère une petite toile de Cazin avec une barque noire sur un ciel bleu rempli d'étoiles, à tous les paysages noirs, célèbres et enfumés des musées. Des arbres impossibles, pas d'air ! Pourquoi est-ce célèbre ! Tandis que chez Cazin on sent la fraîcheur de la nuit et on est remué comme par une vraie belle nuit de Nice, avec la lune qui va tout à l'heure se refléter dans la mer très calme, dont on entend le léger mouvement... Ah ! que c'est beau. Comme c'est plus beau que les célèbres paysages des musées...  [^4]: Jean-Charles Cazin (1841–1901): French painter"
+    }
+   ]
+  },
+  {
+   "wid": "W248",
+   "title": "Phèdre (Cabanel)",
+   "entry": "content/_original/_glossary/culture/art/PHEDRE_CABANEL.md",
+   "target": "culture/art/PHEDRE_CABANEL.md",
+   "display": "Phèdre_(Alexandre_Cabanel)",
+   "aliases": [
+    "Phèdre de Cabanel",
+    "le Phèdre de Cabanel",
+    "Phaedra (Cabanel)",
+    "Phèdre (Cabanel)",
+    "fabricant de Phèdre"
+   ],
+   "candidates": [
+    {
+     "pid": "103.0046",
+     "file": "103/1884-01-16.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/ART_WORLD.md",
+      "people/artists/CABANEL.md",
+      "people/artists/BOUGUEREAU.md",
+      "culture/literature/COROT.md",
+      "people/artists/LEFEBVRE.md",
+      "people/mentioned/MILLET.md",
+      "people/artists/ROUSSEAU_PAINTER.md"
+     ],
+     "french": "Il fallait entendre Paris en parler. C'était une honte. Mais enfin est-ce possible que le succès aille au Phèdre et au Aurore de Cabanel, Bouguereau, Lefèbvre et compagnie ! Du reste est-ce que le public a aimé Millet, Rousseau, Corot ! Il les a aimés quand ils furent à la mode. "
+    },
+    {
+     "pid": "103.0178",
+     "file": "103/1884-01-29.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md",
+      "people/mentioned/MUNKACSY.md",
+      "places/travel/FRANCE.md"
+     ],
+     "french": "C'est un art... Munkascy est vraiment un artiste de 1er ordre, sans doute dans ce genre, c'est le plus fort et le seul intéressant, aucun fabricant d'Aurore et de Phèdre de Pris ne peut s'y comparer, c'est du reste tout autre chose et personne ne peut s'y comparer actuellement en France. "
+    }
+   ]
+  },
+  {
+   "wid": "W255",
+   "title": "Portrait de Mgr Viard (Breslau)",
+   "entry": "content/_original/_glossary/culture/art/PORTRAIT_MGR_VIARD_BRESLAU.md",
+   "target": "culture/art/PORTRAIT_MGR_VIARD_BRESLAU.md",
+   "display": "Portrait_de_Mgr_Viard_(Breslau,_Salon_1880)",
+   "aliases": [
+    "le portrait de Mgr. Viard",
+    "le portrait de Mgr Viard",
+    "portrait de Mgr Viard"
+   ],
+   "candidates": [
+    {
+     "pid": "087.0300",
+     "file": "087/1880-01-23.md",
+     "why": [
+      "alias:le portrait de Mgr. Viard",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "places/schools/JULIAN.md",
+      "culture/themes/HEALTH.md",
+      "culture/themes/ART_PRACTICE.md",
+      "people/artists/ROBERT_FLEURY.md",
+      "people/artists/LOUISE_BRESLAU.md"
+     ],
+     "french": "La mère de Tony est très malade, voilà trois semaines que nous n'avons plus de conseils. Breslau fait pour le salon le portrait de Mgr. Viard. "
+    },
+    {
+     "pid": "088.0043",
+     "file": "088/1880-04-30.md",
+     "why": [
+      "alias:le portrait de Mgr. Viard",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/ART_WORLD.md",
+      "people/artists/LOUISE_BRESLAU.md"
+     ],
+     "french": "Quant à Breslau placée comme moi dans la galerie et sur la cimaise comme moi, elle a fait un bien mauvais morceau de peinture ou tout au moins une chose aussi désagréable à voir que possible. C’est le portrait de Mgr. Viard. Je crois que ce qui l’a perdue c’est une trop grande recherche de finesse de tons, tout est gris, le fond qui représente des panneaux de bois grisâtre, des décorations de chapelle, d’oratoire, le fauteuil, tout est sale, la tête est aussi très sale. "
+    }
+   ]
+  },
+  {
+   "wid": "W183",
+   "title": "La Captive",
+   "entry": "content/_original/_glossary/culture/literature/LA_JEUNE_CAPTIVE_CHENIER.md",
+   "target": "culture/literature/LA_JEUNE_CAPTIVE_CHENIER.md",
+   "display": "La_Jeune_Captive_(André_Chénier)",
+   "aliases": [
+    "La Captive",
+    "La Jeune Captive",
+    "La jeune captive",
+    "ma coupe est encore pleine"
+   ],
+   "candidates": [
+    {
+     "pid": "053.0202",
+     "file": "053/1876-01-29.md",
+     "why": [
+      "alias:La Captive",
+      "alias:ma coupe est encore pleine",
+      "inventory"
+     ],
+     "existing_tags": [],
+     "french": "Vrai, je suis une misérable dans ce monde, je ne dirai pas que \"ma coupe est encore pleine\" comme \"*La Captive\"* de Chénier.[^3]  [^3]: \"La Captive\": an elegy by André Chénier (1762–1794), the French poet guillotined during the Terror. The line \"ma coupe est encore pleine\" (my cup is still full) is a declaration of life and hope. "
+    },
+    {
+     "pid": "053.0207",
+     "file": "053/1876-01-29.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/mentioned/MERJEEWSKY.md"
+     ],
+     "french": "A présent seulement je me souviens d'une quantité de circonstances que j'ai laissé passer inaperçues à cause de mon grand dégoût pour la créature. Ça me semble incroyable, j'étais si jeune et pourtant, il faut bien en convenir, il m'a aimée. Je n'ai pas de chance, un insecte hideux m'aime, un être qui ressemble à un homme ne m'aime pas. "
+    }
+   ]
+  },
+  {
+   "wid": "W179",
+   "title": "Mémoires du maréchal duc de Richelieu",
+   "entry": "content/_original/_glossary/culture/literature/MEMOIRES_DU_MARECHAL_DE_RICHELIEU.md",
+   "target": "culture/literature/MEMOIRES_DU_MARECHAL_DE_RICHELIEU.md",
+   "display": "Mémoires_du_maréchal_duc_de_Richelieu",
+   "aliases": [
+    "Mémoires du maréchal duc de Richelieu",
+    "Mémoires du maréchal de Richelieu",
+    "mémoires du maréchal duc de Richelieu",
+    "Memoires du marechal duc de Richelieu"
+   ],
+   "candidates": [
+    {
+     "pid": "044.0059",
+     "file": "044/1875-09-22.md",
+     "why": [
+      "alias:Memoires du marechal duc de Richelieu",
+      "alias:Mémoires du maréchal duc de Richelieu",
+      "alias:mémoires du maréchal duc de Richelieu",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/READING.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md"
+     ],
+     "french": "Après avoir examiné tout en se promenant par la chambre avec leurs bougies, Girofla ouvre une armoire et le premier livre dont il lit le titre est: \"Mémoires du maréchal duc de Richelieu\"[^044.0059.1]. Bigre ! voilà ce que je ne voulais pas.  [^044.0059.1]: Memoirs of Louis-François-Armand de Vignerot du Plessis, duc de Richelieu (1696–1788), Marshal of France and a notorious libertine, published after his death (1790–93) by the abbé Jean-Louis Soulavie and of doubtful authenticity; their tales of gallantry made them no reading for a young girl. "
+    },
+    {
+     "pid": "044.0182",
+     "file": "044/1875-09-24.md",
+     "why": [
+      "alias:Memoires du marechal duc de Richelieu",
+      "alias:Mémoires du maréchal duc de Richelieu",
+      "alias:mémoires du maréchal duc de Richelieu",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md"
+     ],
+     "french": "—  M. d'Audiffret est un jeune homme qui a lu \"Les mémoires du maréchal duc de Richelieu\", dont il veut suivre les traces. Il vise et atteint à la don juanerie. Il n'a pas encore aimé. "
+    }
+   ]
+  },
+  {
+   "wid": "W160",
+   "title": "The Select Works of Oliver Goldsmith",
+   "entry": "content/_original/_glossary/culture/literature/SELECT_WORKS_OF_GOLDSMITH.md",
+   "target": "culture/literature/SELECT_WORKS_OF_GOLDSMITH.md",
+   "display": "The_Select_Works_of_Oliver_Goldsmith",
+   "aliases": [
+    "The Select Works of Oliver Goldsmith",
+    "The select works of Oliver Goldsmith",
+    "Select Works of Oliver Goldsmith",
+    "les œuvres de Oliver Goldsmith"
+   ],
+   "candidates": [
+    {
+     "pid": "006.0070",
+     "file": "006/1873-06-22.md",
+     "why": [
+      "alias:les œuvres de Oliver Goldsmith",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/READING.md",
+      "people/core/DINA.md"
+     ],
+     "french": "Moi, avec Dina, après avoir fait un tour sur les quais et à la promenade, sommes rentrées. Comment je passe mon temps ? Eh bien ! très mal. Les livres sont à l'autre villa, emballés et je ne puis étudier, je lis de l'anglais, les œuvres de Oliver Goldsmith, je l'aime beaucoup, ses comédies sont tellement spirituelles ! "
+    },
+    {
+     "pid": "006.0245",
+     "file": "006/1873-07-12.md",
+     "why": [
+      "alias:Select Works of Oliver Goldsmith",
+      "alias:The Select Works of Oliver Goldsmith",
+      "alias:The select works of Oliver Goldsmith",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/languages/ENGLISH.md",
+      "people/mentioned/BULWER.md",
+      "people/mentioned/MRS_HENRY_WOOD.md",
+      "culture/literature/MRS_HALLIBURTONS_TROUBLES_WOOD.md",
+      "culture/literature/THE_LAMPLIGHTER.md"
+     ],
+     "french": "\"The last days of Pompei\" by Bulwer [Lytton.] \"Mrs Haliburton's troubles\" by Mrs Henry Wood. \"Mabel Vaughan\" by the author of \"the Lamplighter\" \"The select works of Oliver Goldsmith\". "
+    }
+   ]
+  },
+  {
+   "wid": "W185",
+   "title": "Le long de notre petite mère la Volga (Вниз по матушке по Волге)",
+   "entry": "content/_original/_glossary/culture/music/LE_LONG_DE_NOTRE_PETITE_MERE_LA_VOLGA.md",
+   "target": "culture/music/LE_LONG_DE_NOTRE_PETITE_MERE_LA_VOLGA.md",
+   "display": "Le_long_de_notre_petite_mère_la_Volga",
+   "aliases": [
+    "Le long de notre petite mère la Volga",
+    "Le long de notre petite mère, la Volga",
+    "Le long de notre petite mère",
+    "Вниз по матушке по Волге"
+   ],
+   "candidates": [
+    {
+     "pid": "034.0021",
+     "file": "034/1875-06-07.md",
+     "why": [
+      "alias:Le long de notre petite mère",
+      "alias:Le long de notre petite mère, la Volga",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/MUSIC_THEME.md",
+      "people/mentioned/YOURKOFF.md",
+      "places/landmarks/VOLGA.md"
+     ],
+     "french": "Ensuite Yourkoff a entonné ==Le long de notre petite mère, la Volga==[^034.0021.r1][^034.0021.1], et nous avons repris en chœur. Et enfin on est entré en ville à onze heures du soir en poussant des cris et des aboiements et des miaulements féroces.  [^034.0021.1]: Marie's French rendering of the title of the Russian folk song «Вниз по матушке по Волге» («Down Mother Volga»).  [^034.0021.r1]: Written in Russian in the manuscript; French translation by the editor. "
+    },
+    {
+     "pid": "034.0114",
+     "file": "034/1875-06-09.md",
+     "why": [
+      "alias:Le long de notre petite mère",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "people/family/MA_TANTE.md",
+      "culture/music/DORMI_PURE.md"
+     ],
+     "french": "A la maison ma tante raconte tout à sa façon, que Girofla a dit qu'il a pensé depuis lundi à la chanson que j'ai chanté, *Dormi pure*, aux paroles de la chanson. J'ai cru entendre aux paroles de ==Le long de notre petite mère==[^034.0114.r1] mais ce serait un non-sens.  [^034.0114.r1]: Written in Russian in the manuscript; French translation by the editor. "
+    }
+   ]
+  },
+  {
+   "wid": "W196",
+   "title": "Don Pasquale (sérénade)",
+   "entry": "content/_original/_glossary/culture/theater/DON_PASQUALE_DONIZETTI.md",
+   "target": "culture/theater/DON_PASQUALE_DONIZETTI.md",
+   "display": "Don_Pasquale_(Donizetti)",
+   "aliases": [
+    "Don Pasquale (Donizetti)",
+    "sérénade de Don Pasquale",
+    "la sérénade de Don Pasquale"
+   ],
+   "candidates": [
+    {
+     "pid": "062.0512",
+     "file": "062/1876-06-20.md",
+     "why": [
+      "alias:la sérénade de Don Pasquale",
+      "alias:sérénade de Don Pasquale",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/MUSIC_THEME.md"
+     ],
+     "french": "J'ai chanté la sérénade de Don Pasquale, trois romances russes, la célèbre Povera Maria de Forti (cette chanson chantée par l'auteur a fait pleurer toutes les dames romaines). La Riconosenza[^4], un superbe air qui me permet de faire mes vingt notes, c'est-à-dire trois octaves moins deux notes. Ajoutez à cette étendue, la force, la souplesse et...  [^4]: A popular Italian drawing-room song of the period. "
+    },
+    {
+     "pid": "071.0225",
+     "file": "071/1877-05-10.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/WEATHER.md",
+      "culture/themes/SPORT.md"
+     ],
+     "french": "# Jeudi 10 mai 1877 Voici le programme des courses. Il faisait beau, nous étions placées tout près du pesage mais atrocement loin de tout le monde. "
+    }
+   ]
+  },
+  {
+   "wid": "W152",
+   "title": "Les Domestiques",
+   "entry": "content/_original/_glossary/culture/theater/LES_DOMESTIQUES_GRANGE_DESLANDES.md",
+   "target": "culture/theater/LES_DOMESTIQUES_GRANGE_DESLANDES.md",
+   "display": "Les_Domestiques_(Grangé_and_Deslandes)",
+   "aliases": [
+    "Les Domestiques",
+    "Les domestiques (comédie)",
+    "\"Les domestiques\" en trois actes"
+   ],
+   "candidates": [
+    {
+     "pid": "002.0064",
+     "file": "002/1873-02-22.md",
+     "why": [
+      "alias:\"Les domestiques\" en trois actes",
+      "alias:Les Domestiques",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/COLLIGNON.md",
+      "places/social/FRENCH_THEATER_NICE.md",
+      "people/mentioned/BRAVURA_FAMILY.md",
+      "people/core/DUKE_OF_HAMILTON.md",
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/LOVE.md",
+      "culture/themes/FASHION.md",
+      "people/family/MAMAN.md"
+     ],
+     "french": "Mlle Collignon malade. A six heures je suis allée chercher maman à la gare. Le soir au Français (robe bleue) voir \"Ismène\" \"Le joueur de flûte\" opéra bouffe en un acte. \"Les domestiques\" en trois actes, la dernière pièce était très bien. Au théâtre pas beaucoup de monde. Dans une loge des baignoires Mme et Mlle Bravura, derrière Mademoiselle il y avait le prince qui lui faisait la cour. Ils paraissaient si heureux. Je les envie, je voudrais avoir le duc de Hamilton. Je voudrais qu'il m'aime. Oh ! pourquoi ne le vois-je pas ? Comme je le voudrais, mais toute seule. "
+    },
+    {
+     "pid": "007.0335",
+     "file": "007/1873-08-04.md",
+     "why": [
+      "alias:Les Domestiques",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/ART_WORLD.md",
+      "culture/themes/EMOTIONS.md",
+      "places/cities/VIENNA_WORLD_EXHIBITION.md",
+      "culture/languages/ITALIAN.md",
+      "people/writers/DANTE.md",
+      "culture/literature/LA_DIVINE_COMEDIE.md"
+     ],
+     "french": "A l'Exposition, nous avons énormément marché, nous visitâmes presque tout. Le pavillon russe est très beau, tout est joli, l'argenterie est superbe ! Nous avons déjeuné au restaurant russe. Ça n'est pas ni un restaurant, ni russe, c'est une espèce de bierhalle allemande de village, très laide, très sale. Les domestiques sont vêtus de rouge, des caricatures ! Ça n'est pas étonnant que l'on prenne les Russes pour des Turcs. Je m'amuse aujourd'hui, les deux premiers jours j'étais dans une léthargie, ces *absences* m'arrivent quelquefois; je ne comprends rien, je ne puis pas parler, je suis bête. Aujourd'hui, c'est passé. Les statues italiennes sont très originales et belles. Il y a des expressi"
+    }
+   ]
+  },
+  {
+   "wid": "W222",
+   "title": "Le Roi de Lahore",
+   "entry": "content/_original/_glossary/culture/theater/LE_ROI_DE_LAHORE_MASSENET.md",
+   "target": "culture/theater/LE_ROI_DE_LAHORE_MASSENET.md",
+   "display": "Le_Roi_de_Lahore_(Massenet)",
+   "aliases": [
+    "Le Roi de Lahore",
+    "Roi de Lahore",
+    "Le Roi de Latore",
+    "Roi de Latore",
+    "le Roi de Latore"
+   ],
+   "candidates": [
+    {
+     "pid": "083.0576",
+     "file": "083/1879-01-09.md",
+     "why": [
+      "alias:Roi de Latore",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/MUSIC_THEME.md",
+      "people/mentioned/GAVINI.md",
+      "people/mentioned/DE_DAILLENS.md",
+      "people/artists/MASSENET.md",
+      "places/theaters/OPERA.md"
+     ],
+     "french": "Je ne parle pas de la musique puisque j'étais avec Mme Gavini et devais causer et écouter des bêtises. Je voudrais me payer une bonne soirée d'Opéra, mais seule ou avec de Daillens afin d'écouter. Massenet a dû passer un bon moment quand on lui a fait une ovation après son troisième acte du \"Roi de Latore\" (fort peu apprécié et mal compris à l'Opéra). "
+    },
+    {
+     "pid": "083.0580",
+     "file": "083/1879-01-10.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/POLITICS.md",
+      "people/artists/MASSENET.md",
+      "culture/newspapers/LE_PAYS.md",
+      "places/social/CAFE_ANGLAIS.md"
+     ],
+     "french": "Je m'ennuie à périr. Nous dînons et déjeunons au Café Anglais où l'on mange bien. En fait ce cabaret c'est le meilleur. Les journaux bonapartistes et \"Le Pays\" en particulier sont restés si sots devant les élections que j'en éprouve comme un sentiment de honte pour eux, comme hier pour Massenet quand on a bissé son Incantation et qu'à la seconde fois cela parut moins beau. "
+    }
+   ]
+  },
+  {
+   "wid": "W199",
+   "title": "Rienzi (Wagner)",
+   "entry": "content/_original/_glossary/culture/theater/RIENZI_WAGNER.md",
+   "target": "culture/theater/RIENZI_WAGNER.md",
+   "display": "Rienzi_(Wagner)",
+   "aliases": [
+    "Rienzi (Wagner)",
+    "Rienzi de Wagner",
+    "“Rienzi” de Wagner",
+    "Rienzi, der letzte der Tribunen",
+    "Rienzi, l'ultimo dei tribuni"
+   ],
+   "candidates": [
+    {
+     "pid": "063.0443",
+     "file": "063/1876-07-17.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/SUPERSTITION.md",
+      "culture/themes/MARRIAGE.md",
+      "people/mentioned/MOUZAY.md",
+      "people/mentioned/ANTONELLI.md",
+      "places/cities/ROME.md",
+      "people/mentioned/CARDINAL_ANTONELLI.md",
+      "culture/literature/RIENZI_BULWER_LYTTON.md"
+     ],
+     "french": "Je suis sortie tout excitée, tirant Mme de Mouzay par le bras, la robe, la coiffure, lui faisant remarquer la justesse de la somnambule, riant, m'excitant, parlant de conspiration, de révolution, de papauté, du *conspirateur* Antonelli, le comparant à Rienzi... à..., enfin j'en dis tant, que la comtesse déclara avec une profonde conviction que je n'avais qu'à épouser Pierre Antonelli pour acquérir une influence suffisante à Rome pour faire nommer mon oncle pape. Elle me citait ensuite deux exemples d'histoire où les femmes ont eu tant d'influence. J'ai passé chez elle jusqu'à sept heures, discourant, *projetant,* riant, et nous nous étonnions ensemble des choses si singulières dites par la s"
+    },
+    {
+     "pid": "071.0083",
+     "file": "071/1877-05-01.md",
+     "why": [
+      "alias:Rienzi de Wagner",
+      "alias:“Rienzi” de Wagner",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/MUSIC_THEME.md",
+      "people/mentioned/MARCUARD.md",
+      "places/theaters/PERGOLA.md",
+      "people/artists/WAGNER.md",
+      "places/theaters/TEATRO_PAGLIANO.md"
+     ],
+     "french": "Marcuard a passé une heure chez nous, et le soir on le revoit au théâtre Pagliano, la Pergola est fermée ! On donne “Rienzi” de Wagner. Je n'ai rien compris à cette musique. "
+    }
+   ]
+  },
+  {
+   "wid": "W157",
+   "title": "Louis XIV et son siècle / Louis XIV et ses femmes",
+   "entry": "content/_original/_glossary/culture/literature/LOUIS_XIV_ET_SON_SIECLE.md",
+   "target": "culture/literature/LOUIS_XIV_ET_SON_SIECLE.md",
+   "display": "Louis_XIV_et_son_siècle_(Alexandre_Dumas)",
+   "aliases": [
+    "Louis XIV et son siècle",
+    "Louis XIV et son siecle",
+    "Louis XIV et ses femmes"
+   ],
+   "candidates": [
+    {
+     "pid": "016.0087",
+     "file": "016/1874-02-02.md",
+     "why": [
+      "alias:Louis XIV et son siecle",
+      "alias:Louis XIV et son siècle",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/family/MAMAN.md",
+      "people/mentioned/LOUIS_XIV.md",
+      "culture/history/BUCKINGHAM.md",
+      "people/core/DUKE_OF_HAMILTON.md",
+      "people/mentioned/NERO.md",
+      "culture/themes/READING.md",
+      "culture/themes/LOVE.md",
+      "people/aristocracy/LADY_MARY_MONTAGU.md"
+     ],
+     "french": "Maman m'a acheté encore quelques livres, ce que je lis tout de suite, c'est \"Louis XIV et son siècle.\" Le livre est ouvert devant moi, je regarde Buckingham, il est si beau. Il n'y a qu'un Anglais qui peut être aussi beau. Il n'y a rien comme un duc anglais, parisien; lorsque j'en rencontre un, n'importe où, même dans un livre, je m'enthousiasme et je l'adore... J'adore Buckingham. Il était aussi gros que Hamilton, [Rayé: j'adore] qu'est-ce que c'est qu'un homme maigre ! Je lis les aventures de Buckingham, je les dévore. Hamilton est un Buckingham moderne ! Mais le malheureux est lié par son honorable mariage avec une pairesse. Miserere ! Une Anglaise ne peut pas être belle, comme j'aime. Co"
+    }
+   ]
+  },
+  {
+   "wid": "W237",
+   "title": "Modeste Mignon",
+   "entry": "content/_original/_glossary/culture/literature/MODESTE_MIGNON_BALZAC.md",
+   "target": "culture/literature/MODESTE_MIGNON_BALZAC.md",
+   "display": "Modeste_Mignon_(Honoré_de_Balzac)",
+   "aliases": [
+    "Modeste Mignon",
+    "la modeste Mignon",
+    "Modeste Mignon (Balzac)"
+   ],
+   "candidates": [
+    {
+     "pid": "097.0221",
+     "file": "097/1882-12-09.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/themes/LOVE.md",
+      "culture/themes/EMOTIONS.md",
+      "culture/literature/BALZAC.md",
+      "places/cities/PARIS.md"
+     ],
+     "french": "Mais c'est moi, et puis elle s'est fait un idéal de bonheur et d'amour... Il faudrait tout citer. C'est tout à fait comme moi, aussi si on pouvait deviner ce qui se passe dans ma tête au théâtre, au bal et même pendant une conversation, on serait bien surpris et moi-même... Quel malheur qu'il soit mort, qu'il n'y en ait pas un comme cela à présent. Ah ! je ne serai donc jamais inspirée par quelqu'un que je pourrais aimer en déployant tous ces sentiments encore confus et qui feraient le bonheur d'un homme extraordinaire. Balzac est le plus grand génie... Et puis relisez les premières pages d' \"Honorine\" sur Paris et sur ce qui fait aimer Paris, ce que j'ai essayé si souvent de dire sans y arr"
+    }
+   ]
+  },
+  {
+   "wid": "W213",
+   "title": "Les Horaces (Agar, Nice)",
+   "entry": "content/_original/_glossary/culture/theater/HORACE_CORNEILLE.md",
+   "target": "culture/theater/HORACE_CORNEILLE.md",
+   "display": "Horace_(Corneille)",
+   "aliases": [
+    "Les Horaces",
+    "Horaces",
+    "Horace de Corneille",
+    "Horace (Corneille)"
+   ],
+   "candidates": [
+    {
+     "pid": "051.0179",
+     "file": "051/1875-12-30.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [],
+     "french": "“ Voir le dernier Niçois à son dernier soupir, “ Moi, seule en être cause et mourir de plaisir ![^051.0179.1]  [^051.0179.1]: Parody of Camille's imprecation in Corneille's *Horace* (IV, 5): «Voir le dernier Romain à son dernier soupir, / Moi seule en être cause, et mourir de plaisir !» Marie puts «Niçois» in place of «Romain». "
+    }
+   ]
+  },
+  {
+   "wid": "W150",
+   "title": "Lo Specchio Infernale (ballet)",
+   "entry": "content/_original/_glossary/culture/theater/LO_SPECCHIO_INFERNALE_BALLET.md",
+   "target": "culture/theater/LO_SPECCHIO_INFERNALE_BALLET.md",
+   "display": "Lo_Specchio_Infernale_(ballet)",
+   "aliases": [
+    "Lo Specchio Infernale",
+    "\"Lo Specchio Infernale\"",
+    "Lospecchio infernale",
+    "lo specchio infernale"
+   ],
+   "candidates": [
+    {
+     "pid": "014.0185",
+     "file": "014/1873-12-23.md",
+     "why": [
+      "alias:Lospecchio infernale",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/core/DINA.md",
+      "people/recurring/WALITSKY.md",
+      "people/family/PAUL.md",
+      "culture/themes/THEATER_THEME.md",
+      "culture/languages/ENGLISH.md",
+      "culture/languages/ITALIAN.md",
+      "culture/languages/FRENCH.md",
+      "culture/themes/FASHION.md",
+      "places/cities/NICE.md",
+      "people/mentioned/GALVE.md",
+      "places/theaters/THEATER.md",
+      "people/recurring/HOWARD_FAMILY.md",
+      "people/recurring/HELENE_HOWARD.md",
+      "people/mentioned/LISE.md"
+     ],
+     "french": "Ce soir je vais au théâtre, \"Le legs\", comédie en un acte de Marivaux et le ballet: \"Lospecchio infernale\". J'attendais avec impatience, il y a presque trois mois que je n'ai pas été au théâtre. Je mets la robe blanche, après mille failures une assez jolie coiffure, comme tous les jours avec la différence de cheveux derrière que je laissai tomber. En somme pas mal même bien, je suis assez contente. Nous ne sommes que trois et demie, moi, ma tante, Dina et Nadinka. Walitsky, Paul, nous attrapons un bout de Legs ennuyeux et long. Les Howard viennent à côté de nous, Hélène, Lise, père et mère. Elles sont gentilles, mais habillées comme à Nice. Les Galve sont au rez-de-chaussée comme toujours en"
+    }
+   ]
+  }
+ ],
+ "flags": []
+}

@@ -1,0 +1,1687 @@
+{
+ "works": [
+  {
+   "wid": "W182",
+   "title": "La Divina Commedia (Dante, quotations)",
+   "entry": "content/_original/_glossary/culture/literature/LA_DIVINE_COMEDIE.md",
+   "target": "culture/literature/LA_DIVINE_COMEDIE.md",
+   "display": "La_Divine_Comédie_(Dante)",
+   "aliases": [
+    "La Divine Comédie",
+    "Divine comédie",
+    "Divine Comédie",
+    "la Divine comédie de Dante",
+    "Divina Commedia",
+    "un chant de Dante",
+    "les sospesi de Dante",
+    "sospesi de Dante",
+    "dolenti note",
+    "Ora incomincian le dolenti note",
+    "Inferno",
+    "Dante",
+    "(Dante)",
+    "le Dante",
+    "un chant du Dante",
+    "des chants du Dante",
+    "chant V de l'Enfer",
+    "l'enfer du Dante",
+    "j'ai appris l'italien dans le Dante",
+    "la langue de Dante",
+    "un damné de Dante",
+    "comme dit Dante",
+    "comme dit le Dante",
+    "Ed ha natura",
+    "lauza leggierci"
+   ],
+   "candidates": [
+    {
+     "pid": "004.0357",
+     "file": "004/1873-05-16.md",
+     "why": [
+      "alias:Inferno"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/languages/ITALIAN.md",
+      "culture/themes/WEATHER.md"
+     ],
+     "french": "Temps affreux, vent, poussière. On peut dire de ce que j'ai entendu hier : Quivi sospiri, pianti ed alti guai risonavan per l'aery [sic] senza Stella, perch'io al cominciar ne lacrimai.[^004.0357.1]  [^004.0357.1]: Dante, *Inferno* III.22–24: *Quivi sospiri, pianti e alti guai / risonavan per l'aere sanza stelle, / per ch'io al cominciar ne lagrimai* (\"Here sighs, laments and loud wailings resounded through the starless air, so that at first I wept\"). Marie quotes from memory (*l'aery*, *Stella*). "
+    },
+    {
+     "pid": "006.0067",
+     "file": "006/1873-06-22.md",
+     "why": [
+      "alias:Inferno"
+     ],
+     "existing_tags": [
+      "culture/languages/ITALIAN.md",
+      "culture/themes/READING.md",
+      "people/writers/DANTE.md"
+     ],
+     "french": "Fama di loro il mondo essere no lassa / Misericordia e giustizia gli / Non ragionam di lor ma guarda e passa.[^006.0067.1]  [^006.0067.1]: Dante, *Inferno* III.49–51, on those who never took a side: *Fama di loro il mondo esser non lassa; / misericordia e giustizia li sdegna: / non ragioniam di lor, ma guarda e passa* (\"The world lets no report of them live; mercy and justice scorn them: let us not speak of them, but look and pass on\"). Marie quotes from memory; her second line drops the verb *sdegna* (\"scorn\"). "
+    },
+    {
+     "pid": "026.0011",
+     "file": "026/1874-11-19.md",
+     "why": [
+      "alias:Inferno"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/languages/ITALIAN.md"
+     ],
+     "french": "Enfin j'ai poussé une espèce de soupir qui ressemblait plutôt à un rugissement, et avec laquelle sortit tant de rage comprimée depuis plusieurs minutes, tant de fureur, tant de méchanceté si che [illisible] che l'aer ne temere.[^026.0011.1]  [^026.0011.1]: In Italian in the original, partly illegible: «si che [illisible] che l'aer ne temere». Marie is half-remembering Dante, *Inferno* I.48, on the lion that blocks the poet's way: «sì che parea che l'aere ne temesse» ('so that the air seemed to fear him'); the usual text reads *tremesse*, 'trembled'. "
+    },
+    {
+     "pid": "027.0046",
+     "file": "027/1874-11-27.md",
+     "why": [
+      "alias:Inferno",
+      "alias:la langue de Dante"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/FASHION.md",
+      "culture/themes/LOVE.md",
+      "people/mentioned/SABATINI.md",
+      "people/writers/DANTE.md",
+      "people/mentioned/BRAVURA_FAMILY.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "people/mentioned/PRODGERS.md"
+     ],
+     "french": "(Robe grise, chapeau noir neuf, jaquette noire *bien*). Je me suis promenée à pied avec Mme Sabatini, l'Italienne qui vient pour parler et je dois avouer que je ne parle pas mal la langue de Dante. Il y avait beaucoup de monde. [Rayé: Audif] Le prince de Bravura est ici; Audiffer en voiture à deux roues et conduisant lui-même m'a passée plusieurs fois, sans que je le visse [Rayé: ensuite] mais lorsqu'il descendit chez la Prodgers, je le regardai, et lui croyant ne pas être vu à travers la double grille allait en ralentissant le pas et me regardant, de sorte [Rayé: qu'il ait heurté la] que si quelqu'un sortait en ce moment de la maison il eût heurté la personne puisqu'il avait la tête tournée"
+    },
+    {
+     "pid": "027.0306",
+     "file": "027/1874-12-19.md",
+     "why": [
+      "alias:Inferno"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/languages/ITALIAN.md",
+      "people/writers/DANTE.md"
+     ],
+     "french": "Quivi sospire lamenti ed alti guai Risonavan per l'aer senza stella Perchio al comminciar ne lacrima.[^027.0306.1]  [^027.0306.1]: In Italian in the original: Dante, *Inferno* III.22-24, quoted from memory. The text reads «Quivi sospiri, pianti e alti guai / risonavan per l'aere sanza stelle, / per ch'io al cominciar ne lagrimai» ('Here sighs, laments and loud wailings resounded through the starless air, so that at first I wept'). "
+    },
+    {
+     "pid": "033.0164",
+     "file": "033/1875-05-24.md",
+     "why": [
+      "alias:Inferno"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/languages/ITALIAN.md"
+     ],
+     "french": "O muse o alto ingegno or m'ajutate. O monte ! ch'io scrivessi cio ch'io vidi.[^033.0164.1]  [^033.0164.1]: Italian: Dante, *Inferno* II, 7–8 («O muse, o alto ingegno, or m'aiutate; / o mente che scrivesti ciò ch'io vidi»), quoted from memory: Marie's *monte* stands for Dante's *mente* («memory», «mind»). The mock-epic invocation introduces the prank she is about to tell. "
+    },
+    {
+     "pid": "033.0165",
+     "file": "033/1875-05-24.md",
+     "why": [
+      "alias:Inferno"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/languages/ITALIAN.md"
+     ],
+     "french": "Qui si passa la tua nobilita .[^033.0165.1]  [^033.0165.1]: Italian: the line that completes the same tercet, *Inferno* II, 9, which Dante wrote *qui si parrà la tua nobilitate* («here your nobility will show»); Marie's *passa* («passes») fits the walk under Girofla's windows, applied ironically to the prank. "
+    },
+    {
+     "pid": "043.0210",
+     "file": "043/1875-09-16.md",
+     "why": [
+      "alias:Inferno",
+      "alias:comme dit le Dante",
+      "alias:lauza leggierci",
+      "alias:le Dante",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/languages/ITALIAN.md",
+      "culture/themes/TRAVEL.md",
+      "places/cities/FLORENCE.md",
+      "people/writers/DANTE.md"
+     ],
+     "french": "Nous quittons la superbe Florence, cette lauza leggierci a pusta molto, che di [illisible] maculato era coperta[^043.0210.1] comme dit le Dante au long nez pendant.  [^043.0210.1]: A garbled recollection of Dante, *Inferno* I.32–33: *una lonza leggiera e presta molto, / che di pel macolato era coverta* («a leopard, light and very swift, covered with a spotted coat»), the first of the three beasts that bar Dante's way. The illegible word stands where Dante has *pel* (coat). "
+    },
+    {
+     "pid": "050.1150",
+     "file": "050/1875-12-22.md",
+     "why": [
+      "alias:Ed ha natura",
+      "alias:Inferno",
+      "alias:comme dit Dante",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/languages/ITALIAN.md",
+      "people/writers/DANTE.md"
+     ],
+     "french": "\"Ed ha natura si malvaggia a ria\"[^5] comme dit Dante.  [^5]: ==*\"Ed ha natura sì malvaggia e ria\"*== (Italian): \"And has a nature so wicked and evil\" — *Inferno*, Canto I; Dante's description of the she-wolf, symbol of avarice; Marie applies the line to jealousy. In Italian in the original. "
+    },
+    {
+     "pid": "052.0350",
+     "file": "052/1876-01-21.md",
+     "why": [
+      "alias:Divina Commedia"
+     ],
+     "existing_tags": [
+      "culture/themes/FASHION.md",
+      "people/writers/DANTE.md"
+     ],
+     "french": "Je vais me faire une robe comme celle de la Béatrice de Dante.[^11]  [^11]: Dante's Beatrice: in Dante's *La Vita Nuova* and *Divina Commedia*, Beatrice Portinari appears in a crimson dress; Marie's interest in classical costume is consistent with her contempt for contemporary fashion. "
+    },
+    {
+     "pid": "053.0211",
+     "file": "053/1876-01-30.md",
+     "why": [
+      "alias:Inferno"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/APPEARANCE.md",
+      "people/mentioned/DORIA.md",
+      "people/mentioned/PAPARIGOPOULOS.md",
+      "places/landmarks/PINCIO.md",
+      "places/villas/VILLA_BORGHESE.md",
+      "people/aristocracy/MARGHERITA_DI_SAVOIA.md",
+      "people/mentioned/GIORGIO_SOROKA.md",
+      "people/writers/DANTE.md"
+     ],
+     "french": "A trois heures et demie nous allons à la villa Borghése où je trouve tout le monde; la ravissante princesse Marguerite[^3] qui était particulièrement gentille, le Doria blanc qui s'est retourné pour me voir, le jeune chien qui nous a suivies l'autre jour et qui n'est pas du tout Soroka, le ministre grec qui m'a saluée et s'est retourné comme les damnés du Dante[^4] et enfin Soroka que j'ai aperçu un instant, dont je n'ai vu que le dos et qui ne m'a pas vue. Il était avec le député de la Chambre qui a de jolis chevaux. Après ce tour dans la villa nous en faisons deux au Pincio. Cette double haie d'hommes me confond, je suis obligée de poser en statue de marbre.  [^3]: Princess Margherita of S"
+    },
+    {
+     "pid": "067.0986",
+     "file": "067/1876-11-15.md",
+     "why": [
+      "alias:la langue de Dante"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/CENSORED_1887.md",
+      "people/service/AMALIA.md"
+     ],
+     "french": "Au dernier moment on s'aperçut qu'un paquet manquait, il s'éleva comme une tempête, et on se mit à courir de tous côtés, Amalia se justifiait, je lui reprochais de mal servir. Le public écoutait et s'amusait, ce que voyant je redoublai d'éloquence dans la langue de Dante[^3]. Ça m'amusait surtout parce que le train nous attendait. Voilà ce qu'il y a de bon dans ce fichu-pays; on y règne.  [^3]: The tongue of Dante — Italian. Marie scolded her maid Amalia in Italian, performing for the Poltava crowd. "
+    }
+   ]
+  },
+  {
+   "wid": "W186+W201",
+   "title": "Le Rossignol che vola (Niçois/Italian song)",
+   "entry": "content/_original/_glossary/culture/music/LE_ROSSIGNOL_CHE_VOLA.md",
+   "target": "culture/music/LE_ROSSIGNOL_CHE_VOLA.md",
+   "display": "Le_rossignol_che_vola",
+   "aliases": [
+    "Rossignol che vola",
+    "rossignol che vola",
+    "Rossignou che vola",
+    "rossignoù che vola",
+    "Rossignol che vola",
+    "Lo rossignou que vola",
+    "Lou roussignol qué vola",
+    "Lou Rossignou che vola",
+    "rossignoù che vaia"
+   ],
+   "candidates": [
+    {
+     "pid": "047.0064",
+     "file": "047/1875-10-15.md",
+     "why": [
+      "alias:Le rossignol che vola",
+      "alias:Rossignol che vola",
+      "alias:rossignol che vola",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/languages/ITALIAN.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "culture/themes/MUSIC_THEME.md",
+      "people/family/MA_TANTE.md",
+      "places/cities/NICE.md"
+     ],
+     "french": "J'oublie ! Ma tante est allée acheter des fruits devant l'église Sainte-Réparate, dans la vieille Nice, tout près du magasin de drap Audiffret frères et neveu . Les femmes tout de suite ont fait cercle autour de moi, j'ai chanté à demi-voix, le rossignol che vola cela les a enthousiasmés et les plus vieilles se mirent à danser, j'ai dit ce que je sais en niçois, en un mot triomphe populaire. La marchande de pommes me fit la révérence en s'écriant: che bella regina ! .. "
+    },
+    {
+     "pid": "047.0151",
+     "file": "047/1875-10-18.md",
+     "why": [
+      "alias:Rossignol che vola",
+      "alias:rossignol che vola",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/languages/ITALIAN.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "people/recurring/GIOIA.md"
+     ],
+     "french": "— Oh ! il est ici depuis que Pirate est ici, dis-je, seulement il était jusqu'à présent incognito, sous le nom du Rossignol che vola[^047.0151.1].  [^047.0151.1]: *Rossignol che vola* («the nightingale that flies», half French, half Italian): the song Marie sang in the old town on 15 October; «le rossignol» is already the girls' code name for Audiffret on 13 October. "
+    },
+    {
+     "pid": "054.0030",
+     "file": "054/1876-02-13.md",
+     "why": [
+      "alias:Rossignol che vola",
+      "alias:rossignol che vola",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "people/recurring/WALITSKY.md",
+      "culture/languages/ITALIAN.md",
+      "people/mentioned/DANIS.md",
+      "people/mentioned/ASPREMONT.md",
+      "places/cities/NICE.md"
+     ],
+     "french": "On m'envoie des journaux de Nice. Il paraît [que] d'Audiffret a donné deux cents francs comme prix \"pour des masques seuls\" et a nommé ce prix: le prix du *Rossignol che vola[^1].* Walitsky écrit que Danis et d'Aspremont ne le nomment pas autrement. J'ai demandé des explications. Je voudrais savoir si c'est à cause de la caricature.  [^1]: *Rossignol che vola*: Italian for \"The Nightingale that flies\" — widely understood as a coded tribute to Marie (the nightingale who has flown to Rome). "
+    },
+    {
+     "pid": "055.0685",
+     "file": "055/1876-03-13.md",
+     "why": [
+      "alias:rossignoù che vaia"
+     ],
+     "existing_tags": [
+      "culture/languages/ITALIAN.md",
+      "people/mentioned/RICARDO.md"
+     ],
+     "french": "— Je voudrais, écrit-il, vous envoyer celui du *rossignoù che vaia*[^3] en Hamlet, ravissant et à mon avis le mieux porté.  [^3]: ==*rossignoù che vaia*== — Italian (with Marie's Niçois orthography): \"the nightingale that flies,\" her nickname for Audiffret, the young man she pursued in Nice. "
+    },
+    {
+     "pid": "055.0686",
+     "file": "055/1876-03-13.md",
+     "why": [
+      "alias:Rossignou che vola",
+      "alias:rossignoù che vola",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/RICARDO.md"
+     ],
+     "french": "Pauvre Ricardo, il pense que le rossignoù che vola m'occupe encore. Il ne sait pas quelles idées audacieuses remplissent ma tête. "
+    },
+    {
+     "pid": "059.0826",
+     "file": "059/1876-05-06.md",
+     "why": [
+      "alias:Rossignou che vola",
+      "alias:rossignoù che vola",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "places/cities/NICE.md"
+     ],
+     "french": "Eh bien, moi, je leur donne un Rossignou je nomme cela ainsi, parce que le Rossignou che vola[^6] est la chanson la plus populaire et la plus jolie de Nice.  [^6]: *Rossignou che vola* — Niçard dialect: \"The nightingale that flies\"; a traditional song of Nice, sung in the local Occitan-influenced dialect. "
+    }
+   ]
+  },
+  {
+   "wid": "W187",
+   "title": "Chansons niçoises",
+   "entry": "content/_original/_glossary/culture/music/CHANSONS_NICOISES.md",
+   "target": "culture/music/CHANSONS_NICOISES.md",
+   "display": "Chansons_niçoises",
+   "aliases": [
+    "chansons niçoises",
+    "Chansons niçoises",
+    "chansons nissardes",
+    "les chansons niçoises"
+   ],
+   "candidates": [
+    {
+     "pid": "034.0556",
+     "file": "034/1875-06-24.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/AMBITION.md",
+      "people/mentioned/LOUIS_XIV.md",
+      "people/royalty/LOUIS_II_OF_BAVARIA.md"
+     ],
+     "french": "On sait que le roi est jeune, beau, et qu'il imite en tout Louis *XIV* mon idéal, le Roi-Soleil. Cette idée m'est venue si clairement que j'ai laissé échapper un bigre formidable. "
+    },
+    {
+     "pid": "034.0557",
+     "file": "034/1875-06-24.md",
+     "why": [
+      "alias:Chansons niçoises",
+      "alias:chansons niçoises"
+     ],
+     "existing_tags": [
+      "culture/themes/MUSIC_THEME.md",
+      "culture/themes/LOVE.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "culture/languages/ENGLISH.md"
+     ],
+     "french": "En honneur de Girofla (pourquoi écrivais-je Girofla avec deux *f?* that is the question). J'ai appris des chansons niçoises. Elles me rappelleront toujours ce temps bienheureux. "
+    },
+    {
+     "pid": "042.0043",
+     "file": "042/1875-09-09.md",
+     "why": [
+      "alias:Chansons niçoises",
+      "alias:chansons niçoises",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/MUSIC_THEME.md",
+      "culture/themes/EMOTIONS.md",
+      "places/cities/NICE.md"
+     ],
+     "french": "Depuis Antibes je m'engosille [sic] à chanter des chansons niçoises au grand ébahissement des employés des gares, plus nous approchions plus mon impatience croissait. Et dois-je le dire ? Oui, n'est-ce pas ? Eh bien je suis triste de revoir tout cela. Pour le moment toute ma vie à Nice a cédé sa place à ma vie de ces derniers mois. Qu'on ne cherche rien de profond dans ce que je dis, rien de sentimental, surtout rien de giroflien sérieux, légèrement oui, comme un parfum, comme un air de musique, comme une esquisse d'un paysage qu'on a vu. "
+    },
+    {
+     "pid": "059.0826",
+     "file": "059/1876-05-06.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "places/cities/NICE.md"
+     ],
+     "french": "Eh bien, moi, je leur donne un Rossignou je nomme cela ainsi, parce que le Rossignou che vola[^6] est la chanson la plus populaire et la plus jolie de Nice.  [^6]: *Rossignou che vola* — Niçard dialect: \"The nightingale that flies\"; a traditional song of Nice, sung in the local Occitan-influenced dialect. "
+    },
+    {
+     "pid": "062.0430",
+     "file": "062/1876-06-17.md",
+     "why": [
+      "alias:Chansons niçoises",
+      "alias:chansons niçoises",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/LOVE.md",
+      "people/mentioned/ANTONELLI.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "culture/themes/EMOTIONS.md"
+     ],
+     "french": "Audiffret m'a fait chanter les exécrables chansons niçoises. Antonelli me fait parler et penser italien, chanter des airs d'opéra, rêver à la lune, réciter des vers... italiens, m'imaginer partout des balcons, des colonnes, des feutres rabattus sur les yeux et des manteaux couleur muraille. Je suis devenue toute poétique, comme j'ai été toute matérielle, rude et railleuse. J'aime les fleurs, les romances, les vers. J'admire les saillies italiennes. Cette langue m'enivre. "
+    }
+   ]
+  },
+  {
+   "wid": "W154",
+   "title": "Les Pattes de mouche",
+   "entry": "content/_original/_glossary/culture/theater/LES_PATTES_DE_MOUCHE.md",
+   "target": "culture/theater/LES_PATTES_DE_MOUCHE.md",
+   "display": "Les_Pattes_de_mouche_(Sardou)",
+   "aliases": [
+    "Les Pattes de mouche",
+    "Les pattes de mouche",
+    "Les pattes de mouches",
+    "Pattes de mouche (Sardou)"
+   ],
+   "candidates": [
+    {
+     "pid": "013.0130",
+     "file": "013/1873-11-29.md",
+     "why": [
+      "alias:Les Pattes de mouche",
+      "alias:Les pattes de mouche"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/EMOTIONS.md",
+      "culture/themes/META_DIARY.md",
+      "culture/themes/FASHION.md",
+      "people/mentioned/ONCLE_LAUTREC.md"
+     ],
+     "french": "Diadia a amené hier sa petite-fille Mitsia, une petite de dix ans gentille, même jolie, pas trop de mon goût, le genre de toilette surtout. Hier j'étais dans un état affreux, on voit cela par les pattes de mouche et par la simplicité du journal d'hier. Je ne pouvais pas penser, je ne pouvais pas écrire. Aujourd'hui je ne suis pas non plus contente et je sens et souffre tant que je puis rien exprimer. Si je pouvais décrire ce qui se fait dans mon âme; mais je ne sais pas ce qui s'y passe, je sais seulement que je suis très tourmentée, que quelque chose me ronge et chauffe parfois et que tout ce que je dis n'est pas ce que je veux et ne dis pas la centième partie de ce que je sens. "
+    },
+    {
+     "pid": "022.0418",
+     "file": "022/1874-08-05.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/aristocracy/MARGHERITA_DI_SAVOIA.md",
+      "people/mentioned/DORIA.md"
+     ],
+     "french": "— ==Ni de toi... ni de nous il ne détachait les yeux de toute la soirée pendant qu'il parlait avec Marguerite==[^022.0418.r1].  [^022.0418.r1]: Written in Russian in the manuscript; French translation by the editor. "
+    },
+    {
+     "pid": "022.0429",
+     "file": "022/1874-08-06.md",
+     "why": [
+      "alias:Les Pattes de mouche",
+      "alias:Les pattes de mouche",
+      "alias:Les pattes de mouches"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/HEALTH.md",
+      "culture/themes/FASHION.md",
+      "people/family/PAUL.md"
+     ],
+     "french": "Je m'habille avec peine, robe rose, cheveux pendants pour le théâtre \"Les pattes de mouches\"[^022.0429.1]. Paul, ce garnement, a joué et a gagné quatre cents francs et nous prit une loge. Je me trouve si mal au théâtre que je défais mon corsage (mon mal reprend) et me place derrière le rideau, nous sommes dans une avant-scène.  [^022.0429.1]: *Les Pattes de mouche* (\"Scrawls\", literally \"fly's legs\"): comedy by Victorien Sardou (Théâtre du Gymnase, 1860), known in English as *A Scrap of Paper*. "
+    },
+    {
+     "pid": "022.0447",
+     "file": "022/1874-08-07.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/mentioned/MERJEEWSKY.md",
+      "people/family/MAMAN.md",
+      "people/mentioned/DORIA.md"
+     ],
+     "french": "Mais dans l'obscurité nous voyons passer Doria avec un bouquet, le laisser à l'hôtel des Pays-Bas qui se trouve tout près et retourner. Nous parlions haut il s'est retourné. À qui peut-il porter ce bouquet ? s'est demandé maman et moi : Comte, allez, sachez à qui est porté ce bouquet. "
+    },
+    {
+     "pid": "022.0458",
+     "file": "022/1874-08-07.md",
+     "why": [
+      "alias:Les Pattes de mouche",
+      "alias:Les pattes de mouche"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "culture/themes/THEATER_THEME.md",
+      "people/recurring/BOREEL.md"
+     ],
+     "french": "Je me reprochais Boreel mais dans \"Les pattes de mouche\" j'ai entendu une phrase qui me rassure. Quand on fait du thé on verse d'abord quelques gouttes d'eau chaude que l'on jette après, pour ôter l'amertume et ce qu'il y a de désagréable, et après on verse la première tasse pour laquelle reste toute la saveur moins l'amertume. Je ne sais le bien dire, mais le sens est le même. "
+    }
+   ]
+  },
+  {
+   "wid": "W235",
+   "title": "Flamarande",
+   "entry": "content/_original/_glossary/culture/literature/FLAMARANDE.md",
+   "target": "culture/literature/FLAMARANDE.md",
+   "display": "Flamarande_(George_Sand)",
+   "aliases": [
+    "Flamarande",
+    "Flamarande (George Sand)",
+    "Flamarande de George Sand",
+    "Les Deux Frères (George Sand)",
+    "\"Les deux frères\"",
+    "“Les deux frères”"
+   ],
+   "candidates": [
+    {
+     "pid": "097.0364",
+     "file": "097/1883-01-06.md",
+     "why": [
+      "alias:“Les deux frères”"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/DEATH.md",
+      "culture/themes/ART_WORLD.md",
+      "people/recurring/BASTIEN_LEPAGE.md",
+      "people/recurring/EMILE_BASTIEN_LEPAGE.md"
+     ],
+     "french": "Le char précédé magnifiquement de clairons, de militaires à cheval, d'une marche funèbre et de trois énormes tombereaux surchargés de couronnes cause une surprise que je nommerai volontiers déception. Mot dur mais juste pour les deux Bastien-Lepage[^2] qui l'ont construit. A travers les larmes arrachées par le spectacle grandiose j'ai reconnu les deux frères marchant tout près de leur œuvre, l'architecte tenant *presque* un cordon du poêle, et auquel son frère a généreusement accordé la préséance n'ayant pas besoin de cela pour être célèbre. Le char est bas comme écrasé de douleur, un drap de velours noir jeté en travers, quelques couronnes au hasard, un crêpe, le cercueil enveloppé du drape"
+    },
+    {
+     "pid": "099.0258",
+     "file": "099/1883-04-30.md",
+     "why": [
+      "alias:“Les deux frères”"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/LOVE.md",
+      "people/recurring/BASTIEN_LEPAGE.md",
+      "people/recurring/EMILE_BASTIEN_LEPAGE.md",
+      "people/artists/LOUISE_BRESLAU.md"
+     ],
+     "french": "Nous nous promenons ensemble et chaque fois que des amis à lui ou à nous viennent se jeter en travers je suis dans des inquiétudes incensées qu'il ne m'échappe. Enfin nous allons nous asseoir au buffet et prendre un peu de champagne. Moi entre les deux frères, Breslau à une table à côté, Jules n'aime pas son exposition. J'adore quand il me dit que c'est bien, il est sincère, indépendant, juste. Pas de parti pris, pas d'école, pas d'entêtement. "
+    },
+    {
+     "pid": "099.0299",
+     "file": "099/1883-05-01.md",
+     "why": [
+      "alias:“Les deux frères”"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/LOVE.md",
+      "people/recurring/RODOLPHE_JULIAN.md",
+      "people/recurring/EMILE_BASTIEN_LEPAGE.md",
+      "people/mentioned/GAVINI.md",
+      "people/mentioned/MME_MACKAY.md",
+      "people/recurring/BASTIEN_LEPAGE.md"
+     ],
+     "french": "C'est moi qui tourne et m'éloigne à chaque instant... de peur de voir arriver la Mackay ou de le gêner [Mots noircis: de le voir ?] désireux de partir. Et pendant que Gavini m'emmène voir je ne sais quoi dans d'autres salles, mes mères se quittent avec les deux frères. Alors nous retrouvons Julian à qui je fais des confidences exaltées... "
+    },
+    {
+     "pid": "099.0329",
+     "file": "099/1883-05-03.md",
+     "why": [
+      "alias:“Les deux frères”"
+     ],
+     "existing_tags": [
+      "people/recurring/BASTIEN_LEPAGE.md",
+      "people/recurring/EMILE_BASTIEN_LEPAGE.md"
+     ],
+     "french": "Les deux frères doivent dîner demain, à moins que... "
+    }
+   ]
+  },
+  {
+   "wid": "W219",
+   "title": "Hamlet (Shakespeare)",
+   "entry": "content/_original/_glossary/culture/theater/HAMLET_SHAKESPEARE.md",
+   "target": "culture/theater/HAMLET_SHAKESPEARE.md",
+   "display": "Hamlet_(Shakespeare)",
+   "aliases": [
+    "Hamlet de Shakespeare",
+    "fragments d'Hamlet",
+    "Hamlet en anglais",
+    "The Tragedy of Hamlet"
+   ],
+   "candidates": [
+    {
+     "pid": "057.0212",
+     "file": "057/1876-04-13.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/CENSORED_1887.md",
+      "culture/languages/ENGLISH.md",
+      "people/mentioned/ANTONELLI.md"
+     ],
+     "french": "Est-il parti *lui-même* ou l'a-t-on fait partir ? That is the question .[^7]  [^7]: ==*\"That is the question\"*== — in English in the original. Marie code-switches to Shakespeare's *Hamlet* for this existential dilemma. "
+    },
+    {
+     "pid": "063.0327",
+     "file": "063/1876-07-15.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/ANTONELLI.md",
+      "places/cities/ROME.md",
+      "culture/languages/ENGLISH.md"
+     ],
+     "french": "Est-il à Rome, ou n'est-il pas à Rome ? *That is the question.*[^1]  [^1]: *That is the question*: in English in the original, echoing Hamlet's «To be, or not to be, that is the question» (Shakespeare, *Hamlet* III.1). "
+    },
+    {
+     "pid": "086.0629",
+     "file": "086/1879-12-07.md",
+     "why": [
+      "alias:fragments d'Hamlet",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/SOCIETY.md",
+      "people/mentioned/MOUZAY.md",
+      "people/mentioned/BLANC.md",
+      "people/recurring/BOJIDAR.md",
+      "people/recurring/ALEXIS.md",
+      "people/mentioned/PRINCESS_KARAGEORGEVITCH.md",
+      "people/family/MAMAN.md",
+      "people/family/MA_TANTE.md",
+      "people/mentioned/SHAKESPEARE.md"
+     ],
+     "french": "A dîner les Mouzay et Blanc qui au lieu de faire la partie de ma tante récite des fragments d'Hamlet, couché devant ma cheminée et puis s'emparant tantôt de la mandoline , tantôt de la guitare, il chante et mime des sérénades. Bojidar et Alexis étaient là aussi, la Princesse, la mère Mouzay et mes mères restaient au salon bleu et nous chez moi. "
+    },
+    {
+     "pid": "098.0386",
+     "file": "098/1883-02-22.md",
+     "why": [
+      "alias:Hamlet en anglais",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/MUSIC_THEME.md",
+      "culture/themes/READING.md",
+      "culture/theater/HAMLET_THOMAS.md"
+     ],
+     "french": "Il y a des jouissances en dehors de tout, je suis très heureuse ce soir, je viens de lire Hamlet en anglais et je suis bercée par la musique d'Ambroise Thomas. "
+    }
+   ]
+  },
+  {
+   "wid": "W249",
+   "title": "Peinture de Bouguereau « volant » Raphaël",
+   "entry": "content/_original/_glossary/culture/art/BOUGUEREAU_EMPRUNT_A_RAPHAEL.md",
+   "target": "culture/art/BOUGUEREAU_EMPRUNT_A_RAPHAEL.md",
+   "display": "Bouguereau's_«theft»_from_Raphael",
+   "aliases": [
+    "un vol audacieux fait par Bouguereau, au préjudice de Raphaël",
+    "vol de Bouguereau à Raphaël"
+   ],
+   "candidates": [
+    {
+     "pid": "103.0067",
+     "file": "103/1884-01-18.md",
+     "why": [
+      "alias:un vol audacieux fait par Bouguereau, au préjudice de Raphaël",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md",
+      "people/artists/BOUGUEREAU.md",
+      "people/artists/RAPHAEL.md"
+     ],
+     "french": "Et ma sainte et profonde indignation en constatant un vol audacieux fait par Bouguereau, au préjudice de Raphaël, fait rire. "
+    },
+    {
+     "pid": "103.0068",
+     "file": "103/1884-01-18.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md"
+     ],
+     "french": "Ces choses-là ne touchent pas ces dames. Non, c'est inimaginable... ce qu'on retrouve d'emprunts, de vols infâmes dans tous nos peintres académiques. "
+    },
+    {
+     "pid": "103.0069",
+     "file": "103/1884-01-18.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md"
+     ],
+     "french": "Ces ignobles filous viennent au monde avec le dessein de \"suivre les traditions des maîtres\" et passent leur vie à transposer les compositions des maîtres. A celui-là un personnage, à tel autre un groupe entier, le tout tourné à droite au lieu d'à gauche et de baptiser et le tour est joué. Ceux qui ne seront pas indignés comme moi trouveront cela très bien. On peut à la rigueur excuser le procédé en disant que ces tricheurs méprisables *s'inspirent* des dieux de l'art. Quel vile canaillerie et que cela est honteux... Dans le monde abstrait [Mots noircis: pour ainsi dire], dans le domaine de l'art, de la pensée, de l'idée... Eh bien de ceux qui s'occupent de ces domaines fantastiques, je n'ai"
+    }
+   ]
+  },
+  {
+   "wid": "W161",
+   "title": "Gulliver's Travels",
+   "entry": "content/_original/_glossary/culture/literature/GULLIVERS_TRAVELS.md",
+   "target": "culture/literature/GULLIVERS_TRAVELS.md",
+   "display": "Gulliver's_Travels",
+   "aliases": [
+    "Gullivers Travels",
+    "Gulliver's Travels",
+    "Gulliver's travels",
+    "Gulliver",
+    "Travels",
+    "Voyages de Gulliver"
+   ],
+   "candidates": [
+    {
+     "pid": "016.0274",
+     "file": "016/1874-02-15.md",
+     "why": [
+      "alias:Gulliver",
+      "alias:Gulliver's Travels",
+      "alias:Gulliver's travels",
+      "alias:Travels",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/family/MA_TANTE.md",
+      "people/mentioned/OBELISQUE.md",
+      "people/mentioned/LAMBERTYE.md",
+      "culture/languages/ENGLISH.md",
+      "culture/themes/SOCIETY.md",
+      "culture/themes/APPEARANCE.md",
+      "people/aristocracy/DUCHESSE_DE_MOUCHY.md",
+      "people/aristocracy/DUC_DE_MOUCHY.md"
+     ],
+     "french": "Je demandai d'aller dans une loge, j'étouffais. Ma tante qui était plus vexée et plus fâchée que moi y serait allée, mais la duchesse de Mouchy, son mari et l'Obélisque arrivèrent, et encore une dame des leurs, et Lambertye et plusieurs autres (aux fauteuils) elle commença à les regarder, moi aussi et la loge est tombée dans l'eau. L'Obélisque est fort belle, mais il me semble que par ses mouvements elle remue l'air qui se transforme en ouragan et renverse le monde, qu'elle peut écraser un homme comme nous écrasons un insecte, enfin c'est un vrai obélisque de Louqsor. Lambertye était à côté d'elle ce qui la rendit aussi rose que sa robe et l'embellit beaucoup. Ce pauvre homme avait l'air d'u"
+    },
+    {
+     "pid": "060.0490",
+     "file": "060/1876-05-18.md",
+     "why": [
+      "alias:Travels"
+     ],
+     "existing_tags": [
+      "people/mentioned/COLLIGNON.md",
+      "people/family/MA_TANTE.md"
+     ],
+     "french": "Ma poitrine est oppressée, ma voix éteinte, ma figure morte. C'est bien heureux que ce soit ma tante et non Collignon.[^3]  [^3]: Collignon: Marie's former governess, by now a close family friend who accompanies her on travels and knows her too well to be deceived. "
+    },
+    {
+     "pid": "071.0506",
+     "file": "071/1877-05-30.md",
+     "why": [
+      "alias:Gulliver"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/META_DIARY.md",
+      "culture/themes/EMOTIONS.md"
+     ],
+     "french": "Je suis désagréablement impressionnée d'être si savante, mais il le faut, et quand j'y serai habituée, je penserai que c'est tout simple, je m'élèverai de nouveau dans cette pureté idéale qui est toujours quelque part au fond de l'âme, et alors ce sera encore mieux, je serai plus calme, plus fière, plus heureuse, parce que je saurai l'apprécier, bien qu'à présent je sois vexée, comme pour une autre. C'est que la femme qui écrit, et celle que je décris, font deux : Que me font à moi toutes ces tribulations ? J'enregistre, j'analyse, je copie la vie quotidienne de ma personne, mais à moi, à moi-même tout cela est bien indifférent. C'est mon orgueil, mon amour-propre, mon intérêt, ma peau, mes "
+    }
+   ]
+  },
+  {
+   "wid": "W175",
+   "title": "Ferréol",
+   "entry": "content/_original/_glossary/culture/theater/FERREOL_SARDOU.md",
+   "target": "culture/theater/FERREOL_SARDOU.md",
+   "display": "Ferréol_(Sardou)",
+   "aliases": [
+    "Ferréol",
+    "Ferreol",
+    "Ferréol de Sardou"
+   ],
+   "candidates": [
+    {
+     "pid": "050.0087",
+     "file": "050/1875-11-20.md",
+     "why": [
+      "alias:Ferreol",
+      "alias:Ferréol",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "culture/theater/FROU_FROU.md",
+      "places/theaters/THEATRE_DU_GYMNASE.md"
+     ],
+     "french": "Nous allons aller au Gymnase voir Ferréol[^ferreol]. Cela va sans doute me donner des idées amoureuses comme \"Frou-Frou\"[^froufrou].  [^ferreol]: *Ferréol*: Victorien Sardou's comedy, first played at the Théâtre du Gymnase on 17 November 1875.  [^froufrou]: *Frou-Frou*: the comedy by Henri Meilhac and Ludovic Halévy (Gymnase, 1869), whose heroine wrecks her marriage and dies. "
+    },
+    {
+     "pid": "050.0090",
+     "file": "050/1875-11-20.md",
+     "why": [
+      "alias:Ferreol",
+      "alias:Ferréol",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md"
+     ],
+     "french": "Ferréol ne m'a pas donné des idées amoureuses. C'est admirablement joué. Nous n'avons pu avoir qu'une avant-scène sur le théâtre ce qui ne nous permettait pas de voir le public pendant les entractes, mais en revanche nous voyions les actrices et les acteurs, les marquises et les femmes de chambre s'asseoir sur le même canapé, raconter toutes sortes de choses. C'était très intéressant. "
+    },
+    {
+     "pid": "050.0093",
+     "file": "050/1875-11-21.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/WINSLOW.md",
+      "places/cities/SPA.md"
+     ],
+     "french": "Ah ! j’oublie, hier en rentrant du théâtre j’ai causé avec Winslow. C’est à présent seulement que je me souviens qu’il m’a fait la cour à Spa. "
+    }
+   ]
+  },
+  {
+   "wid": "W212",
+   "title": "Marie Stuart (Ristori at the Apollo)",
+   "entry": "content/_original/_glossary/culture/theater/MARIA_STUARDA_SCHILLER.md",
+   "target": "culture/theater/MARIA_STUARDA_SCHILLER.md",
+   "display": "Maria_Stuart_(Schiller),_as_played_by_Ristori",
+   "aliases": [
+    "Maria Stuarda",
+    "Maria Stuart",
+    "Marie Stuart (Ristori)",
+    "la Ristori joue Marie Stuart",
+    "un acte de Marie Stuart"
+   ],
+   "candidates": [
+    {
+     "pid": "059.0244",
+     "file": "059/1876-04-24.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/LOVE.md",
+      "people/mentioned/ANTONELLI.md",
+      "people/family/MAMAN.md",
+      "places/cities/CORSO.md",
+      "places/theaters/APOLLO.md",
+      "people/artists/ADELAIDE_RISTORI.md"
+     ],
+     "french": "J'avais à raconter toute la journée mais je n'ai plus le souvenir de rien ! Je sais seulement que sur le Corso nous avons rencontré Antonelli deux ou trois fois, puis que maman a fait arrêter la voiture et qu'il accourut tout rayonnant et joyeux. Il était avec des amis, il fallait circuler et on l'a congédié après qu'il eut demandé si nous serions ce soir à la maison. Nous y serons, hélas ! Ce soir à l'Apollo la Ristori[^1] joue \"Marie Stuart\" et il n'y a pas une loge.  [^1]: Adelaide Ristori (1822–1906) — the most celebrated Italian tragic actress of the period. "
+    },
+    {
+     "pid": "068.0408",
+     "file": "068/1877-01-05.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/aristocracy/MME_ANITCHKOFF.md",
+      "people/recurring/ANITCHKOFF.md",
+      "people/mentioned/COLLIGNON.md",
+      "people/recurring/WALITSKY.md",
+      "people/core/DINA.md",
+      "culture/theater/AIDA_VERDI.md",
+      "culture/themes/FASHION.md",
+      "people/mentioned/BIHOVETZ.md",
+      "people/family/MA_TANTE.md",
+      "people/family/MAMAN.md"
+     ],
+     "french": "Donc ce soir il y a eu grande réception dans mon appartement illuminé comme tous les soirs. J'aime les lumières. Parmi les personnes de haute distinction présentes, on remarquait Mme Anitchkoff et ses trois filles, le général Bibi, Collignon, Walitsky, Dina, ma tante et maman. Je me tenais assise près de la cheminée m'appuyant sur un guéridon, les pieds royalement campés et coiffée d'un bonnet Marie Stuart, pas les pieds, moi. Les pieds sont placés dans des mules rouges faites par Rubini à l'imitation des chaussures égyptiennes qui m'ont frappée dans \"Aida\". "
+    },
+    {
+     "pid": "086.0321",
+     "file": "086/1879-09-27.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/FASHION.md",
+      "people/artists/ADELAIDE_RISTORI.md",
+      "culture/literature/MARY_STUART.md"
+     ],
+     "french": "Le soir, représentation au profit d'incendiés alsaciens. Un tas de choses, entre autres un acte de \"Marie Stuart\", joué par la grande, l'admirable, l'incomparable Ristori. On lui fait une ovation. Je suis mise à ravir, aussi n'y a-t-il personne d'amusant dans la salle. "
+    }
+   ]
+  },
+  {
+   "wid": "W188",
+   "title": "Mary Magdalene (Pitti)",
+   "entry": "content/_original/_glossary/culture/art/PENITENT_MAGDALENE_TITIAN.md",
+   "target": "culture/art/PENITENT_MAGDALENE_TITIAN.md",
+   "display": "Penitent_Magdalene_(Titian)",
+   "aliases": [
+    "Madeleine du Titien",
+    "une Madeleine du Titien",
+    "Penitent Magdalene (Titian)",
+    "Penitent Magdalene by Titian",
+    "Titian's Magdalene",
+    "Maddalena di Tiziano"
+   ],
+   "candidates": [
+    {
+     "pid": "043.0164",
+     "file": "043/1875-09-14.md",
+     "why": [
+      "alias:Madeleine du Titien",
+      "alias:une Madeleine du Titien",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/ART_WORLD.md",
+      "people/artists/TITIAN.md"
+     ],
+     "french": "Oh ! mais il y a une Madeleine du Titien qui m'a ravie. "
+    },
+    {
+     "pid": "053.0378",
+     "file": "053/1876-02-04.md",
+     "why": [
+      "alias:Madeleine du Titien",
+      "alias:une Madeleine du Titien",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/ART_WORLD.md",
+      "people/mentioned/VELASQUEZ.md",
+      "people/recurring/SAETONE.md",
+      "people/mentioned/ROBENSON.md",
+      "people/artists/TITIAN.md"
+     ],
+     "french": "Sapristi[^1] que c'est beau. Il y a une galerie avec des statues et des grandes fenêtres avec des rideaux rouges qui donnent une lumière enchanteresse. Sont-ils heureux ces princes ! Il y a là des Poussin, des Guercino, des Van Dyck et des Titien, d'une rare beauté. Un portrait de Diego Velasquez est admirable de naturel. Une Madeleine du Titien, mon peintre favori, une vraie Madeleine belle et avec l'expression qu'il faut. Et tous ces tableaux sont placés dans des salons magnifiques de richesse et de goût, de sorte que tout l'ensemble est vraiment surprenant. Tous ceux qui visitent inscrivent leurs noms dans le livre et j'écrivis: Mlle Marie Bashkirtseff, M. Saëtone, Miss Robenson.  [^1]: *"
+    }
+   ]
+  },
+  {
+   "wid": "W251",
+   "title": "Portrait de François Ier (Titien) / Titien et François Ier",
+   "entry": "content/_original/_glossary/culture/art/PORTRAIT_FRANCOIS_I_TITIEN.md",
+   "target": "culture/art/PORTRAIT_FRANCOIS_I_TITIEN.md",
+   "display": "Portrait_de_François_Ier_(Titian)",
+   "aliases": [
+    "le portrait de François 1er",
+    "le portrait de François Ier",
+    "portrait de François Ier par le Titien",
+    "Portrait of Francis I (Titian)",
+    "Titien et François Ier"
+   ],
+   "candidates": [
+    {
+     "pid": "093.0211",
+     "file": "093/1881-10-11.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/MUSIC_THEME.md",
+      "culture/themes/LOVE.md",
+      "people/mentioned/GUILLAUME_TELL.md",
+      "people/mentioned/POLLACK.md",
+      "people/mentioned/PANDOLINI.md",
+      "places/cities/PARIS.md",
+      "places/theaters/THEATRE_DES_ITALIENS.md",
+      "people/artists/TITIAN.md"
+     ],
+     "french": "Ce soir nous allons à l'opéra mais dans une loge sur la scène, joignez à cela \"Guillaume Tell[^1]\" et de mauvais chanteurs. Du public, je ne dis rien puisque je n'ai rien vu. Pollack fils nous accompagnait, et Pollak père est venu nous voir, il connaît le directeur et tous les artistes, il leur a parlé et quand Pandolini[^2] s'est approché je lui ai dit l'avoir entendu à Paris où il a admirablement chanté aux Italiens. C'est vrai qu'il a bien chanté et puis c'est un être superbe, un Titien, la désinvolture du portrait de François 1er et une tête à la Don Carlos moderne. Je crois vraiment que le petit artiste est amoureux de moi, je vous dis ça à propos de bottes... Je me trompe peut-être mai"
+    },
+    {
+     "pid": "093.0309",
+     "file": "093/1881-10-28.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ANIMALS.md",
+      "people/recurring/COCO_DOG.md",
+      "people/artists/TITIAN.md"
+     ],
+     "french": "Le condamné à mort se promenait dans la cour aussi libre que ceux qui ne sont là que pour un an ou deux, pour des bagatelles. Plusieurs de ces messieurs préfèrent la cuisine de famille à celle de l'établissement et leurs gracieuses compagnes leur apportent de délicieux dîners dont Coco ne voudrait certainement pas. [Mots noircis: Coco, surnommé l'assassin, on n'a jamais su pourquoi, et qui, chaque fois que ses collègues se conduisaient avec moi comme François 1er avec le Titien[^1]], leur sautait dessus sans aboyer, pour mordre plus sûrement.  [^1]: The anecdote is usually told of the Emperor Charles V, who stooped to pick up a brush Titian had dropped; Marie gives it to Francis I. "
+    }
+   ]
+  },
+  {
+   "wid": "W236",
+   "title": "Honorine",
+   "entry": "content/_original/_glossary/culture/literature/HONORINE_BALZAC.md",
+   "target": "culture/literature/HONORINE_BALZAC.md",
+   "display": "Honorine_(Honoré_de_Balzac)",
+   "aliases": [
+    "Honorine (Balzac)",
+    "Honorine (Honoré de Balzac)",
+    "Honorine de Balzac",
+    "Honorine, de Balzac"
+   ],
+   "candidates": [
+    {
+     "pid": "097.0191",
+     "file": "097/1882-12-05.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/META_DIARY.md",
+      "culture/themes/AMBITION.md",
+      "culture/themes/READING.md"
+     ],
+     "french": "Je sors de lire d'un trait \"Honorine[^1]\" et je voudrais posséder cette sublime éloquence de la plume afin qu'en me lisant on s'intéresse à ma plate existence. Il [Mots noircis: est curieux que] le récit de mes insuccès et de mon obscurité allait me donner ce que je cherche et chercherai encore... Mais je ne le saurai pas... Et d'ailleurs pour qu'on me lise et se débrouille dans ces milliers de pages ne faut-il pas que je devienne quelqu'un... ?  [^1]: *Honorine* (1843): a short novel by Balzac about a husband who secretly watches over and provides for the wife who has left him. "
+    },
+    {
+     "pid": "097.0221",
+     "file": "097/1882-12-09.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/themes/LOVE.md",
+      "culture/themes/EMOTIONS.md",
+      "culture/literature/BALZAC.md",
+      "places/cities/PARIS.md"
+     ],
+     "french": "Mais c'est moi, et puis elle s'est fait un idéal de bonheur et d'amour... Il faudrait tout citer. C'est tout à fait comme moi, aussi si on pouvait deviner ce qui se passe dans ma tête au théâtre, au bal et même pendant une conversation, on serait bien surpris et moi-même... Quel malheur qu'il soit mort, qu'il n'y en ait pas un comme cela à présent. Ah ! je ne serai donc jamais inspirée par quelqu'un que je pourrais aimer en déployant tous ces sentiments encore confus et qui feraient le bonheur d'un homme extraordinaire. Balzac est le plus grand génie... Et puis relisez les premières pages d' \"Honorine\" sur Paris et sur ce qui fait aimer Paris, ce que j'ai essayé si souvent de dire sans y arr"
+    }
+   ]
+  },
+  {
+   "wid": "W158",
+   "title": "Mabel Vaughan",
+   "entry": "content/_original/_glossary/culture/literature/MABEL_VAUGHAN.md",
+   "target": "culture/literature/MABEL_VAUGHAN.md",
+   "display": "Mabel_Vaughan_(Maria_Susanna_Cummins)",
+   "aliases": [
+    "Mabel Vaughan",
+    "Mabel Waughan"
+   ],
+   "candidates": [
+    {
+     "pid": "005.0023",
+     "file": "005/1873-05-22.md",
+     "why": [
+      "alias:Mabel Vaughan",
+      "alias:Mabel Waughan",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/THE_LAMPLIGHTER.md",
+      "culture/themes/READING.md",
+      "culture/languages/ENGLISH.md",
+      "culture/themes/TRAVEL.md",
+      "people/family/MAMAN.md",
+      "people/mentioned/KRUMLING.md",
+      "people/mentioned/RICE.md",
+      "places/cities/LYON.md"
+     ],
+     "french": "Le voyage jusqu'à Lyon était très agréable en compagnie de ces Américains; ils sont charmants et aimables. J'ai parlé anglais assez bien (j'écris cela et maman avec Krumling calcule les notes de l'autre côté de la table, et cela m'embrouille et je ne puis écrire). De Lyon nous étions avec des hommes; cela m'ennuyait car ils n'avaient pas l'air comme il faut. Je causais tout le temps et le livre que j'avais pris avec moi était inutile jusqu'à Lyon. Mais quand les Américains partirent I have looked for it, and found that it was lost, but I must buy one to finish it: \"Mabel Waughan\"[^005.0023.1] by the author of \"The Lamplighter\". Les Rice avaient un livre que je veux lire \"Satanella\"[^005.0023"
+    },
+    {
+     "pid": "006.0245",
+     "file": "006/1873-07-12.md",
+     "why": [
+      "alias:Mabel Vaughan",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/languages/ENGLISH.md",
+      "people/mentioned/BULWER.md",
+      "people/mentioned/MRS_HENRY_WOOD.md",
+      "culture/literature/MRS_HALLIBURTONS_TROUBLES_WOOD.md",
+      "culture/literature/THE_LAMPLIGHTER.md"
+     ],
+     "french": "\"The last days of Pompei\" by Bulwer [Lytton.] \"Mrs Haliburton's troubles\" by Mrs Henry Wood. \"Mabel Vaughan\" by the author of \"the Lamplighter\" \"The select works of Oliver Goldsmith\". "
+    }
+   ]
+  },
+  {
+   "wid": "W206",
+   "title": "Poltava (Les Amours de Mazeppa et Marie Kotchoubey)",
+   "entry": "content/_original/_glossary/culture/literature/POLTAVA_PUSHKIN.md",
+   "target": "culture/literature/POLTAVA_PUSHKIN.md",
+   "display": "Poltava_(Alexander_Pushkin)",
+   "aliases": [
+    "Poltava de Pouchkine",
+    "Les amours de Mazeppa et de Marie Kotchoubey",
+    "Les Amours de Mazeppa et Marie Kotchoubey",
+    "Mazeppa et Marie Kotchoubey"
+   ],
+   "candidates": [
+    {
+     "pid": "066.0577",
+     "file": "066/1876-10-01.md",
+     "why": [
+      "alias:Les amours de Mazeppa et de Marie Kotchoubey",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/historical/BASILE.md",
+      "places/cities/NAPLES.md",
+      "people/mentioned/PRINCE_SERGE_KOTCHOUBEY.md",
+      "places/residences/GAVRONZI.md",
+      "culture/themes/FASHION.md",
+      "places/residences/DIKANKA.md",
+      "culture/literature/PUSHKIN.md"
+     ],
+     "french": "J'étais en blanc comme aux courses de Naples, seulement j'avais un chapeau tout en plumes ou ailes noires, de cette forme du classique comme il faut russe, que je n'aime pas, mais qui est appropriée à la circonstance. La campagne du prince est à dix kilomètres de Gavronzi, cette fameuse Dikanka[^1] chanté par Pouchkine en même temps que \"Les amours de Mazeppa et de Marie Kotchoubey\", la dénonciation au tsar et l'exécution du prince Basile Kotchoubey.  [^1]: Dikanka was celebrated by Pushkin in *Poltava* (1829), which recounts the love between Hetman Mazeppa and Mariya Kochubey, and the execution of her father Prince Vasyl Kochubey by Peter the Great. The estate is also the setting of Gogol's"
+    },
+    {
+     "pid": "066.0584",
+     "file": "066/1876-10-01.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/historical/BASILE.md",
+      "culture/themes/ART_WORLD.md",
+      "culture/themes/HEALTH.md"
+     ],
+     "french": "Entrée au salon mauresque je m'assis et me suis presque trouvée mal. On me montra les tableaux, les statuettes, le portrait du Prince Basile et sa chemise tachée de sang suspendue dans une armoire à laquelle le portrait sert de battant.[^3]  [^3]: Prince Vasyl Kochubey (1640–1708), Ukrainian statesman, was executed by Peter the Great on charges of treason brought by Hetman Mazeppa. His bloodstained shirt was preserved by the family as a relic. "
+    }
+   ]
+  },
+  {
+   "wid": "W155",
+   "title": "Je ne suis qu'une herbagère",
+   "entry": "content/_original/_glossary/culture/music/JE_NE_SUIS_QU_UNE_HERBAGERE.md",
+   "target": "culture/music/JE_NE_SUIS_QU_UNE_HERBAGERE.md",
+   "display": "Je_ne_suis_qu'une_herbagère",
+   "aliases": [
+    "Je ne suis qu'une herbagère",
+    "Je ne suis quune herbagère"
+   ],
+   "candidates": [
+    {
+     "pid": "002.0240",
+     "file": "002/1873-03-09.md",
+     "why": [
+      "alias:Je ne suis qu'une herbagère",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/mentioned/SANTA_LUCIA.md",
+      "culture/themes/MUSIC_THEME.md",
+      "people/family/MAMAN.md",
+      "people/aristocracy/MME_HOWARD.md",
+      "people/mentioned/M_PATTON.md"
+     ],
+     "french": "Chez eux nous nous sommes promenées au jardin, puis à la maison, les enfants tellement gentils et aimables que c'est vraiment un plaisir d'aller chez eux. Nous étions sur le point de partir vers les cinq heures quand Mme Howard est rentrée et nous a dit qu'elle était chez maman et lui a demandé la permission de nous garder jusqu'au soir; nous restâmes donc. (Patton y était) Après le dîner nous allâmes au grand salon qui était sombre et les filles m'ont tellement priée de chanter, elles se sont mises à genoux, tous les enfants de même, nous avons beaucoup ri. J'ai chanté \"Santa Lucia\" \"Le soleil s'est levé\", \"Je ne suis qu'une herbagère\" et quelques roulades. Ils étaient tous tellement extasi"
+    },
+    {
+     "pid": "012.0140",
+     "file": "012/1873-11-09.md",
+     "why": [
+      "alias:Je ne suis qu'une herbagère",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/MUSIC_THEME.md",
+      "culture/themes/APPEARANCE.md",
+      "people/recurring/HELENE_HOWARD.md"
+     ],
+     "french": "Ces enfants s'imaginent que tout ce que je fais doit être bien et particulier, elles veulent, Hélène surtout, me prendre comme modèle. C'est ennuyeux que je ne sois pas jolie. On me supplie de chanter, on monte. Après mille refus je consens : \"Mais dans une chambre sombre\", je suis comme les rossignols je ne chante que dans l'obscurité. On alla dans une chambre sombre et j'ai chanté \"Je ne suis qu'une herbagère\". On est delighted, extasié, charmé. On sert le thé au salon d'entrée et nous mettons autour de la table du milieu. "
+    }
+   ]
+  },
+  {
+   "wid": "W170",
+   "title": "Dolorès (new opera)",
+   "entry": "content/_original/_glossary/culture/theater/DOLORES_AUTERI_MANZOCCHI.md",
+   "target": "culture/theater/DOLORES_AUTERI_MANZOCCHI.md",
+   "display": "Dolores_(Auteri-Manzocchi)",
+   "aliases": [
+    "\"Dolorès\"",
+    "Dolores di Auteri Manzocchi",
+    "Dolores (Auteri-Manzocchi)"
+   ],
+   "candidates": [
+    {
+     "pid": "053.0124",
+     "file": "053/1876-01-27.md",
+     "why": [
+      "alias:\"Dolorès\"",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/THEATER_THEME.md"
+     ],
+     "french": "Ce soir la première représentation de \"Dolorès\", nouvel opéra par un jeune maestro protégé et créé par la célèbre Gaietti. "
+    },
+    {
+     "pid": "053.0214",
+     "file": "053/1876-01-30.md",
+     "why": [
+      "alias:\"Dolorès\"",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md"
+     ],
+     "french": "- Oh ! vous êtes trop bon, vous parlez de la représentation de \"Dolorès\" ? c'était très joli. "
+    }
+   ]
+  },
+  {
+   "wid": "W167",
+   "title": "La figlia del reggimento",
+   "entry": "content/_original/_glossary/culture/theater/LA_FIGLIA_DEL_REGGIMENTO.md",
+   "target": "culture/theater/LA_FIGLIA_DEL_REGGIMENTO.md",
+   "display": "La_figlia_del_reggimento_(Donizetti)",
+   "aliases": [
+    "La figlia del reggimento",
+    "La figlia del regimento",
+    "La figlia del Regimento",
+    "\"La figlia del regimento\"",
+    "La fille du régiment"
+   ],
+   "candidates": [
+    {
+     "pid": "050.0817",
+     "file": "050/1875-12-16.md",
+     "why": [
+      "alias:\"La figlia del regimento\"",
+      "alias:La figlia del Regimento",
+      "alias:La figlia del reggimento",
+      "alias:La figlia del regimento",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/languages/ITALIAN.md",
+      "culture/themes/THEATER_THEME.md"
+     ],
+     "french": "Ce soir la première de \"La figlia del regimento\".[^1]  [^1]: *La figlia del reggimento* (The Daughter of the Regiment): opera by Donizetti (1840). "
+    },
+    {
+     "pid": "050.0929",
+     "file": "050/1875-12-18.md",
+     "why": [
+      "alias:\"La figlia del regimento\"",
+      "alias:La figlia del Regimento",
+      "alias:La figlia del regimento",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/SOCIETY.md",
+      "people/mentioned/COLLIGNON.md",
+      "people/mentioned/FRANCIA.md",
+      "people/mentioned/ROBENSON.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "people/core/DINA.md",
+      "people/mentioned/MARIE_SAPOGENIKOFF.md",
+      "people/mentioned/ANTONOFF.md",
+      "places/theaters/OPERA_NICE.md",
+      "people/family/MAMAN.md",
+      "people/mentioned/OLGA.md",
+      "people/mentioned/PRODGERS.md"
+     ],
+     "french": "Je suis rentrée à trois heures et demie. J'ai arpenté ma chambre, j'ai gémi, j'ai juré, puis peu à peu je me suis calmée et j'ai échangé quelques mots avec Collignon qui est chez moi, et brode un coussin ou je ne sais quoi. Alors j'ai l'idée d'aller à l'Opéra, c'est la lettre A[^5] une lettre élégante, et on donne \"La figlia del Regimento\", c'est presque une première, l'autre soir le bal de Francia a empêché beaucoup de venir. La Prodgers sera à l'Opéra ce soir, et la Pointue avec elle, je verrai ce que fera le Surprenant. J'attends avec impatience le retour de maman, on sonne, je cours sur l'escalier et je vois Dina et mes Grâces. Je n'aime pas à les voir depuis les tripotages avec Antonoff"
+    }
+   ]
+  },
+  {
+   "wid": "W230",
+   "title": "Le Passant",
+   "entry": "content/_original/_glossary/culture/theater/LE_PASSANT_COPPEE.md",
+   "target": "culture/theater/LE_PASSANT_COPPEE.md",
+   "display": "Le_Passant_(François_Coppée)",
+   "aliases": [
+    "Le Passant",
+    "Le passant",
+    "le Passant"
+   ],
+   "candidates": [
+    {
+     "pid": "093.0035",
+     "file": "093/1881-08-28.md",
+     "why": [
+      "alias:Le Passant",
+      "alias:Le passant",
+      "alias:le Passant",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/recurring/BOJIDAR.md",
+      "people/artists/SARAH_BERNHARDT.md",
+      "places/cities/LILLE.md",
+      "culture/themes/THEATER_THEME.md",
+      "places/social/BOIS_DE_BOULOGNE.md"
+     ],
+     "french": "# Dimanche 28 août 1881 Bojidar toute la journée. Nous nous promenons au Bois... Sarah étant à Lille et Bojidar n'allant la rejoindre que demain. Nous l'avons. Ô ivresse. Je flatte sa manie et nous ne parlons que de la femme célèbre. Ce satané Bojidar est tout de même adroit, il a inventé tout un roman, à l'âge de huit ans, il va voir \"Le passant[^1]\" et s'évanouit en entendant Sarah, depuis ce moment il a une adoration pour elle. (Il n'y a pas deux ans il m'en disait des horreurs et il n'était question de rien). Le voilà installé chez elle, intime du fils; ça ne lui coûte pas un sou. En hôte il a logé chez elle et y dînait tous les jours, traité comme le fils à peu près. Sans compter qu'il "
+    },
+    {
+     "pid": "105.0303",
+     "file": "105/1884-07-24.md",
+     "why": [
+      "alias:Le Passant",
+      "alias:Le passant",
+      "alias:le Passant",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/recurring/BOJIDAR.md",
+      "people/recurring/BASTIEN_LEPAGE.md",
+      "people/artists/SARAH_BERNHARDT.md",
+      "places/theaters/ODEON_THEATRE.md"
+     ],
+     "french": "Oh ! mais je vais arrêter ça moi. Cet intrigant va se faufiler chez Jules, un petit jeune homme enthousiaste, il s'est bien introduit chez Sarah en lui racontant que lorsque ses parents l'ont mené à l'Odéon voir \"Le passant[^sarah-passant]\", il s'était évanoui. A l'âge de douze ans ! Quelle canaille.  [^sarah-passant]: Sarah Bernhardt made her name in François Coppée's one-act play *Le Passant* at the Odéon in 1869, when Bojidar (born 1862) was seven, not twelve.  "
+    }
+   ]
+  },
+  {
+   "wid": "W229",
+   "title": "Macbeth (translation by Jean Richepin)",
+   "entry": "content/_original/_glossary/culture/theater/MACBETH_SHAKESPEARE.md",
+   "target": "culture/theater/MACBETH_SHAKESPEARE.md",
+   "display": "Macbeth_(Shakespeare,_translated_by_Jean_Richepin)",
+   "aliases": [
+    "Macbeth",
+    "Macbeth (traduction Richepin)",
+    "Macbeth de Richepin",
+    "Lady Macbeth"
+   ],
+   "candidates": [
+    {
+     "pid": "104.0591",
+     "file": "104/1884-06-16.md",
+     "why": [
+      "alias:Macbeth",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/THEATER_THEME.md",
+      "people/artists/SARAH_BERNHARDT.md",
+      "people/mentioned/GAVINI.md"
+     ],
+     "french": "Ce soir nous allons voir \"Macbeth\" (traduction Richepin) avec Sarah Bernhardt. Les Gavini sont avec nous. Denis devient tout à fait gâteux, depuis deux ans il a baissé ! "
+    },
+    {
+     "pid": "104.0593",
+     "file": "104/1884-06-16.md",
+     "why": [
+      "alias:Macbeth",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/THEATER_THEME.md",
+      "people/artists/SARAH_BERNHARDT.md"
+     ],
+     "french": "Comme ce serait beau si ces gens parlaient naturellement. Oh ! la déclamation ! Marais (Macbeth) est bon par moments, mais il lui échappe des intonations si fausses et si théâtrales que ça fait pitié. Avant je ne remarquai pas cela tellement. Sarah, elle est toujours admirable, malgré que sa voix d'or est devenue une voix ordinaire. "
+    }
+   ]
+  },
+  {
+   "wid": "split",
+   "title": "Moïse (Michelangelo)",
+   "entry": "content/_original/_glossary/culture/art/MOISE_MICHEL_ANGE.md",
+   "target": "culture/art/MOISE_MICHEL_ANGE.md",
+   "display": "Moïse_(Michelangelo)",
+   "aliases": [
+    "le Moïse de Michel-Ange",
+    "Moïse de Michel-Ange",
+    "Moses (Michelangelo)"
+   ],
+   "candidates": [
+    {
+     "pid": "105.0199",
+     "file": null,
+     "why": [
+      "cited in entry"
+     ],
+     "existing_tags": [],
+     "french": ""
+    }
+   ]
+  },
+  {
+   "wid": "W239",
+   "title": "L'Assommoir (roman)",
+   "entry": "content/_original/_glossary/culture/literature/L_ASSOMMOIR.md",
+   "target": "culture/literature/L_ASSOMMOIR.md",
+   "display": "L'Assommoir_(Zola)",
+   "aliases": [
+    "L'Assommoir",
+    "l'Assommoir",
+    "L'Assommoir (Zola)",
+    "L’Assommoir",
+    "\"l'Assommoir\""
+   ],
+   "candidates": [
+    {
+     "pid": "091.0057",
+     "file": "091/1881-02-03.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/READING.md"
+     ],
+     "french": "J'étais indignée de vivre et de manger pendant que ces horreurs se passent autour de moi plus bas... Tout le monde devrait le lire, on serait meilleur... Mais je suis calmée surtout parce que mon action isolée serait imperceptible. "
+    }
+   ]
+  },
+  {
+   "wid": "W203",
+   "title": "Si j'étais reine (mélodie 'de Caen')",
+   "entry": "content/_original/_glossary/culture/music/MELODIE_DE_CAEN.md",
+   "target": "culture/music/MELODIE_DE_CAEN.md",
+   "display": "\"Si_j'étais_reine\"_(la_mélodie_de_Caen)",
+   "aliases": [
+    "Si j'étais reine au beau pays de France",
+    "\"Si j'étais reine au beau pays de France\"",
+    "la mélodie de Caen",
+    "melodie de Caen",
+    "Melodie de Caen",
+    "mélodie de Caen"
+   ],
+   "candidates": [
+    {
+     "pid": "080.0526",
+     "file": "080/1878-06-09.md",
+     "why": [
+      "alias:Si j'étais reine au beau pays de France",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md"
+     ],
+     "french": "Si j'étais reine au beau pays de France "
+    }
+   ]
+  },
+  {
+   "wid": "W151",
+   "title": "Le Réveillon",
+   "entry": "content/_original/_glossary/culture/theater/LE_REVEILLON_MEILHAC_HALEVY.md",
+   "target": "culture/theater/LE_REVEILLON_MEILHAC_HALEVY.md",
+   "display": "Le_Réveillon_(Meilhac_and_Halévy)",
+   "aliases": [
+    "Le Réveillon",
+    "Le Reveillon",
+    "\"Le Réveillon\"",
+    "Le Réveillon par Ravel"
+   ],
+   "candidates": [
+    {
+     "pid": "014.0284",
+     "file": "014/1873-12-30.md",
+     "why": [
+      "alias:Le Reveillon",
+      "alias:Le Réveillon"
+     ],
+     "existing_tags": [
+      "people/core/DINA.md",
+      "people/recurring/GIOIA.md",
+      "culture/themes/WEATHER.md",
+      "culture/themes/FASHION.md",
+      "culture/themes/SOCIETY.md",
+      "places/social/CERCLE_DE_LA_MEDITERRANEE.md",
+      "places/cities/NICE.md",
+      "people/mentioned/KRASSOWSKY.md",
+      "people/mentioned/MONIER.md",
+      "people/family/MA_TANTE.md"
+     ],
+     "french": "Il fait terriblement froid, si froid que mon nez était rouge. Nous allons chez Monier, maman, ma tante, moi et Dina, mais pendant que *ces dames* essayaient j'ordonnai de passer par la promenade. Il y a musique militaire (robe brune, chapeau brun, bien) et quelque monde. Gioia avec une méchante toilette, à propos de Gioia, elle avait le réveillon chez elle, et vers la fin tout le monde était gris, alors Krassowsky lui proposa d'aller au cercle de la Méditerranée. Ils prirent un orgue de barbarie et allèrent au cercle, mais près de la porte Krassowsky tomba avec le nez contre la terre et on les chassa. Ce scandale a fait quelque bruit à Nice et j'avoue pour ma honte que j'adore entendre dire "
+    }
+   ]
+  },
+  {
+   "wid": "W253",
+   "title": "Ariane sur la panthère",
+   "entry": "content/_original/_glossary/culture/art/ARIANE_DE_DANNEKER.md",
+   "target": "culture/art/ARIANE_DE_DANNEKER.md",
+   "display": "Ariane_de_Danneker_(Dannecker,_Ariadne_on_the_Panther)",
+   "aliases": [
+    "Ariane de Danneker",
+    "Ariane de Dannecker",
+    "Ariane de Dannecker à Francfort",
+    "Ariadne on the Panther",
+    "Ariadne auf dem Panther"
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W178",
+   "title": "Isabelle de Bavière",
+   "entry": "content/_original/_glossary/culture/literature/ISABELLE_DE_BAVIERE.md",
+   "target": "culture/literature/ISABELLE_DE_BAVIERE.md",
+   "display": "Isabel_de_Baviere_(Dumas)",
+   "aliases": [
+    "Isabel de Baviere (Dumas)",
+    "Isabelle de Baviere",
+    "Isabelle de Bavière",
+    "Isabel de Baviere",
+    "Isabel de Bavière"
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W209",
+   "title": "La Recherche de l'absolu",
+   "entry": "content/_original/_glossary/culture/literature/LA_RECHERCHE_DE_L_ABSOLU_BALZAC.md",
+   "target": "culture/literature/LA_RECHERCHE_DE_L_ABSOLU_BALZAC.md",
+   "display": "La_Recherche_de_l'absolu_(Honoré_de_Balzac)",
+   "aliases": [
+    "La Recherche de l'absolu",
+    "La Recherche de l'Absolu",
+    "Recherche de l'Absolu"
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W208",
+   "title": "Le lys dans la vallée",
+   "entry": "content/_original/_glossary/culture/literature/LE_LYS_DANS_LA_VALLEE_BALZAC.md",
+   "target": "culture/literature/LE_LYS_DANS_LA_VALLEE_BALZAC.md",
+   "display": "Le_Lys_dans_la_vallée_(Honoré_de_Balzac)",
+   "aliases": [
+    "Le Lys dans la vallée",
+    "Le lys dans la vallée",
+    "lys dans la vallée",
+    "Le Lys dans la Vallée"
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W159",
+   "title": "Mrs Haliburton's Troubles",
+   "entry": "content/_original/_glossary/culture/literature/MRS_HALLIBURTONS_TROUBLES_WOOD.md",
+   "target": "culture/literature/MRS_HALLIBURTONS_TROUBLES_WOOD.md",
+   "display": "Mrs._Halliburton's_Troubles_(Mrs_Henry_Wood)",
+   "aliases": [
+    "Mrs. Halliburton's Troubles",
+    "Mrs Halliburton's Troubles",
+    "Mrs Haliburton's troubles",
+    "Mrs Haliburton's Troubles"
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W177",
+   "title": "Napoléon (Dumas)",
+   "entry": "content/_original/_glossary/culture/literature/NAPOLEON_BY_DUMAS.md",
+   "target": "culture/literature/NAPOLEON_BY_DUMAS.md",
+   "display": "Napoléon_(Alexandre_Dumas)",
+   "aliases": [
+    "Napoleon by Dumas",
+    "Napoléon de Dumas",
+    "Napoléon (Dumas)"
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W240",
+   "title": "Son Excellence Eugène Rougon",
+   "entry": "content/_original/_glossary/culture/literature/SON_EXCELLENCE_EUGENE_ROUGON.md",
+   "target": "culture/literature/SON_EXCELLENCE_EUGENE_ROUGON.md",
+   "display": "Son_Excellence_Eugène_Rougon_(Zola)",
+   "aliases": [
+    "Son Excellence Eugène Rougon",
+    "Son Excellence Eugène Rougon (Zola)",
+    "l'Eugène Rougon de Zola",
+    "Eugène Rougon de Zola",
+    "Eugène Rougon (Zola)"
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W174",
+   "title": "Hernani (play)",
+   "entry": "content/_original/_glossary/culture/theater/HERNANI.md",
+   "target": "culture/theater/HERNANI.md",
+   "display": "Hernani",
+   "aliases": [
+    "Hernani",
+    "Hernani"
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W145",
+   "title": "La forza del destino",
+   "entry": "content/_original/_glossary/culture/theater/LA_FORZA_DEL_DESTINO_VERDI.md",
+   "target": "culture/theater/LA_FORZA_DEL_DESTINO_VERDI.md",
+   "display": "La_forza_del_destino_(Verdi)",
+   "aliases": [
+    "La forza del destino",
+    "La Forza del destino",
+    "Forza del destino",
+    "\"La Forza del destino\""
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W261",
+   "title": "Les Mirabeau",
+   "entry": "content/_original/_glossary/culture/theater/LES_MIRABEAU_CLARETIE.md",
+   "target": "culture/theater/LES_MIRABEAU_CLARETIE.md",
+   "display": "Les_Mirabeau_(Jules_Claretie)",
+   "aliases": [
+    "Les Mirabeau (pièce)",
+    "Les Mirabeau de Claretie",
+    "drame Les Mirabeau"
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W168",
+   "title": "Dinorah (Le Pardon de Ploërmel)",
+   "entry": "content/_original/_glossary/culture/theater/LE_PARDON_DE_PLOERMEL.md",
+   "target": "culture/theater/LE_PARDON_DE_PLOERMEL.md",
+   "display": "Le_Pardon_de_Ploërmel_(Dinorah)",
+   "aliases": [
+    "Le Pardon de Ploërmel",
+    "Le pardon de Ploërmel",
+    "Dinorah",
+    "\"Dinorah\""
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W144",
+   "title": "Lucrezia Borgia",
+   "entry": "content/_original/_glossary/culture/theater/LUCREZIA_BORGIA_DONIZETTI.md",
+   "target": "culture/theater/LUCREZIA_BORGIA_DONIZETTI.md",
+   "display": "Lucrezia_Borgia_(Donizetti)",
+   "aliases": [
+    "Lucrezia Borgia",
+    "\"Lucrezia Borgia\"",
+    "Lucrezia Borgia de Donizetti"
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W149",
+   "title": "Nelly (ballet)",
+   "entry": "content/_original/_glossary/culture/theater/NELLY_BALLET.md",
+   "target": "culture/theater/NELLY_BALLET.md",
+   "display": "Nelly_(ballet,_Nice,_1873)",
+   "aliases": [
+    "\"Nelly\" (ballet)",
+    "Nelly (ballet)",
+    "le ballet Nelly"
+   ],
+   "candidates": []
+  },
+  {
+   "wid": "W146",
+   "title": "Zampa",
+   "entry": "content/_original/_glossary/culture/theater/ZAMPA_HEROLD.md",
+   "target": "culture/theater/ZAMPA_HEROLD.md",
+   "display": "Zampa_(Hérold)",
+   "aliases": [
+    "Zampa",
+    "\"Zampa\"",
+    "Zampa ou la Fiancée de marbre",
+    "Zampa, ou la Fiancée de marbre"
+   ],
+   "candidates": []
+  }
+ ],
+ "flags": []
+}

@@ -1,0 +1,1441 @@
+{
+ "works": [
+  {
+   "wid": "W210+W242",
+   "title": "Stendhal? passage copied in extenso (shy women)",
+   "entry": "content/_original/_glossary/culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "target": "culture/literature/DE_L_AMOUR_STENDHAL.md",
+   "display": "De_l'amour_(Stendhal)",
+   "aliases": [
+    "De l'amour (Stendhal)",
+    "De l'amour de Stendhal",
+    "\"L'amour\" de Stendhal",
+    "L'amour de Stendhal",
+    "Stendhal, De l'amour"
+   ],
+   "candidates": [
+    {
+     "pid": "080.0609",
+     "file": "080/1878-06-14.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md"
+     ],
+     "french": "Je trouve cela dans un livre et comme cela se rapporte à certaines choses qui me sont arrivées je le copie in extenso. Combien de fois il m'est arrivé d'avoir honte comme cela... mais lisez: "
+    },
+    {
+     "pid": "080.0610",
+     "file": "080/1878-06-14.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md"
+     ],
+     "french": "- \"Pour une femme timide et tendre rien ne doit être au-dessus du supplice de s'être permis en présence d'un homme quelque chose dont elle croit devoir rougir; je suis convaincu qu'une femme un peu fière préférerait mille morts. (Il ne faut même pas être timide et tendre pour cela). Une légère liberté prise du côté tendre par l'homme qu'on aime donne un moment de plaisir vif, s'il a l'air de le blâmer ou seulement de ne pas en jouir avec transport, elle doit laisser dans l'âme un doute affreux. "
+    },
+    {
+     "pid": "100.0330",
+     "file": "100/1883-07-14.md",
+     "why": [
+      "alias:\"L'amour\" de Stendhal"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/themes/FOURTH_WALL.md",
+      "people/mentioned/STENDHAL.md"
+     ],
+     "french": "Avez-vous lu \"L'amour\" de Stendhal[^100.0330.1] ? Je le lis à présent.  [^100.0330.1]: Stendhal, *De l'amour* (1822), an essay on how love is born and on its kinds; its terms *cristallisation*, *amour-goût* and *amour-passion* recur in this entry. "
+    },
+    {
+     "pid": "102.0408",
+     "file": "102/1883-12-02.md",
+     "why": [
+      "alias:\"L'amour\" de Stendhal"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/themes/LOVE.md",
+      "people/mentioned/STENDHAL.md"
+     ],
+     "french": "Je lis \"L'amour\" de Stendhal, il y a là des choses si vraies que c'est effrayant. Le chapitre de l'engouement est peut-être ce qui définit bien mes impressions . Il parle là \"d'âmes trop ardentes, ni ardentes par excès, amoureuses à crédit, si l'on peut ainsi dire, se jettent aux objets au lieu de les attendre. Avant que la sensation qui est la conséquence de la nature des objets, arrive jusqu'à elles, elles les couvrent de loin et avant de les voir de ce charme imaginaire dont elles trouvent en elles-mêmes une source inépuisable. Puis s'en approchant elles voient ces choses, non telles qu'elles sont mais telles qu'elles les ont faites, et jouissant d'elles-mêmes sous l'apparence de tel obje"
+    },
+    {
+     "pid": "100.0333",
+     "file": "100/1883-07-14.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/mentioned/LARDEREL.md",
+      "people/recurring/CASSAGNAC.md"
+     ],
+     "french": "Un amour de quinze ans et puis un entraînement maladif pour cet horreur de Larderel. Et puis ? Cassagnac ? Je l'ai oublié, celui-là et du reste il ne m'a attirée que par sa célébrité, la cristallisation[^100.0333.1] a été posthume si j'ose m'exprimer ainsi. Je l'ai aimé (??) de souvenir.  [^100.0333.1]: *Cristallisation*: Stendhal's image in *De l'amour* for the way the mind covers the loved one with perfections, like a bare branch left in a Salzburg salt mine that comes out covered in crystals. "
+    },
+    {
+     "pid": "100.0335",
+     "file": "100/1883-07-14.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/themes/LOVE.md",
+      "people/mentioned/STENDHAL.md"
+     ],
+     "french": "Stendhal parle des femmes comme de délicieuses créatures qui font des broderies au métier et il analyse leurs sentiments en conséquence. Je suis évidemment une exception, ces réflexions ne peuvent m'être applicables, aussi je me reconnais plutôt dans ses impressions personnelles qui sont d'un homme occupé, d'un homme de talent... Enfin. Alors c'est que je vais aimer un jour ? Qui ? Et ça va me bouleverser ? "
+    },
+    {
+     "pid": "100.0349",
+     "file": "100/1883-07-14.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "culture/themes/READING.md",
+      "culture/themes/FOURTH_WALL.md",
+      "people/mentioned/STENDHAL.md"
+     ],
+     "french": "Il est bien entendu qu'en parlant d'amour il n'est jamais question de l'amour définitif. Vous m'entendez, il s'agit de sentiment uniquement, car Stendhal distingue plusieurs amours[^100.0349.1] et l'Amour-goût me semble être le sentiment que j'ai quelquefois éprouvé. Mais le vrai, l'Amour-passion comme il dit est à venir.  [^100.0349.1]: Stendhal (*De l'amour*, ch. I) distinguishes four loves: *amour-passion*, *amour-goût*, physical love and love from vanity. "
+    },
+    {
+     "pid": "100.0351",
+     "file": "100/1883-07-14.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "culture/themes/READING.md",
+      "people/mentioned/STENDHAL.md",
+      "people/recurring/BASTIEN_LEPAGE.md"
+     ],
+     "french": "Non qu'il s'agisse d'amour entre nous mais.. Du reste il s'agit toujours de cela plus ou moins... Enfin Stendhal décrit la naissance de l'amour ainsi: 1) l'admiration, puis le bonheur qu'on aurait d'être aimé de cette femme ou de cet homme, 2) l'Espérance. "
+    },
+    {
+     "pid": "100.0353",
+     "file": "100/1883-07-14.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/recurring/BASTIEN_LEPAGE.md"
+     ],
+     "french": "Voici donc ce qui aurait pu se passer entre nous, mais avant seulement qu'il m'admire, je lui ai montré que je l'admirais à l'égal d'un héros, les hommes sont fats et les femmes aussi, il a pu croire que c'était \"des facilités à l'espérance\". De là point de cristallisation. "
+    },
+    {
+     "pid": "100.0354",
+     "file": "100/1883-07-14.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/themes/FOURTH_WALL.md",
+      "people/mentioned/STENDHAL.md",
+      "culture/literature/BALZAC.md"
+     ],
+     "french": "Lisez ce livre de Stendhal, il est ravissant et vous me comprendrez mieux. Donc il ne me reste plus que la pique d'amour-propre. Ce sera facile, j'y pensais déjà avant Stendhal. Je l'adore, lui Stendhal, et Balzac aussi parce qu'ils expriment mes pensées en un langage clair et admirable. "
+    },
+    {
+     "pid": "100.0356",
+     "file": "100/1883-07-14.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "culture/themes/META_DIARY.md",
+      "culture/themes/READING.md",
+      "people/core/DUKE_OF_HAMILTON.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "people/mentioned/LARDEREL.md",
+      "people/mentioned/STENDHAL.md"
+     ],
+     "french": "Lorsque j'étais amoureuse je n'éprouvai aucune haine contre la femme que je savais être la maîtresse de M. X. Du duc de Hamilton, du petit Audiffret ou de l'insignifiant Larderel. Au contraire, la vue de ces personnes m'était agréable, ces dames m'étaient presque chères à cause du Lui. J'ai noté cette impression en son temps dans cet illustre journal et j'y repense à propos de Stendhal qui dit que lorsqu'il voit sa plus cruelle ennemie mais qui approche continuellement son idole il ne peut arriver à la haïr tellement elle lui rappelle son objet. "
+    },
+    {
+     "pid": "100.0358",
+     "file": "100/1883-07-16.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md"
+     ],
+     "french": "# Lundi 16 juillet 1883 La cristallisation me préoccupe vivement et je suis convaincue qu’il y a un livre à faire sur les cristallisations innocentes, qui n’aboutissent pas. "
+    },
+    {
+     "pid": "100.0359",
+     "file": "100/1883-07-16.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "culture/themes/MARRIAGE.md",
+      "people/mentioned/STENDHAL.md",
+      "people/mentioned/ALEXANDRE_DUMAS_FILS.md"
+     ],
+     "french": "Moi par exemple chez qui l’amour [Rayé: passion] complet serait possible que dans le mariage ou toute autre jeune fille ou même une femme mariée à principes. Nous ne sommes pas exemptes pour cela des choses qui déterminent les cristalisations, ces cristallisations n’aboutissent pas, et permettez-moi de dire ici que je n’aime pas le mot *cristallisation* mais il évite comme dit Stendhal une longue phrase explicative, je l’emploie donc. Je disais, nous disions oui. [Rayé: l’amour commence] la cristallisation commence, si “l’objet a toutes les perfections” nous nous y laissons aller et nous arrivons à l’amour. C’est-à-dire que nous aimons, l’essentiel c’est d’aimer et non pas de pratiquer la ch"
+    },
+    {
+     "pid": "100.0361",
+     "file": "100/1883-07-16.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/recurring/CASSAGNAC.md",
+      "people/recurring/BASTIEN_LEPAGE.md"
+     ],
+     "french": "Il y avait commencement de cristallisation pour Cassagnac, je le raisonne, l’examine, c’est un tribun tapageur, l’Europe en parle, les femmes en sont folles, il est reçu par le Faubourg Saint-Germain. Je m’accorde la permission de l’aimer. La cristallisation continue et j’y arrive. Si je lui avais découvert alors quelque *déchet* aux yeux du monde, la cristallisation cesserait. Autre exemple, supposez que je sois préoccupée, et je le suis un peu je ne sais au juste pourquoi, de Bastien-Lepage. "
+    },
+    {
+     "pid": "100.0362",
+     "file": "100/1883-07-16.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md"
+     ],
+     "french": "Mais comme je ne puis me donner licence de m’emballer dans cette voie, la cristallisation ne se fera pas et point d’amour. "
+    },
+    {
+     "pid": "100.0365",
+     "file": "100/1883-07-16.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md"
+     ],
+     "french": "Il n’y aura plus d’obstacles, de défauts, l’objet aura toutes les perfections et la cristallisation se fera. "
+    },
+    {
+     "pid": "100.0366",
+     "file": "100/1883-07-16.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/mentioned/STENDHAL.md"
+     ],
+     "french": "Maintenant je vais noter toutes les impressions relatives à ce sentiment. La vue d’un chapeau qui ressemmble à celui de l’objet arrête les battements du cœur, dit Stendhal. Il rougissait en outre en entendant le coin de la porte près de laquelle habitait l’amie de sa bien-aimée. "
+    },
+    {
+     "pid": "100.0372",
+     "file": "100/1883-07-16.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "culture/themes/MARRIAGE.md",
+      "people/writers/SAINT_AMAND.md"
+     ],
+     "french": "Mais me voilà très attentive pour la cristallisation... Si j'étais mariée avec Saint-Amand ça permetterait d’être moins entière et de se contenter de cristallisations partielles. Je pourrais il me semble... Mais la plume rend si positives toutes ces divagations que je m’arrête. "
+    },
+    {
+     "pid": "100.0373",
+     "file": "100/1883-07-17.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md"
+     ],
+     "french": "# Mardi 17 juillet 1883 Toujours préoccupée des cristallisations, sans objet, hélas. "
+    },
+    {
+     "pid": "100.0378",
+     "file": "100/1883-07-17.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/mentioned/STENDHAL.md"
+     ],
+     "french": "Stendhal dit que l’amour vit d’espérance et de craintes des plus affreux malheurs. Eh bien c’est de l’amour alors ? L’équivalent. Ah ! il faut que l’objet soit irréprochable pour inspirer de tels sentiments. "
+    },
+    {
+     "pid": "100.0382",
+     "file": "100/1883-07-17.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "culture/themes/EMOTIONS.md",
+      "culture/themes/FOURTH_WALL.md",
+      "people/recurring/EMILE_BASTIEN_LEPAGE.md",
+      "people/recurring/BASTIEN_LEPAGE.md",
+      "people/recurring/RODOLPHE_JULIAN.md",
+      "people/artists/ROBERT_FLEURY.md",
+      "people/mentioned/STENDHAL.md"
+     ],
+     "french": "Un battement de cœur pour le frère de Bastien ? Mais oui, je vous ai expliqué cela. Ne suis-je pas quelquefois restée une heure entière à attendre Julian et Tony, et très agitée je vous prie de le croire. Et c’est encore comme ça et quand on sonne mon cœur palpite. Mais ce sont vraiment des inepties, ces battements de cœur n’ont rien à voir avec ceux de Stendhal. Alors expliquez-les ? Pourquoi ? Ce sont des amis avec lesquels j’aime bien passer une soirée, qui m’amusent, devant lesquels je crois briller. Et l’architecte surtout parce que je me figure qu’il m’adore. Voilà. J’embête mes lecteurs mais je note mes impressions. "
+    },
+    {
+     "pid": "100.0438",
+     "file": "100/1883-07-26.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/ART_PRACTICE.md",
+      "culture/themes/WEATHER.md",
+      "culture/themes/APPEARANCE.md",
+      "people/artists/SAINT_MARCEAUX.md"
+     ],
+     "french": "# Jeudi 26 juillet 1883 Le temps toujours incertain suspend mon tableau et j'ai démoli tous mes ensembles en terre sauf un qui n'est même pas en place encore et alors naturellement voilà Saint-Marceaux qui arrive... Attention aux battements du cœur, cristallisations etc. Je me hâte et remets deux robes, le fais attendre longtemps et le reçois enfin; mal arrangée et rouge. Ce matin je pensais justement à ce que chaque fois qu'il vient je suis laide. C'est ennuyeux... Il est très amusant, toujours indigné contre l'école moderne, les naturalistes et documents humains. Il faut chercher quelque chose qui est l'art et qu'on ne peut pas expliquer... "
+    },
+    {
+     "pid": "101.0018",
+     "file": "101/1883-08-12.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/mentioned/STENDHAL.md",
+      "places/schools/JULIAN.md",
+      "culture/themes/LOVE.md",
+      "people/recurring/BASTIEN_LEPAGE.md",
+      "people/artists/ROBERT_FLEURY.md"
+     ],
+     "french": "Suivre les préceptes de Stendhal, être gracieuse, lui faire sentir qu'il n'est pas Dieu sans le blesser, enfin l'ennui de penser que c'est son frère qui l'amène. Total énervement si grand que je suis incapable de quoique ce soit. Et pas même la perspective de passer une bonne soirée comme avec Julian et Tony, ennui, gêne, anxiété et tout cela pour rien. "
+    },
+    {
+     "pid": "101.0041",
+     "file": "101/1883-08-12.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md"
+     ],
+     "french": "[Rayé : C'est une impression...] J'avais l'esprit très préparé, il est arrivé par là-dessus et s'est trouvé en harmonie avec les cristallisations[^crystallization] préalables. Rien n'a juré entre mes songeries et ses paroles, il a été aussi... spirituel et aussi poétique que le héros imaginaire, de cette façon cela peut devenir dangereux.  [^crystallization]: *Crystallization*: Stendhal's term in *De l'Amour* (1822) for the process by which the imagination adorns the beloved with every perfection. "
+    },
+    {
+     "pid": "101.0051",
+     "file": "101/1883-08-12.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/mentioned/STENDHAL.md"
+     ],
+     "french": "ô cristallisations ! Stendhal tu es vrai.] "
+    },
+    {
+     "pid": "101.0071",
+     "file": "101/1883-08-13.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/STENDHAL.md"
+     ],
+     "french": "Stendhal y a aidé. "
+    },
+    {
+     "pid": "101.0333",
+     "file": "101/1883-09-13.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "people/mentioned/STENDHAL.md",
+      "culture/themes/READING.md"
+     ],
+     "french": "# Jeudi 13 septembre 1883 Je lis dans Stendhal que les peines paraissent moins amères lorsqu'on les idéalise. C'est excessivement juste. Comment idéaliser les miennes ? C'est impossible, elles sont si amères, si plates, si affreuses que je ne puis en parler même ici sans me blesser horriblement. "
+    },
+    {
+     "pid": "102.0055",
+     "file": "102/1883-10-24.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "culture/themes/READING.md",
+      "people/mentioned/STENDHAL.md"
+     ],
+     "french": "[Dans la marge: Mais ce sont tout bonnement les cristallisations de Stendhal, les fameuses cristallisations.[^1]]  [^1]: Stendhal's theory in *De l'Amour* (1822): the process by which the lover mentally adorns the beloved with imaginary perfections, like salt crystals accumulating on a bare branch. "
+    }
+   ]
+  },
+  {
+   "wid": "W163",
+   "title": "La Clef des songes",
+   "entry": "content/_original/_glossary/culture/literature/CLEF_DES_SONGES.md",
+   "target": "culture/literature/CLEF_DES_SONGES.md",
+   "display": "La_vraie_clef_des_songes_(dream_book)",
+   "aliases": [
+    "La vraie clef des songes",
+    "La Vraie Clef des Songes",
+    "Clef des songes",
+    "clef des songes",
+    "ma Clef des songes",
+    "ma clef des songes"
+   ],
+   "candidates": [
+    {
+     "pid": "023.0249",
+     "file": "023/1874-08-21.md",
+     "why": [
+      "alias:Clef des songes",
+      "alias:clef des songes",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/WEATHER.md",
+      "culture/themes/SUPERSTITION.md"
+     ],
+     "french": "Il fait un vent épouvantable. Je rentre et m'assieds près du balcon; avec La clef des songes contenant une chiromancie à la fin. "
+    },
+    {
+     "pid": "023.0289",
+     "file": "023/1874-08-23.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/DREAMS.md",
+      "culture/themes/SUPERSTITION.md"
+     ],
+     "french": "Ensuite j'ai mangé des ==varenikis==[^023.0289.r1] [sorte de chaussons] et j'ai vu une cuisine d'un grand ordre et d'une extraordinaire propreté. J'ai tout de suite consulté la clef.  [^023.0289.r1]: Written in Russian in the manuscript; French translation by the editor. "
+    },
+    {
+     "pid": "023.0378",
+     "file": "023/1874-08-28.md",
+     "why": [
+      "alias:Clef des songes",
+      "alias:clef des songes",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/SUPERSTITION.md",
+      "culture/themes/LOVE.md",
+      "people/mentioned/MERJEEWSKY.md"
+     ],
+     "french": "Comme le temps vole, voilà une semaine que je ne parle pas au comte, excepté bonjour et adieu. J'ai regardé dans La clef des songes, troisième mot à droite en ouvrant le livre pour savoir quoi penser de Merjeewsky - Attachement profond et inaltérable.- C'est charmant. "
+    },
+    {
+     "pid": "060.0462",
+     "file": "060/1876-05-18.md",
+     "why": [
+      "alias:Clef des songes",
+      "alias:clef des songes"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/mentioned/ANTONELLI.md",
+      "culture/themes/DREAMS.md"
+     ],
+     "french": "Peut-on ne pas croire aux rêves. Hier j'ai rêvé que ma chemise était sale et sentait mauvais et que je courais partout, en chemise et toute confuse. Ce qui veut dire, non pas selon la clef des songes, mais d'après mes propres remarques : honte, insulte, mépris. Or vous savez que le rêve a dit vrai. Quant à celui de cette nuit, il a été seulement drôle. Je n'ai pas pu dire hier que nous, moi et Antonelli, que nous avons expédié hier soir, devant tout le monde mais ne la lisant à personne, la dépêche suivante : "
+    }
+   ]
+  },
+  {
+   "wid": "W224",
+   "title": "Hymne russe (Bozhe, Tsarya khrani)",
+   "entry": "content/_original/_glossary/culture/music/HYMNE_RUSSE_LVOV.md",
+   "target": "culture/music/HYMNE_RUSSE_LVOV.md",
+   "display": "\"God_Save_the_Tsar!\"_(Russian_imperial_anthem)",
+   "aliases": [
+    "l'hymne russe",
+    "l'hymme russe",
+    "hymne russe",
+    "hymme russe",
+    "God Save the Tsar",
+    "Bozhe, Tsarya khrani"
+   ],
+   "candidates": [
+    {
+     "pid": "012.0093",
+     "file": "012/1873-11-07.md",
+     "why": [
+      "alias:hymme russe",
+      "alias:l'hymme russe"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/mentioned/HITCHCOCK.md"
+     ],
+     "french": "Ce soir j'ai fait et dit tant de bêtises surtout à Miss Hitchcock que j'en suis toute fatiguée. J'ai joué le serin disant que c'est l'hymme russe et ainsi de suite. "
+    },
+    {
+     "pid": "066.0222",
+     "file": "066/1876-09-14.md",
+     "why": [
+      "alias:hymne russe",
+      "alias:l'hymne russe"
+     ],
+     "existing_tags": [
+      "culture/themes/POLITICS.md",
+      "culture/themes/MUSIC_THEME.md"
+     ],
+     "french": "Les cris durèrent quelques minutes et ne cessèrent que lorsque le même chœur entonna l'hymne russe : *Dieu protège le Tsar*. "
+    },
+    {
+     "pid": "081.0605",
+     "file": "081/1878-08-03.md",
+     "why": [
+      "alias:hymme russe",
+      "alias:l'hymme russe",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/SOCIETY.md",
+      "culture/themes/FASHION.md",
+      "people/mentioned/M_MUHLE.md",
+      "people/aristocracy/MME_MUHLE.md",
+      "people/mentioned/DR_TOMACHEWSKY.md"
+     ],
+     "french": "On a de bonnes idées mais pas d'énergie. Le Docteur propose de faire jouer une polonaise et de l'exécuter à nous seuls; puis on veut faire jouer l'hymme russe et de défiler en triomphe. La sortie a du reste été assez réussie, aux sons du galop nous avons quitté la salle deux par deux en galopant un tant soit peu... M. Mühle tout à fait ivre quitte la cave et Mme Mühle quitte sa cuisine, ils vont se rencontrer dans les corridors et je crains que madame ne donne une chasse à monsieur à cause de la trop mince recette. Je n'ai pas besoin de vous dire, quelque Dourassoff que vous soyez, que tout le monde a été habillé comme le matin et que j'ai pris du thé en tournant le dos à des Allemands qui p"
+    },
+    {
+     "pid": "081.0624",
+     "file": "081/1878-08-05.md",
+     "why": [
+      "alias:hymme russe",
+      "alias:l'hymme russe",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/MUSIC_THEME.md",
+      "culture/themes/FASHION.md",
+      "people/mentioned/HOHENLOHE_PRINCES.md",
+      "culture/music/LA_MARSEILLAISE.md",
+      "places/cities/HOMBOURG.md",
+      "culture/music/ON_DIT_QUE_L_ON_TE_MARIE.md"
+     ],
+     "french": "Pour être scrupuleuse il faut dire que mes princes ont joué l'hymme russe. On dit que l'on te marie et la Marseillaise. Ensuite nous sommes allés à Hombourg qui est comme vous le savez ravissant, le parc est superbe et beaucoup d'Anglais comme il faut. On y est en Angleterre. Parmi les horribles toilettes il y en a de vraiment pittoresques mais invariablement gâtées par des pieds !... "
+    }
+   ]
+  },
+  {
+   "wid": "W195",
+   "title": "Poliuto",
+   "entry": "content/_original/_glossary/culture/theater/POLIUTO_DONIZETTI.md",
+   "target": "culture/theater/POLIUTO_DONIZETTI.md",
+   "display": "Poliuto_(Donizetti)",
+   "aliases": [
+    "Poliuto",
+    "Le Poliuto",
+    "\"Poliuto\"",
+    "Les Martyrs"
+   ],
+   "candidates": [
+    {
+     "pid": "001.0018",
+     "file": "001/1873-01-18.md",
+     "why": [
+      "alias:Les Martyrs"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "places/social/CERCLE_MASSENA.md",
+      "people/family/MAMAN.md",
+      "places/social/FRENCH_THEATER_NICE.md",
+      "people/recurring/BOREEL.md",
+      "places/cities/MERAN.md",
+      "places/theaters/LES_MARTYRS_DE_L_INQUISITION.md",
+      "culture/themes/SOCIETY.md",
+      "culture/themes/THEATER_THEME.md"
+     ],
+     "french": "Au cercle Masséna[^01.21.1], énormément de monde. Maman a dansé. Le soir, au Français, \"Les martyrs de l'inquisition\", par Méran. Boreel s'est approché de moi, mais moi, presque rien... Etrange !  [^01.21.1]: A private club in Nice, one of the city's exclusive circles (Kernberger 2013, glossary). "
+    },
+    {
+     "pid": "056.0292",
+     "file": "056/1876-04-01.md",
+     "why": [
+      "alias:Les Martyrs"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/ART_WORLD.md",
+      "people/mentioned/ANTONELLI.md"
+     ],
+     "french": "Nous avons visité les ruines des thermes de Caracalla. Est-il possible de voir quelque chose de plus grand. J'avais très peur de franchir le guichet car nous avions les poches pleines de fragments de mosaïque et de marbre sculpté. De là le cocher nous a menés dans une église, San Stephano Rotondo, je crois, qui se trouve tout près du couvent où est enfermé Pietro. Dans cette église qui est ronde, les murs sont couverts de fresques représentant les martyrs des premiers chrétiens. Il n'est pas possible de s'imaginer la moitié des atrocités qui y sont représentées. Moi-même j'en étais énervée. "
+    },
+    {
+     "pid": "070.0859",
+     "file": "070/1877-04-23.md",
+     "why": [
+      "alias:Les Martyrs"
+     ],
+     "existing_tags": [
+      "culture/themes/EMOTIONS.md",
+      "people/mentioned/ROSALIE.md",
+      "culture/themes/NATURE.md",
+      "people/mentioned/LARDEREL.md"
+     ],
+     "french": "L'air m'enivre, tout ce qu'il y a de jeune, de frais, de bon dans la nature s'épanouit et s'éclaire comme le jour si beau de Dieu. A force de raconter à Rosalie de la façon perfidement innocente les martyrs de Monsieur le comte, j'y crois un peu moi-même et je suis heureuse ! C'est l'air, c'est le matin, c'est le printemps. "
+    },
+    {
+     "pid": "090.0065",
+     "file": "090/1880-10-05.md",
+     "why": [
+      "alias:Les Martyrs"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/PHILOSOPHY.md"
+     ],
+     "french": "Arrivé à un certain point de douleur physique on perd connaissance ou l'on tombe en extase, de même pour les souffrances morales, arrivé à un certain point on plane, on s'étonne d'avoir souffert, on méprise tout et on marche la tête haute comme les martyrs. "
+    }
+   ]
+  },
+  {
+   "wid": "W243",
+   "title": "Les Douze Césars",
+   "entry": "content/_original/_glossary/culture/literature/LES_DOUZE_CESARS.md",
+   "target": "culture/literature/LES_DOUZE_CESARS.md",
+   "display": "Les_Douze_Césars_(Suétone)",
+   "aliases": [
+    "Les Douze Césars",
+    "Vie des douze Césars",
+    "Vies des douze Césars",
+    "Suétone",
+    "Suétone (Les Douze Césars)",
+    "Suetonius",
+    "De vita Caesarum",
+    "The Twelve Caesars"
+   ],
+   "candidates": [
+    {
+     "pid": "052.0105",
+     "file": "052/1876-01-12.md",
+     "why": [
+      "alias:Suetonius"
+     ],
+     "existing_tags": [
+      "culture/themes/SOCIETY.md",
+      "people/mentioned/RICARDO.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "places/cities/NICE.md",
+      "people/recurring/SAETONE.md",
+      "people/mentioned/PRODGERS.md"
+     ],
+     "french": "Je reçois une lettre de Ricardo, ce charmant ami me donne toutes les nouvelles de Nice. Prodgers a fait une soirée et tout le monde est allé chez elle. \"Audiffret et Suetonius se disputaient les regards de la maîtresse de maison et à deux heures du matin chacun s'est en allé tout heureux et tout content d'avoir été chez Mme Prodgers. "
+    },
+    {
+     "pid": "102.0345",
+     "file": "102/1883-11-28.md",
+     "why": [
+      "alias:Suétone",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "people/writers/PLUTARQUE.md",
+      "culture/art/MEURTRE_DE_CESAR.md",
+      "culture/literature/PARALLEL_LIVES.md"
+     ],
+     "french": "Donc ça fait, je rentre et saute sur Suétone et Plutarque. Montesquieu adore le récit du meurtre dans Plutarque. Quelle académicien. "
+    },
+    {
+     "pid": "102.0346",
+     "file": "102/1883-11-28.md",
+     "why": [
+      "alias:Suétone",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/READING.md",
+      "culture/art/MEURTRE_DE_CESAR.md"
+     ],
+     "french": "C'est arrangé et éloquent tandis que dans Suétone ça fait frémir, c'est un procès verbal qui fait froid dans le dos. Quel prestige étonnant ont donc les grands hommes pour qu'au bout de plusieurs [Mots noircis: siècles leur] vie et leur mort nous fasse frémir et pleurer. "
+    }
+   ]
+  },
+  {
+   "wid": "W176",
+   "title": "Le Panache",
+   "entry": "content/_original/_glossary/culture/theater/LE_PANACHE_GONDINET.md",
+   "target": "culture/theater/LE_PANACHE_GONDINET.md",
+   "display": "Le_Panache_(Gondinet)",
+   "aliases": [
+    "Le Panache",
+    "\"Le Panache\"",
+    "Le Panache (Palais-Royal)"
+   ],
+   "candidates": [
+    {
+     "pid": "049.0370",
+     "file": "049/1875-11-13.md",
+     "why": [
+      "alias:\"Le Panache\"",
+      "alias:Le Panache",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "places/cities/PARIS.md",
+      "places/cities/PALAIS_ROYAL.md"
+     ],
+     "french": "Pendant que les miens s'habillent pour le théâtre je m'enferme chez moi et pleure. On donne \"Le Panache\"[^panache], pour la première fois, le grand succès du Palais Royal, à Paris.  [^panache]: *Le Panache*: a three-act comedy by Edmond Gondinet (1875). "
+    },
+    {
+     "pid": "055.0503",
+     "file": "055/1876-03-10.md",
+     "why": [
+      "alias:\"Le Panache\"",
+      "alias:Le Panache",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "people/mentioned/TORLONIA.md",
+      "people/mentioned/PRATER.md",
+      "places/theaters/TEATRO_VALLE.md"
+     ],
+     "french": "Pas de Torlonia. Je nomme Prater Torlonia, je ne parle que de Torlonia. Et le soir nous allons au Théâtre Valle, on donne \"Le Panache\"[^panache], une troupe française.  [^panache]: *Le Panache*: Edmond Gondinet's comedy (1875); see 049.0370. "
+    },
+    {
+     "pid": "098.0259",
+     "file": "098/1883-02-01.md",
+     "why": [
+      "alias:Le Panache"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/POLITICS.md",
+      "culture/themes/SOCIETY.md",
+      "people/mentioned/ODETTE.md",
+      "people/mentioned/GAVINI.md",
+      "places/social/CHAMBRE_DES_DEPUTES.md",
+      "people/politicians/JOLIBOIS.md"
+     ],
+     "french": "Vous pensez si ces pauvres parlementaires sont heureux de voir arriver vers onze heures ces quatre femmes si élégantes ! Paul Leroux, Roy de Loulay, Gavini, Jolibois et d'autres sont réquisitionnés et nous entrons dans la tribune du Président... Je sens que je suis bien, du reste plusieurs ont demandé à Gavini qui sont ces jolies femmes... Le panache rouge d'Odette et ma plume grise... Odette a quarante ans mais encore belle... Les beaux discours sont finis, on vote, on vote, on vote; deux discours... Un de Madier de Montjan, moi j'aime bien ce vieux républicain... C'est fini à minuit. On a voté la loi Fabre... Absurde... Enlever les grades aux princes... Expulser ou exiger renonciation. "
+    }
+   ]
+  },
+  {
+   "wid": "W250",
+   "title": "Andromaque (Rochegrosse)",
+   "entry": "content/_original/_glossary/culture/art/ANDROMAQUE_ROCHEGROSSE.md",
+   "target": "culture/art/ANDROMAQUE_ROCHEGROSSE.md",
+   "display": "Andromaque_(Rochegrosse)",
+   "aliases": [
+    "la grande toile du jeune Rochegrosse",
+    "le jeune tableau du jeune Rochegrosse",
+    "Andromaque de Rochegrosse",
+    "Andromaque et Astyanax",
+    "Andromache (Rochegrosse)"
+   ],
+   "candidates": [
+    {
+     "pid": "099.0367",
+     "file": "099/1883-05-06.md",
+     "why": [
+      "alias:la grande toile du jeune Rochegrosse",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/ART_WORLD.md",
+      "people/mentioned/ROCHEGROSSE.md",
+      "people/recurring/ALEXIS.md",
+      "people/mentioned/PERE_VASSILIEFF.md"
+     ],
+     "french": "Princesse, Alexis, le pope à dîner. On fait un tapage énorme de la grande toile du jeune Rochegrosse. On arrache à Andromaque son fils Astyanax pour le précipiter du haut des remparts. C'est de l'antique original et moderne. Il ne suit personne et ne s'inspire de personne. La couleur et la peinture sont d'une vigueur sans pareille. Il n'y a personne à l'heure qu'il est qui pourriat faire cela. Ajouter à cela qu'il est le beau-fils de M. Théodore de Bainville, voilà pour la presse. Enfin, nonobstant ce détail c'est un tempérament prodigieux. Il n'a que vingt-quate ans et c'est sa deuxième exposition. Voilà comment il faudrait être, composition, dessin, couleur, tout est d'une fougue incompara"
+    },
+    {
+     "pid": "100.0122",
+     "file": "100/1883-06-10.md",
+     "why": [
+      "alias:le jeune tableau du jeune Rochegrosse",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md",
+      "people/mentioned/ROCHEGROSSE.md"
+     ],
+     "french": "Il y a toujours foule devant le jeune tableau du jeune Rochegrosse. C'est très puissant, c'est incontestable mais ça me laisse froide. Mais qu'est-ce qui ne me laisse pas froide ? "
+    }
+   ]
+  },
+  {
+   "wid": "W252",
+   "title": "Le Penseur (Il Pensieroso)",
+   "entry": "content/_original/_glossary/culture/art/IL_PENSIEROSO_MICHEL_ANGE.md",
+   "target": "culture/art/IL_PENSIEROSO_MICHEL_ANGE.md",
+   "display": "Il_Pensieroso_(Michelangelo)",
+   "aliases": [
+    "le penseur de Michel-Ange",
+    "le Penseur de Michel-Ange",
+    "Il Pensieroso",
+    "Michelangelo's Il Pensieroso",
+    "statue of Lorenzo de' Medici, Duke of Urbino"
+   ],
+   "candidates": [
+    {
+     "pid": "105.0197",
+     "file": "105/1884-07-15.md",
+     "why": [
+      "alias:le Penseur de Michel-Ange",
+      "alias:le penseur de Michel-Ange",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/MICHEL_ANGE.md",
+      "culture/themes/ART_WORLD.md"
+     ],
+     "french": "Comparez le penseur de Michel-Ange à tous les groupes les plus mouvementés. "
+    },
+    {
+     "pid": "105.0199",
+     "file": "105/1884-07-15.md",
+     "why": [
+      "alias:Il Pensieroso",
+      "alias:statue of Lorenzo de' Medici, Duke of Urbino",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "people/mentioned/MICHEL_ANGE.md",
+      "culture/themes/ART_WORLD.md"
+     ],
+     "french": "Voyez le Moïse de Michel-Ange. Il est immobile mais il est vivant. Son Penseur[^105.0199.1] ne remue pas, ne parle pas, mais c'est parce qu'il ne le veut pas; c'est un homme vivant qui est absorbé par ses pensées.  [^105.0199.1]: Michelangelo's seated statue of Lorenzo de' Medici, Duke of Urbino, in the Medici Chapel of San Lorenzo, Florence, known as *Il Pensieroso* («the Thinker»); his *Moses* is in San Pietro in Vincoli, Rome. "
+    }
+   ]
+  },
+  {
+   "wid": "W260",
+   "title": "Portrait of don Carlos (Bonnat)",
+   "entry": "content/_original/_glossary/culture/art/PORTRAIT_DON_CARLOS_BONNAT.md",
+   "target": "culture/art/PORTRAIT_DON_CARLOS_BONNAT.md",
+   "display": "Portrait_de_don_Carlos_(Bonnat)",
+   "aliases": [
+    "le portrait de don Carlos par Bonnat",
+    "portrait de don Carlos par Bonnat",
+    "Bonnat's portrait of Don Carlos"
+   ],
+   "candidates": [
+    {
+     "pid": "080.0011",
+     "file": "080/1878-05-05.md",
+     "why": [
+      "alias:portrait de don Carlos par Bonnat",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/mentioned/DON_CARLOS.md",
+      "people/mentioned/BONNAT.md",
+      "culture/themes/ART_WORLD.md"
+     ],
+     "french": "J'ai été très surprise du portrait de don Carlos par Bonnat. Mal dessiné, faux de ton et peu de ressemblance. "
+    },
+    {
+     "pid": "085.0071",
+     "file": "085/1879-05-12.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/ART_WORLD.md",
+      "people/mentioned/BONNAT.md",
+      "people/artists/LOUISE_BRESLAU.md",
+      "people/mentioned/VICTOR_HUGO.md"
+     ],
+     "french": "Rien de *vrai,* rien qui vibre, qui chante, qui empoigne, qui donne le frisson, qui fasse pleurer. Je ne parle pas de la sculpture, je n'en ai jamais assez vue pour en parler. Quant on voit les atroces papillotements des tableaux de genre et les horribles médiocrités prétentieuses, les portraits ordinaires ou *bons,* on est près d'être écœuré. Pour aujourd'hui je n'ai trouvé de bien que le portrait de Victor Hugo par Bonnat, mais Bonnat a déjà tout donné, il n'y a plus rien à attendre de lui; et puis et peut-être même d'abord, la toile de Breslau. "
+    }
+   ]
+  },
+  {
+   "wid": "W214",
+   "title": "Samson Fountain (Peterhof)",
+   "entry": "content/_original/_glossary/culture/art/SAMSON_FOUNTAIN_PETERHOF.md",
+   "target": "culture/art/SAMSON_FOUNTAIN_PETERHOF.md",
+   "display": "Samson_Fountain_(Peterhof)",
+   "aliases": [
+    "Samson Fountain",
+    "fontaine Samson",
+    "canal Samson",
+    "le Samson terrassant un tigre",
+    "Samson terrassant un tigre",
+    "Samson tearing open the lion's jaws"
+   ],
+   "candidates": [
+    {
+     "pid": "064.0473",
+     "file": "064/1876-08-09.md",
+     "why": [
+      "alias:Samson Fountain",
+      "inventory"
+     ],
+     "existing_tags": [
+      "places/cities/PETERHOF.md"
+     ],
+     "french": "A six heures les mille fontaines de Péterhof[^4] furent lancées. On ne peut s'imaginer rien de plus beau.  [^4]: Peterhof's Grand Cascade featured 64 fountains and 255 statues; the centrepiece was the Samson Fountain described in the next paragraph. "
+    },
+    {
+     "pid": "064.0475",
+     "file": "064/1876-08-09.md",
+     "why": [
+      "alias:Samson Fountain",
+      "alias:canal Samson",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/POLITICS.md",
+      "places/cities/PETERHOF.md",
+      "people/historical/PETER_THE_GREAT.md",
+      "people/historical/CATHERINE_THE_GREAT.md",
+      "people/royalty/ALEXANDER_II.md"
+     ],
+     "french": "Le canal bordé de jets d'eaux gigantesques et qui semblent petits en comparaison du Samson[^5] terrassant un tigre, de la gueule béante de laquelle l'eau s'élance presque aussi haut que les deux terrasses superposées au sommet desquelles se trouve le palais de l'Empereur, édifice jaune et peu remarquable sinon de souvenir de Pierre le Grand et de Catherine. Ce canal Samson et le palais en perspective sont d'un effet rare. Péterhof est habité par l'Empereur, les grands-ducs et les grandes-duchesses. Ils y ont chacun sa retraite d'été, sa villa. Et dans les allées on ne rencontre que voitures impériales. On se sent tout embrasé du respect et d'adoration pour l'Empereur et pour la maison régnan"
+    }
+   ]
+  },
+  {
+   "wid": "W232",
+   "title": "L'Homme-femme",
+   "entry": "content/_original/_glossary/culture/literature/L_HOMME_FEMME_DUMAS_FILS.md",
+   "target": "culture/literature/L_HOMME_FEMME_DUMAS_FILS.md",
+   "display": "L'Homme-femme_(Alexandre_Dumas_fils)",
+   "aliases": [
+    "L'Homme-femme",
+    "l'Homme-femme",
+    "L'Homme-Femme",
+    "Homme-femme",
+    "femme du Temple",
+    "femmes de temple"
+   ],
+   "candidates": [
+    {
+     "pid": "066.0171",
+     "file": "066/1876-09-12.md",
+     "why": [
+      "alias:Homme-femme",
+      "alias:L'Homme-Femme",
+      "alias:L'Homme-femme",
+      "alias:l'Homme-femme"
+     ],
+     "existing_tags": [
+      "places/cities/POLTAVA.md",
+      "people/family/PAPA.md",
+      "people/historical/PETER_THE_GREAT.md",
+      "people/mentioned/DINA_BEDRIAGA.md"
+     ],
+     "french": "# Mardi 12 septembre 1876 (31 août) Une journée à Poltava ! C'est merveilleux. Ne sachant que faire, mon père me mena à pied par la ville et nous avons eu la chance de voir la colonne de Pierre le Grand qui se trouve au milieu du jardin de la ville, et Mlle Bediagra, l'homme-femme, qui se trouve partout. "
+    },
+    {
+     "pid": "085.0096",
+     "file": "085/1879-05-18.md",
+     "why": [
+      "alias:Homme-femme",
+      "alias:L'Homme-Femme",
+      "alias:L'Homme-femme",
+      "alias:femme du Temple",
+      "alias:l'Homme-femme",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/LOVE.md",
+      "culture/themes/MARRIAGE.md",
+      "people/mentioned/JEANNE_DE_BALLORE.md"
+     ],
+     "french": "Pauvre femme, elle le déteste comme je détestais le Polonais... vous comprenez dans ce cas il vaut mieux se noyer que de vivre avec le mari. D'ailleurs je crois que Jeanne ne pourrait aimer personne... c'est une femme du Temple[^085.0096.1], si vous avez lu \"L'Homme-Femme\".  [^085.0096.1]: In Alexandre Dumas fils's pamphlet *L'Homme-Femme* (1872) women are of three kinds: *la femme du temple*, *la femme du foyer* and *la femme de la rue* (of the temple, the hearth and the street); the woman of the temple is the one set apart from marriage and its passions. "
+    }
+   ]
+  },
+  {
+   "wid": "W181",
+   "title": "Noctes Atticae (Aulu-Gelle)",
+   "entry": "content/_original/_glossary/culture/literature/NOCTES_ATTICAE.md",
+   "target": "culture/literature/NOCTES_ATTICAE.md",
+   "display": "Noctes_Atticae_(Aulus_Gellius,_\"Attic_Nights\")",
+   "aliases": [
+    "Noctes Atticae",
+    "Nuits attiques",
+    "Attic Nights",
+    "un passage d'Aulu-Gelle",
+    "cette pièce d'Aulu-Gelle"
+   ],
+   "candidates": [
+    {
+     "pid": "034.0363",
+     "file": "034/1875-06-17.md",
+     "why": [
+      "alias:Attic Nights",
+      "alias:Noctes Atticae",
+      "alias:cette pièce d'Aulu-Gelle",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/AULU_GELLE.md"
+     ],
+     "french": "Mystère plus incompréhensible que l'Apocalypse, plus incompréhensible que cette pièce d'Aulu-Gelle[^034.0363.1] -qu'on n'a jamais pu comprendre.  [^034.0363.1]: Aulus Gellius (2nd century AD), Roman author of the *Noctes Atticae* (*Attic Nights*), a miscellany of grammar, philosophy and antiquarian lore; Marie translated him in her Latin lessons (037/1875-07-15). "
+    },
+    {
+     "pid": "037.0009",
+     "file": "037/1875-07-15.md",
+     "why": [
+      "alias:Attic Nights",
+      "alias:Noctes Atticae",
+      "alias:un passage d'Aulu-Gelle",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/LOVE.md",
+      "people/recurring/EMILE_D_AUDIFFRET.md",
+      "people/family/MA_TANTE.md"
+     ],
+     "french": "Enfin jusqu'à déjeuner je ne fais qu'aller aux fenêtres. Je traduisais très tranquillement un passage d'Aulu-Gelle[^037.0009.1] quand ma tante vient me demander avec un air malicieux si je ne suis pas à la fenêtre car il y est.  [^037.0009.1]: Aulus Gellius (2nd century AD), Roman author of the *Noctes Atticae* (*Attic Nights*), a miscellany of notes on grammar, philosophy, law and antiquarian lore. "
+    }
+   ]
+  },
+  {
+   "wid": "W258",
+   "title": "Faust: 'Ah je ris de me voir si belle' (Jewel Song)",
+   "entry": "content/_original/_glossary/culture/music/AIR_DES_BIJOUX_FAUST.md",
+   "target": "culture/music/AIR_DES_BIJOUX_FAUST.md",
+   "display": "\"Ah_!_je_ris_de_me_voir_si_belle\"_(Faust,_Jewel_Song)",
+   "aliases": [
+    "Ah je ris de me voir si belle",
+    "Ah ! je ris de me voir si belle",
+    "air des bijoux",
+    "l'air des bijoux",
+    "Air des bijoux"
+   ],
+   "candidates": [
+    {
+     "pid": "011.0153",
+     "file": "011/1873-10-21.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/MUSIC_THEME.md",
+      "culture/theater/FAUST.md"
+     ],
+     "french": "Je chantais la légende de Faust: "
+    },
+    {
+     "pid": "024.0102",
+     "file": "024/1874-09-25.md",
+     "why": [
+      "alias:Ah je ris de me voir si belle",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/APPEARANCE.md",
+      "culture/themes/FASHION.md",
+      "culture/themes/META_DIARY.md",
+      "places/cities/LONDON.md",
+      "culture/theater/FAUST.md"
+     ],
+     "french": "J'écris ceci, le soir, assise sur le canapé devant la grande table, devant moi est mon encrier de voyage, deux bougies, un mouchoir de poche et ma glace ronde; de temps en temps je me regarde et je viens de chanter \"Ah je ris de me voir si belle\"[^024.0102.1] mais au lieu de belle j'ai dit laide, et au lieu de \"qu'on salue au passage\" qu'on ne regarde plus au passage. C'est vrai, hélas ! Aujourd'hui encore on m'a regardée parce que de corps je suis moi-même. Je suis sortie depuis trois jours de la détestable robe de Londres, avant hier et hier j'ai porté jupe et tunique marron, jaquette noire, joli col blanc bordé de bleu et un nœud de batiste pareil. Aujourd'hui j'eus la satisfaction de rev"
+    }
+   ]
+  },
+  {
+   "wid": "W202",
+   "title": "Vivre seul ici-bas (romance)",
+   "entry": "content/_original/_glossary/culture/music/VIVRE_SEUL_ICI_BAS.md",
+   "target": "culture/music/VIVRE_SEUL_ICI_BAS.md",
+   "display": "\"Vivre_seul_ici-bas\"_(romance)",
+   "aliases": [
+    "Vivre seul ici-bas",
+    "Vivre seul ici bas",
+    "Vivre seule ici-bas",
+    "Vivre seule ici bas"
+   ],
+   "candidates": [
+    {
+     "pid": "078.0061",
+     "file": "078/1878-02-05.md",
+     "why": [
+      "alias:Vivre seul ici bas",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/MUSIC_THEME.md",
+      "people/aristocracy/MME_DE_FAYET.md"
+     ],
+     "french": "\"Vivre seul ici bas sans *amour*, sans mystère\". C'est une charmante romance de célibataire sans doute ou l'auteur raconte comment l'oiseau suit dans les bois sa compagne qui fuit, la brise doucement agite le feuillage, les flots en murmurant caressent le rivage, le jour cherche la nuit et la nuit cherche le jour, bref tout est poursuivi excepté l'auteur qui de guerre lasse prie le bon Dieu de reprendre sa vie. Mme de Fayet a une façon de murmurer le mot amour qui revient fort souvent, une façon d'appuyer sur ce pauvre mot amour, que si j'étais homme et si je me trouvais seul avec elle et si elle chantait cette romance j'entasserais devant moi tous les meubles et je doute que ce soit une bar"
+    },
+    {
+     "pid": "078.0084",
+     "file": "078/1878-02-08.md",
+     "why": [
+      "alias:Vivre seule ici-bas",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "people/aristocracy/MME_DE_FAYET.md",
+      "culture/themes/ART_PRACTICE.md",
+      "people/recurring/CASSAGNAC.md"
+     ],
+     "french": "# Vendredi 8 février 1878 J'ai fait une aquarelle, une horrible pochade[^1] représentant Mme de Fayet avec sa taille opulente, ses cheveux jaunes et sa robe bleue qui chante : Vivre seule ici-bas, etc. en tendant les bras vers un amour[^2] qui a la tête de Popaul et qui fuit à toutes jambes avec un grand air épouvanté. Dans le ciel on aperçoit deux oiseaux qui se poursuivent.  [^1]: *Pochade*: a quick rough sketch or painting, typically done in a single sitting.  [^2]: In art, *un amour* = a winged cupid figure, cherub of love. "
+    }
+   ]
+  },
+  {
+   "wid": "W165",
+   "title": "Il conte Ory",
+   "entry": "content/_original/_glossary/culture/theater/IL_CONTE_ORY.md",
+   "target": "culture/theater/IL_CONTE_ORY.md",
+   "display": "Le_comte_Ory_(Rossini)",
+   "aliases": [
+    "Il conte Ory",
+    "\"Il conte Ory\"",
+    "Le comte Ory",
+    "Le Comte Ory"
+   ],
+   "candidates": [
+    {
+     "pid": "030.0232",
+     "file": "030/1875-03-16.md",
+     "why": [
+      "alias:\"Il conte Ory\"",
+      "alias:Il conte Ory",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "places/theaters/OPERA_NICE.md"
+     ],
+     "french": "On donne pour la première fois \"Il conte Ory\". Nous avons le numéro quatre au bel étage. "
+    },
+    {
+     "pid": "030.0338",
+     "file": "030/1875-03-23.md",
+     "why": [
+      "alias:\"Il conte Ory\"",
+      "alias:Il conte Ory",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/FASHION.md",
+      "places/theaters/OPERA_NICE.md"
+     ],
+     "french": "Le soir à l'Opéra, \"Il conte Ory\", (robe bleue). Je m'ennuie beaucoup et rentre toute misérable. "
+    }
+   ]
+  },
+  {
+   "wid": "W227",
+   "title": "Le Monde où l'on s'ennuie",
+   "entry": "content/_original/_glossary/culture/theater/LE_MONDE_OU_L_ON_S_ENNUIE.md",
+   "target": "culture/theater/LE_MONDE_OU_L_ON_S_ENNUIE.md",
+   "display": "Le_Monde_où_l'on_s'ennuie_(Édouard_Pailleron)",
+   "aliases": [
+    "Le Monde où l'on s'ennuie",
+    "Monde où l'on s'ennuie",
+    "le monde où l'on s'ennuie",
+    "le Pailleron",
+    "Le Monde où l’on s’ennuie"
+   ],
+   "candidates": [
+    {
+     "pid": "091.0553",
+     "file": "091/1881-05-02.md",
+     "why": [
+      "alias:Le Monde où l'on s'ennuie",
+      "alias:Monde où l'on s'ennuie",
+      "alias:le monde où l'on s'ennuie",
+      "inventory"
+     ],
+     "existing_tags": [
+      "places/theaters/COMEDIE_FRANCAISE.md",
+      "people/mentioned/PAILLERON.md",
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/FASHION.md",
+      "culture/themes/APPEARANCE.md"
+     ],
+     "french": "Ce soir \"Le monde où l'on [Mots noircis: ou l'on monte le] \"Pailleron\"[^1] au Français. Délicieuse comédie et je fais un effet de cou. Tout en noir, robe montante ouverte seulement en carré juste assez pour voir les attaches, mon cou paraît si blanc qu'il est lorgné très fort.  [^1]: *Le Monde où l'on s'ennuie* (1881), comedy by Édouard Pailleron (1834–1899) satirising Parisian literary and political salons, first performed at the Comédie-Française in April 1881. "
+    },
+    {
+     "pid": "094.0169",
+     "file": "094/1882-01-13.md",
+     "why": [
+      "alias:Le Monde où l'on s'ennuie",
+      "alias:Monde où l'on s'ennuie",
+      "alias:le monde où l'on s'ennuie",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/LOVE.md",
+      "people/mentioned/GABRIEL_GERY.md",
+      "people/mentioned/PAILLERON.md"
+     ],
+     "french": "Mais ces choses-là ne durent pas chez moi, ce matin [Mots noircis: cela paraît] lointain et bête et même désagréable... Et hier, pendant une minute, sérieux tous les deux, il prit ma main et la baisa d'un air sincère... Et avec le jour ravissant de l'atelier: Ma main était nue, j'eus un instant de trouble juvénile qui [Mots noircis: a du donner une] teinte enfantine en cascades de mes conversations habituelles avec cet archange de vingt-sept ans comme lorsque dans \"le monde où l'on s'ennuie du \"Pailleron\" [Mots noircis: illisible] folle [Mot noirci: se voir] petite fille après les paroles de Royer, d'Arthur, je ne sais plus au juste. "
+    }
+   ]
+  },
+  {
+   "wid": "W173",
+   "title": "Le Tour du monde en quatre-vingts jours (stage adaptation)",
+   "entry": "content/_original/_glossary/culture/theater/LE_TOUR_DU_MONDE_EN_QUATRE_VINGTS_JOURS_PIECE.md",
+   "target": "culture/theater/LE_TOUR_DU_MONDE_EN_QUATRE_VINGTS_JOURS_PIECE.md",
+   "display": "Le_Tour_du_monde_en_quatre-vingts_jours_(stage_adaptation,_Verne_and_d'Ennery)",
+   "aliases": [
+    "Le tour du monde en quatre-vingts jours",
+    "Le Tour du monde en quatre-vingts jours",
+    "Le tour du monde en quatre-vingts jours (pièce)"
+   ],
+   "candidates": [
+    {
+     "pid": "028.0238",
+     "file": "028/1875-01-14.md",
+     "why": [
+      "alias:Le Tour du monde en quatre-vingts jours",
+      "alias:Le tour du monde en quatre-vingts jours",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/KATHERINE_KERNBERGER.md",
+      "culture/themes/THEATER_THEME.md",
+      "culture/themes/SHOPPING.md",
+      "places/theaters/THEATRE_DE_LA_PORTE_SAINT_MARTIN.md"
+     ],
+     "french": "Mêmes courses, et le soir nous allons voir \"Le tour du monde en quatre-vingts jours\" à grand succès de la Porte Saint-Martin. "
+    },
+    {
+     "pid": "045.0045",
+     "file": "045/1875-09-26.md",
+     "why": [
+      "inventory"
+     ],
+     "existing_tags": [],
+     "french": "— Le tour du monde, dis-je en riant. "
+    }
+   ]
+  },
+  {
+   "wid": "W220",
+   "title": "Simon Boccanegra",
+   "entry": "content/_original/_glossary/culture/theater/SIMON_BOCCANEGRA_VERDI.md",
+   "target": "culture/theater/SIMON_BOCCANEGRA_VERDI.md",
+   "display": "Simon_Boccanegra_(Verdi)",
+   "aliases": [
+    "Simon Boccanegra",
+    "Simon Boceanegra",
+    "Simon Boccanegra (Verdi)"
+   ],
+   "candidates": [
+    {
+     "pid": "102.0604",
+     "file": "102/1883-12-29.md",
+     "why": [
+      "alias:Simon Boccanegra",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/SOCIETY.md",
+      "culture/themes/THEATER_THEME.md",
+      "people/artists/CABANEL.md",
+      "people/mentioned/VERDI.md"
+     ],
+     "french": "Moi, Mlle de Pranuelos, la Darhas, de Luynes, la marquise d'Hervey de Saint-Denis et encore qui ? Cabanel. La crème de Paris et je n'étais pas en beauté ni à mon aise. A une autre fois. On a chercher un nouvel opéra de Verdi, Simon Boccanegra[^3] et qui m'a paru ennuyeux.  [^3]: *Simon Boccanegra*: opera by Giuseppe Verdi (1857), revised for La Scala in 1881; the revised version was first given in Paris on 27 November 1883 (French vocal score, Bibliothèques de Paris record). "
+    },
+    {
+     "pid": "103.0281",
+     "file": "103/1884-02-03.md",
+     "why": [
+      "alias:Simon Boceanegra",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/themes/MUSIC_THEME.md",
+      "people/mentioned/VERDI.md"
+     ],
+     "french": "Le Simon Boceanegra, dernier opéra de Verdi (nouvelle manière) est assommant et stupide. Il a chipé à l'allemand tous ses défauts... "
+    }
+   ]
+  },
+  {
+   "wid": "W147",
+   "title": "L'Italiana in Algeri",
+   "entry": "content/_original/_glossary/culture/music/L_ITALIANA_IN_ALGERIA.md",
+   "target": "culture/music/L_ITALIANA_IN_ALGERIA.md",
+   "display": "L_Italiana_in_Algeria",
+   "aliases": [
+    "L Italiana in Algeria",
+    "l'Italiana In Algeria",
+    "L'Italiana in Algeria",
+    "L'Italiana in Algeri",
+    "L'italiana in Algeri",
+    "L'Italiano in Algeri",
+    "Italiana in Algeri"
+   ],
+   "candidates": [
+    {
+     "pid": "029.0100",
+     "file": "029/1875-01-28.md",
+     "why": [
+      "alias:Italiana in Algeri",
+      "alias:L'Italiana in Algeri",
+      "alias:L'Italiano in Algeri",
+      "alias:L'italiana in Algeri",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/LAMBERTYE.md",
+      "people/mentioned/GALVE.md",
+      "culture/languages/ITALIAN.md"
+     ],
+     "french": "— De Lambertye tu veux dire en voilà encore un muso[^029.0100.1] que ce Lambertye (muso est un mot que nous disons à tout propos aujourd'hui, il vient de \"L'Italiano in Algeri\"[^029.0100.2], le comique le dit très drôlement et qu'on nomme ainsi la Chestaskoff, l'Italien et tout ce qui est muso ou ne l'est pas) à peine j'avais achevé que je vis Galve qui marchait devant nous et que j'avais ouï et non remarqué sourire et légèrement tourner la tête, en sorte que je ne vis que son œil qui riait.  [^029.0100.1]: *Muso* (Italian): muzzle, snout; familiarly 'mug, face'. Marie says the group took the word from the comic singer in Rossini's opera. [^029.0100.2]: Marie's form of the title; Rossini's c"
+    }
+   ]
+  },
+  {
+   "wid": "W221",
+   "title": "La Muette de Portici",
+   "entry": "content/_original/_glossary/culture/theater/LA_MUETTE_DE_PORTICI_AUBER.md",
+   "target": "culture/theater/LA_MUETTE_DE_PORTICI_AUBER.md",
+   "display": "La_Muette_de_Portici_(Auber)",
+   "aliases": [
+    "La Muette de Portici",
+    "la Muette de Portici",
+    "la Muette",
+    "les décors de la Muette",
+    "Masaniello (Auber)"
+   ],
+   "candidates": [
+    {
+     "pid": "087.0684",
+     "file": "087/1880-03-22.md",
+     "why": [
+      "alias:la Muette",
+      "alias:les décors de la Muette",
+      "inventory"
+     ],
+     "existing_tags": [
+      "culture/literature/CENSORED_1887.md",
+      "culture/themes/EMOTIONS.md",
+      "places/cities/NAPLES.md"
+     ],
+     "french": "Même Naples... Ô Naples le soir... et ce qui est curieux c'est qu'il n'y a pas d'homme dans l'affaire. Quand je pense que je pourrais aller là je deviens folle. C'est tellement vrai que les décors de la Muette me causent une sorte d'émotion. "
+    }
+   ]
+  },
+  {
+   "wid": "W259",
+   "title": "Othello (Ernesto Rossi's performance)",
+   "entry": "content/_original/_glossary/culture/theater/OTHELLO_SHAKESPEARE.md",
+   "target": "culture/theater/OTHELLO_SHAKESPEARE.md",
+   "display": "Othello_(Shakespeare)",
+   "aliases": [
+    "Othello",
+    "Othello de Shakespeare"
+   ],
+   "candidates": [
+    {
+     "pid": "066.0498",
+     "file": "066/1876-09-27.md",
+     "why": [
+      "alias:Othello",
+      "inventory"
+     ],
+     "existing_tags": [
+      "people/mentioned/MME_GORPINTCHENKO.md"
+     ],
+     "french": "Une aimable bossue, un peu affectée je crois. A été dans le temps maîtresse du célèbre acteur nègre Alridge[^066.0498.1].  [^066.0498.1]: Ira Aldridge (1807–1867), the African-American tragedian celebrated in Europe as Othello. He toured the Russian Empire repeatedly from 1858 and died on tour in Łódź in 1867 (Wikipedia, \"Ira Aldridge\"). Marie spells his name «Alridge». "
+    }
+   ]
+  }
+ ],
+ "flags": [
+  {
+   "pid": "005.0023",
+   "issue": "tagged THE_LAMPLIGHTER; the book is Mabel Vaughan «by the author of The Lamplighter» — decide: keep Lamplighter? add MABEL_VAUGHAN"
+  },
+  {
+   "pid": "006.0245",
+   "issue": "same as 005.0023 (reading list names several books: Last Days of Pompeii, Mrs Halliburton's Troubles, Mabel Vaughan, Goldsmith) — which work tags belong here"
+  },
+  {
+   "pid": "043.0191",
+   "issue": "tagged VENUS_DE_MILO; the statue seen is the Venus de' Medici (new entry culture/art/VENUS_DE_MEDICIS.md) while Marie also names the Milo — add MEDICIS, keep or drop MILO?"
+  },
+  {
+   "pid": "086.0629",
+   "issue": "tagged HAMLET_THOMAS (opera) but Marie reads/sees Shakespeare's play — retag to the new play entry (find it: grep -l 'id: HAMLET' content/_original/_glossary/culture/theater/)"
+  },
+  {
+   "pid": "098.0386",
+   "issue": "same as 086.0629 (Hamlet read in English = the play)"
+  },
+  {
+   "pid": "030.0341",
+   "issue": "tagged STABAT_MATER_PERGOLESI; no composer named — keep, or move to STABAT_MATER_ROSSINI, or untag + RSR note «composer not named»?"
+  },
+  {
+   "pid": "049.0187",
+   "issue": "Stabat Mater, composer not named, Rossini probable — tag STABAT_MATER_ROSSINI?"
+  },
+  {
+   "pid": "031.0131",
+   "issue": "tagged GRAND_PAPA though the text says «papa» — verify, remove if wrong"
+  },
+  {
+   "pid": "103.0046",
+   "issue": "carries a tag culture/literature/COROT (wrong category/entry?) and the LAN note says the «Aurore» is Cabanel's; it is Bouguereau's — check the tags; propose an RSR note"
+  },
+  {
+   "pid": "103.0178",
+   "issue": "«Aurore» = Bouguereau, LAN says Cabanel — RSR note"
+  },
+  {
+   "pid": "073.0154",
+   "issue": "now tagged HORACE_CORNEILLE (merged from HORACES stub) but «Les Horaces, le Serment de Grutli» most likely means David's painting Le Serment des Horaces — remove the Corneille tag? (no entry for the painting exists; propose an RSR note)"
+  },
+  {
+   "pid": "085.0185",
+   "issue": "tagged LES_MIRABEAU_CLARETIE (merged from LES_MIRABEAU stub): is this Claretie's play or Loménie's book (culture/literature/LES_MIRABEAU_LOMENIE.md)? retag if the book"
+  },
+  {
+   "pid": "085.0310",
+   "issue": "same question as 085.0185 (play vs Loménie's book); also 085.0311, 085.0315"
+  },
+  {
+   "pid": "063.0443",
+   "issue": "Rienzi here = Bulwer-Lytton's novel (tag RIENZI_BULWER_LYTTON correct); make sure RIENZI_WAGNER is NOT added (only 071.0083 is Wagner)"
+  },
+  {
+   "pid": "071.0083",
+   "issue": "Rienzi = Wagner's opera → RIENZI_WAGNER (confirm)"
+  },
+  {
+   "pid": "064.0141",
+   "issue": "Romeo and Juliet spoken of by Cassagnac = Shakespeare's lovers, not Marchetti's opera — skip ROMEO_E_GIULIETTA_MARCHETTI"
+  },
+  {
+   "pid": "068.1105",
+   "issue": "«ne fais pas l'Africaine» = figure of speech, not Meyerbeer — skip"
+  },
+  {
+   "pid": "068.0408",
+   "issue": "«bonnet Marie Stuart» = fashion, not Schiller's play — skip"
+  }
+ ]
+}
